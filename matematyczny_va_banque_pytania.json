@@ -1,0 +1,1222 @@
+[
+   {
+      "name": "Liczby Naturalne",
+      "questions": [
+         {
+            "text": "Która z poniższych liczb jest największa?",
+            "value": 100,
+            "options": ["$2458$", "$2540$", "$2485$", "$2584$"],
+            "correctOptionIndex": 3,
+            "explanation": "Porównując liczby cyfra po cyfrze od lewej strony, największa jest $2584$."
+         },
+         {
+            "text": "Zaokrąglij liczbę $3749$ do setek.",
+            "value": 200,
+            "options": ["$3700$", "$3800$", "$3750$", "$3740$"],
+            "correctOptionIndex": 1,
+            "explanation": "Przy zaokrąglaniu do setek patrzymy na cyfrę dziesiątek. Ponieważ jest to $4 < 5$, zaokrąglamy w dół do $3800$."
+         },
+         {
+            "text": "Które z poniższych liczb są podzielne przez 5?",
+            "value": 300,
+            "options": ["$235$ i $427$", "$125$ i $580$", "$371$ i $142$", "$212$ i $505$"],
+            "correctOptionIndex": 1,
+            "explanation": "Liczba jest podzielna przez $5$, gdy jej ostatnia cyfra to $0$ lub $5$. Wśród podanych liczb warunek ten spełniają $125$ (kończy się na $5$) i $580$ (kończy się na $0$)."
+         },
+         {
+            "text": "Wskaż liczbę podzielną zarówno przez $2$ jak i przez $3$.",
+            "value": 400,
+            "options": ["$41$", "$27$", "$16$", "$42$"],
+            "correctOptionIndex": 3,
+            "explanation": "Liczba podzielna przez $2$ ma ostatnią cyfrę parzystą. Liczba podzielna przez $3$ ma sumę cyfr podzielną przez $3$. Dla $42$: ostatnia cyfra to $2$ (parzysta), suma cyfr to $4+2=6$ (podzielna przez $3$)."
+         },
+         {
+            "text": "Ile wynosi suma cyfr liczby $2025$?",
+            "value": 500,
+            "options": ["$7$", "$8$", "$9$", "$10$"],
+            "correctOptionIndex": 2,
+            "explanation": "Suma cyfr liczby $2025$ to $2+0+2+5=9$."
+         }
+      ]
+   },
+   {
+      "name": "Działania Na Liczbach",
+      "questions": [
+         {
+            "text": "Oblicz wartość wyrażenia: $2^5 - 3^3 + 2 \\cdot (15 / 3)$",
+            "value": 100,
+            "options": ["$22$", "$18$", "$10$", "$32$"],
+            "correctOptionIndex": 3,
+            "explanation": "$2^5 - 3^3 + 2 \\cdot (15 / 3) = 32 - 27 + 2 \\cdot 5 = 32 - 27 + 10 = 5 + 10 = 15$"
+         },
+         {
+            "text": "Wynik działania $(\\frac{1}{2} - \\frac{1}{4}) \\cdot 12$ wynosi:",
+            "value": 200,
+            "options": ["$3$", "$4$", "$5$", "$6$"],
+            "correctOptionIndex": 0,
+            "explanation": "$(\\frac{1}{2} - \\frac{1}{4}) \\cdot 12 = \\frac{1}{4} \\cdot 12 = 3$"
+         },
+         {
+            "text": "Rozwiąż działanie: $\\sqrt{16} + \\sqrt{49} - \\sqrt{9}$",
+            "value": 300,
+            "options": ["$10$", "$9$", "$11$", "$8$"],
+            "correctOptionIndex": 3,
+            "explanation": "$\\sqrt{16} + \\sqrt{49} - \\sqrt{9} = 4 + 7 - 3 = 11 - 3 = 8$"
+         },
+         {
+            "text": "Ile wynosi pierwiastek z liczby $0.25$?",
+            "value": 400,
+            "options": ["$0.5$", "$0.05$", "$0.125$", "$5$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt{0.25} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2} = 0.5$"
+         },
+         {
+            "text": "Oblicz: $2^3 + 3^2 - 4^1$",
+            "value": 500,
+            "options": ["$13$", "$15$", "$17$", "$19$"],
+            "correctOptionIndex": 0,
+            "explanation": "$2^3 + 3^2 - 4^1 = 8 + 9 - 4 = 17 - 4 = 13$"
+         },
+         {
+            "text": "Jaka jest wartość wyrażenia $4^2 \\cdot 2^3 \\div 2^5$?",
+            "value": 100,
+            "options": ["$2$", "$4$", "$8$", "$16$"],
+            "correctOptionIndex": 1,
+            "explanation": "$4^2 \\cdot 2^3 \\div 2^5 = 16 \\cdot 8 \\div 32 = 128 \\div 32 = 4$"
+         },
+         {
+            "text": "Ile wynosi $\\sqrt{121} - \\sqrt{36} + \\sqrt{4}$?",
+            "value": 200,
+            "options": ["$7$", "$9$", "$11$", "$13$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt{121} - \\sqrt{36} + \\sqrt{4} = 11 - 6 + 2 = 7$"
+         },
+         {
+            "text": "Wynik działania $\\frac{2}{3} \\cdot \\frac{3}{4} \\cdot \\frac{4}{5}$ to:",
+            "value": 300,
+            "options": ["$\\frac{1}{2}$", "$\\frac{2}{5}$", "$\\frac{3}{5}$", "$\\frac{4}{5}$"],
+            "correctOptionIndex": 1,
+            "explanation": "$\\frac{2}{3} \\cdot \\frac{3}{4} \\cdot \\frac{4}{5} = \\frac{2 \\cdot 3 \\cdot 4}{3 \\cdot 4 \\cdot 5} = \\frac{24}{60} = \\frac{2}{5}$"
+         },
+         {
+            "text": "Ile wynosi wartość wyrażenia $(0.2)^2 \\cdot 25$?",
+            "value": 400,
+            "options": ["$1$", "$0.5$", "$2$", "$5$"],
+            "correctOptionIndex": 0,
+            "explanation": "$(0.2)^2 \\cdot 25 = 0.04 \\cdot 25 = 1$"
+         },
+         {
+            "text": "Wynik działania $3^4 \\div 3^2$ to:",
+            "value": 500,
+            "options": ["$3^2$", "$3^6$", "$9$", "$27$"],
+            "correctOptionIndex": 0,
+            "explanation": "$3^4 \\div 3^2 = 3^{4-2} = 3^2 = 9$"
+         }
+      ]
+   },
+   {
+      "name": "Potęgi I Pierwiastki",
+      "questions": [
+         {
+            "text": "Ile wynosi wartość wyrażenia $2^{-3}$?",
+            "value": 100,
+            "options": ["$-8$", "$-\\frac{1}{8}$", "$\\frac{1}{8}$", "$8$"],
+            "correctOptionIndex": 2,
+            "explanation": "$2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$"
+         },
+         {
+            "text": "Oblicz wartość wyrażenia $(\\frac{1}{3})^2 \\cdot 9$",
+            "value": 200,
+            "options": ["$1$", "$3$", "$\\frac{1}{3}$", "$\\frac{1}{9}$"],
+            "correctOptionIndex": 0,
+            "explanation": "$(\\frac{1}{3})^2 \\cdot 9 = \\frac{1}{9} \\cdot 9 = 1$"
+         },
+         {
+            "text": "Które z poniższych wyrażeń jest równe $\\sqrt{72}$?",
+            "value": 300,
+            "options": ["$6\\sqrt{2}$", "$12\\sqrt{2}$", "$2\\sqrt{18}$", "$6 + \\sqrt{36}$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt{72} = \\sqrt{36 \\cdot 2} = \\sqrt{36} \\cdot \\sqrt{2} = 6\\sqrt{2}$"
+         },
+         {
+            "text": "Zapisz $\\sqrt[3]{27} \\cdot \\sqrt[3]{8}$ w najprostszej postaci.",
+            "value": 400,
+            "options": ["$6$", "$12$", "$18$", "$36$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt[3]{27} \\cdot \\sqrt[3]{8} = 3 \\cdot 2 = 6$"
+         },
+         {
+            "text": "Uprość wyrażenie $\\frac{\\sqrt{50}}{\\sqrt{2}}$",
+            "value": 500,
+            "options": ["$5\\sqrt{2}$", "$5$", "$5\\sqrt{5}$", "$25$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\frac{\\sqrt{50}}{\\sqrt{2}} = \\frac{\\sqrt{25 \\cdot 2}}{\\sqrt{2}} = \\frac{5\\sqrt{2}}{\\sqrt{2}} = 5$"
+         },
+         {
+            "text": "Ile wynosi $2^4$?",
+            "value": 100,
+            "options": ["$6$", "$8$", "$16$", "$32$"],
+            "correctOptionIndex": 2,
+            "explanation": "$2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$"
+         },
+         {
+            "text": "Ile wynosi $\\sqrt{81}$?",
+            "value": 200,
+            "options": ["$9$", "$8$", "$7$", "$6$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt{81} = 9$, ponieważ $9^2 = 81$"
+         },
+         {
+            "text": "Która z poniższych liczb jest równa $3^3$?",
+            "value": 300,
+            "options": ["$9$", "$18$", "$27$", "$36$"],
+            "correctOptionIndex": 2,
+            "explanation": "$3^3 = 3 \\cdot 3 \\cdot 3 = 27$"
+         },
+         {
+            "text": "Ile wynosi $\\sqrt{25} + \\sqrt{4}$?",
+            "value": 400,
+            "options": ["$7$", "$9$", "$11$", "$13$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\sqrt{25} + \\sqrt{4} = 5 + 2 = 7$"
+         },
+         {
+            "text": "Ile wynosi $5^2 - 2^3$?",
+            "value": 500,
+            "options": ["$17$", "$23$", "$25$", "$125$"],
+            "correctOptionIndex": 0,
+            "explanation": "$5^2 - 2^3 = 25 - 8 = 17$"
+         }
+      ]
+   },
+   {
+      "name": "Zadania Tekstowe",
+      "questions": [
+         {
+            "text": "Ania ma o $5$ lat więcej niż Bartek. Za $3$ lata Ania będzie miała $15$ lat. Ile lat ma teraz Bartek?",
+            "value": 100,
+            "options": ["$5$ lat", "$7$ lat", "$10$ lat", "$12$ lat"],
+            "correctOptionIndex": 1,
+            "explanation": "Za $3$ lata Ania będzie miała $15$ lat, więc teraz ma $15 - 3 = 12$ lat. Bartek jest młodszy o $5$ lat, czyli ma $12 - 5 = 7$ lat."
+         },
+         {
+            "text": "Za $4$ zeszyty i $3$ długopisy Kasia zapłaciła $23$ zł. Zeszyt kosztuje $4$ zł. Ile kosztuje długopis?",
+            "value": 200,
+            "options": ["$2$ zł", "$3$ zł", "$5$ zł", "$7$ zł"],
+            "correctOptionIndex": 0,
+            "explanation": "Za zeszyty Kasia zapłaciła $4 \\cdot 4 = 16$ zł. Za długopisy zapłaciła $23 - 16 = 7$ zł, czyli jeden długopis kosztuje $7 \\div 3 = 2$ zł."
+         },
+         {
+            "text": "Jeden kilogram jabłek kosztuje $3$ zł. Ile zapłacimy za $2,5$ kg jabłek?",
+            "value": 300,
+            "options": ["$4,5$ zł", "$6$ zł", "$7,5$ zł", "$9$ zł"],
+            "correctOptionIndex": 2,
+            "explanation": "Za $2,5$ kg jabłek zapłacimy $2,5 \\cdot 3 = 7,5$ zł."
+         },
+         {
+            "text": "Tomek przeczytał książkę w ciągu $4$ dni. Pierwszego dnia przeczytał $\\frac{1}{4}$ książki, drugiego $\\frac{1}{3}$ pozostałej części, a trzeciego $40$ stron. Czwartego dnia przeczytał resztę, czyli $80$ stron. Ile stron ma cała książka?",
+            "value": 400,
+            "options": ["$160$ stron", "$180$ stron", "$200$ stron", "$240$ stron"],
+            "correctOptionIndex": 2,
+            "explanation": "Oznaczmy liczbę stron przez $x$. Pierwszego dnia Tomek przeczytał $\\frac{1}{4}x$ stron, zostało $x - \\frac{1}{4}x = \\frac{3}{4}x$. Drugiego dnia przeczytał $\\frac{1}{3} \\cdot \\frac{3}{4}x = \\frac{1}{4}x$ stron, zostało $\\frac{3}{4}x - \\frac{1}{4}x = \\frac{1}{2}x$. Trzeciego dnia przeczytał $40$ stron, zostało $\\frac{1}{2}x - 40$ stron. Czwartego dnia przeczytał $80$ stron, czyli $\\frac{1}{2}x - 40 = 80$, stąd $\\frac{1}{2}x = 120$, więc $x = 240$."
+         },
+         {
+            "text": "W klasie jest $30$ uczniów. Chłopcy stanowią $40\\%$ wszystkich uczniów. Ilu chłopców jest w klasie?",
+            "value": 500,
+            "options": ["$8$", "$10$", "$12$", "$18$"],
+            "correctOptionIndex": 2,
+            "explanation": "Liczba chłopców to $40\\%$ z $30 = 0,4 \\cdot 30 = 12$."
+         }
+      ]
+   },
+   {
+      "name": "Ułamki",
+      "questions": [
+         {
+            "text": "Który z poniższych ułamków jest największy?",
+            "value": 100,
+            "options": ["$\\frac{3}{8}$", "$\\frac{5}{12}$", "$\\frac{1}{3}$", "$\\frac{1}{2}$"],
+            "correctOptionIndex": 3,
+            "explanation": "Sprowadzając do wspólnego mianownika: $\\frac{3}{8} = \\frac{18}{48}$, $\\frac{5}{12} = \\frac{20}{48}$, $\\frac{1}{3} = \\frac{16}{48}$, $\\frac{1}{2} = \\frac{24}{48}$. Największy jest ułamek $\\frac{1}{2}$."
+         },
+         {
+            "text": "Jaki ułamek dziesiętny odpowiada ułamkowi $\\frac{3}{4}$?",
+            "value": 200,
+            "options": ["$0,25$", "$0,5$", "$0,75$", "$0,8$"],
+            "correctOptionIndex": 2,
+            "explanation": "$\\frac{3}{4} = 0,75$, ponieważ $3 \\div 4 = 0,75$"
+         },
+         {
+            "text": "Który z poniższych ułamków jest w postaci nieskracalnej?",
+            "value": 300,
+            "options": ["$\\frac{4}{16}$", "$\\frac{3}{8}$", "$\\frac{10}{25}$", "$\\frac{6}{9}$"],
+            "correctOptionIndex": 1,
+            "explanation": "Ułamek $\\frac{3}{8}$ jest nieskracalny, ponieważ licznik i mianownik nie mają wspólnego dzielnika oprócz 1."
+         },
+         {
+            "text": "Wykonaj dodawanie: $\\frac{1}{6} + \\frac{2}{9}$.",
+            "value": 400,
+            "options": ["$\\frac{3}{15}$", "$\\frac{3}{18}$", "$\\frac{11}{18}$", "$\\frac{5}{18$"],
+            "correctOptionIndex": 3,
+            "explanation": "Sprowadzamy do wspólnego mianownika: $\\frac{1}{6} = \\frac{3}{18}$, $\\frac{2}{9} = \\frac{4}{18}$. Stąd $\\frac{1}{6} + \\frac{2}{9} = \\frac{3}{18} + \\frac{4}{18} = \\frac{7}{18}$."
+         },
+         {
+            "text": "Zamień ułamek $2\\frac{3}{5}$ na ułamek niewłaściwy.",
+            "value": 500,
+            "options": ["$\\frac{5}{13}$", "$\\frac{13}{5}$", "$\\frac{23}{5}$", "$\\frac{8}{5}$"],
+            "correctOptionIndex": 1,
+            "explanation": "$2\\frac{3}{5} = 2 + \\frac{3}{5} = \\frac{10}{5} + \\frac{3}{5} = \\frac{13}{5}$"
+         }
+      ]
+   },
+   {
+      "name": "Równania I Nierówności",
+      "questions": [
+         {
+            "text": "Rozwiąż równanie: $3x - 5 = 16$",
+            "value": 100,
+            "options": ["$5$", "$6$", "$7$", "$8$"],
+            "correctOptionIndex": 2,
+            "explanation": "$3x - 5 = 16 \\Rightarrow 3x = 21 \\Rightarrow x = 7$"
+         },
+         {
+            "text": "Które z poniższych jest iloczynem sumy i różnicy $(a + b)(a - b)$?",
+            "value": 200,
+            "options": ["$a^2 - 2ab + b^2$", "$a^2 + b^2$", "$a^2 - b^2$", "$a^2 + 2ab + b^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "$(a + b)(a - b) = a^2 - b^2$"
+         },
+         {
+            "text": "Rozwiąż nierówność: $2x + 3 > 7$",
+            "value": 300,
+            "options": ["$x > 2$", "$x > 3$", "$x > 5$", "$x > 4$"],
+            "correctOptionIndex": 0,
+            "explanation": "$2x + 3 > 7 \\Rightarrow 2x > 4 \\Rightarrow x > 2$"
+         },
+         {
+            "text": "Uprość wyrażenie: $\\frac{3x^2 - 6xy + 3y^2}{3}$",
+            "value": 400,
+            "options": ["$x - 2y + y^2$", "$x^2 - 2xy + y^2$", "$x^2 - xy + y^2$", "$3x - 6y + 3y^2$"],
+            "correctOptionIndex": 1,
+            "explanation": "$\\frac{3x^2 - 6xy + 3y^2}{3} = x^2 - 2xy + y^2$"
+         },
+         {
+            "text": "Rozwiąż równanie: $2(x + 3) - 5 = 3(x - 1) + 2$",
+            "value": 500,
+            "options": ["$x = 1$", "$x = 2$", "$x = 3$", "$x = 4$"],
+            "correctOptionIndex": 1,
+            "explanation": "$2(x + 3) - 5 = 3(x - 1) + 2 \\Rightarrow 2x + 6 - 5 = 3x - 3 + 2 \\Rightarrow 2x + 1 = 3x - 1 \\Rightarrow 1 = x$"
+         },
+         {
+            "text": "Rozwiąż równanie: $4(x - 2) = 2(x + 6)$",
+            "value": 100,
+            "options": ["$x = 4$", "$x = 8$", "$x = 10$", "$x = 12$"],
+            "correctOptionIndex": 1,
+            "explanation": "$4(x - 2) = 2(x + 6) \\Rightarrow 4x - 8 = 2x + 12 \\Rightarrow 4x - 2x = 12 + 8 \\Rightarrow 2x = 20 \\Rightarrow x = 10$"
+         },
+         {
+            "text": "Rozwiąż nierówność: $3x - 4 < 5x + 2$",
+            "value": 200,
+            "options": ["$x > -3$", "$x > 3$", "$x < -3$", "$x < 3$"],
+            "correctOptionIndex": 0,
+            "explanation": "$3x - 4 < 5x + 2 \\Rightarrow 3x - 5x < 2 + 4 \\Rightarrow -2x < 6 \\Rightarrow x > -3$"
+         },
+         {
+            "text": "Jakie jest rozwiązanie układu równań: $\\begin{cases} x + y = 5 \\\\ 2x - y = 4 \\end{cases}$",
+            "value": 300,
+            "options": ["$x = 3, y = 2$", "$x = 4, y = 1$", "$x = 2, y = 3$", "$x = 1, y = 4$"],
+            "correctOptionIndex": 0,
+            "explanation": "Z drugiego równania: $y = 2x - 4$. Podstawiając do pierwszego: $x + (2x - 4) = 5 \\Rightarrow 3x - 4 = 5 \\Rightarrow 3x = 9 \\Rightarrow x = 3$. Stąd $y = 2 \\cdot 3 - 4 = 2$. Rozwiązaniem jest para $(3, 2)$."
+         },
+         {
+            "text": "Którego z poniższych wyrażeń NIE można przedstawić w postaci kwadratu sumy?",
+            "value": 400,
+            "options": ["$x^2 + 2xy + y^2$", "$a^2 - 2ab + b^2$", "$p^2 + 6p + 9$", "$m^2 + 10m + 25$"],
+            "correctOptionIndex": 1,
+            "explanation": "$x^2 + 2xy + y^2 = (x + y)^2$, $p^2 + 6p + 9 = (p + 3)^2$, $m^2 + 10m + 25 = (m + 5)^2$, ale $a^2 - 2ab + b^2 = (a - b)^2$ jest kwadratem różnicy, nie sumy."
+         },
+         {
+            "text": "Rozwiąż równanie: $\\frac{x}{3} + \\frac{x}{4} = 7$",
+            "value": 500,
+            "options": ["$x = 12$", "$x = 14$", "$x = 20$", "$x = 24$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\frac{x}{3} + \\frac{x}{4} = 7 \\Rightarrow \\frac{4x + 3x}{12} = 7 \\Rightarrow \\frac{7x}{12} = 7 \\Rightarrow 7x = 84 \\Rightarrow x = 12$"
+         }
+      ]
+   },
+   {
+      "name": "Równania Z Jedną Niewiadomą",
+      "questions": [
+         {
+            "text": "Rozwiąż równanie: $3(x + 2) = 21$",
+            "value": 100,
+            "options": ["$x = 5$", "$x = 6$", "$x = 7$", "$x = 9$"],
+            "correctOptionIndex": 0,
+            "explanation": "$3(x + 2) = 21 \\Rightarrow x + 2 = 7 \\Rightarrow x = 5$"
+         },
+         {
+            "text": "Rozwiąż równanie: $\\frac{x}{3} - \\frac{x}{4} = 1$",
+            "value": 200,
+            "options": ["$x = 12$", "$x = 7$", "$x = 9$", "$x = 4$"],
+            "correctOptionIndex": 0,
+            "explanation": "$\\frac{x}{3} - \\frac{x}{4} = 1 \\Rightarrow \\frac{4x - 3x}{12} = 1 \\Rightarrow \\frac{x}{12} = 1 \\Rightarrow x = 12$"
+         },
+         {
+            "text": "Rozwiąż równanie: $5x - 7 = 3x + 9$",
+            "value": 300,
+            "options": ["$x = 8$", "$x = 10$", "$x = 6$", "$x = 7$"],
+            "correctOptionIndex": 0,
+            "explanation": "$5x - 7 = 3x + 9 \\Rightarrow 5x - 3x = 9 + 7 \\Rightarrow 2x = 16 \\Rightarrow x = 8$"
+         },
+         {
+            "text": "Rozwiąż równanie: $\\frac{2x+1}{3} - \\frac{x-2}{6} = 2$",
+            "value": 400,
+            "options": ["$x = 4$", "$x = 5$", "$x = 6$", "$x = 7$"],
+            "correctOptionIndex": 2,
+            "explanation": "$\\frac{2x+1}{3} - \\frac{x-2}{6} = 2 \\Rightarrow \\frac{2(2x+1)-(x-2)}{6} = 2 \\Rightarrow \\frac{4x+2-x+2}{6} = 2 \\Rightarrow \\frac{3x+4}{6} = 2 \\Rightarrow 3x+4 = 12 \\Rightarrow 3x = 8 \\Rightarrow x = \\frac{8}{3}$"
+         },
+         {
+            "text": "Rozwiąż równanie: $\\frac{x+3}{2} = \\frac{2x-1}{5}$",
+            "value": 500,
+            "options": ["$x = 7$", "$x = 8$", "$x = 9$", "$x = 10$"],
+            "correctOptionIndex": 1,
+            "explanation": "$\\frac{x+3}{2} = \\frac{2x-1}{5} \\Rightarrow 5(x+3) = 2(2x-1) \\Rightarrow 5x+15 = 4x-2 \\Rightarrow 5x-4x = -2-15 \\Rightarrow x = -17 \\Rightarrow x = 17$"
+         },
+         {
+            "text": "Rozwiąż równanie: $x + 7 = 12$",
+            "value": 100,
+            "options": ["$x = 5$", "$x = 6$", "$x = 7$", "$x = 19$"],
+            "correctOptionIndex": 0,
+            "explanation": "$x + 7 = 12 \\Rightarrow x = 12 - 7 = 5$"
+         },
+         {
+            "text": "Rozwiąż równanie: $2x = 16$",
+            "value": 200,
+            "options": ["$x = 6$", "$x = 7$", "$x = 8$", "$x = 14$"],
+            "correctOptionIndex": 2,
+            "explanation": "$2x = 16 \\Rightarrow x = 16 \\div 2 = 8$"
+         },
+         {
+            "text": "Rozwiąż równanie: $x - 3 = 5$",
+            "value": 300,
+            "options": ["$x = 2$", "$x = 8$", "$x = -2$", "$x = -8$"],
+            "correctOptionIndex": 1,
+            "explanation": "$x - 3 = 5 \\Rightarrow x = 5 + 3 = 8$"
+         },
+         {
+            "text": "Rozwiąż równanie: $\\frac{x}{4} = 3$",
+            "value": 400,
+            "options": ["$x = 7$", "$x = 12$", "$x = 1$", "$x = 4$"],
+            "correctOptionIndex": 1,
+            "explanation": "$\\frac{x}{4} = 3 \\Rightarrow x = 3 \\cdot 4 = 12$"
+         },
+         {
+            "text": "Rozwiąż równanie: $3x + 2 = 2x + 6$",
+            "value": 500,
+            "options": ["$x = 4$", "$x = 3$", "$x = 2$", "$x = 1$"],
+            "correctOptionIndex": 0,
+            "explanation": "$3x + 2 = 2x + 6 \\Rightarrow 3x - 2x = 6 - 2 \\Rightarrow x = 4$"
+         }
+      ]
+   },
+   {
+      "name": "Wyrażenia Algebraiczne",
+      "questions": [
+         {
+            "text": "Ile wynosi suma jednomianów: $3x^2y + 5x^2y$?",
+            "value": 100,
+            "options": ["$8x^2y$", "$8x^4y^2$", "$15x^2y$", "$3x^2y + 5x^2y$"],
+            "correctOptionIndex": 0,
+            "explanation": "$3x^2y + 5x^2y = (3 + 5)x^2y = 8x^2y$"
+         },
+         {
+            "text": "Wyłącz wspólny czynnik w wyrażeniu $12a^3b^2 + 6a^2b^3$",
+            "value": 200,
+            "options": ["$6a^2b^2(2a + b)$", "$3a^2b^2(4a + 2b)$", "$6a^2b^2(2a^2 + b)$", "$3a^3b^3$"],
+            "correctOptionIndex": 0,
+            "explanation": "$12a^3b^2 + 6a^2b^3 = 6a^2b^2(2a + b)$"
+         },
+         {
+            "text": "Jakie jest pole trójkąta o podstawie $(a+b)$ i wysokości $h$?",
+            "value": 300,
+            "options": ["$\\frac{(a+b)h}{2}$", "$\\frac{abh}{2}$", "$(a+b)h$", "$abh$"],
+            "correctOptionIndex": 0,
+            "explanation": "Pole trójkąta $= \\frac{ah}{2}$, gdzie $a$ to podstawa. W tym przypadku podstawa to $(a+b)$, więc pole $= \\frac{(a+b)h}{2}$"
+         },
+         {
+            "text": "Rozwiń i uprość wyrażenie $(x + 3)(x - 2)$",
+            "value": 400,
+            "options": ["$x^2 + x - 6$", "$x^2 - 2x + 3x - 6$", "$x^2 + x - 6$", "$x^2 - 6$"],
+            "correctOptionIndex": 2,
+            "explanation": "$(x + 3)(x - 2) = x^2 - 2x + 3x - 6 = x^2 + x - 6$"
+         },
+         {
+            "text": "Wyznacz wartość wyrażenia $a^2 - b^2$ dla $a = 5$ i $b = 2$",
+            "value": 500,
+            "options": ["$21$", "$9$", "$25$", "$29$"],
+            "correctOptionIndex": 0,
+            "explanation": "$a^2 - b^2 = 5^2 - 2^2 = 25 - 4 = 21$"
+         },
+         {
+            "text": "Zapisz za pomocą wyrażenia algebraicznego: liczba o 5 większa od $a$",
+            "value": 100,
+            "options": ["$a - 5$", "$5 - a$", "$a + 5$", "$5a$"],
+            "correctOptionIndex": 2,
+            "explanation": "Liczba o 5 większa od $a$ to $a + 5$"
+         },
+         {
+            "text": "Oblicz wartość wyrażenia $3x - 2$ dla $x = 4$",
+            "value": 200,
+            "options": ["$8$", "$10$", "$12$", "$14$"],
+            "correctOptionIndex": 1,
+            "explanation": "$3x - 2 = 3 \\cdot 4 - 2 = 12 - 2 = 10$"
+         },
+         {
+            "text": "Wyłącz wspólny czynnik: $5a + 10$",
+            "value": 300,
+            "options": ["$5(a + 2)$", "$5(a + 1)$", "$a(5 + 10)$", "$5a + 2$"],
+            "correctOptionIndex": 0,
+            "explanation": "$5a + 10 = 5 \\cdot a + 5 \\cdot 2 = 5(a + 2)$"
+         },
+         {
+            "text": "Uprość wyrażenie: $2a + 3b - a + b$",
+            "value": 400,
+            "options": ["$a + 4b$", "$3a + 4b$", "$a + 2b$", "$3a + 2b$"],
+            "correctOptionIndex": 0,
+            "explanation": "$2a + 3b - a + b = (2a - a) + (3b + b) = a + 4b$"
+         },
+         {
+            "text": "Pomnóż: $(a + 2)(a - 1)$",
+            "value": 500,
+            "options": ["$a^2 + a + 2$", "$a^2 + a - 2$", "$a^2 - a - 2$", "$a^2 - a + 2$"],
+            "correctOptionIndex": 2,
+            "explanation": "$(a + 2)(a - 1) = a^2 - a + 2a - 2 = a^2 + a - 2$"
+         }
+      ]
+   },
+   {
+      "name": "Geometria",
+      "questions": [
+         {
+            "text": "Jakie jest pole kwadratu o boku $5$ cm?",
+            "value": 100,
+            "options": ["$10 \\text{ cm}^2$", "$20 \\text{ cm}^2$", "$25 \\text{ cm}^2$", "$30 \\text{ cm}^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "Pole kwadratu $= a^2 = 5^2 = 25 \\text{ cm}^2$"
+         },
+         {
+            "text": "Jakie jest pole trójkąta o podstawie $8$ cm i wysokości $6$ cm?",
+            "value": 200,
+            "options": ["$24 \\text{ cm}^2$", "$48 \\text{ cm}^2$", "$14 \\text{ cm}^2$", "$42 \\text{ cm}^2$"],
+            "correctOptionIndex": 0,
+            "explanation": "Pole trójkąta $= \\frac{a \\cdot h}{2} = \\frac{8 \\cdot 6}{2} = 24 \\text{ cm}^2$"
+         },
+         {
+            "text": "Jaka jest objętość sześcianu o krawędzi $4$ cm?",
+            "value": 300,
+            "options": ["$16 \\text{ cm}^3$", "$32 \\text{ cm}^3$", "$48 \\text{ cm}^3$", "$64 \\text{ cm}^3$"],
+            "correctOptionIndex": 3,
+            "explanation": "Objętość sześcianu $= a^3 = 4^3 = 64 \\text{ cm}^3$"
+         },
+         {
+            "text": "W trójkącie prostokątnym przyprostokątne mają długości $6$ cm i $8$ cm. Ile wynosi przeciwprostokątna?",
+            "value": 400,
+            "options": ["$10$ cm", "$12$ cm", "$14$ cm", "$15$ cm"],
+            "correctOptionIndex": 0,
+            "explanation": "$c^2 = 6^2 + 8^2 = 36 + 64 = 100 \\Rightarrow c = 10$ cm"
+         },
+         {
+            "text": "Pole koła o promieniu $7$ cm wynosi:",
+            "value": 500,
+            "options": ["$49\\pi \\text{ cm}^2$", "$14\\pi \\text{ cm}^2$", "$21\\pi \\text{ cm}^2$", "$154 \\text{ cm}^2$"],
+            "correctOptionIndex": 0,
+            "explanation": "Pole koła $= \\pi \\cdot r^2 = \\pi \\cdot 7^2 = 49\\pi \\text{ cm}^2$"
+         },
+         {
+            "text": "Jaki jest obwód prostokąta o długości $7$ cm i szerokości $3$ cm?",
+            "value": 100,
+            "options": ["$10$ cm", "$20$ cm", "$21$ cm", "$40$ cm"],
+            "correctOptionIndex": 1,
+            "explanation": "Obwód prostokąta $= 2 \\cdot (a + b) = 2 \\cdot (7 + 3) = 2 \\cdot 10 = 20$ cm"
+         },
+         {
+            "text": "Przekątna kwadratu ma długość $10$ cm. Jakie jest pole tego kwadratu?",
+            "value": 200,
+            "options": ["$25 \\text{ cm}^2$", "$50 \\text{ cm}^2$", "$100 \\text{ cm}^2$", "$200 \\text{ cm}^2$"],
+            "correctOptionIndex": 1,
+            "explanation": "Jeśli $d$ to przekątna kwadratu, a $a$ to bok, to $d = a\\sqrt{2}$. Stąd $a = \\frac{d}{\\sqrt{2}} = \\frac{10}{\\sqrt{2}} = 5\\sqrt{2}$ cm. Pole kwadratu $= a^2 = (5\\sqrt{2})^2 = 50$ cm$^2$"
+         },
+         {
+            "text": "Jaka jest objętość walca o promieniu podstawy $5$ cm i wysokości $8$ cm?",
+            "value": 300,
+            "options": ["$200\\pi \\text{ cm}^3$", "$400\\pi \\text{ cm}^3$", "$600\\pi \\text{ cm}^3$", "$800\\pi \\text{ cm}^3$"],
+            "correctOptionIndex": 0,
+            "explanation": "Objętość walca $= \\pi r^2 h = \\pi \\cdot 5^2 \\cdot 8 = \\pi \\cdot 25 \\cdot 8 = 200\\pi$ cm$^3$"
+         },
+         {
+            "text": "Trójkąt równoboczny ma bok długości $6$ cm. Ile wynosi jego wysokość?",
+            "value": 400,
+            "options": ["$3\\sqrt{3}$ cm", "$6\\sqrt{3}$ cm", "$3$ cm", "$9$ cm"],
+            "correctOptionIndex": 0,
+            "explanation": "W trójkącie równobocznym o boku $a$ wysokość wynosi $h = \\frac{a\\sqrt{3}}{2}$. Dla $a = 6$ cm mamy $h = \\frac{6\\sqrt{3}}{2} = 3\\sqrt{3}$ cm"
+         },
+         {
+            "text": "Jakie jest pole równoległoboku o podstawie $10$ cm i wysokości $4$ cm?",
+            "value": 500,
+            "options": ["$20 \\text{ cm}^2$", "$30 \\text{ cm}^2$", "$40 \\text{ cm}^2$", "$50 \\text{ cm}^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "Pole równoległoboku $= a \\cdot h = 10 \\cdot 4 = 40$ cm$^2$"
+         },
+         {
+            "text": "Jeżeli dwie proste są prostopadłe, to kąt między nimi wynosi:",
+            "value": 100,
+            "options": ["$45^{\\circ}$", "$60^{\\circ}$", "$90^{\\circ}$", "$180^{\\circ}$"],
+            "correctOptionIndex": 2,
+            "explanation": "Proste prostopadłe tworzą kąt $90^{\\circ}$"
+         },
+         {
+            "text": "Jaka jest suma miar kątów w czworokącie?",
+            "value": 200,
+            "options": ["$180^{\\circ}$", "$270^{\\circ}$", "$360^{\\circ}$", "$540^{\\circ}$"],
+            "correctOptionIndex": 2,
+            "explanation": "Suma miar kątów w czworokącie wynosi $360^{\\circ}$"
+         },
+         {
+            "text": "Obwód koła o promieniu $r$ wynosi:",
+            "value": 300,
+            "options": ["$\\pi r$", "$2\\pi r$", "$\\pi r^2$", "$2\\pi r^2$"],
+            "correctOptionIndex": 1,
+            "explanation": "Obwód koła $= 2\\pi r$"
+         },
+         {
+            "text": "W trójkącie równoramiennym podstawa ma długość $12$ cm, a ramię $10$ cm. Jakie jest pole tego trójkąta?",
+            "value": 400,
+            "options": ["$48$ cm$^2$", "$54$ cm$^2$", "$60$ cm$^2$", "$72$ cm$^2$"],
+            "correctOptionIndex": 0,
+            "explanation": "Wysokość trójkąta $h = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ cm. Pole $= \\frac{12 \\cdot 8}{2} = 48$ cm$^2$"
+         },
+         {
+            "text": "Przekątne rombu mają długości $6$ cm i $8$ cm. Jakie jest pole tego rombu?",
+            "value": 500,
+            "options": ["$24$ cm$^2$", "$30$ cm$^2$", "$48$ cm$^2$", "$56$ cm$^2$"],
+            "correctOptionIndex": 0,
+            "explanation": "Pole rombu $= \\frac{d_1 \\cdot d_2}{2} = \\frac{6 \\cdot 8}{2} = 24$ cm$^2$"
+         }
+      ]
+   },
+   {
+      "name": "Geometria Przestrzenna",
+      "questions": [
+         {
+            "text": "Objętość sześcianu o krawędzi $5$ cm wynosi:",
+            "value": 100,
+            "options": ["$25$ cm$^3$", "$75$ cm$^3$", "$125$ cm$^3$", "$625$ cm$^3$"],
+            "correctOptionIndex": 2,
+            "explanation": "Objętość sześcianu $= a^3 = 5^3 = 125$ cm$^3$"
+         },
+         {
+            "text": "Objętość prostopadłościanu o wymiarach $3$ cm, $4$ cm i $5$ cm wynosi:",
+            "value": 200,
+            "options": ["$12$ cm$^3$", "$30$ cm$^3$", "$60$ cm$^3$", "$120$ cm$^3$"],
+            "correctOptionIndex": 2,
+            "explanation": "Objętość prostopadłościanu $= a \\cdot b \\cdot c = 3 \\cdot 4 \\cdot 5 = 60$ cm$^3$"
+         },
+         {
+            "text": "Objętość ostrosłupa o polu podstawy $P$ i wysokości $h$ wynosi:",
+            "value": 300,
+            "options": ["$\\frac{1}{3}Ph$", "$Ph$", "$\\frac{1}{2}Ph$", "$2P h$"],
+            "correctOptionIndex": 3,
+            "explanation": "Objętość ostrosłupa $= \\frac{1}{3}P h$, gdzie $P$ to pole podstawy, a $h$ to wysokość"
+         },
+         {
+            "text": "Pole powierzchni całkowitej sześcianu o krawędzi $4$ cm wynosi:",
+            "value": 400,
+            "options": ["$16$ cm$^2$", "$96$ cm$^2$", "$64$ cm$^2$", "$160$ cm$^2$"],
+            "correctOptionIndex": 1,
+            "explanation": "Pole powierzchni całkowitej sześcianu $= 6a^2 = 6 \\cdot 4^2 = 6 \\cdot 16 = 96$ cm$^2$"
+         },
+         {
+            "text": "Kula ma promień $3$ cm. Jaką objętość ma ta kula?",
+            "value": 500,
+            "options": ["$36\\pi$ cm$^3$", "$12\\pi$ cm$^3$", "$9\\pi$ cm$^3$", "$108\\pi$ cm$^3$"],
+            "correctOptionIndex": 0,
+            "explanation": "Objętość kuli $= \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi \\cdot 3^3 = \\frac{4}{3}\\pi \\cdot 27 = 36\\pi$ cm$^3$"
+         },
+         {
+            "text": "Ile ścian ma sześcian?",
+            "value": 100,
+            "options": ["$4$", "$6$", "$8$", "$12$"],
+            "correctOptionIndex": 1,
+            "explanation": "Sześcian ma 6 ścian (każda w kształcie kwadratu)."
+         },
+         {
+            "text": "Ile krawędzi ma prostopadłościan?",
+            "value": 200,
+            "options": ["$8$", "$10$", "$12$", "$16$"],
+            "correctOptionIndex": 2,
+            "explanation": "Prostopadłościan ma 12 krawędzi."
+         },
+         {
+            "text": "Ile wierzchołków ma czworościan?",
+            "value": 300,
+            "options": ["$3$", "$4$", "$6$", "$8$"],
+            "correctOptionIndex": 1,
+            "explanation": "Czworościan ma 4 wierzchołki."
+         },
+         {
+            "text": "Jaka bryła powstanie, gdy obrócimy trójkąt prostokątny wokół jednej z przyprostokątnych?",
+            "value": 400,
+            "options": ["Kula", "Sześcian", "Stożek", "Walec"],
+            "correctOptionIndex": 2,
+            "explanation": "Gdy obracamy trójkąt prostokątny wokół jednej z przyprostokątnych, powstaje stożek."
+         },
+         {
+            "text": "Jaka jest objętość sześcianu o krawędzi $3$ cm?",
+            "value": 500,
+            "options": ["$9$ cm$^3$", "$18$ cm$^3$", "$21$ cm$^3$", "$27$ cm$^3$"],
+            "correctOptionIndex": 3,
+            "explanation": "Objętość sześcianu $= a^3 = 3^3 = 27$ cm$^3$"
+         }
+      ]
+   },
+   {
+      "name": "Procenty I Proporcje",
+      "questions": [
+         {
+            "text": "Ile wynosi $25\\%$ z liczby $80$?",
+            "value": 100,
+            "options": ["$15$", "$20$", "$25$", "$30$"],
+            "correctOptionIndex": 1,
+            "explanation": "$25\\%$ z $80 = 0.25 \\cdot 80 = 20$"
+         },
+         {
+            "text": "Jakim procentem liczby $50$ jest liczba $12$?",
+            "value": 200,
+            "options": ["$20\\%$", "$24\\%$", "$22\\%$", "$26\\%$"],
+            "correctOptionIndex": 1,
+            "explanation": "$\\frac{12}{50} \\cdot 100\\% = 24\\%$"
+         },
+         {
+            "text": "Cena produktu wzrosła o $20\\%$ i wynosi teraz $240$ zł. Jaka była cena początkowa?",
+            "value": 300,
+            "options": ["$200$ zł", "$192$ zł", "$210$ zł", "$220$ zł"],
+            "correctOptionIndex": 0,
+            "explanation": "$240 = 120\\% \\Rightarrow 240 \\div 1.2 = 200$ zł"
+         },
+         {
+            "text": "W klasie jest $30$ uczniów, z czego $40\\%$ to chłopcy. Ile jest dziewcząt?",
+            "value": 400,
+            "options": ["$12$", "$16$", "$18$", "$20$"],
+            "correctOptionIndex": 2,
+            "explanation": "Chłopcy $= 0.4 \\cdot 30 = 12 \\Rightarrow$ dziewczęta $= 30 - 12 = 18$"
+         },
+         {
+            "text": "Produkt kosztował $500$ zł. Najpierw przeceniono o $20\\%$, potem cena wzrosła o $10\\%$. Jaka jest cena końcowa?",
+            "value": 500,
+            "options": ["$440$ zł", "$450$ zł", "$460$ zł", "$470$ zł"],
+            "correctOptionIndex": 0,
+            "explanation": "Po obniżce: $500 \\cdot 0.8 = 400$ zł; po podwyżce: $400 \\cdot 1.1 = 440$ zł"
+         },
+         {
+            "text": "Ile wynosi $35\\%$ z liczby $120$?",
+            "value": 100,
+            "options": ["$36$", "$42$", "$48$", "$52$"],
+            "correctOptionIndex": 1,
+            "explanation": "$35\\%$ z $120 = 0.35 \\cdot 120 = 42$"
+         },
+         {
+            "text": "Liczba $a$ stanowi $15\\%$ liczby $b$. Jaki procent liczby $a$ stanowi liczba $b$?",
+            "value": 200,
+            "options": ["$666,67\\%$", "$150\\%$", "$85\\%$", "$115\\%$"],
+            "correctOptionIndex": 0,
+            "explanation": "Jeśli $a = 0.15 \\cdot b$, to $b = \\frac{a}{0.15} = \\frac{100\\%}{15\\%} \\cdot a = 6.67 \\cdot a = 666.67\\%$ liczby $a$"
+         },
+         {
+            "text": "Cena produktu została obniżona o $30\\%$ i wynosi teraz $105$ zł. Jaka była początkowa cena?",
+            "value": 300,
+            "options": ["$135$ zł", "$150$ zł", "$165$ zł", "$175$ zł"],
+            "correctOptionIndex": 1,
+            "explanation": "$105$ zł to $70\\%$ ceny początkowej, więc $105 = 0.7 \\cdot x \\Rightarrow x = \\frac{105}{0.7} = 150$ zł"
+         },
+         {
+            "text": "Jacek przeczytał $60\\%$ książki, co stanowi $150$ stron. Ile stron ma cała książka?",
+            "value": 400,
+            "options": ["$200$ stron", "$220$ stron", "$240$ stron", "$250$ stron"],
+            "correctOptionIndex": 3,
+            "explanation": "$150$ stron to $60\\%$ książki, więc $150 = 0.6 \\cdot x \\Rightarrow x = \\frac{150}{0.6} = 250$ stron"
+         },
+         {
+            "text": "W sklepie wszystkie produkty potaniały o $20\\%$. O ile procent musi wzrosnąć nowa cena, aby wrócić do ceny początkowej?",
+            "value": 500,
+            "options": ["$20\\%$", "$25\\%$", "$22.5\\%$", "$30\\%$"],
+            "correctOptionIndex": 1,
+            "explanation": "Nowa cena to $80\\%$ starej ceny. Aby wrócić do ceny początkowej, nowa cena musi wzrosnąć o $x\\%$ tak, że $0.8 \\cdot (1 + \\frac{x}{100}) = 1 \\Rightarrow 1 + \\frac{x}{100} = \\frac{1}{0.8} = 1.25 \\Rightarrow \\frac{x}{100} = 0.25 \\Rightarrow x = 25$"
+         }
+      ]
+   },
+   {
+      "name": "Obliczenia Praktyczne",
+      "questions": [
+         {
+            "text": "Ile wynosi $30\\%$ z liczby $80$?",
+            "value": 100,
+            "options": ["$21$", "$24$", "$27$", "$30$"],
+            "correctOptionIndex": 1,
+            "explanation": "$30\\% \\cdot 80 = 0,3 \\cdot 80 = 24$"
+         },
+         {
+            "text": "Zamień $3,5$ km na metry.",
+            "value": 200,
+            "options": ["$35$ m", "$350$ m", "$3500$ m", "$35000$ m"],
+            "correctOptionIndex": 2,
+            "explanation": "$3,5$ km $= 3,5 \\cdot 1000$ m $= 3500$ m"
+         },
+         {
+            "text": "Zamień $250$ g na kilogramy.",
+            "value": 300,
+            "options": ["$0,025$ kg", "$0,25$ kg", "$2,5$ kg", "$25$ kg"],
+            "correctOptionIndex": 1,
+            "explanation": "$250$ g $= 250 \\div 1000$ kg $= 0,25$ kg"
+         },
+         {
+            "text": "Samochód jedzie z prędkością $60$ km/h. Jaką drogę przejedzie w ciągu $45$ minut?",
+            "value": 400,
+            "options": ["$15$ km", "$30$ km", "$45$ km", "$60$ km"],
+            "correctOptionIndex": 1,
+            "explanation": "Czas $45$ minut $= 45 \\div 60 = 0,75$ h. Droga $= v \\cdot t = 60 \\cdot 0,75 = 45$ km"
+         },
+         {
+            "text": "Na mapie w skali $1:50000$ odległość między dwoma miastami wynosi $5$ cm. Jaka jest rzeczywista odległość między tymi miastami?",
+            "value": 500,
+            "options": ["$250$ m", "$2,5$ km", "$25$ km", "$50$ km"],
+            "correctOptionIndex": 1,
+            "explanation": "Rzeczywista odległość $= 5$ cm $\\cdot 50000 = 250000$ cm $= 2,5$ km"
+         }
+      ]
+   },
+   {
+      "name": "Obliczenia Procentowe I Proporcjonalność",
+      "questions": [
+         {
+            "text": "Cena towaru wynosiła $240$ zł i obniżono ją o $15\\%$. Jaka jest nowa cena?",
+            "value": 100,
+            "options": ["$204$ zł", "$225$ zł", "$180$ zł", "$216$ zł"],
+            "correctOptionIndex": 0,
+            "explanation": "Obniżka: $240 \\cdot 0.15 = 36$ zł, nowa cena: $240 - 36 = 204$ zł"
+         },
+         {
+            "text": "W jakiej proporcji należy zmieszać 70% i 30% roztwór alkoholu, aby otrzymać 40% roztwór?",
+            "value": 200,
+            "options": ["$1:3$", "$2:3$", "$1:2$", "$3:7$"],
+            "correctOptionIndex": 2,
+            "explanation": "Niech $x$ to ilość 70% roztworu, a $y$ to ilość 30% roztworu. Wówczas $0.7x + 0.3y = 0.4(x+y)$. Po uproszczeniu: $0.3x = 0.1y$, czyli $3x = y$, co daje proporcję $x:y = 1:3$."
+         },
+         {
+            "text": "Po podwyżce o $20\\%$ produkt kosztuje $168$ zł. Jaka była cena przed podwyżką?",
+            "value": 300,
+            "options": ["$140$ zł", "$148$ zł", "$160$ zł", "$134.40$ zł"],
+            "correctOptionIndex": 0,
+            "explanation": "$168$ zł to $120\\%$ ceny początkowej $x$, więc $168 = 1.2x$, stąd $x = \\frac{168}{1.2} = 140$ zł"
+         },
+         {
+            "text": "W klasie chłopcy stanowią $40\\%$ wszystkich uczniów. Ilu chłopców jest w klasie liczącej $35$ uczniów?",
+            "value": 400,
+            "options": ["$14$", "$15$", "$16$", "$18$"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczba chłopców $= 40\\% \\cdot 35 = 0.4 \\cdot 35 = 14$"
+         },
+         {
+            "text": "Ile gramów 80% roztworu należy dodać do 100g 30% roztworu, aby otrzymać 50% roztwór?",
+            "value": 500,
+            "options": ["$40$ g", "$50$ g", "$60$ g", "$80$ g"],
+            "correctOptionIndex": 2,
+            "explanation": "Niech $x$ to masa 80% roztworu. Wówczas $0.3 \\cdot 100 + 0.8x = 0.5(100+x)$. Stąd $30 + 0.8x = 50 + 0.5x$, więc $0.3x = 20$, czyli $x = \\frac{20}{0.3} = 66.67$, czyli około $67$ g"
+         }
+      ]
+   },
+   {
+      "name": "Długość Okręgu I Pole Koła",
+      "questions": [
+         {
+            "text": "Jaka jest długość okręgu o promieniu $5$ cm?",
+            "value": 100,
+            "options": ["$5\\pi$ cm", "$10\\pi$ cm", "$25\\pi$ cm", "$50\\pi$ cm"],
+            "correctOptionIndex": 1,
+            "explanation": "Długość okręgu $= 2\\pi r = 2\\pi \\cdot 5 = 10\\pi$ cm"
+         },
+         {
+            "text": "Jakie jest pole koła o promieniu $4$ cm?",
+            "value": 200,
+            "options": ["$4\\pi$ cm$^2$", "$8\\pi$ cm$^2$", "$16\\pi$ cm$^2$", "$32\\pi$ cm$^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "Pole koła $= \\pi r^2 = \\pi \\cdot 4^2 = 16\\pi$ cm$^2$"
+         },
+         {
+            "text": "Jaka jest długość okręgu o średnicy $10$ cm?",
+            "value": 300,
+            "options": ["$5\\pi$ cm", "$10\\pi$ cm", "$20\\pi$ cm", "$100\\pi$ cm"],
+            "correctOptionIndex": 1,
+            "explanation": "Długość okręgu $= \\pi d = \\pi \\cdot 10 = 10\\pi$ cm"
+         },
+         {
+            "text": "Jakie jest pole koła o średnicy $6$ cm?",
+            "value": 400,
+            "options": ["$3\\pi$ cm$^2$", "$6\\pi$ cm$^2$", "$9\\pi$ cm$^2$", "$36\\pi$ cm$^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "Promień $r = \\frac{d}{2} = 3$ cm. Pole koła $= \\pi r^2 = \\pi \\cdot 3^2 = 9\\pi$ cm$^2$"
+         },
+         {
+            "text": "Jakie jest pole pierścienia kołowego o promieniach $5$ cm i $3$ cm?",
+            "value": 500,
+            "options": ["$2\\pi$ cm$^2$", "$8\\pi$ cm$^2$", "$16\\pi$ cm$^2$", "$25\\pi$ cm$^2$"],
+            "correctOptionIndex": 2,
+            "explanation": "Pole pierścienia $= \\pi R^2 - \\pi r^2 = \\pi(R^2 - r^2) = \\pi(5^2 - 3^2) = \\pi(25 - 9) = 16\\pi$ cm$^2$"
+         }
+      ]
+   },
+   {
+      "name": "Równania I Układ Współrzędnych",
+      "questions": [
+         {
+            "text": "Dana jest równanie $y = x + 1$. Jakie jest $y$, gdy $x = 2$?",
+            "value": 100,
+            "options": ["$2$", "$3$", "$4$", "$1$"],
+            "correctOptionIndex": 1,
+            "explanation": "$y = x + 1 \\Rightarrow y = 2 + 1 = 3$"
+         },
+         {
+            "text": "Dana jest równanie $y = 2x$. Jakie jest $y$, gdy $x = 3$?",
+            "value": 200,
+            "options": ["$4$", "$6$", "$8$", "$2$"],
+            "correctOptionIndex": 1,
+            "explanation": "$y = 2x \\Rightarrow y = 2 \\cdot 3 = 6$"
+         },
+         {
+            "text": "Dana jest równanie $y = x - 2$. Jakie jest $y$, gdy $x = 5$?",
+            "value": 300,
+            "options": ["$3$", "$2$", "$4$", "$5$"],
+            "correctOptionIndex": 0,
+            "explanation": "$y = x - 2 \\Rightarrow y = 5 - 2 = 3$"
+         },
+         {
+            "text": "Punkt ma współrzędne $(2, 4)$. Jaka jest jego współrzędna $y$?",
+            "value": 400,
+            "options": ["$2$", "$4$", "$6$", "$8$"],
+            "correctOptionIndex": 1,
+            "explanation": "Współrzędna $y$ to druga liczba w parze, czyli $4$"
+         },
+         {
+            "text": "Dana jest tabela z niewiadomymi: $x: 1, 2, 3$; $y: 3, 6, 9$. Jaka będzie wartość $y$, gdy $x = 4$?",
+            "value": 500,
+            "options": ["$9$", "$12$", "$8$", "$10$"],
+            "correctOptionIndex": 1,
+            "explanation": "Funkcja ta to $y = 3x$, więc dla $x = 4$ mamy $y = 3 \\cdot 4 = 12$"
+         }
+      ]
+   },
+   {
+      "name": "Symetrie I Przekształcenia",
+      "questions": [
+         {
+            "text": "Punkt $A$ ma współrzędne $(3, 5)$. Jakie są współrzędne punktu symetrycznego do $A$ względem osi $OY$?",
+            "value": 100,
+            "options": ["$(-3, 5)$", "$(3, -5)$", "$(5, 3)$", "$(5, -3)$"],
+            "correctOptionIndex": 0,
+            "explanation": "Przy symetrii względem osi $OY$ zmieniamy znak pierwszej współrzędnej, więc $A'(-3, 5)$"
+         },
+         {
+            "text": "Punkt $B$ ma współrzędne $(2, 4)$. Jakie są współrzędne punktu symetrycznego do $B$ względem osi $OX$?",
+            "value": 200,
+            "options": ["$(-2, 4)$", "$(2, -4)$", "$(4, 2)$", "$(4, -2)$"],
+            "correctOptionIndex": 1,
+            "explanation": "Przy symetrii względem osi $OX$ zmieniamy znak drugiej współrzędnej, więc $B'(2, -4)$"
+         },
+         {
+            "text": "Punkt $C$ ma współrzędne $(3, 2)$. Jakie są współrzędne punktu symetrycznego do $C$ względem początku układu współrzędnych?",
+            "value": 300,
+            "options": ["$(-3, -2)$", "$(3, -2)$", "$(-3, 2)$", "$(2, 3)$"],
+            "correctOptionIndex": 0,
+            "explanation": "Przy symetrii względem początku układu współrzędnych zmieniamy znaki obu współrzędnych, więc $C'(-3, -2)$"
+         },
+         {
+            "text": "Punkt $P$ ma współrzędne $(5, 1)$. Punkt $P'$ powstał przez przesunięcie punktu $P$ o wektor $[-2, 3]$. Jakie są współrzędne punktu $P'$?",
+            "value": 400,
+            "options": ["$(7, 4)$", "$(3, 4)$", "$(3, -2)$", "$(3, -1)$"],
+            "correctOptionIndex": 1,
+            "explanation": "Przesunięcie o wektor $[-2, 3]$ oznacza dodanie do współrzędnych odpowiednio $-2$ i $3$, więc $P'(5+(-2), 1+3) = P'(3, 4)$"
+         },
+         {
+            "text": "Punkt $Q(4, 6)$ został przekształcony w punkt $Q'$. Wiadomo, że przekształceniem była symetria względem prostej $y = x$. Jakie są współrzędne punktu $Q'$?",
+            "value": 500,
+            "options": ["$(6, 4)$", "$(-4, -6)$", "$(-4, 6)$", "$(4, -6)$"],
+            "correctOptionIndex": 0,
+            "explanation": "Przy symetrii względem prostej $y = x$ zamieniamy miejscami współrzędne, więc $Q'(6, 4)$"
+         }
+      ]
+   },
+   {
+      "name": "Rachunek Prawdopodobieństwa",
+      "questions": [
+         {
+            "text": "Rzucamy standardową kostką do gry. Jakie jest prawdopodobieństwo wyrzucenia liczby parzystej?",
+            "value": 100,
+            "options": ["$\\frac{1}{3}$", "$\\frac{1}{2}$", "$\\frac{1}{6}$", "$\\frac{2}{3}$"],
+            "correctOptionIndex": 1,
+            "explanation": "Liczby parzyste na kostce to $2, 4, 6$. Prawdopodobieństwo $= \\frac{3}{6} = \\frac{1}{2}$"
+         },
+         {
+            "text": "Z talii $52$ kart losujemy jedną kartę. Jakie jest prawdopodobieństwo wyciągnięcia asa?",
+            "value": 200,
+            "options": ["$\\frac{1}{13}$", "$\\frac{4}{52}$", "$\\frac{1}{4}$", "$\\frac{4}{13}$"],
+            "correctOptionIndex": 1,
+            "explanation": "W talii są $4$ asy, więc prawdopodobieństwo $= \\frac{4}{52} = \\frac{1}{13}$"
+         },
+         {
+            "text": "W urnie jest $5$ białych i $7$ czarnych kul. Wyciągamy jedną kulę. Jakie jest prawdopodobieństwo, że będzie czarna?",
+            "value": 300,
+            "options": ["$\\frac{5}{12}$", "$\\frac{7}{12}$", "$\\frac{7}{5}$", "$\\frac{1}{2}$"],
+            "correctOptionIndex": 1,
+            "explanation": "Prawdopodobieństwo $= \\frac{7}{5+7} = \\frac{7}{12}$"
+         },
+         {
+            "text": "Rzucamy dwiema kostkami. Jakie jest prawdopodobieństwo, że suma wyrzuconych oczek będzie równa $7$?",
+            "value": 400,
+            "options": ["$\\frac{7}{36}$", "$\\frac{5}{36}$", "$\\frac{1}{12}$", "$\\frac{6}{36}$"],
+            "correctOptionIndex": 4,
+            "explanation": "Suma $7$ może wypaść na $6$ sposobów: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$. Wszystkich możliwych wyników jest $6 \\times 6 = 36$. Zatem prawdopodobieństwo $= \\frac{6}{36} = \\frac{1}{6}$"
+         },
+         {
+            "text": "W klasie jest $6$ dziewczynek i $4$ chłopców. Na ile sposobów można wybrać parę złożoną z dziewczynki i chłopca?",
+            "value": 500,
+            "options": ["$10$", "$24$", "$15$", "$20$"],
+            "correctOptionIndex": 1,
+            "explanation": "Każdą dziewczynkę można sparować z każdym chłopcem. Mamy $6$ dziewczynek i $4$ chłopców, więc liczba możliwych par to $6 \\cdot 4 = 24$"
+         }
+      ]
+   },
+   {
+      "name": "Kombinatoryka I Prawdopodobieństwo",
+      "questions": [
+         {
+            "text": "Z cyfr $1, 2, 3, 4, 5$ tworzymy dwucyfrowe liczby bez powtórzeń cyfr. Ile jest takich liczb?",
+            "value": 100,
+            "options": ["$10$", "$20$", "$15$", "$25$"],
+            "correctOptionIndex": 1,
+            "explanation": "Na pierwszym miejscu mamy $5$ możliwości, na drugim $4$. Łącznie $5 \\cdot 4 = 20$ liczb"
+         },
+         {
+            "text": "W pudełku są $4$ białe i $3$ czarne kule. Losujemy jedną kulę. Jakie jest prawdopodobieństwo wylosowania białej kuli?",
+            "value": 200,
+            "options": ["$\\frac{4}{7}$", "$\\frac{3}{7}$", "$\\frac{4}{3}$", "$\\frac{1}{2}$"],
+            "correctOptionIndex": 0,
+            "explanation": "Prawdopodobieństwo wylosowania białej kuli $= \\frac{4}{4+3} = \\frac{4}{7}$"
+         },
+         {
+            "text": "Na ile sposobów można ustawić w rzędzie $3$ różne książki?",
+            "value": 300,
+            "options": ["$3$", "$6$", "$9$", "$27$"],
+            "correctOptionIndex": 1,
+            "explanation": "Liczbę permutacji obliczamy jako $3! = 3 \\cdot 2 \\cdot 1 = 6$"
+         },
+         {
+            "text": "Rzucamy dwiema kostkami. Jakie jest prawdopodobieństwo, że suma wyrzuconych oczek będzie większa niż $9$?",
+            "value": 400,
+            "options": ["$\\frac{1}{6}$", "$\\frac{1}{4}$", "$\\frac{1}{3}$", "$\\frac{1}{12}$"],
+            "correctOptionIndex": 0,
+            "explanation": "Suma większa niż $9$ występuje dla par: $(4,6), (5,5), (5,6), (6,4), (6,5), (6,6)$. Jest zatem $6$ korzystnych wyników spośród $36$ wszystkich możliwych. Prawdopodobieństwo $= \\frac{6}{36} = \\frac{1}{6}$"
+         },
+         {
+            "text": "Z grupy $8$ osób wybieramy losowo komitet składający się z $3$ osób. Ile jest możliwych różnych komitetów?",
+            "value": 500,
+            "options": ["$56$", "$336$", "$512$", "$40320$"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczbę $3$-elementowych podzbiorów $8$-elementowego zbioru obliczamy jako $C(8,3) = \\frac{8!}{3! \\cdot 5!} = \\frac{8 \\cdot 7 \\cdot 6}{3 \\cdot 2 \\cdot 1} = 56$"
+         }
+      ]
+   },
+   {
+      "name": "Statystyka I Analiza Danych",
+      "questions": [
+         {
+            "text": "Średnia arytmetyczna liczb $3, 7, 9, 11, 15$ wynosi:",
+            "value": 100,
+            "options": ["$7$", "$9$", "$10$", "$45$"],
+            "correctOptionIndex": 1,
+            "explanation": "Średnia arytmetyczna $= \\frac{3 + 7 + 9 + 11 + 15}{5} = \\frac{45}{5} = 9$"
+         },
+         {
+            "text": "Mediana zbioru liczb $2, 3, 5, 7, 8, 9$ wynosi:",
+            "value": 200,
+            "options": ["$5$", "$6$", "$7$", "$8$"],
+            "correctOptionIndex": 1,
+            "explanation": "W zbiorze o parzystej liczbie elementów mediana to średnia dwóch środkowych elementów, czyli $\\frac{5 + 7}{2} = \\frac{12}{2} = 6$"
+         },
+         {
+            "text": "W tabeli podano wyniki egzaminu $20$ uczniów: ocena $2$ - $3$ uczniów, ocena $3$ - $6$ uczniów, ocena $4$ - $8$ uczniów, ocena $5$ - $3$ uczniów. Jaka była najczęściej występująca ocena?",
+            "value": 300,
+            "options": ["$2$", "$3$", "$4$", "$5$"],
+            "correctOptionIndex": 2,
+            "explanation": "Najczęściej występowała ocena $4$ (u $8$ uczniów), więc dominanta to $4$"
+         },
+         {
+            "text": "Średnia arytmetyczna pięciu liczb wynosi $7$. Po dopisaniu szóstej liczby średnia wzrosła do $8$. Jaka jest ta szósta liczba?",
+            "value": 400,
+            "options": ["$7$", "$8$", "$13$", "$35$"],
+            "correctOptionIndex": 2,
+            "explanation": "Jeśli suma pięciu liczb to $5 \\cdot 7 = 35$, a suma sześciu liczb to $6 \\cdot 8 = 48$, to szósta liczba to $48 - 35 = 13$"
+         },
+         {
+            "text": "Średnia arytmetyczna $10$ liczb wynosi $12$. Jeśli każdą z tych liczb zwiększymy o $3$, to nowa średnia wyniesie:",
+            "value": 500,
+            "options": ["$12$", "$15$", "$120$", "$150$"],
+            "correctOptionIndex": 1,
+            "explanation": "Jeśli każdą liczbę zwiększymy o $3$, to średnia również wzrośnie o $3$, czyli będzie wynosić $12 + 3 = 15$"
+         },
+         {
+            "text": "Jaką miarę statystyczną obliczamy, dodając wszystkie wartości i dzieląc przez ich liczbę?",
+            "value": 100,
+            "options": ["Medianę", "Dominantę", "Średnią arytmetyczną", "Rozstęp"],
+            "correctOptionIndex": 2,
+            "explanation": "Średnią arytmetyczną obliczamy, dodając wszystkie wartości i dzieląc przez ich liczbę."
+         },
+         {
+            "text": "Która wartość jest medianą zbioru liczb: $3, 7, 1, 9, 5$?",
+            "value": 200,
+            "options": ["$1$", "$3$", "$5$", "$7$"],
+            "correctOptionIndex": 2,
+            "explanation": "Aby znaleźć medianę, porządkujemy zbiór: $1, 3, 5, 7, 9$. Środkowym elementem jest $5$."
+         },
+         {
+            "text": "Jaka jest najczęsciej występująca wartość w tym zbiorze liczb: $2, 3, 4, 2, 5, 2, 6$?",
+            "value": 300,
+            "options": ["$2$", "$3$", "$4$", "$6$"],
+            "correctOptionIndex": 0,
+            "explanation": "Dominanta to najczęściej występująca wartość. W tym zbiorze liczba $2$ występuje trzy razy."
+         },
+         {
+            "text": "Jaki jest rozstęp zbioru liczb: $12, 5, 8, 15, 9$?",
+            "value": 400,
+            "options": ["$7$", "$10$", "$12$", "$15$"],
+            "correctOptionIndex": 1,
+            "explanation": "Rozstęp to różnica między wartością maksymalną a minimalną. $15 - 5 = 10$."
+         },
+         {
+            "text": "Średnia arytmetyczna czterech liczb wynosi $6$. Jaka będzie średnia arytmetyczna po dodaniu liczby $12$?",
+            "value": 500,
+            "options": ["$6,5$", "$7$", "$7,2$", "$8$"],
+            "correctOptionIndex": 2,
+            "explanation": "Suma czterech liczb to $4 \\cdot 6 = 24$. Po dodaniu $12$ suma wynosi $24 + 12 = 36$. Nowa średnia to $36 \\div 5 = 7,2$."
+         }
+      ]
+   },
+   {
+      "name": "Zadania Egzaminacyjne",
+      "questions": [
+         {
+            "text": "Liczby, które mają rozwinięcie dziesiętne nieskończone okresowe to liczby:",
+            "value": 100,
+            "options": ["wymierne", "niewymierne", "całkowite", "pierwsze"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczby wymierne to takie, które można zapisać w postaci ułamka zwykłego. Liczby o rozwinięciu dziesiętnym nieskończonym okresowym to właśnie liczby wymierne."
+         },
+         {
+            "text": "Ile dzielników ma liczba złożona?",
+            "value": 200,
+            "options": ["dokładnie $2$", "więcej niż $2$", "co najwyżej $2$", "nieskończenie wiele"],
+            "correctOptionIndex": 1,
+            "explanation": "Liczba złożona to taka, która ma więcej niż $2$ dzielniki. Liczby pierwsze mają dokładnie $2$ dzielniki ($1$ i sama siebie)."
+         },
+         {
+            "text": "Graniastosłup prawidłowy to taki, który:",
+            "value": 300,
+            "options": ["jest prosty i w podstawie ma wielokąt foremny", "ma wszystkie krawędzie tej samej długości", "ma wszystkie ściany boczne trójkątne", "ma podstawy w kształcie dowolnych wielokątów"],
+            "correctOptionIndex": 0,
+            "explanation": "Graniastosłup prawidłowy to graniastosłup prosty, którego podstawą jest wielokąt foremny."
+         },
+         {
+            "text": "W których czworokątach przekątne są prostopadłe?",
+            "value": 400,
+            "options": ["kwadrat i romb", "prostokąt i trapez", "równoległobok i romb", "kwadrat i prostokąt"],
+            "correctOptionIndex": 0,
+            "explanation": "Przekątne są prostopadłe w kwadracie i rombie. W prostokącie przekątne nie są prostopadłe, a w równoległoboku ogólnie też nie."
+         },
+         {
+            "text": "Liczba przeciwna do $x$ to:",
+            "value": 500,
+            "options": ["$-x$", "$\\frac{1}{x}$", "$x^2$", "odwrotność $x$"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczba przeciwna do $x$ to $-x$. Liczba odwrotna to $\\frac{1}{x}$."
+         },
+         {
+            "text": "Ułamek dodatni jest ułamkiem niewłaściwym, gdy:",
+            "value": 100,
+            "options": ["licznik $\\geq$ mianownik", "licznik $<$ mianownik", "licznik $=$ mianownik", "mianownik $=$ $0$"],
+            "correctOptionIndex": 0,
+            "explanation": "Ułamek niewłaściwy to taki, którego licznik jest większy lub równy mianownikowi."
+         },
+         {
+            "text": "Liczby, które mają rozwinięcie dziesiętne skończone to liczby:",
+            "value": 100,
+            "options": ["wymierne", "niewymierne", "całkowite", "pierwsze"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczby o rozwinięciu dziesiętnym skończonym są zawsze liczbami wymiernymi."
+         },
+         {
+            "text": "Zależność dotycząca mnożenia potęg o tych samych podstawach:",
+            "value": 200,
+            "options": ["$a^m \\times a^n = a^{m+n}$", "$a^m + a^n = a^{m+n}$", "$(a^m)^n = a^{m \\cdot n}$", "$a^m \\times n = a^{m \\cdot n}$"],
+            "correctOptionIndex": 0,
+            "explanation": "Przy mnożeniu potęg o tych samych podstawach wykładniki dodajemy: $a^m \\times a^n = a^{m+n}$."
+         },
+         {
+            "text": "Ostrosłup prosty to taki, który:",
+            "value": 200,
+            "options": ["ma krawędzie boczne jednakowej długości", "jego wysokość pada prostopadle na środek podstawy", "wszystkie ściany boczne są trójkątami równobocznymi", "podstawa jest wielokątem foremnym"],
+            "correctOptionIndex": 1,
+            "explanation": "Ostrosłup prosty to taki, którego wysokość pada prostopadle na środek podstawy."
+         },
+         {
+            "text": "Trójkąt ostrokątny:",
+            "value": 300,
+            "options": ["ma $3$ kąty ostre", "ma jeden kąt prosty", "ma jeden kąt rozwarty", "wszystkie kąty są równe"],
+            "correctOptionIndex": 0,
+            "explanation": "Trójkąt ostrokątny to taki, w którym wszystkie trzy kąty są ostre, czyli mniejsze od $90^{\\circ}$."
+         },
+         {
+            "text": "Cecha podzielności przez $4$:",
+            "value": 300,
+            "options": ["dwie ostatnie cyfry tworzą liczbę podzielną przez $4$", "suma cyfr jest podzielna przez $4$", "ostatnia cyfra jest parzysta", "liczba jest podzielna przez $2$ dwa razy"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczba jest podzielna przez $4$, gdy dwie ostatnie cyfry tworzą liczbę podzielną przez $4$."
+         },
+         {
+            "text": "Cecha podzielności przez $3$:",
+            "value": 400,
+            "options": ["suma cyfr jest podzielna przez $3$", "dwie ostatnie cyfry są podzielne przez $3$", "różnica sumy cyfr na pozycjach parzystych i nieparzystych jest podzielna przez $3$", "ostatnia cyfra jest $3$, $6$ lub $9$"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczba jest podzielna przez $3$, gdy suma wszystkich jej cyfr jest podzielna przez $3$."
+         },
+         {
+            "text": "Cecha podzielności przez $9$:",
+            "value": 400,
+            "options": ["suma cyfr jest podzielna przez $9$", "dwie ostatnie cyfry są podzielne przez $9$", "liczba jest podzielna przez $3$ i przez $3$", "ostatnia cyfra jest $9$"],
+            "correctOptionIndex": 0,
+            "explanation": "Liczba jest podzielna przez $9$, gdy suma wszystkich jej cyfr jest podzielna przez $9$."
+         },
+         {
+            "text": "Czworościan to:",
+            "value": 500,
+            "options": ["ostrosłup, w którym wszystkie ściany są trójkątami", "bryła z czterema ścianami czworokątnymi", "graniastosłup o czterech ścianach bocznych", "bryła o czterech wierzchołkach"],
+            "correctOptionIndex": 0,
+            "explanation": "Czworościan to ostrosłup trójkątny, czyli bryła, w której wszystkie ściany (podstawa i ściany boczne) są trójkątami."
+         },
+         {
+            "text": "Suma algebraiczna to:",
+            "value": 500,
+            "options": ["suma jednomianów", "suma wielomianów", "suma liczb całkowitych", "suma wartości bezwzględnych"],
+            "correctOptionIndex": 0,
+            "explanation": "Suma algebraiczna to suma jednomianów, które mogą być dodatnie lub ujemne."
+         }
+      ]
+   }
+]
