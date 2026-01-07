@@ -1,17 +1,757 @@
 [
   {
-    "id": "1",
-    "tytul": "Zadanie 1: Pętle w C++",
-    "tresc": "<p>Napisz program, który wypisuje liczby od 1 do 100.</p><pre>for(int i=0...)</pre>"
+    "baseId": 101,
+    "subject": "Matematyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Funkcje"],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["funkcja kwadratowa", "miejsce zerowe"],
+    "requirements": ["Uczeń oblicza miejsca zerowe funkcji kwadratowej."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10101,
+        "text": "Podaj miejsca zerowe funkcji $f(x) = x^2 - 16$.",
+        "points": 1,
+        "options": ["x=4", "x=-4, x=4", "x=16", "brak miejsc zerowych"],
+        "correctAnswerIndex": 1,
+        "solution": "Aby znaleźć miejsca zerowe, rozwiązujemy równanie $x^2 - 16 = 0$, co daje $(x-4)(x+4)=0$. Zatem $x=4$ lub $x=-4$."
+      },
+      {
+        "id": 10102,
+        "text": "Podaj miejsca zerowe funkcji $f(x) = x^2 - 25$.",
+        "points": 1,
+        "options": ["x=-5, x=5", "x=25", "x=5", "brak miejsc zerowych"],
+        "correctAnswerIndex": 0,
+        "solution": "Rozwiązujemy równanie $x^2 - 25 = 0$, co daje $(x-5)(x+5)=0$. Zatem $x=5$ lub $x=-5$."
+      },
+      {
+        "id": 10103,
+        "text": "Miejscami zerowymi funkcji $f(x) = (x-1)(x+2)$ są:",
+        "points": 1,
+        "options": ["x=1, x=-2", "x=-1, x=2", "x=1, x=2", "x=-1, x=-2"],
+        "correctAnswerIndex": 0,
+        "solution": "Funkcja jest w postaci iloczynowej. Miejsca zerowe odczytujemy bezpośrednio: $x-1=0 \\Rightarrow x=1$ oraz $x+2=0 \\Rightarrow x=-2$."
+      },
+      {
+        "id": 10104,
+        "text": "Wskaż jedno miejsce zerowe funkcji $f(x) = x^2 - 9$.",
+        "points": 1,
+        "isSpe": true,
+        "options": ["x=9", "x=3", "x=1", "x=0"],
+        "correctAnswerIndex": 1,
+        "solution": "Aby znaleźć miejsca zerowe, szukamy takiej liczby, która podniesiona do kwadratu da 9. Takimi liczbami są 3 i -3. Poprawną odpowiedzią jest $x=3$."
+      },
+      {
+        "id": 10105,
+        "text": "Która liczba jest miejscem zerowym funkcji $f(x) = x - 4$?",
+        "points": 1,
+        "isSpe": true,
+        "options": ["1", "2", "3", "4"],
+        "correctAnswerIndex": 3,
+        "solution": "Szukamy takiego x, dla którego $x-4=0$. Tą liczbą jest 4, ponieważ $4-4=0$."
+      }
+    ]
   },
   {
-    "id": "2",
-    "tytul": "Zadanie 2: Funkcje",
-    "tresc": "<p>Stwórz funkcję obliczającą pole koła.</p>"
+    "baseId": 102,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Sieci Komputerowe I Bezpieczeństwo"],
+    "type": "wielokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["sieć", "topologia", "internet"],
+    "requirements": ["Uczeń zna podstawowe pojęcia związane z sieciami komputerowymi."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10201,
+        "text": "Zaznacz wszystkie urządzenia, które są aktywowymi elementami sieci komputerowej.",
+        "points": 2,
+        "options": ["Router", "Kabel UTP (skrętka)", "Switch (przełącznik)", "Karta sieciowa (NIC)"],
+        "correctAnswerIndices": [0, 2, 3],
+        "solution": "Router, switch i karta sieciowa to urządzenia aktywne, ponieważ przetwarzają lub wzmacniają sygnał. Kabel jest elementem pasywnym, służącym jedynie do transmisji sygnału."
+      },
+      {
+        "id": 10202,
+        "text": "Które z poniższych adresów IP są adresami prywatnymi?",
+        "points": 2,
+        "options": ["192.168.1.10", "8.8.8.8", "172.20.5.1", "150.254.1.1"],
+        "correctAnswerIndices": [0, 2],
+        "solution": "Adresy prywatne należą do puli zdefiniowanych w standardach RFC 1918, m.in. 192.168.0.0/16 oraz 172.16.0.0/12."
+      },
+      {
+        "id": 10203,
+        "text": "Wybierz protokoły należące do warstwy aplikacji modelu ISO/OSI.",
+        "points": 2,
+        "options": ["HTTP", "TCP", "FTP", "IP"],
+        "correctAnswerIndices": [0, 2],
+        "solution": "HTTP (obsługa stron WWW) i FTP (transfer plików) są protokołami warstwy aplikacji. TCP i IP działają w niższych warstwach (transportowej i sieciowej)."
+      },
+      {
+        "id": 10204,
+        "text": "Zaznacz urządzenia, które można podłączyć do domowego routera Wi-Fi.",
+        "points": 1,
+        "isSpe": true,
+        "options": ["Komputer", "Drukarka", "Smartfon", "Toster"],
+        "correctAnswerIndices": [0, 1, 2],
+        "solution": "Do routera Wi-Fi można podłączyć komputer, drukarkę (jeśli ma moduł Wi-Fi) oraz smartfon. Zwykły toster nie łączy się z siecią."
+      },
+      {
+        "id": 10205,
+        "text": "Wybierz czynności, które można wykonywać w internecie.",
+        "points": 1,
+        "isSpe": true,
+        "options": ["Oglądanie filmów", "Wysyłanie e-maili", "Czytanie wiadomości", "Picie herbaty"],
+        "correctAnswerIndices": [0, 1, 2],
+        "solution": "Internet umożliwia oglądanie filmów, wysyłanie e-maili i czytanie wiadomości. Picie herbaty nie jest czynnością związaną z internetem."
+      }
+    ]
   },
   {
-    "id": "3",
-    "tytul": "Projekt: Kalkulator",
-    "tresc": "<p>Zrób prosty kalkulator w JS.</p>"
+    "baseId": 103,
+    "subject": "Matematyka",
+    "school": ["Szkoła Podstawowa"],
+    "class": ["6", "7", "8"],
+    "department": ["Własności Figur Geometrycznych"],
+    "type": "prawda-fałsz",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["geometria", "wielokąty", "trójkąty", "czworokąty"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10301,
+        "text": "Oceń prawdziwość poniższych zdań.",
+        "points": 2,
+        "statements": [
+          { "text": "Suma miar kątów w każdym czworokącie wynosi 360 stopni.", "answer": true },
+          { "text": "Każdy prostokąt jest kwadratem.", "answer": false }
+        ],
+        "solution": "1. Prawda - suma miar kątów wewnętrznych w dowolnym czworokącie to 360°. 2. Fałsz - to każdy kwadrat jest prostokątem, ale nie na odwrót (prostokąt nie musi mieć wszystkich boków równych)."
+      },
+      {
+        "id": 10302,
+        "text": "Oceń prawdziwość zdań dotyczących trójkątów.",
+        "points": 2,
+        "statements": [
+          { "text": "Trójkąt równoboczny ma wszystkie kąty o mierze 60 stopni.", "answer": true },
+          { "text": "W trójkącie prostokątnym suma miar kątów ostrych wynosi 100 stopni.", "answer": false }
+        ],
+        "solution": "1. Prawda - trójkąt równoboczny ma wszystkie boki i kąty równe, a 180°/3 = 60°. 2. Fałsz - suma kątów w trójkącie to 180°, więc jeśli jeden kąt ma 90°, to suma pozostałych dwóch musi wynosić 180° - 90° = 90°."
+      },
+      {
+        "id": 10303,
+        "text": "Oceń prawdziwość zdań o okręgach.",
+        "points": 2,
+        "statements": [
+          { "text": "Średnica okręgu jest dwa razy dłuższa od jego promienia.", "answer": true },
+          { "text": "Cięciwa może być dłuższa od średnicy okręgu.", "answer": false }
+        ],
+        "solution": "1. Prawda - z definicji średnica $d=2r$. 2. Fałsz - najdłuższą cięciwą w okręgu jest jego średnica."
+      },
+      {
+        "id": 10304,
+        "text": "Oceń, czy zdania są prawdziwe.",
+        "points": 2,
+        "isSpe": true,
+        "statements": [
+          { "text": "Kwadrat ma cztery równe boki.", "answer": true },
+          { "text": "Trójkąt ma pięć kątów.", "answer": false }
+        ],
+        "solution": "1. Prawda - to cecha charakterystyczna kwadratu. 2. Fałsz - trójkąt ma trzy kąty."
+      },
+      {
+        "id": 10305,
+        "text": "Oceń, czy zdania są prawdziwe.",
+        "points": 2,
+        "isSpe": true,
+        "statements": [
+          { "text": "Koło jest okrągłe.", "answer": true },
+          { "text": "Linia prosta jest krzywa.", "answer": false }
+        ],
+        "solution": "1. Prawda - koło ma kształt okrągły. 2. Fałsz - linia prosta nie jest zakrzywiona."
+      }
+    ]
+  },
+  {
+    "baseId": 104,
+    "subject": "Fizyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Rozszerzony",
+    "department": ["Kinematyka i Dynamika"],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["ruch jednostajny", "prędkość", "droga"],
+    "requirements": ["Uczeń stosuje zależności między drogą, prędkością i czasem w ruchu jednostajnym prostoliniowym."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10401,
+        "text": "Pociąg porusza się ze stałą prędkością 72 km/h. Jaką drogę pokona w ciągu 15 minut? Wynik podaj w kilometrach.",
+        "points": 3,
+        "solution": "Prędkość $v = 72 \\frac{km}{h}$. Czas $t = 15 \\text{ min} = 0,25 \\text{ h}$.\nDroga $s = v \\cdot t$.\n$s = 72 \\frac{km}{h} \\cdot 0,25 \\text{ h} = 18 \\text{ km}$.\nOdpowiedź: Pociąg pokona drogę 18 km."
+      },
+      {
+        "id": 10402,
+        "text": "Samochód jedzie ze stałą prędkością 90 km/h. Ile czasu zajmie mu przejechanie dystansu 45 km? Wynik podaj w minutach.",
+        "points": 3,
+        "solution": "Prędkość $v = 90 \\frac{km}{h}$. Droga $s = 45 \\text{ km}$.\nCzas $t = \\frac{s}{v}$.\n$t = \\frac{45 \\text{ km}}{90 \\frac{km}{h}} = 0,5 \\text{ h}$.\n$0,5 \\text{ h} = 30 \\text{ min}$.\nOdpowiedź: Przejechanie dystansu 45 km zajmie 30 minut."
+      },
+      {
+        "id": 10403,
+        "text": "Rowerzysta w ciągu 2 godzin pokonał 30 km, poruszając się ze stałą prędkością. Jaka była jego prędkość? Wynik podaj w km/h.",
+        "points": 3,
+        "solution": "Czas $t = 2 \\text{ h}$. Droga $s = 30 \\text{ km}$.\nPrędkość $v = \\frac{s}{t}$.\n$v = \\frac{30 \\text{ km}}{2 \\text{ h}} = 15 \\frac{km}{h}$.\nOdpowiedź: Rowerzysta poruszał się z prędkością 15 km/h."
+      },
+      {
+        "id": 10404,
+        "text": "Idziesz z prędkością 5 km/h. Jaką drogę przejdziesz w ciągu 1 godziny?",
+        "points": 2,
+        "isSpe": true,
+        "solution": "Prędkość 5 km/h oznacza, że w ciągu jednej godziny przechodzisz 5 kilometrów.\nOdpowiedź: Przejdziesz 5 km."
+      },
+      {
+        "id": 10405,
+        "text": "Samochód jedzie 100 km/h. Jaką odległość pokona w 2 godziny?",
+        "points": 2,
+        "isSpe": true,
+        "solution": "W jedną godzinę samochód pokonuje 100 km. W dwie godziny pokona dwa razy tyle.\n$2 \\cdot 100 \\text{ km} = 200 \\text{ km}$.\nOdpowiedź: Samochód pokona 200 km."
+      }
+    ]
+  },
+  {
+    "baseId": 105,
+    "subject": "Matematyka",
+    "school": ["Szkoła Podstawowa"],
+    "class": ["5", "6"],
+    "department": ["Ułamki Zwykłe i Dziesiętne"],
+    "type": "przyporządkowanie",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["ułamki", "dziesiętne", "zwykłe"],
+    "requirements": ["Uczeń zamienia ułamki zwykłe na dziesiętne i odwrotnie."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10501,
+        "text": "Połącz w pary ułamek zwykły z odpowiadającym mu ułamkiem dziesiętnym.",
+        "points": 3,
+        "pairs": [
+          { "left": "$\\frac{1}{2}$", "right": "0,5" },
+          { "left": "$\\frac{1}{4}$", "right": "0,25" },
+          { "left": "$\\frac{3}{4}$", "right": "0,75" }
+        ],
+        "solution": "Poprawne pary to: 1/2 = 0,5; 1/4 = 0,25; 3/4 = 0,75."
+      },
+      {
+        "id": 10502,
+        "text": "Przyporządkuj ułamkowi dziesiętnemu jego odpowiednik w postaci ułamka zwykłego nieskracalnego.",
+        "points": 3,
+        "pairs": [
+          { "left": "0,2", "right": "$\\frac{1}{5}$" },
+          { "left": "0,6", "right": "$\\frac{3}{5}$" },
+          { "left": "0,1", "right": "$\\frac{1}{10}$" }
+        ],
+        "solution": "Poprawne pary: 0,2 = 2/10 = 1/5; 0,6 = 6/10 = 3/5; 0,1 = 1/10."
+      },
+      {
+        "id": 10503,
+        "text": "Połącz działania z ich wynikami.",
+        "points": 3,
+        "pairs": [
+          { "left": "$0,5 + \\frac{1}{4}$", "right": "0,75" },
+          { "left": "$1 - \\frac{1}{2}$", "right": "0,5" },
+          { "left": "$0,25 + 0,25$", "right": "$\\frac{1}{2}$" }
+        ],
+        "solution": "$0,5 + 0,25 = 0,75$; $1 - 0,5 = 0,5$; $0,25+0,25 = 0,5 = \\frac{1}{2}$."
+      },
+      {
+        "id": 10504,
+        "text": "Połącz liczbę z jej zapisem słownym.",
+        "points": 2,
+        "isSpe": true,
+        "pairs": [
+          { "left": "0,5", "right": "pół" },
+          { "left": "0,25", "right": "ćwierć" }
+        ],
+        "solution": "0,5 to inaczej połowa (pół). 0,25 to inaczej ćwierć."
+      },
+      {
+        "id": 10505,
+        "text": "Połącz ułamek z jego zapisem dziesiętnym.",
+        "points": 2,
+        "isSpe": true,
+        "pairs": [
+          { "left": "$\\frac{1}{2}$", "right": "0,5" },
+          { "left": "$\\frac{1}{10}$", "right": "0,1" }
+        ],
+        "solution": "Jedna druga to 0,5. Jedna dziesiąta to 0,1."
+      }
+    ]
+  },
+  {
+    "baseId": 106,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Rozszerzony",
+    "department": ["Bazy Danych I Ich Zastosowanie"],
+    "type": "uzupełnij lukę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["sql", "bazy danych", "kwerendy"],
+    "requirements": ["Uczeń potrafi tworzyć proste zapytania w języku SQL."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10601,
+        "text": "Aby wybrać wszystkie kolumny z tabeli `Uczniowie`, należy użyć polecenia `SELECT [[*]] FROM Uczniowie`.",
+        "points": 1,
+        "solution": "Poprawna odpowiedź to `*`. Gwiazdka w poleceniu SELECT oznacza 'wszystkie kolumny'."
+      },
+      {
+        "id": 10602,
+        "text": "Klauzula, która filtruje wyniki zapytania SQL, to [[WHERE]].",
+        "points": 1,
+        "solution": "Poprawna odpowiedź to `WHERE`. Służy ona do określania warunków, które muszą spełnić zwracane wiersze."
+      },
+      {
+        "id": 10603,
+        "text": "Aby posortować wyniki zapytania rosnąco według kolumny `Nazwisko`, należy dodać na końcu kwerendy klauzulę `ORDER BY Nazwisko [[ASC]]`.",
+        "points": 1,
+        "solution": "Poprawna odpowiedź to `ASC` (od ascending). Jest to domyślny porządek sortowania, ale jego jawne podanie jest dobrą praktyką."
+      },
+      {
+        "id": 10604,
+        "text": "Język służący do zadawania pytań bazie danych to [[SQL]].",
+        "points": 1,
+        "isSpe": true,
+        "solution": "Poprawna odpowiedź to `SQL` (Structured Query Language)."
+      },
+      {
+        "id": 10605,
+        "text": "Aby wybrać dane z tabeli, używamy polecenia [[SELECT]].",
+        "points": 1,
+        "isSpe": true,
+        "solution": "Poprawna odpowiedź to `SELECT`."
+      }
+    ]
+  },
+  {
+    "baseId": 107,
+    "subject": "Matematyka",
+    "school": ["Szkoła Podstawowa"],
+    "class": ["5", "6"],
+    "department": ["Własności Figur Geometrycznych"],
+    "type": "wykres",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["wykresy", "dane", "statystyka"],
+    "requirements": ["Uczeń odczytuje i interpretuje dane przedstawione na wykresach."],
+    "variants": [
+      {
+        "id": 10701,
+        "text": "Poniższy wykres przedstawia liczbę uczniów w poszczególnych klasach szóstych. Ile łącznie uczniów jest w klasach 6a i 6c?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Liczba uczniów w klasach szóstych",
+        "chartLabels": ["6a", "6b", "6c"],
+        "chartData": [25, 22, 24],
+        "solution": "Z wykresu odczytujemy, że w klasie 6a jest 25 uczniów, a w klasie 6c są 24 osoby. Suma uczniów: $25 + 24 = 49$."
+      },
+      {
+        "id": 10702,
+        "text": "Wykres kołowy pokazuje ulubione owoce uczniów. Jaki procent uczniów najbardziej lubi jabłka?",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "pie",
+        "chartTitle": "Ulubione owoce",
+        "chartLabels": ["Jabłka", "Banany", "Truskawki"],
+        "chartData": [50, 25, 25],
+        "solution": "Z wykresu odczytujemy, że jabłka stanowią 50% ulubionych owoców."
+      },
+      {
+        "id": 10703,
+        "text": "Wykres liniowy przedstawia temperaturę mierzoną w ciągu dnia. O której godzinie zanotowano najwyższą temperaturę?",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "line",
+        "chartTitle": "Temperatura w ciągu dnia",
+        "chartLabels": ["8:00", "10:00", "12:00", "14:00", "16:00"],
+        "chartData": [12, 15, 18, 20, 19],
+        "solution": "Najwyższy punkt na wykresie odpowiada temperaturze 20 stopni o godzinie 14:00."
+      },
+      {
+        "id": 10704,
+        "text": "Wykres pokazuje, ile goli strzeliły dzieci. Kto strzelił najwięcej goli?",
+        "points": 1,
+        "isSpe": true,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Liczba strzelonych goli",
+        "chartLabels": ["Ania", "Tomek", "Kasia"],
+        "chartData": [3, 5, 2],
+        "solution": "Najwyższy słupek na wykresie jest przy imieniu Tomek. Strzelił on 5 goli, czyli najwięcej."
+      },
+      {
+        "id": 10705,
+        "text": "Wykres pokazuje, ile zwierząt jest w mini-zoo. Których zwierząt jest najmniej?",
+        "points": 1,
+        "isSpe": true,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Zwierzęta w mini-zoo",
+        "chartLabels": ["Króliki", "Kury", "Kozy"],
+        "chartData": [10, 15, 4],
+        "solution": "Najniższy słupek na wykresie odpowiada kozom. Jest ich 4, czyli najmniej."
+      }
+    ]
+  },
+  {
+    "baseId": 108,
+    "subject": "Matematyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Liczby Rzeczywiste"],
+    "type": "oś liczbowa",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["oś liczbowa", "liczby", "zbiory"],
+    "requirements": ["Uczeń zaznacza zbiory na osi liczbowej."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 10801,
+        "text": "Zaznacz na osi liczbowej punkty o podanych współrzędnych.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": -5,
+        "axisStep": 1,
+        "axisPoints": "A:6;B:9;C:1",
+        "solution": "Należy odnaleźć punkt startowy osi (-5) i odliczyć odpowiednią liczbę kroków (kreska nr 1 to -4, kreska nr 6 to 1, kreska nr 9 to 4). Punkt A powinien być na kresce odpowiadającej liczbie 1, punkt B na kresce dla liczby 4, a C dla -4."
+      },
+      {
+        "id": 10802,
+        "text": "Zaznacz na osi punkty odpowiadające podanym liczbom.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 2,
+        "axisPoints": "P:1;R:3;S:5",
+        "solution": "Oś zaczyna się od 0, a krok wynosi 2. Kreska nr 1 odpowiada liczbie 2, kreska nr 3 liczbie 6, a kreska nr 5 liczbie 10. Należy zaznaczyć punkty w tych miejscach."
+      },
+      {
+        "id": 10803,
+        "text": "Zaznacz na osi punkty o podanych współrzędnych.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": -10,
+        "axisStep": 5,
+        "axisPoints": "K:0;L:2;M:3",
+        "solution": "Oś zaczyna się od -10, a krok wynosi 5. Kreska nr 0 to -10, kreska nr 2 to 0, kreska nr 3 to 5. Należy zaznaczyć punkty w tych miejscach."
+      },
+      {
+        "id": 10804,
+        "text": "Zaznacz na osi punkt A, który odpowiada liczbie 3.",
+        "points": 1,
+        "isSpe": true,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 1,
+        "axisPoints": "A:3",
+        "solution": "Należy odliczyć 3 kreski od zera w prawo i zaznaczyć punkt A."
+      },
+      {
+        "id": 10805,
+        "text": "Zaznacz na osi punkt B, który odpowiada liczbie -2.",
+        "points": 1,
+        "isSpe": true,
+        "taskType": "oś liczbowa",
+        "axisStart": -5,
+        "axisStep": 1,
+        "axisPoints": "B:3",
+        "solution": "Oś zaczyna się od -5. Trzecia kreska na prawo od -5 odpowiada liczbie -2. Tam należy zaznaczyć punkt B."
+      }
+    ]
+  },
+  {
+    "baseId": 201,
+    "subject": "Matematyka",
+    "school": ["Szkoła Podstawowa"],
+    "class": ["7", "8"],
+    "department": ["Potęgi I Pierwiastki"],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["potęgowanie", "pierwiastkowanie", "arytmetyka"],
+    "requirements": ["Uczeń oblicza potęgi o wykładniku naturalnym oraz pierwiastki kwadratowe i sześcienne z liczb."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 20101,
+        "text": "Wynik działania $3^4$ to:",
+        "points": 1,
+        "options": ["12", "81", "64", "27"],
+        "correctAnswerIndex": 1,
+        "solution": "Działanie $3^4$ oznacza $3 \\cdot 3 \\cdot 3 \\cdot 3 = 9 \\cdot 9 = 81$."
+      },
+      {
+        "id": 20102,
+        "text": "Wartość wyrażenia $\\sqrt{144}$ jest równa:",
+        "points": 1,
+        "options": ["14", "72", "12", "11"],
+        "correctAnswerIndex": 2,
+        "solution": "Pierwiastek kwadratowy z 144 to 12, ponieważ $12^2 = 12 \\cdot 12 = 144$."
+      },
+      {
+        "id": 20103,
+        "text": "Liczba $5^3$ jest równa:",
+        "points": 1,
+        "options": ["15", "25", "125", "53"],
+        "correctAnswerIndex": 2,
+        "solution": "Obliczamy $5^3 = 5 \\cdot 5 \\cdot 5 = 25 \\cdot 5 = 125$."
+      },
+      {
+        "id": 20104,
+        "text": "Ile to jest $2^3$?",
+        "points": 1,
+        "isSpe": true,
+        "options": ["6", "8", "4", "23"],
+        "correctAnswerIndex": 1,
+        "solution": "Musimy pomnożyć 2 przez siebie trzy razy: $2 \\cdot 2 \\cdot 2 = 8$."
+      },
+      {
+        "id": 20105,
+        "text": "Jaka liczba pomnożona przez samą siebie daje 25?",
+        "points": 1,
+        "isSpe": true,
+        "options": ["5", "10", "25", "2"],
+        "correctAnswerIndex": 0,
+        "solution": "Tą liczbą jest 5, ponieważ $5 \\cdot 5 = 25$. Inaczej mówiąc, $\\sqrt{25}=5$."
+      }
+    ]
+  },
+  {
+    "baseId": 202,
+    "subject": "Matematyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Planimetria"],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["trójkąt prostokątny", "pitagoras", "pole figury"],
+    "requirements": ["Uczeń stosuje twierdzenie Pitagorasa do obliczania długości boków w trójkącie prostokątnym."],
+    "variants": [
+      {
+        "id": 20201,
+        "text": "W trójkącie prostokątnym przyprostokątne mają długości 6 cm i 8 cm. Oblicz długość przeciwprostokątnej.",
+        "points": 2,
+        "solution": "Zgodnie z twierdzeniem Pitagorasa: $a^2 + b^2 = c^2$.\nPodstawiamy dane: $6^2 + 8^2 = c^2$.\n$36 + 64 = c^2$.\n$100 = c^2$.\n$c = \\sqrt{100} = 10$ cm.\nOdpowiedź: Przeciwprostokątna ma długość 10 cm."
+      },
+      {
+        "id": 20202,
+        "text": "Przeciwprostokątna w trójkącie prostokątnym ma długość 13, a jedna z przyprostokątnych ma długość 5. Oblicz długość drugiej przyprostokątnej.",
+        "points": 2,
+        "solution": "Z twierdzenia Pitagorasa: $a^2 + b^2 = c^2$.\n$5^2 + b^2 = 13^2$.\n$25 + b^2 = 169$.\n$b^2 = 169 - 25 = 144$.\n$b = \\sqrt{144} = 12$.\nOdpowiedź: Druga przyprostokątna ma długość 12."
+      },
+      {
+        "id": 20203,
+        "text": "Oblicz pole trójkąta prostokątnego o przyprostokątnych długości 5 cm i 10 cm.",
+        "points": 2,
+        "solution": "Pole trójkąta prostokątnego liczymy ze wzoru $P = \\frac{1}{2} a \\cdot b$, gdzie a i b to przyprostokątne.\n$P = \\frac{1}{2} \\cdot 5 \\cdot 10 = \\frac{1}{2} \\cdot 50 = 25$ cm$^2$.\nOdpowiedź: Pole trójkąta wynosi 25 cm$^2$."
+      },
+      {
+        "id": 20204,
+        "text": "Boki trójkąta prostokątnego przy kącie prostym mają długości 3 i 4. Jaka jest długość najdłuższego boku?",
+        "points": 2,
+        "isSpe": true,
+        "solution": "Używamy wzoru $a^2 + b^2 = c^2$.\n$3^2 + 4^2 = c^2$.\n$9 + 16 = 25$.\n$c^2 = 25$, więc $c=5$.\nOdpowiedź: Najdłuższy bok ma długość 5."
+      },
+      {
+        "id": 20205,
+        "text": "Oblicz obwód kwadratu o boku długości 7 cm.",
+        "points": 1,
+        "isSpe": true,
+        "solution": "Kwadrat ma 4 równe boki. Obwód to suma długości wszystkich boków.\nObwód = $7 + 7 + 7 + 7 = 4 \\cdot 7 = 28$ cm.\nOdpowiedź: Obwód kwadratu wynosi 28 cm."
+      }
+    ]
+  },
+  {
+    "baseId": 203,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Rozszerzony",
+    "department": ["Programowanie I Algorytmika"],
+    "type": "uzupełnij lukę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["python", "pętle", "instrukcje warunkowe"],
+    "requirements": ["Uczeń zna podstawowe konstrukcje programistyczne: pętle i instrukcje warunkowe."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 20301,
+        "text": "W języku Python, aby wykonać blok kodu wielokrotnie, można użyć pętli [[for]] lub [[while]].",
+        "points": 2,
+        "solution": "Poprawne odpowiedzi to `for` oraz `while`. Obie służą do iteracji, ale działają na nieco innej zasadzie."
+      },
+      {
+        "id": 20302,
+        "text": "Instrukcja warunkowa w większości języków programowania zaczyna się od słowa kluczowego [[if]].",
+        "points": 1,
+        "solution": "Poprawna odpowiedź to `if`."
+      },
+      {
+        "id": 20303,
+        "text": "Aby wypisać tekst \"Hello, World!\" na ekranie w Pythonie, używamy funkcji [[print]](\"Hello, World!\").",
+        "points": 1,
+        "solution": "Poprawna odpowiedź to `print`."
+      },
+      {
+        "id": 20304,
+        "text": "Komputer wykonuje polecenia zapisane w [[programie]].",
+        "points": 1,
+        "isSpe": true,
+        "solution": "Poprawna odpowiedź to `programie`."
+      },
+      {
+        "id": 20305,
+        "text": "Aby sprawdzić, czy liczba jest większa od 10, użyjemy warunku `if liczba > [[10]]`:",
+        "points": 1,
+        "isSpe": true,
+        "solution": "Poprawna odpowiedź to `10`."
+      }
+    ]
+  },
+  {
+    "baseId": 204,
+    "subject": "Fizyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Kinematyka i Dynamika"],
+    "type": "prawda-fałsz",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["dynamika", "newton", "siła"],
+    "requirements": ["Uczeń zna i interpretuje zasady dynamiki Newtona."],
+    "variants": [
+      {
+        "id": 20401,
+        "text": "Oceń prawdziwość zdań dotyczących zasad dynamiki Newtona.",
+        "points": 2,
+        "statements": [
+          { "text": "Pierwsza zasada dynamiki mówi, że jeśli na ciało nie działa żadna siła lub siły się równoważą, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.", "answer": true },
+          { "text": "Zgodnie z drugą zasadą dynamiki, przyspieszenie ciała jest odwrotnie proporcjonalne do działającej na nie siły.", "answer": false }
+        ],
+        "solution": "1. Prawda - to jest treść pierwszej zasady dynamiki (zasady bezwładności). 2. Fałsz - przyspieszenie jest wprost proporcjonalne do siły ($a = F/m$)."
+      },
+      {
+        "id": 20402,
+        "text": "Oceń prawdziwość poniższych zdań.",
+        "points": 2,
+        "statements": [
+          { "text": "Trzecia zasada dynamiki (zasada akcji i reakcji) mówi, że siły wzajemnego oddziaływania dwóch ciał mają takie same wartości, ale przeciwne zwroty.", "answer": true },
+          { "text": "Jednostką siły w układzie SI jest dżul (J).", "answer": false }
+        ],
+        "solution": "1. Prawda - to jest poprawna interpretacja trzeciej zasady dynamiki. 2. Fałsz - jednostką siły jest niuton (N). Dżul jest jednostką pracy i energii."
+      },
+      {
+        "id": 20403,
+        "text": "Oceń prawdziwość zdań.",
+        "points": 2,
+        "statements": [
+          { "text": "Pasażer w hamującym autobusie jest 'rzucany' do przodu z powodu działania siły bezwładności.", "answer": true },
+          { "text": "Ciężar ciała jest taki sam na Ziemi i na Księżycu.", "answer": false }
+        ],
+        "solution": "1. Prawda - ciało pasażera dąży do utrzymania swojej prędkości (zgodnie z I zasadą dynamiki). 2. Fałsz - ciężar zależy od siły grawitacji, która na Księżycu jest znacznie mniejsza. Masa ciała pozostaje bez zmian."
+      },
+      {
+        "id": 20404,
+        "text": "Oceń, czy zdania są prawdziwe.",
+        "points": 2,
+        "isSpe": true,
+        "statements": [
+          { "text": "Aby pchnąć szafę, trzeba użyć siły.", "answer": true },
+          { "text": "Gdy puścisz piłkę, spadnie ona w górę.", "answer": false }
+        ],
+        "solution": "1. Prawda - siła jest potrzebna, aby zmienić stan ruchu obiektu. 2. Fałsz - z powodu grawitacji piłka spadnie w dół."
+      },
+      {
+        "id": 20405,
+        "text": "Oceń, czy zdania są prawdziwe.",
+        "points": 2,
+        "isSpe": true,
+        "statements": [
+          { "text": "Im mocniej kopniesz piłkę, tym dalej poleci.", "answer": true },
+          { "text": "Lekkie piórko jest cięższe od kamienia.", "answer": false }
+        ],
+        "solution": "1. Prawda - większa siła nadaje piłce większą prędkość początkową. 2. Fałsz - kamień jest znacznie cięższy od piórka."
+      }
+    ]
+  },
+  {
+    "baseId": 205,
+    "subject": "Matematyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Stereometria"],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["bryły", "objętość", "sześcian", "prostopadłościan"],
+    "requirements": ["Uczeń oblicza objętość i pole powierzchni graniastosłupów prostych."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 20501,
+        "text": "Objętość sześcianu o krawędzi 4 cm wynosi:",
+        "points": 1,
+        "options": ["16 cm³", "12 cm³", "64 cm³", "48 cm³"],
+        "correctAnswerIndex": 2,
+        "solution": "Objętość sześcianu liczymy ze wzoru $V = a^3$. Zatem $V = 4^3 = 4 \\cdot 4 \\cdot 4 = 64$ cm³."
+      },
+      {
+        "id": 20502,
+        "text": "Pole powierzchni całkowitej sześcianu o krawędzi 5 cm wynosi:",
+        "points": 1,
+        "options": ["100 cm²", "125 cm²", "150 cm²", "60 cm²"],
+        "correctAnswerIndex": 2,
+        "solution": "Sześcian ma 6 identycznych ścian, z których każda jest kwadratem. Pole jednej ściany to $P_s = a^2 = 5^2 = 25$ cm². Pole całkowite to $P_c = 6 \\cdot P_s = 6 \\cdot 25 = 150$ cm²."
+      },
+      {
+        "id": 20503,
+        "text": "Objętość prostopadłościanu o wymiarach podstawy 3x4 i wysokości 5 wynosi:",
+        "points": 1,
+        "options": ["12", "60", "15", "20"],
+        "correctAnswerIndex": 1,
+        "solution": "Objętość prostopadłościanu liczymy ze wzoru $V = a \\cdot b \\cdot c$. Zatem $V = 3 \\cdot 4 \\cdot 5 = 12 \\cdot 5 = 60$."
+      },
+      {
+        "id": 20504,
+        "text": "Pudełko ma kształt sześcianu o boku 2. Jaka jest jego objętość?",
+        "points": 1,
+        "isSpe": true,
+        "options": ["4", "6", "8", "12"],
+        "correctAnswerIndex": 2,
+        "solution": "Objętość liczymy mnożąc bok przez siebie trzy razy: $2 \\cdot 2 \\cdot 2 = 8$."
+      },
+      {
+        "id": 20505,
+        "text": "Ile ścian ma pudełko w kształcie sześcianu?",
+        "points": 1,
+        "isSpe": true,
+        "options": ["4", "8", "12", "6"],
+        "correctAnswerIndex": 3,
+        "solution": "Sześcian, tak jak kostka do gry, ma 6 ścian."
+      }
+    ]
   }
 ]
