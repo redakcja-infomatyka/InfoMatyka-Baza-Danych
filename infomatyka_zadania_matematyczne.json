@@ -354,7 +354,6 @@
     "author": "InfoMatyka",
     "tags": ["wykresy", "dane", "statystyka"],
     "requirements": ["Uczeń odczytuje i interpretuje dane przedstawione na wykresach."],
-    "targetApps": ["generator-testow"],
     "variants": [
       {
         "id": 10701,
@@ -550,7 +549,6 @@
     "author": "InfoMatyka",
     "tags": ["trójkąt prostokątny", "pitagoras", "pole figury"],
     "requirements": ["Uczeń stosuje twierdzenie Pitagorasa do obliczania długości boków w trójkącie prostokątnym."],
-    "targetApps": ["generator-testow"],
     "variants": [
       {
         "id": 20201,
@@ -644,7 +642,6 @@
     "author": "InfoMatyka",
     "tags": ["dynamika", "newton", "siła"],
     "requirements": ["Uczeń zna i interpretuje zasady dynamiki Newtona."],
-    "targetApps": ["generator-testow"],
     "variants": [
       {
         "id": 20401,
@@ -756,7 +753,71 @@
         "solution": "Sześcian, tak jak kostka do gry, ma 6 ścian."
       }
     ]
+  },
+  {
+    "baseId": 901,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Programowanie"],
+    "type": "program komputerowy",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["python", "funkcje", "pole trójkąta"],
+    "requirements": ["Uczeń pisze prosty program w języku Python obliczający pole figury geometrycznej."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 90101,
+        "text": "Napisz program (funkcję) w języku Python o nazwie `oblicz_pole_trojkata(a, h)`, która przyjmuje długość podstawy `a` oraz wysokość `h` trójkąta, a następnie zwraca jego pole.",
+        "points": 2,
+        "programName": "trojkat.py",
+        "solution": "def oblicz_pole_trojkata(a, h):\n    return 0.5 * a * h",
+        "isSpe": false
+      },
+      {
+        "id": 90102,
+        "text": "Uzupełnij kod w języku Python tak, aby funkcja zwracała pole trójkąta o podstawie `a` i wysokości `h`.",
+        "points": 2,
+        "programName": "trojkat_spe.py",
+        "solution": "def oblicz_pole(a, h):\n    pole = 0.5 * a * h\n    return pole",
+        "isSpe": true
+      }
+    ]
+  },
+  {
+    "baseId": 902,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Algorytmika"],
+    "type": "uzupełnij tabelę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["tabela", "rekurencja", "ciągi"],
+    "requirements": ["Uczeń uzupełnia tabelę wartościami kolejnych wyrazów ciągu zdefiniowanego rekurencyjnie."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 90201,
+        "text": "Uzupełnij tabelę wartościami kolejnych wyrazów ciągu zdefiniowanego rekurencyjnie: $a_1 = 3$, $a_n = 2 \\cdot a_{n-1} - 1$ dla $n > 1$.",
+        "points": 2,
+        "tableRows": 2,
+        "tableCols": 5,
+        "tableData": ["$n$", "1", "2", "3", "4", "$a_n$", "[[3]]", "[[5]]", "[[9]]", "[[17]]"],
+        "solution": "Kolejne wyrazy to:\n$a_1 = 3$\n$a_2 = 2 \\cdot 3 - 1 = 5$\n$a_3 = 2 \\cdot 5 - 1 = 9$\n$a_4 = 2 \\cdot 9 - 1 = 17$",
+        "isSpe": false
+      },
+      {
+        "id": 90202,
+        "text": "Uzupełnij tabelę wartościami kolejnych liczb naturalnych i ich reprezentacji binarnych.",
+        "points": 2,
+        "tableRows": 2,
+        "tableCols": 4,
+        "tableData": ["Dziesiętnie", "1", "2", "3", "Binarnie", "[[1]]", "[[10]]", "[[11]]"],
+        "solution": "Liczba 1 to binarnie 1, liczba 2 to binarnie 10, a liczba 3 to binarnie 11.",
+        "isSpe": true
+      }
+    ]
   }
 ]
-
-
