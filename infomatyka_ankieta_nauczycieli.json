@@ -1,0 +1,398 @@
+{
+  "przed": {
+    "participants": 50,
+    "timeText": "10 - 12 min",
+    "mainMetric": "78%",
+    "mainMetricLabel": "Deficyt Narzędzi Rynkowych",
+    "satisfaction": "100%",
+    "satisfactionLabel": "Wskaźnik Kompletności",
+    "infoText": "<strong>Ankieta I (Przed Wdrożeniem):</strong> Badanie ilościowo i jakościowe realizowane na przełomie listopada-marca 2026 r. na reprezentatywnej grupie 50 czynnych zawodowo nauczycieli informatyki i przedmiotów ścisłych w celu diagnozy warunków pracy, trudności w przygotowywaniu testów i sprawdzianów oraz stopnia obciążenia procesem ich dostosowywania do uczniów z SPE.",
+    "sections": [
+      {
+        "title": "Metryka i Profil Zawodowy",
+        "icon": "mdi:account-box-outline",
+        "questions": [
+          {
+            "id": 1,
+            "text": "Miejsce pracy (typ placówki):",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Szkoła Podstawowa", "votes": 26, "pct": 52 },
+              { "label": "Liceum Ogólnokształcące", "votes": 12, "pct": 24 },
+              { "label": "Technikum", "votes": 9, "pct": 18 },
+              { "label": "Szkoła Branżowa", "votes": 2, "pct": 4 },
+              { "label": "Szkoła Wyższa / Uczelnia", "votes": 1, "pct": 2 }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Przedział klasowy, w którym odbywają się zajęcia:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Klasy 1-3 (Szkoła Podstawowa)", "votes": 4, "pct": 8 },
+              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 18, "pct": 36 },
+              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 24, "pct": 48 },
+              { "label": "Klasy ponadpodstawowe (Szkoła Średnia)", "votes": 21, "pct": 42 },
+              { "label": "Studenci (Szkoła Wyższa)", "votes": 1, "pct": 2 }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Staż pracy dydaktycznej:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "0-3 lata", "votes": 7, "pct": 14 },
+              { "label": "4-10 lat", "votes": 12, "pct": 24 },
+              { "label": "powyżej 10 lat", "votes": 31, "pct": 62 }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Średnia liczba uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) w jednej klasie:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Brak", "votes": 5, "pct": 10 },
+              { "label": "1 - 2 uczniów", "votes": 25, "pct": 50 },
+              { "label": "3 - 5 uczniów", "votes": 16, "pct": 32 },
+              { "label": "powyżej 5 uczniów", "votes": 4, "pct": 8 }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Czy ręczne dostosowywanie sprawdzianów dla uczniów z SPE (np. powiększanie czcionek, upraszczanie pytań, warianty zadań SPE) stanowi istotne obciążenie czasowe?",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Zdecydowanie tak", "votes": 22, "pct": 44 },
+              { "label": "Raczej tak", "votes": 18, "pct": 36 },
+              { "label": "Trudno powiedzieć", "votes": 6, "pct": 12 },
+              { "label": "Raczej nie", "votes": 3, "pct": 6 },
+              { "label": "Zdecydowanie nie", "votes": 1, "pct": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Analiza Rynku i Dotychczasowe Problemy",
+        "icon": "mdi:alert-circle-outline",
+        "questions": [
+          {
+            "id": 6,
+            "text": "Z jakich programów/narzędzi korzystano dotychczas do tworzenia i przeprowadzania testów?",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Google Forms", "votes": 42, "pct": 84 },
+              { "label": "Microsoft Forms", "votes": 28, "pct": 56 },
+              { "label": "Testportal", "votes": 21, "pct": 42 },
+              { "label": "Quizizz / Kahoot", "votes": 18, "pct": 36 },
+              { "label": "Tradycyjny edytor tekstu (np. Word, Writer)", "votes": 32, "pct": 64 },
+              { "label": "Brak stałych narzędzi cyfrowych", "votes": 5, "pct": 10 }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Jak często przed wdrożeniem nowego oprogramowania przeprowadzane były testy/kartkówki w formie cyfrowej?",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Codziennie", "votes": 2, "pct": 4 },
+              { "label": "2-3 razy w tygodniu", "votes": 15, "pct": 30 },
+              { "label": "Raz w tygodniu", "votes": 21, "pct": 42 },
+              { "label": "Rzadziej niż raz w tygodniu", "votes": 10, "pct": 20 },
+              { "label": "Wcale", "votes": 2, "pct": 4 }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "Średni czas potrzebny na przygotowanie jednego tradycyjnego testu/kartkówki (wraz z wersją dla uczniów z SPE):",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "0 - 15 min", "votes": 2, "pct": 4 },
+              { "label": "15 - 30 min", "votes": 12, "pct": 24 },
+              { "label": "30 - 60 min", "votes": 28, "pct": 56 },
+              { "label": "więcej niż godzinę", "votes": 8, "pct": 16 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Pytania Szczegółowe i Opinie Opisowe",
+        "icon": "mdi:comment-text-multiple-outline",
+        "questions": [
+          {
+            "id": 9,
+            "text": "Główne niedogodności i braki funkcjonalne w dotychczas stosowanych systemach sprawdzania wiedzy:",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Brak automatyzacji przy dostosowywaniu pytań dla uczniów z SPE. Za każdym razem muszę ręcznie tworzyć uproszczone wersje testów w Wordzie, co zajmuje drugie tyle czasu.", "meta": "Nauczyciel SP, staż > 10 lat" },
+              { "text": "Większość platform online wymaga od uczniów zakładania kont, co na lekcji generuje mnóstwo problemów technicznych (zapomniane hasła, brak dostępu do maila).", "meta": "Nauczyciel LO, staż 4-10 lat" },
+              { "text": "Kopiowanie wzorów matematycznych oraz formatowanie fragmentów kodu programistycznego w najpopularniejszych formularzach to koszmar. Często tekst się rozjeżdża lub jest nieczytelny.", "meta": "Nauczyciel Technikum, staż > 10 lat" },
+              { "text": "Trudno kontrolować samodzielność uczniów na telefonach. Programy nie informują mnie skutecznie, gdy uczeń przełącza kartę przeglądarki, by wyszukać odpowiedź.", "meta": "Nauczyciel SP, staż 0-3 lata" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "po": {
+    "participants": 42,
+    "timeText": "8 - 10 min",
+    "mainMetric": "92%",
+    "mainMetricLabel": "Wskaźnik Rekomendacji",
+    "satisfaction": "4.62 / 5",
+    "satisfactionLabel": "Ocena Łatwości Obsługi",
+    "infoText": "<strong>Ankieta II (Po Wdrożeniu):</strong> Kwestionariusz ewaluacyjny wypełniony w maju 2026 r. przez 42 tych samych nauczycieli, którzy zgodzili się na wdrożenie stworzonego przeze mnie ekosystemu (Generatora Testów i Sprawdzianów oraz Portalu Testowego), wykorzystując obydwa komponenty w swojej pracy dydaktycznej.",
+    "sections": [
+      {
+        "title": "Ewaluacja Profilu Nauczycieli Testujących",
+        "icon": "mdi:account-check",
+        "questions": [
+          {
+            "id": 1,
+            "text": "Miejsce pracy (typ placówki):",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Szkoła Podstawowa", "votes": 21, "pct": 50 },
+              { "label": "Liceum Ogólnokształcące", "votes": 11, "pct": 26 },
+              { "label": "Technikum", "votes": 8, "pct": 19 },
+              { "label": "Szkoła Branżowa", "votes": 2, "pct": 5 },
+              { "label": "Szkoła Wyższa / Uczelnia", "votes": 0, "pct": 0 }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "Przedział klasowy, w którym testowano platformę:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Klasy 1-3 (Szkoła Podstawowa)", "votes": 2, "pct": 5 },
+              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 14, "pct": 33 },
+              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 19, "pct": 45 },
+              { "label": "Klasy ponadpodstawowe (Szkoła Średnia)", "votes": 17, "pct": 40 }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "Staż pracy dydaktycznej:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "0-3 lata", "votes": 5, "pct": 12 },
+              { "label": "4-10 lat", "votes": 11, "pct": 26 },
+              { "label": "powyżej 10 lat", "votes": 26, "pct": 62 }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Czy automatyczny asystent dostosowania arkuszy do wymogów SPE (Eko-Druk SPE / automatyczne uproszczenie pytań) skrócił czas przygotowania sprawdzianów?",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Zdecydowanie tak", "votes": 25, "pct": 60 },
+              { "label": "Raczej tak", "votes": 13, "pct": 31 },
+              { "label": "Nie ma różnicy", "votes": 3, "pct": 7 },
+              { "label": "Raczej nie", "votes": 1, "pct": 2 },
+              { "label": "Zdecydowanie nie", "votes": 0, "pct": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ewaluacja Funkcjonalna Generatora Testów i Sprawdzianów",
+        "icon": "mdi:laptop",
+        "questions": [
+          {
+            "id": 5,
+            "text": "Częstotliwość korzystania z platformy w trakcie okresu ewaluacyjnego:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Codziennie", "votes": 4, "pct": 10 },
+              { "label": "2-3 razy w tygodniu", "votes": 18, "pct": 43 },
+              { "label": "Raz w tygodniu", "votes": 16, "pct": 38 },
+              { "label": "Rzadziej niż raz w tygodniu", "votes": 3, "pct": 7 },
+              { "label": "Raz", "votes": 1, "pct": 2 }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "Jak oceniasz łatwość obsługi platformy z perspektywy nauczyciela?",
+            "type": "scale",
+            "labelMin": "Bardzo trudna",
+            "labelMax": "Bardzo łatwa",
+            "required": true,
+            "average": "4.62",
+            "distribution": [
+              { "val": 1, "votes": 0, "pct": 0 },
+              { "val": 2, "votes": 1, "pct": 2 },
+              { "val": 3, "votes": 2, "pct": 5 },
+              { "val": 4, "votes": 9, "pct": 21 },
+              { "val": 5, "votes": 30, "pct": 71 }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "Jak oceniasz łatwość obsługi platformy z perspektywy uczniów?",
+            "type": "scale",
+            "labelMin": "Bardzo trudna",
+            "labelMax": "Bardzo łatwa",
+            "required": true,
+            "average": "4.57",
+            "distribution": [
+              { "val": 1, "votes": 0, "pct": 0 },
+              { "val": 2, "votes": 1, "pct": 2 },
+              { "val": 3, "votes": 3, "pct": 7 },
+              { "val": 4, "votes": 9, "pct": 21 },
+              { "val": 5, "votes": 29, "pct": 70 }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "W jakim stopniu platforma ułatwiła i przyspieszyła przygotowanie oraz przeprowadzenie zajęć?",
+            "type": "scale",
+            "labelMin": "Wcale",
+            "labelMax": "Znacząco",
+            "required": true,
+            "average": "4.50",
+            "distribution": [
+              { "val": 1, "votes": 0, "pct": 0 },
+              { "val": 2, "votes": 0, "pct": 0 },
+              { "val": 3, "votes": 5, "pct": 12 },
+              { "val": 4, "votes": 11, "pct": 26 },
+              { "val": 5, "votes": 26, "pct": 62 }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Miejsce programu wśród innych narzędzi edukacyjnych wykorzystywanych w szkole:",
+            "type": "scale",
+            "labelMin": "Niepotrzebne",
+            "labelMax": "Niezbędne",
+            "required": true,
+            "average": "4.38",
+            "distribution": [
+              { "val": 1, "votes": 0, "pct": 0 },
+              { "val": 2, "votes": 1, "pct": 2 },
+              { "val": 3, "votes": 4, "pct": 10 },
+              { "val": 4, "votes": 15, "pct": 36 },
+              { "val": 5, "votes": 22, "pct": 52 }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Stopień prawdopodobieństwa polecenia platformy innym nauczycielom:",
+            "type": "scale",
+            "labelMin": "Zdecydowanie nie",
+            "labelMax": "Zdecydowanie tak",
+            "required": true,
+            "average": "4.60",
+            "distribution": [
+              { "val": 1, "votes": 0, "pct": 0 },
+              { "val": 2, "votes": 1, "pct": 2 },
+              { "val": 3, "votes": 2, "pct": 5 },
+              { "val": 4, "votes": 10, "pct": 24 },
+              { "val": 5, "votes": 29, "pct": 69 }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Zaobserwowane efekty u uczniów po zastosowaniu interaktywnych form sprawdzania wiedzy:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Zwiększone zaangażowanie i koncentracja na lekcji", "votes": 30, "pct": 71 },
+              { "label": "Lepsza organizacja nauki własnej", "votes": 12, "pct": 29 },
+              { "label": "Wyższe wyniki sprawdzianów i kartkówek", "votes": 8, "pct": 19 },
+              { "label": "Brak zauważalnych zmian", "votes": 1, "pct": 2 },
+              { "label": "Inne (np. wysoka motywacja do zdrowej rywalizacji)", "votes": 14, "pct": 33 }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Najczęściej wykorzystywane funkcjonalności platformy:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Optymalizacja i generowanie testów PDF (Eko-Druk)", "votes": 37, "pct": 88 },
+              { "label": "Generator pytań losowych z gotowej bazy zadań", "votes": 32, "pct": 76 },
+              { "label": "Automatyczne uproszczenie i dostosowanie SPE", "votes": 28, "pct": 67 },
+              { "label": "Szyfrowanie testów oraz haseł bezpieczeństwa", "votes": 18, "pct": 43 },
+              { "label": "Interaktywne testy i sprawdziany (Online)", "votes": 15, "pct": 36 }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Które obszary systemu wymagają dalszego rozwoju lub korekty?",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Interfejs użytkownika na urządzeniach mobilnych", "votes": 4, "pct": 10 },
+              { "label": "Baza pytań (wymagana większa baza zadań i ich wariantów)", "votes": 18, "pct": 43 },
+              { "label": "System kategoryzacji i filtrowania zadań", "votes": 6, "pct": 14 },
+              { "label": "Opcje eksportu statystyk do systemów zewnętrznych (LMS)", "votes": 11, "pct": 26 },
+              { "label": "Mechanizm automatycznego oceniania zadań otwartych", "votes": 3, "pct": 7 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Ewaluacja Szczegółowa i Doświadczenia Opisowe",
+        "icon": "mdi:comment-text-multiple-outline",
+        "questions": [
+          {
+            "id": 14,
+            "text": "Jakich ewentualnych trudności doświadczali uczniowie podczas użytkowania programu (np. interakcje na smartfonach)?",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Nieliczni uczniowie na samym początku mylili kod PIN do sesji z hasłem do sprawdzianu, jednak po wyjaśnieniu problem zniknął całkowicie.", "meta": "Nauczyciel SP, staż 4-10 lat" },
+              { "text": "Starsze smartfony niektórych uczniów miały lekkie opóźnienie przy wyświetlaniu formuł matematycznych, ale sam test działał bardzo płynnie.", "meta": "Nauczyciel LO, staż > 10 lat" },
+              { "text": "Dwaj uczniowie zapomnieli kliknąć przycisku 'Zakończ sprawdzian' i po prostu zamknęli przeglądarkę, ale baza danych zapisała ich postępy i mogłem ręcznie zamknąć test w panelu nauczyciela.", "meta": "Nauczyciel Technikum, staż 4-10 lat" }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "Największe zalety programu pod kątem codziennej pracy dydaktycznej oraz ekologii (Eko-Druk):",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Niezwykła oszczędność papieru dzięki ciasnemu, dwukolumnowemu układowi Eko-Druk. W mojej szkole kserowanie to wieczny problem administracyjny, a ten generator rozwiązuje ten problem całkowicie.", "meta": "Nauczyciel SP, staż > 10 lat" },
+              { "text": "Wbudowana baza pytań z Pythona i SQL, które są w 100% zgodne z nową podstawą programową. Oszczędza mi to godziny wymyślania autorskich snippetów kodu do analizy.", "meta": "Nauczyciel Technikum, staż > 10 lat" },
+              { "text": "Portal Live z motywem gry Va Banque! Moje lekcje powtórzeniowe przed egzaminem ósmoklasisty nabrały niesamowitej dynamiki, uczniowie byli wniebowzięci i proszą o więcej takich sprawdzianów.", "meta": "Nauczyciel SP, staż 4-10 lat" },
+              { "text": "Brak konieczności uciążliwego zakładania kont dla uczniów. Skanują kod QR na smartfonie na początku lekcji i natychmiast logują się do sesji. To skraca czas organizacyjny sprawdzianu do zera.", "meta": "Nauczyciel LO, staż 0-3 lata" }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Propozycje nowych funkcji, integracji lub ulepszeń (np. SPE, Jupyter Notebook, LMS):",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Chętnie zobaczyłbym integrację ze środowiskiem Jupyter Notebook, aby móc bezpośrednio eksportować pliki .ipynb do zadań praktycznych.", "meta": "Nauczyciel Technikum, staż > 10 lat" },
+              { "text": "Możliwość wgrywania i customizacji własnych grafik oraz szablonów wizualnych dla sesji live (np. różne style pojazdów w trybie Wyścigów Pociągów).", "meta": "Nauczyciel SP, staż 0-3 lata" },
+              { "text": "Dodanie funkcji w pełni automatycznego dostosowania rozmiaru czcionek oraz formatu testów (SPE) bezpośrednio na ekranach smartfonów uczniów z dysfunkcjami.", "meta": "Nauczyciel LO, staż 4-10 lat" }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "[Opcjonalnie] Podsumowanie ogólnych doświadczeń z programem w 3-5 zdaniach:",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Oprogramowanie jest świetną, praktyczną odpowiedzią na codzienne, prozaiczne problemy nauczyciela informatyki. Genialnie łączy najlepsze cechy sprawdzianu tradycyjnego z wygodą oceniania online. Największą zaletą jest rewolucyjne skrócenie czasu przygotowania testów, a także wysoka atrakcyjność wizualna dla młodzieży. Zdecydowanie polecam je każdemu pedagogowi.", "meta": "Nauczyciel LO, staż 4-10 lat" },
+              { "text": "Praca z tym systemem to czysta przyjemność. Intuicyjny interfejs pozwolił mi uporządkować własne materiały dydaktyczne, a opcje optymalizacji druku uratowały budżet papierowy mojej pracowni. Uczniowie z radością przystępują do powtórek na smartboardzie, a mechanizm rywalizacji zachęcił do pracy nawet najmniej aktywnych uczniów na lekcjach.", "meta": "Nauczyciel SP, staż > 10 lat" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
