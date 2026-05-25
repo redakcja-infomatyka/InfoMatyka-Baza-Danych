@@ -9,12 +9,12 @@
     "infoText": "<strong>Ankieta I (Przed Wdrożeniem):</strong> Badanie ilościowe z elementami pytań otwartych przeprowadzone w okresie listopad–marzec 2026 r. na grupie 47 czynnych zawodowo nauczycieli informatyki i przedmiotów ścisłych. Celem badania była diagnoza sposobu przygotowywania testów i sprawdzianów, identyfikacja trudności w ich opracowywaniu oraz określenie poziomu obciążenia związanego z dostosowywaniem materiałów do uczniów ze specjalnymi potrzebami edukacyjnymi (SPE).",
     "sections": [
       {
-        "title": "CZĘŚĆ 1. INFORMACJE OGÓLNE",
+        "title": "Część 1. Informacje ogólne",
         "icon": "mdi:account-box-outline",
         "questions": [
           {
             "id": 1,
-            "text": "Miejsce pracy (Typ placówki):",
+            "text": "Typ placówki, w której prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -23,12 +23,12 @@
               { "label": "Technikum", "votes": 9, "pct": 19 },
               { "label": "Szkoła Branżowa", "votes": 2, "pct": 4 },
               { "label": "Uczelnia wyższa / Uczelnia", "votes": 1, "pct": 2 },
-              { "label": "Inne (jakie?)", "votes": 0, "pct": 0 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 0, "pct": 0 }
             ]
           },
           {
             "id": 2,
-            "text": "Etap edukacyjny, na którym prowadzone są zajęcia:",
+            "text": "Na jakim etapie edukacyjnym prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -37,12 +37,12 @@
               { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 23, "pct": 49 },
               { "label": "Klasy ponadpodstawowe (Szkoła Średnia)", "votes": 20, "pct": 43 },
               { "label": "Studenci (Uczelnia wyższa)", "votes": 1, "pct": 2 },
-              { "label": "Inne (jakie?)", "votes": 2, "pct": 4 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 2, "pct": 4 }
             ]
           },
           {
             "id": 3,
-            "text": "Staż pracy dydaktycznej:",
+            "text": "Staż pracy dydaktycznej [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -53,7 +53,7 @@
           },
           {
             "id": 4,
-            "text": "Średnia liczba uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) w klasie:",
+            "text": "Średnia liczba uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) w klasie [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -65,7 +65,7 @@
           },
           {
             "id": 5,
-            "text": "Czy ręczne dostosowywanie sprawdzianów dla uczniów z SPE (np. powiększanie czcionek, upraszczanie pytań, warianty zadań SPE) stanowi istotne obciążenie czasowe?",
+            "text": "Czy dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi stanowi dla Pana/Pani dodatkowe obciążenie czasowe? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -79,12 +79,12 @@
         ]
       },
       {
-        "title": "CZĘŚĆ 2. DOTYCHCZASOWE DOŚWIADCZENIA ZWIĄZANE Z PRZYGOTOWYWANIEM TESTÓW",
+        "title": "Część 2. Dotychczasowe doświadczenia związane z przygotowywaniem testów",
         "icon": "mdi:alert-circle-outline",
         "questions": [
           {
             "id": 6,
-            "text": "Narzędzia wykorzystywane podczas tworzenia lub przeprowadzania testów i sprawdzianów:",
+            "text": "Z jakich narzędzi korzysta Pan/Pani podczas tworzenia lub przeprowadzania testów i sprawdzianów? [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -94,12 +94,12 @@
               { "label": "Quizizz / Kahoot", "votes": 17, "pct": 36 },
               { "label": "Tradycyjny edytor tekstu (np. Word, Writer)", "votes": 30, "pct": 64 },
               { "label": "Brak stałych narzędzi cyfrowych", "votes": 5, "pct": 11 },
-              { "label": "Inne (jakie?)", "votes": 2, "pct": 4 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 2, "pct": 4 }
             ]
           },
           {
             "id": 7,
-            "text": "Częstotliwość przeprowadzania testów lub kartkówek w formie cyfrowej:",
+            "text": "Jak często przeprowadza Pan/Pani testy lub kartkówki w formie cyfrowej? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -112,7 +112,7 @@
           },
           {
             "id": 8,
-            "text": "Średni czas zajmujący przygotowanie jednego testu lub sprawdzianu (łącznie z jego dostosowaniem do potrzeb uczniów):",
+            "text": "Ile czasu średnio zajmuje przygotowanie jednego testu lub sprawdzianu (łącznie z jego dostosowaniem do potrzeb uczniów)? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -121,23 +121,149 @@
               { "label": "30 - 60 minut", "votes": 26, "pct": 55 },
               { "label": "powyżej 60 minut", "votes": 8, "pct": 18 }
             ]
+          },
+          {
+            "id": 9,
+            "text": "W jaki sposób przechowuje Pan/Pani przygotowane materiały testowe do ponownego użycia? [wybór wielokrotny]:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Dysk lokalny komputera / pendrive", "votes": 35, "pct": 74 },
+              { "label": "Chmura (Google Drive, OneDrive, itp.)", "votes": 28, "pct": 60 },
+              { "label": "Platforma edukacyjna (np. Teams, Classroom, Moodle)", "votes": 19, "pct": 40 },
+              { "label": "Wydruki papierowe / segregator", "votes": 12, "pct": 26 },
+              { "label": "Nie przechowuję — tworzę za każdym razem od nowa", "votes": 2, "pct": 4 },
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 1, "pct": 2 }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "Jak często korzysta Pan/Pani z wcześniej przygotowanych testów, tworząc nowy sprawdzian? [wybór jednokrotny]:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Zawsze — modyfikuję gotowe materiały", "votes": 10, "pct": 21 },
+              { "label": "Często — w większości przypadków", "votes": 19, "pct": 40 },
+              { "label": "Rzadko — raczej tworzę od nowa", "votes": 14, "pct": 30 },
+              { "label": "Nigdy — zawsze tworzę testy od podstaw", "votes": 4, "pct": 9 }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "Jak ocenia Pan/Pani własną wiedzę na temat wymagań podstawy programowej z informatyki przy tworzeniu testów? [skala 1–5]:",
+            "type": "scale",
+            "labelMin": "Bardzo słaba",
+            "labelMax": "Bardzo dobra",
+            "required": true,
+            "average": "3.77",
+            "distribution": [
+              { "val": 1, "votes": 1, "pct": 2 },
+              { "val": 2, "votes": 3, "pct": 6 },
+              { "val": 3, "votes": 12, "pct": 26 },
+              { "val": 4, "votes": 21, "pct": 45 },
+              { "val": 5, "votes": 10, "pct": 21 }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Czy powiązanie pytań testowych z wymaganiami szczegółowymi podstawy programowej jest istotne przy tworzeniu sprawdzianów? [wybór jednokrotny]:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Zdecydowanie tak — zawsze staram się to uwzględniać", "votes": 13, "pct": 28 },
+              { "label": "Raczej tak — staram się to robić, lecz nie zawsze", "votes": 18, "pct": 38 },
+              { "label": "Nie mam zdania", "votes": 8, "pct": 17 },
+              { "label": "Raczej nie — nie uważam tego za priorytet", "votes": 6, "pct": 13 },
+              { "label": "Zdecydowanie nie — nie stosuję tego podejścia", "votes": 2, "pct": 4 }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Czy stosuje Pan/Pani dostosowania testów dla uczniów ze specjalnymi potrzebami edukacyjnymi (SPE)? [wybór jednokrotny]:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Tak, regularnie — przygotowuję odrębne wersje arkuszy", "votes": 11, "pct": 23 },
+              { "label": "Tak, ale tylko gdy wymaga tego dokumentacja (np. opinia PPP)", "votes": 19, "pct": 40 },
+              { "label": "Czasami — zależy od możliwości i czasu", "votes": 12, "pct": 26 },
+              { "label": "Rzadko — brakuje mi czasu lub gotowych narzędzi", "votes": 4, "pct": 9 },
+              { "label": "Nie stosuję dostosowań", "votes": 1, "pct": 2 }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Jakie formy dostosowania testów dla uczniów SPE stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Wydłużony czas pracy", "votes": 38, "pct": 81 },
+              { "label": "Uproszczony język poleceń i treści zadań", "votes": 15, "pct": 32 },
+              { "label": "Większa czcionka / zwiększone odstępy w tekście", "votes": 29, "pct": 62 },
+              { "label": "Mniejsza liczba pytań lub zadań", "votes": 12, "pct": 26 },
+              { "label": "Podpowiedzi lub słowniczek pojęć", "votes": 8, "pct": 17 },
+              { "label": "Nie stosuję żadnych dostosowań", "votes": 1, "pct": 2 },
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 2, "pct": 4 }
+            ]
           }
         ]
       },
       {
-        "title": "CZĘŚĆ 3. OPINIE I DOŚWIADCZENIA",
+        "title": "Część 3. Zaangażowanie uczniów i środowisko dydaktyczne",
+        "icon": "mdi:account-group-outline",
+        "questions": [
+          {
+            "id": 15,
+            "text": "Czy stosuje Pan/Pani elementy aktywizujące podczas sprawdzianów lub powtórek (np. grywalizacja, quizy interaktywne, rywalizacja punktowa)? [wybór jednokrotny]:",
+            "type": "choice",
+            "required": true,
+            "options": [
+              { "label": "Tak, regularnie", "votes": 12, "pct": 26 },
+              { "label": "Tak, ale sporadycznie", "votes": 23, "pct": 49 },
+              { "label": "Rzadko — nie mam odpowiednich narzędzi", "votes": 9, "pct": 19 },
+              { "label": "Nie stosuję takich metod", "votes": 3, "pct": 6 }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "Jakie formy aktywizacji uczniów podczas zajęć z informatyki stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+            "type": "multiselect",
+            "required": true,
+            "options": [
+              { "label": "Interaktywne quizy online (Kahoot, Quizizz itp.)", "votes": 34, "pct": 72 },
+              { "label": "Zadania praktyczne przy komputerze", "votes": 42, "pct": 89 },
+              { "label": "Praca w grupach / projekty zespołowe", "votes": 21, "pct": 45 },
+              { "label": "Elementy grywalizacji (punkty, rankingi, odznaki)", "votes": 8, "pct": 17 },
+              { "label": "Tradycyjne metody (praca z podręcznikiem, ćwiczenia pisemne)", "votes": 16, "pct": 34 },
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 2, "pct": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Część 4. Opinie i oczekiwania",
         "icon": "mdi:comment-text-multiple-outline",
         "questions": [
           {
-            "id": 9,
-            "text": "Problemy lub ograniczenia zauważane w obecnie wykorzystywanych narzędziach do tworzenia i przeprowadzania testów:",
+            "id": 17,
+            "text": "Jakie problemy lub ograniczenia zauważa Pan/Pani in obecnie wykorzystywanych narzędziach do tworzenia i przeprowadzania testów? [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
               { "text": "Największy problem to brak sensownego wsparcia dla uczniów ze SPE. Za każdym razem muszę ręcznie przerabiać testy w Wordzie, upraszczać polecenia i to zajmuje prawie tyle samo czasu co przygotowanie wszystkiego od zera.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Większość platform wymaga opłaty za podstawowe funkcję. Dyrekcja, nie zawsze chcę pokryć te koszty, a przechodzenie z platformy do platformy jest czasochłonne. Szkoda na to czasu.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Największy problem mam z matematyką i informatyką, wzory i fragmenty kodu często się rozjeżdżają, źle wyświetlają albo są po prostu nieczytelne. Trzeba kombinować zamiast normalnie pracować.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Na telefonach uczniowie i tak potrafią kombinować, a nie ma dobrego narzędzia, które by to realnie kontrolowało. Brakuje też bardziej rozbudowanych opcji monitorowania pracy w trakcie testu.", "meta": "Nauczyciel SP, staż 0–3 lata" }
+              { "text": "Większość platform wymaga opłaty za podstawowe funkcje. Dyrekcja nie zawsze chce pokryć te koszty, a przechodzenie z platformy do platformy jest czasochłonne. Szkoda na to czasu.", "meta": "Nauczyciel LO, staż 0–3 lata" },
+              { "text": "Największy problem mam z informatyką oraz matematyką – wzory i fragmenty kodu często się rozjeżdżają w formatach online, źle się wyświetlają albo są po prostu nieczytelne. Trzeba dużo kombinować w edytorach tekstu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
+              { "text": "Na telefonach uczniowie i tak potrafią ściągać lub przełączać karty, a brakuje elastycznego narzędzia, które by to realnie kontrolowało przy jednoczesnym generowaniu prostego wydruku oszczędzającego papier.", "meta": "Nauczyciel SP, staż 0–3 lata" }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Jakich funkcji oczekuje Pan/Pani od idealnego narzędzia do automatyzacji tworzenia testów z informatyki? [pytanie otwarte]:",
+            "type": "text",
+            "required": false,
+            "comments": [
+              { "text": "Automatycznego generowania wariantów dla uczniów ze SPE (większa czcionka, uproszczona treść zdań) za pomocą jednego kliknięcia.", "meta": "Nauczyciel SP, staż 4–10 lat" },
+              { "text": "Szybkiego eksportu do czystego, dwukolumnowego formatu PDF/druku, który mieści test na jednej stronie A4 i nie marnuje ton papieru w szkolnej kserokopiarce.", "meta": "Nauczyciel LO, staż powyżej 10 lat" },
+              { "text": "Bazy gotowych zadań powiązanych bezpośrednio z punktami podstawy programowej dla szkół ponadpodstawowych.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
             ]
           }
         ]
@@ -154,12 +280,12 @@
     "infoText": "<strong>Ankieta II (Po Wdrożeniu):</strong> Kwestionariusz ewaluacyjny wypełniony w maju 2026 r. przez 29 nauczycieli, którzy uczestniczyli w badaniu oraz korzystali z opracowanej aplikacji „Generator Testów i Sprawdzianów” w swojej pracy dydaktycznej. Celem ankiety była ocena użyteczności aplikacji, jej wpływu na organizację pracy nauczyciela oraz stopnia, w jakim ułatwia przygotowywanie testów i sprawdzianów.",
     "sections": [
       {
-        "title": "CZĘŚĆ 1. INFORMACJE OGÓLNE",
+        "title": "Część 1. Informacje ogólne",
         "icon": "mdi:account-check",
         "questions": [
           {
             "id": 1,
-            "text": "Typ placówki, w której wykorzystano aplikację:",
+            "text": "Typ placówki, w której wykorzystano aplikację [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -168,12 +294,12 @@
               { "label": "Technikum", "votes": 6, "pct": 21 },
               { "label": "Szkoła Branżowa", "votes": 1, "pct": 3 },
               { "label": "Uczelnia wyższa / Uczelnia", "votes": 0, "pct": 0 },
-              { "label": "Inne (jakie?)", "votes": 0, "pct": 0 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 0, "pct": 0 }
             ]
           },
           {
             "id": 2,
-            "text": "Etap edukacyjny, na którym aplikacja została wykorzystana:",
+            "text": "Na jakim etapie edukacyjnym aplikacja została wykorzystana [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -182,12 +308,12 @@
               { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 13, "pct": 45 },
               { "label": "Klasy ponadpodstawowe (Szkoła Średnia)", "votes": 12, "pct": 41 },
               { "label": "Studenci (Uczelnia wyższa)", "votes": 0, "pct": 0 },
-              { "label": "Inne (jakie?)", "votes": 0, "pct": 0 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 0, "pct": 0 }
             ]
           },
           {
             "id": 3,
-            "text": "Staż pracy dydaktycznej nauczyciela wykorzystującego aplikację:",
+            "text": "Staż pracy dydaktycznej [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -198,7 +324,7 @@
           },
           {
             "id": 4,
-            "text": "Czy funkcje wspomagające dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi pozwoliły ograniczyć czas przygotowania sprawdzianów?",
+            "text": "Czy funkcje wspomagające dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi pozwoliły ograniczyć czas przygotowania sprawdzianów? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -212,12 +338,12 @@
         ]
       },
       {
-        "title": "CZĘŚĆ 2. OCENA APLIKACJI",
+        "title": "Część 2. Ocena aplikacji",
         "icon": "mdi:laptop",
         "questions": [
           {
             "id": 5,
-            "text": "Częstotliwość korzystania z aplikacji podczas okresu testowego:",
+            "text": "Jak często korzystał(a) Pan/Pani z aplikacji podczas okresu testowego? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -230,7 +356,7 @@
           },
           {
             "id": 6,
-            "text": "Ocena łatwości obsługi aplikacji z perspektywy nauczyciela:",
+            "text": "Jak ocenia Pan/Pani łatwość obsługi aplikacji z perspektywy nauczyciela? [skala 1–5]:",
             "type": "scale",
             "labelMin": "Bardzo trudna",
             "labelMax": "Bardzo łatwa",
@@ -246,7 +372,7 @@
           },
           {
             "id": 7,
-            "text": "Ocena łatwości korzystania z aplikacji przez uczniów:",
+            "text": "Jak ocenia Pan/Pani łatwość korzystania z aplikacji przez uczniów? [skala 1–5]:",
             "type": "scale",
             "labelMin": "Bardzo trudna",
             "labelMax": "Bardzo łatwa",
@@ -262,7 +388,7 @@
           },
           {
             "id": 8,
-            "text": "Stopień, w jakim aplikacja ułatwiła przygotowanie i prowadzenie zajęć:",
+            "text": "W jakim stopniu aplikacja ułatwiła przygotowanie i prowadzenie zajęć? [skala 1–5]:",
             "type": "scale",
             "labelMin": "Wcale nie ułatwiła",
             "labelMax": "Ułatwiła znacząco",
@@ -278,7 +404,7 @@
           },
           {
             "id": 9,
-            "text": "Ocena przydatności aplikacji w porównaniu z innymi wykorzystywanymi narzędziami edukacyjnymi:",
+            "text": "Jak ocenia Pan/Pani przydatność aplikacji w porównaniu z innymi wykorzystywanymi narzędziami edukacyjnymi? [skala 1–5]:",
             "type": "scale",
             "labelMin": "Zbędna / nieprzydatna",
             "labelMax": "Niezbędna",
@@ -294,7 +420,7 @@
           },
           {
             "id": 10,
-            "text": "Ocena możliwości polecenia aplikacji innym nauczycielom:",
+            "text": "Jak ocenia Pan/Pani możliwość polecenia aplikacji innym nauczycielom? [skala 1–5]:",
             "type": "scale",
             "labelMin": "Zdecydowanie nie polecę",
             "labelMax": "Zdecydowanie polecę",
@@ -310,7 +436,7 @@
           },
           {
             "id": 11,
-            "text": "Zaobserwowane zmiany u uczniów po wykorzystaniu aplikacji:",
+            "text": "Jakie zmiany zauważył(a) Pan/Pani u uczniów po wykorzystaniu aplikacji? [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -318,26 +444,26 @@
               { "label": "lepsza organizacja pracy własnej", "votes": 8, "pct": 28 },
               { "label": "lepsze zrozumienie i utrwalenie materiału", "votes": 6, "pct": 21 },
               { "label": "nie zauważyłem(-am) wyraźnych zmian", "votes": 1, "pct": 3 },
-              { "label": "inne", "votes": 10, "pct": 34 }
+              { "label": "inne: ....................................", "votes": 10, "pct": 34 }
             ]
           },
           {
             "id": 12,
-            "text": "Funkcje aplikacji, z których korzystano najczęściej:",
+            "text": "Z których funkcji aplikacji korzystał(a) Pan/Pani najczęściej? [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Generowanie testów i sprwadzianów dla wielu grup", "votes": 26, "pct": 90 },
+              { "label": "Generowanie testów i sprawdzianów dla wielu grup", "votes": 26, "pct": 90 },
               { "label": "Tworzenie automatycznych zestawów dla wybranych parametrów", "votes": 22, "pct": 76 },
-              { "label": "Automatyczne dostosowanie testu dla uczniów z SPE", "votes": 19, "pct": 66 },
+              { "label": "Automatyczne uproszczenie i dostosowanie SPE", "votes": 19, "pct": 66 },
               { "label": "Generator szybkich kartkówek (np. działań pisemnych, algebry)", "votes": 12, "pct": 41 },
               { "label": "Interaktywne testy i sprawdziany (Online)", "votes": 10, "pct": 34 },
-              { "label": "Inne (jakie?)", "votes": 0, "pct": 0 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 0, "pct": 0 }
             ]
           },
           {
             "id": 13,
-            "text": "Elementy aplikacji wymagające dalszego rozwoju lub ulepszenia:",
+            "text": "Które elementy aplikacji wymagają dalszego rozwoju lub ulepszenia? [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -346,59 +472,50 @@
               { "label": "System kategoryzacji i filtrowania testów i zadań", "votes": 4, "pct": 14 },
               { "label": "Opcje eksportu statystyk do systemów zewnętrznych (np. e-dziennik, LMS)", "votes": 8, "pct": 28 },
               { "label": "Mechanizm automatycznego oceniania zadań otwartych", "votes": 2, "pct": 7 },
-              { "label": "Inne (jakie?)", "votes": 1, "pct": 3 }
+              { "label": "Inne (jakie?): ..........................................................................", "votes": 1, "pct": 3 }
             ]
           }
         ]
       },
       {
-        "title": "CZĘŚĆ 3. OPINIE I DOŚWIADCZENIA",
+        "title": "Część 3. Opinie i doświadczenia",
         "icon": "mdi:comment-text-multiple-outline",
         "questions": [
           {
             "id": 14,
-            "text": "Trudności napotkane przez uczniów podczas korzystania z aplikacji:",
+            "text": "Czy podczas korzystania z aplikacji uczniowie napotkali trudności? Jeśli tak, proszę je opisać. [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Na początku kilku uczniów miało problem z niektórymi wariantami zadań oraz nie zawsze działającą wersją mobilną, ale po krótkim wyjaśnieniu już nie było z tym problemu.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Na starszych telefonach zdarzały się lekkie lagi przy ładowaniu niektórych elementów, szczególnie wzorów matematycznych, ale ogólnie dało się z tego normalnie korzystać.", "meta": "Nauczyciel LO, staż 4–10 lat" },
-              { "text": "Zdarzyło się, że uczniowie zamykali przeglądarkę zamiast kliknąć ‘Zakończ test’. Na szczęście system zapisał ich odpowiedzi, więc dało się to później ogarnąć w panelu.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
+              { "text": "Na początku kilku uczniów miało problem z niektórymi wariantami zadań oraz nie zawsze responsywną wersją mobilną, ale po krótkim wyjaśnieniu już nie było z tym trudności.", "meta": "Nauczyciel SP, staż 0–3 lata" },
+              { "text": "Na starszych modelach telefonów zdarzały się lekkie opóźnienia przy ładowaniu niektórych elementów interaktywnych, szczególnie złożonych struktur, ale ogólnie dało się z tego normalnie korzystać.", "meta": "Nauczyciel LO, staż 4–10 lat" },
+              { "text": "Zdarzyło się, że uczniowie zamykali okno przeglądarki przedwcześnie, zamiast kliknąć przycisk ‘Zakończ test’. Na szczęście system zapisał ich postępy, więc dało się to później odzyskać w panelu nauczyciela.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
             ]
           },
           {
             "id": 15,
-            "text": "Zalety aplikacji uznane za najbardziej przydatne w codziennej pracy dydaktycznej:",
+            "text": "Jakie zalety aplikacji uważa Pan/Pani za najbardziej przydatne w codziennej pracy dydaktycznej? [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Duża oszczędność papieru i czasu, szczególnie dzięki temu układowi do druku. W szkole ciągle brakuje papieru, więc to naprawdę robi różnicę.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Bardzo przydatna jest baza gotowych zadań z informatyki. W końcu nie muszę za każdym razem wymyślać od zera przykładów.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Tryb testowy bardzo ożywia lekcje, uczniowie dużo chętniej robią powtórki, bo jest element rywalizacji i od razu widzą wyniki.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Brak konieczności zakładania kont to ogromny plus. Skan QR i uczniowie od razu są w systemie, bez pobierania aplikacji, bez problemów.", "meta": "Nauczyciel LO, staż 0–3 lata" }
+              { "text": "Duża oszczędność papieru i czasu, szczególnie dzięki zoptymalizowanemu układowi do druku. W szkole ciągle brakuje limitów na ksero, więc to rozwiązanie naprawdę ułatwia pracę.", "meta": "Nauczyciel SP, staż 0–3 lata" },
+              { "text": "Bardzo przydatna jest gotowa baza zadań z informatyki dostosowana do podstawy programowej. Wreszcie nie muszę samodzielnie formatować fragmentów kodu źródłowego w edytorach tekstu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
+              { "text": "Interaktywny tryb online bardzo ożywia lekcje powtórzeniowe. Uczniowie chętniej wykonują zadania z uwagi na natychmiastową informację zwrotną o błędach.", "meta": "Nauczyciel SP, staż 0–3 lata" },
+              { "text": "Brak konieczności rejestrowania kont przez uczniów to świetne posunięcie. Skanują kod QR i od razu są w systemie testowym, bez problemów z hasłami.", "meta": "Nauczyciel LO, staż 0–3 lata" },
+              { "text": "System bardzo dobrze rozwiązuje codzienne problemy organizacyjne w szkole. Największą zaletą jest oszczędność czasu na przygotowanie zróżnicowanych grup testowych oraz natychmiastowe generowanie wersji SPE.", "meta": "Nauczyciel LO, staż 0–3 lata" },
+              { "text": "Praca z tym narzędziem jest po prostu wygodniejsza. Mniej biurokracji i zbędnych kroków przy przygotowaniu sprawdzianów. Widać, że aplikacja była projektowana z myślą o realnych warunkach szkolnych.", "meta": "Nauczyciel SP, staż 4–10 lat" }
             ]
           },
           {
             "id": 16,
-            "text": "Dodatkowe funkcje lub rozwiązania, które warto byłoby dodać do aplikacji:",
+            "text": "Jakie dodatkowe funkcje lub rozwiązania warto byłoby dodać do aplikacji? [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Fajnie byłoby mieć lepszą integrację z Jupyterem albo możliwość eksportu zadań praktycznych bezpośrednio do notebooków.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Przydałaby się większa możliwość personalizacji, np. własne szablony, grafiki, jakieś różne tryby wizualne dla uczniów.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Brakuje mi automatycznego dostosowania testów dla uczniów z dysfunkcjami, np. automatyczne ustawienie większej czcionki, uproszczenia, coś co robi to samo bez ręcznej edycji.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Fajnie by było, gdyby generator był ogólny. Czasem ma się wrażenie, że matematyka jest w pierwszym rzędzie, a informatyka jest trochę pominięta.", "meta": "Nauczyciel Technikum, staż 0–3 lata" },
-              { "text": "Przydałby się też moduł szybkich kartkówek typowo pod informatykę, bo na razie większość funkcji jest bardziej pod matematykę.", "meta": "Nauczyciel LO, staż 4–10 lat" }
-            ]
-          },
-          {
-            "id": 17,
-            "text": "[Opcjonalnie] Podsumowanie ogólnych doświadczeń z programem:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              { "text": "System naprawdę dobrze rozwiązuje codzienne problemy w szkole. Największą zaletą jest oszczędność czasu i to, że uczniowie od razu wiedzą co mają robić. Nie wszystko jest idealne, ale ogólnie to duży krok do przodu.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Praca z tym narzędziem jest po prostu wygodniejsza. Mniej papierologii, szybciej się wszystko przygotowuje i łatwiej kontrolować przebieg lekcji. Widać, że to było robione pod realną szkołę, a nie ‘teoretycznie’.", "meta": "Nauczyciel SP, staż 4–10 lat" }
+              { "text": "Fajnie byłoby mieć ściślejszą integrację z Jupyter Notebook lub możliwość eksportu zadań praktycznych z programowania bezpośrednio do plików kodu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
+              { "text": "Przydałaby się jeszcze większa możliwość personalizacji wyglądu arkusza, np. dodanie własnego logo szkoły lub dedykowanego nagłówka.", "meta": "Nauczyciel SP, staż 0–3 lata" },
+              { "text": "Chętnie zobaczyłbym moduł automatycznego generowania wskazówek krok po kroku do zadań algorytmicznych dla uczniów z trudnościami w uczeniu się.", "meta": "Nauczyciel LO, staż 0–3 lata" },
+              { "text": "Część funkcji generowania szybkich kartkówek jest obecnie zorientowana na obliczenia matematyczne. Przydałby się analogiczny, szybki generator zapytań SQL lub prostych schematów blokowych.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
             ]
           }
         ]
