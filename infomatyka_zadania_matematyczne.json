@@ -758,60 +758,6 @@
     ]
   },
   {
-    "baseId": 301,
-    "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
-    "level": "Rozszerzony",
-    "department": ["Programowanie I Algorytmika"],
-    "type": "wiązka",
-    "difficulty": "trudne",
-    "author": "InfoMatyka",
-    "tags": ["rekurencja", "ciągi rekurencyjne", "analiza algorytmów", "matura"],
-    "requirements": [
-      "Uczeń objaśnia, a także porównuje podstawowe metody i techniki algorytmiczne oraz struktury danych, wykorzystując przy tym przykłady problemów i algorytmów, w szczególności: b) rekurencję (do generowania ciągów liczb, potęgowania, sortowania liczb, generowania fraktali)"
-    ],
-    "targetApps": ["generator-testow"],
-    "variants": [
-      {
-        "id": 30101,
-        "text": "Dana jest następująca funkcja rekurencyjna w pseudokodzie:\n\n```\nfunkcja wynik( i )\n  jeżeli i < 3\n    zwróć 1 i zakończ;\n  w przeciwnym razie\n    jeżeli i mod 2 = 0\n      zwróć wynik(i - 3) + wynik(i - 1) + 1\n    w przeciwnym razie\n      zwróć wynik(i - 1) mod 7\n```\n\n*Uwaga: Operator `mod` oznacza resztę z dzielenia.*",
-        "points": 5,
-        "subQuestions": [
-          {
-            "type": "uzupełnij tabelę",
-            "points": 2,
-            "text": "Uzupełnij poniższą tabelę, obliczając kolejne wartości funkcji `wynik(i)` dla podanych argumentów.",
-            "tableRows": 8,
-            "tableCols": 2,
-            "tableData": [
-              "$i$", "$wynik(i)$",
-              "2", "1",
-              "3", "[[1]]",
-              "4", "[[3]]",
-              "5", "[[3]]",
-              "6", "[[5]]",
-              "7", "[[5]]",
-              "8", "[[9]]"
-            ],
-            "solution": "Kolejne wartości funkcji wyznaczamy krok po kroku na podstawie definicji rekurencyjnej:\n- Dla $i < 3$ funkcja zawsze zwraca $1$, stąd $wynik(0)=1$, $wynik(1)=1$, $wynik(2)=1$.\n- $wynik(3)$: $3$ jest nieparzyste $\\Rightarrow wynik(2) \\pmod 7 = 1 \\pmod 7 = 1$.\n- $wynik(4)$: $4$ jest parzyste $\\Rightarrow wynik(1) + wynik(3) + 1 = 1 + 1 + 1 = 3$.\n- $wynik(5)$: $5$ jest nieparzyste $\\Rightarrow wynik(4) \\pmod 7 = 3 \\pmod 7 = 3$.\n- $wynik(6)$: $6$ jest parzyste $\\Rightarrow wynik(3) + wynik(5) + 1 = 1 + 3 + 1 = 5$.\n- $wynik(7)$: $7$ jest nieparzyste $\\Rightarrow wynik(6) \\pmod 7 = 5 \\pmod 7 = 5$.\n- $wynik(8)$: $8$ jest parzyste $\\Rightarrow wynik(5) + wynik(7) + 1 = 3 + 5 + 1 = 9$."
-          },
-          {
-            "type": "uzupełnij lukę",
-            "points": 2,
-            "text": "Wykonaniem elementarnym nazywać będziemy wykonanie `wynik(0)`, `wynik(1)` lub `wynik(2)`.\nZłożonością elementarną `wynik(i)` nazywamy liczbę wykonań elementarnych będących efektem uruchomienia `wynik(i)`. Złożoność tę oznaczamy przez $E(i)$ (np. $E(4)=2$, ponieważ wykonując `wynik(4)` wywołamy `wynik(3)` i elementarne `wynik(1)`, a z kolei `wynik(3)` wywołuje elementarne `wynik(2)`).\n\nUzupełnij poniższe wartości złożoności elementarnej:\n- $E(5) = $ [[2]]\n- $E(7) = $ [[3]]\n- $E(9) = $ [[5]]\n- $E(10) = $ [[8]]\n\nUzupełnij brakujące wyrażenia we wzorze rekurencyjnym opisującym $E(i)$ dla $i > 2$:\n- Dla parzystego $i > 2$: $E(i) = E($ [[i - 3]] $) + E($ [[i - 1]] $)$\n- Dla nieparzystego $i > 2$: $E(i) = E($ [[i - 1]] $)$",
-            "solution": "Złożoność elementarna $E(i)$ reprezentuje liczbę liści w drzewie wywołań rekurencyjnych, które kończą się warunkiem bazowym ($i < 3$):\n- Dla $i$ parzystego: następuje wywołanie $wynik(i-3)$ oraz $wynik(i-1)$, stąd $E(i) = E(i-3) + E(i-1)$.\n- Dla $i$ nieparzystego: następuje wywołanie $wynik(i-1)$, stąd $E(i) = E(i-1)$.\n\nObliczenia wartości:\n- $E(0) = E(1) = E(2) = 1$\n- $E(3) = E(2) = 1$\n- $E(4) = E(1) + E(3) = 1 + 1 = 2$\n- $E(5) = E(4) = 2$\n- $E(6) = E(3) + E(5) = 1 + 2 = 3$\n- $E(7) = E(6) = 3$\n- $E(8) = E(5) + E(7) = 2 + 3 = 5$\n- $E(9) = E(8) = 5$\n- $E(10) = E(7) + E(9) = 3 + 5 = 8$."
-          },
-          {
-            "type": "uzupełnij lukę",
-            "points": 1,
-            "text": "Naszym celem jest wyznaczenie największej wartości spośród elementów ciągu $wynik(0), wynik(1), \\dots, wynik(1000)$ przy użyciu programowania dynamicznego (tablicowania).\nUzupełnij brakujące instrukcje w poniższym algorytmie:\n\n```\nW[0] ← 1\nW[1] ← 1\nW[2] ← 1\nmax_wart ← 1\ndla i = 3, 4, ..., 1 000 wykonuj\n  jeżeli i mod 2 = 0\n    W[i] ← [[W[i-3] + W[i-1] + 1]]\n  w przeciwnym razie\n    W[i] ← [[W[i-1] mod 7]]\n  jeżeli W[i] > max_wart\n    [[max_wart ← W[i]]]\nzwróć max_wart\n```",
-            "solution": "Algorytm korzysta z programowania dynamicznego (podejście wstępujące - *bottom-up*). W tablicy $W$ zapamiętujemy obliczone wcześniej wartości, eliminując wielokrotne obliczanie tych samych podproblemów:\n1. Dla parzystego $i$: instrukcja odtwarza krok rekurencyjny `wynik(i-3) + wynik(i-1) + 1` przy użyciu wartości tablicowych: `W[i] ← W[i-3] + W[i-1] + 1`.\n2. Dla nieparzystego $i$: analogicznie stosujemy instrukcję: `W[i] ← W[i-1] mod 7`.\n3. Aktualizacja dotychczasowego maksimum ciągu: jeżeli nowo wyznaczona wartość `W[i]` jest większa od `max_wart`, przypisujemy: `max_wart ← W[i]`."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "baseId": 901,
     "subject": "Informatyka",
     "school": ["Szkoła Średnia"],
@@ -874,6 +820,63 @@
         "tableData": ["Dziesiętnie", "1", "2", "3", "Binarnie", "[[1]]", "[[10]]", "[[11]]"],
         "solution": "Liczba 1 to binarnie 1, liczba 2 to binarnie 10, a liczba 3 to binarnie 11.",
         "isSpe": true
+      }
+    ]
+  }
+  {
+    "baseId": 903,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych I Ich Zastosowanie"],
+    "type": "wiązka",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "sql", "tabela", "wiązka", "kwerendy"],
+    "requirements": ["Uczeń interpretuje schematy baz danych i uzupełnia kwerendy SQL oraz tabele wynikowe."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 90301,
+        "text": "### Analiza bazy danych sklepu internetowego\n\nRozważ tabelę o nazwie `Klienci` w relacyjnej bazie danych sklepu. Tabela zawiera kolumny: `ID_klienta` (klucz główny), `Imię`, `Nazwisko`, `Miasto` oraz `Punkty`.",
+        "points": 4,
+        "isSpe": false,
+        "solution": "Podzadanie 903.1: W tabeli lukami są 'Nowak' oraz wartość punktowa '105'.\nPodzadanie 903.2: Poprawne słowa kluczowe w kwerendzie to 'INSERT' oraz 'VALUES'.",
+        "subtasks": [
+          {
+            "num": "903.1",
+            "points": 2,
+            "text": "Przeanalizowano działanie następującego zapytania filtrującego SQL:\n\n`SELECT ID_klienta, Nazwisko, Punkty FROM Klienci WHERE Punkty > 100;`\n\nUzupełnij brakujące dane w poniższej tabeli wynikowej kwerendy:\n\n| ID_klienta | Nazwisko | Punkty |\n| :---: | :---: | :---: |\n| 1 | Kowalski | 150 |\n| 3 | **[[Nowak]]** | 210 |\n| 5 | Wiśniewski | **[[105]]** |\n",
+            "solution": "Luka 1: Nowak, Luka 2: 105"
+          },
+          {
+            "num": "903.2",
+            "points": 2,
+            "text": "Uzupełnij luki (słowa kluczowe) w poniższym zapytaniu SQL, które służy do wprowadzania nowego rekordu do tabeli bazy danych:\n\n`[[INSERT]] INTO Klienci (Imię, Nazwisko, Miasto) [[VALUES]] ('Jan', 'Abacki', 'Warszawa');`",
+            "solution": "Luka 1: INSERT, Luka 2: VALUES"
+          }
+        ]
+      },
+      {
+        "id": 90302,
+        "text": "### [SPE] Analiza prostej bazy danych\n\nRozważ tabelę `Klienci` w bazie danych, w której zapisano informacje o klientach: ich `Imię`, `Nazwisko` oraz `Punkty`.",
+        "points": 2,
+        "isSpe": true,
+        "solution": "Podzadanie 903.1: W tabeli brakującą wartością jest 'Kowalski'.\nPodzadanie 903.2: Słowem kluczowym do dodawania jest 'INSERT'.",
+        "subtasks": [
+          {
+            "num": "903.1",
+            "points": 1,
+            "text": "Zapytanie SQL wybiera klientów, którzy mają więcej niż 50 punktów:\n\n`SELECT Nazwisko, Punkty FROM Klienci WHERE Punkty > 50;`\n\nUzupełnij brakujące nazwisko w tabeli na podstawie powyższego warunku:\n\n| Nazwisko | Punkty |\n| :---: | :---: |\n| **[[Kowalski]]** | 80 |\n| Nowak | 120 |\n",
+            "solution": "Luka: Kowalski"
+          },
+          {
+            "num": "903.2",
+            "points": 1,
+            "text": "Uzupełnij brakujące słowo kluczowe w zapytaniu, które dodaje nowego klienta do bazy:\n\n`[[INSERT]] INTO Klienci (Imię, Nazwisko) VALUES ('Anna', 'Górka');`",
+            "solution": "Luka: INSERT"
+          }
+        ]
       }
     ]
   }
