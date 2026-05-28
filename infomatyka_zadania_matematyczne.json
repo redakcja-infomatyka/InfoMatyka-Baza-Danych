@@ -671,7 +671,7 @@
         "text": "Oceń prawdziwość zdań.",
         "points": 2,
         "statements": [
-          { "text": "Pasażer w hamującym autobusie jest 'rzucany' do przodu z powodu działania siły bezwładności.", "answer": true },
+          { "text": "Pasażer w hamującym autobusie jest 'rzucany' do przodu z powodu działania siła bezwładności.", "answer": true },
           { "text": "Ciężar ciała jest taki sam na Ziemi i na Księżycu.", "answer": false }
         ],
         "solution": "1. Prawda - ciało pasażera dąży do utrzymania swojej prędkości (zgodnie z I zasadą dynamiki). 2. Fałsz - ciężar zależy od siły grawitacji, która na Księżycu jest znacznie mniejsza. Masa ciała pozostaje bez zmian."
@@ -839,42 +839,125 @@
       {
         "id": 90301,
         "text": "### Analiza bazy danych sklepu internetowego\n\nRozważ tabelę o nazwie `Klienci` w relacyjnej bazie danych sklepu. Tabela zawiera kolumny: `ID_klienta` (klucz główny), `Imię`, `Nazwisko`, `Miasto` oraz `Punkty`.",
-        "points": 4,
+        "points": 7,
         "isSpe": false,
-        "solution": "Podzadanie 903.1: W tabeli lukami są 'Nowak' oraz wartość punktowa '105'.\nPodzadanie 903.2: Poprawne słowa kluczowe w kwerendzie to 'INSERT' oraz 'VALUES'.",
+        "customInstruction": "**Wersja Stacjonarna i Online:** Podzadania kwerend SQL zapisz starannie w arkuszu. Skrypt połączeniowy w języku Python zapisz i prześlij w edytorze kodu.",
+        "solution": "Podzadanie 903.1: Wybrano poprawny SELECT. Podzadanie 903.2: Prawda dla relacji 1:N, fałsz dla definicji klucza obcego. Podzadanie 903.3: Odpowiednio luki UPDATE i WHERE. Podzadanie 903.4: Poprawny skrypt import sqlite3 i sqlite3.connect().",
         "subtasks": [
           {
             "num": "903.1",
-            "points": 2,
-            "text": "Przeanalizowano działanie następującego zapytania filtrującego SQL:\n\n`SELECT ID_klienta, Nazwisko, Punkty FROM Klienci WHERE Punkty > 100;`\n\nUzupełnij brakujące dane w poniższej tabeli wynikowej kwerendy:\n\n| ID_klienta | Nazwisko | Punkty |\n| :---: | :---: | :---: |\n| 1 | Kowalski | 150 |\n| 3 | **[[Nowak]]** | 210 |\n| 5 | Wiśniewski | **[[105]]** |\n",
-            "solution": "Luka 1: Nowak, Luka 2: 105"
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Wybierz poprawne zapytanie wyświetlające unikalne nazwy miast z tabeli `Klienci`:",
+            "options": ["`SELECT DISTINCT Miasto FROM Klienci;`", "`SELECT UNIQUE Miasto FROM Klienci;`", "`SELECT Miasto FROM Klienci GROUP BY ID_klienta;`"],
+            "correctAnswerIndex": 0,
+            "solution": "Słowo kluczowe `DISTINCT` eliminuje duplikaty z wyników."
           },
           {
             "num": "903.2",
             "points": 2,
-            "text": "Uzupełnij luki (słowa kluczowe) w poniższym zapytaniu SQL, które służy do wprowadzania nowego rekordu do tabeli bazy danych:\n\n`[[INSERT]] INTO Klienci (Imię, Nazwisko, Miasto) [[VALUES]] ('Jan', 'Abacki', 'Warszawa');`",
-            "solution": "Luka 1: INSERT, Luka 2: VALUES"
+            "type": "prawda-fałsz",
+            "text": "Oceń prawdziwość zdań dotyczących relacyjnych baz danych.",
+            "statements": [
+              { "text": "Klucz obcy (*foreign key*) jednoznacznie identyfikuje każdy rekord w tej samej tabeli, w której się znajduje.", "answer": false },
+              { "text": "Relacja jeden do wielu ($1:\\infty$) jest najczęściej stosowanym typem powiązania między dwiema tabelami bazy.", "answer": true }
+            ],
+            "solution": "Klucz obcy służy do łączenia tabel (identyfikację rekordu zapewnia klucz główny). Relacja jeden do wielu to najczęstsze powiązanie."
+          },
+          {
+            "num": "903.3",
+            "points": 2,
+            "type": "uzupełnij tabelę",
+            "text": "Uzupełnij brakujące elementy instrukcji SQL modyfikującej bazę:",
+            "tableRows": 2,
+            "tableCols": 3,
+            "tableData": ["Polecenie główne", "Modyfikowana tabela", "Warunek", "[[UPDATE]] Klienci", "SET Punkty = Punkty + 10", "[[WHERE]] ID_klienta = 5"],
+            "solution": "Modyfikację danych wykonujemy poleceniem `UPDATE`, a warunek filtrujący definiujemy za pomocą klauzuli `WHERE`."
+          },
+          {
+            "num": "903.4",
+            "points": 2,
+            "type": "program komputerowy",
+            "text": "Napisz brakujący fragment kodu w języku Python służący do bezpiecznego połączenia się z lokalną bazą SQLite o nazwie `sklep.db`.",
+            "programName": "db_connect.py",
+            "solution": "```python\nimport sqlite3\nconn = sqlite3.connect('sklep.db')\n```"
           }
         ]
       },
       {
         "id": 90302,
-        "text": "### [SPE] Analiza prostej bazy danych\n\nRozważ tabelę `Klienci` w bazie danych, w której zapisano informacje o klientach: ich `Imię`, `Nazwisko` oraz `Punkty`.",
-        "points": 2,
+        "text": "### [SPE] Prosta baza danych\n\nRozważ tabelę `Klienci` zawierającą kolumny `Nazwisko` oraz `Punkty`.",
+        "points": 3,
         "isSpe": true,
-        "solution": "Podzadanie 903.1: W tabeli brakującą wartością jest 'Kowalski'.\nPodzadanie 903.2: Słowem kluczowym do dodawania jest 'INSERT'.",
+        "customInstruction": "**Wskazówka SPE:** Skup się na odczytaniu danych z uproszczonego schematu tabeli.",
+        "solution": "Podzadanie 903.1: Wskazano nazwisko Kowalski. Podzadanie 903.2: Słowo kluczowe INSERT.",
         "subtasks": [
           {
             "num": "903.1",
             "points": 1,
-            "text": "Zapytanie SQL wybiera klientów, którzy mają więcej niż 50 punktów:\n\n`SELECT Nazwisko, Punkty FROM Klienci WHERE Punkty > 50;`\n\nUzupełnij brakujące nazwisko w tabeli na podstawie powyższego warunku:\n\n| Nazwisko | Punkty |\n| :---: | :---: |\n| **[[Kowalski]]** | 80 |\n| Nowak | 120 |\n",
-            "solution": "Luka: Kowalski"
+            "type": "jednokrotny wybór",
+            "text": "Uruchomiono filtrowanie kwerendą `WHERE Punkty > 50`. Który uczeń ma tyle punktów?",
+            "options": ["Kowalski (80 pkt)", "Nowak (30 pkt)"],
+            "correctAnswerIndex": 0,
+            "solution": "Liczba 80 jest większa od 50, więc poprawnym wyborem jest Kowalski."
           },
           {
             "num": "903.2",
+            "points": 2,
+            "type": "uzupełnij lukę",
+            "text": "Uzupełnij brakujące słowo kluczowe służące do wprowadzania nowego rekordu:\n\n`[[INSERT]] INTO Klienci (Nazwisko) VALUES ('Górka');`"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "baseId": 904,
+    "subject": "Matematyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Funkcje"],
+    "type": "wiązka",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "tags": ["funkcja kwadratowa", "wykres", "wiązka", "równania"],
+    "requirements": ["Uczeń interpretuje geometrycznie własności funkcji kwadratowej oraz rozwiązuje równania powiązane."],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 90401,
+        "text": "### Analiza analityczna i graficzna funkcji kwadratowej\n\nRozważamy funkcję kwadratową daną wzorem ogólnym $f(x) = x^2 - 2x - 3$.",
+        "points": 5,
+        "isSpe": false,
+        "customInstruction": "**Wskazówka:** Do obliczeń współrzędnych wierzchołka paraboli użyj wzorów $p = \\frac{-b}{2a}$ oraz $q = \\frac{-\\Delta}{4a}$.",
+        "solution": "Podzadanie 904.1: Współrzędne wierzchołka to W(1, -4). Podzadanie 904.2: Przedział wartości ujemnych to <-1, 3>. Podzadanie 904.3: Delta wynosi 16, a miejsca zerowe to -1 i 3.",
+        "subtasks": [
+          {
+            "num": "904.1",
+            "points": 2,
+            "type": "wykres",
+            "text": "Na podstawie poniższego poglądowego wykresu funkcji $f(x)$ określ geometrycznie i wskaż współrzędne jej wierzchołka $W(p, q)$:",
+            "chartTitle": "Wykres funkcji f(x) = x² - 2x - 3",
+            "chartType": "line",
+            "chartLabels": ["-2", "-1", "0", "1", "2", "3", "4"],
+            "chartData": [5, 0, -3, -4, -3, 0, 5],
+            "solution": "Wierzchołek leży w najniższym punkcie paraboli: $W = (1, -4)$."
+          },
+          {
+            "num": "904.2",
             "points": 1,
-            "text": "Uzupełnij brakujące słowo kluczowe w zapytaniu, które dodaje nowego klienta do bazy:\n\n`[[INSERT]] INTO Klienci (Imię, Nazwisko) VALUES ('Anna', 'Górka');`",
-            "solution": "Luka: INSERT"
+            "type": "oś liczbowa",
+            "text": "Zaznacz na osi przedział wartości argumentów $x$, dla których funkcja przyjmuje wartości niedodatnie ($f(x) \\le 0$).",
+            "axisStart": -3,
+            "axisStep": 1,
+            "axisPoints": "x_1:2;x_2:6",
+            "solution": "Funkcja przyjmuje wartości mniejsze bądź równe zero w przedziale domkniętym między swoimi miejscami zerowymi: $x \\in \\langle -1, 3 \\rangle$."
+          },
+          {
+            "num": "904.3",
+            "points": 2,
+            "type": "uzupełnij lukę",
+            "text": "Dla funkcji $f(x) = x^2 - 2x - 3$ wyróżnik równania kwadratowego wynosi $\\Delta = $ [[16]], a jej miejsca zerowe to odpowiednio $x_1 = $ [[-1]] oraz $x_2 = $ [[3]]."
           }
         ]
       }
