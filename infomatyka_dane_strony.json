@@ -136,7 +136,12 @@
     ]
   },
   "progressConfig": {
-    "xpPerLevel": 1000,
+    "xpBrackets": [
+      { "maxLevel": 10, "xpRequired": 500 },
+      { "maxLevel": 20, "xpRequired": 1000 },
+      { "maxLevel": 30, "xpRequired": 1500 },
+      { "maxLevel": 9999, "xpRequired": 2000 }
+    ],
     "xpRewards": {
       "gra": 100,
       "quiz": 50,
