@@ -14,7 +14,7 @@
         "questions": [
           {
             "id": 1,
-            "text": "Typ placówki, w której prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
+            "text": "Typ placówki, w której prowadzone są zajęcia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -22,21 +22,18 @@
               { "label": "Liceum Ogólnokształcące", "votes": 11, "pct": 23 },
               { "label": "Technikum", "votes": 9, "pct": 19 },
               { "label": "Szkoła Branżowa", "votes": 2, "pct": 4 },
-              { "label": "Uczelnia wyższa / Uczelnia", "votes": 1, "pct": 2 },
-              { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
+              { "label": "Inne (Jakie?)", "votes": 1, "pct": 2 }
             ]
           },
           {
             "id": 2,
-            "text": "Na jakim etapie edukacyjnym prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
+            "text": "Etap edukacyjny, na którym prowadzone są zajęcia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Klasy 1-3 (Szkoła Podstawowa)", "votes": 4, "pct": 9 },
-              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 17, "pct": 36 },
-              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 23, "pct": 49 },
-              { "label": "Klasy Ponadpodstawowe (Szkoła Średnia)", "votes": 20, "pct": 43 },
-              { "label": "Studenci (Uczelnia Wyższa)", "votes": 1, "pct": 2 },
+              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 18, "pct": 38 },
+              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 25, "pct": 53 },
+              { "label": "Klasy Ponadpodstawowe (Szkoła Średnia)", "votes": 22, "pct": 47 },
               { "label": "Inne (Jakie?)", "votes": 2, "pct": 4 }
             ]
           },
@@ -65,7 +62,7 @@
           },
           {
             "id": 5,
-            "text": "Czy dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi stanowi dla Pana/Pani dodatkowe obciążenie czasowe? [wybór jednokrotny]:",
+            "text": "Czy dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi stanowi dodatkowe obciążenie czasowe? [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -84,7 +81,7 @@
         "questions": [
           {
             "id": 6,
-            "text": "Z jakich narzędzi korzysta Pan/Pani podczas tworzenia lub przeprowadzania testów i sprawdzianów? [wybór wielokrotny]:",
+            "text": "Narzędzia wykorzystywane podczas tworzenia lub przeprowadzania testów i sprawdzianów [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -99,7 +96,7 @@
           },
           {
             "id": 7,
-            "text": "Jak często przeprowadza Pan/Pani testy lub quizy w formie cyfrowej? [wybór jednokrotny]:",
+            "text": "Częstotliwość przeprowadzania testów lub quizów w formie cyfrowej [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -112,7 +109,7 @@
           },
           {
             "id": 8,
-            "text": "Ile czasu średnio zajmuje przygotowanie jednego testu lub sprawdzianu (łącznie z jego dostosowaniem do potrzeb uczniów)? [wybór jednokrotny]:",
+            "text": "Średni czas przygotowania jednego testu lub sprawdzianu wraz z dostosowaniem [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -124,7 +121,7 @@
           },
           {
             "id": 9,
-            "text": "W jaki sposób przechowuje Pan/Pani przygotowane materiały testowe do ponownego użycia? [wybór wielokrotny]:",
+            "text": "Sposób przechowywania przygotowanych materiałów testowych do ponownego użycia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -138,7 +135,7 @@
           },
           {
             "id": 10,
-            "text": "Jak często korzysta Pan/Pani z wcześniej przygotowanych testów, tworząc nowy sprawdzian? [wybór jednokrotny]:",
+            "text": "Częstotliwość korzystania z wcześniej przygotowanych testów przy tworzeniu nowych sprawdzianów [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -150,7 +147,7 @@
           },
           {
             "id": 11,
-            "text": "Jak ocenia Pan/Pani własną wiedzę na temat wymagań podstawy programowej z informatyki przy tworzeniu testów? [skala 1–5]:",
+            "text": "Ocena własnej wiedzy o wymaganiach podstawy programowej z informatyki przy tworzeniu testów [skala 1–5]:",
             "type": "scale",
             "labelMin": "Bardzo słaba",
             "labelMax": "Bardzo dobra",
@@ -166,7 +163,7 @@
           },
           {
             "id": 12,
-            "text": "Czy powiązanie pytań testowych z wymaganiami szczegółowymi podstawy programowej jest istotne przy tworzeniu sprawdzianów? [wybór jednokrotny]:",
+            "text": "Znaczenie powiązania pytań testowych z wymaganiami podstawy programowej przy tworzeniu sprawdzianów [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -179,7 +176,7 @@
           },
           {
             "id": 13,
-            "text": "Czy stosuje Pan/Pani dostosowania testów dla uczniów ze specjalnymi potrzebami edukacyjnymi (SPE)? [wybór jednokrotny]:",
+            "text": "Stosowanie dostosowań testów dla uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -192,7 +189,7 @@
           },
           {
             "id": 14,
-            "text": "Jakie formy dostosowania testów dla uczniów SPE stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+            "text": "Najczęściej stosowane formy dostosowania testów dla uczniów SPE [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -213,7 +210,7 @@
         "questions": [
           {
             "id": 15,
-            "text": "Czy stosuje Pan/Pani elementy aktywizujące podczas sprawdzianów lub powtórek (np. grywalizacja, quizy interaktywne, rywalizacja punktowa)? [wybór jednokrotny]:",
+            "text": "Stosowanie elementów aktywizujących podczas sprawdzianów lub powtórek [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -225,7 +222,7 @@
           },
           {
             "id": 16,
-            "text": "Jakie formy aktywizacji uczniów podczas zajęć z informatyki stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+            "text": "Najczęściej stosowane formy aktywizacji uczniów na zajęciach z informatyki [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -245,7 +242,7 @@
         "questions": [
           {
             "id": 17,
-            "text": "Jakie problemy lub ograniczenia zauważa Pan/Pani w obecnie wykorzystywanych narzędziach do tworzenia i przeprowadzania testów? [pytanie otwarte]:",
+            "text": "Problemy i ograniczenia w obecnie stosowanych narzędziach do tworzenia i przeprowadzania testów [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
@@ -257,7 +254,7 @@
           },
           {
             "id": 18,
-            "text": "Jakich funkcji oczekuje Pan/Pani od idealnego narzędzia do automatyzacji tworzenia testów z informatyki? [pytanie otwarte]:",
+            "text": "Oczekiwane funkcje w idealnym narzędziu do automatyzacji tworzenia testów z informatyki [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
@@ -293,21 +290,18 @@
               { "label": "Liceum Ogólnokształcące", "votes": 8, "pct": 28 },
               { "label": "Technikum", "votes": 6, "pct": 21 },
               { "label": "Szkoła Branżowa", "votes": 1, "pct": 3 },
-              { "label": "Uczelnia wyższa / Uczelnia", "votes": 0, "pct": 0 },
               { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
             ]
           },
           {
             "id": 2,
-            "text": "Na jakim etapie edukacyjnym aplikacja została wykorzystana [wybór wielokrotny]:",
+            "text": "Etap edukacyjny, na którym wykorzystano aplikację [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Klasy 1-3 (Szkoła Podstawowa)", "votes": 1, "pct": 3 },
               { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 10, "pct": 34 },
-              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 13, "pct": 45 },
+              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 14, "pct": 48 },
               { "label": "Klasy Ponadpodstawowe (Szkoła Średnia)", "votes": 12, "pct": 41 },
-              { "label": "Studenci (Uczelnia wyższa)", "votes": 0, "pct": 0 },
               { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
             ]
           },
@@ -324,7 +318,7 @@
           },
           {
             "id": 4,
-            "text": "Czy funkcje wspomagające dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi pozwoliły ograniczyć czas przygotowania sprawdzianów? [wybór jednokrotny]:",
+            "text": "Wpływ funkcji dostosowujących materiały dla uczniów SPE na skrócenie czasu przygotowania sprawdzianów [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -343,7 +337,7 @@
         "questions": [
           {
             "id": 5,
-            "text": "Jak często korzystał(a) Pan/Pani z aplikacji podczas okresu testowego? [wybór jednokrotny]:",
+            "text": "Częstotliwość korzystania z aplikacji w okresie testowym [wybór jednokrotny]:",
             "type": "choice",
             "required": true,
             "options": [
@@ -356,7 +350,7 @@
           },
           {
             "id": 6,
-            "text": "Jak ocenia Pan/Pani łatwość obsługi aplikacji z perspektywy nauczyciela? [skala 1–5]:",
+            "text": "Ocena łatwości obsługi aplikacji z perspektywy nauczyciela [skala 1–5]:",
             "type": "scale",
             "labelMin": "Bardzo trudna",
             "labelMax": "Bardzo łatwa",
@@ -372,7 +366,7 @@
           },
           {
             "id": 7,
-            "text": "Jak ocenia Pan/Pani łatwość korzystania z aplikacji przez uczniów? [skala 1–5]:",
+            "text": "Ocena łatwości korzystania z aplikacji przez uczniów [skala 1–5]:",
             "type": "scale",
             "labelMin": "Bardzo trudna",
             "labelMax": "Bardzo łatwa",
@@ -388,7 +382,7 @@
           },
           {
             "id": 8,
-            "text": "W jakim stopniu aplikacja ułatwiła przygotowanie i prowadzenie zajęć? [skala 1–5]:",
+            "text": "Stopień ułatwienia przygotowania i prowadzenia zajęć dzięki aplikacji [skala 1–5]:",
             "type": "scale",
             "labelMin": "Wcale nie ułatwiła",
             "labelMax": "Ułatwiła znacząco",
@@ -404,7 +398,7 @@
           },
           {
             "id": 9,
-            "text": "Jak ocenia Pan/Pani przydatność aplikacji w porównaniu z innymi wykorzystywanymi narzędziami edukacyjnymi? [skala 1–5]:",
+            "text": "Ocena przydatności aplikacji w porównaniu z innymi narzędziona edukacyjnymi [skala 1–5]:",
             "type": "scale",
             "labelMin": "Zbędna / nieprzydatna",
             "labelMax": "Niezbędna",
@@ -420,7 +414,7 @@
           },
           {
             "id": 10,
-            "text": "Jak ocenia Pan/Pani możliwość polecenia aplikacji innym nauczycielom? [skala 1–5]:",
+            "text": "Gotowość do polecenia aplikacji innym nauczycielom [skala 1–5]:",
             "type": "scale",
             "labelMin": "Zdecydowanie nie polecę",
             "labelMax": "Zdecydowanie polecę",
@@ -436,7 +430,7 @@
           },
           {
             "id": 11,
-            "text": "Jakie zmiany zauważył(a) Pan/Pani u uczniów po wykorzystaniu aplikacji? [wybór wielokrotny]:",
+            "text": "Zauważone zmiany u uczniów po wdrożeniu aplikacji [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -449,7 +443,7 @@
           },
           {
             "id": 12,
-            "text": "Z których funkcji aplikacji korzystał(a) Pan/Pani najczęściej? [wybór wielokrotny]:",
+            "text": "Najczęściej wykorzystywane funkcje aplikacji [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -463,7 +457,7 @@
           },
           {
             "id": 13,
-            "text": "Które elementy aplikacji wymagają dalszego rozwoju lub ulepszenia? [wybór wielokrotny]:",
+            "text": "Obszary aplikacji wymagające dalszego rozwoju lub ulepszenia [wybór wielokrotny]:",
             "type": "multiselect",
             "required": true,
             "options": [
@@ -483,7 +477,7 @@
         "questions": [
           {
             "id": 14,
-            "text": "Czy podczas korzystania z aplikacji uczniowie napotkali trudności? Jeśli tak, proszę je opisać. [pytanie otwarte]:",
+            "text": "Trudności napotkane przez uczniów podczas korzystania z aplikacji [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
@@ -494,7 +488,7 @@
           },
           {
             "id": 15,
-            "text": "Jakie zalety aplikacji uważa Pan/Pani za najbardziej przydatne w codziennej pracy dydaktycznej? [pytanie otwarte]:",
+            "text": "Główne zalety aplikacji w codziennej pracy dydaktycznej [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
@@ -508,7 +502,7 @@
           },
           {
             "id": 16,
-            "text": "Jakie dodatkowe funkcje lub rozwiązania warto byłoby dodać do aplikacji? [pytanie otwarte]:",
+            "text": "Sugerowane dodatkowe funkcje lub rozwiązania do wdrożenia w przyszłości [pytanie otwarte]:",
             "type": "text",
             "required": false,
             "comments": [
