@@ -61,7 +61,8 @@
         "tekstPrzycisku": "Harmonogram",
         "data": "14.06.2026",
         "startDate": "2026-06-10",
-        "endDate": "2026-06-17"
+        "endDate": "2026-06-17",
+        "collapsible": true
       },
       {
         "tytul": "WAŻNA INFORMACJA",
@@ -70,12 +71,34 @@
         "tekstPrzycisku": "Zobacz Więcej"
       },
       {
-        "tytul": "Minione wydarzenie testowe",
-        "tresc": "To ogłoszenie wygasło i powinno być automatycznie ukryte (zniknąć).",
-        "linkPrzycisku": "/p/o-witrynie.html",
-        "tekstPrzycisku": "Więcej",
-        "startDate": "2026-06-01",
-        "endDate": "2026-06-10"
+        "tytul": "Nadchodzące szkolenie dla nauczycieli",
+        "tresc": "Zapisz się już dziś na szkolenie z zakresu programowania w Pythonie.",
+        "linkPrzycisku": "/p/rejestracja-szkolenie.html",
+        "tekstPrzycisku": "Dowiedz się więcej",
+        "tekstPrzyciskuPrzed": "Zapisz się wcześniej (Przed)",
+        "startDate": "2026-06-20 10:00",
+        "endDate": "2026-06-20 14:00",
+        "visibleFrom": "2026-06-10 08:00"
+      },
+      {
+        "tytul": "Zakończony konkurs programistyczny",
+        "tresc": "Konkurs dobiegł końca. Dziękujemy wszystkim uczestnikom za udział!",
+        "linkPrzycisku": "/p/konkurs.html",
+        "tekstPrzycisku": "Wyniki",
+        "tekstPrzyciskuPo": "Zobacz podsumowanie (Po)",
+        "linkPo": "/p/podsumowanie-konkursu.html",
+        "startDate": "2026-06-05 08:00",
+        "endDate": "2026-06-10 18:00",
+        "visibleUntil": "2026-06-20 23:59"
+      },
+      {
+        "tytul": "Wydarzenie przyszłe niewidoczne",
+        "tresc": "To ogłoszenie nie powinno się pojawić, ponieważ data visibleFrom jest w przyszłości.",
+        "linkPrzycisku": "/p/niewidoczne.html",
+        "tekstPrzycisku": "Niewidoczne",
+        "startDate": "2026-07-01 12:00",
+        "endDate": "2026-07-01 15:00",
+        "visibleFrom": "2026-06-25 00:00"
       }
     ],
     "liczniki": {
@@ -99,17 +122,21 @@
         "info": "Lekcja testowa weryfikująca automatyczne nadanie statusu LIVE na podstawie zakresu godzinowego.",
         "link": "https://www.infomatyka.pl/p/lekcja-testowa.html",
         "tekstPrzycisku": "Dołącz do lekcji",
+        "tekstPrzyciskuWTrakcie": "Dołącz teraz (Live)",
         "startDate": "2026-06-13 21:00",
-        "endDate": "2026-06-13 23:59"
+        "endDate": "2026-06-13 23:59",
+        "collapsible": true
       },
       {
         "tekst": "Lekcja 1: Powtórzenie przed Egzaminem Ósmoklasisty",
         "data": "16.06.2026, godz. 17:00",
         "info": "Temat: Zadania tekstowe i procenty. Przygotuj przybory geometryczne.",
         "link": "https://www.infomatyka.pl/p/lekcja-na-zywo.html",
-        "tekstPrzycisku": "Dołącz (Live)",
+        "tekstPrzycisku": "Zarezerwuj miejsce",
+        "tekstPrzyciskuPrzed": "Zarezerwuj (Przed)",
         "startDate": "2026-06-16 17:00",
-        "endDate": "2026-06-16 18:30"
+        "endDate": "2026-06-16 18:30",
+        "collapsible": true
       },
       {
         "tekst": "Lekcja 2: Wprowadzenie do Pythona",
@@ -121,13 +148,27 @@
         "endDate": "2026-06-23 20:00"
       },
       {
-        "tekst": "Miniona lekcja próbna",
-        "data": "Wczoraj",
-        "info": "Ta lekcja testowa już wygasła i powinna zniknąć z listy automatycznie.",
-        "link": "https://www.infomatyka.pl/p/lekcja-archiwalna.html",
-        "tekstPrzycisku": "Archiwum",
-        "startDate": "2026-06-12 17:00",
-        "endDate": "2026-06-12 18:30"
+        "tekst": "Lekcja Archiwalna: Cyberbezpieczeństwo dla każdego",
+        "data": "Miniona lekcja z nagraniem",
+        "info": "Lekcja o bezpiecznym korzystaniu z internetu. Nagranie i slajdy są dostępne poniżej.",
+        "link": "https://www.infomatyka.pl/p/cyberbezpieczenstwo.html",
+        "tekstPrzycisku": "Dołącz",
+        "tekstPrzyciskuPo": "Zobacz nagranie lekcji (Po)",
+        "linkPo": "https://www.youtube.com/watch?v=mock-cybersec",
+        "startDate": "2026-06-10 15:00",
+        "endDate": "2026-06-10 16:30",
+        "visibleUntil": "2026-06-20 23:59",
+        "collapsible": true
+      },
+      {
+        "tekst": "Lekcja przyszła niewidoczna",
+        "data": "Lipiec 2026",
+        "info": "Ta lekcja pojawi się na liście dopiero pod koniec czerwca.",
+        "link": "https://www.infomatyka.pl/p/lekcja-lipiec.html",
+        "tekstPrzycisku": "Rezerwuj",
+        "startDate": "2026-07-02 17:00",
+        "endDate": "2026-07-02 18:30",
+        "visibleFrom": "2026-06-25 00:00"
       }
     ],
     "zadania": [
