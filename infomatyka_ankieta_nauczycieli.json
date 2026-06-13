@@ -10,7 +10,7 @@
     "sections": [
       {
         "title": "Część 1. Informacje ogólne",
-        "icon": "mdi:account-box-outline",
+        "icon": "fa-regular fa-id-card",
         "questions": [
           {
             "id": 1,
@@ -18,11 +18,31 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Szkoła Podstawowa", "votes": 24, "pct": 51 },
-              { "label": "Liceum Ogólnokształcące", "votes": 11, "pct": 23 },
-              { "label": "Technikum", "votes": 9, "pct": 19 },
-              { "label": "Szkoła Branżowa", "votes": 2, "pct": 4 },
-              { "label": "Inne (Jakie?)", "votes": 1, "pct": 2 }
+              {
+                "label": "Szkoła Podstawowa",
+                "votes": 24,
+                "pct": 51
+              },
+              {
+                "label": "Liceum Ogólnokształcące",
+                "votes": 11,
+                "pct": 23
+              },
+              {
+                "label": "Technikum",
+                "votes": 9,
+                "pct": 19
+              },
+              {
+                "label": "Szkoła Branżowa",
+                "votes": 2,
+                "pct": 4
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 1,
+                "pct": 2
+              }
             ]
           },
           {
@@ -31,10 +51,26 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 18, "pct": 38 },
-              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 25, "pct": 53 },
-              { "label": "Klasy Ponadpodstawowe (Szkoła Średnia)", "votes": 22, "pct": 47 },
-              { "label": "Inne (Jakie?)", "votes": 2, "pct": 4 }
+              {
+                "label": "Klasy 4-6 (Szkoła Podstawowa)",
+                "votes": 18,
+                "pct": 38
+              },
+              {
+                "label": "Klasy 7-8 (Szkoła Podstawowa)",
+                "votes": 25,
+                "pct": 53
+              },
+              {
+                "label": "Klasy Ponadpodstawowe (Szkoła Średnia)",
+                "votes": 22,
+                "pct": 47
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           },
           {
@@ -43,9 +79,21 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "0-3 lata", "votes": 26, "pct": 55 },
-              { "label": "4-10 lat", "votes": 14, "pct": 30 },
-              { "label": "powyżej 10 lat", "votes": 7, "pct": 15 }
+              {
+                "label": "0-3 lata",
+                "votes": 26,
+                "pct": 55
+              },
+              {
+                "label": "4-10 lat",
+                "votes": 14,
+                "pct": 30
+              },
+              {
+                "label": "powyżej 10 lat",
+                "votes": 7,
+                "pct": 15
+              }
             ]
           },
           {
@@ -54,10 +102,26 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Brak", "votes": 5, "pct": 11 },
-              { "label": "1 - 2 uczniów", "votes": 24, "pct": 51 },
-              { "label": "3 - 5 uczniów", "votes": 15, "pct": 32 },
-              { "label": "powyżej 5 uczniów", "votes": 3, "pct": 6 }
+              {
+                "label": "Brak",
+                "votes": 5,
+                "pct": 11
+              },
+              {
+                "label": "1 - 2 uczniów",
+                "votes": 24,
+                "pct": 51
+              },
+              {
+                "label": "3 - 5 uczniów",
+                "votes": 15,
+                "pct": 32
+              },
+              {
+                "label": "powyżej 5 uczniów",
+                "votes": 3,
+                "pct": 6
+              }
             ]
           },
           {
@@ -66,18 +130,38 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Zdecydowanie tak", "votes": 21, "pct": 45 },
-              { "label": "Raczej tak", "votes": 17, "pct": 36 },
-              { "label": "Trudno powiedzieć", "votes": 5, "pct": 11 },
-              { "label": "Raczej nie", "votes": 3, "pct": 6 },
-              { "label": "Zdecydowanie nie", "votes": 1, "pct": 2 }
+              {
+                "label": "Zdecydowanie tak",
+                "votes": 21,
+                "pct": 45
+              },
+              {
+                "label": "Raczej tak",
+                "votes": 17,
+                "pct": 36
+              },
+              {
+                "label": "Trudno powiedzieć",
+                "votes": 5,
+                "pct": 11
+              },
+              {
+                "label": "Raczej nie",
+                "votes": 3,
+                "pct": 6
+              },
+              {
+                "label": "Zdecydowanie nie",
+                "votes": 1,
+                "pct": 2
+              }
             ]
           }
         ]
       },
       {
         "title": "Część 2. Dotychczasowe doświadczenia związane z przygotowywaniem testów",
-        "icon": "mdi:alert-circle-outline",
+        "icon": "fa-regular fa-circle-exclamation",
         "questions": [
           {
             "id": 6,
@@ -85,13 +169,41 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Google Forms", "votes": 40, "pct": 85 },
-              { "label": "Microsoft Forms", "votes": 26, "pct": 55 },
-              { "label": "Testportal", "votes": 20, "pct": 43 },
-              { "label": "Quizizz / Kahoot", "votes": 17, "pct": 36 },
-              { "label": "Tradycyjny edytor tekstu (np. Word, Writer)", "votes": 30, "pct": 64 },
-              { "label": "Brak stałych narzędzi cyfrowych", "votes": 5, "pct": 11 },
-              { "label": "Inne (Jakie?)", "votes": 2, "pct": 4 }
+              {
+                "label": "Google Forms",
+                "votes": 40,
+                "pct": 85
+              },
+              {
+                "label": "Microsoft Forms",
+                "votes": 26,
+                "pct": 55
+              },
+              {
+                "label": "Testportal",
+                "votes": 20,
+                "pct": 43
+              },
+              {
+                "label": "Quizizz / Kahoot",
+                "votes": 17,
+                "pct": 36
+              },
+              {
+                "label": "Tradycyjny edytor tekstu (np. Word, Writer)",
+                "votes": 30,
+                "pct": 64
+              },
+              {
+                "label": "Brak stałych narzędzi cyfrowych",
+                "votes": 5,
+                "pct": 11
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           },
           {
@@ -100,11 +212,31 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Codziennie", "votes": 2, "pct": 4 },
-              { "label": "2-3 razy w tygodniu", "votes": 14, "pct": 30 },
-              { "label": "Raz w tygodniu", "votes": 20, "pct": 43 },
-              { "label": "Rzadziej niż raz w tygodniu", "votes": 9, "pct": 19 },
-              { "label": "Wcale", "votes": 2, "pct": 4 }
+              {
+                "label": "Codziennie",
+                "votes": 2,
+                "pct": 4
+              },
+              {
+                "label": "2-3 razy w tygodniu",
+                "votes": 14,
+                "pct": 30
+              },
+              {
+                "label": "Raz w tygodniu",
+                "votes": 20,
+                "pct": 43
+              },
+              {
+                "label": "Rzadziej niż raz w tygodniu",
+                "votes": 9,
+                "pct": 19
+              },
+              {
+                "label": "Wcale",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           },
           {
@@ -113,10 +245,26 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "0 - 15 minut", "votes": 2, "pct": 4 },
-              { "label": "15 - 30 minut", "votes": 11, "pct": 23 },
-              { "label": "30 - 60 minut", "votes": 26, "pct": 55 },
-              { "label": "powyżej 60 minut", "votes": 8, "pct": 18 }
+              {
+                "label": "0 - 15 minut",
+                "votes": 2,
+                "pct": 4
+              },
+              {
+                "label": "15 - 30 minut",
+                "votes": 11,
+                "pct": 23
+              },
+              {
+                "label": "30 - 60 minut",
+                "votes": 26,
+                "pct": 55
+              },
+              {
+                "label": "powyżej 60 minut",
+                "votes": 8,
+                "pct": 18
+              }
             ]
           },
           {
@@ -125,12 +273,36 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Dysk lokalny komputera / pendrive", "votes": 35, "pct": 74 },
-              { "label": "Chmura (Google Drive, OneDrive, itp.)", "votes": 28, "pct": 60 },
-              { "label": "Platforma edukacyjna (np. Teams, Classroom, Moodle)", "votes": 19, "pct": 40 },
-              { "label": "Wydruki papierowe / segregator", "votes": 12, "pct": 26 },
-              { "label": "Nie przechowuję, tworzę za każdym razem od nowa", "votes": 2, "pct": 4 },
-              { "label": "Inne (Jakie?)", "votes": 1, "pct": 2 }
+              {
+                "label": "Dysk lokalny komputera / pendrive",
+                "votes": 35,
+                "pct": 74
+              },
+              {
+                "label": "Chmura (Google Drive, OneDrive, itp.)",
+                "votes": 28,
+                "pct": 60
+              },
+              {
+                "label": "Platforma edukacyjna (np. Teams, Classroom, Moodle)",
+                "votes": 19,
+                "pct": 40
+              },
+              {
+                "label": "Wydruki papierowe / segregator",
+                "votes": 12,
+                "pct": 26
+              },
+              {
+                "label": "Nie przechowuję, tworzę za każdym razem od nowa",
+                "votes": 2,
+                "pct": 4
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 1,
+                "pct": 2
+              }
             ]
           },
           {
@@ -139,10 +311,26 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Zawsze, modyfikuję gotowe materiały", "votes": 10, "pct": 21 },
-              { "label": "Często, w większości przypadków", "votes": 19, "pct": 40 },
-              { "label": "Rzadko, raczej tworzę od nowa", "votes": 14, "pct": 30 },
-              { "label": "Nigdy, zawsze tworzę testy od podstaw", "votes": 4, "pct": 9 }
+              {
+                "label": "Zawsze, modyfikuję gotowe materiały",
+                "votes": 10,
+                "pct": 21
+              },
+              {
+                "label": "Często, w większości przypadków",
+                "votes": 19,
+                "pct": 40
+              },
+              {
+                "label": "Rzadko, raczej tworzę od nowa",
+                "votes": 14,
+                "pct": 30
+              },
+              {
+                "label": "Nigdy, zawsze tworzę testy od podstaw",
+                "votes": 4,
+                "pct": 9
+              }
             ]
           },
           {
@@ -154,11 +342,31 @@
             "required": true,
             "average": "3.77",
             "distribution": [
-              { "val": 1, "votes": 1, "pct": 2 },
-              { "val": 2, "votes": 3, "pct": 6 },
-              { "val": 3, "votes": 12, "pct": 26 },
-              { "val": 4, "votes": 21, "pct": 45 },
-              { "val": 5, "votes": 10, "pct": 21 }
+              {
+                "val": 1,
+                "votes": 1,
+                "pct": 2
+              },
+              {
+                "val": 2,
+                "votes": 3,
+                "pct": 6
+              },
+              {
+                "val": 3,
+                "votes": 12,
+                "pct": 26
+              },
+              {
+                "val": 4,
+                "votes": 21,
+                "pct": 45
+              },
+              {
+                "val": 5,
+                "votes": 10,
+                "pct": 21
+              }
             ]
           },
           {
@@ -167,11 +375,31 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Zdecydowanie tak, zawsze staram się to uwzględniać", "votes": 13, "pct": 28 },
-              { "label": "Raczej tak, staram się to robić, lecz nie zawsze", "votes": 18, "pct": 38 },
-              { "label": "Nie mam zdania", "votes": 8, "pct": 17 },
-              { "label": "Raczej nie, nie uważam tego za priorytet", "votes": 6, "pct": 13 },
-              { "label": "Zdecydowanie nie, nie stosuję tego podejścia", "votes": 2, "pct": 4 }
+              {
+                "label": "Zdecydowanie tak, zawsze staram się to uwzględniać",
+                "votes": 13,
+                "pct": 28
+              },
+              {
+                "label": "Raczej tak, staram się to robić, lecz nie zawsze",
+                "votes": 18,
+                "pct": 38
+              },
+              {
+                "label": "Nie mam zdania",
+                "votes": 8,
+                "pct": 17
+              },
+              {
+                "label": "Raczej nie, nie uważam tego za priorytet",
+                "votes": 6,
+                "pct": 13
+              },
+              {
+                "label": "Zdecydowanie nie, nie stosuję tego podejścia",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           },
           {
@@ -180,11 +408,31 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Tak, regularnie, przygotowuję odrębne wersje arkuszy", "votes": 11, "pct": 23 },
-              { "label": "Tak, ale tylko wtedy, gdy wymaga tego dokumentacja (np. opinia PPP)", "votes": 19, "pct": 40 },
-              { "label": "Czasami, zależy od możliwości i czasu", "votes": 12, "pct": 26 },
-              { "label": "Rzadko, brakuje mi czasu lub gotowych narzędzi", "votes": 4, "pct": 9 },
-              { "label": "Nie stosuję dostosowań", "votes": 1, "pct": 2 }
+              {
+                "label": "Tak, regularnie, przygotowuję odrębne wersje arkuszy",
+                "votes": 11,
+                "pct": 23
+              },
+              {
+                "label": "Tak, ale tylko wtedy, gdy wymaga tego dokumentacja (np. opinia PPP)",
+                "votes": 19,
+                "pct": 40
+              },
+              {
+                "label": "Czasami, zależy od możliwości i czasu",
+                "votes": 12,
+                "pct": 26
+              },
+              {
+                "label": "Rzadko, brakuje mi czasu lub gotowych narzędzi",
+                "votes": 4,
+                "pct": 9
+              },
+              {
+                "label": "Nie stosuję dostosowań",
+                "votes": 1,
+                "pct": 2
+              }
             ]
           },
           {
@@ -193,20 +441,48 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Wydłużony czas pracy", "votes": 38, "pct": 81 },
-              { "label": "Uproszczony język poleceń i treści zadań", "votes": 15, "pct": 32 },
-              { "label": "Większa czcionka / zwiększone odstępy w tekście", "votes": 29, "pct": 62 },
-              { "label": "Mniejsza liczba pytań lub zadań", "votes": 12, "pct": 26 },
-              { "label": "Podpowiedzi lub słowniczek pojęć", "votes": 8, "pct": 17 },
-              { "label": "Nie stosuję żadnych dostosowań", "votes": 1, "pct": 2 },
-              { "label": "Inne (Jakie?)", "votes": 2, "pct": 4 }
+              {
+                "label": "Wydłużony czas pracy",
+                "votes": 38,
+                "pct": 81
+              },
+              {
+                "label": "Uproszczony język poleceń i treści zadań",
+                "votes": 15,
+                "pct": 32
+              },
+              {
+                "label": "Większa czcionka / zwiększone odstępy w tekście",
+                "votes": 29,
+                "pct": 62
+              },
+              {
+                "label": "Mniejsza liczba pytań lub zadań",
+                "votes": 12,
+                "pct": 26
+              },
+              {
+                "label": "Podpowiedzi lub słowniczek pojęć",
+                "votes": 8,
+                "pct": 17
+              },
+              {
+                "label": "Nie stosuję żadnych dostosowań",
+                "votes": 1,
+                "pct": 2
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           }
         ]
       },
       {
         "title": "Część 3. Zaangażowanie uczniów i środowisko dydaktyczne",
-        "icon": "mdi:account-group-outline",
+        "icon": "fa-solid fa-users",
         "questions": [
           {
             "id": 15,
@@ -214,10 +490,26 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Tak, regularnie", "votes": 12, "pct": 26 },
-              { "label": "Tak, ale sporadycznie", "votes": 23, "pct": 49 },
-              { "label": "Rzadko, nie mam odpowiednich narzędzi", "votes": 9, "pct": 19 },
-              { "label": "Nie stosuję takich metod", "votes": 3, "pct": 6 }
+              {
+                "label": "Tak, regularnie",
+                "votes": 12,
+                "pct": 26
+              },
+              {
+                "label": "Tak, ale sporadycznie",
+                "votes": 23,
+                "pct": 49
+              },
+              {
+                "label": "Rzadko, nie mam odpowiednich narzędzi",
+                "votes": 9,
+                "pct": 19
+              },
+              {
+                "label": "Nie stosuję takich metod",
+                "votes": 3,
+                "pct": 6
+              }
             ]
           },
           {
@@ -226,19 +518,43 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Interaktywne quizy online (Kahoot, Quizizz itp.)", "votes": 34, "pct": 72 },
-              { "label": "Zadania praktyczne przy komputerze", "votes": 42, "pct": 89 },
-              { "label": "Praca w grupach / projekty zespołowe", "votes": 21, "pct": 45 },
-              { "label": "Elementy grywalizacji (punkty, rankingi, odznaki)", "votes": 8, "pct": 17 },
-              { "label": "Tradycyjne metody (praca z podręcznikiem, ćwiczenia pisemne)", "votes": 16, "pct": 34 },
-              { "label": "Inne (Jakie?)", "votes": 2, "pct": 4 }
+              {
+                "label": "Interaktywne quizy online (Kahoot, Quizizz itp.)",
+                "votes": 34,
+                "pct": 72
+              },
+              {
+                "label": "Zadania praktyczne przy komputerze",
+                "votes": 42,
+                "pct": 89
+              },
+              {
+                "label": "Praca w grupach / projekty zespołowe",
+                "votes": 21,
+                "pct": 45
+              },
+              {
+                "label": "Elementy grywalizacji (punkty, rankingi, odznaki)",
+                "votes": 8,
+                "pct": 17
+              },
+              {
+                "label": "Tradycyjne metody (praca z podręcznikiem, ćwiczenia pisemne)",
+                "votes": 16,
+                "pct": 34
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 2,
+                "pct": 4
+              }
             ]
           }
         ]
       },
       {
         "title": "Część 4. Opinie i oczekiwania",
-        "icon": "mdi:comment-text-multiple-outline",
+        "icon": "fa-regular fa-comments",
         "questions": [
           {
             "id": 17,
@@ -246,10 +562,22 @@
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Największy problem to brak sensownego wsparcia dla uczniów ze SPE. Za każdym razem muszę ręcznie przerabiać testy w Wordzie, upraszczać polecenia i to zajmuje prawie tyle samo czasu, co przygotowanie wszystkiego od zera.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Większość platform wymaga opłaty za podstawowe funkcje. Dyrekcja nie zawsze chce pokryć te koszty, a przechodzenie z platformy do platformy jest czasochłonne. Szkoda na to czasu.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Największy problem mam z informatyką oraz matematyką, wzory i fragmenty kodu często się rozjeżdżają w formatach online, źle się wyświetlają albo są po prostu nieczytelne. Trzeba dużo kombinować w edytorach tekstu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Na telefonach uczniowie i tak potrafią ściągać lub przełączać karty, a brakuje elastycznego narzędzia, które by to realnie kontrolowało przy jednoczesnym generowaniu prostego wydruku oszczędzającego papier.", "meta": "Nauczyciel SP, staż 0–3 lata" }
+              {
+                "text": "Największy problem to brak sensownego wsparcia dla uczniów ze SPE. Za każdym razem muszę ręcznie przerabiać testy w Wordzie, upraszczać polecenia i to zajmuje prawie tyle samo czasu, co przygotowanie wszystkiego od zera.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              },
+              {
+                "text": "Większość platform wymaga opłaty za podstawowe funkcje. Dyrekcja nie zawsze chce pokryć te koszty, a przechodzenie z platformy do platformy jest czasochłonne. Szkoda na to czasu.",
+                "meta": "Nauczyciel LO, staż 0–3 lata"
+              },
+              {
+                "text": "Największy problem mam z informatyką oraz matematyką, wzory i fragmenty kodu często się rozjeżdżają w formatach online, źle się wyświetlają albo są po prostu nieczytelne. Trzeba dużo kombinować w edytorach tekstu.",
+                "meta": "Nauczyciel Technikum, staż 4–10 lat"
+              },
+              {
+                "text": "Na telefonach uczniowie i tak potrafią ściągać lub przełączać karty, a brakuje elastycznego narzędzia, które by to realnie kontrolowało przy jednoczesnym generowaniu prostego wydruku oszczędzającego papier.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              }
             ]
           },
           {
@@ -258,9 +586,18 @@
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Automatycznego generowania wariantów dla uczniów ze SPE (większa czcionka, uproszczona treść zdań) za pomocą jednego kliknięcia.", "meta": "Nauczyciel SP, staż 4–10 lat" },
-              { "text": "Szybkiego eksportu do czystego, dwukolumnowego formatu PDF/druku, który mieści test na jednej stronie A4 i nie marnuje ton papieru w szkolnej kserokopiarce.", "meta": "Nauczyciel LO, staż powyżej 10 lat" },
-              { "text": "Bazy gotowych zadań powiązanych bezpośrednio z punktami podstawy programowej dla szkół ponadpodstawowych.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
+              {
+                "text": "Automatycznego generowania wariantów dla uczniów ze SPE (większa czcionka, uproszczona treść zdań) za pomocą jednego kliknięcia.",
+                "meta": "Nauczyciel SP, staż 4–10 lat"
+              },
+              {
+                "text": "Szybkiego eksportu do czystego, dwukolumnowego formatu PDF/druku, który mieści test na jednej stronie A4 i nie marnuje ton papieru w szkolnej kserokopiarce.",
+                "meta": "Nauczyciel LO, staż powyżej 10 lat"
+              },
+              {
+                "text": "Bazy gotowych zadań powiązanych bezpośrednio z punktami podstawy programowej dla szkół ponadpodstawowych.",
+                "meta": "Nauczyciel Technikum, staż 0–3 lata"
+              }
             ]
           }
         ]
@@ -278,7 +615,7 @@
     "sections": [
       {
         "title": "Część 1. Informacje ogólne",
-        "icon": "mdi:account-check",
+        "icon": "fa-solid fa-user-check",
         "questions": [
           {
             "id": 1,
@@ -286,11 +623,31 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Szkoła Podstawowa", "votes": 14, "pct": 48 },
-              { "label": "Liceum Ogólnokształcące", "votes": 8, "pct": 28 },
-              { "label": "Technikum", "votes": 6, "pct": 21 },
-              { "label": "Szkoła Branżowa", "votes": 1, "pct": 3 },
-              { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
+              {
+                "label": "Szkoła Podstawowa",
+                "votes": 14,
+                "pct": 48
+              },
+              {
+                "label": "Liceum Ogólnokształcące",
+                "votes": 8,
+                "pct": 28
+              },
+              {
+                "label": "Technikum",
+                "votes": 6,
+                "pct": 21
+              },
+              {
+                "label": "Szkoła Branżowa",
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 0,
+                "pct": 0
+              }
             ]
           },
           {
@@ -299,10 +656,26 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Klasy 4-6 (Szkoła Podstawowa)", "votes": 10, "pct": 34 },
-              { "label": "Klasy 7-8 (Szkoła Podstawowa)", "votes": 14, "pct": 48 },
-              { "label": "Klasy Ponadpodstawowe (Szkoła Średnia)", "votes": 12, "pct": 41 },
-              { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
+              {
+                "label": "Klasy 4-6 (Szkoła Podstawowa)",
+                "votes": 10,
+                "pct": 34
+              },
+              {
+                "label": "Klasy 7-8 (Szkoła Podstawowa)",
+                "votes": 14,
+                "pct": 48
+              },
+              {
+                "label": "Klasy Ponadpodstawowe (Szkoła Średnia)",
+                "votes": 12,
+                "pct": 41
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 0,
+                "pct": 0
+              }
             ]
           },
           {
@@ -311,9 +684,21 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "0-3 lata", "votes": 16, "pct": 55 },
-              { "label": "4-10 lat", "votes": 9, "pct": 31 },
-              { "label": "powyżej 10 lat", "votes": 4, "pct": 14 }
+              {
+                "label": "0-3 lata",
+                "votes": 16,
+                "pct": 55
+              },
+              {
+                "label": "4-10 lat",
+                "votes": 9,
+                "pct": 31
+              },
+              {
+                "label": "powyżej 10 lat",
+                "votes": 4,
+                "pct": 14
+              }
             ]
           },
           {
@@ -322,18 +707,38 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Zdecydowanie tak", "votes": 17, "pct": 59 },
-              { "label": "Raczej tak", "votes": 9, "pct": 31 },
-              { "label": "Nie ma różnicy", "votes": 2, "pct": 7 },
-              { "label": "Raczej nie", "votes": 1, "pct": 3 },
-              { "label": "Zdecydowanie nie", "votes": 0, "pct": 0 }
+              {
+                "label": "Zdecydowanie tak",
+                "votes": 17,
+                "pct": 59
+              },
+              {
+                "label": "Raczej tak",
+                "votes": 9,
+                "pct": 31
+              },
+              {
+                "label": "Nie ma różnicy",
+                "votes": 2,
+                "pct": 7
+              },
+              {
+                "label": "Raczej nie",
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "label": "Zdecydowanie nie",
+                "votes": 0,
+                "pct": 0
+              }
             ]
           }
         ]
       },
       {
         "title": "Część 2. Ocena aplikacji",
-        "icon": "mdi:laptop",
+        "icon": "fa-solid fa-laptop",
         "questions": [
           {
             "id": 5,
@@ -341,11 +746,31 @@
             "type": "choice",
             "required": true,
             "options": [
-              { "label": "Codziennie", "votes": 3, "pct": 10 },
-              { "label": "2-3 razy w tygodniu", "votes": 12, "pct": 41 },
-              { "label": "Raz w tygodniu", "votes": 11, "pct": 38 },
-              { "label": "Rzadziej niż raz w tygodniu", "votes": 2, "pct": 7 },
-              { "label": "Tylko raz", "votes": 1, "pct": 4 }
+              {
+                "label": "Codziennie",
+                "votes": 3,
+                "pct": 10
+              },
+              {
+                "label": "2-3 razy w tygodniu",
+                "votes": 12,
+                "pct": 41
+              },
+              {
+                "label": "Raz w tygodniu",
+                "votes": 11,
+                "pct": 38
+              },
+              {
+                "label": "Rzadziej niż raz w tygodniu",
+                "votes": 2,
+                "pct": 7
+              },
+              {
+                "label": "Tylko raz",
+                "votes": 1,
+                "pct": 4
+              }
             ]
           },
           {
@@ -357,11 +782,31 @@
             "required": true,
             "average": "4.62",
             "distribution": [
-              { "val": 1, "votes": 0, "pct": 0 },
-              { "val": 2, "votes": 1, "pct": 3 },
-              { "val": 3, "votes": 1, "pct": 3 },
-              { "val": 4, "votes": 6, "pct": 21 },
-              { "val": 5, "votes": 21, "pct": 73 }
+              {
+                "val": 1,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 2,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 3,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 4,
+                "votes": 6,
+                "pct": 21
+              },
+              {
+                "val": 5,
+                "votes": 21,
+                "pct": 73
+              }
             ]
           },
           {
@@ -373,11 +818,31 @@
             "required": true,
             "average": "4.59",
             "distribution": [
-              { "val": 1, "votes": 0, "pct": 0 },
-              { "val": 2, "votes": 1, "pct": 3 },
-              { "val": 3, "votes": 1, "pct": 3 },
-              { "val": 4, "votes": 7, "pct": 24 },
-              { "val": 5, "votes": 20, "pct": 70 }
+              {
+                "val": 1,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 2,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 3,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 4,
+                "votes": 7,
+                "pct": 24
+              },
+              {
+                "val": 5,
+                "votes": 20,
+                "pct": 70
+              }
             ]
           },
           {
@@ -389,11 +854,31 @@
             "required": true,
             "average": "4.52",
             "distribution": [
-              { "val": 1, "votes": 0, "pct": 0 },
-              { "val": 2, "votes": 0, "pct": 0 },
-              { "val": 3, "votes": 3, "pct": 10 },
-              { "val": 4, "votes": 8, "pct": 28 },
-              { "val": 5, "votes": 18, "pct": 62 }
+              {
+                "val": 1,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 2,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 3,
+                "votes": 3,
+                "pct": 10
+              },
+              {
+                "val": 4,
+                "votes": 8,
+                "pct": 28
+              },
+              {
+                "val": 5,
+                "votes": 18,
+                "pct": 62
+              }
             ]
           },
           {
@@ -405,11 +890,31 @@
             "required": true,
             "average": "4.38",
             "distribution": [
-              { "val": 1, "votes": 0, "pct": 0 },
-              { "val": 2, "votes": 1, "pct": 3 },
-              { "val": 3, "votes": 2, "pct": 7 },
-              { "val": 4, "votes": 11, "pct": 38 },
-              { "val": 5, "votes": 15, "pct": 52 }
+              {
+                "val": 1,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 2,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 3,
+                "votes": 2,
+                "pct": 7
+              },
+              {
+                "val": 4,
+                "votes": 11,
+                "pct": 38
+              },
+              {
+                "val": 5,
+                "votes": 15,
+                "pct": 52
+              }
             ]
           },
           {
@@ -421,11 +926,31 @@
             "required": true,
             "average": "4.59",
             "distribution": [
-              { "val": 1, "votes": 0, "pct": 0 },
-              { "val": 2, "votes": 1, "pct": 3 },
-              { "val": 3, "votes": 1, "pct": 3 },
-              { "val": 4, "votes": 7, "pct": 24 },
-              { "val": 5, "votes": 20, "pct": 70 }
+              {
+                "val": 1,
+                "votes": 0,
+                "pct": 0
+              },
+              {
+                "val": 2,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 3,
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "val": 4,
+                "votes": 7,
+                "pct": 24
+              },
+              {
+                "val": 5,
+                "votes": 20,
+                "pct": 70
+              }
             ]
           },
           {
@@ -434,11 +959,31 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "większe zaangażowanie podczas zajęć", "votes": 21, "pct": 72 },
-              { "label": "lepsza organizacja pracy własnej", "votes": 8, "pct": 28 },
-              { "label": "lepsze zrozumienie i utrwalenie materiału", "votes": 6, "pct": 21 },
-              { "label": "nie zauważyłem(-am) wyraźnych zmian", "votes": 1, "pct": 3 },
-              { "label": "inne: ....................................", "votes": 10, "pct": 34 }
+              {
+                "label": "większe zaangażowanie podczas zajęć",
+                "votes": 21,
+                "pct": 72
+              },
+              {
+                "label": "lepsza organizacja pracy własnej",
+                "votes": 8,
+                "pct": 28
+              },
+              {
+                "label": "lepsze zrozumienie i utrwalenie materiału",
+                "votes": 6,
+                "pct": 21
+              },
+              {
+                "label": "nie zauważyłem(-am) wyraźnych zmian",
+                "votes": 1,
+                "pct": 3
+              },
+              {
+                "label": "inne: ....................................",
+                "votes": 10,
+                "pct": 34
+              }
             ]
           },
           {
@@ -447,12 +992,36 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Generowanie testów i sprawdzianów dla wielu grup", "votes": 26, "pct": 90 },
-              { "label": "Tworzenie automatycznych zestawów dla wybranych parametrów", "votes": 22, "pct": 76 },
-              { "label": "Automatyczne uproszczenie i dostosowanie SPE", "votes": 19, "pct": 66 },
-              { "label": "Generator szybkich kartkówek (np. działań pisemnych, składni HTML)", "votes": 12, "pct": 41 },
-              { "label": "Interaktywne testy i sprawdziany (Online)", "votes": 10, "pct": 34 },
-              { "label": "Inne (Jakie?)", "votes": 0, "pct": 0 }
+              {
+                "label": "Generowanie testów i sprawdzianów dla wielu grup",
+                "votes": 26,
+                "pct": 90
+              },
+              {
+                "label": "Tworzenie automatycznych zestawów dla wybranych parametrów",
+                "votes": 22,
+                "pct": 76
+              },
+              {
+                "label": "Automatyczne uproszczenie i dostosowanie SPE",
+                "votes": 19,
+                "pct": 66
+              },
+              {
+                "label": "Generator szybkich kartkówek (np. działań pisemnych, składni HTML)",
+                "votes": 12,
+                "pct": 41
+              },
+              {
+                "label": "Interaktywne testy i sprawdziany (Online)",
+                "votes": 10,
+                "pct": 34
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 0,
+                "pct": 0
+              }
             ]
           },
           {
@@ -461,19 +1030,43 @@
             "type": "multiselect",
             "required": true,
             "options": [
-              { "label": "Interfejs użytkownika na urządzeniach mobilnych", "votes": 3, "pct": 10 },
-              { "label": "Większa baza pytań (zadania i ich różne warianty)", "votes": 12, "pct": 41 },
-              { "label": "System kategoryzacji, filtrowania testów i zadań", "votes": 4, "pct": 14 },
-              { "label": "Opcje eksportu statystyk do systemów zewnętrznych (np. e-Dziennik, LMS)", "votes": 8, "pct": 28 },
-              { "label": "Mechanizm automatycznego oceniania zadań otwartych", "votes": 2, "pct": 7 },
-              { "label": "Inne (Jakie?)", "votes": 1, "pct": 3 }
+              {
+                "label": "Interfejs użytkownika na urządzeniach mobilnych",
+                "votes": 3,
+                "pct": 10
+              },
+              {
+                "label": "Większa baza pytań (zadania i ich różne warianty)",
+                "votes": 12,
+                "pct": 41
+              },
+              {
+                "label": "System kategoryzacji, filtrowania testów i zadań",
+                "votes": 4,
+                "pct": 14
+              },
+              {
+                "label": "Opcje eksportu statystyk do systemów zewnętrznych (np. e-Dziennik, LMS)",
+                "votes": 8,
+                "pct": 28
+              },
+              {
+                "label": "Mechanizm automatycznego oceniania zadań otwartych",
+                "votes": 2,
+                "pct": 7
+              },
+              {
+                "label": "Inne (Jakie?)",
+                "votes": 1,
+                "pct": 3
+              }
             ]
           }
         ]
       },
       {
         "title": "Część 3. Opinie i doświadczenia",
-        "icon": "mdi:comment-text-multiple-outline",
+        "icon": "fa-regular fa-comments",
         "questions": [
           {
             "id": 14,
@@ -481,9 +1074,18 @@
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Na początku kilku uczniów miało problem z niektórymi wariantami zadań oraz nie zawsze responsywną wersją mobilną, ale po krótkim wyjaśnieniu już nie było z tym trudności.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Na starszych modelach telefonów zdarzały się lekkie opóźnienia przy ładowaniu niektórych elementów interaktywnych, szczególnie złożonych struktur, ale ogólnie dało się z tego normalnie korzystać.", "meta": "Nauczyciel LO, staż 4–10 lat" },
-              { "text": "Zdarzyło się, że uczniowie zamykali okno przeglądarki przedwcześnie, zamiast kliknąć przycisk „Zakończ test”. Na szczęście system zapisał ich postępy, więc dało się to później odzyskać w panelu nauczyciela.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
+              {
+                "text": "Na początku kilku uczniów miało problem z niektórymi wariantami zadań oraz nie zawsze responsywną wersją mobilną, ale po krótkim wyjaśnieniu już nie było z tym trudności.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              },
+              {
+                "text": "Na starszych modelach telefonów zdarzały się lekkie opóźnienia przy ładowaniu niektórych elementów interaktywnych, szczególnie złożonych struktur, ale ogólnie dało się z tego normalnie korzystać.",
+                "meta": "Nauczyciel LO, staż 4–10 lat"
+              },
+              {
+                "text": "Zdarzyło się, że uczniowie zamykali okno przeglądarki przedwcześnie, zamiast kliknąć przycisk „Zakończ test”. Na szczęście system zapisał ich postępy, więc dało się to później odzyskać w panelu nauczyciela.",
+                "meta": "Nauczyciel Technikum, staż 0–3 lata"
+              }
             ]
           },
           {
@@ -492,12 +1094,30 @@
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Duża oszczędność papieru i czasu, szczególnie dzięki zoptymalizowanemu układowi do druku. W szkole ciągle brakuje limitów na ksero, więc to rozwiązanie naprawdę ułatwia pracę.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Bardzo przydatna jest gotowa baza zadań z informatyki dostosowana do podstawy programowej. Wreszcie nie muszę samodzielnie formatować fragmentów kodu źródłowego w edytorach tekstu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Interaktywny tryb online bardzo ożywia lekcje powtórzeniowe. Uczniowie chętniej wykonują zadania z uwagi na natychmiastową informację zwrotną o błędach.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Brak konieczności rejestrowania kont przez uczniów to świetne posunięcie. Skanują kod QR i od razu są w systemie testowym, bez problemów z hasłami.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "System bardzo dobrze rozwiązuje codzienne problemy organizacyjne w szkole. Największą zaletą jest oszczędność czasu na przygotowanie zróżnicowanych grup testowych oraz natychmiastowe generowanie wersji SPE.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Praca z tym narzędziem jest po prostu wygodniejsza. Mniej biurokracji i zbędnych kroków przy przygotowaniu sprawdzianów. Widać, że aplikacja była projektowana z myślą o realnych warunkach szkolnych.", "meta": "Nauczyciel SP, staż 4–10 lat" }
+              {
+                "text": "Duża oszczędność papieru i czasu, szczególnie dzięki zoptymalizowanemu układowi do druku. W szkole ciągle brakuje limitów na ksero, więc to rozwiązanie naprawdę ułatwia pracę.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              },
+              {
+                "text": "Bardzo przydatna jest gotowa baza zadań z informatyki dostosowana do podstawy programowej. Wreszcie nie muszę samodzielnie formatować fragmentów kodu źródłowego w edytorach tekstu.",
+                "meta": "Nauczyciel Technikum, staż 4–10 lat"
+              },
+              {
+                "text": "Interaktywny tryb online bardzo ożywia lekcje powtórzeniowe. Uczniowie chętniej wykonują zadania z uwagi na natychmiastową informację zwrotną o błędach.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              },
+              {
+                "text": "Brak konieczności rejestrowania kont przez uczniów to świetne posunięcie. Skanują kod QR i od razu są w systemie testowym, bez problemów z hasłami.",
+                "meta": "Nauczyciel LO, staż 0–3 lata"
+              },
+              {
+                "text": "System bardzo dobrze rozwiązuje codzienne problemy organizacyjne w szkole. Największą zaletą jest oszczędność czasu na przygotowanie zróżnicowanych grup testowych oraz natychmiastowe generowanie wersji SPE.",
+                "meta": "Nauczyciel LO, staż 0–3 lata"
+              },
+              {
+                "text": "Praca z tym narzędziem jest po prostu wygodniejsza. Mniej biurokracji i zbędnych kroków przy przygotowaniu sprawdzianów. Widać, że aplikacja była projektowana z myślą o realnych warunkach szkolnych.",
+                "meta": "Nauczyciel SP, staż 4–10 lat"
+              }
             ]
           },
           {
@@ -506,10 +1126,22 @@
             "type": "text",
             "required": false,
             "comments": [
-              { "text": "Fajnie byłoby mieć ściślejszą integrację z Jupyter Notebook lub możliwość eksportu zadań praktycznych z programowania bezpośrednio do plików kodu.", "meta": "Nauczyciel Technikum, staż 4–10 lat" },
-              { "text": "Przydałaby się jeszcze większa możliwość personalizacji wyglądu arkusza, np. dodanie własnego logo szkoły lub dedykowanego nagłówka.", "meta": "Nauczyciel SP, staż 0–3 lata" },
-              { "text": "Chętnie zobaczyłbym moduł automatycznego generowania wskazówek krok po kroku do zadań algorytmicznych dla uczniów z trudnościami w uczeniu się.", "meta": "Nauczyciel LO, staż 0–3 lata" },
-              { "text": "Część funkcji generowania szybkich kartkówek jest obecnie zorientowana na obliczenia matematyczne. Przydałby się analogiczny, szybki generator zapytań SQL lub prostych schematów blokowych.", "meta": "Nauczyciel Technikum, staż 0–3 lata" }
+              {
+                "text": "Fajnie byłoby mieć ściślejszą integrację z Jupyter Notebook lub możliwość eksportu zadań praktycznych z programowania bezpośrednio do plików kodu.",
+                "meta": "Nauczyciel Technikum, staż 4–10 lat"
+              },
+              {
+                "text": "Przydałaby się jeszcze większa możliwość personalizacji wyglądu arkusza, np. dodanie własnego logo szkoły lub dedykowanego nagłówka.",
+                "meta": "Nauczyciel SP, staż 0–3 lata"
+              },
+              {
+                "text": "Chętnie zobaczyłbym moduł automatycznego generowania wskazówek krok po kroku do zadań algorytmicznych dla uczniów z trudnościami w uczeniu się.",
+                "meta": "Nauczyciel LO, staż 0–3 lata"
+              },
+              {
+                "text": "Część funkcji generowania szybkich kartkówek jest obecnie zorientowana na obliczenia matematyczne. Przydałby się analogiczny, szybki generator zapytań SQL lub prostych schematów blokowych.",
+                "meta": "Nauczyciel Technikum, staż 0–3 lata"
+              }
             ]
           }
         ]
