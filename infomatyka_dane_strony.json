@@ -49,14 +49,25 @@
   "headerWidget": {
     "aktywnyWidget": "random", 
     "widgetyDoLosowania": [
-      "zadanieDnia"
+      "zadanieDnia",
+      "info",
+      "liczniki"
     ],
-    "info": {
-      "tytul": "WAŻNA INFORMACJA",
-      "tresc": "Już wkrótce opublikujemy pełne omówienie arkusza z egzaminu ósmoklasisty. Bądźcie czujni!",
-      "linkPrzycisku": "/p/egzamin-osmoklasisty.html",
-      "tekstPrzycisku": "Zobacz Więcej"
-    },
+    "info": [
+      {
+        "tytul": "PILNE: Dzień Otwarty platformy",
+        "tresc": "Zapraszamy rodziców i uczniów na spotkanie informacyjne online w najbliższą środę.",
+        "linkPrzycisku": "/p/kalendarz-wydarzen.html",
+        "tekstPrzycisku": "Harmonogram",
+        "data": "14.06.2026"
+      },
+      {
+        "tytul": "WAŻNA INFORMACJA",
+        "tresc": "Już wkrótce opublikujemy pełne omówienie arkusza z egzaminu ósmoklasisty. Bądźcie czujni!",
+        "linkPrzycisku": "/p/egzamin-osmoklasisty.html",
+        "tekstPrzycisku": "Zobacz Więcej"
+      }
+    ],
     "liczniki": {
       "matura": {
         "tytul": "Do Egzaminu Maturalnego 2026 Zostało:",
@@ -71,10 +82,24 @@
         "kolor": "#11800A"
       }
     },
-    "lekcja": {
-      "link": "https://www.twojastrona.pl/p/lekcja-na-zywo.html",
-      "tekst": "Lekcja Na Żywo - Kliknij, Aby Dołączyć"
-    },
+    "lekcja": [
+      {
+        "tekst": "Lekcja 1: Powtórzenie przed Egzaminem Ósmoklasisty",
+        "data": "16.06.2026, godz. 17:00",
+        "info": "Temat: Zadania tekstowe i procenty. Przygotuj przybory geometryczne.",
+        "link": "https://www.infomatyka.pl/p/lekcja-na-zywo.html",
+        "tekstPrzycisku": "Dołącz (Live)",
+        "live": true
+      },
+      {
+        "tekst": "Lekcja 2: Wprowadzenie do Pythona",
+        "data": "23.06.2026, godz. 18:30",
+        "info": "Temat: Zmienne, warunki i pętle. Pierwszy program w konsoli.",
+        "link": "https://www.infomatyka.pl/p/lekcja-pythona.html",
+        "tekstPrzycisku": "Zarezerwuj miejsce",
+        "live": false
+      }
+    ],
     "zadania": [
       {
         "pytanie": "Jaka jest kolejna liczba w ciągu: 1, 1, 2, 3, 5, 8...?",
