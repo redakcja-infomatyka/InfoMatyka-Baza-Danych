@@ -48,61 +48,23 @@
   ],
   "headerWidget": {
     "aktywnyWidget": "random", 
-    "infoCollapsible": true,
-    "lekcjaCollapsible": true,
-    "zadanieCollapsible": true,
-    "licznikiCollapsible": true,
+    "infoCollapsible": false,
+    "lekcjaCollapsible": false,
+    "zadanieCollapsible": false,
+    "licznikiCollapsible": false,
     "widgetyDoLosowania": [
-      "zadanieDnia",
-      "informacja",
-      "lekcjaNaZywo"
+      "zadanieDnia"
     ],
     "info": [
       {
-        "tytul": "PILNE: Dzień Otwarty platformy",
-        "tresc": "Zapraszamy rodziców i uczniów na spotkanie informacyjne online w najbliższą środę.",
-        "linkPrzycisku": "/p/kalendarz-wydarzen.html",
-        "tekstPrzycisku": "Harmonogram",
-        "data": "14.06.2026",
-        "startDate": "2026-06-10",
-        "endDate": "2026-06-17",
-        "collapsible": true
-      },
-      {
-        "tytul": "WAŻNA INFORMACJA",
-        "tresc": "Już wkrótce opublikujemy pełne omówienie arkusza z egzaminu ósmoklasisty. Bądźcie czujni!",
-        "linkPrzycisku": "/p/egzamin-osmoklasisty.html",
-        "tekstPrzycisku": "Zobacz Więcej"
-      },
-      {
-        "tytul": "Nadchodzące szkolenie dla nauczycieli",
-        "tresc": "Zapisz się już dziś na szkolenie z zakresu programowania w Pythonie.",
-        "linkPrzycisku": "/p/rejestracja-szkolenie.html",
-        "tekstPrzycisku": "Dowiedz się więcej",
-        "tekstPrzyciskuPrzed": "Zapisz się wcześniej (Przed)",
-        "startDate": "2026-06-20 10:00",
-        "endDate": "2026-06-20 14:00",
-        "visibleFrom": "2026-06-10 08:00"
-      },
-      {
-        "tytul": "Zakończony konkurs programistyczny",
-        "tresc": "Konkurs dobiegł końca. Dziękujemy wszystkim uczestnikom za udział!",
-        "linkPrzycisku": "/p/konkurs.html",
-        "tekstPrzycisku": "Wyniki",
-        "tekstPrzyciskuPo": "Zobacz podsumowanie (Po)",
-        "linkPo": "/p/podsumowanie-konkursu.html",
-        "startDate": "2026-06-05 08:00",
-        "endDate": "2026-06-10 18:00",
-        "visibleUntil": "2026-06-20 23:59"
-      },
-      {
-        "tytul": "Wydarzenie przyszłe niewidoczne",
-        "tresc": "To ogłoszenie nie powinno się pojawić, ponieważ data visibleFrom jest w przyszłości.",
-        "linkPrzycisku": "/p/niewidoczne.html",
-        "tekstPrzycisku": "Niewidoczne",
-        "startDate": "2026-07-01 12:00",
-        "endDate": "2026-07-01 15:00",
-        "visibleFrom": "2026-06-25 00:00"
+        "tytul": "Nowy Rok Szkolny 2026/2027",
+        "tresc": "Rozpoczęcie nowego roku szkolnego 2026/2027.",
+        "linkPrzycisku": "https://www.infomatyka.pl/",
+        "tekstPrzycisku": "Dowiedz się co nowego na InfoMatyce",
+        "tekstPrzyciskuPrzed": "Sprawdź co nowego na InfoMatyce",
+        "startDate": "2026-09-01 00:00",
+        "endDate": "2026-09-06 23:59",
+        "visibleFrom": "2026-08-25 00:00"
       }
     ],
     "liczniki": {
@@ -121,58 +83,18 @@
     },
     "lekcja": [
       {
-        "tekst": "TEST LIVE: Aktualnie trwająca lekcja próbna",
-        "data": "Dzisiaj (Trwa teraz)",
-        "info": "Lekcja testowa weryfikująca automatyczne nadanie statusu LIVE na podstawie zakresu godzinowego.",
-        "link": "https://www.infomatyka.pl/p/lekcja-testowa.html",
-        "tekstPrzycisku": "Dołącz do lekcji",
-        "tekstPrzyciskuWTrakcie": "Dołącz teraz (Live)",
-        "startDate": "2026-06-13 21:00",
-        "endDate": "2026-06-13 23:59",
-        "collapsible": true
-      },
-      {
-        "tekst": "Lekcja 1: Powtórzenie przed Egzaminem Ósmoklasisty",
-        "data": "16.06.2026, godz. 17:00",
-        "info": "Temat: Zadania tekstowe i procenty. Przygotuj przybory geometryczne.",
-        "link": "https://www.infomatyka.pl/p/lekcja-na-zywo.html",
-        "tekstPrzycisku": "Zarezerwuj miejsce",
-        "tekstPrzyciskuPrzed": "Zarezerwuj (Przed)",
-        "startDate": "2026-06-16 17:00",
-        "endDate": "2026-06-16 18:30",
-        "collapsible": true
-      },
-      {
-        "tekst": "Lekcja 2: Wprowadzenie do Pythona",
-        "data": "23.06.2026, godz. 18:30",
-        "info": "Temat: Zmienne, warunki i pętle. Pierwszy program w konsoli.",
-        "link": "https://www.infomatyka.pl/p/lekcja-pythona.html",
-        "tekstPrzycisku": "Zarezerwuj miejsce",
-        "startDate": "2026-06-23 18:30",
-        "endDate": "2026-06-23 20:00"
-      },
-      {
-        "tekst": "Lekcja Archiwalna: Cyberbezpieczeństwo dla każdego",
-        "data": "Miniona lekcja z nagraniem",
-        "info": "Lekcja o bezpiecznym korzystaniu z internetu. Nagranie i slajdy są dostępne poniżej.",
-        "link": "https://www.infomatyka.pl/p/cyberbezpieczenstwo.html",
-        "tekstPrzycisku": "Dołącz",
-        "tekstPrzyciskuPo": "Zobacz nagranie lekcji (Po)",
-        "linkPo": "https://www.youtube.com/watch?v=mock-cybersec",
-        "startDate": "2026-06-10 15:00",
-        "endDate": "2026-06-10 16:30",
+        "tekst": "Lekcja Archiwalna: Bezpieczne korzystanie z Internetu",
+        "data": "May 12, 2026 09:00:00",
+        "info": "Lekcja o bezpiecznym korzystaniu z internetu.",
+        "link": "https://www.infomatyka.pl/",
+        "tekstPrzycisku": "Dołącz Do Lekcji",
+        "tekstPrzyciskuPo": "Zobacz Archiwalne Nagranie",
+        "linkPo": "https://www.infomatyka.pl/",
+        "startDate": "2026-05-01 10:00",
+        "endDate": "2026-05-30 23:59",
         "visibleUntil": "2026-06-20 23:59",
+        "visibleFrom": "2026-05-01 00:00",
         "collapsible": true
-      },
-      {
-        "tekst": "Lekcja przyszła niewidoczna",
-        "data": "Lipiec 2026",
-        "info": "Ta lekcja pojawi się na liście dopiero pod koniec czerwca.",
-        "link": "https://www.infomatyka.pl/p/lekcja-lipiec.html",
-        "tekstPrzycisku": "Rezerwuj",
-        "startDate": "2026-07-02 17:00",
-        "endDate": "2026-07-02 18:30",
-        "visibleFrom": "2026-06-25 00:00"
       }
     ],
     "zadania": [
@@ -265,7 +187,7 @@
   },
   "postNotificationBanner": {
     "active": true,
-    "text": "<strong>UWAGA!</strong> Strona jest w trakcie prac konserwacyjnych. Przepraszamy za utrudnienia.",
+    "text": "<strong>W BUDOWIE:</strong> Witryna jest w trakcie intensywnej rozbudowy. Prosimy nie przywiązywać się do rzeczy znajdujących się na niej, informacje zawarte tu są często tylko treścią zastępczą. Dziękujemy za cierpliwość i wyrozumiałość. Wszystko cały czas dopracowujemy.",
     "type": "info",
     "link": "https://www.infomatyka.pl/p/o-witrynie.html",
     "linkText": "Więcej informacji",
@@ -277,12 +199,12 @@
     "buttonTextColor": "#ffffff"
   },
   "pageNotificationBanner": {
-    "active": true,
+    "active": false,
     "type": "danger",
     "icon": "fa-shield-virus",
-    "text": "<strong>ALERT BEZPIECZEŃSTWA:</strong> Wykryto próbę naruszenia integralności serwisu (potencjalne zhakowanie strony). Ze względów bezpieczeństwa zalecamy pilną zmianę hasła do swojego konta.",
+    "text": "<strong>ALERT BEZPIECZEŃSTWA:</strong> Wykryto próbę naruszenia integralności serwisu. Ze względów bezpieczeństwa zalecamy pilną zmianę hasła do swojego konta.",
     "link": "https://www.infomatyka.pl/p/moje-konto.html",
-    "linkText": "Zmień hasło",
+    "linkText": "Zmień Hasło",
     "dismissible": true
   }
 }
