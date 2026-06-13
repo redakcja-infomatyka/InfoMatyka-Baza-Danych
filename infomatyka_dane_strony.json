@@ -48,6 +48,13 @@
   ],
   "headerWidget": {
     "aktywnyWidget": "random", 
+    "widgetyDoLosowania": [
+      "zadanieDnia",
+      "licznikMatura",
+      "licznikOsmoklasisty",
+      "lekcjaNaZywo",
+      "informacja"
+    ],
     "info": {
       "tytul": "WAŻNA INFORMACJA",
       "tresc": "Już wkrótce opublikujemy pełne omówienie arkusza z egzaminu ósmoklasisty. Bądźcie czujni!",
@@ -159,5 +166,18 @@
       { "id": "visualizer", "name": "Wizjoner", "desc": "Uruchom 5 wizualizacji", "icon": "fa-solid fa-eye", "target": "visualizersViewed", "val": 5 },
       { "id": "quiz_master", "name": "Geniusz Testów", "desc": "Ukończ 5 quizów naukowych", "icon": "fa-solid fa-brain", "target": "quizzesSolved", "val": 5 }
     ]
+  },
+  "postNotificationBanner": {
+    "active": false,
+    "text": "<strong>UWAGA!</strong> Strona jest w trakcie prac konserwacyjnych. Przepraszamy za utrudnienia.",
+    "type": "info",
+    "link": "https://www.infomatyka.pl/p/o-witrynie.html",
+    "linkText": "Więcej informacji",
+    "icon": "fa-bullhorn",
+    "textColor": "#1f2937",
+    "backgroundColor": "#f9fafb",
+    "borderColor": "#e5e7eb",
+    "buttonBackgroundColor": "#111827",
+    "buttonTextColor": "#ffffff"
   }
 }
