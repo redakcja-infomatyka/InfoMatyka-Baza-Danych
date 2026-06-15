@@ -1217,8 +1217,8 @@
           "text": "Zaokrąglij liczbę $3749$ do setek.",
           "value": 200,
           "options": ["$3700$", "$3800$", "$3750$", "$3740$"],
-          "correctOptionIndex": 1,
-          "explanation": "Przy zaokrąglaniu do setek patrzymy na cyfrę dziesiątek. Ponieważ jest to $4 < 5$, zaokrąglamy w dół do $3800$."
+          "correctOptionIndex": 0,
+          "explanation": "Przy zaokrąglaniu do setek patrzymy na cyfrę dziesiątek. Ponieważ jest to $4 < 5$, zaokrąglamy w dół do $3700$."
         },
         {
           "text": "Które z poniższych liczb są podzielne przez 5?",
@@ -1249,8 +1249,8 @@
         {
           "text": "Oblicz wartość wyrażenia: $2^5 - 3^3 + 2 \\cdot (15 / 3)$",
           "value": 100,
-          "options": ["$22$", "$18$", "$10$", "$32$"],
-          "correctOptionIndex": 3,
+          "options": ["$15$", "$18$", "$10$", "$32$"],
+          "correctOptionIndex": 0,
           "explanation": "$2^5 - 3^3 + 2 \\cdot (15 / 3) = 32 - 27 + 2 \\cdot 5 = 32 - 27 + 10 = 5 + 10 = 15$"
         },
         {
@@ -1404,11 +1404,11 @@
           "explanation": "Za $3$ lata Ania będzie miała $15$ lat, więc teraz ma $15 - 3 = 12$ lat. Bartek jest młodszy o $5$ lat, czyli ma $12 - 5 = 7$ lat."
         },
         {
-          "text": "Za $4$ zeszyty i $3$ długopisy Kasia zapłaciła $23$ zł. Zeszyt kosztuje $4$ zł. Ile kosztuje długopis?",
+          "text": "Za $4$ zeszyty i $3$ długopisy Kasia zapłaciła $22$ zł. Zeszyt kosztuje $4$ zł. Ile kosztuje długopis?",
           "value": 200,
           "options": ["$2$ zł", "$3$ zł", "$5$ zł", "$7$ zł"],
           "correctOptionIndex": 0,
-          "explanation": "Za zeszyty Kasia zapłaciła $4 \\cdot 4 = 16$ zł. Za długopisy zapłaciła $23 - 16 = 7$ zł, czyli jeden długopis kosztuje $7 \\div 3 = 2$ zł."
+          "explanation": "Za zeszyty Kasia zapłaciła $4 \\cdot 4 = 16$ zł. Za długopisy zapłaciła $22 - 16 = 6$ zł, czyli jeden długopis kosztuje $6 \\div 3 = 2$ zł."
         },
         {
           "text": "Jeden kilogram jabłek kosztuje $3$ zł. Ile zapłacimy za $2,5$ kg jabłek?",
@@ -1460,7 +1460,7 @@
         {
           "text": "Wykonaj dodawanie: $\\frac{1}{6} + \\frac{2}{9}$.",
           "value": 400,
-          "options": ["$\\frac{3}{15}$", "$\\frac{3}{18}$", "$\\frac{11}{18}$", "$\\frac{5}{18}$"],
+          "options": ["$\\frac{3}{15}$", "$\\frac{3}{18}$", "$\\frac{11}{18}$", "$\\frac{7}{18}$"],
           "correctOptionIndex": 3,
           "explanation": "Sprowadzamy do wspólnego mianownika: $\\frac{1}{6} = \\frac{3}{18}$, $\\frac{2}{9} = \\frac{4}{18}$. Stąd $\\frac{1}{6} + \\frac{2}{9} = \\frac{3}{18} + \\frac{4}{18} = \\frac{7}{18}$."
         },
@@ -1509,7 +1509,7 @@
           "value": 500,
           "options": ["$x = 1$", "$x = 2$", "$x = 3$", "$x = 4$"],
           "correctOptionIndex": 1,
-          "explanation": "$2(x + 3) - 5 = 3(x - 1) + 2 \\Rightarrow 2x + 6 - 5 = 3x - 3 + 2 \\Rightarrow 2x + 1 = 3x - 1 \\Rightarrow 1 = x$"
+          "explanation": "$2(x + 3) - 5 = 3(x - 1) + 2 \\Rightarrow 2x + 6 - 5 = 3x - 3 + 2 \\Rightarrow 2x + 1 = 3x - 1 \\Rightarrow 2 = x$"
         },
         {
           "text": "Rozwiąż równanie: $4(x - 2) = 2(x + 6)$",
@@ -1573,18 +1573,18 @@
           "explanation": "$5x - 7 = 3x + 9 \\Rightarrow 5x - 3x = 9 + 7 \\Rightarrow 2x = 16 \\Rightarrow x = 8$"
         },
         {
-          "text": "Rozwiąż równanie: $\\frac{2x+1}{3} - \\frac{x-2}{6} = 2$",
+          "text": "Rozwiąż równanie: $\\frac{2x-1}{3} - \\frac{x-2}{6} = 2$",
           "value": 400,
           "options": ["$x = 4$", "$x = 5$", "$x = 6$", "$x = 7$"],
-          "correctOptionIndex": 2,
-          "explanation": "$\\frac{2x+1}{3} - \\frac{x-2}{6} = 2 \\Rightarrow \\frac{2(2x+1)-(x-2)}{6} = 2 \\Rightarrow \\frac{4x+2-x+2}{6} = 2 \\Rightarrow \\frac{3x+4}{6} = 2 \\Rightarrow 3x+4 = 12 \\Rightarrow 3x = 8 \\Rightarrow x = \\frac{8}{3}$"
+          "correctOptionIndex": 0,
+          "explanation": "$\\frac{2x-1}{3} - \\frac{x-2}{6} = 2 \\Rightarrow \\frac{2(2x-1)-(x-2)}{6} = 2 \\Rightarrow \\frac{4x-2-x+2}{6} = 2 \\Rightarrow \\frac{3x}{6} = 2 \\Rightarrow 3x = 12 \\Rightarrow x = 4$"
         },
         {
-          "text": "Rozwiąż równanie: $\\frac{x+3}{2} = \\frac{2x-1}{5$",
+          "text": "Rozwiąż równanie: $\\frac{x+3}{2} = \\frac{2x+1}{3}$",
           "value": 500,
           "options": ["$x = 7$", "$x = 8$", "$x = 9$", "$x = 10$"],
-          "correctOptionIndex": 1,
-          "explanation": "$\\frac{x+3}{2} = \\frac{2x-1}{5} \\Rightarrow 5(x+3) = 2(2x-1) \\Rightarrow 5x+15 = 4x-2 \\Rightarrow 5x-4x = -2-15 \\Rightarrow x = -17 \\Rightarrow x = 17$"
+          "correctOptionIndex": 0,
+          "explanation": "$\\frac{x+3}{2} = \\frac{2x+1}{3} \\Rightarrow 3(x+3) = 2(2x+1) \\Rightarrow 3x+9 = 4x+2 \\Rightarrow x = 7$"
         },
         {
           "text": "Rozwiąż równanie: $x + 7 = 12$",
@@ -1650,7 +1650,7 @@
         {
           "text": "Rozwiń i uprość wyrażenie $(x + 3)(x - 2)$",
           "value": 400,
-          "options": ["$x^2 + x - 6$", "$x^2 - 2x + 3x - 6$", "$x^2 + x - 6$", "$x^2 - 6$"],
+          "options": ["$x^2 - x - 6$", "$x^2 - 2x + 3x - 6$", "$x^2 + x - 6$", "$x^2 - 6$"],
           "correctOptionIndex": 2,
           "explanation": "$(x + 3)(x - 2) = x^2 - 2x + 3x - 6 = x^2 + x - 6$"
         },
@@ -2012,7 +2012,7 @@
           "text": "W jakiej proporcji należy zmieszać 70% i 30% roztwór alkoholu, aby otrzymać 40% roztwór?",
           "value": 200,
           "options": ["$1:3$", "$2:3$", "$1:2$", "$3:7$"],
-          "correctOptionIndex": 2,
+          "correctOptionIndex": 0,
           "explanation": "Niech $x$ to ilość 70% roztworu, a $y$ to ilość 30% roztworu. Wówczas $0.7x + 0.3y = 0.4(x+y)$. Po uproszczeniu: $0.3x = 0.1y$, czyli $3x = y$, co daje proporcję $x:y = 1:3$."
         },
         {
@@ -2030,11 +2030,11 @@
           "explanation": "Liczba chłopców $= 40\\% \\cdot 35 = 0.4 \\cdot 35 = 14$"
         },
         {
-          "text": "Ile gramów 80% roztworu należy dodać do 100g 30% roztworu, aby otrzymać 50% roztwór?",
+          "text": "Ile gramów 90% roztworu należy dodać do 100g 30% roztworu, aby otrzymać 50% roztwór?",
           "value": 500,
           "options": ["$40$ g", "$50$ g", "$60$ g", "$80$ g"],
-          "correctOptionIndex": 2,
-          "explanation": "Niech $x$ to masa 80% roztworu. Wówczas $0.3 \\cdot 100 + 0.8x = 0.5(100+x)$. Stąd $30 + 0.8x = 50 + 0.5x$, więc $0.3x = 20$, czyli $x = \\frac{20}{0.3} = 66.67$, czyli około $67$ g"
+          "correctOptionIndex": 1,
+          "explanation": "Niech $x$ to masa 90% roztworu. Wówczas $0.9x + 0.3 \\cdot 100 = 0.5(100+x)$. Stąd $0.9x + 30 = 50 + 0.5x$, więc $0.4x = 20$, czyli $x = 50$ g"
         }
       ]
     },
@@ -2185,8 +2185,8 @@
         {
           "text": "Rzucamy dwiema kostkami. Jakie jest prawdopodobieństwo, że suma wyrzuconych oczek będzie równa $7$?",
           "value": 400,
-          "options": ["$\\frac{7}{36}$", "$\\frac{5}{36}$", "$\\frac{1}{12}$", "$\\frac{6}{36}$"],
-          "correctOptionIndex": 4,
+          "options": ["$\\frac{7}{36}$", "$\\frac{5}{36}$", "$\\frac{1}{12}$", "$\\frac{1}{6}$"],
+          "correctOptionIndex": 3,
           "explanation": "Suma $7$ może wypaść na $6$ sposobów: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$. Wszystkich możliwych wyników jest $6 \\times 6 = 36$. Zatem prawdopodobieństwo $= \\frac{6}{36} = \\frac{1}{6}$"
         },
         {
@@ -2317,7 +2317,7 @@
       "name": "Statystyka i Analiza Danych",
       "questions": [
         {
-          "text": "Średnia arytmetyczna liczb $3, 7, 9, 11, 15$ wynosi:",
+          "text": "Średnia arytmetyczna liczby $3, 7, 9, 11, 15$ wynosi:",
           "value": 100,
           "options": ["$7$", "$9$", "$10$", "$45$"],
           "correctOptionIndex": 1,
