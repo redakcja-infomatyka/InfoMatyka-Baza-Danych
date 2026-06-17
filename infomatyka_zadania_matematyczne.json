@@ -2,23 +2,37 @@
   {
     "baseId": 101,
     "subject": "Matematyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Funkcje"],
+    "department": [
+      "Funkcje"
+    ],
     "type": "jednokrotny wybór",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["funkcja kwadratowa", "miejsce zerowe"],
+    "tags": [
+      "funkcja kwadratowa",
+      "miejsce zerowe"
+    ],
     "requirements": [
       "Uczeń odczytuje z wykresu funkcji: dziedzinę, zbiór wartości, miejsca zerowe, przedziały monotoniczności, przedziały, w których funkcja przyjmuje wartości większe lub mniejsze od danej liczby, największe i najmniejsze wartości"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10101,
         "text": "Podaj miejsca zerowe funkcji $f(x) = x^2 - 16$.",
         "points": 1,
-        "options": ["x=4", "x=-4, x=4", "x=16", "brak miejsc zerowych"],
+        "options": [
+          "$x=4$",
+          "$x=-4, x=4$",
+          "$x=16$",
+          "brak miejsc zerowych"
+        ],
         "correctAnswerIndex": 1,
         "solution": "Aby znaleźć miejsca zerowe, rozwiązujemy równanie $x^2 - 16 = 0$, co daje $(x-4)(x+4)=0$. Zatem $x=4$ lub $x=-4$."
       },
@@ -26,7 +40,12 @@
         "id": 10102,
         "text": "Podaj miejsca zerowe funkcji $f(x) = x^2 - 25$.",
         "points": 1,
-        "options": ["x=-5, x=5", "x=25", "x=5", "brak miejsc zerowych"],
+        "options": [
+          "$x=-5, x=5$",
+          "$x=25$",
+          "$x=5$",
+          "brak miejsc zerowych"
+        ],
         "correctAnswerIndex": 0,
         "solution": "Rozwiązujemy równanie $x^2 - 25 = 0$, co daje $(x-5)(x+5)=0$. Zatem $x=5$ lub $x=-5$."
       },
@@ -34,7 +53,12 @@
         "id": 10103,
         "text": "Wskaż miejsca zerowe funkcji $f(x) = (x-1)(x+2)$.",
         "points": 1,
-        "options": ["x=1, x=-2", "x=-1, x=2", "x=1, x=2", "x=-1, x=-2"],
+        "options": [
+          "$x=1, x=-2$",
+          "$x=-1, x=2$",
+          "$x=1, x=2$",
+          "$x=-1, x=-2$"
+        ],
         "correctAnswerIndex": 0,
         "solution": "Funkcja jest w postaci iloczynowej. Miejsca zerowe odczytujemy bezpośrednio: $x-1=0 \\Rightarrow x=1$ oraz $x+2=0 \\Rightarrow x=-2$."
       },
@@ -43,7 +67,12 @@
         "text": "Które z podanych liczb jest miejscem zerowym funkcji $f(x) = x^2 - 9$?",
         "points": 1,
         "isSpe": true,
-        "options": ["x=9", "x=3", "x=1", "x=0"],
+        "options": [
+          "$x=9$",
+          "$x=3$",
+          "$x=1$",
+          "$x=0$"
+        ],
         "correctAnswerIndex": 1,
         "solution": "Aby znaleźć miejsca zerowe, szukamy takiej liczby, która podniesiona do kwadratu da 9. Takimi liczbami są 3 i -3. Poprawną odpowiedzią jest $x=3$."
       },
@@ -52,7 +81,12 @@
         "text": "Która z podanych liczb jest miejscem zerowym funkcji $f(x) = x - 4$?",
         "points": 1,
         "isSpe": true,
-        "options": ["1", "2", "3", "4"],
+        "options": [
+          "$1$",
+          "$2$",
+          "$3$",
+          "$4$"
+        ],
         "correctAnswerIndex": 3,
         "solution": "Szukamy takiego x, dlla którego $x-4=0$. Tą liczbą jest 4, ponieważ $4-4=0$."
       }
@@ -61,40 +95,75 @@
   {
     "baseId": 102,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Sieci Komputerowe I Bezpieczeństwo"],
+    "department": [
+      "Sieci Komputerowe I Bezpieczeństwo"
+    ],
     "type": "wielokrotny wybór",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["sieć", "topologia", "internet"],
+    "tags": [
+      "sieć",
+      "topologia",
+      "internet"
+    ],
     "requirements": [
       "Uczeń charakteryzuje sieć internet, jej ogólną budowę i usługi, opisuje podstawowe topologie sieci komputerowej, przedstawia i porównuje zasady działania i funkcjonowania sieci komputerowej typu klient-serwer, peer-to-peer, opisuje sposoby identyfikowania komputerów w sieci"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10201,
         "text": "Zaznacz wszystkie urządzenia będące aktywnymi elementami sieci komputerowej.",
         "points": 2,
-        "options": ["Router", "Kabel UTP (skrętka)", "Switch (przełącznik)", "Karta sieciowa (NIC)"],
-        "correctAnswerIndices": [0, 2, 3],
+        "options": [
+          "Router",
+          "Kabel UTP (skrętka)",
+          "Switch (przełącznik)",
+          "Karta sieciowa (NIC)"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
         "solution": "Router, switch i karta sieciowa to urządzenia aktywne, ponieważ przetwarzają lub wzmacniają sygnał. Kabel jest elementem pasywnym, służącym jedynie do transmisji sygnału."
       },
       {
         "id": 10202,
         "text": "Które z podanych adresów IP są adresami prywatnymi?",
         "points": 2,
-        "options": ["192.168.1.10", "8.8.8.8", "172.20.5.1", "150.254.1.1"],
-        "correctAnswerIndices": [0, 2],
+        "options": [
+          "192.168.1.10",
+          "8.8.8.8",
+          "172.20.5.1",
+          "150.254.1.1"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2
+        ],
         "solution": "Adresy prywatne należą do puli zdefiniowanych w standardach RFC 1918, m.in. 192.168.0.0/16 oraz 172.16.0.0/12."
       },
       {
         "id": 10203,
         "text": "Wybierz protokoły należące do warstwy aplikacji modelu ISO/OSI.",
         "points": 2,
-        "options": ["HTTP", "TCP", "FTP", "IP"],
-        "correctAnswerIndices": [0, 2],
+        "options": [
+          "HTTP",
+          "TCP",
+          "FTP",
+          "IP"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2
+        ],
         "solution": "HTTP (obsługa stron WWW) i FTP (transfer plików) są protokołami warstwy aplikacji. TCP i IP działają w niższych warstwach (transportowej i sieciowej)."
       },
       {
@@ -102,8 +171,17 @@
         "text": "Zaznacz urządzenia, które można bezprzewodowo podłączyć do domowego routera Wi-Fi.",
         "points": 1,
         "isSpe": true,
-        "options": ["Komputer", "Drukarka", "Smartfon", "Toster"],
-        "correctAnswerIndices": [0, 1, 2],
+        "options": [
+          "Komputer",
+          "Drukarka",
+          "Smartfon",
+          "Toster"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
         "solution": "Do routera Wi-Fi można podłączyć komputer, drukarkę (jeśli ma moduł Wi-Fi) oraz smartfon. Zwykły toster nie łączy się z siecią."
       },
       {
@@ -111,8 +189,17 @@
         "text": "Zaznacz czynności, które można wykonywać za pośrednictwem internetu.",
         "points": 1,
         "isSpe": true,
-        "options": ["Oglądanie filmów", "Wysyłanie e-maili", "Czytanie wiadomości", "Picie herbaty"],
-        "correctAnswerIndices": [0, 1, 2],
+        "options": [
+          "Oglądanie filmów",
+          "Wysyłanie e-maili",
+          "Czytanie wiadomości",
+          "Picie herbaty"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
         "solution": "Internet umożliwia oglądanie filmów, wysyłanie e-maili i czytanie wiadomości. Picie herbaty nie jest czynnością związaną z internetem."
       }
     ]
@@ -120,25 +207,46 @@
   {
     "baseId": 103,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["6", "7", "8"],
-    "department": ["Własności Figur Geometrycznych"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6",
+      "7",
+      "8"
+    ],
+    "department": [
+      "Własności Figur Geometrycznych"
+    ],
     "type": "prawda-fałsz",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["geometria", "wielokąty", "trójkąty", "czworokąty"],
+    "tags": [
+      "geometria",
+      "wielokąty",
+      "trójkąty",
+      "czworokąty"
+    ],
     "requirements": [
       "Uczeń zna najważniejsze własności kwadratu, prostokąta, rombu, równoległoboku i trapezu, rozpoznaje figury osiowosymetryczne i wskazuje osie symetrii figur"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10301,
         "text": "Oceń prawdziwość poniższych zdań.",
         "points": 2,
         "statements": [
-          { "text": "Suma miar kątów w każdym czworokącie wynosi 360°.", "answer": true },
-          { "text": "Każdy prostokąt jest kwadratem.", "answer": false }
+          {
+            "text": "Suma miar kątów w każdym czworokącie wynosi 360°.",
+            "answer": true
+          },
+          {
+            "text": "Każdy prostokąt jest kwadratem.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – suma miar kątów wewnętrznych w dowolnym czworokącie to 360°. 2. Fałsz – to każdy kwadrat jest prostokątem, ale nie na odwrót (prostokąt nie musi mieć wszystkich boków równych)."
       },
@@ -147,8 +255,14 @@
         "text": "Oceń prawdziwość poniższych zdań dotyczących trójkątów.",
         "points": 2,
         "statements": [
-          { "text": "Trójkąt równoboczny ma wszystkie kąty o mierze 60°.", "answer": true },
-          { "text": "W trójkącie prostokątnym suma miar kątów ostrych wynosi 100°.", "answer": false }
+          {
+            "text": "Trójkąt równoboczny ma wszystkie kąty o mierze 60°.",
+            "answer": true
+          },
+          {
+            "text": "W trójkącie prostokątnym suma miar kątów ostrych wynosi 100°.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – trójkąt równoboczny ma wszystkie boki i kąty równe, a 180°÷3 = 60°. 2. Fałsz – suma kątów w trójkącie to 180°, więc jeśli jeden kąt ma 90°, suma pozostałych dwóch wynosi 180° − 90° = 90°."
       },
@@ -157,8 +271,14 @@
         "text": "Oceń prawdziwość poniższych zdań dotyczących okręgów.",
         "points": 2,
         "statements": [
-          { "text": "Średnica okręgu jest dwa razy dłuższa od jego promienia.", "answer": true },
-          { "text": "Cięciwa może być dłuższa od średnicy okręgu.", "answer": false }
+          {
+            "text": "Średnica okręgu jest dwa razy dłuższa od jego promienia.",
+            "answer": true
+          },
+          {
+            "text": "Cięciwa może być dłuższa od średnicy okręgu.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – z definicji średnica $d=2r$. 2. Fałsz – najdłuższą cięciwą w okręgu jest jego średnica."
       },
@@ -168,8 +288,14 @@
         "points": 2,
         "isSpe": true,
         "statements": [
-          { "text": "Kwadrat ma cztery równe boki.", "answer": true },
-          { "text": "Trójkąt ma pięć kątów.", "answer": false }
+          {
+            "text": "Kwadrat ma cztery równe boki.",
+            "answer": true
+          },
+          {
+            "text": "Trójkąt ma pięć kątów.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – to cecha charakterystyczna kwadratu. 2. Fałsz – trójkąt ma trzy kąty."
       },
@@ -179,8 +305,14 @@
         "points": 2,
         "isSpe": true,
         "statements": [
-          { "text": "Koło ma kształt okrągły.", "answer": true },
-          { "text": "Linia prosta jest zakrzywiona.", "answer": false }
+          {
+            "text": "Koło ma kształt okrągły.",
+            "answer": true
+          },
+          {
+            "text": "Linia prosta jest zakrzywiona.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – koło ma kształt okrągły. 2. Fałsz – linia prosta nie jest zakrzywiona."
       }
@@ -189,17 +321,27 @@
   {
     "baseId": 104,
     "subject": "Fizyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Rozszerzony",
-    "department": ["Kinematyka i Dynamika"],
+    "department": [
+      "Kinematyka i Dynamika"
+    ],
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["ruch jednostajny", "prędkość", "droga"],
+    "tags": [
+      "ruch jednostajny",
+      "prędkość",
+      "droga"
+    ],
     "requirements": [
       "Uczeń opisuje ruchy prostoliniowe jednostajne i jednostajnie zmienne, posługując się zależnościami położenia, wartości prędkości oraz drogi od czasu"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10401,
@@ -238,26 +380,48 @@
   {
     "baseId": 105,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["5", "6"],
-    "department": ["Ułamki Zwykłe i Dziesiętne"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5",
+      "6"
+    ],
+    "department": [
+      "Ułamki Zwykłe i Dziesiętne"
+    ],
     "type": "przyporządkowanie",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["ułamki", "dziesiętne", "zwykłe"],
+    "tags": [
+      "ułamki",
+      "dziesiętne",
+      "zwykłe"
+    ],
     "requirements": [
       "Uczeń zamienia ułamki zwykłe o mianownikach będących dzielnikami liczb 10, 100, 1000 itd. na ułamki dziesiętne skończone dowolną metodą (przez rozszerzanie lub skracanie ułamków zwykłych, dzielenie licznika przez mianownik w pamięci, pisemnie lub za pomocą kalkulatora)"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10501,
         "text": "Połącz każdy ułamek zwykły z odpowiadającym mu ułamkiem dziesiętnym.",
         "points": 3,
         "pairs": [
-          { "left": "$\\frac{1}{2}$", "right": "0,5" },
-          { "left": "$\\frac{1}{4}$", "right": "0,25" },
-          { "left": "$\\frac{3}{4}$", "right": "0,75" }
+          {
+            "left": "$\\frac{1}{2}$",
+            "right": "0,5"
+          },
+          {
+            "left": "$\\frac{1}{4}$",
+            "right": "0,25"
+          },
+          {
+            "left": "$\\frac{3}{4}$",
+            "right": "0,75"
+          }
         ],
         "solution": "Poprawne pary to: 1/2 = 0,5; 1/4 = 0,25; 3/4 = 0,75."
       },
@@ -266,9 +430,18 @@
         "text": "Przyporządkuj każdemu ułamkowi dziesiętnemu jego odpowiednik w postaci nieskracalnego ułamka zwykłego.",
         "points": 3,
         "pairs": [
-          { "left": "0,2", "right": "$\\frac{1}{5}$" },
-          { "left": "0,6", "right": "$\\frac{3}{5}$" },
-          { "left": "0,1", "right": "$\\frac{1}{10}$" }
+          {
+            "left": "0,2",
+            "right": "$\\frac{1}{5}$"
+          },
+          {
+            "left": "0,6",
+            "right": "$\\frac{3}{5}$"
+          },
+          {
+            "left": "0,1",
+            "right": "$\\frac{1}{10}$"
+          }
         ],
         "solution": "Poprawne pary: 0,2 = 2/10 = 1/5; 0,6 = 6/10 = 3/5; 0,1 = 1/10."
       },
@@ -277,9 +450,18 @@
         "text": "Oblicz wartość każdego wyrażenia i połącz je z odpowiednim wynikiem.",
         "points": 3,
         "pairs": [
-          { "left": "$0{,}5 + \\frac{1}{4}$", "right": "0,75" },
-          { "left": "$1 - \\frac{1}{2}$", "right": "0,5" },
-          { "left": "$0{,}25 + 0{,}25$", "right": "$\\frac{1}{2}$" }
+          {
+            "left": "$0{,}5 + \\frac{1}{4}$",
+            "right": "0,75"
+          },
+          {
+            "left": "$1 - \\frac{1}{2}$",
+            "right": "0,5"
+          },
+          {
+            "left": "$0{,}25 + 0{,}25$",
+            "right": "$\\frac{1}{2}$"
+          }
         ],
         "solution": "$0{,}5 + 0{,}25 = 0{,}75$; $1 - 0{,}5 = 0{,}5$; $0{,}25 + 0{,}25 = 0{,}5 = \\frac{1}{2}$."
       },
@@ -289,8 +471,14 @@
         "points": 2,
         "isSpe": true,
         "pairs": [
-          { "left": "0,5", "right": "pół" },
-          { "left": "0,25", "right": "ćwierć" }
+          {
+            "left": "0,5",
+            "right": "pół"
+          },
+          {
+            "left": "0,25",
+            "right": "ćwierć"
+          }
         ],
         "solution": "0,5 to inaczej połowa (pół). 0,25 to inaczej ćwierć."
       },
@@ -300,8 +488,14 @@
         "points": 2,
         "isSpe": true,
         "pairs": [
-          { "left": "$\\frac{1}{2}$", "right": "0,5" },
-          { "left": "$\\frac{1}{10}$", "right": "0,1" }
+          {
+            "left": "$\\frac{1}{2}$",
+            "right": "0,5"
+          },
+          {
+            "left": "$\\frac{1}{10}$",
+            "right": "0,1"
+          }
         ],
         "solution": "Jedna druga to 0,5. Jedna dziesiąta to 0,1."
       }
@@ -310,17 +504,27 @@
   {
     "baseId": 106,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Rozszerzony",
-    "department": ["Bazy Danych I Ich Zastosowanie"],
+    "department": [
+      "Bazy Danych I Ich Zastosowanie"
+    ],
     "type": "uzupełnij lukę",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["sql", "bazy danych", "kwerendy"],
+    "tags": [
+      "sql",
+      "bazy danych",
+      "kwerendy"
+    ],
     "requirements": [
       "Uczeń, przygotowując opracowania rozwiązań złożonych problemów, posługuje się wybranymi aplikacjami w stopniu zaawansowanym: d) projektuje i tworzy relacyjną bazę złożoną z wielu tabel oraz sieciową aplikację bazodanową dla danych związanych z rozwiązywanym problemem, formułuje kwerendy, tworzy i modyfikuje formularze oraz raporty, stosuje język SQL do wyszukiwania informacji w bazie i do jej modyfikacji, uwzględnia kwestie integralności danych, bezpieczeństwa i ochrony danych w bazie"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10601,
@@ -359,17 +563,30 @@
   {
     "baseId": 107,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["5", "6"],
-    "department": ["Elementy Statystyki Opisowej"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5",
+      "6"
+    ],
+    "department": [
+      "Elementy Statystyki Opisowej"
+    ],
     "type": "wykres",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["wykresy", "dane", "statystyka"],
+    "tags": [
+      "wykresy",
+      "dane",
+      "statystyka"
+    ],
     "requirements": [
       "Uczeń odczytuje i interpretuje dane przedstawione w tekstach, tabelach, na diagramach i na wykresach"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10701,
@@ -378,8 +595,16 @@
         "taskType": "wykres",
         "chartType": "bar",
         "chartTitle": "Liczba uczniów w klasach szóstych",
-        "chartLabels": ["6a", "6b", "6c"],
-        "chartData": [25, 22, 24],
+        "chartLabels": [
+          "6a",
+          "6b",
+          "6c"
+        ],
+        "chartData": [
+          25,
+          22,
+          24
+        ],
         "solution": "Z wykresu odczytujemy, że w klasie 6a jest 25 uczniów, a w klasie 6c są 24 osoby. Suma: $25 + 24 = 49$."
       },
       {
@@ -389,8 +614,16 @@
         "taskType": "wykres",
         "chartType": "pie",
         "chartTitle": "Ulubione owoce",
-        "chartLabels": ["Jabłka", "Banany", "Truskawki"],
-        "chartData": [50, 25, 25],
+        "chartLabels": [
+          "Jabłka",
+          "Banany",
+          "Truskawki"
+        ],
+        "chartData": [
+          50,
+          25,
+          25
+        ],
         "solution": "Z wykresu odczytujemy, że jabłka stanowią 50% ulubionych owoców."
       },
       {
@@ -400,8 +633,20 @@
         "taskType": "wykres",
         "chartType": "line",
         "chartTitle": "Temperatura w ciągu dnia",
-        "chartLabels": ["8:00", "10:00", "12:00", "14:00", "16:00"],
-        "chartData": [12, 15, 18, 20, 19],
+        "chartLabels": [
+          "8:00",
+          "10:00",
+          "12:00",
+          "14:00",
+          "16:00"
+        ],
+        "chartData": [
+          12,
+          15,
+          18,
+          20,
+          19
+        ],
         "solution": "Najwyższy punkt na wykresie odpowiada temperaturze 20°C o godzinie 14:00."
       },
       {
@@ -412,8 +657,16 @@
         "taskType": "wykres",
         "chartType": "bar",
         "chartTitle": "Liczba strzelonych goli",
-        "chartLabels": ["Ania", "Tomek", "Kasia"],
-        "chartData": [3, 5, 2],
+        "chartLabels": [
+          "Ania",
+          "Tomek",
+          "Kasia"
+        ],
+        "chartData": [
+          3,
+          5,
+          2
+        ],
         "solution": "Najwyższy słupek na wykresie jest przy imieniu Tomek. Strzelił on 5 goli, czyli najwięcej."
       },
       {
@@ -424,8 +677,16 @@
         "taskType": "wykres",
         "chartType": "bar",
         "chartTitle": "Zwierzęta w mini-zoo",
-        "chartLabels": ["Króliki", "Kury", "Kozy"],
-        "chartData": [10, 15, 4],
+        "chartLabels": [
+          "Króliki",
+          "Kury",
+          "Kozy"
+        ],
+        "chartData": [
+          10,
+          15,
+          4
+        ],
         "solution": "Najniższy słupek na wykresie odpowiada kozom. Jest ich 4, czyli najmniej."
       }
     ]
@@ -433,17 +694,27 @@
   {
     "baseId": 108,
     "subject": "Matematyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Liczby Rzeczywiste"],
+    "department": [
+      "Liczby Rzeczywiste"
+    ],
     "type": "oś liczbowa",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["oś liczbowa", "liczby", "zbiory"],
+    "tags": [
+      "oś liczbowa",
+      "liczby",
+      "zbiory"
+    ],
     "requirements": [
       "Uczeń posługuje się pojęciem przedziału liczbowego, zaznacza przedziały na osi liczbowej"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10801,
@@ -502,17 +773,30 @@
   {
     "baseId": 109,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["7", "8"],
-    "department": ["Oś Liczbowa. Układ Współrzędnych"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7",
+      "8"
+    ],
+    "department": [
+      "Oś Liczbowa. Układ Współrzędnych"
+    ],
     "type": "układ współrzędnych",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["układ współrzędnych", "geometria", "trójkąt"],
+    "tags": [
+      "układ współrzędnych",
+      "geometria",
+      "trójkąt"
+    ],
     "requirements": [
       "Uczeń rysuje w układzie współrzędnych na płaszczyźnie punkty kratowe o danych współrzędnych całkowitych"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 10901,
@@ -548,17 +832,28 @@
   {
     "baseId": 110,
     "subject": "Fizyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Kinematyka"],
+    "department": [
+      "Kinematyka"
+    ],
     "type": "wiązka",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["ruch", "wiązka", "wykres", "prędkość"],
+    "tags": [
+      "ruch",
+      "wiązka",
+      "wykres",
+      "prędkość"
+    ],
     "requirements": [
       "Uczeń opisuje ruchy prostoliniowe jednostajne i jednostajnie zmienne, posługując się zależnościami położenia, wartości prędkości oraz drogi od czasu"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 11001,
@@ -574,8 +869,20 @@
             "text": "Odczytaj z wykresu wartość prędkości ciała w 6. sekundzie ruchu. Podaj wynik w m/s.",
             "chartTitle": "Wykres prędkości v(t)",
             "chartType": "line",
-            "chartLabels": ["0", "2", "4", "6", "8"],
-            "chartData": [0, 5, 10, 10, 10],
+            "chartLabels": [
+              "0",
+              "2",
+              "4",
+              "6",
+              "8"
+            ],
+            "chartData": [
+              0,
+              5,
+              10,
+              10,
+              10
+            ],
             "solution": "W 6. sekundzie (przedział od 4 do 8 s, gdzie ruch jest jednostajny) prędkość ciała wynosi stałe 10 m/s."
           },
           {
@@ -583,7 +890,12 @@
             "points": 1,
             "type": "jednokrotny wybór",
             "text": "Jakim ruchem poruszało się ciało w ciągu pierwszych 4 sekund?",
-            "options": ["jednostajnym prostoliniowym", "jednostajnie przyspieszonym", "jednostajnie opóźnionym", "ciało pozostawało w spoczynku"],
+            "options": [
+              "jednostajnym prostoliniowym",
+              "jednostajnie przyspieszonym",
+              "jednostajnie opóźnionym",
+              "ciało pozostawało w spoczynku"
+            ],
             "correctAnswerIndex": 1,
             "solution": "Prędkość rośnie jednostajnie od 0 do 10 m/s, więc jest to ruch jednostajnie przyspieszony."
           },
@@ -593,8 +905,14 @@
             "type": "prawda-fałsz",
             "text": "Oceń prawdziwość zdań dotyczących ruchu ciała.",
             "statements": [
-              { "text": "Całkowita droga przebyta przez ciało w ciągu 8 sekund wynosi 60 metrów.", "answer": true },
-              { "text": "W przedziale od 4 do 8 sekund przyspieszenie ciała było równe $0\\text{ m/s}^2$.", "answer": true }
+              {
+                "text": "Całkowita droga przebyta przez ciało w ciągu 8 sekund wynosi 60 metrów.",
+                "answer": true
+              },
+              {
+                "text": "W przedziale od 4 do 8 sekund przyspieszenie ciała było równe $0\\text{ m/s}^2$.",
+                "answer": true
+              }
             ],
             "solution": "1. Prawda: droga to pole pod wykresem $v(t)$. Trójkąt (0-4s): $\\frac{1}{2}\\cdot 4\\cdot 10 = 20\\text{ m}$. Prostokąt (4-8s): $4\\cdot 10 = 40\\text{ m}$. Suma: $20+40=60\\text{ m}$. 2. Prawda: prędkość była stała, więc ruch był jednostajny, a przyspieszenie wynosiło 0."
           }
@@ -605,23 +923,41 @@
   {
     "baseId": 201,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["7", "8"],
-    "department": ["Potęgi I Pierwiastki"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7",
+      "8"
+    ],
+    "department": [
+      "Potęgi I Pierwiastki"
+    ],
     "type": "jednokrotny wybór",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["potęgowanie", "pierwiastkowanie", "arytmetyka"],
+    "tags": [
+      "potęgowanie",
+      "pierwiastkowanie",
+      "arytmetyka"
+    ],
     "requirements": [
       "Uczeń oblicza wartości pierwiastków kwadratowych i sześciennych z liczb, które są odpowiednio kwadratami lub sześcianami liczb wymiernych"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 20101,
         "text": "Oblicz wartość wyrażenia $3^4$.",
         "points": 1,
-        "options": ["12", "81", "64", "27"],
+        "options": [
+          "$12$",
+          "$81$",
+          "$64$",
+          "$27$"
+        ],
         "correctAnswerIndex": 1,
         "solution": "Działanie $3^4$ oznacza $3 \\cdot 3 \\cdot 3 \\cdot 3 = 9 \\cdot 9 = 81$."
       },
@@ -629,7 +965,12 @@
         "id": 20102,
         "text": "Oblicz wartość wyrażenia $\\sqrt{144}$.",
         "points": 1,
-        "options": ["14", "72", "12", "11"],
+        "options": [
+          "$14$",
+          "$72$",
+          "$12$",
+          "$11$"
+        ],
         "correctAnswerIndex": 2,
         "solution": "Pierwiastek kwadratowy z 144 to 12, ponieważ $12^2 = 12 \\cdot 12 = 144$."
       },
@@ -637,7 +978,12 @@
         "id": 20103,
         "text": "Oblicz wartość wyrażenia $5^3$.",
         "points": 1,
-        "options": ["15", "25", "125", "53"],
+        "options": [
+          "$15$",
+          "$25$",
+          "$125$",
+          "$53$"
+        ],
         "correctAnswerIndex": 2,
         "solution": "Obliczamy $5^3 = 5 \\cdot 5 \\cdot 5 = 25 \\cdot 5 = 125$."
       },
@@ -646,7 +992,12 @@
         "text": "Oblicz wartość wyrażenia $2^3$.",
         "points": 1,
         "isSpe": true,
-        "options": ["6", "8", "4", "23"],
+        "options": [
+          "$6$",
+          "$8$",
+          "$4$",
+          "$23$"
+        ],
         "correctAnswerIndex": 1,
         "solution": "Mnożymy 2 przez siebie trzy razy: $2 \\cdot 2 \\cdot 2 = 8$."
       },
@@ -655,7 +1006,12 @@
         "text": "Która liczba, pomnożona przez siebie, daje wynik 25?",
         "points": 1,
         "isSpe": true,
-        "options": ["5", "10", "25", "2"],
+        "options": [
+          "$5$",
+          "$10$",
+          "$25$",
+          "$2$"
+        ],
         "correctAnswerIndex": 0,
         "solution": "Tą liczbą jest 5, ponieważ $5 \\cdot 5 = 25$. Inaczej mówiąc, $\\sqrt{25}=5$."
       }
@@ -664,13 +1020,21 @@
   {
     "baseId": 202,
     "subject": "Matematyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Planimetria"],
+    "department": [
+      "Planimetria"
+    ],
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["trójkąt prostokątny", "pitagoras", "pole figury"],
+    "tags": [
+      "trójkąt prostokątny",
+      "pitagoras",
+      "pole figury"
+    ],
     "requirements": [
       "Uczeń zna i stosuje w sytuacjach praktycznych twierdzenie Pitagorasa (bez twierdzenia odwrotnego)"
     ],
@@ -712,17 +1076,27 @@
   {
     "baseId": 203,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Rozszerzony",
-    "department": ["Programowanie I Algorytmika"],
+    "department": [
+      "Programowanie I Algorytmika"
+    ],
     "type": "uzupełnij lukę",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["python", "pętle", "instrukcje warunkowe"],
+    "tags": [
+      "python",
+      "pętle",
+      "instrukcje warunkowe"
+    ],
     "requirements": [
       "Uczeń projektuje i programuje rozwiązania problemów z różnych dziedzin, stosuje przy tym: instrukcje wejścia/wyjścia, wyrażenia arytmetyczne i logiczne, instrukcje warunkowe, instrukcje iteracyjne, funkcje z parametrami i bez parametrów, testuje poprawność programów dla różnych danych; w szczególności programuje algorytmy z punktu I.2)"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 20301,
@@ -761,25 +1135,41 @@
   {
     "baseId": 204,
     "subject": "Fizyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Kinematyka i Dynamika"],
+    "department": [
+      "Kinematyka i Dynamika"
+    ],
     "type": "prawda-fałsz",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["dynamika", "newton", "siła"],
+    "tags": [
+      "dynamika",
+      "newton",
+      "siła"
+    ],
     "requirements": [
       "Uczeń stosuje zasady dynamiki do opisu zachowania się ciał"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 20401,
         "text": "Oceń prawdziwość poniższych zdań dotyczących zasad dynamiki Newtona.",
         "points": 2,
         "statements": [
-          { "text": "Pierwsza zasada dynamiki mówi, że jeśli na ciało nie działa żadna siła lub siły się równoważą, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.", "answer": true },
-          { "text": "Zgodnie z drugą zasadą dynamiki przyspieszenie ciała jest odwrotnie proporcjonalne do działającej na nie siły.", "answer": false }
+          {
+            "text": "Pierwsza zasada dynamiki mówi, że jeśli na ciało nie działa żadna siła lub siły się równoważą, to ciało pozostaje w spoczynku lub porusza się ruchem jednostajnym prostoliniowym.",
+            "answer": true
+          },
+          {
+            "text": "Zgodnie z drugą zasadą dynamiki przyspieszenie ciała jest odwrotnie proporcjonalne do działającej na nie siły.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – to treść pierwszej zasady dynamiki (zasady bezwładności). 2. Fałsz – przyspieszenie jest wprost proporcjonalne do siły ($a = F/m$)."
       },
@@ -788,8 +1178,14 @@
         "text": "Oceń prawdziwość poniższych zdań.",
         "points": 2,
         "statements": [
-          { "text": "Trzecia zasada dynamiki (zasada akcji i reakcji) mówi, że siły wzajemnego oddziaływania dwóch ciał mają jednakowe wartości, lecz przeciwne zwroty.", "answer": true },
-          { "text": "Jednostką siły w układzie SI jest dżul (J).", "answer": false }
+          {
+            "text": "Trzecia zasada dynamiki (zasada akcji i reakcji) mówi, że siły wzajemnego oddziaływania dwóch ciał mają jednakowe wartości, lecz przeciwne zwroty.",
+            "answer": true
+          },
+          {
+            "text": "Jednostką siły w układzie SI jest dżul (J).",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – to poprawna interpretacja trzeciej zasady dynamiki. 2. Fałsz – jednostką siły jest niuton (N). Dżul jest jednostką pracy i energii."
       },
@@ -798,8 +1194,14 @@
         "text": "Oceń prawdziwość poniższych zdań.",
         "points": 2,
         "statements": [
-          { "text": "Pasażer w hamującym autobusie jest odchylany do przodu ze względu na bezwładność ciała.", "answer": true },
-          { "text": "Ciężar ciała jest taki sam na Ziemi i na Księżycu.", "answer": false }
+          {
+            "text": "Pasażer w hamującym autobusie jest odchylany do przodu ze względu na bezwładność ciała.",
+            "answer": true
+          },
+          {
+            "text": "Ciężar ciała jest taki sam na Ziemi i na Księżycu.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – ciało pasażera dąży do utrzymania swojej prędkości (I zasada dynamiki). 2. Fałsz – ciężar zależy od siły grawitacji, która na Księżycu jest znacznie mniejsza. Masa ciała pozostaje bez zmian."
       },
@@ -809,8 +1211,14 @@
         "points": 2,
         "isSpe": true,
         "statements": [
-          { "text": "Aby przesunąć szafę, trzeba na nią podziałać siłą.", "answer": true },
-          { "text": "Gdy puścisz piłkę, uniesie się ona w górę.", "answer": false }
+          {
+            "text": "Aby przesunąć szafę, trzeba na nią podziałać siłą.",
+            "answer": true
+          },
+          {
+            "text": "Gdy puścisz piłkę, uniesie się ona w górę.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – siła jest potrzebna, aby zmienić stan ruchu obiektu. 2. Fałsz – z powodu grawitacji piłka spadnie w dół."
       },
@@ -820,8 +1228,14 @@
         "points": 2,
         "isSpe": true,
         "statements": [
-          { "text": "Im większą siłą kopniesz piłkę, tym dalej poleci.", "answer": true },
-          { "text": "Piórko jest cięższe od kamienia.", "answer": false }
+          {
+            "text": "Im większą siłą kopniesz piłkę, tym dalej poleci.",
+            "answer": true
+          },
+          {
+            "text": "Piórko jest cięższe od kamienia.",
+            "answer": false
+          }
         ],
         "solution": "1. Prawda – większa siła nadaje piłce większą prędkość początkową. 2. Fałsz – kamień jest znacznie cięższy od piórka."
       }
@@ -830,13 +1244,22 @@
   {
     "baseId": 205,
     "subject": "Matematyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Stereometria"],
+    "department": [
+      "Stereometria"
+    ],
     "type": "jednokrotny wybór",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["bryły", "objętość", "sześcian", "prostopadłościan"],
+    "tags": [
+      "bryły",
+      "objętość",
+      "sześcian",
+      "prostopadłościan"
+    ],
     "requirements": [
       "Uczeń oblicza objętości i pola powierzchni graniastosłupów, ostrosłupów, walca, stożka i kuli"
     ],
@@ -845,7 +1268,12 @@
         "id": 20501,
         "text": "Oblicz objętość sześcianu o krawędzi 4 cm.",
         "points": 1,
-        "options": ["16 cm³", "12 cm³", "64 cm³", "48 cm³"],
+        "options": [
+          "$16\\text{ cm}^3$",
+          "$12\\text{ cm}^3$",
+          "$64\\text{ cm}^3$",
+          "$48\\text{ cm}^3$"
+        ],
         "correctAnswerIndex": 2,
         "solution": "Objętość sześcianu: $V = a^3 = 4^3 = 64$ cm³."
       },
@@ -853,7 +1281,12 @@
         "id": 20502,
         "text": "Oblicz pole powierzchni całkowitej sześcianu o krawędzi 5 cm.",
         "points": 1,
-        "options": ["100 cm²", "125 cm²", "150 cm²", "60 cm²"],
+        "options": [
+          "$100\\text{ cm}^2$",
+          "$125\\text{ cm}^2$",
+          "$150\\text{ cm}^2$",
+          "$60\\text{ cm}^2$"
+        ],
         "correctAnswerIndex": 2,
         "solution": "Sześcian ma 6 identycznych ścian. Pole jednej ściany: $P_s = 5^2 = 25$ cm². Pole całkowite: $P_c = 6 \\cdot 25 = 150$ cm²."
       },
@@ -861,7 +1294,12 @@
         "id": 20503,
         "text": "Oblicz objętość prostopadłościanu o wymiarach podstawy 3×4 i wysokości 5.",
         "points": 1,
-        "options": ["12", "60", "15", "20"],
+        "options": [
+          "$12$",
+          "$60$",
+          "$15$",
+          "$20$"
+        ],
         "correctAnswerIndex": 1,
         "solution": "Objętość prostopadłościanu: $V = a \\cdot b \\cdot c = 3 \\cdot 4 \\cdot 5 = 60$."
       },
@@ -870,7 +1308,12 @@
         "text": "Pudełko ma kształt sześcianu o krawędzi długości 2. Oblicz objętość tego pudełka.",
         "points": 1,
         "isSpe": true,
-        "options": ["4", "6", "8", "12"],
+        "options": [
+          "$4$",
+          "$6$",
+          "$8$",
+          "$12$"
+        ],
         "correctAnswerIndex": 2,
         "solution": "Objętość sześcianu: $2 \\cdot 2 \\cdot 2 = 8$."
       },
@@ -879,7 +1322,12 @@
         "text": "Ile ścian ma sześcian?",
         "points": 1,
         "isSpe": true,
-        "options": ["4", "8", "12", "6"],
+        "options": [
+          "$4$",
+          "$8$",
+          "$12$",
+          "$6$"
+        ],
         "correctAnswerIndex": 3,
         "solution": "Sześcian, tak jak kostka do gry, ma 6 ścian."
       }
@@ -888,17 +1336,30 @@
   {
     "baseId": 206,
     "subject": "Matematyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["5", "6"],
-    "department": ["Oś Liczbowa. Układ Współrzędnych"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5",
+      "6"
+    ],
+    "department": [
+      "Oś Liczbowa. Układ Współrzędnych"
+    ],
     "type": "oś liczbowa",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "tags": ["ułamki", "oś liczbowa", "dziesiętne"],
+    "tags": [
+      "ułamki",
+      "oś liczbowa",
+      "dziesiętne"
+    ],
     "requirements": [
       "Uczeń zaznacza ułamki zwykłe i dziesiętne na osi liczbowej"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 20601,
@@ -915,17 +1376,30 @@
   {
     "baseId": 207,
     "subject": "Informatyka",
-    "school": ["Szkoła Podstawowa"],
-    "class": ["7", "8"],
-    "department": ["Komputery I Internet"],
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7",
+      "8"
+    ],
+    "department": [
+      "Komputery I Internet"
+    ],
     "type": "uzupełnij tabelę",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["reprezentacja", "binarny", "hex"],
+    "tags": [
+      "reprezentacja",
+      "binarny",
+      "hex"
+    ],
     "requirements": [
       "Uczeń przedstawia sposoby reprezentowania w komputerze wartości logicznych, liczb naturalnych (system binarny), znaków (kody ASCII) i tekstów"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 20701,
@@ -934,10 +1408,18 @@
         "tableRows": 4,
         "tableCols": 3,
         "tableData": [
-          "Dziesiętny", "Binarny", "Szesnastkowy",
-          "10", "[[1010]]", "A",
-          "[[15]]", "1111", "[[F]]",
-          "24", "[[11000]]", "[[18]]"
+          "Dziesiętny",
+          "Binarny",
+          "Szesnastkowy",
+          "10",
+          "[[1010]]",
+          "A",
+          "[[15]]",
+          "1111",
+          "[[F]]",
+          "24",
+          "[[11000]]",
+          "[[18]]"
         ],
         "solution": "Dziesiętne 10 to binarnie 1010. Liczba binarna 1111 to dziesiętnie 15, a szesnastkowo F. Liczba 24 to binarnie 11000, a szesnastkowo 18."
       }
@@ -946,17 +1428,27 @@
   {
     "baseId": 901,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Programowanie I Algorytmika"],
+    "department": [
+      "Programowanie I Algorytmika"
+    ],
     "type": "program komputerowy",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["python", "funkcje", "pole trójkąta"],
+    "tags": [
+      "python",
+      "funkcje",
+      "pole trójkąta"
+    ],
     "requirements": [
       "Uczeń projektuje i programuje rozwiązania problemów z różnych dziedzin, stosuje przy tym: instrukcje wejścia/wyjścia, wyrażenia arytmetyczne i logiczne, instrukcje warunkowe, instrukcje iteracyjne, funkcje z parametrami i bez parametrów, testuje poprawność programów dla różnych danych; w szczególności programuje algorytmy z punktu I.2)"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 90101,
@@ -979,17 +1471,27 @@
   {
     "baseId": 902,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Programowanie I Algorytmika"],
+    "department": [
+      "Programowanie I Algorytmika"
+    ],
     "type": "uzupełnij tabelę",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["tabela", "rekurencja", "ciągi"],
+    "tags": [
+      "tabela",
+      "rekurencja",
+      "ciągi"
+    ],
     "requirements": [
       "Uczeń stosuje przy rozwiązywaniu problemów z różnych dziedzin algorytmy poznane w szkole podstawowej oraz algorytmy: e) obliczania wartości elementów ciągu metodą iteracyjną i rekurencyjną, w tym wartości elementów ciągu Fibonacciego"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 90201,
@@ -997,7 +1499,18 @@
         "points": 2,
         "tableRows": 2,
         "tableCols": 5,
-        "tableData": ["$n$", "1", "2", "3", "4", "$a_n$", "[[3]]", "[[5]]", "[[9]]", "[[17]]"],
+        "tableData": [
+          "$n$",
+          "1",
+          "2",
+          "3",
+          "4",
+          "$a_n$",
+          "[[3]]",
+          "[[5]]",
+          "[[9]]",
+          "[[17]]"
+        ],
         "solution": "Kolejne wyrazy:\n$a_1 = 3$\n$a_2 = 2 \\cdot 3 - 1 = 5$\n$a_3 = 2 \\cdot 5 - 1 = 9$\n$a_4 = 2 \\cdot 9 - 1 = 17$",
         "isSpe": false
       },
@@ -1007,7 +1520,16 @@
         "points": 2,
         "tableRows": 2,
         "tableCols": 4,
-        "tableData": ["Dziesiętnie", "1", "2", "3", "Binarnie", "[[1]]", "[[10]]", "[[11]]"],
+        "tableData": [
+          "Dziesiętnie",
+          "1",
+          "2",
+          "3",
+          "Binarnie",
+          "[[1]]",
+          "[[10]]",
+          "[[11]]"
+        ],
         "solution": "Liczba 1 to binarnie 1, liczba 2 to binarnie 10, a liczba 3 to binarnie 11.",
         "isSpe": true
       }
@@ -1016,17 +1538,29 @@
   {
     "baseId": 903,
     "subject": "Informatyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Bazy Danych I Ich Zastosowanie"],
+    "department": [
+      "Bazy Danych I Ich Zastosowanie"
+    ],
     "type": "wiązka",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["bazy danych", "sql", "tabela", "wiązka", "kwerendy"],
+    "tags": [
+      "bazy danych",
+      "sql",
+      "tabela",
+      "wiązka",
+      "kwerendy"
+    ],
     "requirements": [
       "Uczeń, przygotowując opracowania rozwiązań złożonych problemów, posługuje się wybranymi aplikacjami w stopniu zaawansowanym: d) projektuje i tworzy relacyjną bazę złożoną z wielu tabel oraz sieciową aplikację bazodanową dla danych związanych z rozwiązywanym problemem, formułuje kwerendy, tworzy i modyfikuje formularze oraz raporty, stosuje język SQL do wyszukiwania informacji w bazie i do jej modyfikacji, uwzględnia kwestie integralności danych, bezpieczeństwa i ochrony danych w bazie"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 90301,
@@ -1041,7 +1575,11 @@
             "points": 1,
             "type": "jednokrotny wybór",
             "text": "Wybierz poprawne zapytanie SQL wyświetlające unikalne nazwy miast z tabeli `Klienci`:",
-            "options": ["`SELECT DISTINCT Miasto FROM Klienci;`", "`SELECT UNIQUE Miasto FROM Klienci;`", "`SELECT Miasto FROM Klienci GROUP BY ID_klienta;`"],
+            "options": [
+              "`SELECT DISTINCT Miasto FROM Klienci;`",
+              "`SELECT UNIQUE Miasto FROM Klienci;`",
+              "`SELECT Miasto FROM Klienci GROUP BY ID_klienta;`"
+            ],
             "correctAnswerIndex": 0,
             "solution": "Słowo kluczowe `DISTINCT` eliminuje duplikaty z wyników zapytania."
           },
@@ -1051,8 +1589,14 @@
             "type": "prawda-fałsz",
             "text": "Oceń prawdziwość poniższych zdań dotyczących relacyjnych baz danych.",
             "statements": [
-              { "text": "Klucz obcy (*foreign key*) jednoznacznie identyfikuje każdy rekord w tej samej tabeli, w której się znajduje.", "answer": false },
-              { "text": "Relacja jeden do wielu ($1:\\infty$) jest najczęściej stosowanym typem powiązania między dwiema tabelami bazy danych.", "answer": true }
+              {
+                "text": "Klucz obcy (*foreign key*) jednoznacznie identyfikuje każdy rekord w tej samej tabeli, w której się znajduje.",
+                "answer": false
+              },
+              {
+                "text": "Relacja jeden do wielu ($1:\\infty$) jest najczęściej stosowanym typem powiązania między dwiema tabelami bazy danych.",
+                "answer": true
+              }
             ],
             "solution": "Klucz obcy służy do łączenia tabel – identyfikację rekordu zapewnia klucz główny. Relacja jeden do wielu to najczęstsze powiązanie w relacyjnych bazach danych."
           },
@@ -1063,7 +1607,14 @@
             "text": "Uzupełnij brakujące elementy instrukcji SQL modyfikującej dane w bazie:",
             "tableRows": 2,
             "tableCols": 3,
-            "tableData": ["Polecenie główne", "Modyfikowana tabela", "Warunek", "[[UPDATE]] Klienci", "SET Punkty = Punkty + 10", "[[WHERE]] ID_klienta = 5"],
+            "tableData": [
+              "Polecenie główne",
+              "Modyfikowana tabela",
+              "Warunek",
+              "[[UPDATE]] Klienci",
+              "SET Punkty = Punkty + 10",
+              "[[WHERE]] ID_klienta = 5"
+            ],
             "solution": "Modyfikację danych wykonujemy poleceniem `UPDATE`, a warunek filtrujący definiujemy klauzulą `WHERE`."
           },
           {
@@ -1089,7 +1640,10 @@
             "points": 1,
             "type": "jednokrotny wybór",
             "text": "Po zastosowaniu filtru `WHERE Punkty > 50` który klient spełnia ten warunek?",
-            "options": ["Kowalski (80 pkt)", "Nowak (30 pkt)"],
+            "options": [
+              "Kowalski (80 pkt)",
+              "Nowak (30 pkt)"
+            ],
             "correctAnswerIndex": 0,
             "solution": "Liczba 80 jest większa od 50, więc warunek spełnia Kowalski."
           },
@@ -1106,20 +1660,31 @@
   {
     "baseId": 904,
     "subject": "Matematyka",
-    "school": ["Szkoła Średnia"],
+    "school": [
+      "Szkoła Średnia"
+    ],
     "level": "Podstawowy",
-    "department": ["Funkcje"],
+    "department": [
+      "Funkcje"
+    ],
     "type": "wiązka",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "tags": ["funkcja kwadratowa", "wykres", "wiązka", "równania"],
+    "tags": [
+      "funkcja kwadratowa",
+      "wykres",
+      "wiązka",
+      "równania"
+    ],
     "requirements": [
       "Uczeń szkicuje wykresy funkcji kwadratowej zadanej wzorem",
       "Uczeń interpretuje współczynniki występujące we wzorze funkcji kwadratowej w postaci ogólnej, kanonicznej i iloczynowej",
       "Uczeń wyznacza wzór funkcji kwadratowej na podstawie informacji o tej funkcji lub o jej wykresie",
       "Uczeń rozwiązuje równania i nierówności kwadratowe"
     ],
-    "targetApps": ["generator-testow"],
+    "targetApps": [
+      "generator-testow"
+    ],
     "variants": [
       {
         "id": 90401,
