@@ -1,1151 +1,1565 @@
-{
-  "przed": {
-    "participants": 47,
-    "timeText": "10 - 12 min",
-    "mainMetric": "78%",
-    "mainMetricLabel": "Braki Rozwiązań Edukacyjnych",
-    "satisfaction": "100%",
-    "satisfactionLabel": "Wskaźnik Kompletności",
-    "infoText": "<strong>Ankieta I (Przed Wdrożeniem):</strong> Badanie ilościowe z elementami pytań otwartych przeprowadzone w okresie listopad–marzec 2026 r. na grupie 47 czynnych zawodowo nauczycieli informatyki i przedmiotów ścisłych. Celem badania była diagnoza sposobu przygotowywania testów i sprawdzianów, identyfikacja trudności w ich opracowywaniu oraz określenie poziomu obciążenia związanego z dostosowywaniem materiałów do uczniów ze specjalnymi potrzebami edukacyjnymi (SPE).",
-    "sections": [
-      {
-        "title": "Część 1. Informacje ogólne",
-        "icon": "fa-regular fa-id-card",
-        "questions": [
-          {
-            "id": 1,
-            "text": "Typ placówki, w której prowadzone są zajęcia [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Szkoła Podstawowa",
-                "votes": 24,
-                "pct": 51
-              },
-              {
-                "label": "Liceum Ogólnokształcące",
-                "votes": 11,
-                "pct": 23
-              },
-              {
-                "label": "Technikum",
-                "votes": 9,
-                "pct": 19
-              },
-              {
-                "label": "Szkoła Branżowa",
-                "votes": 2,
-                "pct": 4
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 1,
-                "pct": 2
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "text": "Etap edukacyjny, na którym prowadzone są zajęcia [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Klasy 4-6 (Szkoła Podstawowa)",
-                "votes": 18,
-                "pct": 38
-              },
-              {
-                "label": "Klasy 7-8 (Szkoła Podstawowa)",
-                "votes": 25,
-                "pct": 53
-              },
-              {
-                "label": "Klasy Ponadpodstawowe (Szkoła Średnia)",
-                "votes": 22,
-                "pct": 47
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "text": "Staż pracy dydaktycznej [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "0-3 lata",
-                "votes": 26,
-                "pct": 55
-              },
-              {
-                "label": "4-10 lat",
-                "votes": 14,
-                "pct": 30
-              },
-              {
-                "label": "powyżej 10 lat",
-                "votes": 7,
-                "pct": 15
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "text": "Średnia liczba uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) w klasie [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Brak",
-                "votes": 5,
-                "pct": 11
-              },
-              {
-                "label": "1 - 2 uczniów",
-                "votes": 24,
-                "pct": 51
-              },
-              {
-                "label": "3 - 5 uczniów",
-                "votes": 15,
-                "pct": 32
-              },
-              {
-                "label": "powyżej 5 uczniów",
-                "votes": 3,
-                "pct": 6
-              }
-            ]
-          },
-          {
-            "id": 5,
-            "text": "Czy dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi stanowi dodatkowe obciążenie czasowe? [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Zdecydowanie tak",
-                "votes": 21,
-                "pct": 45
-              },
-              {
-                "label": "Raczej tak",
-                "votes": 17,
-                "pct": 36
-              },
-              {
-                "label": "Trudno powiedzieć",
-                "votes": 5,
-                "pct": 11
-              },
-              {
-                "label": "Raczej nie",
-                "votes": 3,
-                "pct": 6
-              },
-              {
-                "label": "Zdecydowanie nie",
-                "votes": 1,
-                "pct": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Część 2. Dotychczasowe doświadczenia związane z przygotowywaniem testów",
-        "icon": "fa-solid fa-circle-exclamation",
-        "questions": [
-          {
-            "id": 6,
-            "text": "Narzędzia wykorzystywane podczas tworzenia lub przeprowadzania testów i sprawdzianów [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Google Forms",
-                "votes": 40,
-                "pct": 85
-              },
-              {
-                "label": "Microsoft Forms",
-                "votes": 26,
-                "pct": 55
-              },
-              {
-                "label": "Testportal",
-                "votes": 20,
-                "pct": 43
-              },
-              {
-                "label": "Quizizz / Kahoot",
-                "votes": 17,
-                "pct": 36
-              },
-              {
-                "label": "Tradycyjny edytor tekstu (np. Word, Writer)",
-                "votes": 30,
-                "pct": 64
-              },
-              {
-                "label": "Brak stałych narzędzi cyfrowych",
-                "votes": 5,
-                "pct": 11
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          },
-          {
-            "id": 7,
-            "text": "Częstotliwość przeprowadzania testów lub quizów w formie cyfrowej [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Codziennie",
-                "votes": 2,
-                "pct": 4
-              },
-              {
-                "label": "2-3 razy w tygodniu",
-                "votes": 14,
-                "pct": 30
-              },
-              {
-                "label": "Raz w tygodniu",
-                "votes": 20,
-                "pct": 43
-              },
-              {
-                "label": "Rzadziej niż raz w tygodniu",
-                "votes": 9,
-                "pct": 19
-              },
-              {
-                "label": "Wcale",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          },
-          {
-            "id": 8,
-            "text": "Średni czas przygotowania jednego testu lub sprawdzianu wraz z dostosowaniem [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "0 - 15 minut",
-                "votes": 2,
-                "pct": 4
-              },
-              {
-                "label": "15 - 30 minut",
-                "votes": 11,
-                "pct": 23
-              },
-              {
-                "label": "30 - 60 minut",
-                "votes": 26,
-                "pct": 55
-              },
-              {
-                "label": "powyżej 60 minut",
-                "votes": 8,
-                "pct": 18
-              }
-            ]
-          },
-          {
-            "id": 9,
-            "text": "Sposób przechowywania przygotowanych materiałów testowych do ponownego użycia [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Dysk lokalny komputera / pendrive",
-                "votes": 35,
-                "pct": 74
-              },
-              {
-                "label": "Chmura (Google Drive, OneDrive, itp.)",
-                "votes": 28,
-                "pct": 60
-              },
-              {
-                "label": "Platforma edukacyjna (np. Teams, Classroom, Moodle)",
-                "votes": 19,
-                "pct": 40
-              },
-              {
-                "label": "Wydruki papierowe / segregator",
-                "votes": 12,
-                "pct": 26
-              },
-              {
-                "label": "Nie przechowuję, tworzę za każdym razem od nowa",
-                "votes": 2,
-                "pct": 4
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 1,
-                "pct": 2
-              }
-            ]
-          },
-          {
-            "id": 10,
-            "text": "Częstotliwość korzystania z wcześniej przygotowanych testów przy tworzeniu nowych sprawdzianów [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Zawsze, modyfikuję gotowe materiały",
-                "votes": 10,
-                "pct": 21
-              },
-              {
-                "label": "Często, w większości przypadków",
-                "votes": 19,
-                "pct": 40
-              },
-              {
-                "label": "Rzadko, raczej tworzę od nowa",
-                "votes": 14,
-                "pct": 30
-              },
-              {
-                "label": "Nigdy, zawsze tworzę testy od podstaw",
-                "votes": 4,
-                "pct": 9
-              }
-            ]
-          },
-          {
-            "id": 11,
-            "text": "Ocena własnej wiedzy o wymaganiach podstawy programowej z informatyki przy tworzeniu testów [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Bardzo słaba",
-            "labelMax": "Bardzo dobra",
-            "required": true,
-            "average": "3.77",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 1,
-                "pct": 2
-              },
-              {
-                "val": 2,
-                "votes": 3,
-                "pct": 6
-              },
-              {
-                "val": 3,
-                "votes": 12,
-                "pct": 26
-              },
-              {
-                "val": 4,
-                "votes": 21,
-                "pct": 45
-              },
-              {
-                "val": 5,
-                "votes": 10,
-                "pct": 21
-              }
-            ]
-          },
-          {
-            "id": 12,
-            "text": "Znaczenie powiązania pytań testowych z wymaganiami podstawy programowej przy tworzeniu sprawdzianów [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Zdecydowanie tak, zawsze staram się to uwzględniać",
-                "votes": 13,
-                "pct": 28
-              },
-              {
-                "label": "Raczej tak, staram się to robić, lecz nie zawsze",
-                "votes": 18,
-                "pct": 38
-              },
-              {
-                "label": "Nie mam zdania",
-                "votes": 8,
-                "pct": 17
-              },
-              {
-                "label": "Raczej nie, nie uważam tego za priorytet",
-                "votes": 6,
-                "pct": 13
-              },
-              {
-                "label": "Zdecydowanie nie, nie stosuję tego podejścia",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          },
-          {
-            "id": 13,
-            "text": "Stosowanie dostosowań testów dla uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Tak, regularnie, przygotowuję odrębne wersje arkuszy",
-                "votes": 11,
-                "pct": 23
-              },
-              {
-                "label": "Tak, ale tylko wtedy, gdy wymaga tego dokumentacja (np. opinia PPP)",
-                "votes": 19,
-                "pct": 40
-              },
-              {
-                "label": "Czasami, zależy od możliwości i czasu",
-                "votes": 12,
-                "pct": 26
-              },
-              {
-                "label": "Rzadko, brakuje mi czasu lub gotowych narzędzi",
-                "votes": 4,
-                "pct": 9
-              },
-              {
-                "label": "Nie stosuję dostosowań",
-                "votes": 1,
-                "pct": 2
-              }
-            ]
-          },
-          {
-            "id": 14,
-            "text": "Najczęściej stosowane formy dostosowania testów dla uczniów SPE [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Wydłużony czas pracy",
-                "votes": 38,
-                "pct": 81
-              },
-              {
-                "label": "Uproszczony język poleceń i treści zadań",
-                "votes": 15,
-                "pct": 32
-              },
-              {
-                "label": "Większa czcionka / zwiększone odstępy w tekście",
-                "votes": 29,
-                "pct": 62
-              },
-              {
-                "label": "Mniejsza liczba pytań lub zadań",
-                "votes": 12,
-                "pct": 26
-              },
-              {
-                "label": "Podpowiedzi lub słowniczek pojęć",
-                "votes": 8,
-                "pct": 17
-              },
-              {
-                "label": "Nie stosuję żadnych dostosowań",
-                "votes": 1,
-                "pct": 2
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Część 3. Zaangażowanie uczniów i środowisko dydaktyczne",
-        "icon": "fa-solid fa-users",
-        "questions": [
-          {
-            "id": 15,
-            "text": "Stosowanie elementów aktywizujących podczas sprawdzianów lub powtórek [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Tak, regularnie",
-                "votes": 12,
-                "pct": 26
-              },
-              {
-                "label": "Tak, ale sporadycznie",
-                "votes": 23,
-                "pct": 49
-              },
-              {
-                "label": "Rzadko, nie mam odpowiednich narzędzi",
-                "votes": 9,
-                "pct": 19
-              },
-              {
-                "label": "Nie stosuję takich metod",
-                "votes": 3,
-                "pct": 6
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "text": "Najczęściej stosowane formy aktywizacji uczniów na zajęciach z informatyki [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Interaktywne quizy online (Kahoot, Quizizz itp.)",
-                "votes": 34,
-                "pct": 72
-              },
-              {
-                "label": "Zadania praktyczne przy komputerze",
-                "votes": 42,
-                "pct": 89
-              },
-              {
-                "label": "Praca w grupach / projekty zespołowe",
-                "votes": 21,
-                "pct": 45
-              },
-              {
-                "label": "Elementy grywalizacji (punkty, rankingi, odznaki)",
-                "votes": 8,
-                "pct": 17
-              },
-              {
-                "label": "Tradycyjne metody (praca z podręcznikiem, ćwiczenia pisemne)",
-                "votes": 16,
-                "pct": 34
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 2,
-                "pct": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Część 4. Opinie i oczekiwania",
-        "icon": "fa-regular fa-comments",
-        "questions": [
-          {
-            "id": 17,
-            "text": "Problemy i ograniczenia w obecnie stosowanych narzędziach do tworzenia i przeprowadzania testów [pytanie otwarte]:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              {
-                "text": "Największy problem to brak sensownego wsparcia dla uczniów ze SPE. Za każdym razem muszę ręcznie przerabiać testy w Wordzie, upraszczać polecenia i to zajmuje prawie tyle samo czasu, co przygotowanie wszystkiego od zera.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              },
-              {
-                "text": "Większość platform wymaga opłaty za podstawowe funkcje. Dyrekcja nie zawsze chce pokryć te koszty, a przechodzenie z platformy do platformy jest czasochłonne. Szkoda na to czasu.",
-                "meta": "Nauczyciel LO, staż 0–3 lata"
-              },
-              {
-                "text": "Największy problem mam z informatyką oraz matematyką, wzory i fragmenty kodu często się rozjeżdżają w formatach online, źle się wyświetlają albo są po prostu nieczytelne. Trzeba dużo kombinować w edytorach tekstu.",
-                "meta": "Nauczyciel Technikum, staż 4–10 lat"
-              },
-              {
-                "text": "Na telefonach uczniowie i tak potrafią ściągać lub przełączać karty, a brakuje elastycznego narzędzia, które by to realnie kontrolowało przy jednoczesnym generowaniu prostego wydruku oszczędzającego papier.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              }
-            ]
-          },
-          {
-            "id": 18,
-            "text": "Oczekiwane funkcje w idealnym narzędziu do automatyzacji tworzenia testów z informatyki [pytanie otwarte]:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              {
-                "text": "Automatycznego generowania wariantów dla uczniów ze SPE (większa czcionka, uproszczona treść zdań) za pomocą jednego kliknięcia.",
-                "meta": "Nauczyciel SP, staż 4–10 lat"
-              },
-              {
-                "text": "Szybkiego eksportu do czystego, dwukolumnowego formatu PDF/druku, który mieści test na jednej stronie A4 i nie marnuje ton papieru w szkolnej kserokopiarce.",
-                "meta": "Nauczyciel LO, staż powyżej 10 lat"
-              },
-              {
-                "text": "Bazy gotowych zadań powiązanych bezpośrednio z punktami podstawy programowej dla szkół ponadpodstawowych.",
-                "meta": "Nauczyciel Technikum, staż 0–3 lata"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "po": {
-    "participants": 29,
-    "timeText": "8 - 10 min",
-    "mainMetric": "92%",
-    "mainMetricLabel": "Wskaźnik Rekomendacji",
-    "satisfaction": "4.62 / 5",
-    "satisfactionLabel": "Ocena Łatwości Obsługi",
-    "infoText": "<strong>Ankieta II (Po Wdrożeniu):</strong> Kwestionariusz ewaluacyjny wypełniony w maju 2026 r. przez 29 nauczycieli, którzy uczestniczyli w badaniu oraz korzystali z opracowanej aplikacji „Generator Testów i Sprawdzianów” w swojej pracy dydaktycznej. Celem ankiety była ocena użyteczności aplikacji, jej wpływu na organizację pracy nauczyciela oraz stopnia, w jakim ułatwia przygotowywanie testów i sprawdzianów.",
-    "sections": [
-      {
-        "title": "Część 1. Informacje ogólne",
-        "icon": "fa-solid fa-user-check",
-        "questions": [
-          {
-            "id": 1,
-            "text": "Typ placówki, w której wykorzystano aplikację [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Szkoła Podstawowa",
-                "votes": 14,
-                "pct": 48
-              },
-              {
-                "label": "Liceum Ogólnokształcące",
-                "votes": 8,
-                "pct": 28
-              },
-              {
-                "label": "Technikum",
-                "votes": 6,
-                "pct": 21
-              },
-              {
-                "label": "Szkoła Branżowa",
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 0,
-                "pct": 0
-              }
-            ]
-          },
-          {
-            "id": 2,
-            "text": "Etap edukacyjny, na którym wykorzystano aplikację [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Klasy 4-6 (Szkoła Podstawowa)",
-                "votes": 10,
-                "pct": 34
-              },
-              {
-                "label": "Klasy 7-8 (Szkoła Podstawowa)",
-                "votes": 14,
-                "pct": 48
-              },
-              {
-                "label": "Klasy Ponadpodstawowe (Szkoła Średnia)",
-                "votes": 12,
-                "pct": 41
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 0,
-                "pct": 0
-              }
-            ]
-          },
-          {
-            "id": 3,
-            "text": "Staż pracy dydaktycznej [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "0-3 lata",
-                "votes": 16,
-                "pct": 55
-              },
-              {
-                "label": "4-10 lat",
-                "votes": 9,
-                "pct": 31
-              },
-              {
-                "label": "powyżej 10 lat",
-                "votes": 4,
-                "pct": 14
-              }
-            ]
-          },
-          {
-            "id": 4,
-            "text": "Wpływ funkcji dostosowujących materiały dla uczniów SPE na skrócenie czasu przygotowania sprawdzianów [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Zdecydowanie tak",
-                "votes": 17,
-                "pct": 59
-              },
-              {
-                "label": "Raczej tak",
-                "votes": 9,
-                "pct": 31
-              },
-              {
-                "label": "Nie ma różnicy",
-                "votes": 2,
-                "pct": 7
-              },
-              {
-                "label": "Raczej nie",
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "label": "Zdecydowanie nie",
-                "votes": 0,
-                "pct": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Część 2. Ocena aplikacji",
-        "icon": "fa-solid fa-laptop",
-        "questions": [
-          {
-            "id": 5,
-            "text": "Częstotliwość korzystania z aplikacji w okresie testowym [wybór jednokrotny]:",
-            "type": "choice",
-            "required": true,
-            "options": [
-              {
-                "label": "Codziennie",
-                "votes": 3,
-                "pct": 10
-              },
-              {
-                "label": "2-3 razy w tygodniu",
-                "votes": 12,
-                "pct": 41
-              },
-              {
-                "label": "Raz w tygodniu",
-                "votes": 11,
-                "pct": 38
-              },
-              {
-                "label": "Rzadziej niż raz w tygodniu",
-                "votes": 2,
-                "pct": 7
-              },
-              {
-                "label": "Tylko raz",
-                "votes": 1,
-                "pct": 4
-              }
-            ]
-          },
-          {
-            "id": 6,
-            "text": "Ocena łatwości obsługi aplikacji z perspektywy nauczyciela [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Bardzo trudna",
-            "labelMax": "Bardzo łatwa",
-            "required": true,
-            "average": "4.62",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 2,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 3,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 4,
-                "votes": 6,
-                "pct": 21
-              },
-              {
-                "val": 5,
-                "votes": 21,
-                "pct": 73
-              }
-            ]
-          },
-          {
-            "id": 7,
-            "text": "Ocena łatwości korzystania z aplikacji przez uczniów [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Bardzo trudna",
-            "labelMax": "Bardzo łatwa",
-            "required": true,
-            "average": "4.59",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 2,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 3,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 4,
-                "votes": 7,
-                "pct": 24
-              },
-              {
-                "val": 5,
-                "votes": 20,
-                "pct": 70
-              }
-            ]
-          },
-          {
-            "id": 8,
-            "text": "Stopień ułatwienia przygotowania i prowadzenia zajęć dzięki aplikacji [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Wcale nie ułatwiła",
-            "labelMax": "Ułatwiła znacząco",
-            "required": true,
-            "average": "4.52",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 2,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 3,
-                "votes": 3,
-                "pct": 10
-              },
-              {
-                "val": 4,
-                "votes": 8,
-                "pct": 28
-              },
-              {
-                "val": 5,
-                "votes": 18,
-                "pct": 62
-              }
-            ]
-          },
-          {
-            "id": 9,
-            "text": "Ocena przydatności aplikacji w porównaniu z innymi narzędziona edukacyjnymi [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Zbędna / nieprzydatna",
-            "labelMax": "Niezbędna",
-            "required": true,
-            "average": "4.38",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 2,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 3,
-                "votes": 2,
-                "pct": 7
-              },
-              {
-                "val": 4,
-                "votes": 11,
-                "pct": 38
-              },
-              {
-                "val": 5,
-                "votes": 15,
-                "pct": 52
-              }
-            ]
-          },
-          {
-            "id": 10,
-            "text": "Gotowość do polecenia aplikacji innym nauczycielom [skala 1–5]:",
-            "type": "scale",
-            "labelMin": "Zdecydowanie nie polecę",
-            "labelMax": "Zdecydowanie polecę",
-            "required": true,
-            "average": "4.59",
-            "distribution": [
-              {
-                "val": 1,
-                "votes": 0,
-                "pct": 0
-              },
-              {
-                "val": 2,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 3,
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "val": 4,
-                "votes": 7,
-                "pct": 24
-              },
-              {
-                "val": 5,
-                "votes": 20,
-                "pct": 70
-              }
-            ]
-          },
-          {
-            "id": 11,
-            "text": "Zauważone zmiany u uczniów po wdrożeniu aplikacji [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Większe zaangażowanie podczas zajęć",
-                "votes": 21,
-                "pct": 72
-              },
-              {
-                "label": "Lepsza organizacja pracy własnej",
-                "votes": 8,
-                "pct": 28
-              },
-              {
-                "label": "Lepsze zrozumienie i utrwalenie materiału",
-                "votes": 6,
-                "pct": 21
-              },
-              {
-                "label": "Nie zauważyłem(-am) wyraźnych zmian",
-                "votes": 1,
-                "pct": 3
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 10,
-                "pct": 34
-              }
-            ]
-          },
-          {
-            "id": 12,
-            "text": "Najczęściej wykorzystywane funkcje aplikacji [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Generowanie testów i sprawdzianów dla wielu grup",
-                "votes": 26,
-                "pct": 90
-              },
-              {
-                "label": "Tworzenie automatycznych zestawów dla wybranych parametrów",
-                "votes": 22,
-                "pct": 76
-              },
-              {
-                "label": "Automatyczne uproszczenie i dostosowanie SPE",
-                "votes": 19,
-                "pct": 66
-              },
-              {
-                "label": "Generator szybkich kartkówek (np. działań pisemnych, składni HTML)",
-                "votes": 12,
-                "pct": 41
-              },
-              {
-                "label": "Interaktywne testy i sprawdziany (Online)",
-                "votes": 10,
-                "pct": 34
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 0,
-                "pct": 0
-              }
-            ]
-          },
-          {
-            "id": 13,
-            "text": "Obszary aplikacji wymagające dalszego rozwoju lub ulepszenia [wybór wielokrotny]:",
-            "type": "multiselect",
-            "required": true,
-            "options": [
-              {
-                "label": "Interfejs użytkownika na urządzeniach mobilnych",
-                "votes": 3,
-                "pct": 10
-              },
-              {
-                "label": "Większa baza pytań (zadania i ich różne warianty)",
-                "votes": 12,
-                "pct": 41
-              },
-              {
-                "label": "System kategoryzacji, filtrowania testów i zadań",
-                "votes": 4,
-                "pct": 14
-              },
-              {
-                "label": "Opcje eksportu statystyk do systemów zewnętrznych (np. e-Dziennik, LMS)",
-                "votes": 8,
-                "pct": 28
-              },
-              {
-                "label": "Mechanizm automatycznego oceniania zadań otwartych",
-                "votes": 2,
-                "pct": 7
-              },
-              {
-                "label": "Inne (Jakie?)",
-                "votes": 1,
-                "pct": 3
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Część 3. Opinie i doświadczenia",
-        "icon": "fa-regular fa-comments",
-        "questions": [
-          {
-            "id": 14,
-            "text": "Trudności napotkane przez uczniów podczas korzystania z aplikacji [pytanie otwarte]:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              {
-                "text": "Na początku kilku uczniów miało problem z niektórymi wariantami zadań oraz nie zawsze responsywną wersją mobilną, ale po krótkim wyjaśnieniu już nie było z tym trudności.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              },
-              {
-                "text": "Na starszych modelach telefonów zdarzały się lekkie opóźnienia przy ładowaniu niektórych elementów interaktywnych, szczególnie złożonych struktur, ale ogólnie dało się z tego normalnie korzystać.",
-                "meta": "Nauczyciel LO, staż 4–10 lat"
-              },
-              {
-                "text": "Zdarzyło się, że uczniowie zamykali okno przeglądarki przedwcześnie, zamiast kliknąć przycisk „Zakończ test”. Na szczęście system zapisał ich postępy, więc dało się to później odzyskać w panelu nauczyciela.",
-                "meta": "Nauczyciel Technikum, staż 0–3 lata"
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "text": "Główne zalety aplikacji w codziennej pracy dydaktycznej [pytanie otwarte]:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              {
-                "text": "Duża oszczędność papieru i czasu, szczególnie dzięki zoptymalizowanemu układowi do druku. W szkole ciągle brakuje limitów na ksero, więc to rozwiązanie naprawdę ułatwia pracę.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              },
-              {
-                "text": "Bardzo przydatna jest gotowa baza zadań z informatyki dostosowana do podstawy programowej. Wreszcie nie muszę samodzielnie formatować fragmentów kodu źródłowego w edytorach tekstu.",
-                "meta": "Nauczyciel Technikum, staż 4–10 lat"
-              },
-              {
-                "text": "Interaktywny tryb online bardzo ożywia lekcje powtórzeniowe. Uczniowie chętniej wykonują zadania z uwagi na natychmiastową informację zwrotną o błędach.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              },
-              {
-                "text": "Brak konieczności rejestrowania kont przez uczniów to świetne posunięcie. Skanują kod QR i od razu są w systemie testowym, bez problemów z hasłami.",
-                "meta": "Nauczyciel LO, staż 0–3 lata"
-              },
-              {
-                "text": "System bardzo dobrze rozwiązuje codzienne problemy organizacyjne w szkole. Największą zaletą jest oszczędność czasu na przygotowanie zróżnicowanych grup testowych oraz natychmiastowe generowanie wersji SPE.",
-                "meta": "Nauczyciel LO, staż 0–3 lata"
-              },
-              {
-                "text": "Praca z tym narzędziem jest po prostu wygodniejsza. Mniej biurokracji i zbędnych kroków przy przygotowaniu sprawdzianów. Widać, że aplikacja była projektowana z myślą o realnych warunkach szkolnych.",
-                "meta": "Nauczyciel SP, staż 4–10 lat"
-              }
-            ]
-          },
-          {
-            "id": 16,
-            "text": "Sugerowane dodatkowe funkcje lub rozwiązania do wdrożenia w przyszłości [pytanie otwarte]:",
-            "type": "text",
-            "required": false,
-            "comments": [
-              {
-                "text": "Fajnie byłoby mieć ściślejszą integrację z Jupyter Notebook lub możliwość eksportu zadań praktycznych z programowania bezpośrednio do plików kodu.",
-                "meta": "Nauczyciel Technikum, staż 4–10 lat"
-              },
-              {
-                "text": "Przydałaby się jeszcze większa możliwość personalizacji wyglądu arkusza, np. dodanie własnego logo szkoły lub dedykowanego nagłówka.",
-                "meta": "Nauczyciel SP, staż 0–3 lata"
-              },
-              {
-                "text": "Chętnie zobaczyłbym moduł automatycznego generowania wskazówek krok po kroku do zadań algorytmicznych dla uczniów z trudnościami w uczeniu się.",
-                "meta": "Nauczyciel LO, staż 0–3 lata"
-              },
-              {
-                "text": "Część funkcji generowania szybkich kartkówek jest obecnie zorientowana na obliczenia matematyczne. Przydałby się analogiczny, szybki generator zapytań SQL lub prostych schematów blokowych.",
-                "meta": "Nauczyciel Technikum, staż 0–3 lata"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-}
+<!--
+Projekt: Generator Testów I Sprawdzianów
+Autor: Mateusz Giętowski
+Praca Magisterska: "Stworzenie aplikacji webowej do automatyzacji tworzenia i przeprowadzania testów z informatyki na II i III etapie edukacyjnym"
+Rok: 2026 Wersja: 240526
+-->
+
+<!DOCTYPE html>
+<html lang="pl" class="notranslate">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="google" content="notranslate" />
+    <title>Generator Testów I Sprawdzianów - Wypełnij Ankiete</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden !important;
+            background-color: #000;
+        }
+
+        header:not(.app-header),
+        footer:not(.app-footer),
+        aside,
+        nav,
+        #header-wrapper,
+        .header-widget,
+        #header,
+        #primary-navigation,
+        .primary-navigation,
+        #main-navigation,
+        .navigation,
+        .menu,
+        .navbar,
+        #navbar-iframe,
+        #footer-wrapper,
+        #footer-sidebar,
+        #footer-legal-section,
+        #sidebar,
+        #secondary,
+        .sidebar,
+        #qr-widget-container,
+        .qr-widget-container,
+        #qr-fullscreen-overlay,
+        #qr-popup,
+        .mobile-rotation-notice,
+        #back-to-top,
+        .widget,
+        .max-w-screen-2xl.mx-auto.p-8.text-center,
+        #searchform,
+        .search-form,
+        .post-footer,
+        .feed-links,
+        .comments,
+        .banner,
+        #banner,
+        #banner_placement,
+        .tabs:not(.app-tabs),
+        .PageList,
+        .blog-pager,
+        .post-outer,
+        .post-body,
+        .entry-content,
+        article header h1 {
+            display: none !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            width: 0 !important;
+            pointer-events: none !important;
+            opacity: 0 !important;
+            position: absolute !important;
+            z-index: -9999 !important;
+        }
+
+        .content-inner,
+        .content-outer,
+        .region-inner,
+        .main-inner,
+        .columns {
+            max-width: 100% !important;
+            width: 100% !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+        }
+
+        :root {
+            --primary-color: #06B6D4;
+            --primary-hover-color: #1D4ED8;
+            --background-color: #F4F7FC;
+            --surface-color: #FFFFFF;
+            --border-color: #E0E6ED;
+            --text-color: #1E293B;
+            --text-secondary-color: #64748B;
+            --success-color: #10B981;
+            --success-bg-color: #ECFDF5;
+            --danger-color: #EF4444;
+            --font-family: 'Poppins', Arial, sans-serif;
+            --border-radius: 12px;
+            --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.1);
+            --radius-lg: 20px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        #app-root {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 2147483647;
+            overflow-y: auto;
+            overflow-x: hidden;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            font-family: var(--font-family);
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            scroll-behavior: smooth;
+        }
+
+        #app-root::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #app-root::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+
+        #app-root::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        #app-root::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        .app-header {
+            background-color: var(--surface-color);
+            padding: 12px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container img {
+            height: 36px;
+            display: block;
+        }
+
+        .top-nav-links {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .button-style {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border: 1px solid var(--border-color);
+            background-color: #f8f9fa;
+            color: var(--text-color);
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .button-style:hover {
+            background-color: #e2e8f0;
+            border-color: #cbd5e1;
+        }
+
+        .button-style.primary {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .button-style.primary:hover {
+            background-color: var(--primary-hover-color);
+            border-color: var(--primary-hover-color);
+        }
+
+        .close-x-btn {
+            background: transparent;
+            border: none;
+            font-size: 26px;
+            color: var(--text-secondary-color);
+            cursor: pointer;
+            padding: 0;
+            width: 36px;
+            height: 36px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+            border-radius: 50%;
+        }
+
+        .close-x-btn:hover {
+            color: #EF4444;
+            background-color: #FEF2F2;
+        }
+
+        .lp-container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 40px 24px;
+            width: 100%;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--success-bg-color);
+            color: var(--primary-color);
+            padding: 7px 14px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 1px solid var(--border-color);
+        }
+
+        .selector-box {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 24px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+        }
+
+        .survey-tabs {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .tab-btn {
+            background: var(--background-color);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary-color);
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+
+        .tab-btn:hover {
+            background: #cbd5e1;
+            color: var(--text-color);
+        }
+
+        .tab-btn.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .download-actions {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .action-card {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .action-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .action-card i {
+            font-size: 32px;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+        }
+
+        .action-card.print-card i {
+            color: var(--success-color);
+        }
+
+        .action-card h4 {
+            margin: 0 0 4px 0;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .action-card p {
+            margin: 0;
+            font-size: 11px;
+            color: var(--text-secondary-color);
+        }
+
+        .printable-page {
+            background: white;
+            border: 1px solid #cbd5e1;
+            border-radius: 4px;
+            padding: 50px 60px;
+            box-shadow: var(--shadow-sm);
+            color: #000;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5;
+            position: relative;
+        }
+
+        .print-header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px double #000;
+            padding-bottom: 15px;
+        }
+
+        .print-header h2 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 21px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .print-intro {
+            font-size: 15.5px;
+            text-align: justify;
+            margin-bottom: 25px;
+        }
+
+        .print-meta-instruction {
+            font-size: 15px;
+            font-style: italic;
+            margin-bottom: 25px;
+            border-left: 3px solid #000;
+            padding-left: 12px;
+        }
+
+        .question-list {
+            margin-top: 20px;
+        }
+
+        .question-item {
+            margin-bottom: 24px;
+            page-break-inside: avoid;
+        }
+
+        .question-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .question-main-text {
+            max-width: 80%;
+        }
+
+        .question-tag {
+            font-size: 12.5px;
+            font-weight: normal;
+            font-style: italic;
+            color: #444;
+            display: inline-block;
+            white-space: nowrap;
+            border: 1px dashed #666;
+            padding: 2px 6px;
+            border-radius: 3px;
+            flex-shrink: 0;
+            margin-left: auto;
+        }
+
+        .options-container {
+            margin-left: 15px;
+        }
+
+        .option-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .checkbox-square {
+            width: 14px;
+            height: 14px;
+            border: 1.5px solid #000000 !important;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+            background-color: #ffffff !important;
+            flex-shrink: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .dotted-line {
+            border-bottom: 1px dashed #000000 !important;
+            margin-top: 15px;
+            height: 20px;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .dotted-area {
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+
+        .scale-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .scale-table th,
+        .scale-table td {
+            border: 1px solid #000000 !important;
+            padding: 8px;
+            text-align: center;
+            font-size: 13.5px;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .scale-table th {
+            background-color: #f2f2f2 !important;
+        }
+
+        .print-footer {
+            margin-top: 60px;
+            border-top: 2px solid #000;
+            padding-top: 20px;
+            font-size: 15.5px;
+            line-height: 1.5;
+            page-break-inside: avoid;
+            display: flow-root;
+            padding-bottom: 60px;
+        }
+
+        .print-footer .thanks-message {
+            font-weight: bold;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .print-footer .author-signature {
+            float: right;
+            text-align: right;
+            margin-top: 15px;
+            font-style: italic;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .app-footer {
+            margin-top: auto;
+            padding: 30px 20px 20px 20px;
+            border-top: 1px solid var(--border-color);
+            background-color: var(--surface-color);
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-info {
+            margin: 0;
+            font-size: 13px;
+            color: var(--text-secondary-color);
+            line-height: 1.6;
+        }
+
+        @media print {
+
+            html,
+            body {
+                background: white !important;
+                color: black !important;
+                overflow: visible !important;
+                height: auto !important;
+            }
+
+            #app-root {
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                height: auto !important;
+                overflow: visible !important;
+                background: white !important;
+                z-index: auto !important;
+            }
+
+            .app-header,
+            .selector-box,
+            .download-actions,
+            .badge,
+            h1,
+            p.intro-desc,
+            .app-footer {
+                display: none !important;
+            }
+
+            .lp-container {
+                padding: 0 !important;
+                margin: 0 !important;
+                max-width: 100% !important;
+                width: 100% !important;
+            }
+
+            .printable-page {
+                border: none !important;
+                box-shadow: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                background: transparent !important;
+                width: 100% !important;
+            }
+
+            .checkbox-square {
+                border: 1.5px solid #000000 !important;
+                background-color: #ffffff !important;
+                display: inline-block !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .dotted-line {
+                border-bottom: 1px dashed #000000 !important;
+                display: block !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .scale-table td,
+            .scale-table th {
+                border: 1px solid #000000 !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .question-tag {
+                border: 1px dashed #000000 !important;
+                display: inline-block !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .skiptranslate,
+            #google_translate_element,
+            goog-gt-tt,
+            .goog-te-banner-frame {
+                display: none !important;
+                visibility: hidden !important;
+            }
+
+            body {
+                top: 0px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .app-footer {
+                padding: 20px 16px 90px 16px !important;
+                width: 100% !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                box-sizing: border-box !important;
+            }
+
+            .download-actions {
+                grid-template-columns: 1fr;
+            }
+
+            .printable-page {
+                padding: 30px 20px;
+            }
+
+            .top-nav-links .button-style span:last-child {
+                display: none !important;
+            }
+
+            .top-nav-links .button-style {
+                padding: 0 !important;
+                width: 40px !important;
+                height: 40px !important;
+                border-radius: 50% !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                min-height: 40px !important;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .survey-tabs {
+                flex-direction: column !important;
+                gap: 10px !important;
+                align-items: stretch !important;
+            }
+            .tab-btn {
+                width: 100% !important;
+                text-align: center !important;
+                white-space: normal !important;
+            }
+        }
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 2147483647;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: var(--surface-color, #ffffff);
+            border: 1px solid var(--border-color, #e2e8f0);
+            border-radius: 16px;
+            width: 100%;
+            max-width: 680px;
+            padding: 40px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transform: scale(0.9);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+    </style>
+</head>
+
+<body class="notranslate">
+    <div id="app-root" class="notranslate">
+        <header class="app-header">
+            <div class="logo-container">
+                <a href="https://www.infomatyka.pl/">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj5ktwTAsTVhHeKTuBeX-JcuqIdpIcDNorEixqnyI3Y5pJz4PtJA-DVb_Ya_DuHMZkm_ciJ4Ld5_byvUfdfm18IL1LPJvmIlo-p_yKK1J-cyzPYWN72_6QbxsthtLJYUzFy7ETul509rqFGp8RdQXiXPucH6d9xuNJden3Jh5-Ln4Axs57CZih9vZoHi2KC=s1600"
+                        alt="InfoMatyka Logo" />
+                </a>
+            </div>
+            <div class="top-nav-links">
+                <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow.html" class="button-style primary">
+                    <i class="fa-solid fa-circle-play"></i> <span>Otwórz Generator</span>
+                </a>
+                <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow-test.html"
+                    class="button-style primary">
+                    <i class="fa-solid fa-circle-question"></i> <span>Otwórz Portal Testowy</span>
+                </a>
+                <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow-opis.html" class="button-style"
+                    style="background:#e2e8f0; border-color:#cbd5e1;">
+                    <i class="fa-solid fa-info"></i> <span>O Generatorze</span>
+                </a>
+                <button id="btn-exit-generator" class="close-x-btn" title="Zamknij i Wróć"
+                    style="margin-left:10px;">&times;</button>
+            </div>
+        </header>
+
+        <div class="lp-container">
+            <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 10px;">
+                <div class="badge">
+                    <i class="fa-solid fa-print"></i> Formularze Drukowane
+                </div>
+                <h1
+                    style="font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 800; margin-top: 10px; margin-bottom: 12px; letter-spacing: -0.02em;">
+                    Pobierz Ankietę dla Nauczycieli Informatyki i Przedmiotów Ścisłych
+                </h1>
+                <p class="intro-desc"
+                    style="color: var(--text-secondary-color); font-size: 1rem; margin-bottom: 20px; line-height: 1.6; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    Wybierz wersję ankiety, którą chcesz wypełnić, aby wygenerować arkusz ankiety gotowy do wydruku
+                    tradycyjnego lub pobierz go w formacie PDF lub DOCX.
+                </p>
+                <div style="margin-bottom: 20px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center;">
+                    <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow-ankieta.html" class="button-style"
+                        style="background: #e2e8f0; border-color: #cbd5e1; font-weight: 600; padding: 10px 20px; font-size: 14px;">
+                        <i class="fa-regular fa-chart-bar"
+                            style="font-size: 18px; color: var(--primary-color);"></i> <span>Statystyki Badań</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="selector-box">
+                <span style="font-weight: 600; font-size: 15px; color: var(--text-color);">Wybierz badanie naukowe do
+                    wygenerowania:</span>
+                <div class="survey-tabs">
+                    <button id="btn-przed" class="tab-btn active" onclick="setSurvey('przed')">
+                        Ankieta I (Przed udostępnieniem Aplikacji)
+                    </button>
+                    <button id="btn-po" class="tab-btn" onclick="setSurvey('po')">
+                        Ankieta II (Po udostępnieniu Aplikacji)
+                    </button>
+                </div>
+            </div>
+
+            <div class="download-actions">
+                <a href="javascript:void(0)" onclick="printSurvey()" class="action-card print-card">
+                    <i class="fa-solid fa-print"></i>
+                    <h4>Wydrukuj Bezpośrednio</h4>
+                    <p>Otwórz systemowe menu drukowania</p>
+                </a>
+                <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow-wypelnij.html" id="download-pdf-btn"
+                    class="action-card">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <h4>Pobierz Ankietę (PDF)</h4>
+                    <p>Dokument przygotowany do druku</p>
+                </a>
+                <a href="https://www.infomatyka.pl/p/generator-testow-sprawdzianow-wypelnij.html" id="download-docx-btn"
+                    class="action-card">
+                    <i class="fa-solid fa-file-word"></i>
+                    <h4>Format Edytowalny (DOCX)</h4>
+                    <p>Do ewentualnej modyfikacji własnej</p>
+                </a>
+            </div>
+
+            <div id="survey-paper-preview" class="printable-page">
+            </div>
+        </div>
+
+        <footer class="app-footer">
+            <p class="footer-info">
+                Aplikacja opracowana w ramach pracy magisterskiej pt.
+                „Stworzenie aplikacji webowej do automatyzacji tworzenia i przeprowadzania testów z informatyki na II i III etapie edukacyjnym”.
+            </p>
+
+            <p style="margin-top: 8px; font-size: 11px; color: #94a3b8;">
+                Materiały dydaktyczne oraz zadania zostały przygotowane na podstawie
+                obowiązującej podstawy programowej oraz wybranych materiałów edukacyjnych.
+            </p>
+
+            <p style="margin-top: 8px; font-size: 12px; color: var(--text-secondary-color, #64748b); font-weight: 500; line-height: 1.4;">
+                Dane zbierane w aplikacji mają charakter anonimowy i są wykorzystywane wyłącznie w celach
+                naukowych.
+            </p>
+        </footer>
+
+        <div id="custom-confirm-modal" class="modal-overlay">
+            <div class="modal-content" style="max-width: 420px; padding: 30px; text-align: center;">
+                <h3 style="margin-top: 0; color: var(--text-color); font-size: 1.3rem;">Potwierdzenie</h3>
+                <p id="custom-confirm-message"
+                    style="margin: 15px 0 25px 0; font-size: 0.95rem; color: var(--text-secondary-color); line-height: 1.5;">
+                </p>
+                <div style="display: flex; gap: 12px; justify-content: center;">
+                    <button id="btn-confirm-yes" class="button-style primary"
+                        style="padding: 10px 24px; font-weight: 600; border-radius: 8px;">Tak</button>
+                    <button id="btn-confirm-no" class="button-style"
+                        style="padding: 10px 24px; background: #e2e8f0; border-color: #cbd5e1; color: var(--text-color); font-weight: 600; border-radius: 8px;">Nie</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const SURVEYS = {
+            przed: {
+                title: "Sposoby tworzenia i przeprowadzania testów z informatyki przed wdrożeniem „Generatora Testów i Sprawdzianów” (Ankieta I)",
+                subtitle: "Ankieta dla Nauczycieli Informatyki i Przedmiotów Ścisłych",
+                intro: "Szanowni Państwo,<br><br>celem niniejszej ankiety jest zebranie informacji o tym, jak przygotowywane i przeprowadzane są testy oraz sprawdziany z informatyki oraz jakie trudności pojawiają się w tym procesie. Odpowiedzi pomogą określić potrzeby nauczycieli i ocenić możliwości wykorzystania aplikacji oraz narzędzi wspierających tworzenie materiałów dydaktycznych.<br><br>Ankieta jest anonimowa, udział w badaniu jest dobrowolny, a zebrane dane zostaną wykorzystane wyłącznie do celów naukowych.",
+                instruction: "Proszę zaznaczyć właściwe odpowiedzi poprzez wpisanie znaku X w odpowiednich polach [ ]. W pytaniach otwartych proszę wpisać odpowiedź w wyznaczonym miejscu.",
+                sections: [
+                    {
+                        title: "Część 1. Informacje ogólne",
+                        questions: [
+                            {
+                                text: "1. Typ placówki, w której prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Szkoła Podstawowa",
+                                    "Liceum Ogólnokształcące",
+                                    "Technikum",
+                                    "Szkoła Branżowa",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "2. Na jakim etapie edukacyjnym prowadzi Pan/Pani zajęcia [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Klasy 4-6 (Szkoła Podstawowa)",
+                                    "Klasy 7-8 (Szkoła Podstawowa)",
+                                    "Klasy Ponadpodstawowe (Szkoła Średnia)",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "3. Pana/Pani staż pracy dydaktycznej [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "0-3 lata",
+                                    "4-10 lat",
+                                    "powyżej 10 lat"
+                                ]
+                            },
+                            {
+                                text: "4. Średnia liczba uczniów ze specjalnymi potrzebami edukacyjnymi (SPE) w klasie [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Brak",
+                                    "1 - 2 uczniów",
+                                    "3 - 5 uczniów",
+                                    "powyżej 5 uczniów"
+                                ]
+                            },
+                            {
+                                text: "5. Czy dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi stanowi dla Pana/Pani dodatkowe obciążenie czasowe? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Zdecydowanie tak",
+                                    "Raczej tak",
+                                    "Trudno powiedzieć",
+                                    "Raczej nie",
+                                    "Zdecydowanie nie"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Część 2. Dotychczasowe doświadczenia związane z przygotowywaniem testów",
+                        questions: [
+                            {
+                                text: "6. Z jakich narzędzi korzysta Pan/Pani podczas tworzenia lub przeprowadzania testów i sprawdzianów? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Google Forms",
+                                    "Microsoft Forms",
+                                    "Testportal",
+                                    "Quizizz / Kahoot",
+                                    "Tradycyjny edytor tekstu (np. Word, Writer)",
+                                    "Brak stałych narzędzi cyfrowych",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "7. Jak często przeprowadza Pan/Pani testy lub quizy w formie cyfrowej? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Codziennie",
+                                    "2-3 razy w tygodniu",
+                                    "Raz w tygodniu",
+                                    "Rzadziej niż raz w tygodniu",
+                                    "Wcale"
+                                ]
+                            },
+                            {
+                                text: "8. Ile czasu średnio zajmuje przygotowanie jednego testu lub sprawdzianu (łącznie z jego dostosowaniem do potrzeb uczniów)? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "0 - 15 minut",
+                                    "15 - 30 minut",
+                                    "30 - 60 minut",
+                                    "powyżej 60 minut"
+                                ]
+                            },
+                            {
+                                text: "9. W jaki sposób przechowuje Pan/Pani przygotowane materiały testowe do ponownego użycia? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Dysk lokalny komputera / pendrive",
+                                    "Chmura (Google Drive, OneDrive, itp.)",
+                                    "Platforma edukacyjna (np. Teams, Classroom, Moodle)",
+                                    "Wydruki papierowe / segregator",
+                                    "Nie przechowuję, tworzę za każdym razem od nowa",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "10. Jak często korzysta Pan/Pani z wcześniej przygotowanych testów, tworząc nowy sprawdzian? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Zawsze, modyfikuję gotowe materiały",
+                                    "Często, w większości przypadków",
+                                    "Rzadko, raczej tworzę od nowa",
+                                    "Nigdy, zawsze tworzę testy od podstaw"
+                                ]
+                            },
+                            {
+                                text: "11. Jak ocenia Pan/Pani własną wiedzę na temat wymagań podstawy programowej z informatyki przy tworzeniu testów? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Bardzo słaba",
+                                labelMax: "Bardzo dobra"
+                            },
+                            {
+                                text: "12. Czy powiązanie pytań testowych z wymaganiami szczegółowymi podstawy programowej jest istotne przy tworzeniu sprawdzianów? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Zdecydowanie tak, zawsze staram się to uwzględniać",
+                                    "Raczej tak, staram się to robić, lecz nie zawsze",
+                                    "Nie mam zdania",
+                                    "Raczej nie, nie uważam tego za priorytet",
+                                    "Zdecydowanie nie, nie stosuję tego podejścia"
+                                ]
+                            },
+                            {
+                                text: "13. Czy stosuje Pan/Pani dostosowania testów dla uczniów ze specjalnymi potrzebami edukacyjnymi (SPE)? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Tak, regularnie, przygotowuję odrębne wersje arkuszy",
+                                    "Tak, ale tylko gdy wymaga tego dokumentacja (np. opinia PPP)",
+                                    "Czasami, zależy od możliwości i czasu",
+                                    "Rzadko, brakuje mi czasu lub gotowych narzędzi",
+                                    "Nie stosuję żadnych dostosowań"
+                                ]
+                            },
+                            {
+                                text: "14. Jakie formy dostosowania testów dla uczniów SPE stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Wydłużony czas pracy",
+                                    "Uproszczony język poleceń i treści zadań",
+                                    "Większa czcionka / zwiększone odstępy w tekście",
+                                    "Mniejsza liczba pytań lub zadań",
+                                    "Podpowiedzi lub słowniczek pojęć",
+                                    "Nie stosuję żadnych dostosowań",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Część 3. Zaangażowanie uczniów i środowisko dydaktyczne",
+                        questions: [
+                            {
+                                text: "15. Czy stosuje Pan/Pani elementy aktywizujące podczas sprawdzianów lub powtórek (np. grywalizacja, quizy interaktywne, rywalizacja punktowa)? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Tak, regularnie",
+                                    "Tak, ale sporadycznie",
+                                    "Rzadko, nie mam odpowiednich narzędzi",
+                                    "Nie stosuję takich metod"
+                                ]
+                            },
+                            {
+                                text: "16. Jakie formy aktywizacji uczniów podczas zajęć z informatyki stosuje Pan/Pani najczęściej? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Interaktywne quizy online (Kahoot, Quizizz itp.)",
+                                    "Zadania praktyczne przy komputerze",
+                                    "Praca w grupach / projekty zespołowe",
+                                    "Elementy grywalizacji (punkty, rankingi, odznaki)",
+                                    "Tradycyjne metody (praca z podręcznikiem, ćwiczenia pisemne)",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Część 4. Opinie i oczekiwania",
+                        questions: [
+                            {
+                                text: "17. Jakie problemy lub ograniczenia zauważa Pan/Pani w obecnie wykorzystywanych narzędziach do tworzenia i przeprowadzania testów? [pytanie otwarte]:",
+                                type: "text",
+                                lines: 4
+                            },
+                            {
+                                text: "18. Jakich funkcji oczekuje Pan/Pani od idealnego narzędzia do automatyzacji tworzenia testów z informatyki? [pytanie otwarte]:",
+                                type: "text",
+                                lines: 4
+                            }
+                        ]
+                    }
+                ],
+                filenamePdf: "ankieta_przed_wdrozeniem.pdf",
+                filenameDocx: "ankieta_przed_wdrozeniem.docx"
+            },
+            po: {
+                title: "Ocena funkcjonalności oraz przydatności aplikacji „Generator Testów i Sprawdzianów” w pracy nauczyciela (Ankieta II)",
+                subtitle: "Ankieta dla Nauczycieli Informatyki i Przedmiotów Ścisłych używających aplikacji",
+                intro: "Szanowni Państwo,<br><br>celem niniejszej ankiety jest poznanie opinii na temat korzystania z aplikacji „Generator Testów i Sprawdzianów”. Badanie ma na celu ocenę jej funkcjonalności, wpływu na organizację pracy nauczyciela oraz przydatności poszczególnych rozwiązań dostępnych w aplikacji.<br><br>Ankieta jest anonimowa, udział w badaniu jest dobrowolny, a uzyskane odpowiedzi zostaną wykorzystane wyłącznie do celów naukowych.",
+                instruction: "Proszę zaznaczyć właściwe odpowiedzi poprzez wpisanie znaku X w odpowiednich polach [ ]. W pytaniach otwartych proszę wpisać odpowiedź w wyznaczonym miejscu.",
+                sections: [
+                    {
+                        title: "Część 1. Informacje ogólne",
+                        questions: [
+                            {
+                                text: "1. Typ placówki, w której wykorzystał(a) Pan/Pani aplikację [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Szkoła Podstawowa",
+                                    "Liceum Ogólnokształcące",
+                                    "Technikum",
+                                    "Szkoła Branżowa",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "2. Na jakim etapie edukacyjnym wykorzystał(a) Pan/Pani aplikację [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Klasy 4-6 (Szkoła Podstawowa)",
+                                    "Klasy 7-8 (Szkoła Podstawowa)",
+                                    "Klasy Ponadpodstawowe (Szkoła Średnia)",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "3. Pana/Pani staż pracy dydaktycznej [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "0-3 lata",
+                                    "4-10 lat",
+                                    "powyżej 10 lat"
+                                ]
+                            },
+                            {
+                                text: "4. Czy funkcje wspomagające dostosowywanie materiałów dla uczniów ze specjalnymi potrzebami edukacyjnymi pozwoliły Panu/Pani ograniczyć czas przygotowania sprawdzianów? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Zdecydowanie tak",
+                                    "Raczej tak",
+                                    "Nie ma różnicy",
+                                    "Raczej nie",
+                                    "Zdecydowanie nie"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Część 2. Ocena aplikacji",
+                        questions: [
+                            {
+                                text: "5. Jak często korzystał(a) Pan/Pani z aplikacji podczas okresu testowego? [wybór jednokrotny]:",
+                                type: "choice",
+                                options: [
+                                    "Codziennie",
+                                    "2-3 razy w tygodniu",
+                                    "Raz w tygodniu",
+                                    "Rzadziej niż raz w tygodniu",
+                                    "Tylko raz"
+                                ]
+                            },
+                            {
+                                text: "6. Jak ocenia Pan/Pani łatwość obsługi aplikacji z perspektywy nauczyciela? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Bardzo trudna",
+                                labelMax: "Bardzo łatwa"
+                            },
+                            {
+                                text: "7. Jak ocenia Pan/Pani łatwość korzystania z aplikacji przez uczniów? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Bardzo trudna",
+                                labelMax: "Bardzo łatwa"
+                            },
+                            {
+                                text: "8. W jakim stopniu aplikacja ułatwiła przygotowanie i prowadzenie zajęć? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Wcale nie ułatwiła",
+                                labelMax: "Ułatwiła znacząco"
+                            },
+                            {
+                                text: "9. Jak ocenia Pan/Pani przydatność aplikacji w porównaniu z innymi wykorzystywanymi narzędziami edukacyjnymi? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Zbędna / nieprzydatna",
+                                labelMax: "Niezbędna"
+                            },
+                            {
+                                text: "10. Jak ocenia Pan/Pani możliwość polecenia aplikacji innym nauczycielom? [skala 1–5]:",
+                                type: "scale",
+                                labelMin: "Zdecydowanie nie polecę",
+                                labelMax: "Zdecydowanie polecę"
+                            },
+                            {
+                                text: "11. Jakie zmiany zauważył(a) Pan/Pani u uczniów po wykorzystaniu aplikacji? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Większe zaangażowanie podczas zajęć",
+                                    "Lepsza organizacja pracy własnej",
+                                    "Lepsze zrozumienie i utrwalenie materiału",
+                                    "Nie zauważyłem(-am) wyraźnych zmian",
+                                    "Inne (Jakie?): ...................................."
+                                ]
+                            },
+                            {
+                                text: "12. Z których funkcji aplikacji korzystał(a) Pan/Pani najczęściej? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Generowanie testów i sprawdzianów dla wielu grup",
+                                    "Tworzenie automatycznych zestawów dla wybranych parametrów",
+                                    "Automatyczne uproszczenie i dostosowanie SPE",
+                                    "Generator szybkich kartkówek (np. działań pisemnych, składni HTML, itp.)",
+                                    "Interaktywne testy i sprawdziany (wersja Offline lub Online)",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            },
+                            {
+                                text: "13. Które elementy aplikacji wymagają dalszego rozwoju lub ulepszenia? [wybór wielokrotny]:",
+                                type: "multiselect",
+                                options: [
+                                    "Interfejs użytkownika na urządzeniach mobilnych",
+                                    "Większa baza pytań (zadania i ich różne warianty)",
+                                    "System kategoryzacji, filtrowania testów i zadań",
+                                    "Opcje eksportu statystyk do systemów zewnętrznych (np. e-Dziennik, LMS)",
+                                    "Mechanizm automatycznego oceniania zadań otwartych",
+                                    "Inne (Jakie?): .........................................................................."
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        title: "Część 3. Opinie i doświadczenia",
+                        questions: [
+                            {
+                                text: "14. Czy podczas korzystania z aplikacji uczniowie napotkali trudności? Jeśli tak, proszę je opisać. [pytanie otwarte]:",
+                                type: "text",
+                                lines: 3
+                            },
+                            {
+                                text: "15. Jakie zalety aplikacji uważa Pan/Pani za najbardziej przydatne w codziennej pracy dydaktycznej? [pytanie otwarte]:",
+                                type: "text",
+                                lines: 3
+                            },
+                            {
+                                text: "16. Jakie dodatkowe funkcje lub rozwiązania warto byłoby dodać do aplikacji? [pytanie otwarte]:",
+                                type: "text",
+                                lines: 3
+                            }
+                        ]
+                    }
+                ],
+                filenamePdf: "ankieta_po_wdrozeniu.pdf",
+                filenameDocx: "ankieta_po_wdrozeniu.docx"
+            }
+        };
+
+        let activeSurvey = 'przed';
+
+        function setSurvey(surveyType) {
+            activeSurvey = surveyType;
+
+            document.getElementById('btn-przed').classList.toggle('active', surveyType === 'przed');
+            document.getElementById('btn-po').classList.toggle('active', surveyType === 'po');
+
+            const data = SURVEYS[surveyType];
+
+            document.getElementById('download-pdf-btn').href = "https://www.infomatyka.pl/p/generator-testow-sprawdzianow-wypelnij.html";
+            document.getElementById('download-docx-btn').href = "https://www.infomatyka.pl/p/generator-testow-sprawdzianow-wypelnij.html";
+
+            renderPaperPreview(data);
+        }
+
+        function parseQuestionText(text) {
+            let mainText = text;
+            let tagText = "";
+            const tagMatch = text.match(/\[(.*?)\]/);
+
+            if (tagMatch) {
+                mainText = text.replace(/\[(.*?)\]/, "").trim();
+                if (mainText.endsWith(':')) {
+                    mainText = mainText.slice(0, -1).trim();
+                }
+                tagText = tagMatch[1];
+            }
+            return { mainText, tagText };
+        }
+
+        function renderPaperPreview(data) {
+            const container = document.getElementById('survey-paper-preview');
+            let html = `
+                <div class="print-header">
+                    <h2>${data.title}</h2>
+                    <div style="font-size: 14.5px; text-transform: none; margin-top: 5px; font-weight: normal; font-style: italic;">
+                        ${data.subtitle}
+                    </div>
+                </div>
+                <div class="print-intro">
+                    ${data.intro}
+                </div>
+                <div class="print-meta-instruction">
+                    ${data.instruction}
+                </div>
+                <div class="question-list">
+            `;
+
+            data.sections.forEach((section) => {
+                html += `
+                    <div class="section-container" style="margin-top: 25px; margin-bottom: 15px; border-bottom: 1px solid #000; padding-bottom: 5px; page-break-after: avoid;">
+                        <h3 style="font-family: 'Times New Roman', Times, serif; font-size: 16px; text-transform: uppercase; margin: 0; font-weight: bold;">
+                            ${section.title}
+                        </h3>
+                    </div>
+                `;
+
+                section.questions.forEach((q) => {
+                    const parsed = parseQuestionText(q.text);
+
+                    html += `
+                        <div class="question-item" style="margin-bottom: 20px; page-break-inside: avoid;">
+                            <div class="question-text">
+                                <span class="question-main-text">${parsed.mainText}:</span>
+                                ${parsed.tagText ? `<span class="question-tag">${parsed.tagText}</span>` : ''}
+                            </div>
+                    `;
+
+                    if (q.type === 'choice' || q.type === 'multiselect') {
+                        html += `<div class="options-container" style="margin-left: 15px;">`;
+                        q.options.forEach(opt => {
+                            html += `
+                                <div class="option-row" style="display: flex; align-items: center; margin-bottom: 6px; font-size: 14.5px;">
+                                    <div class="checkbox-square">&nbsp;</div>
+                                    <span>${opt}</span>
+                                </div>
+                            `;
+                        });
+                        html += `</div>`;
+                    } else if (q.type === 'scale') {
+                        html += `
+                            <div style="margin-left: 15px; margin-top: 8px; margin-bottom: 8px;">
+                                <table class="scale-table">
+                                    <tr>
+                                        <td style="text-align: left; font-weight: bold; font-size: 12px; width: 20%; border: 1px solid #000; padding: 6px;">${q.labelMin}</td>
+                                        <td style="border: 1px solid #000; padding: 6px; width: 12%;"><div style="display: flex; flex-direction: column; align-items: center; gap: 4px;"><div class="checkbox-square" style="margin: 0;">&nbsp;</div><span>1</span></div></td>
+                                        <td style="border: 1px solid #000; padding: 6px; width: 12%;"><div style="display: flex; flex-direction: column; align-items: center; gap: 4px;"><div class="checkbox-square" style="margin: 0;">&nbsp;</div><span>2</span></div></td>
+                                        <td style="border: 1px solid #000; padding: 6px; width: 12%;"><div style="display: flex; flex-direction: column; align-items: center; gap: 4px;"><div class="checkbox-square" style="margin: 0;">&nbsp;</div><span>3</span></div></td>
+                                        <td style="border: 1px solid #000; padding: 6px; width: 12%;"><div style="display: flex; flex-direction: column; align-items: center; gap: 4px;"><div class="checkbox-square" style="margin: 0;">&nbsp;</div><span>4</span></div></td>
+                                        <td style="border: 1px solid #000; padding: 6px; width: 12%;"><div style="display: flex; flex-direction: column; align-items: center; gap: 4px;"><div class="checkbox-square" style="margin: 0;">&nbsp;</div><span>5</span></div></td>
+                                        <td style="text-align: right; font-weight: bold; font-size: 12px; width: 20%; border: 1px solid #000; padding: 6px;">${q.labelMax}</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        `;
+                    } else if (q.type === 'text') {
+                        html += `<div class="dotted-area" style="margin-top: 5px; margin-left: 15px;">`;
+                        const linesCount = q.lines || 3;
+                        for (let i = 0; i < linesCount; i++) {
+                            html += `<div class="dotted-line"></div>`;
+                        }
+                        html += `</div>`;
+                    }
+
+                    html += `</div>`;
+                });
+            });
+
+            html += `
+                </div>
+                <div class="print-footer">
+                    <div class="thanks-message">Bardzo dziękuję za wypełnienie ankiety.</div>
+                    <div class="author-signature">
+                        Mateusz Giętowski<br>
+                        student 2 roku studiów magisterskich kierunku Nauczania Matematyki I Informatyki<br>
+                        na Uniwersytecie im. Adama Mickiewicza w Poznaniu
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        // Nowy zoptymalizowany mechanizm drukowania z wymuszeniem renderowania stylów graficznych
+        function printSurvey() {
+            const previewContent = document.getElementById('survey-paper-preview').innerHTML;
+            const printWindow = window.open('', '_blank', 'width=1024,height=800');
+
+            printWindow.document.write(`
+                <!DOCTYPE html>
+                <html lang="pl" class="notranslate">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="google" content="notranslate" />
+                    <title>Drukuj Ankietę - Portal InfoMatyka</title>
+                    <style>
+                        body {
+                            font-family: 'Times New Roman', Times, serif;
+                            color: #000;
+                            background: #fff;
+                            margin: 20mm;
+                            line-height: 1.5;
+                            -webkit-print-color-adjust: exact !important;
+                            print-color-adjust: exact !important;
+                        }
+                        .print-header {
+                            text-align: center;
+                            margin-bottom: 30px;
+                            border-bottom: 2px double #000;
+                            padding-bottom: 15px;
+                        }
+                        .print-header h2 {
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin: 0 0 10px 0;
+                            text-transform: uppercase;
+                        }
+                        .print-intro {
+                            font-size: 14.5px;
+                            text-align: justify;
+                            margin-bottom: 25px;
+                        }
+                        .print-meta-instruction {
+                            font-size: 14px;
+                            font-style: italic;
+                            margin-bottom: 25px;
+                            border-left: 3px solid #000;
+                            padding-left: 12px;
+                        }
+                        .section-container {
+                            margin-top: 25px;
+                            margin-bottom: 15px;
+                            border-bottom: 1px solid #000;
+                            padding-bottom: 5px;
+                            page-break-after: avoid;
+                        }
+                        .section-container h3 {
+                            font-size: 15px;
+                            text-transform: uppercase;
+                            margin: 0;
+                            font-weight: bold;
+                        }
+                        .question-item {
+                            margin-bottom: 22px;
+                            page-break-inside: avoid;
+                        }
+                        .question-text {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            gap: 15px;
+                            font-size: 14.5px;
+                            font-weight: bold;
+                            margin-bottom: 12px;
+                            line-height: 1.4;
+                        }
+                        .question-main-text {
+                            max-width: 80%;
+                        }
+                        .question-tag {
+                            font-size: 11.5px;
+                            font-weight: normal;
+                            font-style: italic;
+                            color: #333;
+                            display: inline-block;
+                            white-space: nowrap;
+                            margin-left: 8px;
+                            border: 1px dashed #555 !important;
+                            padding: 1px 5px;
+                            border-radius: 3px;
+                            flex-shrink: 0;
+                            margin-left: auto;
+                            -webkit-print-color-adjust: exact !important;
+                            print-color-adjust: exact !important;
+                        }
+                        .options-container {
+                            margin-left: 15px;
+                        }
+                        .option-row {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 8px;
+                            font-size: 14px;
+                        }
+                        .checkbox-square {
+                            width: 14px;
+                            height: 14px;
+                            border: 1.5px solid #000000 !important;
+                            background-color: #ffffff !important;
+                            margin-right: 10px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            flex-shrink: 0;
+                            -webkit-print-color-adjust: exact !important;
+                            print-color-adjust: exact !important;
+                        }
+                        .dotted-line {
+                            border-bottom: 1px dashed #000000 !important;
+                            margin-top: 15px;
+                            height: 20px;
+                            display: block;
+                            -webkit-print-color-adjust: exact !important;
+                            print-color-adjust: exact !important;
+                        }
+                        .dotted-area {
+                            margin-top: 8px;
+                            margin-left: 15px;
+                        }
+                        .scale-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-top: 8px;
+                            margin-bottom: 8px;
+                        }
+                        .scale-table th, .scale-table td {
+                            border: 1px solid #000000 !important;
+                            padding: 8px;
+                            text-align: center;
+                            font-size: 13px;
+                            -webkit-print-color-adjust: exact !important;
+                            print-color-adjust: exact !important;
+                        }
+                        .scale-table th {
+                            background-color: #f2f2f2 !important;
+                        }
+                        .print-footer {
+                            margin-top: 60px;
+                            border-top: 2px solid #000;
+                            padding-top: 20px;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            page-break-inside: avoid;
+                            display: flow-root;
+                            padding-bottom: 60px;
+                        }
+                        .print-footer .thanks-message {
+                            font-weight: bold;
+                            text-align: justify;
+                            margin-bottom: 15px;
+                        }
+                        .print-footer .author-signature {
+                            float: right;
+                            text-align: right;
+                            margin-top: 15px;
+                            font-style: italic;
+                            font-size: 15px;
+                            font-weight: bold;
+                            line-height: 1.4;
+                        }
+                        @media print {
+                            body { margin: 15mm; }
+                            .checkbox-square {
+                                border: 1.5px solid #000000 !important;
+                                background-color: #ffffff !important;
+                                display: inline-block !important;
+                            }
+                            .dotted-line {
+                                border-bottom: 1px dashed #000000 !important;
+                                display: block !important;
+                            }
+                            .question-tag {
+                                border: 1px dashed #000000 !important;
+                                display: inline-block !important;
+                            }
+                        }
+                    </style>
+                </head>
+                <body>
+                    ${previewContent}
+                    <script>
+                        window.onload = function() {
+                            window.print();
+                            setTimeout(function() { window.close(); }, 500);
+                        };
+                    <\/script>
+                </body>
+                </html>
+            `);
+            printWindow.document.close();
+        }
+
+        function showCustomConfirm(message) {
+            return new Promise((resolve) => {
+                const modal = document.getElementById('custom-confirm-modal');
+                const msgEl = document.getElementById('custom-confirm-message');
+                const btnYes = document.getElementById('btn-confirm-yes');
+                const btnNo = document.getElementById('btn-confirm-no');
+
+                msgEl.textContent = message;
+                modal.classList.add('active');
+
+                const handleYes = () => {
+                    cleanup();
+                    resolve(true);
+                };
+                const handleNo = () => {
+                    cleanup();
+                    resolve(false);
+                };
+                const cleanup = () => {
+                    btnYes.removeEventListener('click', handleYes);
+                    btnNo.removeEventListener('click', handleNo);
+                    modal.classList.remove('active');
+                };
+
+                btnYes.addEventListener('click', handleYes);
+                btnNo.addEventListener('click', handleNo);
+            });
+        }
+
+        document.getElementById('btn-exit-generator').addEventListener('click', async function () {
+            if (await showCustomConfirm('Czy chcesz wrócić do strony głównej portalu?')) {
+                window.location.href = 'https://www.infomatyka.pl/';
+            }
+        });
+
+        (function () {
+            var app = document.getElementById('app-root');
+            if (app && document.body) {
+                document.body.appendChild(app);
+            }
+            setSurvey('przed');
+        })();
+    </script>
+</body>
+</html>
