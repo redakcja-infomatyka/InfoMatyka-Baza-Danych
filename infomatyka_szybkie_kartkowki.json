@@ -11,19 +11,34 @@
       "decoys": ["`<link>`", "`<href>`", "`<anchor>`"]
     },
     {
-      "q": "Który znacznik HTML5 tworzy nagłówek najwyższego stopnia?",
+      "q": "Który znacznik odpowiada za nagłówek pierwszego stopnia w HTML?",
       "a": "`<h1>`",
-      "decoys": ["`<header>`", "`<head>`", "`<h6>`"]
+      "decoys": ["`<head>`", "`<header>`", "`<h6>`"]
     },
     {
-      "q": "Który znacznik w HTML5 definiuje sekcję nawigacyjną witryny?",
-      "a": "`<nav>`",
-      "decoys": ["`<navigation>`", "`<links>`", "`<menu>`"]
+      "q": "Jakim znacznikiem tworzy się tabelę w HTML?",
+      "a": "`<table>`",
+      "decoys": ["`<tab>`", "`<tr>`", "`<grid>`"]
     },
     {
-      "q": "Który atrybut znacznika `<img>` definiuje tekst alternatywny dla obrazka?",
-      "a": "`alt`",
-      "decoys": ["`title`", "`src`", "`description`"]
+      "q": "Który znacznik definiuje nową linię (przełamanie wiersza) w HTML?",
+      "a": "`<br>`",
+      "decoys": ["`<lb>`", "`<p>`", "`<hr>`"]
+    },
+    {
+      "q": "Który znacznik tworzy listę wypunktowaną (nieuporządkowaną) w HTML?",
+      "a": "`<ul>`",
+      "decoys": ["`<ol>`", "`<li>`", "`<list>`"]
+    },
+    {
+      "q": "Który znacznik służy do wytłuszczenia tekstu w HTML?",
+      "a": "`<strong>`",
+      "decoys": ["`<b>`", "`<italic>`", "`<bold>`"]
+    },
+    {
+      "q": "Który znacznik HTML służy do definiowania paragrafu (akapitu)?",
+      "a": "`<p>`",
+      "decoys": ["`<text>`", "`<paragraph>`", "`<div>`"]
     }
   ],
   "cssQuestionsPool": [
@@ -38,19 +53,34 @@
       "decoys": ["`.header`", "`header`", "`*header`"]
     },
     {
-      "q": "Która właściwość CSS zmienia kolor tekstu?",
-      "a": "`color`",
-      "decoys": ["`text-color`", "`font-color`", "`foreground`"]
+      "q": "Jak w CSS wybrać wszystkie elementy o klasie 'btn'?",
+      "a": "`.btn`",
+      "decoys": ["`#btn`", "`btn`", "`@btn`"]
     },
     {
-      "q": "Jak w CSS wybrać wszystkie elementy z klasą 'container'?",
-      "a": "`.container`",
-      "decoys": ["`#container`", "`container`", "`*container`"]
+      "q": "Która właściwość CSS ustawia marginesy wewnętrzne elementu?",
+      "a": "`padding`",
+      "decoys": ["`margin`", "`border`", "`spacing`"]
     },
     {
-      "q": "Która właściwość CSS ustawia grubość czcionki (np. pogrubienie)?",
-      "a": "`font-weight`",
-      "decoys": ["`font-style`", "`text-weight`", "`font-bold`"]
+      "q": "Która właściwość CSS służy do zmiany kroju czcionki?",
+      "a": "`font-family`",
+      "decoys": ["`font-style`", "`font-type`", "`font-size`"]
+    },
+    {
+      "q": "Która właściwość CSS ustawia wyrównanie tekstu (np. do środka)?",
+      "a": "`text-align`",
+      "decoys": ["`text-justify`", "`align`", "`font-align`"]
+    },
+    {
+      "q": "Jak w CSS ustawić grubość ramki, jej styl i kolor w jednej linii?",
+      "a": "`border`",
+      "decoys": ["`outline`", "`frame`", "`stroke`"]
+    },
+    {
+      "q": "Jaka właściwość CSS ukrywa element całkowicie zwalniając jego miejsce na stronie?",
+      "a": "`display: none`",
+      "decoys": ["`visibility: hidden`", "`opacity: 0`", "`hidden: true`"]
     }
   ],
   "jsQuestionsPool": [
@@ -65,70 +95,287 @@
       "decoys": ["`print('Witaj')`", "`echo('Witaj')`", "`alert('Witaj')`"]
     },
     {
-      "q": "Która metoda dodaje nowy element na końcu tablicy w JavaScript?",
+      "q": "Która metoda JS pozwala znaleźć element w drzewie DOM po jego identyfikatorze ID?",
+      "a": "`document.getElementById()`",
+      "decoys": ["`document.querySelector()`", "`document.findId()`", "`document.getElement()`"]
+    },
+    {
+      "q": "Jaki jest wynik porównania 5 === '5' w JavaScript?",
+      "a": "`false`",
+      "decoys": ["`true`", "`undefined`", "`null`"]
+    },
+    {
+      "q": "Który operator logiczny reprezentuje koniunkcję (i) w JavaScript?",
+      "a": "`&&`",
+      "decoys": ["`||`", "`and`", "`&`"]
+    },
+    {
+      "q": "Jak w JavaScript zdefiniować funkcję o nazwie suma?",
+      "a": "`function suma() {}`",
+      "decoys": ["`def suma():`", "`func suma() {}`", "`suma: function() {}`"]
+    },
+    {
+      "q": "Jaka metoda służy do dodania elementu na koniec tablicy w JavaScript?",
       "a": "`push()`",
       "decoys": ["`pop()`", "`append()`", "`add()`"]
     },
     {
-      "q": "Jaki operator w JavaScript sprawdza równość wartości oraz zgodność typów danych?",
-      "a": "`===`",
-      "decoys": ["`==`", "`=`", "`equals()`"]
+      "q": "Który obiekt w przeglądarce JavaScript reprezentuje całe okno przeglądarki?",
+      "a": "`window`",
+      "decoys": ["`document`", "`screen`", "`navigator`"]
     }
   ],
   "programmingQuestionsPool": [
     {
       "lang": "python",
       "type": "output",
-      "q": "Jaki wynik da wyrażenie `print(3 * 'A')` w języku Python?",
-      "a": "`AAA`",
-      "decoys": ["`3A`", "`A A A`", "`Error`"]
+      "q": "Co wypisze następujący kod w Pythonie?<br><pre><code class='language-python'>x = [1, 2, 3]\ny = x\ny[0] = 9\nprint(x[0])</code></pre>",
+      "a": "`9`",
+      "decoys": ["`1`", "`[1, 2, 3]`", "`[9, 2, 3]`"]
     },
     {
       "lang": "python",
       "type": "output",
-      "q": "Jaki wynik zwraca funkcja `len([10, 20, 30, 40])` w języku Python?",
-      "a": "`4`",
-      "decoys": ["`40`", "`3`", "`10`"]
+      "q": "Co wypisze następujący kod w Pythonie?<br><pre><code class='language-python'>print('a' + 'b' * 3)</code></pre>",
+      "a": "`abbb`",
+      "decoys": ["`ababab`", "`ab3`", "`bbba`"]
+    },
+    {
+      "lang": "python",
+      "type": "error",
+      "q": "W której linii poniższego kodu w Pythonie znajduje się błąd składniowy?<br><pre><code class='language-python'>1: def oblicz(a, b):\n2:     if a > b\n3:         return a - b\n4:     return b - a</code></pre>",
+      "a": "W linii `2` (brak dwukropka po warunku `if`)",
+      "decoys": ["W linii `1` (zły sposób deklarowania funkcji)", "W linii `3` (niepoprawne wcięcie)", "Kod nie zawiera żadnego błędu"]
+    },
+    {
+      "lang": "python",
+      "type": "error",
+      "q": "Jaki błąd zostanie zgłoszony po wykonaniu poniższego kodu?<br><pre><code class='language-python'>x = 10\ny = \"2\"\nprint(x + y)</code></pre>",
+      "a": "`TypeError` (próba dodania int do str)",
+      "decoys": ["`ValueError` (niepoprawna wartość zmiennej)", "`SyntaxError` (błąd w zapisie)", "`NameError` (użycie niezadeklarowanej zmiennej)"]
+    },
+    {
+      "lang": "python",
+      "type": "fill",
+      "q": "Wybierz brakujący fragment kodu w Pythonie, aby funkcja poprawnie zliczała i zwracała sumę liczb z listy `liczby`:<br><pre><code class='language-python'>def suma(liczby):\n    s = 0\n    for x in liczby:\n        __________\n    return s</code></pre>",
+      "a": "`s += x`",
+      "decoys": ["`s = x`", "`s = s + 1`", "`s.append(x)`"]
+    },
+    {
+      "lang": "python",
+      "type": "vars",
+      "q": "Jaki będzie wynik działania zmiennych po wykonaniu kodu?<br><pre><code class='language-python'>a = 7\nb = 3\na, b = b, a + b</code></pre>",
+      "a": "`a = 3, b = 10`",
+      "decoys": ["`a = 3, b = 7`", "`a = 7, b = 10`", "`a = 10, b = 3`"]
+    },
+    {
+      "lang": "python",
+      "type": "loops",
+      "q": "Ile razy wypisze się słowo 'Hej' w poniższym kodzie w Pythonie?<br><pre><code class='language-python'>for i in range(1, 5):\n    print('Hej')</code></pre>",
+      "a": "`4 razy`",
+      "decoys": ["`5 razy`", "`3 razy`", "`nieskończenie wiele razy`"]
+    },
+    {
+      "lang": "python",
+      "type": "conds",
+      "q": "Jaki warunek należy wpisać w miejsce `___`, aby program sprawdził, czy liczba `x` jest parzysta?<br><pre><code class='language-python'>if ___:\n    print('parzysta')</code></pre>",
+      "a": "`x % 2 == 0`",
+      "decoys": ["`x / 2 == 0`", "`x % 2 = 0`", "`x % 2 == 1`"]
+    },
+    {
+      "lang": "python",
+      "type": "lists",
+      "q": "Jaki będzie stan listy `L` po wykonaniu poniższych operacji w Pythonie?<br><pre><code class='language-python'>L = [1, 2]\nL.append(3)\nL.pop(0)</code></pre>",
+      "a": "`[2, 3]`",
+      "decoys": ["`[1, 2]`", "`[1, 3]`", "`[3]`"]
     },
     {
       "lang": "cpp",
       "type": "output",
-      "q": "Co wypisze instrukcja `std::cout << 15 / 4;` w języku C++?",
-      "a": "`3`",
-      "decoys": ["`3.75`", "`4`", "`3.0`"]
+      "q": "Co wypisze poniższy program w C++?<br><pre><code class='language-cpp'>#include &lt;iostream&gt;\nusing namespace std;\nint main() {\n    int a = 5;\n    cout &lt;&lt; a++ &lt;&lt; \" \" &lt;&lt; a;\n    return 0;\n}</code></pre>",
+      "a": "`5 6`",
+      "decoys": ["`6 6`", "`5 5`", "`6 5`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "output",
+      "q": "Co zostanie wypisane na ekranie przez poniższy kod C++?<br><pre><code class='language-cpp'>int x = 15;\nif (x &gt; 10) {\n    int x = 5;\n    cout &lt;&lt; x &lt;&lt; \" \";\n}\ncout &lt;&lt; x;</code></pre>",
+      "a": "`5 15`",
+      "decoys": ["`5 5`", "`15 15`", "`15 5`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "error",
+      "q": "Dlaczego poniższy kod w C++ się nie skompiluje?<br><pre><code class='language-cpp'>#include &lt;iostream&gt;\nint main() {\n    const int x = 10;\n    x = 20;\n    std::cout &lt;&lt; x;\n    return 0;\n}</code></pre>",
+      "a": "Próba modyfikacji wartości zmiennej zadeklarowanej jako `const`",
+      "decoys": ["Brak `using namespace std;`", "Zmienna `x` nie jest typu float", "Funkcja `main` nie może zwracać 0"]
+    },
+    {
+      "lang": "cpp",
+      "type": "error",
+      "q": "Który wiersz w poniższym kodzie C++ zawiera błąd uniemożliwiający kompilację?<br><pre><code class='language-cpp'>1: int a = 5;\n2: double b = 2.5;\n3: std::string s = 'x';\n4: char c = 'y';</code></pre>",
+      "a": "Wiersz `3` (literał znakowy w pojedynczych cudzysłowach przypisany do std::string)",
+      "decoys": ["Wiersz `1` (int nie przyjmuje liczb całkowitych)", "Wiersz `2` (niepoprawny typ dla b)", "Wiersz `4` (char musi używać podwójnych cudzysłowów)"]
+    },
+    {
+      "lang": "cpp",
+      "type": "fill",
+      "q": "Uzupełnij kod w C++, aby poprawnie zaalokować tablicę dynamiczną dla 10 liczb całkowitych:<br><pre><code class='language-cpp'>int* tab = __________;</code></pre>",
+      "a": "`new int[10]`",
+      "decoys": ["`malloc(10)`", "`new int(10)`", "`new array&lt;int&gt;(10)`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "vars",
+      "q": "Jaki będzie wynik działania zmiennych po wykonaniu kodu w C++?<br><pre><code class='language-cpp'>int a = 14;\nint b = 4;\ndouble c = a / b;</code></pre>",
+      "a": "`c = 3.0` (dzielenie całkowitoliczbowe)",
+      "decoys": ["`c = 3.5`", "`c = 3`", "`c = 2.0`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "loops",
+      "q": "Ile razy wykona się pętla `while` w poniższym kodzie C++?<br><pre><code class='language-cpp'>int i = 0;\nwhile(i &lt; 5) {\n    if(i == 3) break;\n    i++;\n}</code></pre>",
+      "a": "`3 razy`",
+      "decoys": ["`5 razy`", "`4 razy`", "`nieskończenie wiele razy`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "conds",
+      "q": "Jaki będzie wynik działania warunku złożonego w C++?<br><pre><code class='language-cpp'>bool a = true;\nbool b = false;\nbool c = (a || b) && !a;</code></pre>",
+      "a": "`c = false`",
+      "decoys": ["`c = true`", "`c = 1`", "`c = undefined`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "lists",
+      "q": "Jak w C++ uzyskać dostęp do ostatniego elementu wektora `std::vector&lt;int&gt; v = {10, 20, 30}`?<br><pre><code class='language-cpp'>// wybierz poprawne odwołanie:</code></pre>",
+      "a": "`v.back()` lub `v[2]`",
+      "decoys": ["`v.last()`", "`v.end()`", "`v[3]`"]
     },
     {
       "lang": "java",
       "type": "output",
-      "q": "Jaka metoda w Java służy do pobrania długości napisu String?",
-      "a": "`.length()`",
-      "decoys": ["`.size()`", "`.count()`", "`.length`"]
+      "q": "Co zostanie wypisane na konsoli po wykonaniu tego kodu w Javie?<br><pre><code class='language-java'>String s1 = \"Java\";\nString s2 = new String(\"Java\");\nSystem.out.print((s1 == s2) + \" \" + s1.equals(s2));</code></pre>",
+      "a": "`false true`",
+      "decoys": ["`true true`", "`false false`", "`true false`"]
+    },
+    {
+      "lang": "java",
+      "type": "output",
+      "q": "Co wypisze poniższy fragment kodu w Javie?<br><pre><code class='language-java'>int[] t = {1, 2, 3};\nSystem.out.println(t.length);</code></pre>",
+      "a": "`3`",
+      "decoys": ["`3()`", "`2`", "`IndexOutOfBounds`"]
+    },
+    {
+      "lang": "java",
+      "type": "error",
+      "q": "Która z poniższych deklaracji klasy w Javie wywoła błąd kompilacji, jeśli znajduje się w pliku `Main.java`?<br><pre><code class='language-java'>// wybierz błędną deklarację klasy publicznej:</code></pre>",
+      "a": "`public class App {}` (nazwa klasy publicznej musi pasować do nazwy pliku)",
+      "decoys": ["`class App {}` (klasa niepubliczna)", "`public class Main {}`", "`final class Main {}`"]
+    },
+    {
+      "lang": "java",
+      "type": "error",
+      "q": "Dlaczego poniższy kod w Javie zgłosi błąd kompilacji?<br><pre><code class='language-java'>int x = null;</code></pre>",
+      "a": "Typy proste (np. `int`) nie mogą przyjmować wartości `null`",
+      "decoys": ["Zmienna `x` nie została zainicjalizowana", "`null` jest słowem kluczowym tylko w C++", "Przed `int` brakuje słowa `new`"]
+    },
+    {
+      "lang": "java",
+      "type": "fill",
+      "q": "Jak uzupełnić brakujący fragment kodu w Javie, aby stworzyć listę obiektową typu `ArrayList`?<br><pre><code class='language-java'>List&lt;Integer&gt; list = __________;</code></pre>",
+      "a": "`new ArrayList&lt;Integer&gt;()`",
+      "decoys": ["`new ArrayList()`", "`new List&lt;Integer&gt;()`", "`ArrayList.create()`"]
+    },
+    {
+      "lang": "java",
+      "type": "vars",
+      "q": "Jaka będzie wartość zmiennej `c` po wykonaniu kodu w Javie?<br><pre><code class='language-java'>int a = 10;\nint b = 4;\ndouble c = (double) a / b;</code></pre>",
+      "a": "`2.5`",
+      "decoys": ["`2.0`", "`2`", "`2.5d`"]
+    },
+    {
+      "lang": "java",
+      "type": "loops",
+      "q": "Jak zapisać pętlę for-each (ulepszoną pętlę for) w Javie, aby przeiterować przez tablicę `int[] tab`?<br><pre><code class='language-java'>// uzupełnij pętlę:</code></pre>",
+      "a": "`for (int x : tab) { ... }`",
+      "decoys": ["`for (int x in tab) { ... }`", "`for (int i = 0; i &lt; tab; i++) { ... }`", "`foreach (int x : tab) { ... }`"]
+    },
+    {
+      "lang": "java",
+      "type": "conds",
+      "q": "Która z instrukcji warunkowych w Javie poprawnie sprawdza czy obiekt `s` nie jest null przed wywołaniem metody?<br><pre><code class='language-java'>// wybierz bezpieczne sprawdzenie:</code></pre>",
+      "a": "`if (s != null && s.length() > 0)` (dzięki operatorowi && druga część nie zostanie wykonana przy null)",
+      "decoys": ["`if (s != null & s.length() > 0)`", "`if (s.length() > 0 || s != null)`", "`if (s != null || s.length() > 0)`"]
+    },
+    {
+      "lang": "java",
+      "type": "lists",
+      "q": "Jak sprawdzić rozmiar listy dynamicznej `List&lt;String&gt; list` w Javie?<br><pre><code class='language-java'>// wybierz poprawne wywołanie:</code></pre>",
+      "a": "`list.size()`",
+      "decoys": ["`list.length`", "`list.count()`", "`list.size`"]
     }
   ],
   "sqlQuestionsPool": [
     {
       "topic": "select",
-      "q": "Która klauzula SQL służy do sortowania zwróconych rekordów?",
-      "a": "`ORDER BY`",
-      "decoys": ["`GROUP BY`", "`SORT BY`", "`ALIGN BY`"]
+      "q": "Która klauzula SQL służy do filtrowania wierszy w zapytaniu SELECT?",
+      "a": "`WHERE`",
+      "decoys": ["`HAVING`", "`GROUP BY`", "`ORDER BY`"]
     },
     {
       "topic": "select",
-      "q": "Która funkcja agregująca SQL zlicza liczbę wierszy w tabeli?",
-      "a": "`COUNT()`",
-      "decoys": ["`SUM()`", "`TOTAL()`", "`NUMBER()`"]
+      "q": "Jak wybrać wszystkie kolumny z tabeli o nazwie `Pracownicy` w SQL?",
+      "a": "`SELECT * FROM Pracownicy`",
+      "decoys": ["`SELECT ALL FROM Pracownicy`", "`GET * FROM Pracownicy`", "`SELECT columns FROM Pracownicy`"]
+    },
+    {
+      "topic": "select",
+      "q": "Jak w klauzuli WHERE wyszukać pracowników, których imię zaczyna się na literę 'A'?",
+      "a": "`WHERE imie LIKE 'A%'`",
+      "decoys": ["`WHERE imie = 'A*'`", "`WHERE imie LIKE '%A'`", "`WHERE imie IN ('A')`"]
     },
     {
       "topic": "join",
-      "q": "Który rodzaj złączenia w SQL zwraca wszystkie wiersze z lewej tabeli i dopasowane z prawej?",
+      "q": "Który typ złączenia JOIN zwraca wszystkie wiersze z lewej tabeli i dopasowane wiersze z prawej tabeli?",
       "a": "`LEFT JOIN`",
       "decoys": ["`INNER JOIN`", "`RIGHT JOIN`", "`FULL JOIN`"]
     },
     {
+      "topic": "join",
+      "q": "Którą właściwość definiuje warunek powiązania tabel w klauzuli JOIN?",
+      "a": "`ON`",
+      "decoys": ["`USING`", "`WHERE`", "`KEY`"]
+    },
+    {
+      "topic": "aggregate",
+      "q": "Która funkcja agregująca w SQL służy do zliczania liczby wierszy?",
+      "a": "`COUNT()`",
+      "decoys": ["`SUM()`", "`TOTAL()`", "`AVG()`"]
+    },
+    {
+      "topic": "aggregate",
+      "q": "Którą klauzulą przefiltrujesz wyniki po pogrupowaniu ich przy użyciu GROUP BY (np. średnia zarobków > 5000)?",
+      "a": "`HAVING`",
+      "decoys": ["`WHERE`", "`GROUP WHERE`", "`ORDER BY`"]
+    },
+    {
       "topic": "ddl_dml",
-      "q": "Które polecenie SQL usuwa tabelę z bazy danych wraz z jej strukturą?",
-      "a": "`DROP TABLE`",
-      "decoys": ["`DELETE TABLE`", "`REMOVE TABLE`", "`TRUNCATE TABLE`"]
+      "q": "Które z poniższych poleceń SQL należy do języka definiowania danych (DDL)?",
+      "a": "`CREATE TABLE`",
+      "decoys": ["`INSERT INTO`", "`UPDATE`", "`DELETE`"]
+    },
+    {
+      "topic": "ddl_dml",
+      "q": "Co oznacza skrót DBMS (pol. ZBD)?",
+      "a": "System Zarządzania Bazą Danych (Database Management System)",
+      "decoys": ["Serwer Danych i Metadanych (Data Base Meta Server)", "Standard Projektowania Baz Danych (Database Model System)", "Zabezpieczenie Struktur Bazodanowych (Database Maintenance System)"]
+    },
+    {
+      "topic": "ddl_dml",
+      "q": "Które polecenie służy do modyfikowania istniejących danych w tabeli SQL?",
+      "a": "`UPDATE`",
+      "decoys": ["`MODIFY`", "`ALTER TABLE`", "`INSERT`"]
     }
   ]
 }
