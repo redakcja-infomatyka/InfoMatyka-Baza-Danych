@@ -1,0 +1,134 @@
+{
+  "htmlQuestionsPool": [
+    {
+      "q": "Który znacznik HTML służy do wstawiania obrazka?",
+      "a": "`<img>`",
+      "decoys": ["`<a>`", "`<image>`", "`<src>`"]
+    },
+    {
+      "q": "Który znacznik HTML tworzy odsyłacz (hiperłącze)?",
+      "a": "`<a>`",
+      "decoys": ["`<link>`", "`<href>`", "`<anchor>`"]
+    },
+    {
+      "q": "Który znacznik HTML5 tworzy nagłówek najwyższego stopnia?",
+      "a": "`<h1>`",
+      "decoys": ["`<header>`", "`<head>`", "`<h6>`"]
+    },
+    {
+      "q": "Który znacznik w HTML5 definiuje sekcję nawigacyjną witryny?",
+      "a": "`<nav>`",
+      "decoys": ["`<navigation>`", "`<links>`", "`<menu>`"]
+    },
+    {
+      "q": "Który atrybut znacznika `<img>` definiuje tekst alternatywny dla obrazka?",
+      "a": "`alt`",
+      "decoys": ["`title`", "`src`", "`description`"]
+    }
+  ],
+  "cssQuestionsPool": [
+    {
+      "q": "Która właściwość CSS odpowiada za zmianę koloru tła?",
+      "a": "`background-color`",
+      "decoys": ["`color`", "`bg-color`", "`background-style`"]
+    },
+    {
+      "q": "Jak w CSS wybrać element o identyfikatorze 'header'?",
+      "a": "`#header`",
+      "decoys": ["`.header`", "`header`", "`*header`"]
+    },
+    {
+      "q": "Która właściwość CSS zmienia kolor tekstu?",
+      "a": "`color`",
+      "decoys": ["`text-color`", "`font-color`", "`foreground`"]
+    },
+    {
+      "q": "Jak w CSS wybrać wszystkie elementy z klasą 'container'?",
+      "a": "`.container`",
+      "decoys": ["`#container`", "`container`", "`*container`"]
+    },
+    {
+      "q": "Która właściwość CSS ustawia grubość czcionki (np. pogrubienie)?",
+      "a": "`font-weight`",
+      "decoys": ["`font-style`", "`text-weight`", "`font-bold`"]
+    }
+  ],
+  "jsQuestionsPool": [
+    {
+      "q": "Które słowo kluczowe służy do deklaracji zmiennej o zasięgu blokowym, której wartość można zmieniać?",
+      "a": "`let`",
+      "decoys": ["`const`", "`var`", "`variable`"]
+    },
+    {
+      "q": "Jak w JavaScript wypisać tekst 'Witaj' w konsoli przeglądarki?",
+      "a": "`console.log('Witaj')`",
+      "decoys": ["`print('Witaj')`", "`echo('Witaj')`", "`alert('Witaj')`"]
+    },
+    {
+      "q": "Która metoda dodaje nowy element na końcu tablicy w JavaScript?",
+      "a": "`push()`",
+      "decoys": ["`pop()`", "`append()`", "`add()`"]
+    },
+    {
+      "q": "Jaki operator w JavaScript sprawdza równość wartości oraz zgodność typów danych?",
+      "a": "`===`",
+      "decoys": ["`==`", "`=`", "`equals()`"]
+    }
+  ],
+  "programmingQuestionsPool": [
+    {
+      "lang": "python",
+      "type": "output",
+      "q": "Jaki wynik da wyrażenie `print(3 * 'A')` w języku Python?",
+      "a": "`AAA`",
+      "decoys": ["`3A`", "`A A A`", "`Error`"]
+    },
+    {
+      "lang": "python",
+      "type": "output",
+      "q": "Jaki wynik zwraca funkcja `len([10, 20, 30, 40])` w języku Python?",
+      "a": "`4`",
+      "decoys": ["`40`", "`3`", "`10`"]
+    },
+    {
+      "lang": "cpp",
+      "type": "output",
+      "q": "Co wypisze instrukcja `std::cout << 15 / 4;` w języku C++?",
+      "a": "`3`",
+      "decoys": ["`3.75`", "`4`", "`3.0`"]
+    },
+    {
+      "lang": "java",
+      "type": "output",
+      "q": "Jaka metoda w Java służy do pobrania długości napisu String?",
+      "a": "`.length()`",
+      "decoys": ["`.size()`", "`.count()`", "`.length`"]
+    }
+  ],
+  "sqlQuestionsPool": [
+    {
+      "topic": "select",
+      "q": "Która klauzula SQL służy do sortowania zwróconych rekordów?",
+      "a": "`ORDER BY`",
+      "decoys": ["`GROUP BY`", "`SORT BY`", "`ALIGN BY`"]
+    },
+    {
+      "topic": "select",
+      "q": "Która funkcja agregująca SQL zlicza liczbę wierszy w tabeli?",
+      "a": "`COUNT()`",
+      "decoys": ["`SUM()`", "`TOTAL()`", "`NUMBER()`"]
+    },
+    {
+      "topic": "join",
+      "q": "Który rodzaj złączenia w SQL zwraca wszystkie wiersze z lewej tabeli i dopasowane z prawej?",
+      "a": "`LEFT JOIN`",
+      "decoys": ["`INNER JOIN`", "`RIGHT JOIN`", "`FULL JOIN`"]
+    },
+    {
+      "topic": "ddl_dml",
+      "q": "Które polecenie SQL usuwa tabelę z bazy danych wraz z jej strukturą?",
+      "a": "`DROP TABLE`",
+      "decoys": ["`DELETE TABLE`", "`REMOVE TABLE`", "`TRUNCATE TABLE`"]
+    }
+  ]
+}

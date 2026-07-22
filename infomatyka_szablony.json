@@ -1,0 +1,60 @@
+[
+  {
+    "id": "template-math-8-01",
+    "name": "Kartkówka Z Liczb I Działań, Klasa 8",
+    "subject": "Matematyka",
+    "school": "Szkoła Podstawowa",
+    "levelSecondary": "8",
+    "department": "Liczby I Działania",
+    "description": "Przykładowa Kartkówka z Liczb I Działań dla Klasy 8.",
+    "questions": [
+      {
+        "id": 10101,
+        "text": "Podaj miejsca zerowe funkcji $f(x) = x^2 - 16$.",
+        "points": 1,
+        "type": "jednokrotny wybór",
+        "options": ["$x=4$", "$x=-4, x=4$", "$x=16$", "brak miejsc zerowych"],
+        "correctAnswerIndex": 1,
+        "solution": "Aby znaleźć miejsca zerowe, rozwiązujemy równanie $x^2 - 16 = 0$, co daje $(x-4)(x+4)=0$. Zatem $x=4$ lub $x=-4$."
+      }
+    ]
+  },
+  {
+    "id": "template-info-db-01",
+    "name": "Kartkówka Z Baz Danych, Poziom Podstawowy",
+    "subject": "Informatyka",
+    "school": "Szkoła Średnia",
+    "levelSecondary": "Podstawowy",
+    "department": "Bazy Danych",
+    "description": "Przykładowa Kartkówka z Baz Danych dla Poziomu Podstawowego z pytaniami o klauzule SQL i relacje.",
+    "questions": [
+      {
+        "id": 20101,
+        "text": "Która klauzula SQL służy do filtrowania rekordów w zapytaniu SELECT?",
+        "points": 1,
+        "type": "jednokrotny wybór",
+        "options": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
+        "correctAnswerIndex": 0,
+        "solution": "Klauzula WHERE nakłada warunki filtrujące na wiersze przed pogrupowaniem."
+      }
+    ]
+  },
+  {
+    "id": "template-web-html-css-01",
+    "name": "Sprawdzian z Technologii Webowych (HTML & CSS)",
+    "subject": "Informatyka",
+    "school": "Szkoła Średnia",
+    "levelSecondary": "Zaawansowany",
+    "department": "Tworzenie Stron Internetowych",
+    "description": "Kompletny szablon sprawdzianu obejmujący znajomość semantycznych znaczników HTML5 oraz stylizowania arkuszami CSS.",
+    "questions": [
+      {
+        "id": 30101,
+        "text": "Wyjaśnij różnicę między znacznikami `<div>` a `<article>` w HTML5.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "`<div>` to ogólny kontener bez znaczenia semantycznego, natomiast `<article>` reprezentuje samodzielną, niezależną treść."
+      }
+    ]
+  }
+]
