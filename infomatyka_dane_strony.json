@@ -98,66 +98,21 @@
       }
     ],
     "zadania": [
-      {
-        "pytanie": "Jaka jest kolejna liczba w ciągu: 1, 1, 2, 3, 5, 8...?",
-        "odpowiedz": "To ciąg Fibonacciego. Następna liczba to 13 (5 + 8)."
-      },
-      {
-        "pytanie": "Ile wynosi suma kątów wewnętrznych w trójkącie?",
-        "odpowiedz": "Suma kątów w każdym trójkącie wynosi 180 stopni."
-      },
-      {
-        "pytanie": "Co w informatyce oznacza skrót HTML?",
-        "odpowiedz": "HyperText Markup Language (Hipertekstowy Język Znaczników)."
-      },
-      {
-        "pytanie": "Jakie jest rozwiązanie równania: 2x + 5 = 15?",
-        "odpowiedz": "Rozwiązaniem jest x = 5. Od obu stron odejmujemy 5, co daje 2x = 10, a następnie dzielimy przez 2."
-      },
-      {
-        "pytanie": "Co oznacza skrót CPU w kontekście komputera?",
-        "odpowiedz": "Central Processing Unit (Centralna Jednostka Przetwarzająca), czyli główny procesor komputera."
-      },
-      {
-        "pytanie": "Jaka jest wartość liczby Pi (π) w przybliżeniu do dwóch miejsc po przecinku?",
-        "odpowiedz": "W przybliżeniu wartość Pi wynosi 3.14."
-      },
-      {
-        "pytanie": "Do czego służy protokół HTTP w internetcie?",
-        "odpowiedz": "HTTP (Hypertext Transfer Protocol) służy do przesyłania stron internetowych (dokumentów hipertekstowych) z serwera do przeglądarki internetowej."
-      },
-      {
-        "pytanie": "Ile krawędzi ma sześcian?",
-        "odpowiedz": "Sześcian ma 12 krawędzi."
-      },
-      {
-        "pytanie": "Co to jest pętla 'for' w programowaniu?",
-        "odpowiedz": "Jest to instrukcja kontrolna pozwalająca na wielokrotne wykonanie bloku kodu określoną liczbę razy."
-      },
-      {
-        "pytanie": "Jaki jest wynik działania: 5! (pięć silnia)?",
-        "odpowiedz": "5! = 1 * 2 * 3 * 4 * 5 = 120."
-      },
-      {
-        "pytanie": "Co oznacza skrót CSS w tworzeniu stron internetowych?",
-        "odpowiedz": "Cascading Style Sheets (Kaskadowe Arkusze Stylów), używane do opisu wyglądu strony internetowej."
-      },
-      {
-        "pytanie": "Ile wynosi pierwiastek kwadratowy z 81?",
-        "odpowiedz": "Pierwiastek kwadratowy z 81 wynosi 9, ponieważ 9 * 9 = 81."
-      },
-      {
-        "pytanie": "Co to jest algorytm?",
-        "odpowiedz": "To skończony ciąg jasno zdefiniowanych czynności, koniecznych do wykonania różnego rodzaju zadań."
-      },
-      {
-        "pytanie": "Jaka jest definicja liczby pierwszej?",
-        "odpowiedz": "Liczba pierwsza to liczba naturalna większa od 1, która ma dokładnie dwa dzielniki naturalne: jedynkę i samą siebie."
-      },
-      {
-        "pytanie": "Co oznacza skrót URL?",
-        "odpowiedz": "Uniform Resource Locator, czyli ujednolicony format adresowania zasobów (informacji, danych, usług) w internecie."
-      }
+      { "type": "single", "q": "Jaka jest kolejna liczba w ciągu: 1, 1, 2, 3, 5, 8…?", "options": ["11", "12", "13", "16"], "answer": "13", "explanation": "To ciąg Fibonacciego. Każda kolejna liczba jest sumą dwóch poprzednich, dlatego 5 + 8 = 13." },
+      { "type": "one", "q": "Ile stopni wynosi suma kątów wewnętrznych trójkąta?", "answer": ["180", "180°", "180 stopni"], "explanation": "Suma kątów wewnętrznych każdego trójkąta wynosi 180 stopni." },
+      { "type": "single", "q": "Co oznacza skrót HTML?", "options": ["HyperText Markup Language", "High Transfer Machine Language", "Home Tool Markup List", "Hyperlink Text Main Layout"], "answer": "HyperText Markup Language", "explanation": "HTML to HyperText Markup Language, czyli hipertekstowy język znaczników używany do tworzenia struktury stron internetowych." },
+      { "type": "text", "q": "Rozwiąż równanie: 2x + 5 = 15. Podaj wartość x.", "answer": ["5", "x=5", "x = 5"], "explanation": "Odejmujemy 5 od obu stron: 2x = 10. Następnie dzielimy obie strony przez 2, więc x = 5." },
+      { "type": "single", "q": "Co oznacza skrót CPU?", "options": ["Central Processing Unit", "Computer Personal Utility", "Central Program Upload", "Core Processing User"], "answer": "Central Processing Unit", "explanation": "CPU oznacza Central Processing Unit, czyli centralną jednostkę przetwarzającą — główny procesor komputera." },
+      { "type": "one", "q": "Podaj wartość liczby π w przybliżeniu do dwóch miejsc po przecinku.", "answer": ["3,14", "3.14"], "explanation": "Liczba π zaokrąglona do dwóch miejsc po przecinku wynosi 3,14." },
+      { "type": "truefalse", "q": "Protokół HTTP służy między innymi do przesyłania stron internetowych.", "answer": "Prawda", "explanation": "HTTP, czyli Hypertext Transfer Protocol, służy do przesyłania zasobów internetowych pomiędzy serwerem a przeglądarką." },
+      { "type": "single", "q": "Ile krawędzi ma sześcian?", "options": ["6", "8", "12", "16"], "answer": "12", "explanation": "Sześcian ma 12 krawędzi: po 4 na górnej i dolnej ścianie oraz 4 łączące te ściany." },
+      { "type": "truefalse", "q": "Pętla „for” pozwala wielokrotnie wykonać blok kodu.", "answer": "Prawda", "explanation": "Pętla „for” jest instrukcją sterującą, która pozwala wielokrotnie wykonywać blok kodu, zwykle określoną liczbę razy." },
+      { "type": "one", "q": "Jaki jest wynik działania 5!?", "answer": ["120"], "explanation": "Silnia liczby 5 to iloczyn 1 × 2 × 3 × 4 × 5, czyli 120." },
+      { "type": "match", "q": "Przyporządkuj technologie do ich zastosowań.", "pairs": [["HTML", "struktura strony"], ["CSS", "wygląd strony"], ["JavaScript", "interaktywność strony"]], "explanation": "HTML odpowiada za strukturę strony, CSS za jej wygląd, a JavaScript za zachowanie i interaktywność." },
+      { "type": "one", "q": "Ile wynosi pierwiastek kwadratowy z 81?", "answer": ["9"], "explanation": "Pierwiastek kwadratowy z 81 wynosi 9, ponieważ 9 × 9 = 81." },
+      { "type": "text", "q": "Jak nazywa się skończony ciąg jasno określonych czynności prowadzących do rozwiązania problemu?", "answer": ["algorytm"], "explanation": "Taki uporządkowany i skończony ciąg kroków nazywamy algorytmem." },
+      { "type": "truefalse", "q": "Liczba pierwsza ma dokładnie dwa dzielniki naturalne.", "answer": "Prawda", "explanation": "Liczba pierwsza jest większa od 1 i ma dokładnie dwa dzielniki naturalne: 1 oraz samą siebie." },
+      { "type": "single", "q": "Co oznacza skrót URL?", "options": ["Uniform Resource Locator", "Universal Read Link", "User Routing Language", "Unified Resource List"], "answer": "Uniform Resource Locator", "explanation": "URL oznacza Uniform Resource Locator, czyli ujednolicony adres wskazujący zasób w internecie." }
     ]
   },
   "progressConfig": {
