@@ -170,7 +170,8 @@
     "xpRewards": {
       "gra": 100,
       "quiz": 50,
-      "wizualizacja": 20
+      "wizualizacja": 20,
+      "zadanieDnia": 30
     },
     "achievements": [
       { "id": "xp_100", "name": "Młody Adept", "desc": "Zdobądź łącznie 100 XP", "icon": "fa-solid fa-seedling", "target": "totalXp", "val": 100 },
@@ -182,7 +183,11 @@
       { "id": "first_game", "name": "Pierwsze Koty za Płoty", "desc": "Ukończ pierwszą grę", "icon": "fa-solid fa-gamepad", "target": "gamesPlayed", "val": 1 },
       { "id": "game_master", "name": "Mistrz Gry", "desc": "Ukończ 10 gier na platformie", "icon": "fa-solid fa-star", "target": "gamesPlayed", "val": 10 },
       { "id": "visualizer", "name": "Wizjoner", "desc": "Uruchom 5 wizualizacji", "icon": "fa-solid fa-eye", "target": "visualizersViewed", "val": 5 },
-      { "id": "quiz_master", "name": "Geniusz Testów", "desc": "Ukończ 5 quizów naukowych", "icon": "fa-solid fa-brain", "target": "quizzesSolved", "val": 5 }
+      { "id": "quiz_master", "name": "Geniusz Testów", "desc": "Ukończ 5 quizów naukowych", "icon": "fa-solid fa-brain", "target": "quizzesSolved", "val": 5 },
+      { "id": "daily_first", "name": "Pierwszy krok", "desc": "Ukończ pierwsze zadanie dnia", "icon": "fa-solid fa-calendar-check", "target": "dailyTasksCompleted", "val": 1 },
+      { "id": "daily_7", "name": "Tydzień bez przerwy", "desc": "Rozwiązuj zadanie dnia przez 7 dni z rzędu", "icon": "fa-solid fa-fire", "target": "maxDailyTaskStreak", "val": 7 },
+      { "id": "daily_30", "name": "Miesiąc wytrwałości", "desc": "Rozwiązuj zadanie dnia przez 30 dni z rzędu", "icon": "fa-solid fa-medal", "target": "maxDailyTaskStreak", "val": 30 },
+      { "id": "daily_365", "name": "Rok konsekwencji", "desc": "Rozwiązuj zadanie dnia przez 365 dni z rzędu", "icon": "fa-solid fa-trophy", "target": "maxDailyTaskStreak", "val": 365 }
     ]
   },
   "postNotificationBanner": {
