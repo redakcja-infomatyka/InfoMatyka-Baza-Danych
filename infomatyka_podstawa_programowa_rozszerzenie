@@ -1,0 +1,357 @@
+{
+  "_metadata": {
+    "nazwa": "infomatyka_podstawa_programowa_rozszerzenie",
+    "opis": "Rozszerzenie (nakladka) na plik infomatyka_podstawa_programowa.json. Dodaje: cele nauczania, wymagania ogolne, opisy dzialow oraz opisy i powiazane materialy dla wymagan szczegolowych. Struktura kluczy jest identyczna z plikiem podstawy programowej. Plik jest 'rzadki' (sparse) - zawiera tylko opracowane tresci; brak wpisu oznacza, ze strona pokazuje domyslny komunikat 'w przygotowaniu'.",
+    "wersja": "1.0.0",
+    "aktualizacja": "2026-08-25",
+    "schemat": {
+      "poziom_przedmiot": "Przedmiot - klucz identyczny jak w infomatyka_podstawa_programowa.json (np. Matematyka)",
+      "poziom_etap": "Etap edukacyjny, np. II_etap_szkola_podstawowa",
+      "poziom_rok": "Rok podstawy programowej, np. 2017",
+      "poziom_poziom": "Poziom klas lub zakres, np. klasy_4_6, zakres_podstawowy",
+      "cele_nauczania": "Tablica celow nauczania dla danego poziomu",
+      "wymagania_ogolne": "Tablica wymagan ogolnych dla danego poziomu",
+      "dzialy": {
+        "klucz_dzialu": "Klucz identyczny jak w podstawie programowej, np. IV_ulamki_zwykle_i_dziesietne",
+        "nazwa": "Czytelna nazwa dzialu (opcjonalnie)",
+        "opis": "Krotki opis dzialu (opcjonalnie)",
+        "materialy": "Materiały powiazane z calym dzialem (opcjonalnie)",
+        "wymagania_szczegolowe": "Tablica obiektow: { indeks: numer wymagania z podstawy (liczony od 0), opis: dodatkowy opis wymagania, materialy: [{ id, tytul, typ, url }] }. Pole id powinno pokrywac sie z identyfikatorem materialu w infomatyka_katalog_materialow.json, wtedy strona automatycznie sprawdza postep ucznia."
+      }
+    }
+  },
+  "Matematyka": {
+    "etapy_edukacyjne": {
+      "II_etap_szkola_podstawowa": {
+        "2017": {
+          "klasy_4_6": {
+            "cele_nauczania": [
+              "Rozwijanie sprawności rachunkowej na liczbach naturalnych, całkowitych oraz ułamkach zwykłych i dziesiętnych.",
+              "Kształtowanie umiejętności posługiwania się prostymi wyrażeniami algebraicznymi i równaniami w sytuacjach praktycznych.",
+              "Rozpoznawanie własności figur i brył geometrycznych oraz wykonywanie obliczeń praktycznych: pól, obwodów i objętości.",
+              "Odczytywanie i interpretowanie danych przedstawionych w tabelach, na diagramach i wykresach.",
+              "Rozwiązywanie zadań tekstowych z podziałem rozwiązania na etapy oraz ocenianie sensowności wyniku.",
+              "Rozwijanie rozumowania matematycznego i poprawnego posługiwania się językiem matematycznym."
+            ],
+            "wymagania_ogolne": [
+              "Sprawne rachowanie na liczbach rzeczywistych.",
+              "Posługiwanie się symbolami literowymi.",
+              "Analizowanie sytuacji problemowych.",
+              "Wykorzystywanie i interpretowanie reprezentacji.",
+              "Rozumowanie i argumentacja.",
+              "Używanie języka matematycznego."
+            ],
+            "dzialy": {
+              "I_liczby_naturalne_w_dziesiatkowym_ukladzie_pozycyjnym": {
+                "nazwa": "Liczby naturalne w dziesiątkowym układzie pozycyjnym",
+                "opis": "Zapis i odczyt liczb naturalnych, porównywanie, zaokrąglanie, interpretacja na osi liczbowej oraz system rzymski."
+              },
+              "II_dzialania_na_liczbach_naturalnych": {
+                "nazwa": "Działania na liczbach naturalnych",
+                "opis": "Cztery działania pamięciowe i pisemne, kolejność wykonywania działań, dzielenie z resztą, cechy podzielności, NWD i NWW.",
+                "wymagania_szczegolowe": [
+                  {
+                    "indeks": 1,
+                    "opis": "Dodawanie i odejmowanie pisemne liczb wielocyfrowych z kontrolą wyniku przez szacowanie. W trudniejszych przykładach dopuszczalny jest kalkulator.",
+                    "materialy": [
+                      { "id": "sp-mat-4-dod-quiz", "tytul": "Quiz: dodawanie liczb naturalnych", "typ": "quiz", "url": "#" },
+                      { "id": "sp-mat-4-dod-gra", "tytul": "Minigra: dodawanie pisemne", "typ": "minigra", "url": "#" }
+                    ]
+                  }
+                ]
+              },
+              "IV_ulamki_zwykle_i_dziesietne": {
+                "nazwa": "Ułamki zwykłe i dziesiętne",
+                "opis": "Pojęcie ułamka jako części całości i ilorazu liczb, ułamki zwykłe i dziesiętne, oś liczbowa, porównywanie ułamków oraz sytuacje praktyczne.",
+                "wymagania_szczegolowe": [
+                  {
+                    "indeks": 0,
+                    "opis": "Wprowadzenie pojęcia ułamka: wskazywanie części figur, zbiorów i wielkości, rola licznika i mianownika oraz zapisywanie części całości w postaci ułamka zwykłego.",
+                    "materialy": [
+                      { "id": "sp-mat-4-ul-cw-czesc", "tytul": "Ćwiczenie: część całości", "typ": "ćwiczenia", "url": "#" },
+                      { "id": "sp-mat-4-ul-gra-pizza", "tytul": "Minigra: pizzeria ułamkowa", "typ": "minigra", "url": "#" }
+                    ]
+                  },
+                  {
+                    "indeks": 2,
+                    "opis": "Skracanie i rozszerzanie ułamków zwykłych oraz obserwacja, że ułamek skrócony i rozszerzony opisuje tę samą część całości.",
+                    "materialy": [
+                      { "id": "sp-mat-4-ul-cw-skracanie", "tytul": "Ćwiczenie: skracanie i rozszerzanie ułamków", "typ": "ćwiczenia", "url": "#" }
+                    ]
+                  },
+                  {
+                    "indeks": 6,
+                    "opis": "Odczytywanie i zaznaczanie ułamków zwykłych oraz dziesiętnych na osi liczbowej, także pomiędzy zaznaczonymi punktami.",
+                    "materialy": [
+                      { "id": "sp-mat-4-ul-kp-osc", "tytul": "Karta pracy: ułamki na osi liczbowej", "typ": "karta pracy", "url": "#" }
+                    ]
+                  },
+                  {
+                    "indeks": 11,
+                    "opis": "Porównywanie ułamków zwykłych i dziesiętnych poprzez sprowadzanie do wspólnego mianownika, zamianę na ułamki dziesiętne lub odwołanie do osi liczbowej.",
+                    "materialy": [
+                      { "id": "sp-mat-4-ul-quiz-porownanie", "tytul": "Quiz: porównywanie ułamków", "typ": "quiz", "url": "#" }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "klasy_7_8": {
+            "cele_nauczania": [
+              "Sprawne rachunki na liczbach wymiernych, w tym z użyciem potęg, pierwiastków i notacji wykładniczej.",
+              "Przekształcanie wyrażeń algebraicznych oraz rozwiązywanie równań pierwszego stopnia i zadań tekstowych z ich użyciem.",
+              "Stosowanie własności figur geometrycznych, twierdzenia Pitagorasa oraz obliczanie pól, obwodów, pól powierzchni i objętości brył.",
+              "Interpretowanie danych statystycznych oraz obliczanie prawdopodobieństw prostych zdarzeń losowych.",
+              "Kształtowanie umiejętności rozumowania, argumentowania i posługiwania się językiem matematycznym."
+            ],
+            "wymagania_ogolne": [
+              "Sprawne rachowanie na liczbach rzeczywistych.",
+              "Posługiwanie się symbolami literowymi.",
+              "Analizowanie sytuacji problemowych.",
+              "Wykorzystywanie i interpretowanie reprezentacji.",
+              "Rozumowanie i argumentacja.",
+              "Używanie języka matematycznego."
+            ]
+          }
+        },
+        "2026": {
+          "klasy_4_6": {
+            "cele_nauczania": [
+              "Sprawne operowanie liczbami naturalnymi, całkowitymi i ułamkami w obliczeniach praktycznych.",
+              "Posługiwanie się jednostkami miar w sytuacjach z życia codziennego, w tym w kontekście ekonomiczno-finansowym.",
+              "Opisywanie zależności między wielkościami za pomocą prostych wyrażeń algebraicznych i równań.",
+              "Rozpoznawanie i opisywanie figur oraz brył, obliczanie pól i objętości.",
+              "Zbieranie, prezentowanie i interpretowanie danych.",
+              "Rozwijanie myślenia matematycznego: rozumowanie, uzasadnianie i rozwiązywanie problemów."
+            ],
+            "wymagania_ogolne": [
+              "Liczby i obliczenia praktyczne.",
+              "Miary i jednostki.",
+              "Algebra i zależności.",
+              "Figury geometryczne.",
+              "Dane i ich analiza.",
+              "Myślenie matematyczne."
+            ]
+          },
+          "klasy_7_8": {
+            "cele_nauczania": [
+              "Obliczenia procentowe, potęgi i pierwiastki w kontekstach praktycznych i finansowych.",
+              "Wyrażenia algebraiczne, równania pierwszego stopnia oraz przekształcanie wzorów.",
+              "Własności figur płaskich i brył, twierdzenie Pitagorasa, obliczanie pól i objętości.",
+              "Analiza danych, stosowanie średniej i mediany oraz proste doświadczenia losowe.",
+              "Rozumowanie matematyczne i uzasadnianie swoich rozwiązań."
+            ],
+            "wymagania_ogolne": [
+              "Liczby i obliczenia praktyczne.",
+              "Algebra i równania.",
+              "Figury geometryczne.",
+              "Dane i zdarzenia losowe.",
+              "Myślenie matematyczne."
+            ]
+          }
+        }
+      },
+      "III_etap_szkola_ponadpodstawowa": {
+        "2018": {
+          "zakres_podstawowy": {
+            "cele_nauczania": [
+              "Sprawne wykonywanie działań na liczbach rzeczywistych, w tym z użyciem potęg, pierwiastków i logarytmów.",
+              "Posługiwanie się wyrażeniami algebraicznymi, równaniami, nierównościami i układami równań w rozwiązywaniu problemów.",
+              "Badanie własności i zastosowań funkcji: liniowej, kwadratowej, wykładniczej, logarytmicznej oraz ciągów.",
+              "Stosowanie geometrii analitycznej, trygonometrii i planimetrii do rozwiązywania zadań.",
+              "Wykorzystywanie kombinatoryki, rachunku prawdopodobieństwa i statystyki w analizie danych.",
+              "Rozwijanie umiejętności rozumowania, argumentacji i modelowania matematycznego."
+            ],
+            "wymagania_ogolne": [
+              "Sprawne rachowanie na liczbach rzeczywistych.",
+              "Posługiwanie się symbolami literowymi.",
+              "Analizowanie sytuacji problemowych.",
+              "Wykorzystywanie i interpretowanie reprezentacji.",
+              "Rozumowanie i argumentacja.",
+              "Używanie języka matematycznego."
+            ]
+          },
+          "zakres_rozszerzony": {
+            "cele_nauczania": [
+              "Pogłębienie sprawności rachunkowej na liczbach rzeczywistych z wykorzystaniem logarytmów i wzorów skróconego mnożenia.",
+              "Badanie wielomianów, wyrażeń wymiernych oraz równań i nierówności z parametrem.",
+              "Analiza funkcji z wykorzystaniem granic ciągów i pochodnej oraz zastosowania optymalizacyjne.",
+              "Stosowanie zaawansowanej trygonometrii, geometrii analitycznej i stereometrii.",
+              "Wykorzystywanie kombinatoryki, rachunku prawdopodobieństwa warunkowego i schematu Bernoulliego.",
+              "Rozwijanie samodzielnego rozumowania, dowodzenia i modelowania matematycznego."
+            ],
+            "wymagania_ogolne": [
+              "Sprawne rachowanie na liczbach rzeczywistych.",
+              "Posługiwanie się symbolami literowymi.",
+              "Analizowanie sytuacji problemowych.",
+              "Wykorzystywanie i interpretowanie reprezentacji.",
+              "Rozumowanie i argumentacja.",
+              "Używanie języka matematycznego."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Informatyka": {
+    "etapy_edukacyjne": {
+      "II_etap_szkola_podstawowa": {
+        "2017": {
+          "klasy_4_6": {
+            "cele_nauczania": [
+              "Formułowanie i zapisywanie algorytmów oraz porządkowanie informacji w postaci sekwencji i drzew.",
+              "Projektowanie i tworzenie prostych programów w wizualnym języku programowania.",
+              "Korzystanie z podstawowych aplikacji: edytora tekstu, grafiki, arkusza kalkulacyjnego i programu do prezentacji.",
+              "Bezpieczne korzystanie z komputera, sieci komputerowych i urządzeń cyfrowych.",
+              "Współpraca w zespole z wykorzystaniem technologii."
+            ],
+            "wymagania_ogolne": [
+              "Rozumienie, analizowanie i rozwiązywanie problemów.",
+              "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera i innych urządzeń cyfrowych.",
+              "Posługiwanie się komputerem, urządzeniami cyfrowymi i sieciami komputerowymi.",
+              "Rozwijanie kompetencji społecznych.",
+              "Przestrzeganie prawa i zasad bezpieczeństwa."
+            ],
+            "dzialy": {
+              "II_programowanie_i_rozwiazywanie_problemow_z_wykorzystaniem_komputera_i_innych_urzadzen_cyfrowych": {
+                "nazwa": "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera",
+                "opis": "Projektowanie i tworzenie programów w wizualnym języku programowania, testowanie rozwiązań oraz korzystanie z podstawowych aplikacji.",
+                "wymagania_szczegolowe": [
+                  {
+                    "indeks": 0,
+                    "opis": "Pierwsze programy w wizualnym języku programowania (np. Scratch): planowanie historyjki, kolejność poleceń, instrukcje warunkowe, pętle oraz zdarzenia.",
+                    "materialy": [
+                      { "id": "sp-inf-46-scratch-wstep", "tytul": "Lekcja: pierwsze kroki w Scratch", "typ": "lekcja", "url": "#" }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "klasy_7_8": {
+            "cele_nauczania": [
+              "Analiza problemów, stosowanie podstawowych algorytmów i przedstawianie ich różnymi metodami.",
+              "Projektowanie, tworzenie i testowanie programów z wykorzystaniem instrukcji warunkowych, iteracyjnych, funkcji i tablic.",
+              "Zaawansowane korzystanie z aplikacji komputerowych, w tym arkusza kalkulacyjnego i baz danych.",
+              "Rozumienie budowy i funkcjonowania sieci komputerowych.",
+              "Etyczne i bezpieczne korzystanie z technologii oraz ocena wiarygodności informacji."
+            ],
+            "wymagania_ogolne": [
+              "Rozumienie, analizowanie i rozwiązywanie problemów.",
+              "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera i innych urządzeń cyfrowych.",
+              "Posługiwanie się komputerem, urządzeniami cyfrowymi i sieciami komputerowymi.",
+              "Rozwijanie kompetencji społecznych.",
+              "Przestrzeganie prawa i zasad bezpieczeństwa."
+            ],
+            "dzialy": {
+              "II_programowanie_i_rozwiazywanie_problemow_z_wykorzystaniem_komputera_i_innych_urzadzen_cyfrowych": {
+                "nazwa": "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera",
+                "wymagania_szczegolowe": [
+                  {
+                    "indeks": 6,
+                    "opis": "Tworzenie prostej strony internetowej: struktura dokumentu HTML, nagłówki, akapity, grafika i hiperłącza.",
+                    "materialy": [
+                      { "id": "sp-inf-7-html", "tytul": "Lekcja: pierwsza strona WWW", "typ": "lekcja", "url": "#" }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "III_etap_szkola_ponadpodstawowa": {
+        "2018": {
+          "zakres_podstawowy": {
+            "cele_nauczania": [
+              "Planowanie rozwiązań problemów z wykorzystaniem myślenia komputacyjnego.",
+              "Programowanie algorytmów z różnych dziedzin i testowanie poprawności programów.",
+              "Zaawansowane korzystanie z aplikacji, w tym baz danych, arkuszy kalkulacyjnych i narzędzi do tworzenia stron internetowych.",
+              "Rozumienie budowy i zasad działania sieci komputerowych.",
+              "Świadome, etyczne i bezpieczne korzystanie z technologii."
+            ],
+            "wymagania_ogolne": [
+              "Rozumienie, analizowanie i rozwiązywanie problemów.",
+              "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera i innych urządzeń cyfrowych.",
+              "Posługiwanie się komputerem, urządzeniami cyfrowymi i sieciami komputerowymi.",
+              "Rozwijanie kompetencji społecznych.",
+              "Przestrzeganie prawa i zasad bezpieczeństwa."
+            ]
+          },
+          "zakres_rozszerzony": {
+            "cele_nauczania": [
+              "Dobieranie metod i technik algorytmicznych oraz struktur danych do rozwiązywanych problemów.",
+              "Tworzenie rozbudowanych programów z wykorzystaniem programowania strukturalnego i obiektowego.",
+              "Analiza efektywności i poprawności algorytmów.",
+              "Projektowanie relacyjnych baz danych i aplikacji z wykorzystaniem języka SQL.",
+              "Stosowanie zaawansowanych metod: rekurencji, programowania dynamicznego, podejścia zachłannego i grafów."
+            ],
+            "wymagania_ogolne": [
+              "Rozumienie, analizowanie i rozwiązywanie problemów.",
+              "Programowanie i rozwiązywanie problemów z wykorzystaniem komputera i innych urządzeń cyfrowych.",
+              "Posługiwanie się komputerem, urządzeniami cyfrowymi i sieciami komputerowymi.",
+              "Rozwijanie kompetencji społecznych.",
+              "Przestrzeganie prawa i zasad bezpieczeństwa."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "Fizyka": {
+    "etapy_edukacyjne": {
+      "II_etap_szkola_podstawowa": {
+        "2017": {
+          "klasy_7_8": {
+            "cele_nauczania": [
+              "Opisywanie zjawisk fizycznych z użyciem pojęć i wielkości fizycznych.",
+              "Stosowanie praw i zależności fizycznych do rozwiązywania zadań obliczeniowych.",
+              "Planowanie i przeprowadzanie prostych doświadczeń oraz formułowanie wniosków.",
+              "Odczytywanie i przetwarzanie informacji z tekstów, tabel i wykresów.",
+              "Dostrzeganie zjawisk fizycznych w otaczającym świecie i ich praktycznych zastosowań."
+            ],
+            "wymagania_ogolne": [
+              "Wykorzystanie pojęć i wielkości fizycznych do opisu zjawisk oraz wskazanie ich przykładów w otaczającej rzeczywistości.",
+              "Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.",
+              "Planowanie i przeprowadzanie obserwacji oraz doświadczeń; wnioskowanie na podstawie ich wyników.",
+              "Posługiwanie się informacjami pochodzącymi z analizy materiałów źródłowych, w tym tekstów popularnonaukowych."
+            ]
+          }
+        }
+      },
+      "III_etap_szkola_ponadpodstawowa": {
+        "2018": {
+          "zakres_podstawowy": {
+            "cele_nauczania": [
+              "Wykorzystywanie wielkości fizycznych i jednostek do opisu zjawisk.",
+              "Rozwiązywanie zadań z wykorzystaniem praw i zależności fizycznych.",
+              "Planowanie doświadczeń oraz analiza wyników z uwzględnieniem niepewności pomiarowych.",
+              "Interpretacja informacji z różnych źródeł, w tym wykresów i tekstów popularnonaukowych."
+            ],
+            "wymagania_ogolne": [
+              "Wykorzystanie pojęć i wielkości fizycznych do opisu zjawisk oraz wskazanie ich przykładów w otaczającej rzeczywistości.",
+              "Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.",
+              "Planowanie i przeprowadzanie obserwacji oraz doświadczeń; wnioskowanie na podstawie ich wyników.",
+              "Posługiwanie się informacjami pochodzącymi z analizy materiałów źródłowych, w tym tekstów popularnonaukowych."
+            ]
+          },
+          "zakres_rozszerzony": {
+            "cele_nauczania": [
+              "Pogłębiona analiza ilościowa zjawisk fizycznych.",
+              "Stosowanie modeli matematycznych do opisu procesów fizycznych.",
+              "Projektowanie doświadczeń oraz analiza wyników z uwzględnieniem niepewności pomiarowych.",
+              "Łączenie wiedzy z różnych działów fizyki w rozwiązywaniu problemów złożonych."
+            ],
+            "wymagania_ogolne": [
+              "Wykorzystanie pojęć i wielkości fizycznych do opisu zjawisk oraz wskazanie ich przykładów w otaczającej rzeczywistości.",
+              "Rozwiązywanie problemów z wykorzystaniem praw i zależności fizycznych.",
+              "Planowanie i przeprowadzanie obserwacji oraz doświadczeń; wnioskowanie na podstawie ich wyników.",
+              "Posługiwanie się informacjami pochodzącymi z analizy materiałów źródłowych, w tym tekstów popularnonaukowych."
+            ]
+          }
+        }
+      }
+    }
+  }
+}
