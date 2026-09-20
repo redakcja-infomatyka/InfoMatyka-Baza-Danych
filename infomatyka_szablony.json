@@ -1,12 +1,12 @@
 [
   {
     "id": "template-math-8-01",
-    "name": "Kartkówka Z Liczb I Działań, Klasa 8",
+    "name": "Kartkówka z liczb i działań, klasa 8",
     "subject": "Matematyka",
     "school": "Szkoła Podstawowa",
-    "levelSecondary": "8",
-    "department": "Liczby I Działania",
-    "description": "Przykładowa Kartkówka z Liczb I Działań dla Klasy 8.",
+    "classPrimary": "8",
+    "department": "Wyrażenia Algebraiczne",
+    "description": "Kartkówka obejmująca potęgi, równania, procenty i podstawowe zastosowania liczb.",
     "questions": [
       {
         "id": 10101,
@@ -15,18 +15,72 @@
         "type": "jednokrotny wybór",
         "options": ["$x=4$", "$x=-4, x=4$", "$x=16$", "brak miejsc zerowych"],
         "correctAnswerIndex": 1,
-        "solution": "Aby znaleźć miejsca zerowe, rozwiązujemy równanie $x^2 - 16 = 0$, co daje $(x-4)(x+4)=0$. Zatem $x=4$ lub $x=-4$."
+        "solution": "Rozwiązujemy $x^2-16=0$, czyli $(x-4)(x+4)=0$. Zatem $x=-4$ lub $x=4$."
+      },
+      {
+        "id": 10102,
+        "text": "Rozwiąż równanie $3x-7=11$.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Dodajemy 7 do obu stron: $3x=18$, a następnie dzielimy przez 3. Otrzymujemy $x=6$."
+      },
+      {
+        "id": 10103,
+        "text": "Oceń prawdziwość zdań dotyczących potęg.",
+        "points": 2,
+        "type": "prawda-fałsz",
+        "statements": [
+          {"text": "$2^3=8$.", "answer": true},
+          {"text": "$5^0=0$.", "answer": false},
+          {"text": "$10^2=100$.", "answer": true}
+        ],
+        "solution": "Potęga o wykładniku zero dla podstawy różnej od zera wynosi 1, dlatego drugie zdanie jest fałszywe."
+      },
+      {
+        "id": 10104,
+        "text": "Uzupełnij: $25\\%$ liczby 80 to [[20]].",
+        "points": 1,
+        "type": "uzupełnij lukę",
+        "solution": "$0{,}25\\cdot80=20$."
+      },
+      {
+        "id": 10105,
+        "text": "Połącz pojęcie z właściwym opisem.",
+        "points": 2,
+        "type": "przyporządkowanie",
+        "pairs": [
+          {"left": "Liczba pierwsza", "right": "Ma dokładnie dwa dzielniki"},
+          {"left": "Liczba przeciwna", "right": "Ma z daną liczbą sumę równą zero"},
+          {"left": "Liczba odwrotna", "right": "Ma z daną liczbą iloczyn równy 1"}
+        ],
+        "solution": "Liczba pierwsza ma dokładnie dwa dzielniki, liczba przeciwna daje sumę 0, a liczba odwrotna iloczyn 1."
+      },
+      {
+        "id": 10106,
+        "text": "Wybierz wszystkie wyrażenia równe 1.",
+        "points": 2,
+        "type": "wielokrotny wybór",
+        "options": ["$2^0$", "$10:10$", "$3-2$", "$2^1$"],
+        "correctAnswerIndices": [0, 1, 2],
+        "solution": "$2^0=1$, $10:10=1$ oraz $3-2=1$."
+      },
+      {
+        "id": 10107,
+        "text": "Cena bluzy wynosiła 160 zł. Obniżono ją o 15%. Oblicz cenę po obniżce.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Obniżka wynosi $0{,}15\\cdot160=24$ zł. Cena po obniżce to $160-24=136$ zł."
       }
     ]
   },
   {
     "id": "template-info-db-01",
-    "name": "Kartkówka Z Baz Danych, Poziom Podstawowy",
+    "name": "Kartkówka z baz danych, poziom podstawowy",
     "subject": "Informatyka",
     "school": "Szkoła Średnia",
     "levelSecondary": "Podstawowy",
     "department": "Bazy Danych",
-    "description": "Przykładowa Kartkówka z Baz Danych dla Poziomu Podstawowego z pytaniami o klauzule SQL i relacje.",
+    "description": "Kartkówka sprawdzająca podstawy relacyjnych baz danych, kluczy i zapytań SQL.",
     "questions": [
       {
         "id": 20101,
@@ -35,7 +89,62 @@
         "type": "jednokrotny wybór",
         "options": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
         "correctAnswerIndex": 0,
-        "solution": "Klauzula WHERE nakłada warunki filtrujące na wiersze przed pogrupowaniem."
+        "solution": "WHERE nakłada warunek na wybierane wiersze."
+      },
+      {
+        "id": 20102,
+        "text": "Wyjaśnij, czym jest klucz główny tabeli.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Klucz główny jednoznacznie identyfikuje każdy rekord tabeli. Nie powinien zawierać powtórzeń ani wartości NULL."
+      },
+      {
+        "id": 20103,
+        "text": "Oceń prawdziwość zdań o relacyjnych bazach danych.",
+        "points": 2,
+        "type": "prawda-fałsz",
+        "statements": [
+          {"text": "Tabela składa się z wierszy i kolumn.", "answer": true},
+          {"text": "Klucz obcy musi być unikatowy w całej tabeli.", "answer": false},
+          {"text": "Relacja może łączyć dane z dwóch tabel.", "answer": true}
+        ],
+        "solution": "Klucz obcy może się powtarzać, ponieważ wskazuje rekord w innej tabeli."
+      },
+      {
+        "id": 20104,
+        "text": "Uzupełnij zapytanie: `SELECT * FROM uczniowie [[WHERE]] klasa = 2;`",
+        "points": 1,
+        "type": "uzupełnij lukę",
+        "solution": "Klauzula WHERE filtruje rekordy spełniające warunek."
+      },
+      {
+        "id": 20105,
+        "text": "Połącz polecenie SQL z jego zastosowaniem.",
+        "points": 2,
+        "type": "przyporządkowanie",
+        "pairs": [
+          {"left": "SELECT", "right": "Pobiera dane"},
+          {"left": "INSERT", "right": "Dodaje rekord"},
+          {"left": "UPDATE", "right": "Modyfikuje rekord"},
+          {"left": "DELETE", "right": "Usuwa rekord"}
+        ],
+        "solution": "SELECT pobiera, INSERT dodaje, UPDATE modyfikuje, a DELETE usuwa dane."
+      },
+      {
+        "id": 20106,
+        "text": "Wybierz wszystkie elementy, które mogą wystąpić w tabeli bazy danych.",
+        "points": 2,
+        "type": "wielokrotny wybór",
+        "options": ["kolumna", "wiersz", "komórka", "slajd"],
+        "correctAnswerIndices": [0, 1, 2],
+        "solution": "Tabela składa się z kolumn, wierszy i komórek. Slajd jest elementem prezentacji."
+      },
+      {
+        "id": 20107,
+        "text": "Napisz zapytanie zwracające imiona uczniów z klasy 1, posortowane alfabetycznie.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Przykładowe rozwiązanie: `SELECT imie FROM uczniowie WHERE klasa = 1 ORDER BY imie;`"
       }
     ]
   },
@@ -53,7 +162,213 @@
         "text": "Wyjaśnij różnicę między znacznikami `<div>` a `<article>` w HTML5.",
         "points": 2,
         "type": "otwarte",
-        "solution": "`<div>` to ogólny kontener bez znaczenia semantycznego, natomiast `<article>` reprezentuje samodzielną, niezależną treść."
+        "solution": "`div` jest ogólnym kontenerem bez znaczenia semantycznego, a `article` oznacza samodzielną treść."
+      },
+      {
+        "id": 30102,
+        "text": "Który znacznik HTML służy do utworzenia odnośnika?",
+        "points": 1,
+        "type": "jednokrotny wybór",
+        "options": ["`<a>`", "`<link>`", "`<url>`", "`<href>`"],
+        "correctAnswerIndex": 0,
+        "solution": "Odnośnik tworzy się za pomocą znacznika `<a>` z atrybutem href."
+      },
+      {
+        "id": 30103,
+        "text": "Wybierz wszystkie poprawne stwierdzenia o CSS.",
+        "points": 2,
+        "type": "wielokrotny wybór",
+        "options": ["Selektor `.menu` wybiera elementy z klasą menu.", "Selektor `#logo` wybiera element o identyfikatorze logo.", "Właściwość `color` zmienia kolor tła.", "Właściwość `margin` ustawia margines zewnętrzny."],
+        "correctAnswerIndices": [0, 1, 3],
+        "solution": "color zmienia kolor tekstu, a tło ustawia właściwość background lub background-color."
+      },
+      {
+        "id": 30104,
+        "text": "Uzupełnij regułę CSS: `p { [[color]]: navy; }`",
+        "points": 1,
+        "type": "uzupełnij lukę",
+        "solution": "Właściwość color ustawia kolor tekstu."
+      },
+      {
+        "id": 30105,
+        "text": "Oceń prawdziwość zdań o HTML i CSS.",
+        "points": 2,
+        "type": "prawda-fałsz",
+        "statements": [
+          {"text": "CSS może być zapisany w osobnym pliku .css.", "answer": true},
+          {"text": "Każdy znacznik HTML musi mieć atrybut class.", "answer": false},
+          {"text": "Atrybut alt opisuje zawartość obrazka.", "answer": true}
+        ],
+        "solution": "Arkusz CSS może być zewnętrzny, a class jest opcjonalnym atrybutem."
+      },
+      {
+        "id": 30106,
+        "text": "Połącz właściwość CSS z jej zastosowaniem.",
+        "points": 2,
+        "type": "przyporządkowanie",
+        "pairs": [
+          {"left": "display", "right": "Sposób wyświetlania elementu"},
+          {"left": "padding", "right": "Odstęp wewnątrz elementu"},
+          {"left": "border", "right": "Obramowanie elementu"},
+          {"left": "font-size", "right": "Rozmiar tekstu"}
+        ],
+        "solution": "display steruje układem, padding oznacza odstęp wewnętrzny, border obramowanie, a font-size rozmiar tekstu."
+      },
+      {
+        "id": 30107,
+        "text": "Napisz krótką regułę CSS, która wyśrodkuje tekst w nagłówku i nada mu kolor granatowy.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Przykład: `h1 { text-align: center; color: navy; }`"
+      }
+    ]
+  },
+  {
+    "id": "template-physics-7-01",
+    "name": "Kartkówka z ruchu i sił, klasa 7",
+    "subject": "Fizyka",
+    "school": "Szkoła Podstawowa",
+    "classPrimary": "7",
+    "department": "Ruch i Siły",
+    "description": "Kartkówka utrwalająca podstawowe pojęcia dotyczące ruchu, siły, masy i energii.",
+    "questions": [
+      {
+        "id": 40101,
+        "text": "W jakiej jednostce w układzie SI mierzymy siłę?",
+        "points": 1,
+        "type": "jednokrotny wybór",
+        "options": ["w niutonach (N)", "w dżulach (J)", "w watach (W)", "w paskalach (Pa)"],
+        "correctAnswerIndex": 0,
+        "solution": "Jednostką siły jest niuton (N)."
+      },
+      {
+        "id": 40102,
+        "text": "Samochód przejechał 150 km w ciągu 3 godzin. Oblicz jego średnią prędkość.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Korzystamy ze wzoru $v=s/t$. $v=150/3=50$ km/h."
+      },
+      {
+        "id": 40103,
+        "text": "Oceń prawdziwość zdań o sile i ruchu.",
+        "points": 2,
+        "type": "prawda-fałsz",
+        "statements": [
+          {"text": "Prędkość informuje, jak szybko zmienia się położenie ciała.", "answer": true},
+          {"text": "Masa i ciężar oznaczają dokładnie to samo.", "answer": false},
+          {"text": "Siła może zmienić kierunek ruchu ciała.", "answer": true}
+        ],
+        "solution": "Masa jest miarą bezwładności, a ciężar jest siłą, z jaką ciało działa na podłoże lub zawieszenie."
+      },
+      {
+        "id": 40104,
+        "text": "Uzupełnij: Jednostką energii w układzie SI jest [[dżul]].",
+        "points": 1,
+        "type": "uzupełnij lukę",
+        "solution": "Energię mierzymy w dżulach (J)."
+      },
+      {
+        "id": 40105,
+        "text": "Połącz wielkość fizyczną z jednostką.",
+        "points": 2,
+        "type": "przyporządkowanie",
+        "pairs": [
+          {"left": "Droga", "right": "metr (m)"},
+          {"left": "Czas", "right": "sekunda (s)"},
+          {"left": "Prędkość", "right": "metr na sekundę (m/s)"},
+          {"left": "Siła", "right": "niuton (N)"}
+        ],
+        "solution": "Podstawowymi jednostkami są m, s, m/s i N."
+      },
+      {
+        "id": 40106,
+        "text": "Wybierz wszystkie przykłady oddziaływań mechanicznych.",
+        "points": 2,
+        "type": "wielokrotny wybór",
+        "options": ["uderzenie piłki przez zawodnika", "przyciąganie magnesu", "tarcie klocka o stół", "świecenie żarówki"],
+        "correctAnswerIndices": [0, 2],
+        "solution": "Uderzenie i tarcie są oddziaływaniami mechanicznymi. Magnes oddziałuje magnetycznie, a świecenie jest zjawiskiem elektrycznym i optycznym."
+      },
+      {
+        "id": 40107,
+        "text": "Wyjaśnij, dlaczego podczas hamowania pasażer może pochylić się do przodu.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Wynika to z bezwładności. Ciało pasażera chce zachować dotychczasowy stan ruchu, mimo że samochód zwalnia."
+      }
+    ]
+  },
+  {
+    "id": "template-math-6-01",
+    "name": "Sprawdzian z liczb i geometrii, klasa 6",
+    "subject": "Matematyka",
+    "school": "Szkoła Podstawowa",
+    "classPrimary": "6",
+    "department": "Liczby Naturalne",
+    "description": "Sprawdzian dla klasy 6 z działań na liczbach, ułamków, jednostek i podstaw geometrii.",
+    "questions": [
+      {
+        "id": 50101,
+        "text": "Oblicz $48:6+7\\cdot3$.",
+        "points": 1,
+        "type": "jednokrotny wybór",
+        "options": ["29", "45", "31", "24"],
+        "correctAnswerIndex": 0,
+        "solution": "Najpierw wykonujemy dzielenie i mnożenie: $48:6+7\\cdot3=8+21=29$."
+      },
+      {
+        "id": 50102,
+        "text": "Oblicz i skróć ułamek $\\frac{18}{24}$.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Dzielimy licznik i mianownik przez 6: $18/24=3/4$."
+      },
+      {
+        "id": 50103,
+        "text": "Oceń prawdziwość zdań o figurach geometrycznych.",
+        "points": 2,
+        "type": "prawda-fałsz",
+        "statements": [
+          {"text": "Prostokąt ma cztery kąty proste.", "answer": true},
+          {"text": "Obwód kwadratu o boku 5 cm wynosi 10 cm.", "answer": false},
+          {"text": "Trójkąt ma trzy boki.", "answer": true}
+        ],
+        "solution": "Obwód kwadratu wynosi $4\\cdot5=20$ cm."
+      },
+      {
+        "id": 50104,
+        "text": "Uzupełnij: $1$ km = [[1000]] m, a $1$ kg = [[1000]] g.",
+        "points": 2,
+        "type": "uzupełnij lukę",
+        "solution": "Kilometr ma 1000 metrów, a kilogram ma 1000 gramów."
+      },
+      {
+        "id": 50105,
+        "text": "Połącz figurę z właściwym wzorem na pole.",
+        "points": 2,
+        "type": "przyporządkowanie",
+        "pairs": [
+          {"left": "Kwadrat", "right": "$a\\cdot a$"},
+          {"left": "Prostokąt", "right": "$a\\cdot b$"},
+          {"left": "Trójkąt", "right": "$a\\cdot h:2$"}
+        ],
+        "solution": "Pole kwadratu to $a^2$, prostokąta $a\\cdot b$, a trójkąta połowa iloczynu podstawy i wysokości."
+      },
+      {
+        "id": 50106,
+        "text": "Wybierz wszystkie liczby podzielne przez 3.",
+        "points": 2,
+        "type": "wielokrotny wybór",
+        "options": ["27", "41", "105", "124"],
+        "correctAnswerIndices": [0, 2],
+        "solution": "Suma cyfr 27 wynosi 9, a 105 wynosi 6. Obie liczby są podzielne przez 3."
+      },
+      {
+        "id": 50107,
+        "text": "Prostokąt ma długość 8 cm i szerokość 5 cm. Oblicz jego pole i obwód.",
+        "points": 2,
+        "type": "otwarte",
+        "solution": "Pole wynosi $8\\cdot5=40$ cm², a obwód $2\\cdot(8+5)=26$ cm."
       }
     ]
   }
