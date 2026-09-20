@@ -88,7 +88,7 @@
           "$4$"
         ],
         "correctAnswerIndex": 3,
-        "solution": "Szukamy takiego x, dlla którego $x-4=0$. Tą liczbą jest 4, ponieważ $4-4=0$."
+        "solution": "Szukamy takiego x, dla którego $x-4=0$. Tą liczbą jest 4, ponieważ $4-4=0$."
       }
     ]
   },
@@ -211,12 +211,11 @@
       "Szkoła Podstawowa"
     ],
     "class": [
-      "6",
-      "7",
-      "8"
+      "5",
+      "6"
     ],
     "department": [
-      "Własności Figur Geometrycznych"
+      "Wielokąty, Koła i Okręgi"
     ],
     "type": "prawda-fałsz",
     "difficulty": "łatwe",
@@ -228,95 +227,81 @@
       "czworokąty"
     ],
     "requirements": [
-      "Uczeń zna najważniejsze własności kwadratu, prostokąta, rombu, równoległoboku i trapezu, rozpoznaje figury osiowosymetryczne i wskazuje osie symetrii figur"
+      "Uczeń stosuje twierdzenie o sumie kątów wewnętrznych trójkąta"
     ],
     "targetApps": [
       "generator-testow"
     ],
     "variants": [
       {
-        "id": 10301,
-        "text": "Oceń prawdziwość poniższych zdań.",
+        "text": "Oceń prawdziwość zdań o kątach w trójkącie.",
         "points": 2,
         "statements": [
           {
-            "text": "Suma miar kątów w każdym czworokącie wynosi 360°.",
+            "text": "Suma kątów wewnętrznych trójkąta wynosi 180°.",
             "answer": true
           },
           {
-            "text": "Każdy prostokąt jest kwadratem.",
+            "text": "Trójkąt może mieć dwa kąty proste.",
             "answer": false
           }
         ],
-        "solution": "1. Prawda – suma miar kątów wewnętrznych w dowolnym czworokącie to 360°. 2. Fałsz – to każdy kwadrat jest prostokątem, ale nie na odwrót (prostokąt nie musi mieć wszystkich boków równych)."
+        "solution": "Pierwsze zdanie jest prawdziwe, drugie fałszywe.",
+        "id": 10301
       },
       {
-        "id": 10302,
-        "text": "Oceń prawdziwość poniższych zdań dotyczących trójkątów.",
+        "text": "Oceń prawdziwość zdań.",
         "points": 2,
         "statements": [
           {
-            "text": "Trójkąt równoboczny ma wszystkie kąty o mierze 60°.",
+            "text": "Jeśli dwa kąty trójkąta mają 50° i 60°, trzeci ma 70°.",
             "answer": true
           },
           {
-            "text": "W trójkącie prostokątnym suma miar kątów ostrych wynosi 100°.",
+            "text": "Jeśli dwa kąty mają po 80°, trzeci ma 40°.",
             "answer": false
           }
         ],
-        "solution": "1. Prawda – trójkąt równoboczny ma wszystkie boki i kąty równe, a 180°÷3 = 60°. 2. Fałsz – suma kątów w trójkącie to 180°, więc jeśli jeden kąt ma 90°, suma pozostałych dwóch wynosi 180° − 90° = 90°."
+        "solution": "180-50-60=70; 180-80-80=20.",
+        "id": 10302
       },
       {
-        "id": 10303,
-        "text": "Oceń prawdziwość poniższych zdań dotyczących okręgów.",
+        "text": "Oceń zdania.",
         "points": 2,
         "statements": [
           {
-            "text": "Średnica okręgu jest dwa razy dłuższa od jego promienia.",
+            "text": "W trójkącie o kątach 90° i 35° trzeci kąt ma 55°.",
             "answer": true
           },
           {
-            "text": "Cięciwa może być dłuższa od średnicy okręgu.",
+            "text": "Suma kątów trójkąta wynosi 360°.",
             "answer": false
           }
         ],
-        "solution": "1. Prawda – z definicji średnica $d=2r$. 2. Fałsz – najdłuższą cięciwą w okręgu jest jego średnica."
+        "solution": "180-90-35=55; suma wynosi 180°.",
+        "isStar": true,
+        "id": 10303
       },
       {
-        "id": 10304,
-        "text": "Oceń prawdziwość poniższych zdań.",
-        "points": 2,
+        "text": "Oceń zdania.",
+        "points": 1,
+        "statements": [
+          {
+            "text": "Suma kątów trójkąta to 180°.",
+            "answer": true
+          },
+          {
+            "text": "Gdy dwa kąty mają 40° i 60°, trzeci ma 80°.",
+            "answer": true
+          }
+        ],
+        "solution": "Oba zdania są prawdziwe.",
         "isSpe": true,
-        "statements": [
-          {
-            "text": "Kwadrat ma cztery równe boki.",
-            "answer": true
-          },
-          {
-            "text": "Trójkąt ma pięć kątów.",
-            "answer": false
-          }
-        ],
-        "solution": "1. Prawda – to cecha charakterystyczna kwadratu. 2. Fałsz – trójkąt ma trzy kąty."
-      },
-      {
-        "id": 10305,
-        "text": "Oceń prawdziwość poniższych zdań.",
-        "points": 2,
-        "isSpe": true,
-        "statements": [
-          {
-            "text": "Koło ma kształt okrągły.",
-            "answer": true
-          },
-          {
-            "text": "Linia prosta jest zakrzywiona.",
-            "answer": false
-          }
-        ],
-        "solution": "1. Prawda – koło ma kształt okrągły. 2. Fałsz – linia prosta nie jest zakrzywiona."
+        "speInfo": "krótkie zdania i proste liczby",
+        "id": 10304
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 104,
@@ -384,7 +369,6 @@
       "Szkoła Podstawowa"
     ],
     "class": [
-      "4",
       "5",
       "6"
     ],
@@ -407,100 +391,86 @@
     ],
     "variants": [
       {
-        "id": 10501,
-        "text": "Połącz każdy ułamek zwykły z odpowiadającym mu ułamkiem dziesiętnym.",
+        "text": "Połącz każdy ułamek zwykły z odpowiadającym mu zapisem dziesiętnym.",
         "points": 3,
         "pairs": [
           {
-            "left": "$\\frac{1}{2}$",
+            "left": "1/2",
             "right": "0,5"
           },
           {
-            "left": "$\\frac{1}{4}$",
+            "left": "3/4",
+            "right": "0,75"
+          },
+          {
+            "left": "1/5",
+            "right": "0,2"
+          }
+        ],
+        "solution": "1/2=0,5; 3/4=0,75; 1/5=0,2.",
+        "id": 10501
+      },
+      {
+        "text": "Połącz ułamki z zapisami dziesiętnymi.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "7/10",
+            "right": "0,7"
+          },
+          {
+            "left": "9/100",
+            "right": "0,09"
+          },
+          {
+            "left": "3/5",
+            "right": "0,6"
+          }
+        ],
+        "solution": "7/10=0,7; 9/100=0,09; 3/5=0,6.",
+        "id": 10502
+      },
+      {
+        "text": "Połącz równoważne zapisy.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "7/20",
+            "right": "0,35"
+          },
+          {
+            "left": "13/25",
+            "right": "0,52"
+          },
+          {
+            "left": "17/50",
+            "right": "0,34"
+          }
+        ],
+        "solution": "Po rozszerzeniu mianowników do 100 otrzymujemy 0,35; 0,52; 0,34.",
+        "isStar": true,
+        "id": 10503
+      },
+      {
+        "text": "Połącz ułamek z zapisem dziesiętnym.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "1/2",
+            "right": "0,5"
+          },
+          {
+            "left": "1/4",
             "right": "0,25"
-          },
-          {
-            "left": "$\\frac{3}{4}$",
-            "right": "0,75"
           }
         ],
-        "solution": "Poprawne pary to: 1/2 = 0,5; 1/4 = 0,25; 3/4 = 0,75."
-      },
-      {
-        "id": 10502,
-        "text": "Przyporządkuj każdemu ułamkowi dziesiętnemu jego odpowiednik w postaci nieskracalnego ułamka zwykłego.",
-        "points": 3,
-        "pairs": [
-          {
-            "left": "0,2",
-            "right": "$\\frac{1}{5}$"
-          },
-          {
-            "left": "0,6",
-            "right": "$\\frac{3}{5}$"
-          },
-          {
-            "left": "0,1",
-            "right": "$\\frac{1}{10}$"
-          }
-        ],
-        "solution": "Poprawne pary: 0,2 = 2/10 = 1/5; 0,6 = 6/10 = 3/5; 0,1 = 1/10."
-      },
-      {
-        "id": 10503,
-        "text": "Oblicz wartość każdego wyrażenia i połącz je z odpowiednim wynikiem.",
-        "points": 3,
-        "pairs": [
-          {
-            "left": "$0{,}5 + \\frac{1}{4}$",
-            "right": "0,75"
-          },
-          {
-            "left": "$1 - \\frac{1}{2}$",
-            "right": "0,5"
-          },
-          {
-            "left": "$0{,}25 + 0{,}25$",
-            "right": "$\\frac{1}{2}$"
-          }
-        ],
-        "solution": "$0{,}5 + 0{,}25 = 0{,}75$; $1 - 0{,}5 = 0{,}5$; $0{,}25 + 0{,}25 = 0{,}5 = \\frac{1}{2}$."
-      },
-      {
-        "id": 10504,
-        "text": "Połącz każdą liczbę z jej słownym odpowiednikiem.",
-        "points": 2,
+        "solution": "1/2=0,5; 1/4=0,25.",
         "isSpe": true,
-        "pairs": [
-          {
-            "left": "0,5",
-            "right": "pół"
-          },
-          {
-            "left": "0,25",
-            "right": "ćwierć"
-          }
-        ],
-        "solution": "0,5 to inaczej połowa (pół). 0,25 to inaczej ćwierć."
-      },
-      {
-        "id": 10505,
-        "text": "Połącz każdy ułamek zwykły z jego zapisem dziesiętnym.",
-        "points": 2,
-        "isSpe": true,
-        "pairs": [
-          {
-            "left": "$\\frac{1}{2}$",
-            "right": "0,5"
-          },
-          {
-            "left": "$\\frac{1}{10}$",
-            "right": "0,1"
-          }
-        ],
-        "solution": "Jedna druga to 0,5. Jedna dziesiąta to 0,1."
+        "speInfo": "mniej par i typowe ułamki",
+        "id": 10504
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 106,
@@ -568,13 +538,11 @@
       "Szkoła Podstawowa"
     ],
     "class": [
-      "5",
-      "6",
       "7",
       "8"
     ],
     "department": [
-      "Elementy Statystyki Opisowej"
+      "Odczytywanie Danych i Elementy Statystyki Opisowej"
     ],
     "type": "wykres",
     "difficulty": "łatwe",
@@ -585,7 +553,7 @@
       "statystyka"
     ],
     "requirements": [
-      "Uczeń odczytuje i interpretuje dane przedstawione w tekstach, tabelach, na diagramach i na wykresach"
+      "Uczeń interpretuje dane przedstawione za pomocą tabel, diagramów słupkowych i kołowych, wykresów, w tym także wykresów w układzie współrzędnych"
     ],
     "targetApps": [
       "generator-testow"
@@ -692,7 +660,8 @@
         ],
         "solution": "Najniższy słupek na wykresie odpowiada kozom. Jest ich 4, czyli najmniej."
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 108,
@@ -803,7 +772,7 @@
     "variants": [
       {
         "id": 10901,
-        "text": "Zaznacz w układzie współrzędnych wierzchołki trójkąta $ABC$ o współrzędnych: $A=(-3, -2)$, $B=(2, -2)$ oraz $C=(0, 3)$. Następnie oblicz pole tego trójkąta.",
+        "text": "Zaznacz w układzie współrzędnych punkty $A=(-3,-2)$, $B=(2,-2)$ i $C=(0,3)$.",
         "points": 2,
         "taskType": "układ współrzędnych",
         "gridMinX": -5,
@@ -813,7 +782,7 @@
         "gridStep": 1,
         "axisPoints": "A:(-3,-2);B:(2,-2);C:(0,3)",
         "coordsStudentAction": "place-points",
-        "solution": "Podstawa trójkąta $AB$ leży na prostej $y=-2$ i ma długość $5$ jednostek (od $-3$ do $2$). Wysokość opuszczona z wierzchołka $C(0,3)$ na podstawę $AB$ wynosi $5$ jednostek (od $y=3$ do $y=-2$). Pole wynosi: $P = \\frac{1}{2} \\cdot a \\cdot h = \\frac{1}{2} \\cdot 5 \\cdot 5 = 12{,}5$."
+        "solution": "Należy zaznaczyć trzy punkty w podanych współrzędnych."
       },
       {
         "id": 10902,
@@ -830,7 +799,8 @@
         "coordsStudentAction": "place-points",
         "solution": "Zaznaczamy punkty w pierwszej ćwiartce układu współrzędnych: $P(1,1)$ na skrzyżowaniu pierwszych linii, $R(4,1)$ przesunięty w prawo, a $S(1,4)$ przesunięty w górę."
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 110,
@@ -934,7 +904,7 @@
       "8"
     ],
     "department": [
-      "Potęgi I Pierwiastki"
+      "Pierwiastki"
     ],
     "type": "jednokrotny wybór",
     "difficulty": "łatwe",
@@ -952,73 +922,61 @@
     ],
     "variants": [
       {
-        "id": 20101,
-        "text": "Oblicz wartość wyrażenia $3^4$.",
+        "text": "Oblicz $\\sqrt{144}$.",
         "points": 1,
         "options": [
+          "$10$",
           "$12$",
-          "$81$",
-          "$64$",
-          "$27$"
+          "$14$",
+          "$72$"
         ],
         "correctAnswerIndex": 1,
-        "solution": "Działanie $3^4$ oznacza $3 \\cdot 3 \\cdot 3 \\cdot 3 = 9 \\cdot 9 = 81$."
+        "solution": "\\sqrt{144}=12.",
+        "id": 20101
       },
       {
-        "id": 20102,
-        "text": "Oblicz wartość wyrażenia $\\sqrt{144}$.",
+        "text": "Oblicz $\\sqrt[3]{125}$.",
         "points": 1,
         "options": [
-          "$14$",
-          "$72$",
-          "$12$",
-          "$11$"
+          "$3$",
+          "$4$",
+          "$5$",
+          "$25$"
         ],
         "correctAnswerIndex": 2,
-        "solution": "Pierwiastek kwadratowy z 144 to 12, ponieważ $12^2 = 12 \\cdot 12 = 144$."
+        "solution": "\\sqrt[3]{125}=5.",
+        "id": 20102
       },
       {
-        "id": 20103,
-        "text": "Oblicz wartość wyrażenia $5^3$.",
+        "text": "Oblicz $\\sqrt{625}$.",
         "points": 1,
         "options": [
           "$15$",
+          "$20$",
           "$25$",
-          "$125$",
-          "$53$"
+          "$35$"
         ],
         "correctAnswerIndex": 2,
-        "solution": "Obliczamy $5^3 = 5 \\cdot 5 \\cdot 5 = 25 \\cdot 5 = 125$."
+        "solution": "25^2=625.",
+        "isStar": true,
+        "id": 20103
       },
       {
-        "id": 20104,
-        "text": "Oblicz wartość wyrażenia $2^3$.",
+        "text": "Która liczba pomnożona przez siebie daje 25?",
         "points": 1,
-        "isSpe": true,
-        "options": [
-          "$6$",
-          "$8$",
-          "$4$",
-          "$23$"
-        ],
-        "correctAnswerIndex": 1,
-        "solution": "Mnożymy 2 przez siebie trzy razy: $2 \\cdot 2 \\cdot 2 = 8$."
-      },
-      {
-        "id": 20105,
-        "text": "Która liczba, pomnożona przez siebie, daje wynik 25?",
-        "points": 1,
-        "isSpe": true,
         "options": [
           "$5$",
           "$10$",
-          "$25$",
-          "$2$"
+          "$25$"
         ],
         "correctAnswerIndex": 0,
-        "solution": "Tą liczbą jest 5, ponieważ $5 \\cdot 5 = 25$. Inaczej mówiąc, $\\sqrt{25}=5$."
+        "solution": "\\sqrt{25}=5.",
+        "isSpe": true,
+        "speInfo": "prosty język i małe liczby",
+        "id": 20104
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 202,
@@ -1343,12 +1301,11 @@
       "Szkoła Podstawowa"
     ],
     "class": [
-      "4",
       "5",
       "6"
     ],
     "department": [
-      "Oś Liczbowa. Układ Współrzędnych"
+      "Ułamki Zwykłe i Dziesiętne"
     ],
     "type": "oś liczbowa",
     "difficulty": "łatwe",
@@ -1359,7 +1316,7 @@
       "dziesiętne"
     ],
     "requirements": [
-      "Uczeń zaznacza ułamki zwykłe i dziesiętne na osi liczbowej"
+      "Uczeń zaznacza ułamki zwykłe i dziesiętne na osi liczbowej oraz odczytuje ułamki zwykłe i dziesiętne zaznaczone na osi liczbowej"
     ],
     "targetApps": [
       "generator-testow"
@@ -1374,8 +1331,42 @@
         "axisStep": 0.25,
         "axisPoints": "A:3;B:6;C:9",
         "solution": "Krok osi wynosi $0{,}25$. Kolejne podziałki oznaczają: 1. kreska = $0{,}25$, 2. kreska = $0{,}5$, 3. kreska = $0{,}75$ (tu zaznaczamy A), 6. kreska = $1{,}5$ (tu B), 9. kreska = $2{,}25$ (tu C)."
+      },
+      {
+        "text": "Zaznacz punkty $D=0{,}5$, $E=1{,}25$, $F=2$ na osi o kroku 0,25.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.25,
+        "axisPoints": "D:2;E:5;F:8",
+        "solution": "D na 2., E na 5., F na 8. kresce.",
+        "id": 20602
+      },
+      {
+        "text": "Zaznacz $P=\frac{7}{4}$ i $Q=2{,}5$ na osi o kroku 0,25.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.25,
+        "axisPoints": "P:7;Q:10",
+        "solution": "7/4=1,75; 2,5=10·0,25.",
+        "isStar": true,
+        "id": 20603
+      },
+      {
+        "text": "Zaznacz punkt A=0,5 na osi o kroku 0,25.",
+        "points": 1,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.25,
+        "axisPoints": "A:2",
+        "solution": "0,5 to druga kreska po 0.",
+        "isSpe": true,
+        "speInfo": "jeden punkt i podany krok",
+        "id": 20604
       }
-    ]
+    ],
+    "podstawa": "2017"
   },
   {
     "baseId": 207,
@@ -1384,7 +1375,7 @@
       "Szkoła Podstawowa"
     ],
     "department": [
-      "Komputery I Internet"
+      "Komputery i Internet"
     ],
     "type": "uzupełnij tabelę",
     "difficulty": "średnie",
@@ -1402,27 +1393,79 @@
     ],
     "variants": [
       {
-        "id": 20701,
-        "text": "Uzupełnij tabelę odpowiednimi reprezentacjami liczb w systemie dziesiętnym, dwójkowym (binarnym) oraz szesnastkowym (heksadecymalnym).",
+        "text": "Uzupełnij tabelę: liczba dziesiętna i jej zapis binarny.",
         "points": 3,
         "tableRows": 4,
-        "tableCols": 3,
+        "tableCols": 2,
         "tableData": [
-          "Dziesiętny",
-          "Binarny",
-          "Szesnastkowy",
+          "dziesiętny",
+          "binarny",
           "10",
           "[[1010]]",
-          "A",
           "[[15]]",
           "1111",
-          "[[F]]",
           "24",
-          "[[11000]]",
-          "[[18]]"
+          "[[11000]]"
         ],
-        "solution": "Dziesiętne 10 to binarnie 1010. Liczba binarna 1111 to dziesiętnie 15, a szesnastkowo F. Liczba 24 to binarnie 11000, a szesnastkowo 18."
+        "solution": "10=1010₂; 15=1111₂; 24=11000₂.",
+        "id": 20701
+      },
+      {
+        "text": "Uzupełnij brakujące zapisy binarne lub dziesiętne.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 2,
+        "tableData": [
+          "dziesiętny",
+          "binarny",
+          "6",
+          "[[110]]",
+          "[[9]]",
+          "1001",
+          "12",
+          "[[1100]]"
+        ],
+        "solution": "6=110₂; 9=1001₂; 12=1100₂.",
+        "id": 20702
+      },
+      {
+        "text": "Uzupełnij zapis binarny.",
+        "points": 3,
+        "tableRows": 3,
+        "tableCols": 2,
+        "tableData": [
+          "dziesiętny",
+          "binarny",
+          "31",
+          "[[11111]]",
+          "16",
+          "[[10000]]"
+        ],
+        "solution": "31=11111₂; 16=10000₂.",
+        "isStar": true,
+        "id": 20703
+      },
+      {
+        "text": "Uzupełnij jeden brak.",
+        "points": 1,
+        "tableRows": 2,
+        "tableCols": 2,
+        "tableData": [
+          "dziesiętny",
+          "binarny",
+          "5",
+          "[[101]]"
+        ],
+        "solution": "5=101₂.",
+        "isSpe": true,
+        "speInfo": "jedna mała liczba",
+        "id": 20704
       }
+    ],
+    "podstawa": "2017",
+    "class": [
+      "7",
+      "8"
     ]
   },
   {
@@ -1725,6 +1768,3891 @@
             "text": "Dla funkcji $f(x) = x^2 - 2x - 3$ wyróżnik trójmianu kwadratowego wynosi $\\Delta = $ [[16]], a jej miejsca zerowe to $x_1 = $ [[-1]] oraz $x_2 = $ [[3]]."
           }
         ]
+      }
+    ]
+  },
+  {
+    "baseId": 3001,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Liczby Naturalne"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "liczby naturalne",
+      "porównywanie",
+      "klasa 4",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń porównuje liczby naturalne"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Która liczba jest największa?",
+        "points": 1,
+        "options": [
+          "48 905",
+          "48 590",
+          "49 085",
+          "40 985"
+        ],
+        "correctAnswerIndex": 2,
+        "solution": "Największa jest 49 085.",
+        "id": 300101
+      },
+      {
+        "text": "Wybierz liczbę mniejszą od 70 000 i większą od 69 900.",
+        "points": 1,
+        "options": [
+          "69 890",
+          "69 950",
+          "70 050",
+          "68 999"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "69 950 spełnia oba warunki.",
+        "id": 300102,
+        "isStar": true
+      },
+      {
+        "text": "Która liczba jest większa: 4 305 czy 4 350?",
+        "points": 1,
+        "options": [
+          "4 305",
+          "4 350"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Porównujemy setki, dziesiątki i jedności: 4 350 > 4 305.",
+        "isSpe": true,
+        "id": 300103,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3002,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Obliczenia Praktyczne"
+    ],
+    "type": "uzupełnij lukę",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "jednostki",
+      "długość",
+      "klasa 4",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń zamienia i prawidłowo stosuje jednostki długości: milimetr, centymetr, decymetr, metr, kilometr"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij: $3\\text{ m} = [[300]]\\text{ cm}$ oraz $250\\text{ cm} = [[2{,}5]]\\text{ m}$.",
+        "points": 2,
+        "solution": "3 m = 300 cm; 250 cm = 2,5 m.",
+        "id": 300201
+      },
+      {
+        "text": "Uzupełnij: $5\\text{ km} = [[5000]]\\text{ m}$ i $1200\\text{ m} = [[1{,}2]]\\text{ km}$.",
+        "points": 2,
+        "solution": "5 km = 5000 m; 1200 m = 1,2 km.",
+        "id": 300202,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij jedną lukę: $2\\text{ m} = [[200]]\\text{ cm}$.",
+        "points": 1,
+        "solution": "2 m = 200 cm.",
+        "isSpe": true,
+        "id": 300203,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3003,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Liczby Naturalne"
+    ],
+    "type": "przyporządkowanie",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "liczby naturalne",
+      "zapis słowny",
+      "klasa 4",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń stosuje dziesiątkowy system zapisu liczb naturalnych, w tym porównuje i zaokrągla liczby naturalne oraz interpretuje je na osi liczbowej"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Połącz zapis cyfrowy z poprawnym zapisem słownym.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "4 205",
+            "right": "cztery tysiące dwieście pięć"
+          },
+          {
+            "left": "8 070",
+            "right": "osiem tysięcy siedemdziesiąt"
+          },
+          {
+            "left": "12 004",
+            "right": "dwanaście tysięcy cztery"
+          }
+        ],
+        "solution": "Każdej liczbie odpowiada jej zapis słowny.",
+        "id": 300301
+      },
+      {
+        "text": "Połącz liczbę z rozkładem na tysiące, setki, dziesiątki i jedności.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "5 432",
+            "right": "5000 + 400 + 30 + 2"
+          },
+          {
+            "left": "7 009",
+            "right": "7000 + 9"
+          },
+          {
+            "left": "10 120",
+            "right": "10000 + 100 + 20"
+          }
+        ],
+        "solution": "Rozkład wynika z wartości pozycyjnej cyfr.",
+        "id": 300302,
+        "isStar": true
+      },
+      {
+        "text": "Połącz dwie liczby z zapisem słownym.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "2 018",
+            "right": "dwa tysiące osiemnaście"
+          },
+          {
+            "left": "3 400",
+            "right": "trzy tysiące czterysta"
+          }
+        ],
+        "solution": "Odczytujemy cyfry zgodnie z pozycją.",
+        "isSpe": true,
+        "id": 300303,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3004,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Obliczenia W Geometrii"
+    ],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "pole",
+      "prostokąt",
+      "klasa 4",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń oblicza pole trójkąta, kwadratu, prostokąta, rombu, równoległoboku, trapezu oraz pola figur, które można z nich zbudować"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Dywan ma kształt prostokąta o długości 4 m i szerokości 2,5 m. Oblicz jego pole.",
+        "points": 2,
+        "solution": "P = 4 · 2,5 = 10 m².",
+        "id": 300401
+      },
+      {
+        "text": "Tablica ma wymiary 180 cm × 120 cm. Oblicz jej pole w cm².",
+        "points": 2,
+        "solution": "P = 180 · 120 = 21 600 cm².",
+        "id": 300402,
+        "isStar": true
+      },
+      {
+        "text": "Prostokąt ma boki 6 cm i 3 cm. Oblicz jego pole. Skorzystaj ze wzoru $P=a\\cdot b$.",
+        "points": 2,
+        "solution": "P = 6 · 3 = 18 cm².",
+        "isSpe": true,
+        "id": 300403,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3005,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Ułamki Zwykłe i Dziesiętne"
+    ],
+    "type": "uzupełnij tabelę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "ułamki dziesiętne",
+      "działania",
+      "klasa 5",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń dodaje, odejmuje, mnoży i dzieli ułamki dziesiętne w pamięci (v przykładach najprostszych), pisemnie (v przypadku gdy ułamki mają razem co najwyżej 6 cyfr różnych od zera) i za pomocą kalkulatora (v przykładach trudniejszych)"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij tabelę wyników.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 3,
+        "tableData": [
+          "a",
+          "b",
+          "a+b",
+          "1,25",
+          "0,75",
+          "[[2]]",
+          "3,4",
+          "1,6",
+          "[[5]]",
+          "2,05",
+          "0,95",
+          "[[3]]"
+        ],
+        "solution": "2; 5; 3.",
+        "id": 300501
+      },
+      {
+        "text": "Uzupełnij tabelę różnic.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 3,
+        "tableData": [
+          "a",
+          "b",
+          "a-b",
+          "4,5",
+          "1,2",
+          "[[3,3]]",
+          "7,25",
+          "2,25",
+          "[[5]]",
+          "6,1",
+          "0,9",
+          "[[5,2]]"
+        ],
+        "solution": "3,3; 5; 5,2.",
+        "id": 300502,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij dwa wyniki.",
+        "points": 2,
+        "tableRows": 3,
+        "tableCols": 3,
+        "tableData": [
+          "a",
+          "b",
+          "a+b",
+          "1,5",
+          "0,5",
+          "[[2]]",
+          "2,2",
+          "0,8",
+          "[[3]]"
+        ],
+        "solution": "2; 3.",
+        "isSpe": true,
+        "id": 300503,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3006,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Obliczenia W Geometrii"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "trójkąt",
+      "pole",
+      "klasa 5",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń oblicza pola: trójkąta, kwadratu, prostokąta, rombu, równoległoboku, trapezu, przedstawionych na rysunku oraz w sytuacjach praktycznych, w tym także dla danych wymagających zamiany jednostek i w sytuacjach z nietypowymi wymiarami"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Trójkąt ma podstawę 8 cm i wysokość 5 cm. Jakie jest jego pole?",
+        "points": 1,
+        "options": [
+          "20 cm²",
+          "40 cm²",
+          "13 cm²",
+          "80 cm²"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "P=1/2·8·5=20 cm².",
+        "id": 300601
+      },
+      {
+        "text": "Podstawa trójkąta ma 12 cm, a wysokość 4 cm. Pole wynosi:",
+        "points": 1,
+        "options": [
+          "16 cm²",
+          "24 cm²",
+          "48 cm²",
+          "96 cm²"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "P=1/2·12·4=24 cm².",
+        "id": 300602,
+        "isStar": true
+      },
+      {
+        "text": "Trójkąt ma podstawę 6 cm i wysokość 3 cm. Wybierz pole.",
+        "points": 1,
+        "options": [
+          "9 cm²",
+          "18 cm²",
+          "3 cm²"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "P=1/2·6·3=9 cm².",
+        "isSpe": true,
+        "id": 300603,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3007,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Oś Liczbowa. Układ Współrzędnych"
+    ],
+    "type": "oś liczbowa",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "oś liczbowa",
+      "ułamki dziesiętne",
+      "klasa 5",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń zaznacza ułamki zwykłe i dziesiętne na osi liczbowej oraz odczytuje ułamki zwykłe i dziesiętne zaznaczone na osi liczbowej"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Zaznacz na osi punkty $A=0{,}5$, $B=1{,}25$, $C=2$.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.25,
+        "axisPoints": "A:2;B:5;C:8",
+        "solution": "Krok 0,25: A na 2., B na 5., C na 8. kresce.",
+        "id": 300701
+      },
+      {
+        "text": "Zaznacz punkty $K=1{,}5$ i $L=2{,}5$ na osi o kroku 0,5.",
+        "points": 2,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.5,
+        "axisPoints": "K:3;L:5",
+        "solution": "K: 3 kroki, L: 5 kroków od zera.",
+        "id": 300702,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz punkt $A=1$ na osi o kroku 0,5.",
+        "points": 1,
+        "taskType": "oś liczbowa",
+        "axisStart": 0,
+        "axisStep": 0.5,
+        "axisPoints": "A:2",
+        "solution": "1 = dwa kroki po 0,5.",
+        "isSpe": true,
+        "id": 300703,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3008,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Elementy Statystyki Opisowej"
+    ],
+    "type": "wykres",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "dane",
+      "wykres",
+      "klasa 5",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń interpretuje dane przedstawione w tekście oraz za pomocą tabel, diagramów i wykresów, w tym wykresów wykonanych za pomocą linii ciągłej, w szczególności porównuje ceny, koszty i wydatki przedstawione w tabelach, na wykresach lub paragonach – moduł ekonomiczno-finansowy"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Wykres pokazuje liczbę przeczytanych książek. Ile książek przeczytano łącznie w marcu i kwietniu?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Książki przeczytane przez klasę",
+        "chartLabels": [
+          "styczeń",
+          "luty",
+          "marzec",
+          "kwiecień"
+        ],
+        "chartData": [
+          3,
+          5,
+          6,
+          4
+        ],
+        "solution": "6+4=10 książek.",
+        "id": 300801
+      },
+      {
+        "text": "W którym miesiącu zebrano najwięcej makulatury?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Makulatura [kg]",
+        "chartLabels": [
+          "IX",
+          "X",
+          "XI",
+          "XII"
+        ],
+        "chartData": [
+          12,
+          18,
+          15,
+          9
+        ],
+        "solution": "Najwięcej w październiku: 18 kg.",
+        "id": 300802,
+        "isStar": true
+      },
+      {
+        "text": "Odczytaj z wykresu liczbę punktów drużyny B.",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Punkty drużyn",
+        "chartLabels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "chartData": [
+          7,
+          5,
+          9
+        ],
+        "solution": "Drużyna B ma 5 punktów.",
+        "isSpe": true,
+        "id": 300803,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3009,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Liczby Całkowite"
+    ],
+    "type": "prawda-fałsz",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "liczby całkowite",
+      "dodawanie",
+      "klasa 6",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń wykonuje proste rachunki pamięciowe na liczbach całkowitych"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "$-7+12=5$",
+            "answer": true
+          },
+          {
+            "text": "$-4+(-3)=1$",
+            "answer": false
+          },
+          {
+            "text": "$8+(-10)=-2$",
+            "answer": true
+          }
+        ],
+        "solution": "Wyniki: 5, -7, -2.",
+        "id": 300901
+      },
+      {
+        "text": "Oceń zdania o działaniach na liczbach całkowitych.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "$-15+5=-10$",
+            "answer": true
+          },
+          {
+            "text": "$6+(-6)=12$",
+            "answer": false
+          }
+        ],
+        "solution": "Pierwsze prawda, drugie fałsz.",
+        "id": 300902,
+        "isStar": true
+      },
+      {
+        "text": "Oceń dwa zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "$-3+5=2$",
+            "answer": true
+          },
+          {
+            "text": "$4+(-1)=5$",
+            "answer": false
+          }
+        ],
+        "solution": "2; 3, więc drugie zdanie jest fałszywe.",
+        "isSpe": true,
+        "id": 300903,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3010,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Obliczenia Praktyczne"
+    ],
+    "type": "wielokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "procenty",
+      "praktyka",
+      "klasa 6",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń w przypadkach osadzonych w kontekście praktycznym oblicza procent danej wielkości w stopniu trudności typu 50%, 20%, 10%"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Które zdania są prawdziwe?",
+        "points": 2,
+        "options": [
+          "50% z 80 to 40",
+          "20% z 30 to 6",
+          "10% z 90 to 9",
+          "20% z 50 to 20"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
+        "solution": "Poprawne wyniki to 40, 6 i 9.",
+        "id": 301001
+      },
+      {
+        "text": "Zaznacz poprawne równości.",
+        "points": 2,
+        "options": [
+          "20% z 50 = 10",
+          "10% z 200 = 20",
+          "50% z 40 = 20",
+          "10% z 70 = 14"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          2
+        ],
+        "solution": "10, 20 i 20 są poprawne.",
+        "id": 301002,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz poprawne zdania.",
+        "points": 2,
+        "options": [
+          "50% z 10 to 5",
+          "10% z 20 to 2",
+          "20% z 20 to 10"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "solution": "5 i 2 są poprawne.",
+        "isSpe": true,
+        "id": 301003,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3011,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Elementy Algebry"
+    ],
+    "type": "uzupełnij lukę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "algebra",
+      "wyrażenia",
+      "klasa 6",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń opisuje wielkości oraz zależności między wielkościami za pomocą wyrażeń algebraicznych na podstawie informacji osadzonych w kontekście praktycznym"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij: obwód kwadratu o boku $a$ zapisujemy jako $[[4a]]$.",
+        "points": 2,
+        "solution": "Obwód to 4a.",
+        "id": 301101
+      },
+      {
+        "text": "Uzupełnij: jeśli jeden bilet kosztuje $x$ zł, to pięć biletów kosztuje $[[5x]]$ zł.",
+        "points": 2,
+        "solution": "5x zł.",
+        "id": 301102,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij: dwa jednakowe odcinki długości $x$ mają łącznie $[[2x]]$.",
+        "points": 1,
+        "solution": "2x.",
+        "isSpe": true,
+        "id": 301103,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3012,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Obliczenia W Geometrii"
+    ],
+    "type": "wiązka",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "wiązka",
+      "geometria",
+      "pole",
+      "klasa 6",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń oblicza pole trójkąta, kwadratu, prostokąta, rombu, równoległoboku, trapezu oraz pola figur, które można z nich zbudować"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Plan ogródka ma kształt prostokąta 8 m × 6 m. W środku znajduje się kwadratowa rabata o boku 2 m.",
+        "points": 4,
+        "customInstruction": "Wykonaj podzadania dotyczące pola i obwodu.",
+        "solution": "Pole prostokąta 48 m²; rabaty 4 m²; pozostała powierzchnia 44 m²; obwód ogródka 28 m.",
+        "subtasks": [
+          {
+            "num": "1-1",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Pole całego ogródka to:",
+            "options": [
+              "14 m²",
+              "28 m²",
+              "48 m²",
+              "96 m²"
+            ],
+            "correctAnswerIndex": 2,
+            "solution": "8·6=48 m²."
+          },
+          {
+            "num": "1-2",
+            "points": 1,
+            "type": "otwarte",
+            "text": "Oblicz pole rabaty.",
+            "solution": "2·2=4 m²."
+          },
+          {
+            "num": "1-3",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Ile m² pozostaje poza rabatą?",
+            "solution": "48-4=44 m²."
+          }
+        ],
+        "id": 301201
+      },
+      {
+        "text": "Boisko ma wymiary 20 m × 10 m, a wydzielona strefa ma 5 m × 4 m.",
+        "points": 4,
+        "customInstruction": "Oblicz pola wskazanych części.",
+        "solution": "200 m², 20 m², 180 m².",
+        "subtasks": [
+          {
+            "num": "2-1",
+            "points": 1,
+            "type": "otwarte",
+            "text": "Oblicz pole boiska.",
+            "solution": "200 m²."
+          },
+          {
+            "num": "2-2",
+            "points": 1,
+            "type": "otwarte",
+            "text": "Oblicz pole strefy.",
+            "solution": "20 m²."
+          },
+          {
+            "num": "2-3",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Oblicz pole pozostałej części.",
+            "solution": "180 m²."
+          }
+        ],
+        "id": 301202,
+        "isStar": true
+      },
+      {
+        "text": "Prostokąt ma boki 6 cm i 4 cm.",
+        "points": 2,
+        "customInstruction": "Wykonaj dwa krótkie kroki.",
+        "solution": "Pole 24 cm², obwód 20 cm.",
+        "isSpe": true,
+        "subtasks": [
+          {
+            "num": "S-1",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Pole prostokąta to:",
+            "options": [
+              "10 cm²",
+              "20 cm²",
+              "24 cm²"
+            ],
+            "correctAnswerIndex": 2,
+            "solution": "6·4=24 cm²."
+          },
+          {
+            "num": "S-2",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Obwód prostokąta to:",
+            "options": [
+              "20 cm",
+              "24 cm",
+              "10 cm"
+            ],
+            "correctAnswerIndex": 0,
+            "solution": "2·(6+4)=20 cm."
+          }
+        ],
+        "id": 301203,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3013,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Potęgi O Podstawach Wymiernych"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "potęgi",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń mnoży i dzieli potęgi o wykładnikach całkowitych dodatnich"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Oblicz $2^3\\cdot 2^4$.",
+        "points": 1,
+        "options": [
+          "$2^7$",
+          "$4^7$",
+          "$2^{12}$",
+          "$2$"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Przy mnożeniu potęg o tej samej podstawie dodajemy wykładniki.",
+        "id": 301301
+      },
+      {
+        "text": "Oblicz $5^6:5^2$.",
+        "points": 1,
+        "options": [
+          "$5^3$",
+          "$5^4$",
+          "$1^4$",
+          "$25^4$"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Odejmujemy wykładniki: 6-2=4.",
+        "id": 301302,
+        "isStar": true
+      },
+      {
+        "text": "Oblicz $3^2\\cdot3^3$.",
+        "points": 1,
+        "options": [
+          "$3^5$",
+          "$9^5$",
+          "$3^6$"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "2+3=5.",
+        "isSpe": true,
+        "id": 301303,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3014,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Obliczenia Procentowe"
+    ],
+    "type": "wykres",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "procenty",
+      "wykres",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń stosuje obliczenia procentowe do rozwiązywania problemów w kontekście praktycznym, również w przypadkach dwukrotnych podwyżek lub obniżek danej wielkości"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Na wykresie pokazano ceny plecaka w kolejnych tygodniach. O ile procent spadła cena z 200 zł do 160 zł?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Cena plecaka [zł]",
+        "chartLabels": [
+          "tydzień 1",
+          "tydzień 2",
+          "tydzień 3"
+        ],
+        "chartData": [
+          200,
+          180,
+          160
+        ],
+        "solution": "Spadek 40 zł, czyli 40/200=20%.",
+        "id": 301401
+      },
+      {
+        "text": "Cena biletu wzrosła z 10 zł do 12 zł. O ile procent wzrosła?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Cena biletu [zł]",
+        "chartLabels": [
+          "stara cena",
+          "nowa cena"
+        ],
+        "chartData": [
+          10,
+          12
+        ],
+        "solution": "Wzrost 2/10=20%.",
+        "id": 301402,
+        "isStar": true
+      },
+      {
+        "text": "Cena spadła ze 100 zł do 90 zł. Wybierz procent spadku: 10%, 20% czy 90%.",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Cena [zł]",
+        "chartLabels": [
+          "przed",
+          "po"
+        ],
+        "chartData": [
+          100,
+          90
+        ],
+        "solution": "Spadek to 10 zł z 100 zł = 10%.",
+        "isSpe": true,
+        "id": 301403,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3015,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Równania Z Jedną Niewiadomą"
+    ],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "równania",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń rozwiązuje równania pierwszego stopnia, a także równania, które dają się w prosty sposób sprowadzić do równania pierwszego stopnia"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Rozwiąż równanie $3x+5=20$.",
+        "points": 2,
+        "solution": "3x=15, x=5.",
+        "id": 301501
+      },
+      {
+        "text": "Rozwiąż równanie $5(x-2)=20$.",
+        "points": 2,
+        "solution": "x-2=4, x=6.",
+        "id": 301502,
+        "isStar": true
+      },
+      {
+        "text": "Rozwiąż $2x+4=12$. Wykonaj kolejno: odejmij 4 od obu stron, a potem podziel przez 2.",
+        "points": 2,
+        "solution": "2x=8, x=4.",
+        "isSpe": true,
+        "id": 301503,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3016,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Oś Liczbowa. Układ Współrzędnych"
+    ],
+    "type": "układ współrzędnych",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "współrzędne",
+      "geometria",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń rysuje w układzie współrzędnych wielokąty o wierzchołkach w punktach kratowych"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Zaznacz punkty $A=(-2,1)$, $B=(3,1)$ i $C=(3,4)$.",
+        "points": 2,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -5,
+        "gridMaxX": 5,
+        "gridMinY": -5,
+        "gridMaxY": 5,
+        "gridStep": 1,
+        "axisPoints": "A:(-2,1);B:(3,1);C:(3,4)",
+        "coordsStudentAction": "place-points",
+        "solution": "Punkty należy umieścić zgodnie z parami (x,y).",
+        "id": 301601
+      },
+      {
+        "text": "Zaznacz wierzchołki prostokąta $K=(-3,-2)$, $L=(2,-2)$, $M=(2,1)$, $N=(-3,1)$.",
+        "points": 2,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -5,
+        "gridMaxX": 5,
+        "gridMinY": -5,
+        "gridMaxY": 5,
+        "gridStep": 1,
+        "axisPoints": "K:(-3,-2);L:(2,-2);M:(2,1);N:(-3,1)",
+        "coordsStudentAction": "place-points",
+        "solution": "Cztery punkty tworzą prostokąt.",
+        "id": 301602,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz punkty $A=(1,2)$ i $B=(1,-2)$.",
+        "points": 1,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -5,
+        "gridMaxX": 5,
+        "gridMinY": -5,
+        "gridMaxY": 5,
+        "gridStep": 1,
+        "axisPoints": "A:(1,2);B:(1,-2)",
+        "coordsStudentAction": "place-points",
+        "solution": "Oba punkty mają x=1.",
+        "isSpe": true,
+        "id": 301603,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3017,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Elementy Statystyki Opisowej"
+    ],
+    "type": "uzupełnij tabelę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "statystyka",
+      "średnia",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń oblicza średnią arytmetyczną kilku liczb"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij średnie.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 4,
+        "tableData": [
+          "zestaw",
+          "a",
+          "b",
+          "średnia",
+          "A",
+          "6",
+          "10",
+          "[[8]]",
+          "B",
+          "12",
+          "18",
+          "[[15]]",
+          "C",
+          "7",
+          "9",
+          "[[8]]"
+        ],
+        "solution": "Średnie: 8, 15, 8.",
+        "id": 301701
+      },
+      {
+        "text": "Uzupełnij średnie trzech liczb.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 5,
+        "tableData": [
+          "zestaw",
+          "a",
+          "b",
+          "c",
+          "średnia",
+          "A",
+          "2",
+          "4",
+          "9",
+          "[[5]]",
+          "B",
+          "1",
+          "7",
+          "10",
+          "[[6]]",
+          "C",
+          "5",
+          "5",
+          "11",
+          "[[7]]"
+        ],
+        "solution": "Średnie: 5, 6, 7.",
+        "id": 301702,
+        "isStar": true
+      },
+      {
+        "text": "Oblicz średnią dwóch liczb.",
+        "points": 2,
+        "tableRows": 3,
+        "tableCols": 3,
+        "tableData": [
+          "a",
+          "b",
+          "średnia",
+          "4",
+          "8",
+          "[[6]]",
+          "10",
+          "14",
+          "[[12]]"
+        ],
+        "solution": "6 i 12.",
+        "isSpe": true,
+        "id": 301703,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3018,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Kombinatoryka i Rachunek Prawdopodobieństwa"
+    ],
+    "type": "prawda-fałsz",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "prawdopodobieństwo",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń przeprowadza proste doświadczenia losowe, polegające na rzucie monetą, rzucie sześcienną kostką do gry, rzucie kostką wielościenną lub losowaniu kuli spośród zestawu kul, analizuje je i oblicza prawdopodobieństwa zdarzeń"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Rzucamy uczciwą kostką. Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Prawdopodobieństwo wyrzucenia liczby parzystej wynosi 1/2.",
+            "answer": true
+          },
+          {
+            "text": "Prawdopodobieństwo wyrzucenia 7 wynosi 1/6.",
+            "answer": false
+          },
+          {
+            "text": "Prawdopodobieństwo wyrzucenia liczby mniejszej niż 7 wynosi 1.",
+            "answer": true
+          }
+        ],
+        "solution": "3 z 6 wyników parzystych; 7 nie występuje; każdy wynik jest <7.",
+        "id": 301801
+      },
+      {
+        "text": "Rzucamy monetą. Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "P(orzeł)=1/2.",
+            "answer": true
+          },
+          {
+            "text": "P(reszka)=0.",
+            "answer": false
+          }
+        ],
+        "solution": "Dwa jednakowo prawdopodobne wyniki.",
+        "id": 301802,
+        "isStar": true
+      },
+      {
+        "text": "Rzucamy kostką. Oceń dwa zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "P(6)=1/6.",
+            "answer": true
+          },
+          {
+            "text": "P(8)=1/6.",
+            "answer": false
+          }
+        ],
+        "solution": "6 może wypaść, 8 nie.",
+        "isSpe": true,
+        "id": 301803,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3019,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Elementy Statystyki Opisowej"
+    ],
+    "type": "wykres",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "statystyka",
+      "mediana",
+      "krytyczna analiza",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń stosuje średnią arytmetyczną i medianę w kontekście praktycznym do porównania zestawów danych, w tym danych finansowych – moduł ekonomiczno-finansowy"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Wykres przedstawia dzienne czasy korzystania z telefonu przez pięć osób. Oblicz medianę.",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Czas [min]",
+        "chartLabels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "chartData": [
+          45,
+          90,
+          60,
+          120,
+          30
+        ],
+        "solution": "Po uporządkowaniu: 30,45,60,90,120. Mediana=60 min.",
+        "id": 301901
+      },
+      {
+        "text": "Oblicz średnią z danych na wykresie.",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Wyniki",
+        "chartLabels": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "chartData": [
+          6,
+          8,
+          10,
+          12
+        ],
+        "solution": "(6+8+10+12)/4=9.",
+        "id": 301902,
+        "isStar": true
+      },
+      {
+        "text": "Odczytaj środkową wartość po uporządkowaniu: 20, 40, 60.",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Dane",
+        "chartLabels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "chartData": [
+          20,
+          60,
+          40
+        ],
+        "solution": "Po uporządkowaniu 20,40,60 mediana=40.",
+        "isSpe": true,
+        "id": 301903,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3020,
+    "subject": "Matematyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Oś Liczbowa. Układ Współrzędnych"
+    ],
+    "type": "układ współrzędnych",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "układ współrzędnych",
+      "wielokąty",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń rysuje w układzie współrzędnych wielokąty o wierzchołkach w punktach kratowych"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Zaznacz wierzchołki prostokąta $A=(0,0)$, $B=(6,0)$, $C=(6,4)$, $D=(0,4)$.",
+        "points": 3,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -1,
+        "gridMaxX": 7,
+        "gridMinY": -1,
+        "gridMaxY": 5,
+        "gridStep": 1,
+        "axisPoints": "A:(0,0);B:(6,0);C:(6,4);D:(0,4)",
+        "coordsStudentAction": "place-points",
+        "solution": "Punkty są wierzchołkami prostokąta.",
+        "id": 302001
+      },
+      {
+        "text": "Zaznacz wierzchołki czworokąta $A=(-2,-1)$, $B=(3,-1)$, $C=(3,2)$, $D=(-2,2)$.",
+        "points": 3,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -5,
+        "gridMaxX": 5,
+        "gridMinY": -5,
+        "gridMaxY": 5,
+        "gridStep": 1,
+        "axisPoints": "A:(-2,-1);B:(3,-1);C:(3,2);D:(-2,2)",
+        "coordsStudentAction": "place-points",
+        "solution": "Należy poprawnie umieścić cztery wierzchołki.",
+        "id": 302002,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz wierzchołki prostokąta $A=(0,0)$, $B=(4,0)$, $C=(4,2)$, $D=(0,2)$.",
+        "points": 2,
+        "taskType": "układ współrzędnych",
+        "gridMinX": -1,
+        "gridMaxX": 5,
+        "gridMinY": -1,
+        "gridMaxY": 3,
+        "gridStep": 1,
+        "axisPoints": "A:(0,0);B:(4,0);C:(4,2);D:(0,2)",
+        "coordsStudentAction": "place-points",
+        "solution": "Należy poprawnie umieścić cztery punkty.",
+        "isSpe": true,
+        "id": 302003,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3021,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "wielokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "bezpieczeństwo",
+      "BHP",
+      "klasa 4",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń posługuje się technologią zgodnie z przyjętymi zasadami i prawem; przestrzega zasad bezpieczeństwa i higieny pracy"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Wybierz zachowania zgodne z bezpieczną pracą przy komputerze.",
+        "points": 2,
+        "options": [
+          "Robię krótkie przerwy",
+          "Siedzę stabilnie, ekran mam na wygodnej wysokości",
+          "Stawiam napój tuż obok klawiatury",
+          "Zgłaszam uszkodzony przewód nauczycielowi"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3
+        ],
+        "solution": "Bezpieczne są przerwy, ergonomia i zgłoszenie uszkodzenia.",
+        "id": 302101
+      },
+      {
+        "text": "Wybierz właściwe zachowania w pracowni.",
+        "points": 2,
+        "options": [
+          "Dbam o porządek",
+          "Samodzielnie naprawiam gniazdko",
+          "Stosuję polecenia nauczyciela",
+          "Nie dotykam mokrymi rękami urządzeń elektrycznych"
+        ],
+        "correctAnswerIndices": [
+          0,
+          2,
+          3
+        ],
+        "solution": "Poprawne: porządek, polecenia, suche ręce.",
+        "id": 302102,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz dwie bezpieczne zasady.",
+        "points": 2,
+        "options": [
+          "Suche ręce",
+          "Porządek na stanowisku",
+          "Napój na klawiaturze"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "solution": "Suche ręce i porządek.",
+        "isSpe": true,
+        "id": 302103,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3022,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Programowanie Blokowe"
+    ],
+    "type": "przyporządkowanie",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "algorytm",
+      "sekwencja",
+      "klasa 4",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń tworzy i porządkuje w postaci sekwencji (liniowo) lub drzewa (nieliniowo) informacje, takie jak: a) obrazki i teksty ilustrujące wybrane sytuacje"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Ułóż kolejność czynności przy zapisywaniu pliku, przyporządkowując krokom numery.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "Wybierz „Zapisz jako”",
+            "right": "1"
+          },
+          {
+            "left": "Wskaż folder",
+            "right": "2"
+          },
+          {
+            "left": "Nadaj nazwę pliku",
+            "right": "3"
+          },
+          {
+            "left": "Kliknij „Zapisz”",
+            "right": "4"
+          }
+        ],
+        "solution": "Poprawna kolejność: 1–4.",
+        "id": 302201
+      },
+      {
+        "text": "Połącz etap z opisem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "Start",
+            "right": "rozpoczęcie działania"
+          },
+          {
+            "left": "Działanie",
+            "right": "wykonanie polecenia"
+          },
+          {
+            "left": "Koniec",
+            "right": "zakończenie"
+          }
+        ],
+        "solution": "To podstawowa sekwencja.",
+        "id": 302202,
+        "isStar": true
+      },
+      {
+        "text": "Połącz dwa kroki.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "Najpierw",
+            "right": "otwórz folder"
+          },
+          {
+            "left": "Potem",
+            "right": "wybierz plik"
+          }
+        ],
+        "solution": "Najpierw folder, potem plik.",
+        "isSpe": true,
+        "id": 302203,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3023,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "prawda-fałsz",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "phishing",
+      "bezpieczeństwo",
+      "klasa 4",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń rozpoznaje podejrzane treści on-line i podejmuje podstawowe działania obronne – moduł medialny"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Oceń zachowania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Wiadomość prosi o hasło – nie podaję go i pokazuję ją dorosłemu.",
+            "answer": true
+          },
+          {
+            "text": "Klikam każdy skrócony link od nieznanej osoby.",
+            "answer": false
+          },
+          {
+            "text": "Sprawdzam nadawcę podejrzanej wiadomości.",
+            "answer": true
+          }
+        ],
+        "solution": "Bezpiecznie jest nie ujawniać hasła i weryfikować nadawcę.",
+        "id": 302301
+      },
+      {
+        "text": "Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Kod jednorazowy z banku powinien pozostać tajny.",
+            "answer": true
+          },
+          {
+            "text": "Nieznany załącznik zawsze jest bezpieczny.",
+            "answer": false
+          }
+        ],
+        "solution": "Kod jest poufny; załącznik może być zagrożeniem.",
+        "id": 302302,
+        "isStar": true
+      },
+      {
+        "text": "Oceń dwa zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Nie podaję hasła nieznanej osobie.",
+            "answer": true
+          },
+          {
+            "text": "Klikam link bez sprawdzenia.",
+            "answer": false
+          }
+        ],
+        "solution": "Pierwsze bezpieczne, drugie ryzykowne.",
+        "isSpe": true,
+        "id": 302303,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3024,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "4"
+    ],
+    "department": [
+      "Programowanie Blokowe"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "kolejność",
+      "logika",
+      "klasa 4",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń ustawia w kolejności liniowej różne obiekty, takie jak: liczby, teksty, obrazki, z uwzględnieniem ich cech i relacji między nimi"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Który ciąg jest uporządkowany rosnąco?",
+        "points": 1,
+        "options": [
+          "2, 5, 8, 11",
+          "5, 2, 11, 8",
+          "11, 8, 5, 2"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Rosnąco oznacza od najmniejszej do największej.",
+        "id": 302401
+      },
+      {
+        "text": "Która lista jest ułożona alfabetycznie?",
+        "points": 1,
+        "options": [
+          "kot, pies, zebra",
+          "pies, kot, zebra",
+          "zebra, pies, kot"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "k < p < z.",
+        "id": 302402,
+        "isStar": true
+      },
+      {
+        "text": "Wybierz porządek rosnący.",
+        "points": 1,
+        "options": [
+          "1, 3, 5",
+          "5, 3, 1"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "1<3<5.",
+        "isSpe": true,
+        "id": 302403,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3025,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Arkusz Kalkulacyjny"
+    ],
+    "type": "uzupełnij lukę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "arkusz",
+      "formuły",
+      "klasa 5",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń przygotowuje i prezentuje rozwiązania problemów, posługując się podstawowymi aplikacjami, wykazując się umiejętnością: c) korzystania z arkusza kalkulacyjnego w trakcie rozwiązywania zadań związanych z prostymi obliczeniami: wprowadza dane do arkusza, formatuje komórki, definiuje proste formuły i dobiera wykresy do danych i celów obliczeń"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "W komórce C2 chcemy dodać wartości z A2 i B2. Uzupełnij formułę: `=[[A2+B2]]`.",
+        "points": 2,
+        "solution": "Formuła: =A2+B2.",
+        "id": 302501
+      },
+      {
+        "text": "Uzupełnij formułę sumującą komórki A1:A5: `=[[SUMA(A1:A5)]]`.",
+        "points": 2,
+        "solution": "=SUMA(A1:A5).",
+        "id": 302502,
+        "isStar": true
+      },
+      {
+        "text": "Dodaj A1 i B1: `=[[A1+B1]]`.",
+        "points": 1,
+        "solution": "=A1+B1.",
+        "isSpe": true,
+        "id": 302503,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3026,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "prywatność",
+      "dane",
+      "klasa 5",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń uznaje i respektuje prawo do prywatności danych i informacji oraz prawo do własności intelektualnej"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Która informacja powinna być szczególnie chroniona?",
+        "points": 1,
+        "options": [
+          "ulubiony kolor",
+          "hasło do konta",
+          "tytuł książki",
+          "nazwa przedmiotu"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Hasło umożliwia dostęp do konta i powinno być tajne.",
+        "id": 302601
+      },
+      {
+        "text": "Co najlepiej zrobić przed publikacją zdjęcia kolegi?",
+        "points": 1,
+        "options": [
+          "opublikować bez pytania",
+          "uzyskać jego zgodę",
+          "dodać jego hasło",
+          "wysłać do wszystkich"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Należy respektować prywatność i zgodę.",
+        "id": 302602,
+        "isStar": true
+      },
+      {
+        "text": "Co chronimy?",
+        "points": 1,
+        "options": [
+          "hasło",
+          "numer strony w zeszycie"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Hasło jest daną dostępową.",
+        "isSpe": true,
+        "id": 302603,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3027,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Arkusz Kalkulacyjny"
+    ],
+    "type": "wykres",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "arkusz",
+      "wykres",
+      "dane",
+      "klasa 5",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń wykonuje w arkuszu kalkulacyjnym proste obliczenia i analizę danych dla zadań z różnych przedmiotów, w tym zadań osadzonych w kontekście rzeczywistym, i uzupełnia je odpowiednimi wykresami, a następnie formułuje wnioski"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Dane przedstawiają liczbę kroków w czterech dniach. W którym dniu wynik był najwyższy?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Liczba kroków",
+        "chartLabels": [
+          "pn",
+          "wt",
+          "śr",
+          "czw"
+        ],
+        "chartData": [
+          4200,
+          5600,
+          5100,
+          6300
+        ],
+        "solution": "Najwyższy wynik: czwartek, 6300.",
+        "id": 302701
+      },
+      {
+        "text": "Oblicz różnicę między największą i najmniejszą wartością.",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Wyniki",
+        "chartLabels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "chartData": [
+          12,
+          18,
+          9
+        ],
+        "solution": "18-9=9.",
+        "id": 302702,
+        "isStar": true
+      },
+      {
+        "text": "Który słupek jest wyższy: A czy B?",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "bar",
+        "chartTitle": "Dane",
+        "chartLabels": [
+          "A",
+          "B"
+        ],
+        "chartData": [
+          4,
+          7
+        ],
+        "solution": "B.",
+        "isSpe": true,
+        "id": 302703,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3028,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "5"
+    ],
+    "department": [
+      "Robotyka i Sztuczna Inteligencja"
+    ],
+    "type": "prawda-fałsz",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "AI",
+      "dane treningowe",
+      "klasa 5",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń trenuje prosty model sztucznej inteligencji i obserwuje, jak dane wpływają na jego wyniki"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Oceń zdania o prostym modelu AI.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Zmiana danych treningowych może zmienić wyniki modelu.",
+            "answer": true
+          },
+          {
+            "text": "Model zawsze daje poprawną odpowiedź niezależnie od danych.",
+            "answer": false
+          },
+          {
+            "text": "Warto testować model na różnych przykładach.",
+            "answer": true
+          }
+        ],
+        "solution": "Dane wpływają na model; wyniki trzeba testować.",
+        "id": 302801
+      },
+      {
+        "text": "Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Mało zróżnicowane dane mogą pogorszyć działanie modelu.",
+            "answer": true
+          },
+          {
+            "text": "Model nie zależy od danych.",
+            "answer": false
+          }
+        ],
+        "solution": "Jakość danych ma znaczenie.",
+        "id": 302802,
+        "isStar": true
+      },
+      {
+        "text": "Oceń: „Inne dane mogą dać inny wynik modelu”.",
+        "points": 1,
+        "statements": [
+          {
+            "text": "Inne dane mogą dać inny wynik modelu.",
+            "answer": true
+          }
+        ],
+        "solution": "Prawda.",
+        "isSpe": true,
+        "id": 302803,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3029,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Nowoczesne Technologie i Kultura Cyfrowa"
+    ],
+    "type": "wielokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "prezentacja",
+      "czytelność",
+      "klasa 6",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń przygotowuje i prezentuje rozwiązania problemów, posługując się podstawowymi aplikacjami, wykazując się umiejętnością: d) tworzenia krótkich prezentacji multimedialnych łączących tekst z grafiką, korzysta przy tym z gotowych szablonów lub projektuje według własnych pomysłów"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Wybierz cechy czytelnej prezentacji.",
+        "points": 2,
+        "options": [
+          "Krótki tekst na slajdzie",
+          "Kontrast tekstu i tła",
+          "Kilka różnych ozdobnych fontów na każdym slajdzie",
+          "Grafiki wspierające treść"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3
+        ],
+        "solution": "Czytelność zwiększa zwięzłość, kontrast i celowe grafiki.",
+        "id": 302901
+      },
+      {
+        "text": "Wybierz dobre praktyki.",
+        "points": 2,
+        "options": [
+          "Jednolity układ",
+          "Czytelne nagłówki",
+          "Ściana tekstu",
+          "Źródła materiałów"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1,
+          3
+        ],
+        "solution": "Dobre praktyki to spójność, nagłówki i źródła.",
+        "id": 302902,
+        "isStar": true
+      },
+      {
+        "text": "Zaznacz dwie dobre zasady.",
+        "points": 2,
+        "options": [
+          "duży czytelny tekst",
+          "kontrast",
+          "bardzo dużo tekstu"
+        ],
+        "correctAnswerIndices": [
+          0,
+          1
+        ],
+        "solution": "Duży tekst i kontrast.",
+        "isSpe": true,
+        "id": 302903,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3030,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Komputery i Internet"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "wyszukiwanie",
+      "internet",
+      "klasa 6",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń wykorzystuje sieć komputerową (szkolną, sieć Internet): a) do wyszukiwania potrzebnych informacji i zasobów edukacyjnych, nawigując między stronami"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Które zapytanie jest najbardziej precyzyjne, gdy szukasz informacji o średniej temperaturze w Poznaniu w lipcu?",
+        "points": 1,
+        "options": [
+          "pogoda",
+          "Poznań",
+          "średnia temperatura Poznań lipiec",
+          "temperatura"
+        ],
+        "correctAnswerIndex": 2,
+        "solution": "Najbardziej precyzyjne zapytanie zawiera miejsce, wielkość i okres.",
+        "id": 303001
+      },
+      {
+        "text": "Które źródło najłatwiej zweryfikować pod kątem autora i daty?",
+        "points": 1,
+        "options": [
+          "anonimowy mem",
+          "artykuł z podanym autorem i datą",
+          "losowy komentarz",
+          "grafika bez źródła"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Autor i data ułatwiają ocenę źródła.",
+        "id": 303002,
+        "isStar": true
+      },
+      {
+        "text": "Szukasz planu lekcji szkoły. Co wpiszesz?",
+        "points": 1,
+        "options": [
+          "plan",
+          "plan lekcji + nazwa szkoły",
+          "internet"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Doprecyzowanie nazwy szkoły daje lepszy wynik.",
+        "isSpe": true,
+        "id": 303003,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3031,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Robotyka i Sztuczna Inteligencja"
+    ],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "AI",
+      "prompt",
+      "klasa 6",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń tworzy treści z wykorzystaniem prostych narzędzi sztucznej inteligencji, w tym obrazy, multimedia i teksty"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Napisz krótkie polecenie dla narzędzia AI, które ma przygotować trzy pomysły na plakat o oszczędzaniu energii. Polecenie powinno wskazywać temat, odbiorcę i oczekiwany format.",
+        "points": 3,
+        "solution": "Przykład: „Podaj 3 krótkie pomysły na plakat o oszczędzaniu energii dla uczniów klasy 6. Każdy pomysł zapisz jako hasło i jedno zdanie opisu.”",
+        "id": 303101
+      },
+      {
+        "text": "Napisz polecenie dla AI tworzącej obraz: szkolna biblioteka przyszłości, bez napisów, widok izometryczny.",
+        "points": 2,
+        "solution": "Polecenie powinno jednoznacznie opisywać scenę, styl/widok i brak tekstu.",
+        "id": 303102,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij polecenie: „Wymyśl 3 hasła o bezpiecznym Internecie dla ______”. Wpisz odbiorcę, np. „uczniów klasy 6”.",
+        "points": 1,
+        "solution": "Poprawna odpowiedź wskazuje konkretną grupę odbiorców.",
+        "isSpe": true,
+        "id": 303103,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3032,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "6"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "przyporządkowanie",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "licencje",
+      "prawo autorskie",
+      "klasa 6",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń przestrzega zasad licencji na oprogramowanie, z którego korzysta"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Połącz pojęcie z opisem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "autor",
+            "right": "twórca utworu"
+          },
+          {
+            "left": "źródło",
+            "right": "miejsce pochodzenia materiału"
+          },
+          {
+            "left": "licencja",
+            "right": "zasady korzystania z utworu lub programu"
+          }
+        ],
+        "solution": "Pary zgodnie z definicjami.",
+        "id": 303201
+      },
+      {
+        "text": "Połącz działanie z zasadą.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "podaję link do użytego zdjęcia",
+            "right": "podawanie źródła"
+          },
+          {
+            "left": "sprawdzam warunki użycia programu",
+            "right": "licencja"
+          },
+          {
+            "left": "nie podpisuję cudzej pracy swoim nazwiskiem",
+            "right": "prawo autorskie"
+          }
+        ],
+        "solution": "Każde działanie odpowiada wskazanej zasadzie.",
+        "id": 303202,
+        "isStar": true
+      },
+      {
+        "text": "Połącz dwa pojęcia.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "źródło",
+            "right": "skąd pochodzi materiał"
+          },
+          {
+            "left": "autor",
+            "right": "kto stworzył materiał"
+          }
+        ],
+        "solution": "Źródło i autor.",
+        "isSpe": true,
+        "id": 303203,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3033,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Programowanie Blokowe"
+    ],
+    "type": "uzupełnij tabelę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "binarny",
+      "reprezentacja",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń przedstawia sposoby reprezentowania w komputerze wartości logicznych, liczb naturalnych (system binarny), znaków (kody ASCII) i tekstów"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij zapis binarny.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 2,
+        "tableData": [
+          "dziesiętnie",
+          "binarnie",
+          "5",
+          "[[101]]",
+          "8",
+          "[[1000]]",
+          "10",
+          "[[1010]]"
+        ],
+        "solution": "5=101, 8=1000, 10=1010.",
+        "id": 303301
+      },
+      {
+        "text": "Uzupełnij zapis dziesiętny.",
+        "points": 3,
+        "tableRows": 4,
+        "tableCols": 2,
+        "tableData": [
+          "binarnie",
+          "dziesiętnie",
+          "111",
+          "[[7]]",
+          "1001",
+          "[[9]]",
+          "1100",
+          "[[12]]"
+        ],
+        "solution": "7, 9, 12.",
+        "id": 303302,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij dwa wiersze.",
+        "points": 2,
+        "tableRows": 3,
+        "tableCols": 2,
+        "tableData": [
+          "dziesiętnie",
+          "binarnie",
+          "2",
+          "[[10]]",
+          "4",
+          "[[100]]"
+        ],
+        "solution": "2=10, 4=100.",
+        "isSpe": true,
+        "id": 303303,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3034,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Programowanie W Języku Python"
+    ],
+    "type": "program komputerowy",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "Python",
+      "warunek",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń projektuje, tworzy i testuje programy w procesie rozwiązywania problemów. W programach stosuje: instrukcje wejścia / wyjścia, wyrażenia arytmetyczne i logiczne, instrukcje warunkowe, instrukcje iteracyjne, funkcje oraz zmienne i tablice. W szczególności programuje algorytmy z działu I pkt 2"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Napisz program w Pythonie, który pobiera liczbę i wypisuje „dodatnia”, gdy jest większa od zera, a w przeciwnym razie „niedodatnia”.",
+        "points": 3,
+        "programName": "znak.py",
+        "solution": "```python\nx=float(input())\nif x>0:\n    print(\"dodatnia\")\nelse:\n    print(\"niedodatnia\")\n```",
+        "id": 303401
+      },
+      {
+        "text": "Napisz program, który wczyta dwie liczby i wypisze większą z nich.",
+        "points": 3,
+        "programName": "wieksza.py",
+        "solution": "```python\na=float(input())\nb=float(input())\nif a>=b:\n    print(a)\nelse:\n    print(b)\n```",
+        "id": 303402,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij program tak, aby dla `x=5` wypisał „TAK”:\n```python\nx=5\nif x > 0:\n    # wpisz polecenie\n```",
+        "points": 2,
+        "programName": "warunek_spe.py",
+        "solution": "```python\nx=5\nif x > 0:\n    print(\"TAK\")\n```",
+        "isSpe": true,
+        "id": 303403,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3035,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "wiązka",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "phishing",
+      "cyberbezpieczeństwo",
+      "wiązka",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń rozpoznaje próby wyłudzania danych i stosuje działania zapobiegawcze"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Otrzymujesz wiadomość: „Twoje konto zostanie zablokowane. Zaloguj się natychmiast przez ten link i podaj kod SMS”. Nadawca ma adres `support-edu@exampl3.net`.",
+        "points": 4,
+        "customInstruction": "Przeanalizuj wiadomość i wykonaj podzadania.",
+        "solution": "Wiadomość ma cechy phishingu; nie klikamy linku, nie podajemy kodu, weryfikujemy usługę innym kanałem.",
+        "subtasks": [
+          {
+            "num": "1-1",
+            "points": 1,
+            "type": "wielokrotny wybór",
+            "text": "Wskaż sygnały ostrzegawcze.",
+            "options": [
+              "presja czasu",
+              "prośba o kod SMS",
+              "podejrzana domena",
+              "poprawna polszczyzna"
+            ],
+            "correctAnswerIndices": [
+              0,
+              1,
+              2
+            ],
+            "solution": "Presja, kod i domena."
+          },
+          {
+            "num": "1-2",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Co zrobić najpierw?",
+            "options": [
+              "kliknąć link",
+              "podać kod",
+              "zamknąć wiadomość i wejść do usługi znanym adresem",
+              "odesłać hasło"
+            ],
+            "correctAnswerIndex": 2,
+            "solution": "Weryfikujemy usługę niezależnym kanałem."
+          },
+          {
+            "num": "1-3",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Napisz dwie zasady, które chronią przed phishingiem.",
+            "solution": "Np. nie podawać kodów/haseł; sprawdzać domenę; nie działać pod presją."
+          }
+        ],
+        "id": 303501
+      },
+      {
+        "text": "SMS informuje o rzekomej dopłacie 1,50 zł do paczki i zawiera skrócony link.",
+        "points": 3,
+        "customInstruction": "Oceń ryzyko i reakcję.",
+        "solution": "To typowy sygnał phishingu; linku nie otwieramy, status sprawdzamy w oficjalnej aplikacji.",
+        "subtasks": [
+          {
+            "num": "2-1",
+            "points": 1,
+            "type": "prawda-fałsz",
+            "text": "Oceń.",
+            "statements": [
+              {
+                "text": "Skrócony link utrudnia ocenę domeny.",
+                "answer": true
+              },
+              {
+                "text": "Mała kwota oznacza, że wiadomość jest bezpieczna.",
+                "answer": false
+              }
+            ],
+            "solution": "Prawda, fałsz."
+          },
+          {
+            "num": "2-2",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Podaj bezpieczny sposób sprawdzenia statusu przesyłki.",
+            "solution": "Oficjalna aplikacja lub samodzielnie wpisany adres przewoźnika."
+          }
+        ],
+        "id": 303502,
+        "isStar": true
+      },
+      {
+        "text": "Dostajesz e-mail z prośbą o hasło do konta.",
+        "points": 2,
+        "customInstruction": "Wybierz bezpieczną reakcję.",
+        "solution": "Nie podawać hasła i zgłosić wiadomość.",
+        "isSpe": true,
+        "subtasks": [
+          {
+            "num": "S-1",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Czy podajesz hasło?",
+            "options": [
+              "Tak",
+              "Nie"
+            ],
+            "correctAnswerIndex": 1,
+            "solution": "Nie."
+          },
+          {
+            "num": "S-2",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Co robisz z wiadomością?",
+            "options": [
+              "zgłaszam jako podejrzaną",
+              "przesyłam hasło"
+            ],
+            "correctAnswerIndex": 0,
+            "solution": "Zgłaszam."
+          }
+        ],
+        "id": 303503,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3036,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Programowanie W Języku Python"
+    ],
+    "type": "program komputerowy",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "Python",
+      "NWD",
+      "Euklides",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń objaśnia oraz stosuje podstawowe algorytmy na liczbach naturalnych: badanie podzielności liczb, rozkład liczby na czynniki pierwsze, algorytm Euklidesa"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Napisz w Pythonie program obliczający NWD dwóch dodatnich liczb naturalnych metodą Euklidesa z użyciem reszty z dzielenia.",
+        "points": 4,
+        "programName": "nwd.py",
+        "solution": "```python\na=int(input())\nb=int(input())\nwhile b!=0:\n    a,b=b,a%b\nprint(a)\n```",
+        "id": 303601
+      },
+      {
+        "text": "Napisz funkcję `nwd(a,b)` realizującą algorytm Euklidesa.",
+        "points": 4,
+        "programName": "nwd_funkcja.py",
+        "solution": "```python\ndef nwd(a,b):\n    while b:\n        a,b=b,a%b\n    return a\n```",
+        "id": 303602,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij brak w algorytmie Euklidesa:\n```python\na=24\nb=18\nwhile b != 0:\n    a, b = b, [[a % b]]\nprint(a)\n```",
+        "points": 2,
+        "programName": "nwd_spe.py",
+        "solution": "```python\na=24\nb=18\nwhile b != 0:\n    a,b=b,a%b\nprint(a)\n```",
+        "isSpe": true,
+        "id": 303603,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3037,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Arkusz Kalkulacyjny"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "arkusz",
+      "adresowanie",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń korzystając z aplikacji komputerowych, przygotowuje dokumenty i prezentacje, także w chmurze, wykazując się umiejętnością: c) rozwiązywania zadań rachunkowych z programu nauczania z różnych przedmiotów w zakresie szkoły podstawowej, z codziennego życia w arkuszu kalkulacyjnym: umieszcza dane w tabeli arkusza kalkulacyjnego, posługuje się podstawowymi funkcjami, stosuje adresowanie względne, bezwzględne i mieszane, przedstawia dane w postaci różnego typu wykresów, porządkuje i filtruje dane"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Który adres komórki jest bezwzględny?",
+        "points": 1,
+        "options": [
+          "A1",
+          "$A$1",
+          "A$1",
+          "$A1"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "Adres bezwzględny ma $ przed kolumną i wierszem.",
+        "id": 303701
+      },
+      {
+        "text": "Który zapis blokuje tylko numer wiersza?",
+        "points": 1,
+        "options": [
+          "$B$4",
+          "$B4",
+          "B$4",
+          "B4"
+        ],
+        "correctAnswerIndex": 2,
+        "solution": "B$4 blokuje wiersz 4.",
+        "id": 303702,
+        "isStar": true
+      },
+      {
+        "text": "Wybierz adres bezwzględny.",
+        "points": 1,
+        "options": [
+          "C3",
+          "$C$3"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "$C$3.",
+        "isSpe": true,
+        "id": 303703,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3038,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Bezpieczeństwo W Sieci i Prawa Autorskie"
+    ],
+    "type": "przyporządkowanie",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "licencje",
+      "zasoby",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń rozróżnia typy licencji na oprogramowanie oraz na zasoby w sieci"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Połącz typ z ogólnym opisem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "licencja własnościowa",
+            "right": "użycie według warunków producenta, kod zwykle zamknięty"
+          },
+          {
+            "left": "open source",
+            "right": "dostęp do kodu źródłowego na warunkach licencji"
+          },
+          {
+            "left": "domena publiczna",
+            "right": "brak majątkowych praw autorskich lub ich wygaśnięcie w danym porządku prawnym"
+          }
+        ],
+        "solution": "Pary opisują podstawowe różnice.",
+        "id": 303801
+      },
+      {
+        "text": "Połącz pojęcie z działaniem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "licencja",
+            "right": "sprawdzam warunki użycia"
+          },
+          {
+            "left": "autor",
+            "right": "podaję twórcę"
+          },
+          {
+            "left": "źródło",
+            "right": "wskazuję miejsce pochodzenia"
+          }
+        ],
+        "solution": "Zgodnie z prawem i dobrymi praktykami.",
+        "id": 303802,
+        "isStar": true
+      },
+      {
+        "text": "Połącz: autor i źródło.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "autor",
+            "right": "twórca"
+          },
+          {
+            "left": "źródło",
+            "right": "miejsce pochodzenia"
+          }
+        ],
+        "solution": "Autor=twórca, źródło=pochodzenie.",
+        "isSpe": true,
+        "id": 303803,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3039,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Robotyka i Sztuczna Inteligencja"
+    ],
+    "type": "otwarte",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "AI",
+      "weryfikacja",
+      "media",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń próbuje odróżnić treści tworzone przez człowieka od generowanych ze wsparciem sztucznej inteligencji oraz porównuje ich styl, jakość i wartość poznawczą"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Masz dwa krótkie artykuły o tym samym wydarzeniu: jeden podpisany przez redakcję i zawierający linki do danych źródłowych, drugi anonimowy, bez źródeł i z bardzo kategorycznymi stwierdzeniami. Podaj trzy kryteria, według których porównasz ich wiarygodność, niezależnie od tego, czy któryś tekst powstał z pomocą AI.",
+        "points": 4,
+        "solution": "Np. autor/redakcja, źródła danych, data, zgodność z innymi źródłami, możliwość weryfikacji twierdzeń.",
+        "id": 303901
+      },
+      {
+        "text": "Podaj dwie cechy, które warto sprawdzić przy ocenie tekstu prawdopodobnie wygenerowanego przez AI, oraz wyjaśnij, dlaczego sam styl nie wystarcza do rozstrzygnięcia autorstwa.",
+        "points": 4,
+        "solution": "Sprawdzenie faktów/źródeł, spójności, błędów; styl nie daje pewnej identyfikacji autora.",
+        "id": 303902,
+        "isStar": true
+      },
+      {
+        "text": "Wskaż dwie rzeczy do sprawdzenia przed uznaniem internetowego tekstu za wiarygodny.",
+        "points": 2,
+        "solution": "Np. autor i źródła.",
+        "isSpe": true,
+        "id": 303903,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3040,
+    "subject": "Informatyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Programowanie W Języku Python"
+    ],
+    "type": "program komputerowy",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "Python",
+      "wyszukiwanie",
+      "algorytmy",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń stosuje podstawowe algorytmy do wyszukiwania, zliczania i porządkowania danych, w tym wyszukiwanie w ciągu uporządkowanym i nieuporządkowanym oraz porządkowanie przez wybór lub metodą bąbelkową"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Napisz funkcję w Pythonie, która zlicza, ile razy liczba `x` występuje na liście `dane`, bez użycia metody `count`.",
+        "points": 4,
+        "programName": "zliczanie.py",
+        "solution": "```python\ndef ile_razy(dane,x):\n    licznik=0\n    for e in dane:\n        if e==x:\n            licznik+=1\n    return licznik\n```",
+        "id": 304001
+      },
+      {
+        "text": "Napisz funkcję wyszukującą najmniejszy element listy bez użycia `min`.",
+        "points": 4,
+        "programName": "minimum.py",
+        "solution": "```python\ndef najmniejszy(dane):\n    m=dane[0]\n    for e in dane[1:]:\n        if e<m:\n            m=e\n    return m\n```",
+        "id": 304002,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij program zliczający zera:\n```python\ndane=[0,2,0,5]\nlicznik=0\nfor x in dane:\n    if x == [[0]]:\n        licznik += 1\nprint(licznik)\n```",
+        "points": 2,
+        "programName": "zliczanie_spe.py",
+        "solution": "W luce wpisujemy 0; wynik to 2.",
+        "isSpe": true,
+        "id": 304003,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3041,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Ruch i Siły"
+    ],
+    "type": "otwarte",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "ruch",
+      "prędkość",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń posługuje się pojęciem prędkości do opisu ruchu prostoliniowego; oblicza jej wartość i przelicza jej jednostki; stosuje do obliczeń związek prędkości z drogą i czasem, w którym została przebyta"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Rowerzysta jedzie ze stałą prędkością 6 m/s przez 25 s. Jaką drogę pokona?",
+        "points": 3,
+        "solution": "s=v·t=6·25=150 m.",
+        "id": 304101
+      },
+      {
+        "text": "Samochód pokonał 900 m w 45 s. Oblicz średnią prędkość w tym odcinku.",
+        "points": 3,
+        "solution": "v=s/t=900/45=20 m/s.",
+        "id": 304102,
+        "isStar": true
+      },
+      {
+        "text": "Ciało porusza się 4 m/s przez 10 s. Oblicz drogę.",
+        "points": 2,
+        "solution": "s=4·10=40 m.",
+        "isSpe": true,
+        "id": 304103,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3042,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Ruch i Siły"
+    ],
+    "type": "prawda-fałsz",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "siły",
+      "wypadkowa",
+      "klasa 7",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń wyznacza i rysuje siłę wypadkową dla sił o jednakowych kierunkach; opisuje i rysuje siły, które się równoważą"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Oceń zdania o siłach działających wzdłuż jednej prostej.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "Siły 5 N i 3 N działające w tę samą stronę dają wypadkową 8 N.",
+            "answer": true
+          },
+          {
+            "text": "Siły 5 N i 5 N w przeciwnych stronach dają wypadkową 10 N.",
+            "answer": false
+          }
+        ],
+        "solution": "W tę samą stronę dodajemy; równe przeciwne równoważą się.",
+        "id": 304201
+      },
+      {
+        "text": "Oceń zdania.",
+        "points": 2,
+        "statements": [
+          {
+            "text": "10 N w prawo i 4 N w lewo dają 6 N w prawo.",
+            "answer": true
+          },
+          {
+            "text": "2 N i 3 N w tę samą stronę dają 1 N.",
+            "answer": false
+          }
+        ],
+        "solution": "Różnica lub suma zależnie od kierunków.",
+        "id": 304202,
+        "isStar": true
+      },
+      {
+        "text": "Oceń.",
+        "points": 1,
+        "statements": [
+          {
+            "text": "3 N i 2 N w tę samą stronę dają 5 N.",
+            "answer": true
+          }
+        ],
+        "solution": "3+2=5 N.",
+        "isSpe": true,
+        "id": 304203,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3043,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Dociekanie Naukowe"
+    ],
+    "type": "przyporządkowanie",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "dociekanie",
+      "metoda naukowa",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń formułuje hipotezy i pytania badawcze na podstawie obserwacji zjawisk"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Połącz element badania z przykładem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "pytanie badawcze",
+            "right": "Czy długość wahadła wpływa na okres drgań?"
+          },
+          {
+            "left": "hipoteza",
+            "right": "Dłuższe wahadło będzie miało dłuższy okres."
+          },
+          {
+            "left": "pomiar",
+            "right": "Mierzę czas 10 drgań stoperem."
+          }
+        ],
+        "solution": "Pytanie, hipoteza i pomiar pełnią różne role.",
+        "id": 304301
+      },
+      {
+        "text": "Połącz pojęcie z opisem.",
+        "points": 3,
+        "pairs": [
+          {
+            "left": "hipoteza",
+            "right": "przypuszczalna odpowiedź"
+          },
+          {
+            "left": "wynik",
+            "right": "uzyskana wartość lub obserwacja"
+          },
+          {
+            "left": "wniosek",
+            "right": "interpretacja wyniku"
+          }
+        ],
+        "solution": "Zgodnie z etapami badania.",
+        "id": 304302,
+        "isStar": true
+      },
+      {
+        "text": "Połącz dwa elementy.",
+        "points": 2,
+        "pairs": [
+          {
+            "left": "pytanie",
+            "right": "co chcę sprawdzić"
+          },
+          {
+            "left": "hipoteza",
+            "right": "czego się spodziewam"
+          }
+        ],
+        "solution": "Pytanie i hipoteza.",
+        "isSpe": true,
+        "id": 304303,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3044,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "7"
+    ],
+    "department": [
+      "Ruch i Siły"
+    ],
+    "type": "wykres",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "ruch",
+      "wykres",
+      "klasa 7",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń analizuje i stosuje do rozwiązywania problemów związki: między prędkością, drogą i czasem dla ruchu jednostajnego oraz między przyspieszeniem, zmianą prędkości i czasem dla ruchu jednostajnie zmiennego prostoliniowego"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Wykres pokazuje drogę w kolejnych sekundach ruchu jednostajnego. Odczytaj drogę po 4 s.",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "line",
+        "chartTitle": "Droga s(t) [m]",
+        "chartLabels": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "chartData": [
+          0,
+          3,
+          6,
+          9,
+          12
+        ],
+        "solution": "Po 4 s: 12 m.",
+        "id": 304401
+      },
+      {
+        "text": "Na wykresie prędkość jest stała. Jaka jest jej wartość w 3 s?",
+        "points": 2,
+        "taskType": "wykres",
+        "chartType": "line",
+        "chartTitle": "Prędkość v(t) [m/s]",
+        "chartLabels": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "chartData": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "solution": "5 m/s.",
+        "id": 304402,
+        "isStar": true
+      },
+      {
+        "text": "Odczytaj wartość z ostatniego punktu.",
+        "points": 1,
+        "taskType": "wykres",
+        "chartType": "line",
+        "chartTitle": "Wykres",
+        "chartLabels": [
+          "0",
+          "1",
+          "2"
+        ],
+        "chartData": [
+          0,
+          2,
+          4
+        ],
+        "solution": "4.",
+        "isSpe": true,
+        "id": 304403,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3045,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Optyka"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "optyka",
+      "odbicie",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń opisuje zjawisko odbicia od powierzchni płaskiej i od powierzchni sferycznej"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Które zjawisko zachodzi, gdy światło pada na gładkie lustro i zmienia kierunek, pozostając w tym samym ośrodku?",
+        "points": 1,
+        "options": [
+          "odbicie",
+          "parowanie",
+          "dyfuzja materii",
+          "krzepnięcie"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Jest to odbicie światła.",
+        "id": 304501
+      },
+      {
+        "text": "Promień światła pada na płaskie lustro. Który opis jest poprawny?",
+        "points": 1,
+        "options": [
+          "Promień może zostać odbity od powierzchni lustra.",
+          "Światło zawsze zatrzymuje się w lustrze.",
+          "Lustro zamienia światło na dźwięk."
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Płaskie lustro odbija światło.",
+        "id": 304502,
+        "isStar": true
+      },
+      {
+        "text": "Światło pada na lustro. Co obserwujemy?",
+        "points": 1,
+        "options": [
+          "odbicie światła",
+          "wrzenie"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "Obserwujemy odbicie światła.",
+        "isSpe": true,
+        "id": 304503,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3046,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Prąd Elektryczny"
+    ],
+    "type": "uzupełnij tabelę",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "elektryczność",
+      "jednostki",
+      "klasa 8",
+      "podstawa 2017"
+    ],
+    "requirements": [
+      "Uczeń posługuje się pojęciem napięcia elektrycznego jako wielkości określającej ilość energii potrzebnej do przeniesienia jednostkowego ładunku w obwodzie; stosuje jednostkę napięcia",
+      "Uczeń posługuje się pojęciem natężenia prądu wraz z jego jednostką; stosuje do obliczeń związek między natężeniem prądu a ładunkiem i czasem jego przepływu przez przekrój poprzeczny przewodnika"
+    ],
+    "podstawa": "2017",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uzupełnij symbole i jednostki.",
+        "points": 3,
+        "tableRows": 3,
+        "tableCols": 3,
+        "tableData": [
+          "wielkość",
+          "symbol",
+          "jednostka",
+          "napięcie",
+          "U",
+          "[[V]]",
+          "natężenie",
+          "I",
+          "[[A]]"
+        ],
+        "solution": "Napięcie: V; natężenie: A.",
+        "id": 304601
+      },
+      {
+        "text": "Uzupełnij nazwy jednostek.",
+        "points": 2,
+        "tableRows": 3,
+        "tableCols": 3,
+        "tableData": [
+          "wielkość",
+          "symbol jednostki",
+          "nazwa",
+          "napięcie",
+          "V",
+          "[[wolt]]",
+          "natężenie",
+          "A",
+          "[[amper]]"
+        ],
+        "solution": "wolt, amper.",
+        "id": 304602,
+        "isStar": true
+      },
+      {
+        "text": "Uzupełnij: natężenie ma jednostkę...",
+        "points": 1,
+        "tableRows": 2,
+        "tableCols": 2,
+        "tableData": [
+          "wielkość",
+          "jednostka",
+          "natężenie",
+          "[[A]]"
+        ],
+        "solution": "A.",
+        "isSpe": true,
+        "id": 304603,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3047,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Fale, Dźwięk i Światło"
+    ],
+    "type": "jednokrotny wybór",
+    "difficulty": "średnie",
+    "author": "InfoMatyka",
+    "estimatedTime": 3,
+    "tags": [
+      "fale",
+      "częstotliwość",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń analizuje i stosuje w obliczeniach związek między okresem i częstotliwością"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Okres drgań wynosi 0,5 s. Jaka jest częstotliwość?",
+        "points": 1,
+        "options": [
+          "0,5 Hz",
+          "1 Hz",
+          "2 Hz",
+          "5 Hz"
+        ],
+        "correctAnswerIndex": 2,
+        "solution": "f=1/T=1/0,5=2 Hz.",
+        "id": 304701
+      },
+      {
+        "text": "Częstotliwość wynosi 4 Hz. Jaki jest okres?",
+        "points": 1,
+        "options": [
+          "4 s",
+          "0,25 s",
+          "2 s",
+          "0,5 s"
+        ],
+        "correctAnswerIndex": 1,
+        "solution": "T=1/f=0,25 s.",
+        "id": 304702,
+        "isStar": true
+      },
+      {
+        "text": "Okres wynosi 1 s. Częstotliwość to:",
+        "points": 1,
+        "options": [
+          "1 Hz",
+          "2 Hz"
+        ],
+        "correctAnswerIndex": 0,
+        "solution": "f=1/1=1 Hz.",
+        "isSpe": true,
+        "id": 304703,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
+      }
+    ]
+  },
+  {
+    "baseId": 3048,
+    "subject": "Fizyka",
+    "school": [
+      "Szkoła Podstawowa"
+    ],
+    "class": [
+      "8"
+    ],
+    "department": [
+      "Prąd Elektryczny"
+    ],
+    "type": "wiązka",
+    "difficulty": "trudne",
+    "author": "InfoMatyka",
+    "estimatedTime": 5,
+    "tags": [
+      "obwód",
+      "pomiary",
+      "wiązka",
+      "klasa 8",
+      "podstawa 2026"
+    ],
+    "requirements": [
+      "Uczeń mierzy napięcie elektryczne i natężenie prądu miernikiem uniwersalnym, rysuje schematy obwodów elektrycznych, uwzględniając mierniki"
+    ],
+    "podstawa": "2026",
+    "targetApps": [
+      "generator-testow"
+    ],
+    "variants": [
+      {
+        "text": "Uczeń bada prosty obwód z baterią i opornikiem. Zmierzył napięcie 4,5 V i natężenie 0,15 A.",
+        "points": 4,
+        "customInstruction": "Wykonaj podzadania dotyczące pomiarów i bezpieczeństwa.",
+        "solution": "Napięcie mierzy woltomierz równolegle, natężenie amperomierz szeregowo; należy używać bezpiecznych źródeł niskiego napięcia.",
+        "subtasks": [
+          {
+            "num": "1-1",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Który przyrząd mierzy napięcie?",
+            "options": [
+              "woltomierz",
+              "amperomierz",
+              "siłomierz"
+            ],
+            "correctAnswerIndex": 0,
+            "solution": "Woltomierz."
+          },
+          {
+            "num": "1-2",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Który przyrząd mierzy natężenie?",
+            "options": [
+              "termometr",
+              "amperomierz",
+              "linijka"
+            ],
+            "correctAnswerIndex": 1,
+            "solution": "Amperomierz."
+          },
+          {
+            "num": "1-3",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Podaj jedną zasadę bezpiecznej pracy z obwodem szkolnym.",
+            "solution": "Np. budować obwód przy odłączonym źródle i stosować tylko bezpieczne niskie napięcia zgodnie z poleceniem nauczyciela."
+          }
+        ],
+        "id": 304801
+      },
+      {
+        "text": "W obwodzie szkolnym zmierzono U=3 V i I=0,1 A.",
+        "points": 3,
+        "customInstruction": "Rozpoznaj wielkości i przyrządy.",
+        "solution": "U – napięcie, I – natężenie; woltomierz i amperomierz.",
+        "subtasks": [
+          {
+            "num": "2-1",
+            "points": 1,
+            "type": "przyporządkowanie",
+            "text": "Połącz symbol z wielkością.",
+            "pairs": [
+              {
+                "left": "U",
+                "right": "napięcie"
+              },
+              {
+                "left": "I",
+                "right": "natężenie"
+              }
+            ],
+            "solution": "U-napięcie, I-natężenie."
+          },
+          {
+            "num": "2-2",
+            "points": 2,
+            "type": "otwarte",
+            "text": "Wymień przyrządy do pomiaru U i I.",
+            "solution": "Woltomierz i amperomierz/miernik uniwersalny."
+          }
+        ],
+        "id": 304802,
+        "isStar": true
+      },
+      {
+        "text": "W obwodzie trzeba zmierzyć napięcie.",
+        "points": 2,
+        "customInstruction": "Wybierz przyrząd i zasadę.",
+        "solution": "Woltomierz/miernik uniwersalny; pracować zgodnie z instrukcją i na bezpiecznym źródle.",
+        "isSpe": true,
+        "subtasks": [
+          {
+            "num": "S-1",
+            "points": 1,
+            "type": "jednokrotny wybór",
+            "text": "Wybierz przyrząd.",
+            "options": [
+              "woltomierz",
+              "stoper"
+            ],
+            "correctAnswerIndex": 0,
+            "solution": "Woltomierz."
+          },
+          {
+            "num": "S-2",
+            "points": 1,
+            "type": "prawda-fałsz",
+            "text": "Oceń.",
+            "statements": [
+              {
+                "text": "W szkolnym doświadczeniu stosuję źródło i przewody zgodnie z instrukcją nauczyciela.",
+                "answer": true
+              }
+            ],
+            "solution": "Prawda."
+          }
+        ],
+        "id": 304803,
+        "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
       }
     ]
   }
