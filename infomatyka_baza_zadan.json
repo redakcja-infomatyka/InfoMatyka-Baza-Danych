@@ -5655,5 +5655,160 @@
         "speInfo": "krótsze polecenie, mniej danych i wyraźne wskazówki"
       }
     ]
+  },
+  {
+    "baseId": 3049,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "jednokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "SQL", "WHERE"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 304901,
+        "text": "Która klauzula SQL służy do filtrowania rekordów w zapytaniu SELECT?",
+        "points": 1,
+        "options": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
+        "correctAnswerIndex": 0,
+        "solution": "WHERE nakłada warunek na wybierane wiersze."
+      }
+    ]
+  },
+  {
+    "baseId": 3050,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "otwarte",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "klucz główny", "relacyjne bazy danych"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305001,
+        "text": "Wyjaśnij, czym jest klucz główny tabeli.",
+        "points": 2,
+        "solution": "Klucz główny jednoznacznie identyfikuje każdy rekord tabeli. Nie powinien zawierać powtórzeń ani wartości NULL."
+      }
+    ]
+  },
+  {
+    "baseId": 3051,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "prawda-fałsz",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "relacyjne bazy danych", "klucz obcy"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305101,
+        "text": "Oceń prawdziwość zdań o relacyjnych bazach danych.",
+        "points": 2,
+        "statements": [
+          {"text": "Tabela składa się z wierszy i kolumn.", "answer": true},
+          {"text": "Klucz obcy musi być unikatowy w całej tabeli.", "answer": false},
+          {"text": "Relacja może łączyć dane z dwóch tabel.", "answer": true}
+        ],
+        "solution": "Klucz obcy może się powtarzać, ponieważ wskazuje rekord w innej tabeli."
+      }
+    ]
+  },
+  {
+    "baseId": 3052,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "uzupełnij lukę",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "SQL", "WHERE"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305201,
+        "text": "Uzupełnij zapytanie: `SELECT * FROM uczniowie [[WHERE]] klasa = 2;`",
+        "points": 1,
+        "solution": "Klauzula WHERE filtruje rekordy spełniające warunek."
+      }
+    ]
+  },
+  {
+    "baseId": 3053,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "przyporządkowanie",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "SQL", "polecenia SQL"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305301,
+        "text": "Połącz polecenie SQL z jego zastosowaniem.",
+        "points": 2,
+        "pairs": [
+          {"left": "SELECT", "right": "Pobiera dane"},
+          {"left": "INSERT", "right": "Dodaje rekord"},
+          {"left": "UPDATE", "right": "Modyfikuje rekord"},
+          {"left": "DELETE", "right": "Usuwa dane"}
+        ],
+        "solution": "SELECT pobiera, INSERT dodaje, UPDATE modyfikuje, a DELETE usuwa dane."
+      }
+    ]
+  },
+  {
+    "baseId": 3054,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "wielokrotny wybór",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "tabela", "kolumna", "wiersz"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305401,
+        "text": "Wybierz wszystkie elementy, które mogą wystąpić w tabeli bazy danych.",
+        "points": 2,
+        "options": ["kolumna", "wiersz", "komórka", "slajd"],
+        "correctAnswerIndices": [0, 1, 2],
+        "solution": "Tabela składa się z kolumn, wierszy i komórek. Slajd jest elementem prezentacji."
+      }
+    ]
+  },
+  {
+    "baseId": 3055,
+    "subject": "Informatyka",
+    "school": ["Szkoła Średnia"],
+    "level": "Podstawowy",
+    "department": ["Bazy Danych i Ich Zastosowanie"],
+    "type": "otwarte",
+    "difficulty": "łatwe",
+    "author": "InfoMatyka",
+    "tags": ["bazy danych", "SQL", "SELECT", "ORDER BY"],
+    "targetApps": ["generator-testow"],
+    "variants": [
+      {
+        "id": 305501,
+        "text": "Napisz zapytanie zwracające imiona uczniów z klasy 1, posortowane alfabetycznie.",
+        "points": 2,
+        "solution": "Przykładowe rozwiązanie: `SELECT imie FROM uczniowie WHERE klasa = 1 ORDER BY imie;`"
+      }
+    ]
   }
 ]
