@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" font-family="Arial, sans-serif">
+  <title>Schemat blokowy – czy liczba jest parzysta</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#334155"/></marker></defs>
+  <rect width="480" height="420" fill="#ffffff"/>
+  <g stroke="#334155" stroke-width="2.5" fill="none" marker-end="url(#a)">
+    <line x1="240" y1="58" x2="240" y2="92"/><line x1="240" y1="140" x2="240" y2="172"/>
+    <polyline points="170,222 100,222 100,290"/><polyline points="310,222 380,222 380,290"/>
+    <polyline points="100,338 100,372 200,372"/><polyline points="380,338 380,372 280,372"/>
+  </g>
+  <rect x="180" y="18" width="120" height="40" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="240" y="44" font-size="16" text-anchor="middle" fill="#0f172a">START</text>
+  <polygon points="190,92 310,92 290,140 170,140" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+  <text x="240" y="122" font-size="16" text-anchor="middle" fill="#0f172a">Wczytaj n</text>
+  <polygon points="240,172 310,222 240,272 170,222" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+  <text x="240" y="228" font-size="15" text-anchor="middle" fill="#0f172a">n mod 2 = 0?</text>
+  <text x="130" y="212" font-size="14" fill="#16a34a" font-weight="bold">TAK</text>
+  <text x="322" y="212" font-size="14" fill="#dc2626" font-weight="bold">NIE</text>
+  <polygon points="40,290 170,290 150,338 20,338" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+  <text x="95" y="320" font-size="14" text-anchor="middle" fill="#0f172a">Wypisz „parzysta”</text>
+  <polygon points="320,290 460,290 440,338 300,338" fill="#e0f2fe" stroke="#0284c7" stroke-width="2.5"/>
+  <text x="380" y="320" font-size="14" text-anchor="middle" fill="#0f172a">Wypisz „nieparzysta”</text>
+  <rect x="200" y="352" width="80" height="40" rx="20" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="240" y="378" font-size="16" text-anchor="middle" fill="#0f172a">STOP</text>
+</svg>
