@@ -1,0 +1,586 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2018/2019",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2019_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2019_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest cyfra jedności iloczynu wszystkich liczb nieparzystych od 1 do 2019?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród liczb nieparzystych od 1 do 2019 jest liczba 5, a iloczyn liczby kończącej się na 5 przez dowolną liczbę nieparzystą zawsze kończy się na 5. Zatem cyfra jedności całego iloczynu to 5.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "patrz tylko na cyfrę jedności iloczynu i zwróć uwagę na czynnik 5",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Budujemy wyrażenia arytmetyczne w następujący sposób:</p><ul><li>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math></li><li>III. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math></li><li>IV. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math></li><li>V. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math></li></ul><p>Jaką wartość będzie miało VI. wyrażenie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>34</mn><mn>21</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>13</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>13</mn><mn>34</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>21</mn><mn>34</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczniki i mianowniki kolejnych wyrażeń to sąsiednie liczby Fibonacciego: I = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math>, II = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>, …, V = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>13</mn></mfrac></math>.</p><p>Stąd VI = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>13</mn><mn>21</mn></mfrac><mo>=</mo><mfrac><mn>34</mn><mn>21</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każde kolejne wyrażenie to 1 + 1/(poprzednie) — licz po kolei od I",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Za pięć lat dwie siostry i dwaj bracia będą mieli razem 60 lat.</p><p>Dokończ zdanie. Za piętnaście lat ich łączny wiek będzie równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100 lat."
+    },
+    {
+     "litera": "B",
+     "html": "105 lat."
+    },
+    {
+     "litera": "C",
+     "html": "110 lat."
+    },
+    {
+     "litera": "D",
+     "html": "120 lat."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Za pięć lat cztery osoby mają razem 60 lat. Do chwili „za piętnaście lat” upływa jeszcze 10 lat, w czasie których każda z 4 osób starzeje się o 10 lat, więc suma wieku rośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>40</mn></mrow></math> lat. Łącznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>100</mn></mrow></math> lat.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, o ile urośnie suma wieku przez kolejne dziesięć lat",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Dokończ zdanie. Liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2019</mn><mn>11</mn></msup><mo>+</mo><msup><mn>2019</mn><mn>12</mn></msup></math> <u>nie jest</u> podzielna przez</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "50"
+    },
+    {
+     "litera": "B",
+     "html": "101"
+    },
+    {
+     "litera": "C",
+     "html": "2019"
+    },
+    {
+     "litera": "D",
+     "html": "2020"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyłączamy czynnik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2019</mn><mn>11</mn></msup><mo>+</mo><msup><mn>2019</mn><mn>12</mn></msup><mo>=</mo><msup><mn>2019</mn><mn>11</mn></msup><mo>·</mo><mn>2020</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2020</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>101</mn></mrow></math>. Ponieważ 2019 nie dzieli się przez 5, cały iloczyn ma tylko jeden czynnik 5 — nie dzieli się więc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz 2019¹¹ przed nawias",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń"
+   ],
+   "tresc_html": "<p>W pewnej klasie jest trzydziestu uczniów. Wśród nich jest sześciu takich, którzy mają psa i kota, oraz dziesięciu, którzy nie mają psa ani kota, oraz wiadomo, że piętnastu uczniów ma kota. Wskaż zdanie <u>fałszywe</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Jedenastu uczniów tej klasy ma psa."
+    },
+    {
+     "litera": "B",
+     "html": "Pięciu uczniów tej klasy ma psa i nie ma kota."
+    },
+    {
+     "litera": "C",
+     "html": "Dziewięciu uczniów tej klasy ma kota i nie ma psa."
+    },
+    {
+     "litera": "D",
+     "html": "Uczniów, którzy mają psa jest więcej niż uczniów, którzy mają kota."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Uczniów mających psa lub kota jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>20</mn></mrow></math>. Z zasady włączeń i wyłączeń liczba mających psa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>−</mo><mn>15</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>11</mn></mrow></math>. Psa ma więc 11 uczniów, a kota 15 — psa jest mniej niż kota, więc to zdanie jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "od 30 odejmij tych bez zwierząt, potem wydziel tych, którzy mają tylko kota",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>W pudełkach I i II umieszczono kule białe i czarne (rysunek poniżej). Losujemy po jednej kuli, najpierw z pudełka I następnie z pudełka II.</p><p>Dokończ zdanie. Prawdopodobieństwo wylosowania dwóch kul czarnych jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>13</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>25</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2019_podkarpackie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W pudełku I jest 5 kul czarnych na 8, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math>. W pudełku II są 2 czarne na 5, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>. Prawdopodobieństwo dwóch czarnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz kule w każdym pudełku osobno i pomnóż oba prawdopodobieństwa",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Adam jechał z domu do szkoły na rowerze. Połowę drogi przebył z prędkością 12 km/h, trzecią część pozostałej drogi z prędkością 8 km/h, a ostatnią część drogi z prędkością 16 km/h. Jak daleko od szkoły mieszka Adam, jeżeli całą trasę przejechał w ciągu 20 minut?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 km"
+    },
+    {
+     "litera": "B",
+     "html": "4 km"
+    },
+    {
+     "litera": "C",
+     "html": "6 km"
+    },
+    {
+     "litera": "D",
+     "html": "8 km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to cała droga. Adam jedzie kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>2</mn></mfrac></math> km z prędkością 12, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>6</mn></mfrac></math> km (jedna trzecia reszty) z prędkością 8, i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>3</mn></mfrac></math> km z prędkością 16 km/h. Czas jazdy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>d</mi><mn>24</mn></mfrac><mo>+</mo><mfrac><mi>d</mi><mn>48</mn></mfrac><mo>+</mo><mfrac><mi>d</mi><mn>48</mn></mfrac><mo>=</mo><mfrac><mi>d</mi><mn>12</mn></mfrac></mrow></math>. Ponieważ 20 min to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>d</mi><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>4</mn></mrow></math> km.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Jedna z przekątnych czworokąta wypukłego, którego obwód wynosi 27 cm, dzieli ten czworokąt na dwa trójkąty o obwodach odpowiednio 24 cm i 23 cm. Jaka jest długość tej przekątnej?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 cm"
+    },
+    {
+     "litera": "B",
+     "html": "5 cm"
+    },
+    {
+     "litera": "C",
+     "html": "10 cm"
+    },
+    {
+     "litera": "D",
+     "html": "20 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma obwodów obu trójkątów to obwód czworokąta powiększony o dwukrotność przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> (liczy się ona w każdym trójkącie): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>+</mo><mn>23</mn><mo>=</mo><mn>27</mn><mo>+</mo><mn>2</mn><mi>d</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>d</mi><mo>=</mo><mn>20</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>10</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj obwody obu trójkątów — przekątną policzysz wtedy dwa razy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "podwojne-liczenie"
+    ],
+    "opis": "Przekątna wchodzi do obwodu obu trójkątów, więc różnicę sum obwodów trzeba podzielić przez 2"
+   }
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równoległobokiem. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> mają równe długości.</p><p>Dokończ zdanie. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "105°"
+    },
+    {
+     "litera": "B",
+     "html": "100°"
+    },
+    {
+     "litera": "C",
+     "html": "90°"
+    },
+    {
+     "litera": "D",
+     "html": "85°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2019_podkarpackie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>S jest środkiem AB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SA</mi><mo>=</mo><mi>SB</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SB</mi><mo>=</mo><mi>SD</mi></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SA</mi><mo>=</mo><mi>SB</mi><mo>=</mo><mi>SD</mi></mrow></math> — punkty A, B, D leżą na okręgu o środku S, a AB (złożone z odcinków SA i SB) jest jego średnicą. Kąt ADB, wpisany i oparty na średnicy, ma miarę 90° (tw. Talesa).</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "punkt S jest środkiem AB, więc SA = SB = SD — pomyśl o okręgu o środku S",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Graniastosłup prosty, którego podstawą jest trójkąt o bokach długości 8 cm, 8 cm i 6 cm, przecięto na dwie części w sposób pokazany na rysunku. Wskaż zdanie <u>fałszywe</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Objętości powstałych graniastosłupów są równe."
+    },
+    {
+     "litera": "B",
+     "html": "Pola podstaw powstałych graniastosłupów są równe."
+    },
+    {
+     "litera": "C",
+     "html": "Wysokości powstałych graniastosłupów są równe."
+    },
+    {
+     "litera": "D",
+     "html": "Pola powierzchni bocznych powstałych graniastosłupów są równe."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2019_podkarpackie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cięcie prowadzi od wierzchołka podstawy do środka przeciwległego boku (mediana), więc dzieli trójkąt podstawy na dwie części o tej samej podstawie (4 cm) i tej samej wysokości — ich pola są równe. Wysokość obu graniastosłupów to niezmieniona wysokość wyjściowej bryły — też równa, więc równe są i objętości (pole podstawy razy wysokość). Jednak boki podstaw dochodzące do cięcia mają 8 cm i 6 cm — różne, więc pola powierzchni bocznych (zależne od obwodu podstawy) nie są sobie równe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole boczne to obwód podstawy razy wysokość, a krawędź cięcia jest wspólna",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Sklejono podstawami dwie bryły o przystających podstawach: ostrosłup prawidłowy i graniastosłup prawidłowy. Otrzymana w ten sposób bryła ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> wierzchołków, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną nieparzystą i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&gt;</mo><mn>6</mn></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> oznaczają kolejno liczbę ścian, wierzchołków i krawędzi tej bryły. Zapisz liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Udowodnij, że wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>+</mo><mi>W</mi><mo>−</mo><mi>K</mi></mrow></math> nie zależy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "S = n, W = n, K = 2n − 2, S + W − K = 2",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Podstawą obu brył jest wielokąt o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> bokach, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>. Wierzchołki bryły to: wierzchołek ostrosłupa, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> wspólnych wierzchołków sklejonych podstaw oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> wierzchołków drugiej podstawy graniastosłupa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>W</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mi>n</mi></mrow></math>. Ściany to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> trójkątów ostrosłupa, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> prostokątów graniastosłupa oraz jedna (wolna) podstawa graniastosłupa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mi>n</mi></mrow></math>. Krawędzie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mn>4</mn><mi>k</mi><mo>=</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>2</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>+</mo><mi>W</mi><mo>−</mo><mi>K</mi><mo>=</mo><mi>n</mi><mo>+</mo><mi>n</mi><mo>−</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn></mrow></math>, niezależnie od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne zapisanie S i K za pomocą n</li><li>2 pkt – poprawne zapisanie wyrażenia S + W – K za pomocą n</li><li>3 pkt – poprawne przekształcenie wyrażenia S + W – K i uzasadnienie, że wartość wyrażenia S + W – K nie zależy od n</li></ul><p>Uwaga: w zadaniu nr 11 wystarczy, jeśli uczeń po przekształceniach zapisze, że S + W – K = 2. Nie musi dodawać, że otrzymany wynik nie zależy od n. Ale jeśli uczeń sprawdza na konkretnych przykładach wartość wyrażenia S + W – K, nie otrzymuje za te czynności żadnych punktów, choćby obliczenia były wykonywane poprawnie.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Sklejone podstawy znikają jako ściany, a krawędzie wspólnej podstawy liczą się tylko raz"
+   }
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Zauważ, że:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>1</mn></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>4</mn><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>1</mn></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn><mo>=</mo><mn>9</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>1</mn></mrow></math></li></ul><p>Zapisz analogicznie dwie kolejne równości. A teraz uzupełnij poniższy wzór tak, by opisywał ogólną zależność, którą ilustrują podane wyżej przykłady: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mo>…</mo></mrow></math> Udowodnij, że zapisany przez Ciebie wzór jest prawdziwy dla dowolnej liczby naturalnej.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "n² = (n − 1)² + 2·(n − 1) + 1; kolejne równości: 5·5 = 25 = 16 + 2·4 + 1 oraz 6·6 = 36 = 25 + 2·5 + 1",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kolejne równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn><mo>=</mo><mn>16</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn><mo>=</mo><mn>25</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>+</mo><mn>1</mn></mrow></math>. Ogólny wzór: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn></mrow></math>. Dowód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup></mrow></math> (lub: prawa strona to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math>).</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne zapisanie dwóch kolejnych równości</li><li>2 pkt – poprawne zapisanie dwóch kolejnych równości i ogólnej zależności</li><li>3 pkt – poprawne zastosowanie wzoru skróconego mnożenia dla kwadratu różnicy n i 1 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> lub poprawne pomnożenie różnicy liczb n i 1 przez różnicę liczb n i 1 lub zauważenie, że prawa strona równości jest kwadratem sumy liczb n – 1 oraz 1</li><li>4 pkt – poprawne przekształcenie otrzymanej sumy algebraicznej</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "równania z jedną zmienną",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Pewne działanie oznaczono symbolem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⊗</mo></math> i zdefiniowano w zbiorze liczb wymiernych następująco: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>⊗</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>. Wyznacz wartość liczbową niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>⊗</mo><mo>[</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>⊗</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>2020</mn></mrow></math>. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "x = 2019",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Najpierw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>⊗</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mi>x</mi></mrow></math>. Następnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>⊗</mo><mi>x</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2020</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2019</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne wykonanie działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>⊗</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math></li><li>2 pkt – poprawne zastosowanie zdefiniowanego działania do wyznaczenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>⊗</mo><mi>x</mi></math></li><li>3 pkt – poprawne wyznaczenie x</li></ul>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2020</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>2019</mn><mo>·</mo><mn>2021</mn></mrow></msqrt></mrow></msqrt></math>. Wynik podaj w postaci liczby naturalnej. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2020",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Korzystamy ze wzoru skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2019</mn><mo>·</mo><mn>2021</mn><mo>=</mo><mo>(</mo><mn>2020</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>2020</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>2020</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2019</mn><mo>·</mo><mn>2021</mn><mo>=</mo><msup><mn>2020</mn><mn>2</mn></msup></mrow></math> i wyrażenie równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>2020</mn><mo>·</mo><msqrt><msup><mn>2020</mn><mn>2</mn></msup></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2020</mn><mo>·</mo><mn>2020</mn></mrow></msqrt><mo>=</mo><mn>2020</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – zapisanie iloczynu 2019·2020 za pomocą iloczynu sumy przez różnicę umożliwiającego skorzystanie ze wzoru skróconego mnożenia lub inne przekształcenie umożliwiające skorzystanie ze wzorów skróconego mnożenia</li><li>2 pkt – doprowadzenie wyrażenia pod pierwiastkiem do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2020</mn><mn>2</mn></msup></math></li><li>3 pkt – wyznaczenie końcowego wyniku</li></ul>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zmiany procentowe",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>W ciągu czterech lat wiek czterech osób wzrósł dla każdej z tych osób odpowiednio o 10%, 16%, 40% i 80%. Oblicz, o ile procent wzrosła średnia arytmetyczna wieku tych czterech osób. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "20%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W ciągu czterech lat wiek każdej osoby wzrósł o te same 4 lata, więc wiek przed czterema laty wynosił kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>0,1</mn><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>0,16</mn><mo>=</mo><mn>25</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>0,4</mn><mo>=</mo><mn>10</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>0,8</mn><mo>=</mo><mn>5</mn></mrow></math>. Średnia wieku przed czterema laty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>40</mn><mo>+</mo><mn>25</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>5</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>20</mn></mrow></math>, a obecnie (każdy o 4 lata starszy) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math>. Wzrost średniej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>20</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>20</mn><mo>%</mo></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawna metoda wyznaczenia wieku każdej z czterech osób przed czterema laty</li><li>2 pkt – poprawna metoda wyznaczenia średniej wieku tych osób przed czterema laty</li><li>3 pkt – poprawna metoda wyznaczenia średniej obecnego wieku tych osób</li><li>4 pkt – poprawna metoda obliczenia, o ile procent wzrosła średnia wieku tych czterech osób w ciągu czterech lat</li><li>5 pkt – poprawność rachunkowa w całym zadaniu</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "procent-podstawa"
+    ],
+    "opis": "Kusi uśrednić procenty; ukryta dana: przez 4 lata każdy postarzał się o 4 lata, co wyznacza wiek"
+   }
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wielokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest ośmiokąt foremny o boku długości 2. Oblicz pole tego ośmiokąta. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2019_podkarpackie_q16_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "8 + 8√2",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ośmiokąt foremny dzielimy na kwadrat o boku 2, cztery prostokąty o bokach 2 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> oraz cztery trójkąty prostokątne równoramienne o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawny sposób podziału ośmiokąta</li><li>2 pkt – poprawny sposób obliczenia pól figur, na które został podzielony ośmiokąt</li><li>3 pkt – obliczenie pola ośmiokąta</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są kolejnymi wierzchołkami równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Narysuj równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> w układzie współrzędnych. Podaj współrzędne wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i oblicz pole równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C = (−4, 4), pole = 20",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W równoległoboku przekątne przecinają się w połowie. Środek odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>. Pole obliczamy jako pole prostokąta o bokach 6 i 8 pomniejszone o cztery trójkąty prostokątne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>48</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>20</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – zaznaczenie punktów A, B, C i D w układzie współrzędnych i podanie współrzędnych punktu C</li><li>2 pkt – poprawny sposób podziału równoległoboku na figury, których pola można obliczyć wykorzystując odcinki równoległe do osi OX lub OY lub dobudowanie do równoległoboku trójkątów prostokątnych, które razem z równoległobokiem tworzą prostokąt</li><li>3 pkt – poprawne metody obliczenia pól figur, na które został podzielony równoległobok</li><li>4 pkt – obliczenie pola równoległoboku ABCD</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "ostrosłupy",
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Podstawą ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDS</mi></math> przedstawionego na rysunku jest kwadrat. Uzasadnij, że trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBS</mi></math> są prostokątne. Oblicz pole powierzchni bocznej tego ostrosłupa. Narysuj siatkę tego ostrosłupa. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2019_podkarpackie_q18_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole powierzchni bocznej = 27",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> jest prostopadła do podstawy — kwadratu o boku 3. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> są prostokątne o przyprostokątnych 3 i 4 (trójkąty „egipskie\"), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></mrow></math>. Przekątna kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>, więc z twierdzenia Pitagorasa dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBS</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>34</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>34</mn></msqrt></mrow></math>. W trójkątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBS</mi></math> boki 3, 5 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>34</mn></msqrt></math> spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>34</mn></mrow></math>, więc na mocy twierdzenia odwrotnego do twierdzenia Pitagorasa są to trójkąty prostokątne. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>12</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>27</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – obliczenie długości krawędzi bocznych AS i CS ostrosłupa – wykorzystanie twierdzenia Pitagorasa lub zauważenie, że trójkąty ADS i CDS to trójkąty „egipskie” lub poprawna metoda obliczenia długości krawędzi BS ostrosłupa – podanie/obliczenie długości przekątnej kwadratu o boku długości 3 i wykorzystanie twierdzenia Pitagorasa dla trójkąta DBS</li><li>2 pkt – obliczenie długości krawędzi bocznych AS i CS ostrosłupa – wykorzystanie twierdzenia Pitagorasa lub zauważenie, że trójkąty ADS i CDS to trójkąty „egipskie” i poprawna metoda obliczenia długości krawędzi BS ostrosłupa – podanie/obliczenie długości przekątnej kwadratu o boku długości 3 i wykorzystanie twierdzenia Pitagorasa dla trójkąta DBS</li><li>3 pkt – uzasadnienie, że trójkąty ABS i BCS są prostokątne z wykorzystaniem twierdzenia odwrotnego do twierdzenia Pitagorasa (dopuszczamy możliwość zapisania przez ucznia dowodu dla jednego trójkąta i uwagi, że trójkąty ABS i CBS są przystające, więc drugi trójkąt także musi być prostokątny)</li><li>4 pkt – obliczenie pola powierzchni bocznej ostrosłupa</li><li>5 pkt – narysowanie siatki ostrosłupa</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

@@ -1,0 +1,764 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla szkół podstawowych (warmińsko-mazurskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "warminsko-mazurskie",
+ "rok_szkolny": "2018/2019",
+ "data": "2019-02-15",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 20,
+ "max_punktow": 33,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2018-2019_warminsko-mazurskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Jan napisał kolejne liczby naturalne, zaczynając od 3045, a kończąc na 4125. Ile liczb napisał Jan?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1084"
+    },
+    {
+     "litera": "B",
+     "html": "1083"
+    },
+    {
+     "litera": "C",
+     "html": "1082"
+    },
+    {
+     "litera": "D",
+     "html": "1081"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczb od 3045 do 4125 (włącznie) jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4125</mn><mo>−</mo><mn>3045</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>1081</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij skrajne liczby i pamiętaj, że pierwsza z nich też jest napisana",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Puszka farby wystarcza na pomalowanie 4 m² powierzchni. Ile co najmniej takich puszek farby trzeba kupić, aby pomalować obustronnie latawiec w kształcie rombu o przekątnych 3 m i 2 m?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "1,5"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole rombu (latawca): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></math> m². Farby trzeba na obie strony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> m². Puszek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>1,5</mn></math>, więc trzeba kupić 2 puszki.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole rombu to połowa iloczynu przekątnych, a malujesz obie strony",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:obustronnie",
+     "zaokraglenie"
+    ],
+    "opis": "Malowanie obustronne podwaja pole, a puszek kupuje się w całości, mimo że wariant 1,5 kusi"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Kwadrat pewnej liczby naturalnej pomnożono przez jej sześcian i otrzymano 243. Która z liczb naturalnych została poddana powyższym działaniom?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat razy sześcian liczby to jej piąta potęga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>·</mo><msup><mi>n</mi><mn>3</mn></msup><mo>=</mo><msup><mi>n</mi><mn>5</mn></msup></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>243</mn><mo>=</mo><msup><mn>3</mn><mn>5</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kwadrat razy sześcian to piąta potęga",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>[</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>·</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>:</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>·</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo><mo>]</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>11</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wewnątrz nawiasu kwadratowego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>7</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>:</mo><msup><mi>x</mi><mn>5</mn></msup><mo>=</mo><msup><mi>x</mi><mn>9</mn></msup></math>. Podniesione do kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>18</mn></msup></math>, a po pomnożeniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>9</mn></msup></math> wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>27</mn></msup></math> — nie ma takiej odpowiedzi wśród A–C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "działaj tylko na wykładnikach: mnożenie dodaje, dzielenie odejmuje, potęgowanie mnoży",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Łączna liczba wszystkich ścian, wierzchołków i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt, będący podstawą tego graniastosłupa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "22"
+    },
+    {
+     "litera": "D",
+     "html": "27"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn></math> ścian, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> wierzchołków i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math> krawędzi. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>110</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>18</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy podstawie n-kąta jest n+2 ścian, 2n wierzchołków i 3n krawędzi",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Podstawą ostrosłupa, który ma 14 wierzchołków jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "siedmiokąt"
+    },
+    {
+     "litera": "B",
+     "html": "sześciokąt"
+    },
+    {
+     "litera": "C",
+     "html": "czternastokąt"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostrosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn></math> wierzchołków (n wierzchołków podstawy i wierzchołek szczytowy). Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>14</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>13</mn></math> — podstawą jest trzynastokąt, którego nie ma wśród A–C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ostrosłup ma o jeden wierzchołek więcej niż jego podstawa",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Ostrosłup to nie graniastosłup: wierzchołki to podstawa plus jeden wierzchołek, a nie dwie podstawy"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty"
+   ],
+   "tresc_html": "<p>Suma miar kątów α i β zaznaczonych na rysunku wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "180°"
+    },
+    {
+     "litera": "B",
+     "html": "150°"
+    },
+    {
+     "litera": "C",
+     "html": "170°"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2018-2019_warminsko-mazurskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt u szczytu jest wierzchołkowy do kąta 60°, więc też ma 60°. Z sumy kątów w trójkącie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>180°</mn><mo>−</mo><mn>60°</mn><mo>−</mo><mn>70°</mn><mo>=</mo><mn>50°</mn></math>. Kąt α jest wierzchołkowy do kąta 70°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>70°</mn></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>70°</mn><mo>+</mo><mn>50°</mn><mo>=</mo><mn>120°</mn></math> — nie ma takiej odpowiedzi wśród A–C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt 60° przenieś do trójkąta jako wierzchołkowy, a α jest przyległy do 70°",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Po uzupełnieniu brakującego znaku w zapisie rzymskim liczby CD…LVIII można otrzymać następującą liczbę w zapisie arabskim</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "468"
+    },
+    {
+     "litera": "B",
+     "html": "648"
+    },
+    {
+     "litera": "C",
+     "html": "448"
+    },
+    {
+     "litera": "D",
+     "html": "668"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Aby CD…LVIII było poprawnym zapisem rzymskim, brakującym znakiem musi być X: CDXLVIII. To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>448</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, jaki znak da się wstawić między CD a LVIII, żeby zapis pozostał poprawny",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>W czasie, gdy wskazówka minutowa zegara obraca się o 90°, wskazówka godzinowa obraca się o</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4,5°"
+    },
+    {
+     "litera": "B",
+     "html": "6°"
+    },
+    {
+     "litera": "C",
+     "html": "7,5°"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wskazówka minutowa obraca się o 6° na minutę, więc 90° pokonuje w 15 minut. Wskazówka godzinowa obraca się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360°</mn><mo>:</mo><mn>720</mn><mo>=</mo><mn>0,5°</mn></math> na minutę, czyli w 15 minut o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>0,5°</mn><mo>=</mo><mn>7,5°</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wskazówka godzinowa porusza się 12 razy wolniej niż minutowa",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne"
+   ],
+   "tresc_html": "<p>Największa spośród liczb to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,(465)"
+    },
+    {
+     "litera": "B",
+     "html": "0,4(65)"
+    },
+    {
+     "litera": "C",
+     "html": "0,46(5)"
+    },
+    {
+     "litera": "D",
+     "html": "0,465"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwijając ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,</mn><mo>(</mo><mn>465</mn><mo>)</mo><mo>=</mo><mn>0,465465…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>(</mo><mn>65</mn><mo>)</mo><mo>=</mo><mn>0,465656…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,46</mn><mo>(</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>0,465555…</mn></math>. Po trzech pierwszych cyfrach (465) kolejna cyfra jest największa (6) w liczbie 0,4(65).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozpisz każdą liczbę na cztery cyfry po przecinku i porównaj miejscami",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "sześciokąty foremne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest sześciokąt foremny o obwodzie 24. Pole tego sześciokąta wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>4</mn></math>. Sześciokąt foremny to 6 trójkątów równobocznych o boku 4, każdy o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Pole całości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sześciokąt foremny to sześć trójkątów równobocznych o boku równym bokowi sześciokąta",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Sześcienna kostka o krawędzi 1 cm waży 16 g. Kostka wykonana z tego samego materiału o krawędzi 2 cm waży</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3,2 dag"
+    },
+    {
+     "litera": "B",
+     "html": "0,064 kg"
+    },
+    {
+     "litera": "C",
+     "html": "0,128 kg"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Masa sześcianu jest proporcjonalna do sześcianu długości krawędzi. Krawędź jest 2 razy większa, więc masa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></math> razy większa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>128</mn></math> g, czyli 0,128 kg.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "krawędź dwa razy dłuższa to objętość osiem razy większa",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "jednostki"
+    ],
+    "opis": "Podwojenie krawędzi nie podwaja masy; odpowiedzi podane w dag i kg zamiast w gramach"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Które równanie ma nieskoczenie wiele rozwiązań?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2(x−3)=4x+2"
+    },
+    {
+     "litera": "B",
+     "html": "8+3x=23−3(5−x)"
+    },
+    {
+     "litera": "C",
+     "html": "3(x−1)=10"
+    },
+    {
+     "litera": "D",
+     "html": "2+3(x−2)=3x+4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W równaniu B prawa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>−</mo><mn>3</mn><mo>(</mo><mn>5</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>23</mn><mo>−</mo><mn>15</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>=</mo><mn>8</mn><mo>+</mo><mn>3</mn><mi>x</mi></math> — to samo, co lewa strona. Równanie jest tożsamością, więc ma nieskończenie wiele rozwiązań.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozwiń nawiasy i szukaj równania, w którym obie strony wychodzą identyczne",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Po uproszczeniu wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mn>5</mn></mfrac><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow><mn>3</mn></mfrac></math> otrzymamy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1−x"
+    },
+    {
+     "litera": "B",
+     "html": "−x−9"
+    },
+    {
+     "litera": "C",
+     "html": "−x+7"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Upraszczamy oddzielnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>8</mn></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>7</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skróć każdy ułamek przed odejmowaniem",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Minus przed drugim ułamkiem zmienia znak obu wyrazów jego licznika"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1,24</mn><mo>:</mo><mo>(</mo><mn>0,6</mn><mo>−</mo><mn>1,6</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>0,33</mn></mrow></mfrac></math>. Czy wartość tego wyrażenia jest liczbą dodatnią? Wybierz odpowiedź T(tak) lub N(nie) i jej uzasadnienie spośród A, B albo C.</p>",
+   "warianty": [
+    {
+     "litera": "TA",
+     "html": "Tak, ponieważ licznik jest dodatni, a mianownik ujemny."
+    },
+    {
+     "litera": "TB",
+     "html": "Tak, ponieważ licznik jest ujemny i mianownik jest ujemny."
+    },
+    {
+     "litera": "TC",
+     "html": "Tak, ponieważ licznik jest dodatni i mianownik jest dodatni."
+    },
+    {
+     "litera": "NA",
+     "html": "Nie, ponieważ licznik jest dodatni, a mianownik ujemny."
+    },
+    {
+     "litera": "NB",
+     "html": "Nie, ponieważ licznik jest ujemny i mianownik jest ujemny."
+    },
+    {
+     "litera": "NC",
+     "html": "Nie, ponieważ licznik jest dodatni i mianownik jest dodatni."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "TB",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,24</mn><mo>:</mo><mo>(</mo><mn>0,6</mn><mo>−</mo><mn>1,6</mn><mo>)</mo><mo>=</mo><mn>1,24</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>1,24</mn></math> — jest ujemny. Mianownik −0,33 też jest ujemny. Iloraz dwóch liczb ujemnych jest dodatni.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nie licz wartości, wystarczą same znaki licznika i mianownika",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy",
+    "działania na potęgach",
+    "liczba krawędzi, ścian i wierzchołków",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość zdań, wpisując <strong>P</strong>-prawda lub <strong>F</strong>-fałsz:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba o 50% większa od 10 to 20."
+    },
+    {
+     "litera": "2",
+     "html": "Odcinki prostopadłe zawsze się przecinają."
+    },
+    {
+     "litera": "3",
+     "html": "Połową liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>22</mn></msup></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>11</mn></msup></math>."
+    },
+    {
+     "litera": "4",
+     "html": "Sześcian o krawędzi długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> ma objętość równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><msqrt><mn>2</mn></msqrt></math>."
+    },
+    {
+     "litera": "5",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&gt;</mo><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "6",
+     "html": "Ostrosłup o 15 wierzchołkach ma 30 krawędzi."
+    },
+    {
+     "litera": "7",
+     "html": "Wyrażenie algebraiczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msup><mi>b</mi><mn>2</mn></msup></math> to kwadrat różnicy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i podwojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFFFPFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>10 zwiększone o 50% to 15, nie 20 — <b>F</b>.</li><li>Odcinki prostopadłe niekoniecznie się przecinają — mogą być za krótkie, by dosięgnąć punktu przecięcia prostych — <b>F</b>.</li><li>Połowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>22</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>4</mn><mn>21</mn></msup></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>4</mn><mn>21</mn></msup></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>11</mn></msup></math> — <b>F</b>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>54</mn><msqrt><mn>2</mn></msqrt></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><msqrt><mn>2</mn></msqrt></math> — <b>F</b>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>&gt;</mo><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></math> — <b>P</b>.</li><li>Ostrosłup o 15 wierzchołkach ma podstawę 14-kąta, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>28</mn></math> krawędzi, nie 30 — <b>F</b>.</li><li>Kwadratem różnicy a i podwojonego b jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msup><mi>b</mi><mn>2</mn></msup></math> — <b>F</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każde zdanie rozstrzygnij osobno jednym krótkim rachunkiem albo definicją",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator",
+     "znak"
+    ],
+    "opis": "Połowa potęgi to nie połowa wykładnika; odcinki to nie proste; −2² a (−2)²; sześcian 3√2"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "podzielność",
+    "dowodzenie / dowody",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Uzasadnij, że suma pięciu kolejnych liczb nieparzystych jest podzielna przez 5. Zapisz swoje uzasadnienie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Suma pięciu kolejnych liczb nieparzystych ma postać 10n+25 = 5(2n+5), więc jest podzielna przez 5.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pięć kolejnych liczb nieparzystych można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>9</mn></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest dowolną liczbą naturalną). Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>n</mi><mo>+</mo><mn>25</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>5</mn><mo>)</mo></math>, jest więc pięciokrotnością liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>5</mn></math>, a zatem dzieli się przez 5.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "stężenie procentowe / mieszaniny",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Do 8 kg solanki o stężeniu 5% dodano soli i otrzymano solankę o stężeniu 24%. Ile soli dosypano? Zapisz swoje obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2 kg",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Soli w roztworze na początku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,05</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>0,4</mn></math> kg. Po dosypaniu x kg soli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>0,24</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,76</mn><mi>x</mi><mo>=</mo><mn>1,52</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math> kg.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Wojtek i Tomek stali dokładnie naprzeciw siebie po dwóch stronach rzeki o szerokości 12 m. Wojtek chciał popłynąć wprost do Tomka, ale prąd rzeki zniósł go 15 m dalej. Ile metrów przepłynął Wojtek? Zapisz swoje obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "3√41 m (około 19,2 m)",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Droga Wojtka to przeciwprostokątna trójkąta prostokątnego o przyprostokątnych 12 m (szerokość rzeki) i 15 m (znos prądu): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>369</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>41</mn></msqrt></math> m, czyli około 19,2 m.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_warminsko-mazurskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przekątne rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>8</mn></math> dm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><mn>10</mn></math> dm. Przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> rombu przedłużono do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> w taki sposób, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> jest dwa razy dłuższy od tej przekątnej. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>. Rozważ wszystkie możliwości. Swoje obliczenia i rozważania zapisz.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "20 dm² lub 60 dm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątne przecinają się w punkcie O, prostopadle: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OB</mi><mo>=</mo><mi>OD</mi><mo>=</mo><mn>5</mn></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OC</mi><mo>=</mo><mn>4</mn></math> dm. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>20</mn></math> dm. Gdy E leży za D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi><mo>=</mo><mn>20</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>10</mn></math> dm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></math> dm². Gdy E leży za B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi><mo>=</mo><mn>20</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>30</mn></math> dm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>30</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>60</mn></math> dm².</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Punkt E może leżeć na przedłużeniu za D albo za B — dwa położenia, dwa pola"
+   }
+  }
+ ]
+}

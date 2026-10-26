@@ -1,0 +1,765 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa zachodniopomorskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "zachodniopomorskie",
+ "rok_szkolny": "2018/2019",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 21,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2018-2019_zachodniopomorskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Koza i krowa zjadają razem wóz siana w ciągu 45 dni, krowa i owca – w ciągu 60 dni, zaś owca i koza – w ciągu 90 dni. W ciągu ilu dni zjedzą wóz siana koza, krowa i owca razem?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20"
+    },
+    {
+     "litera": "B",
+     "html": "30"
+    },
+    {
+     "litera": "C",
+     "html": "40"
+    },
+    {
+     "litera": "D",
+     "html": "50"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Koza i krowa zjadają dziennie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>45</mn></mfrac></math> wozu, krowa i owca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>60</mn></mfrac></math>, a owca i koza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>90</mn></mfrac></math>. Suma tych trzech wartości to podwojone dzienne tempo całej trójki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>45</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>20</mn></mfrac></math>, więc razem zjadają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>40</mn></mfrac></math> wozu dziennie, czyli cały wóz zjedzą w 40 dni.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj stronami wszystkie trzy warunki — dostaniesz podwojone wspólne tempo jedzenia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:suma-par"
+    ],
+    "opis": "Suma tempa trzech par liczy każde zwierzę dwa razy, więc trzeba ją podzielić przez 2"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Którymi cyframi można zapisać najwięcej różnych liczb trzycyfrowych? Każdą dostępną cyfrę można wykorzystać dowolną liczbę razy.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "cyframi parzystymi"
+    },
+    {
+     "litera": "B",
+     "html": "cyframi nieparzystymi"
+    },
+    {
+     "litera": "C",
+     "html": "cyframi mniejszymi od 5"
+    },
+    {
+     "litera": "D",
+     "html": "cyframi większymi od 5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyframi nieparzystymi (1, 3, 5, 7, 9) można zapisać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>125</mn></math> liczb trzycyfrowych, bo żadna z nich nie jest zerem. Cyframi parzystymi (0, 2, 4, 6, 8) i cyframi mniejszymi od 5 (0, 1, 2, 3, 4) jest po pięć cyfr, ale zero nie może być pierwszą cyfrą, więc wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>100</mn></math> liczb. Cyframi większymi od 5 (6, 7, 8, 9) jest tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>64</mn></math>. Najwięcej liczb dają więc cyfry nieparzyste.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile cyfr jest w każdym zestawie, i pamiętaj, że pierwsza cyfra nie może być zerem",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Zero nie może być pierwszą cyfrą liczby trzycyfrowej; parzyste i nieparzyste tylko z pozoru remisują"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność odwrotna",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ludziom zbudowanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> domów zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dni, to ile dni potrzebowałoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math> ludzi, żeby zbudować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> domów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>q</mi><mi>r</mi><mi>y</mi></mrow><mrow><mi>x</mi><mi>z</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>r</mi><mi>y</mi><mi>z</mi></mrow><mrow><mi>q</mi><mi>x</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>q</mi><mi>z</mi></mrow><mrow><mi>r</mi><mi>x</mi><mi>y</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mi>y</mi><mi>r</mi></mrow><mrow><mi>q</mi><mi>z</mi></mrow></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ludzi buduje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> domów w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dni, więc wydajność jednego człowieka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>z</mi><mrow><mi>x</mi><mi>y</mi></mrow></mfrac></math> domu dziennie. Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math> ludzi zbudowało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> domów w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> dni, musi być <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>·</mo><mi>t</mi><mo>·</mo><mfrac><mi>z</mi><mrow><mi>x</mi><mi>y</mi></mrow></mfrac><mo>=</mo><mi>r</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mi>y</mi><mi>r</mi></mrow><mrow><mi>q</mi><mi>z</mi></mrow></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "więcej ludzi to mniej dni, więcej domów to więcej dni — ustaw każdą literę po właściwej stronie",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Ile litrów wody trzeba dodać do 40 litrów 40% roztworu, aby obniżyć jego stężenie do 30%?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czystej substancji w roztworze jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> l i ta ilość się nie zmienia. Po dolaniu wody ma ona stanowić 30% roztworu, więc cała objętość ma wynosić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>:</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>=</mo><mn>53</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> l. Trzeba więc dolać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>40</mn><mo>=</mo><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> l wody.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ilość czystej substancji się nie zmienia — policz ją i sprawdź, przy jakiej objętości daje 30%",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prosta poprowadzona przez wierzchołek kwadratu dzieli go na trójkąt o polu 14 cm² i trapez o polu 35 cm². Jaką długość ma krótsza podstawa trapezu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>35</mn><mo>=</mo><mn>49</mn></math>, więc jego bok ma długość 7. Odcięty trójkąt ma przyprostokątne 7 i odcinek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>7</mn><mo>·</mo><mi>h</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math>. Dłuższa podstawa trapezu to cały bok (7), a krótsza to pozostała jego część: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pola trójkąta i trapezu razem dają pole kwadratu — stąd odczytasz bok",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z pola trójkąta wychodzi jego przyprostokątna, a pytają o krótszą podstawę trapezu"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne"
+   ],
+   "tresc_html": "<p>Który z ułamków ma rozwinięcie dziesiętne nieskończone okresowe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>26</mn><mn>1998</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>369</mn><mn>615</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>69</mn><mn>276</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>152</mn><mn>760</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ułamek ma rozwinięcie nieskończone okresowe, gdy mianownik ułamka nieskracalnego ma dzielnik pierwszy inny niż 2 lub 5. Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>369</mn><mn>615</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>69</mn><mn>276</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>152</mn><mn>760</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> – to ułamki skończone. Natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>26</mn><mn>1998</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>999</mn></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>=</mo><mn>27</mn><mo>·</mo><mn>37</mn></math> ma dzielnik 37, więc to rozwinięcie jest nieskończone okresowe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skróć każdy ułamek i sprawdź, czy w mianowniku zostały tylko dwójki i piątki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "O okresowości decyduje mianownik ułamka po skróceniu, a nie mianownik zapisany"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Liczby 2, 1, 5, 2,8 i 7,5 są długościami czterech boków i jednej przekątnej czworokąta, podanymi w przypadkowej kolejności. Która z nich jest długością przekątnej?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "2,8"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "7,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątna dzieli czworokąt na dwa trójkąty, które muszą spełniać nierówność trójkąta. Sprawdzając 2,8 jako przekątną: trójkąt o bokach 1, 2, 2,8 istnieje (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>&gt;</mo><mn>2</mn><mo>,</mo><mn>8</mn></math>), a trójkąt o bokach 5, 7,5, 2,8 też (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>2</mn><mo>,</mo><mn>8</mn><mo>&gt;</mo><mn>7</mn><mo>,</mo><mn>5</mn></math>). Przekątną jest więc 2,8.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Przekątna nie musi być najdłuższym odcinkiem; trzeba sprawdzić nierówność trójkąta w obu trójkątach"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Ścianami ostrosłupa o podstawie kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> są cztery trójkąty równoboczne. Jaka jest miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "≤ 60°"
+    },
+    {
+     "litera": "B",
+     "html": "między 60° a 90°"
+    },
+    {
+     "litera": "C",
+     "html": "90°"
+    },
+    {
+     "litera": "D",
+     "html": "między 90° a 120°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ściany są trójkątami równobocznymi, więc krawędzie boczne EA i EC mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (bok kwadratu). Przekątna podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, z twierdzenia odwrotnego do twierdzenia Pitagorasa kąt AEC jest prosty, czyli równy 90°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj przekątną podstawy z krawędziami AE i CE",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>31 książek ustawiono od lewej do prawej według rosnącej ceny. Każda książka kosztuje o 4 zł więcej lub mniej niż sąsiednie. Najdroższa książka kosztuje tyle samo co środkowa i jedna ze stojących obok niej. Które ze zdań jest prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Najdroższa książka kosztuje 128 zł."
+    },
+    {
+     "litera": "B",
+     "html": "Najtańsza książka kosztuje 8 zł."
+    },
+    {
+     "litera": "C",
+     "html": "Środkowa książka kosztuje 72 zł."
+    },
+    {
+     "litera": "D",
+     "html": "Trzy środkowe książki kosztowałyby 192 zł."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ceny 31 książek tworzą ciąg arytmetyczny o różnicy 4 zł: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>i</mi></msub><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>4</mn><mo>(</mo><mi>i</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>. Najdroższa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>31</mn></msub><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>120</mn></math>, środkowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>16</mn></msub><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>60</mn></math>, a jej lewy sąsiad <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>15</mn></msub><mo>=</mo><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>56</mn></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>31</mn></msub><mo>=</mo><msub><mi>x</mi><mn>16</mn></msub><mo>+</mo><msub><mi>x</mi><mn>15</mn></msub></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>120</mn><mo>=</mo><mn>2</mn><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mn>116</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mn>1</mn></msub><mo>=</mo><mn>4</mn></math> zł (prawy sąsiad dałby ujemną cenę). Trzy środkowe książki kosztują więc 60, 64 i 68 zł, razem 192 zł.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaką cyfrę w rzędzie jedności ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>96</mn></msup><mo>+</mo><msup><mn>4</mn><mn>34</mn></msup><mo>+</mo><msup><mn>10</mn><mn>8</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "mniejszą od 2"
+    },
+    {
+     "litera": "C",
+     "html": "większą od 2"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfra jedności potęg 2 powtarza się w cyklu 2, 4, 8, 6 (okres 4); ponieważ 96 dzieli się przez 4, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>96</mn></msup></math> kończy się na 6. Cyfra jedności potęg 4 ma okres 2 (4, 6); 34 jest parzyste, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>34</mn></msup></math> kończy się na 6. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>8</mn></msup></math> kończy się na 0. Suma cyfr jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>0</mn><mo>=</mo><mn>12</mn></math>, więc cała suma ma cyfrę jedności 2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ostatnie cyfry potęg powtarzają się cyklicznie — wystarczy reszta z dzielenia wykładnika",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Jeśli bok kwadratu zewnętrznego na rysunku ma długość 12, a zakreślone łuki mają promień o połowę mniejszy od boku tego kwadratu, to pole zacieniowanej figury jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>π</mi><mo>−</mo><mn>18</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>π</mi><mo>−</mo><mn>36</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mi>π</mi><mo>−</mo><mn>72</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mi>π</mi><mo>−</mo><mn>144</mn></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2018-2019_zachodniopomorskie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu wynosi 12, więc promień łuków (połowa boku) to 6. Każdy łuk to ćwiartka okręgu o promieniu 6, poprowadzona ze środka w wierzchołku kwadratu i łącząca środki dwóch sąsiednich boków. Pole między takim łukiem a odcinkiem łączącym te środki (odcinek koła) to pole ćwiartki koła minus pole trójkąta prostokątnego o przyprostokątnych 6 i 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>9</mn><mi>π</mi><mo>−</mo><mn>18</mn></math>. Takich odcinków (przy czterech wierzchołkach) jest cztery, więc zacieniowane pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mn>9</mn><mi>π</mi><mo>−</mo><mn>18</mn><mo>)</mo><mo>=</mo><mn>36</mn><mi>π</mi><mo>−</mo><mn>72</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "jeden zacieniowany kawałek to ćwiartka koła bez trójkąta prostokątnego — takich kawałków są cztery",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>6</mn></math>, wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mi>x</mi><mo>−</mo><mn>9</mn><mi>y</mi></mrow><mrow><mn>3</mn><mi>y</mi></mrow></mfrac></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≠</mo><mn>0</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>≠</mo><mn>0</mn></math> jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "mniejsza od 2,33"
+    },
+    {
+     "litera": "D",
+     "html": "większa od 2,33"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mn>6</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>9</mn><mi>y</mi><mo>=</mo><mn>16</mn><mi>y</mi><mo>−</mo><mn>9</mn><mi>y</mi><mo>=</mo><mn>7</mn><mi>y</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mi>x</mi><mo>−</mo><mn>9</mn><mi>y</mi></mrow><mrow><mn>3</mn><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>3</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>3</mn></mfrac><mo>=</mo><mn>2</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo></math>, wartość ta jest większa od 2,33.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pierwszego warunku wyznacz, ile razy x jest większe od y, i podstaw do drugiego wyrażenia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zaokraglenie",
+     "o-co-pytaja"
+    ],
+    "opis": "Wynik dokładny trzeba porównać z przybliżeniem 2,33; wariant z ułamkiem to wartość pośrednia x/y"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Rzucono 100 razy monetą. 60 razy wypadł orzeł, a 40 razy reszka. Przypuśćmy, że rzucono nią jeszcze raz. Które z tych zdań jest prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Na pewno wypadnie orzeł."
+    },
+    {
+     "litera": "B",
+     "html": "Jest bardziej prawdopodobne, że wypadnie reszka niż orzeł."
+    },
+    {
+     "litera": "C",
+     "html": "Jest bardziej prawdopodobne, że wypadnie orzeł niż reszka."
+    },
+    {
+     "litera": "D",
+     "html": "Szanse orła i reszki są jednakowe."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Każdy rzut monetą jest niezależny od poprzednich, więc wyniki pierwszych 100 rzutów nie mają wpływu na kolejny rzut – prawdopodobieństwo orła i reszki w nim jest jednakowe i wynosi po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "moneta nie pamięta poprzednich rzutów",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Wcześniejsze wyniki rzutów nie zmieniają szans w kolejnym rzucie uczciwą monetą"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ania zapisała w zeszycie wszystkie kolejne liczby parzyste od 2 do 2010, a następnie wykreśliła wszystkie wielokrotności liczby 3. Ile liczb pozostało?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "670"
+    },
+    {
+     "litera": "B",
+     "html": "710"
+    },
+    {
+     "litera": "C",
+     "html": "840"
+    },
+    {
+     "litera": "D",
+     "html": "1005"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczb parzystych od 2 do 2010 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2010</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>1005</mn></math>. Wśród nich wielokrotności 3 to jednocześnie wielokrotności 6 (bo są parzyste), a tych od 6 do 2010 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2010</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>335</mn></math>. Po wykreśleniu zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1005</mn><mo>−</mo><mn>335</mn><mo>=</mo><mn>670</mn></math> liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "parzyste wielokrotności trójki to po prostu wielokrotności szóstki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "graniastosłupy",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Mydło ma kształt prostopadłościanu. Piotr zużywając je równomiernie zauważył, że po 19 dniach wszystkie wymiary mydła zmniejszyły się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swoich początkowych wartości. Na ile jeszcze dni wystarczy tego mydła Piotrowi, jeżeli będzie go zużywać w takim samym tempie jak dotychczas?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "38"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mydło zużywa się jednostajnie, czyli stałą objętością na dzień. Po 19 dniach każdy wymiar zmalał do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> pierwotnej długości, więc objętość zmalała do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mfrac><mn>8</mn><mn>27</mn></mfrac></math> objętości początkowej, czyli w 19 dni zużyto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>27</mn></mfrac></math> mydła. Skoro zużycie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>27</mn></mfrac></math> trwało 19 dni, to jedna 27-ta zużywa się w 1 dzień, więc pozostałe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>27</mn></mfrac></math> starczy na 8 dni.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każdy wymiar to teraz ⅔ początkowego — porównaj objętości przed i po",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Zmniejszenie każdego wymiaru o 1/3 nie oznacza zużycia 1/3 objętości; objętość skaluje się sześcianem"
+   }
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi></math>, jeśli</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>+</mo><mn>9</mn><mi>c</mi><mo>+</mo><mn>16</mn><mi>d</mi><mo>=</mo><mn>72</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>9</mn><mi>b</mi><mo>+</mo><mn>16</mn><mi>c</mi><mo>+</mo><mn>25</mn><mi>d</mi><mo>=</mo><mn>96</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>a</mi><mo>+</mo><mn>16</mn><mi>b</mi><mo>+</mo><mn>25</mn><mi>c</mi><mo>+</mo><mn>36</mn><mi>d</mi><mo>=</mo><mn>124</mn></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a + b + c + d = 2",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odejmując pierwsze równanie od drugiego, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi><mo>+</mo><mn>7</mn><mi>c</mi><mo>+</mo><mn>9</mn><mi>d</mi><mo>=</mo><mn>24</mn></math>, a odejmując drugie od trzeciego – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi><mo>+</mo><mn>7</mn><mi>b</mi><mo>+</mo><mn>9</mn><mi>c</mi><mo>+</mo><mn>11</mn><mi>d</mi><mo>=</mo><mn>28</mn></math>. Odejmując te dwie równości stronami, dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>d</mi><mo>=</mo><mn>4</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>2</mn></math>.</p>",
+    "punktacja_html": "<ul><li>4 pkt – otrzymanie równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>2</mn></math>.</li><li>3 pkt – od trzeciej równości z zadania odjęcie otrzymanej różnicy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>d</mi><mo>=</mo><mn>4</mn></math> lub odjęcie od sumy podwojonej drugiej równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>d</mi><mo>=</mo><mn>4</mn></math> lub odjęcie otrzymanych różnic: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>d</mi><mo>=</mo><mn>4</mn></math>.</li><li>2 pkt – od otrzymanej równości odjęcie pierwszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi><mo>+</mo><mn>14</mn><mi>b</mi><mo>+</mo><mn>23</mn><mi>c</mi><mo>+</mo><mn>34</mn><mi>d</mi><mo>=</mo><mn>120</mn></math> lub dodanie pierwszej do drugiej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>20</mn><mi>b</mi><mo>+</mo><mn>34</mn><mi>c</mi><mo>+</mo><mn>52</mn><mi>d</mi><mo>=</mo><mn>196</mn></math> lub od trzeciej odjęcie drugiej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi><mo>+</mo><mn>7</mn><mi>b</mi><mo>+</mo><mn>9</mn><mi>c</mi><mo>+</mo><mn>11</mn><mi>d</mi><mo>=</mo><mn>28</mn></math>.</li><li>1 pkt – pomnożenie drugiej równości przez 2 lub od drugiej odjęcie pierwszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi><mo>+</mo><mn>7</mn><mi>c</mi><mo>+</mo><mn>9</mn><mi>d</mi><mo>=</mo><mn>24</mn></math>.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "odejmij równania stronami, a potem odejmij od siebie otrzymane różnice",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "wędrówka kąta",
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>∥</mo><mi>BC</mi></math>, zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>+</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Wyznacz kąty tego trapezu.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2018-2019_zachodniopomorskie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "36°, 72°, 108°, 144°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Poprowadźmy przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> prostą równoległą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, przecinającą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest równoległobokiem, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>+</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>+</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mo>∠</mo><mi>CDA</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>CAD</mi><mo>=</mo><mi>α</mi></math>; z równoległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>∥</mo><mi>BC</mi></math> i równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>BAC</mi><mo>=</mo><mi>α</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>BAD</mi><mo>=</mo><mn>2</mn><mi>α</mi></math>. W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CED</mi></math> kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>36</mn><mo>°</mo></math>. Kąty trapezu wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>A</mi><mo>=</mo><mn>72</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>B</mi><mo>=</mo><mn>108</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>C</mi><mo>=</mo><mn>144</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>D</mi><mo>=</mo><mn>36</mn><mo>°</mo></math>.</p>",
+    "punktacja_html": "<ul><li>4 pkt – zapisanie miar kątów trapezu: 36°, 72°, 108°, 144°.</li><li>3 pkt – zapisanie sumy kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>+</mo><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> i obliczenie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>36</mn><mo>°</mo></math>.</li><li>2 pkt – ustalenie równości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> na podstawie warunku z zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> oraz zapisanie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> (na podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>.</li><li>1 pkt – poprowadzenie przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> prostej równoległej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, która przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i zapisanie równości kątów odpowiadających <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CED</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math> lub zapisanie równości kątów naprzemianległych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> oraz stwierdzenie, że kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> są równe.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> oraz zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Uzasadnij, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Trójkąt ABC jest prostokątny (kąt prosty przy wierzchołku C)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Z założenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, więc trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEC</mi></math> są równoramienne. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>CAE</mi><mo>=</mo><mo>∠</mo><mi>ACE</mi><mo>=</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>CBE</mi><mo>=</mo><mo>∠</mo><mi>BCE</mi><mo>=</mo><mi>β</mi></math>. Suma kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>ACB</mi><mo>=</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny.</p>",
+    "punktacja_html": "<ul><li>3 pkt – skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>, to trójkąt jest prostokątny.</li><li>2 pkt – zapisanie warunku na podstawie twierdzenia o sumie kątów w trójkącie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>.</li><li>1 pkt – analiza tylko trójkąta równoramiennego prostokątnego (połowa kwadratu) lub zapisanie lub zaznaczenie na rysunku równości odpowiednich kątów w trójkątach równoramiennych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEC</mi></math>.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pięć żetonów, każdy o promieniu 1, ponumerowanych od 1 do 5, ułożono tak, jak na rysunku. Środki żetonów 1, 2, 3 leżą na jednej prostej. Następnie narysowano czworokąt zawierający wszystkie żetony, którego boki są styczne do par żetonów: 1 i 5, 5 i 3, 3 i 4 oraz 4 i 1. Oblicz pole tego czworokąta.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2018-2019_zachodniopomorskie_q19_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "8√3 + 8",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odległość środków dwóch stycznych żetonów o promieniu 1 wynosi 2. Środki żetonów 1, 4, 2 oraz 2, 3, 5 tworzą trójkąty równoboczne o boku 2, a środki żetonów 1, 4, 3, 5 są wierzchołkami prostokąta o krótszym boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> i dłuższym boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> (dwie wysokości trójkątów równobocznych). Boki szukanego czworokąta są styczne do żetonów, więc jest on prostokątem o wymiarach powiększonych o promień 1 z każdej strony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></math> na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>. Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>8</mn></math>.</p>",
+    "punktacja_html": "<ul><li>4 pkt – obliczenie pola prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>8</mn></math>.</li><li>3 pkt – zapisanie wymiarów zewnętrznego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>×</mo><mn>4</mn></math>.</li><li>2 pkt – ustalenie długości dłuższego boku prostokąta z żetonów 1, 4, 3, 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</li><li>1 pkt – zauważenie, że środki żetonów 1, 4, 2 i 2, 3, 5 tworzą trójkąty równoboczne o boku 2 oraz środki żetonów 1, 4, 3, 5 są wierzchołkami prostokąta. Ustalenie długości krótszego boku: 2 lub podanie długości krótszego boku zewnętrznego prostokąta: 4.</li></ul><p>UWAGA: Jeśli uczestnik obliczy pole prostokąta wewnętrznego utworzonego ze środków żetonów, otrzyma 3 p.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ojciec obdarował trzy córki perłami przechowywanymi w szkatule. Najstarszej dał połowę zawartości szkatułki i jedną perłę, drugiej córce dał połowę reszty i jedną perłę, a najmłodszej córce połowę pozostałych pereł i jeszcze trzy perły. Wtedy szkatułka pozostała pusta. Ile pereł miał ojciec w szkatule?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "30 pereł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę pereł w szkatule. Najstarsza córka otrzymała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn></math>, więc zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>1</mn></math>. Druga córka otrzymała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, a najmłodsza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>+</mo><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></math>. Suma rozdanych pereł równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mi>x</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math>. Ojciec miał w szkatule 30 pereł.</p>",
+    "punktacja_html": "<ul><li>5 pkt – rozwiązanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math> lub: najstarsza córka otrzymała połowę i 1 perłę, więc w szkatule na początku było 30 pereł.</li><li>4 pkt – zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></math> lub: po obdarowaniu najstarszej w szkatule było 14 pereł.</li><li>3 pkt – III córka otrzymała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>+</mo><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></math> lub: średnia córka otrzymała 8 pereł.</li><li>2 pkt – II córka otrzymała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> lub: liczba pereł w szkatule przed obdarowaniem średniej córki – 14.</li><li>1 pkt – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – ilość pereł w szkatule; I córka otrzymała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn></math> wszystkich pereł, zostało więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>1</mn></math> lub: ustalenie liczby pereł dla najmłodszej – połowa pereł i 3, zatem 6.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "licz od końca — po ostatniej córce szkatułka jest pusta",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2018-2019_zachodniopomorskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "graniastosłupy",
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>W graniastosłupie prawidłowym czworokątnym suma długości wszystkich krawędzi obu podstaw jest równa sumie długości wszystkich krawędzi bocznych. Czy trójkąt o wierzchołkach w środkach trzech krawędzi parami skośnych jest prostokątny? Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2018-2019_zachodniopomorskie_q21_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Tak, trójkąt jest prostokątny",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> długość krawędzi bocznej. Suma długości krawędzi obu podstaw wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi></math>, a suma długości krawędzi bocznych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi><mo>=</mo><mn>4</mn><mi>b</mi></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>. Boki trójkąta o wierzchołkach w środkach trzech parami skośnych krawędzi obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></math>, na mocy twierdzenia odwrotnego do twierdzenia Pitagorasa trójkąt jest prostokątny.</p>",
+    "punktacja_html": "<ul><li>5 pkt – zapisanie równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></math> i sformułowanie wniosku o trójkącie prostokątnym.</li><li>4 pkt – zapisanie zależności dla odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>.</li><li>3 pkt – zapisanie zależności dla odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>.</li><li>2 pkt – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></math> – odcinki trójkąta o wierzchołkach w środkach krawędzi; zapisanie zależności dla odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>.</li><li>1 pkt – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – długość krawędzi podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> – długość krawędzi bocznej; ustalenie zależności między długościami krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi><mo>=</mo><mn>4</mn><mi>b</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>.</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

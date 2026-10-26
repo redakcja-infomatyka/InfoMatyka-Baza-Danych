@@ -1,0 +1,704 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa zachodniopomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "zachodniopomorskie",
+ "rok_szkolny": "2018/2019",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 26,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2018-2019_zachodniopomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile może być liczb podzielnych przez 3 wśród dziesięciu kolejnych liczb naturalnych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "trzy"
+    },
+    {
+     "litera": "B",
+     "html": "cztery"
+    },
+    {
+     "litera": "C",
+     "html": "pięć"
+    },
+    {
+     "litera": "D",
+     "html": "trzy lub cztery"
+    },
+    {
+     "litera": "E",
+     "html": "cztery lub pięć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dziesięć kolejnych liczb naturalnych to trzy pełne trójki kolejnych liczb (9 liczb) i jedna dodatkowa. W każdej trójce kolejnych liczb dokładnie jedna jest podzielna przez 3, więc wśród pierwszych dziewięciu jest ich dokładnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>. Dziesiąta liczba, zależnie od punktu startowego, może być podzielna przez 3 (wtedy razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>) albo nie (wtedy razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź dwa przypadki: gdy pierwsza z dziesięciu liczb dzieli się przez 3 i gdy nie",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "kwantyfikator"
+    ],
+    "opis": "„Ile MOŻE być” – wynik zależy od liczby, od której się zaczyna; trzeba podać oba przypadki"
+   }
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o bokach długości 10 cm i 6 cm połączono odcinkami punkty przeciwległych boków, jak na rysunku. Stosunek pola zakreskowanej części do pola części nie zakreskowanej wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2018-2019_zachodniopomorskie_q2_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pozioma linia dzieli prostokąt na dwie części po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>30</mn></mrow></math> cm². Ukośny odcinek łączy punkt oddalony o 3 cm od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> z punktem oddalonym o 3 cm od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, więc przechodzi przez środek prostokąta. W każdej połowie dzieli ją na trapez zakreskowany o podstawach 3 i 5 oraz trapez biały o podstawach 5 i 7 (wysokość 3), więc pole zakreskowane w połowie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> cm². Z symetrii środkowej druga połowa daje tyle samo, więc pole zakreskowane to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math> cm², a niezakreskowane <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>36</mn></mrow></math> cm². Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mn>36</mn><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozpatrz samą górną połowę prostokąta, dolna jest jej obrotem — policz pole trapezu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Które zdanie jest prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Prostokąt i kwadrat o równych obwodach zawsze mają równe pola."
+    },
+    {
+     "litera": "B",
+     "html": "Równoległobok i prostokąt o równych polach mogą mieć równe obwody."
+    },
+    {
+     "litera": "C",
+     "html": "Najmniejszy obwód prostokąta o polu równym 48 cm², którego boki są wyrażone liczbami całkowitymi wynosi 14 cm."
+    },
+    {
+     "litera": "D",
+     "html": "Dwadzieścia arów jest równe polu rombu o podstawie 500 metrów i wysokości 40 metrów."
+    },
+    {
+     "litera": "E",
+     "html": "Pole kwadratu o długości boku 25 m stanowi 25% pola kwadratu o długości boku 50 m."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole kwadratu o boku 25 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>25</mn><mn>2</mn></msup><mo>=</mo><mn>625</mn></mrow></math> m². Pole kwadratu o boku 50 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>50</mn><mn>2</mn></msup><mo>=</mo><mn>2500</mn></mrow></math> m². Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>625</mn><mo>÷</mo><mn>2500</mn><mo>=</mo><mn>0,25</mn></mrow></math>, czyli 25%.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja",
+     "jednostki"
+    ],
+    "opis": "W C łatwo policzyć a+b (półobwód) zamiast obwodu; w D ary mylone z hektarami"
+   }
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Mamy do dyspozycji 6 odcinków o długościach 1, 2, 3, 2017, 2018, 2019. Ile trójkątów zbudowanych z tych odcinków będzie miało obwód mniejszy od 5000?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    },
+    {
+     "litera": "E",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy małe odcinki (1, 2, 3) nie tworzą trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn></mrow></math>. Dwa małe i jeden duży też nie — ich suma (co najwyżej 5) jest mniejsza od dużego odcinka (co najmniej 2017). Same duże odcinki (2017, 2018, 2019) tworzą trójkąt, lecz jego obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6054</mn></mrow></math> przekracza 5000. Zostają trójkąty z jednym małym i dwoma dużymi odcinkami: warunek trójkąta (mały odcinek większy od różnicy dużych) spełnia 5 kombinacji — z parą (2017, 2018) odcinek 2 lub 3, z parą (2018, 2019) odcinek 2 lub 3, z parą (2017, 2019) tylko odcinek 3. Każda ma obwód poniżej 5000, co daje 5 trójkątów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "z trzech małych odcinków trójkąta nie zbudujesz — sprawdź, kiedy mały bok przekracza różnicę dwóch dużych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Odcinki 1, 2, 3 i np. 2017, 2018, 1 dają trójkąt zdegenerowany – nierówność trójkąta jest ostra"
+   }
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Jacek policzył, że do ponumerowania stron książki, którą właśnie przeczytał, zużyto 390 cyfr. Ile razy użyto cyfry 6?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "34"
+    },
+    {
+     "litera": "B",
+     "html": "32"
+    },
+    {
+     "litera": "C",
+     "html": "30"
+    },
+    {
+     "litera": "D",
+     "html": "28"
+    },
+    {
+     "litera": "E",
+     "html": "26"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr, razem 189 do strony 99. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>390</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>201</mn></mrow></math> cyfr na strony trzycyfrowe, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>201</mn><mo>÷</mo><mn>3</mn><mo>=</mo><mn>67</mn></mrow></math> stron — książka ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>99</mn><mo>+</mo><mn>67</mn><mo>=</mo><mn>166</mn></mrow></math> stron. Cyfra 6 na miejscu jedności występuje w liczbach 6, 16, …, 166 — 17 razy. Na miejscu dziesiątek — w przedziale 60–69 (10 razy) i 160–166 (7 razy) — też 17 razy. Setek z cyfrą 6 nie ma. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>+</mo><mn>17</mn><mo>=</mo><mn>34</mn></mrow></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Liczby 2, 5, 10, 17, … zapisano zgodnie z określoną regułą. Dwunastą liczbą będzie:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "142"
+    },
+    {
+     "litera": "B",
+     "html": "143"
+    },
+    {
+     "litera": "C",
+     "html": "144"
+    },
+    {
+     "litera": "D",
+     "html": "145"
+    },
+    {
+     "litera": "E",
+     "html": "146"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zauważamy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math> — n-ty wyraz to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>12</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>145</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij 1 od każdego wyrazu i zobacz, co zostaje",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Który z poniższych iloczynów jest najmniejszy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>44</mn><mo>·</mo><mn>777</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>55</mn><mo>·</mo><mn>666</mn></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>·</mo><mn>555</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>77</mn><mo>·</mo><mn>444</mn></mrow></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>88</mn><mo>·</mo><mn>333</mn></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Każdy iloczyn ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mi>a</mi><mo>·</mo><mn>111</mn><mi>b</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></mrow></math>: pary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>7</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><mo>,</mo><mn>5</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>7</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>. Iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi></mrow></math> jest najmniejszy, gdy liczby najbardziej się różnią, czyli dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></mrow></math> — to daje iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>88</mn><mo>·</mo><mn>333</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w każdym iloczynie wyłącz 11 i 111, porównaj tylko iloczyny cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dla której liczby jej odwrotność jest równa jej czterokrotności?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,25"
+    },
+    {
+     "litera": "B",
+     "html": "0,5"
+    },
+    {
+     "litera": "C",
+     "html": "1"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    },
+    {
+     "litera": "E",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jeśli odwrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> równa się jej czterokrotności, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mn>4</mn><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>0,5</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz warunek jako 1/x = 4x",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2018</mn><mo>·</mo><mn>2,018</mn></mrow><mrow><mn>201,8</mn><mo>·</mo><mn>20,18</mn></mrow></mfrac></math> jest liczba:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,01"
+    },
+    {
+     "litera": "B",
+     "html": "0,1"
+    },
+    {
+     "litera": "C",
+     "html": "1"
+    },
+    {
+     "litera": "D",
+     "html": "10"
+    },
+    {
+     "litera": "E",
+     "html": "100"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,018</mn><mo>=</mo><mfrac><mn>2018</mn><mn>1000</mn></mfrac></mrow></math>, licznik wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2018</mn><mn>2</mn></msup><mn>1000</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>201,8</mn><mo>=</mo><mfrac><mn>2018</mn><mn>10</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20,18</mn><mo>=</mo><mfrac><mn>2018</mn><mn>100</mn></mfrac></mrow></math>, mianownik to również <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2018</mn><mn>2</mn></msup><mn>1000</mn></mfrac></math>. Licznik i mianownik są równe, więc wartość wyrażenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wszędzie stoją te same cyfry 2018 — porównaj tylko liczbę miejsc po przecinku u góry i na dole",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są równoległe, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDA</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>°</mo></mrow></math>. Jaka jest miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15°"
+    },
+    {
+     "litera": "B",
+     "html": "22,5°"
+    },
+    {
+     "litera": "C",
+     "html": "25°"
+    },
+    {
+     "litera": "D",
+     "html": "30°"
+    },
+    {
+     "litera": "E",
+     "html": "45°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, kąty przy ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> sumują się do 180°, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>DC</mi></mrow></math>) z kątem 120° przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, więc kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> mają po 30°, skąd kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> (naprzemianległy do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math>) też ma 30°. Z twierdzenia cosinusów w trójkątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>BC</mi></mrow></math>, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> równa się kątowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, czyli wynosi 30°.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Na tablicy 5 × 5 zamalowano kwadraty, jak na rysunku. Na ile sposobów można zamalować 3 kratki (3 × 1 lub 1 × 3) tak, aby żadne nie stykały się nawet w punkcie z pozostałymi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    },
+    {
+     "litera": "E",
+     "html": "4"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2018-2019_zachodniopomorskie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pola już zamalowane wraz ze wszystkimi polami, które się z nimi stykają (także po przekątnej), tworzą zablokowany obszar. Wolne zostają: w wierszach 1 i 2 kolumny 3–5, a w kolumnach 4 i 5 wszystkie pięć wierszy. Poziomy pasek 3 kratek mieści się tylko w wierszu 1 i w wierszu 2 (kolumny 3–5) — 2 sposoby. Pionowy pasek 3 kratek mieści się w kolumnie 4 i w kolumnie 5, każda daje 3 położenia (wiersze 1–3, 2–4, 3–5) — 6 sposobów. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Kwadrat różnicy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16,2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>121</mn><mfrac><mn>169</mn><mn>225</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>140</mn><mfrac><mn>184</mn><mn>225</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>243</mn><mfrac><mn>149</mn><mn>225</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>225</mn><mfrac><mn>296</mn><mn>900</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mfrac><mn>13</mn><mn>15</mn></mfrac></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zamieniamy na ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,2</mn><mo>=</mo><mfrac><mn>81</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>3</mn></mfrac></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>243</mn><mn>15</mn></mfrac><mo>−</mo><mfrac><mn>65</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>178</mn><mn>15</mn></mfrac></mrow></math>. Kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>31684</mn><mn>225</mn></mfrac><mo>=</mo><mn>140</mn><mfrac><mn>184</mn><mn>225</mn></mfrac></mrow></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "symetrie"
+   ],
+   "tresc_html": "<p>Na ile sposobów można podzielić kwadrat dwoma prostymi na cztery przystające części?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    },
+    {
+     "litera": "E",
+     "html": "więcej niż 5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwie proste przechodzące przez środek kwadratu i wzajemnie prostopadłe zawsze dzielą go na cztery przystające części — obrót o 90° wokół środka przekształca jedną część w drugą. Kąt nachylenia takiej pary prostych można zmieniać w sposób ciągły, co daje nieskończenie wiele różnych podziałów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "obracaj parę prostopadłych prostych wokół środka kwadratu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Oprócz linii środkowych i przekątnych działa każda para prostopadłych prostych przez środek"
+   }
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Janek kupił jabłka, gruszki i śliwki. Śliwek kupił 3 kg. Jabłka stanowią 40% wszystkich owoców, a gruszki 30%. Ile kilogramów jabłek kupił Janek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    },
+    {
+     "litera": "E",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Śliwki stanowią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>40</mn><mo>%</mo><mo>−</mo><mn>30</mn><mo>%</mo><mo>=</mo><mn>30</mn><mo>%</mo></mrow></math> owoców, czyli 3 kg to 30% wszystkich owoców. Wszystkich owoców jest więc 10 kg. Jabłka to 40%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>4</mn></mrow></math> kg.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "śliwki to brakujące procenty — najpierw dopełnij 40% i 30% do całości",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>2018</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    },
+    {
+     "litera": "E",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostatnia cyfra potęg liczby 9 zmienia się naprzemiennie: 9, 1, 9, 1, … (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>=</mo><mn>81</mn></mrow></math>). Dla wykładnika nieparzystego jest to 9, dla parzystego — 1. Ponieważ 2018 jest parzyste, ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>2018</mn></msup></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, jak zmieniają się końcówki kolejnych potęg 9, i czy wykładnik jest parzysty",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "liczby pierwsze",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>c</mi></mrow></math> przedstawia liczbę trzycyfrową. Dla jakich wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> suma cyfr tej liczby jest liczbą pierwszą, jeśli:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>[</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mn>8</mn><msup><mn>2</mn><mn>3</mn></msup></mfrac><mo>]</mo><mo>÷</mo><mfrac><mn>1</mn><msup><mn>3</mn><mn>2</mn></msup></mfrac><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mfrac><msup><mn>2</mn><mn>2</mn></msup><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mo>)</mo></mrow></math>. Podaj wszystkie możliwości.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "b = 3, 5 lub 9 (liczby 935, 955, 995)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Obliczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><msup><mn>2</mn><mn>3</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mo>÷</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mn>10</mn><mn>9</mn></mfrac><mo>·</mo><mn>9</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>10</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>9</mn></mrow></math>. Obliczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mfrac><mn>4</mn><mn>6</mn></mfrac><mo>)</mo><mo>=</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></mrow></math>. Zatem liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>10</mn><mi>b</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>905</mn><mo>+</mo><mn>10</mn><mi>b</mi></mrow></math>, a suma jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mi>b</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>14</mn><mo>+</mo><mi>b</mi></mrow></math>. Wartość ta jest liczbą pierwszą dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math> (17), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn></mrow></math> (19) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>9</mn></mrow></math> (23), czyli dla liczb 935, 955 i 995.</p>",
+    "punktacja_html": "<p>Punktacja: 1 pkt za poprawne obliczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (9) lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> (5); 2 pkt za obie wartości; 3 pkt za podanie jednej wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>; 4 pkt za dwie wartości; 5 pkt za trzy wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno a i c — dzielenie przez 1/3² to mnożenie przez 9, potem patrz na sumę cyfr",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2018-2019_zachodniopomorskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 6,
+   "tematy": [
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przekątne równoległoboku o obwodzie 220 cm dzielą równoległobok na cztery trójkąty takie, że różnica obwodów dwóch trójkątów mających wspólny bok wynosi 30 cm.</p><p>a) Oblicz długości boków równoległoboku.</p><p>b) Oblicz drugą wysokość równoległoboku, jeśli pierwsza z nich ma 25 cm długości.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) boki 70 cm i 40 cm; b) druga wysokość 43,75 cm (lub 100/7 cm)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><strong>a)</strong> Oznaczmy sąsiednie boki równoległoboku przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z obwodu 220 cm wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>110</mn></mrow></math>. Dwa trójkąty mające wspólny bok (przekątną) różnią się obwodami o różnicę długości boków równoległoboku, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>70</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>40</mn></mrow></math> cm.</p><p><strong>b)</strong> Pole równoległoboku obliczamy z pierwszej wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>70</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>1750</mn></mrow></math> cm². Druga wysokość opada na bok 40 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1750</mn><mo>÷</mo><mn>40</mn><mo>=</mo><mn>43,75</mn></mrow></math> cm. (Jeśli wysokość 25 cm opada na bok 40 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>40</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>1000</mn></mrow></math> cm², a druga wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>÷</mo><mn>70</mn><mo>=</mo><mfrac><mn>100</mn><mn>7</mn></mfrac></mrow></math> cm.)</p>",
+    "punktacja_html": "<p>Punktacja: a) 1 pkt za zależność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>110</mn></mrow></math>, 1 pkt za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow></math>, 1 pkt za długości boków 70 cm i 40 cm; b) 1 pkt za pole, 1 pkt za sposób obliczenia drugiej wysokości, 1 pkt za poprawność rachunkową.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

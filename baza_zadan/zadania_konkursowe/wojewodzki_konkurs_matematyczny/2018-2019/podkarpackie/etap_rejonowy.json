@@ -1,0 +1,626 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2018/2019",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2019_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2019_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Wskaż zdanie <u>fałszywe</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Jeżeli liczba jest podzielna przez 10, to jest podzielna przez 5."
+    },
+    {
+     "litera": "B",
+     "html": "Jeżeli liczba jest podzielna przez 2 i przez 5, to jest podzielna przez 10."
+    },
+    {
+     "litera": "C",
+     "html": "Jeżeli liczba jest podzielna przez 3 i przez 4, to jest podzielna przez 12."
+    },
+    {
+     "litera": "D",
+     "html": "Jeżeli liczba jest podzielna przez 6 i przez 8, to jest podzielna przez 48."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zdania A, B i C są prawdziwe: podzielność przez 10 daje podzielność przez 5, podzielność przez 2 i przez 5 razem daje podzielność przez 10, a podzielność przez 3 i przez 4 razem — przez 12 (bo NWW(3,4)=12). Dla zdania D: podzielność przez 6 i przez 8 daje podzielność przez NWW(6,8)=24, a nie przez 48 — np. liczba 24 dzieli się przez 6 i przez 8, lecz nie przez 48. To zdanie jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj z najmniejszą wspólną wielokrotnością obu dzielników",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "wzory skróconego mnożenia",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jeżeli pewną liczbę zwiększymy o 1, to jej kwadrat zwiększy się o 2019. Jaka to liczba?</p><p>Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1009"
+    },
+    {
+     "litera": "B",
+     "html": "1010"
+    },
+    {
+     "litera": "C",
+     "html": "2009"
+    },
+    {
+     "litera": "D",
+     "html": "2010"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech szukana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>2019</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2019</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1009</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast podnosić do kwadratu, zapisz różnicę kwadratów dwóch kolejnych liczb",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb trzycyfrowych, w których iloczyn cyfr jest równy 12?</p><p>Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloczyn cyfr równy 12 wyklucza cyfrę 0, więc szukamy trójek cyfr ze zbioru 1–9 o iloczynie 12: {1, 2, 6}, {1, 3, 4}, {2, 2, 3}. Pierwsze dwie trójki dają po 6 ustawień, trzecia (z powtórzoną cyfrą) — 3 ustawienia. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>15</mn></mrow></math> liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż 12 na trzy jednocyfrowe czynniki i policz ustawienia każdej trójki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Łatwo pominąć zestaw cyfr z powtórzeniem albo policzyć jego ustawienia jak dla trzech różnych cyfr"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Suma cyfr liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>1008</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2019</mn></msup></math> zapisanej w systemie dziesiątkowym pozycyjnym jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "13"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>1008</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2019</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2016</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2019</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>)</mo></mrow><mn>2016</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2016</mn></msup><mo>·</mo><mn>125</mn></mrow></math>. To liczba 125 z dopisanymi zerami, więc suma jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamień 4 na potęgę dwójki i połącz dwójki z piątkami w dziesiątki",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "działania na potęgach",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Dane są wyrażenia arytmetyczne:</p><ul><li>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2</mn><mn>30</mn></msup><msup><mn>8</mn><mn>9</mn></msup></mfrac></math></li><li>II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>72</mn></msqrt><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac></math></li><li>III. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>4</mn><mo>)</mo></mrow></math></li><li>IV. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math></li></ul><p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Liczbą naturalną jest wartość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "każdego wyrażenia."
+    },
+    {
+     "litera": "B",
+     "html": "tylko wyrażeń I i II."
+    },
+    {
+     "litera": "C",
+     "html": "tylko wyrażeń I, II i III."
+    },
+    {
+     "litera": "D",
+     "html": "tylko wyrażenia I."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mn>2</mn><mn>30</mn></msup><msup><mn>8</mn><mn>9</mn></msup></mfrac><mo>=</mo><mfrac><msup><mn>2</mn><mn>30</mn></msup><msup><mn>2</mn><mn>27</mn></msup></mfrac><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> — naturalna. II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mn>72</mn></msqrt><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><msqrt><mn>6</mn></msqrt></mrow></math> — nie naturalna. III. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>12</mn><mo>−</mo><mn>16</mn><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math> — nie naturalna. IV. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> — nie naturalna. Tylko I jest liczbą naturalną.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "upraszczaj każde z osobna: potęgi o tej samej podstawie, pierwiastek z ilorazu, różnica kwadratów",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę roweru podwyższano dwukrotnie: najpierw o 20%, a następnie o 30%. Cena roweru po dwóch podwyżkach wynosiła 1092 zł.</p><p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Przed podwyżkami rower kosztował</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "546 zł"
+    },
+    {
+     "litera": "B",
+     "html": "700 zł"
+    },
+    {
+     "litera": "C",
+     "html": "728 zł"
+    },
+    {
+     "litera": "D",
+     "html": "1638 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech cena początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. Po dwóch podwyżkach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mn>1,2</mn><mo>·</mo><mn>1,3</mn><mo>=</mo><mn>1092</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,56</mn><mi>x</mi><mo>=</mo><mn>1092</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>700</mn></mrow></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cofaj podwyżki po kolei — podziel cenę końcową przez 1,3, a potem przez 1,2",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Dwie kolejne podwyżki procentowe nie sumują się; druga liczona od nowej ceny"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>W pudełku jest 9 kul białych, 7 czarnych i 4 zielone. Bartek wyciąga z pudełka kolejno po jednej kuli, nie oglądając ich. Ile co najmniej kul musi wyciągnąć, aby mieć pewność, że wśród wylosowanych kul będzie przynajmniej jedna kula zielona?</p><p>Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "16"
+    },
+    {
+     "litera": "D",
+     "html": "17"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kul niezielonych (białych i czarnych) jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>16</mn></mrow></math>. W najgorszym przypadku Bartek wyciągnie wszystkie te 16 kul, nie trafiając zielonej — dopiero kolejna, 17. kula, musi być zielona.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najgorszy przypadek: najpierw wychodzą wszystkie kule w pozostałych kolorach",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator",
+     "plot-i-slupki"
+    ],
+    "opis": "Pewność wymaga najgorszego przypadku: wszystkie inne kule wyjęte, a potem jeszcze jedna"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Ania i Basia znajdują się w odległości 3 km od siebie. Ania jedzie na rowerze z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>, a Basia idzie z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>. Po jakim czasie dziewczynki spotkają się?</p><p>Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Po 5 minutach."
+    },
+    {
+     "litera": "B",
+     "html": "Po 10 minutach."
+    },
+    {
+     "litera": "C",
+     "html": "Po 15 minutach."
+    },
+    {
+     "litera": "D",
+     "html": "Po 20 minutach."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dziewczynki idą ku sobie, więc zbliżają się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>18</mn></mrow></math> km/h. Czas do spotkania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> h, czyli 10 minut.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj obie prędkości i podziel przez nie 3 km, wynik zamień na minuty",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "kąty",
+    "trójkąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W trójkącie jeden z kątów wewnętrznych ma miarę dwa razy większą od drugiego i o 30° większą od trzeciego.</p><p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Najmniejszy kąt tego trójkąta ma miarę</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "84°"
+    },
+    {
+     "litera": "B",
+     "html": "54°"
+    },
+    {
+     "litera": "C",
+     "html": "42°"
+    },
+    {
+     "litera": "D",
+     "html": "30°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech najmniejszy z kątów ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wtedy pozostałe to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>−</mo><mn>30</mn><mo>°</mo></mrow></math>. Suma kątów trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>=</mo><mn>210</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>42</mn><mo>°</mo></mrow></math>. Kąty trójkąta to 42°, 84° i 54°, więc najmniejszy ma 42°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz mniejszy z dwóch powiązanych kątów przez x i wyraź przez niego pozostałe",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Naturalnie wyznacza się kąt 'odniesienia', a pytają o najmniejszy z trzech kątów"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Która z podanych liczb może wyrażać liczbę krawędzi graniastosłupa? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2018"
+    },
+    {
+     "litera": "B",
+     "html": "2019"
+    },
+    {
+     "litera": "C",
+     "html": "2020"
+    },
+    {
+     "litera": "D",
+     "html": "2021"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi></mrow></math> krawędzi (n dolnych, n górnych, n bocznych), więc liczba krawędzi zawsze dzieli się przez 3. Spośród podanych liczb podzielna przez 3 jest tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2019</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>673</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi — sprawdź podzielność",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeżeli liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest podzielna przez 20, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>n</mi></mrow></math> jest podzielna przez 9."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> przy dzieleniu przez 12 daje resztę 6, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>n</mi></mrow></math> przy dzieleniu przez 10 daje resztę 5."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>20</mn><mi>k</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>n</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mi>n</mi></mrow><mn>20</mn></mfrac><mo>=</mo><mn>9</mn><mi>k</mi></mrow></math> — podzielna przez 9. P.</p><p>2. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>6</mn><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>n</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>n</mi></mrow><mn>6</mn></mfrac><mo>=</mo><mn>5</mn><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>10</mn><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> — reszta z dzielenia przez 10 wynosi 5. P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj ułamki stojące przy n i podstaw ogólną postać liczby n",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z sześcianu o krawędzi długości 4 cm odcięto czworościan w sposób pokazany na rysunku.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Czworościan ten jest foremny."
+    },
+    {
+     "litera": "2",
+     "html": "Objętość tego czworościanu jest równa 32 cm³."
+    },
+    {
+     "litera": "3",
+     "html": "Stosunek objętości tego czworościanu do objętości sześcianu jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2019_podkarpackie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czworościan powstaje przez odcięcie wierzchołka sześcianu płaszczyzną przez trzy sąsiednie wierzchołki: trzy jego krawędzie mają długość 4 cm (krawędzie sześcianu), a pozostałe trzy — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm (przekątne ścian), więc czworościan nie jest foremny. F.</p><p>Jego objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>32</mn><mn>3</mn></mfrac></mrow></math> cm³, a nie 32 cm³. F.</p><p>Stosunek do objętości sześcianu (64 cm³): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mfrac><mn>32</mn><mn>3</mn></mfrac><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>. P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "to ostrosłup o podstawie trójkąta prostokątnego 4×4 i wysokości 4 — użyj ⅓·P·h",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "rysunek"
+    ],
+    "opis": "Ściana cięcia jest trójkątem równobocznym, więc czworościan wygląda na foremny, choć nim nie jest"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "symetrie",
+    "układ współrzędnych",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> są trzema kolejnymi wierzchołkami czworokątów wypukłych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math>.</p><p>Uzupełnij luki.</p><p>13.1. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma oś symetrii prostopadłą do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OX</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ma współrzędne …</p><p>13.2. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> ma środek symetrii. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> ma współrzędne …</p><p>13.3. Środek symetrii czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> ma współrzędne …</p><p>13.4. Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest równy …</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "13.1: D = (4, 3); 13.2: E = (−2, 3); 13.3: środek = (−2, 1); 13.4: obwód = 16",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>13.1. Oś symetrii czworokąta ABCD jest prostopadła do OX, więc jest pionowa i jednakowo odległa od B i C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>0,5</mn></mrow></math>. Odbijając A względem niej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>.</p><p>13.2–13.3. Środek symetrii czworokąta ABCE to środek przekątnej AC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>. Punkt E jest symetryczny do B względem tego środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>.</p><p>13.4. Boki czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>16</mn></mrow></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Zauważ, że</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>,   <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>,   <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math></p><p>14.1. Wykorzystując powyższe równości, uzupełnij zapisy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mo>…</mo></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mo>…</mo></mfrac></mrow></math>,   <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mo>…</mo></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mo>…</mo></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac></mrow></math>,   <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>·</mo><mfrac><mn>1</mn><mo>…</mo></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>−</mo><mfrac><mn>1</mn><mo>…</mo></mfrac></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>∈</mo><mi>N</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&gt;</mo><mn>0</mn></mrow></math></p><p>14.2. Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mo>…</mo><mo>+</mo><mfrac><mn>1</mn><mn>2018</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac></mrow></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "14.1: 6, 6; 10, 10; n+1, n+1.   14.2: 2018/2019",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>14.1. Każdy iloczyn zapisujemy jako różnicę mianowników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>·</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>.</p><p>14.2. Zamieniamy każdy składnik na różnicę i redukujemy kolejne wyrazy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mo>…</mo><mo>+</mo><mfrac><mn>1</mn><mn>2018</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>=</mo><mfrac><mn>2018</mn><mn>2019</mn></mfrac></mrow></math>.</p>",
+    "punktacja_html": "<p>14.1.</p><ul><li>1 pkt za wszystkie poprawne uzupełnienia</li></ul><p>14.2. (0-2)</p><ul><li>1 pkt – poprawne zapisanie iloczynów za pomocą różnic</li><li>2 pkt – redukcja liczb przeciwnych i poprawne obliczenie wartości wyrażenia</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każdy iloczyn zamień na różnicę ułamków — sąsiednie wyrazy się zniosą",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jeśli do liczby dwucyfrowej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dopiszemy na początku cyfrę 5, to otrzymamy liczbę o 234 mniejszą od liczby, którą otrzymamy po dopisaniu cyfry 5 na końcu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wyznacz liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "81",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba z dopisaną cyfrą 5 na początku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>500</mn><mo>+</mo><mi>a</mi></mrow></math>, a liczba z dopisaną cyfrą 5 na końcu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>a</mi><mo>+</mo><mn>5</mn></mrow></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>a</mi><mo>+</mo><mn>5</mn><mo>−</mo><mo>(</mo><mn>500</mn><mo>+</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>234</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>a</mi><mo>=</mo><mn>729</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>81</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne zapisanie wyrażenia algebraicznego opisującego liczbę, którą otrzymamy po dopisaniu cyfry 5 na początku liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> lub wyrażenia algebraicznego opisującego liczbę, którą otrzymamy po dopisaniu cyfry 5 na końcu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></li><li>2 pkt – poprawne zapisanie obydwu ww. wyrażeń algebraicznych</li><li>3 pkt – poprawne ułożenie równania</li><li>4 pkt – poprawne rozwiązanie równania i wyznaczenie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "'Liczba o 234 mniejsza od' — łatwo odwrócić, która liczba jest większa; odwrotne też daje liczbę dwucyfrową"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 60°. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> należy do przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tego trójkąta. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> o długości 4 cm dzieli kąt prosty na dwa kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math>, których stosunek miar jest równy odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>2</mn></mrow></math>. Oblicz długość przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Wykonaj rysunek. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> dzieli kąt prosty w stosunku 1 : 2, czyli na kąty 30° i 60°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DAB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CAD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mają po 60°, więc trójkąt jest równoboczny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma miarę 30° (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>), a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> również 30°, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> cm.</p>",
+    "punktacja_html": "<ul><li>1 pkt – obliczenie miar kątów, na jakie odcinek AD dzieli kąt prosty (30° i 60°)</li><li>2 pkt – zauważenie, że trójkąt ABD jest równoboczny a jego bok ma długość 4 cm lub zauważenie, że trójkąt ADC jest równoramienny a jego ramiona mają długość 4 cm</li><li>3 pkt – zauważenie, że trójkąt ABD jest równoboczny a jego bok ma długość 4 cm i zauważenie, że trójkąt ADC jest równoramienny a jego ramiona mają długość 4 cm</li><li>4 pkt – obliczenie długości przeciwprostokątnej BC (8 cm)</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "pierścień kołowy",
+    "układ współrzędnych",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest średnicą okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Końce tego odcinka mają współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math> należy do okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Oblicz współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i pole pierścienia kołowego ograniczonego przez okręgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math>. Wykonaj rysunek z zaznaczonymi punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i narysowanymi okręgami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math>. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "S = (1, 2); pole pierścienia = 10π",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>,</mo><mfrac><mrow><mo>−</mo><mn>1</mn><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn></mrow></math>, a promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> (odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>) spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>8</mn></mrow></math>. Pole pierścienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>π</mi><mo>(</mo><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup><mo>)</mo><mo>=</mo><mi>π</mi><mo>(</mo><mn>18</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>10</mn><mi>π</mi></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – wykonanie pełnego rysunku z zaznaczonym punktem S w środku odcinka AB – nie wymagamy ani konstrukcji ani współrzędnych punktu S lub sporządzenie niekompletnego rysunku z zaznaczonym punktem S i wyznaczonymi jego współrzędnymi</li><li>2 pkt – obliczenie długości promienia okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> (lub kwadratu długości promienia) lub długości promienia okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> (lub kwadratu długości promienia)</li><li>3 pkt – obliczenie długości obu promieni (lub ich kwadratów)</li><li>4 pkt – obliczenie pola pierścienia kołowego wyznaczonego przez okręgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math></li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2019_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 6,
+   "tematy": [
+    "czworokąty",
+    "kąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> mają odpowiednio długości 20 cm i 10 cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> trapezu dzieli kąt przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na połowy. Oblicz obwód i miarę kąta ostrego trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Wykonaj odpowiedni rysunek. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "obwód = 50 cm, kąt ostry = 60°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> są naprzemianległe, więc mają równe miary; ponieważ przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na połowy, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> ma równe kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, czyli jest równoramienny i ramiona trapezu mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn></mrow></math> cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn></mrow></math> cm. Prowadząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> równoległy do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> jest rombem o boku 10 cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>; trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> jest równoboczny, zatem kąt ostry trapezu ma miarę 60°.</p>",
+    "punktacja_html": "<p>I część zadania</p><ul><li>1 pkt – wykonanie odpowiedniego rysunku i zauważenie, że kąty CAB i DCA są naprzemianległe zatem mają równe miary</li><li>2 pkt – zauważenie, że trójkąt ACD ma te same kąty przy podstawie AC, więc jest równoramienny</li><li>3 pkt – obliczenie obwodu trapezu ABCD</li></ul><p>II część zadania</p><ul><li>4 pkt – poprowadzenie odcinka CE równoległego do ramienia AD i zauważenie, że punkt E jest środkiem podstawy AB (I sposób) lub poprowadzenie wysokości w trapezie i wyznaczenie długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (II sposób)</li><li>5 pkt – zauważenie, że trójkąt EBC jest równoboczny (I sposób) lub zauważenie, że trójkąty prostokątne utworzone po obu stronach trapezu przez wysokość, odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i ramię trapezu są szczególne i mają kąty ostre o miarach 60° i 30°</li><li>6 pkt – podanie miary kąta ostrego trapezu ABCD</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}
