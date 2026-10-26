@@ -1,0 +1,727 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2011/2012",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 21,
+ "max_punktow": 46,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2012_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2012_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W kufrze jest 5 skrzyń, w każdej skrzyni są 3 pudełka, w każdym pudełku jest 10 złotych monet. Kufer, skrzynie i pudełka są pozamykane na klucz. Ile co najmniej zamków trzeba otworzyć, aby wybrać 50 monet?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trzeba otworzyć kufer (1 zamek). 50 monet = 5 pudełek po 10 monet. 5 pudełek mieści się w 2 skrzyniach (3+3), więc otwieramy 2 skrzynie. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>8</mn></math> zamków.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile pudełek daje 50 monet, i w ilu skrzyniach one leżą",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:pominiety-zamek"
+    ],
+    "opis": "Łatwo policzyć tylko pudełka i skrzynie, zapominając, że kufer też jest zamknięty"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Jakim procentem godziny lekcyjnej jest trzecia część kwadransa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>%</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "15%"
+    },
+    {
+     "litera": "D",
+     "html": "5%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kwadrans = 15 min, jego trzecia część = 5 min. Godzina lekcyjna = 45 min. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mn>11</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień kwadrans i godzinę lekcyjną na minuty",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "jednostki",
+     "inne:godzina-lekcyjna"
+    ],
+    "opis": "Godzina lekcyjna to 45 minut, a nie 60; trzecia część kwadransa to 5 minut"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie"
+   ],
+   "tresc_html": "<p>Michał rozłożył na stole cztery poniższe karty. Które z nich mają jedną oś symetrii?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "tylko 2♥"
+    },
+    {
+     "litera": "B",
+     "html": "tylko A♣"
+    },
+    {
+     "litera": "C",
+     "html": "A♣ i 2♥ i 3♣"
+    },
+    {
+     "litera": "D",
+     "html": "A♣ i 3♣"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q3_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>As karo ma dwie osie symetrii (pionową i poziomą — romb jest symetryczny względem obu). Dwójka kier też ma dwie osie: pionową (serca są symetryczne) i poziomą, bo górne serce jest zwrócone w górę, a dolne w dół, więc odbijają się na siebie.</p><p>As trefl ma dokładnie jedną oś — pionową (odbicie poziome odwróciłoby środkowy trefl „do góry nogami”). Trójka trefl również ma tylko oś pionową — środkowy trefl skierowany w górę psuje symetrię względem osi poziomej.</p><p>Dokładnie jedną oś symetrii mają więc A♣ i 3♣ — odpowiedź D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdzaj osobno oś pionową i poziomą — patrz, czy dolny znak nie jest odwrócony",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzrost wykładniczy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Piłka, która spadła z półki regału odbija się od podłogi, za każdym razem na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> poprzedniej wysokości. Z jakiej wysokości spadła piłka, skoro po trzecim odbiciu znajduje się na wysokości 6,4 cm?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2,50 m"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>29</mn><mfrac><mn>17</mn><mn>27</mn></mfrac></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "40 cm"
+    },
+    {
+     "litera": "D",
+     "html": "10 dm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>6,4</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>·</mo><mfrac><mn>8</mn><mn>125</mn></mfrac><mo>=</mo><mn>6,4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>100</mn></math> cm = 10 dm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cofaj się od 6,4 cm — każde odbicie wstecz to mnożenie przez 5/2, trzy razy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "jednostki"
+    ],
+    "opis": "Trzy odbicia to trzy mnożenia przez 2/5; wynik w cm, a wariant zapisany w innej jednostce"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "NWW / NWD",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Wskaż zdanie <u>fałszywe</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Jeżeli liczba dzieli się przez 2 i 3, to dzieli się przez 6."
+    },
+    {
+     "litera": "B",
+     "html": "Każda liczba podzielna przez 45 dzieli się przez 5 i 9."
+    },
+    {
+     "litera": "C",
+     "html": "Jeżeli liczba dzieli się przez 4 i 6, to dzieli się przez 24."
+    },
+    {
+     "litera": "D",
+     "html": "Każda liczba podzielna przez 2, 3 i 5 jest wielokrotnością liczby 30."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Fałszywe jest C: np. 12 dzieli się przez 4 i 6, ale nie przez 24 (NWW(4,6)=12). Pozostałe są prawdziwe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj kontrprzykładu tam, gdzie dzielniki mają wspólny czynnik",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Tylko jeden z poniższych wzorów nie pasuje do pozostałych. Który?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Analiza pikselowa 5 spiral (3 współśrodkowe łuki każda) pokazała kąt środka przerwy każdego pierścienia. W figurach 1,2,3,5 kolejność skrętu (kierunek narastania przerwy między pierścieniami) jest zgodna, a figura 4 ma odwrócony (lustrzany) kierunek skrętu względem pozostałych.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Pomiar temperatury można wykonać w różnych skalach. Korzystając z informacji umieszczonej w ramce oblicz, przy jakiej temperaturze termometr w skali Celsjusza wskazuje tą samą temperaturę, co termometr w skali Fahrenheita.</p><p><em>Aby przeliczyć temperaturę podaną w skali Celsjusza na temperaturę w skali Fahrenheita, należy liczbę stopni Celsjusza pomnożyć przez 9, otrzymany iloczyn podzielić przez 5, a następnie wynik powiększyć o 32.</em></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20°"
+    },
+    {
+     "litera": "B",
+     "html": "−40°"
+    },
+    {
+     "litera": "C",
+     "html": "40°"
+    },
+    {
+     "litera": "D",
+     "html": "−30°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mi>C</mi></mrow><mn>5</mn></mfrac><mo>+</mo><mn>32</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>C</mi><mo>=</mo><mn>32</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>-</mo><mn>40</mn></math>°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyrównaj obie skale — szukana liczba ma być równa swojemu przeliczeniu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Trzej koledzy: Adam, Tomek i Paweł podczas ferii zimowych byli 15 razy na basenie. Adam 8 razy wykupił bilety dla całej trójki, a Tomek uczynił to 7 razy. Paweł oddał kolegom 30 zł, które jak obliczył był im winien za bilety na basen. Jak Adam i Tomek powinni podzielić te 30 zł między sobą, aby każdy z chłopców poniósł ten sam koszt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22 zł dla Adama i 8 zł dla Tomka"
+    },
+    {
+     "litera": "B",
+     "html": "15 zł dla Adama i 15 zł dla Tomka"
+    },
+    {
+     "litera": "C",
+     "html": "16 zł dla Adama i 14 zł dla Tomka"
+    },
+    {
+     "litera": "D",
+     "html": "18 zł dla Adama i 12 zł dla Tomka"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>15 wyjść × 3 bilety = 45 biletów; każdy powinien pokryć 15. Paweł winien 15 biletów = 30 zł, więc bilet = 2 zł. Adam zapłacił 24 bilety (48 zł), nadpłata 18 zł; Tomek 21 biletów (42 zł), nadpłata 12 zł. Podział: 18 zł i 12 zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podziel 15 wyjść po równo i zobacz, o ile za dużo wykupił każdy z kolegów",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "inne:podzial-proporcjonalny"
+    ],
+    "opis": "Zwrot dzieli się według nadpłaty ponad własny udział, a nie proporcjonalnie do liczby zakupów 8:7"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Obwód kwadratu jest o 24 cm większy od długości jego boku. Pole tego kwadratu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mspace width=\"0.2em\"></mspace><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mspace width=\"0.2em\"></mspace><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>324</mn><mspace width=\"0.2em\"></mspace><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mspace width=\"0.2em\"></mspace><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>24</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math>. Pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obwód bez jednego boku to trzy pozostałe boki",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:czytanie-relacji"
+    ],
+    "opis": "Obwód jest o 24 cm WIĘKSZY od boku, a nie równy 24 cm"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność odwrotna"
+   ],
+   "tresc_html": "<p>Dziesięcioletni Arek i trzyletnia Ania, zgodnie z zaleceniem lekarza, codziennie piją tran w odpowiedniej dla siebie dawce. Arek wypija butelkę tranu w ciągu 14 dni, a wspólnie z Anią wypiliby ją w ciągu 10 dni. W ciągu ilu dni wypije tę butelkę tranu sama Ania?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 dni"
+    },
+    {
+     "litera": "B",
+     "html": "40 dni"
+    },
+    {
+     "litera": "C",
+     "html": "35 dni"
+    },
+    {
+     "litera": "D",
+     "html": "24 dni"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Wydajność Ani = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>70</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>35</mn></mfrac></math>, więc sama wypije w 35 dni.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij butelkę za 70 porcji — wtedy dzienne porcje wychodzą całkowite",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnie miesięczne wynagrodzenie w pewnej firmie zatrudniającej 14 osób wynosiło 2100 zł. Zatrudniono nowego pracownika. Ile zarabia ten pracownik, jeśli obecnie średnie wynagrodzenie w firmie jest o 42 zł niższe niż poprzednio?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2058 zł"
+    },
+    {
+     "litera": "B",
+     "html": "1470 zł"
+    },
+    {
+     "litera": "C",
+     "html": "1957,2 zł"
+    },
+    {
+     "litera": "D",
+     "html": "1962,8 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma przed: 14·2100 = 29400. Nowa średnia 2058, suma dla 15 osób: 15·2058 = 30870. Nowy pracownik: 30870 − 29400 = 1470 zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie licz sum wypłat — sprawdź, skąd bierze się spadek o 42 zł u każdej z 14 osób",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń",
+    "czworokąty",
+    "procenty"
+   ],
+   "tresc_html": "<p>Nauczyciel matematyki przygotował na lekcję 80 kartoników w kształcie rombów i prostokątów. Wśród nich 0,6 kartoników to romby, zaś 55% kartoników to prostokąty. Ile kartoników ma kształt kwadratu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "32"
+    },
+    {
+     "litera": "C",
+     "html": "0"
+    },
+    {
+     "litera": "D",
+     "html": "80"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Romby: 0,6·80 = 48; prostokąty: 55%·80 = 44. Kwadraty (i romb, i prostokąt): 48 + 44 − 80 = 12.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz oba rodzaje kartoników i zastanów się, czemu suma przekracza 80",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Marysia, Dorota, Sylwia, Ela i Kasia stoją w kolejce po lody. Marysia nie jest pierwsza, a Dorota nie jest ostatnia. Sylwia nie jest pierwsza ani ostatnia. Kasia nie stoi obok Sylwii, a Sylwia nie stoi obok Doroty. Ela stoi przed Dorotą, lecz niekoniecznie obok niej. Która z dziewcząt stoi pierwsza?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Sylwia"
+    },
+    {
+     "litera": "B",
+     "html": "Kasia"
+    },
+    {
+     "litera": "C",
+     "html": "Dorota"
+    },
+    {
+     "litera": "D",
+     "html": "Ela"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pierwsza nie może być M, S (warunki), D (Ela przed Dorotą) ani K (prowadzi do sprzeczności). Ustawienie E, S, M, D, K spełnia wszystkie warunki, więc pierwsza jest Ela.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W pewnym kraju wszystkie miasta mają pięciocyfrowe kody pocztowe zapisane za pomocą cyfr {2, 1, 0}. Dla ułatwienia na kopertach umieszcza się naklejki, na których właściwy kod zaszyfrowany jest zestawem trzydziestu kresek pionowych oraz poziomych. Na przykład koperta adresowana do miasta z kodem cyfrowym 02100 ma naklejkę przedstawioną na pierwszym rysunku.</p><p>Odszyfruj kod cyfrowy miasta wiedząc, że na kopercie adresowanej do tego miasta została umieszczona naklejka przedstawiona na drugim rysunku. Odszyfrowany kod cyfrowy wpisz w podaną kratkę.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q14_fig1.svg",
+    "rysunki/wojewodzki_2012_podkarpackie_q14_fig2.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "10020",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Każda cyfra to blok 6 kresek: liczba pionowych kresek między dwiema poziomymi daje cyfrę (−−||||=0, −|−|||=1, −||−||=2). Bloki czytamy od prawej do lewej (sprawdzenie: rys.1 daje 0,0,1,2,0 → odwrócone 02100). Rys.2: bloki 0,2,0,0,1 → odwrócone <strong>10020</strong>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "graniastosłupy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ola ma okleić papierem ozdobnym prezent w kształcie prostopadłościanu, którego wymiary są kolejnymi liczbami naturalnymi. Suma długości wszystkich krawędzi tego prostopadłościanu jest równa 96 cm. Ile <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> papieru zużyje Ola na oklejenie prezentu?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "382 cm²",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>96</mn></math> → a+b+c = 24, kolejne liczby: 7, 8, 9. Pole powierzchni = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>56</mn><mo>+</mo><mn>72</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>382</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "suma krawędzi to 4·(a+b+c) — stąd suma trzech kolejnych liczb",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W pięciokącie foremnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> miara kąta wewnętrznego wynosi 108°. W pięciokącie tym zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> tak, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny. Jaką miarę ma zaznaczony kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKE</mi></math>?</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q16_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "66°",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trójkąt ABK równoboczny → ∠KAB = 60°, więc ∠KAE = 108° − 60° = 48°. Bo AE = AB = AK, trójkąt AKE jest równoramienny: ∠AKE = (180° − 48°)/2 = 66°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zauważ, że AK = AB = AE — trójkąt AKE jest równoramienny, zacznij od kąta przy A",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Paulina robi ozdobny papierowy pas złożony z jednakowych elementów. Korzystając z danych przedstawionych na rysunku oblicz długość pasa złożonego z sześciu jednakowych elementów. Zapisz odpowiednie wyrażenie algebraiczne pozwalające obliczyć długość pasa złożonego z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jednakowych elementów.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "72 cm; wyrażenie: (11n + 6) cm",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>1 element = 17 cm, 2 elementy = 28 cm, każdy kolejny dodaje 11 cm. Długość dla n: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>+</mo><mn>11</mn><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>11</mn><mi>n</mi><mo>+</mo><mn>6</mn></math>. Dla n = 6: 72 cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, o ile rośnie pas po dołożeniu jednego elementu",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Elementy zachodzą na siebie, więc długość nie rośnie proporcjonalnie do liczby elementów"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 9 cm, krótsza przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> ma długość 8 cm, a wysokość poprowadzona z punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa 6 cm. Oblicz odległość wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>.</p><p>Do rozwiązania zadania wykorzystaj poniższą informację:</p><p><em>Odległością punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> nazywamy długość odcinka prostopadłego do tej prostej, którego jednym końcem jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, a drugim jest punkt należący do prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>.</em></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6,75 cm",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pole trójkąta ABD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>9</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>27</mn></math> cm². Biorąc BD = 8 jako podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mi>d</mi><mo>=</mo><mn>27</mn></math> → d = 6,75 cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "pole trójkąta ABD policz dwa razy — raz od boku AB, raz od przekątnej BD",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "graniastosłupy",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Plac zabaw zagospodarowano w sposób przedstawiony na rysunku. Do pokrycia asfaltem wyznaczonego terenu użyto 19,6 ton asfaltu. Oblicz, ile centymetrów grubości ma warstwa asfaltu na wyznaczonym terenie. Przyjmij, że metr sześcienny asfaltu waży 1,4 tony, a asfalt pokryto równą warstwą na całej powierzchni.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2012_podkarpackie_q19_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "3,5 cm",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Objętość asfaltu = 19,6 : 1,4 = 14 m³. Pole trapezu (asfalt): podstawy 27 m i 27−8−6 = 13 m, wysokość 20 m → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>+</mo><mn>27</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> m². Grubość = 14 : 400 = 0,035 m = 3,5 cm.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Świeżo zerwany arbuz zawiera 92% wody. Pan Maciej w swoim ogródku wyhodował dorodnego arbuza, który zaraz po zerwaniu ważył 8 kg. Po dwóch tygodniach arbuz stracił część zawartej w nim wody i teraz zawartość wody w arbuzie wynosi 91%. Ile waży arbuz po dwóch tygodniach od zerwania?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "64/9 kg ≈ 7,11 kg",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Sucha masa arbuza (bez wody) jest stała: 8 kg·8% = 0,64 kg. Po dwóch tygodniach ta masa stanowi 9% wagi arbuza (bo woda to 91%). Nowa waga = 0,64/0,09 = 64/9 ≈ 7,11 kg.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sucha masa arbuza się nie zmienia — śledź ją zamiast wody",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Spadek zawartości wody o 1 punkt procentowy nie oznacza utraty 1% masy; stała jest sucha masa"
+   }
+  },
+  {
+   "id": "wojewodzki_2012_podkarpackie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Robotnik kopał dół. Na pytanie przechodnia, jak głęboki będzie dół, odpowiedział: „Mam drewnianą listewkę długości 180 cm. Gdy wykopię dół do końca, moja listewka postawiona pionowo na dnie dołu, będzie o tyle centymetrów poniżej powierzchni ziemi, o ile teraz, gdy już wykopałem połowę głębokości dołu, jest powyżej niej.” Jaka będzie głębokość dołu?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "240 cm (2,4 m)",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Głębokość d. Na dnie: listewka wystaje/schowana o |180 − d| = d − 180 (poniżej). Przy połowie d/2: nad ziemią 180 − d/2. Warunek d − 180 = 180 − d/2 → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>d</mi><mo>=</mo><mn>360</mn></math> → d = 240 cm.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

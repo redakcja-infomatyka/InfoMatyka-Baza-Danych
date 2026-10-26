@@ -1,0 +1,734 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2012/2013",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 21,
+ "max_punktow": 50,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2013_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2013_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie"
+   ],
+   "tresc_html": "<p>Który napis nie ma osi symetrii?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "SOS"
+    },
+    {
+     "litera": "B",
+     "html": "KOK"
+    },
+    {
+     "litera": "C",
+     "html": "MIM"
+    },
+    {
+     "litera": "D",
+     "html": "IUI"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Litera S nie ma osi symetrii – nie istnieje ani pionowa, ani pozioma prosta, względem której litera pokrywałaby się sama ze sobą (ma tylko symetrię środkową – obrót o 180°). W napisie SOS obie skrajne litery to S, więc cały napis też nie ma osi symetrii. Jest to napis A.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź każdą literę osobno: która oś — pionowa czy pozioma — mogłaby przejść przez cały napis",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Palindrom nie musi mieć osi symetrii, a napis może mieć oś poziomą zamiast pionowej"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Która z poniższych liczb ma wartość najbliższą liczbie 5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mo>(</mo><mo>−</mo><mn>10</mn><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>7</mn><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>)</mo><mo>+</mo><mn>12</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>2</mn><mn>7</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy, o ile każda wartość różni się od 5.</p><p>A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>10</mn><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>46</mn><mn>9</mn></mfrac></mrow></math>, różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>.</p><p>B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>7</mn><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>)</mo><mo>+</mo><mn>12</mn><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>209</mn><mn>42</mn></mfrac></mrow></math>, różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>42</mn></mfrac></math>.</p><p>C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mn>36</mn><mn>7</mn></mfrac></mrow></math>, różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>.</p><p>D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mn>4</mn><mo>,</mo><mn>9</mn></mrow></math>, różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mn>1</mn></mrow></math>.</p><p>Najmniejsza różnica jest w B – to wartość najbliższa 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz każde działanie i porównuj odległości od 5, a nie same wyniki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Ile sześcianów o krawędzi 3 cm możemy umieścić w graniastosłupie o objętości 216 cm³?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "72"
+    },
+    {
+     "litera": "D",
+     "html": "27"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość jednego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math> cm³. Liczba sześcianów mieszczących się w graniastosłupie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>216</mn><mo>:</mo><mn>27</mn><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel objętość przez objętość jednego sześcianu",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Latarnia morska ma wysokość 80 m. Na planie ma ona wysokość 3 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> całej narysowanej latarni. W jakiej skali narysowano ten rysunek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1:1600"
+    },
+    {
+     "litera": "B",
+     "html": "1:2000"
+    },
+    {
+     "litera": "C",
+     "html": "1:<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>400</mn><mn>17</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "nie da się policzyć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> oznacza wysokość całej latarni na rysunku. Ta wysokość to 3 cm i jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> całości, więc same 3 cm stanowią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math> narysowanej wysokości.</p><p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> to 3 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> to 1 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>5</mn></math> cm.</p><p>Zamieniamy jednostki: 80 m = 8000 cm. Skala rysunku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mn>8000</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>1600</mn></math>.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:czytanie-treści"
+    ],
+    "opis": "Wysokość na planie to 3 cm plus 2/5 całości — łatwo źle odczytać zdanie; skala wymaga tych samych jednostek"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Tasiemkę długości 3 m 8 cm przecięto na dwie części. Krótsza część ma tyle centymetrów ile dłuższa decymetrów. Jaką długość ma dłuższa część?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28 cm"
+    },
+    {
+     "litera": "B",
+     "html": "0,28 m"
+    },
+    {
+     "litera": "C",
+     "html": "2,8 dm"
+    },
+    {
+     "litera": "D",
+     "html": "28 dm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Tasiemka ma 308 cm (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>308</mn></mrow></math>). Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> oznacza długość dłuższej części w cm; krótsza ma wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>L</mi><mn>10</mn></mfrac></math> cm (tyle, ile dłuższa ma decymetrów). Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>+</mo><mfrac><mi>L</mi><mn>10</mn></mfrac><mo>=</mo><mn>308</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mn>280</mn></mrow></math> cm, czyli 28 dm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz dłuższą część przez x dm — wtedy krótsza ma x cm i wszystko licz w centymetrach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "jednostki"
+    ],
+    "opis": "Niewiadoma wychodzi w cm krótszej części, a pytają o dłuższą — ta sama liczba, ale w dm"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na kwadrat o obwodzie 24 cm położono kwadrat w sposób pokazany na rysunku. Pole mniejszego kwadratu jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "28 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "20 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "24 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2013_podkarpackie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok dużego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> cm. Przy każdym rogu odcięty jest trójkąt prostokątny o przyprostokątnych 2 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math> cm; jego przeciwprostokątna jest bokiem mniejszego kwadratu. Z twierdzenia Pitagorasa pole mniejszego kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>20</mn></mrow></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij od pola dużego kwadratu cztery narożne trójkąty prostokątne",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Iloraz pewnej liczby i liczby −3, równy jest odwrotności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Jaka to liczba?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>4</mn><mn>15</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odwrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math> (czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math>) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>12</mn><mn>5</mn></mfrac><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odwrotność 1¼ zapisz jako ułamek zwykły, a potem cofnij dzielenie przez −3",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wzrost wykładniczy"
+   ],
+   "tresc_html": "<p>Jacek założył się z bratem, że codziennie w ciągu dziesięciu dni będzie zjadał jedną pizzę. Okazało się, że dotrzymał słowa tylko przez pierwszych sześć dni. Każdego następnego dnia Jacek zjadał tylko trzecią część pizzy, którą zjadł w dniu poprzednim. Jaką część pizzy Jacek zjadł dziesiątego dnia?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>27</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mn>3</mn><mn>5</mn></msup></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przez pierwsze 6 dni Jacek zjadał całą pizzę dziennie, więc dnia 6. zjadł 1 pizzę. Każdego kolejnego dnia zjada 1/3 poprzedniej ilości: dzień 7 – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, dzień 8 – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>, dzień 9 – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup></math>, dzień 10 – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup></math> pizzy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz, ile razy pizza dzieli się przez 3 od siódmego do dziesiątego dnia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Trzeba policzyć, ile dni minęło od 6. do 10. dnia, czyli ile razy dzielono przez 3"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie jeden z kątów ma miarę 30°, a drugi jest dwa razy większy od trzeciego. Jaką miarę ma największy kąt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "120°"
+    },
+    {
+     "litera": "B",
+     "html": "110°"
+    },
+    {
+     "litera": "C",
+     "html": "90°"
+    },
+    {
+     "litera": "D",
+     "html": "100°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzeci kąt trójkąta oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, drugi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>50</mn><mo>°</mo></mrow></math>. Największy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>100</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz najmniejszy kąt przez x, drugi to 2x — skorzystaj z sumy kątów trójkąta",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dwa tereny leśne zajmują razem 432 ha, przy czym pole powierzchni drugiego terenu jest o 20% mniejsze od pola powierzchni pierwszego. Sprzedano obszar o powierzchni 60 ha z pierwszego terenu leśnego. Ile po sprzedaży wynosi różnica pomiędzy polami powierzchni tych terenów leśnych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 ha"
+    },
+    {
+     "litera": "B",
+     "html": "48 ha"
+    },
+    {
+     "litera": "C",
+     "html": "60 ha"
+    },
+    {
+     "litera": "D",
+     "html": "6 ha"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza pole pierwszego terenu. Drugi jest o 20% mniejszy, czyli równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mn>8</mn><mi>x</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>0</mn><mo>,</mo><mn>8</mn><mi>x</mi><mo>=</mo><mn>432</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>240</mn></mrow></math> ha, drugi teren to 192 ha. Po sprzedaży 60 ha z pierwszego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>180</mn></mrow></math> ha. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>192</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>12</mn></mrow></math> ha.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel 432 przez 1,8, żeby dostać większy teren, i dopiero potem sprawdź różnicę po sprzedaży",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Suma miar wszystkich kątów zaznaczonych na rysunku wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "180°"
+    },
+    {
+     "litera": "B",
+     "html": "360°"
+    },
+    {
+     "litera": "C",
+     "html": "270°"
+    },
+    {
+     "litera": "D",
+     "html": "540°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2013_podkarpackie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rysunek to trzy trójkąty: górny oraz dwa dolne (lewy i prawy) – w każdym zaznaczone są dwa kąty, a trzeci leży przy środkowym przecięciu dwóch prostych. Suma kątów w trójkącie to 180°, więc suma wszystkich dziewięciu kątów (zaznaczonych i nie) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>540</mn><mo>°</mo></mrow></math>. Trzy niezaznaczone kąty są kątami wierzchołkowymi kątów wewnętrznego trójkąta powstałego w miejscu przecięcia, więc też sumują się do 180°. Suma zaznaczonych kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>°</mo><mo>−</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>360</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "kąty niezaznaczone są wierzchołkowe z kątami środkowego trójkąta",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym podstawa dolna jest o 3 cm większa od podstawy górnej. Wysokość trapezu wynosi 2 cm i stanowi 60% długości podstawy górnej. Pole powierzchni tego trapezu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5,5"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "11"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość górnej podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> dolnej. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>6</mn><mi>a</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math> cm, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>=</mo><mfrac><mn>19</mn><mn>3</mn></mfrac></mrow></math> cm. Pole trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi></mrow></math>, a skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>2</mn></mrow></math>, wynosi ono po prostu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>19</mn><mn>3</mn></mfrac><mo>=</mo><mn>9</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wysokość 2 cm skraca się z połową sumy podstaw — górną podstawę wyznacz z procentu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Cyfra jedności różnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>723</mn><mo>·</mo><mn>725</mn><mo>·</mo><mn>727</mn><mo>−</mo><mn>723</mn><mo>·</mo><mn>724</mn><mo>·</mo><mn>725</mn></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wspólny czynnik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>723</mn><mo>·</mo><mn>725</mn><mo>·</mo><mn>727</mn><mo>−</mo><mn>723</mn><mo>·</mo><mn>724</mn><mo>·</mo><mn>725</mn><mo>=</mo><mn>723</mn><mo>·</mo><mn>725</mn><mo>·</mo><mo>(</mo><mn>727</mn><mo>−</mo><mn>724</mn><mo>)</mo></mrow></math>. Cyfra jedności iloczynu 723·725 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>15</mn></mrow></math>, czyli 5. Mnożąc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>727</mn><mo>−</mo><mn>724</mn><mo>=</mo><mn>3</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>15</mn></mrow></math>. Cyfra jedności różnicy to 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz przed nawias wspólny czynnik 723·725",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Obwód czworokąta ABCD jest pięć razy większy od długości przekątnej BD. Obwód trójkąta ABD jest równy 40, a obwód trójkąta BCD jest równy 23. Jaką długość ma przekątna BD?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "9",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość przekątnej BD. Obwód czworokąta ABCD wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi></mrow></math>. Suma obwodów trójkątów ABD i BCD to obwód czworokąta powiększony o dwie długości przekątnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>+</mo><mn>23</mn><mo>=</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>x</mi><mo>=</mo><mn>63</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math>. Przekątna BD ma długość 9.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą rysunku lub wyrażenia algebraicznego; uczeń zauważa zależność pomiędzy obwodem czworokąta a długością przekątnej.</li><li>1 pkt – Uczeń zauważa zależności pomiędzy sumą obwodów trójkątów i obwodem czworokąta.</li><li>1 pkt – Uczeń poprawnie oblicza długość przekątnej BD.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj obwody obu trójkątów — przekątna wejdzie do sumy dwa razy",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie równobocznym ABC poprowadzono przez wierzchołek A prostą <em>k</em> prostopadłą do boku AC, a przez wierzchołek B prostą <em>l</em> prostopadłą do boku BC. Narysuj odpowiedni rysunek. Oblicz miarę kąta ostrego między prostymi <em>k</em> i <em>l</em>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "60°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trójkąt równoboczny ma wszystkie kąty równe 60°. Niech D będzie punktem przecięcia prostych <em>k</em> i <em>l</em>. W czworokącie ADBC kąt przy A (między AC a prostą <em>k</em>) i kąt przy B (między BC a prostą <em>l</em>) są proste, a kąt przy C wynosi 60°. Suma miar kątów czworokąta jest równa 360°, więc kąt ADB = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>120</mn><mo>°</mo></mrow></math>. Kąt ostry między prostymi jest kątem przyległym do kąta ADB, więc wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Uczeń poprawnie wykonuje rysunek.</li><li>1 pkt – Uczeń korzysta z własności, że suma miar kątów wewnętrznych w czworokącie ADBC jest równa 360°; uczeń oblicza miarę kąta BDA.</li><li>1 pkt – Uczeń korzysta z własności kątów przyległych i oblicza miarę kąta ostrego o wierzchołku w punkcie D.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Czworokąt daje kąt rozwarty między prostymi, a pytają o kąt ostry"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "stężenie procentowe / mieszaniny",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Złotnik ma dwa stopy złota ze srebrem. W pierwszym stopie stosunek masy złota do srebra wynosi 2:3, a w drugim 3:7. Ile musi wziąć każdego ze stopów, aby otrzymać 8 kg nowego stopu, w którym stosunek masy złota do srebra wynosi 5:11?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1 kg pierwszego stopu i 7 kg drugiego stopu",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę pierwszego stopu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>−</mo><mi>x</mi></mrow></math> masę drugiego. Złoto stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> pierwszego stopu i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10</mn></mfrac></math> drugiego, a w nowym stopie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>16</mn></mfrac><mo>·</mo><mn>8</mn><mo>=</mo><mn>2,5</mn></mrow></math> kg. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mo>(</mo><mn>8</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2,5</mn></mrow></math>. Po pomnożeniu przez 10: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>(</mo><mn>8</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>25</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>. Należy wziąć 1 kg pierwszego stopu i 7 kg drugiego stopu.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą rysunku lub wyrażenia arytmetycznego.</li><li>1 pkt – Poprawnie zapisuje równanie, które doprowadzi do obliczenia wagi pierwszego i drugiego stopu.</li><li>1 pkt – Poprawnie oblicza masę pierwszego stopu i masę drugiego stopu.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprawdź, ile złota dałby sam drugi stop, i o ile podnosi je każdy kilogram pierwszego",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Suma dwóch liczb naturalnych (różnych od 0) jest równa 105, a ich największy wspólny dzielnik wynosi 21. Znajdź te liczby. Podaj wszystkie możliwości.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "21 i 84 oraz 42 i 63",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Skoro największy wspólny dzielnik obu liczb wynosi 21, można je zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mi>m</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mi>n</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są względnie pierwsze. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mi>m</mi><mo>+</mo><mn>21</mn><mi>n</mi><mo>=</mo><mn>105</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>m</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>5</mn></mrow></math>. Względnie pierwsze pary o sumie 5 to (1, 4) oraz (2, 3). Zatem szukane liczby to 21 i 84 oraz 42 i 63.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą równania lub wyrażenia algebraicznego lub rozwiązuje zadanie metodą prób i błędów. Uwaga: Uczeń w metodzie prób i błędów musi wskazać co najmniej 3 przypadki liczb spełniających warunki zadania.</li><li>1 pkt – Zauważa, że każda z liczb, która spełnia oba warunki jednocześnie jest wielokrotnością liczby 21. UWAGA: Uczeń nie musi dokonać formalnego zapisu swoich obliczeń, jeśli poprawnie prowadzi tok rozumowania otrzymuje 1 punkt.</li><li>1 pkt – Poprawnie zapisuje obie pary liczb.</li></ul><p>Uwaga: 1. Jeśli uczeń zgaduje liczby to otrzymuje 1 pt. 2. Jeśli uczeń podaje trzy rozwiązania, w tym jedno błędne to otrzymuje 2 pt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obie liczby to wielokrotności 21 — wypisz pary sumujące się do 105 i sprawdź ich NWD",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dwóch lekkoatletów ćwiczyło na bieżni. Jeden z nich, który biegł z prędkością o 8% większą od prędkości drugiego, przebiegł jedno okrążenie w czasie o 10 s krótszym. Oblicz czas, w jakim każdy z lekkoatletów pokonał jedno okrążenie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "pierwszy (szybszy) 125 s, drugi 135 s",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math> to prędkość drugiego biegacza, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> jego czas. Pierwszy biegł z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,08</mn><mi>v</mi></mrow></math> w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>−</mo><mn>10</mn></mrow></math>. Obaj pokonali tę samą drogę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,08</mn><mi>v</mi><mo>(</mo><mi>t</mi><mo>−</mo><mn>10</mn><mo>)</mo><mo>=</mo><mi>v</mi><mi>t</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,08</mn><mo>(</mo><mi>t</mi><mo>−</mo><mn>10</mn><mo>)</mo><mo>=</mo><mi>t</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,08</mn><mi>t</mi><mo>=</mo><mn>10,8</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>135</mn></mrow></math> s. Pierwszy biegacz pokonał okrążenie w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>135</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>125</mn></mrow></math> s.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą rysunku lub wyrażenia arytmetycznego.</li><li>1 pkt – Zapisuje poprawne równanie, w którym uczeń zauważa, że obydwaj biegacze przebyli tę samą drogę.</li><li>1 pkt – Poprawnie oblicza czas biegu drugiego biegacza.</li><li>1 pkt – Poprawnie oblicza czas biegu pierwszego biegacza.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "8% więcej prędkości to stosunek 27:25, więc czasy są w stosunku odwrotnym",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "procent-podstawa"
+    ],
+    "opis": "Prędkość o 8% większa nie oznacza czasu o 8% krótszego"
+   }
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "ułamki",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Nieuważny pracownik zmieszał w silosie ze zbożem pszenicę z plewami. Sama pszenica stanowiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> tej mieszanki. Najpierw udało się przy użyciu sita oddzielić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> ziaren pszenicy z całości. Następnie przy użyciu odpowiedniej dmuchawy 0,7 pozostałych ziaren pszenicy odsunięto od plew. Na koniec w młynie udało się jeszcze odzyskać 180 kg czystej pszenicy. Ile ton mieszanki pracownik zmieszał w silosie? Ile ton pszenicy było w silosie?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4 tony mieszanki, 1 tona pszenicy",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> oznacza masę całej pszenicy. Sitem odzyskano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> pszenicy, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>P</mi></mrow></math>. Dmuchawą odzyskano 0,7 z tej reszty, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mo>·</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>P</mi><mo>=</mo><mfrac><mn>21</mn><mn>50</mn></mfrac><mi>P</mi></mrow></math>. Do młyna trafiło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>P</mi><mo>−</mo><mfrac><mn>21</mn><mn>50</mn></mfrac><mi>P</mi><mo>=</mo><mfrac><mn>9</mn><mn>50</mn></mfrac><mi>P</mi></mrow></math>, co stanowi 180 kg. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>180</mn><mo>:</mo><mfrac><mn>9</mn><mn>50</mn></mfrac><mo>=</mo><mn>1000</mn></mrow></math> kg = 1 tona. Cała mieszanka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>4000</mn></mrow></math> kg = 4 tony.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą rysunku lub wyrażenia arytmetycznego lub wyrażenia algebraicznego.</li><li>1 pkt – Poprawnie zapisuje równanie lub oblicza wyrażenie arytmetyczne.</li><li>1 pkt – Poprawnie rozwiązuje równanie lub oblicza wagę mieszanki.</li><li>1 pkt – Poprawnie oblicza wagę pszenicy.</li><li>1 pkt – Poprawnie przelicza jednostki.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "śledź, jaka część pszenicy zostaje po każdym etapie, i przyrównaj ją do 180 kg",
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "procenty",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Jaki procent wszystkich trzycyfrowych wielokrotności liczby 5 stanowią trzycyfrowe wielokrotności liczby 25?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "20%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trzycyfrowe wielokrotności liczby 5 to liczby od 100 do 995; jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>995</mn><mo>−</mo><mn>100</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>180</mn></mrow></math>. Trzycyfrowe wielokrotności liczby 25 to liczby od 100 do 975; jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>975</mn><mo>−</mo><mn>100</mn><mo>)</mo><mo>:</mo><mn>25</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>36</mn></mrow></math>. Szukany procent to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>36</mn><mn>180</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>=</mo><mn>20</mn><mo>%</mo></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą wyrażenia arytmetycznego (liczba trzycyfrowych wielokrotności liczby 5).</li><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą wyrażenia arytmetycznego (liczba trzycyfrowych wielokrotności liczby 25).</li><li>1 pkt – Poprawnie porównuje obie liczby wielokrotności.</li><li>1 pkt – Poprawnie podaje odpowiedź: wielokrotności liczby 25 stanowią 20% wszystkich trzycyfrowych wielokrotności liczby 5.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprawdź, w jakich odstępach wielokrotności 25 pojawiają się wśród wielokrotności 5",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2013_podkarpackie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "graniastosłupy",
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Długość pewnego prostopadłościanu zmniejszono o 20%, jego szerokość zmniejszono o 25%, a wysokość zmniejszono o 50%. Otrzymano sześcian o polu powierzchni równym 864 cm². Jakie pole powierzchni i jaką objętość miał prostopadłościan?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "pole powierzchni 1968 cm², objętość 5760 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Sześcian ma pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>864</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math> cm. Krawędzie prostopadłościanu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></mrow></math> spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>z</mi><mo>=</mo><mn>12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>24</mn></mrow></math> cm. Pole powierzchni prostopadłościanu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mn>15</mn><mo>·</mo><mn>16</mn><mo>+</mo><mn>16</mn><mo>·</mo><mn>24</mn><mo>+</mo><mn>24</mn><mo>·</mo><mn>15</mn><mo>)</mo><mo>=</mo><mn>1968</mn></mrow></math> cm², a objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>16</mn><mo>·</mo><mn>24</mn><mo>=</mo><mn>5760</mn></mrow></math> cm³.</p>",
+    "punktacja_html": "<ul><li>1 pkt – Poprawnie opisuje sytuację przedstawioną w zadaniu za pomocą wyrażenia arytmetycznego lub wyrażenia algebraicznego (obliczenie długości krawędzi sześcianu).</li><li>1 pkt – Zauważa zależności pomiędzy długością krawędzi sześcianu a długościami krawędzi prostopadłościanu.</li><li>1 pkt – Poprawnie oblicza długości wszystkich krawędzi prostopadłościanu.</li><li>1 pkt – Poprawnie oblicza pole powierzchni prostopadłościanu.</li><li>1 pkt – Poprawnie oblicza objętość prostopadłościanu.</li></ul>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Odtworzenie wymiaru sprzed obniżki: procent liczy się od starej wartości, nie od nowej"
+   }
+  }
+ ]
+}
