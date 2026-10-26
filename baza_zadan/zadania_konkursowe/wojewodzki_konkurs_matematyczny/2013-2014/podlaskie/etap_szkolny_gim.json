@@ -1,0 +1,727 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów gimnazjum (podlaskie)",
+ "etap": "szkolny",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2013/2014",
+ "data": "2013-10-29",
+ "typ_szkoly": "gimnazjum",
+ "liczba_zadan": 20,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2013_podlaskie_gim.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2013_podlaskie_gim_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Spośród wszystkich trzycyfrowych liczb naturalnych o sumie cyfr 8 wybrano największą i najmniejszą. Suma tych wybranych liczb jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "907"
+    },
+    {
+     "litera": "B",
+     "html": "808"
+    },
+    {
+     "litera": "C",
+     "html": "709"
+    },
+    {
+     "litera": "D",
+     "html": "606"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Największa trzycyfrowa o sumie cyfr 8: <b>800</b>. Najmniejsza: <b>107</b>. Suma: 800 + 107 = 907.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "największą buduj od setek, w najmniejszej daj setkom jak najmniej",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Magda napisała ciąg liczb, w którym każda liczba, począwszy od trzeciej, była sumą dwóch liczb ją poprzedzających. Czwartą liczbą w tym ciągu była liczba 6, a szóstą 15. Siódma liczba w tym ciągu była równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "16"
+    },
+    {
+     "litera": "C",
+     "html": "21"
+    },
+    {
+     "litera": "D",
+     "html": "24"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Każdy wyraz od trzeciego = suma dwóch poprzednich, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>6</mn></msub><mo>=</mo><msub><mi>a</mi><mn>4</mn></msub><mo>+</mo><msub><mi>a</mi><mn>5</mn></msub></math>: 15 = 6 + a₅ → a₅ = 9. a₇ = a₅ + a₆ = 9 + 15 = 24.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zauważ, że szósty wyraz to czwarty plus piąty",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Długością liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> większej niż 1 nazywa się liczbę czynników w przedstawieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> w postaci iloczynu liczb pierwszych. Na przykład, długość liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></math> jest równa 4. Ile liczb mniejszych niż 20 ma długość 3?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Długość 3 = iloczyn 3 czynników pierwszych. Liczby &lt; 20: 8 = 2·2·2, 12 = 2·2·3, 18 = 2·3·3. To 3 liczby (20 = 2·2·5 już nie jest mniejsze od 20).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj iloczynów trzech czynników pierwszych — czynniki mogą się powtarzać",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "Warunek ostry „mniejszych niż 20” — granica sama ma długość 3 i nie może być liczona"
+   }
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Aby otrzymać liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>8</mn></msup></math>, liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>4</mn></msup></math> należy podnieść do potęgi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>24</mn></msup></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup></math>. (2⁸)ᵏ = 2²⁴ → 8k = 24 → k = 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz obie liczby jako potęgi dwójki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Michał na egzaminie testowym odpowiedział poprawnie na 80% pytań, a na pozostałe 5 pytań nie udzielił odpowiedzi. Ile było pytań w teście?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30"
+    },
+    {
+     "litera": "B",
+     "html": "35"
+    },
+    {
+     "litera": "C",
+     "html": "20"
+    },
+    {
+     "litera": "D",
+     "html": "25"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Poprawnie 80%, więc pozostałe 5 pytań to 20% całości. 5 / 0,2 = 25 pytań.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, jakim procentem całości jest te 5 pytań",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>5</mn></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>25</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>5</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>x</mi><mo>−</mo><mn>5</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>A, B, C zależą tylko od |x| lub x² (te same wartości). D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>x</mi><mo>−</mo><mn>5</mn></math> daje dla x = −5 wynik −4, a dla x = 5 wynik −6 — różne.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, w którym wyrażeniu zmiana znaku x naprawdę coś zmienia",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>W pewnym gimnazjum jest 280 uczniów. W klasach pierwszych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> uczniów, w klasach drugich o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> więcej niż w pierwszych. Ilu uczniów jest w klasach trzecich?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mo>−</mo><mi>m</mi><mo>−</mo><mi>m</mi><mo>−</mo><mi>n</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mo>−</mo><mi>m</mi><mo>+</mo><mi>n</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mo>−</mo><mi>m</mi><mo>−</mo><mi>n</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mo>−</mo><mi>m</mi><mo>−</mo><mi>m</mi><mo>+</mo><mi>n</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pierwsze: m, drugie: m + n. Trzecie = 280 − m − (m + n) = 280 − m − m − n.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw wyraź liczbę drugoklasistów przez m i n, potem odejmij od 280",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Pudełko czekoladek kosztuje 10 zł. W każdym pudełku znajduje się kupon. Za każde trzy kupony można otrzymać dodatkowe pudełko czekoladek gratis. Jaka jest największa liczba pudełek czekoladek, które można otrzymać za 150 zł?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15"
+    },
+    {
+     "litera": "B",
+     "html": "18"
+    },
+    {
+     "litera": "C",
+     "html": "20"
+    },
+    {
+     "litera": "D",
+     "html": "30"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Za 150 zł kupuje się 150/10 = 15 pudełek → 15 kuponów → 15/3 = 5 pudełek gratis. Razem 15 + 5 = 20 pudełek (odpowiedź z listy).</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W pewnej rodzinie jest pięcioro dzieci: Ania, Janek, Zosia, Maciek i Ela. Rodziły się one w podanej kolejności co 3 lata. Najstarsza Ania jest 7 razy starsza od najmłodszej Eli. Ile lat ma Zosia?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Ania jest o 4·3 = 12 lat starsza od Eli. Ania = 7·Ela oraz Ania = Ela + 12 → 6·Ela = 12 → Ela = 2, Ania = 14. Zosia (środkowa) = 14 − 6 = 8.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica wieku Ani i Eli to cztery odstępy po 3 lata",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Gdy Ania stoi na krześle, to jest o 40 cm wyższa od Janka stojącego na podłodze. Jeśli Janek stanie na tym samym krześle, a Ania na podłodze, to Janek będzie wyższy od Ani o 60 cm. Jaką wysokość ma krzesło?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40 cm"
+    },
+    {
+     "litera": "B",
+     "html": "50 cm"
+    },
+    {
+     "litera": "C",
+     "html": "60 cm"
+    },
+    {
+     "litera": "D",
+     "html": "70 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>a + h − j = 40 oraz j + h − a = 60. Dodając: 2h = 100 → h = 50 cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj obie sytuacje stronami — wzrosty się skrócą",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Drużyna piłki nożnej składa się z 11 piłkarzy. Średni wiek piłkarzy tej drużyny jest równy 22 lata. Podczas meczu jeden z graczy tej drużyny został kontuzjowany i musiał opuścić boisko. Średni wiek pozostałych piłkarzy był równy 21 lat. Ile lat miał kontuzjowany piłkarz?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "21"
+    },
+    {
+     "litera": "B",
+     "html": "22"
+    },
+    {
+     "litera": "C",
+     "html": "32"
+    },
+    {
+     "litera": "D",
+     "html": "33"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma wieku 11 graczy = 11·22 = 242. Po kontuzji 10 graczy: 10·21 = 210. Kontuzjowany: 242 − 210 = 32.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj sumę lat całej jedenastki z sumą lat pozostałych",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Spośród punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></math> do wykresu funkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "nie należy żaden."
+    },
+    {
+     "litera": "B",
+     "html": "należy tylko jeden."
+    },
+    {
+     "litera": "C",
+     "html": "należą tylko dwa."
+    },
+    {
+     "litera": "D",
+     "html": "należą wszystkie trzy."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>f(x) = 3x − 2: f(0) = −2 (K), f(−1) = −5 (L), f(−2) = −8 (M). Wszystkie trzy punkty należą do wykresu.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw pierwszą współrzędną do wzoru i porównaj z drugą",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie",
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest symetryczny do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math> względem osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest symetryczny do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> względem osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędne</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>A = (2, −3). Symetria względem osi x: B = (2, 3). Symetria względem osi y: C = (−2, 3).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odbicie w osi x zmienia znak y, a w osi y — znak x",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "geometria"
+   ],
+   "tresc_html": "<p>Odcinek długości 4 podzielono czterema punktami wewnętrznymi na odcinki równej długości. Jaką długość ma każdy z tych odcinków?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,4"
+    },
+    {
+     "litera": "B",
+     "html": "0,5"
+    },
+    {
+     "litera": "C",
+     "html": "0,8"
+    },
+    {
+     "litera": "D",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>4 punkty wewnętrzne dzielą odcinek na 5 części. Każda: 4/5 = 0,8.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, na ile części cztery punkty dzielą odcinek",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Cztery punkty wewnętrzne dzielą odcinek na pięć części, a nie na cztery"
+   }
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Ile wierzchołków ma wielokąt foremny, którego miara kąta wewnętrznego jest równa 144°?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "12"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn></mrow><mi>n</mi></mfrac><mo>=</mo><mn>144</mn></math> → 180n − 360 = 144n → 36n = 360 → n = 10.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz kąt zewnętrzny — wszystkie takie kąty dają razem 360°",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest prosty, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Jeśli pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe 96, to pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "36"
+    },
+    {
+     "litera": "B",
+     "html": "32"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2013_podlaskie_gim_q16_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>C = (0,0), A = (a,0), B = (0,b), ab = 192 (pole 96). E = (a/4, 0) (środek DC), F = (0, b/2). AE = 3a/4, wysokość z F = b/2. Pole AEF = ½·(3a/4)·(b/2) = 3ab/16 = 3·192/16 = 36.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj podstawę AE i wysokość z F z bokami AC i BC, pole zmienia się jak iloczyn tych części",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Na stole stoją dwa naczynia w kształcie sześcianu: jedno o polu podstawy 4 dm², drugie o polu podstawy 1 dm². Duże naczynie napełniono wodą, używając do tego mniejszego naczynia. Ile co najmniej razy wlano wodę z mniejszego do większego naczynia, aby napełnić większe naczynie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Duże naczynie: bok 2 dm (pole podstawy 4 dm²), objętość 8 dm³. Małe: bok 1 dm, objętość 1 dm³. 8/1 = 8 razy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola podstawy odczytaj krawędź, dopiero potem licz objętości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Dane są pola podstaw, a liczy się stosunek objętości sześcianów, nie pól"
+   }
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "wyłączanie wspólnego czynnika przed nawias",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Uzasadnij, że suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>16</mn></msup><mo>+</mo><msup><mn>2</mn><mn>17</mn></msup><mo>+</mo><msup><mn>2</mn><mn>18</mn></msup></math> jest podzielna przez 30.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2¹⁵ + 2¹⁶ + 2¹⁷ + 2¹⁸ = 2¹⁵·(1+2+4+8) = 2¹⁵·15 = 2¹⁴·30, więc jest podzielna przez 30.",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Wyłączając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup></math>: suma = 2¹⁵·(1 + 2 + 4 + 8) = 2¹⁵·15 = 2¹⁴·2·15 = 2¹⁴·30, a więc jest podzielna przez 30.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>W dużych pudełkach jest 180 batonów, a w małych 15% tego, co w dużych. Liczba małych pudełek stanowi 20% liczby dużych pudełek. W każdym dużym pudełku jest o 9 batonów więcej niż w każdym małym. Ile jest dużych, a ile małych pudełek?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "5 dużych pudełek i 1 małe pudełko",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>W dużych łącznie 180 batonów, w małych 15%·180 = 27. Niech D — liczba dużych, M = 0,2D. Batonów w dużym: 180/D, w małym: 27/(0,2D) = 135/D. Warunek 180/D = 135/D + 9 → 45/D = 9 → D = 5, M = 1. Sprawdzenie: 36 − 27 = 9. ✓</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2013_podlaskie_gim_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Suma długości dwóch boków krótszych i jednego boku dłuższego pewnego prostokąta jest równa 20 cm, a suma długości dwóch boków dłuższych i jednego boku krótszego tego prostokąta jest równa 22 cm. Oblicz długość przekątnej tego prostokąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "10 cm",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Niech a — krótszy, b — dłuższy bok. 2a + b = 20, 2b + a = 22. Dodając: a + b = 14; odejmując: b − a = 2 → b = 8, a = 6. Przekątna = √(6² + 8²) = √100 = 10 cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj obie sumy stronami, potem je odejmij — wyjdą oba boki, przekątna z Pitagorasa",
+   "czas_min": 5
+  }
+ ]
+}

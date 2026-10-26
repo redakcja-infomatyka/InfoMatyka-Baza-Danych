@@ -1,0 +1,586 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2014/2015",
+ "data": "2015-03-03",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 35,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2014-2015_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Janek i Zuzia przebywali na obozie narciarskim. Podczas zbiórki wszyscy uczestnicy obozu ustawili się w szeregu. Po jednej stronie Zuzi stało 27, a po drugiej stronie 13 uczestników obozu. Janek stał dokładnie pośrodku tego szeregu. Ile osób (uczestników obozu) stało pomiędzy Jankiem i Zuzią?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Razem jest 27 + 13 + 1 = 41 uczestników. Janek stoi na środku, więc jest na miejscu 21 (po 20 osób z każdej strony). Zuzia ma 27 osób z jednej strony, więc stoi na miejscu 28. Między nimi jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>−</mo><mn>21</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>6</mn></math> osób.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, ilu jest wszystkich w szeregu, i który z kolei stoi Janek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie osób między dwiema pozycjami: różnica numerów miejsc to nie liczba osób stojących pomiędzy"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Trzy batony i dwie mini czekoladki ważą łącznie 184 g, a dwa batony i trzy mini czekoladki ważą łącznie 156 g. Wszystkie batony mają taką samą wagę, podobnie jest z czekoladkami mini, każda czekoladka waży tyle samo. Ile ważą łącznie jeden baton i jedna czekoladka mini?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "34 dag"
+    },
+    {
+     "litera": "B",
+     "html": "68 g"
+    },
+    {
+     "litera": "C",
+     "html": "48 g"
+    },
+    {
+     "litera": "D",
+     "html": "34 g"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dodając stronami oba równania: pięć batonów i pięć czekoladek waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>184</mn><mo>+</mo><mn>156</mn><mo>=</mo><mn>340</mn></math> g, więc jeden baton i jedna czekoladka ważą razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>340</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>68</mn></math> g.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj oba ważenia stronami, zamiast szukać wagi batonu i czekoladki osobno",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest wszystkich naturalnych liczb trzycyfrowych parzystych podzielnych przez 9, których cyfra setek i cyfra dziesiątek są tymi samymi liczbami nieparzystymi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "0"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfra setek i dziesiątek to ta sama nieparzysta cyfra d, cyfra jedności — parzysta cyfra u. Podzielność przez 9 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>d</mi><mo>+</mo><mi>u</mi></math> dzieliło się przez 9. Sprawdzając d = 1, 3, 5, 7, 9 otrzymujemy liczby 558, 774 i 990 — trzy liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przejrzyj tylko 11_, 33_, 55_, 77_, 99_ i pilnuj sumy cyfr oraz parzystości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Cyfra jedności 0 też jest parzysta; łatwo pominąć przypadek z zerem na końcu"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Napisano 99 kolejnych liczb naturalnych, zaczynając od liczby 55. Ile razy do ich zapisu użyto cyfry 5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "19"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W liczbach 55–153 cyfra dziesiątek to 5 w przedziałach 55–59 i 150–153, czyli 5 + 4 = 9 razy. Cyfra jedności to 5 w liczbach 55, 65, 75, 85, 95, 105, 115, 125, 135, 145, czyli 10 razy. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>19</mn></math> razy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal ostatnią liczbę, potem policz osobno piątki na miejscu jedności i na miejscu dziesiątek",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Całkowity koszt (K) wycieczki klasowej można obliczyć ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>300</mn><mo>+</mo><mn>20</mn><mi>n</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę uczniów biorących udział w wycieczce. <strong>Ile zapłaci każdy uczeń</strong> za udział w tej wycieczce, jeżeli weźmie w niej udział <strong>15 uczniów</strong>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40 zł"
+    },
+    {
+     "litera": "B",
+     "html": "32 zł"
+    },
+    {
+     "litera": "C",
+     "html": "20 zł"
+    },
+    {
+     "litera": "D",
+     "html": "15 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Koszt całkowity wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>300</mn><mo>+</mo><mn>20</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>600</mn></math> zł. Na jednego ucznia przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>15</mn><mo>=</mo><mn>40</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wzór daje koszt całej wycieczki — dopiero potem podziel przez liczbę uczniów",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Odległość między miastami na mapie wynosi 43,2 cm. W jakiej skali została wykonana ta mapa, jeżeli odległość między tymi samymi miastami na mapie w skali 1: 60 000 wynosi 28,8 cm?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1:40 000"
+    },
+    {
+     "litera": "B",
+     "html": "1:90 000"
+    },
+    {
+     "litera": "C",
+     "html": "1:1 728 000"
+    },
+    {
+     "litera": "D",
+     "html": "1:2 592 000"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rzeczywista odległość między miastami to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28,8</mn><mo>·</mo><mn>60000</mn><mo>=</mo><mn>1728000</mn></math> cm. Skala pierwszej mapy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>43,2</mn><mo>:</mo><mn>1728000</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>40000</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "porównaj same długości na obu mapach, zamiast liczyć odległość w terenie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Większa odległość na mapie oznacza większą skalę, czyli mniejszy mianownik, a nie większy"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trapezie ramiona i krótsza podstawa mają taką samą długość. Między miarami kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> tego trapezu (zobacz rysunek) zachodzi związek:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>α</mi><mo>=</mo><mi>β</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>β</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>α</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2014-2015_malopolskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech E leży na AB, gdzie AE = DC. Ponieważ AE ∥ DC i AE = DC = AD, czworokąt AECD jest rombem, więc przekątna AC dzieli kąt A na połowy — kąt trapezu przy wierzchołku A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math>. Kąty AEC i CEB są przyległe, więc kąt CEB też wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math>. Ponieważ EC = AD = BC, trójkąt CEB jest równoramienny, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "krótsza podstawa z ramieniem daje trójkąt równoramienny, a przekątna — kąty naprzemianległe",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Trasa, którą spaceruje pani Irena każdego dnia, ma długość 4 km. Pani Irena pokonała już 80% jej długości. Do przejścia pozostało jej:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3200 m"
+    },
+    {
+     "litera": "B",
+     "html": "800 m"
+    },
+    {
+     "litera": "C",
+     "html": "320 m"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> długości trasy"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pani Irenie zostało do przejścia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>%</mo><mo>−</mo><mn>80</mn><mo>%</mo><mo>=</mo><mn>20</mn><mo>%</mo></math> trasy. To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>%</mo><mo>·</mo><mn>4</mn><mo>=</mo><mn>0,8</mn></math> km, czyli 800 m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zostało 20% z 4 km — licz od razu w metrach",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Graniastosłup prosty o 42 ścianach ma:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "120 krawędzi"
+    },
+    {
+     "litera": "B",
+     "html": "84 wierzchołki"
+    },
+    {
+     "litera": "C",
+     "html": "126 krawędzi"
+    },
+    {
+     "litera": "D",
+     "html": "40 wierzchołków"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie n-kąta ma n + 2 ściany, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>42</mn></math>, skąd n = 40. Liczba krawędzi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "od liczby ścian odejmij dwie podstawy, żeby poznać wielokąt podstawy",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:podstawy-to-sciany"
+    ],
+    "opis": "Liczba ścian graniastosłupa obejmuje dwie podstawy, nie tylko ściany boczne"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokątny dywanik o wymiarach 80 cm i 150 cm przykrył 5% powierzchni podłogi w pokoju. Ile jest równe pole powierzchni całej podłogi w tym pokoju?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12000 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "2400 dm²"
+    },
+    {
+     "litera": "C",
+     "html": "1200 dm²"
+    },
+    {
+     "litera": "D",
+     "html": "24000 m²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole dywanika w decymetrach to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>120</mn></math> dm², co stanowi 5% podłogi. Całe pole podłogi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>:</mo><mn>0,05</mn><mo>=</mo><mn>2400</mn></math> dm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dywanik to 5%, więc podłoga jest 20 razy większa; uważaj przy zamianie cm² na dm²",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Wynik w cm² trzeba przeliczyć na dm² lub m²; warianty mieszają jednostki i pole dywanika"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wartość bezwzględna",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wyznacz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, jeżeli różnica odwrotności wartości bezwzględnej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i odwrotności liczby 6 jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "5 oraz (−5)",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odwrotność liczby 6 to 1/6. Różnica odwrotności |x| i 1/6 wynosi 1/30, więc odwrotność |x| równa się 1/6 + 1/30 = 6/30 = 1/5. Stąd |x| = 5, czyli x = 5 lub x = −5.</p>",
+    "punktacja_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>1p – prawidłowe wyznaczenie tylko jednej liczby.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj 1/6 i 1/30, żeby dostać odwrotność |x|, i pamiętaj o dwóch znakach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Równanie z wartością bezwzględną ma dwa rozwiązania; łatwo podać tylko dodatnie"
+   }
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Ile wynosi suma miar kątów wewnętrznych w dziewięciokącie wypukłym (jak na rysunku poniżej)?</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2014-2015_malopolskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "1260°",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma kątów wewnętrznych n-kąta wypukłego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></math>. Dla dziewięciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>9</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>1260</mn><mo>°</mo></math>.</p>",
+    "punktacja_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>1p – podanie innej równoważnej odpowiedzi.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel dziewięciokąt na trójkąty przekątnymi z jednego wierzchołka",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Ile wynosi cyfra jedności iloczynu liczb: 14, 178, 205, 493?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "0",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród czynników 205 kończy się na 5, a 14 jest liczbą parzystą, więc iloczyn jest podzielny przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>10</mn></math>. Cyfra jedności całego iloczynu wynosi 0.</p>",
+    "punktacja_html": "<p>2p – prawidłowe podanie odpowiedzi.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wystarczy mnożyć same cyfry jedności",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ma dokładnie cztery dzielniki, których suma jest równa 176. Co to za liczba, jeżeli suma jej cyfr wynosi 12? <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "129",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wynosi 12, liczba dzieli się przez 3. Jej cztery dzielniki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>+</mo><mi>x</mi><mo>=</mo><mn>176</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>129</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>129</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>43</mn></math>, dzielniki 1, 3, 43, 129 dają w sumie 176, a suma cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>12</mn></math>.</p>",
+    "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi szukanej liczby,</li><li>3p – poprawne rozumowanie i ułożenie równania pozwalającego na wyznaczenie szukanej liczby, jednak w jego rozwiązaniu uczeń popełnił błędy rachunkowe,</li><li>2p – poprawne ustalenie przynajmniej trzech dzielników,</li><li>1p – poprawne ustalenie tylko dwóch dzielników,</li><li>0p – podanie dzielników, wśród których są spełniające warunek zadania oraz inne, lub podanie poprawnych liczb bez sprawdzenia z warunkami zadania.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dawid przejechał na rowerze z średnią szybkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> trasę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math> razy dłuższą niż Kasia, która jechała z średnią szybkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> i o 20 minut krócej niż Dawid. Ile kilometrów przejechał Dawid? <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "40 km",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza drogę przebytą przez Kasię. Dawid przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>x</mi></math>. Czas Dawida jest o 20 minut, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h, dłuższy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>x</mi></mrow><mn>20</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>15</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math>. Dawid przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>·</mo><mn>30</mn><mo>=</mo><mn>40</mn></math> km.</p>",
+    "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania drogi 40 km lub drogi wyrażonej w innych jednostkach np.: 40000 m,</li><li>3p – poprawne rozumowanie, dobre metody prowadzące do obliczenie drogi tylko przebytej przez Kasię i na tym zakończenie rozwiązania lub poprawne rozumowanie, dobre metody prowadzące do obliczenia drogi przebytej przez Dawida, jednak uczeń popełnił błędy rachunkowe, które nie są sprzeczne z treścią zadania np.: nie otrzymał drogi, która jest wyrażona liczbą ujemną, nie zapisał równania podając czas w różnych jednostkach bez ich uwzględnienia np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>x</mi></mrow><mn>20</mn></mfrac><mo>−</mo><mfrac><mi>x</mi><mn>18</mn></mfrac><mo>=</mo><mn>20</mn></math>,</li><li>2p – zapisanie równania pozwalającego obliczyć drogę przebytą przez jedną z osób i nie rozwiązanie go lub popełnienie błędów rzeczowych przy jego rozwiązywaniu,</li><li>1p – zastosowanie poprawnej metody wyznaczenia czasu przejazdu jednej z osób i na tym poprzestanie lub dalej popełnienie błędów lub wyrażenie długości drogi przebytej przez jedną z osób w zależności od drugiej osoby i na tym poprzestanie lub w dalszej części popełnienie błędów lub poprawne zapisanie danych w tych samych jednostkach np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mfrac><mi>km</mi><mi>h</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mfrac><mi>km</mi><mi>min</mi></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mfrac><mi>km</mi><mi>h</mi></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mfrac><mi>km</mi><mi>min</mi></mfrac></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mtext>&#160;min</mtext><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mtext>&#160;h</mtext></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mfrac><mi>km</mi><mi>h</mi></mfrac><mo>=</mo><mfrac><mn>50</mn><mn>9</mn></mfrac><mfrac><mi>m</mi><mi>s</mi></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mfrac><mi>km</mi><mi>h</mi></mfrac><mo>=</mo><mn>5</mn><mfrac><mi>m</mi><mi>s</mi></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mtext>&#160;min</mtext><mo>=</mo><mn>1200</mn><mtext>&#160;s</mtext></math> i na tym poprzestanie lub dalsze rozwiązanie jest błędne.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "układy równań"
+   ],
+   "tresc_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> suma długości przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> jest równa 18 cm. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest o 2 cm dłuższy od obwodu trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>. Oblicz długości przekątnych tego równoległoboku. <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 cm i 10 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>y</mi></math>. W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, więc obwody trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> różnią się tylko długościami przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>18</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>10</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>8</mn></math>. Przekątne mają długości 8 cm i 10 cm.</p>",
+    "punktacja_html": "<ul><li>3p – Poprawne rozumowanie oraz bezbłędne obliczenia lub zapisanie równania z jedną niewiadomą lub układu równań z dwiema niewiadomymi, rozwiązanie ich i podanie długości obu przekątnych,</li><li>2p – zastosowanie poprawnego sposobu obliczenia długości przekątnych z błędami rachunkowymi lub zapisanie równania z jedną niewiadomą lub zapisanie układu równań pozwalającego na obliczenie długości przekątnych tego równoległoboku i na tym poprzestanie lub dalsze rozwiązanie jest błędne, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>18</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>18</mn></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>18</mn></mrow></mtd></mtr><mtr><mtd><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>x</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>2</mn></mrow></mtd></mtr></mtable></math>, lub rozwiązanie zadania z założeniem, że przekątne różnią się o 2 cm (bez uzasadnienia) i otrzymanie poprawnych ich długości: 8 cm i 10 cm,</li><li>1p – zapisanie obwodu obu trójkątów i na tym poprzestanie lub dalsze rozwiązanie jest błędne lub zapisanie uzasadnienia (może być na rysunku), że jedna z przekątnych jest o 2 cm dłuższa od drugiej i na tym poprzestanie lub dalsze rozwiązanie jest błędne.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2014-2015_malopolskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z prostokątnej kartki o wymiarach 21 cm i 14 cm wycięto w każdym rogu kwadrat o boku 3 cm i sklejono pudełko (bez wieczka). Oblicz, ile wynosi objętość tego pudełeczka. <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "360 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Po wycięciu w każdym rogu kwadratu o boku 3 cm wymiary podstawy pudełka wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>21</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>15</mn></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>14</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>8</mn></math> cm, a wysokość to 3 cm. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>360</mn></math> cm³.</p>",
+    "punktacja_html": "<ul><li>3p – Poprawne rozumowanie oraz bezbłędne obliczenia,</li><li>2p – poprawne zastosowanie sposobu obliczania objętości pudełeczka z błędami rachunkowymi w tym dotyczącymi również zamiany jednostek lub podanie odpowiedzi bez jednostki np.: 360,</li><li>1p – poprawne ustalenie tylko dwóch wymiarów pudełeczka np.: 3 cm i (21-6) cm lub, 3 cm i (14-8) cm, lub 15 cm i 8 cm i na tym poprzestanie lub dalsze rozwiązanie jest błędne.</li></ul>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Kwadraty wycina się w obu rogach każdego boku, więc wymiar dna maleje o dwa boki kwadratu"
+   }
+  }
+ ]
+}

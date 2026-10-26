@@ -1,0 +1,863 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów gimnazjów (podlaskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2014/2015",
+ "data": "2015-03-05",
+ "typ_szkoly": "gimnazjum",
+ "liczba_zadan": 23,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2014_podlaskie_gim.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Trzecia część liczby 299 jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "33"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "897"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzecią część liczby otrzymujemy, dzieląc przez 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>299</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>99</mn></math>, reszta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>299</mn><mn>3</mn></mfrac><mo>=</mo><mn>99</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel 299 przez 3 z resztą — reszta daje część ułamkową",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Po wykonaniu potęgowania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2015</mn></msup></math> ostatnia cyfra wyniku jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostatnie cyfry kolejnych potęg dwójki powtarzają się z okresem 4: 2, 4, 8, 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2015</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>503</mn><mo>+</mo><mn>3</mn></math>, ostatnia cyfra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2015</mn></msup></math> jest taka sama jak dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup></math>, czyli równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ostatnie cyfry potęg dwójki powtarzają się co cztery, więc sprawdź resztę z dzielenia 2015 przez 4",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Cztery osoby siedzą na czterech krzesłach. W pewnym momencie wszystkie wstają z krzeseł, zaś po jakimś czasie siadają ponownie każda na jednym krześle. Na ile maksymalnie sposobów mogą usiąść, aby żadna z nich nie usiadła na początkowo zajmowanym krześle?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "24"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wszystkich rozsadzeń jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math>. Ze wzoru włączeń i wyłączeń liczba rozsadzeń, w których co najmniej jedna osoba wraca na swoje miejsce, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>15</mn><mo>=</mo><mn>9</mn></math> sposobów.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>W turnieju piłki nożnej gra 7 drużyn systemem każdy z każdym, przy czym każda drużyna gra z drugą tylko raz. Ile wszystkich meczów zostanie rozegranych w tym turnieju?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "14"
+    },
+    {
+     "litera": "B",
+     "html": "21"
+    },
+    {
+     "litera": "C",
+     "html": "42"
+    },
+    {
+     "litera": "D",
+     "html": "49"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba meczów to liczba par spośród 7 drużyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>21</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każda z siedmiu drużyn gra sześć meczów, ale każdy mecz policzysz dwa razy",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:pary-liczone-podwojnie"
+    ],
+    "opis": "Każda para drużyn gra tylko raz; liczba 7·6 liczy każdy mecz dwa razy"
+   }
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Tomek jest o 8 cm wyższy od Jacka. Jakub jest o 12 cm niższy od Tomka. Jacek ma 125 cm wzrostu. Jaki wzrost ma Jakub?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "105 cm"
+    },
+    {
+     "litera": "B",
+     "html": "113 cm"
+    },
+    {
+     "litera": "C",
+     "html": "117 cm"
+    },
+    {
+     "litera": "D",
+     "html": "121 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jacek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>125</mn></math> cm wzrostu. Tomek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>125</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>133</mn></math> cm. Jakub jest o 12 cm niższy od Tomka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>133</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>121</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "idź po kolei: od Jacka do Tomka, potem od Tomka do Jakuba",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Piotr miał cztery oceny, których średnia arytmetyczna wynosiła 3. Jaką ocenę musiałby jeszcze dostać, żeby średnia arytmetyczna jego ocen wzrosła o 0,2?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma czterech ocen: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></math>. Nowa średnia ma być <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><mn>2</mn></math>, więc suma pięciu ocen: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>=</mo><mn>16</mn></math>. Szukana ocena: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj sumy ocen: przy czterech i przy pięciu ocenach",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>23</mn><mn>10</mn></msub></math> w systemie dwójkowym ma postać</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>10111</mn><mn>2</mn></msub></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>11011</mn><mn>2</mn></msub></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>11101</mn><mn>2</mn></msub></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>11110</mn><mn>2</mn></msub></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy 23 na potęgi dwójki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>=</mo><mn>16</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>23</mn><mn>10</mn></msub><mo>=</mo><msub><mn>10111</mn><mn>2</mn></msub></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż 23 na sumę potęg dwójki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Z liczb 2, 3, 4, 5, 6, 8 losujemy jedną. Prawdopodobieństwo wylosowania liczby podzielnej przez 2 lub 3 jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Spośród liczb 2, 3, 4, 5, 6, 8 podzielne przez 2 lub 3 to 2, 3, 4, 6, 8 — pięć z sześciu liczb. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile z tych liczb nie dzieli się ani przez 2, ani przez 3",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Wskazówka minutowa zegara ściennego ma 12 cm długości. Koniec tej wskazówki w ciągu 5 minut przebędzie drogę, której długość jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2 cm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mi>π</mi></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi></math> cm"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>π</mi></math> cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W ciągu godziny koniec wskazówki przebywa cały okrąg o promieniu 12 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mo>·</mo><mn>12</mn><mo>=</mo><mn>24</mn><mi>π</mi></math> cm. 5 minut to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> godziny, więc droga wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>π</mi><mo>·</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>=</mo><mn>2</mn><mi>π</mi></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "5 minut to dwunasta część pełnego obiegu końca wskazówki",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Fabryka produkowała tygodniowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> rowerów. Produkcja w tej fabryce wzrosła o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>%. Ile rowerów obecnie produkuje fabryka w ciągu tygodnia?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>p</mi></mrow><mn>100</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mo>+</mo><mi>m</mi><mi>p</mi></mrow><mn>100</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mfrac><mi>p</mi><mn>100</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mfrac><mrow><mi>m</mi><mi>p</mi></mrow><mn>100</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wzrost produkcji o p% to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mi>p</mi></mrow><mn>100</mn></mfrac></math> rowerów, więc obecna produkcja wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mfrac><mrow><mi>m</mi><mi>p</mi></mrow><mn>100</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "procent liczy się od m, więc wielkość wzrostu zależy i od p, i od m",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "procent-podstawa"
+    ],
+    "opis": "Pytają o produkcję po wzroście, a nie o sam przyrost; jest też wariant z błędnie postawionym nawiasem"
+   }
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Michał i Kamila są rodzeństwem. Kamila ma trzy razy więcej braci niż sióstr, a Michał ma tyle samo braci co sióstr. Ile dzieci jest w tej rodzinie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — liczba chłopców, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> — liczba dziewczynek. Kamila: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mo>(</mo><mi>g</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>. Michał: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>g</mi></math>. Rozwiązując układ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><mn>2</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>3</mn></math>, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math> dzieci.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dziecko nie liczy siebie do rodzeństwa — zapisz oba warunki liczbą chłopców i dziewczynek",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> to środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> do pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> ma podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac></math> i wysokość równą bokowi kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola kwadratu.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w trójkącie ACE podstawą jest połowa boku, a wysokością cały bok kwadratu",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Dwa prostokąty są podobne w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>5</mn></math>. Stosunek ich pól jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>25</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Stosunek pól figur podobnych jest kwadratem skali podobieństwa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>4</mn><mn>25</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "stosunek pól figur podobnych to kwadrat skali",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Stosunek pól figur podobnych to kwadrat skali, nie sama skala"
+   }
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Wykresy funkcji liniowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mi>x</mi><mo>+</mo><mi>b</mi></math> przecinają się w jednym punkcie dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> równego</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkt przecięcia pierwszych dwóch prostych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>3</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>4</mn></math>. Trzecia prosta przechodzi przez ten punkt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><mo>−</mo><mn>1</mn><mo>+</mo><mi>b</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz punkt przecięcia dwóch pierwszych prostych i podstaw go do trzeciej",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi"
+   ],
+   "tresc_html": "<p>Miara kąta wpisanego, opartego na średnicy okręgu jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "72°"
+    },
+    {
+     "litera": "B",
+     "html": "90°"
+    },
+    {
+     "litera": "C",
+     "html": "180°"
+    },
+    {
+     "litera": "D",
+     "html": "270°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt wpisany oparty na średnicy okręgu zawsze jest kątem prostym, czyli równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij twierdzenie o kącie wpisanym opartym na średnicy",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Stosunek objętości kuli do jej powierzchni całkowitej jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac><mi>r</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>r</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac><mi>r</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>r</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość kuli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></math>, pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>4</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></math>. Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>V</mi><mi>S</mi></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup></mrow><mrow><mn>12</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>r</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel wzór na objętość przez wzór na pole kuli — π i r² się skrócą",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Objętości dwóch czworościanów foremnych są odpowiednio równe 64 cm³ i 125 cm³. Skala podobieństwa czworościanu o mniejszej objętości do czworościanu o większej objętości jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>64</mn><mn>125</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>25</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mrow><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skala podobieństwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>3</mn></msup><mo>=</mo><mfrac><mn>64</mn><mn>125</mn></mfrac></math> (stosunek objętości). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>=</mo><msup><mn>4</mn><mn>3</mn></msup><mo>,</mo><mn>125</mn><mo>=</mo><msup><mn>5</mn><mn>3</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skala długości to pierwiastek sześcienny ze stosunku objętości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Skala to pierwiastek trzeciego stopnia ze stosunku objętości, a nie sam ten stosunek"
+   }
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Do puszki w kształcie walca o średnicy dna 20 cm wrzucono kamień. Poziom wody podniósł się o 1 cm. Objętość kamienia jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100 cm³"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mi>π</mi></math> cm³"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>π</mi></math> cm³"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mi>π</mi></math> cm³"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promień podstawy puszki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>10</mn></math> cm. Objętość kamienia równa jest objętości warstwy wody o wysokości 1 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mn>10</mn><mn>2</mn></msup><mo>·</mo><mn>1</mn><mo>=</mo><mn>100</mn><mi>π</mi></math> cm³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kamień wypiera walec wody o wysokości 1 cm, więc liczy się tylko promień dna",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "W treści podano średnicę dna, a do wzoru na pole koła potrzebny jest promień"
+   }
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Sześcienna kostka z metalu o długości krawędzi 10 cm ma masę 8 kg. Długość krawędzi sześciennej kostki o masie 1 kg, wykonanej z tego samego metalu, jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5 cm"
+    },
+    {
+     "litera": "B",
+     "html": "6 cm"
+    },
+    {
+     "litera": "C",
+     "html": "7 cm"
+    },
+    {
+     "litera": "D",
+     "html": "8 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kostka o krawędzi 10 cm ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></math> cm³ i waży 8 kg, więc 1 kg to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1000</mn><mn>8</mn></mfrac><mo>=</mo><mn>125</mn></math> cm³. Krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>125</mn><mo>=</mo><msup><mn>5</mn><mn>3</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "masa maleje osiem razy, więc objętość też, a krawędź w skali pierwiastka sześciennego",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q20",
+   "numer": 20,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Powierzchnia boczna puszki w kształcie walca oklejona jest kwadratową etykietą o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Brzegi tej etykiety stykają się. Objętość puszki jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>3</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mi>π</mi></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok etykiety <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to obwód podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mi>r</mi><mo>=</mo><mi>a</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></math>, a wysokość walca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>a</mi></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bok kwadratu jest jednocześnie obwodem podstawy i wysokością walca",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "czworokąty",
+    "kąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Uzasadnij, że kąt ostry zawarty między przekątnymi prostokąta jest dwa razy większy od kąta, który przekątna tego prostokąta tworzy z dłuższym jego bokiem.</p><p><em>Zapisz obliczenia i podaj odpowiedź.</em></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Teza udowodniona: kąt ostry między przekątnymi (β) jest dwa razy większy od kąta między przekątną a dłuższym bokiem (α), tj. β = 2α.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> kąt, jaki przekątna tworzy z dłuższym bokiem prostokąta, przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> szukany kąt ostry między przekątnymi, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> kąt rozwarty między przekątnymi. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> będzie punktem przecięcia przekątnych. Przekątne prostokąta są równe i przecinają się w połowie, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>), a jego kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>. Stąd suma kątów trójkąta daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> są przyległe, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Porównując obie równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mi>γ</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></math>, czyli kąt ostry między przekątnymi jest dwa razy większy od kąta, który przekątna tworzy z dłuższym bokiem. cnd.</p>",
+    "punktacja_html": "<ul><li>3 punkty – pełne rozwiązanie: za udowodnienie tezy wynikającej wyłącznie z poprawnych założeń, czyli bezbłędne przekształcenie zapisanych zależności do najprostszej postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>=</mo><mi>β</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>β</mi></math></li><li>2 punkty – zasadnicze trudności zadania zostały pokonane bezbłędnie, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera usterki (błędy rachunkowe): za zapisanie kilku poprawnych oraz wystarczających do udowodnienia tezy zależności, ale w trakcie dalszych przekształceń zostały popełnione błędy lub wykorzystano dodatkowo inne błędne zależności, lub uzasadnienie tezy zawiera luki</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane: za zapisanie jednej poprawnej zależności między kątami, w której wystąpi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, z wykorzystaniem własności kątów w trójkątach równoramiennych np. w trójkącie ABE lub trójkącie BCE (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>δ</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>) lub własności kątów przyległych (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>) lub własności kątów prostokąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>)</li><li>0 punktów – rozwiązanie niestanowiące postępu: za rozwiązanie opierające się na błędnych założeniach dotyczących kątów lub brak rozwiązania, rozwiązanie błędne</li></ul><p>Uwaga! Jeśli uczeń oznaczy odpowiednie kąty na rysunku, uwzględniając powyższe własności i prowadzące do udowodnienia tezy, to przyznajemy punkty zgodnie ze schematem.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "układy równań",
+    "proporcjonalność odwrotna"
+   ],
+   "tresc_html": "<p>Zespół robotników wykonał pewną pracę w ciągu określonej liczby dni. Gdyby było o 5 robotników więcej, to, pracując z taką samą wydajnością, wykonaliby tę pracę o 4 dni wcześniej. Gdyby zaś było ich o 10 mniej, to, pracując z taką samą wydajnością, pracowaliby o 12 dni dłużej. Ilu było robotników i ile dni pracowali?</p><p><em>Zapisz obliczenia i podaj odpowiedź.</em></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "40 robotników, 36 dni",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę robotników, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczbę dni pracy. Wielkości te są odwrotnie proporcjonalne, bo iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi></math> (całkowity nakład pracy) jest stały. Z warunków zadania otrzymujemy układ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>y</mi><mo>−</mo><mn>4</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>y</mi><mo>+</mo><mn>12</mn><mo>)</mo></math>. Po rozwinięciu i redukcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>20</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>x</mi><mo>−</mo><mn>10</mn><mi>y</mi><mo>=</mo><mn>120</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>60</mn></math>. Dodając stronami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>20</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>60</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>80</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>36</mn></math>. Odpowiedź: pracowało 40 robotników przez 36 dni.</p>",
+    "punktacja_html": "<ul><li>3 punkty - pełne rozwiązanie: za poprawne obliczenie liczby robotników 40 i liczby dni 36</li><li>2 punkty - zasadnicze trudności zadania zostały pokonane bezbłędnie, ale dalsza część rozwiązania zawiera usterki: za poprawną metodę obliczenia liczby robotników i liczby dni przy popełnionych błędach rachunkowych, np. za poprawną metodę rozwiązania właściwego układu równań, ale z błędami rachunkowymi</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane: za zapisanie właściwych zależności między wielkościami odwrotnie proporcjonalnymi, umożliwiających wyznaczenie liczby robotników i liczby dni, ale przy obliczaniu popełniono błędy lub nie doprowadzono obliczeń do końca, np. za zapisanie właściwego układu równań</li><li>0 punktów – rozwiązanie niestanowiące postępu: za rozwiązanie zawierające błędy przy zapisie zależności między wielkościami odwrotnie proporcjonalnymi, umożliwiających wyznaczenie liczby robotników i liczby dni, za rozwiązanie błędne lub brak rozwiązania</li></ul><p>Uwaga! Jeśli uczeń rozwiąże zadanie metodą prób i błędów, to powinien rozważyć co najmniej trzy przypadki, aby otrzymać punkty zgodnie ze schematem.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2014_podlaskie_gim_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "bryły obrotowe",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Przekrój osiowy walca jest prostokątem, którego przekątna o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm tworzy z płaszczyzną podstawy tego walca kąt dwa razy mniejszy niż z jego wysokością. Oblicz pole powierzchni całkowitej tego walca.</p><p><em>Zapisz obliczenia i podaj odpowiedź.</em></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "P = 72π + 48π√3 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> oznacza kąt, jaki przekątna przekroju tworzy z płaszczyzną podstawy; wtedy z wysokością tworzy kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi></math>. W trójkącie prostokątnym utworzonym przez przekątną, wysokość i średnicę podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>α</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>=</mo><mn>60</mn><mo>°</mo></math>. Wysokość walca: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm. Średnica podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>6</mn></math> cm. Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>π</mi><mi>r</mi><mi>H</mi><mo>=</mo><mn>2</mn><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>π</mi><mo>·</mo><mn>6</mn><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>72</mn><mi>π</mi><mo>+</mo><mn>48</mn><mi>π</mi><msqrt><mn>3</mn></msqrt></math> cm². Odpowiedź: pole powierzchni całkowitej walca jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mi>π</mi><mo>+</mo><mn>48</mn><mi>π</mi><msqrt><mn>3</mn></msqrt></math> cm².</p>",
+    "punktacja_html": "<ul><li>4 punkty - pełne rozwiązanie: za poprawne obliczenie pola powierzchni całkowitej walca i podanie poprawnej odpowiedzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mi>π</mi><mo>+</mo><mn>48</mn><mi>π</mi><msqrt><mn>3</mn></msqrt></math></li><li>3 punkty – rozwiązanie pełne przy popełnianych błędach rachunkowych: za poprawną metodę obliczania pola powierzchni całkowitej walca przy popełnionych błędach rachunkowych lub niedokończonych obliczeniach, lecz przy bezbłędnym wyznaczeniu H i d lub r</li><li>2 punkty - zasadnicze trudności zadania zostały pokonane, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera poważne błędy merytoryczne: za obliczenie wysokości walca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm lub średnicy podstawy walca 12 cm (promienia podstawy walca 6 cm) lub za poprawną metodę obliczania pola powierzchni całkowitej walca przy popełnionych błędach przy wyznaczaniu H, d lub r</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane: za wyznaczenie wartości kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>=</mo><mn>60</mn><mo>°</mo></math> zgodnie z warunkami określonymi w treści zadania (patrz rysunek)</li><li>0 punktów – rozwiązanie niestanowiące postępu: za wyznaczenie niewłaściwych kątów, niezgodnych z warunkami określonymi w treści zadania, rozwiązanie zadania dla innej bryły niż dany walec lub brak rozwiązania</li></ul><p>Uwaga! Uczeń nie musi zapisywać obliczeń dotyczących kątów.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Kąt z podstawą jest dwa razy MNIEJSZY niż kąt z wysokością; łatwo zamienić kąty miejscami"
+   }
+  }
+ ]
+}

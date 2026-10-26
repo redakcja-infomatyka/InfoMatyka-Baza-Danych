@@ -1,0 +1,343 @@
+{
+ "konkurs": "XV Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "opolskie",
+ "rok_szkolny": "2014/2015",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 11,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2015_opolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2015_opolskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność prosta",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>5 gruszek i 5 jabłek waży tyle, ile 3 gruszki i 10 jabłek.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "4 gruszki ważą więcej niż 10 jabłek."
+    },
+    {
+     "litera": "2",
+     "html": "6 gruszek waży tyle, co 15 jabłek."
+    },
+    {
+     "litera": "3",
+     "html": "8 gruszek waży mniej niż 20 jabłek."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> oznacza masę gruszki, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> masę jabłka. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>g</mi><mo>+</mo><mn>5</mn><mi>j</mi><mo>=</mo><mn>3</mn><mi>g</mi><mo>+</mo><mn>10</mn><mi>j</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>g</mi><mo>=</mo><mn>5</mn><mi>j</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><mn>2,5</mn><mi>j</mi></math>.</p><p>1) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>g</mi><mo>=</mo><mn>10</mn><mi>j</mi></math> — 4 gruszki ważą dokładnie tyle, co 10 jabłek, a nie więcej (NIE). 2) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>g</mi><mo>=</mo><mn>15</mn><mi>j</mi></math> (TAK). 3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>g</mi><mo>=</mo><mn>20</mn><mi>j</mi></math> — równo, a nie mniej (NIE).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skróć obie strony o wspólne gruszki i jabłka, zostanie prosty stosunek mas",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę towaru podniesiono o 40%, a następnie nową obniżono o 40%.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Cena końcowa była równa początkowej."
+    },
+    {
+     "litera": "2",
+     "html": "Cena końcowa była o 16 % niższa od początkowej."
+    },
+    {
+     "litera": "3",
+     "html": "Cena końcowa była wyższa od początkowej."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Cena początkowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Po podwyżce o 40%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,4</mn><mi>c</mi></math>. Po obniżce nowej ceny o 40%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,4</mn><mi>c</mi><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>0,84</mn><mi>c</mi></math>, czyli 84% ceny początkowej — cena jest o 16% niższa od początkowej. Zatem: 1) NIE, 2) TAK, 3) NIE.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę 100 zł i przejdź obie zmiany po kolei, drugą licz od nowej ceny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Obniżka o 40% liczona od nowej, wyższej ceny — podwyżka i obniżka o ten sam procent się nie znoszą"
+   }
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Odjemna jest o 90 większa od odjemnika, a odjemnik jest dwa razy mniejszy od różnicy.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Odjemnik jest mniejszy od różnicy."
+    },
+    {
+     "litera": "2",
+     "html": "Różnica wynosi 45."
+    },
+    {
+     "litera": "3",
+     "html": "Odjemna jest dwa razy większa od odjemnika."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W odejmowaniu odjemna − odjemnik = różnica. „Odjemna jest o 90 większa od odjemnika” oznacza, że różnica wynosi 90. „Odjemnik jest dwa razy mniejszy od różnicy”, więc odjemnik = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>45</mn></math>, a odjemna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>135</mn></math>.</p><p>1) Odjemnik (45) &lt; różnica (90) — TAK. 2) Różnica wynosi 90, a nie 45 — NIE. 3) Odjemna 135 = 3·45, czyli jest trzy razy większa od odjemnika, a nie dwa razy — NIE.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odjemna − odjemnik = różnica, więc pierwsze zdanie mówi wprost o różnicy",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "siatki brył"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Tak wygląda siatka sześcianu:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Naprzeciw litery K jest litera O."
+    },
+    {
+     "litera": "2",
+     "html": "Naprzeciw litery A jest litera O."
+    },
+    {
+     "litera": "3",
+     "html": "Naprzeciw litery N jest litera K."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2015_opolskie_q4_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Po złożeniu sześcianu z tej siatki naprzeciwległe są ściany: K i O (prawa litera O), A i O (górna litera O) oraz N i R. Zatem: 1) naprzeciw K jest O — TAK; 2) naprzeciw A jest O — TAK; 3) naprzeciw N jest R, a nie K — NIE.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Wybierając cyfry ze zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>}</mo></math> (cyfry nie mogą się powtarzać) można zbudować:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "8 liczb naturalnych, których iloczyn cyfr jest równy 10."
+    },
+    {
+     "litera": "2",
+     "html": "9 liczb naturalnych dwucyfrowych."
+    },
+    {
+     "litera": "3",
+     "html": "24 liczby naturalne, których suma cyfr wynosi 8."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>1) Iloczyn cyfr równy 10 dają zestawy cyfr zawierające 2 i 5 (i ewentualnie 1, ale nie 0): ze zbioru {2, 5} — liczby 25, 52 (2 liczby); ze zbioru {1, 2, 5} — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></math> liczb. Razem 8 — TAK.</p><p>2) Liczby dwucyfrowe: pierwsza cyfra ≠ 0 (3 możliwości: 1, 2, 5), druga cyfra spośród pozostałych 3 cyfr, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></math> — TAK.</p><p>3) Sumę cyfr 8 dają zestawy {1, 2, 5} oraz {0, 1, 2, 5}. Z {1, 2, 5}: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></math> liczb. Z {0, 1, 2, 5}: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>−</mo><mn>3</mn><mo>!</mo><mo>=</mo><mn>24</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> liczb (bez zaczynających się od 0). Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>24</mn></math> — TAK.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Liczby o sumie cyfr 8 mogą też zawierać zero (czterocyfrowe), ale zero nie może stać na początku"
+   }
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "ułamki",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Działka pana Kowalskiego ma kształt prostokąta o bokach długości 60 m i 30 m. Część przeznaczona na sad zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> jej powierzchni, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> powierzchni działki zajmuje staw, a 150 m² zajmuje dom. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>11</mn></mfrac></math> pozostałej części to plac zabaw dla dzieci. Jaką powierzchnię zajmuje plac zabaw dla dzieci?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "90 m²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Powierzchnia działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>1800</mn></math> m². Sad: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mn>1800</mn><mo>=</mo><mn>360</mn></math> m². Staw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>·</mo><mn>1800</mn><mo>=</mo><mn>300</mn></math> m². Dom: 150 m². Pozostała część: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1800</mn><mo>−</mo><mn>360</mn><mo>−</mo><mn>300</mn><mo>−</mo><mn>150</mn><mo>=</mo><mn>990</mn></math> m². Plac zabaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>·</mo><mn>990</mn><mo>=</mo><mn>90</mn></math> m².</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie powierzchni placu (90 m²); 4 pkt — poprawna metoda z błędem rachunkowym; 3 pkt — obliczenie powierzchni sadu i stawu; 2 pkt — obliczenie powierzchni stawu lub sadu z błędem rachunkowym; 1 pkt — obliczenie powierzchni działki.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmuj po kolei od pola działki, a resztę na końcu podziel przez 11",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym kąt ostry ma 45°. Jedna podstawa tego trapezu jest 5 razy większa od drugiej, a wysokość ma 6 cm długości. Oblicz pole tego trapezu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "54 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W trapezie równoramiennym o kącie ostrym 45° wysokość poprowadzona z wierzchołka dłuższej podstawy odcina trójkąt prostokątny równoramienny, więc rzut ramienia na dłuższą podstawę jest równy wysokości: 6 cm (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>tg</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>1</mn></math>). Niech krótsza podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>=</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>6</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi><mo>=</mo><mn>12</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math> cm, dłuższa podstawa 15 cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>=</mo><mn>9</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>54</mn></math> cm².</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie pola trapezu (54 cm²); 4 pkt — poprawna metoda z błędem rachunkowym lub bez dokończenia; 3 pkt — obliczenie jednej podstawy; 2 pkt — ułożenie równania; 1 pkt — zauważenie trójkątów równoramiennych.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy kącie 45° wysokość odcina trójkąt równoramienny, więc odcinek przy podstawie równa się wysokości",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "graniastosłupy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Z prostokątnego kawałka tektury o wymiarach 36 cm × 22 cm wycięto we wszystkich rogach jednakowe kwadraty (patrz rysunek) i zbudowano pojemnik. Prostokąt będący podstawą pojemnika ma jeden bok dwa razy krótszy od drugiego. Oblicz pojemność tego pojemnika.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2015_opolskie_q8_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "1568 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość boku wyciętego kwadratu. Podstawa pojemnika ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>36</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>22</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo></math> cm, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Dłuższy bok podstawy jest dwa razy dłuższy od krótszego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>22</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>44</mn><mo>−</mo><mn>4</mn><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>8</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math> cm. Podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>×</mo><mn>14</mn></math> cm, wysokość 4 cm. Pojemność: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>·</mo><mn>14</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>1568</mn></math> cm³.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie objętości (1568 cm³); 4 pkt — poprawny sposób z błędem rachunkowym lub bez dokończenia; 3 pkt — obliczenie boku kwadratu; 2 pkt — ułożenie równania; 1 pkt — opisanie krawędzi podstawy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz bok wyciętego kwadratu przez x, dno ma wtedy 36−2x na 22−2x",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Znajdź liczbę dwucyfrową, która ma ciekawą własność. Jeżeli do tej liczby dopiszemy cyfrę 2 raz z lewej strony, a raz z prawej, to różnica otrzymanych liczb trzycyfrowych będzie dwa razy większa od szukanej liczby.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "18",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> będzie szukaną liczbą dwucyfrową. Dopisanie cyfry 2 z lewej strony daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>+</mo><mi>n</mi></math>, a z prawej strony liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>n</mi><mo>+</mo><mn>2</mn></math>. Różnica tych liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>200</mn><mo>+</mo><mi>n</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>10</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>198</mn><mo>−</mo><mn>9</mn><mi>n</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>198</mn><mo>−</mo><mn>9</mn><mi>n</mi><mo>=</mo><mn>2</mn><mi>n</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>198</mn><mo>=</mo><mn>11</mn><mi>n</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>18</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>218</mn><mo>−</mo><mn>182</mn><mo>=</mo><mn>36</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>18</mn></math>.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie liczby (18); 4 pkt — poprawny sposób z błędem rachunkowym; 3 pkt — ułożenie równania; 2 pkt — zapisanie wyrażeń opisujących dwie liczby; 1 pkt — zapisanie wyrażenia opisującego jedną liczbę.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dopisanie 2 z lewej to +200, a z prawej to ×10 i +2",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Sukienka była o 24 zł droższa od spodni. Cenę sukienki obniżono o 15% i kosztuje teraz tyle co spodnie. Ile kosztowała sukienka, a ile spodnie?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Sukienka 160 zł, spodnie 136 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> oznacza cenę sukienki, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> cenę spodni. Sukienka była o 24 zł droższa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>p</mi><mo>+</mo><mn>24</mn></math>. Po obniżce o 15% sukienka kosztuje tyle co spodnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,85</mn><mi>s</mi><mo>=</mo><mi>p</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,85</mn><mi>s</mi><mo>=</mo><mi>s</mi><mo>−</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,15</mn><mi>s</mi><mo>=</mo><mn>24</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>160</mn></math> zł. Spodnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>136</mn></math> zł.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie ceny sukienki i spodni (160 zł i 136 zł); 4 pkt — poprawne obliczenia z błędem rachunkowym; 3 pkt — obliczenie ceny sukienki; 2 pkt — obliczenie ceny sukienki z błędem rachunkowym; 1 pkt — zapisanie, że 15% ceny sukienki to 24 zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zauważ, że obniżka o 15% zjada dokładnie te 24 zł różnicy",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "15% liczy się od ceny sukienki, nie spodni — 24 zł to 15% wyższej ceny"
+   }
+  },
+  {
+   "id": "wojewodzki_2015_opolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Turysta wchodząc na szczyt góry pokonał trasę długości 2 km z prędkością 3 km/h, w drodze powrotnej osiągnął prędkość 6 km/h. Oblicz średnią prędkość turysty na całej trasie tam i z powrotem.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4 km/h",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Czas wejścia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> h. Czas powrotu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h. Łączna droga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></math> km. Łączny czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>1</mn></math> h. Średnia prędkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>1</mn></mfrac><mo>=</mo><mn>4</mn></math> km/h.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie średniej prędkości (4 km/h); 4 pkt — przy obliczaniu prędkości błąd rachunkowy; 3 pkt — poprawne określenie łącznego czasu i drogi; 2 pkt — obliczenie łącznego czasu; 1 pkt — obliczenie czasu w jedną stronę.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "średnia prędkość to cała droga przez cały czas, a nie średnia z dwóch prędkości",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Średnia prędkość na trasie tam i z powrotem to nie średnia arytmetyczna obu prędkości"
+   }
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "konkurs": "XV Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "opolskie",
+ "rok_szkolny": "2014/2015",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 11,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2015_opolskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2015_opolskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mo>−</mo><mn>3</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mrow><mn>5</mn><mo>−</mo><mn>3</mn></mrow></mfrac></math>.</p><p>Przy każdym zdaniu wpisz TAK, jeśli zdanie jest prawdziwe, lub NIE, jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mi>b</mi></math>"
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa zero."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>a: licznik −3+3·(−2)=−9, mianownik −3·(−1)=3, więc a=−9:3=−3.</p><p>b: licznik 5−3:(−3)=5+1=6, mianownik 5−3=2, więc b=6:2=3.</p><ul><li>−3 &gt; 3 — fałsz — <b>NIE</b>.</li><li>Odwrotność 3 to 1/3, a nie −3 — <b>NIE</b>.</li><li>−3 + 3 = 0 — <b>TAK</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno licznik i mianownik każdego ułamka, pilnując znaków",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:odwrotnosc-vs-przeciwna"
+    ],
+    "opis": "Myli się liczbę odwrotną z liczbą przeciwną"
+   }
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK, jeśli zdanie jest prawdziwe, lub NIE, jeśli jest fałszywe.</p><p>Suma trzech kolejnych liczb naturalnych:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "jest zawsze podzielna przez 3."
+    },
+    {
+     "litera": "2",
+     "html": "jest zawsze liczbą parzystą."
+    },
+    {
+     "litera": "3",
+     "html": "może być liczbą nieparzystą."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma trzech kolejnych liczb naturalnych n, n+1, n+2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> — zawsze wielokrotność 3.</p><ul><li>Zawsze podzielna przez 3 — <b>TAK</b>.</li><li>1+2+3=6 (parzysta), ale 2+3+4=9 (nieparzysta) — nie zawsze parzysta — <b>NIE</b>.</li><li>Jak wyżej, 9 jest nieparzyste — <b>TAK</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sumą trzech kolejnych jest trzykrotność środkowej, a parzystość sprawdź na przykładach",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Majka zrobiła 250 pierogów, a Asia 200.</p><p>Przy każdym zdaniu wpisz TAK, jeśli zdanie jest prawdziwe, lub NIE, jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Majka zrobiła o 25% więcej pierogów niż Asia."
+    },
+    {
+     "litera": "2",
+     "html": "Asia zrobiła o 25% mniej pierogów niż Majka."
+    },
+    {
+     "litera": "3",
+     "html": "Gdyby Asia zrobiła o 25% więcej, to razem zrobiłyby 500 pierogów."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Majka: 250 pierogów, Asia: 200.</p><ul><li>(250−200):200 = 25% — Majka zrobiła o 25% więcej — <b>TAK</b>.</li><li>(250−200):250 = 20%, a nie 25% — <b>NIE</b>.</li><li>Asia +25%: 200·1,25 = 250; razem 250+250 = 500 — <b>TAK</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy każdym zdaniu sprawdź, od której liczby liczony jest procent",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "„O 25% więcej” i „o 25% mniej” liczą się od różnych podstaw, więc nie są symetryczne"
+   }
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "dwusieczna kąta / symetralna odcinka",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK, jeśli zdanie jest prawdziwe, lub NIE, jeśli jest fałszywe.</p><p>W trójkącie prostokątnym zawsze:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "suma miar kątów ostrych wynosi 90°."
+    },
+    {
+     "litera": "2",
+     "html": "kąt między dwusiecznymi kątów ostrych ma miarę 135°."
+    },
+    {
+     "litera": "3",
+     "html": "dwusieczna kąta prostego jest prostopadła do przeciwprostokątnej."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Kąty ostre: 180°−90° = 90° — <b>TAK</b>.</li><li>Dwusieczne kątów ostrych α, β tworzą kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mfrac><mrow><mi>α</mi><mo>+</mo><mi>β</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math> — <b>TAK</b>.</li><li>Dwusieczna kąta prostego jest prostopadła do przeciwprostokątnej tylko w trójkącie równoramiennym, nie zawsze — <b>NIE</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skorzystaj z sumy kątów ostrych, a potem z sumy kątów w trójkącie z dwusiecznymi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator"
+    ],
+    "opis": "Na typowym szkicu dwusieczna kąta prostego wygląda na prostopadłą, a „zawsze” tego wymaga"
+   }
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Krysia wypisała wszystkie liczby trzycyfrowe, które można zbudować za pomocą cyfr 3, 4, 5, lecz bez ich powtarzania.</p><p>Przy każdym zdaniu wpisz TAK, jeśli zdanie jest prawdziwe, lub NIE, jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Dokładnie dwie liczby są podzielne przez 5."
+    },
+    {
+     "litera": "2",
+     "html": "Dokładnie dwie liczby są podzielne przez 2."
+    },
+    {
+     "litera": "3",
+     "html": "Dokładnie dwie liczby są podzielne przez 3."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby z cyfr 3, 4, 5 bez powtórzeń: 345, 354, 435, 453, 534, 543.</p><ul><li>Kończą się na 5: 345, 435 — dokładnie dwie — <b>TAK</b>.</li><li>Kończą się na 4 (parzyste): 354, 534 — dokładnie dwie — <b>TAK</b>.</li><li>Suma cyfr 3+4+5=12 dzieli się przez 3, więc wszystkie 6 liczb jest podzielnych przez 3, a nie dokładnie dwie — <b>NIE</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal ostatnią cyfrę i policz, ile zostaje ustawień; przy trójce spójrz na sumę cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "kalendarz i czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Która jest teraz godzina, jeżeli do północy pozostało cztery razy mniej czasu niż upłynęło od południa?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "21:36",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę godzin, które upłynęły od południa. Do północy pozostało wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mi>x</mi></math> godzin. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>9,6</mn></math> h, czyli 9 godzin i 36 minut. Zatem jest godzina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>:</mo><mn>00</mn></math> + 9 h 36 min = <strong>21:36</strong>.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie aktualnej godziny (21:36); 4 pkt — obliczenie, ile czasu minęło od południa (9,6 h); 3 pkt — poprawna metoda z błędem rachunkowym; 2 pkt — ułożenie równania; 1 pkt — opisanie zależności między czasami.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "12 godzin od południa do północy podziel w stosunku 4:1, potem odlicz wstecz od północy",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Ania zobaczyła wywieszki, że cenę spodni obniżono o 25%, a cenę sukienki o 15%. Obliczyła, że w obu przypadkach wartość obniżki wynosi 37,50 zł. Które ubranie było droższe przed obniżką i o ile złotych?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Sukienka, o 100 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Cena spodni przed obniżką: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,50</mn><mo>:</mo><mn>0,25</mn><mo>=</mo><mn>150</mn></math> zł (bo 37,50 zł to 25% ceny). Cena sukienki przed obniżką: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,50</mn><mo>:</mo><mn>0,15</mn><mo>=</mo><mn>250</mn></math> zł (bo 37,50 zł to 15% ceny). Droższa była sukienka, o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>−</mo><mn>150</mn><mo>=</mo><mn>100</mn></math> zł.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie, o ile sukienka była droższa od spodni (100 zł); 4 pkt — poprawna metoda z błędem rachunkowym lub bez dokończenia; 3 pkt — obliczenie ceny jednego ubrania; 2 pkt — obliczenie ceny jednego ubrania z błędem rachunkowym; 1 pkt — zapisanie dobrej zależności.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z wartości obniżki i jej procentu odtwórz każdą cenę sprzed obniżki",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Pudełko ma kształt prostopadłościanu o podstawie kwadratu, w którym wysokość jest 3 razy dłuższa od krawędzi podstawy. Objętość tego prostopadłościanu wynosi 192 cm³. Oblicz powierzchnię boczną takiego pudełka.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "192 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi podstawy, wtedy wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>192</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>64</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> cm, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>=</mo><mn>12</mn></math> cm. Powierzchnia boczna to cztery jednakowe prostokąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mi>a</mi><mo>·</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>12</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>192</mn></math> cm².</p><p><em>Uwaga: klucz odpowiedzi podaje wartość 246,4 cm² (z opisem „ile potrzeba papieru”), która nie odpowiada treści zadania — dla podanych danych poprawna powierzchnia boczna wynosi 192 cm².</em></p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie pola powierzchni; 4 pkt — poprawny sposób z błędem rachunkowym lub bez dokończenia; 3 pkt — obliczenie długości krawędzi podstawy; 2 pkt — zapisanie wyrażenia opisującego objętość; 1 pkt — opisanie krawędzi prostopadłościanu.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_CORRECT",
+     "opis": "Klucz (poprawiony) jest słuszny: 192 cm². Oznaczmy krawędź podstawy jako a, wtedy wysokość to 3a. Z objętości: a²·3a = 3a³ = 192, więc a³ = 64, czyli a = 4 cm, a wysokość 12 cm. Powierzchnia boczna to cztery jednakowe prostokąty o wymiarach 4 cm × 12 cm: 4·(4·12) = 4·48 = 192 cm². Pierwotny druk klucza podawał 246,4 cm² z opisem „ile potrzeba papieru”, co nie pasuje do treści zadania (nie jest to ani pole boczne, ani całkowite = 224 cm²), więc poprawka na 192 cm² jest właściwa. Modele AI również wskazały 192 cm²."
+    }
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz objętość jako a²·3a i wyznacz a, a pole boczne to cztery ściany a·3a",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Janek poukładał książki na półkach regału. Zaczął od najwyższej, a na każdej następnej ustawiał o 6 książek więcej. W rezultacie na piątej było już cztery razy więcej niż na pierwszej. Ile książek ułożył Janek na półkach?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "100",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę książek na pierwszej (najwyższej) półce. Na kolejnych półkach jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>24</mn></math>. Na piątej półce jest cztery razy więcej niż na pierwszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>24</mn><mo>=</mo><mn>4</mn><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mn>24</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Kolejne półki: 8, 14, 20, 26, 32. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>14</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>32</mn><mo>=</mo><mn>100</mn></math> książek.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie liczby książek (100); 4 pkt — poprawny sposób z błędem rachunkowym; 3 pkt — obliczenie, ile książek było na pierwszej półce; 2 pkt — zapisanie równania; 1 pkt — zapisanie wyrażeń opisujących liczbę książek na kolejnych półkach.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "piąta półka to pierwsza powiększona o 24, a suma pięciu to pięciokrotność środkowej",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Na piątej półce przybyło 4 razy po 6 książek, a nie 5 razy"
+   }
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "graniastosłupy",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Na łące o powierzchni 1,5 ha leży warstwa śniegu o grubości 15 cm. Po dwóch dniach grubość śniegu zmniejszyła się 3 razy. O ile m³ zmniejszyła się objętość tego śniegu?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1500 m³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zamieniamy jednostki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn></math> ha = 15 000 m², grubość 15 cm = 0,15 m. Objętość początkowa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15000</mn><mo>·</mo><mn>0,15</mn><mo>=</mo><mn>2250</mn></math> m³. Po zmniejszeniu grubości 3 razy jest ona równa 5 cm = 0,05 m, więc objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15000</mn><mo>·</mo><mn>0,05</mn><mo>=</mo><mn>750</mn></math> m³. Objętość zmniejszyła się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2250</mn><mo>−</mo><mn>750</mn><mo>=</mo><mn>1500</mn></math> m³.</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — obliczenie, o ile zmniejszyła się objętość śniegu (1500 m³); 4 pkt — poprawne obliczenia z błędem rachunkowym lub bez dokończenia; 3 pkt — obliczenie tylko jednej objętości; 2 pkt — obliczenie objętości przy złej zamianie jednostek; 1 pkt — zamiana jednostki.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz wspólne pole łąki przed nawias — liczy się tylko ubytek grubości",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji",
+     "o-co-pytaja"
+    ],
+    "opis": "„Zmniejszyła się 3 razy” znaczy, że zostaje 1/3; pytają o ubytek, a nie o to, co zostało"
+   }
+  },
+  {
+   "id": "rejonowy_2015_opolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Z 200 kwadracików, o polu powierzchni 16 cm² każdy, zbudowano prostokąt, w którym jeden bok jest 2 razy dłuższy od drugiego. Oblicz obwód i pole powierzchni tego prostokąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Obwód 240 cm, pole 3200 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pole prostokąta to suma pól wszystkich kwadracików: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>3200</mn></math> cm². Niech krótszy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, wtedy dłuższy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>·</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>2</mn><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>3200</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>1600</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>40</mn></math> cm, dłuższy bok 80 cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>40</mn><mo>+</mo><mn>80</mn><mo>)</mo><mo>=</mo><mn>240</mn></math> cm. Pole: 3200 cm².</p>",
+    "punktacja_html": "<p>Kryteria (max 5 pkt): 5 pkt — poprawne obliczenie pola i obwodu (3200 cm², 240 cm); 4 pkt — błąd rachunkowy przy obliczaniu pola lub obwodu; 3 pkt — obliczenie długości boków prostokąta; 2 pkt — zapisanie równania; 1 pkt — obliczenie pola prostokąta.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz bok kwadracika, a potem ułóż 200 sztuk w prostokąt o bokach 1:2",
+   "czas_min": 5
+  }
+ ]
+}
