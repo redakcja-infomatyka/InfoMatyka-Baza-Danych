@@ -1,0 +1,705 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2022-10-07",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2022-2023_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2022-2023_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Wiosną początkową cenę sukienki podniesiono o 15%, a jesienią jej cenę obniżono o 20%. O ile procent zmniejszy się cena sukienki po tych dwóch zmianach ceny w stosunku do ceny początkowej?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8%"
+    },
+    {
+     "litera": "B",
+     "html": "5%"
+    },
+    {
+     "litera": "C",
+     "html": "7%"
+    },
+    {
+     "litera": "D",
+     "html": "6%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po podwyżce cena to 115% ceny początkowej. Po obniżce o 20% zostaje z niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>115</mn><mo>%</mo><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>92</mn><mo>%</mo></math> ceny początkowej, czyli cena zmniejszyła się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>%</mo><mo>−</mo><mn>92</mn><mo>%</mo><mo>=</mo><mn>8</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę początkową 100 zł i wykonaj obie zmiany po kolei",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podwyżka i obniżka procentowa się nie odejmują: obniżka liczona jest od ceny już podniesionej"
+   }
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>123</mn><mo>·</mo><mn>125125</mn></mrow><mrow><mn>125</mn><mo>·</mo><mn>123123</mn></mrow></mfrac><mo>−</mo><mn>1</mn></math> jest liczba:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1001"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "0"
+    },
+    {
+     "litera": "D",
+     "html": "100"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>125125</mn><mo>=</mo><mn>125</mn><mo>·</mo><mn>1001</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>123123</mn><mo>=</mo><mn>123</mn><mo>·</mo><mn>1001</mn></math>, ułamek upraszcza się do 1, więc wynik działania to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w 125125 i 123123 siedzi ten sam czynnik 1001 — wyłącz go i skróć",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "NWW / NWD",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych od 1 do 2022, które są podzielne przez 5 i przez 6?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "65"
+    },
+    {
+     "litera": "B",
+     "html": "66"
+    },
+    {
+     "litera": "C",
+     "html": "67"
+    },
+    {
+     "litera": "D",
+     "html": "68"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba podzielna przez 5 i przez 6 jest podzielna przez NWW(5,6)=30. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>67</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>2010</mn></math> mieści się w zakresie do 2022, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>68</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>2040</mn></math> już go przekracza, takich liczb jest 67.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "liczba musi dzielić się przez NWW(5, 6) — policz jej wielokrotności do 2022",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W sobotę 1 stycznia pewnego roku do lochu wtrącono więźnia. Po kilku tygodniach więzień zapytał strażnika, kiedy wyjdzie na wolność. Strażnik odpowiedział: „Wczoraj upłynęła czwarta część czasu, jaki pozostał do końca tego roku, a ty pojutrze wyjdziesz na wolność.” Wiedząc, że ów rok nie był rokiem przestępnym, wskaż dzień tygodnia, kiedy więzień opuścił więzienie.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "poniedziałek"
+    },
+    {
+     "litera": "B",
+     "html": "wtorek"
+    },
+    {
+     "litera": "C",
+     "html": "środa"
+    },
+    {
+     "litera": "D",
+     "html": "czwartek"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech E to numer dnia „wczoraj” (1 stycznia = dzień 1). Do końca roku zostaje wtedy 365−E dni, a z treści zadania 4E=365−E, czyli E=73. Zwolnienie (pojutrze) wypada w dniu 76. Ponieważ 76−1=75=10·7+5, jest to sobota plus 5 dni, czyli czwartek.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "kierunek-relacji"
+    ],
+    "opis": "Upłynęła czwarta część tego, co POZOSTAŁO (nie roku); do tego przesunięcia o dni: wczoraj i pojutrze"
+   }
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Paweł i Ania wykonywali na zmianę działania matematyczne, każde na swój sposób. Paweł mnożył daną liczbę przez 2, a następnie dodawał 1 i przekazywał wynik Ani, zaś Ania mnożyła otrzymaną liczbę przez 3, potem dodawała 2 i przekazywała wynik Pawłowi. Zabawę rozpoczął Paweł od pewnej dodatniej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, a zakończyła ją Ania i każde z dzieci wykonało swoje działania dokładnie dwa razy. Ile wynosi reszta z dzielenia końcowego wyniku przez liczbę 6?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kolejno: 2n+1 (Paweł), 6n+5 (Ania), 12n+11 (Paweł), 36n+35 (Ania). Wyraz 36n dzieli się przez 6, więc reszta z dzielenia wyniku przez 6 to reszta z dzielenia 35 przez 6, czyli 5.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "reszta nie zależy od n — podstaw n = 1 i przejdź przez cztery kroki na liczbach",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wielokąty",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Kąt wewnętrzny sześćdziesięciokąta foremnego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> stopni. Wybierz zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą pierwszą."
+    },
+    {
+     "litera": "B",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą podzielną przez 4."
+    },
+    {
+     "litera": "C",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math> jest liczbą podzielną przez 12."
+    },
+    {
+     "litera": "D",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math> jest liczbą podzielną przez 24."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt wewnętrzny sześćdziesięciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>58</mn><mo>·</mo><mn>180</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>174</mn></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mn>30276</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>2523</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math> dzieli się przez 12.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt zewnętrzny to 360°/60 — otrzymaną miarę rozłóż na czynniki pierwsze",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o polu równym 36 cm², na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> Kasia wybrała dwa różne punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, różne od wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> wybrała dwa różne punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, różne od wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Otrzymane punkty połączyła łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEGFHD</mi></math>, a trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EGF</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FHD</mi></math> pomalowała szarym kolorem. Ile wynosi pole zamalowanej na szaro części prostokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "18 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "9 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "24 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2022-2023_malopolskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt o dwóch wierzchołkach na boku AD i trzecim na boku BC ma pole zależne tylko od AB i odległości między tymi wierzchołkami na AD — ta sama podstawa i ta sama wysokość AB, niezależnie od położenia punktu na BC. Sumaryczne pole trzech szarych trójkątów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AB</mi><mo>·</mo><mi>AD</mi></math>, czyli połowa pola prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>18</mn></math> cm².</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "weź AE, EF i FD jako podstawy trójkątów — każdy ma wtedy tę samą wysokość",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "stężenie procentowe / mieszaniny",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ile litrów syropu o stężeniu 80% należy zmieszać z 20 litrami syropu o stężeniu 20%, aby otrzymać syrop o stężeniu 40%?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "30"
+    },
+    {
+     "litera": "D",
+     "html": "40"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to liczba litrów syropu 80%. Bilans cukru: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mi>x</mi><mo>+</mo><mn>0,2</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>0,4</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>20</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>10</mn></math> litrów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, o ile 20% i 80% odbiegają od 40% — to daje stosunek objętości",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>4</mn><mn>250</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>225</mn><mn>20</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>9</mn><mn>64</mn></msup><mo>·</mo><msup><mn>5</mn><mn>128</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mn>15</mn><mn>125</mn></msup></math>. Wybierz nierówność prawdziwą.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>b</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>c</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>&lt;</mo><mi>d</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>&lt;</mo><mi>a</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B lub D",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zadanie miało dwie poprawne odpowiedzi. Zgodnie z kluczem: „W związku z dwiema poprawnymi odpowiedziami w zadaniu 9 uczeń otrzymuje 2 punkty za zaznaczenie samej odpowiedzi B lub samej odpowiedzi D lub obu odpowiedzi B i D.” Istotnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>500</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>15</mn><mn>128</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mn>15</mn><mn>125</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>c</mi></math> (odpowiedź B) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>&lt;</mo><mi>a</mi></math> (odpowiedź D) są prawdziwe.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przepisz potęgi tak, by miały wspólny wykładnik, i porównuj same podstawy",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> w sposób przedstawiony na rysunku, otrzymując pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCED</mi></math>.</p><p>Ile wynosi miara kąta ostrego między przekątnymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> tego pięciokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "70°"
+    },
+    {
+     "litera": "B",
+     "html": "60°"
+    },
+    {
+     "litera": "C",
+     "html": "50°"
+    },
+    {
+     "litera": "D",
+     "html": "40°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2022-2023_malopolskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>∠ADE to suma kąta kwadratu i kąta trójkąta równobocznego: 90°+60°=150°. Trójkąt ADE jest równoramienny (AD=DE), więc ∠DAE=(180°−150°):2=15°. Przekątna BD tworzy z bokiem AD kąt 45°. W trójkącie wyznaczonym przez A, D i punkt przecięcia AE z BD trzeci kąt to 180°−45°−15°=120°, więc szukany kąt ostry wynosi 180°−120°=60°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trójkąt ADE jest równoramienny — zacznij od kąta przy wierzchołku D",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>W pudełku znajdują się patyczki w różnych kolorach: cztery patyczki czerwone, pięć białych, sześć niebieskich i siedem zielonych. Patyczki tego samego koloru są równej długości, patyczki odmiennych kolorów różnią się długościami. Patyczki wyciągamy losowo, nie zaglądając do pudełka, chcąc budować z nich szkielet prostopadłościanu. Każda krawędź prostopadłościanu jest jednym całym patyczkiem. Ile co najmniej patyczków należy wyjąć, aby mieć pewność, że można zbudować z nich szkielet prostopadłościanu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "16"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szkielet prostopadłościanu wymaga po 4 patyczki w 3 kolorach (12 krawędzi = 3 grupy po 4 równe). W najgorszym razie wyciągniemy wszystkie niebieskie (6) i zielone (7) oraz po 3 czerwone i białe, by żaden trzeci kolor nie osiągnął 4 — razem 19 patyczków, a wciąż tylko 2 kolory mają po 4 i więcej. Kolejny, 20. patyczek musi dopełnić trzeci kolor do 4.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "podobieństwo i skala",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na planie w skali 1 : 15000 pastwisko jest kwadratem o polu 9 cm². Jaka jest rzeczywista powierzchnia tego pastwiska?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20,25 ha"
+    },
+    {
+     "litera": "B",
+     "html": "22,05 ha"
+    },
+    {
+     "litera": "C",
+     "html": "25,25 ha"
+    },
+    {
+     "litera": "D",
+     "html": "50,25 ha"
+    },
+    {
+     "litera": "E",
+     "html": "52,25 ha"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu na planie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>9</mn></msqrt><mo>=</mo><mn>3</mn></math> cm. W rzeczywistości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>15000</mn><mo>=</mo><mn>45000</mn></math> cm = 450 m. Pole rzeczywiste: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>450</mn><mo>·</mo><mn>450</mn><mo>=</mo><mn>202500</mn></math> m² = 20,25 ha.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw rzeczywisty bok kwadratu, a dopiero z niego pole",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równoległobokiem, który nie jest rombem. Poniżej zapisano informacje dotyczące tego czworokąta.</p><ul><li>I. Przekątne tego czworokąta przecinają się w połowie.</li><li>II. Każda z przekątnych dzieli ten czworokąt na dwa trójkąty równoramienne.</li><li>III. Suma miar kątów przyległych do jednego boku tego czworokąta jest równa 180 stopni.</li><li>IV. Kąt przecięcia się przekątnych jest kątem prostym.</li></ul><p>Które z powyższych zdań są prawdziwe? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Zdania I i II."
+    },
+    {
+     "litera": "B",
+     "html": "Zdania II i III."
+    },
+    {
+     "litera": "C",
+     "html": "Zdania III i IV."
+    },
+    {
+     "litera": "D",
+     "html": "Zdania II i IV."
+    },
+    {
+     "litera": "E",
+     "html": "Zdania I i III."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>I. prawdziwe — przekątne równoległoboku zawsze się połowią. III. prawdziwe — kąty przy tym samym boku sumują się do 180° (kąty między prostymi równoległymi). II i IV to własności charakterystyczne dla rombu, a ABCD nim nie jest, więc nie muszą zachodzić. Prawdziwe są zdania I i III.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, które własności dotyczą tylko rombu, a nie każdego równoległoboku",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Do pustego zbiornika wodnego o pojemności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,4</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></math> m³ wpuszczana jest woda ze stałą prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mfrac><msup><mtext>m</mtext><mn>3</mn></msup><mtext>h</mtext></mfrac></math>. Jednocześnie z tego zbiornika wypływa strumyk ze stałą prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mfrac><msup><mtext>m</mtext><mn>3</mn></msup><mtext>min</mtext></mfrac></math>. W którym dniu napełniania zbiornika woda wystąpi z brzegów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "w 3 dniu"
+    },
+    {
+     "litera": "B",
+     "html": "w 4 dniu"
+    },
+    {
+     "litera": "C",
+     "html": "w 5 dniu"
+    },
+    {
+     "litera": "D",
+     "html": "w 6 dniu"
+    },
+    {
+     "litera": "E",
+     "html": "w 7 dniu"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odpływ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>500</mn></math> m³/h. Przybytek netto: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mo>−</mo><mn>500</mn><mo>=</mo><mn>1500</mn></math> m³/h. Czas napełniania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240000</mn><mo>:</mo><mn>1500</mn><mo>=</mo><mn>160</mn></math> h, czyli 6 dni i 16 h. Ponieważ 6 pełnych dni (144 h) nie wystarcza, przelanie nastąpi w 7 dniu.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień odpływ na m³ na godzinę i licz sam przyrost netto",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "plot-i-slupki"
+    ],
+    "opis": "Dopływ podany w m³/h, odpływ w m³/min; pytają, w którym dniu z kolei, a nie po ilu pełnych dniach"
+   }
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń"
+   ],
+   "tresc_html": "<p>W pewnej klasie liczącej 30 uczniów, 19 osób gra w koszykówkę, 17 osób gra w siatkówkę, a 9 osób nie uprawia żadnego z tych sportów. Ilu uczniów tej klasy trenuje jednocześnie siatkówkę i koszykówkę?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 osób"
+    },
+    {
+     "litera": "B",
+     "html": "13 osób"
+    },
+    {
+     "litera": "C",
+     "html": "14 osób"
+    },
+    {
+     "litera": "D",
+     "html": "15 osób"
+    },
+    {
+     "litera": "E",
+     "html": "16 osób"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Co najmniej jeden sport uprawia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>21</mn></math> osób. Z zasady włączeń i wyłączeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>+</mo><mn>17</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>21</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>15</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odrzuć dziewięcioro niegrających i porównaj resztę klasy z sumą 19 + 17",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "statystyka opisowa",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Na zawodach lekkoatletycznych grupa zawodników wykonała skoki o tyczce. Sześciu zawodników pokonało wysokość 3 m, dwunastu zawodników pokonało wysokość 4 m, a pewna liczba zawodników pokonała wysokość 7 m. Ilu zawodników wykonało najwyższy skok, jeśli wiadomo, że w całej grupie zawodników średnia wysokość skoku to 4 m?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    },
+    {
+     "litera": "E",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech k to liczba skoczków na wysokości 7 m. Suma wysokości: 6·3+12·4+7k=66+7k, a zawodników jest 18+k. Ze średniej 4 m: 66+7k=4·(18+k), czyli 3k=6, więc k=2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz odchylenia od 4 m — muszą się zsumować do zera",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2022-2023_malopolskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na pierwiastkach",
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Wskaż zdanie fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>70</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><msqrt><mn>30</mn></msqrt></math> spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>&gt;</mo><mn>64</mn></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mroot><mn>2</mn><mn>3</mn></mroot></math> spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>3</mn></msup><mo>&gt;</mo><mn>6</mn></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>15</mn></msqrt><mo>−</mo><mn>1</mn></math> spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mn>7</mn></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math> spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>8</mn></math>."
+    },
+    {
+     "litera": "E",
+     "html": "Para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>35</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><msqrt><mn>35</mn></msqrt></math> spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>y</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mn>8</mn></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla D: x=4+2√5. Nierówność x&lt;8 oznacza √5&lt;2, czyli 5&lt;4 — sprzeczność. W rzeczywistości 4+2√5≈8,47&gt;8, więc zdanie D jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdzaj zdania po kolei, szacując pierwiastki najbliższymi liczbami całkowitymi",
+   "czas_min": 2
+  }
+ ]
+}

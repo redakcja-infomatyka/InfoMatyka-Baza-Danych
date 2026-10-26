@@ -1,0 +1,600 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki organizowany przez Łódzkiego Kuratora Oświaty dla uczniów szkół podstawowych",
+ "etap": "szkolny",
+ "wojewodztwo": "lodzkie",
+ "rok_szkolny": "2020/2021",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 100,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2021_lodzkie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2021_lodzkie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Wiek Adama w roku 2020 jest równy sumie cyfr jego roku urodzenia. Ile lat ma Adam?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "11"
+    },
+    {
+     "litera": "E",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Wiek = 2020 − rok urodzenia = suma cyfr roku. Dla roku 2009: 2+0+0+9 = 11 oraz 2020−2009 = 11. Zgadza się, więc Adam ma 11 lat.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz rok urodzenia jako 200d i porównaj sumę cyfr z wiekiem 2020 − rok",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dana jest liczba piętnastocyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2111111111111</mn><mi>x</mi><mn>2</mn></math>. Jeśli jest ona podzielna przez 12, to cyfra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    },
+    {
+     "litera": "E",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Podzielność przez 12 = przez 4 i przez 3. Przez 4: dwie ostatnie cyfry <math><mi>x</mi><mn>2</mn></math> muszą dawać wielokrotność 4 → x nieparzyste. Przez 3: suma cyfr = 2 + 12·1 + x + 2 = 16 + x podzielna przez 3 → x ≡ 2 (mod 3). Spośród opcji tylko x = 5 (52:4=13, suma 21:3).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podzielność przez 12 to podzielność przez 3 i przez 4 — sumę cyfr policz z liczby cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Kieszonkowe Miśki jest o 25% większe od kieszonkowego Tośki. Ile złotych kieszonkowego dostaje Miśka, jeśli jej kieszonkowe jest o 5 złotych większe od kieszonkowego Tośki?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15 zł"
+    },
+    {
+     "litera": "B",
+     "html": "20 zł"
+    },
+    {
+     "litera": "C",
+     "html": "25 zł"
+    },
+    {
+     "litera": "D",
+     "html": "30 zł"
+    },
+    {
+     "litera": "E",
+     "html": "35 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Miśka = 1,25·Tośka, różnica = 0,25·Tośka = 5 zł → Tośka = 20 zł, Miśka = 25 zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica 5 zł to dokładnie te 25% kieszonkowego Tośki",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "procent-podstawa"
+    ],
+    "opis": "25% liczone od kieszonkowego Tośki, a pytają o Miśkę; łatwo podać kwotę Tośki"
+   }
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math> i jednocześnie mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>90</mn></msqrt></math> ?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "7"
+    },
+    {
+     "litera": "E",
+     "html": "80"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math><msqrt><mn>10</mn></msqrt></math> ≈ 3,16 oraz <math><msqrt><mn>90</mn></msqrt></math> ≈ 9,49. Liczby naturalne pomiędzy: 4,5,6,7,8,9 — czyli 6 liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszacuj oba pierwiastki, porównując je z pierwiastkami z kolejnych kwadratów",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "trójkąty",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Z których odcinków można zbudować trójkąt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 cm; 1 dm; 1 m"
+    },
+    {
+     "litera": "B",
+     "html": "24 cm; 3,6 dm; 0,6 m"
+    },
+    {
+     "litera": "C",
+     "html": "0,4 m; 40 cm; 0,04 km"
+    },
+    {
+     "litera": "D",
+     "html": "0,007 km; 30 dm; 5 m"
+    },
+    {
+     "litera": "E",
+     "html": "200 mm; 2 cm; 0,02 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Po zamianie na cm: D → 700, 300, 500 (cm). Warunek trójkąta: 300+500 = 800 > 700 (i pozostałe) — spełniony. Pozostałe opcje: A(1,10,100), B(24,36,60 → 24+36=60 degeneracja), C(40,40,4000), E(20,2,2) nie tworzą trójkąta.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystkie długości na te same jednostki i sprawdź warunek trójkąta",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia",
+     "jednostki"
+    ],
+    "opis": "Po zamianie jednostek jeden zestaw daje równość a+b=c, trójkąt zdegenerowany, nie trójkąt"
+   }
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole powierzchni zacieniowanej figury jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "52 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "48 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "46 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "40 cm²"
+    },
+    {
+     "litera": "E",
+     "html": "21 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021_lodzkie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Prostokąt 10×8 = 80 cm². Biały trójkąt lewy-górny (przyprostokątne 6 i 3) = 9 cm². Biały trapez dolny (podstawy pionowe 3 i 2, długość 10) = 25 cm². Zacieniowane = 80 − 9 − 25 = 46 cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wysokość weź z prawego boku, potem odejmij od pola prostokąta biały trójkąt i biały trapez",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Iloraz sumy podwojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i sześcianu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez różnicę kwadratu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i potrojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> zapiszemy w postaci wyrażenia:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>a</mi><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo>)</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>b</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>b</mi><mo>)</mo><mo>(</mo><mn>2</mn><mi>a</mi><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo>)</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup></mrow></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>b</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi></mrow><msup><mi>b</mi><mn>3</mn></msup></mfrac><mo>+</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>b</mi><mo>)</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma podwojonej a i sześcianu b: 2a+b³. Różnica kwadratu a i potrojonej b: a²−3b. Iloraz: <math><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>b</mi></mrow></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "iloraz to kreska ułamkowa — suma trafia do licznika, różnica do mianownika",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "działania na pierwiastkach",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Objętość sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mroot><mn>2</mn><mn>3</mn></mroot></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "16"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mroot><mn>4</mn><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mroot><mn>4</mn><mn>3</mn></mroot></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>V = (krawędź)³ = <math><msup><mrow><mo>(</mo><mn>2</mn><mroot><mn>2</mn><mn>3</mn></mroot><mo>)</mo></mrow><mn>3</mn></msup></math> = 8·2 = 16.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnoszenie do sześcianu znosi pierwiastek trzeciego stopnia",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "działania na pierwiastkach",
+    "działania na potęgach",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wartość którego z poniższych wyrażeń jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> ?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>24</mn></mfrac><mo>·</mo><mn>1,2</mn><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>20</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1,8</mn><mo>:</mo><mn>0,02</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>0</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>128</mn><mo>·</mo><mn>16</mn></mrow><mrow><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>2</mn><mn>4</mn></msup></mrow></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>0,01</mn></msqrt><mo>·</mo><mfrac><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup></mrow><mn>4</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>9</mn></msqrt><msqrt><mn>64</mn></msqrt></mfrac><mo>·</mo><msqrt><mn>0,64</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>E: −√0,01·((−2)³/4) + (√9/√64)·√0,64 = −0,1·(−2) + (3/8)·0,8 = 0,2 + 0,3 = 0,5 = 1/2. (A = 5,5; B = 69,5; C = 1; D = 4.)</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "działania na potęgach",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Po wykonaniu działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msqrt><msup><mn>9</mn><mn>2</mn></msup></msqrt><mo>·</mo><msup><mn>27</mn><mn>2</mn></msup></mrow><mrow><msup><mn>3</mn><mn>6</mn></msup><mo>:</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></mfrac></math> otrzymamy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>0</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>12</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>10</mn></msup></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>8</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Licznik: 3²·√(9²)·27² = 3²·3²·3⁶ = 3¹⁰. Mianownik: 3⁶:3⁴ = 3². Wynik: 3¹⁰/3² = 3⁸.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz 9, 27 i pierwiastek jako potęgi trójki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 5,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Jabłka są o 20% tańsze od śliwek, a gruszki są o 40% droższe od śliwek. O ile procent gruszki są droższe od jabłek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 75%"
+    },
+    {
+     "litera": "B",
+     "html": "o 60%"
+    },
+    {
+     "litera": "C",
+     "html": "o 50%"
+    },
+    {
+     "litera": "D",
+     "html": "o 100%"
+    },
+    {
+     "litera": "E",
+     "html": "o 140%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Śliwki = 100. Jabłka = 80, gruszki = 140. Gruszki droższe od jabłek o (140−80)/80 = 60/80 = 75%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę śliwek za 100 zł",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Procenty liczone od śliwek; porównanie gruszek z jabłkami wymaga nowej podstawy, nie odejmowania procentów"
+   }
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 15,
+   "tematy": [
+    "czworokąty",
+    "podobieństwo i skala",
+    "zamiana jednostek",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole powierzchni kwadratowej działki wynosi 64 a. Druga działka, w kształcie prostokąta, jest o 40 m dłuższa, ale o 40 m węższa od kwadratowej.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole prostokątnej działki jest większe niż pole działki kwadratowej."
+    },
+    {
+     "litera": "2",
+     "html": "Obwody obu działek są równe."
+    },
+    {
+     "litera": "3",
+     "html": "Na planie w skali 1:1000 kwadratowa działka ma pole 64 dm²."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>64 a = 6400 m², bok kwadratu = 80 m. Prostokąt: 120×40 = 4800 m². (1) 4800 < 6400 → F. (2) Obwód kwadratu 320 m, prostokąta 2·(120+40)=320 m → P. (3) W skali 1:1000 bok = 8 cm, pole = 64 cm² (nie 64 dm²) → F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "1 ar to 100 m² — zacznij od wyznaczenia boku kwadratu",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Zd. 3: pole w skali zmienia się z kwadratem skali, a wynik trzeba porównać w dm², nie w cm²"
+   }
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 10,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ojciec i jego dwaj synowie mają razem 120 lat. Przed pięcioma laty starszy syn miał dwa razy więcej lat niż brat młodszy, a połowę tego co ojciec. Ile lat ma obecnie każdy z nich? Zapisz rozwiązanie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "ojciec 65 lat, starszy syn 35 lat, młodszy syn 20 lat",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>5 lat temu: starszy = a, młodszy = a/2, ojciec = 2a. Obecnie suma: (a+5)+(a/2+5)+(2a+5)=120 → 3,5a=105 → a=30. Stąd starszy 35, młodszy 20, ojciec 65 (sprawdzenie 5 lat temu: 30 = 2·15 = ½·60).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 10,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Drewniany klocek ma kształt graniastosłupa prawidłowego czworokątnego o krawędzi podstawy 6 cm i wysokości dwa razy większej. W jednej z podstaw wycięto otwór w kształcie sześcianu o krawędzi 3 cm. Oblicz pole powierzchni i objętość tak powstałej bryły. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Pole powierzchni 396 cm², objętość 405 cm³",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Graniastosłup 6×6×12: V = 432 cm³, P = 2·36+4·72 = 360 cm². Wycięty sześcian 3×3×3: V = 27 → objętość 432−27 = 405 cm³. Powierzchnia: −9 (otwór) +9 (dno) +4·9 (ścianki) → 360+36 = 396 cm².</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Wycięty otwór dokłada ścianki wewnętrzne do pola powierzchni; nie wolno tylko odjąć pola kwadratu"
+   }
+  },
+  {
+   "id": "szkolny_2021_lodzkie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 10,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>W naczyniu A znajduje się pięć litrów 20-procentowej solanki, a w naczyniu B – dziewięć litrów 10-procentowej solanki. Z naczynia A przelano do naczynia B jeden litr roztworu, dokładnie wymieszano, a następnie z naczynia B przelano do naczynia A jeden litr roztworu. Jakie było stężenie procentowe solanki w naczyniu A, a jakie w naczyniu B po tych zmianach? Zapisz rozwiązanie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "w naczyniu A – 18,2%, w naczyniu B – 11%",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Sól: A = 1,0; B = 0,9. Przelew 1 L z A (0,2 soli): A → 4 L, 0,8 soli (20%); B → 10 L, 1,1 soli (11%). Przelew 1 L z B (0,11 soli): B → 9 L, 0,99 soli = 11%; A → 5 L, 0,91 soli = 18,2%.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

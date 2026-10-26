@@ -1,0 +1,923 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa wielkopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "wielkopolskie",
+ "rok_szkolny": "2021/2022",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 24,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2021-2022_wielkopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dana jest dwudziestocyfrowa liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>411111111111111111</mn><mi>x</mi><mn>4</mn></math>. Jeśli jest ona podzielna przez 12, to cyfra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> może wynosić:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "0"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba podzielna przez 12 musi dzielić się przez 4 i przez 3. Dwie ostatnie cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mn>4</mn></math> dają liczbę podzielną przez 4 tylko dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math>. Suma wszystkich cyfr liczby wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><mi>x</mi></math>, a podzielność przez 3 spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math> (suma 27).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "12 = 3 · 4, więc sprawdź sumę cyfr i dwie ostatnie cyfry; jedynek jest 17, bo liczba ma 20 cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych trzycyfrowych, których iloczyn cyfr wynosi 8?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "10"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzycyfrowe liczby o iloczynie cyfr 8 (bez zer) powstają z cyfr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>8</mn></math> (3 liczby), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>4</mn></math> (6 liczb) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn></math> (1 liczba). Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>10</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozbij 8 na iloczyn trzech cyfr i policz ustawienia w każdym przypadku",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Trzeba wypisać wszystkie rozkłady 8 na trzy cyfry, łącznie z rozkładem na trzy jednakowe cyfry"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Ola zapisała liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2012</mn><mn>2012</mn></msup></math>. Ostatnią cyfrą tej liczby jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostatnie cyfry potęg liczby kończącej się na 2 powtarzają się w cyklu 2, 4, 8, 6 co 4 potęgi. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2012</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>503</mn></math> (reszta 0), ostatnią cyfrą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2012</mn><mn>2012</mn></msup></math> jest 6.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ostatnie cyfry kolejnych potęg dwójki powtarzają się cyklicznie co cztery",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Cykl ostatnich cyfr potęgi 2: reszta 0 z dzielenia wykładnika przez 4 oznacza czwarty wyraz cyklu"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Jabłka są o 20% tańsze od śliwek, a gruszki są o 40% droższe od śliwek. O ile procent gruszki są droższe od jabłek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "75%"
+    },
+    {
+     "litera": "B",
+     "html": "60%"
+    },
+    {
+     "litera": "C",
+     "html": "25%"
+    },
+    {
+     "litera": "D",
+     "html": "80%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech cena śliwek wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math>. Jabłka kosztują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn></math>, a gruszki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>140</mn></math>. Gruszki są droższe od jabłek o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>140</mn><mo>−</mo><mn>80</mn><mo>)</mo><mo>:</mo><mn>80</mn><mo>=</mo><mn>75</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę śliwek za 100 zł i porównuj gruszki do jabłek, a nie do śliwek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Oba procenty liczone od ceny śliwek, a pytanie odnosi się do ceny jabłek: zmienia się podstawa"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym równoramiennym odległość wierzchołka kąta prostego od przeciwprostokątnej jest równa 5. Pole tego trójkąta jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100"
+    },
+    {
+     "litera": "B",
+     "html": "12,5"
+    },
+    {
+     "litera": "C",
+     "html": "25"
+    },
+    {
+     "litera": "D",
+     "html": "50"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkącie prostokątnym równoramiennym o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wysokość na przeciwprostokątną wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>a</mi><mo>:</mo><msqrt><mn>2</mn></msqrt></math>, skąd pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>5</mn></math> pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "ta wysokość dzieli trójkąt na dwa mniejsze trójkąty prostokątne równoramienne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Odległość wierzchołka kąta prostego od przeciwprostokątnej to wysokość, a nie przyprostokątna"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "notacja wykładnicza",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Ciało ludzkie zawiera około 5,5 litrów krwi. W każdym milimetrze sześciennym krwi znajduje się około 5 milionów czerwonych ciałek krwi. Zatem w krwi człowieka czerwonych ciałek krwi jest około:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27,5</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,75</mn><mo>·</mo><msup><mn>10</mn><mn>14</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>275</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27,5</mn><mo>·</mo><msup><mn>10</mn><mn>12</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zamieniamy litry na milimetry sześcienne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,5</mn></math> l <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5,5</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></math> mm³. Liczba czerwonych ciałek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,5</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>=</mo><mn>27,5</mn><mo>·</mo><msup><mn>10</mn><mn>12</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień litry na milimetry sześcienne: 1 l to milion mm³",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Litr trzeba zamienić na milimetry sześcienne: współczynnik sześcienny, nie liniowy"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Liczbą przeciwną do rozwiązania równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>33</mn></math> jest?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "−3"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "−11"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwiązujemy równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>x</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>33</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>11</mn><mi>x</mi><mo>=</mo><mn>33</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></math>. Liczbą przeciwną jest 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "x² skraca się po obu stronach; na koniec pamiętaj o liczbie przeciwnej",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytanie dotyczy liczby przeciwnej do rozwiązania równania, a nie samego rozwiązania"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Na rysunku przedstawiono podział wartości rytmicznych nut.</p><p>Najdrobniejszą wartością nuty jest stodwudziestoósemka, w całej nucie mieści się ich sto dwadzieścia osiem. Ile stodwudziestoósemek mieści się w półnucie z dwiema kropkami wiedząc, że kropka stojąca przy nucie przedłuża jej wartość o połowę, a druga kropka o połowę połowy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "116"
+    },
+    {
+     "litera": "B",
+     "html": "90"
+    },
+    {
+     "litera": "C",
+     "html": "112"
+    },
+    {
+     "litera": "D",
+     "html": "124"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021-2022_wielkopolskie_q8_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cała nuta to 128 stodwudziestoósemek, więc półnuta to 64. Pierwsza kropka dodaje połowę wartości nuty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>32</mn></math>, druga kropka połowę tej wartości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>16</mn></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>+</mo><mn>32</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>112</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "półnuta to połowa całej nuty, a kropki dokładają do niej połowę i ćwiartkę",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Różnica miar dwóch sąsiednich kątów wewnętrznych równoległoboku jest równa 70°. Kąt rozwarty tego równoległoboku wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "110°"
+    },
+    {
+     "litera": "B",
+     "html": "135°"
+    },
+    {
+     "litera": "C",
+     "html": "125°"
+    },
+    {
+     "litera": "D",
+     "html": "100°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sąsiednie kąty równoległoboku sumują się do 180°. Niech mniejszy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, większy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>70</mn></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>70</mn><mo>=</mo><mn>180</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>55</mn></math>, więc kąt rozwarty wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>55</mn><mo>+</mo><mn>70</mn><mo>=</mo><mn>125</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty sąsiednie równoległoboku dają razem 180°",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "wyrażenia algebraiczne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>O ile zmniejszy się pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>b</mi></math>, jeżeli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zmniejszymy o 3, a drugi bok zmniejszymy trzykrotnie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>3</mn><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mi>b</mi><mo>−</mo><mn>3</mn><mi>b</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mi>b</mi></math>. Po zmianie boki wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, więc nowe pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mo>−</mo><mn>3</mn><mi>b</mi></math>. Zmniejszenie pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mi>b</mi><mo>−</mo><mo>(</mo><mi>a</mi><mi>b</mi><mo>−</mo><mn>3</mn><mi>b</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>3</mn><mi>b</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz oba pola jako iloczyny i odejmij nowe od starego",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest o 20 większa od liczby jego ścian bocznych. Stąd wynika, że podstawą tego graniastosłupa jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "pięciokąt"
+    },
+    {
+     "litera": "B",
+     "html": "dziesięciokąt"
+    },
+    {
+     "litera": "C",
+     "html": "sześciokąt"
+    },
+    {
+     "litera": "D",
+     "html": "dwudziestokąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math> krawędzi i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> ścian bocznych. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>20</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>10</mn></math> — podstawą jest dziesięciokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi i n ścian bocznych",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Suma pięciu kolejnych liczb naturalnych parzystych wynosi 140. Iloraz największej i najmniejszej z tych liczb jest równy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>13</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech środkowa z liczb to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Suma pięciu kolejnych liczb parzystych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>n</mi><mo>=</mo><mn>140</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>28</mn></math>. Liczby to 24, 26, 28, 30, 32, więc iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>:</mo><mn>24</mn><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "środkowa z pięciu kolejnych liczb to suma podzielona przez 5",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Dane są liczby 1410, 996 i 1939. Liczba znaków rzymskich potrzebna do zapisu wszystkich tych liczb jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "21"
+    },
+    {
+     "litera": "B",
+     "html": "18"
+    },
+    {
+     "litera": "C",
+     "html": "23"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zapis rzymski: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1410</mn><mo>=</mo><mi>MCDX</mi></math> (4 znaki), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>996</mn><mo>=</mo><mi>CMXCVI</mi></math> (6 znaków), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1939</mn><mo>=</mo><mi>MCMXXXIX</mi></math> (8 znaków). Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>18</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz znaki grupami: tysiące, setki, dziesiątki, jedności — CM, CD i IX to po dwa znaki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Na szkolnym boisku bieżnia ma cztery tory. Rozgrywając zawody przyjęto, że tylko zwycięzca każdego biegu przechodzi do następnej rundy. Ile biegów trzeba rozegrać, aby wyłonić zwycięzcę, jeśli do biegu zgłosiło się 64 zawodników? (Organizatorzy zakładają, że podczas każdego biegu wykorzystana będzie maksymalna liczba torów.)</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "21"
+    },
+    {
+     "litera": "C",
+     "html": "17"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Każdy bieg (4 tory) wyłania 1 zwycięzcę z 4 zawodników. Rundy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> biegów, potem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>4</mn></math> biegi, potem 1 bieg finałowy. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>21</mn></math> biegów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "po każdej rundzie zostaje czwarta część zawodników — dodaj biegi z kolejnych rund",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzrost wykładniczy",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Pewna mysz zebrała w pierwszy wrześniowy poniedziałek zapas 128 ziaren zbóż. Od następnego dnia zjadała codziennie połowę pozostałego w danym dniu zapasu ziaren. Któregoś dnia, tuż po posiłku stwierdziła, że zostało jej już tylko 1 ziarno. W jakim dniu tygodnia to się stało?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "poniedziałek"
+    },
+    {
+     "litera": "B",
+     "html": "wtorek"
+    },
+    {
+     "litera": "C",
+     "html": "środa"
+    },
+    {
+     "litera": "D",
+     "html": "niedziela"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zapas maleje o połowę każdego dnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>128</mn><mo>,</mo><mn>64</mn><mo>,</mo><mn>32</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn></math>. Do 1 ziarna dochodzi po 7 dniach od poniedziałku, czyli w kolejny poniedziałek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile razy trzeba podzielić 128 przez 2 — tyle dni minie od poniedziałku",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "kalendarz-czas"
+    ],
+    "opis": "Liczenie dni: jedzenie zaczyna się dzień po zebraniu zapasu, łatwo przesunąć się o jeden dzień"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mn>0,16</mn><mn>3</mn></msup><mo>+</mo><msup><mn>0,16</mn><mn>2</mn></msup><mo>·</mo><mn>0,84</mn><mo>)</mo><mo>:</mo><mfrac><mn>32</mn><mn>125</mn></mfrac></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,32"
+    },
+    {
+     "litera": "B",
+     "html": "0,01"
+    },
+    {
+     "litera": "C",
+     "html": "0,1"
+    },
+    {
+     "litera": "D",
+     "html": "0,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W liczniku wyłączamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,16</mn><mn>2</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,16</mn><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>0,16</mn><mo>+</mo><mn>0,84</mn><mo>)</mo><mo>=</mo><mn>0,0256</mn></math>. Dzielimy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,0256</mn><mo>:</mo><mfrac><mn>32</mn><mn>125</mn></mfrac><mo>=</mo><mn>0,0256</mn><mo>·</mo><mfrac><mn>125</mn><mn>32</mn></mfrac><mo>=</mo><mn>0,1</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz 0,16² przed nawias i zobacz, ile daje 0,16 + 0,84",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb całkowitych mniejszych od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math> i jednocześnie niemniejszych od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>22,9</mn><mo>)</mo></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "46"
+    },
+    {
+     "litera": "B",
+     "html": "45"
+    },
+    {
+     "litera": "C",
+     "html": "47"
+    },
+    {
+     "litera": "D",
+     "html": "48"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukamy liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniających <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>22,9</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>22</mn><mo>≤</mo><mi>x</mi><mo>≤</mo><mn>23</mn></math>. Ich liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>22</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mn>46</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal skrajne liczby całkowite spełniające oba warunki i przy odejmowaniu dodaj 1",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb",
+     "plot-i-slupki"
+    ],
+    "opis": "Granice: ostra nierówność przy 24 i liczba niecałkowita −22,9 jako dolna granica"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na rysunku przedstawiony jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Przyjmując, że długość jednej kratki jest równa 1, to pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedstawionego na rysunku wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021-2022_wielkopolskie_q18_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt obudowujemy prostokątem 6×4 (pole 24) i odejmujemy trzy trójkąty w rogach o przyprostokątnych 4 i 2 (pole 4), 4 i 2 (pole 4) oraz 6 i 2 (pole 6). Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>10</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "otocz trójkąt prostokątem i odejmij trzy trójkąty prostokątne z narożników",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q19",
+   "numer": 19,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msqrt><mrow><mn>12</mn><mo>−</mo><msqrt><mrow><mn>7</mn><mo>+</mo><msqrt><mn>4</mn></msqrt></mrow></msqrt></mrow></msqrt></mrow></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mroot><mrow><mn>6</mn><mo>−</mo><mroot><mrow><mo>−</mo><mn>7</mn><mo>+</mo><mroot><mrow><mn>1</mn><mo>+</mo><mroot><mrow><mo>−</mo><mn>8</mn></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></msqrt></math> jest liczbą całkowitą."
+    },
+    {
+     "litera": "2",
+     "html": "Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mfrac><mi>b</mi><mi>a</mi></mfrac><mn>3</mn></mroot></math> jest liczbą większą niż 1."
+    },
+    {
+     "litera": "3",
+     "html": "Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mi>b</mi><mo>−</mo><mi>a</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wyznaczamy wartości liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msqrt><mrow><mn>12</mn><mo>−</mo><msqrt><mrow><mn>7</mn><mo>+</mo><msqrt><mn>4</mn></msqrt></mrow></msqrt></mrow></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msqrt><mn>9</mn></msqrt></mrow></msqrt><mo>=</mo><msqrt><mn>4</mn></msqrt><mo>=</mo><mn>2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mroot><mrow><mn>6</mn><mo>−</mo><mroot><mrow><mo>−</mo><mn>7</mn><mo>+</mo><mroot><mrow><mn>1</mn><mo>+</mo><mroot><mrow><mo>−</mo><mn>8</mn></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mrow><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mn>8</mn><mn>3</mn></mroot><mo>=</mo><mn>2</mn></math>.</p><ol><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></msqrt><mo>=</mo><msqrt><mn>4</mn></msqrt><mo>=</mo><mn>2</mn></math> — liczba całkowita, zdanie prawdziwe (P).</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mfrac><mi>b</mi><mi>a</mi></mfrac><mn>3</mn></mroot><mo>=</mo><mroot><mn>1</mn><mn>3</mn></mroot><mo>=</mo><mn>1</mn></math>, a 1 nie jest liczbą większą niż 1, zdanie fałszywe (F).</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>0</mn></msqrt><mo>=</mo><mn>0</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>0</mn></math>, więc równość zachodzi — zdanie prawdziwe (P).</li></ol>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź 1 punkt (3 p. za trzy poprawne).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozwijaj oba wyrażenia od najbardziej wewnętrznego pierwiastka na zewnątrz",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q20",
+   "numer": 20,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mo>(</mo><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest pewną liczbą nieparzystą całkowitą, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest dowolną liczbą całkowitą.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest zawsze nieparzysta."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest parzysta tylko wtedy, gdy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest nieparzysta."
+    },
+    {
+     "litera": "3",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest nieparzystą tylko wtedy, gdy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest parzysta."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest nieparzysta, czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> są parzyste, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest zawsze parzysty. Czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> jest zawsze nieparzysty.</p><ol><li>Parzystość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> zależy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> nie jest zawsze nieparzysta — zdanie fałszywe (F).</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest parzysta wtedy i tylko wtedy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> jest parzysty, czyli gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo></math> jest parzysty, a to zachodzi dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> nieparzystego — zdanie prawdziwe (P).</li><li>Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest nieparzysta dokładnie wtedy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest parzyste — zdanie prawdziwe (P).</li></ol>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź 1 punkt (3 p. za trzy poprawne).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dwóch chłopców oddalonych od siebie o 224 metry rusza naprzeciw siebie w jednej chwili. Jeżeli maszerują z prędkością odpowiednio 1,5 m/s oraz 2 m/s, to po jakim czasie się spotkają i jaki dystans pokona każdy z chłopców? Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Spotkają się po 64 s; pierwszy chłopiec pokona 96 m, drugi 128 m",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ze wzoru na drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi></math> otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>t</mi><mo>+</mo><mn>2</mn><mi>t</mi><mo>=</mo><mn>224</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mi>t</mi><mo>=</mo><mn>224</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> s. Pierwszy chłopiec pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>96</mn></math> m, a drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>128</mn></math> m (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>224</mn><mo>−</mo><mn>96</mn><mo>=</mo><mn>128</mn></math> m).</p><p>Odpowiedź: chłopcy spotkają się po 64 sekundach i pokonają odpowiednio 96 m i 128 m.</p>",
+    "punktacja_html": "<ul><li>4 punkty – gdy poprawnie rozwiąże zadanie i wyznaczy, że chłopcy spotkali się po 64 sekundach od momentu wyruszenia w trasę i pokonali odpowiednio 96 metrów i 128 metrów, albo poda taką odpowiedź i sprawdzi, że otrzymane liczby spełniają <strong>wszystkie</strong> warunki zadania.</li><li>3 punkty – gdy rozwiązując równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> poprawnie wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> i wyznaczy poprawnie dystans pokonany <strong>przez jednego</strong> z chłopców i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> rozwiązując to równanie popełni błędy rachunkowe przy wyznaczaniu t i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie (tj. wyznaczy drogi obu chłopców).</li><li>2 punkty – gdy ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> i poprawnie wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> i na tym zakończy lub obie drogi będą wyznaczone z błędem, <strong>lub</strong> ułoży to równanie, popełni błędy rachunkowe przy wyznaczaniu t i konsekwentnie do popełnionego błędu poprawnie wyznaczy dystans pokonany tylko przez jednego z chłopców i na tym zakończy lub dalej popełni błędy.</li><li>1 punkt – gdy poprawnie ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> zapisze, że droga pokonana przez pierwszego z chłopców jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi></math>, a droga pokonana przez drugiego z chłopców jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mi>t</mi></math>, i na tym zakończy lub dalej popełni błędy.</li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul><p>Dla rozwiązania układem równań (metoda II i III) obowiązują analogiczne progi: 3 punkty za poprawne wyznaczenie dwóch niewiadomych, 2 punkty za rozwiązanie konsekwentne do popełnionego błędu, 1 punkt za poprawne ułożenie układu równań.</p><p>Uwagi!</p><ul><li>Jeżeli uczestnik w rozwiązaniu zadania otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&lt;</mo><mn>0</mn></math>, to za rozwiązanie zadania może otrzymać maksymalnie 1 punkt.</li><li>Jeżeli uczestnik w rozwiązaniu zadania otrzyma drogę mniejszą od zera, to za rozwiązanie zadania może otrzymać maksymalnie 1 punkt.</li><li>Jeżeli uczestnik stosuje niepoprawny wzór na drogę, prędkość lub czas, to za rozwiązanie zadania otrzymuje 0 punktów.</li><li>Nie odejmujemy punktów, jeśli uczestnik zapisując równania w rozwiązaniu zadania pominie jednostki; jedynie w odpowiedzi uczeń musi zapisać poprawną jednostkę czasu i długości.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Uzasadnij, że istnieje trójkąt o polu równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>2</mn></msup></math> i wysokościach równych odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mspace width=\"0.15em\"></mspace><mi>cm</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mspace width=\"0.15em\"></mspace><mi>cm</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mspace width=\"0.15em\"></mspace><mi>cm</mi></math>. Zapisz obliczenia i uzasadnienie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Boki trójkąta wynoszą 12 cm, 8 cm i 6 cm; nierówność trójkąta 12 < 8 + 6 jest spełniona, więc taki trójkąt istnieje",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ze wzoru na pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>h</mi></math> mamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>a</mi><mo>·</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>b</mi><mo>·</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>c</mi><mo>·</mo><mn>8</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>12</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>8</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>6</mn></math> cm. Najdłuższy bok spełnia nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>&lt;</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>14</mn></math>, zatem trójkąt o zadanym polu i wysokościach istnieje.</p>",
+    "punktacja_html": "<ul><li>3 punkty – gdy poprawnie uzasadni, że istnieje trójkąt o polu równym 24 cm² i wysokościach równych odpowiednio 4 cm, 6 cm i 8 cm.</li><li>2 punkty – gdy poprawnie wyznaczy wszystkie trzy długości boków trójkąta i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> zapisze 3 poprawne równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>a</mi><mo>·</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>b</mi><mo>·</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>c</mi><mo>·</mo><mn>8</mn></math> i co najmniej jedno z nich rozwiąże poprawnie, a pozostałe błędnie, ale konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie, tj. sprawdzi nierówność trójkąta.</li><li>1 punkt – gdy poprawnie wyznaczy jedną długość boku trójkąta i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> zapisze te 3 poprawne równania i na tym zakończy lub wszystkie trzy rozwiąże błędnie.</li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul><p>Uwagi: aby otrzymać maksymalną liczbę punktów:</p><ul><li>uczestnik nie musi zapisać słownie, że spełniona jest nierówność trójkąta – wystarczy, że zapisze odpowiednią nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> cm</mtext><mo>&lt;</mo><mn>8</mn><mtext> cm</mtext><mo>+</mo><mn>6</mn><mtext> cm</mtext></math>;</li><li>uczestnik nie musi zapisać nierówności 12 cm &gt; 8 cm i 12 cm &gt; 6 cm – wystarczy odpowiednia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> cm</mtext><mo>&lt;</mo><mn>8</mn><mtext> cm</mtext><mo>+</mo><mn>6</mn><mtext> cm</mtext></math>;</li><li>uczestnik nie musi zapisać, że wyznaczone boki trójkąta są większe od zera;</li><li>uczestnik może podać długości boków a = 12 cm, b = 8 cm i c = 6 cm bez zapisywania odpowiednich równań i sprawdzić nierówność trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> cm</mtext><mo>&lt;</mo><mn>8</mn><mtext> cm</mtext><mo>+</mo><mn>6</mn><mtext> cm</mtext></math>.</li></ul><p>Uwagi!</p><ul><li>Jeśli uczestnik rozwiązując zadanie we wzorze na pole trójkąta pominie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> i otrzyma długości boków odpowiednio równe 6 cm, 4 cm i 3 cm i sprawdzi warunek trójkąta, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mtext> cm</mtext><mo>&lt;</mo><mn>4</mn><mtext> cm</mtext><mo>+</mo><mn>3</mn><mtext> cm</mtext></math>, to za całe rozwiązanie otrzymuje 1 punkt.</li><li>Nie odejmujemy punktów, jeśli uczestnik zapisując równania lub nierówności w rozwiązaniu zadania pominie jednostki.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Po wyznaczeniu boków z pola i wysokości trzeba jeszcze sprawdzić, czy taki trójkąt istnieje"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>W pierwszy poniedziałek października na lekcji muzyki w klasie 7 b uczniów nieobecnych było 4 razy mniej niż obecnych. Wyznacz ilu uczniów uczęszcza do klasy 7 b, jeśli w drugi poniedziałek października liczba uczniów obecnych na lekcji muzyki była o trzy mniejsza niż w pierwszy poniedziałek października oraz nieobecni stanowili 40 % obecnych. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "35 uczniów",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę uczniów nieobecnych w pierwszy poniedziałek, wtedy obecnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi></math>, a cała klasa liczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>n</mi></math> uczniów. W drugi poniedziałek obecnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>−</mo><mn>3</mn></math>, a nieobecnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>3</mn></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0,4</mn><mo>(</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,6</mn><mi>n</mi><mo>−</mo><mn>1,2</mn><mo>=</mo><mi>n</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mi>n</mi><mo>=</mo><mn>4,2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>7</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>n</mi><mo>=</mo><mn>35</mn></math>.</p><p>Odpowiedź: do klasy 7b uczęszcza 35 uczniów.</p>",
+    "punktacja_html": "<ul><li>4 punkty – gdy poprawnie rozwiąże zadanie i wyznaczy, że liczba uczniów w klasie wynosi 35, <strong>lub</strong> poda odpowiedź, że liczba uczniów w klasie wynosi 35, poda liczbę obecnych w pierwszy poniedziałek października równą 28 i liczbę nieobecnych równą 7 oraz liczbę obecnych w drugi poniedziałek października równą 25 i liczbę nieobecnych równą 10, ale sprawdzi, że otrzymane liczby spełniają wszystkie warunki zadania.</li><li>3 punkty – gdy rozwiązując równanie np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mo>(</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mi>n</mi><mo>+</mo><mn>3</mn></math> poprawnie wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>7</mn></math> (albo rozwiązując np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mfrac><mi>o</mi><mn>4</mn></mfrac><mo>+</mo><mn>3</mn></math> wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi><mo>=</mo><mn>28</mn></math>, albo z układu równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>=</mo><mi>o</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0,4</mn><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>7</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi><mo>=</mo><mn>28</mn></math>) i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> wyznaczy niewiadomą z błędem rachunkowym, otrzymując liczbę naturalną dodatnią (dla o – podzielną przez 4), i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie.</li><li>2 punkty – gdy zapisze równanie z jedną niewiadomą np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mo>(</mo><mn>4</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mi>n</mi><mo>+</mo><mn>3</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mfrac><mi>o</mi><mn>4</mn></mfrac><mo>+</mo><mn>3</mn></math> i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> sprowadzi układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>=</mo><mi>o</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0,4</mn><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> do poprawnego równania z jedną niewiadomą i na tym zakończy lub dalej popełni błędy.</li><li>1 punkt – gdy zapisze przynajmniej dwa wyrażenia algebraiczne w zależności od jednej zmiennej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>o</mi><mn>4</mn></mfrac><mo>+</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> jako liczby uczniów nieobecnych na lekcji muzyki w drugi poniedziałek października, i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> zapisze poprawnie układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>=</mo><mi>o</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>0,4</mn><mo>(</mo><mi>o</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> i na tym zakończy lub dalej popełni błędy.</li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "40% liczy się od liczby obecnych, a nie od liczby wszystkich uczniów klasy"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_wielkopolskie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "graniastosłupy",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Zewnętrzne wymiary donicy wykonanej z betonu, w kształcie prostopadłościanu wynoszą odpowiednio: wysokość – 1,5 dm, dno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>25</mn></mfrac><mi>m</mi></math> × 10 cm. Do pustej donicy można wlać maksymalnie 6 l wody. Oblicz ile maksymalnie doniczek można wykonać mając do dyspozycji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10000</mn><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>3</mn></msup></math> betonu? Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 doniczek",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zamieniamy wymiary na centymetry: wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn></math> dm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> 15 cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>25</mn></mfrac></math> m <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> 48 cm. Objętość donicy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>15</mn><mo>·</mo><mn>48</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>7200</mn><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>3</mn></msup></math>. Ilość betonu na jedną donicę (objętość donicy minus pojemność wody <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> l <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> 6000 cm³): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7200</mn><mo>−</mo><mn>6000</mn><mo>=</mo><mn>1200</mn><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>3</mn></msup></math>. Liczba doniczek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10000</mn><mo>:</mo><mn>1200</mn><mo>≈</mo><mn>8,33</mn></math>, więc maksymalnie 8.</p><p>Odpowiedź: można wykonać maksymalnie 8 doniczek.</p>",
+    "punktacja_html": "<ul><li>5 punktów – gdy poprawnie rozwiąże zadanie i wyznaczy, że maksymalna liczba doniczek, o których mowa w zadaniu, wynosi 8.</li><li>4 punkty – gdy wyznaczając liczbę doniczek wynik poda w postaci ułamka, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10000</mn><mn>1200</mn></mfrac></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>1,2</mn></mfrac></math>, i na tym zakończy lub dalej popełni błędy; <strong>lub</strong> popełni błąd rachunkowy w wyznaczaniu ilorazu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10000</mn><mn>1200</mn></mfrac></math>, ale poprawnie wyznaczy część całkowitą z otrzymanego wyniku; <strong>lub</strong> zastosuje poprawną metodę wyznaczania objętości prostopadłościanu, ale popełni błąd rachunkowy np. w wyznaczaniu iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>48</mn><mo>·</mo><mn>10</mn></math> i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie; <strong>lub</strong> popełni błąd rachunkowy w wyznaczaniu różnicy np. 7200 cm³ − 6000 cm³ i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie.</li><li>3 punkty – gdy poprawnie wyliczy ilość betonu potrzebną do produkcji jednej doniczki, równą np. 1200 cm³ = 1,2 dm³ = 0,0012 m³ = 1,2 l, i na tym zakończy lub dalej popełni błędy.</li><li>2 punkty – gdy poprawnie wyliczy objętość doniczki o zewnętrznych wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mtext> dm</mtext><mo>×</mo><mfrac><mn>12</mn><mn>25</mn></mfrac><mtext> m</mtext><mo>×</mo><mn>10</mn><mtext> cm</mtext></math> i zapisze objętość doniczki oraz objętość wody w tych samych jednostkach, np. V = 7200 cm³ i V<sub>wody</sub> = 6000 cm³, i na tym zakończy lub dalej popełni błędy.</li><li>1 punkt – gdy poprawnie wyliczy objętość doniczki o zewnętrznych wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mtext> dm</mtext><mo>×</mo><mfrac><mn>12</mn><mn>25</mn></mfrac><mtext> m</mtext><mo>×</mo><mn>10</mn><mtext> cm</mtext></math> i zapisze objętość doniczki równą np. V = 7200 cm³, i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> poprawnie zamieni objętość wody wyrażoną w litrach i zapisze np. V<sub>wody</sub> = 6000 cm³, i na tym zakończy lub dalej popełni błędy.</li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul><p>Uwaga! Nie odejmujemy punktów, jeśli uczestnik zapisując równania w rozwiązaniu zadania pominie jednostki – jednostki powinny być zapisane jedynie w odpowiedziach.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly",
+     "jednostki"
+    ],
+    "opis": "Wymiary są zewnętrzne, a 6 l to pojemność wnętrza; do tego bok dna podany w metrach jako ułamek"
+   }
+  }
+ ]
+}

@@ -1,0 +1,547 @@
+{
+ "konkurs": "X Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2025/2026",
+ "data": "2026-03-09",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 13,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2025-2026_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych mniejszych od 100, które przy dzieleniu przez 7 dają resztę 3? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukane liczby mają postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>k</mi><mo>+</mo><mn>3</mn></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>13</mn></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>13</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>94</mn></math>, a kolejna to już 101. Takich liczb jest 14.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "to liczby postaci 7k + 3 — sprawdź, dla jakich k wynik jest mniejszy od 100",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Najmniejsza taka liczba to sama 3 (iloraz 0), łatwo zacząć od 10"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Dodatnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> stanowi 30% dodatniej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> stanowi 33,3% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Iloraz sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>3</mn></mfrac></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,3</mn><mi>b</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>10</mn><mi>a</mi></mrow><mn>3</mn></mfrac></math>.</p><ul><li>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></math>, czyli 333,3%, a nie 33,3%.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mi>a</mi></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>3</mn></mfrac></math>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw wygodne liczby, np. b = 100",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji",
+     "procent-podstawa"
+    ],
+    "opis": "Zdanie 1 odwraca relację: jakim procentem a jest b, a nie b jakim procentem a"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Rozważamy wszystkie liczby naturalne czterocyfrowe.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wszystkich liczb naturalnych czterocyfrowych jest 9000."
+    },
+    {
+     "litera": "2",
+     "html": "Wszystkich liczb naturalnych czterocyfrowych, w których każda cyfra jest inna, jest 4536."
+    },
+    {
+     "litera": "3",
+     "html": "Jest 100 liczb naturalnych czterocyfrowych podzielnych przez 100."
+    },
+    {
+     "litera": "4",
+     "html": "Jest 10 liczb naturalnych czterocyfrowych, których iloczyn cyfr jest równy 4."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Liczb czterocyfrowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9999</mn><mo>−</mo><mn>999</mn><mo>=</mo><mn>9000</mn></math>.</li><li>Z różnymi cyframi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>4536</mn></math>.</li><li>Podzielnych przez 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>9900</mn><mo>−</mo><mn>1000</mn><mo>)</mo><mo>:</mo><mn>100</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>90</mn></math>, nie 100.</li><li>Iloczyn cyfr 4 tylko z cyfr 1, 2, 4: (4,1,1,1) i (2,2,1,1) dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></math> liczb.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Wielokrotności 100 wśród czterocyfrowych: 9000/100 albo okrągłe 100 zamiast liczenia od 1000 do 9900"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest liczbą naturalną dodatnią.</p><p>Dokończ zdanie.</p><p>W zapisie dziesiętnym w rzędzie jedności liczby będącej wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2026</mn></msup></math> nie może być cyfry</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba 2026 jest parzysta, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2026</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>1013</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></math> jest kwadratem liczby całkowitej. Kwadraty liczb całkowitych kończą się tylko na 0, 1, 4, 5, 6 lub 9 – cyfry 8 być nie może.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wykładnik jest parzysty, więc to kwadrat — przypomnij sobie, na jakie cyfry kończą się kwadraty",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W 2020 roku Ania była o 15 lat starsza od Kasi. W 2026 roku Ania jest dwa razy starsza od Kasi.</p><p>Dokończ zdanie.</p><p>Ania i Kasia będą miały razem 65 lat w roku</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2036."
+    },
+    {
+     "litera": "B",
+     "html": "2039."
+    },
+    {
+     "litera": "C",
+     "html": "2040."
+    },
+    {
+     "litera": "D",
+     "html": "2046."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Różnica wieku Ani i Kasi jest stała: 15 lat. W 2026 r. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>+</mo><mn>15</mn><mo>=</mo><mn>2</mn><mi>K</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>15</mn></math>, a Ania ma 30 lat – razem 45. Do 65 brakuje 20 lat, a suma ich wieku rośnie o 2 co rok, więc trzeba czekać 10 lat: rok 2036.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica wieku jest stała, a suma lat rośnie o 2 rocznie",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:suma-wiekow-rosnie-o-2"
+    ],
+    "opis": "Łączny wiek dwóch osób rośnie o 2 lata na każdy rok"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "procenty",
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>W koszu jest 160 piłeczek w trzech kolorach: żółtym, zielonym i czerwonym. Żółte piłeczki stanowią 40% wszystkich piłeczek. Zielone piłeczki stanowią 25% piłeczek żółtych.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W koszu jest 40 piłeczek zielonych."
+    },
+    {
+     "litera": "2",
+     "html": "Piłeczki czerwone stanowią połowę wszystkich piłeczek."
+    },
+    {
+     "litera": "3",
+     "html": "Prawdopodobieństwo wylosowania z tego kosza jednej piłeczki w kolorze innym niż zielony jest równe 0,9."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Żółtych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>160</mn><mo>=</mo><mn>64</mn></math>, więc zielonych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>16</mn></math>, nie 40.</li><li>Czerwonych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>64</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>80</mn></math>, czyli połowa wszystkich.</li><li>Prawdopodobieństwo niezielonej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>144</mn><mn>160</mn></mfrac><mo>=</mo><mn>0,9</mn></math>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz żółte, zielone to ćwierć żółtych, reszta jest czerwona",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Zielone to 25% żółtych, nie 25% wszystkich piłeczek; zdanie 1 podaje wynik od złej podstawy"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "mediana i dominanta",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia zestawu sześciu liczb: 6, 12, 3, 19, 4, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa 9.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa 9."
+    },
+    {
+     "litera": "2",
+     "html": "Mediana tego zestawu sześciu liczb jest równa 11."
+    },
+    {
+     "litera": "3",
+     "html": "Jeżeli do tego zestawu dopiszemy liczbę 13, to mediana wzrośnie o 2."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Suma szóstki liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>54</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>54</mn><mo>−</mo><mn>44</mn><mo>=</mo><mn>10</mn></math>, nie 9.</li><li>Po uporządkowaniu: 3, 4, 6, 10, 12, 19 – mediana <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>6</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>8</mn></math>, nie 11.</li><li>Po dopisaniu 13: 3, 4, 6, 10, 12, 13, 19 – środkowa liczba to 10, więc mediana wzrosła o 2.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze średniej odtwórz sumę i brakującą liczbę, potem ustaw liczby rosnąco",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Mediana wymaga uporządkowania liczb; wartość w zdaniu 2 to średnia środkowych z nieposortowanego zapisu"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Krótsza przekątna trapezu prostokątnego o wysokości 5 cm dzieli go na dwa prostokątne trójkąty równoramienne.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole tego trapezu wynosi 37,5 cm<sup>2</sup>."
+    },
+    {
+     "litera": "2",
+     "html": "Dłuższa przekątna tego trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>5</mn></msqrt></math> cm."
+    },
+    {
+     "litera": "3",
+     "html": "Suma obwodów powstałych trójkątów prostokątnych jest mniejsza niż 35 cm."
+    },
+    {
+     "litera": "4",
+     "html": "Kąt ostry trapezu ma miarę 45°."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wysokość i krótsza podstawa dają trójkąt prostokątny równoramienny: krótsza podstawa = 5 cm, przekątna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. To przyprostokątna drugiego takiego trójkąta, więc dłuższa podstawa = 10 cm.</p><ul><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>37,5</mn></math> cm².</li><li>Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math> cm.</li><li>Suma obwodów obu trójkątów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>+</mo><mn>15</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>41,2</mn></math> cm – więcej niż 35.</li><li>Kąt ostry trapezu (przy dłuższej podstawie) ma 45°.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na okręgu o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> i promieniu 10 cm, zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Odległość środka okręgu od cięciwy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa 6 cm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Długość tego okręgu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>π</mi></math> cm."
+    },
+    {
+     "litera": "2",
+     "html": "Cięciwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 8 cm."
+    },
+    {
+     "litera": "3",
+     "html": "Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math> jest równe 48 cm<sup>2</sup>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Długość okręgu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>·</mo><mi>π</mi><mo>=</mo><mn>20</mn><mi>π</mi></math> cm, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>π</mi></math>.</li><li>Połowa cięciwy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>8</mn></math>, więc AB=16 cm, nie 8.</li><li>Pole trójkąta AOB: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>48</mn></math> cm².</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "promień, odległość środka od cięciwy i połowa cięciwy tworzą trójkąt prostokątny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z trójkąta prostokątnego wychodzi połowa cięciwy; zdanie 1 myli długość okręgu z polem koła"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> jest jednym z wierzchołków kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> jest punktem przecięcia się przekątnych tego kwadratu.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeden z wierzchołków tego kwadratu ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód tego kwadratu jest równy 24."
+    },
+    {
+     "litera": "3",
+     "html": "Pole tego kwadratu jest równe 36."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wektor AS = (3, 3) ma równe współrzędne, więc boki kwadratu są równoległe do osi; bok = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn></math>. Wierzchołki: (−2±3, 1±3), czyli (−5,−2), (−5,4), (1,−2), (1,4).</p><ul><li>Nie ma wśród nich (4, −5).</li><li>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></math>.</li><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>36</mn></math>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odcinek AS to połowa przekątnej — z przekątnej wyliczysz bok i pole",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Pewien graniastosłup i ostrosłup mają po tyle samo wszystkich krawędzi. Graniastosłup ma 28 wierzchołków. Ile wierzchołków ma ostrosłup? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "14"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "21"
+    },
+    {
+     "litera": "D",
+     "html": "22"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>=</mo><mn>28</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>14</mn></math>, a krawędzi ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>42</mn></math>. Ostrosłup o tylu samo krawędziach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>m</mi><mo>=</mo><mn>42</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>21</mn></math>, a wierzchołków ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup n-kątny ma 2n wierzchołków i 3n krawędzi, ostrosłup m-kątny 2m krawędzi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Liczba wierzchołków ostrosłupa to wierzchołki podstawy plus wierzchołek główny"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Ostrosłup prawidłowy ma dokładnie 6 krawędzi, z których każda ma długość 6 cm.</p><p>Dokończ zdanie.</p><p>Pole powierzchni bocznej tego ostrosłupa wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>3</mn></msqrt></math> cm<sup>2</sup>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm<sup>2</sup>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><msqrt><mn>3</mn></msqrt></math> cm<sup>2</sup>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><msqrt><mn>3</mn></msqrt></math> cm<sup>2</sup>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>=</mo><mn>6</mn></math> krawędzi daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>3</mn></math> – podstawa trójkątna, a skoro wszystkie krawędzie mają 6 cm, ściany boczne to trójkąty równoboczne o boku 6. Jedna ściana: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math> cm². Pole boczne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal, jaką podstawę ma ostrosłup o 6 krawędziach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o pole powierzchni bocznej (3 ściany czworościanu), nie całkowitej"
+   }
+  },
+  {
+   "id": "wojewodzki_2025-2026_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Funkcja <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> opisana jest wzorem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą całkowitą.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Funkcja <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> każdej liczbie całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> przyporządkowuje jej kwadrat pomniejszony o 1."
+    },
+    {
+     "litera": "2",
+     "html": "Wartość funkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Wartości funkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> dla liczb przeciwnych są równe."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>To dokładnie definicja funkcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>3</mn></math>, nie −5.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>, więc wartości dla liczb przeciwnych są równe.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź wzór dla x = −2 i dla pary liczb przeciwnych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Kwadrat liczby ujemnej: (−2)² a nie −2²"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1067 @@
+{
+ "konkurs": "Konkurs przedmiotowy z matematyki dla uczniów szkół podstawowych (lubuskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "lubuskie",
+ "rok_szkolny": "2021/2022",
+ "data": "2022-04-09",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 28,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2022_lubuskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2022_lubuskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Hodowca egzotycznych ptaków zaobserwował, że 7 pomarańczowych papug zjada 7 kg ziarna w ciągu 7 dni, 5 niebieskich papug zjada 5 kg ziarna w ciągu 5 dni, a 3 zielone papugi zjadają 3 kg ziarna w ciągu 3 dni. Które papugi mają największy apetyt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Pomarańczowe."
+    },
+    {
+     "litera": "B",
+     "html": "Niebieskie."
+    },
+    {
+     "litera": "C",
+     "html": "Zielone."
+    },
+    {
+     "litera": "D",
+     "html": "Wszystkie mają jednakowy apetyt."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jedna papuga zjada dziennie: pomarańczowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mrow><mn>7</mn><mo>·</mo><mn>7</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></math> kg, niebieska <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> kg, zielona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> kg. Największa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, więc największy apetyt mają zielone papugi.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile ziarna zjada jedna papuga w ciągu jednego dnia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Układ 7-7-7, 5-5-5, 3-3-3 sugeruje jednakowy apetyt; trzeba policzyć zjedzone ziarno na papugę na dzień"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "geometria"
+   ],
+   "tresc_html": "<p>Ilona narysowała na płaszczyźnie trzy niewspółliniowe punkty. Ile jest na tej płaszczyźnie prostych, od których wszystkie te punkty są jednakowo odległe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla każdego boku trójkąta wyznaczonego przez te punkty prosta przechodząca przez środki dwóch pozostałych boków jest do niego równoległa i leży dokładnie w połowie drogi między nim a przeciwległym wierzchołkiem, więc jest jednakowo odległa od wszystkich trzech punktów. Takich prostych jest dokładnie tyle, ile boków trójkąta, czyli 3.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Łatwo znaleźć jedną prostą (równoległą do jednego boku) i nie zauważyć, że każdy bok daje swoją"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>Pan Karol jest wychowawcą klasy ósmej, w której jest 20 uczniów, w tym 8 dziewcząt. Wychowawca wybiera losowo uczniów z tej klasy do grupy organizującej Szkolny Dzień Matematyki. Ile osób musi wylosować pan Karol, aby mieć pewność, że w tej grupie znajdzie się co najmniej dwóch chłopców?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Co najmniej 10."
+    },
+    {
+     "litera": "B",
+     "html": "Dokładnie 8."
+    },
+    {
+     "litera": "C",
+     "html": "Co najwyżej 4."
+    },
+    {
+     "litera": "D",
+     "html": "Dokładnie 2."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W klasie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>12</mn></math> chłopców. W najgorszym razie pan Karol wylosuje najpierw wszystkie 8 dziewczynek i tylko 1 chłopca - to 9 osób z jednym chłopcem. Dopiero 10. wylosowana osoba musi być drugim chłopcem.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w najgorszym przypadku najpierw wylosują się same dziewczęta",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Który zapis przedstawia uproszczoną postać wyrażenia w ramce?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>−</mo><mi>b</mi><mo>]</mo><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>−</mo><mi>b</mi><mo>=</mo><mi>a</mi></math> - to zawartość nawiasu kwadratowego, a cały nawias ze znakiem minus daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi></math>. Całe wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mo>−</mo><mi>a</mi><mo>+</mo><mi>a</mi><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "opuszczaj nawiasy od środka, po jednym minusie naraz",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie"
+   ],
+   "tresc_html": "<p>Ile jest figur środkowosymetrycznych wśród wymienionych: pięciokąt foremny, trapez równoramienny, romb, dziesięciokąt foremny, odcinek, kąt, półkole?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek symetrii mają: romb, dziesięciokąt foremny (parzysta liczba boków) oraz odcinek (środkiem symetrii jest jego środek). Pięciokąt foremny (nieparzysta liczba boków), trapez równoramienny, kąt i półkole środka symetrii nie mają. Razem 3 figury.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdzaj po kolei, którą figurę obrót o 180° nakłada na siebie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Pięciokąt foremny i trapez równoramienny mają oś symetrii, ale nie środek symetrii"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Jaka jest wysokość drzewa? Na rysunku obok znajdziesz potrzebne informacje.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6 m"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> m"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math> m"
+    },
+    {
+     "litera": "D",
+     "html": "9 m"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q6_fig1.png"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> będzie odległością obserwatora od pnia. Z trójkąta do wysokości 3 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mfrac><mn>3</mn><mrow><mi>tg</mi><mn>30°</mn></mrow></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math> m. Kąt do wierzchołka drzewa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30°</mn><mo>+</mo><mn>30°</mn><mo>=</mo><mn>60°</mn></math>, więc wysokość drzewa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>d</mi><mo>·</mo><mi>tg</mi><mn>60°</mn><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oba kąty 30° się dodają, więc do czubka jest 60° — dwa trójkąty o wspólnej podstawie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "rysunek"
+    ],
+    "opis": "Dwa kąty po 30° nie dają podwójnej wysokości: wysokość nie rośnie proporcjonalnie do kąta"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym jeden z kątów ma miarę 60°. Stosunek długości obwodu tego trójkąta do długości jego przeciwprostokątnej wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>1</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąty trójkąta to 30°, 60°, 90°, więc przy przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> boki mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>3</mn></msqrt></math>. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>, więc stosunek obwodu do przeciwprostokątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij przeciwprostokątną równą 2 i wypisz boki trójkąta 30-60-90",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Objętość Oceanu Spokojnego jest równa około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,1</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³, Oceanu Indyjskiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,28</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> km³, a Oceanu Atlantyckiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>350</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³. Łączna objętość tych trzech oceanów, zapisana w notacji wykładniczej, to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>359,9</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5738</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> km³"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>357,38</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,599</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></math> km³"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zapisujemy wszystkie objętości jako wielokrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>8</mn></msup></math> km³: Ocean Indyjski to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,28</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>2,8</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math>, Atlantycki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>350</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>7,1</mn><mo>+</mo><mn>2,8</mn><mo>+</mo><mn>350</mn><mo>)</mo><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup><mo>=</mo><mn>359,9</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup><mo>=</mo><mn>3,599</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></math> km³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie objętości do tej samej potęgi 10, dopiero potem dodawaj",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Wariant z poprawną wartością nie jest zapisany w notacji wykładniczej (mantysa ≥ 10)"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Woda morska zawiera 6,5% soli. Ile słodkiej wody należy dolać do 60 litrów wody morskiej, żeby zawartość soli zmalała do 3%?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "70 litrów."
+    },
+    {
+     "litera": "B",
+     "html": "1,24 hektolitrów."
+    },
+    {
+     "litera": "C",
+     "html": "7 hektolitrów."
+    },
+    {
+     "litera": "D",
+     "html": "1240 litrów."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ilość soli w wodzie morskiej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,065</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>3,9</mn></math> kg. Po dolaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> litrów słodkiej wody stężenie ma wynosić 3%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3,9</mn><mrow><mn>60</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0,03</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>130</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>70</mn></math> litrów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "soli nie ubywa — policz jej ilość i sprawdź, w jakiej objętości daje 3%",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Pokazaną na rysunku bryłę Paweł otrzymał w następujący sposób: do każdej ściany prostopadłościanu o wymiarach 3 cm x 6 cm x 4 cm dokleił ostrosłup czworokątny o wysokości 8 cm. Objętość tej bryły jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "288 cm³"
+    },
+    {
+     "litera": "B",
+     "html": "360 cm³"
+    },
+    {
+     "litera": "C",
+     "html": "864 cm³"
+    },
+    {
+     "litera": "D",
+     "html": "936 cm³"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość prostopadłościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>72</mn></math> cm³. Suma pól jego 6 ścian (podstaw ostrosłupów) to jego pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>18</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>24</mn><mo>)</mo><mo>=</mo><mn>108</mn></math> cm². Łączna objętość doklejonych ostrosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>108</mn><mo>=</mo><mn>288</mn></math> cm³. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>+</mo><mn>288</mn><mo>=</mo><mn>360</mn></math> cm³.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast sześciu ostrosłupów osobno: ⅓ wysokości razy łączne pole ścian, plus sam prostopadłościan",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Na zajęciach koła matematycznego uczniowie przedstawili liczbę 3795 w postaci iloczynu dwóch liczb dwucyfrowych. Jaka jest suma liczb dwucyfrowych w tym iloczynie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "124"
+    },
+    {
+     "litera": "B",
+     "html": "134"
+    },
+    {
+     "litera": "C",
+     "html": "144"
+    },
+    {
+     "litera": "D",
+     "html": "154"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3795</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>11</mn><mo>·</mo><mn>23</mn></math>. Jedyne pogrupowanie dające dwie liczby dwucyfrowe to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>·</mo><mn>23</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>5</mn><mo>·</mo><mn>11</mn><mo>)</mo><mo>=</mo><mn>69</mn><mo>·</mo><mn>55</mn></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>69</mn><mo>+</mo><mn>55</mn><mo>=</mo><mn>124</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż 3795 na czynniki pierwsze i połącz je w dwie liczby dwucyfrowe",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Dwie topole o wysokościach 8 m i 15 m rosną w odległości 24 m od siebie. Jaka jest odległość między ich wierzchołkami?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "31 m"
+    },
+    {
+     "litera": "B",
+     "html": "25 m"
+    },
+    {
+     "litera": "C",
+     "html": "24 m"
+    },
+    {
+     "litera": "D",
+     "html": "7 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Różnica wysokości topoli to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>7</mn></math> m. Odległość wierzchołków z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>24</mn><mn>2</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>625</mn></msqrt><mo>=</mo><mn>25</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica wysokości i odstęp to przyprostokątne — rozpoznaj trójkę pitagorejską",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Blog kulinarny U Marty podaje informację, że aby uzyskać 1 kg suszonych moreli, należy zużyć 3 kg moreli świeżych. Po wysuszeniu morele powinny mieć 22% zawartości wody. Jaka jest procentowa zawartość wody w świeżych morelach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "83,(3)%"
+    },
+    {
+     "litera": "B",
+     "html": "74%"
+    },
+    {
+     "litera": "C",
+     "html": "66,(6)%"
+    },
+    {
+     "litera": "D",
+     "html": "66%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suszone morele mają 78% suchej masy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,78</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>0,78</mn></math> kg. Tyle samo suchej masy było w 3 kg świeżych moreli, więc wody było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mn>0,78</mn><mo>=</mo><mn>2,22</mn></math> kg, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2,22</mn><mn>3</mn></mfrac><mo>=</mo><mn>0,74</mn></math>, czyli 74%.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sucha masa się nie zmienia — policz ją w kilogramie suszonych i odnieś do 3 kg świeżych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Suszone morele nadal zawierają 22% wody; stała jest tylko sucha masa"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "sześciokąty foremne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Krótsza przekątna sześciokąta foremnego ma długość 4 cm. Jakie jest pole tego sześciokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "C",
+     "html": "8 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok sześciokąta spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>16</mn><mn>3</mn></mfrac></math>. Pole sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>16</mn><mn>3</mn></mfrac><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "krótsza przekątna to a√3, a sześciokąt to sześć trójkątów równobocznych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Krótsza przekątna to nie średnica sześciokąta (dłuższa = 2a); trzeba wiedzieć, która jest którą"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzrost wykładniczy"
+   ],
+   "tresc_html": "<p>Każdego roku na gałązce świerku wyrastają z jednego pąka 3 nowe pędy zakończone pąkiem. Ile pąków będzie miała po siedmiu latach świerkowa gałązka, która wyrosła z jednego pąka?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>7</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>7</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba pąków mnoży się przez 3 co roku (z każdego pąka wyrastają 3 nowe pędy zakończone pąkiem). Po siedmiu latach jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>7</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "co roku liczba pąków mnoży się przez 3",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Zosia rzuca jednocześnie dwiema sześciennymi kostkami do gry i dodaje liczby oczek, które wypadną. Prawdopodobieństwo, że otrzymana suma jest liczbą pierwszą, wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>11</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>18</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sumy pierwsze przy rzucie dwiema kostkami to 2, 3, 5, 7, 11 - dają je odpowiednio 1, 2, 4, 6, 2 spośród 36 par wyników, razem 15. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>36</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz sumy pierwsze i policz, na ile sposobów każda może wypaść",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "zbior-liczb"
+    ],
+    "opis": "Sumy oczek nie są jednakowo prawdopodobne; ponadto 2 też jest liczbą pierwszą"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty"
+   ],
+   "tresc_html": "<p>Proste k i l są równoległe. Kąt DAE zaznaczony na poniższym rysunku</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "jest prosty."
+    },
+    {
+     "litera": "B",
+     "html": "jest ostry."
+    },
+    {
+     "litera": "C",
+     "html": "jest rozwarty."
+    },
+    {
+     "litera": "D",
+     "html": "jest wklęsły."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech C będzie punktem przecięcia prostej k z poziomą przechodzącą przez A. Kąt ABC (wierzchołkowy do zaznaczonych 42°) wynosi 42°, a kąt BAC (dany) 47°, więc kąt zewnętrzny trójkąta ABC przy wierzchołku C wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42°</mn><mo>+</mo><mn>47°</mn><mo>=</mo><mn>89°</mn></math>. Z równoległości k i l ten kąt odpowiada kątowi DAE. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>89°</mn><mo>&lt;</mo><mn>90°</mn></math>, kąt DAE jest ostry.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przenieś kąt 42° z prostej k na l i dodaj do 47° — rysunek jest mylący",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek"
+    ],
+    "opis": "Kąt na rysunku wygląda na prosty, a prostopadłość nie jest dana; trzeba policzyć z kątów"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Dane są trzy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><msup><mn>3</mn><mn>3</mn></msup></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>33</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2022</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math>. Jeśli największą z nich podzielisz przez najmniejszą z nich, to iloraz będzie równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2022"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>18</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>24</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zapisujemy potęgi z tą samą podstawą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><msup><mn>3</mn><mn>3</mn></msup></msup><mo>=</mo><msup><mn>2022</mn><mn>27</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>33</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2022</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mn>2022</mn><mn>9</mn></msup></math>. Największa ma wykładnik 33, najmniejsza 9, więc iloraz to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mrow><mn>33</mn><mo>−</mo><mn>9</mn></mrow></msup><mo>=</mo><msup><mn>2022</mn><mn>24</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj same wykładniki: 3³, 33 i 3·3",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Wieża potęg 3 do 3 wygląda na większy wykładnik niż 33, a daje tylko 27"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Jaka jest najmniejsza liczba prostopadłościennych klocków o wymiarach 1 cm x 2 cm x 6 cm, z których można ułożyć sześcian?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "144"
+    },
+    {
+     "litera": "B",
+     "html": "36"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok sześcianu musi być wspólną wielokrotnością 1, 2 i 6, więc najmniejszy możliwy to 6 cm. Objętość sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>216</mn></math> cm³, objętość klocka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></math> cm³. Liczba klocków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>216</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>18</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "znajdź najmniejszą krawędź sześcianu pasującą do wymiarów klocka, potem podziel objętości",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q20",
+   "numer": 20,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Natalia narysowała trzy graniastosłupy: I. i II. o podstawie prostokąta, III. o podstawie trapezu. Bryły te mają równe pola podstaw oraz jednakowe objętości. Natalia oznaczyła pola powierzchni bocznych odpowiednio: P<sub>I</sub>, P<sub>II</sub>, P<sub>III</sub>. Które uporządkowanie pól powierzchni bocznych tych brył w kolejności rosnącej jest właściwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>I</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>II</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>III</mi></msub></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>II</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>I</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>III</mi></msub></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>III</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>II</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>I</mi></msub></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>II</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>III</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>I</mi></msub></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q20_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pola podstaw i objętości brył są równe, więc równe są też ich wysokości (objętość = pole podstawy razy wysokość), a o kolejności pól bocznych decyduje więc obwód podstawy. Obwód I: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>12</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>30</mn></math>. Obwód II: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>9</mn><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>26</mn></math>. Trapez III ma ramiona 5, podstawy 6 i 12, więc jego wysokość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn></math>, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>+</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>36</mn></math> (tyle samo co pola I i II). Obwód III: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>28</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>&lt;</mo><mn>28</mn><mo>&lt;</mo><mn>30</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>II</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>III</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>I</mi></msub></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "równe pola podstaw i równe objętości dają równe wysokości — porównuj same obwody podstaw",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q21",
+   "numer": 21,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokąt o bokach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></math> został podzielony odcinkami na cztery mniejsze prostokąty tak, jak pokazano na rysunku. W oparciu o te dane oceń, czy informacje dotyczące zacieniowanego prostokąta są prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Obwód zacieniowanego prostokąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>16</mn></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Pole zacieniowanego prostokąta można opisać wyrażeniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q21_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Szerokość zacieniowanego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn></math>, wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>16</mn></math> - zgadza się ze zdaniem.</li><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>)</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo></math> - też się zgadza.</li></ul>",
+    "punktacja_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 2 punkty.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q22",
+   "numer": 22,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "symetrie",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Antek narysował kwadrat i wykreślił jego przekątne (co pokazuje rysunek). Czy poniższe zdania są prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Gdyby Antek usunął tylko odcinek AD, to powstałaby figura niemająca osi symetrii."
+    },
+    {
+     "litera": "2",
+     "html": "Gdyby Antek usunął tylko odcinek AC, to powstałaby figura mająca środek symetrii."
+    },
+    {
+     "litera": "3",
+     "html": "Gdyby Antek usunął jednocześnie odcinki AB i DC, to powstałaby figura mająca środek symetrii, ale niemająca osi symetrii."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_lubuskie_q22_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Bez AD zostaje oś symetrii - pozioma prosta przez środki AD i BC (boki i przekątne zamieniają się parami, a brakujący bok jest z nią symetryczny sam ze sobą) - zdanie fałszywe.</li><li>Bez AC punkt przecięcia przekątnych pozostaje środkiem symetrii (BD przechodzi w siebie, AB w CD, BC w DA) - zdanie prawdziwe.</li><li>Bez AB i DC figura (boki AD, BC i obie przekątne) ma oprócz środka symetrii także osie symetrii - poziomą i pionową, więc nieprawda, że osi nie ma - zdanie fałszywe.</li></ul>",
+    "punktacja_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 3 punkty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy każdym zdaniu sprawdź obrót o 180° i odbicia w osiach kwadratu",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Po usunięciu boku figura dalej ma oś przez środki dwóch przeciwległych boków"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q23",
+   "numer": 23,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Oceń, czy opisane niżej sytuacje dotyczące koła i okręgów są prawdziwe. Przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mn>3,14</mn></math>.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W ogrodzie pana Wesołego znajduje się oczko wodne w kształcie koła o polu równym 25 m². Wynika stąd, że średnica tego oczka ma mniej niż 5 m."
+    },
+    {
+     "litera": "2",
+     "html": "Drutu o długości 60 cm wystarczy na wykonanie dwóch obręczy, z których jedna ma promień 3 cm, a druga ma średnicę 12 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Z pola koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>25</mn><mn>3,14</mn></mfrac><mo>≈</mo><mn>7,96</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>≈</mo><mn>2,82</mn></math> m, a średnica ok. 5,64 m - to więcej niż 5 m, zdanie fałszywe.</li><li>Obwody obręczy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3,14</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>18,84</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3,14</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>37,68</mn></math> cm, razem 56,52 cm, czyli mniej niż 60 cm - drutu wystarczy, zdanie prawdziwe.</li></ul>",
+    "punktacja_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 2 punkty.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast pierwiastkować, policz pole koła o średnicy 5 m; w drugim zdaniu dodaj średnice",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z pola wychodzi promień, a zdanie mówi o średnicy; w drugim zdaniu jedna obręcz ma podaną średnicę"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Rybacy z trzech kutrów o nazwach Brygida, Marianna i Felicja złowili razem 113 ryb. Każdy rybak z kutra Brygida złowił 13 ryb, każdy rybak z kutra Marianna złowił 5 ryb, a każdy rybak z kutra Felicja złowił 4 ryby. Wiedząc, że razem było 16 rybaków, oblicz, ilu było rybaków na każdym z trzech kutrów. Wpisz wyniki do poniższej tabeli.</p><table><tr><th>Nazwa kutra rybackiego</th><th>Liczba rybaków</th></tr><tr><td>Brygida</td><td>…………</td></tr><tr><td>Marianna</td><td>…………</td></tr><tr><td>Felicja</td><td>…………</td></tr></table>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Brygida – 5, Marianna – 4, Felicja – 7",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Gdyby każdy rybak złowił po 4 ryby, razem byłoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>64</mn></math> ryb. Brakuje jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>113</mn><mo>−</mo><mn>64</mn><mo>=</mo><mn>49</mn></math> ryb, a rybak z Brygidy łowi o 9 więcej niż ta baza, z Marianny o 1 więcej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>b</mi><mo>+</mo><mi>m</mi><mo>=</mo><mn>49</mn></math>. Jedyne rozwiązanie w liczbach naturalnych spełniające <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>m</mi><mo>≤</mo><mn>16</mn></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>4</mn></math>, stąd rybaków na Felicji było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>7</mn></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie za uzupełnienie każdego wiersza tabeli. Razem: 3 punkty.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przyjmij, że każdy złowił po 4 ryby, i rozdziel nadwyżkę",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q25",
+   "numer": 25,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Do narysowania pewnego wielokąta wypukłego z jego wszystkimi przekątnymi Wiktoria potrzebowała 45 odcinków.</p><p>Wielokąt ten ma ………… boków. Wielokąt ten ma ………… przekątnych.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "10 boków; 35 przekątnych",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba wszystkich odcinków (boków i przekątnych) w n-kącie wypukłym to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>45</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>90</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>10</mn></math>. Przekątnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>35</mn></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie za uzupełnienie każdej luki. Razem: 2 punkty.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "odcinki to wszystkie pary wierzchołków — boki i przekątne razem",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q26",
+   "numer": 26,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "prawdopodobieństwo",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Paweł losuje jedną liczbę spośród stu liczb naturalnych od 0 do 99. Odpowiedz na poniższe pytania.</p><p>a) Jakie jest prawdopodobieństwo wylosowania przez Pawła liczby nieparzystej? …………</p><p>b) Jakie jest prawdopodobieństwo wylosowania przez Pawła liczby, która przy dzieleniu przez 5 daje resztę 1? …………</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 1/2 (50%; 0,5); b) 1/5 (20%; 0,2)",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>a) Wśród liczb od 0 do 99 dokładnie połowa jest nieparzysta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.<br>b) Resztę 1 z dzielenia przez 5 dają liczby 1, 6, 11, …, 96 - jest ich 20, więc prawdopodobieństwo to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>100</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie za podanie każdego poprawnego wyniku. Razem: 2 punkty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wśród stu kolejnych liczb reszty z dzielenia rozkładają się równo",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q27",
+   "numer": 27,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "dowodzenie / dowody",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Z dwucyfrowej liczby a Mateusz utworzył dwie liczby. Pierwszą liczbę otrzymał przez dopisanie do liczby a cyfry 1 na początku, drugą przez dopisanie do liczby a cyfry 1 na końcu. Czy iloczyn otrzymanych przez niego liczb pomniejszony o liczbę a jest podzielny przez 10? Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Tak, iloczyn pomniejszony o liczbę a jest podzielny przez 10.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pierwsza liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>+</mo><mi>a</mi></math>, a druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>1</mn></math>. Iloczyn tych liczb pomniejszony o liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>+</mo><mi>a</mi><mo>)</mo><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mi>a</mi><mo>=</mo><mn>1000</mn><mi>a</mi><mo>+</mo><mn>100</mn><mo>+</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1000</mn><mi>a</mi><mo>+</mo><mn>100</mn><mo>+</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>10</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>100</mn><mi>a</mi><mo>+</mo><mn>10</mn><mo>)</mo></math>.</p><p>Otrzymane wyrażenie jest iloczynem liczby 10 i liczby naturalnej, a więc iloczyn otrzymanych liczb pomniejszony o liczbę a jest podzielny przez 10.</p>",
+    "punktacja_html": "<ul><li>1 pkt – zapisanie obu liczb w postaci wyrażeń algebraicznych</li><li>1 pkt – zapisanie iloczynu liczb pomniejszonego o liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz doprowadzenie zapisu do najprostszej postaci</li><li>1 pkt – uzasadnienie podzielności przez 10 (wyłączenie wspólnego czynnika przed nawias)</li></ul><p>Razem: 3 punkty.</p><p>Uwaga! Za sprawdzenie warunków zadania tylko dla konkretnej liczby dwucyfrowej „a” i wyciągnięcie na tej podstawie wniosku dotyczącego podzielności przez 10, uczeń może otrzymać maksymalnie 1 punkt.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lubuskie_q28",
+   "numer": 28,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Na pytanie ile ma lat, pani Karolina odpowiada: <em>Mam 4 razy więcej lat niż miała moja siostra wtedy, gdy była 2 razy młodsza ode mnie. Razem mamy 70 lat.</em> Ile lat ma obecnie pani Karolina?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "40 lat",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy obecny wiek pani Karoliny przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>; wtedy siostra ma teraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>−</mo><mi>x</mi></math> lat. Gdy siostra była dwa razy młodsza od pani Karoliny, pani Karolina miała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac></math> lat, a siostra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>4</mn></mfrac></math> lat. Ponieważ od tamtej chwili upłynęło tyle samo czasu dla obu osób, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mn>70</mn><mo>−</mo><mi>x</mi><mo>−</mo><mfrac><mi>x</mi><mn>4</mn></mfrac></math>. Rozwiązując je, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math>. Odp.: Pani Karolina ma 40 lat.</p>",
+    "punktacja_html": "<ul><li>1 pkt – metoda rozwiązania (np. ułożenie równania z wymaganym opisem niewiadomej)</li><li>1 pkt – poprawność rachunkowa</li><li>1 pkt – zapisanie odpowiedzi</li></ul><p>Razem: 3 punkty.</p><p>Uwaga! W rozwiązaniu metodą „prób i błędów” uczeń powinien sprawdzić warunki zadania na co najmniej dwóch próbach.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kierunek-relacji",
+     "o-co-pytaja"
+    ],
+    "opis": "„2 razy młodsza ode mnie” odnosi się do wieku Karoliny WTEDY, nie teraz"
+   }
+  }
+ ]
+}

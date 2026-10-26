@@ -1,0 +1,576 @@
+{
+ "konkurs": "VII Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2023-01-19",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 32,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2022-2023_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Suma pięciu liczb naturalnych dwucyfrowych, wśród których nie ma dwóch jednakowych liczb, jest równa 484.</p><p><strong>Ile jest równa suma cyfr najmniejszej z tych liczb? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cztery pozostałe liczby (różne, dwucyfrowe) mogą sumować się do co najwyżej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>+</mo><mn>98</mn><mo>+</mo><mn>97</mn><mo>+</mo><mn>96</mn><mo>=</mo><mn>390</mn></math>, więc najmniejsza liczba jest nie mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>484</mn><mo>−</mo><mn>390</mn><mo>=</mo><mn>94</mn></math>. Gdyby była nie mniejsza niż 95, wszystkie pięć musiałyby pochodzić ze zbioru {95,...,99}, a ich suma wynosiłaby 485. Zatem najmniejsza liczba to 94 (np. 94+96+97+98+99=484), a suma jej cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>13</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz największą możliwą sumę pięciu różnych liczb dwucyfrowych i sprawdź, ile jej brakuje do 484",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Liczby sfeniczne to liczby naturalne, które są iloczynem trzech różnych liczb pierwszych. Na przykład liczba <strong>70</strong> jest liczbą sfeniczną, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></math>.</p><p><strong>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba 171 jest liczbą sfeniczną."
+    },
+    {
+     "litera": "2",
+     "html": "Najmniejszą liczbą sfeniczną jest liczba 30."
+    },
+    {
+     "litera": "3",
+     "html": "Każda liczba sfeniczna ma dokładnie 8 różnych dzielników."
+    },
+    {
+     "litera": "4",
+     "html": "Iloczyn dwóch liczb sfenicznych jest liczbą sfeniczną."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>171</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>19</mn></math> — powtórzony czynnik pierwszy, więc 171 nie jest sfeniczna (F). Najmniejsza liczba sfeniczna to iloczyn trzech najmniejszych liczb pierwszych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></math> (P). Dla iloczynu trzech różnych liczb pierwszych liczba dzielników wynosi zawsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math> (P). Iloczyn dwóch liczb sfenicznych ma sześć czynników pierwszych (z powtórzeniami), więc sam nie jest sfeniczny (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż 171 na czynniki pierwsze, a dzielniki policz dla ogólnego iloczynu p·q·r",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "171 to iloczyn trzech liczb pierwszych, ale nie trzech RÓŻNYCH"
+   }
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><msup><mn>10</mn><mn>12</mn></msup><mo>−</mo><mn>6</mn></math>.</p><p><strong>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W zapisie dziesiętnym liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> ma 13 cyfr."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest liczbą podzielną przez 4."
+    },
+    {
+     "litera": "3",
+     "html": "Połowa liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>6</mn></msup><mo>−</mo><mn>3</mn></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>999999999994</mn></math> ma 12 cyfr, a nie 13 (F). Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>12</mn></msup></math> dzieli się przez 4, a 6 nie, więc ich różnica nie dzieli się przez 4 (F). Połowa liczby m to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup><mo>−</mo><mn>3</mn></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>6</mn></msup><mo>−</mo><mn>3</mn></math> (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz 10¹²−6 w postaci dziesiętnej i przyjrzyj się liczbie cyfr oraz dwóm ostatnim",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "10^12 ma 13 cyfr, ale po odjęciu 6 liczba traci jedną cyfrę"
+   }
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne",
+    "ułamki"
+   ],
+   "tresc_html": "<p><strong>Dokończ zdanie. Wybierz odpowiedź spośród podanych.</strong></p><p>Pomiędzy liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo></math> znajdują się liczby</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>,</mo><mo>−</mo><mn>0,25</mn><mo>,</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>,</mo><mo>−</mo><mn>0,25</mn><mo>,</mo><mo>−</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>,</mo><mo>−</mo><mn>0,2</mn><mo>,</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mo>−</mo><mn>0,2</mn><mo>,</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>, szukane liczby leżą w przedziale (−0,333; −0,111). Pasują do niego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>≈</mo><mo>−</mo><mn>0,143</mn></math>, −0,25 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>≈</mo><mo>−</mo><mn>0,167</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień oba ułamki okresowe na zwykłe i sprawdzaj, czy liczby leżą ściśle między nimi",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest większa od 1. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 50% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest o 50% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest o 50% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest o 125% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></math> mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Suma liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równa iloczynowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>·</mo><mi>a</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>1,5</mn><mi>a</mi><mo>,</mo><mi>c</mi><mo>=</mo><mn>2,25</mn><mi>a</mi><mo>,</mo><mi>d</mi><mo>=</mo><mn>3,375</mn><mi>a</mi></math>. Liczba c jest o 125% większa od a, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,25</mn><mi>a</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>1,25</mn><mi>a</mi></math> (P). Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>2,375</mn><mi>a</mi></math> zależy od a, więc nie może być stałą liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></math> (F). Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>7,125</mn><mi>a</mi><mo>=</mo><mn>7</mn><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>a</mi></math> (P).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź b, c i d jako wielokrotności a; w zdaniu 2 chodzi o różnicę, nie o krotność",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "„a jest o … mniejsza od d” – porównuje się z d, nie z a; różnicę trzeba odnieść do d"
+   }
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dłuższy bok równoległoboku o obwodzie 8,4 cm ma długość 22 mm, a wysokość opuszczona na krótszy bok ma 11 mm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole tego równoległoboku wynosi 220 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>mm</mtext><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Długość drugiej wysokości to 1 cm."
+    },
+    {
+     "litera": "3",
+     "html": "Kąt rozwarty tego równoległoboku ma 150°."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>84</mn></math> mm i dłuższego boku 22 mm: krótszy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>−</mo><mn>22</mn><mo>=</mo><mn>20</mn></math> mm. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>220</mn></math> mm² (P). Druga wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>220</mn><mo>:</mo><mn>22</mn><mo>=</mo><mn>10</mn></math> mm, czyli 1 cm (P). W trójkącie prostokątnym z przyprostokątną 11 mm i przeciwprostokątną 22 mm przyprostokątna jest połową przeciwprostokątnej, więc kąt ostry ma 30°, a kąt rozwarty równoległoboku to 150° (P).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz obwód na milimetry, a wysokość równą połowie boku potraktuj jako trop do kąta",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Wysokość jest opuszczona na krótszy bok, a podany jest dłuższy; do tego dane w cm i mm"
+   }
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jeden z kątów ma miarę 120°. Podstawa tego trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>6</mn></msqrt></math>.</p><p><strong>Ile jest równe pole tego trójkąta? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><msqrt><mn>2</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt między ramionami wynosi 120°, więc kąty przy podstawie mają po 30°. Wysokość opuszczona na podstawę dzieli trójkąt na dwa trójkąty 30-60-90, w których połowa podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>6</mn></msqrt></math> leży naprzeciw kąta 60°, a wysokość h naprzeciw kąta 30°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>72</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym o obwodzie 150 cm przyprostokątne są w stosunku 5:12.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma długości przyprostokątnych wynosi 85 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Pole tego trójkąta wynosi 750 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Wysokość opuszczona na przeciwprostokątną jest nie mniejsza niż 25 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyprostokątne są w stosunku 5:12:13 (trójka pitagorejska), więc z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mi>k</mi><mo>=</mo><mn>150</mn></math> mamy k=5: przyprostokątne 25 cm i 60 cm, przeciwprostokątna 65 cm. Suma przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>85</mn></math> cm (P). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>25</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>750</mn></math> cm² (P). Wysokość na przeciwprostokątną: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mo>·</mo><mn>60</mn></mrow><mn>65</mn></mfrac><mo>≈</mo><mn>23,08</mn></math> cm — mniej niż 25 cm (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozpoznaj trójkę 5:12:13 i podziel obwód na 30 części",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "wielokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W pięciokącie foremnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> poprowadzono przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>. Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> przecięły się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASE</mi></math> ma miarę taką samą jak kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEA</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Stosunek miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> do miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CSE</mi></math> jest równy 1:3."
+    },
+    {
+     "litera": "3",
+     "html": "Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDES</mi></math> jest rombem."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2022-2023_swietokrzyskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W pięciokącie foremnym przekątne z każdego wierzchołka dzielą jego kąt 108° na trzy części po 36°. W trójkącie ABS kąty przy A i B mają po 36°, więc kąt ASB=108°, a przyległy do niego wzdłuż BE kąt ASE = 180°−108°=72°. Kąt CEA = kąt AEB + kąt BEC = 36°+36°=72° — równy kątowi ASE (P). Kąt DCE = 36°, a kąt CSE = 180°−72°=108°; stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>108</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>3</mn></math> (P). CD=DE jako boki pięciokąta, a w trójkącie CSE kąty przy C i E mają po 36°, więc CS=ES; z podziału przekątnej przez drugą przekątną wynika CS=ES=bok pięciokąta, więc wszystkie boki CDES są równe — to romb (P).</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokąt P, którego boki wyrażały się liczbami naturalnymi, rozcięto na trzy kwadraty.</p><p><strong>Dokończ zdanie. Prostokąt P <u>nie mógł</u> mieć pola równego:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "48"
+    },
+    {
+     "litera": "B",
+     "html": "75"
+    },
+    {
+     "litera": "C",
+     "html": "96"
+    },
+    {
+     "litera": "D",
+     "html": "126"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozcięcie prostokąta na 3 kwadraty o bokach naturalnych ma tylko dwa układy: trzy równe kwadraty w rzędzie (pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>s</mi><mn>2</mn></msup></math>) albo jeden kwadrat i dwa dwukrotnie mniejsze obok niego (pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>b</mi><mn>2</mn></msup></math>). Osiągalne są: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>48</mn><mo>,</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>75</mn><mo>,</mo><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>96</mn></math>. Dla 126: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>42</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>21</mn></math> nie są kwadratami liczb naturalnych, więc pole 126 jest niemożliwe.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprawdź, jakie w ogóle układy trzech kwadratów dają prostokąt, i jaki wzór na pole z nich wynika",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "wzory skróconego mnożenia",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole kwadratu K jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole kwadratu, którego bok jest o 5 dłuższy od boku kwadratu K jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>25</mn></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód kwadratu o boku trzykrotnie krótszym od boku kwadratu K jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo><mi>k</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Przekątna kwadratu o boku o 30% dłuższym od boku kwadratu K jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><msqrt><mn>3</mn></msqrt></mrow><mn>10</mn></mfrac><mi>k</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat o boku k+5 ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>k</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>k</mi><mo>+</mo><mn>25</mn></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>25</mn></math> (F). Obwód kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>k</mi><mn>3</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mi>k</mi><mn>3</mn></mfrac><mo>=</mo><mn>1</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo><mi>k</mi></math> (P). Przekątna kwadratu o boku 1,3k to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mi>k</mi><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>13</mn><msqrt><mn>2</mn></msqrt></mrow><mn>10</mn></mfrac><mi>k</mi></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><msqrt><mn>3</mn></msqrt></mrow><mn>10</mn></mfrac><mi>k</mi></math> (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "użyj wzoru na (k+5)² i pamiętaj, że przekątna kwadratu to bok·√2",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math> są dwoma wierzchołkami prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> jest punktem przecięcia się jego przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>5</mn></msqrt></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Pole czworokąta, którego wierzchołkami są środki boków prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równe 20."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>S jest środkiem obu przekątnych, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>, a nie (3,−5) (F). Bok AB ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>, a bok BC <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>20</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt></math> (P). Czworokąt ze środków boków to romb o przekątnych równych bokom prostokąta, pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>·</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>20</mn></math> (P).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>W tabeli zamieszczono wyniki międzyszkolnego turnieju piłkarskiego, w którym uczestniczyły cztery drużyny: A, B, C, D. Każda drużyna grała tylko jeden mecz z każdą z pozostałych drużyn. Za zwycięstwo przyznawano 3 punkty, za remis 1 punkt, za porażkę 0 punktów. W przypadku, gdy kilka drużyn uzyskało największą, jednakową łączną liczbę punktów, wygrywała ta drużyna, która zdobyła więcej goli.</p><table><thead><tr><th>Drużyny</th><th>Wynik meczu</th></tr></thead><tbody><tr><td>Drużyna A: Drużyna B</td><td>0:1</td></tr><tr><td>Drużyna B: Drużyna C</td><td>0:3</td></tr><tr><td>Drużyna C: Drużyna D</td><td>2:0</td></tr><tr><td>Drużyna D: Drużyna A</td><td>0:2</td></tr><tr><td>Drużyna A: Drużyna C</td><td>2:1</td></tr><tr><td>Drużyna B: Drużyna D</td><td>5:5</td></tr></tbody></table><p><strong>Która drużyna wygrała turniej? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Drużyna A."
+    },
+    {
+     "litera": "B",
+     "html": "Drużyna B."
+    },
+    {
+     "litera": "C",
+     "html": "Drużyna C."
+    },
+    {
+     "litera": "D",
+     "html": "Drużyna D."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkty: A — wygrana z D (2:0) i C (2:1), przegrana z B (0:1) → 6 pkt. B — wygrana z A (1:0), remis z D (5:5), przegrana z C (0:3) → 4 pkt. C — wygrana z B (3:0) i D (2:0), przegrana z A (1:2) → 6 pkt. D — remis z B i dwie przegrane → 1 pkt. A i C mają po 6 pkt, więc decydują zdobyte gole: A strzeliła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></math>, C strzeliła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math> — więcej, więc turniej wygrywa drużyna C.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest równa 5. Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> jest równa 6.</p><p><strong>O ile średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> jest większa od średniej arytmetycznej liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,75"
+    },
+    {
+     "litera": "B",
+     "html": "1,5"
+    },
+    {
+     "litera": "C",
+     "html": "1,25"
+    },
+    {
+     "litera": "D",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>15</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>=</mo><mn>18</mn></math> po odjęciu stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>3</mn></math>, więc różnica średnich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mo>+</mo><mi>e</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>1,5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz sumy a+b oraz d+e przy pomocy c i zauważ, że przy porównaniu c się skraca",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022-2023_swietokrzyskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Dany jest graniastosłup prawidłowy, który ma 36 krawędzi. Każda z krawędzi tej bryły jest równa 10 cm.</p><p><strong>Ile jest równe pole powierzchni bocznej tej bryły? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> </mtext><msup><mtext>m</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1200</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mtext> </mtext><msup><mtext>m</mtext><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup prawidłowy o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math> krawędzi (n w podstawie, n w drugiej podstawie, n bocznych), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>36</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>12</mn></math> — podstawą jest dwunastokąt foremny. Obwód podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>120</mn></math> cm. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>1200</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup prawidłowy o n-kątnej podstawie ma 3n krawędzi — wyznacz liczbę ścian bocznych",
+   "czas_min": 2
+  }
+ ]
+}

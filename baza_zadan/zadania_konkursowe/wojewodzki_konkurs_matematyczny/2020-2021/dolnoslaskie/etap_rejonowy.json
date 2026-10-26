@@ -1,0 +1,546 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "rejonowy",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2020/2021",
+ "data": "2021-01-20",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2021_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Klawiatura fortepianu składa się z 88 klawiszy, z czego 36 jest czarnych, a pozostałe są białe. Stosunek liczby czarnych do liczby białych klawiszy można zapisać w postaci:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 : 9"
+    },
+    {
+     "litera": "B",
+     "html": "9 : 13"
+    },
+    {
+     "litera": "C",
+     "html": "9 : 22"
+    },
+    {
+     "litera": "D",
+     "html": "13 : 22"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba białych klawiszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>88</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>52</mn></math>.</p><p>Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>52</mn><mo>=</mo><mn>9</mn><mo>:</mo><mn>13</mn></math> (dzielimy przez 4) — opcja B.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, ile jest białych klawiszy, i skróć otrzymany stosunek",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Stosunek czarnych do białych, a nie do wszystkich 88 klawiszy"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Suma trzech kolejnych liczb naturalnych jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>29</mn><mo>·</mo><mn>30</mn><mo>·</mo><mn>31</mn></math>. Wskaż wypowiedź fałszywą o tych liczbach.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Każda z tych liczb jest czterocyfrowa."
+    },
+    {
+     "litera": "B",
+     "html": "Jedna z tych liczb jest podzielna przez 9."
+    },
+    {
+     "litera": "C",
+     "html": "Dwie z tych liczb są parzyste."
+    },
+    {
+     "litera": "D",
+     "html": "W zapisie tych trzech liczb nie występuje cyfra 6."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>29</mn><mo>·</mo><mn>30</mn><mo>·</mo><mn>31</mn><mo>=</mo><mn>26970</mn></math> dzielimy przez 3, otrzymując środkową liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8990</mn></math> — liczby to 8989, 8990, 8991.</p><p>Parzysta jest wśród nich tylko jedna (8990), a nie dwie, więc fałszywa jest opcja C.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "porównaj parzystość sumy z tym, ile parzystych jest wśród trzech kolejnych liczb",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Ile najmniej liczb dwucyfrowych, z których każda jest inna, można wybrać tak, aby ich suma była równa 888?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma 9 największych dwucyfrowych liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>91</mn><mo>+</mo><mo>...</mo><mo>+</mo><mn>99</mn><mo>=</mo><mn>855</mn></math> — za mało, bo 855 &lt; 888.</p><p>Dla 10 liczb wystarczy np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mo>+</mo><mn>91</mn><mo>+</mo><mo>...</mo><mo>+</mo><mn>99</mn><mo>=</mo><mn>33</mn><mo>+</mo><mn>855</mn><mo>=</mo><mn>888</mn></math>, więc najmniej to 10 — opcja B.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz sumę dziewięciu największych liczb dwucyfrowych i porównaj ją z 888",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Warunek, że liczby muszą być różne, wyklucza powtarzanie 99"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wojtek rzuca dwukrotnie kostką do gry. Otrzymany wynik koduje, tworząc liczbę dwucyfrową, w której wynik pierwszego rzutu jest cyfrą dziesiątek, a wynik drugiego ‒ cyfrą jedności. Ile jest wszystkich dwucyfrowych liczb podzielnych przez 4, które może w ten sposób uzyskać?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy dla każdej cyfry dziesiątek t (1–6), które cyfry jedności u (1–6) dają liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>t</mi><mo>+</mo><mi>u</mi></math> podzielną przez 4: t=1→12,16; t=2→24; t=3→32,36; t=4→44; t=5→52,56; t=6→64.</p><p>Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>9</mn></math> liczb — opcja B.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz wielokrotności 4 od 12 do 64 i odrzuć te z cyfrą 0 lub 8",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wskaż liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, która ma trzy następujące własności:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>4</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mi>n</mi><mn>3</mn></mroot><mo>&gt;</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>3</mn><mi>n</mi></mrow></msqrt></math> jest liczbą naturalną.</li></ul>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>4</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&lt;</mo><mn>16</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mi>n</mi><mn>3</mn></mroot><mo>&gt;</mo><mn>2</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mn>8</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><mn>16</mn></math>.</p><p>Wśród tych liczb tylko dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>12</mn></math> iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>36</mn><mo>=</mo><msup><mn>6</mn><mn>2</mn></msup></math> jest kwadratem liczby naturalnej — opcja D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dwa pierwsze warunki to po prostu widełki na n — dopiero potem sprawdź trzeci",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa",
+    "ułamki"
+   ],
+   "tresc_html": "<p>W ciągu trzech lat wiek Asi zwiększył się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>, a wiek Wojtka o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Średnia arytmetyczna wieku obu tych osób zwiększyła się w tym czasie o</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>18</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>40</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wzrost o 3 lata to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> wieku Asi, więc miała 15 lat; wzrost o 3 lata to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wieku Wojtka, więc miał 12 lat.</p><p>Średnia wieku wynosiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>13,5</mn></math>, a wzrosła o 3, czyli o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>13,5</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac></math> — opcja B.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "3 lata to 1/5 wieku Asi i 1/4 wieku Wojtka — stąd poznasz oba wieki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "procent-podstawa"
+    ],
+    "opis": "Względny wzrost średniej to nie średnia względnych wzrostów; trzeba wyliczyć wiek"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są różne i dodatnie oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>%</mo></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>%</mo></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wskaż związek, jaki zachodzi między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mn>1</mn><mi>p</mi></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mi>p</mi><mo>=</mo><mi>q</mi><mo>−</mo><mn>100</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mi>q</mi><mo>=</mo><mn>10000</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>+</mo><mi>q</mi><mo>=</mo><mn>200</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>a</mi><mo>·</mo><mfrac><mi>p</mi><mn>100</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>b</mi><mo>·</mo><mfrac><mi>q</mi><mn>100</mn></mfrac></math>.</p><p>Podstawiając pierwsze do drugiego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>a</mi><mo>·</mo><mfrac><mrow><mi>p</mi><mi>q</mi></mrow><mn>10000</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mi>q</mi><mo>=</mo><mn>10000</mn></math> — opcja C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz p i q wzorami z a i b, a potem pomnóż je przez siebie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Procent od a i procent od b mają różne podstawy, więc nie dopełniają się do 200"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Kwadrat rozcięto wzdłuż pewnego odcinka na dwa wielokąty. Suma miar wszystkich kątów wewnętrznych w jednym z tych wielokątów jest równa 540°. Ile jest równa suma miar wszystkich kątów wewnętrznych drugiego z tych wielokątów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "180°"
+    },
+    {
+     "litera": "B",
+     "html": "360°"
+    },
+    {
+     "litera": "C",
+     "html": "540°"
+    },
+    {
+     "litera": "D",
+     "html": "720°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odcinek odcinający jeden róg kwadratu dzieli go na trójkąt i pięciokąt. Suma kątów pięciokąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo stretchy=\"false\">)</mo><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>540</mn><mo>°</mo></math> — zgadza się z treścią.</p><p>Drugim kawałkiem jest więc trójkąt, a suma jego kątów wynosi 180° — opcja A.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "540° to pięciokąt — pomyśl, jaką figurę odcina od kwadratu jedno cięcie",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i kwadraty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECF</mi></math> o polu 25 cm² i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BHDG</mi></math> o polu 4 cm² położone są tak, jak na rysunku. Ile jest równe pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "21 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "16 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "12 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "10 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2021_dolnoslaskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat AECF ma pole 25 cm², więc jego przekątna (przekątna rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>) spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>AC</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>50</mn></math>. Podobnie dla BHDG: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>BD</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>.</p><p>Pole rombu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>AC</mi><mo>·</mo><mi>BD</mi></mrow><mn>2</mn></mfrac></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>400</mn><mo>=</mo><msup><mn>20</mn><mn>2</mn></msup></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>·</mo><mi>BD</mi><mo>=</mo><mn>20</mn></math>, a pole rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>10</mn></math> cm² — opcja D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przekątnymi kwadratów są AC i BD, a pole rombu to połowa iloczynu przekątnych",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Objętość pewnego sześcianu ma tyle centymetrów sześciennych, ile centymetrów ma suma długości wszystkich krawędzi tej bryły. Ile centymetrów kwadratowych ma pole powierzchni tej bryły?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "60"
+    },
+    {
+     "litera": "B",
+     "html": "72"
+    },
+    {
+     "litera": "C",
+     "html": "84"
+    },
+    {
+     "litera": "D",
+     "html": "96"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — długość krawędzi sześcianu. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>12</mn><mi>a</mi></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn></math>.</p><p>Pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>72</mn></math> cm² — opcja B.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ułóż równanie a³ = 12a — do pola potrzebujesz tylko a², nie samego a",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Wśród dzielników liczby 2100 mniejszych od tej liczby</p><p>A. największą wielokrotnością liczby 20 jest …… .</p><p>B. największą wielokrotnością liczby 84 jest …… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A: 700, B: 420",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>105</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></math>. Największy właściwy dzielnik 2100 będący wielokrotnością 20 to 2100 podzielone przez najmniejszy dzielnik 105 większy od 1, czyli przez 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>700</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>84</mn><mo>=</mo><mn>25</mn></math>, a najmniejszy dzielnik 25 większy od 1 to 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>420</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podziel 2100 przez 20 i przez 84, a potem szukaj największego właściwego dzielnika ilorazu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:wykluczenie-samej-liczby"
+    ],
+    "opis": "Dzielniki mniejsze od 2100 – sama liczba 2100 (wielokrotność 20 i 84) jest wykluczona"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>6</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>8</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą.</p><p>Wyrażenie to osiąga najmniejszą wartość, równą …… dla liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> równej …… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "wartość: 2, k: 7",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>6</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>k</mi><mo>−</mo><mn>8</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> jest najmniejsza dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> równego środkowej z liczb 6, 7, 8, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>7</mn></math>.</p><p>Wtedy wartość wyrażenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź k = 6, 7 i 8 — poza tym przedziałem wartość tylko rośnie",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Liczbę 64 można przedstawić jako sumę dwóch dwucyfrowych liczb pierwszych na trzy sposoby. Są to:</p><p>I sposób: 64 = …… ,</p><p>II sposób: 64 = …… ,</p><p>III sposób: 64 = …… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "I: 11 + 53, II: 17 + 47, III: 23 + 41",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukamy dwucyfrowej liczby pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>&lt;</mo><mn>32</mn></math>, dla której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>−</mo><mi>p</mi></math> też jest liczbą pierwszą.</p><p>Pasują: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>+</mo><mn>53</mn><mo>=</mo><mn>64</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>+</mo><mn>47</mn><mo>=</mo><mn>64</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>+</mo><mn>41</mn><mo>=</mo><mn>64</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bierz kolejne liczby pierwsze od 11 i sprawdzaj, czy dopełnienie do 64 też jest pierwsze",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "51 wygląda na liczbę pierwszą, a 51 = 3·17; przy przeglądzie od 11 łatwo zebrać trzy sposoby za wcześnie"
+   }
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Z dziewięciu kwadratów o boku długości 1 zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a w nim umieszczono łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACGEFA</mi></math> złożoną z pięciu odcinków (patrz rysunek). Z każdych trzech odcinków, będących bokami tej łamanej, można zbudować trójkąt. Z tak powstałych trójkątów, tylko trzy są prostokątne i różnoboczne. Podaj długości boków każdego z tych trzech trójkątów.</p><p>Pierwszy trójkąt: ……</p><p>Drugi trójkąt: ……</p><p>Trzeci trójkąt: ……</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2021_dolnoslaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pierwszy: √10, √8, √18; Drugi: √5, √13, √18; Trzeci: √8, √5, √13",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Licząc z kratki (przyprostokątne to boki kratek): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><msqrt><mn>18</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CG</mi><mo>=</mo><msqrt><mn>10</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>GE</mi><mo>=</mo><msqrt><mn>8</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FA</mi><mo>=</mo><msqrt><mn>13</mn></msqrt></math>.</p><p>Trójkąt prostokątny powstaje, gdy suma dwóch z tych kwadratów daje trzeci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>13</mn></math>.</p><p>Trójkąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>,</mo><msqrt><mn>8</mn></msqrt><mo>,</mo><msqrt><mn>18</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>,</mo><msqrt><mn>13</mn></msqrt><mo>,</mo><msqrt><mn>18</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt><mo>,</mo><msqrt><mn>5</mn></msqrt><mo>,</mo><msqrt><mn>13</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2021_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "siatki brył",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Na siatce sześcianu o krawędzi długości 10 cm poprowadzono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>E</mi><mn>2</mn></msub></math>, który przeciął odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BF</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DH</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>. Z siatki zbudowano sześcian. Oblicz odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> leżącymi na krawędziach tego sześcianu.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2021_dolnoslaskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "15 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mi>BX</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>A</mi><mn>2</mn></msub><msub><mi>E</mi><mn>2</mn></msub></math> są podobne w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BX</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>10</mn><mo>=</mo><mn>2,5</mn></math> cm. Analogicznie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HY</mi><mo>=</mo><mn>2,5</mn></math> cm.</p><p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi></math> jest przekątną prostopadłościanu o wymiarach 10 cm × 10 cm × 5 cm, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi><mo>=</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>225</mn></msqrt><mo>=</mo><mn>15</mn></math> cm.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek",
+     "o-co-pytaja"
+    ],
+    "opis": "Na siatce B, C, D leżą w linii, a w sześcianie BD jest przekątną ściany; liczy się odległość w bryle"
+   }
+  }
+ ]
+}

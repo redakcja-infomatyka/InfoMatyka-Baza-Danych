@@ -1,0 +1,709 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "szkolny",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2022-10-21",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 20,
+ "max_punktow": 25,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2023_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2023_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Jurek wypisał wszystkie liczby trzycyfrowe o sumie cyfr 25. Różnica między największą i najmniejszą z wypisanych przez Jurka liczb jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "108"
+    },
+    {
+     "litera": "B",
+     "html": "180"
+    },
+    {
+     "litera": "C",
+     "html": "198"
+    },
+    {
+     "litera": "D",
+     "html": "208"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Największa liczba ma cyfrę setek 9, a resztę sumy 25 rozkładamy tak, by dziesiątki były jak największe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>25</mn></mrow></math>, czyli 997. Najmniejsza: dwie ostatnie cyfry dają sumę co najwyżej 18, więc cyfra setek to 7, a pozostałe cyfry to 9 i 9, czyli 799. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>997</mn><mo>−</mo><mn>799</mn><mo>=</mo><mn>198</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nie wypisuj wszystkich — ustal od razu największą i najmniejszą liczbę o sumie cyfr 25",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wojtek wypisał od najmniejszej do największej wszystkie liczby trzycyfrowe, w zapisie których występują jedynie cyfry 0, 1 i 2. Którą z kolei liczbą wśród wypisanych przez Wojtka jest liczba 122?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "siódmą"
+    },
+    {
+     "litera": "B",
+     "html": "dziewiątą"
+    },
+    {
+     "litera": "C",
+     "html": "jedenastą"
+    },
+    {
+     "litera": "D",
+     "html": "trzynastą"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczb zaczynających się od cyfry 1 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math>, i wszystkie poprzedzają liczby zaczynające się od 2. W kolejności rosnącej to: 100, 101, 102, 110, 111, 112, 120, 121, 122 - liczba 122 jest wśród nich ostatnia, czyli dziewiąta w całym zestawie.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz je po kolei od 100 — jest ich tylko kilkanaście",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest par liczb naturalnych trzycyfrowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&gt;</mo><mi>k</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mi>k</mi><mo>=</mo><mn>345</mn></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "545"
+    },
+    {
+     "litera": "B",
+     "html": "555"
+    },
+    {
+     "litera": "C",
+     "html": "654"
+    },
+    {
+     "litera": "D",
+     "html": "655"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest trzycyfrowa, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>≥</mo><mn>100</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>345</mn><mo>≥</mo><mn>445</mn></mrow></math>. Trzycyfrowość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> daje górne ograniczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≤</mo><mn>999</mn></mrow></math>. Liczba par: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>999</mn><mo>−</mo><mn>445</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>555</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw n = k + 345 i sprawdź, dla jakich k obie liczby są trzycyfrowe",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb",
+     "plot-i-slupki"
+    ],
+    "opis": "Także k musi być trzycyfrowe (k ≥ 100), a przy liczeniu wartości od–do trzeba liczyć włącznie"
+   }
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>O dodatnich liczbach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> wiadomo, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Najmniejszą z tych czterech liczb jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>·</mo><mi>b</mi><mo>=</mo><mfrac><mn>7</mn><mn>20</mn></mfrac></mrow></math>. Po sprowadzeniu do dwudziestych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>12</mn><mn>20</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>8</mn><mn>20</mn></mfrac></mrow></math>, więc najmniejsza jest c (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>20</mn></mfrac></math>).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustaw liczby w łańcuch — każda kolejna to ułamek mniejszy od 1 poprzedniej",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></mfrac></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "21,3"
+    },
+    {
+     "litera": "B",
+     "html": "4,5"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>11</mn><mn>20</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>71</mn><mn>120</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloczyn ułamków skraca się teleskopowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>. Suma, sprowadzona do sześćdziesiątych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>45</mn><mo>+</mo><mn>48</mn><mo>+</mo><mn>50</mn><mo>=</mo><mn>213</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>213</mn><mn>60</mn></mfrac></math>. Dzieląc: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>213</mn><mn>60</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>213</mn><mn>10</mn></mfrac><mo>=</mo><mn>21,3</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zobacz, co skraca się w iloczynie w mianowniku, i dopiero potem dziel sumę składnik po składniku",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Wskaż liczbę, którą trzeba dodać do pierwiastka sześciennego z kwadratu liczby milion, aby otrzymać wartość równą pierwiastkowi kwadratowemu z sześcianu liczby milion.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "999 999 999"
+    },
+    {
+     "litera": "B",
+     "html": "999 990 000"
+    },
+    {
+     "litera": "C",
+     "html": "10 009 999"
+    },
+    {
+     "litera": "D",
+     "html": "10 000 000"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pierwiastek sześcienny z kwadratu miliona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><msup><mn>1000000</mn><mn>2</mn></msup><mn>3</mn></mroot><mo>=</mo><mn>10000</mn></mrow></math>. Pierwiastek kwadratowy z sześcianu miliona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msup><mn>1000000</mn><mn>3</mn></msup></msqrt><mo>=</mo><mn>1000000000</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000000000</mn><mo>−</mo><mn>10000</mn><mo>=</mo><mn>999990000</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz milion jako 10⁶ i licz tylko na wykładnikach",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wskaż liczbę równą liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msqrt><msqrt><msup><mn>2</mn><mn>48</mn></msup></msqrt></msqrt></msqrt></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mroot><msup><mn>2</mn><mn>54</mn></msup><mn>3</mn></mroot><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msqrt><msup><mn>2</mn><mn>36</mn></msup></msqrt></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mroot><mroot><msup><mn>2</mn><mn>54</mn></msup><mn>3</mn></mroot><mn>3</mn></mroot><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msqrt><msqrt><msup><mn>2</mn><mn>64</mn></msup></msqrt></msqrt></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy kolejne pierwiastki kwadratowe dzielą wykładnik przez 8: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msqrt><msqrt><msup><mn>2</mn><mn>48</mn></msup></msqrt></msqrt></msqrt><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup></mrow></math>. W odpowiedzi A dwa pierwiastki sześcienne dzielą wykładnik przez 9: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mroot><msup><mn>2</mn><mn>54</mn></msup><mn>3</mn></mroot><mn>3</mn></mroot><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup></mrow></math> - ta sama liczba.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trzy pierwiastki kwadratowe dzielą wykładnik przez 8 — w odpowiedziach policz tak samo",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Wypisano cztery kolejne liczby naturalne, a następnie każdą z nich zaokrąglono do pełnych dziesiątek. Po dodaniu wszystkich zaokrągleń otrzymano sumę równą 290. Jaki procent największej z czterech początkowych liczb stanowi najmniejsza z nich?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "92%"
+    },
+    {
+     "litera": "B",
+     "html": "96%"
+    },
+    {
+     "litera": "C",
+     "html": "98%"
+    },
+    {
+     "litera": "D",
+     "html": "99%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukane liczby są bliskie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>290</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>72,5</mn></mrow></math>. Liczby 72, 73, 74, 75 zaokrąglają się do 70, 70, 70, 80 (75 w górę), a suma zaokrągleń wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>80</mn><mo>=</mo><mn>290</mn></mrow></math> - zgadza się. Najmniejsza stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>75</mn><mo>=</mo><mn>96</mn><mo>%</mo></mrow></math> największej.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "geometria"
+   ],
+   "tresc_html": "<p>Na papierze w kratkę zaznaczono 16 punktów, tak jak na rysunku, i dwa z nich połączono odcinkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Ile jest odcinków prostopadłych do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, których końcami są zaznaczone punkty?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2023_dolnoslaskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odcinek a łączy punkty przesunięte o jedną kratkę w bok i jedną w górę - to przekątna oczka kratki. Prostopadłe do niego są odcinki o przeciwnym kierunku nachylenia, łączące punkty leżące na tej samej \"antyprzekątnej\" siatki 4×4. Liczba punktów na kolejnych antyprzekątnych to 1, 2, 3, 4, 3, 2, 1, a par punktów (czyli odcinków) na każdej: 0, 1, 3, 6, 3, 1, 0. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>14</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "prostopadłe idą po ukośnych liniach w drugą stronę — na każdej policz wszystkie pary punktów",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> umieszczono trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEF</mi></math>, którego wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leży na przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> kwadratu (patrz rysunek). Wskaż trójkąt, w którym różnica miar największego i najmniejszego kąta jest równa 30°.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCF</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDF</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2023_dolnoslaskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątna BD dzieli kąty kwadratu na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>FDC</mi><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>. Ponieważ E leży na boku DC, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>DCF</mi><mo>=</mo><mo>∠</mo><mi>ECF</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math> (kąt trójkąta równobocznego CEF). Trzeci kąt trójkąta CDF: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wykorzystaj, że E leży na boku DC, a przekątna dzieli kąt kwadratu na pół",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dokończ zdanie tak, aby otrzymać zdanie <u>fałszywe</u>.</p><p>Trójkąt, którego jeden z boków ma długość 6 cm, a drugi 8 cm może mieć</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "obwód równy 20 cm."
+    },
+    {
+     "litera": "B",
+     "html": "dwa kąty tej samej miary."
+    },
+    {
+     "litera": "C",
+     "html": "pole równe 24 cm<sup>2</sup>."
+    },
+    {
+     "litera": "D",
+     "html": "trzeci bok o długości 15 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzeci bok x musi spełniać nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>14</mn></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>14</mn></mrow></math>). Liczba 15 nie spełnia tego warunku, więc trójkąt o bokach 6 cm, 8 cm i 15 cm nie istnieje.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź nierówność trójkąta dla podanych długości",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> oraz zaznaczono miary niektórych kątów (patrz rysunek). Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>α</mi></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>α</mi></mrow></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2023_dolnoslaskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkącie ACE suma kątów daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>+</mo><mn>3</mn><mi>α</mi><mo>+</mo><mn>4</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. W trójkącie ABC kąt przy A to 3α, przy C to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>+</mo><mi>β</mi></mrow></math>, przy B to γ, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Odejmując stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>9</mn><mi>α</mi><mo>−</mo><mn>6</mn><mi>α</mi><mo>=</mo><mn>3</mn><mi>α</mi></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z sumy kątów w trójkącie ACE wyznacz α, potem skorzystaj z sumy kątów trójkąta ABC",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Trzy spośród czterech podanych niżej związków zachodzą dla każdego trójkąta równoramiennego, w którym miarę kąta między ramionami oznaczono przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a miarę kąta przy podstawie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Wskaż związek, który <u>nie zachodzi</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mfrac><mrow><mi>β</mi><mo>−</mo><mi>α</mi></mrow><mn>3</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>−</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>β</mi></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>+</mo><mi>α</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi><mo>)</mo></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma kątów trójkąta równoramiennego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Podstawiając to do związków A i D, oba sprowadzają się dokładnie do tej równości, a w B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>β</mi><mo>−</mo><mi>α</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mi>β</mi><mo>−</mo><mn>60</mn><mo>°</mo></mrow></math> też się zgadza. Związek C wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>270</mn><mo>°</mo></mrow></math>, co jest sprzeczne z sumą kątów - ten związek nie zachodzi.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wstaw α = 180° − 2β do każdego związku i zobacz, który się nie zgadza",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są trójkąty równoramienne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>, którego obwód jest równy 50 cm, ramię ma długość 15 cm. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>, o obwodzie 30 cm, podstawa stanowi taki sam procent obwodu, jak w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> ramię jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dłuższe od podstawy o 3 cm."
+    },
+    {
+     "litera": "B",
+     "html": "dłuższe od podstawy o 1 cm."
+    },
+    {
+     "litera": "C",
+     "html": "krótsze od podstawy o 1 cm."
+    },
+    {
+     "litera": "D",
+     "html": "krótsze od podstawy o 3 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W T1 podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>20</mn></mrow></math> cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>40</mn><mo>%</mo></mrow></math> obwodu. W T2 podstawa to 40% z 30 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>12</mn></mrow></math> cm, więc ramiona razem mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>18</mn></mrow></math> cm, jedno ramię: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>9</mn></mrow></math> cm. Ramię jest krótsze od podstawy o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, jaki procent obwodu stanowi podstawa w pierwszym trójkącie",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W prostopadłościanie, którego podstawy są kwadratami, stosunek pola powierzchni bocznej do pola powierzchni całkowitej jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>. Ile jest równy stosunek długości krawędzi podstawy do krawędzi bocznej tej bryły?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech a - krawędź podstawy, h - krawędź boczna. Pole boczne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>h</mi></mrow></math>, pole całkowite to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>h</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>h</mi><mo>:</mo><mo>(</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>h</mi><mo>)</mo><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math> po przekształceniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>a</mi><mi>h</mi><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mi>h</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>:</mo><mi>h</mi><mo>=</mo><mn>3</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz pole boczne jako 4ah, obie podstawy jako 2a² i skróć wspólny czynnik",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Pytają o stosunek krawędzi podstawy do krawędzi bocznej, łatwo podać odwrotność"
+   }
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>W lipcu pewnego roku było 5 niedziel. W puste pola wpisz właściwe nazwy dni tygodnia. W tym lipcu nie mogło być pięciu ............, ani pięciu ............ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "śród, czwartków",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Lipiec ma 31 dni, czyli 4 pełne tygodnie i 3 dni. Dlatego dokładnie trzy dni tygodnia wypadają po 5 razy, a pozostałe cztery po 4 razy. Te trzy dni to dni tygodnia, w które wypada 1., 2. i 3. lipca (trzy kolejne dni tygodnia). Skoro wśród dni występujących 5 razy jest niedziela, to 1 lipca wypada w piątek, sobotę albo niedzielę, a po 5 razy występują tylko dni od piątku do wtorku. Zatem w tym lipcu nie mogło być pięciu śród ani pięciu czwartków.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "lipiec to 4 pełne tygodnie i 3 dni — te trzy nadmiarowe dni tygodnia idą po sobie",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>W zestawie wszystkich liczb naturalnych trzycyfrowych podzielnych przez 7, których suma cyfr także jest podzielna przez 7, najmniejszą liczbą jest ............, a największą liczbą jest ............ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "najmniejsza 133, największa 966",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Najmniejsza liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>133</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>19</mn></mrow></math>, a suma jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>7</mn></mrow></math> (podzielna przez 7). Największa liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>966</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>138</mn></mrow></math>, a suma jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>21</mn></mrow></math> (podzielna przez 7).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "idź wielokrotnościami 7 od 105 w górę i od 994 w dół, sprawdzając sumę cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Asia wypisała zestaw liczb całkowitych, rozpoczynając od liczby −25 i dopisując następne tak, aby kolejna liczba była o 5 większa od poprzedniej. Wypisywanie zakończyła na liczbie 50.</p><ul><li>Asia wypisała ............ liczb.</li><li>Suma wszystkich liczb wypisanych przez Asię jest równa ............ .</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "16 liczb; suma 200",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>25</mn><mo>,</mo><mo>−</mo><mn>20</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>50</mn></mrow></math> tworzą ciąg o różnicy 5. Liczba wyrazów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>50</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>25</mn><mo>)</mo></mrow><mn>5</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>16</mn></mrow></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>−</mo><mn>25</mn><mo>+</mo><mn>50</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>=</mo><mn>12,5</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>200</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "liczby ujemne znoszą się z dodatnimi — zostaje tylko końcówka sumy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczba wyrazów od −25 do 50 co 5 to różnica podzielona przez krok plus jeden"
+   }
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "działania na pierwiastkach",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>W puste pola wpisz właściwe liczby.</p><ul><li>Do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,000004</mn></msqrt></math> należy dodać ............, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>0,000008</mn><mn>3</mn></mroot></math>.</li><li>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,00002</mn><mn>2</mn></msup></math> należy pomnożyć przez ............, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,004</mn><mn>3</mn></msup></math>.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "0,018; 160",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>0,000004</mn></msqrt><mo>=</mo><mn>0,002</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>0,000008</mn><mn>3</mn></mroot><mo>=</mo><mn>0,02</mn></mrow></math>, więc należy dodać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,02</mn><mo>−</mo><mn>0,002</mn><mo>=</mo><mn>0,018</mn></mrow></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>0,00002</mn><mn>2</mn></msup><mo>=</mo><mn>0,0000000004</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>0,004</mn><mn>3</mn></msup><mo>=</mo><mn>0,000000064</mn></mrow></math>, więc mnożnik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,000000064</mn><mo>:</mo><mn>0,0000000004</mn><mo>=</mo><mn>160</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zapisz każdą liczbę jako cyfra razy potęga 10 zamiast liczyć zera",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_dolnoslaskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Dany jest graniastosłup, którego podstawa jest wielokątem foremnym o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach. Uzupełnij puste pola.</p><ul><li>Wybrano jedną ścianę boczną tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich ścian, które nie mają żadnego punktu wspólnego z wybraną ścianą. Takich ścian jest ............ .</li><li>Wybrano jedną krawędź podstawy tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich krawędzi, które nie mają żadnego punktu wspólnego z wybraną krawędzią. Takich krawędzi jest ............ .</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "n − 3; 3n − 5",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Graniastosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math> ściany i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi></mrow></math> krawędzi. Wybrana ściana boczna ma punkt wspólny z 2 sąsiednimi ścianami bocznymi i z obiema podstawami, więc ścian bez punktu wspólnego jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>1</mn><mo>−</mo><mn>2</mn><mo>−</mo><mn>2</mn><mo>=</mo><mi>n</mi><mo>−</mo><mn>3</mn></mrow></math>. Wybrana krawędź podstawy ma punkt wspólny z 2 sąsiednimi krawędziami podstawy i z 2 krawędziami bocznymi, więc krawędzi bez punktu wspólnego jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>−</mo><mn>2</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>5</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ścian jest n + 2, krawędzi 3n — odejmij te, które stykają się z wybraną",
+   "czas_min": 10
+  }
+ ]
+}

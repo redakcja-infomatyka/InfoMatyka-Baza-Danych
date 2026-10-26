@@ -1,0 +1,532 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "rejonowy",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2023-01-12",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2023_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wypisano wszystkie liczby pierwsze dwucyfrowe, a następnie podkreślono na czerwono wszystkie te, których cyfrą jedności jest 1, na zielono wszystkie z cyfrą jedności 3, na niebiesko wszystkie te, których cyfrą jedności jest 7, a na czarno wszystkie z cyfrą jedności 9. Najwięcej liczb podkreślono kolorem</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "czerwonym."
+    },
+    {
+     "litera": "B",
+     "html": "zielonym."
+    },
+    {
+     "litera": "C",
+     "html": "niebieskim."
+    },
+    {
+     "litera": "D",
+     "html": "czarnym."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby pierwsze dwucyfrowe z cyfrą jedności 1: 11, 31, 41, 61, 71 (5). Z cyfrą 3: 13, 23, 43, 53, 73, 83 (6). Z cyfrą 7: 17, 37, 47, 67, 97 (5). Z cyfrą 9: 19, 29, 59, 79, 89 (5). Najwięcej jest liczb z cyfrą 3 – to one podkreślono na zielono.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Liczby 51, 57, 87, 91 wyglądają na pierwsze; przy ich doliczeniu zmienia się kolor zwycięzcy"
+   }
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Ile najmniej zer należy dopisać do zestawu liczb 1, 2, 3, 4, 5, aby otrzymać zestaw, którego średnia arytmetyczna wszystkich elementów jest mniejsza od 1?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma liczb 1, 2, 3, 4, 5 to 15 i nie zmienia się po dopisaniu zer. Po dopisaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zer jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mi>n</mi></math> liczb, więc średnia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mrow><mn>5</mn><mo>+</mo><mi>n</mi></mrow></mfrac></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mrow><mn>5</mn><mo>+</mo><mi>n</mi></mrow></mfrac><mo>&lt;</mo><mn>1</mn></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mn>10</mn></math>, więc najmniejsze to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>11</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "suma zestawu się nie zmienia — pytaj tylko, ilu elementów trzeba, by średnia spadła poniżej 1",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:nierownosc-ostra"
+    ],
+    "opis": "Średnia ma być MNIEJSZA od 1, a przy 10 zerach wynosi dokładnie 1"
+   }
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Wskaż wyrażenie, którego wartość w zapisie dziesiętnym ma najwięcej cyfr.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>10</mn><mn>2</mn></msup><msup><mn>2</mn><mn>10</mn></msup></mfrac><mo>·</mo><msup><mn>20</mn><mn>10</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>14</mn></msup><mo>·</mo><msup><mn>400</mn><mn>7</mn></msup><mo>:</mo><msup><mn>16</mn><mn>7</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup><mo>·</mo><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>(</mo><msup><mn>10</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>6</mn></msup><msup><mrow><mo>(</mo><msup><mn>10</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>5</mn></msup></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>10</mn><mn>2</mn></msup><msup><mn>2</mn><mn>10</mn></msup></mfrac><mo>·</mo><msup><mn>20</mn><mn>10</mn></msup><mo>=</mo><msup><mn>10</mn><mn>12</mn></msup></math> – 13 cyfr.</p><p>B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>14</mn></msup><mo>·</mo><msup><mn>400</mn><mn>7</mn></msup><mo>:</mo><msup><mn>16</mn><mn>7</mn></msup><mo>=</mo><msup><mn>10</mn><mn>14</mn></msup></math> – 15 cyfr.</p><p>C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup><mo>·</mo><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>9</mn></msup><mo>=</mo><msup><mn>10</mn><mn>13</mn></msup></math> – 14 cyfr.</p><p>D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>(</mo><msup><mn>10</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>6</mn></msup><msup><mrow><mo>(</mo><msup><mn>10</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>5</mn></msup></mfrac><mo>=</mo><msup><mn>10</mn><mn>10</mn></msup></math> – 11 cyfr. Najwięcej cyfr ma B.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź każdą opcję do potęgi dziesiątki i porównuj same wykładniki",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Kwadrat wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>4</mn><mn>6</mn></msup><msqrt><msup><mn>0,5</mn><mn>7</mn></msup></msqrt></mfrac></math> jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>17</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>19</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>31</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>38</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>6</mn></msup><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>0,5</mn><mn>7</mn></msup></msqrt><mo>=</mo><msqrt><msup><mn>2</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></msqrt><mo>=</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>3,5</mn></mrow></msup></math>.</p><p>Wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2</mn><mn>12</mn></msup><msup><mn>2</mn><mrow><mo>−</mo><mn>3,5</mn></mrow></msup></mfrac><mo>=</mo><msup><mn>2</mn><mn>15,5</mn></msup></math>, więc kwadrat to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>15,5</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>31</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podnieś do kwadratu od razu całe wyrażenie — pierwiastek zniknie, zostaną potęgi dwójki",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>×</mo><mn>16</mn></math>. Ile jest punktów leżących na bokach tego prostokąta, których odległość od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest dodatnią liczbą naturalną?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22"
+    },
+    {
+     "litera": "B",
+     "html": "24"
+    },
+    {
+     "litera": "C",
+     "html": "26"
+    },
+    {
+     "litera": "D",
+     "html": "28"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (16 cm) leży 16 punktów w odległościach 1, 2, …, 16 od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, a na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> (8 cm) – 8 punktów: razem 24.</p><p>Na pozostałych bokach szukamy punktów tworzących z przyprostokątną 8 trójkąt pitagorejski: trójki 6-8-10 i 8-15-17 dają 2 dodatkowe punkty, w odległości 10 i 17 od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>26</mn></math> punktów.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_CORRECT",
+     "opis": "Poprawna jest odpowiedź C, czyli 26. Zliczamy punkty o współrzędnych całkowitych (kratowe) na bokach prostokąta, których odległość od wierzchołka A jest liczbą naturalną. Ustawmy A=(0,0). Na boku długości 16 punkty leżą w odległościach 1,2,…,16 — to 16 punktów; na boku długości 8 w odległościach 1,…,8 — to 8 punktów (razem 24). Na długim, dalszym boku (naprzeciw A, w odległości 8 od niego) szukamy punktów kratowych dających naturalną odległość: punkt (6,8) daje √(6²+8²)=10, a punkt (15,8) daje √(15²+8²)=17 — to trójki pitagorejskie 6-8-10 oraz 8-15-17, czyli 2 dodatkowe punkty. Na krótszym dalszym boku takich nie ma. Łącznie 16+8+2 = 26. Modele AI zgodziły się z kluczem. (Uwaga: to zadanie w domyśle dotyczy punktów kratowych — gdyby liczyć wszystkie punkty boków, wynik byłby 34, więc treść jest nieco nieprecyzyjna, ale oficjalna odpowiedź to C.)"
+    }
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Punkty leżą na wszystkich czterech bokach, także na bokach odległych od A (trójki pitagorejskie)"
+   }
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Asia, Kasia i Wojtek złożyli się na prezent dla dziadka. Razem zebrali 160 zł, a wpłaty tych osób utworzyły odpowiednio proporcję 4 : 5 : 7. O ile złotych większa jest składka Wojtka od składki Asi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20 zł"
+    },
+    {
+     "litera": "B",
+     "html": "30 zł"
+    },
+    {
+     "litera": "C",
+     "html": "40 zł"
+    },
+    {
+     "litera": "D",
+     "html": "50 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma części proporcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>16</mn></math>, więc jedna część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>:</mo><mn>16</mn><mo>=</mo><mn>10</mn></math> zł. Różnica składek Wojtka i Asi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>7</mn><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mn>10</mn><mo>=</mo><mn>30</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel kwotę na tyle części, ile daje suma liczb z proporcji",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Liczby rzeczywiste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mi>y</mi><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math> dla tych liczb jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,75"
+    },
+    {
+     "litera": "B",
+     "html": "1,5"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wspólny mianownik 12: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mi>y</mi><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>−</mo><mn>3</mn></mrow><mn>12</mn></mfrac></math>.</p><p>Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>3</mn></mrow><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>12</mn></mfrac><mo>=</mo><mn>0,75</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź pierwszy i trzeci ułamek do wspólnego mianownika — pojawi się x+y",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "zmiany procentowe",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Pan Wojciech w drugim tygodniu pracy zarobił o 30% więcej niż w pierwszym, a w trzecim tygodniu – o 30% więcej niż w drugim. Jego średni zarobek w ciągu tych trzech tygodni, to 1330 zł na tydzień. W trzecim tygodniu swojej pracy pan Wojciech zarobił</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1300 zł."
+    },
+    {
+     "litera": "B",
+     "html": "1330 zł."
+    },
+    {
+     "litera": "C",
+     "html": "1450 zł."
+    },
+    {
+     "litera": "D",
+     "html": "1690 zł."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zarobki: I tydzień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, II tydzień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mi>a</mi></math>, III tydzień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>·</mo><mn>1,3</mn><mi>a</mi><mo>=</mo><mn>1,69</mn><mi>a</mi></math>. Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3,99</mn><mi>a</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mn>1,33</mn><mi>a</mi><mo>=</mo><mn>1330</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1000</mn></math> zł. III tydzień: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,69</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>1690</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź trzy tygodnie przez pierwszy (1; 1,3; 1,69), a suma to trzykrotność średniej",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> umieszczono tak, jak na rysunku, kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> oraz trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> stanowi 36% pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, to 4% pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>. Jakim procentem pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>?</p><p><em>Zadanie anulowano ze względu na błąd w poleceniu. Nie przyznawano punktów za to zadanie.</em></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "32%"
+    },
+    {
+     "litera": "B",
+     "html": "20%"
+    },
+    {
+     "litera": "C",
+     "html": "16%"
+    },
+    {
+     "litera": "D",
+     "html": "12%"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2023_dolnoslaskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {},
+   "anulowane": true,
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>W pojemniku maszyny losującej jest 30 kul. Część z nich jest czarna, część zielona, a pozostałe są białe. Prawdopodobieństwo, że maszyna wylosuje kulę, która nie jest biała jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>10</mn></mfrac></math>, a kuli, która nie jest zielona, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>. Jakie jest prawdopodobieństwo, że maszyna wylosuje kulę, która nie jest czarna?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Nie biała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>10</mn></mfrac><mo>·</mo><mn>30</mn><mo>=</mo><mn>21</mn></math> (czarne+zielone), więc białych jest 9. Nie zielona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>30</mn><mo>=</mo><mn>24</mn></math> (czarne+białe), więc zielonych jest 6, a czarnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>15</mn></math>.</p><p>Nie czarna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>−</mo><mn>15</mn></mrow><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z każdego warunku odczytaj dopełnienie: jaka część kul jest biała, a jaka zielona",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "sześciokąty foremne",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Z kartki w kształcie sześciokąta foremnego o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm wycięto 6 trójkątów prostokątnych równoramiennych w sposób przedstawiony na rysunku i otrzymano figurę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>.</p><ul><li>Obwód figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest równy …… cm.</li><li>Pole figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest równe …… cm<sup>2</sup>.</li></ul>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2023_dolnoslaskie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Obwód: 12 cm, Pole: 3√3 − 3 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>:</mo><mn>6</mn><mo>=</mo><msqrt><mn>2</mn></msqrt></math> cm. Każdy wycięty trójkąt jest prostokątny równoramienny o przeciwprostokątnej równej bokowi sześciokąta, więc jego przyprostokątne mają długość 1 cm.</p><p>Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> tworzy 6 grotów po 2 przyprostokątne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>12</mn></math> cm.</p><p>Pole sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>. Pole 6 trójkątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></math>. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>3</mn></math> cm².</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi – 1 p.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przeciwprostokątna każdego trójkąta to bok sześciokąta; pole licz jako sześciokąt minus 6 trójkątów",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></math> przyjmuje dla pewnej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość równą 12. Wyznacz wartość, jaką przyjmuje dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyrażenie</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>0,6</mn><msup><mi>x</mi><mn>2</mn></msup></math>, wartość: ……</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>28</mn><msup><mi>x</mi><mn>5</mn></msup></math>, wartość: ……</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "0,8x⁵ − 0,6x²: 2,4;  21x² − 28x⁵: −84",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn></math> wynika:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>0,6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>0,2</mn><mo>·</mo><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>0,2</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>2,4</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>28</mn><msup><mi>x</mi><mn>5</mn></msup><mo>=</mo><mo>−</mo><mn>7</mn><mo>·</mo><mo>(</mo><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mo>−</mo><mn>7</mn><mo>·</mo><mn>12</mn><mo>=</mo><mo>−</mo><mn>84</mn></math>.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi – 1 p.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "obie wartości to wielokrotności wyrażenia 4x⁵ − 3x² — wyłącz wspólny czynnik, x nie jest potrzebny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "W drugim wyrażeniu składniki stoją w odwrotnej kolejności, więc wyłącza się czynnik ujemny"
+   }
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży w kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 20 cm, w odległości 15 cm od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i 17 cm od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Podaj pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>.</p><ul><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ACE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BDE</mi></msub></math> = …… cm<sup>2</sup></li></ul>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2023_dolnoslaskie_q13_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "P_BCE = 80 cm², P_ACE = 30 cm², P_BDE = 70 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math> (kąt prosty w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi><mo>=</mo><mn>17</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi><mo>=</mo><mn>8</mn></math> (trójka 8-15-17), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AF</mi><mo>=</mo><mn>12</mn></math>.</p><p>Łącząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> z wierzchołkami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AEB</mi></msub><mo>=</mo><mn>150</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>80</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ADE</mi></msub><mo>=</mo><mn>120</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>CDE</mi></msub><mo>=</mo><mn>400</mn><mo>−</mo><mn>150</mn><mo>−</mo><mn>80</mn><mo>−</mo><mn>120</mn><mo>=</mo><mn>50</mn></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> (pole 200) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ACE</mi></msub><mo>=</mo><mn>200</mn><mo>−</mo><mn>120</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>30</mn></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> (pole 200) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BDE</mi></msub><mo>=</mo><mn>200</mn><mo>−</mo><mn>80</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>70</mn></math>.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi – 1 p.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wartość bezwzględna",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></math> spełniają trzy liczby. Są to:</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "−5, 3, 11",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloczyn jest zerem, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></math>.</p><p>Pierwsze równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>. Drugie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>5</mn></math>. Rozwiązania (bez powtórzeń): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>11</mn></math>.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi – 1 p.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "iloczyn jest zerem, gdy znika któryś nawias — rozwiąż osobno |x−7|=4 i |x+1|=4",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "siatki brył",
+    "sześciokąty foremne"
+   ],
+   "tresc_html": "<p>Z kwadratowej kartki o boku długości 30 cm wycięto siatkę graniastosłupa prawidłowego sześciokątnego w sposób przedstawiony na rysunku. Oblicz objętość tego graniastosłupa.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2023_dolnoslaskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "375√3(3 − √3) cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – długość krawędzi podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> – wysokość graniastosłupa. Sześć ścian bocznych układa się w poziomie, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>=</mo><mn>30</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> cm.</p><p>Pionowo bok kwadratu obejmuje wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> oraz cztery apotematy podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mi>H</mi><mo>+</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>30</mn><mo>−</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mo>(</mo><mn>30</mn><mo>−</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>375</mn><msqrt><mn>3</mn></msqrt><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm³.</p>",
+    "punktacja_html": "<p>Punktacja:</p><ul><li>1 p. – poprawna metoda obliczenia długości krawędzi podstawy graniastosłupa</li><li>1 p. – poprawna metoda obliczenia wysokości graniastosłupa</li><li>1 p. – poprawna metoda obliczenia objętości graniastosłupa</li><li>1 p. – poprawność rachunkowa w całym zadaniu</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

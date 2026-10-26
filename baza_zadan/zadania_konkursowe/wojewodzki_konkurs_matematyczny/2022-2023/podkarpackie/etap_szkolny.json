@@ -1,0 +1,244 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "szkolny",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2022/2023",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 9,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2023_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2023_podkarpackie_q1",
+   "numer": 1,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Alek kolekcjonuje znaczki, ma ich już więcej niż 1500, ale wciąż mniej niż 1600. Kiedy grupował je po 9, udało mu się to i wszystkie grupy były równe. Kiedy próbował grupować je po 10, w ostatniej grupie zostało mu 7 znaczków. Ile znaczków ma Alek?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1557",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba znaczków jest większa od 1500 i mniejsza od 1600, ma więc postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mi>x</mi><mn>7</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest pewną cyfrą. Grupowanie po 10 z resztą 7 oznacza, że cyfrą jedności jest 7. Ponieważ udało się pogrupować znaczki po 9, liczba jest podzielna przez 9, więc suma jej cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>5</mn><mo>+</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>13</mn><mo>+</mo><mi>x</mi></mrow></math> musi być podzielna przez 9. Jest to możliwe tylko dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>, zatem Alek ma 1557 znaczków.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): inna liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mi>x</mi><mn>7</mn></mrow></math> albo jedna z liczb 1503, 1512, 1521, 1530, 1539, 1548, 1566, 1575, 1584, 1593.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfrą jedności musi być 7, a suma cyfr ma się dzielić przez 9",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q2",
+   "numer": 2,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "potęgi i pierwiastki"
+   ],
+   "tresc_html": "<p>Oblicz sumę cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2022</mn></msup><mo>−</mo><mn>2022</mn></mrow></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "18193",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2022</mn></msup></math> to jedynka i 2022 zera. Wykonując odejmowanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2022</mn></msup><mo>−</mo><mn>2022</mn></mrow></math> otrzymujemy liczbę złożoną z 2018 dziewiątek, po których stoi 7978. Suma cyfr tej liczby jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2018</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>18193</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): inny całkowity wynik większy od 18182 i mniejszy od 18204.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "odjęcie zmienia tylko cztery ostatnie cyfry, przed nimi zostają same dziewiątki — policz, ile ich jest",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Ile dziewiątek zostaje przy odejmowaniu 2022 od 10^2022 – łatwo pomylić się o jedną"
+   }
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q3",
+   "numer": 3,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych mniejszych od 400, które mają dokładnie 3 dzielniki?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba ma dokładnie trzy dzielniki tylko wtedy, gdy jest kwadratem liczby pierwszej, czyli ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mn>2</mn></msup></math> (jej dzielniki to 1, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mn>2</mn></msup></math>). Nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>p</mi><mn>2</mn></msup><mo>&lt;</mo><mn>400</mn></mrow></math> zachodzi dla liczb pierwszych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> mniejszych od 20, a jest ich 8: 2, 3, 5, 7, 11, 13, 17 i 19. Zatem takich liczb jest 8.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): odpowiedź 7 albo 9.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "trzy dzielniki ma tylko kwadrat liczby pierwszej — sprawdź, które takie kwadraty się mieszczą",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q4",
+   "numer": 4,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Dwa okręgi o promieniach 13 cm przecinają się w dwóch punktach odległych o 10 cm. Jaka jest odległość między środkami tych okręgów?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "24 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> będą środkami okręgów, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> punktami przecięcia. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KA</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LA</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LB</mi></math> są promieniami i mają długość 13 cm, więc czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KALB</mi></math> jest rombem. Jego przekątne przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> pod kątem prostym i dzielą się na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></mrow></math> cm. Z twierdzenia Pitagorasa dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASK</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></mrow></math> cm. Odległość środków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "połowa cięciwy, promień i połowa odcinka między środkami tworzą trójkąt prostokątny",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q5",
+   "numer": 5,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wartość bezwzględna",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, dla których odległość liczb 8 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> na osi liczbowej jest mniejsza od 5?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "159",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Warunek oznacza, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> leży na osi liczbowej między <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>3</mn></mrow></math> a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>13</mn></mrow></math> (bez tych końców). Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>&lt;</mo><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>13</mn></mrow></math>, musi być <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><mn>169</mn></mrow></math>. Liczby naturalne od 10 do 168 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>168</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>159</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): odpowiedź 155, 156, 157, 158, 160, 161, 162 albo 163.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "warunek znaczy, że √n leży między 8−5 a 8+5 — podnieś oba krańce do kwadratu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Nierówność ostra na obu końcach i liczenie liczb całkowitych w przedziale – pomyłka o jeden"
+   }
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Znajdź liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> o następującej własności: przy dzieleniu liczby 1680 przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> pozostaje reszta 217.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1463",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy iloraz przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1680</mn><mo>=</mo><mi>n</mi><mo>·</mo><mi>k</mi><mo>+</mo><mn>217</mn></mrow></math>, przy czym reszta 217 musi być mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>·</mo><mi>k</mi><mo>=</mo><mn>1680</mn><mo>−</mo><mn>217</mn><mo>=</mo><mn>1463</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest dzielnikiem liczby 1463 większym od 217. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1463</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>·</mo><mn>19</mn></mrow></math>, a jej największym dzielnikiem różnym od niej samej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>19</mn><mo>=</mo><mn>209</mn><mo>&lt;</mo><mn>217</mn></mrow></math>, jedyną liczbą spełniającą warunki jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>1463</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>Uwaga: Jest to zadanie krótkiej odpowiedzi, w którym uczeń nie musi uzasadniać swojego wyniku. W szczególności uczeń może nie umieć udowodnić, że 1463 jest jedyną liczbą spełniającą warunki zadania. Wystarczającym rozwiązaniem (dającym maksymalną liczbę punktów) jest jej znalezienie.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dzielna pomniejszona o resztę dzieli się przez n, a reszta musi być mniejsza od n",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Dzielnik musi być większy od reszty – nie każdy dzielnik 1680−217 się nadaje"
+   }
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Staś ma w skarbonce tylko dwuzłotówki i pięciozłotówki. Monet dwuzłotowych ma dwa razy więcej niż monet pięciozłotowych, ale wartość monet pięciozłotowych jest o 30 złotych większa niż wartość monet dwuzłotowych. Ile dwuzłotówek ma Staś w skarbonce?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "60",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę monet pięciozłotowych. Wtedy monet dwuzłotowych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. Wartość monet pięciozłotowych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi></mrow></math>, a dwuzłotowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>·</mo><mn>2</mn><mo>=</mo><mn>4</mn><mi>x</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>30</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>30</mn></mrow></math>. Zatem Staś ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>60</mn></mrow></math> dwuzłotówek.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za poprawne równanie bez rozwiązania; 2 pkt za rozwiązanie stanowiące co najmniej połowę zadania; 3 pkt za jeden drobny błąd.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "weź grupę: jedna pięciozłotówka i dwie dwuzłotówki — porównaj w niej obie wartości",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Niewiadomą naturalnie jest liczba pięciozłotówek, a pytają o dwuzłotówki"
+   }
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "sześciokąty foremne",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest sześciokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> o boku długości 4 cm. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABKL</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEMN</mi></math>, znajdujące się we wnętrzu sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math>. Oblicz pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "(32 − 16√3) cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Dłuższe przekątne sześciokąta foremnego przecinają się w środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i dzielą go na sześć trójkątów równobocznych o boku 4 cm. Odległość między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> to długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>, złożonego z dwóch wysokości trójkątów równobocznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>&lt;</mo><mn>8</mn></mrow></math>, odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EM</mi></math> (każdy długości 4 cm, leżące na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>) nachodzą na siebie. Ich część wspólna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>LM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest prostokątem o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, więc jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>KLMN</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>32</mn><mo>−</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik. Wynik może być przedstawiony w różnej postaci, maksymalną liczbę punktów przyznajemy za wyrażenie nie bardziej skomplikowane niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm² (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mo>−</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm² lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm²). Wynik uznajemy za prawidłowy również jeśli zostanie podany bez jednostki.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np. nie uzasadnił wprost nietrudnego spostrzeżenia na temat położenia figur (np. że kwadraty będą na siebie „nachodzić”), popełnił błąd rachunkowy, który nie miał wpływu na trudność rozumowania (np. błędnie obliczył odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>, ale była ona dłuższa niż 4 cm i krótsza niż 8 cm), albo zapisał prawidłowe wyrażenie arytmetyczne opisujące pole prostokąta, ale nie obliczył jego wartości.</li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np. narysował kwadraty wewnątrz sześciokąta, ale na innych bokach, albo na dobrych bokach, ale na zewnątrz sześciokąta, i prawidłowo rozwiązał zadanie w takiej wersji, albo popełnił jeden błąd obliczeniowy, który wpłynął na trudność zadania (np. obliczył odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> większą niż 8 cm i dalej rozumował poprawnie, zakładając, że kwadraty nie nachodzą na siebie).</li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np. prawidłowo obliczył długość wysokości jednego z trójkątów równobocznych tworzących sześciokąt albo zauważył, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest prostokątem o boku długości 4 cm.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2023_podkarpackie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "zmiany procentowe",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wojtek chciał kupić nową piłkę, ale jego oszczędności były o 3 złote za małe, by zakupić ją w sklepie Gol. Po jakimś czasie Wojtek zauważył, że w sklepie Gol cena piłki została obniżona o 20%. Za swoje oszczędności kupił piłkę i zostało mu jeszcze 7,20 zł. Ile zapłacił Wojtek za piłkę?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "40,80 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Początkowo oszczędnościom brakowało 3 zł do ceny piłki, a po obniżce przekroczyły one nową cenę o 7,20 zł. Oznacza to, że cena została obniżona o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>7,20</mn><mo>=</mo><mn>10,20</mn></mrow></math> zł, czyli 20% pierwotnej ceny to 10,20 zł. Wojtek zapłacił 80% pierwotnej ceny, czyli 4 razy więcej niż 20%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10,20</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>40,80</mn></mrow></math> zł.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za obliczenie jednej z wielkości (pierwotna cena, oszczędności); 2 pkt za co najmniej połowę rozwiązania; 3 pkt za obliczenie pierwotnej ceny bez podania zapłaconej kwoty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj brakujące 3 zł i pozostałe 7,20 zł — tyle wynosi obniżka",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Naturalnie wylicza się pierwotną cenę piłki, a pytają o to, ile zapłacił po obniżce"
+   }
+  }
+ ]
+}

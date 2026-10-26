@@ -1,0 +1,738 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2020/2021",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 22,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2021_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2021_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków"
+   ],
+   "tresc_html": "<p>Która z poniższych liczb jest mniejsza od 5:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mroot><mn>16</mn><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>26</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>115</mn><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>7</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>115</mn><mn>3</mn></mroot></math> &lt; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125</mn><mn>3</mn></mroot></math> = 5, więc ≈4,86 &lt; 5.</p><p>Pozostałe: 3√3≈5,20; 2·∛16≈5,04; √26≈5,10; 2√7≈5,29 — wszystkie &gt; 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnieś każdą liczbę do kwadratu lub do sześcianu i porównaj z 25 albo ze 125",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Dwie ostatnie cyfry liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>1999</mn></msup></math> to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "43"
+    },
+    {
+     "litera": "B",
+     "html": "07"
+    },
+    {
+     "litera": "C",
+     "html": "49"
+    },
+    {
+     "litera": "D",
+     "html": "99"
+    },
+    {
+     "litera": "E",
+     "html": "01"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Dwie ostatnie cyfry 7ⁿ mają okres 4: 07, 49, 43, 01, …</p><p>1999 mod 4 = 3, więc jak 7³ = 343 → końcówka <strong>43</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz dwie ostatnie cyfry kolejnych potęg siódemki — powtarzają się cyklicznie",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1011</mn><mo>−</mo><mn>1009</mn><mo>+</mo><mn>1007</mn><mo>−</mo><mn>1005</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>7</mn><mo>−</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>1</mn></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1012"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>506</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "510"
+    },
+    {
+     "litera": "D",
+     "html": "508"
+    },
+    {
+     "litera": "E",
+     "html": "506"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Grupujemy w pary: (1011−1009)+(1007−1005)+…+(3−1), każda = 2.</p><p>Liczb nieparzystych od 1 do 1011 jest 506, czyli 253 pary → 253·2 = <strong>506</strong>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sparuj wyrazy po dwa i policz, ile jest par",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><msqrt><mn>12</mn></msqrt></mrow></mfrac></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    },
+    {
+     "litera": "E",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Prawa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mrow><mn>2</mn><msqrt><mn>12</mn></msqrt></mrow></mfrac></math> = 4/(4√3) = 1/√3.</p><p>Lewa: 6√3/(2x) = 3√3/x. Z 3√3/x = 1/√3 → x = 3√3·√3 = <strong>9</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż na krzyż — iloczyn √3·√12 zwija się do liczby całkowitej",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Liczby naturalne 1, 3 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi></math> są długościami boków trójkąta. Połowa jego obwodu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>k</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>2</mn><mi>k</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>4</mn><mi>k</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mn>4</mn></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mi>k</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Połowa obwodu = (1 + 3 + 2k)/2 = (4 + 2k)/2 = <strong>2 + k</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj trzy boki i podziel przez 2",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie równoramiennym miara kąta przy podstawie jest o 22,5° mniejsza od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zawartego między ramionami. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "76°"
+    },
+    {
+     "litera": "B",
+     "html": "75°"
+    },
+    {
+     "litera": "C",
+     "html": "52,5°"
+    },
+    {
+     "litera": "D",
+     "html": "46°"
+    },
+    {
+     "litera": "E",
+     "html": "104°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kąty przy podstawie: β = α − 22,5°. Suma kątów: α + 2β = 180°.</p><p>α + 2(α − 22,5°) = 180° → 3α = 225° → α = <strong>75°</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt przy podstawie to α − 22,5°, a wszystkie trzy dają 180°",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Liczb złożonych większych od 9, ale mniejszych lub równych 40 jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "41"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "23"
+    },
+    {
+     "litera": "D",
+     "html": "22"
+    },
+    {
+     "litera": "E",
+     "html": "25"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Liczb od 10 do 40 jest 31. Liczby pierwsze: 11,13,17,19,23,29,31,37 — 8 sztuk.</p><p>Złożone: 31 − 8 = <strong>23</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz wszystkie liczby od 10 do 40 i odejmij od nich pierwsze",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie liczb w przedziale z jednym końcem włącznie: od 10 do 40"
+   }
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Do 4 kg roztworu soli o stężeniu 20% dosypano 1 kg soli. Stężenie procentowe nowego roztworu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40%"
+    },
+    {
+     "litera": "B",
+     "html": "38%"
+    },
+    {
+     "litera": "C",
+     "html": "36%"
+    },
+    {
+     "litera": "D",
+     "html": "30%"
+    },
+    {
+     "litera": "E",
+     "html": "21%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Sól początkowa: 20%·4 kg = 0,8 kg. Po dosypaniu: 0,8 + 1 = 1,8 kg soli w 5 kg roztworu.</p><p>Stężenie: 1,8/5 = 0,36 = <strong>36%</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno masę soli i masę całego roztworu po dosypaniu",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Pani Katarzyna wpłaciła do banku 6300 złotych na roczną lokatę. Po roku otrzymała wraz z odsetkami kwotę 6394,50 zł. Jakie było oprocentowanie lokaty?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3,5%"
+    },
+    {
+     "litera": "B",
+     "html": "3%"
+    },
+    {
+     "litera": "C",
+     "html": "2,5%"
+    },
+    {
+     "litera": "D",
+     "html": "1,5%"
+    },
+    {
+     "litera": "E",
+     "html": "2%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Odsetki: 6394,50 − 6300 = 94,50 zł.</p><p>Oprocentowanie: 94,50/6300 = 0,015 = <strong>1,5%</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odsetki to różnica kwot — sprawdź, ile to procent wpłaty",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są dwa trójkąty równoboczne o bokach równych 3 cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> cm. Ile wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> sumy pól tych trójkątów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pola: (√3/4)·9 + (√3/4)·7 = (√3/4)·16 = 4√3.</p><p>Jedna czwarta sumy: 4√3/4 = <strong>√3</strong>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz wspólny czynnik √3/4 i dodaj kwadraty obu boków",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>W równoległoboku różnica miar kątów leżących przy tym samym boku jest równa 68°. Miara kąta rozwartego tego równoległoboku jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "136°"
+    },
+    {
+     "litera": "B",
+     "html": "124°"
+    },
+    {
+     "litera": "C",
+     "html": "92°"
+    },
+    {
+     "litera": "D",
+     "html": "102°"
+    },
+    {
+     "litera": "E",
+     "html": "114°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kąty przy tym samym boku: x + y = 180°, x − y = 68°.</p><p>x = (180+68)/2 = <strong>124°</strong> (kąt rozwarty).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty przy tym samym boku dają w sumie 180°, a ich różnicę już znasz",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zamiana jednostek",
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Samochód F porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>, samochód G z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></math>, H z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>5</mn></msup><mfrac><mtext>dm</mtext><mtext>min</mtext></mfrac></math>, I z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>820</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac></math>, natomiast pojazd J z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></math>. Najwolniej porusza się pojazd:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "F"
+    },
+    {
+     "litera": "B",
+     "html": "G"
+    },
+    {
+     "litera": "C",
+     "html": "H"
+    },
+    {
+     "litera": "D",
+     "html": "I"
+    },
+    {
+     "litera": "E",
+     "html": "J"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>W m/min: F = 49 km/h ≈ 816,7; G = 15 m/s = 900; H = 10⁵ dm/min = 10000; I = 820; J = 0,9 km/min = 900.</p><p>Najwolniejszy: <strong>F</strong> (≈816,7 m/min).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz wszystkie prędkości na te same jednostki, np. na km/h",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Objętość graniastosłupa prostego przedstawionego na rysunku jest równa 120 cm³.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Graniastosłup ten jest prawidłowy"
+    },
+    {
+     "litera": "B",
+     "html": "Pole powierzchni całkowitej graniastosłupa wynosi 184 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "Pole podstawy jest równe 16 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "Ściany boczne są prostokątami"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2021_podkarpackie_q13_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PFPP",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Z rysunku: podstawa kwadrat 4×4, wysokość 10.</p><p>A) prawidłowy (podstawa kwadrat, prosty) — P. B) pole całk. = 2·16 + 4·(4·10) = 32+160 = 192 ≠ 184 — F. C) pole podstawy = 4·4 = 16 — P. D) ściany boczne to prostokąty 4×10 — P.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wielokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Uzupełnij:</p><p>14.1. Miara kąta wewnętrznego sześciokąta foremnego wynosi: …</p><p>14.2. Miara kąta wewnętrznego osiemnastokąta foremnego wynosi: …</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "14.1. 120°; 14.2. 160°",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kąt wewnętrzny n-kąta foremnego = (n−2)·180°/n.</p><p>Sześciokąt: 4·180/6 = 120°. Osiemnastokąt: 16·180/18 = 160°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt zewnętrzny wielokąta foremnego to 360°:n, a wewnętrzny dopełnia go do 180°",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Ile wynosi wartość wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mn>32</mn><mn>7</mn></msup><mo>+</mo><msup><mn>4</mn><mn>18</mn></msup><mo>+</mo><msup><mn>32</mn><mn>7</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><msup><mn>4</mn><mn>16</mn></msup><mo>+</mo><msup><mn>2</mn><mn>16</mn></msup><mo>·</mo><msup><mn>2</mn><mn>16</mn></msup><mo>)</mo></mrow></math></p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "16",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Licznik: 32⁷ = 2³⁵, 4¹⁸ = 2³⁶. 2³⁵ + 2³⁶ + 2³⁵ = 2³⁶ + 2³⁶ = 2³⁷.</p><p>Mianownik: 4¹⁶ = 2³², 2¹⁶·2¹⁶ = 2³². Suma = 2³³.</p><p>2³⁷ : 2³³ = 2⁴ = <strong>16</strong>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Krzysztof ma 256 zł, a Agnieszka ma 71 zł. Ile złotych powinien Krzysztof dać Agnieszce, aby zostało mu dwa razy więcej niż miałaby wtedy Agnieszka?</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "38 zł",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>256 − x = 2(71 + x) → 256 − x = 142 + 2x → 114 = 3x → x = 38.</p><p>Sprawdzenie: 218 = 2·109. Krzysztof daje <strong>38 zł</strong>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> = 2 097 152. Znajdź największą liczbę pierwszą, przez którą dzieli się liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>2 097 152 = 2²¹.</p><p>Jedynym czynnikiem pierwszym jest 2, więc największa liczba pierwsza to <strong>2</strong>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dla jakiej wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> rozwiązaniem poniższego równania jest liczba 2?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>−</mo><mi>a</mi><mi>x</mi><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>22</mn><mi>x</mi><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a = −15",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Dla x = 2: 2x−3 = 1, (2x−3)² = 1.</p><p>Lewa: 5·1 − 2a − 1 − 6 = −2 − 2a. Prawa: 22·2 − 4·4 = 28.</p><p>−2 − 2a = 28 → a = <strong>−15</strong>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Mariusz ma o 40% więcej pieniędzy niż Adam. O ile procent mniej pieniędzy ma Adam od Mariusza?</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "≈28,57% (dokładnie 200/7 %)",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>M = 1,4A (Mariusz ma 40% więcej niż Adam).</p><p>(M−A)/M = 0,4A/1,4A = 2/7 ≈ 0,2857 = 28,57%.</p><p>Adam ma o ok. 28,57% mniej pieniędzy niż Mariusz.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "kierunek-relacji"
+    ],
+    "opis": "Odwrócenie porównania: procent liczony od kwoty Mariusza, nie Adama; symetria 40% nie działa"
+   }
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Pole powierzchni całkowitej sześcianu jest równe 60 cm². Jaką długość ma przekątna jego podstawy?</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2√5 cm",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>6a² = 60 → a² = 10 → a = √10.</p><p>Przekątna podstawy: a√2 = √10·√2 = √20 = <strong>2√5 cm</strong> (≈4,47 cm).</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W pewnym trapezie ramiona mają długość 11 cm i 13 cm, a podstawy 40 cm i 28 cm. Oblicz pole tego trapezu.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2021_podkarpackie_q21_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "34√105 cm² ≈ 348,4 cm²",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Różnica podstaw 40−28 = 12. Rzuty ramion: p + q = 12, q² − p² = 13² − 11² = 48 → q − p = 4, więc p = 4, q = 8.</p><p>Wysokość: h = √(11² − 4²) = √105. Pole = (40+28)/2 · √105 = <strong>34√105 ≈ 348,4 cm²</strong>.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2021_podkarpackie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "graniastosłupy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Szczelnie zamknięte naczynie w kształcie graniastosłupa prawidłowego czworokątnego ma objętość 3000 cm³ i jest częściowo wypełnione wodą. Gdy stoi ono na podstawie to poziom wody sięga do wysokości 24 cm, natomiast gdy na ścianie bocznej to poziom wody sięga do wysokości 8 cm. Jaka jest objętość wody w naczyniu?</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2400 cm³",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Podstawa kwadrat a, wysokość H, a²H = 3000. Objętość wody: 24a² (na podstawie) = 8aH (na boku).</p><p>24a = 8H → H = 3a. Z 3a³ = 3000 → a = 10, H = 30.</p><p>Woda = 24·10² = <strong>2400 cm³</strong>.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

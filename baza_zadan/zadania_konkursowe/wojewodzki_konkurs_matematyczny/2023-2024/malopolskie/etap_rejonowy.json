@@ -1,0 +1,662 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2023/2024",
+ "data": "2024-01-18",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2023-2024_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>9</mn></msup><mo>+</mo><msup><mn>8</mn><mn>8</mn></msup><mo>+</mo><msup><mn>7</mn><mn>7</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfry jedności potęg 9 mają okres 2: 9, 1, 9, 1, … — przy nieparzystym wykładniku wychodzi 9. Cyfry jedności potęg 8 mają okres 4: 8, 4, 2, 6, 8, 4, 2, 6 — ósma z kolei to 6. Cyfry jedności potęg 7 mają okres 4: 7, 9, 3, 1, 7, 9, 3, 1 — siódma z kolei to 3. Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>18</mn></math>, więc cała suma kończy się cyfrą 8.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "patrz tylko na ostatnie cyfry — one powtarzają się co 4 potęgi",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> dzieli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w stosunku 2:3. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> dzieli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> w stosunku 2:3. W jakim stosunku punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> dzielą odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10 : 6 : 9"
+    },
+    {
+     "litera": "B",
+     "html": "2 : 9 : 6"
+    },
+    {
+     "litera": "C",
+     "html": "2 : 2 : 3"
+    },
+    {
+     "litera": "D",
+     "html": "2 : 3 : 5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech AB = 25. Wtedy AC = 10, CB = 15 (podział C w stosunku 2:3). D dzieli CB = 15 w stosunku 2:3, więc CD = 6, DB = 9. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>:</mo><mi>CD</mi><mo>:</mo><mi>DB</mi><mo>=</mo><mn>10</mn><mo>:</mo><mn>6</mn><mo>:</mo><mn>9</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij, że AB ma 25 jednostek — wtedy oba podziały wyjdą całkowite",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby wymierne i niewymierne"
+   ],
+   "tresc_html": "<p>Ile jest liczb niewymiernych wśród pierwiastków kolejnych liczb naturalnych od 1 do 360: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><msqrt><mn>4</mn></msqrt><mo>,</mo><mo>…</mo><mo>,</mo><msqrt><mn>360</mn></msqrt></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "339"
+    },
+    {
+     "litera": "B",
+     "html": "340"
+    },
+    {
+     "litera": "C",
+     "html": "341"
+    },
+    {
+     "litera": "D",
+     "html": "342"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadratami liczb naturalnych wśród 1–360 są kolejno 1, 4, 9, …, 324, czyli 18² = 324 (19² = 361 to już za dużo) — dla nich pierwiastek jest wymierny, to 18 liczb. Pierwiastków niewymiernych jest więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>342</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wymierne są tylko pierwiastki z kwadratów — policz je i odejmij od 360",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kąty",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Jaka jest najmniejsza liczba kątów ostrych utworzonych przez cztery różne proste na płaszczyźnie? Zakładamy, że rozważamy tylko takie układy prostych, które tworzą co najmniej jeden kąt ostry.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy proste — dwie równoległe i jedna do nich prostopadła — nie tworzą żadnego kąta ostrego. Czwarta prosta, nierównoległa i nieprostopadła do żadnej z pozostałych trzech, przecina każdą z nich pod kątem ostrym: to 3 przecięcia, a każde daje po 2 kąty ostre (wierzchołkowe) — mniej się nie da uzyskać, bo dowolna prosta „skośna” względem układu innych kierunków rodzi kąt ostry z każdą z nich. Najmniej kątów ostrych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Wynik dodawania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,195</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>+</mo><mn>991,99</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>+</mo><mn>781,6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math> jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1102,1</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110,21</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11,021</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1021</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy składniki do potęgi 10⁻⁴: 991,99·10⁻⁵ = 99,199·10⁻⁴, 781,6·10⁻⁶ = 7,816·10⁻⁴. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3,195</mn><mo>+</mo><mn>99,199</mn><mo>+</mo><mn>7,816</mn><mo>)</mo><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><mn>110,21</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><mn>1,1021</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie trzy składniki do tej samej potęgi 10⁻⁶ i dopiero dodaj",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "działania na pierwiastkach",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W pewnym sześcianie różnica między długością przekątnej sześcianu a długością jego krawędzi jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></math>. Ile jest równa objętość tego sześcianu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>3</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątna sześcianu o krawędzi a to a√3. Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>a</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math>, a lewa strona to a(√3−1), więc a = √2. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz √2 przed nawias w √6 − √2 i zestaw to z zapisem różnicy dla krawędzi a",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długość krótszej podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest równa 8. Przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> poprowadzono prostą równoległą do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tak, że przecięła ona podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> oraz równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math> są równe. W jakim stosunku punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> dzieli podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 : 3"
+    },
+    {
+     "litera": "B",
+     "html": "2 : 3"
+    },
+    {
+     "litera": "C",
+     "html": "2 : 1"
+    },
+    {
+     "litera": "D",
+     "html": "1 : 4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>DE∥CB i CD∥EB, więc BCDE jest równoległobokiem i EB = CD = 8. Trójkąt AED oraz BCDE mają tę samą wysokość h (odległość między AB i CD). Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AE</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>8</mn><mo>·</mo><mi>h</mi></math>, skąd AE = 16, czyli AE : EB = 16 : 8 = 2 : 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zauważ, że BCDE to równoległobok, a trójkąt ma z nim wspólną wysokość",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> jest punktem przecięcia przekątnych równoległoboku, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> są dwoma kolejnymi wierzchołkami tego równoległoboku. Ile jest równa długość wysokości poprowadzonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7,2"
+    },
+    {
+     "litera": "B",
+     "html": "6,4"
+    },
+    {
+     "litera": "C",
+     "html": "5,6"
+    },
+    {
+     "litera": "D",
+     "html": "4,8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>O(0,0) jest środkiem przekątnych, więc C = (−2,−6), D = (2,−3) (punkty przeciwne do A, B). AB = √(4²+3²) = 5. Pole trójkąta ABD ze wzoru na pole z współrzędnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>18</mn></math>. Wysokość z D na AB: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>·</mo><mn>18</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>7,2</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "punkt D leży symetrycznie do B względem (0,0), a dwa boki są pionowe — policz pole na dwa sposoby",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mi>b</mi><mo>&gt;</mo><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>2</mn></math>. Iloczyn długości dwóch boków trójkąta jest równy iloczynowi długości trzeciego, najdłuższego z boków i wysokości opuszczonej na ten bok. Dokończ poniższe zdanie tak, aby otrzymać zdanie prawdziwe.</p><p>Długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest liczbą</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "mniejszą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>12</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "większą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>13</mn></msqrt></math> i mniejszą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>14</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "większą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>15</mn></msqrt></math> i mniejszą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>16</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "większą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>17</mn></msqrt></math> i mniejszą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>19</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "większą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>20</mn></msqrt></math> i mniejszą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>22</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole trójkąta to (1/2)·a·h (a — najdłuższy bok, h — wysokość na niego), a zarazem (1/2)·b·c·sinα, gdzie α to kąt między bokami b, c, czyli naprzeciw a. Warunek b·c = a·h daje więc sinα = 1, czyli α = 90°: trójkąt jest prostokątny z przeciwprostokątną a = 5. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></msqrt><mo>=</mo><msqrt><mn>21</mn></msqrt></math>, liczba między √20 a √22.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij sobie, w jakim trójkącie iloczyn dwóch boków równa się najdłuższemu razy wysokość",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "równania z jedną zmienną",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Na przewodach elektrycznych siedziały wróble i kawki. Na każdym przewodzie siedziała taka sama liczba wróbli oraz dwie kawki. Liczba ptaków na jednym przewodzie była równa liczbie wszystkich przewodów. Ile było wróbli, jeśli wiadomo, że na wszystkich przewodach łącznie siedziało więcej niż 20 i jednocześnie mniej niż 60 ptaków, a liczba wszystkich kawek dzieli się przez 3?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "35"
+    },
+    {
+     "litera": "E",
+     "html": "42"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech n — liczba przewodów; na każdym jest w wróbli i 2 kawki, więc w + 2 = n. Ptaków łącznie jest n², a 20 &lt; n² &lt; 60 daje n ∈ {5, 6, 7}. Kawek jest łącznie 2n i ma dzielić się przez 3 — pasuje tylko n = 6 (2·6 = 12). Wróbli na przewodzie: 6 − 2 = 4, łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wszystkich ptaków jest kwadrat liczby przewodów — szukaj kwadratu między 20 a 60",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>5</mn></msup><mo>+</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W liczniku: a⁵+a³+a²+1 = a³(a²+1) + (a²+1) = (a²+1)(a³+1). Po podzieleniu przez a²+1 zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "pogrupuj licznik: a⁵ + a³ to a³(a² + 1)",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "statystyka opisowa",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Łucznik oddał do tarczy pewną liczbę strzałów. Za każdy celny strzał mógł otrzymać 1 albo 2, albo 3, albo 4 punkty. Wśród oddanych strzałów: 30% liczby wszystkich strzałów stanowiły strzały za 1 punkt, 40% liczby wszystkich strzałów stanowiły strzały za 2 punkty, osiem strzałów było za 3 punkty, a pozostałe były za 4 punkty. Ile strzałów za cztery punkty oddał łucznik do tarczy, jeśli średnia liczba punktów uzyskanych za wszystkie strzały jest równa 2,2?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "80"
+    },
+    {
+     "litera": "B",
+     "html": "32"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    },
+    {
+     "litera": "E",
+     "html": "32"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech n — liczba wszystkich strzałów. Za 1 pkt: 0,3n, za 2 pkt: 0,4n, za 3 pkt: 8, za 4 pkt: 0,3n − 8. Ze średniej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,3</mn><mi>n</mi><mo>+</mo><mn>0,8</mn><mi>n</mi><mo>+</mo><mn>24</mn><mo>+</mo><mn>4</mn><mo>(</mo><mn>0,3</mn><mi>n</mi><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mi>n</mi></mfrac><mo>=</mo><mn>2,2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,3</mn><mi>n</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>2,2</mn><mi>n</mi></math>, skąd n = 80. Strzałów za 4 punkty: 0,3·80 − 8 = 16.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Równanie naturalnie daje liczbę wszystkich strzałów, a pytają tylko o strzały za 4 punkty"
+   }
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "podobieństwo i skala",
+    "zamiana jednostek",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Prostopadłościan ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> km, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> m, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> dm. Sporządzono siatkę tego prostopadłościanu w skali 1:500. Jaka jest objętość prostopadłościanu sklejonego z tej siatki?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>1250</mn></mfrac></math> l"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>5</mn></mfrac></math> l"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><msup><mrow><mo>(</mo><mn>500</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac></math> l"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>6</mn></msup><mo>·</mo><mi>a</mi><mi>b</mi><mi>c</mi></mrow><msup><mrow><mo>(</mo><mn>500</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac></math> l"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mo>·</mo><mi>a</mi><mi>b</mi><mi>c</mi></mrow><msup><mrow><mo>(</mo><mn>500</mn><mo>)</mo></mrow><mn>3</mn></msup></mfrac></math> l"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W metrach: a km = 1000a m, b m, c dm = 0,1c m. Krawędzie modelu w skali 1:500 (w m): 2a, b/500, c/5000. Objętość modelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>·</mo><mfrac><mi>b</mi><mn>500</mn></mfrac><mo>·</mo><mfrac><mi>c</mi><mn>5000</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>1250000</mn></mfrac></math> m³ = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>1250</mn></mfrac></math> l (1 m³ = 1000 l).</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Każdy wymiar w innej jednostce (km, m, dm), a skala liniowa 1:500 zmniejsza objętość 500³ razy"
+   }
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "liczby pierwsze",
+    "równania z jedną zmienną",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ojciec i jego trzej synowie mają razem 78 lat. Wiek najmłodszego syna jest liczbą pierwszą mniejszą niż 10, wiek średniego syna jest liczbą pierwszą większą niż 10, najstarszy syn jest trzy razy młodszy od ojca, a ojciec ma nieparzystą liczbę lat. Po ilu latach wiek ojca będzie równy sumie lat jego trzech synów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Po 5 latach."
+    },
+    {
+     "litera": "B",
+     "html": "Po 6 latach."
+    },
+    {
+     "litera": "C",
+     "html": "Po 7 latach."
+    },
+    {
+     "litera": "D",
+     "html": "Po 8 latach."
+    },
+    {
+     "litera": "E",
+     "html": "Po 9 latach."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech x — wiek najstarszego syna; ojciec ma wtedy 3x lat, więc 4x + młodszy + średni = 78. Dobierając liczby pierwsze (młodszy &lt; 10, średni &gt; 10) tak, by 4x wyszło całkowite, a 3x nieparzyste, pasuje młodszy = 7, średni = 11: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>78</mn><mo>−</mo><mn>7</mn><mo>−</mo><mn>11</mn><mo>=</mo><mn>60</mn></math>, więc x = 15, a ojciec ma 3·15 = 45 lat (nieparzyste — zgadza się). Synowie razem: 78 − 45 = 33 lat. Po t latach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>33</mn><mo>+</mo><mn>3</mn><mi>t</mi></math>, skąd t = 6.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W pięciokącie, którego kolejne wierzchołki oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>E</mi></math>, przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> są równej długości. Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> jest trzykrotnie większy, niż długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równy 26, obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> jest równy 28, a obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> jest równy 30. Ile jest równa długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    },
+    {
+     "litera": "E",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obwód pięciokąta to 3·AC. Sumując obwody trójkątów ABC, ACE i ECD (26+28+30=84), każdy bok pięciokąta liczy się raz, a AC oraz CE (= AC) po dwa razy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>=</mo><mn>3</mn><mi>AC</mi><mo>+</mo><mn>2</mn><mi>AC</mi><mo>+</mo><mn>2</mn><mi>AC</mi><mo>=</mo><mn>7</mn><mi>AC</mi></math>, skąd AC = 12.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj obwody wszystkich trzech trójkątów i sprawdź, ile razy powtórzy się przekątna",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023-2024_malopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, zaś jego boki mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>4</mn></math>. Na płaszczyźnie wybrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> różny od wierzchołków tego prostokąta i taki, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PO</mi></math> jest równa połowie długości przekątnej tego prostokąta. Ile różnych dzielników będących liczbami naturalnymi ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>PA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PC</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PD</mi><mn>2</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dwa"
+    },
+    {
+     "litera": "B",
+     "html": "trzy"
+    },
+    {
+     "litera": "C",
+     "html": "cztery"
+    },
+    {
+     "litera": "D",
+     "html": "pięć"
+    },
+    {
+     "litera": "E",
+     "html": "sześć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>O jest środkiem prostokąta: OA = OB = OC = OD = R, gdzie R to połowa przekątnej: √(3²+4²)/2 = 5/2, a z treści PO = R. Dla punktów symetrycznych względem O (np. A, C) zachodzi PA²+PC² = 2PO²+2OA² (i podobnie dla B, D), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>PA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PC</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PD</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>8</mn><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>50</mn></math>. Liczba 50 = 2·5² ma sześć dzielników naturalnych: 1, 2, 5, 10, 25, 50.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "punkt P leży na okręgu opisanym na prostokącie — skorzystaj z twierdzenia Talesa dla przekątnych",
+   "czas_min": 5
+  }
+ ]
+}

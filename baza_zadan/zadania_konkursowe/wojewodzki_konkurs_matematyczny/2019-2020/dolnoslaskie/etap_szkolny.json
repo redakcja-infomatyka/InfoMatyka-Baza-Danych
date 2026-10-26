@@ -1,0 +1,922 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "szkolny",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2019/2020",
+ "data": "2019-10-17",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 25,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2020_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2020_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Kasia miała w jednym koszyku 64 kasztany, a w drugim 16 kasztanów. Bawiła się, przekładając połowę kasztanów z tego koszyka, w którym jest więcej, do tego, w którym jest mniej. Po piątym przełożeniu w drugim koszyku było więcej kasztanów niż w pierwszym. O ile więcej?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 26"
+    },
+    {
+     "litera": "B",
+     "html": "o 25"
+    },
+    {
+     "litera": "C",
+     "html": "o 24"
+    },
+    {
+     "litera": "D",
+     "html": "o 23"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma kasztanów w obu koszykach zawsze wynosi 64+16=80. Po kolejnych przełożeniach połowy z koszyka, w którym jest więcej:</p><ul><li>64, 16 → 32, 48</li><li>32, 48 → 56, 24</li><li>56, 24 → 28, 52</li><li>28, 52 → 54, 26</li><li>54, 26 → 27, 53</li></ul><p>Po piątym przełożeniu w pierwszym koszyku jest 27 kasztanów, a w drugim 53, czyli o 26 więcej.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w każdym kroku połów większy koszyk — łączna liczba kasztanów cały czas ta sama",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Suma wszystkich dzielników naturalnych liczby 30 jest równa 72. Ile spośród liczb: 46, 51, 55, 71 ma także sumę wszystkich dzielników naturalnych równą 72?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Jedna"
+    },
+    {
+     "litera": "B",
+     "html": "Dwie"
+    },
+    {
+     "litera": "C",
+     "html": "Trzy"
+    },
+    {
+     "litera": "D",
+     "html": "Cztery"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma dzielników liczby będącej iloczynem dwóch różnych liczb pierwszych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>·</mo><mi>q</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mi>p</mi><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>q</mi><mo>)</mo></math>.</p><p>46=2·23: 3·24=72. 51=3·17: 4·18=72. 55=5·11: 6·12=72. 71 jest pierwsza: 1+71=72.</p><p>Wszystkie cztery liczby mają sumę dzielników równą 72.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż każdą z czterech liczb na czynniki i dodaj wszystkie jej dzielniki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest 4-cyfrowych wielokrotności liczby 5 o sumie cyfr równej 3?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>4-cyfrowa wielokrotność 5 kończy się na 0 lub 5. Gdyby kończyła się na 5, trzy pozostałe cyfry musiałyby dać sumę 3−5, czyli liczbę ujemną – niemożliwe. Zostaje końcówka 0: cyfry tysięcy, setek i dziesiątek (pierwsza ≥1) sumują się do 3.</p><p>Takie trójki to: 1,0,2; 1,1,1; 1,2,0; 2,0,1; 2,1,0; 3,0,0 – dają liczby 1020, 1110, 1200, 2010, 2100, 3000, czyli 6 liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfra jedności nie może być piątką, skoro suma cyfr to tylko 3",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Liczba czterocyfrowa nie może zaczynać się od zera, więc trzeba odrzucić układy z zerem na początku"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Spośród liczb zamieszczonych poniżej wskaż tę, która dzieli się przez trzy różne liczby pierwsze.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100"
+    },
+    {
+     "litera": "B",
+     "html": "150"
+    },
+    {
+     "litera": "C",
+     "html": "200"
+    },
+    {
+     "litera": "D",
+     "html": "250"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (2 liczby pierwsze), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (3 liczby pierwsze), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (2), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup></math> (2).</p><p>Tylko 150 dzieli się przez trzy różne liczby pierwsze: 2, 3 i 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż każdą liczbę na czynniki pierwsze i policz różne czynniki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> takich, że iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mi>n</mi></math> jest równy reszcie z tego dzielenia?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jeśli iloraz jest równy reszcie r, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>=</mo><mi>n</mi><mo>·</mo><mi>r</mi><mo>+</mo><mi>r</mi><mo>=</mo><mi>r</mi><mo>·</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>, przy czym reszta musi być mniejsza od dzielnika: r&lt;n. Więc r musi być dzielnikiem 60.</p><p>Kolejne dzielniki 60: r=1→n=59, r=2→n=29, r=3→n=19, r=4→n=14, r=5→n=11, r=6→n=9 – wszystkie spełniają r&lt;n. Dla r=10 wychodzi już n=5&lt;r, więc dalej warunek się nie spełnia.</p><p>Takich liczb n jest 6.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Reszta musi być mniejsza od dzielnika, więc nie każdy dzielnik 60 daje dobre n"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "potęgi i pierwiastki"
+   ],
+   "tresc_html": "<p>Dane są trzy liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>−</mo><mn>6</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn></math></p><p>Wskaż wypowiedź fałszywą.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>y</mi><mo>−</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>&gt;</mo><mi>z</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mi>y</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn></math>, więc każde kolejne podniesienie do kwadratu i odjęcie 2 znowu daje 2 – stąd x=2. Podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>2</mn></math>, więc y=2. Natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>3</mn></math>, więc z=3.</p><p>Skoro x=y=2, fałszywa jest wypowiedź x&gt;y.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz od najbardziej wewnętrznego nawiasu — liczby wcale nie rosną",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest wszystkich liczb naturalnych, przez które można rozszerzyć ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>40</mn></mfrac></math> tak, aby otrzymać ułamek, w którego liczniku i mianowniku są liczby trzycyfrowe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18"
+    },
+    {
+     "litera": "B",
+     "html": "19"
+    },
+    {
+     "litera": "C",
+     "html": "22"
+    },
+    {
+     "litera": "D",
+     "html": "24"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozszerzenie przez k daje licznik 19k i mianownik 40k – oba mają być trzycyfrowe.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><mn>19</mn><mi>k</mi><mo>≤</mo><mn>999</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>52</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><mn>40</mn><mi>k</mi><mo>≤</mo><mn>999</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>24</mn></math>.</p><p>Oba warunki spełniają k od 6 do 24, czyli 19 liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "znajdź najmniejszy mnożnik dający trzycyfrowy licznik i największy dający trzycyfrowy mianownik",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie liczb całkowitych w przedziale obustronnie domkniętym (od 6 do 24 włącznie)"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Zamalowano 10% powierzchni kwadratu, a następnie jeszcze 10% pozostałej części tego kwadratu. Jaki procent powierzchni tego kwadratu został ogółem zamalowany?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20%"
+    },
+    {
+     "litera": "B",
+     "html": "19%"
+    },
+    {
+     "litera": "C",
+     "html": "18%"
+    },
+    {
+     "litera": "D",
+     "html": "17%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po pierwszym zamalowaniu zostaje 90% kwadratu. Drugie zamalowanie to 10% z tych 90%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,1</mn><mo>·</mo><mn>90</mn><mo>%</mo><mo>=</mo><mn>9</mn><mo>%</mo></math>.</p><p>Razem zamalowano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>%</mo><mo>+</mo><mn>9</mn><mo>%</mo><mo>=</mo><mn>19</mn><mo>%</mo></math> powierzchni kwadratu.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "drugie 10% liczysz już z tego, co zostało niezamalowane",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Drugie 10% liczy się od pozostałej części, a nie od całego kwadratu"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Na osi liczbowej zaznaczono liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>−</mo><mn>11</mn></math> oraz dwie różne liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> takie, że każda z nich leży dwukrotnie dalej od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> niż od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Jaka jest odległość na osi liczbowej między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "15"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkt dwukrotnie dalej od a=4 niż od b=−11 spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>t</mi><mo>−</mo><mn>4</mn><mo>|</mo><mo>=</mo><mn>2</mn><mo>|</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>|</mo></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mn>4</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>)</mo></math> wychodzi t=−26. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>2</mn><mo>(</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>)</mo></math> wychodzi t=−6. To x i y.</p><p>Odległość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>26</mn><mo>)</mo><mo>|</mo><mo>=</mo><mn>20</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "myśl odległościami w stosunku 2:1 — jeden punkt leży między a i b, drugi poza nimi",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Na osi liczbowej zaznaczono kropkami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> (patrz rysunek). Wskaż równość fałszywą.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>−</mo><mi>y</mi><mo>=</mo><mi>y</mi><mo>−</mo><mi>x</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>z</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>:</mo><mi>y</mi><mo>=</mo><mi>y</mi><mo>:</mo><mi>x</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mi>z</mi></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Między 0 a 1 mieści się jedna dodatkowa kreska, więc odstęp między sąsiednimi kreskami wynosi 0,5. Odczytujemy: x=1,5, y=3, z=4,5.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>:</mo><mi>y</mi><mo>=</mo><mn>4,5</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>1,5</mn></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>:</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>:</mo><mn>1,5</mn><mo>=</mo><mn>2</mn></math> – ilorazy są różne, więc ta równość jest fałszywa.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj z rysunku, ile wynosi jedna mała działka",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek"
+    ],
+    "opis": "Etykieta 1 stoi dwie kreski za zerem, więc jedna działka osi to nie 1"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Który spośród ilorazów zamieszczonych poniżej jest najmniejszy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,1 km : 10 dm"
+    },
+    {
+     "litera": "B",
+     "html": "0,01 t : 10 dag"
+    },
+    {
+     "litera": "C",
+     "html": "10 l : 100 ml"
+    },
+    {
+     "litera": "D",
+     "html": "10 ha : 100 a"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy oba składniki każdego ilorazu do tej samej jednostki:</p><ul><li>A: 0,1 km : 10 dm = 100 m : 1 m = 100</li><li>B: 0,01 t : 10 dag = 10000 g : 100 g = 100</li><li>C: 10 l : 100 ml = 10000 ml : 100 ml = 100</li><li>D: 10 ha : 100 a = 1000 a : 100 a = 10</li></ul><p>Najmniejszy jest iloraz D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w każdym ilorazie zamień obie wielkości na tę samą jednostkę",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Jurek miał 8,50 zł, Wojtek 7,20 zł, a Henryk 6,90 zł. Cała trójka postanowiła złożyć się na piłkę plażową. Każdy dał tyle, ile brakowało mu do 10 zł. Uzbierana kwota była równa cenie piłki. Ile spośród tych trzech osób mogło kupić tę piłkę za pieniądze posiadane na początku?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Trzy"
+    },
+    {
+     "litera": "B",
+     "html": "Dwie"
+    },
+    {
+     "litera": "C",
+     "html": "Jedna"
+    },
+    {
+     "litera": "D",
+     "html": "Żadna"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dopłaty do 10 zł: Jurek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>8,50</mn><mo>=</mo><mn>1,50</mn></math>, Wojtek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7,20</mn><mo>=</mo><mn>2,80</mn></math>, Henryk <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>6,90</mn><mo>=</mo><mn>3,10</mn></math> zł.</p><p>Cena piłki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,50</mn><mo>+</mo><mn>2,80</mn><mo>+</mo><mn>3,10</mn><mo>=</mo><mn>7,40</mn></math> zł. Tylko Jurek miał na starcie co najmniej tyle (8,50 zł), więc mógłby kupić piłkę sam – jedna osoba.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile każdemu brakuje do 10 zł, i porównaj sumę z tym, co kto miał",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wczoraj o godzinie 7.00 Joanna, Katarzyna, Wojciech i Jerzy wyruszyli samochodem w podróż, która trwała 15 godzin. Najpierw przez czwartą część czasu podróży samochód prowadziła Joanna, potem zmieniła ją Katarzyna, która prowadziła przez trzecią część pozostałego czasu podróży. Kolejnym kierowcą był Wojciech, który prowadził samochód przez połowę czasu pozostałego do końca podróży. Ostatnim kierowcą był Jerzy. O której godzinie Jerzy zasiadł za kierownicą samochodu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "17:45"
+    },
+    {
+     "litera": "B",
+     "html": "18:15"
+    },
+    {
+     "litera": "C",
+     "html": "18:45"
+    },
+    {
+     "litera": "D",
+     "html": "19:15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czas podróży to 15 h. Joanna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>3,75</mn></math> h, do godziny 10:45. Zostaje 11,25 h; Katarzyna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11,25</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>3,75</mn></math> h, do 14:30.</p><p>Zostaje 7,5 h; Wojciech: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>3,75</mn></math> h, do 18:15. O tej godzinie za kierownicą zasiadł Jerzy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każdy kolejny ułamek bierz z czasu, który został, a nie z całych 15 godzin",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Ekipa budowlana kładzie chodnik. Fragment, który zbudowano do wczoraj ma na planie sporządzonym w skali 1 : 1000 długość 7,5 cm. Dziś, po zbudowaniu 50 m chodnika, sporządzono nowy plan, tym razem w innej skali i na nim cały zbudowany dotychczas chodnik ma długość 2,5 cm. W jakiej skali sporządzono ten drugi plan?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 : 7500"
+    },
+    {
+     "litera": "B",
+     "html": "1 : 5000"
+    },
+    {
+     "litera": "C",
+     "html": "1 : 3000"
+    },
+    {
+     "litera": "D",
+     "html": "1 : 2500"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rzeczywista długość fragmentu z pierwszego planu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>7500</mn></math> cm = 75 m. Po dobudowaniu 50 m całość ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>+</mo><mn>50</mn><mo>=</mo><mn>125</mn></math> m = 12500 cm.</p><p>Na nowym planie ta długość to 2,5 cm, więc skala wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12500</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>5000</mn></math>, czyli 1 : 5000.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pierwszego planu odczytaj długość w metrach i dopiero dodaj dzisiejsze 50 m",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty"
+   ],
+   "tresc_html": "<p>Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CF</mi></math> sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> (patrz rysunek). Na rysunku podano miary niektórych kątów i jeden kąt oznaczono literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "55°"
+    },
+    {
+     "litera": "B",
+     "html": "60°"
+    },
+    {
+     "litera": "C",
+     "html": "65°"
+    },
+    {
+     "litera": "D",
+     "html": "70°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątne AD, BE, CF dzielą sześciokąt na 6 trójkątów, a w P powstają trzy pary kątów wierzchołkowych, więc ich sumy dają 180°.</p><p>W trójkącie AFP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>APF</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc ∠APF=70°. W trójkącie BCP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>BPC</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc ∠BPC=50°.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>70</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w trójkątach AFP i BCP policz kąty przy P, potem skorzystaj z prostej AD i kątów wierzchołkowych",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDEF</mi></math> położone tak, jak na rysunku. Zachodzi równość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>DE</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równe 10 cm², a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równe 40 cm². Jakie pole ma czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEFC</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "90 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "80 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "60 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q16_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>CD jest wysokością trójkątów ADC i BCD (bo CD⊥AE), a D leży między A i B, więc pole ABC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>50</mn></math> cm².</p><p>Skoro pole ABC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AB</mi><mo>·</mo><mi>CD</mi></math>, a AB=DE=CD (bok kwadratu), to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>CD</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>, więc pole kwadratu CDEF wynosi 100 cm².</p><p>BEFC to kwadrat bez trójkąta BCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>90</mn></math> cm².</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj oba pola — razem dają trójkąt o podstawie AB i wysokości równej bokowi kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W kwadracie podzielonym na 36 jednakowych mniejszych kwadratów wyznaczono figurę zaznaczoną na rysunku szarym kolorem. Jaką częścią pola dużego kwadratu jest pole tej figury?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Reading the grid, the shaded polygon's vertices (in grid units of the 6×6 square) are: (3,0),(4,2),(6,3),(4,4),(6,5),(4,6),(3,4),(2,6),(0,5),(2,4),(0,3),(2,2).</p><p>Shoelace formula gives area = 16 grid-units²; total square = 36.</p><p>Fraction = 16/36 = 4/9.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_WRONG",
+     "opis": "Klucz (A, czyli 2/3) jest błędny — poprawna odpowiedź to D, czyli 4/9. Duży kwadrat podzielono na 36 jednakowych małych kwadratów (siatka 6×6). Pole szarej figury (gwiazdy) po policzeniu metodą pól wynosi dokładnie 16 małych kwadracików, więc stosunek pól to 16/36 = 4/9. Potwierdza to bezpośredni pomiar rysunku: szary obszar zajmuje około 44% dużego kwadratu, a więc na pewno nie 2/3, co odpowiadałoby aż około 67% powierzchni. Modele AI podały tu prawidłową odpowiedź D."
+    }
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zamiana jednostek",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Wyobraź sobie prostopadłościan o wymiarach 1 mm × 1 dm × 1 km. Ile jest równa jego objętość?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100 m³"
+    },
+    {
+     "litera": "B",
+     "html": "10 m³"
+    },
+    {
+     "litera": "C",
+     "html": "0,1 m³"
+    },
+    {
+     "litera": "D",
+     "html": "0,01 m³"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zamieniamy na metry: 1 mm = 0,001 m, 1 dm = 0,1 m, 1 km = 1000 m.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,001</mn><mo>·</mo><mn>0,1</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>0,1</mn></math> m³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystkie trzy wymiary na metry, zanim pomnożysz",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Wszystkie krawędzie pewnego graniastosłupa o podstawie 10-kąta są tej samej długości. Suma długości wszystkich krawędzi tej bryły jest równa 450 cm. Ile jest równy obwód jednej ściany bocznej tej bryły?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15 cm"
+    },
+    {
+     "litera": "B",
+     "html": "45 cm"
+    },
+    {
+     "litera": "C",
+     "html": "60 cm"
+    },
+    {
+     "litera": "D",
+     "html": "150 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie 10-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>30</mn></math> krawędzi, wszystkie o długości a. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mi>a</mi><mo>=</mo><mn>450</mn></math> wynika a=15 cm.</p><p>Ściana boczna to kwadrat o boku a, więc jej obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>60</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, ile krawędzi ma taki graniastosłup",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q20",
+   "numer": 20,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z prostopadłościanu o polu powierzchni 550 cm² wycięto sześcian o polu powierzchni 150 cm² i otrzymano bryłę taką, jak na rysunku. Ile jest równe pole powierzchni tej bryły?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "400 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "500 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "600 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "700 cm²"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q20_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Sześcian ma pole powierzchni 150 cm², więc jedna jego ściana ma 150 : 6 = 25 cm², a krawędź 5 cm. Z rysunku wynika, że sześcian wycięto z krawędzi prostopadłościanu na całej jego głębokości — głębokość bryły jest równa krawędzi sześcianu (5 cm).</p><p>Dlatego aż <b>cztery</b> ściany sześcianu leżały na powierzchni prostopadłościanu (górna, prawa oraz przednia i tylna) i te fragmenty znikają: −4 · 25 cm². Odsłaniają się natomiast tylko <b>dwie</b> ściany wewnętrzne wcięcia (pozioma i pionowa): +2 · 25 cm². Zmiana pola wynosi więc (2 − 4) · 25 = −50 cm².</p><p>Pole powierzchni otrzymanej bryły: 550 − 50 = <b>500 cm²</b> (odpowiedź B).</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Sześcian wycięto przez całą grubość bryły, więc reguła, że wycięcie narożnika nie zmienia pola, tu nie działa"
+   }
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Używając cyfr 3, 5, 6 – każdej tylko raz, można ułożyć sześć liczb trzycyfrowych. Dwie z nich są liczbami pierwszymi. Są to: …………… i …………… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "653 i 563",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z cyfr 3, 5, 6 można ułożyć: 356, 365, 536, 563, 635, 653. Liczby parzyste (356, 536) i kończące się na 5 (365, 635) dzielą się przez 2 lub 5, więc nie są pierwsze.</p><p>Zostają 563 i 653 – żadna z nich nie dzieli się przez 7, 11, 13, 17, 19 ani 23 (więcej sprawdzać nie trzeba, bo √653&lt;26), więc obie są pierwsze.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "liczba pierwsza nie może kończyć się cyfrą parzystą ani piątką",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Liczba 231 ma 8 dzielników. Sześć z nich, to: 1, 3, 7, 11, 33, 231. Dwoma pozostałymi dzielnikami są: …………… i …………… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "21 i 77",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>231</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>, więc dzielnikami są też iloczyny par tych czynników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>21</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>77</mn></math> (obok już wymienionego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>33</mn></math>).</p><p>Brakujące dzielniki to 21 i 77.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dzielniki łącz w pary o iloczynie 231",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "kąty"
+   ],
+   "tresc_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOC</mi></math> ma miarę 122°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOD</mi></math> ma miarę 121° (patrz rysunek).</p><ul><li>Miara najmniejszego z kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>γ</mi></math> jest równa …………… stopni.</li><li>Miara największego z kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>γ</mi></math> jest równa …………… stopni.</li></ul>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q23_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "najmniejszy kąt: 58, największy kąt: 63",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąty α, β, γ leżą na prostej AD, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Dodając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>AOC</mi><mo>=</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>122</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>BOD</mi><mo>=</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>121</mn><mo>°</mo></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>+</mo><mi>β</mi><mo>=</mo><mn>243</mn><mo>°</mo></math>, czyli β=63°.</p><p>Stąd α=122°−63°=59°, a γ=121°−63°=58°. Najmniejszy kąt to γ=58°, największy to β=63°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty α i γ dopełniają podane kąty do kąta półpełnego",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> są prostopadłe i przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, który dzieli je na odcinki o długościach podanych na rysunku.</p><ul><li>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCP</mi></math> jest o …………… mniejsze od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APD</mi></math>.</li><li>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABP</mi></math> stanowi …………… procent pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</li></ul>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2020_dolnoslaskie_q24_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "pole trójkąta BCP jest o 6 (cm²) mniejsze od pola APD; pole trójkąta ABP stanowi 60 procent pola ABCD",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole BCP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>18</mn></math> cm², pole APD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></math> cm² – różnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>6</mn></math> cm².</p><p>Pole ABP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>72</mn></math> cm², pole CDP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> cm². Pole ABCD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>72</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>120</mn></math> cm².</p><p>Udział ABP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>:</mo><mn>120</mn><mo>=</mo><mn>60</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole każdego z czterech trójkątów to połowa iloczynu jego dwóch odcinków",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2020_dolnoslaskie_q25",
+   "numer": 25,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Belkę w kształcie prostopadłościanu o wymiarach 7 cm × 7 cm × 177 cm pocięto na największą możliwą liczbę kostek sześciennych o krawędzi 7 cm i pozostała jedna mniejsza część.</p><p>Jej pole powierzchni jest równe …………… cm², a objętość …………… cm³.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "pole powierzchni: 154 (cm²), objętość: 98 (cm³)",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>177</mn><mo>:</mo><mn>7</mn><mo>=</mo><mn>25</mn></math> reszty 2, więc powstaje 25 sześcianów, a zostaje kawałek o wymiarach 7 cm × 7 cm × 2 cm.</p><p>Pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>98</mn><mo>+</mo><mn>56</mn><mo>=</mo><mn>154</mn></math> cm². Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>98</mn></math> cm³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel 177 przez 7 z resztą — reszta jest trzecim wymiarem ostatniego kawałka",
+   "czas_min": 2
+  }
+ ]
+}

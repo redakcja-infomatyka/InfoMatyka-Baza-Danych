@@ -1,0 +1,496 @@
+{
+ "konkurs": "Konkurs matematyczny dla uczniów szkoły podstawowej (lubelskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "lubelskie",
+ "rok_szkolny": "2025/2026",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2026_lubelskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2026_lubelskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Liczba równa wartości bezwzględnej wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>−</mo><mn>0,8</mn></mrow></math> znajduje się na osi liczbowej pomiędzy liczbami:</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−1 i −0,2"
+    },
+    {
+     "litera": "B",
+     "html": "−0,2 i 0"
+    },
+    {
+     "litera": "C",
+     "html": "0 i 0,2"
+    },
+    {
+     "litera": "D",
+     "html": "0,2 i 1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obliczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>−</mo><mn>0,8</mn><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>7</mn><mn>15</mn></mfrac></mrow></math>.</p><p>Wartość bezwzględna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac></math> ≈ 0,47, czyli liczba leży między 0,2 i 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 1 − 2/3 na ułamek dziesiętny i dopiero potem odejmij 0,8",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytanie dotyczy wartości bezwzględnej wyrażenia, a samo wyrażenie jest ujemne"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Liczba <em>sfeniczna</em> to liczba naturalna, która jest iloczynem trzech różnych liczb pierwszych. Ile jest liczb <em>sfenicznych</em> wśród liczb: 20, 30, 42, 45, 60?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dwie"
+    },
+    {
+     "litera": "B",
+     "html": "trzy"
+    },
+    {
+     "litera": "C",
+     "html": "cztery"
+    },
+    {
+     "litera": "D",
+     "html": "pięć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math>.</p><p>Iloczynem trzech różnych liczb pierwszych są tylko 30 i 42 — to dwie liczby sfeniczne.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż każdą z pięciu liczb na czynniki pierwsze i sprawdź, czy są trzy różne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "60 ma trzy różne dzielniki pierwsze, ale nie jest iloczynem trzech różnych liczb pierwszych (2 występuje dwa razy)"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Do pewnej liczby dwucyfrowej Janek dopisał dwukrotnie tę samą liczbę, otrzymując w ten sposób liczbę sześciocyfrową. Ile razy otrzymana liczba jest większa od liczby początkowej?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1111 razy"
+    },
+    {
+     "litera": "B",
+     "html": "10101 razy"
+    },
+    {
+     "litera": "C",
+     "html": "1000 razy"
+    },
+    {
+     "litera": "D",
+     "html": "nie można obliczyć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba dwucyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zapisana trzykrotnie obok siebie daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10000</mn><mi>n</mi><mo>+</mo><mn>100</mn><mi>n</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>10101</mn><mi>n</mi></mrow></math>. Nowa liczba jest więc 10101 razy większa od początkowej.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sześciocyfrowa liczba to N·10000 + N·100 + N",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> stanowi 10% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> stanowi 20% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> stanowi 30% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, a liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> stanowi 40% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Ile jest równy iloraz liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> przez liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>.</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>25</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>200</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podstawiamy kolejno: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mn>0,1</mn><mi>B</mi><mo>=</mo><mn>0,1</mn><mo>·</mo><mn>0,2</mn><mi>C</mi><mo>=</mo><mn>0,02</mn><mi>C</mi><mo>=</mo><mn>0,02</mn><mo>·</mo><mn>0,3</mn><mi>D</mi><mo>=</mo><mn>0,006</mn><mi>D</mi></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mn>0,4</mn><mi>D</mi></mrow></math>. Iloraz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>A</mi><mi>E</mi></mfrac><mo>=</mo><mfrac><mrow><mn>0,006</mn><mi>D</mi></mrow><mrow><mn>0,4</mn><mi>D</mi></mrow></mfrac><mo>=</mo><mn>0,015</mn><mo>=</mo><mfrac><mn>3</mn><mn>200</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź kolejno A i E przez D, procenty mnożąc jako ułamki dziesiętne",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "układ współrzędnych",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokątnym układzie współrzędnych dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math> o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mo>(</mo><mn>7</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math> wynosi 25 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>j</mi><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math> jest równy 31 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math> jest trójkątem prostokątnym."
+    },
+    {
+     "litera": "4",
+     "html": "Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> jest środkiem najdłuższego boku trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MA</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MK</mi><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Pole (wzór Gaussa) wynosi 25 j² (P). Obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>+</mo><mn>5</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>26,2</mn></mrow></math> j, a nie 31 j (F). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>MA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>AK</mi><mn>2</mn></msup><mo>=</mo><mn>125</mn><mo>=</mo><msup><mi>MK</mi><mn>2</mn></msup></mrow></math>, kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty (P). Środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MK</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1,5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, a nie (2, 3) (F).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q6",
+   "numer": 6,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "nierówności",
+    "wzory skróconego mnożenia",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Dana jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>(</mo><mn>2</mn><mo>−</mo><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>−</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>≤</mo><mn>6</mn><mi>x</mi><mo>+</mo><mo>(</mo><mn>2</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza niewiadomą.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot></math> jest najmniejszą liczbą spełniającą tę nierówność."
+    },
+    {
+     "litera": "2",
+     "html": "W zbiorze rozwiązań tej nierówności są tylko cztery liczby całkowite niedodatnie."
+    },
+    {
+     "litera": "3",
+     "html": "Wszystkie liczby należące do zbioru rozwiązań tej nierówności należą także do zbioru rozwiązań nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mo>−</mo><mn>3</mn></mrow></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Lewa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mn>18</mn><mo>=</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>14</mn></mrow></math>, prawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mo>(</mo><mn>4</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math>. Nierówność upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>18</mn><mo>≤</mo><mn>6</mn><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≥</mo><mo>−</mo><mn>3</mn></mrow></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot></math> = −3 to najmniejsza liczba w tym zbiorze (P). Niedodatnie liczby całkowite spełniające warunek to −3, −2, −1, 0 — dokładnie cztery (P). Liczba −3 należy do rozwiązań, ale nie spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mo>−</mo><mn>3</mn></mrow></math> (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozwiń wzorami skróconego mnożenia — wyrazy z x² po obu stronach się zniosą",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator",
+     "zbior-liczb"
+    ],
+    "opis": "Rozwiązaniem jest nierówność nieostra, a w zdaniu 3 jest ostra; w zdaniu 2 liczby niedodatnie obejmują zero"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "pierwiastki zagnieżdżone",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Poniżej podane są zdania dotyczące potęg i pierwiastków.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2025</mn></msup><mo>)</mo></mrow><mn>2026</mn></msup></math> ma w rzędzie jedności cyfrę 9."
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>19</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msup><mn>0</mn><mrow><mn>2025</mn><mo>·</mo><mn>2026</mn></mrow></msup></msqrt><mo>·</mo><msup><mn>2025</mn><mn>2026</mn></msup><mo>=</mo><msup><mn>2025</mn><mn>2026</mn></msup></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wykładnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>·</mo><mn>2026</mn></mrow></math> daje resztę 2 z dzielenia przez 4 (2025≡1, 2026≡2), a cyfry jedności potęg 3 powtarzają się 3, 9, 7, 1 — dla reszty 2 wychodzi 9 (P). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>19</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math>, pierwiastek się zgadza (P). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0</mn><mrow><mn>2025</mn><mo>·</mo><mn>2026</mn></mrow></msup></math> = 0, więc lewa strona wynosi 0, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2025</mn><mn>2026</mn></msup></math> (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfra jedności z cyklu potęg trójki, a pierwiastek sprawdź podnosząc prawą stronę do kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Dane są cztery liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>b</mi><mi>c</mi><mi>d</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>c</mi><mi>d</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mi>d</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>. Jakie to liczby?</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równa …</li><li>b) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa …</li><li>c) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest równa …</li><li>d) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równa …</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 1/42, b) 1/7, c) 1/3, d) 1/2",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>42</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>",
+    "punktacja_html": "<p>Za każdą poprawnie wyznaczoną liczbę przyznaje się 1 pkt.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podstawiaj od ostatnich równań w górę: a+b+c wstaw do sumy, potem a+b do kolejnego",
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Janek kupił mydło w kształcie dużej kuli. W ciągu 26 dni mydło zużyło się tak, że została z niego kula o promieniu trzy razy mniejszym niż początkowo. Na ile dni, przy takim samym dziennym zużyciu, wystarczy Jankowi tego mydła?</p><p>Wpisz tylko odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promień maleje 3-krotnie, więc objętość maleje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup></math> = 27 razy — pozostała kula ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>27</mn></mfrac></math> początkowej objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math>. W ciągu 26 dni zużyto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>26</mn><mn>27</mn></mfrac></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math>, czyli dziennie ubywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>V</mi><mn>27</mn></mfrac></math>. Tyle właśnie zostało, więc mydła starczy jeszcze na 1 dzień.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_CORRECT",
+     "opis": "Klucz (1 dzień) jest poprawny. Niech początkowa objętość kuli mydła to V. Po 26 dniach promień zmalał 3 razy, więc objętość pozostałej kuli to V·(1/3)³ = V/27. Zużyto zatem V − V/27 = 26/27 V w ciągu 26 dni, czyli dziennie V/27. Pytanie dotyczy tego, na ile dni wystarczy pozostałego mydła (kuli o objętości V/27): (V/27) : (V/27) = 1 dzień. Modele AI odpowiedziały „27 dni”, ale to jest łączny czas życia całej kostki od początku, a nie to, o co pyta zadanie — mydła zostało już tylko na 1 dzień."
+    }
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "porównaj objętości, nie promienie — skala długości działa w trzeciej potędze",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Promień 3 razy mniejszy to objętość 27 razy mniejsza; pytanie dotyczy pozostałej części mydła, nie całości"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Spośród wszystkich liczb trzycyfrowych Janek losuje jedną liczbę. Jakie jest prawdopodobieństwo, że suma cyfr liczby wylosowanej przez Janka będzie równa 3?</p><p>Wpisz tylko odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1/150",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczb trzycyfrowych jest 900. Szukamy takich, w których suma cyfr wynosi 3, z cyfrą setek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≥</mo><mn>1</mn></mrow></math>: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math> mamy 102, 111, 120; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math> mamy 201, 210; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn></mrow></math> mamy 300 — razem 6 liczb. Prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>900</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>150</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz wszystkie liczby o sumie cyfr 3; wszystkich trzycyfrowych jest 900",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczb trzycyfrowych jest 900; łatwo też pominąć 300 przy wypisywaniu"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Pole powierzchni całkowitej pewnego sześcianu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>2</mn></msup></math>.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Długość krawędzi tego sześcianu zapisana w notacji wykładniczej wynosi …</li><li>b) Objętość tego sześcianu zapisana w notacji wykładniczej wynosi …</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 5·10³ cm, b) 1,25·10¹¹ cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></math> cm; b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel pole przez 6, a wynik zapisz tak, by wykładnik był parzysty — wtedy pierwiastek jest łatwy",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "graniastosłupy",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Podczas lekcji matematyki Janek rozciął kwadratową kartkę papieru na dwa przystające prostokąty. Następnie każdy prostokąt złożył w ten sposób, że otrzymał powierzchnie boczne dwóch różnych graniastosłupów prawidłowych czworokątnych. Antek, jego kolega, obliczył, że suma objętości tych graniastosłupów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>192</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>. Oblicz pole powierzchni kartki, którą rozciął Janek. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "256 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie długością krawędzi podstawy pierwszego graniastosłupa. Powierzchnię boczną tworzy prostokąt o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi></mrow></math> (obwód podstawy) na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>x</mi></mrow></math> (wysokość), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>·</mo><mn>8</mn><mi>x</mi><mo>=</mo><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math>. Drugi graniastosłup ma krawędź podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> i wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>16</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>16</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>192</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>192</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> cm. Każdy z dwóch przystających prostokątów ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>·</mo><mn>8</mn><mi>x</mi><mo>=</mo><mn>32</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, więc pole kartki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>256</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>2</mn></msup></math>.</p>",
+    "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i poprawne zapisanie objętości jednego graniastosłupa w zależności od jednej zmiennej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – długość krawędzi podstawy jednego z graniastosłupów, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>·</mo><mn>8</mn><mi>x</mi></mrow></math></li><li>2 pkt – poprawne zapisanie objętości drugiego graniastosłupa w zależności od jednej zmiennej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>4</mn><mi>x</mi></mrow></math></li><li>3 pkt – poprawne zapisanie, zgodnie z warunkami zadania, równania jako sumy objętości graniastosłupów, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>16</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>192</mn></mrow></math> [cm³]</li><li>4 pkt – poprawne rozwiązanie równania zapisanego zgodnie z warunkami zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> [cm]</li><li>5 pkt – poprawne obliczenie pola powierzchni kartki: 256 cm²</li></ul>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Graniastosłupy mają być różne, więc prostokąty składa się wzdłuż różnych boków"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "prędkość / droga / czas",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Z Lublina do Puław wyruszył rowerem Janek, poruszając się ze stałą prędkością. Po 30 minutach, w tym samym kierunku, wyruszył samochodem jego brat Staś. Po 10 minutach jazdy Staś dogonił Janka i kontynuował jazdę z niezmienioną prędkością. Po dotarciu do Puław natychmiast zawrócił. Po upływie godziny od chwili wyjazdu z Lublina Staś, jadąc w drodze powrotnej, ponownie minął Janka. Oblicz, z jaką prędkością poruszał się każdy z nich. Odległość między Lublinem a Puławami wynosi 55 km. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "rower: 20 km/h, samochód: 80 km/h",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza prędkość roweru, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prędkość samochodu (w km/h). Do pierwszego spotkania Janek jechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> godziny, a Staś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> godziny; przebyte drogi są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>y</mi></mrow></math>. Do drugiego spotkania (w drodze powrotnej) suma dróg Janka i Stasia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>55</mn></mrow></math> km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>55</mn></mrow></math>. Z układu tych równań otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> km/h oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math> km/h.</p>",
+    "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i poprawne zapisanie długości drogi przebytej do pierwszego spotkania, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – prędkość roweru w km/h, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – prędkość samochodu w km/h, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mi>x</mi></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>y</mi></mrow></math> [km]</li><li>2 pkt – zapisanie, zgodnie z warunkami zadania, długości drogi przebytej do drugiego spotkania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mi>x</mi></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mi>y</mi></mrow></math> [km]</li><li>3 pkt – zapisanie, zgodnie z warunkami zadania, jednego równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>y</mi></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>55</mn></mrow></math></li><li>4 pkt – zapisanie, zgodnie z warunkami zadania, układu równań prowadzącego do rozwiązania zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>y</mi></mrow></mtd></mtr><mtr><mtd><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>55</mn></mrow></mtd></mtr></mtable></mrow></math></li><li>5 pkt – poprawne rozwiązanie układu równań (obliczenie prędkości roweru i prędkości samochodu): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> km/h, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math> km/h</li></ul>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Godzinę liczy się od wyjazdu Stasia, a nie od wyjazdu Janka, który ma o 30 minut więcej jazdy"
+   }
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Na jednym z placów w Hoi An, uważanym za najpiękniejsze miasto Wietnamu, znajduje się kwadratowa sadzawka o boku długości 10 stóp. Na środku sadzawki wyrósł kwiat lotosu, którego czubek wystaje 1 stopę ponad powierzchnię wody. Gdy powiał lekki, wieczorny wietrzyk, kwiat przechylił się i dotknął środka jednego z brzegów sadzawki, całkowicie zanurzając się pod wodą. Oblicz głębokość sadzawki w stopach. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 stóp",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza głębokość sadzawki (w stopach); wtedy wysokość lotosu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>. Odległość od środka sadzawki do środka brzegu wynosi 5 stóp. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>25</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> stóp.</p>",
+    "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i zapisanie, zgodnie z warunkami zadania, wysokości lotosu, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – głębokość sadzawki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> – wysokość lotosu</li><li>2 pkt – poprawne, zgodne z warunkami zadania, zapisanie zależności wynikającej z twierdzenia Pitagorasa i prowadzącej do obliczenia głębokości sadzawki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>3 pkt – poprawne obliczenie głębokości sadzawki (rozwiązanie równania): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> stóp</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2026_lubelskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "wzory skróconego mnożenia",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ROMB</mi></math> i romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AMOR</mi></math> położone są tak, jak na rysunku. Różnica długości przekątnych rombu jest równa 20 cm. Oblicz różnicę pól kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ROMB</mi></math> i rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AMOR</mi></math>. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2026_lubelskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "100 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie bokiem kwadratu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> połową długości krótszej przekątnej rombu; wtedy połowa dłuższej przekątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>. Bok kwadratu spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math>, więc pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math>. Pole rombu o przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mi>x</mi><mo>·</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi></mrow></math>. Różnica pól wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>100</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>2</mn></msup></math>.</p>",
+    "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i poprawne zapisanie zależności pomiędzy bokiem kwadratu, a odcinkiem będącym połową przekątnej rombu, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – długość boku kwadratu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – połowa długości krótszej przekątnej rombu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>2 pkt – poprawne przekształcenie zapisanego wyrażenia, w tym poprawne zastosowanie wzoru skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math></li><li>3 pkt – poprawne zapisanie pola kwadratu (zależność od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math></li><li>4 pkt – poprawne zastosowanie wzoru na obliczenie pola rombu, przy danych przekątnych i przekształcenie zapisanego wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mi>x</mi><mo>·</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi></mrow></math></li><li>5 pkt – poprawne obliczenie różnicy pól: 100</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

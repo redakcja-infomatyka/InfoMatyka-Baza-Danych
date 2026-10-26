@@ -1,0 +1,723 @@
+{
+ "konkurs": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "kujawsko-pomorskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2022-10-20",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2023_kujawsko-pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Budowę pewnego ratusza rozpoczęto w MDCCCLII roku, a zakończono w MCMV roku. Ile lat trwała budowa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "CLIII"
+    },
+    {
+     "litera": "B",
+     "html": "LIII"
+    },
+    {
+     "litera": "C",
+     "html": "CXLVII"
+    },
+    {
+     "litera": "D",
+     "html": "XLVII"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>MDCCCLII to 1852, a MCMV to 1905. Budowa trwała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1905</mn><mo>−</mo><mn>1852</mn><mo>=</mo><mn>53</mn></math> lata, czyli LIII.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozpisz oba zapisy na składniki — pamiętaj, że CM znaczy 900 — i dopiero odejmij",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "potęgi i pierwiastki"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych, których piąta potęga jest liczbą mniejszą niż 1000?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zerowa, pierwsza, druga i trzecia potęga (0, 1, 32, 243) są mniejsze od 1000, a już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>5</mn></msup><mo>=</mo><mn>1024</mn></math> nie. Warunek spełniają więc 4 liczby: 0, 1, 2, 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnoś kolejne liczby naturalne do piątej potęgi, zaczynając od zera",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Liczby naturalne obejmują zero, a 0 do piątej też jest mniejsze niż 1000"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Adam Mickiewicz żył w latach 1798 – 1855. Ile lat przestępnych było w tym okresie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15"
+    },
+    {
+     "litera": "B",
+     "html": "14"
+    },
+    {
+     "litera": "C",
+     "html": "13"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Lata przestępne to wielokrotności 4, ale lata pełnych setek tylko wtedy, gdy dzielą się przez 400. W przedziale 1798–1855 wielokrotności 4 to 1800, 1804, …, 1852 — czternaście lat. Rok 1800 nie dzieli się przez 400, więc odpada — zostaje 13 lat przestępnych.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz wielokrotności 4 w tym przedziale i osobno sprawdź rok 1800",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kalendarz-czas"
+    ],
+    "opis": "Rok 1800 jest podzielny przez 4, a nie jest przestępny (wiek niepodzielny przez 400)"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Która z podanych liczb jest różna od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>7</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>2</mn><mn>6</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>+</mo><msup><mn>2</mn><mn>6</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy do potęgi liczby 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup><mo>+</mo><msup><mn>2</mn><mn>6</mn></msup><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup></math> — tyle dają A, B, C. Zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup></math> to inna liczba.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź każdą odpowiedź do jednej potęgi dwójki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Potęga potęgi mnoży wykładniki, a suma równych potęg to nie dodawanie wykładników"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>W liczbie 37410□ zakryto cyfrę jedności. Wiemy, że liczba ta <u>nie jest</u> podzielna przez żadną z liczb: 2, 3, 4, 5 i 10. Która z podanych niżej cyfr mogła zostać zakryta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "0"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "1"
+    },
+    {
+     "litera": "E",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfra jedności musi być nieparzysta i różna od 5, więc może to być 1, 3 albo 9. Suma cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>+</mo><mi>d</mi><mo>=</mo><mn>15</mn><mo>+</mo><mi>d</mi></math> nie może dzielić się przez 3, co odrzuca d=3 i d=9. Zostaje d=1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfra musi być nieparzysta, różna od 5, a suma cyfr nie może dzielić się przez 3",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podzielność przez 3 zależy od sumy cyfr całej liczby, nie od cyfry jedności"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie dwa boki mają długość 7 cm i 8 cm. Trzeci bok może mieć długość:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 cm"
+    },
+    {
+     "litera": "B",
+     "html": "16 dm"
+    },
+    {
+     "litera": "C",
+     "html": "6 cm"
+    },
+    {
+     "litera": "D",
+     "html": "15 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzeci bok musi spełniać nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>−</mo><mn>7</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>8</mn><mo>+</mo><mn>7</mn></math>, czyli 1 cm &lt; x &lt; 15 cm. Spośród podanych długości warunek spełnia tylko 6 cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trzeci bok mieści się między różnicą a sumą pozostałych — sprawdź też jednostki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia",
+     "jednostki"
+    ],
+    "opis": "Nierówność trójkąta jest ostra: bok równy sumie dwóch pozostałych nie tworzy trójkąta"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Na planie miasta w skali 1:35000 odległość między dwoma budynkami wynosi 2 cm. Zatem rzeczywista odległość między tymi budynkami jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "70 m"
+    },
+    {
+     "litera": "B",
+     "html": "7 m"
+    },
+    {
+     "litera": "C",
+     "html": "700 m"
+    },
+    {
+     "litera": "D",
+     "html": "7 km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W skali 1:35000 jeden centymetr na planie to 35000 cm w rzeczywistości. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>35000</mn><mo>=</mo><mn>70000</mn></math> cm, czyli 700 m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż 2 cm przez skalę, a potem zamień centymetry na metry",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pewien trójkąt prostokątny ma boki o długości 3 dm, 4 dm i 5 dm. W tym trójkącie jedna z wysokości ma długość:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,2 dm"
+    },
+    {
+     "litera": "B",
+     "html": "2,4 dm"
+    },
+    {
+     "litera": "C",
+     "html": "5 dm"
+    },
+    {
+     "litera": "D",
+     "html": "6 dm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> dm². Wysokość opuszczona na bok 5 dm spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math>, stąd h = 2,4 dm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz pole z przyprostokątnych i z niego wyznacz wysokość na przeciwprostokątną",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>O pewnych trzech liczbach wiadomo, że druga liczba jest trzy razy większa od pierwszej liczby, trzecia liczba trzy razy większa od drugiej liczby i że suma wszystkich trzech liczb jest równa 7,8. Trzecia liczba jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "13,8"
+    },
+    {
+     "litera": "B",
+     "html": "0,6"
+    },
+    {
+     "litera": "C",
+     "html": "1,8"
+    },
+    {
+     "litera": "D",
+     "html": "5,4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech pierwsza liczba to x, wtedy druga to 3x, a trzecia 9x. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mi>x</mi><mo>=</mo><mn>7</mn><mo>,</mo><mn>8</mn></math>, więc x=0,6. Trzecia liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>6</mn><mo>=</mo><mn>5</mn><mo>,</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz liczby jako x, 3x i 9x — ich suma to 13x",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Kasia zmieszała 2 litry wody i 0,5 litra soku. Następnie wypiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> przyrządzonego napoju. Brat Kasi wypił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> tego co zostało. Ile litrów napoju pozostało jeszcze do wykorzystania?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,25 l"
+    },
+    {
+     "litera": "B",
+     "html": "1,875 l"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math> l"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> l"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Napoju jest 2,5 l. Kasia wypiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>625</mn></math> l, zostało 1,875 l. Brat wypił jedną trzecią z tego, czyli 0,625 l. Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>875</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>625</mn><mo>=</mo><mn>1</mn><mo>,</mo><mn>25</mn></math> l.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast odejmować wypite części, pomnóż ułamki tego, co zostaje po każdym piciu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Małgosia ma pięć razy więcej książek niż Zuzia. Gdyby oddała Zuzi 8 książek, to miałaby 3 razy więcej książek niż Zuzia. Razem mają więc:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "45 książki"
+    },
+    {
+     "litera": "B",
+     "html": "80 książek"
+    },
+    {
+     "litera": "C",
+     "html": "96 książek"
+    },
+    {
+     "litera": "D",
+     "html": "32 książki"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech Zuzia ma x książek, Małgosia 5x. Po oddaniu 8 książek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>8</mn><mo>)</mo></math>, stąd x=16. Razem mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>16</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>96</mn></math> książek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz książki Zuzi literą i zapisz obie sytuacje w jednym równaniu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Która z liczb nie spełnia warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>0,1</mn><mo>(</mo><mn>25</mn><mo>)</mo></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3131</mn><mn>25000</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>11</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "0,(125)"
+    },
+    {
+     "litera": "D",
+     "html": "0,1251"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Granice to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mn>125</mn></math> oraz 0,1(25)=0,125252… Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>11</mn></mfrac></math>=0,1818… przewyższa górną granicę, więc nie spełnia nierówności.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień każdą liczbę na rozwinięcie dziesiętne i porównaj z 0,125",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Porównanie ułamków okresowych: 0,(125) jest nieco większe od 1/8, nie równe"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Tomek postanowił przeczytać „Pana Tadeusza” Adama Mickiewicza. Przez pierwsze 3 dni średnio czytał 12 stron dziennie. Czwartego dnia udało mu się przeczytać 20 stron. Ile wyniosła średnia przeczytanych stron po czterech dniach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "13"
+    },
+    {
+     "litera": "B",
+     "html": "14"
+    },
+    {
+     "litera": "C",
+     "html": "15"
+    },
+    {
+     "litera": "D",
+     "html": "18"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma stron z pierwszych 3 dni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>36</mn></math>. Po czwartym dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>56</mn></math>. Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>56</mn><mn>4</mn></mfrac><mo>=</mo><mn>14</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze średniej odtwórz sumę stron z trzech dni, dodaj czwarty i podziel przez 4",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>O ile procent zmniejszy się pole prostokąta, jeżeli długość jednego z boków zwiększymy o 20%, a długość drugiego skrócimy o 40%?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 28%"
+    },
+    {
+     "litera": "B",
+     "html": "o 2,8%"
+    },
+    {
+     "litera": "C",
+     "html": "o 72%"
+    },
+    {
+     "litera": "D",
+     "html": "o 7,2%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Nowe pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>6</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>72</mn></math> pola pierwotnego, czyli 72% pola wyjściowego. Pole zmniejszyło się więc o 28%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij boki równe 1 i pomnóż same mnożniki zmian zamiast liczyć procenty",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Pytają o ile procent pole się zmniejszy, a nie jakim procentem starego pola jest nowe"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Kasia codziennie idąc do szkoły porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mspace width=\"0.25em\"/><mfrac><mtext>dm</mtext><mtext>s</mtext></mfrac></math>. Drogę pokonuje w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> h. W jakiej odległości znajduje się szkoła od domu Kasi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "120 m"
+    },
+    {
+     "litera": "B",
+     "html": "1,2 km"
+    },
+    {
+     "litera": "C",
+     "html": "200 m"
+    },
+    {
+     "litera": "D",
+     "html": "0,02 km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math> dm/s to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>50</mn><mn>3</mn></mfrac></math> dm/s. Czas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> h to 720 s. Droga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>50</mn><mn>3</mn></mfrac><mo>·</mo><mn>720</mn><mo>=</mo><mn>12000</mn></math> dm, czyli 1,2 km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień ⅕ godziny na sekundy i licz od razu w decymetrach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Prędkość w dm/s, czas w ułamku godziny, odpowiedzi w m i km — trzeba ujednolicić jednostki"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "potęgi i pierwiastki",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Kwadrat każdej liczby całkowitej nie jest zawsze liczbą dodatnią."
+    },
+    {
+     "litera": "2",
+     "html": "Iloczyn liczby i jej odwrotności jest równy 0."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat liczby całkowitej może wynosić 0 (dla liczby 0), więc nie zawsze jest dodatni — zdanie prawdziwe.</p><p>Iloczyn liczby i jej odwrotności jest równy 1, a nie 0 — zdanie fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź kwadrat zera i przypomnij sobie, ile daje liczba razy jej odwrotność",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "zbior-liczb",
+     "kwantyfikator"
+    ],
+    "opis": "Zero też jest liczbą całkowitą, a jego kwadrat nie jest dodatni; zawiła negacja w zdaniu"
+   }
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q17",
+   "numer": 17,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p><p>W pewnym rombie kąt rozwarty jest dwa razy większy od kąta ostrego:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Kąt ostry rombu ma miarę 45°."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli krótsza przekątna rombu jest równa 4 cm, to wysokość tego rombu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt ostry x i rozwarty 2x sumują się do 180°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc x=60° (nie 45°).</p><p>Krótsza przekątna dzieli romb na dwa trójkąty równoboczne, więc bok rombu ma 4 cm. Opuszczając wysokość, powstaje trójkąt 30°-60°-90° o przeciwprostokątnej 4 cm — bok naprzeciw 60° (wysokość) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023_kujawsko-pomorskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Uzupełnij □ liczbami naturalnymi w taki sposób, aby zachodziła równość:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mo>□</mo></mfrac><mo>+</mo><mfrac><mn>1</mn><mo>□</mo></mfrac></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "5 i 9",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>45</mn></mfrac></math> rozkładamy na sumę dwóch ułamków o liczniku 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>45</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>. Zatem w ramki należy wpisać liczby 5 i 9.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zapisz oba ułamki nad wspólnym mianownikiem 45 i rozbij licznik 14 na sumę",
+   "czas_min": 2
+  }
+ ]
+}

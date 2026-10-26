@@ -1,0 +1,682 @@
+{
+ "konkurs": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "kujawsko-pomorskie",
+ "rok_szkolny": "2024/2025",
+ "data": "2024-10-22",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2025_kujawsko-pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb trzycyfrowych mniejszych od 500, spełniających warunki: cyfra dziesiątek jest trzykrotnością cyfry jedności, a cyfra jedności jest dwa razy mniejsza od cyfry setek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech j oznacza cyfrę jedności. Cyfra dziesiątek to 3j, a cyfra setek to 2j (bo jedności jest o połowę mniejsze). Musi być 3j ≤ 9, czyli j ≤ 3, oraz 2j ≤ 4 (bo liczba jest mniejsza od 500), czyli j ≤ 2. Dla j=1 mamy 231, dla j=2 – 462: razem 2 liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz cyfrę jedności jako j — wtedy dziesiątki to 3j, a setki 2j",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Ile jest liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, spełniających warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>&lt;</mo><mi>k</mi><mo>&lt;</mo><msqrt><mn>50</mn></msqrt></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "28"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>2,24</mn></math>, więc najmniejsze całkowite k to −2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt><mo>≈</mo><mn>7,07</mn></math>, więc największe całkowite k to 7. Liczb całkowitych od −2 do 7 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mn>10</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszacuj oba pierwiastki między sąsiednimi liczbami całkowitymi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "zbior-liczb"
+    ],
+    "opis": "Liczby całkowite między −√5 a √50: trzeba policzyć ujemne i zero, łatwo zgubić zero lub jeden koniec"
+   }
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Krystian podzielił planszę w kształcie trójkąta równobocznego na dziewięć równych trójkątów. Każdy z nich pomalował jednym z kolorów: czarnym, białym lub szarym. Jaka jest najmniejsza liczba trójkątów, które powinien przemalować tak, aby każde dwa trójkąty mające wspólny bok były pomalowane innym kolorem?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2025_kujawsko-pomorskie_q3_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Na rysunku środkowy i prawy trójkąt w drugim rzędzie stykają się bokiem i oba są szare, a lewy trójkąt drugiego rzędu styka się bokiem z trójkątem poniżej w trzecim rzędzie – oba są czarne. To dwie osobne pary jednakowych sąsiadów (żaden trójkąt nie należy do obu par), więc trzeba przemalować co najmniej 2 trójkąty. Przemalowanie lewego i prawego trójkąta z drugiego rzędu usuwa obie niezgodności bez tworzenia nowych.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "poszukaj par sąsiadujących trójkątów w tym samym kolorze",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Michał chce kupić laptop. Ma już 500 zł. Mama dołożyła mu 20% tej kwoty i okazało się, że Michał ma już 25% ceny laptopa. Dziadkowie zadeklarowali, że podarują mu kwotę, będącą połową ceny laptopa. Ile pieniędzy musi jeszcze uzbierać Michał, aby zakupić laptop?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "600 zł"
+    },
+    {
+     "litera": "B",
+     "html": "1200 zł"
+    },
+    {
+     "litera": "C",
+     "html": "1800 zł"
+    },
+    {
+     "litera": "D",
+     "html": "2400 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>20% z 500 zł to 100 zł, więc Michał ma 600 zł, co stanowi 25% ceny laptopa. Cena laptopa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>0,25</mn><mo>=</mo><mn>2400</mn></math> zł. Dziadkowie dają połowę ceny: 1200 zł. Michał ma już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>+</mo><mn>1200</mn><mo>=</mo><mn>1800</mn></math> zł, więc brakuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2400</mn><mo>−</mo><mn>1800</mn><mo>=</mo><mn>600</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozpisz wszystko w procentach ceny: ile ma Michał, ile dadzą dziadkowie",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Wskaż cyfrę jedności sześcianu liczby będącej różnicą największej liczby czterocyfrowej podzielnej przez 4 i najmniejszej liczby czterocyfrowej podzielnej przez 9.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    },
+    {
+     "litera": "E",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Największa liczba czterocyfrowa podzielna przez 4 to 9996, a najmniejsza podzielna przez 9 to 1008. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9996</mn><mo>−</mo><mn>1008</mn><mo>=</mo><mn>8988</mn></math>. Cyfra jedności sześcianu zależy tylko od cyfry jedności liczby (8): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math>, więc cyfra jedności to 2.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "licz tylko cyfry jedności — najpierw różnicy, potem jej sześcianu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Basia wrzucała do skarbonki monety pięciozłotowe, dwuzłotowe oraz jednozłotowe. Razem nazbierała 53 złote. Monet jednozłotowych miała o 4 więcej niż dwuzłotówek, a pięciozłotówek miała o 1 więcej niż monet jednozłotowych.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę monet jednozłotowych. Wskaż równanie, za pomocą którego obliczymy liczbę monet jednozłotowych w skarbonce Basi.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>53</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>53</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>53</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>53</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwuzłotówek jest x−4, a pięciozłotówek x+1. Łączna wartość monet: 1·x+2·(x−4)+5·(x+1)=8x−3, czyli 8x−3=53.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź liczbę dwuzłotówek i pięciozłotówek przez x i zsumuj wartości monet",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Dany jest prostopadłościan, którego podstawa jest kwadratem o polu 36 cm². Jego objętość wynosi 180 cm³. Ile wynosi pole powierzchni całkowitej tego prostopadłościanu wyrażone w centymetrach kwadratowych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "72"
+    },
+    {
+     "litera": "C",
+     "html": "120"
+    },
+    {
+     "litera": "D",
+     "html": "192"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math> cm. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>:</mo><mn>36</mn><mo>=</mo><mn>5</mn></math> cm. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>36</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>72</mn><mo>+</mo><mn>120</mn><mo>=</mo><mn>192</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola podstawy odczytasz bok, z objętości wysokość",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>W sklepie dla działkowców <em>Mój ogród</em> jest 28 worków ziemi ogrodowej sprzedawanej w workach po 2 kg i po 5 kg. Sprzedawca zauważył, że razem we wszystkich workach dwukilogramowych jest tyle samo ziemi, co razem we wszystkich workach pięciokilogramowych. Wskaż, ile jest worków dwukilogramowych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "15"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech x to liczba worków 2 kg, a y – worków 5 kg. x+y=28 oraz 2x=5y, stąd x=2,5y. Podstawiając: 3,5y=28, więc y=8 i x=20.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "równe masy w obu grupach dają stosunek liczby worków — podziel nim 28",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Jaką liczbę należy dodać do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math>, aby otrzymać jej odwrotność?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>56</mn><mn>45</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>5</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odwrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>5</mn></mfrac></math>. Szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>81</mn><mn>45</mn></mfrac><mo>−</mo><mfrac><mn>25</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>56</mn><mn>45</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij ułamek od jego odwrotności, sprowadź do mianownika 45",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o liczbę, którą trzeba dodać, a nie o samą odwrotność, która stoi wśród wariantów"
+   }
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokątną działkę podzielono na dwie części. Pierwsza część jest kwadratem, a druga jest prostokątem o polu 1350 m² i stanowi 40% całej działki. Która z poniższych liczb jest obwodem kwadratowej części działki wyrażonym w metrach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "45"
+    },
+    {
+     "litera": "B",
+     "html": "144"
+    },
+    {
+     "litera": "C",
+     "html": "180"
+    },
+    {
+     "litera": "D",
+     "html": "232"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cała działka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1350</mn><mo>:</mo><mn>0,4</mn><mo>=</mo><mn>3375</mn></math> m². Kwadrat to 60% działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3375</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>2025</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, więc a=45 m. Obwód kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>45</mn><mo>=</mo><mn>180</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kwadratowa część to 60% działki — porównaj ją z podanymi 40%",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest romb o boku 5 cm oraz przekątnych długości 8 cm i 6 cm. Wskaż, która z poniższych liczb jest długością wysokości tego rombu wyrażoną w centymetrach.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2,4"
+    },
+    {
+     "litera": "B",
+     "html": "4,8"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "9,6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></math> cm². Wysokość to pole podzielone przez bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>4,8</mn></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz pole rombu z przekątnych, a potem to samo pole jako bok razy wysokość",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Kornelia otrzymała z sześciu testów następujące liczby punktów: 3, 5, 7, 4, 8, 3. Ile punktów musi uzyskać z siódmego testu, aby średni wynik z wszystkich siedmiu testów był równy 5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma sześciu wyników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>30</mn></math>. Suma siedmiu wyników przy średniej 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>35</mn></math>. Siódmy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>−</mo><mn>30</mn><mo>=</mo><mn>5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile punktów łącznie daje średnia 5 z siedmiu testów",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Na pastwisku pasą się krowy i gęsi. Zwierzęta te mają w sumie 18 głów i 50 nóg. Ile krów jest na pastwisku?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "13"
+    },
+    {
+     "litera": "B",
+     "html": "11"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "7"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech k oznacza liczbę krów, a g – gęsi. k+g=18 oraz 4k+2g=50, czyli 2k+g=25. Odejmując pierwsze równanie: k=25−18=7.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "załóż, że wszystkie zwierzęta to gęsi, i sprawdź, ile nóg brakuje",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka cyfra znajduje się na piętnastym miejscu po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>55</mn></mfrac></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "0"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>55</mn></mfrac><mo>=</mo><mn>0,0363636…</mn></math> – od drugiej cyfry po przecinku powtarza się blok „36”. Na miejscach parzystych (2., 4., …) jest 3, a na nieparzystych od trzeciego (3., 5., …) jest 6. Piętnaste miejsce jest nieparzyste, więc cyfra to 6.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "znajdź okres rozwinięcia i sprawdź, czy 15. miejsce wypada na parzystej pozycji",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Rozwinięcie ma cyfrę przed okresem, więc pozycję w okresie liczy się z przesunięciem"
+   }
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W kartonowym pudełku znajdują się 4 kule białe, 3 czerwone i 2 niebieskie. Ile należy dołożyć kul niebieskich do tego pudełka, aby prawdopodobieństwo wylosowania kuli białej z pudełka było równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "11"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Białych kul jest 4, a łącznie po dołożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> niebieskich jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mi>x</mi></math> kul. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mrow><mn>9</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>20</mn></math>, czyli x=11.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "liczba białych kul się nie zmienia — zastanów się, ile ma być kul razem",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Mikołaj wyruszył z domu na górski szlak o godzinie 7:40. Przeszedł 17 km ze średnią prędkością 3 km/h. Po dotarciu na szczyt spędził tam 25 minut i wyruszył w drogę powrotną (tym samym szlakiem). Do domu dotarł o godzinie 18:00.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Mikołaj dotarł na szczyt o godzinie 13:45."
+    },
+    {
+     "litera": "2",
+     "html": "Mikołaj pokonał drogę powrotną ze średnią prędkością 4 km/h."
+    },
+    {
+     "litera": "3",
+     "html": "Liczba kilometrów, które przeszedł Mikołaj szlakiem w obie strony, jest liczbą pierwszą."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czas wejścia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> h 40 min, więc na szczyt dotarł o 13:20. Po 25 min postoju wyruszył o 13:45, a do domu dotarł o 18:00 – powrót trwał 4 h 15 min, prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>:</mo><mn>4,25</mn><mo>=</mo><mn>4</mn></math> km/h.</p><ul><li>szczyt osiągnął o 13:20, nie o 13:45 – <b>F</b>.</li><li>prędkość powrotna to 4 km/h – <b>P</b>.</li><li>łącznie przeszedł 34 km, a 34=2·17 nie jest liczbą pierwszą – <b>F</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy 3 km/h jeden kilometr to 20 minut — resztę policz na zegarze",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Zd. 3: liczba kilometrów w obie strony, a nie w jedną (17 to liczba pierwsza)"
+   }
+  },
+  {
+   "id": "szkolny_2025_kujawsko-pomorskie_q17",
+   "numer": 17,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W każdym trójkącie równoramiennym przynajmniej dwie wysokości mają jednakową długość."
+    },
+    {
+     "litera": "2",
+     "html": "Istnieje romb, który jest kwadratem."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Oś symetrii trójkąta równoramiennego zamienia miejscami oba ramiona, więc wysokości poprowadzone do tych ramion są równej długości.</p><ul><li>to zawsze prawda – <b>P</b>.</li><li>kwadrat ma wszystkie boki równe i wszystkie kąty proste, więc jest szczególnym rombem – <b>P</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w trójkącie równoramiennym porównaj wysokości opuszczone na oba ramiona",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:hierarchia-czworokatow"
+    ],
+    "opis": "Kwadrat jest szczególnym rombem; uczeń traktuje romb i kwadrat jako rozłączne figury"
+   }
+  }
+ ]
+}

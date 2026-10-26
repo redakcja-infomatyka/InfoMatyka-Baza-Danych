@@ -1,0 +1,731 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych (łódzkie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "lodzkie",
+ "rok_szkolny": "2021/2022",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 19,
+ "max_punktow": 80,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2022_lodzkie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2022_lodzkie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "porównywanie potęg i pierwiastków"
+   ],
+   "tresc_html": "<p>Największą z podanych poniżej liczb jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3333"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><mn>33</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><msup><mn>3</mn><mn>3</mn></msup></msup></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>333</mn><mn>3</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><mn>33</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><mn>27</mn></msup></math> mają tę samą podstawę, a większy wykładnik ma pierwsza z nich, więc jest od niej większa. Liczby 3333, 33³ i 333³ mają co najwyżej 8 cyfr, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>33</mn><mn>33</mn></msup></math> ma ich ponad 50, więc to ona jest największa.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz 3³ jako 27 i porównaj wykładniki przy tej samej podstawie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Wieża potęg wygląda na największą, ale trzeba porównać wykładnik 3^3 z wykładnikiem 33"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,3</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,47</mn><mo>·</mo><msup><mn>10</mn><mn>2022</mn></msup></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,885</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2022</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2022</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,77</mn><mo>·</mo><msup><mn>10</mn><mn>2022</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,47</mn><mo>·</mo><msup><mn>10</mn><mn>2022</mn></msup><mo>=</mo><mn>4,7</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math>, więc suma obu liczb to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,3</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup><mo>+</mo><mn>4,7</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2022</mn></msup></math>. Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>10</mn><mn>2022</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź obie liczby do tej samej potęgi 10 i dopiero wtedy dodawaj",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Mantysy mają różne potęgi dziesiątki; trzeba je wyrównać przed dodaniem"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Pani Ewa przejechała trasę dwukrotnie dłuższą niż pan Adam w czasie stanowiącym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> jego czasu. Ile razy szybciej jechała?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,5"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "2,5"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    },
+    {
+     "litera": "E",
+     "html": "3,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ewa przejechała trasę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> razy dłuższą w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> czasu Adama. Ponieważ prędkość to droga przez czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>v</mi><mi>E</mi></msub><msub><mi>v</mi><mi>A</mi></msub></mfrac><mo>=</mo><mfrac><mn>2</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></mfrac><mo>=</mo><mn>2,5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij drogę i czas pana Adama za 1 i policz obie prędkości",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "procenty",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>W ciągu czterech lat wiek czterech członków pewnej rodziny wzrósł odpowiednio o 5%, 8%, 10% i 40%. Ile wynosi obecnie średnia wieku w tej rodzinie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "34 lata"
+    },
+    {
+     "litera": "B",
+     "html": "43 lata"
+    },
+    {
+     "litera": "C",
+     "html": "46 lat"
+    },
+    {
+     "litera": "D",
+     "html": "49 lat"
+    },
+    {
+     "litera": "E",
+     "html": "50 lat"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro w ciągu 4 lat wiek wzrósł o p% dawnego wieku, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>p</mi><mn>100</mn></mfrac><mo>·</mo><mi>w</mi><mo>=</mo><mn>4</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mfrac><mn>400</mn><mi>p</mi></mfrac></math>. Dla p = 5, 8, 10, 40 dawne wieki to 80, 50, 40, 10, a obecne (po dodaniu 4 lat): 84, 54, 44, 14. Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>84</mn><mo>+</mo><mn>54</mn><mo>+</mo><mn>44</mn><mo>+</mo><mn>14</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>49</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każdy postarzał się o 4 lata — z procentu odczytaj wiek sprzed czterech lat",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>30</mn></msup><mo>+</mo><msup><mn>8</mn><mn>20</mn></msup></math> można zapisać jako:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>50</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>70</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>35</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>120</mn></msup></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>61</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>30</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>30</mn></msup><mo>=</mo><msup><mn>2</mn><mn>60</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>20</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>20</mn></msup><mo>=</mo><msup><mn>2</mn><mn>60</mn></msup></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>60</mn></msup><mo>+</mo><msup><mn>2</mn><mn>60</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>2</mn><mn>60</mn></msup><mo>=</mo><msup><mn>2</mn><mn>61</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz obie potęgi w podstawie 2",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Suma dwóch równych potęg 2^60+2^60 to nie potęga z podwojonym wykładnikiem"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Janek pamięta tylko dwie pierwsze cyfry z czterocyfrowego kodu do furtki. Wpisuje więc zapamiętane dwie cyfry, a dwie kolejne wpisuje na chybił trafił. Jakie jest prawdopodobieństwo tego, że kod będzie poprawny i uda mu się wejść?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>50</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>90</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>100</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>81</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>99</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwie nieznane cyfry Janek zgaduje losowo, po 10 możliwości każda, czyli jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn></math> jednakowo prawdopodobnych par, z których trafna jest jedna. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>100</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "losowe są tylko dwie ostatnie cyfry — policz, ile jest ich kombinacji",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Cyfry kodu mogą się powtarzać i mogą być zerem — liczba możliwych par cyfr"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Średnica koła, dla którego liczba wyrażająca jego pole jest dwa razy większa od liczby wyrażającej jego obwód wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    },
+    {
+     "litera": "E",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mi>π</mi><mi>r</mi></math>. Dzieląc obie strony przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mi>r</mi></math> (r≠0): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>4</mn></math>, więc średnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>r</mi><mo>=</mo><mn>8</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz πr² = 2·2πr i skróć πr, ale pamiętaj, że pytają o średnicę",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z równania wychodzi promień, a pytają o średnicę"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>4</mn></math>. Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mn>5</mn><mi>b</mi></mrow></mfrac></math> ma wartość:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>4</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>3</mn></mfrac></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mn>5</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>20</mn><mi>b</mi><mo>/</mo><mn>3</mn></mrow><mrow><mo>−</mo><mn>10</mn><mi>b</mi><mo>/</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mn>2</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dobierz konkretne a i b spełniające pierwszy warunek i wstaw je do drugiego wyrażenia",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole trójkąta prostokątnego równoramiennego jest równe 18. Obwód tego trójkąta wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "18"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "E",
+     "html": "36"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla przyprostokątnych a: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>18</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math>. Przeciwprostokątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola wylicz przyprostokątną, a przeciwprostokątna to a√2",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Do 10 kg 2% roztworu soli dosypano 100 dag soli i dolano 19 kg wody. Stężenie nowego roztworu jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2%"
+    },
+    {
+     "litera": "B",
+     "html": "4%"
+    },
+    {
+     "litera": "C",
+     "html": "10%"
+    },
+    {
+     "litera": "D",
+     "html": "6%"
+    },
+    {
+     "litera": "E",
+     "html": "19%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Soli początkowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,02</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>0,2</mn></math> kg. Dosypano 100 dag = 1 kg soli, więc jest jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn></math> kg. Masa roztworu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>19</mn><mo>=</mo><mn>30</mn></math> kg. Stężenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1,2</mn><mn>30</mn></mfrac><mo>=</mo><mn>4</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "100 dag to 1 kg — policz osobno masę soli i masę całego roztworu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Z 27 jednakowych małych sześcianików o polu powierzchni 12 cm² każdy zbudowano duży sześcian. Pole powierzchni dużego sześcianu jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "54 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "216 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "324 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "648 cm²"
+    },
+    {
+     "litera": "E",
+     "html": "108 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole powierzchni małego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. 27 sześcianików tworzy sześcian o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>s</mi></math>, więc jego pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mrow><mo>(</mo><mn>3</mn><mi>s</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>54</mn><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>108</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "duży sześcian ma bok 3 razy dłuższy niż mały, a pole rośnie z kwadratem skali",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Pole powierzchni sklejonej bryły nie jest sumą pól powierzchni małych sześcianików"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Przekrój osiowy walca jest kwadratem o boku 10 cm. Pole powierzchni tego walca wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mi>π</mi></math> cm²"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>π</mi></math> cm²"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mi>π</mi></math> cm²"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>+</mo><mn>50</mn><mi>π</mi><mo>)</mo></math> cm²"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mi>π</mi></math> cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu przekroju to zarówno średnica, jak i wysokość walca: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>10</mn></math>. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>π</mi><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn><mi>π</mi><mo>+</mo><mn>100</mn><mi>π</mi><mo>=</mo><mn>150</mn><mi>π</mi></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bok kwadratu to jednocześnie średnica podstawy i wysokość walca",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na pierwiastkach",
+    "usuwanie niewymierności z mianownika",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mfrac><mn>3</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></math>. Po podniesieniu do kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skróć ułamek, zanim podniesiesz go do kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q14",
+   "numer": 14,
+   "typ": "prawda_falsz",
+   "punkty": 6,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "układ współrzędnych",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokątnym układzie współrzędnych dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania dotyczące tego trójkąta są prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Obwód trójkąta jest równy 30."
+    },
+    {
+     "litera": "2",
+     "html": "Pole powierzchni tego trójkąta wynosi 25."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>15</mn><mo>+</mo><mn>5</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>26,2</mn></math>, nie 30 — zdanie 1 fałszywe. Pole trójkąta (ze wzoru przez współrzędne wierzchołków) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>25</mn></math> — zdanie 2 prawdziwe.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 7,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty, a kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego trójkąta obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> tak, że miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDA</mi></math> jest równa 60°, a odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> ma długość 6. Oblicz pole powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "54√3",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> ma miarę 30°, więc w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> ma miarę 60°, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCB</mi></math> ma miarę 30°. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> ma dwa kąty równej miary, więc jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>18</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>b</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>18</mn><mo>·</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>54</mn><msqrt><mn>3</mn></msqrt></math>.</p>",
+    "punktacja_html": "<ul><li>Rysunek – 1 pkt,</li><li>Obliczenie kąta ACD 30º – 1 pkt,</li><li>Obliczenie kąta DCB 30º – 1 pkt,</li><li>Podanie długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> – 1 pkt,</li><li>Podanie długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math> – 1 pkt,</li><li>Zauważenie, że trójkąt DBC jest równoramienny i podanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math> – 1 pkt,</li><li>Obliczenie pola trójkąta ABC – 1 pkt.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 7,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przekątna trapezu ma długość 8 i tworzy z podstawami tego trapezu kąty 45°. Połowa sumy długości podstaw trapezu jest równa długości jego wysokości. Oblicz pole tego trapezu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "32",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przekątna tworzy z podstawą kąt 45°, więc trójkąt utworzony przez przekątną, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> i podstawę jest prostokątny równoramienny, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mn>8</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Z treści zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>h</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn></math>.</p>",
+    "punktacja_html": "<ul><li>Rysunek z zaznaczoną przekątną i kątami 45º – 1 pkt,</li><li>Narysowanie wysokości i zauważenie, że trójkąt jest prostokątny równoramienny – 1 pkt,</li><li>Obliczenie wysokości (1 pkt za metodę) – 2 pkt,</li><li>Zapisanie zależności między wysokością i sumą długości podstaw – 1 pkt,</li><li>Obliczenie pola powierzchni (1 pkt za poprawną metodę) – 2 pkt.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w miejsce połowy sumy podstaw wstaw wysokość, a wysokość weź z kąta 45°",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 7,
+   "tematy": [
+    "układy równań",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Dana jest liczba dwucyfrowa, w której cyfra jedności jest większa od cyfry dziesiątek. Liczba ta przy dzieleniu przez sumę swoich cyfr daje iloraz 4 i resztę 3. Przy dzieleniu przez różnicę cyfr daje iloraz 15 i resztę 2. Jaka to liczba?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "47",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cyfrę dziesiątek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> cyfrę jedności; szukana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></math>.</p><p>Z warunków zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>15</mn><mo>(</mo><mi>y</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>2</mn></math>.</p><p>Układ upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mi>x</mi><mo>−</mo><mn>14</mn><mi>y</mi><mo>=</mo><mn>2</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>7</mn></math>.</p><p>Szukaną liczbą jest 47.</p>",
+    "punktacja_html": "<ul><li>Oznaczenie cyfry dziesiątek i cyfry jedności – 1 pkt,</li><li>Zapisanie szukanej liczby w postaci 10x + y – 1 pkt,</li><li>Zapisanie pierwszego równania – 1 pkt,</li><li>Zapisanie drugiego równania – 1 pkt,</li><li>Rozwiązanie układu równań – 2 pkt,</li><li>Podanie odpowiedzi: szukana liczba to 47 – 1 pkt.</li></ul><p>UWAGA: Jeżeli układ równań rozwiązany jest z usterką, przyznajemy za rozwiązanie układu 1 pkt. Nie przyznajemy wówczas punktu za odpowiedź.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 6,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prawdopodobieństwo",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W dwóch pudełkach znajdują się czerwone i białe kule. W pierwszym jest 15 kul, w tym 5 białych. W drugim pudełku jest 25 kul, w tym 18 czerwonych. Do obu pudełek dokładamy jeszcze 16 białych kul. Oblicz, po ile kul należy dołożyć do każdego z pudełek, aby prawdopodobieństwo wylosowania białej kuli z każdego z nich było takie samo.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "do I pudełka 5 kul, do II pudełka 11 kul",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę białych kul dołożonych do I pudełka; wtedy do II pudełka dokładamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mi>x</mi></math> kul.</p><p>I pudełko: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mi>x</mi></math> kul, w tym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mi>x</mi></math> białych. II pudełko: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>41</mn><mo>−</mo><mi>x</mi></math> kul, w tym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>−</mo><mi>x</mi></math> białych.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mi>x</mi></mrow><mrow><mn>15</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>23</mn><mo>−</mo><mi>x</mi></mrow><mrow><mn>41</mn><mo>−</mo><mi>x</mi></mrow></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>41</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>15</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>23</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>.</p><p>Po przekształceniach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mi>x</mi><mo>=</mo><mn>140</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>11</mn></math>.</p><p>Do I pudełka dokładamy 5 kul, a do II pudełka 11 kul.</p>",
+    "punktacja_html": "<ul><li>Zapisanie liczby kul i liczby białych kul w każdym z pudełek po dołożeniu białych kul – 2 pkt,</li><li>Ułożenie równania – 1 pkt,</li><li>Zastosowanie własności proporcji – 1 pkt,</li><li>Rozwiązanie równania x=5 – 1 pkt,</li><li>Odpowiedź: do I pudełka dokładamy 5 kul, do II 11 kul – 1 pkt.</li></ul><p>lub</p><ul><li>Wprowadzenie oznaczeń – 1 pkt,</li><li>Zapisanie układu równań – 2 pkt,</li><li>Zastosowanie własności proporcji – 1 pkt,</li><li>Rozwiązanie układu równań x=5, y=11 – 1 pkt,</li><li>Odpowiedź – 1 pkt.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz razem wszystkie kule i wszystkie białe — równe szanse muszą być równe temu stosunkowi",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_lodzkie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 8,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Oblicz pole powierzchni całkowitej i objętość czworościanu foremnego o krawędzi długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "P = 9c²√3, V = (9c³√2)/4",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><mi>c</mi><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><msup><mi>c</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>.</p><p>Wysokość podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>c</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> tej wysokości to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mi>c</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mi>c</mi><msqrt><mn>3</mn></msqrt></math>.</p><p>Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>c</mi><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><mi>c</mi><mo>)</mo></mrow><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><msup><mi>c</mi><mn>2</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mi>c</mi><msqrt><mn>6</mn></msqrt></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msub><mi>P</mi><mi>p</mi></msub><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>c</mi><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mi>c</mi><msqrt><mn>6</mn></msqrt><mo>=</mo><mfrac><mrow><mn>9</mn><msup><mi>c</mi><mn>3</mn></msup><msqrt><mn>2</mn></msqrt></mrow><mn>4</mn></mfrac></math>.</p>",
+    "punktacja_html": "<ul><li>Rysunek – 1 pkt,</li><li>Obliczenie pola powierzchni czworościanu (1 pkt za wzór na pole trójkąta równobocznego) – 2 pkt,</li><li>Obliczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> wysokości podstawy – 1 pkt,</li><li>Poprawne zapisanie twierdzenia Pitagorasa – 1 pkt,</li><li>Obliczenie wysokości czworościanu – 1 pkt,</li><li>Obliczenie objętości czworościanu (1 pkt za poprawną metodę) – 2 pkt.</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

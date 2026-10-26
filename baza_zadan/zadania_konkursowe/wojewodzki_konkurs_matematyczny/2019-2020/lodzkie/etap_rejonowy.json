@@ -1,0 +1,568 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych (łódzkie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "lodzkie",
+ "rok_szkolny": "2019/2020",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2020_lodzkie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2020_lodzkie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2018</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo></math> jest liczba</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "niewymierna"
+    },
+    {
+     "litera": "B",
+     "html": "wymierna, lecz nie całkowita"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo><mo>·</mo><mn>2019</mn><mo>:</mo><mn>2</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>2019</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Każdy czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>=</mo><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mi>n</mi></mfrac></math>; iloczyn dla n=2..2019 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>⋯</mo><mfrac><mn>2020</mn><mn>2019</mn></mfrac></math>, teleskopuje do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2020</mn><mn>2</mn></mfrac><mo>=</mo><mn>1010</mn></math>.</p><p>Odp. C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo><mo>·</mo><mn>2019</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>2020</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>1010</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamień każdy nawias na ułamek (n+1)/n — sąsiednie czynniki się skracają",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2019</mn></msup></math> jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Cyfry jedności potęg 3 cyklują: 3, 9, 7, 1 (okres 4). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>504</mn><mo>+</mo><mn>3</mn></math>, więc cyfra jak dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup></math>, czyli 7.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz cyfry jedności kolejnych potęg trójki, znajdź okres i podziel wykładnik z resztą",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "porównywanie potęg i pierwiastków"
+   ],
+   "tresc_html": "<p>Największą liczbą utworzoną z trzech dziewiątek jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "999"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>99</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>99</mn><mn>9</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><msup><mn>9</mn><mn>9</mn></msup></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><msup><mn>9</mn><mn>9</mn></msup></msup><mo>=</mo><msup><mn>9</mn><mn>387420489</mn></msup></math> jest nieporównywalnie większe od 999, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>99</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>99</mn><mn>9</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zobacz, jak wielki jest sam wykładnik w wieży potęg, i dopiero potem porównuj",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby wymierne i niewymierne",
+    "wyłączanie czynnika przed znak pierwiastka",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Wśród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>54</mn></msqrt><mo>+</mo><msqrt><mn>24</mn></msqrt><mo>+</mo><msqrt><mn>50</mn></msqrt><mo>−</mo><msqrt><mn>150</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><msqrt><mn>300</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>27</mn></msqrt></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>5</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>8</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt></math> niewymierne są</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "wszystkie"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>5</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math> (niewymierna).</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mn>3</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mrow><mn>23</mn><mo>+</mo><mn>2</mn></mrow></msqrt><mo>=</mo><mn>5</mn></math>. Niewymierne: tylko a.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz czynniki przed pierwiastki i szukaj wzorów skróconego mnożenia — część składników się zniesie",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Pan Tomasz, chcąc oszczędzać energię, dokonał w swoim domu trzech usprawnień, które obniżyły wydatki na ogrzewanie kolejno o 20%, o 25% i o 35%. O ile procent łącznie obniżyły się początkowe wydatki pana Tomasza na ogrzewanie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 80%"
+    },
+    {
+     "litera": "B",
+     "html": "o 61%"
+    },
+    {
+     "litera": "C",
+     "html": "o 79%"
+    },
+    {
+     "litera": "D",
+     "html": "o 75%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>0,75</mn><mo>·</mo><mn>0,65</mn><mo>=</mo><mn>0,39</mn></math>, czyli 39% wydatków. Obniżka o 61%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obniżki się nie dodają — mnóż ułamki tego, co zostaje po każdej z nich",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Kolejne obniżki procentowe liczone od coraz mniejszej kwoty, więc nie wolno ich dodawać"
+   }
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podobieństwo i skala",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Sad zajmuje powierzchnię prostokąta o wymiarach 400m x 500m. Na planie jego powierzchnia wynosi 2000cm². Plan sporządzono w skali</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 : 1000"
+    },
+    {
+     "litera": "B",
+     "html": "1000 : 10"
+    },
+    {
+     "litera": "C",
+     "html": "1000 : 100"
+    },
+    {
+     "litera": "D",
+     "html": "1 000 000 : 1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Rzeczywiste wymiary 40000 cm × 50000 cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> cm². Stosunek pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2000</mn><mrow><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></mfrac><mo>=</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math>; skala liniowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt><mo>=</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> = 1:1000.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz wymiary na centymetry; skala liniowa to pierwiastek ze stosunku pól",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Stosunek pól to kwadrat skali; skala dotyczy długości, nie powierzchni"
+   }
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Długości boków trójkąta są liczbami naturalnymi. Dwa z nich mają długości 1cm i 4 cm. Obwód tego trójkąta jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7cm"
+    },
+    {
+     "litera": "B",
+     "html": "8cm"
+    },
+    {
+     "litera": "C",
+     "html": "9cm"
+    },
+    {
+     "litera": "D",
+     "html": "jest wiele możliwości"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trzeci bok x naturalny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>4</mn><mo>+</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>5</mn></math> → x=4. Obwód 1+4+4=9 cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, jakie całkowite długości trzeciego boku dopuszcza nierówność trójkąta",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Stosunek miar kątów pewnego trójkąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>9</mn><mo>:</mo><mn>8</mn></math>. Jest to trójkąt</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "ostrokątny"
+    },
+    {
+     "litera": "B",
+     "html": "prostokątny"
+    },
+    {
+     "litera": "C",
+     "html": "rozwartokątny"
+    },
+    {
+     "litera": "D",
+     "html": "równoramienny"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma 1+9+8=18 części = 180°, część 10°. Kąty: 10°, 90°, 80° — trójkąt prostokątny.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel 180° na 1+9+8 równych części",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym kąt ostry ma miarę 60º, a jedna podstawa jest trzy razy dłuższa od drugiej. Obwód tego trapezu wynosi 20cm. Jego ramię ma długość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3cm"
+    },
+    {
+     "litera": "B",
+     "html": "4cm"
+    },
+    {
+     "litera": "C",
+     "html": "5cm"
+    },
+    {
+     "litera": "D",
+     "html": "6cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Podstawy a i 3a, ramię b. Rzut ramienia na dłuższą podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi><mo>−</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mi>a</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mi>a</mi></math> → b=2a. Obwód 4a+2b=8a=20 → a=2,5; ramię b=5 cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy kącie 60° rzut ramienia na podstawę to połowa ramienia — wyraź obwód przez krótszą podstawę",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pola kwadratów zbudowanych na przyprostokątnej i przeciwprostokątnej trójkąta prostokątnego są odpowiednio równe 7 i 15. Pole tego trójkąta jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>105</mn></msqrt><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>14</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Przyprostokątna² = 7, przeciwprostokątna² = 15 → druga przyprostokątna² = 15−7 = 8. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>7</mn></msqrt><msqrt><mn>8</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>56</mn></msqrt><mo>=</mo><msqrt><mn>14</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pola kwadratów to kwadraty boków — pole trójkąta licz jako połowę pierwiastka z iloczynu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Kwadraty stoją na przyprostokątnej i PRZECIWprostokątnej, a nie na obu przyprostokątnych"
+   }
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Średnica koła, dla którego liczba wyrażająca jego pole jest cztery razy większa od liczby wyrażającej jego obwód wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><mi>π</mi><mi>r</mi></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>8</mn></math>, średnica 16.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz πr² = 4 · 2πr i skróć πr",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z równania wychodzi promień, a pytają o średnicę"
+   }
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność odwrotna"
+   ],
+   "tresc_html": "<p>Franek miał pomalować płot razem z trzema kolegami. Planowali wykonać tę pracę w ciągu 1,5 godziny. Niestety jeden z kolegów nie przyszedł. O ile dłużej chłopcy malowali płot?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 2h"
+    },
+    {
+     "litera": "B",
+     "html": "o 1,5h"
+    },
+    {
+     "litera": "C",
+     "html": "o 1h"
+    },
+    {
+     "litera": "D",
+     "html": "o 0,5h"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>4 osoby · 1,5 h = 6 roboczogodzin. Przy 3 osobach: 6/3 = 2 h. Różnica 2 − 1,5 = 0,5 h.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz pracę na roboczogodziny — uważaj, ilu chłopców miało malować razem z Frankiem",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają, o ile dłużej malowali, a nie ile trwało malowanie; Franek z trzema kolegami to cztery osoby"
+   }
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "nierówności",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Ile jest liczb całkowitych, które spełniają równocześnie nierówności</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mn>4</mn></mfrac><mo>&gt;</mo><mn>1</mn><mo>+</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mi>x</mi><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≥</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>3</mn><mo>−</mo><mi>x</mi><mo>)</mo></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Nierówność 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>4</mn></mfrac><mo>&gt;</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>.</p><p>Nierówność 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>≥</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>13</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mo>−</mo><mn>5</mn></math>.</p><p>Wspólnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>: całkowite −5,−4,−3,−2,−1,0 — 6 liczb.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na zewnątrz trzech boków trójkąta prostokątnego równoramiennego o przyprostokątnych długości 6cm zbudowano kwadraty o bokach równych bokom trójkąta. Środki tych kwadratów połączono odcinkami. Oblicz pole otrzymanego w ten sposób trójkąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "36 cm²",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Ustawiam wierzchołek kąta prostego w (0,0), A(6,0), B(0,6). Środki kwadratów na przyprostokątnych: (3,−3) i (−3,3); środek kwadratu na przeciwprostokątnej: (6,6).</p><p>Pole trójkąta o wierzchołkach (3,−3),(−3,3),(6,6): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>72</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>36</mn></math> cm².</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2020_lodzkie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 6,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Podstawą ostrosłupa jest trójkąt równoboczny o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> dm². Jedna z krawędzi bocznych o długości 15cm jest prostopadła do podstawy. Oblicz pole powierzchni bocznej tej bryły.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "300 + 50√21 cm² (≈ 529 cm²)",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt></math> dm² → a=2 dm = 20 cm. Krawędź boczna SA⊥podstawa, SA=15 cm.</p><p>Ściany przy A: prostokątne, po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>150</mn></math> cm² (dwie).</p><p>SB=SC=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mn>20</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>25</mn></math>; wysokość w ścianie SBC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>25</mn><mn>2</mn></msup><mo>−</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>21</mn></msqrt></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>5</mn><msqrt><mn>21</mn></msqrt><mo>=</mo><mn>50</mn><msqrt><mn>21</mn></msqrt></math> cm². Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>+</mo><mn>50</mn><msqrt><mn>21</mn></msqrt></math> cm².</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Pole podstawy podane w dm², a krawędź boczna w cm"
+   }
+  }
+ ]
+}

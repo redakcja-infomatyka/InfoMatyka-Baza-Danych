@@ -1,0 +1,712 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa zachodniopomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "zachodniopomorskie",
+ "rok_szkolny": "2024/2025",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 20,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2024-2025_zachodniopomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Zegar w południe wskazywał dokładny czas. Zegar ten spóźnia się 20 sekund w ciągu godziny. Po upływie doby zegar będzie wskazywał godzinę</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "11:53"
+    },
+    {
+     "litera": "B",
+     "html": "11:52"
+    },
+    {
+     "litera": "C",
+     "html": "23:52"
+    },
+    {
+     "litera": "D",
+     "html": "23:53"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zegar spóźnia się 20 s na godzinę, więc w ciągu doby (24 h) traci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>480</mn></mrow></math> s, czyli 8 min. Po dobie prawdziwy czas to 12:00, więc zegar wskaże 12:00 − 8 min = 11:52.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz spóźnienie z całej doby na minuty i odejmij od godziny 12:00",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Wielokąt, w którym suma liczby boków i przekątnych jest równa 15, to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "pięciokąt"
+    },
+    {
+     "litera": "B",
+     "html": "sześciokąt"
+    },
+    {
+     "litera": "C",
+     "html": "siedmiokąt"
+    },
+    {
+     "litera": "D",
+     "html": "ośmiokąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma liczby boków i przekątnych n-kąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>15</mn></mrow></math>. Szukanym wielokątem jest sześciokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz wszystkie odcinki łączące pary wierzchołków — to boki plus przekątne",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Trójkąt równoboczny i prostokąt, z których zbudowana jest figura, mają takie same obwody. Bok trójkąta ma długość 12 cm. Jaka jest długość krótszego boku prostokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 cm"
+    },
+    {
+     "litera": "B",
+     "html": "5 cm"
+    },
+    {
+     "litera": "C",
+     "html": "6 cm"
+    },
+    {
+     "litera": "D",
+     "html": "7 cm"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2024-2025_zachodniopomorskie_q3_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt równoboczny o boku 12 cm ma obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn></mrow></math> cm — tyle samo wynosi obwód prostokąta. Jeden bok prostokąta pokrywa się z bokiem trójkąta i ma 12 cm. Drugi bok wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>:</mo><mn>2</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>6</mn></mrow></math> cm — to krótszy bok prostokąta.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj z rysunku, że dłuższy bok prostokąta to bok trójkąta",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia arytmetyczna dziesięciu danych liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Każdą z danych liczb zwiększamy o 2. Wówczas średnia arytmetyczna nowej dziesiątki liczb, otrzymanych w wyniku tej operacji, jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mn>2</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mfrac><mn>2</mn><mn>10</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>s</mi><mo>+</mo><mn>2</mn></mrow><mn>10</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zwiększenie każdej z 10 liczb o 2 zwiększa ich sumę o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>20</mn></mrow></math>, a więc średnią o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>2</mn></mrow></math>. Nowa średnia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mn>2</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zobacz, o ile urośnie suma dziesięciu liczb",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Janek pomyślał o pewnej liczbie. Podzielił ją przez (–3). Następnie to, co otrzymał, podzielił przez (–5). Nowy wynik pomnożył przez 4. Do uzyskanego w ten sposób rezultatu dodał (–1) i otrzymał (–13). Liczbą, o której pomyślał Janek, jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "45"
+    },
+    {
+     "litera": "B",
+     "html": "60"
+    },
+    {
+     "litera": "C",
+     "html": "−60"
+    },
+    {
+     "litera": "D",
+     "html": "−45"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cofamy działania w odwrotnej kolejności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>13</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>12</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>12</mn><mo>:</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>15</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>45</mn></mrow></math>. Janek pomyślał o liczbie −45.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "idź od końca, odwracając po kolei każde działanie",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Do wanny w kształcie prostopadłościanu o szerokości 60 cm, długości 125 cm i wysokości 50 cm, wlano 300 litrów wody. Na jaką wysokość sięga woda w wannie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "50 cm"
+    },
+    {
+     "litera": "B",
+     "html": "6 cm"
+    },
+    {
+     "litera": "C",
+     "html": "25 cm"
+    },
+    {
+     "litera": "D",
+     "html": "4 dm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>300 l wody to 300 dm³. Podstawa wanny ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>12,5</mn><mo>=</mo><mn>75</mn></mrow></math> dm² (bo 60 cm = 6 dm, 125 cm = 12,5 dm). Wysokość wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300</mn><mo>:</mo><mn>75</mn><mo>=</mo><mn>4</mn></mrow></math> dm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz wymiary na dm — 300 l to 300 dm³",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Jeden z kątów rombu stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> kąta półpełnego. Miary pozostałych kątów wynoszą:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "72°; 108°; 108°"
+    },
+    {
+     "litera": "B",
+     "html": "36°; 36°; 144°"
+    },
+    {
+     "litera": "C",
+     "html": "18°; 18°; 162°"
+    },
+    {
+     "litera": "D",
+     "html": "36°; 144°; 144°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt półpełny ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo></mrow></math>, więc jeden kąt rombu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>. W rombie kąty przeciwległe są równe, a sąsiednie sumują się do 180°, więc pozostałe kąty to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>144</mn><mo>°</mo></mrow></math>, 144° i 36°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz 1/5 kąta półpełnego, resztę wyznacz z kątów przy jednym boku rombu",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o trzy POZOSTAŁE kąty rombu; jeden z kątów 36° już jest dany"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Dwa miasta dzieli odległość 300 km. Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>7500000</mn></mrow></math> będzie to odcinek o długości:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 cm"
+    },
+    {
+     "litera": "B",
+     "html": "25 cm"
+    },
+    {
+     "litera": "C",
+     "html": "40 cm"
+    },
+    {
+     "litera": "D",
+     "html": "50 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skala 1:7 500 000 oznacza, że 1 cm na mapie odpowiada 7 500 000 cm w terenie. Odległość 300 km to 30 000 000 cm. Długość na mapie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30000000</mn><mo>:</mo><mn>7500000</mn><mo>=</mo><mn>4</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 300 km na centymetry, dopiero potem dziel przez skalę",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Ile wynosi pole powierzchni kwadratu o boku o 5 cm dłuższym od boku kwadratu o polu 36 cm²?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "61 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "81 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "121 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "196 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu o polu 36 cm² wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm. Bok większego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>11</mn></mrow></math> cm, a jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>=</mo><mn>121</mn></mrow></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw wyznacz bok kwadratu o polu 36 cm²",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Autobus linii 13 odjeżdża z pętli co 12 minut, a autobus linii 7 odjeżdża co 8 minut. Autobusy obu tych linii wyjeżdżają na trasę o godzinie 5.10. O której godzinie autobusy tych linii ponownie odjadą z pętli jednocześnie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5.22"
+    },
+    {
+     "litera": "B",
+     "html": "5.24"
+    },
+    {
+     "litera": "C",
+     "html": "5.34"
+    },
+    {
+     "litera": "D",
+     "html": "5.48"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Autobusy odjadą razem ponownie po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>12</mn><mo>,</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>24</mn></mrow></math> min. Licząc od 5.10, będzie to 5.34.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj najmniejszej wspólnej wielokrotności 12 i 8",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Suma długości średnic dwóch okręgów jest równa 120 cm. Promień jednego z tych okręgów jest równy średnicy drugiego. Długość średnicy mniejszego okręgu jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "80 cm"
+    },
+    {
+     "litera": "B",
+     "html": "60 cm"
+    },
+    {
+     "litera": "C",
+     "html": "40 cm"
+    },
+    {
+     "litera": "D",
+     "html": "20 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech mniejsza średnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Promień większego okręgu jest równy średnicy mniejszego, więc większa średnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>d</mi></mrow></math>. Z sumy średnic: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>d</mi><mo>=</mo><mn>120</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>40</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obie średnice wyraź przez średnicę mniejszego okręgu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie o bokach długości 6 dm, 8 dm, 12 dm wysokość opuszczona na najdłuższy bok ma 4,4 dm. Wysokość opuszczona na najkrótszy bok ma długość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6,6 dm"
+    },
+    {
+     "litera": "B",
+     "html": "8,8 dm"
+    },
+    {
+     "litera": "C",
+     "html": "17,6 cm"
+    },
+    {
+     "litera": "D",
+     "html": "13,2 dm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>4,4</mn><mo>=</mo><mn>26,4</mn></mrow></math> dm². Dla wysokości na najkrótszy bok (6 dm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26,4</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mi>h</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>8,8</mn></mrow></math> dm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "iloczyn boku i wysokości opuszczonej na ten bok jest w trójkącie stały",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaką cyfrę w rzędzie jedności ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>+</mo><msup><mn>4</mn><mn>4</mn></msup><mo>+</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfra jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>4</mn></msup></math> to 1 (81), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>4</mn></msup></math> to 6 (256), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>3</mn></msup></math> to 5 (125). Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>12</mn></mrow></math>, więc szukana cyfra to 2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "patrz tylko na cyfry jedności kolejnych potęg",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>1,73</mn></mrow></math> jest większe od 1, liczba pod wartością bezwzględną jest ujemna, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź najpierw, co jest większe: 1 czy √3",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Wartość bezwzględna liczby ujemnej: 1 − √3 < 0, więc nie można opuścić kresek bez zmiany znaku"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Którą z liczb należy wpisać w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>□</mo></math>, aby zależność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>&lt;</mo><mfrac><mo>□</mo><mn>6</mn></mfrac><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></mrow></math> była prawdziwa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>=</mo><mn>0,625</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>=</mo><mn>0,875</mn></mrow></math>, szukamy liczby spełniającej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,625</mn><mo>·</mo><mn>6</mn><mo>&lt;</mo><mo>□</mo><mo>&lt;</mo><mn>0,875</mn><mo>·</mo><mn>6</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,75</mn><mo>&lt;</mo><mo>□</mo><mo>&lt;</mo><mn>5,25</mn></mrow></math>. Jedyną pasującą liczbą wśród odpowiedzi jest 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie trzy ułamki do wspólnego mianownika 24",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Pan Jan płacił za połączenie z Internetem 73 zł 20 gr miesięcznie. Kwota ta zawierała 22% podatku VAT. O ile zł obniży się opłata miesięczna, jeżeli opodatkowanie VAT połączeń internetowych spadnie do 7%?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "9 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kwota 73,20 zł to cena wraz z 22% VAT, czyli 122% ceny bez podatku. Nowa opłata z 7% VAT to 107% tej samej ceny netto. Z proporcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>122</mn><mo>%</mo><mo>→</mo><mn>73,20</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>107</mn><mo>%</mo><mo>→</mo><mi>x</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>73,20</mn><mo>·</mo><mn>107</mn></mrow><mn>122</mn></mfrac><mo>=</mo><mn>64,20</mn></mrow></math> zł. Opłata obniży się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>73,20</mn><mo>−</mo><mn>64,20</mn><mo>=</mo><mn>9</mn></mrow></math> zł.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): zapisanie proporcji 122% — 73,20, 107% — x.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "73,20 zł to 122% ceny bez podatku — policz, ile kosztuje 1%",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Kwota zawiera już VAT: procent liczy się od ceny netto, a nie od kwoty brutto 73,20 zł"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Marek i Jarek wyruszyli jednocześnie z tego samego miejsca nad rzekę. Marek jechał samochodem 15 minut ze średnią prędkością 72 km/h i zatrzymał się na parkingu nad rzeką. Jarek jechał tą samą drogą motorowerem ze średnią prędkością 40 km/h i gdy dojechał do czekającego na niego Marka, również się zatrzymał. Ile minut Marek czekał na Jarka?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 min",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Marek jechał 15 min, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny, więc pokonał drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>18</mn></mrow></math> km. Jarek tę samą drogę przejechał z prędkością 40 km/h w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>18</mn><mn>40</mn></mfrac><mo>=</mo><mn>0,45</mn></mrow></math> h, czyli 27 min. Marek czekał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><mo>−</mo><mn>15</mn><mo>=</mo><mn>12</mn></mrow></math> min.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za obliczenie drogi Marka (18 km); 1 pkt za zapisanie proporcji/wzoru na czas Jarka; 1 pkt za obliczenie czasu (27 min) i odpowiedzi (12 min).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "droga jest ta sama, więc czasy są w odwrotnym stosunku niż prędkości 72 i 40",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Karolina miała w skarbonce 280 zł. Na deskorolkę wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> swoich oszczędności, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> tego, co zostało, wydała na paletkę do tenisa stołowego, za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pozostałych oszczędności kupiła bluzę dresową. Ile pieniędzy pozostało Karolinie w skarbonce?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "28 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Po kupnie deskorolki zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>280</mn><mo>−</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>·</mo><mn>280</mn><mo>=</mo><mn>168</mn></mrow></math> zł. Po kupnie paletki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>168</mn><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>168</mn><mo>=</mo><mn>112</mn></mrow></math> zł. Po kupnie bluzy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>112</mn><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>112</mn><mo>=</mo><mn>28</mn></mrow></math> zł. Karolinie pozostało 28 zł.</p>",
+    "punktacja_html": "<p>Częściowo: po 1 pkt za obliczenie kwoty pozostałej po każdym z trzech zakupów (168 zł, 112 zł, 28 zł).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "mnóż przez siebie ułamki tego, co zostaje po każdym zakupie",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trójkąt równoramienny o polu powierzchni 12 cm². Wysokość opuszczona na podstawę ma długość 0,4 dm. Podstawa trójkąta jest o 1 cm dłuższa niż jego ramię. Oblicz obwód tego trójkąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "16 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wysokość na podstawę to 0,4 dm, czyli 4 cm. Z pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mi>a</mi></mrow></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — podstawa) otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math> cm. Ramię jest o 1 cm krótsze od podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>6</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>5</mn></mrow></math> cm. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>16</mn></mrow></math> cm.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za ułożenie równania z wzoru na pole; 1 pkt za obliczenie podstawy (6 cm); 1 pkt za obliczenie ramienia (5 cm) i obwodu (16 cm).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 0,4 dm na cm i z wzoru na pole wyznacz podstawę",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Wysokość podana w dm, pole i odpowiedź w cm"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_zachodniopomorskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat ma obwód 32 dm. Środki dwóch kolejnych boków tego kwadratu połączono ze sobą i z wierzchołkiem, który nie należy do tych boków. Jakie jest pole otrzymanego w ten sposób trójkąta? Wykonaj rysunek. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "24 dm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> dm, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn></mrow></math> dm². Szukany trójkąt powstaje z kwadratu po odcięciu trzech trójkątów prostokątnych: dwóch o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>16</mn></mrow></math> dm² oraz jednego o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> dm². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><mn>64</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>24</mn></mrow></math> dm².</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za obliczenie boku i rysunek z oznaczeniami; 1 pkt za pole kwadratu i zapis wzoru na pole trójkąta; 1 pkt za obliczenie pól odcinanych trójkątów; 1 pkt za obliczenie pola szukanego trójkąta (24 dm²).</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

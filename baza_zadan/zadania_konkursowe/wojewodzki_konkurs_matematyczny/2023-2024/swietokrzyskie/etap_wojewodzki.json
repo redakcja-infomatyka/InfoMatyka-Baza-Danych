@@ -1,0 +1,556 @@
+{
+ "konkurs": "VIII Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2023/2024",
+ "data": "2024-03-05",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 14,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023-2024_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Pan Antoni <strong>przejechał pewien odcinek</strong> autostrady <strong>w ciągu</strong> 3 godzin<strong>, jadąc ze średnią prędkością 120 km/h. Pan Piotr ten sam</strong> odcinek drogi <strong>pokonał ze średnią prędkością</strong> 100 km/h. Ile czasu <strong>zajęło</strong> panu Piotrowi przejechanie tego odcinka autostrady?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 godziny 16 minut"
+    },
+    {
+     "litera": "B",
+     "html": "3 godziny 26 minut"
+    },
+    {
+     "litera": "C",
+     "html": "3 godziny 36 minut"
+    },
+    {
+     "litera": "D",
+     "html": "3 godziny 46 minut"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Droga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>360</mn></math> km. Czas pana Piotra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>3,6</mn></math> h, czyli 3 godziny 36 minut.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw długość odcinka, potem ułamek godziny zamień na minuty",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p><strong>Ile jest liczb naturalnych czterocyfrowych parzystych o różnych cyfrach, które w rzędzie setek mają cyfrę 2?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "203"
+    },
+    {
+     "litera": "B",
+     "html": "224"
+    },
+    {
+     "litera": "C",
+     "html": "252"
+    },
+    {
+     "litera": "D",
+     "html": "256"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Setki=2, jedności (parzyste, różne od 2): 0, 4, 6, 8.</p><p>Jedności=0: tysiące (bez 0 i 2) — 8 możliwości, dziesiątki — 7: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>56</mn></math>. Jedności∈{4,6,8}: tysiące — 7, dziesiątki — 7: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>147</mn></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>+</mo><mn>147</mn><mo>=</mo><mn>203</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozbij na przypadki według cyfry jedności: osobno 0, osobno 4, 6, 8 — uwaga na zero z przodu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Cyfra tysięcy nie może być zerem, więc przypadek z zerem na końcu liczy się osobno"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p><strong>Przekątna sześcianu ma długość</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math> <strong>cm.</strong></p><p><strong>Dokończ zadanie.</strong></p><p><strong>Pole powierzchni całkowitej tego sześcianu jest równe:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątna sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>6</mn></msqrt></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>12</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przekątna sześcianu to a√3, a pole zależy od a², więc pierwiastka nie musisz liczyć",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "wielokąty",
+    "symetrie"
+   ],
+   "tresc_html": "<p><strong>Dany jest piętnastokąt foremny i dwudziestokąt foremny.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Miara kąta wewnętrznego dwudziestokąta foremnego jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>°</mo></math> większa niż miara kąta wewnętrznego piętnastokąta foremnego."
+    },
+    {
+     "litera": "2",
+     "html": "Dwudziestokąt foremny ma o 10 osi symetrii więcej niż piętnastokąt foremny."
+    },
+    {
+     "litera": "3",
+     "html": "Oba wielokąty mają środek symetrii."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt wewnętrzny n-kąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>. Dla 15-kąta: 156°, dla 20-kąta: 162°, różnica 6° — P.</p><p>Osi symetrii tyle, ile boków: 20 i 15, różnica 5, nie 10 — F.</p><p>Piętnastokąt (n nieparzyste) nie ma środka symetrii, więc nieprawda, że oba wielokąty go mają — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt wewnętrzny z 180° − 360°/n, a osi symetrii jest tyle co boków",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Nie każdy wielokąt foremny ma środek symetrii, zależy to od parzystości liczby boków"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Na każdym z boków trójkąta prostokątnego o przyprostokątnych równych 6 cm i 8 cm zbudowano półkola, tak jak na rysunku obok.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole półkola zbudowanego na krótszej przyprostokątnej jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>π</mi><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Pole półkola zbudowanego na przeciwprostokątnej jest mniejsze od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Suma pól półkoli zbudowanych na przyprostokątnych jest równa polu półkola zbudowanego na przeciwprostokątnej."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_swietokrzyskie_q5_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przeciwprostokątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn></math>. Pole półkola o średnicy a: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math>.</p><p>Na 6 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,5</mn><mi>π</mi></math> ≠ 18π — F. Na 10 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12,5</mn><mi>π</mi><mo>≈</mo><mn>39,3</mn></math> cm² &lt; 40 — P. Suma na przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,5</mn><mi>π</mi><mo>+</mo><mn>8</mn><mi>π</mi><mo>=</mo><mn>12,5</mn><mi>π</mi></math> = pole na przeciwprostokątnej — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "promienie półkoli to 3, 4 i 5 — pola zależą od kwadratów boków",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:promien-srednica"
+    ],
+    "opis": "Bok trójkąta jest średnicą półkola, a nie promieniem"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p><strong>Na loterię przygotowano 45 losów. Co trzeci los był wygrywający. W loterii wzięło już udział pięć osób i każda z nich wylosowała los przegrywający. Prawdopodobieństwo, że kolejna osoba wyciągnie los przegrywający jest równe:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wygrywających: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>15</mn></math>, przegrywających: 30. Po 5 losowaniach zostało 40 losów, w tym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math> przegrywających. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>25</mn><mn>40</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij pięć wyjętych losów i od wszystkich, i od przegranych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:losowanie-bez-zwracania"
+    ],
+    "opis": "Wylosowane losy ubywają z puli: zmienia się i liczba przegrywających, i liczba wszystkich"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ania za<strong>pisała na</strong> tablicy wszystkie liczby czterocyfrow<strong>e, które jednocześnie spełniają następujące warunki:</strong></p><ul><li>suma cyfr wynosi 15,</li><li>cyfra <strong>w rzędzie setek jest równa 5,</strong></li><li>cyfra <strong>w rzędzie dziesiątek jest o 3 większa od cyfry w rzędzie jedności.</strong></li></ul><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Ania zapisała na tablicy dokładnie cztery liczby."
+    },
+    {
+     "litera": "2",
+     "html": "W każdej zapisanej przez Anię liczbie cyfra tysięcy jest nieparzysta."
+    },
+    {
+     "litera": "3",
+     "html": "Suma wszystkich zapisanych przez Anię liczb jest liczbą nieparzystą."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mn>5</mn><mi>t</mi><mi>j</mi></math> z sumą cyfr 15 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mi>j</mi><mo>+</mo><mn>3</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>+</mo><mn>2</mn><mi>j</mi><mo>=</mo><mn>7</mn></math>. Dla j=0,1,2,3 mamy d=7,5,3,1: liczby 7530, 5541, 3552, 1563.</p><p>Cztery liczby — P. Cyfry tysięcy 7,5,3,1 — wszystkie nieparzyste — P. Suma = 18186, liczba parzysta — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wstaw dziesiątki = jedności + 3 do sumy cyfr i wylicz cyfrę tysięcy; parzystość czytaj z jedności",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p><strong>Dokończ zdanie.</strong></p><p><strong>Ostrosłup o 2024 wierzchołkach ma:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4048 krawędzi."
+    },
+    {
+     "litera": "B",
+     "html": "4046 krawędzi."
+    },
+    {
+     "litera": "C",
+     "html": "2024 krawędzi."
+    },
+    {
+     "litera": "D",
+     "html": "1012 krawędzi."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostrosłup o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn></math> wierzchołków i 2n krawędzi. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2024</mn></math> → n=2023. Krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2023</mn><mo>=</mo><mn>4046</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstawa ma o wierzchołek mniej niż ostrosłup, a krawędzi jest dwa razy tyle co boków podstawy",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:wierzcholek-szczytowy"
+    ],
+    "opis": "Wśród wierzchołków ostrosłupa jest wierzchołek szczytowy, podstawa ma o jeden mniej"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>W sklepie osiedlowym <strong>2,5 kg czereśni kosztuje 37,50 zł.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Gdyby cena czereśni w tym sklepie wzrosła o 30%, to 1 kg tych owoców kosztowałby ponad 19,50 zł."
+    },
+    {
+     "litera": "2",
+     "html": "Gdyby cena czereśni w tym sklepie zmalała o 30%, to 3,5 kg tych owoców kosztowałby 36,75 zł."
+    },
+    {
+     "litera": "3",
+     "html": "Aby możliwe było kupienie w tym sklepie 1 kg czereśni za 10 zł, cena tych owoców musiałby zmaleć o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>%."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cena 1 kg: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,50</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>15</mn></math> zł.</p><p>Po podwyżce o 30%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>1,3</mn><mo>=</mo><mn>19,50</mn></math> zł — dokładnie tyle, nie ponad — F. Po obniżce o 30%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>10,50</mn></math> zł/kg, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mo>·</mo><mn>10,50</mn><mo>=</mo><mn>36,75</mn></math> zł — P. Spadek z 15 do 10 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>15</mn></mfrac><mo>=</mo><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></math> — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw cena za 1 kg, dopiero na niej licz procenty",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kwantyfikator",
+     "procent-podstawa"
+    ],
+    "opis": "„Ponad” to nierówność ostra; w zdaniu 3 obniżka liczona od starej ceny"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "działania na potęgach",
+    "podzielność"
+   ],
+   "tresc_html": "<p><strong>Dane są liczby:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2024</mn><mn>2023</mn></msup><mo>+</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>2024</mn><mn>2024</mn></msup><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>2024</mn><mn>2025</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi></math> liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest liczbą podzielną przez 5."
+    },
+    {
+     "litera": "2",
+     "html": "Iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mi>c</mi></math> liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest liczbą podzielną przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>253</mn><mn>2024</mn></msup></math>."
+    },
+    {
+     "litera": "3",
+     "html": "W zapisie dziesiętnym liczby będącej wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></math> w rzędzie jedności jest cyfra 7."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>2024≡−1 (mod 5), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup><mo>≡</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2025</mn></msup><mo>≡</mo><mn>4</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi><mo>≡</mo><mn>0</mn></math> (mod 5) — P.</p><p>2024=8·11·23, więc c zawiera czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>11</mn><mn>2025</mn></msup><mo>·</mo><msup><mn>23</mn><mn>2025</mn></msup></math>, a to starcza na podzielność abc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>253</mn><mn>2024</mn></msup></math> — P.</p><p>Ostatnia cyfra potęgi 2024 to 4 przy nieparzystym wykładniku, 6 przy parzystym: a kończy się na 6, b na 7, c na 4; suma jedności 6+7+4=17 — cyfra jedności 7 — P.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "patrz tylko na ostatnie cyfry potęg, a przy podzielności sprawdź, przez co dzieli się 2024",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "układ współrzędnych",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Odcinek o końcach w punktach</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> <strong>i</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>)</mo></math> <strong>jest bokiem równoległoboku</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math><strong>, a punkt</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> <strong>jest środkiem symetrii tego równoległoboku.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeden z wierzchołków tego równoległoboku ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód tego równoległoboku jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>10</mn></msqrt></math>"
+    },
+    {
+     "litera": "3",
+     "html": "Pole tego równoległoboku jest równe 28."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>S jest środkiem symetrii: C=2S−A=(−2,2), D=2S−B=(0,−2). Żaden wierzchołek nie ma współrzędnych (−2,0) → F.</p><p>|AB|=√((−2)²+4²)=2√5, |BC|=√(6²+2²)=2√10. Obwód=2(2√5+2√10)=4√5+4√10 ≠ 2√5+2√10 → F.</p><p>Pole (iloczyn wektorowy AB×AD)=|(−2)(−2)−4·(−6)|=|4+24|=28 → P.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_WRONG",
+     "opis": "Klucz FPP jest błędny w zdaniu 2 — poprawna odpowiedź to FFP. Środek symetrii S=(2,1) jest środkiem przekątnych, więc C=2S−A=(−2,2) oraz D=2S−B=(0,−2). Wierzchołki to (6,0),(4,4),(−2,2),(0,−2) — punktu (−2,0) wśród nich nie ma, zatem zdanie 1 jest fałszywe. Długości boków: |AB|=√(2²+4²)=√20=2√5 oraz |BC|=√(6²+2²)=√40=2√10. Obwód równoległoboku = 2·2√5 + 2·2√10 = 4√5+4√10, a NIE 2√5+2√10 (podana w zadaniu wartość to tylko suma dwóch sąsiednich boków, czyli połowa obwodu) — więc zdanie 2 jest fałszywe, wbrew kluczowi. Pole = |(−2)·(−2) − 4·(−6)| = |4+24| = 28 (to samo daje wzór Gaussa) — zdanie 3 jest prawdziwe. Ostatecznie FFP. Modele AI (Sonnet) podały poprawnie FFP; błąd tkwi w oficjalnym kluczu, w którym zapomniano podwoić obwód."
+    }
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p><strong>W trójkącie prostokątnym stosunek długości dwóch dłuższych boków jest równy</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>:</mo><mn>13</mn></math>. <strong>Obwód tego trójkąta</strong> wynosi 150. <strong>Jaką długość</strong> ma trzeci bo<strong>k tego trójkąta?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22"
+    },
+    {
+     "litera": "B",
+     "html": "23"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "25"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwa dłuższe boki: 12k i 13k (13k to przeciwprostokątna). Trzeci bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>13</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>12</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><mi>k</mi></math>.</p><p>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>13</mn><mi>k</mi><mo>=</mo><mn>30</mn><mi>k</mi><mo>=</mo><mn>150</mn></math>, więc k=5, a trzeci bok = 5·5=25.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "12 i 13 to dwa boki znanej trójki pitagorejskiej — dopisz trzeci i porównaj z obwodem",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Dany jest równoległobok o kącie rozwartym</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>135</mn><mo>°</mo></math><strong>. Krótsza przekątna tego równoległoboku ma długość</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> <strong>i dzieli go na dwa trójkąty prostokątne.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole tego równoległoboku jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><msqrt><mn>8</mn></msqrt></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód tego równoległoboku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>6</mn></msqrt></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Jedna z wysokości tego równoległoboku ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt przyległy do 135° wynosi 45°. Skoro przekątna dzieli równoległobok na trójkąty prostokątne, powstaje trójkąt 45°-45°-90°: krótszy bok = przekątna = 4√3, dłuższy bok (przeciwprostokątna) = 4√3·√2 = 4√6.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>48</mn></math>, nie 24√8 — F. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math> — P. Wysokość do dłuższego boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>:</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math> — P.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p><strong>Podstawa ostrosłupa prawidłowego czworokątnego ma pole równe</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math><strong>. Krawędź boczna tego ostrosłupa jest równa długości krawędzi podstawy.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest</strong> prawdziwe lub F – <strong>jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wysokość ostrosłupa jest równa połowie przekątnej podstawy."
+    },
+    {
+     "litera": "2",
+     "html": "Pole powierzchni bocznej tego ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><msqrt><mn>3</mn></msqrt><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Objętość ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>348</mn><msqrt><mn>2</mn></msqrt><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole podstawy 64 cm² → bok a=8, przekątna podstawy=8√2, jej połowa=4√2. Krawędź boczna=a=8.</p><p>Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> = połowa przekątnej — P. Ściana boczna to trójkąt równoboczny o boku 8: pole=16√3, razem 4 ściany=64√3 — P. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>64</mn><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>256</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math> ≠ 348√2 — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "krawędź boczna równa krawędzi podstawy, więc ściany boczne są trójkątami równobocznymi",
+   "czas_min": 5
+  }
+ ]
+}

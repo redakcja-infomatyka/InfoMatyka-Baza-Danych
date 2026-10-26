@@ -1,0 +1,654 @@
+{
+ "konkurs": "VII Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2022/2023",
+ "data": "2023-03-06",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2022-2023_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dana jest liczba <strong>dwucyfrowa, której suma cyfr wynosi 6. Jeśli w tej liczbie przestawimy cyfry, to stosunek otrzymanej liczby do liczby przed przestawieniem cyfr będzie wynosił</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>.</p><p><strong>Które zdanie <u>nie jest prawdziwe</u>? Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Początkowa liczba (czyli liczba przed przestawieniem cyfr) to 42."
+    },
+    {
+     "litera": "B",
+     "html": "Suma początkowej liczby i liczby powstałej z przestawienia cyfr w danej liczbie jest równa 66."
+    },
+    {
+     "litera": "C",
+     "html": "Wartość bezwzględna różnicy początkowej liczby i liczby powstałej z przestawienia jej cyfr jest równa 18."
+    },
+    {
+     "litera": "D",
+     "html": "Największym wspólnym dzielnikiem początkowej liczby i liczby powstałej z przestawienia jej cyfr jest liczba 6."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech liczba ma cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (dziesiątki) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (jedności), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>6</mn></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mi>b</mi><mo>+</mo><mi>a</mi></mrow><mrow><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>4</mn></mfrac></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn></math> — liczbą początkową jest 24, a 42 to liczba po przestawieniu cyfr.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz dwucyfrowe o sumie cyfr 6 i sprawdź, dla której przestawienie daje stosunek 7/4",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p><strong>Ile niewłaściwych ułamków można utworzyć, jeśli liczniki i mianowniki wybieramy spośród liczb pierwszych nie większych niż 41?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "77"
+    },
+    {
+     "litera": "B",
+     "html": "90"
+    },
+    {
+     "litera": "C",
+     "html": "91"
+    },
+    {
+     "litera": "D",
+     "html": "78"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczb pierwszych nie większych niż 41 jest 13. Par (licznik, mianownik) jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>·</mo><mn>13</mn><mo>=</mo><mn>169</mn></math>; licznik większy od mianownika w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>169</mn><mo>−</mo><mn>13</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>78</mn></math> parach. Niewłaściwe (licznik ≥ mianownik): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>91</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile jest liczb pierwszych ≤ 41, i zlicz pary, w których licznik ≥ mianownik",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "inne:definicja-pojecia"
+    ],
+    "opis": "Ułamek niewłaściwy to także licznik równy mianownikowi (p/p) — łatwo liczyć tylko licznik większy"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> <strong>przez 4 jest równa 1. Reszta z dzielenia kwadratu liczby</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> przez 4 <strong>jest równa:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>4</mn><mi>m</mi><mo>+</mo><mn>1</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn><msup><mi>m</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>m</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn><mo>(</mo><mn>4</mn><msup><mi>m</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>m</mi><mo>)</mo><mo>+</mo><mn>1</mn></math>. Reszta wynosi 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw k = 4m + 1 i podnieś do kwadratu — zobacz, co zostaje poza wielokrotnościami 4",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "podzielność"
+   ],
+   "tresc_html": "<p><strong>Na tablicy zapisano wszystkie takie liczby trzycyfrowe, że każda z nich spełnia dwa warunki:</strong> 1) <strong>cyfry liczby są różne</strong>, 2) <strong>w rzędzie dziesiątek jest cyfra 5.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Na tablicy wypisano 64 liczby."
+    },
+    {
+     "litera": "2",
+     "html": "Czternaście liczb spośród liczb wypisanych na tablicy jest podzielnych przez 4."
+    },
+    {
+     "litera": "3",
+     "html": "Średnia arytmetyczna najmniejszej i największej spośród tych liczb jest jedną z liczb wypisanych na tablicy."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. Cyfra setek: 8 możliwości (bez 0 i 5); cyfra jedności: 8 możliwości (bez 5 i cyfry setek): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>64</mn></math> liczby.</p><p>2. Liczba dzieli się przez 4, gdy końcówka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>+</mo><mi>j</mi></math> dzieli się przez 4, czyli jedności to 2 lub 6; po wykluczeniu przypadków, gdy jedności równe cyfrze setek, zostaje 14 liczb.</p><p>3. Najmniejsza to 150, największa 958, ich średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>150</mn><mo>+</mo><mn>958</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>554</mn></math> — ta liczba ma cyfrę setek 5, więc nie spełnia warunków zadania.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz osobno możliwości dla cyfry setek i jedności; podzielność przez 4 rozstrzygają dwie ostatnie cyfry",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Warunek różnych cyfr: średnia skrajnych liczb ma 5 w dziesiątkach, ale powtarza cyfrę"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "działania na potęgach",
+    "ostatnia cyfra / cykliczność potęg"
+   ],
+   "tresc_html": "<p><strong>Dane są trzy liczby</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>2023</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>4</mn><mn>2023</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>8</mn><mn>2023</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest dwa razy większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest liczbą podzielną przez 10."
+    },
+    {
+     "litera": "3",
+     "html": "Iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest równy kwadratowi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "4",
+     "html": "W zapisie dziesiętnym liczby będącej sumą liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> w rzędzie jedności jest cyfra 4."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>4</mn><mn>2023</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>8</mn><mn>2023</mn></msup><mo>=</mo><msup><mi>a</mi><mn>3</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mi>a</mi><mo>·</mo><mi>b</mi></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>.</p><p>2. Ostatnia cyfra potęg 2 powtarza się co 4 (2,4,8,6); 2023 daje resztę 3, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> kończy się na 8. Podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> (cykl 8,4,2,6) kończy się na 2. Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi></math> kończy się na 0, więc dzieli się przez 10.</p><p>3. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>·</mo><mi>c</mi><mo>=</mo><msup><mi>a</mi><mn>4</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup></math>.</p><p>4. Cykl ostatniej cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (4,6) daje dla nieparzystego wykładnika cyfrę 4. Suma ostatnich cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>14</mn></math>, więc suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></math> kończy się na 4.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie trzy liczby do potęg dwójki i korzystaj z cyklu ostatnich cyfr",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "8 to dwa razy 4, ale 8^n nie jest dwa razy większe od 4^n"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p><strong>Ile jest liczb podzielnych przez 5 większych od</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>999</mn></msqrt></math> <strong>i jednocześnie mniejszych od</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>9999</mn></msqrt></math>? <strong>Wybierz odpowiedź spośród</strong> podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>999</mn></msqrt><mo>≈</mo><mn>31,6</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>9999</mn></msqrt><mo>≈</mo><mn>99,995</mn></math>, szukamy wielokrotności 5 od 35 do 95: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>95</mn><mo>−</mo><mn>35</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>13</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszacuj oba pierwiastki między sąsiednimi liczbami całkowitymi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia",
+     "plot-i-slupki"
+    ],
+    "opis": "Granica przedziału: pierwiastek z 9999 jest tuż poniżej 100, więc 100 nie należy do zbioru"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p><strong>Ile kilogramów wody należy odparować z 6 kg solanki o stężeniu 19</strong>-procentowym, aby <strong>otrzymać solankę o stężeniu 20 –</strong> procentowym?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,01 kg"
+    },
+    {
+     "litera": "B",
+     "html": "0,02 kg"
+    },
+    {
+     "litera": "C",
+     "html": "0,2 kg"
+    },
+    {
+     "litera": "D",
+     "html": "0,3 kg"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ilość soli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,19</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>1,14</mn></math> kg — nie zmienia się. Po odparowaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> kg wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1,14</mn><mrow><mn>6</mn><mo>−</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0,2</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>5,7</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0,3</mn></math> kg.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sól nie odparowuje — jej masa jest taka sama przed i po",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Suma trzech kolejnych liczb parzystych podzielnych przez 11 wynosi 462. <strong>Jeżeli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy dodatnią liczbę naturalną, to treść tego zadania przedstawia równanie:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mi>x</mi><mo>+</mo><mn>11</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>11</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>462</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi><mo>+</mo><mn>22</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mn>22</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>462</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi><mo>+</mo><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>462</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mi>x</mi><mo>+</mo><mn>11</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mn>11</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>462</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy kolejne liczby parzyste podzielne przez 11 to kolejne wielokrotności 22: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi><mo>+</mo><mn>22</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi><mo>+</mo><mn>44</mn></math>. Zapisując dwa ostatnie składniki jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></math>, suma daje równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>x</mi><mo>+</mo><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>11</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>462</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "liczba parzysta i podzielna przez 11 to wielokrotność 22 — rozwiń nawiasy w odpowiedziach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:kolejne-wielokrotnosci"
+    ],
+    "opis": "Kolejne parzyste wielokrotności 11 różnią się o 22, nie o 2"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p><strong>Z prostokątnej kartki o wymiarach 14 cm x 25 cm należy wyciąć koła o promieniu 3 cm. Każde koło musi być wycięte w całości</strong> (tzn. <strong>nie można zrobić koła, np. sklejając wycięte części). Ile najwięcej takich kół można wyciąć z tej kartki?</strong></p><p>Wybierz <strong>odpowiedź spośród podanych</strong>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "13"
+    },
+    {
+     "litera": "D",
+     "html": "32"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Na boku 14 cm mieści się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>2</mn></math> koła (średnica 6 cm), a na boku 25 cm — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>4</mn></math> koła. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math> kół.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, ile średnic mieści się wzdłuż każdego boku kartki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Liczby kół nie wyznacza stosunek pól — koła trzeba fizycznie zmieścić na kartce"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Na ramionach kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>COB</mi></math> o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math> obrano punkty A, B, C tak, że są one wierzchołkami trójkąta równobocznego o boku długości 5.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi></math> wynosi 5."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OBC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12,5</mn><msqrt><mn>3</mn></msqrt></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022-2023_swietokrzyskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoboczny, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> ma miarę 60°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math> (przyległy) — 120°. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> to 30°, więc kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> też 30° — trójkąt równoramienny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi><mo>=</mo><mi>AC</mi><mo>=</mo><mn>5</mn></math>. Z twierdzenia cosinusów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>OC</mi><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>+</mo><mn>25</mn><mo>−</mo><mn>50</mn><mo>·</mo><mi>cos</mi><mn>120</mn><mo>°</mo><mo>=</mo><mn>75</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OC</mi><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OBC</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OB</mi><mo>=</mo><mn>10</mn></math>, kąt 30°): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>12,5</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Pole rombu o kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math></strong> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><msqrt><mn>2</mn></msqrt></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Obwód rombu wynosi 36."
+    },
+    {
+     "litera": "2",
+     "html": "Wysokość rombu ma długość 6."
+    },
+    {
+     "litera": "3",
+     "html": "Krótsza przekątna rombu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>36</mn><msqrt><mn>2</mn></msqrt></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>72</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>1. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>24</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>33,9</mn></math>, nie 36.</p><p>2. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>36</mn><msqrt><mn>2</mn></msqrt><mo>:</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn></math>.</p><p>3. Wysokość opuszczona z wierzchołka na sąsiedni bok tworzy trójkąt 45°-45°-90° o przyprostokątnych 6; krótsza przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>−</mo><mn>72</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>42</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>≈</mo><mn>6,5</mn></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>8,5</mn></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p><strong>O ile stopni jest mniejsza suma wszystkich miar kątów wewnętrznych wielokąta foremnego o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach od sumy wszystkich miar kątów wewnętrznych wielokąta foremnego, którego liczba boków jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math>?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>·</mo><mi>n</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>°</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>540</mn><mo>°</mo><mo>·</mo><mi>n</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>720</mn><mo>°</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma kątów wielokąta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></math>; o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> bokach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>·</mo><mi>n</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wstaw n i 2n do wzoru (n−2)·180° i odejmij",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Na obu rysunkach punkty C, E, F, D leżą na jednej prostej. Punkty E oraz F dzielą odcinek CD na trzy równe części, każda z nich ma długość 3.</strong></p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole figury na rys.1 jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16,875</mn><mi>π</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Pole figury na rys.2 jest o 3,375 większe od pola figury na rys.1."
+    },
+    {
+     "litera": "3",
+     "html": "Obwody figur na obu rysunkach są takie same."
+    },
+    {
+     "litera": "4",
+     "html": "Suma pól tych figur jest równa polu koła o promieniu 4,5."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022-2023_swietokrzyskie_q13_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "FFPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promień dużego półokręgu (śr. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><mn>9</mn></math>) to 4,5; każdego małego (śr. 3) — 1,5.</p><p>1. Pole rys.1 = duży minus trzy małe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mi>π</mi><mo>·</mo><msup><mn>4,5</mn><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo>·</mo><mn>0,5</mn><mi>π</mi><mo>·</mo><msup><mn>1,5</mn><mn>2</mn></msup><mo>=</mo><mn>6,75</mn><mi>π</mi></math>, nie 16,875π.</p><p>2. Pole rys.2 = duży plus trzy małe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13,5</mn><mi>π</mi></math>; różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13,5</mn><mi>π</mi><mo>−</mo><mn>6,75</mn><mi>π</mi><mo>=</mo><mn>6,75</mn><mi>π</mi></math>, nie 3,375.</p><p>3. Obie figury tworzą te same łuki (duży i trzy małe półokręgi), więc mają równe obwody.</p><p>4. Suma pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,75</mn><mi>π</mi><mo>+</mo><mn>13,5</mn><mi>π</mi><mo>=</mo><mn>20,25</mn><mi>π</mi><mo>=</mo><mi>π</mi><mo>·</mo><msup><mn>4,5</mn><mn>2</mn></msup></math> — tyle wynosi pole koła o promieniu 4,5.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:podwojna-roznica"
+    ],
+    "opis": "Małe półkola raz się odejmuje, raz dodaje — różnica pól to ich podwojona suma; brak π w zdaniu"
+   }
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p><strong>Pewien graniastosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> krawędzi, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ścian i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> wierzchołków. Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mi>s</mi><mo>+</mo><mi>w</mi><mo>=</mo><mn>110</mn></math>,</strong> to <strong>podstawą tego graniastosłupa jest:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dziewiętnastokąt"
+    },
+    {
+     "litera": "B",
+     "html": "osiemnastokąt"
+    },
+    {
+     "litera": "C",
+     "html": "siedemnastokąt"
+    },
+    {
+     "litera": "D",
+     "html": "szesnastokąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla graniastosłupa o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mn>2</mn><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>n</mi><mo>+</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>3</mn><mi>n</mi></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>110</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>18</mn></math> — podstawą jest osiemnastokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź liczbę krawędzi, ścian i wierzchołków przez liczbę boków podstawy",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Z <strong>graniastosłupa prawidłowego czworokątnego o krawędzi podstawy równej 3 cm i krawędzi bocznej równej 6 cm</strong>, <strong>odcięto ostrosłup o podstawie trójkąta, w sposób pokazany</strong> na <strong>rysunku. Objętość bryły, która powstała po odcięciu tego ostrosłupa jest równa:</strong></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2022-2023_swietokrzyskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>54</mn></math> cm³. Odcięty ostrosłup ma trzy wzajemnie prostopadłe krawędzie w narożu bryły: 3, 3 i 6, więc jego objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>9</mn></math> cm³. Pozostała bryła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>45</mn></math> cm³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj z rysunku podstawę i wysokość ostrosłupa, potem odejmij go od objętości graniastosłupa",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022-2023_swietokrzyskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "prawdopodobieństwo",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>W woreczku są kartki z liczbami: 1, 2, 3, 4, 5, 6,</strong> 7, 8, 9. <strong>Michał chce wylosować z tego</strong> woreczka kolejno dwie kartki bez zwracania (tzn. p<strong>o wylosowaniu pierwszej kartki Michał</strong> nie wrzuci jej z powrotem do woreczka, tylko <strong>odłoży ją na bok</strong>) i <strong>narysować</strong> taki <strong>trójkąt równoramienny, że podstawa tego trójkąta będzie miała długość równą liczbie zapisanej na pierwszej wylosowanej kartce i wysokość trójkąta opuszczona na tę podstawę będzie równa</strong> liczbie zapisanej na drugiej wylosowanej kartce.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe,</strong> lub F – <strong>jeśli jest fałszywe.</strong></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Prawdopodobieństwo tego, że Michał narysuje trójkąt równoramienny, którego podstawa będzie równa 5 jest mniejsze od 0,15."
+    },
+    {
+     "litera": "2",
+     "html": "Prawdopodobieństwo tego, że Michał narysuje trójkąt równoramienny o polu większym niż 25 jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Prawdopodobieństwo tego, że Michał narysuje trójkąt równoramienny, którego ramię będzie liczbą naturalną jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>36</mn></mfrac></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wszystkich uporządkowanych par (podstawa, wysokość) jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>72</mn></math>.</p><p>1. Podstawa=5 przy dowolnej z 8 pozostałych wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>≈</mo><mn>0,11</mn><mo>&lt;</mo><mn>0,15</mn></math>.</p><p>2. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>h</mi><mo>&gt;</mo><mn>25</mn></math> wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>h</mi><mo>&gt;</mo><mn>50</mn></math>; spełnia to 8 par (podstawa 9: wys. 6,7,8; podstawa 8: wys. 7,9; podstawa 7: wys. 8,9; podstawa 6: wys. 9): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>.</p><p>3. Ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></msqrt></math> jest liczbą naturalną tylko dla par (6,4) i (8,3) — dwóch trójkątów 3-4-5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>36</mn></mfrac></math>.</p>"
+   },
+   "czas_min": 5
+  }
+ ]
+}

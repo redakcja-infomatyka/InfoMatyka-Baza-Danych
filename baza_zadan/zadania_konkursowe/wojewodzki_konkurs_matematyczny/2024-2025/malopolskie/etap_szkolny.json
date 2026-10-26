@@ -1,0 +1,716 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2024/2025",
+ "data": "2024-10-21",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2024-2025_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2024-2025_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Olga ma 3 lata, a jej mama ma 27 lat. Za ile lat Olga będzie trzy razy młodsza od swojej mamy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Za t lat mama ma być trzy razy starsza: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><mo>+</mo><mi>t</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>9</mn><mo>+</mo><mn>3</mn><mi>t</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>t</mi><mo>=</mo><mn>18</mn></math>, więc t=9.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ułóż równanie: trzykrotność wieku Olgi za x lat równa się wiekowi mamy za x lat",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają, za ile lat, a nie ile lat będzie miała Olga. Łatwo podać jej przyszły wiek"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>21 października 2027 roku to czwartek. Dzień Liczby Pi, 14 marca 2028 roku, wypadnie</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "w poniedziałek"
+    },
+    {
+     "litera": "B",
+     "html": "we wtorek"
+    },
+    {
+     "litera": "C",
+     "html": "w środę"
+    },
+    {
+     "litera": "D",
+     "html": "w niedzielę"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 21 października 2027 do 14 marca 2028 mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>29</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>145</mn></math> dni (2028 to rok przestępny, luty ma 29 dni). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>145</mn><mo>=</mo><mn>20</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>5</mn></math>, licząc od czwartku 5 dni dalej wypada wtorek.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kalendarz-czas"
+    ],
+    "opis": "Rok 2028 jest przestępny, a 29 lutego leży w liczonym przedziale"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Rozważmy wszystkie dwucyfrowe liczby naturalne, które są podzielne przez iloczyn swoich cyfr. Ile z tych liczb jest mniejszych od 21?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy liczby 10–20: przy cyfrze 0 iloczyn cyfr wynosi 0, więc 10 i 20 odpadają. Z pozostałych warunek spełniają 11 (11:1), 12 (12:2=6) i 15 (15:5=3); dla 13, 14, 16, 17, 18, 19 dzielenie nie wychodzi całkowite. Takich liczb jest 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przejrzyj liczby od 10 do 20 — te z cyfrą 0 odpadają od razu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Liczby z cyfrą 0 mają iloczyn cyfr 0, a przez zero nie da się dzielić"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wyłączanie czynnika przed znak pierwiastka",
+    "działania na pierwiastkach",
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Odległość na osi liczbowej pomiędzy liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>12</mn></msqrt><mo>)</mo></mrow></math> oraz liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>27</mn></msqrt><mo>−</mo><msqrt><mn>36</mn></msqrt><mo>)</mo></mrow></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "0"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Upraszczamy pierwiastki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>12</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>−</mo><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt><mo>−</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math>. Odległość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo><mo>|</mo><mo>=</mo><mo>|</mo><mn>6</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>|</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>&gt;</mo><mn>6</mn></math>, wynosi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz czynniki przed pierwiastki, odejmij i pamiętaj o wartości bezwzględnej",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Odległość jest nieujemna. Trzeba porównać 4√3 z 6, zanim zdejmie się wartość bezwzględną"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "sześciokąty foremne",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Sześciokąt foremny o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> podzielono na trzy przystające romby. Długość krótszej przekątnej każdego z utworzonych rombów jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek sześciokąta łączy się z wierzchołkami, dzieląc go na 6 trójkątów równobocznych o boku a; każdy romb powstaje z dwóch sąsiednich takich trójkątów. Wspólny bok tych trójkątów jest krótszą przekątną rombu i ma długość a.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyobraź sobie sześciokąt jako sześć trójkątów równobocznych",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "kąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Na rysunku obok przedstawiono trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Miary kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBA</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> przedstawiono wyrażeniami odpowiednio równymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><mi>y</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>°</mo></mrow></math>. Jaka jest różnica pomiędzy wartością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> a wartością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9°"
+    },
+    {
+     "litera": "B",
+     "html": "18°"
+    },
+    {
+     "litera": "C",
+     "html": "13°"
+    },
+    {
+     "litera": "D",
+     "html": "22°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2024-2025_malopolskie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> wynika, że kąty przy podstawie są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn></math>, skąd x=22, a każdy z tych kątów ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>22</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>54</mn></math>°. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>y</mi><mo>−</mo><mn>6</mn><mo>+</mo><mn>54</mn><mo>+</mo><mn>54</mn><mo>=</mo><mn>180</mn></math>, więc y=13. Różnica x−y=22−13=9°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z |AB| = |AC| kąty przy B i C są równe — stąd najpierw x",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dwa przystające romby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> zostały ułożone tak, by ich powierzchnia wspólna była równoległobokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JFKD</mi></math> o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>−</mo><mi>x</mi></mrow></math>. Obwód figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCKGHEJ</mi></math> jest równy 48. Ile wynosi wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2024-2025_malopolskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok równoległoboku JFKD wspólny z bokiem rombu odejmuje się od boku rombu, więc obwód ośmiokąta ABCKGHEJ to suma obwodów obu rombów pomniejszona o obwód JFKD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>(</mo><mn>7</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>48</mn></math>. Wyrazy z x w odjętej części się znoszą, a stałe dają −16, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>x</mi><mo>+</mo><mn>16</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>48</mn></math>, skąd x=2.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "od sumy obwodów obu rombów odejmij obwód wspólnego równoległoboku — x się w nim skraca",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Koń mechaniczny (KM) jest jednostką mocy stosowaną do określania mocy silników spalinowych. Jednostką mocy w układzie SI jest wat (W), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext> KM</mtext><mo>≈</mo><mn>735,5</mn><mtext> W</mtext></mrow></math>. Łączna moc silników samolotu Boeing 777 to około 100 tysięcy koni mechanicznych. Ile to gigawatów, jeśli 1 gigawat to miliard watów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mn>1</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Moc to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100000</mn><mo>·</mo><mn>735,5</mn><mo>=</mo><mn>73550000</mn></math> W. W gigawatach (dzielimy przez miliard): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>73550000</mn><mo>:</mo><mn>1000000000</mn><mo>=</mo><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math> GW.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz 735,5 jako 7,355 · 10² i dodawaj wykładniki dziesiątki",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "zmiany procentowe",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Cena biletu wzrosła o 5%, a następnie spadła o 20%. Po tych dwóch zmianach cena biletu była o 8 złotych mniejsza niż cena początkowa. Ile kosztował bilet na początku?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "32 zł"
+    },
+    {
+     "litera": "B",
+     "html": "40 zł"
+    },
+    {
+     "litera": "C",
+     "html": "42 zł"
+    },
+    {
+     "litera": "D",
+     "html": "50 zł"
+    },
+    {
+     "litera": "E",
+     "html": "53,33 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po zmianach cena to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,05</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>0,84</mn></math> ceny początkowej x. Ubytek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>0,84</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></math> to 8 zł, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn><mo>:</mo><mn>0,16</mn><mo>=</mo><mn>50</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "połącz obie zmiany w jeden mnożnik i sprawdź, jaką częścią ceny jest 8 zł",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Kolejne zmiany procentowe się mnoży, a nie sumuje: +5% i -20% to nie jest -15%"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "nierówności",
+    "liczby wymierne i niewymierne"
+   ],
+   "tresc_html": "<p>Dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, takie że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>, są większe od 0 i jednocześnie mniejsze od 2. Rozważ poniższe zdania:</p><ul><li>I. Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> po przybliżeniu jej do najbliższej liczby całkowitej jest zawsze równa 1 bez względu na wartości liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</li><li>II. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></math> jest zawsze większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn></mrow></math> i mniejsza od 0.</li><li>III. Ilorazy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac></math> są zawsze dodatnimi liczbami wymiernymi.</li></ul><p>Które ze zdań I, II i III są prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "wszystkie"
+    },
+    {
+     "litera": "B",
+     "html": "tylko I i II"
+    },
+    {
+     "litera": "C",
+     "html": "tylko II i III"
+    },
+    {
+     "litera": "D",
+     "html": "tylko I"
+    },
+    {
+     "litera": "E",
+     "html": "tylko II"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>I fałszywe: dla a=1,9 i b=1,95 średnia 1,925 zaokrągla się do 2. II prawdziwe: skoro a&lt;b, to a−b&lt;0, a ponieważ a&gt;0 i b&lt;2, to a−b&gt;0−2=−2. III fałszywe: a, b nie muszą być wymierne (np. a=√2), więc iloraz nie zawsze jest liczbą wymierną. Prawdziwe jest tylko II.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "do każdego zdania szukaj kontrprzykładu — liczby bliskie zeru i liczby niewymierne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "zbior-liczb",
+     "kwantyfikator"
+    ],
+    "opis": "W zdaniu III jest słowo 'wymiernymi', a a i b nie muszą być wymierne. Do tego 'zawsze' w zdaniu I"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Dane są trzy liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>27</mn><mn>16</mn></mfrac><mo>:</mo><mfrac><mn>4</mn><mn>9</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>=</mo><mfrac><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><msup><mn>18</mn><mn>2</mn></msup></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mfrac><msup><mn>36</mn><mn>2</mn></msup><mrow><msup><mn>12</mn><mn>5</mn></msup><mo>:</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></mfrac></mrow></math>.</p><p>Wybierz odpowiedź, w której liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> są ustawione w kolejności od najmniejszej do największej.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>&lt;</mo><mi>q</mi><mo>&lt;</mo><mi>p</mi></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>&lt;</mo><mi>p</mi><mo>&lt;</mo><mi>q</mi></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>&lt;</mo><mi>q</mi><mo>&lt;</mo><mi>r</mi></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>&lt;</mo><mi>r</mi><mo>&lt;</mo><mi>q</mi></mrow></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>&lt;</mo><mi>p</mi><mo>&lt;</mo><mi>r</mi></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczymy każdą z liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>27</mn><mn>16</mn></mfrac><mo>·</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>243</mn><mn>64</mn></mfrac></math> ≈ 3,80; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mrow><mn>216</mn><mo>·</mo><mn>4</mn></mrow><mn>324</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math> ≈ 2,67; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1296</mn><mn>27648</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>64</mn></mfrac></math> ≈ 0,05. Zatem r&lt;q&lt;p.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "rozkładaj na potęgi 2 i 3 (18 = 6·3, 36 = 12·3) zamiast mnożyć wielkie liczby",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Na ile różnych sposobów możemy podzielić 4 osoby na dwa zespoły dwuosobowe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    },
+    {
+     "litera": "E",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wybór dwóch osób do pierwszego zespołu daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> możliwości, ale każdy podział liczony jest dwukrotnie (zespoły nie są ponumerowane), więc podziałów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal tylko, z kim w parę może trafić pierwsza osoba",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "podwojne-liczenie"
+    ],
+    "opis": "Zespoły nie są ponumerowane, więc wybór pierwszej pary od razu wyznacza podział"
+   }
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wyrażenie algebraiczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>)</mo></mrow><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math> po uproszczeniu jest równe wyrażeniu</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>y</mi></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>4</mn></mfrac><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mi>y</mi></mrow></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mi>y</mi></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyłączamy wspólne czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>(</mo><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>=</mo><mi>x</mi><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>y</mi><mo>)</mo></math>. Po skróceniu x² w liczniku i mianowniku zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>4</mn></mfrac></math>, czyli po wymnożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz x przed nawiasy i skróć z 8x² zanim cokolwiek wymnożysz",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Rysunek obok przedstawia trzy trójkąty prostokątne równoramienne o przyprostokątnej długości odpowiednio 7 cm, 4 cm oraz 1 cm. Ile procent pola największego z trójkątów stanowi pole zacieniowanej figury?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "mniej niż 30%"
+    },
+    {
+     "litera": "B",
+     "html": "30%"
+    },
+    {
+     "litera": "C",
+     "html": "więcej niż 30% i mniej niż 32%"
+    },
+    {
+     "litera": "D",
+     "html": "więcej niż 34% i mniej niż 36%"
+    },
+    {
+     "litera": "E",
+     "html": "więcej niż 36%"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2024-2025_malopolskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok największego trójkąta to 7 cm, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>·</mo><mn>7</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>24,5</mn></math> cm². Pole zacieniowanej figury to różnica pól trójkąta o boku 4 cm i trójkąta o boku 1 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mn>1</mn><mo>·</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>8</mn><mo>−</mo><mn>0,5</mn><mo>=</mo><mn>7,5</mn></math> cm². Stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>:</mo><mn>24,5</mn><mo>≈</mo><mn>30,6</mn><mtext>%</mtext></math> mieści się między 30% a 32%.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast pól porównaj kwadraty przyprostokątnych i wykorzystaj, że 49 to prawie 50",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Drewniany sześcian o polu powierzchni całkowitej 6 dm² pomalowano w całości na biało, a następnie wycięto z niego mniejszy sześcian o polu powierzchni całkowitej 24 cm² tak, by co najmniej jedna ze ścian mniejszego sześcianu była pomalowana na biało. Największe możliwe pole powierzchni bryły otrzymanej po wycięciu mniejszego sześcianu jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5,88 dm²"
+    },
+    {
+     "litera": "B",
+     "html": "6 dm²"
+    },
+    {
+     "litera": "C",
+     "html": "6,08 dm²"
+    },
+    {
+     "litera": "D",
+     "html": "6,16 dm²"
+    },
+    {
+     "litera": "E",
+     "html": "6,2 dm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z pola powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> dm² wynika bok dużego sześcianu 1 dm=10 cm, a z pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math> cm² bok małego sześcianu 2 cm. Powierzchnia rośnie najbardziej, gdy do środka wchodzi tylko jedna ściana małego sześcianu: znika wtedy 1 jego ściana (2×2=4 cm²) z powierzchni, a odsłaniają się pozostałe 5 ścian wgłębienia (5×4=20 cm²). Zysk to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> cm²=0,16 dm², więc powierzchnia bryły to 6+0,16=6,16 dm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj, ile ścianek ubywa, a ile przybywa przy wycięciu z rogu, z krawędzi i ze środka ściany",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2024-2025_malopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Kierowca samochodu podzielił trasę podróży na dwa etapy. Pierwszy etap kierowca pokonał ze średnią prędkością 72 km/h w czasie 35 minut. Drugi etap o długości 38 km podróży pokonał w czasie 40 minut. Z jaką średnią prędkością kierowca pokonał całą trasę?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "60,2 km/h"
+    },
+    {
+     "litera": "B",
+     "html": "64 km/h"
+    },
+    {
+     "litera": "C",
+     "html": "64,5 km/h"
+    },
+    {
+     "litera": "D",
+     "html": "100 km/h"
+    },
+    {
+     "litera": "E",
+     "html": "106,7 km/h"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pierwszy etap: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>·</mo><mfrac><mn>35</mn><mn>60</mn></mfrac><mo>=</mo><mn>42</mn></math> km. Cała droga to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>+</mo><mn>38</mn><mo>=</mo><mn>80</mn></math> km, a cały czas to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>75</mn></math> min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1,25</mn></math> h. Średnia prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>:</mo><mn>1,25</mn><mo>=</mo><mn>64</mn></math> km/h.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 35 min i 40 min na części godziny i podziel łączną drogę przez łączny czas",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Średnia prędkość to cała droga przez cały czas, a nie średnia z prędkości etapów"
+   }
+  }
+ ]
+}

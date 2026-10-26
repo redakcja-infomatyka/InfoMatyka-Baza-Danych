@@ -1,0 +1,355 @@
+{
+ "konkurs": "XXII Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "opolskie",
+ "rok_szkolny": "2021/2022",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 11,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2022_opolskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2022_opolskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Dom zajmuje 10% powierzchni działki. Podjazd i ścieżki to kolejne 5% całej działki, resztę zajmuje ogród.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Powierzchnia ogrodu jest o 75% większa od powierzchni zajętej przez dom."
+    },
+    {
+     "litera": "2",
+     "html": "Powierzchnia zajęta przez dom jest o 5% większa od powierzchni zajętej przez podjazd i ścieżki."
+    },
+    {
+     "litera": "3",
+     "html": "Powierzchnia zajęta przez podjazd i ścieżki jest o 50% mniejsza od powierzchni, jaką zajmuje dom."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Dom zajmuje 10% działki, podjazd i ścieżki 5%, więc ogród zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>%</mo><mo>−</mo><mn>10</mn><mo>%</mo><mo>−</mo><mn>5</mn><mo>%</mo><mo>=</mo><mn>85</mn><mo>%</mo></math> działki.</p><ul><li>Ogród (85%) w porównaniu z domem (10%): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>%</mo><mo>·</mo><mn>1,75</mn><mo>=</mo><mn>17,5</mn><mo>%</mo></math>, a nie 85% — ogród jest o 750% większy — <strong>NIE</strong>.</li><li>Dom (10%) a podjazd i ścieżki (5%): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>%</mo><mo>·</mo><mn>1,05</mn><mo>=</mo><mn>5,25</mn><mo>%</mo></math>, a nie 10%; dom jest o 100% większy — <strong>NIE</strong>.</li><li>Podjazd i ścieżki (5%) a dom (10%): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>%</mo><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>5</mn><mo>%</mo></math> — o 50% mniejsza — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnicę procentową licz względem wielkości, z którą porównujesz — dziel przez nią, nie odejmuj procentów",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Różnica udziałów w % całej działki to punkty procentowe, a o ile procent większe liczy się od drugiej wielkości"
+   }
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Dany jest sześcian o krawędzi długości 4. Odcinek łączący środki dwóch krawędzi sześcianu może mieć długość:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Umieśćmy sześcian tak, by jego wierzchołki miały współrzędne ze zbioru {0, 4}. Środek każdej krawędzi ma jedną współrzędną równą 2, a dwie pozostałe równe 0 lub 4. Kwadrat odległości między środkami dwóch krawędzi może przyjmować wartości 0, 8, 16, 24 lub 32.</p><ul><li>Dla krawędzi prostopadłych wychodzących z jednego wierzchołka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> — długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math> jest możliwa — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msqrt><mn>20</mn></msqrt></math> — takiej odległości nie da się uzyskać (20 nie należy do zbioru możliwych kwadratów odległości) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> — uzyskujemy je dla środków krawędzi o prostopadłych kierunkach, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Oceń, czy zdanie jest prawdziwe.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>35</mn></msup></math> jest 7."
+    },
+    {
+     "litera": "2",
+     "html": "Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup></math> jest 6."
+    },
+    {
+     "litera": "3",
+     "html": "Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>120</mn></msup></math> jest 7."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Cyfra jedności potęgi zależy od reszty z dzielenia wykładnika przez okres cyklu cyfr jedności (dla tych podstaw okres wynosi 4).</p><ul><li>Cyfry jedności potęg liczby 7 tworzą cykl 7, 9, 3, 1. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>3</mn></math>, cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>35</mn></msup></math> jest 3, a nie 7 — <strong>NIE</strong>.</li><li>Cyfry jedności potęg liczby 2 tworzą cykl 2, 4, 8, 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>12</mn><mo>+</mo><mn>2</mn></math>, cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup></math> jest 4, a nie 6 — <strong>NIE</strong>.</li><li>Cyfry jedności potęg liczby 3 tworzą cykl 3, 9, 7, 1. Ponieważ 120 dzieli się przez 4, cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>120</mn></msup></math> jest 1, a nie 7 — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfry jedności potęg powtarzają się co 4 — sprawdź resztę wykładnika z dzielenia przez 4",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "wyrażenia algebraiczne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Wyrażeniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn></math> opisano wysokość trapezu. Jedna jego podstawa jest o 1 dłuższa, a druga o 1 krótsza od tej wysokości. Pole trapezu można wyrazić wzorem</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wysokość trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn></math>. Podstawy mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mn>1</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></math>. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math> — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></math> — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math> — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstawy są o 1 dłuższa i o 1 krótsza od wysokości — uśrednij je zamiast rozwijać nawiasy",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "liczby wymierne i niewymierne"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Suma dwóch liczb niewymiernych</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "może być liczbą wymierną."
+    },
+    {
+     "litera": "2",
+     "html": "zawsze jest liczbą niewymierną."
+    },
+    {
+     "litera": "3",
+     "html": "może być liczbą niewymierną."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Rozważmy sumę dwóch liczb niewymiernych.</p><ul><li>Może być liczbą wymierną, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>+</mo><mo>(</mo><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>0</mn></math> — <strong>TAK</strong>.</li><li>Nie zawsze jest liczbą niewymierną (patrz przykład wyżej) — <strong>NIE</strong>.</li><li>Może być liczbą niewymierną, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "poszukaj dwóch liczb niewymiernych, które się nawzajem znoszą",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "„Zawsze” kontra „może”: suma niewymiernych wygląda na niewymierną, a bywa wymierna"
+   }
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W liczbie dwucyfrowej wpisujemy 6 między jej cyfry. Otrzymana liczba trzycyfrowa jest 11 razy większa od tej liczby dwucyfrowej. Znajdź wszystkie liczby dwucyfrowe o tej własności.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "15, 24, 33, 42, 51, 60",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech liczba dwucyfrowa ma cyfrę dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i cyfrę jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, czyli jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></math>. Po wpisaniu cyfry 6 między cyfry otrzymujemy liczbę trzycyfrową <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>a</mi><mo>+</mo><mn>60</mn><mo>+</mo><mi>b</mi></math>.</p><p>Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>a</mi><mo>+</mo><mn>60</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>110</mn><mi>a</mi><mo>+</mo><mn>11</mn><mi>b</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>=</mo><mn>10</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>6</mn></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest cyfrą dziesiątek (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>≥</mo><mn>1</mn></math>), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn><mo>−</mo><mi>a</mi></math>, szukane liczby to: <strong>15, 24, 33, 42, 51, 60</strong> (sprawdzenie np. dla 15: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>165</mn><mo>=</mo><mn>11</mn><mo>·</mo><mn>15</mn></math>; dla 60: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>660</mn><mo>=</mo><mn>11</mn><mo>·</mo><mn>60</mn></math>).</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>wyznaczy wszystkie liczby dwucyfrowe spełniające opisaną własność (60, 51, 42, 33, 24, 15) – 5p</li><li>poda co najmniej trzy liczby dwucyfrowe o podanej własności – 4p</li><li>doprowadzi równanie do najprostszej postaci – 3p</li><li>zapisze równanie z dwiema niewiadomymi – 2p</li><li>zapisze wyrażenie określające liczbę dwucyfrową i trzycyfrową z 6 pośrodku – 1p</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj 100a+60+b z 11·(10a+b) — po redukcji zostaje warunek na sumę cyfr",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Z warunku a+b=6 łatwo wypisać tylko pary cyfr niezerowych i pominąć cyfrę jedności 0"
+   }
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Pani Kasia weszła do sklepu i kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> wszystkich pierogów i jeszcze 2 sztuki. Później pani Ala kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pozostałych i jeszcze 8 sztuk. Okazało się, że obie panie kupiły po tyle samo pierogów. Ile pierogów było w sklepie, jak pani Kasia zaczynała zakupy?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "120 pierogów",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę wszystkich pierogów. Pani Kasia kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>n</mi><mo>+</mo><mn>2</mn></math> pierogów. Pozostało wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>n</mi><mo>−</mo><mn>2</mn></math>. Pani Ala kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>8</mn></math>.</p><p>Obie panie kupiły po tyle samo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>8</mn></math>. Mnożąc obie strony przez 25: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>n</mi><mo>+</mo><mn>50</mn><mo>=</mo><mn>9</mn><mi>n</mi><mo>+</mo><mn>170</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>120</mn></math>.</p><p>Sprawdzenie: Kasia kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>·</mo><mn>120</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>50</mn></math>, pozostało 70, Ala kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>·</mo><mn>70</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>50</mn></math>. W sklepie było <strong>120 pierogów</strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy, ile pierogów było w sklepie (120) – 5p</li><li>poprawny sposób obliczenia liczby pierogów z błędem rachunkowym – 4p</li><li>zapisze równanie – 3p</li><li>zapisze wyrażenie opisujące, ile pierogów kupiła pani Ala – 2p</li><li>zapisze wyrażenie opisujące, ile pierogów kupiła pani Kasia – 1p</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "„3/5 pozostałych” liczy się od tego, co zostało po Kasi razem z jej dodatkowymi 2 sztukami"
+   }
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Rowerzysta przejechał trasę z Brzegu do Opola w ciągu 126 minut. Motocyklista, który jechał ze średnią prędkością o 36 km/h większą niż rowerzysta, przejechał tę trasę w ciągu 45 minut. Jaka jest odległość z Brzegu do Opola?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "42 km",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math> (km/h) oznacza prędkość rowerzysty. Czas jazdy rowerzysty to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn></math> min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>126</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>21</mn><mn>10</mn></mfrac></math> h, a motocyklisty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn></math> min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>45</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math> h. Obaj pokonali tę samą drogę:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>10</mn></mfrac><mi>v</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>(</mo><mi>v</mi><mo>+</mo><mn>36</mn><mo>)</mo></math>. Mnożąc obie strony przez 20: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mi>v</mi><mo>=</mo><mn>15</mn><mo>(</mo><mi>v</mi><mo>+</mo><mn>36</mn><mo>)</mo><mo>=</mo><mn>15</mn><mi>v</mi><mo>+</mo><mn>540</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mi>v</mi><mo>=</mo><mn>540</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>20</mn></math> km/h.</p><p>Odległość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>10</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>42</mn></math> km. Odległość z Brzegu do Opola wynosi <strong>42 km</strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy odległość z Brzegu do Opola (42 km) – 5p</li><li>poprawny sposób obliczenia z błędem rachunkowym – 4p</li><li>zapisze równanie przy jednolitych jednostkach – 3p</li><li>zapisze wyrażenia określające drogę rowerzysty i motocyklisty – 2p</li><li>dokona zamiany jednostek lub zapisze wyrażenie określające drogę jednego z podróżnych – 1p</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "prędkości są odwrotnie proporcjonalne do czasów — skróć 126:45 i rozdziel 36 km/h na części",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Czasy podane w minutach, a różnica prędkości w km/h — trzeba zamienić minuty na godziny"
+   }
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Obwód równoległoboku wynosi 18 cm. Wysokości tego równoległoboku mają długości 2 cm i 4 cm. Oblicz pole powierzchni takiego równoległoboku.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Obwód równoległoboku wynosi 18 cm, więc suma długości dwóch sąsiednich boków to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>9</mn></math> cm. Pole równoległoboku jest równe iloczynowi boku i opuszczonej na niego wysokości, przy czym dłuższemu bokowi odpowiada krótsza wysokość. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>=</mo><mn>4</mn><mi>b</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi></math>.</p><p>Z układu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>9</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>b</mi><mo>=</mo><mn>9</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>12</mn></math> cm² (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>12</mn></math> cm²). Pole równoległoboku wynosi <strong>12 cm²</strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole powierzchni równoległoboku (12 cm²) – 5p</li><li>poprawny sposób z błędem rachunkowym – 4p</li><li>zapisze równanie z jedną niewiadomą – 3p</li><li>zapisze oba warunki w postaci równań z dwiema niewiadomymi – 2p</li><li>zapisze jeden warunek w postaci równania z dwiema niewiadomymi – 1p</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bok·wysokość daje to samo pole dla obu par — stąd stosunek boków, a obwód daje ich sumę",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Stosunek pola kwadratu do pola trójkąta równobocznego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Wysokość trójkąta wynosi 3. Oblicz długość przekątnej kwadratu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6√2",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wysokość trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>. Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>3</mn><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Ze stosunku pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>k</mi></msub><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>36</mn></math>. Bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math>, więc przekątna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>. Długość przekątnej kwadratu to <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math></strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy długość przekątnej kwadratu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>) – 5p</li><li>poprawny sposób obliczenia z błędem rachunkowym lub obliczy tylko długość boku kwadratu – 4p</li><li>obliczy pole trójkąta równobocznego – 3p</li><li>obliczy długość boku trójkąta równobocznego – 2p</li><li>poprawny sposób obliczenia długości boku trójkąta – 1p</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z wysokości wyznacz bok i pole trójkąta — przy mnożeniu przez stosunek pierwiastki się zniosą",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_opolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "równania z jedną zmienną",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Jeżeli bok kwadratu zmniejszymy o 3 cm, to jego pole zmniejszy się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>93</mn></math> cm². Oblicz długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> boku kwadratu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "17 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pole kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup></math>, a po zmniejszeniu boku o 3 cm — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>. Pole zmniejszyło się o 93 cm²:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>93</mn></math></p><p>Stosując wzór skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>a</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>=</mo><mn>93</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>−</mo><mn>9</mn><mo>=</mo><mn>93</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>=</mo><mn>102</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>17</mn></math>. Bok kwadratu ma długość <strong>17 cm</strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy długość boku kwadratu (17 cm) – 5p</li><li>poprawny sposób obliczenia długości boku z błędem rachunkowym (poprawnie zastosuje wzory skróconego mnożenia) – 4p</li><li>zapisze poprawne równanie – 2p</li><li>zapisze wyrażenia opisujące pola kwadratów – 1p</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "użyj różnicy kwadratów zamiast rozwijać (a−3)²",
+   "czas_min": 2
+  }
+ ]
+}

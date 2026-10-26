@@ -1,0 +1,536 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkoły podstawowej (lubelskie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "lubelskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2024_lubelskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2024_lubelskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Którą z podanych liczb należy wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, aby spełniony był warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>≤</mo><msqrt><mrow><msup><mn>19</mn><mn>2</mn></msup><mo>−</mo><msup><mn>9</mn><mn>2</mn></msup></mrow></msqrt><mo>&lt;</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>19</mn><mn>2</mn></msup><mo>−</mo><msup><mn>9</mn><mn>2</mn></msup><mo>=</mo><mn>361</mn><mo>−</mo><mn>81</mn><mo>=</mo><mn>280</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>2</mn></msup><mo>=</mo><mn>256</mn><mo>&lt;</mo><mn>280</mn><mo>&lt;</mo><mn>289</mn><mo>=</mo><msup><mn>17</mn><mn>2</mn></msup></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>&lt;</mo><msqrt><mn>280</mn></msqrt><mo>&lt;</mo><mn>17</mn></math>, więc szukana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>16</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skorzystaj z (19−9)(19+9), a potem sprawdź, między którymi kwadratami leży wynik",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></math>. Która z podanych liczb jest równa wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>≠</mo><mn>0</mn></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−3,5"
+    },
+    {
+     "litera": "B",
+     "html": "3,5"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>14</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>14</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mfrac><mi>b</mi><mn>6</mn></mfrac></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mi>b</mi><mn>6</mn></mfrac><mo>)</mo></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>14</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz z warunku a jako część b — w ułamku b się skróci",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Śliwki są o 20% droższe od jabłek, a gruszki są o 20% tańsze od jabłek. O ile procent śliwki są droższe od gruszek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40%"
+    },
+    {
+     "litera": "B",
+     "html": "45%"
+    },
+    {
+     "litera": "C",
+     "html": "50%"
+    },
+    {
+     "litera": "D",
+     "html": "60%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech jabłka kosztują 100 zł. Wtedy śliwki kosztują 120 zł, a gruszki 80 zł. Śliwki są droższe od gruszek o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>120</mn><mo>−</mo><mn>80</mn></mrow><mn>80</mn></mfrac><mo>=</mo><mn>50</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij, że jabłka kosztują 100 zł, i porównuj śliwki z gruszkami, a nie z jabłkami",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Oba procenty liczone od jabłek, a pytanie porównuje śliwki z gruszkami – zmienia się podstawa"
+   }
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>W pewnym graniastosłupie suma liczby krawędzi, ścian i wierzchołków jest równa 32. Jaki wielokąt jest podstawą tego graniastosłupa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "czworokąt"
+    },
+    {
+     "litera": "B",
+     "html": "pięciokąt"
+    },
+    {
+     "litera": "C",
+     "html": "sześciokąt"
+    },
+    {
+     "litera": "D",
+     "html": "siedmiokąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> wierzchołków, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math> krawędzi i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn></math> ściany. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn><mi>n</mi><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>32</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>=</mo><mn>30</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>5</mn></math> — podstawą jest pięciokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz liczbę krawędzi, ścian i wierzchołków przez liczbę boków podstawy",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>11</mn></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>11</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>11</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>11</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>11</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mi>x</mi><mo>−</mo><mn>11</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyrażenia A, B i C zależą od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, więc mają tę samą wartość dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>11</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math>. W wyrażeniu D dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1</mn><mo>−</mo><mn>11</mn><mo>=</mo><mo>−</mo><mn>12</mn></math>, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>11</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mn>11</mn><mo>=</mo><mo>−</mo><mn>10</mn></math> — wartości różne.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "poszukaj wyrażeń, które zależą tylko od x² albo od |x| — te znaku nie odróżnią",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "działania na pierwiastkach",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Boki pewnego trójkąta mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>30</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Ile wynosi pole tego trójkąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>6</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>90</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>30</mn></msqrt></math> cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>12</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>30</mn><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>30</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, więc trójkąt jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> to przyprostokątne. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></math> cm².</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wciągnij liczby pod pierwiastki i sprawdź, czy boki spełniają twierdzenie Pitagorasa",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "działania na potęgach",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Poniżej podane są zdania dotyczące liczb.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma liczby i jej odwrotności wynosi 0."
+    },
+    {
+     "litera": "2",
+     "html": "Sześcian iloczynu dwóch liczb o przeciwnych znakach jest liczbą ujemną."
+    },
+    {
+     "litera": "3",
+     "html": "Iloraz kwadratów dwóch liczb o przeciwnych znakach jest liczbą dodatnią."
+    },
+    {
+     "litera": "4",
+     "html": "Odwrotność sumy dwóch liczb ujemnych jest liczbą nieujemną."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mn>0</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>1</mn></math> — brak takiej liczby rzeczywistej, F. 2. Iloczyn liczb o przeciwnych znakach jest ujemny, więc jego sześcian też jest ujemny — P. 3. Kwadraty obu liczb są dodatnie, więc ich iloraz też jest dodatni — P. 4. Suma dwóch liczb ujemnych jest ujemna, więc jej odwrotność również jest ujemna, a nie nieujemna — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odwrotność to 1/x, a nie liczba przeciwna — dalej wystarczy pilnować samych znaków",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Odwrotność pomylona z liczbą przeciwną – zdanie brzmi jak znana prawda o sumie liczb przeciwnych"
+   }
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Poniżej podane są zdania dotyczące przekształcania wyrażeń algebraicznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>4</mn><mi>x</mi><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>9</mn><mo>−</mo><mn>4</mn><mi>x</mi></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>4</mn><mi>x</mi><msqrt><mn>2</mn></msqrt></math> po rozwinięciu wzorów skróconego mnożenia — P. 2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>9</mn><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>−</mo><mn>4</mn><mi>x</mi></math> — F. 3. Mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn></math>, więc ułamek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w każdym zdaniu użyj wzorów skróconego mnożenia, w pierwszym potraktuj to jako a²−b²",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:skracanie-skladnika"
+    ],
+    "opis": "Dzielenie przez mianownik dotyczy całego licznika, nie tylko pierwszego składnika"
+   }
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole każdego z poniższych prostokątów (patrz rysunki) jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole zamalowanej figury na rysunku B jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>p</mi></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Pole zamalowanej części prostokąta na rysunku A jest większe od pola zamalowanej części prostokąta na rysunku C."
+    },
+    {
+     "litera": "3",
+     "html": "Zamalowana część prostokąta na rysunku A, na rysunku B oraz na rysunku C ma takie samo pole."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2024_lubelskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt, którego wierzchołek leży na jednym boku prostokąta, a podstawa (cała lub w kawałkach) leży na boku przeciwległym, ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>p</mi></math>, bo jego wysokość to zawsze cała wysokość prostokąta. 1. Tak jest dokładnie na rysunku B — P. 2. To samo rozumowanie stosuje się do naprzemiennych trójkątów na rysunku A oraz do pary trójkątów z punktu przecięcia przekątnych na rysunku C (ich wysokości sumują się do wysokości prostokąta) — w obu przypadkach zamalowane pole też wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>p</mi></math>, więc w A nie jest ono większe niż w C — F. 3. Skoro pola w A, B i C są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>p</mi></math>, są sobie równe — P.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każdy zamalowany trójkąt ma wysokość równą bokowi prostokąta — zobacz, jak układają się ich podstawy",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Miary trzech kątów oznaczonych na rysunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> wynoszą odpowiednio 22°, 37° i 41°. Jaką miarę ma kąt oznaczony na rysunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math>?</p><p>Wpisz tylko liczbę.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2024_lubelskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "18°",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> oznacza punkt przecięcia odcinka łączącego wierzchołki kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> z odcinkiem łączącym wierzchołki kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>. Kąt zewnętrzny trójkąta o kątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi></math> — to ten sam kąt, co kąt zewnętrzny trójkąta o kątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>+</mo><mi>δ</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi><mo>=</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>−</mo><mi>γ</mi><mo>=</mo><mn>22</mn><mo>°</mo><mo>+</mo><mn>37</mn><mo>°</mo><mo>−</mo><mn>41</mn><mo>°</mo><mo>=</mo><mn>18</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w punkcie przecięcia policz kąt z trójkąta z α i β, potem skorzystaj z kątów wierzchołkowych",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZERO</mi></math>, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ZE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>OR</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>OZE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ZER</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Na dłuższej podstawie tego trapezu zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPE</mi></math> tak, że powstał pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math>.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Ramię trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZERO</mi></math> ma długość ……………………….</li><li>b) Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math> wynosi ……………………….</li><li>c) Pole pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math> wynosi ……………………….</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 2, b) 14, c) 7√3",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>a) Trójkąt utworzony przez ramię i wysokość trapezu ma kąt 60°, więc jego boki są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></math>. Wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> odpowiada rzut ramienia równy 1, a ramieniu — długość 2. Oba rzuty razem dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZE</mi><mo>−</mo><mi>OR</mi><mo>=</mo><mi>OR</mi></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZE</mi><mo>=</mo><mn>2</mn><mo>·</mo><mi>OR</mi></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OR</mi><mo>=</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZE</mi><mo>=</mo><mn>4</mn></math>.</p><p>b) Bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPE</mi></math> równy jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZE</mi><mo>=</mo><mn>4</mn></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>14</mn></math>.</p><p>c) Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>, pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>4</mn><mn>2</mn></msup><mn>4</mn></mfrac><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Obwód pięciokąta ZPERO nie obejmuje wspólnego boku ZE trapezu i trójkąta"
+   }
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "reszta z dzielenia",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Gdy Janek podzielił liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>≠</mo><mn>0</mn></math>), to otrzymał 6 oraz resztę równą 8. Gdy dodał dzielną, dzielnik, iloraz i resztę, wówczas otrzymał liczbę 316. Oblicz dzielną i dzielnik.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "dzielna 260, dzielnik 42",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Z dzielenia z resztą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><mi>b</mi><mo>+</mo><mn>8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mn>6</mn><mo>+</mo><mfrac><mn>8</mn><mi>b</mi></mfrac></math>. Suma dzielnej, dzielnika, ilorazu i reszty wynosi 316, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>316</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>302</mn></math>. Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><mi>b</mi><mo>+</mo><mn>8</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>b</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>302</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>42</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>260</mn></math>. Dzielna wynosi 260, a dzielnik 42.</p>",
+    "punktacja_html": "<ul><li>1 punkt – zapisanie jednego równania zgodnie z warunkami zadania.</li><li>2 punkty – zapisanie układu równań zgodnie z warunkami zadania.</li><li>3 punkty – rozwiązanie układu równań: poprawne obliczenie jednej niewiadomej.</li><li>4 punkty – rozwiązanie układu równań: poprawne obliczenie drugiej niewiadomej.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz dzielną jako 6b + 8 i zauważ, że iloraz z resztą dokładają do sumy tylko 14",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wczoraj, z powodu grypy, w klasie 8 A było nieobecnych 12,5% uczniów tej klasy. Dzisiaj nieobecny jest dodatkowo jeden uczeń. Liczba uczniów obecnych jest dzisiaj pięć razy większa niż liczba uczniów nieobecnych. Oblicz, ilu uczniów liczy klasa 8 A.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "24 uczniów",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów klasy 8A. Wczoraj nieobecnych było 12,5%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,125</mn><mi>x</mi></math>, więc dzisiaj nieobecnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,125</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, a obecnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mn>0,125</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mn>0,125</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>(</mo><mn>0,125</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24</mn></math>. Klasa 8 A liczy 24 uczniów.</p>",
+    "punktacja_html": "<ul><li>1 punkt – wprowadzenie zmiennej i poprawne zapisanie liczby uczniów nieobecnych w dniu dzisiejszym.</li><li>2 punkty – poprawne zapisanie liczby uczniów obecnych w dniu dzisiejszym.</li><li>3 punkty – poprawne zapisanie zależności pomiędzy liczbą uczniów obecnych a liczbą uczniów nieobecnych w dniu dzisiejszym.</li><li>4 punkty – poprawne obliczenie liczby uczniów klasy 8A.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "12,5% to ⅛ klasy, a z warunku 5 razy więcej obecnych wylicz, jaką częścią klasy są dziś nieobecni",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:zmiana-obu-grup"
+    ],
+    "opis": "Dodatkowy nieobecny ubywa też z grupy obecnych – obie liczby zmieniają się jednocześnie"
+   }
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Wewnątrz kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 12 zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, którego odległość od dwóch sąsiednich wierzchołków tego kwadratu wynosi 10. Oblicz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od każdego z dwóch pozostałych wierzchołków kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "√52 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> leży w odległości 10 od sąsiednich wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Wysokość trójkąta równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCP</mi></math> opuszczona na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> dzieli go na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mn>1</mn></msub><mo>=</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>8</mn></math>. Odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od przeciwległego boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mn>2</mn></msub><mo>=</mo><mn>12</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>52</mn></msqrt></math> cm.</p>",
+    "punktacja_html": "<ul><li>1 punkt – poprawne obliczenie długości wysokości trójkąta poprowadzonej z punktu P do boku kwadratu, np. BC.</li><li>2 punkty – poprawne obliczenie długości wysokości trójkąta poprowadzonej z punktu P do przeciwległego boku (np. AD) kwadratu ABCD.</li><li>3 punkty – poprawne obliczenie odległości punktu P od dwóch pozostałych wierzchołków kwadratu ABCD.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "punkt P leży na symetralnej boku — policz jego odległość od tego boku, a potem od przeciwległego",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Dane są dwie bryły - prostopadłościan i sześcian. Podstawą prostopadłościanu, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt></math> cm, jest kwadrat o boku długości 4 cm. Długość krawędzi sześcianu jest równa długości przekątnej podstawy prostopadłościanu. Która z tych brył ma większe pole powierzchni całkowitej? Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "sześcian",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przekątna podstawy prostopadłościanu (kwadratu o boku 4 cm) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm i jest równa krawędzi sześcianu. Pole powierzchni całkowitej prostopadłościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>(</mo><mn>32</mn><mo>+</mo><mn>80</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm². Pole powierzchni całkowitej sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>192</mn></math> cm². Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>32</mn><mo>+</mo><mn>80</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>&lt;</mo><mn>192</mn></math>, większe pole powierzchni całkowitej ma sześcian.</p>",
+    "punktacja_html": "<ul><li>1 punkt – poprawne obliczenie długości przekątnej podstawy graniastosłupa.</li><li>2 punkty – poprawne obliczenie pola powierzchni całkowitej prostopadłościanu.</li><li>3 punkty – poprawne obliczenie pola powierzchni całkowitej sześcianu.</li><li>4 punkty – poprawne porównanie pól powierzchni całkowitych prostopadłościanu i sześcianu.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2024_lubelskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wczoraj, 30 listopada 2023 roku, babcia i jej wnuczka obchodziły urodziny. Obliczyły, że teraz mają razem 105 lat. Oblicz, ile lat ma babcia, a ile wnuczka, jeżeli wiadomo, że dwie ostatnie cyfry roku urodzenia wnuczki tworzą liczbę dwa razy większą od liczby utworzonej z ostatnich dwóch cyfr roku urodzenia babci i obie urodziły się w XX wieku.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "babcia 76 lat, wnuczka 29 lat",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę utworzoną z dwóch ostatnich cyfr roku urodzenia babci. Wtedy rok urodzenia babci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1900</mn><mo>+</mo><mi>x</mi></math>, a wnuczki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1900</mn><mo>+</mo><mn>2</mn><mi>x</mi></math>. Wiek babci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>−</mo><mo>(</mo><mn>1900</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, a wnuczki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>−</mo><mo>(</mo><mn>1900</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2023</mn><mo>−</mo><mn>1900</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>2023</mn><mo>−</mo><mn>1900</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>105</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>246</mn><mo>−</mo><mn>3</mn><mi>x</mi><mo>=</mo><mn>105</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>47</mn></math>. Babcia urodziła się w 1947 roku i ma 76 lat, a wnuczka w 1994 roku i ma 29 lat.</p>",
+    "punktacja_html": "<ul><li>1 punkt – wprowadzenie oznaczeń i poprawne zapisanie wieku babci i wieku wnuczki.</li><li>2 punkty – poprawne zapisanie równania z jedną niewiadomą wyrażającego zależność wieku babci i wieku wnuczki.</li><li>3 punkty – poprawne rozwiązanie równania.</li><li>4 punkty – poprawne podanie roku urodzenia babci i roku urodzenia wnuczki.</li><li>5 punktów – poprawne obliczenie wieku babci i wieku wnuczki.</li></ul>"
+   },
+   "czas_min": 5
+  }
+ ]
+}

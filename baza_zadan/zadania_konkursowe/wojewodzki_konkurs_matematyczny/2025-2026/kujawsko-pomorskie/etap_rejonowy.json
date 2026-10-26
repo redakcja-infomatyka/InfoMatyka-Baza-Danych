@@ -1,0 +1,703 @@
+{
+ "konkurs": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko – pomorskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "kujawsko-pomorskie",
+ "rok_szkolny": "2025/2026",
+ "data": "2026-01-15",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2026_kujawsko-pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Ania, Kasia i Zosia miały za zadanie wskazać po trzy liczby, które będą dzielnikami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>16</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>27</mn></msup></mrow></math>. Ania wypisała: 2, 3, 8, Kasia: 4, 8, 11, natomiast Zosia: 2, 4, 8. Wskaż zdanie prawdziwe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Wszystkie dziewczynki popełniły błąd przy wypisaniu dzielników."
+    },
+    {
+     "litera": "B",
+     "html": "Wszystkie liczby wypisane przez dziewczynki są dzielnikami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Ania i Kasia popełniły błąd przy wypisywaniu dzielników."
+    },
+    {
+     "litera": "D",
+     "html": "Tylko Zosia popełniła błąd przy wypisywaniu dzielników."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>16</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>27</mn></msup><mo>=</mo><msup><mn>2</mn><mn>32</mn></msup><mo>+</mo><msup><mn>2</mn><mn>27</mn></msup><mo>=</mo><msup><mn>2</mn><mn>27</mn></msup><mo>·</mo><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>27</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>11</mn></math>. Liczby 2, 3, 4, 8 i 11 wszystkie dzielą taki iloczyn, więc żadna z dziewczynek się nie pomyliła — wszystkie wypisane liczby są dzielnikami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zapisz 16⁸ jako potęgę dwójki i wyłącz wspólny czynnik przed nawias",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest cyfra jedności sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>225</mn><mn>12</mn></msup><mo>+</mo><msup><mn>12</mn><mn>225</mn></msup></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba 225 kończy się na 5, więc każda jej potęga też — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>225</mn><mn>12</mn></msup></math> kończy się na 5. Cyfry jedności potęg liczby 12 powtarzają się co 4: 2, 4, 8, 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>56</mn><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>225</mn></msup></math> kończy się na 2. Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>7</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ostatnią cyfrę każdego składnika weź osobno z cyklu ostatnich cyfr potęg",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Nowy Rok w 2026 roku przypadł w czwartek. W jaki dzień tygodnia wypadł Sylwester w 2023 roku:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "w niedzielę"
+    },
+    {
+     "litera": "B",
+     "html": "w środę"
+    },
+    {
+     "litera": "C",
+     "html": "we wtorek"
+    },
+    {
+     "litera": "D",
+     "html": "w poniedziałek"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rok 2024 jest przestępny (366 dni), 2025 zwykły (365 dni), a od 31.12.2025 do 1.01.2026 mija 1 dzień: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>366</mn><mo>+</mo><mn>365</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>732</mn></math> dni. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>732</mn><mo>=</mo><mn>104</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>4</mn></math>, cofamy się o 4 dni tygodnia od czwartku (1.01.2026) i trafiamy na niedzielę.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz dni między tymi datami i resztę z dzielenia przez 7 — pamiętaj, że 2024 jest przestępny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kalendarz-czas",
+     "plot-i-slupki"
+    ],
+    "opis": "Rok 2024 jest przestępny, a od Sylwestra do Nowego Roku mija jeszcze jeden dzień"
+   }
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Różnica liczby przeciwnej do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>4</mn></mfrac></math> i liczby odwrotnej do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>19</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>19</mn><mi>x</mi><mo>−</mo></mrow><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mi>x</mi><mo>−</mo></mrow><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>11</mn><mi>x</mi><mo>−</mo><mn>11</mn></mrow><mn>12</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>4</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mn>4</mn></mfrac></math>, a liczba odwrotna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>3</mn></mfrac></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>12</mn></mfrac><mo>=</mo><mfrac><mrow><mn>11</mn><mi>x</mi><mo>−</mo><mn>11</mn></mrow><mn>12</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przeciwna to zmiana znaku, odwrotna to odwrócenie ułamka — potem wspólny mianownik",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:przeciwna-vs-odwrotna",
+     "znak"
+    ],
+    "opis": "Dwa różne pojęcia w jednym zdaniu: liczba przeciwna do pierwszej, odwrotna do drugiej"
+   }
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki",
+    "procenty"
+   ],
+   "tresc_html": "<p>60% wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><mo>[</mo><mo>(</mo><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><msup><mn>3</mn><mn>2</mn></msup><msqrt><mn>64</mn></msqrt></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo><mo>]</mo></mrow></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "1,2"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "−6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W nawiasie kwadratowym: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>9</mn><mn>8</mn></mfrac><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Całość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>=</mo><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>=</mo><mn>2</mn></math>. 60% z 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>1,2</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skracaj ułamki przed mnożeniem i pilnuj znaków, procent licz dopiero na końcu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Po długim rachunku pytają o 60% wartości wyrażenia, a nie o samą wartość"
+   }
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Liczba wierzchołków graniastosłupa wynosi 18. Zatem liczba wszystkich krawędzi tego graniastosłupa wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18"
+    },
+    {
+     "litera": "B",
+     "html": "27"
+    },
+    {
+     "litera": "C",
+     "html": "36"
+    },
+    {
+     "litera": "D",
+     "html": "54"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> wierzchołków, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>=</mo><mn>18</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>9</mn></math>. Krawędzi jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>27</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup ma dwie jednakowe podstawy — ustal najpierw, ile boków ma podstawa",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prawdopodobieństwo",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W torebce jest 80 cukierków w czterech różnych rodzajach. Irysów jest dwa razy więcej niż krówek, a cukierków czekoladowych o osiem więcej niż irysów. Landrynek jest dwanaście. Jakie jest prawdopodobieństwo wyjęcia z torebki jako pierwszego cukierka czekoladowego?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>20</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>40</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech krówki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, irysy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi></math>, czekoladowe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>8</mn></math>, landrynki 12: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mn>2</mn><mi>k</mi><mo>+</mo><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>+</mo><mn>12</mn><mo>=</mo><mn>80</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>=</mo><mn>60</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>12</mn></math>. Czekoladowych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>12</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>32</mn></math>. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>32</mn><mn>80</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz krówki jako x i zapisz przez x wszystkie cztery rodzaje",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>W równoległoboku o obwodzie 60 cm jeden bok jest 4 razy dłuższy od drugiego. Kąt ostry w tym równoległoboku wynosi 60°. Wysokość równoległoboku opuszczona na dłuższy bok jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Boki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>30</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> (krótszy), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>=</mo><mn>24</mn></math> (dłuższy). Wysokość na dłuższy bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>6</mn><mo>·</mo><mo>sin</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z obwodu wyznacz oba boki, a wysokość na dłuższy bok policz z krótszego boku i kąta 60°",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "prędkość / droga / czas",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Z pewnej miejscowości, drogami prostopadłymi względem siebie, jednocześnie wyruszyły dwa samochody: jeden na północ, drugi na zachód. Jaka będzie odległość między nimi po 20 minutach jazdy, jeżeli średnia prędkość pierwszego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, a drugiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "17,5 km"
+    },
+    {
+     "litera": "B",
+     "html": "25 km"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>2</mn></msqrt></mrow></math> km"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><msqrt><mn>3</mn></msqrt></mrow></math> km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W 20 minutach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mtext> h</mtext><mo>)</mo></math> pierwszy przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>20</mn></math> km, drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>15</mn></math> km. Trasy są prostopadłe, więc z twierdzenia Pitagorasa odległość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>20</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>625</mn></msqrt><mo>=</mo><mn>25</mn></math> km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "20 minut to ⅓ godziny — policz obie drogi i zastosuj twierdzenie Pitagorasa",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "notacja wykładnicza",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Ile potrzeba monet 2-groszowych, aby wypłacić nimi 10 milionów złotych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1 zł = 100 gr, więc 1 zł to 50 monet 2-groszowych. Na 10 milionów złotych potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>7</mn></msup><mo>·</mo><mn>50</mn><mo>=</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> monet.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw zamień złote na grosze, dopiero potem dziel",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>W pewnym wielokącie foremnym kąt wewnętrzny ma miarę 150°, to liczba boków w tym wielokącie jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "nie można obliczyć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt zewnętrzny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Liczba boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>°</mo><mo>:</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>12</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamiast wzoru na kąt wewnętrzny policz kąt zewnętrzny wielokąta",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Wskaż błędną zamianę:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>51</mn><mtext>&#xA0;dag</mtext><mo>=</mo><mn>5,1</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup><mtext>&#xA0;mg</mtext></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>510</mn><mtext>&#xA0;min</mtext><mo>=</mo><mn>8,5</mn><mtext>&#xA0;h</mtext></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,51</mn><mtext>&#xA0;</mtext><msup><mtext>dm</mtext><mn>3</mn></msup><mo>=</mo><mn>0,51</mn><mtext>&#xA0;l</mtext></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>51</mn><mtext>&#xA0;</mtext><msup><mtext>km</mtext><mn>2</mn></msup><mo>=</mo><mn>510</mn><mtext>&#xA0;ha</mtext></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1 km² = 100 ha, więc 51 km² to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>51</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>5100</mn></math> ha, a nie 510 ha — pozostałe zamiany są poprawne.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdzaj zamiany po kolei — przy jednostkach pola przelicznik jest kwadratem",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Podstawa trójkąta równoramiennego ma długość 12 cm, a jego obwód 0,32 m. Pole tego trójkąta wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mtext>&#xA0;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mtext>&#xA0;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mtext>&#xA0;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>96</mn><mtext>&#xA0;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obwód: 32 cm, więc ramiona razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>20</mn></math> cm, każde po 10 cm. Wysokość na podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>48</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień obwód na centymetry, wyznacz ramiona i weź wysokość z twierdzenia Pitagorasa",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Jeden z kątów wewnętrznych trójkąta ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, drugi jest od niego o 20° mniejszy, a trzeci trzy razy większy. Trójkąt ten jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "rozwartokątny"
+    },
+    {
+     "litera": "B",
+     "html": "prostokątny"
+    },
+    {
+     "litera": "C",
+     "html": "ostrokątny"
+    },
+    {
+     "litera": "D",
+     "html": "równoramienny"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mo>(</mo><mi>α</mi><mo>−</mo><mn>20</mn><mo>°</mo><mo>)</mo><mo>+</mo><mn>3</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>α</mi><mo>=</mo><mn>200</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>40</mn><mo>°</mo></math>. Kąty trójkąta: 40°, 20°, 120° — kąt 120° jest rozwarty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz wszystkie trzy kąty przez α i skorzystaj z sumy 180°",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Jacek zapisał w systemie rzymskim cztery liczby: MDCC, MCM, MMDCC oraz MMD. Która z nich znajduje się na osi liczbowej najbliżej liczby 2026?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "MDCC"
+    },
+    {
+     "litera": "B",
+     "html": "MCM"
+    },
+    {
+     "litera": "C",
+     "html": "MMDCC"
+    },
+    {
+     "litera": "D",
+     "html": "MMD"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>MDCC=1700, MCM=1900, MMDCC=2700, MMD=2500. Odległości od 2026: 326, 126, 674, 474 — najbliżej jest MCM (1900).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień zapisy rzymskie na liczby i porównaj odległości od 2026",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "podobieństwo i skala",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Działka budowlana pana Jana ma kształt prostokąta. Na mapie w skali 1 : 2500 jeden z boków tego prostokąta ma długość 4 cm, a długość przekątnej wynosi 5 cm.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Pan Jan może podzielić działkę na 3 prostokąty o powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2500</mn><mtext>&#xA0;</mtext><msup><mtext>m</mtext><mn>2</mn></msup></mrow></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Przed rozpoczęciem budowy domu na swojej działce pan Jan musi postawić ogrodzenie tymczasowe. Brama wjazdowa i dwie furtki nie będą ogrodzone i łącznie zajmują 10 m. Zakup 300 m siatki ogrodzeniowej pozwoli panu Janowi wykonać to ogrodzenie."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt 4-5 na mapie to trójkąt 3-4-5, więc drugi bok ma 3 cm. W skali 1:2500 boki działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2500</mn><mo>=</mo><mn>10000</mn><mtext> cm</mtext><mo>=</mo><mn>100</mn><mtext> m</mtext></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2500</mn><mo>=</mo><mn>7500</mn><mtext> cm</mtext><mo>=</mo><mn>75</mn><mtext> m</mtext></math>.</p><ul><li>Pole działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mn>75</mn><mo>=</mo><mn>7500</mn></math> m², a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7500</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>2500</mn></math> — można podzielić na 3 takie prostokąty, np. paski 100 m × 25 m — <b>P</b>.</li><li>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>100</mn><mo>+</mo><mn>75</mn><mo>)</mo><mo>=</mo><mn>350</mn></math> m, bez bramy i furtek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>350</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>340</mn></math> m — 300 m siatki nie wystarczy — <b>F</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "1 cm na mapie to 25 m, a drugi bok prostokąta odczytaj z trójki 3-4-5",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Jaś i Małgosia otrzymali od rodziców taką samą kwotę na zakup strojów karnawałowych. Jaś za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2024</mn><mn>2025</mn></mfrac></math> otrzymanej kwoty kupił strój ulubionego piłkarza, a Małgosia za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2025</mn><mn>2026</mn></mfrac></math> otrzymanej kwoty kupiła sukienkę księżniczki. Które z dzieci zapłaciło więcej za swój strój karnawałowy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Więcej zapłacił Jaś."
+    },
+    {
+     "litera": "B",
+     "html": "Więcej zapłaciła Małgosia."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2024</mn><mn>2025</mn></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2025</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2025</mn><mn>2026</mn></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2026</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2025</mn></mfrac><mo>&gt;</mo><mfrac><mn>1</mn><mn>2026</mn></mfrac></math>, ułamek Małgosi jest większy, więc z tej samej kwoty zapłaciła więcej.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie mnóż na krzyż — sprawdź, ile każdemu z ułamków brakuje do 1",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2026_kujawsko-pomorskie_q18",
+   "numer": 18,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>Jacek jest o 6 lat młodszy od Agaty. Za sześć lat będą mieli razem 42 lata.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Obecny wiek Agaty stanowi 150% obecnego wieku Jacka."
+    },
+    {
+     "litera": "B",
+     "html": "6 lat temu Agata była 2 razy starsza od Jacka."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mi>A</mi><mo>−</mo><mn>6</mn></math>, a za 6 lat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>A</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>J</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>42</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>+</mo><mi>J</mi><mo>=</mo><mn>30</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>J</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>30</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mn>18</mn></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mtext>% z </mtext><mn>12</mn><mo>=</mo><mn>18</mn><mo>=</mo><mi>A</mi></math> — <b>P</b>.</li><li>6 lat temu: Agata 12, Jacek 6, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>6</mn></math> — <b>P</b>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cofnij sumę wieku o 6 lat dla każdego z nich i dołóż różnicę 6 lat",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:wiek-za-n-lat-obu-osob"
+    ],
+    "opis": "Za sześć lat starsza o 6 lat jest każda z dwóch osób, więc suma rośnie o 12"
+   }
+  }
+ ]
+}

@@ -1,0 +1,943 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych (podlaskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2021/2022",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 26,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2021_podlaskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2021_podlaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn></math>, dla każdej rzeczywistej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyrażenie to kwadrat różnicy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, czy to kwadrat dwumianu: ¼x² = (½x)², a 4 = 2²",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Geodeta próbował zmierzyć w terenie kąt δ (rysunek obok). Ze względu na warunki terenowe nie było to możliwe, więc zmierzył kąty oznaczone na rysunku przez α, β, γ i otrzymał: α = 22°, β = 37°, γ = 46°. Kąt δ ma miarę</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12°"
+    },
+    {
+     "litera": "B",
+     "html": "13°"
+    },
+    {
+     "litera": "C",
+     "html": "22°"
+    },
+    {
+     "litera": "D",
+     "html": "23°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q2_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech P będzie punktem, w którym przecinają się dwa odcinki w środku rysunku.</p><p>P wraz z wierzchołkami kątów α i β tworzy trójkąt, a wraz z wierzchołkami kątów γ i δ — drugi trójkąt. Kąty przy P w tych trójkątach są kątami wierzchołkowymi, więc mają równe miary.</p><p>W każdym trójkącie suma kątów to 180°, więc pozostałe dwa kąty też dają tyle samo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mi>γ</mi><mo>+</mo><mi>δ</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi><mo>=</mo><mn>22</mn><mo>°</mo><mo>+</mo><mn>37</mn><mo>°</mo><mo>−</mo><mn>46</mn><mo>°</mo><mo>=</mo><mn>13</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skorzystaj z kątów wierzchołkowych w punkcie przecięcia i z sumy kątów w dwóch trójkątach",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi"
+   ],
+   "tresc_html": "<p>Narysowano trzy proste równoległe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> leży między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Odległość między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa 2 cm, a odległość między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to 4 cm. Następnie narysowano okrąg o promieniu 3 cm i środku leżącym na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Ile łącznie punktów wspólnych z prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> ma ten okrąg?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przechodzi przez środek okręgu, więc ma z nim 2 punkty wspólne. Odległość do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to 2 cm (mniej niż promień 3 cm) — też 2 punkty. Odległość do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to 4 cm (więcej niż promień) — 0 punktów. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>0</mn><mo>=</mo><mn>4</mn></math> punkty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj odległość każdej prostej od środka z promieniem, pamiętając o prostej przez środek",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "prędkość / droga / czas",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Z małej wyspy wypłynęły dwie łodzie – jedna płynęła z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mspace width=\"0.2em\"></mspace><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math> w kierunku wschodnim, a druga z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mspace width=\"0.2em\"></mspace><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math> w kierunku południowym. W jakiej odległości od siebie będą te łodzie po 30 minutach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 km"
+    },
+    {
+     "litera": "B",
+     "html": "4 km"
+    },
+    {
+     "litera": "C",
+     "html": "5 km"
+    },
+    {
+     "litera": "D",
+     "html": "7 km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po 30 minutach pierwsza łódź przepłynęła 3 km, druga 4 km — po prostopadłych trasach. Z twierdzenia Pitagorasa odległość między nimi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>25</mn></msqrt><mo>=</mo><mn>5</mn></math> km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw drogi po pół godziny, potem twierdzenie Pitagorasa",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Iloczyn trzech liczb jest równy 54. Pierwszą liczbę zwiększono dwa razy, drugą zmniejszono dziewięć razy, a trzecią zwiększono pięć razy. Nowy iloczyn jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "50"
+    },
+    {
+     "litera": "C",
+     "html": "60"
+    },
+    {
+     "litera": "D",
+     "html": "70"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Nowy iloczyn to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>·</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>60</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nie szukaj samych liczb — sprawdź, przez co pomnożył się cały iloczyn",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDG</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math> są podobne. Skala podobieństwa większego z nich do mniejszego jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W kwadracie przekątne są prostopadłe i dzielą kąty wierzchołków na 45°, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDG</mi></math> ma przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> kąt prosty, a przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi><mo>=</mo><mi>a</mi></math> (bok kwadratu). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> to środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi><mo>=</mo><mfrac><mi>a</mi><mn>2</mn></mfrac></math> jest przeciwprostokątną podobnego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math>. Skala: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>:</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mn>2</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oba to trójkąty prostokątne równoramienne — porównaj ich przeciwprostokątne DC i EB",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie o kątach 30°, 60°, 90° poprowadzono dwusieczną jednego kąta, która podzieliła ten trójkąt na dwa trójkąty. Jeżeli jeden z powstałych trójkątów jest trójkątem równoramiennym, to miary kątów drugiego z nich są równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30°, 45°, 105°."
+    },
+    {
+     "litera": "B",
+     "html": "30°, 30°, 120°."
+    },
+    {
+     "litera": "C",
+     "html": "45°, 60°, 75°."
+    },
+    {
+     "litera": "D",
+     "html": "30°, 60°, 90°."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwusieczna kąta 60° dzieli go na dwa kąty po 30°. W trójkącie o kątach 30°, 60°, 90° dwusieczna z wierzchołka kąta 60° odcina trójkąt o kątach 30°, 30°, 120° — jest on równoramienny. Drugi z powstałych trójkątów ma wtedy kąty 30°, 60°, 90°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, przy którym kącie połowa po dwusiecznej zrówna się z innym kątem trójkąta",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytanie dotyczy kątów DRUGIEGO trójkąta, a nie tego równoramiennego, który się znajduje"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Jeżeli stożek ma średnicę podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, to jego objętość jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mn>12</mn></mfrac><msup><mi>k</mi><mn>2</mn></msup><mi>H</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mn>6</mn></mfrac><msup><mi>k</mi><mn>2</mn></msup><mi>H</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mn>4</mn></mfrac><msup><mi>k</mi><mn>2</mn></msup><mi>H</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mn>3</mn></mfrac><msup><mi>k</mi><mn>2</mn></msup><mi>H</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promień podstawy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mi>k</mi><mn>2</mn></mfrac></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mrow><mo>(</mo><mfrac><mi>k</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mi>H</mi><mo>=</mo><mfrac><mi>π</mi><mn>12</mn></mfrac><msup><mi>k</mi><mn>2</mn></msup><mi>H</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw promień k/2 do wzoru na objętość stożka",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:srednica-vs-promien"
+    ],
+    "opis": "Dana jest średnica podstawy k, a nie promień – we wzorze trzeba wstawić k/2"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "procenty"
+   ],
+   "tresc_html": "<p>Jaki procent powierzchni koła zamalowano (rysunek obok)?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30%"
+    },
+    {
+     "litera": "B",
+     "html": "70%"
+    },
+    {
+     "litera": "C",
+     "html": "108%"
+    },
+    {
+     "litera": "D",
+     "html": "252%"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Białe wycinki mają łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>+</mo><mn>36</mn><mo>+</mo><mn>48</mn><mo>=</mo><mn>108</mn></math>°, więc zamalowane to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>−</mo><mn>108</mn><mo>=</mo><mn>252</mn></math>°. To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>252</mn><mn>360</mn></mfrac><mo>=</mo><mn>70</mn><mo>%</mo></math> koła.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podane kąty opisują część niezamalowaną — zsumuj je i odnieś do 360°",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "rysunek"
+    ],
+    "opis": "Podpisane kąty należą do białych wycinków, a pytanie dotyczy części zamalowanej"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Ile razy 3% liczby 3 jest większe od 0,5% liczby 0,5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "9"
+    },
+    {
+     "litera": "C",
+     "html": "36"
+    },
+    {
+     "litera": "D",
+     "html": "225"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>3% liczby 3 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,09</mn></math>, a 0,5% liczby 0,5 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,0025</mn></math>. Iloraz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,09</mn><mn>0,0025</mn></mfrac><mo>=</mo><mn>36</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj osobno procenty, osobno liczby, a wyniki pomnóż",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>9</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math> daje −4, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></math> daje −2 — wartości różne. Pozostałe trzy wyrażenia zależą tylko od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\">|</mo></math>, więc są równe dla obu wartości.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj wyrażenia, które nie zależy wyłącznie od x² albo |x|",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "notacja wykładnicza",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Ile razy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> cm jest większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> km?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "100"
+    },
+    {
+     "litera": "C",
+     "html": "1000"
+    },
+    {
+     "litera": "D",
+     "html": "10000"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> cm to 1000 cm. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> km to 0,001 km, czyli 1 m = 100 cm. Iloraz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1000</mn><mn>100</mn></mfrac><mo>=</mo><mn>10</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień obie wielkości na metry",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W którym z poniższych stosunków Ania powinna podzielić odcinek o długości 36 cm, aby zbudować trójkąt z otrzymanych trzech odcinków?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 : 2 : 6"
+    },
+    {
+     "litera": "B",
+     "html": "1 : 3 : 5"
+    },
+    {
+     "litera": "C",
+     "html": "2 : 3 : 4"
+    },
+    {
+     "litera": "D",
+     "html": "2 : 3 : 7"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkącie suma dwóch krótszych boków musi być większa od najdłuższego. Podział <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>3</mn><mo>:</mo><mn>4</mn></math> daje odcinki 8 cm, 12 cm, 16 cm, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>20</mn><mo>&gt;</mo><mn>16</mn></math> — trójkąt istnieje. W pozostałych stosunkach suma dwóch krótszych odcinków nie przekracza najdłuższego.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź nierówność trójkąta na samych liczbach z proporcji",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Marysia narysowała w układzie współrzędnych równoległobok nr 1. Kolejne przystające do niego równoległoboki rysowała według zasady (rysunek): <em>środek górnego boku ostatnio narysowanego równoległoboku to dolny lewy wierzchołek następnego równoległoboku</em>. W ten sposób Marysia narysowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> równoległoboków. Współrzędna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prawego górnego wierzchołka równoległoboku o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>n</mi></mrow></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z rysunku: górny bok każdego równoległoboku leży 2 jednostki wyżej niż jego dolny bok. Środek górnego boku ma tę samą rzędną co ten bok i staje się dolnym lewym wierzchołkiem kolejnego równoległoboku, więc rzędna rośnie o 2 przy każdym kroku. Po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> równoległobokach górny prawy wierzchołek ma rzędną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj z rysunku, o ile w górę przesuwa się każdy kolejny równoległobok",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Na ile sposobów spośród 8 dziewcząt i 10 chłopców można losowo wybrać czteroosobową delegację do sztafety mieszanej 4 × 100 m, w skład której wejdą trzy dziewczynki i jeden chłopiec rozpoczynający sztafetę?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "336"
+    },
+    {
+     "litera": "B",
+     "html": "720"
+    },
+    {
+     "litera": "C",
+     "html": "3360"
+    },
+    {
+     "litera": "D",
+     "html": "5760"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Chłopca rozpoczynającego sztafetę wybieramy na 10 sposobów. Trzy dziewczynki wybieramy i ustawiamy na pozostałych trzech (rozróżnialnych) etapach na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>336</mn></math> sposobów. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>336</mn><mo>=</mo><mn>3360</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kolejność na zmianach się liczy — chłopiec biegnie pierwszy, dziewczynki po kolei",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "układ współrzędnych",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Ile wynoszą pole i obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego środkiem symetrii jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>O</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>64</mn><mo>,</mo><mtext> </mtext><mi>Obwód</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>128</mn><mo>,</mo><mtext> </mtext><mi>Obwód</mi><mo>=</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>128</mn><mo>,</mo><mtext> </mtext><mi>Obwód</mi><mo>=</mo><mn>32</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>256</mn><mo>,</mo><mtext> </mtext><mi>Obwód</mi><mo>=</mo><mn>32</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem symetrii kwadratu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OB</mi><mo>=</mo><mn>8</mn></math> to połowa przekątnej — przekątna ma długość 16. Bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>16</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>128</mn></math>, obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odcinek OB to połowa przekątnej — z przekątnej licz i pole, i bok kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>7</mn><mn>10</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>14</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>11</mn><mn>18</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>+</mo><mfrac><mn>13</mn><mn>22</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>+</mo><mfrac><mn>15</mn><mn>26</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>13</mn></mfrac></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyrazy grupujemy w pary, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> — każda z 6 takich par daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>. Razem z początkowym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sparuj każdy dodawany ułamek z następnym odejmowanym",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "usuwanie niewymierności z mianownika",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Jeżeli usuniemy niewymierność z mianownika ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac></math>, to otrzymamy liczbę równą</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>8</mn></msqrt><msqrt><mn>2</mn></msqrt></mfrac><mo>+</mo><mfrac><msqrt><mn>6</mn></msqrt><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>4</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel każdy składnik licznika osobno przez √2",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "czworokąt"
+    },
+    {
+     "litera": "B",
+     "html": "pięciokąt"
+    },
+    {
+     "litera": "C",
+     "html": "sześciokąt"
+    },
+    {
+     "litera": "D",
+     "html": "siedmiokąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla graniastosłupa o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątnej: ścian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn></math>, krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math>, wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>44</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>7</mn></math> — podstawą jest siedmiokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź liczbę ścian, krawędzi i wierzchołków przez liczbę boków podstawy",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "pierścień kołowy",
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Rysunek przedstawia trzy współśrodkowe okręgi, z których dwa o promieniach 4 cm i 8 cm wyznaczają szary pierścień. Oblicz promień okręgu zaznaczonego przerywaną linią, który dzieli szary pierścień na dwa pierścienie o równych polach.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q20_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "r = 2√10 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pole szarego pierścienia jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>(</mo><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>48</mn><mi>π</mi></mrow></math> cm². Okrąg o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> dzieli go na dwa pierścienie o równych polach, więc pole wewnętrznego pierścienia (od promienia 4 do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>) jest równe połowie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>(</mo><msup><mi>r</mi><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>24</mn><mi>π</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>=</mo><mn>24</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>40</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><msqrt><mn>40</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz na kwadratach promieni — π się skróci",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Okrąg dzielący pierścień na równe pola nie leży w połowie szerokości pierścienia"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "równania z jedną zmienną",
+    "wyłączanie wspólnego czynnika przed nawias",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Korzystając ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mfrac><mrow><mi>n</mi><mi>p</mi></mrow><mrow><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi></mrow></mfrac></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mi>r</mi><mo>≠</mo><mi>s</mi></mrow></math>, wykaż, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>s</mi></mrow><mrow><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi></mrow></mfrac></mrow></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>r</mi><mo>≠</mo><mi>p</mi></mrow></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "n = 2s/(2r − p)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mi>r</mi><mo>≠</mo><mi>s</mi></mrow></math>, obie strony równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mfrac><mrow><mi>n</mi><mi>p</mi></mrow><mrow><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi></mrow></mfrac></mrow></math> można pomnożyć przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi><mo>)</mo></mrow></math>, otrzymując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi><mo>)</mo><mo>=</mo><mi>n</mi><mi>p</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>r</mi><mo>−</mo><mn>2</mn><mi>s</mi><mo>=</mo><mi>n</mi><mi>p</mi></mrow></math>. Przenosząc wyrazy z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> na jedną stronę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>r</mi><mo>−</mo><mi>n</mi><mi>p</mi><mo>=</mo><mn>2</mn><mi>s</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>(</mo><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>s</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>r</mi><mo>≠</mo><mi>p</mi></mrow></math>, obie strony można podzielić przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>s</mi></mrow><mrow><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi></mrow></mfrac></mrow></math>, co kończy dowód.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Ołowianą półkulę o promieniu 6 cm przetopiono i z otrzymanego materiału odlano stożek o promieniu podstawy 4 cm. Wyznacz wysokość tego stożka.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "H = 27 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Objętość ołowianej półkuli o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mn>6</mn></mrow></math> cm to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>3</mn></msup><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>144</mn><mi>π</mi></mrow></math> cm³. Cała ta objętość jest równa objętości stożka o promieniu podstawy 4 cm i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>144</mn><mi>π</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>16</mn><mn>3</mn></mfrac><mi>π</mi><mi>H</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><mrow><mn>144</mn><mo>·</mo><mn>3</mn></mrow><mn>16</mn></mfrac><mo>=</mo><mn>27</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyrównaj objętość półkuli do objętości stożka — π się skróci",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Przetapiana jest półkula, a nie cała kula – objętość to połowa objętości kuli"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jurek i jego brat Wojtek postanowili kupić piłkę do koszykówki. Jurek przeznaczył na ten cel kwotę równą 40% ceny piłki i jeszcze 20 zł, a Wojtek – kwotę równą 20% jej ceny i jeszcze 40 zł. Tata dołożył brakujące 60 zł. Ile kosztuje piłka?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "300 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę piłki (w zł). Jurek wpłacił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0,4</mn><mi>x</mi><mo>+</mo><mn>20</mn><mo>)</mo></mrow></math> zł, Wojtek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>)</mo></mrow></math> zł, a tata 60 zł. Razem daje to cenę piłki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mi>x</mi><mo>+</mo><mn>20</mn><mo>+</mo><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>+</mo><mn>60</mn><mo>=</mo><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mi>x</mi><mo>+</mo><mn>120</mn><mo>=</mo><mi>x</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>120</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>300</mn></mrow></math> zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj osobno procenty, a osobno stałe kwoty",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym najdłuższy bok jest o 4,5 cm dłuższy od najkrótszego boku. Średni bok ma długość 7,5 cm. Oblicz długość najkrótszej wysokości tego trójkąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "najkrótsza wysokość = 3 9/17 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość najkrótszego boku, wtedy najdłuższy bok (przeciwprostokątna) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>4,5</mn></mrow></math>, a średni bok to 7,5 cm. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4,5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>7,5</mn><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn><mi>x</mi><mo>+</mo><mn>20,25</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>56,25</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>x</mi><mo>=</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math> cm. Boki trójkąta mają więc długości 4 cm, 7,5 cm i 8,5 cm. Najkrótsza wysokość jest opuszczona na najdłuższy bok (przeciwprostokątną). Korzystając z pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>7,5</mn><mo>=</mo><mn>15</mn></mrow></math> cm², mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8,5</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>4</mn><mo>·</mo><mn>7,5</mn><mo>=</mo><mn>30</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mn>30</mn><mn>8,5</mn></mfrac><mo>=</mo><mn>3</mn><mfrac><mn>9</mn><mn>17</mn></mfrac></mrow></math> cm.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "o-co-pytaja"
+    ],
+    "opis": "Najkrótsza wysokość opada na najdłuższy bok – nie jest nią najkrótsza przyprostokątna"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q25",
+   "numer": 25,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "sześciokąty foremne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Graniastosłup prawidłowy sześciokątny o wszystkich krawędziach długości 8 cm przecięto, otrzymując graniastosłup trójkątny i graniastosłup pięciokątny (rysunek obok). Oblicz pole powierzchni całkowitej graniastosłupa pięciokątnego.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q25_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "(256 + 224√3) cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wszystkie krawędzie mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>8</mn></mrow></math> cm, a wysokość graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>8</mn></mrow></math> cm. Krawędź cięcia (przekątna sześciokąta łącząca wierzchołki odległe o dwa boki) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Podstawą graniastosłupa pięciokątnego jest pięciokąt złożony z pięciu z sześciu trójkątów równobocznych sześciokąta, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mrow><msup><mn>8</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>80</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Pole boczne tworzą cztery prostokąty o boku 8 cm oraz jeden prostokąt o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm, wszystkie o wysokości 8 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mo>(</mo><mn>4</mn><mi>a</mi><mo>+</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>·</mo><mi>H</mi><mo>=</mo><mo>(</mo><mn>32</mn><mo>+</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>·</mo><mn>8</mn><mo>=</mo><mn>256</mn><mo>+</mo><mn>64</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><msub><mi>P</mi><mi>p</mi></msub><mo>+</mo><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>80</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>256</mn><mo>+</mo><mn>64</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>256</mn><mo>+</mo><mn>224</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Powierzchnia graniastosłupa pięciokątnego obejmuje też nową ścianę powstałą z przekroju"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_podlaskie_q26",
+   "numer": 26,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Wojtek wykonał drewniany model sześcianu (rysunek obok). Używał listewek, których przekrój poprzeczny jest kwadratem o boku 2 cm. Masa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>3</mn></msup></mrow></math> drewna, z którego je wykonano, jest równa 0,8 g. Oblicz masę tego modelu, jeżeli krawędź sześcianu ma długość 20 cm.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_podlaskie_q26_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "665,6 g",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Model składa się z listewek o przekroju 2 cm × 2 cm. Można go podzielić na 4 prostopadłościany o wymiarach 20 cm × 2 cm × 2 cm oraz 8 prostopadłościanów o wymiarach 16 cm × 2 cm × 2 cm (skróconych o szerokości listewek na obu końcach). Objętość modelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>4</mn><mo>·</mo><mn>20</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>·</mo><mn>16</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>320</mn><mo>+</mo><mn>512</mn><mo>=</mo><mn>832</mn></mrow></math> cm³. Masa modelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>832</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>665,6</mn></mrow></math> g.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:podwojne-liczenie-naroznikow"
+    ],
+    "opis": "Listewki stykają się w narożach – naiwne 12 krawędzi po 20 cm liczy narożniki wielokrotnie"
+   }
+  }
+ ]
+}

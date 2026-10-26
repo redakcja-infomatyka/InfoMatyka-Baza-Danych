@@ -1,0 +1,609 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 60,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023-2024_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Liczby Mersenne'a to takie liczby naturalne, które można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup><mo>−</mo><mn>1</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną. Jeśli liczba Mersenne'a jest liczbą pierwszą, to wykładnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> w powyższym zapisie również jest liczbą pierwszą.</p><p>Ile jest liczb Mersenne'a mniejszych od 100, które są liczbami pierwszymi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy kolejne liczby pierwsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>5</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>31</mn></math> — wszystkie są pierwsze i mniejsze od 100. Kolejna, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>7</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>127</mn></math>, jest już za duża. Takich liczb jest 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz kolejne potęgi dwójki mniejsze niż 101, odejmij 1 i sprawdź pierwszość",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Sprzedawca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-krotnie (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną) obniżył pierwotną cenę pewnego produktu o 25% tak, że ostateczna cena tego produktu stanowiła mniej niż 25% ceny pierwotnej. Jaka jest najmniejsza możliwa wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po każdej obniżce cena mnoży się przez 0,75, więc po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> obniżkach wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,75</mn><mi>n</mi></msup></math> ceny pierwotnej. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>4</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,75</mn><mn>4</mn></msup><mo>≈</mo><mn>0,316</mn></math> — za dużo. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>5</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,75</mn><mn>5</mn></msup><mo>≈</mo><mn>0,237</mn><mo>&lt;</mo><mn>0,25</mn></math>. Najmniejsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to 5.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każda obniżka to mnożenie przez 3/4 — licz na ułamkach zwykłych, nie na dziesiętnych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Kolejne obniżki po 25% liczy się od nowej ceny, więc ich nie sumujemy (3·25% to nie 75%)"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><mi>π</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mi>π</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn><mi>π</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>π</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>π</mi><mo>+</mo><mn>2</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>&gt;</mo><mn>1</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>1</mn><mo>−</mo><mi>π</mi><mo>|</mo><mo>=</mo><mi>π</mi><mo>−</mo><mn>1</mn></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>2</mn><mi>π</mi><mo>=</mo><mo>−</mo><mi>π</mi><mo>−</mo><mn>1</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>=</mo><mi>π</mi><mo>+</mo><mn>1</mn></math>. Stąd wynik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mo>(</mo><mi>π</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>−</mo><mi>π</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zacznij od środka: π > 1, więc |1 − π| = π − 1",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "układy równań",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> podzielona przez 3 daje iloraz całkowity <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i resztę 1. Układem spełnionym przez dowolną parę liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math> opisaną w pierwszym zdaniu jest układ</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>y</mi><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mtd></mtr><mtr><mtd><mi>y</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>3</mn><mi>x</mi></mtd></mtr></mtable></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>y</mi><mo>:</mo><mn>3</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>1</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></mtd></mtr><mtr><mtd><mn>6</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0</mn></mtd></mtr></mtable></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>y</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>5</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>−</mo><mi>x</mi><mo>=</mo><mn>3</mn></mtd></mtr></mtable></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z treści zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>. W odpowiedzi C pierwsze równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, a drugie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0</mn></math> po podzieleniu przez −2 daje to samo równanie. Oba opisują więc tę samą zależność dla dowolnej pary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math> — to układ C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź warunek do y = 3x + 1 i sprawdź, czy oba równania układu dają to samo",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "Układ ma spełniać KAŻDA para (x,y), a nie jedna z nich; jedna pasująca para to za mało"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "symetrie",
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>W kartezjańskim układzie współrzędnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math> dane są cztery punkty, będące kolejnymi wierzchołkami czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Punkty te mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są liczbami dodatnimi. Środek symetrii czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "nie istnieje."
+    },
+    {
+     "litera": "B",
+     "html": "ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>,</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>)</mo></math>."
+    },
+    {
+     "litera": "C",
+     "html": "ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>,</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>)</mo></math>."
+    },
+    {
+     "litera": "D",
+     "html": "jest zawsze w pierwszej ćwiartce układu współrzędnych."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek symetrii czworokąta to wspólny środek przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>,</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>)</mo></math>. Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>−</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>,</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></math>. Oba punkty się pokrywają, więc to szukany środek symetrii.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "środek symetrii istnieje, gdy przekątne mają wspólny środek — porównaj środki AC i BD",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "dwusieczna kąta / symetralna odcinka",
+    "kąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p><strong>Informacja do zadań 6. i 7.</strong> Na rysunku obok przedstawiono trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> tak, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ABE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ACE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>45</mn><mo>°</mo></math>.</p><p>Rozważ poniższe zdania:</p><ul><li>I. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> są podobne.</li><li>II. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leży na symetralnej odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math>.</li><li>III. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leży na dwusiecznej kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na dwusiecznej kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math>.</li><li>IV. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest dwukrotnie mniejsze niż pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>.</li></ul><p>Które z powyższych zdań są prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Wszystkie zdania od I do IV."
+    },
+    {
+     "litera": "B",
+     "html": "Tylko zdanie I i III."
+    },
+    {
+     "litera": "C",
+     "html": "Tylko zdanie I, II i IV."
+    },
+    {
+     "litera": "D",
+     "html": "Tylko zdanie II, III i IV."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma 90°, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ma 30°, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> ma 60°. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma 60°, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math> ma 30° — trójkąt 30-60-90, podobny do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> (I).</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EDB</mi></math> ma 30°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEB</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><mi>BE</mi></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leży na symetralnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> (II).</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math> i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math> mają po 30°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> na połowy. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> ma 45° (trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> jest równoramienny), więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEC</mi></math> ma 15°, tyle samo co kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CED</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math> na połowy (III).</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>:</mo><mi>BD</mi><mo>=</mo><mn>1</mn><mo>:</mo><mn>2</mn></math>, a trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math> mają wspólną wysokość z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, więc pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest o połowę mniejsze niż pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math> (IV). Wszystkie zdania są prawdziwe.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty"
+   ],
+   "tresc_html": "<p><strong>Informacja do zadań 6. i 7.</strong> Na rysunku obok przedstawiono trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> tak, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ABE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ACE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>45</mn><mo>°</mo></math>.</p><p>Jaki jest stosunek proporcjonalny długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2 : 1 : 2"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>:</mo><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>:</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi><mo>=</mo><mn>1</mn></math>. Z trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> = 30°) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></math>. Z trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math> = 30°) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>3</mn></mfrac></math>. Z trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> (równoramiennego, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> = 45°) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>1</mn></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>AC</mi><mo>−</mo><mi>AB</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><mi>AD</mi><mo>−</mo><mi>AC</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>. Mnożąc odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>:</mo><mi>BC</mi><mo>:</mo><mi>CD</mi><mo>=</mo><mn>1</mn><mo>:</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile punktów o obu współrzędnych całkowitych znajduje się w odległości 10 od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dwa"
+    },
+    {
+     "litera": "B",
+     "html": "cztery"
+    },
+    {
+     "litera": "C",
+     "html": "osiem"
+    },
+    {
+     "litera": "D",
+     "html": "dwanaście"
+    },
+    {
+     "litera": "E",
+     "html": "nieskończenie wiele"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukamy par liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mi>y</mi></math> spełniających <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>. Rozwiązania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>±</mo><mn>10</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mo>±</mo><mn>10</mn><mo>)</mo></math> — 4 punkty, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>±</mo><mn>6</mn><mo>,</mo><mo>±</mo><mn>8</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>±</mo><mn>8</mn><mo>,</mo><mo>±</mo><mn>6</mn><mo>)</mo></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>) — 8 punktów. Łącznie 12 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj całkowitych rozwiązań x² + y² = 100 — najpierw na osiach, potem trójki pitagorejskie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Trzeba policzyć punkty na osiach i punkty z trójki 6-8-10, ze wszystkimi znakami i zamianą współrzędnych"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "dwusieczna kąta / symetralna odcinka"
+   ],
+   "tresc_html": "<p>Romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma bok długości 6. Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> dzieli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na odcinki długości 1 i 5, jak pokazano na rysunku obok.</p><p>Jaka jest długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tego rombu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Umieśćmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mi>p</mi><mo>,</mo><mi>h</mi><mo>)</mo></math> z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></math> (bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mn>6</mn></math>) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>p</mi><mo>,</mo><mi>h</mi><mo>)</mo></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> to równoległobok). Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest poziomy jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, więc jego symetralna to prosta pionowa przez środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, o odciętej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mi>p</mi></math>. Skoro przecina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w odległości 1 od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mi>p</mi><mo>=</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mo>−</mo><mn>2</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>32</mn></math>.</p><p>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>AC</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mi>p</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>32</mn><mo>=</mo><mn>48</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><msqrt><mn>48</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Na każdej ze ścian sześcianu o objętości 48 zaznaczono punkt przecięcia przekątnych danej ściany. Zaznaczone punkty połączono tak, że powstał ośmiościan foremny, widoczny na rysunku obok.</p><p>Objętość tego ośmiościanu jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    },
+    {
+     "litera": "E",
+     "html": "24"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sześcian ma krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>48</mn></math>. Ośmiościan to dwa ostrosłupy o wspólnej podstawie — kwadracie złożonym ze środków czterech ścian bocznych, o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac></math> — i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> każdy. Objętość jednego ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>12</mn></mfrac></math>. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>48</mn><mn>6</mn></mfrac><mo>=</mo><mn>8</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie licz krawędzi sześcianu — potnij ośmiościan na dwa ostrosłupy i porównaj z objętością bryły",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prawdopodobieństwo",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ze zbioru 20 kolejnych liczb naturalnych wylosowano dwie różne liczby. Jakie jest prawdopodobieństwo, że ich suma jest parzysta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>20</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>19</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród 20 kolejnych liczb jest 10 parzystych i 10 nieparzystych. Suma dwóch liczb jest parzysta, gdy obie są parzyste albo obie nieparzyste. Liczba wszystkich par: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>20</mn><mo>·</mo><mn>19</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>190</mn></math>. Liczba par sprzyjających: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mrow><mn>10</mn><mo>·</mo><mn>9</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>90</mn></math>. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>90</mn><mn>190</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>19</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "suma jest parzysta, gdy obie liczby mają tę samą parzystość — patrz, co zostaje po pierwszym losowaniu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Liczby są różne, więc po wylosowaniu pierwszej zostaje mniej liczb tej samej parzystości; to nie jest pół na pół"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "reszta z dzielenia",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb trzycyfrowych, które przy dzieleniu przez 11 dają resztę 1?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "81"
+    },
+    {
+     "litera": "B",
+     "html": "82"
+    },
+    {
+     "litera": "C",
+     "html": "83"
+    },
+    {
+     "litera": "D",
+     "html": "90"
+    },
+    {
+     "litera": "E",
+     "html": "91"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> muszą spełniać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><mn>11</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>≤</mo><mn>999</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>90</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>100</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>·</mo><mn>91</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>1002</mn></math> ma już 4 cyfry). Takich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>9</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>82</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "znajdź najmniejszą i największą liczbę trzycyfrową postaci 11k + 1 i policz je co 11",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Najmniejsza liczba trzycyfrowa sama daje resztę 1; liczenie wyrazów ciągu włącznie z oboma końcami"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 10,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Iloczyn wszystkich dodatnich liczb naturalnych nie większych niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math>, co czytamy jako „<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> silnia\", gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną.</p><p style=\"text-align:center\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi><mo>=</mo><mi>n</mi><mo>!</mo></math></p><p>Przykładowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>. Osobno określa się, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>!</mo></math> jest równe 1.</p><p><strong>a)</strong> (2p) Podaj, ile zer występuje na końcu zapisu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math>.</p><p><strong>b)</strong> (2p) Podaj, jaka jest najwyższa potęga liczby 2, przez którą dzieli się liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math>.</p><p><strong>c)</strong> (3p) Ustal prawdziwość poniższych zdań. Wpisz PRAWDA lub FAŁSZ w wyznaczone miejsca.</p><ul><li>I. Każda liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> posiada dokładnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> dzielników naturalnych.</li><li>II. Istnieją jedynie dwie nieparzyste liczby postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math>.</li><li>III. Dla każdej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zachodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>!</mo></math>.</li></ul><p><strong>d)</strong> (3p) Udowodnij, że dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>≥</mo><mn>3</mn></math> liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> jest podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></math>, a otrzymany iloraz można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 6;  b) 2²² (= 4194304);  c) I: FAŁSZ, II: PRAWDA, III: PRAWDA;  d) dowód, iloraz n³ − 3n² + 2n",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><strong>a)</strong> Liczba zer na końcu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math> to najwyższa potęga liczby 5 dzieląca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>5</mn></mfrac></mfenced><mo>+</mo><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>25</mn></mfrac></mfenced><mo>=</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>. Odpowiedź: <strong>6</strong>.</p><p><strong>b)</strong> Najwyższa potęga liczby 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>2</mn></mfrac></mfenced><mo>+</mo><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>4</mn></mfrac></mfenced><mo>+</mo><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>8</mn></mfrac></mfenced><mo>+</mo><mfenced open=\"⌊\" close=\"⌋\"><mfrac><mn>25</mn><mn>16</mn></mfrac></mfenced><mo>=</mo><mn>12</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup></math>.</p><p><strong>c)</strong> I <strong>FAŁSZ</strong>, &nbsp; II <strong>PRAWDA</strong>, &nbsp; III <strong>PRAWDA</strong>.</p><p><strong>d)</strong> Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> rozpisujemy zgodnie z definicją: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mi>n</mi></math>. Iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mi>n</mi></math> jest liczbą naturalną, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> jest podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mi>n</mi><mo>=</mo><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mi>n</mi><mo>=</mo><msup><mi>n</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></math>.</p>",
+    "rozwiazanie_ai_html": "<p>a) Liczba czynników 5 w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math> (piątek jest mniej niż dwójek), więc 6 zer.</p><p>b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup></math>.</p><p>c) I FAŁSZ (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math> ma 8 dzielników); II PRAWDA (nieparzyste są tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>!</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>!</mo></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>≥</mo><mn>2</mn></math> czynnik 2 daje liczbę parzystą); III PRAWDA z definicji silni.</p><p>d) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>!</mo></mrow><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></mrow></mfrac><mo>=</mo><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><msup><mi>n</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></math>.</p>",
+    "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>2 punkty – Podanie poprawnej odpowiedzi (6).</li><li>1 punkt – Poprawna metoda znalezienia najwyższej potęgi liczby 10 będącej dzielnikiem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math></li><li>0 punktów – Podanie błędnej odpowiedzi lub brak odpowiedzi.</li></ul><p><strong>Podpunkt b)</strong></p><ul><li>2 punkty – Podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup></math>).</li><li>1 punkt – Poprawna metoda znalezienia najwyższej potęgi liczby 2 będącej dzielnikiem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>!</mo></math></li><li>0 punktów – Podanie błędnej odpowiedzi lub brak odpowiedzi.</li></ul><p><strong>Podpunkt c)</strong></p><ul><li>3 punkty – Poprawne określenie prawdziwości trzech zdań.</li><li>2 punkty – Poprawne określenie prawdziwości dwóch z trzech zdań.</li><li>1 punkt – Poprawne określenie prawdziwości jednego z trzech zdań.</li></ul><p><strong>Podpunkt d)</strong></p><ul><li>3 punkty – Wykazanie podzielności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></math> oraz przedstawienie otrzymanego ilorazu w formie podanej w poleceniu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>n</mi></math>)</li><li>2 punkty – Poprawna metoda wykazania podzielności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo></math> i otrzymanie ilorazu zapisanego w postaci iloczynu trzech czynników <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi></math></li><li>1 punkt – Zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>!</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi></math></li><li>0 punktów – Brak dowodu, błędne rozumowanie lub pokazanie własności na przykładzie wybranej jednej lub kilku wartości liczbowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</li></ul><p>Uwaga: Jeśli w podpunkcie a) lub b) uczeń zapisze poprawną odpowiedź, ale nie zapisze pełnego rozumowania i obliczeń prowadzących do odpowiedzi, to za każdy z podpunktów a) lub b) otrzymuje 2 punkty.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "konwencja"
+    ],
+    "opis": "a) 25 = 5·5 daje dwie piątki; c) II trzeba pamiętać o 0! obok 1!"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 11,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "koła / okręgi",
+    "trójkąty",
+    "dowodzenie / dowody",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> o mierze równej 30°, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> oraz okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> oraz o dowolnym promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</p><p><strong>I.</strong> Jeśli długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> wynosi 3, to okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> ma jeden punkt wspólny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> jest prosty.</p><p><strong>a)</strong> (2p) Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math>. Zapisz obliczenia.</p><p><strong>b)</strong> (2p) Okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> przecina odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Oblicz długość mniejszego łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DP</mi></math>. Zapisz obliczenia.</p><p><strong>II.</strong> Dla pewnego promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> przecina ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w dwóch punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AT</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> tak, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ATB</mi></math> jest prostokątny. Sytuację przedstawiono na rysunku obok.</p><p><strong>a)</strong> (2p) Udowodnij, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>STB</mi></math> jest równoboczny.</p><p><strong>b)</strong> (2p) Znajdź długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. Zapisz obliczenia.</p><p><strong>III.</strong> (3p) Niech długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> wynosi 6. Oblicz pole zacieniowanej figury przedstawionej na rysunku obok. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q14_fig1.svg",
+    "rysunki/wojewodzki_2023-2024_malopolskie_q14_fig2.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "I a) 9√3/2;  I b) π;  II a) dowód;  II b) 2√3;  III 30π − 9√3",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><strong>I a)</strong> Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><msup><mn>6</mn><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>APB</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>3</mn><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p><p><strong>I b)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DBP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>, więc długość łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mi>DP</mi></msub><mo>=</mo><mfrac><mrow><mn>60</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mo>·</mo><mn>2</mn><mi>π</mi><mo>·</mo><mn>3</mn><mo>=</mo><mi>π</mi></math>.</p><p><strong>II a)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ATB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>STB</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BT</mi></math> to promienie), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>TSB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>STB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>, a trzeci kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>TBS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Wszystkie kąty równe, więc trójkąt jest równoboczny.</p><p><strong>II b)</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ATB</mi></math> ma kąty 30°, 60°, 90°, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>=</mo><mi>r</mi><msqrt><mn>3</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</p><p><strong>III)</strong> Figurę dzielimy na półkole o promieniu 6 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>I</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn><mi>π</mi></math>) oraz część II (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>II</mi></msub><mo>=</mo><mfrac><mrow><mn>120</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>). Pole zacieniowanej figury: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>π</mi><mo>+</mo><mn>12</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>30</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>.</p>",
+    "punktacja_html": "<p><strong>Podpunkt I. a)</strong></p><ul><li>2 punkty – Poprawne obliczenie pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>)</li><li>1 punkt – Poprawna metoda obliczenia pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> lub poprawne obliczenie długości przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AP</mi></math></li><li>0 punktów – Brak rozwiązania lub błędne rozwiązanie</li></ul><p><strong>Podpunkt I. b)</strong></p><ul><li>2 punkty – Poprawne obliczenie długości łuku (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>π</mi></mrow><mn>2</mn></mfrac></math>)</li><li>1 punkt – Poprawna metoda obliczenia długości łuku</li><li>0 punktów – Brak rozwiązania lub błędne rozwiązanie</li></ul><p><strong>Podpunkt II. a)</strong></p><ul><li>2 punkty – Wykazanie, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>STB</mi></math> jest trójkątem równobocznym</li><li>1 punkt – Wykazanie, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>STB</mi></math> jest trójkątem równoramiennym</li><li>0 punktów – Błędne rozumowanie lub założenie tezy lub obliczenie długości boków trójkąta dla wybranej wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math></li></ul><p><strong>Podpunkt II. b)</strong></p><ul><li>2 punkty – Poprawne obliczenie długości promienia (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>)</li><li>1 punkt – Poprawna metoda obliczenia długości promienia</li><li>0 punktów – Brak rozwiązania lub błędne rozwiązanie</li></ul><p><strong>Podpunkt III</strong></p><ul><li>3 punkty – Poprawne obliczenie pola zacieniowanej figury (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>)</li><li>2 punkty – Poprawne metoda obliczenia pola zacieniowanej figury lub poprawne obliczenie pola mniejszej części zacieniowanej figury (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>) lub poprawne obliczenie białej części pola koła (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mi>π</mi></math>)</li><li>1 punkt – Poprawne obliczenie pola większej części zacieniowanej figury - półkola (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>π</mi></math>) lub poprawna metoda obliczenia pola mniejszej części zacieniowanej figury lub poprawna metoda obliczenia pola nie zacieniowanej figury.</li><li>0 punktów – Brak rozwiązania lub błędne rozwiązanie</li></ul><p>Uwaga: Jeśli w podpunkcie I. a) uczeń błędnie obliczy pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math>, a następnie w poprawny sposób użyje tego błędnego wyniku w podpunkcie III i przedstawi pełne rozwiązanie, to za podpunkt III uczeń otrzymuje 3 punkty.</p>"
+   },
+   "czas_min": 20
+  },
+  {
+   "id": "wojewodzki_2023-2024_malopolskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 9,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p><strong>I.</strong> Czworościan foremny ma krawędzie o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>a)</strong> (1p) Zapisz wzór na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> dowolnej ściany czworościanu foremnego.</p><p><strong>b)</strong> (2p) Zapisz wzór na odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> pomiędzy wierzchołkiem ściany a spodkiem wysokości czworościanu foremnego znajdującym się na tej ścianie. Wzór wyraź w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>c)</strong> (2p) Wyznacz wzór na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> czworościanu foremnego. Wzór wyraź w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>II.</strong> (4p) Dany jest dziesięciościan zbudowany z pięciu czworościanów foremnych. Bryłę przedstawiono na rysunku obok. Objętość danego dziesięciościanu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math>. Oblicz długość krawędzi tej bryły. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_malopolskie_q15_fig1.svg",
+    "rysunki/wojewodzki_2023-2024_malopolskie_q15_fig2.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "I a) h = a√3/2;  I b) R = a√3/3;  I c) H = a√6/3;  II krawędź = 2∛3",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p><strong>I a)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p><p><strong>I b)</strong> Spodek wysokości czworościanu dzieli wysokość podstawy w stosunku 2:1, licząc od wierzchołka, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>h</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></math>.</p><p><strong>I c)</strong> Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>3</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></math>.</p><p><strong>II)</strong> Objętość jednego czworościanu foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>P</mi></msub><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>2</mn></msqrt></mrow><mn>12</mn></mfrac></math>. Dziesięciościan składa się z pięciu czworościanów, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>2</mn></msqrt></mrow><mn>12</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>24</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mroot><mn>24</mn><mn>3</mn></mroot><mo>=</mo><mn>2</mn><mroot><mn>3</mn><mn>3</mn></mroot></math>.</p>",
+    "punktacja_html": "<p><strong>Podpunkt I. a)</strong></p><ul><li>1 punkt – Podanie poprawnego wzoru na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> lub równanie równoważne)</li><li>0 punktów – Brak odpowiedzi lub błędna odpowiedź</li></ul><p><strong>Podpunkt I. b)</strong></p><ul><li>2 punkty – Podanie poprawnego wzoru na odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></math> lub równanie równoważne)</li><li>1 punkt – Poprawna metoda wyznaczenia wzoru na odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math></li><li>0 punktów – Brak odpowiedzi lub błędna odpowiedź</li></ul><p><strong>Podpunkt I. c)</strong></p><ul><li>2 punkty – Poprawne wyznaczenie wzoru na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> czworościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></math> lub równanie równoważne)</li><li>1 punkt – Poprawna metoda wyznaczenia wzoru na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> czworościanu</li><li>0 punktów – Brak rozwiązania lub błędne rozwiązanie</li></ul><p><strong>Podpunkt II</strong></p><ul><li>4 punkty – Poprawne obliczenie długości krawędzi dziesięciościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mroot><mn>3</mn><mn>3</mn></mroot></math>)</li><li>3 punkty – Ułożenie poprawnego równania z jedną niewiadomą prowadzącego do znalezienia długości krawędzi bryły</li><li>2 punkty – Zapisanie poprawnego wyrażenia przedstawiającego objętość czworościanu foremnego lub objętość rozważanego dziesięciościanu w zależności od długości krawędzi bryły</li><li>1 punkt – Poprawna metoda znalezienia wyrażenia przedstawiającego objętość czworościanu foremnego lub objętość rozważanego dziesięciościanu</li><li>0 punktów – Brak rozwiązania lub rozwiązanie błędne</li></ul><p>Uwaga: Jeśli w podpunkcie I. a), I. b) lub I. c) uczeń uzyska błędną odpowiedź, a następnie skorzysta z tej błędnej odpowiedzi w kolejnych dalszych podpunktach, które rozwiąże poprawną metodą i doprowadzi do pełnego rozwiązania, to za te kolejne podpunkty uczeń otrzymuje maksymalną liczbę punktów.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

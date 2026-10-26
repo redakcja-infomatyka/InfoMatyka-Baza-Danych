@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="450" viewBox="0 0 550 450">
+  <rect x="0" y="0" width="550" height="450" fill="#fff"/>
+
+  <!-- quarter disk: vertex(42,384) top(42,106) right(320,384) radius 278 -->
+  <path d="M42,384 L42,106 A278,278 0 0,1 320,384 Z"
+        fill="#7f7f7f" stroke="#000" stroke-width="11" stroke-linejoin="miter"/>
+
+  <!-- diagonal chord connecting the two radius endpoints -->
+  <line x1="42" y1="106" x2="320" y2="384" stroke="#000" stroke-width="11"/>
+
+  <!-- small angle-mark arc, vertex-centred (bitmap circle fit: centre 3.1px off the
+       vertex, r 60.6, rms 1.3); ends on the two legs, under the 11px border stroke -->
+  <path d="M42,323.5 A60.5,60.5 0 0,1 102.5,384" fill="none" stroke="#000" stroke-width="3.5"/>
+
+  <!-- dot marking the angle -->
+  <circle cx="63" cy="363" r="6.5" fill="#000"/>
+
+  <!-- leader line from label to the arrowhead -->
+  <line x1="358" y1="82" x2="195" y2="230" stroke="#000" stroke-width="1.8"/>
+  <!-- arrowhead -->
+  <polygon points="197,228 188,224 182,242 201,237" fill="#000"/>
+
+  <!-- underline beneath the label -->
+  <line x1="358" y1="77" x2="498" y2="77" stroke="#000" stroke-width="2"/>
+
+  <!-- overline (sqrt bar) above the radicand digit -->
+  <line x1="452.2" y1="22" x2="497" y2="22" stroke="#000" stroke-width="3"/>
+
+  <!-- label text -->
+  <text x="372" y="68" font-family="Times New Roman,serif" font-weight="bold" font-size="52" fill="#000">20&#8730;2</text>
+</svg>

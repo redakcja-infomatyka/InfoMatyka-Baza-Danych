@@ -1,0 +1,682 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych (podlaskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 21,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023_podlaskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023_podlaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile razy cyfra 9 występuje w liczbach od 1 do 100?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "11"
+    },
+    {
+     "litera": "C",
+     "html": "19"
+    },
+    {
+     "litera": "D",
+     "html": "20"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfra 9 na miejscu jedności pojawia się w liczbach 9, 19, 29, …, 99 — 10 razy. Na miejscu dziesiątek pojawia się w liczbach 90–99 — kolejne 10 razy. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>20</mn></mrow></math> razy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno dziewiątki na miejscu jedności i na miejscu dziesiątek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "konwencja"
+    ],
+    "opis": "Pytanie o liczbę wystąpień cyfry, nie o liczbę liczb z dziewiątką; 99 ma dwie dziewiątki"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Największą z podanych liczb jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>22</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>22</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odpowiedź D po uproszczeniu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msup><mn>22</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>22</mn><mn>4</mn></msup></mrow></math>. Porównajmy wszystko z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>22</mn></msup></math>: przy tym samym wykładniku 22 podstawa 22 jest większa niż 2, a przy tej samej podstawie 22 wykładnik 22 jest większy niż 2 i niż 4. Więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>22</mn></msup></math> jest największa.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź (22²)² do jednej potęgi i dopiero potem porównuj podstawy z wykładnikami",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Ostrosłup o 30 krawędziach ma</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30 ścian bocznych"
+    },
+    {
+     "litera": "B",
+     "html": "20 ścian bocznych"
+    },
+    {
+     "litera": "C",
+     "html": "piętnastokąt w podstawie"
+    },
+    {
+     "litera": "D",
+     "html": "dziesięciokąt w podstawie"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostrosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi podstawy i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi bocznych, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>=</mo><mn>30</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>15</mn></mrow></math>, więc w podstawie jest piętnastokąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel krawędzie na te w podstawie i te boczne",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Ser feta zawiera 30% tłuszczu. Ile dekagramów tłuszczu zawiera 400 gramów tego sera?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "120 dag"
+    },
+    {
+     "litera": "B",
+     "html": "12 dag"
+    },
+    {
+     "litera": "C",
+     "html": "12 g"
+    },
+    {
+     "litera": "D",
+     "html": "125 g"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>30% z 400 g to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,3</mn><mo>·</mo><mn>400</mn><mo>=</mo><mn>120</mn></mrow></math> g tłuszczu, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>12</mn></mrow></math> dag.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw wyznacz masę tłuszczu w gramach, potem zamień jednostki",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Dane w gramach, pytanie w dekagramach; warianty mieszają g i dag"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na planie miasta w skali 1:2000 kwadratowy plac ma pole 4 cm<sup>2</sup>. W rzeczywistości obwód placu jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "400 m"
+    },
+    {
+     "litera": "B",
+     "html": "320 m"
+    },
+    {
+     "litera": "C",
+     "html": "160 m"
+    },
+    {
+     "litera": "D",
+     "html": "80 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok placu na planie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>4</mn></msqrt><mo>=</mo><mn>2</mn></mrow></math> cm. W skali 1:2000 bok rzeczywisty wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2000</mn><mo>=</mo><mn>4000</mn></mrow></math> cm, czyli 40 m. Obwód placu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>160</mn></mrow></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz bok kwadratu na planie, dopiero potem przeliczaj skalę i obwód",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Połowa obwodu koła o promieniu 4 cm wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>π</mi></mrow></math> cm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>π</mi></mrow></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>π</mi></mrow></math> cm"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>π</mi></mrow></math> cm<sup>2</sup>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obwód koła o promieniu 4 cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>π</mi><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn><mi>π</mi></mrow></math> cm, więc jego połowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>π</mi></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skorzystaj ze wzoru na obwód koła i weź jego połowę",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> ma pole równe polu koła. Średnica tego koła ma długość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2</mn><mi>π</mi></mrow></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>π</mi></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>π</mi><mn>2</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mi>π</mi></msqrt></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>π</mi><mn>2</mn></msup></math>. Z równości pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><msqrt><mi>π</mi></msqrt></mrow></math>. Średnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>r</mi><mo>=</mo><mn>2</mn><msqrt><mi>π</mi></msqrt></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyrównaj pole kwadratu do πr², skróć π i pamiętaj, że pytają o średnicę",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Jaką długość ma bok trójkąta równobocznego o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "40 cm"
+    },
+    {
+     "litera": "D",
+     "html": "20 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wysokość trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>20</mn><msqrt><mn>3</mn></msqrt></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>40</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij sobie wzór na wysokość trójkąta równobocznego",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie"
+   ],
+   "tresc_html": "<p>Który napis ma środek symetrii?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "OTO"
+    },
+    {
+     "litera": "B",
+     "html": "KAJAK"
+    },
+    {
+     "litera": "C",
+     "html": "OKO"
+    },
+    {
+     "litera": "D",
+     "html": "ZOZ"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Napis ma środek symetrii, jeśli obrócony o 180° pokrywa się sam ze sobą. Litery Z i O są punktowo symetryczne — obrócone o 180° dają tę samą literę. W napisie ZOZ obrót o 180° wokół środka litery O zamienia pierwsze Z z ostatnim, więc cały napis pokrywa się z samym sobą.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obróć napis o 180° i sprawdź, czy każda litera przechodzi w siebie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Środek symetrii myli się z osią symetrii; napisy z pionową osią go nie mają"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> jest równa −11 dla</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>10</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>16</mn></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>11</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mo>±</mo><mn>4</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wylicz najpierw, ile musi wynosić (x−1)², i pamiętaj o dwóch możliwościach",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>W loterii „Szczęśliwa piątka” jest 5 losów wygrywających i 20 przegrywających, zaś w loterii „Szczęśliwa dwudziestka” jest 20 losów wygrywających i 80 przegrywających. Czy kupując jeden los, prawdopodobieństwo, że będzie to los wygrywający jest takie samo dla obu loterii? Wybierz odpowiedź <strong>T</strong> (Tak) albo <strong>N</strong> (Nie) i jej uzasadnienie spośród <strong>A</strong>, <strong>B</strong> albo <strong>C</strong>. (Poprawna odpowiedź podana jest w formacie: litera T/N oraz litera uzasadnienia.)</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "losów wygrywających w loterii „Szczęśliwa dwudziestka” jest więcej niż w loterii „Szczęśliwa piątka”."
+    },
+    {
+     "litera": "B",
+     "html": "wszystkich losów w loterii „Szczęśliwa piątka” jest mniej niż w loterii „Szczęśliwa dwudziestka”."
+    },
+    {
+     "litera": "C",
+     "html": "proporcje liczby losów wygrywających do wszystkich losów w każdej z loterii są takie same."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "TC",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prawdopodobieństwo wygranej to stosunek losów wygrywających do wszystkich: w „Szczęśliwej piątce” <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, a w „Szczęśliwej dwudziestce” <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>20</mn><mn>100</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>. Proporcje są takie same, więc prawdopodobieństwo jest jednakowe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź obie loterie do tej samej liczby wszystkich losów i porównaj",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Oceń, które zdania są prawdziwe, a które fałszywe, wpisując przy każdym zdaniu znak „X” we właściwej kolumnie tabeli (Prawda/Fałsz).</p>",
+   "warianty": [
+    {
+     "litera": "a",
+     "html": "W pewnym czworokącie przekątne mają równe długości. Z tego wynika, że ten czworokąt jest prostokątem."
+    },
+    {
+     "litera": "b",
+     "html": "W pewnym czworokącie przekątne są prostopadłe. Z tego wynika, że ten czworokąt jest rombem."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>a) Równe przekątne nie wystarczają — ma je też np. trapez równoramienny, który nie jest prostokątem. b) Prostopadłe przekątne nie wystarczają — ma je też np. deltoid, który nie jest rombem.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zastanów się, czy warunek o przekątnych wyznacza czworokąt jednoznacznie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kierunek-relacji"
+    ],
+    "opis": "Odwrócenie implikacji: prostokąt ma równe przekątne, ale nie każdy taki czworokąt jest prostokątem"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 8,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "zagadki logiczne",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Udziel odpowiedzi:</p><p>a) Uzupełnij: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mtext>……</mtext><mo>−</mo><mn>6</mn><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mtext>……</mtext><mo>+</mo><mtext>……</mtext></mrow></math></p><p>b) Ile osi symetrii może mieć trójkąt?</p><p>c) Wyobraź sobie, że masz trzy klucze do trzech zamków. Ile prób co najwyżej musisz wykonać, by dowiedzieć się, który klucz pasuje do którego zamka?</p><p>d) Czy można do sześciu pudełek włożyć 13 przedmiotów tak, aby w każdym z nich była inna liczba przedmiotów?</p><p>e) W pewnej klasie nie można wskazać czterech uczniów, którzy urodzili się w tym samym dniu tygodnia. Ilu najwięcej uczniów może być w tej klasie?</p><p>f) Przyjmijmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza liczbę całkowitą. Zapisz trzy kolejne liczby całkowite następujące po liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></math>.</p><p>g) Zapisz wyrażenie opisujące średnią arytmetyczną liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p><p>h) Jaka jest różnica między zapisanymi w systemie rzymskim liczbami LX i XL?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) (½x − 6y)² = ¼x² − 6xy + 36y²; b) 0, 1 lub 3; c) trzy próby; d) nie; e) 21 uczniów; f) a−1, a, a+1; g) (√5 + 5² + x)/3; h) 20 (lub −20)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>6</mn><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>36</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math>.</p><p>b) Trójkąt może mieć 0, 1 lub 3 osie symetrii (odpowiednio: różnoboczny, równoramienny, równoboczny).</p><p>c) Trzy próby wystarczą, by dopasować klucze do zamków.</p><p>d) Nie. Najmniejsza suma sześciu różnych nieujemnych liczb przedmiotów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>15</mn></mrow></math>, a to więcej niż 13.</p><p>e) 21 uczniów. Skoro nie ma czterech uczniów urodzonych w tym samym dniu tygodnia, to każdy z 7 dni tygodnia przypada na co najwyżej 3 uczniów, więc najwięcej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>21</mn></mrow></math> uczniów.</p><p>f) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></math>.</p><p>g) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow><mn>3</mn></mfrac></math>.</p><p>h) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>LX</mi><mo>=</mo><mn>60</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>XL</mi><mo>=</mo><mn>40</mn></mrow></math>, więc różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>20</mn></mrow></math> (lub −20).</p>"
+   },
+   "czas_min": 20,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "o-co-pytaja"
+    ],
+    "opis": "Część b „może mieć”: trzeba wszystkich możliwości osi; w f liczby „następujące po” a−2"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Uzasadnij, że trzy przecinające się proste (patrz rysunek), utworzyły trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, który jest trójkątem prostokątnym.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_podlaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "trójkąt prostokątny (kąty 90°, 55°, 35°)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ACB</mi></mrow></math> jest przyległy do zaznaczonego kąta 145°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ACB</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>145</mn><mo>°</mo><mo>=</mo><mn>35</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ABC</mi></mrow></math> jest przyległy do zaznaczonego kąta 125°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>125</mn><mo>°</mo><mo>=</mo><mn>55</mn><mo>°</mo></mrow></math>. Suma miar kątów trójkąta wynosi 180°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>BAC</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>35</mn><mo>°</mo><mo>−</mo><mn>55</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Skoro jeden z kątów ma miarę 90°, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokątna działka ma wymiary 15 m x 25 m. Dom ma stać co najmniej 3 m od granicy działki. Jaka jest powierzchnia tej części działki, na której można zbudować dom? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "171 m²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odsunięcie o 3 m od każdej z granic zmniejsza każdy z wymiarów działki o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math> m. Część, na której można zbudować dom, jest prostokątem o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>15</mn><mo>−</mo><mn>6</mn><mo>)</mo><mo>×</mo><mo>(</mo><mn>25</mn><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>9</mn><mo>×</mo><mn>19</mn></mrow></math> m. Jej pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>19</mn><mo>=</mo><mn>171</mn></mrow></math> m².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odsuń granicę o 3 m z obu stron każdego wymiaru",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:margines-z-obu-stron"
+    ],
+    "opis": "Odstęp 3 m od granicy zabiera pas z każdej strony działki, a więc 6 m z każdego wymiaru"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>W lodziarni sprzedawano lody w pięciu smakach. Każde z dzieci stojących w kolejce kupiło dwie gałki lodów <u>o różnych smakach</u>. Okazało się, że żadnych dwoje dzieci nie miało tego samego zestawu lodów (nie ważna jest kolejność gałek) i każdy możliwy taki zestaw był kupiony przez pewne dziecko. Ile dzieci stało w tej kolejce? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "10 dzieci",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Każde dziecko kupiło zestaw dwóch różnych smaków spośród pięciu, a kolejność gałek nie ma znaczenia. Liczba różnych dwuelementowych zestawów smaków to liczba par wybranych z 5 smaków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>10</mn></mrow></math>. Ponieważ każdy możliwy zestaw kupiło dokładnie jedno dziecko, w kolejce stało 10 dzieci.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz zestawy dwóch różnych smaków: każdy z każdym, bez powtórzeń",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Daniel ma 9 monet, każda o nominale 2 złotych, zaś jego siostra Ania ma 8 monet, każda o nominale 5 złotych. Jaką najmniejszą liczbę monet muszą oni między sobą wymienić, aby mieć równe kwoty? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "minimum 5 monet",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Daniel ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>18</mn></mrow></math> zł, a Ania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>40</mn></mrow></math> zł, razem 58 zł. Aby mieli równe kwoty, każde musi mieć po 29 zł, więc Ania musi przekazać Danielowi 11 zł (jako różnicę nadwyżki). Wymieniając monety: Ania daje Danielowi 3 monety po 5 zł (15 zł), a Daniel oddaje jej 2 monety po 2 zł (4 zł); wtedy różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>11</mn></mrow></math> zł. Łącznie wymieniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></mrow></math> monet i jest to najmniejsza możliwa liczba.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "licz tylko, ile złotych musi przejść z rąk do rąk — to różnica piątek i dwójek",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow><mrow><mn>10</mn><mo>+</mo><mn>5</mn></mrow></mfrac></math> jest naturalna. Przedstaw swoje rozwiązanie i zapisz wniosek.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "wyrażenie jest równe 5, a 5 jest liczbą naturalną",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Licznik korzystając ze wzoru na różnicę kwadratów można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>5</mn><mo>)</mo></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow><mrow><mn>10</mn><mo>+</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mrow><mn>10</mn><mo>+</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>5</mn></mrow></math>. Liczba 5 jest liczbą naturalną, co kończy uzasadnienie.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W każdym z siedmiu kolejnych lat, zawsze 27 marca, urodził się jeden krasnoludek. Trzy najmłodsze krasnoludki mają razem 42 lata. Ile lat mają razem trzy najstarsze? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "54 lata",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Krasnoludki rodziły się co rok, więc ich wiek to siedem kolejnych liczb całkowitych. Niech najmłodszy ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> lat; trzy najmłodsze mają wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>42</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>13</mn></mrow></math>. Wiek krasnoludków to 13, 14, 15, 16, 17, 18, 19 lat. Trzy najstarsze mają razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>19</mn><mo>=</mo><mn>54</mn></mrow></math> lata.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wiek to siedem kolejnych liczb — z sumy trzech najmłodszych odczytaj środkową",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Test kontrolny z matematyki pisało 50 uczniów. Oceny bardzo dobre otrzymała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> dziewcząt i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> chłopców, razem 17 osób. O ile więcej chłopców niż dziewcząt pisało ten test? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "o 10 więcej chłopców",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę dziewcząt, wtedy chłopców jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>−</mo><mi>x</mi></mrow></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>(</mo><mn>50</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>17</mn></mrow></math>. Mnożąc obustronnie przez 20: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>(</mo><mn>50</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>340</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>400</mn><mo>−</mo><mn>8</mn><mi>x</mi><mo>=</mo><mn>340</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>60</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math>. Zatem dziewcząt jest 20, a chłopców <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>30</mn></mrow></math>. Chłopców jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>10</mn></mrow></math> więcej niż dziewcząt.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "liczba dziewcząt musi dzielić się przez 4, a chłopców przez 5 — zostaje niewiele możliwości",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_podlaskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Dwa ostrosłupy prawidłowe czworokątne mają różne wysokości, ale takie same podstawy o krawędzi 6 cm. Gdy sklejono podstawy, odległość między wierzchołkami ostrosłupów wyniosła 10 cm. Oblicz objętość otrzymanej bryły. Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "120 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Po sklejeniu podstaw wierzchołki obu ostrosłupów leżą po przeciwnych stronach wspólnej podstawy, więc odległość między nimi jest sumą wysokości obu ostrosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>H</mi><mn>1</mn></msub><mo>+</mo><msub><mi>H</mi><mn>2</mn></msub><mo>=</mo><mn>10</mn></mrow></math> cm. Podstawą jest kwadrat o boku 6 cm, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math> cm². Objętość bryły to suma objętości obu ostrosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><msub><mi>H</mi><mn>1</mn></msub><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><msub><mi>H</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mo>(</mo><msub><mi>H</mi><mn>1</mn></msub><mo>+</mo><msub><mi>H</mi><mn>2</mn></msub><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>120</mn></mrow></math> cm³.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podstawa obu ostrosłupów jest ta sama, więc potrzebna jest tylko suma wysokości",
+   "czas_min": 5
+  }
+ ]
+}

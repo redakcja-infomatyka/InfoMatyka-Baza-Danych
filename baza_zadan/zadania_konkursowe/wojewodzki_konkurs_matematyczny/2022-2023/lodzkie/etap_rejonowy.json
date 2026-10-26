@@ -1,0 +1,615 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych (łódzkie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "lodzkie",
+ "rok_szkolny": "2022/2023",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 100,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2023_lodzkie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2023_lodzkie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "nierówności",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wskaż zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Dla każdej liczby dodatniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniona jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>x</mi></msqrt><mo>≤</mo><mi>x</mi></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Dla dowolnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zachodzi równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mi>x</mi><mn>2</mn></msup></msqrt><mo>=</mo><mi>x</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Dla dowolnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniona jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>&gt;</mo><mn>0</mn></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Dla dowolnej liczby ujemnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniona jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>&lt;</mo><mi>x</mi></math>."
+    },
+    {
+     "litera": "E",
+     "html": "Dla dowolnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniona jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>&gt;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla dowolnej liczby ujemnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>0</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mi>x</mi><mo>=</mo><mi>x</mi><mo>&lt;</mo><mn>0</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>&lt;</mo><mi>x</mi></math> — nierówność ta jest więc zawsze prawdziwa. To zdanie D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstawiaj kontrprzykłady: zero, ułamek między 0 a 1, liczbę ujemną",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator",
+     "zbior-liczb"
+    ],
+    "opis": "„Dla dowolnej liczby”: √(x²)=|x|, x=0 psuje x²>0, a √x≤x nie zachodzi dla x<1"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> będą, odpowiednio, największą i najmniejszą możliwą liczbą, którą można zapisać stosując dokładnie raz każdą cyfrę rzymską ze zbioru C, D, I, L, M, X, V i nie stosując żadnego innego symbolu. Wówczas liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mi>y</mi></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "222"
+    },
+    {
+     "litera": "B",
+     "html": "−1111"
+    },
+    {
+     "litera": "C",
+     "html": "250"
+    },
+    {
+     "litera": "D",
+     "html": "−222"
+    },
+    {
+     "litera": "E",
+     "html": "−250"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ustawiając cyfry rzymskie malejąco, otrzymujemy największą liczbę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mtext>MDCLXVI</mtext><mo>=</mo><mn>1000</mn><mo>+</mo><mn>500</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>50</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>1666</mn></math>. Najmniejszą daje maksymalny zapis odejmujący: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mtext>MCDXLIV</mtext><mo>=</mo><mn>1000</mn><mo>+</mo><mn>400</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>1444</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>1666</mn><mo>−</mo><mn>1444</mn><mo>=</mo><mn>222</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "największa to cyfry ustawione malejąco, najmniejsza to jak najwięcej par odejmowania",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Która z podanych liczb jest największa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>−</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "Liczba odwrotna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><msup><mn>10</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "Liczba odwrotna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "E",
+     "html": "Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>10</mn><mn>1</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odpowiedź A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>−</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>0,01</mn><mo>−</mo><mn>0,1</mn><mo>=</mo><mo>−</mo><mn>0,09</mn></math>, więc liczba przeciwna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,09</mn></math>. Jedyną inną dodatnią wartością jest D — odwrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100,1</mn></math>, czyli ok. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,00999</mn></math>. B, C, E są ujemne. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,09</mn><mo>&gt;</mo><mn>0,00999</mn></math>, największa jest liczba z A.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw ustal znak każdej liczby — porównuj tylko te dodatnie",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Z trzech odcinków o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>−</mo><mn>6</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn></math> można zbudować trójkąt, gdy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>9</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunku trójkąta dla boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>−</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn></math>: suma dwóch mniejszych większa od największego daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>&gt;</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>6</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>8</mn></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>&gt;</mo><mi>x</mi><mo>+</mo><mn>3</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>2</mn></math>. Spośród podanych liczb tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>8</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "warunek trójkąta: suma dwóch krótszych boków musi być większa od najdłuższego",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Dwa warianty dają trójkąt zdegenerowany (suma dwóch boków równa trzeciemu), nierówność musi być ostra"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Czworo rowerzystów planuje przejazd z Łodzi do Lublina pociągiem, każdy z nich zabiera swój rower. Jeden bilet na przewóz roweru kosztuje 9,10 zł. Ile kosztuje bilet normalny, jeśli za bilety zapłacili 212,56 zł, a jedna osoba jest honorowym dawcą krwi i ma 33% zniżki (zniżka nie dotyczy biletu na przewóz roweru)?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "57,92 zł"
+    },
+    {
+     "litera": "B",
+     "html": "44,04 zł"
+    },
+    {
+     "litera": "C",
+     "html": "55,44 zł"
+    },
+    {
+     "litera": "D",
+     "html": "56 zł"
+    },
+    {
+     "litera": "E",
+     "html": "48 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Za bilety na 4 rowery zapłacono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>9,10</mn><mo>=</mo><mn>36,40</mn></math> zł, więc na bilety pasażerskie zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>212,56</mn><mo>−</mo><mn>36,40</mn><mo>=</mo><mn>176,16</mn></math> zł. Przy cenie normalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>: trzy osoby płacą pełną cenę, jedna 67% (zniżka 33%), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>p</mi><mo>+</mo><mn>0,67</mn><mi>p</mi><mo>=</mo><mn>176,16</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,67</mn><mi>p</mi><mo>=</mo><mn>176,16</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>48</mn></math> zł.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1,17</mn><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>+</mo><mn>7,39</mn><mo>+</mo><mn>3</mn><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>−</mo><mn>5,39</mn><mo>−</mo><mn>1,83</mn></math> jest liczba</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>17</mn><mn>90</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>23</mn><mn>90</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyrazy dziesiętne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1,17</mn><mo>+</mo><mn>7,39</mn><mo>−</mo><mn>5,39</mn><mo>−</mo><mn>1,83</mn><mo>=</mo><mo>−</mo><mn>1</mn></math>. Wyrazy ułamkowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>+</mo><mn>3</mn><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mo>+</mo><mn>3</mn><mo>+</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>=</mo><mn>4</mn></math>. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "pogrupuj osobno liczby dziesiętne, osobno ułamki o mianowniku 9 — w parach wychodzą całości",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę pewnego towaru obniżono o 10%, a następnie podwyższono o 10%. W wyniku tego cena towaru</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "pozostała bez zmian"
+    },
+    {
+     "litera": "B",
+     "html": "zmniejszyła się o 1%"
+    },
+    {
+     "litera": "C",
+     "html": "wzrosła o 1%"
+    },
+    {
+     "litera": "D",
+     "html": "wzrosła o 21%"
+    },
+    {
+     "litera": "E",
+     "html": "zmniejszyła się o 19%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla ceny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math> zł po obniżce o 10% mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn></math> zł, a po podwyżce o 10% od nowej ceny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>·</mo><mn>1,1</mn><mo>=</mo><mn>99</mn></math> zł. Cena spadła ze 100 do 99 zł, czyli zmniejszyła się o 1%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę 100 zł i wykonaj obie zmiany po kolei",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Obniżka i podwyżka o ten sam procent liczone od różnych podstaw, nie znoszą się"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "prawdopodobieństwo",
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Kamil wybrał jeden z wierzchołków dwudziestokąta. Następnie Asia wybiera losowo inny wierzchołek. Jakie jest prawdopodobieństwo, że łącząc wybrane przez Kamila i Asię wierzchołki otrzymamy przekątną tego dwudziestokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>20</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>18</mn><mn>19</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>10</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>19</mn></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>20</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Asia losuje jeden z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn></math> pozostałych wierzchołków. Odcinek do wierzchołka sąsiedniego (są 2 takie) to bok, nie przekątna, więc przekątną daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>17</mn></math> wierzchołków. Prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>19</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z 19 możliwych wierzchołków odrzuć tylko sąsiadów wybranego",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:sasiednie-wierzcholki",
+     "plot-i-slupki"
+    ],
+    "opis": "Odcinki do dwóch sąsiednich wierzchołków są bokami; Asia losuje spośród innych wierzchołków"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "usuwanie niewymierności z mianownika",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Rozważmy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math>. Jedna z nich jest inna niż pozostałe. Która?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>b</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>1</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>b</mi><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Także <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>e</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Jedynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> jest inne.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podnieś nawiasy do kwadratu i sprawdź, które z liczb są wzajemnie odwrotne",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Cristiano Ronaldo, Leo Messi, Karim Benzema i Raul zdobyli w meczach Ligi Mistrzów średnio 106,5 bramki, w tym Raul zdobył 71 bramek. Ile bramek zdobył Robert Lewandowski, skoro średnia liczba bramek zdobytych przez Cristiano Ronaldo, Leo Messiego, Roberta Lewandowskiego, Karima Benzemy i Raula jest równa 103,4?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "96"
+    },
+    {
+     "litera": "B",
+     "html": "105"
+    },
+    {
+     "litera": "C",
+     "html": "91"
+    },
+    {
+     "litera": "D",
+     "html": "88"
+    },
+    {
+     "litera": "E",
+     "html": "93"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma bramek czwórki (Ronaldo, Messi, Benzema, Raul): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>106,5</mn><mo>=</mo><mn>426</mn></math>, więc Ronaldo+Messi+Benzema <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>426</mn><mo>−</mo><mn>71</mn><mo>=</mo><mn>355</mn></math>. Suma piątki z Lewandowskim: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>103,4</mn><mo>=</mo><mn>517</mn></math>. Lewandowski: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>517</mn><mo>−</mo><mn>355</mn><mo>−</mo><mn>71</mn><mo>=</mo><mn>91</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień średnie na sumy bramek — liczba bramek Raula jest tu zbędna",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Prostokątna działka ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mspace width=\"0.2em\"></mspace><mi>m</mi><mo>×</mo><mn>400</mn><mspace width=\"0.2em\"></mspace><mi>m</mi></math>. Ania narysowała plan tej działki w skali 1:500. Bartek narysował plan tej działki jako prostokąt, w którym dłuższy bok ma długość 16 cm. Jaka jest skala <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> rysunku Ani do rysunku Bartka?</p><p>Wskaż zdanie prawdziwe A–C oraz jego uzasadnienie 1–3.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>:</mo><mn>4</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64</mn><mo>:</mo><mn>15</mn></math>"
+    },
+    {
+     "litera": "1",
+     "html": "ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>60</mn><mo>:</mo><mn>16</mn></math>"
+    },
+    {
+     "litera": "2",
+     "html": "ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>80</mn><mo>:</mo><mn>18,75</mn></math>"
+    },
+    {
+     "litera": "3",
+     "html": "ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>80</mn><mo>:</mo><mn>16</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B3",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Dłuższy bok działki (400 m = 40 000 cm) na rysunku Ani w skali 1:500 ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40000</mn><mo>:</mo><mn>500</mn><mo>=</mo><mn>80</mn></math> cm, a na rysunku Bartka 16 cm. Skala rysunku Ani do rysunku Bartka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>80</mn><mo>:</mo><mn>16</mn><mo>=</mo><mn>5</mn><mo>:</mo><mn>1</mn></math>.</p>",
+    "rozwiazanie_ai_html": "<p>Rysunek Ani (skala 1:500): boki 300m/500=60cm, 400m/500=80cm — dłuższy bok 80cm. Rysunek Bartka: dłuższy bok=16cm. Skala rysunku Ani do rysunku Bartka: s=80:16=5:1 — odpowiedź B, uzasadnienie 3.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile centymetrów ma dłuższy bok na planie Ani, i porównaj z 16 cm",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Skalę porównuje się na tym samym (dłuższym) boku obu planów, nie na krótszym boku Ani"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 16,
+   "tematy": [
+    "zagadki logiczne",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że każdą liczbę naturalną mniejszą niż 14 można przedstawić jako sumę liczb 1, 3 i 9 pomnożonych przez −1, 0 i 1, wzorując się na przykładzie</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math>.</p><p>Pamiętaj, że 0 jest też liczbą naturalną.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Każdą z liczb 0–13 można zapisać w postaci 1·a + 3·b + 9·c, gdzie a, b, c ∈ {−1, 0, 1}.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wystarczy podać takie przedstawienie dla każdej liczby naturalnej od 0 do 13 (współczynniki należą do zbioru {−1, 0, 1}):</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></math></li></ul><p>Tym samym każda liczba naturalna mniejsza niż 14 ma żądane przedstawienie.</p>",
+    "punktacja_html": "<ul><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></mrow></math> lub odniesienie się do przykładu</li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>=</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>0</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>1 punkt za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>1</mn></mrow></math></li><li>2 punkt gdy z toku rozwiązania widać, że uczeń rozumie, że pokazując powyższe równości wykonał już całe zadanie</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 15,
+   "tematy": [
+    "układ współrzędnych",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Do czerwca roku 2022 płaszczaki – stworzenia żyjące na płaszczyźnie kartezjańskiej – umiały się poruszać jedynie równolegle do osi układu współrzędnych. Jednak w wyniku rewolucji technologicznej zyskały możliwość przechodzenia z punktu do punktu najkrótszą drogą. Płaszczak Paweł mieszka w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, a jego szkoła znajduje się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>. 1.09.2022 roku wypadł w czwartek. Paweł nie opuścił ani jednego dnia szkoły przez cały wrzesień. Zawsze szedł z domu do szkoły i wracał ze szkoły prosto do domu najkrótszą możliwą drogą. Ile drogi mniej pokonał Paweł we wrześniu dzięki rewolucji technologicznej? (W przypadku rozważań na płaszczyźnie kartezjańskiej nie posługujemy się jednostkami, odpowiedzią na pytanie jest liczba).</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "88",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Droga „równoległa do osi\" (przed rewolucją) z punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>3</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>7</mn></math>. Po rewolucji Paweł idzie najkrótszą (prostą) drogą, której długość z twierdzenia Pitagorasa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></math>. W jedną stronę oszczędza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>2</mn></math>, a ponieważ codziennie idzie do szkoły i wraca, dziennie oszczędza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>4</mn></math>. We wrześniu 2022 (1 września to czwartek) jest 22 dni robocze. Łącznie Paweł pokonał mniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>88</mn></math>.</p>",
+    "punktacja_html": "<ul><li>2 punkty za zaznaczenie punktów (-2,1) i (1,3) w układzie współrzędnych</li><li>2 punkty za wyznaczenie długości trasy przed rewolucją technologiczną (7)</li><li>2 punkty za zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li><li>2 punkty za wyliczenie długości „nowej” trasy (5)</li><li>3 punkty za wyliczenie liczby dni roboczych we wrześniu 2022 (22)</li><li>2 punkty za policzenie, że Paweł dziennie oszczędza 4 jednostki drogi</li><li>2 punkty za podanie odpowiedzi (88)</li></ul><p>Uwaga 1. Jeśli uczeń wykonuje obliczenia, z których wynika, że rozumie długości boków trójkąta prostokątnego bez wykonania rysunku, to dodajemy punkty za rysunek</p><p>Uwaga 2. Jeśli uczeń powoła się na przykład trójkąta pitagorejskiego, to dostaje punkty bez zapisywania równia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math></p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszczędność na jednej trasie policz z trójkąta 3-4-5, potem pomnóż przez dni szkolne i przez 2",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kalendarz-czas",
+     "o-co-pytaja"
+    ],
+    "opis": "Liczyć tylko dni szkolne września 2022 i drogę w obie strony (do szkoły i z powrotem)"
+   }
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 13,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Oblicz pole i obwód czworokąta przedstawionego na rysunku.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2023_lodzkie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole 18 + 9√3 cm², obwód 12 + 3√2 + 3√6 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Suma kątów czworokąta wynosi 360°, więc czwarty kąt (przy górnym lewym wierzchołku) ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>105</mn><mo>°</mo></math>. Poprowadźmy przekątną z wierzchołka kąta prostego przy podstawie (dolny lewy) do przeciwległego wierzchołka. Dzieli ona czworokąt na dwa trójkąty prostokątne:</p><p>1) trójkąt prostokątny równoramienny o przyprostokątnych 6 cm i 6 cm — jego przeciwprostokątna (przekątna czworokąta) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> cm²;</p><p>2) trójkąt prostokątny o kątach 30°, 60°, 90° i przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm (kąt 30° powstaje jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo></math>) — jego przyprostokątne mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt></math> cm, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math> cm².</p><p>Pole czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm². Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></math> cm.</p>",
+    "punktacja_html": "<ul><li>1 punkt za obliczenie miary czwartego kąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>105</mn><mo>°</mo></mrow></math>)</li><li>2 punkty za zauważenie, że rozważany czworokąt składa się z dwóch trójkątów charakterystycznych</li><li>2 punkt za obliczenie krótszej przekątnej czworokąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt><mi>cm</mi></mrow></math>)</li><li>2 punkty za wyliczenie długości pozostałych boków (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt><mi>cm</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>6</mn></msqrt><mi>cm</mi></mrow></math>)</li><li>2 punkty za podanie obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>)</mo><mi>cm</mi></mrow></math></li><li>2 punkty za policzenie pól obu trójkątów prostokątnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><msup><mi>cm</mi><mn>2</mn></msup></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt><msup><mi>cm</mi><mn>2</mn></msup></mrow></math>)</li><li>2 punkty za policzenie pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><msup><mi>cm</mi><mn>2</mn></msup></mrow></math></li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2023_lodzkie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 12,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Wszystkie krawędzie bryły przedstawionej na poniższym rysunku są tej samej długości. Wiedząc, że szkielet tej bryły zbudowano z drutu o długości 48 dm, oblicz jej pole powierzchni całkowitej.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2023_lodzkie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "45 + 9√3 dm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Bryła to sześcian, na którego górnej ścianie postawiono ostrosłup prawidłowy czworokątny; wszystkie krawędzie mają tę samą długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Liczba krawędzi szkieletu: 12 (sześcian) + 4 (krawędzie boczne ostrosłupa) = 16, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mi>a</mi><mo>=</mo><mn>48</mn></math> dm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> dm.</p><p>Na powierzchnię całkowitą składa się 5 kwadratów (dolna ściana i 4 ściany boczne sześcianu — górna ściana jest zakryta podstawą ostrosłupa) oraz 4 trójkąty równoboczne (ściany boczne ostrosłupa, bo wszystkie krawędzie są równe). Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></math> dm². Pole trójkąta równobocznego o boku 3 dm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> dm². Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>45</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math> dm².</p>",
+    "punktacja_html": "<ul><li>2 punkt – ustalenie liczby krawędzi rozważanej bryły (16)</li><li>2 punkt – ustalenie długości jednej krawędzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>dm</mi></mrow></math>)</li><li>2 punkt – ustalenie liczby kwadratów, z których składa się pole powierzchni całkowitej rozważanej bryły (5)</li><li>1 punkt – ustalenie liczby trójkątów, z których składa się pole powierzchni całkowitej rozważanej bryły (4)</li><li>2 punkty – obliczenie pola trójkąta równobocznego o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>dm</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><msup><mi>dm</mi><mn>2</mn></msup></mrow></math></li><li>1 punkt – obliczenie pola kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msup><mi>dm</mi><mn>2</mn></msup></mrow></math></li><li>2 punkt – obliczenie pola powierzchni całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><msup><mi>dm</mi><mn>2</mn></msup></mrow></math></li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz krawędzie szkieletu; górny kwadrat sześcianu nie jest ścianą bryły",
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly",
+     "inne:liczba-krawedzi"
+    ],
+    "opis": "Górna ściana sześcianu jest wewnątrz bryły i nie należy do powierzchni; wspólne krawędzie liczyć raz"
+   }
+  }
+ ]
+}

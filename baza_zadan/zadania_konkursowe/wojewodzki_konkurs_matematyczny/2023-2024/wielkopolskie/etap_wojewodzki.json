@@ -1,0 +1,721 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa wielkopolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "wielkopolskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 19,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023-2024_wielkopolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach",
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Większa od 1 jest liczba:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,01</mn><mn>2</mn></msup><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>·</mo><mn>0,01</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,001</mn><mo>:</mo><msup><mn>100</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,01</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zapisujemy liczby jako potęgi dziesiątki: A i C dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>, B daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup></math>, a w D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,01</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>=</mo><msup><mn>10</mn><mn>4</mn></msup><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>.</p><p>Tylko ta liczba jest większa od 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz każdą z liczb jako potęgę dziesiątki i dodaj wykładniki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "nierówności"
+   ],
+   "tresc_html": "<p>Dana jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mi>x</mi><mo>−</mo><mfrac><mrow><mn>7</mn><mo>−</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>&lt;</mo><mn>0</mn></math>. Podaj największą liczbę całkowitą, która nie spełnia tej nierówności.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−6"
+    },
+    {
+     "litera": "B",
+     "html": "−5"
+    },
+    {
+     "litera": "C",
+     "html": "−2"
+    },
+    {
+     "litera": "D",
+     "html": "−1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mnożymy nierówność przez 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>(</mo><mn>7</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>17</mn><mo>&lt;</mo><mn>0</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mo>−</mo><mfrac><mn>17</mn><mn>3</mn></mfrac><mo>≈</mo><mo>−</mo><mn>5,67</mn></math>. Nierówności nie spełniają liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≤</mo><mo>−</mo><mn>6</mn></math>, więc największa taka liczba całkowita to −6.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż nierówność przez 6, a na koniec pamiętaj, że szukasz liczby, która jej nie spełnia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "zbior-liczb"
+    ],
+    "opis": "Pytają o liczbę, która NIE spełnia nierówności; do tego największa całkowita poniżej ujemnego ułamka"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Marek wybrał się rowerem na spacer. Wjechał pod górkę z prędkością 12 km/h i zjechał z powrotem z prędkością 20 km/h. Podjazd pod górkę trwał 16 minut dłużej niż zjazd z niej. Ile minut zjeżdżał Marek rowerem z górki?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "24"
+    },
+    {
+     "litera": "C",
+     "html": "28"
+    },
+    {
+     "litera": "D",
+     "html": "32"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> oznacza długość podjazdu (km). Czas w górę minus czas w dół: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>12</mn></mfrac><mo>−</mo><mfrac><mi>d</mi><mn>20</mn></mfrac><mo>=</mo><mfrac><mn>16</mn><mn>60</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>15</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>8</mn></math> km. Zjazd trwał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>0,4</mn></math> h, czyli 24 minuty.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "droga jest ta sama, więc czasy są odwrotnie proporcjonalne do prędkości — potraktuj je jak części",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "wyłączanie czynnika przed znak pierwiastka"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>72</mn><mn>2</mn></msup><mo>−</mo><msup><mn>63</mn><mn>2</mn></msup></mrow></msqrt></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>15</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>135</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "81"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ze wzoru na różnicę kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>72</mn><mn>2</mn></msup><mo>−</mo><msup><mn>63</mn><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>72</mn><mo>−</mo><mn>63</mn><mo>)</mo><mo>(</mo><mn>72</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>9</mn><mo>·</mo><mn>135</mn><mo>=</mo><mn>1215</mn><mo>=</mo><mn>81</mn><mo>·</mo><mn>15</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1215</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>15</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "pod pierwiastkiem rozłóż różnicę kwadratów na (72−63)(72+63)",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Pierwiastek z różnicy kwadratów to nie różnica liczb"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "usuwanie niewymierności z mianownika",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><msqrt><mn>6</mn></msqrt><mn>2</mn></mfrac></math> jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><msqrt><mn>6</mn></msqrt></mrow><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow><mn>10</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mfrac><mn>2</mn><msqrt><mn>6</mn></msqrt></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy do wspólnego mianownika 18: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><msqrt><mn>6</mn></msqrt><mn>18</mn></mfrac><mo>+</mo><mfrac><mrow><mn>9</mn><msqrt><mn>6</mn></msqrt></mrow><mn>18</mn></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn><msqrt><mn>6</mn></msqrt></mrow><mn>18</mn></mfrac><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>6</mn></msqrt></mrow><mn>9</mn></mfrac></math>. Odwrotność: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>=</mo><mfrac><mn>9</mn><mrow><mn>5</mn><msqrt><mn>6</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>6</mn></msqrt></mrow><mn>30</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow><mn>10</mn></mfrac></math>.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Po uproszczeniu liczby a trzeba jeszcze wziąć jej odwrotność"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W pięciokącie wypukłym przekątne wychodzące z jednego z wierzchołków mają długości 8 cm i 9 cm. Dzielą one wielokąt na trzy trójkąty o obwodzie 22 cm każdy. Ile wynosi obwód pięciokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "61"
+    },
+    {
+     "litera": "B",
+     "html": "49"
+    },
+    {
+     "litera": "C",
+     "html": "32"
+    },
+    {
+     "litera": "D",
+     "html": "27"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy trójkąty mają łączny obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>66</mn></math> cm. Każda przekątna (8 cm i 9 cm) liczy się w tej sumie dwukrotnie, a boki pięciokąta — raz. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>66</mn><mo>=</mo><mi>P</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>9</mn><mo>=</mo><mi>P</mi><mo>+</mo><mn>34</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>32</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zsumuj obwody trzech trójkątów — każda przekątna liczy się w tej sumie dwa razy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:boki-liczone-dwukrotnie"
+    ],
+    "opis": "Każda przekątna jest bokiem dwóch trójkątów, więc w sumie obwodów występuje dwa razy"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Powyższy rysunek przedstawia sześciokąt zbudowany z dwóch prostokątów i dwóch trójkątów prostokątnych z wartościami ich pól. Pole zamalowanego trójkąta wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>81</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>77</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>69</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_wielkopolskie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Oznaczmy boki prostokątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>w</mi><mn>1</mn></msub><mo>,</mo><msub><mi>h</mi><mn>1</mn></msub></math> (lewy górny) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>w</mi><mn>2</mn></msub><mo>,</mo><msub><mi>h</mi><mn>2</mn></msub></math> (prawy dolny), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>w</mi><mn>2</mn></msub><msub><mi>h</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>54</mn><mo>=</mo><mn>108</mn></math> (prostokąt uzupełniający trójkąt 54). Szukane pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><msub><mi>w</mi><mn>1</mn></msub><msub><mi>h</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msub><mi>w</mi><mn>1</mn></msub><msub><mi>h</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><msub><mi>w</mi><mn>2</mn></msub><msub><mi>h</mi><mn>2</mn></msub><mo>)</mo><mo>=</mo><mo>(</mo><msub><mi>w</mi><mn>1</mn></msub><msub><mi>h</mi><mn>2</mn></msub><mo>)</mo><mo>(</mo><msub><mi>w</mi><mn>2</mn></msub><msub><mi>h</mi><mn>1</mn></msub><mo>)</mo></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>92</mn><mo>·</mo><mn>162</mn><mo>=</mo><mn>2</mn><mi>P</mi><mo>·</mo><mn>108</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>69</mn></math> cm².</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie licz długości boków — złóż podane pola przez mnożenie i dzielenie, korzystając ze wspólnych boków",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat podzielono na prostokąty, których stosunek obwodów jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>7</mn></mfrac></math>. Ile jest równy stosunek pól tych prostokątów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>49</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dzielimy jednym cięciem na prostokąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>x</mi><mo>)</mo></math>. Z warunku na obwody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow><mrow><mn>2</mn><mi>a</mi><mo>−</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>7</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>a</mi><mn>4</mn></mfrac></math>. Pola prostokątów wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac></math>, więc ich stosunek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Prostokąty nie są podobne, więc stosunek pól nie jest kwadratem stosunku obwodów"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "mediana i dominanta",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia arytmetyczna zestawu danych: 1, 8, 2, 15, 3, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, 11, 7 jest równa 6. Mediana tego zestawu jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "10"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma wszystkich ośmiu liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>48</mn></math>, a suma siedmiu znanych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>47</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>. Uporządkowany zestaw: 1, 1, 2, 3, 7, 8, 11, 15. Medianą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><mn>7</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze średniej wylicz sumę ośmiu liczb i brakującą daną, potem ustaw wszystko rosnąco",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność odwrotna"
+   ],
+   "tresc_html": "<p>Aby wykonać pewną pracę w ciągu 5 godzin i 15 minut potrzeba 8 pracowników. Ilu pracowników potrzeba, aby wykonać taką samą pracę w ciągu 3 godzin?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "12"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Praca wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>5</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>42</mn></math> roboczogodzin. Przy 3 godzinach pracy potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>14</mn></math> pracowników.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, ilu roboczogodzin wymaga cała praca",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Jeżeli odwrócimy kolejność cyfr w liczbie naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, to otrzymamy liczbę o 36 większą. Ile jest liczb dwucyfrowych o tej własności?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></math>. Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>a</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>36</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>36</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>4</mn></math>. Cyfra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> może być równa 1, 2, 3, 4 lub 5 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>≤</mo><mn>9</mn></math>) — to 5 liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz liczbę jako 10a+b — po odwróceniu różnica wychodzi wielokrotnością 9",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "dwusieczna kąta / symetralna odcinka",
+    "kąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Na poniższym rysunku pomocniczym przedstawiono trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym kąty przy jednej z podstaw mają miary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>70</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>30</mn><mo>°</mo></math>. Miara kąta ostrego „x”, pod którym przecinają się dwusieczne dwóch pozostałych kątów tego trapezu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "50°"
+    },
+    {
+     "litera": "B",
+     "html": "60°"
+    },
+    {
+     "litera": "C",
+     "html": "70°"
+    },
+    {
+     "litera": "D",
+     "html": "80°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_wielkopolskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>DC</mi></math>, kąty przy ramionach sumują się do 180°: kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>70</mn><mo>°</mo><mo>=</mo><mn>110</mn><mo>°</mo></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></math>. Ich dwusieczne dają połowy: 55° i 75°. W trójkącie z wierzchołkiem K (punkt przecięcia dwusiecznych) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>55</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>50</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty przy tym samym ramieniu dają 180°, a dwusieczne domykają trójkąt",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prawdopodobieństwo",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W urnie są kule żółte i niebieskie. Prawdopodobieństwo wylosowania żółtej kuli wynosi 0,25. Gdy do tej urny dołożymy dziewięć kul żółtych, to prawdopodobieństwo wylosowania żółtej kuli wzrosło o 0,27. Ile jest kul niebieskich w tej urnie po dodaniu kul żółtych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "12"
+    },
+    {
+     "litera": "D",
+     "html": "13"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza początkową liczbę kul; żółtych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn><mi>n</mi></math>, a niebieskich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mi>n</mi></math> (ich liczba się nie zmienia). Po dodaniu 9 żółtych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,25</mn><mi>n</mi><mo>+</mo><mn>9</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mn>0,52</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn><mi>n</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>0,52</mn><mi>n</mi><mo>+</mo><mn>4,68</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,27</mn><mi>n</mi><mo>=</mo><mn>4,32</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>16</mn></math>. Kul niebieskich jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>12</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "liczba kul niebieskich się nie zmienia — porównaj, jaką częścią całości jest przed i po dołożeniu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o kule niebieskie po dołożeniu żółtych, a dokładano tylko żółte"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 6 narysowano dwa półokręgi o różnych średnicach. Oblicz pole zacieniowanego obszaru.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>π</mi></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mi>π</mi></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>π</mi></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_wielkopolskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Duży półokrąg ma średnicę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, czyli promień 3, a jego środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży w połowie boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>. Mały półokrąg ma promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>, środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i kończy się w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a oba półokręgi są styczne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SO</mi><mo>=</mo><mn>3</mn><mo>+</mo><mi>r</mi></math>.</p><p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASO</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi><mo>=</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AO</mi><mo>=</mo><mn>6</mn><mo>−</mo><mi>r</mi></math>, więc z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>6</mn><mo>−</mo><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><mo>+</mo><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>=</mo><mn>18</mn><mi>r</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>2</mn></math>.</p><p>Zacieniowany obszar to ćwiartka koła o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i promieniu 6 (łuk od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) bez obu półkoli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn><mi>π</mi><mo>−</mo><mn>4,5</mn><mi>π</mi><mo>−</mo><mn>2</mn><mi>π</mi><mo>=</mo><mn>2,5</mn><mi>π</mi></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q15",
+   "numer": 15,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W układzie współrzędnych zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>11</mn><mo>,</mo><mn>8</mn><mo>)</mo></math> będące kolejnymi wierzchołkami równoległoboku.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Czwarty wierzchołek tego równoległoboku ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Pole tego równoległoboku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mspace width=\"0.2em\"/><msup><mi>j</mi><mn>2</mn></msup></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> j."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> czwarty wierzchołek wyznaczamy z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mi>A</mi><mo>+</mo><mi>C</mi><mo>−</mo><mi>B</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>11</mn><mo>−</mo><mn>9</mn><mo>,</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>7</mn><mo>)</mo></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>)</mo></math> — zdanie 1 fałszywe. Pole obliczamy z wektorów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>AB</mi><mo>→</mo></mover><mo>=</mo><mo>(</mo><mn>7</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>AD</mi><mo>→</mo></mover><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>7</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>33</mn></math> — zdanie 2 prawdziwe. Długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math> — zdanie 3 prawdziwe.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Trzech naukowców (jeden z nich to kobieta): chemik – p. Siwek, humanista – p. Czarnota i historyk – p. Blond – siedzi przy stole i rozmawia:</p><p>– czy nie jest to dziwne – zauważa kobieta – że nasze nazwiska brzmią: Czarnota, Blond i Siwek, i że jeden z nas ma włosy czarne, drugi blond, trzeci siwe?</p><p>– To prawda – powiedziała osoba mająca włosy czarne – ale nie mniej ciekawe, że nazwisko żadnego z nas nie odpowiada kolorowi włosów.</p><p>– Istotne – wykrzyknął p. Siwek i dodał, że kobieta nie jest blondynką.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "p. Czarnota to kobieta."
+    },
+    {
+     "litera": "2",
+     "html": "p. Siwek ma blond włosy."
+    },
+    {
+     "litera": "3",
+     "html": "p. Blond ma siwy kolor włosów."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ nazwisko nikogo nie odpowiada kolorowi włosów: Czarnota nie ma czarnych włosów, Blond nie ma blond włosów, a Siwek nie ma siwych włosów. Osoba o czarnych włosach wypowiada się osobno od p. Siwka, więc p. Siwek nie ma czarnych włosów; skoro Czarnota też ich nie ma, czarne włosy ma p. Blond. Wobec tego p. Siwek (nie siwe, nie czarne) ma włosy blond, a p. Czarnota ma włosy siwe. Kobieta zauważyła sprawę jako pierwsza, a odpowiedziała jej osoba o czarnych włosach (p. Blond), więc kobietą nie jest Blond; p. Siwek dodał, że kobieta nie jest blondynką, a sam ma włosy blond, więc kobietą nie jest też Siwek. Zatem kobietą jest p. Czarnota. Stąd: zdanie 1 (p. Czarnota to kobieta) — prawdziwe; zdanie 2 (p. Siwek ma blond włosy) — prawdziwe; zdanie 3 (p. Blond ma siwy kolor włosów) — fałszywe, bo p. Blond ma włosy czarne.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "liczby pierwsze",
+    "wyłączanie wspólnego czynnika przed nawias",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Uzasadnij, że wynik wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mn>12</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>−</mo><msup><mn>3</mn><mn>10</mn></msup><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><mn>4</mn><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>12</mn><mn>3</mn></msup><mo>)</mo></math> jest liczbą pierwszą. Zapisz obliczenia i podaj uzasadnienie.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "43 (liczba pierwsza)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zapisujemy wszystkie potęgi przy pomocy liczb 2 i 3, korzystając z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math>. Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>−</mo><msup><mn>3</mn><mn>10</mn></msup><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>14</mn></msup><mo>·</mo><msup><mn>3</mn><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>9</mn></msup><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup><mo>−</mo><msup><mn>2</mn><mn>8</mn></msup><mo>·</mo><msup><mn>3</mn><mn>10</mn></msup></math>. Wyłączamy wspólny czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>8</mn></msup><mo>·</mo><msup><mn>3</mn><mn>7</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup><mo>·</mo><msup><mn>3</mn><mn>7</mn></msup><mo>·</mo><mo>(</mo><msup><mn>2</mn><mn>6</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>)</mo></math>. Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>12</mn><mn>3</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>2</mn><mn>6</mn></msup><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup><mo>·</mo><msup><mn>3</mn><mn>7</mn></msup></math>. Po podzieleniu otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>6</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn><mo>+</mo><mn>6</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>43</mn></math>. Liczba 43 jest liczbą pierwszą (jej jedynymi dzielnikami naturalnymi są 1 i 43), co należało uzasadnić.</p>",
+    "punktacja_html": "<ul><li>3 punkty – gdy poprawnie uzasadni i wyznaczy liczbę pierwszą 43.</li><li>2 punkty – gdy poprawnie uzasadni, ale popełni błędy rachunkowe w obliczeniach końcowych i otrzyma inną liczbę pierwszą.</li><li>1 punkt – gdy:<ul><li>zastosuje poprawny sposób obliczenia zgodnie z treścią zadania i na tym zakończy lub dalej popełni błędy.</li></ul></li><li>0 punktów – rozwiązanie błędne lub brak rozwiązania.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zmiany procentowe",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Cena butów była o 60 zł niższa niż cena spodni. Gdy spodnie potaniały o 20%, a buty podrożały o 10%, to za buty i spodnie łącznie zapłacimy o 8% mniej niż początkowo. Jaka była początkowa cena butów i spodni? Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "buty 120 zł, spodnie 180 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza początkową cenę spodni, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> początkową cenę butów (w zł). Z treści: buty są o 60 zł tańsze od spodni, a po zmianach (spodnie 80% ceny, buty 110% ceny) łączna zapłata to 92% ceny początkowej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfenced open=\"{\" close=\"\"><mtable><mtr><mtd><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>60</mn></mtd></mtr><mtr><mtd><mn>0,8</mn><mi>x</mi><mo>+</mo><mn>1,1</mn><mi>y</mi><mo>=</mo><mn>0,92</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></mtd></mtr></mtable></mfenced></math>. Mnożąc drugie równanie przez 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mi>x</mi><mo>+</mo><mn>110</mn><mi>y</mi><mo>=</mo><mn>92</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math>. Podstawiamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mn>60</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>(</mo><mi>y</mi><mo>+</mo><mn>60</mn><mo>)</mo><mo>+</mo><mn>110</mn><mi>y</mi><mo>=</mo><mn>92</mn><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>60</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>190</mn><mi>y</mi><mo>+</mo><mn>4800</mn><mo>=</mo><mn>184</mn><mi>y</mi><mo>+</mo><mn>5520</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>y</mi><mo>=</mo><mn>720</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>120</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>180</mn></math>. Początkowa cena butów wynosiła 120 zł, a spodni 180 zł.</p>",
+    "punktacja_html": "<ul><li>4 punkty – gdy:<ul><li>poprawnie obliczy cenę początkową butów 120 zł i spodni 180 zł.</li></ul></li><li>3 punkty – gdy:<ul><li>rozwiąże układ równań (równanie) i obliczy cenę początkową butów 120 zł i rozwiązując popełni błędy rachunkowe, które nie doprowadzą do poprawnych wyników. lub</li><li>rozwiąże układ równań (równanie) i obliczy cenę początkową spodni 180 zł i rozwiązując popełni błędy rachunkowe, które nie doprowadzą do poprawnych wyników.</li></ul></li><li>2 punkty – gdy:<ul><li>zapisze poprawnie układ równań (równanie) i rozwiązując popełni błędy rachunkowe, które nie doprowadzą do poprawnych wyników. lub</li><li>zapisze poprawnie układ równań (równanie) i na tym zakończy.</li></ul></li><li>1 punkt – gdy:<ul><li>zapisze wyrażenia ceny opisujące przed zmianą. lub</li><li>zapisze wyrażenia ceny opisujące po zmianie.</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_wielkopolskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>W ostrosłupie prawidłowym czworokątnym krawędź podstawy ma długość 4, a krawędź boczna tworzy z płaszczyzną podstawy kąt 60°. Oblicz objętość tego ostrosłupa. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "32√6/3",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Podstawą jest kwadrat o boku 4, więc jego przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>, a odległość środka podstawy od wierzchołka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>d</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Krawędź boczna tworzy z podstawą kąt 60°, więc wysokość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mi>tg</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mfrac><mrow><mn>32</mn><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></math>.</p>",
+    "punktacja_html": "<ul><li>3 punkty – gdy bezbłędnie rozwiąże zadanie zgodnie z treścią i otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mrow><mn>32</mn><msqrt><mn>6</mn></msqrt></mrow><mn>3</mn></mfrac></math>.</li><li>2 punkty – gdy:<ul><li>poprawnie obliczy wysokość ostrosłupa. lub</li><li>poprawnie obliczy wysokość ostrosłupa i dalej popełni błąd rachunkowy, który nie doprowadzi do poprawnego wyniku objętości.</li></ul></li><li>1 punkt – gdy:<ul><li>obliczy poprawnie długość krawędzi przekątnej kwadratu i na tym zakończy lub dalej popełni błędy. lub</li><li>obliczy poprawnie długość połowy krawędzi przekątnej kwadratu i na tym zakończy lub dalej popełni błędy. lub</li><li>obliczy poprawnie pole podstawy i na tym zakończy lub dalej popełni błędy.</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania. lub<ul><li>gdy błędnie zastosuje wzór na wysokość trójkąta równobocznego. lub</li><li>gdy błędnie zastosuje wzór na długość przekątnej kwadratu.</li></ul></li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:krawedz-vs-sciana"
+    ],
+    "opis": "Kąt krawędzi bocznej z podstawą wyznacza połowa przekątnej podstawy, nie połowa boku"
+   }
+  }
+ ]
+}

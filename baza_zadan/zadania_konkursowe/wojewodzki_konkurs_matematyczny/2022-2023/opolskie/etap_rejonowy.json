@@ -1,0 +1,356 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "opolskie",
+ "rok_szkolny": "2022/2023",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 11,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2023_opolskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2023_opolskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Iloczyn dwóch liczb naturalnych wynosi 648, a największy wspólny dzielnik tych liczb jest równy 6.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jedną z liczb może być 6."
+    },
+    {
+     "litera": "2",
+     "html": "Jedną z liczb może być 12."
+    },
+    {
+     "litera": "3",
+     "html": "Jedną z liczb może być 18."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>6</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><mi>m</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn><mi>n</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>36</mn><mi>m</mi><mi>n</mi><mo>=</mo><mn>648</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>n</mi><mo>=</mo><mn>18</mn></math>. Wzajemnie pierwsze rozkłady liczby 18 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>18</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>9</mn></math>, zatem możliwe pary liczb to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>6</mn><mo>,</mo><mn>108</mn><mo>}</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>12</mn><mo>,</mo><mn>54</mn><mo>}</mo></math>.</p><ul><li>Jedną z liczb może być 6 — para (6, 108) — <strong>TAK</strong>.</li><li>Jedną z liczb może być 12 — para (12, 54) — <strong>TAK</strong>.</li><li>Jedną z liczb może być 18 — wtedy druga to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>648</mn><mo>:</mo><mn>18</mn><mo>=</mo><mn>36</mn></math>, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mn>18</mn><mo>,</mo><mn>36</mn><mo>)</mo><mo>=</mo><mn>18</mn><mo>≠</mo><mn>6</mn></math> — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel 648 przez każdą z podanych liczb i sprawdź NWD otrzymanej pary",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Para 18 i 36 daje iloczyn 648 i obie są wielokrotnościami 6, ale ich NWD to nie 6"
+   }
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "działania na potęgach",
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnia.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>∈</mo><mi>N</mi></math>, jest liczbą ujemną."
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup></math> jest liczbą dodatnią."
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mi>a</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo>−</mo><mn>4</mn></mrow></mfrac></math> jest liczbą ujemną."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zakładamy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup></math> — podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi></math> jest ujemna, a wykładnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></math> nieparzysty, więc potęga jest ujemna — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup></math> jest liczbą ujemną, a nie dodatnią — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mi>a</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><mi>a</mi></mrow><mrow><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mfrac><mi>a</mi><mn>4</mn></mfrac></math> jest liczbą dodatnią, a nie ujemną — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nic nie licz — patrz tylko na znaki: parzystość wykładnika i znak mianownika",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "podobieństwo i skala",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Stosunek pól dwóch kwadratów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>1</mn></math>. Długość boku jednego kwadratu jest o 3 cm dłuższa od długości boku drugiego kwadratu.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole większego kwadratu wynosi 16 cm²."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód jednego kwadratu jest cztery razy większy od obwodu drugiego."
+    },
+    {
+     "litera": "3",
+     "html": "Suma pól kwadratów wynosi 45 cm²."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Stosunek pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>1</mn></math> oznacza stosunek boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>1</mn></math>. Niech mniejszy bok wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, wtedy większy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>, a ich różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>−</mo><mi>a</mi><mo>=</mo><mi>a</mi><mo>=</mo><mn>3</mn></math> cm. Boki mają więc 3 cm i 6 cm, a pola 9 cm² i 36 cm².</p><ul><li>Pole większego kwadratu to 36 cm², a nie 16 cm² — <strong>NIE</strong>.</li><li>Obwody wynoszą 24 cm i 12 cm, więc jeden jest dwa razy większy, a nie cztery razy — <strong>NIE</strong>.</li><li>Suma pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>45</mn></math> cm² — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze stosunku pól odczytaj stosunek boków, a różnica boków jest dana",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Stosunek pól 4:1 to nie stosunek boków ani obwodów — boki i obwody są w skali pierwiastka"
+   }
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Trapez ma podstawy długości 10 cm i 15 cm. Przekątna dzieli ten trapez na dwa trójkąty, z których jeden ma pole 30 cm². Pole trapezu może wynosić:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "45 cm²"
+    },
+    {
+     "litera": "2",
+     "html": "60 cm²"
+    },
+    {
+     "litera": "3",
+     "html": "75 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przekątna dzieli trapez na dwa trójkąty o podstawach będących podstawami trapezu (10 cm i 15 cm) i wspólnej wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> równej wysokości trapezu. Ich pola to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mi>h</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mi>h</mi></math>.</p><p>Jeżeli pole 30 cm² ma trójkąt o podstawie 15 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>30</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math>, drugi trójkąt ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, a pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>50</mn></math> cm². Jeżeli pole 30 cm² ma trójkąt o podstawie 10 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>30</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>6</mn></math>, drugi trójkąt ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>45</mn></math>, a pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>45</mn><mo>=</mo><mn>75</mn></math> cm². Pole trapezu może więc wynosić 50 cm² albo 75 cm².</p><ul><li>45 cm² — <strong>NIE</strong>.</li><li>60 cm² — <strong>NIE</strong>.</li><li>75 cm² — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oba trójkąty mają tę samą wysokość — rozważ osobno, który z nich ma pole 30 cm²",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Nie wiadomo, który z dwóch trójkątów ma pole 30 — trzeba rozważyć oba"
+   }
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "liczby wymierne i niewymierne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Czy prawdą jest, że:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Dwie spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>27,008</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mn>3</mn><mn>507</mn></mfrac></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>10000</mn><mn>3</mn></mroot></math> są wymierne."
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>17</mn></msqrt><mo>&gt;</mo><mn>17</mn><msqrt><mn>15</mn></msqrt></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>&lt;</mo><msup><mn>2</mn><mn>2023</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mn>3</mn><mn>507</mn></mfrac></msqrt><mo>=</mo><msqrt><mfrac><mn>1</mn><mn>169</mn></mfrac></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>13</mn></mfrac></math> jest wymierna, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>27,008</mn><mn>3</mn></mroot></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>10000</mn><mn>3</mn></mroot><mo>=</mo><mroot><msup><mn>10</mn><mn>4</mn></msup><mn>3</mn></mroot></math> są niewymierne. Wymierna jest tylko jedna z liczb, a nie dwie — <strong>NIE</strong>.</li><li>Porównujemy kwadraty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>16</mn><msqrt><mn>17</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>256</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>4352</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>17</mn><msqrt><mn>15</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>289</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>4335</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4352</mn><mo>&gt;</mo><mn>4335</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>17</mn></msqrt><mo>&gt;</mo><mn>17</mn><msqrt><mn>15</mn></msqrt></math> — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2021</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mo>·</mo><msup><mn>2</mn><mn>2021</mn></msup></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2023</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>2</mn><mn>2021</mn></msup></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mn>4</mn></math>, nierówność jest prawdziwa — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "27,008 udaje sześcian (27 i 8 to sześciany), a √(3/507) wygląda na niewymierny, choć się skraca"
+   }
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Drukarka wraz z 23% podatkiem VAT kosztowała 799,50 zł. Ile zapłacilibyśmy za tę drukarkę, gdyby podatek VAT wynosił 8%?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "702 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Cena 799,50 zł to cena netto powiększona o 23% podatku VAT, czyli 123% ceny netto. Cena netto wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>799,50</mn><mo>:</mo><mn>1,23</mn><mo>=</mo><mn>650</mn></math> zł. Przy 8% podatku VAT cena brutto to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>650</mn><mo>·</mo><mn>1,08</mn><mo>=</mo><mn>702</mn></math> zł.</p><p>Za drukarkę z 8% podatkiem VAT zapłacilibyśmy <strong>702 zł</strong>.</p>",
+    "punktacja_html": "<ul><li>5p – obliczy cenę brutto drukarki z niższym podatkiem (702 zł)</li><li>4p – poprawny sposób obliczenia ceny drukarki z błędem rachunkowym</li><li>3p – obliczy cenę netto drukarki (650 zł)</li><li>2p – poprawny sposób obliczenia ceny netto z błędem rachunkowym</li><li>1p – określi, jakim procentem ceny netto jest cena 799,50 zł</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "799,50 zł to 123% ceny netto — policz najpierw, ile kosztuje 1%",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "VAT liczony od ceny netto — nie odejmuje się 23% ani 15 punktów od ceny brutto"
+   }
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "trójkąty",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Znajdź wszystkie naturalne wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, dla których istnieje trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>50</mn><mo>−</mo><mn>4</mn><mi>x</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "x = 7 lub x = 8",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Boki muszą być dodatnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>&gt;</mo><mn>0</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>4</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>4</mn><mi>x</mi><mo>&gt;</mo><mn>0</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>12,5</mn></math> (warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></math> jest zawsze spełniony). Zostają warunki trójkąta:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>&gt;</mo><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn><mo>&gt;</mo><mn>50</mn><mo>−</mo><mn>4</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>&gt;</mo><mn>57</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>6</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mi>b</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>&gt;</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>&lt;</mo><mn>41</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>8,2</mn></math>;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>51</mn><mo>−</mo><mi>x</mi><mo>&gt;</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>19</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math> (spełniony).</li></ul><p>Łącząc wszystkie warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>8,2</mn></math>, więc naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to <strong>7 i 8</strong>. Sprawdzenie: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7</mn></math> boki 6, 22, 22; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math> boki 8, 25, 18 — w obu przypadkach istnieje trójkąt.</p>",
+    "punktacja_html": "<ul><li>5p – poda możliwe wartości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (7, 8) wraz z uzasadnieniem, że dla tych wartości i tylko dla tych długości odcinków są liczbami dodatnimi i spełniającymi warunek trójkąta</li><li>4p – sprawdza wszystkie warunki i popełnia błąd rachunkowy lub nie sprawdza, czy będą to liczby dodatnie</li><li>3p – zapisze wszystkie warunki, ale nie rozwiązuje nierówności</li><li>2p – zapisze dwie lub trzy nierówności</li><li>1p – sprawdza tylko jeden warunek trójkąta lub tylko, czy liczby są dodatnie</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Boki równoległoboku mają długości 15 cm i 6 cm, a kąt rozwarty ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>°</mo></math>. Oblicz długości przekątnych tego równoległoboku.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "3√19 cm i 3√39 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kąt ostry równoległoboku ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Opuśćmy z wierzchołka końca boku długości 6 cm wysokość na prostą zawierającą bok długości 15 cm. Powstaje trójkąt prostokątny o przeciwprostokątnej 6 cm i kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>, w którym rzut boku na podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></math> cm, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm.</p><p>Dłuższa przekątna (naprzeciw kątów ostrych) jest przeciwprostokątną trójkąta o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>18</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>324</mn><mo>+</mo><mn>27</mn></mrow></msqrt><mo>=</mo><msqrt><mn>351</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm.</p><p>Krótsza przekątna (naprzeciw kątów rozwartych) jest przeciwprostokątną trójkąta o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>12</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>144</mn><mo>+</mo><mn>27</mn></mrow></msqrt><mo>=</mo><msqrt><mn>171</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm.</p><p>Przekątne mają długości <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm</strong> i <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm</strong>.</p>",
+    "punktacja_html": "<ul><li>5p – obliczy długości obu przekątnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm)</li><li>4p – poprawny sposób obliczenia obu przekątnych z błędem rachunkowym</li><li>3p – wskaże i opisze boki trójkąta prostokątnego, z którego można obliczyć dłuższą przekątną</li><li>2p – obliczy długość krótszej przekątnej</li><li>1p – obliczy krótszą wysokość równoległoboku</li></ul><p>Uczeń może zacząć od dłuższej wysokości, oceniamy analogicznie.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "ostrosłupy",
+    "bryły"
+   ],
+   "tresc_html": "<p>Długość krawędzi sześcianu wynosi 12 cm. Środki sąsiednich ścian tego sześcianu (punkty przecięcia przekątnych ścian) połączono odcinkami w taki sposób, że otrzymaliśmy krawędzie ośmiościanu wpisanego w sześcian. Oblicz objętość tak wyznaczonego ośmiościanu i sumę długości wszystkich jego krawędzi.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "objętość 288 cm³, suma długości krawędzi 72√2 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ośmiościan foremny wpisany w sześcian o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>12</mn></math> cm ma wierzchołki w środkach ścian sześcianu. Krawędź ośmiościanu łączy środki dwóch sąsiednich ścian, więc jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>72</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Ośmiościan składa się z dwóch ostrosłupów prawidłowych czworokątnych o wspólnej podstawie. Podstawa jest kwadratem o przekątnej równej krawędzi sześcianu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>12</mn></math> cm, więc jej pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>72</mn></math> cm². Wysokość każdego ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> cm, więc objętość ośmiościanu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>72</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>288</mn></math> cm³.</p><p>Ośmiościan ma 12 krawędzi, więc suma ich długości to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Objętość ośmiościanu wynosi <strong>288 cm³</strong>, a suma długości wszystkich krawędzi <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm</strong>.</p>",
+    "punktacja_html": "<ul><li>5p – obliczy objętość (288 cm³) oraz sumę długości krawędzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm)</li><li>4p – poprawny sposób obliczenia objętości z błędem rachunkowym</li><li>3p – wyznaczy pole podstawy i wysokość ostrosłupa prawidłowego</li><li>2p – obliczy sumę długości krawędzi</li><li>1p – poda długość krawędzi ośmiościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm)</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność",
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 2. Wykaż, że kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> powiększony o 1 jest podzielny przez 5.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a = 5k+2, więc a²+1 = 5(5k²+4k+1) — liczba podzielna przez 5",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Skoro liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 2, można ją zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą nieujemną. Wtedy</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><msup><mrow><mo>(</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>.</p><p>Otrzymane wyrażenie jest iloczynem liczby 5 i liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math> jest podzielne przez 5, co należało wykazać.</p>",
+    "punktacja_html": "<ul><li>5p – uzasadni podzielność</li><li>3p – zastosuje wzór skróconego mnożenia lub poprawnie wykona mnożenie sum</li><li>2p – zapisze odpowiednie wyrażenie (kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zwiększony o 1)</li><li>1p – poda wyrażenie opisujące liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2023_opolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Karol i Alicja zbierają znaczki. Karol ma trzy razy więcej znaczków niż Alicja. Gdyby dał Alicji 15 znaczków, to miałby tylko dwa razy więcej. Ile znaczków musiałby Karol oddać Alicji, żeby mieli po równo.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "45 znaczków",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę znaczków Alicji, wtedy Karol ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math> znaczków. Po oddaniu 15 znaczków Karol ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>15</mn></math>, a Alicja <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>15</mn></math>. Z warunku, że Karol ma wtedy dwa razy więcej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>15</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>15</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>15</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>30</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>45</mn></math>.</p><p>Alicja ma więc 45 znaczków, a Karol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>45</mn><mo>=</mo><mn>135</mn></math>. Łącznie mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mn>135</mn><mo>=</mo><mn>180</mn></math> znaczków, więc po równo znaczyłoby po 90. Karol musiałby oddać Alicji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>135</mn><mo>−</mo><mn>90</mn><mo>=</mo><mn>45</mn></math> znaczków.</p><p>Karol musiałby oddać Alicji <strong>45 znaczków</strong>.</p>",
+    "punktacja_html": "<ul><li>5p – obliczy, ile znaczków powinien oddać Karol (45)</li><li>4p – poprawny sposób obliczenia, ile znaczków ma Karol i Alicja, z błędem rachunkowym lub nie poda, ile Karol musi oddać</li><li>3p – poprawnie przekształca równanie</li><li>2p – zapisze poprawne równanie</li><li>1p – zapisze wyrażenia opisujące liczbę znaczków Alicji i Karola po zmianie</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z warunku o 15 znaczkach ułóż równanie, potem podziel ich łączną liczbę po równo",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Żeby wyrównać, oddaje się połowę różnicy, a nie całą różnicę"
+   }
+  }
+ ]
+}

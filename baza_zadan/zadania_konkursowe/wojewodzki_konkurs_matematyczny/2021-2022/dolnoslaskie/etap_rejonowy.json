@@ -1,0 +1,505 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "rejonowy",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2021/2022",
+ "data": "2021-11-19",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2022_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Dane są cztery liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>15</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mfrac><mn>1</mn><mn>20</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math>. Wskaż równość prawdziwą.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>z</mi><mo>+</mo><mi>w</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mi>w</mi><mo>+</mo><mi>x</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy ułamki do wspólnego mianownika 60: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mfrac><mn>1</mn><mn>60</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>11</mn><mn>60</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>2</mn><mn>60</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mfrac><mn>9</mn><mn>60</mn></mfrac></math>.</p><p>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mfrac><mn>2</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>60</mn></mfrac><mo>=</mo><mi>x</mi></math>, więc prawdziwa jest równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie cztery liczby do sześćdziesiątych i porównuj same liczniki",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Napisano trzy zdania:</p><ul><li>I. W trójkącie rozwartokątnym jeden z boków jest dłuższy od połowy obwodu tego trójkąta.</li><li>II. W trójkącie prostokątnym kwadrat długości najkrótszego boku jest równy sumie kwadratów długości dwóch pozostałych boków.</li><li>III. W każdym trójkącie ostrokątnym jest bok krótszy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> obwodu.</li></ul><p>Ile spośród tych zdań jest prawdziwych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "trzy"
+    },
+    {
+     "litera": "B",
+     "html": "dwa"
+    },
+    {
+     "litera": "C",
+     "html": "jedno"
+    },
+    {
+     "litera": "D",
+     "html": "żadne"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>I. Trójkąt o bokach 1, 1, 1,9 jest rozwartokątny (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,9</mn><mn>2</mn></msup><mo>&gt;</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></math>), a jego najdłuższy bok 1,9 jest krótszy od połowy obwodu (1,95) — fałsz.</p><p>II. W trójkącie prostokątnym kwadrat przeciwprostokątnej (najdłuższego boku), a nie najkrótszego, równa się sumie kwadratów pozostałych — fałsz.</p><p>III. W trójkącie równobocznym każdy bok jest równy dokładnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> obwodu, więc nie jest od niej krótszy — fałsz.</p><p>Żadne ze zdań nie jest prawdziwe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj bok z sumą dwóch pozostałych, a w zdaniu III wypróbuj trójkąt równoboczny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kwantyfikator",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Zdanie III: „krótszy” to nierówność ostra, a trójkąt równoboczny jest ostrokątny, więc trzeba sprawdzić równość"
+   }
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są trzy trapezy o tej samej wysokości i takie, że trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> ma podstawy długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> ma podstawy długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> oraz pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>, trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> ma podstawy długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>d</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi></math>. Pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>+</mo><mi>q</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mi>q</mi></mrow><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>p</mi><mo>+</mo><mi>q</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mn>2</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole trapezu o podstawach m, n i wysokości h wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>m</mi><mo>+</mo><mi>n</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mrow><mi>c</mi><mo>+</mo><mi>d</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi></math>.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> podstawy sumują się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></math>, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>+</mo><mfrac><mrow><mi>c</mi><mo>+</mo><mi>d</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mi>p</mi><mo>+</mo><mi>q</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wszystkie trapezy mają tę samą wysokość — patrz tylko na sumy podstaw",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Graniastosłup <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> ma wszystkie krawędzie tej samej długości. Ostrosłup <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> ma jedną ścianę kwadratową, a graniastosłup <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> ma takich ścian o 50 więcej. O ile więcej krawędzi ma graniastosłup <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> niż ostrosłup <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 145"
+    },
+    {
+     "litera": "B",
+     "html": "o 135"
+    },
+    {
+     "litera": "C",
+     "html": "o 125"
+    },
+    {
+     "litera": "D",
+     "html": "o 115"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostrosłup O ma podstawę kwadratową: 4 krawędzie podstawy i 4 boczne, razem 8 krawędzi.</p><p>Graniastosłup G ma wszystkie krawędzie równe, więc każda z jego n ścian bocznych (prostokątów) jest kwadratem. O ma 1 ścianę kwadratową, a G o 50 więcej, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>51</mn></math>.</p><p>G ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>51</mn><mo>=</mo><mn>153</mn></math> krawędzi (n dolnych, n górnych, n bocznych). Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>153</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>145</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy równych krawędziach każda ściana boczna graniastosłupa jest kwadratem — policz je",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Która z równości nie zachodzi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,1</mn></msqrt><mo>·</mo><msqrt><mn>2,5</mn></msqrt><mo>=</mo><mn>0,5</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,1</mn></msqrt><mo>·</mo><msqrt><mn>1,6</mn></msqrt><mo>=</mo><mn>0,4</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2,5</mn></msqrt><mo>·</mo><msqrt><mn>3,6</mn></msqrt><mo>=</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,4</mn></msqrt><mo>·</mo><msqrt><mn>1,6</mn></msqrt><mo>=</mo><mn>2</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdzamy odpowiedź D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,4</mn></msqrt><mo>·</mo><msqrt><mn>1,6</mn></msqrt><mo>=</mo><msqrt><mrow><mn>0,4</mn><mo>·</mo><mn>1,6</mn></mrow></msqrt><mo>=</mo><msqrt><mn>0,64</mn></msqrt><mo>=</mo><mn>0,8</mn></math>, a nie 2 — ta równość nie zachodzi.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wymnóż liczby pod jednym pierwiastkiem",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Kąt między wskazówką godzinową a minutową o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>05</mn></msup></math> ma miarę 62,5°, a o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>10</mn></msup></math> – ma miarę 35°. Jaką miarę ma kąt między tymi wskazówkami o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>12</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22,5°"
+    },
+    {
+     "litera": "B",
+     "html": "24°"
+    },
+    {
+     "litera": "C",
+     "html": "25°"
+    },
+    {
+     "litera": "D",
+     "html": "27,5°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wskazówka minutowa zbliża się do godzinowej z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>°</mo><mo>−</mo><mn>0,5</mn><mo>°</mo><mo>=</mo><mn>5,5</mn><mo>°</mo></math> na minutę. O godzinie 15:00 kąt między nimi wynosi 90° (co potwierdzają dane: dla m=5 mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>27,5</mn><mo>=</mo><mn>62,5</mn><mo>°</mo></math>, dla m=10: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>55</mn><mo>=</mo><mn>35</mn><mo>°</mo></math>). Dla m=12: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>66</mn><mo>=</mo><mn>24</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z dwóch podanych godzin odczytaj, o ile stopni kąt zmienia się w ciągu minuty",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Dane są cztery wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>. Które z nich ma najmniejszą wartość?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obliczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mo>|</mo><mrow><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn></mrow><mo>|</mo><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>|</mo><mrow><mo>−</mo><mn>2</mn></mrow><mo>|</mo><mo>+</mo><mo>|</mo><mn>5</mn><mo>|</mo><mo>=</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>|</mo><mrow><mo>−</mo><mn>2</mn></mrow><mo>|</mo><mo>−</mo><mo>|</mo><mn>5</mn><mo>|</mo><mo>=</mo><mn>2</mn><mo>−</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mo>|</mo><mn>5</mn><mo>|</mo><mo>−</mo><mo>|</mo><mrow><mo>−</mo><mn>2</mn></mrow><mo>|</mo><mo>=</mo><mn>3</mn></math>.</p><p>Najmniejszą wartość ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw wylicz to, co stoi pod kreskami wartości bezwzględnej",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Pan Jerzy kupił trzy koty i zapłacił za nie 4000 zł. Za białego zapłacił 4 razy mniej niż za dwa pozostałe razem, za czarnego – również 4 razy mniej niż za dwa pozostałe. Ile złotych zapłacił za trzeciego kota?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "800 zł"
+    },
+    {
+     "litera": "B",
+     "html": "1000 zł"
+    },
+    {
+     "litera": "C",
+     "html": "1600 zł"
+    },
+    {
+     "litera": "D",
+     "html": "2400 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech biały kot kosztuje w. Skoro w jest 4 razy mniejsze od sumy pozostałych dwóch (4000−w), to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>w</mi><mo>=</mo><mn>4000</mn><mo>−</mo><mi>w</mi></math>, czyli w=800. Analogicznie dla czarnego: 800. Trzeci kot kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4000</mn><mo>−</mo><mn>800</mn><mo>−</mo><mn>800</mn><mo>=</mo><mn>2400</mn></math> zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "cztery razy mniej niż dwa pozostałe znaczy: piąta część całej kwoty",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "nierówności"
+   ],
+   "tresc_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniają warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mo>−</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mn>4</mn></math>. Wskaż wyrażenie, które ma największą wartość.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>4</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Porównujemy b−a z pozostałymi wyrażeniami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow><mo>−</mo><mrow><mo>(</mo><mn>4</mn><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mo>=</mo><mn>2</mn><mi>b</mi><mo>−</mo><mi>a</mi><mo>−</mo><mn>4</mn><mo>&gt;</mo><mn>0</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi><mo>&gt;</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>a</mi><mo>&gt;</mo><mn>2</mn></math>), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow><mo>−</mo><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mo>=</mo><mi>b</mi><mo>−</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>4</mn><mo>&gt;</mo><mn>0</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mi>a</mi><mo>&gt;</mo><mn>4</mn></math>), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow><mo>−</mo><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mo>=</mo><mo>−</mo><mn>2</mn><mi>a</mi><mo>&gt;</mo><mn>0</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math>). Wyrażenie b−a jest więc zawsze największe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszacuj, w jakich granicach mieści się każde z czterech wyrażeń",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Liczbę przekątnych wielokąta foremnego mającego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> boków można obliczyć ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. W pewnym wielokącie foremnym liczba przekątnych jest 10 razy większa od liczby boków. Ile boków ma ten wielokąt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "17"
+    },
+    {
+     "litera": "D",
+     "html": "23"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>10</mn><mi>n</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>10</mn><mi>n</mi></math>. Dzieląc obie strony przez n: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>−</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>10</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>20</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>23</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel obie strony równania przez n",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dane są cztery wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>−</mo><mn>6</mn></math>.</p><p>Każde dwa spośród tych wyrażeń połączono znakiem równości i rozwiązano utworzone równania.</p><p>Największy spośród uzyskanych wyników, to …… , a najmniejszy, to …… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "największy: 17, najmniejszy: −15",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwiązujemy sześć równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>17</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>6</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>6</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>6</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>13</mn></math>.</p><p>Największy z uzyskanych wyników to 17, najmniejszy to −15.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "x to różnica wyrazów wolnych podzielona przez różnicę współczynników — szukaj małego mianownika",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie równoramiennym ostrokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CA</mi><mo>=</mo><mi>CB</mi></math> poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> (patrz rysunek). Najdłuższy bok w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> ma długość 20 cm, a wspólny bok trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> ma długość 16 cm.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe …… cm<sup>2</sup>.</p><p>Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równy …… cm.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2022_dolnoslaskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole: 192 cm², Obwód: 64 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt ADC jest prostokątny (kąt przy D), więc jego najdłuższy bok to przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CA</mi><mo>=</mo><mn>20</mn></math> cm, a wspólny bok obu trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi><mo>=</mo><mn>16</mn></math> cm. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><msqrt><mrow><msup><mn>20</mn><mn>2</mn></msup><mo>−</mo><msup><mn>16</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math> cm.</p><p>D jest środkiem AB (spodek wysokości w trójkącie równoramiennym), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>24</mn></math> cm.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>24</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>192</mn></math> cm². Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>64</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w trójkącie ADC znasz przyprostokątną i przeciwprostokątną — rozpoznasz znajomą trójkę pitagorejską",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Liczbę półtora raza większą od 19 rozłożono na trzy składniki, z których drugi jest półtora raza większy od pierwszego, a trzeci jest półtora raza większy od drugiego.</p><p>Tymi składnikami są:</p><p>pierwszy: …… ,</p><p>drugi: …… ,</p><p>trzeci: …… .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "pierwszy: 6, drugi: 9, trzeci: 13,5",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba do rozłożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mn>19</mn><mo>=</mo><mn>28,5</mn></math>. Niech pierwszy składnik to a; drugi wynosi 1,5a, trzeci — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mn>1,5</mn><mi>a</mi><mo>=</mo><mn>2,25</mn><mi>a</mi></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>1,5</mn><mi>a</mi><mo>+</mo><mn>2,25</mn><mi>a</mi><mo>=</mo><mn>4,75</mn><mi>a</mi><mo>=</mo><mn>28,5</mn></math>, więc a=6. Składniki to 6, 9 i 13,5.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zapisz składniki w stosunku 4 : 6 : 9",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "nierówności"
+   ],
+   "tresc_html": "<p>Wojtek wypisał wszystkie dwucyfrowe liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>800</mn><mo>−</mo><mn>27</mn><mi>x</mi></math> jest również liczbą naturalną dwucyfrową.</p><p>Uzupełnij odpowiedzi na poniższe pytania.</p><p>Ile liczb wypisał Wojtek? Odpowiedź: ……</p><p>Jaka jest największa z liczb wypisanych przez Wojtka? Odpowiedź: ……</p><p>Jaka jest najmniejsza z liczb wypisanych przez Wojtka? Odpowiedź: ……</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Ile liczb: 4, największa: 29, najmniejsza: 26",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>≤</mo><mn>800</mn><mo>−</mo><mn>27</mn><mi>x</mi><mo>≤</mo><mn>99</mn></math> oraz x dwucyfrowe. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>701</mn><mo>≤</mo><mn>27</mn><mi>x</mi><mo>≤</mo><mn>790</mn></math>, czyli x mieści się między <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>,</mo><mn>96</mn></math>… a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>29</mn><mo>,</mo><mn>25</mn></math>….</p><p>Liczbami całkowitymi spełniającymi ten warunek są 26, 27, 28, 29 — jest ich 4, największa to 29, najmniejsza to 26.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wynik ma się zmieścić między 10 a 99 — schodź z x w dół, wynik rośnie co 27",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2022_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "działania na pierwiastkach",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Obwód prostokąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>800</mn></msqrt></math> cm, a jeden z jego boków jest czterokrotnie dłuższy od drugiego. Oblicz pole tego prostokąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "32 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>800</mn></msqrt><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math>, oznaczmy boki prostokąta przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi></math>. Suma długości boków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><msqrt><mn>2</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi><mo>+</mo><mn>8</mn><mi>b</mi><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>b</mi><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Boki mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm, a pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn></math> cm².</p>",
+    "punktacja_html": "<p>Punktacja:</p><ul><li>1 p. – za zapisanie zależności pomiędzy długościami boków prostokąta i ułożenie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>b</mi><mo>=</mo><mn>20</mn><msqrt><mn>2</mn></msqrt></math> i na tym poprzestanie lub dalsze rozwiązanie błędne</li><li>2 p. – za ułożenie równania i poprawne rozwiązanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> i na tym poprzestanie lub dalsze rozwiązanie błędne</li><li>3 p. – za poprawne wyliczenie długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> i na tym poprzestanie lub dalsze rozwiązanie błędne</li><li>4 p. – za poprawne obliczenie pola prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn></math> cm²</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nie upraszczaj pierwiastka — z obwodu wyznacz od razu kwadrat krótszego boku",
+   "czas_min": 5
+  }
+ ]
+}

@@ -1,0 +1,614 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2019/2020",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2020_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2020_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> jest iloczynem kolejnych liczb naturalnych od 1 do 25. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> zapisana w systemie dziesiątkowym kończy się</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "czterema zerami."
+    },
+    {
+     "litera": "B",
+     "html": "pięcioma zerami."
+    },
+    {
+     "litera": "C",
+     "html": "sześcioma zerami."
+    },
+    {
+     "litera": "D",
+     "html": "siedmioma zerami."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mn>25</mn><mo>!</mo></math>. Liczba zer końcowych = liczba czynników 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⌊</mo><mn>25</mn><mo>/</mo><mn>5</mn><mo>⌋</mo><mo>+</mo><mo>⌊</mo><mn>25</mn><mo>/</mo><mn>25</mn><mo>⌋</mo><mo>=</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>. Dwójek jest więcej, więc 6 zer.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zera biorą się z par 2·5, więc policz same czynniki piątki (uwaga: 25 to dwie piątki)",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:podwojna-piatka"
+    ],
+    "opis": "Liczba 25 = 5·5 daje dwa czynniki 5; liczenie samych wielokrotności 5 zaniża wynik"
+   }
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Dany jest zbiór liczb trzycyfrowych utworzonych z cyfr 0, 1, 2, 5. W żadnej liczbie należącej do tego zbioru cyfry się nie powtarzają. Ile liczb w tym zbiorze dzieli się przez 15?</p><p>Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Podzielność przez 15 = przez 3 i 5. Cyfry sumujące się do wielokrotności 3: {0,1,2} i {0,1,5}. Ostatnia cyfra 0 lub 5, pierwsza ≠ 0. Otrzymujemy: 120, 210, 150, 510, 105 — łącznie 5 liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, które trójki cyfr mają sumę podzielną przez 3, a potem ustaw 0 albo 5 na końcu",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Suma czterech kolejnych liczb całkowitych <u>nie może</u> być równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6006"
+    },
+    {
+     "litera": "B",
+     "html": "66"
+    },
+    {
+     "litera": "C",
+     "html": "606"
+    },
+    {
+     "litera": "D",
+     "html": "660"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Suma czterech kolejnych liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>+</mo><mn>6</mn></math>, czyli reszta 2 przy dzieleniu przez 4. Tylko 660 daje resztę 0 (660:4=165), więc nie może być tą sumą.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz sumę czterech kolejnych jako 4n+6 i patrz na resztę z dzielenia przez 4",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń",
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Spośród 300 uczniów pewnej szkoły sportowej – 250 trenuje piłkę nożną, 100 siatkówkę, zaś 75 oba te sporty. Jakie jest prawdopodobieństwo, że losowo wybrany uczeń tej szkoły nie trenuje żadnej z wymienionych dyscyplin sportowych? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "0"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trenuje co najmniej jeden sport: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>+</mo><mn>100</mn><mo>−</mo><mn>75</mn><mo>=</mo><mn>275</mn></math>. Żadnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>−</mo><mn>275</mn><mo>=</mo><mn>25</mn></math>. Prawdopodobieństwo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>300</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "od sumy trenujących odejmij tych liczonych dwa razy",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Do ponumerowania stron w książce użyto w sumie 2019 cyfr. Ile stron ma ta książka?</p><p>Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "610"
+    },
+    {
+     "litera": "B",
+     "html": "673"
+    },
+    {
+     "litera": "C",
+     "html": "709"
+    },
+    {
+     "litera": "D",
+     "html": "799"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Strony 1–9: 9 cyfr; 10–99: 180 cyfr (razem 189). Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>1830</mn></math> cyfr po 3, czyli 610 stron. Ostatnia strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>+</mo><mn>610</mn><mo>=</mo><mn>709</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno cyfry stron jedno-, dwu- i trzycyfrowych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Dzielenie pozostałych cyfr przez 3 daje liczbę stron trzycyfrowych, a nie liczbę wszystkich stron"
+   }
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Trzy proste przecinają się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (rysunek poniżej).</p><p>Ile jest równa suma miar kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "180°"
+    },
+    {
+     "litera": "B",
+     "html": "270°"
+    },
+    {
+     "litera": "C",
+     "html": "360°"
+    },
+    {
+     "litera": "D",
+     "html": "720°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2020_podkarpackie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trzy proste tworzą trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> zaznaczone na zewnątrz trójkąta to kąty zewnętrzne (po jednym przy każdym wierzchołku). Suma kątów zewnętrznych trójkąta = 360°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każdy zaznaczony kąt dopełnia kąt trójkąta do 180°",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Suma liczby boków i liczby przekątnych pewnego wielokąta wypukłego jest równa 105. Ile boków ma ten wielokąt? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "14"
+    },
+    {
+     "litera": "B",
+     "html": "15"
+    },
+    {
+     "litera": "C",
+     "html": "16"
+    },
+    {
+     "litera": "D",
+     "html": "18"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Liczba przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>105</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mi>n</mi><mo>−</mo><mn>210</mn><mo>=</mo><mn>0</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>15</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "boki i przekątne razem to po prostu wszystkie odcinki łączące pary wierzchołków",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W rombie o boku długości 12 cm kąt rozwarty ma miarę 5 razy większą od miary kąta ostrego. Ile jest równe pole tego rombu? Wybierz właściwą odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "36 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><msqrt><mn>3</mn></msqrt></math> cm²"
+    },
+    {
+     "litera": "C",
+     "html": "72 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt></math> cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kąt ostry + rozwarty = 180°, przy rozwartym = 5·ostry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> → ostry 30°. Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>144</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>72</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw kąt ostry ze stosunku 1:5, potem wysokość rombu z trójkąta prostokątnego",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Antek narysował kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a następnie rysował kolejne kwadraty, tak, że pole każdego następnego kwadratu było 2 razy większe od pola poprzedzającego go kwadratu. Kolejne kwadraty ponumerował liczbami naturalnymi dodatnimi.</p><p>Wskaż zdanie <u>fałszywe</u>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Bok drugiego kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Bok trzeciego kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Długość boku kwadratu o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math> jest równa długości przekątnej kwadratu o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Długość boku kwadratu o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> – liczba naturalna większa od 1) jest dwa razy większa od długości boku kwadratu o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2020_podkarpackie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Pole rośnie ×2, więc bok rośnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> razy. Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> (nie 2) razy większy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>1</mn></math>. Zdanie D fałszywe (A, B, C prawdziwe).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podwojenie pola oznacza bok razy √2",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Przekątna graniastosłupa prawidłowego czworokątnego o krawędzi podstawy długości 1 cm ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Objętość tego graniastosłupa jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 cm³"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm³"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm³"
+    },
+    {
+     "litera": "D",
+     "html": "16 cm³"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>18</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math>. Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>=</mo><mn>4</mn></math> cm³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pod pierwiastkiem w przekątnej bryły siedzi 1²+1²+h²",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 10 cm podzielono na mniejszy kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> i cztery przystające prostokąty (rysunek poniżej). Każda z pięciu części, na jakie podzielono kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma taki sam obwód.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest cztery razy mniejszy od obwodu kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Boki każdego z prostokątów mają długości 2,5 cm i 7,5 cm."
+    },
+    {
+     "litera": "C",
+     "html": "Każda z pięciu części, na jakie podzielono kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma takie samo pole."
+    },
+    {
+     "litera": "D",
+     "html": "Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest równe 25 cm²."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2020_podkarpackie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "FPFP",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Prostokąt L×W, bok kwadratu = L+W = 10, obwód prostokąta = obwód kwadratu KLMN: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>L</mi><mo>+</mo><mi>W</mi><mo>)</mo><mo>=</mo><mn>4</mn><mo>(</mo><mi>L</mi><mo>−</mo><mi>W</mi><mo>)</mo></math> → L=3W, więc W=2,5; L=7,5; bok KLMN=5. A) obwód KLMN=20, ABCD=40 → 2×, nie 4× (F). B) 2,5 i 7,5 (P). C) pola: 18,75 vs 25, różne (F). D) 5²=25 cm² (P).</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "krótszy i dłuższy bok prostokąta dają razem bok dużego kwadratu — stąd od razu jego obwód",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "bryły",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Wielościanem foremnym nazywamy wielościan wypukły, którego wszystkie ściany są przystającymi wielokątami foremnymi i z każdego wierzchołku wychodzi jednakowa liczba ścian. Przykładem wielościanu foremnego jest dwunastościan foremny (rysunek poniżej).</p><p>Uzupełnij luki.</p><p>12.1. Dwunastościan foremny ma ……….. wierzchołków.</p><p>12.2. Dwunastościan foremny ma ……….. krawędzi.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2020_podkarpackie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "12.1. 20 wierzchołków; 12.2. 30 krawędzi",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Dwunastościan foremny: 12 pięciokątnych ścian. Wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>12</mn><mo>·</mo><mn>5</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mn>20</mn></math>, krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>12</mn><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></math> (Euler: 20−30+12=2).</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każda krawędź należy do dwóch ścian, a każdy wierzchołek do trzech",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>Wczoraj na lekcji matematyki w klasie 8a uczniów obecnych było 9 razy więcej niż nieobecnych. Dzisiaj liczba uczniów nieobecnych jest o 2 większa niż wczoraj i nieobecni stanowią dzisiaj 20% obecnych.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów nieobecnych na lekcji matematyki w dniu wczorajszym.</p><p>13.1. Uzupełnij puste miejsc w tabeli (liczba uczniów nieobecnych oraz liczba uczniów obecnych – wczoraj i dzisiaj; wczoraj nieobecnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>).</p><p>13.2. Zapisz za pomocą równania z niewiadomą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zależność między wielkościami podanymi w treści zadania.</p><p>13.3. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p><ul><li>A. Wczoraj na lekcji matematyki było obecnych 24 uczniów.</li><li>B. Dzisiaj na lekcji matematyki było 5 uczniów nieobecnych.</li><li>C. Liczba uczniów nieobecnych na lekcji matematyki wczoraj stanowi 10% liczby wszystkich uczniów w klasie.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "13.1. wczoraj: nieobecni x, obecni 9x; dzisiaj: nieobecni x+2, obecni 9x−2 (liczbowo 3/27 oraz 5/25); 13.2. x+2 = 0,2·(9x−2), x=3; 13.3. FPP",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Wczoraj: nieobecni x, obecni 9x. Dzisiaj nieobecni x+2, obecni 10x−(x+2)=9x−2. Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0,2</mn><mo>(</mo><mn>9</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> → x=3. Wszystkich uczniów 30. A) obecnych 27, nie 24 (F). B) dziś nieobecnych 5 (P). C) 3 = 10% z 30 (P).</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Nieobecni to 20% obecnych, a nie 20% całej klasy"
+   }
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></math>. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Zauważ, że</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>1,5</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>2,25</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,25</mn></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2,5</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6,25</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>0,25</mn></mrow></math></p><p>15.1. Wykorzystując regułę zastosowaną w powyższych równościach, uzupełnij zapisy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3,5</mn><mn>2</mn></msup><mo>−</mo><mo>…</mo><mo>·</mo><mo>…</mo><mo>=</mo><mo>…</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>…</mo><mo>−</mo><mn>9</mn><mo>·</mo><mn>10</mn><mo>=</mo><mo>…</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>99,5</mn><mn>2</mn></msup><mo>−</mo><mo>…</mo><mo>·</mo><mo>…</mo><mo>=</mo><mo>…</mo></mrow></math></p><p>15.2. Oznacz przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> dowolną liczbę naturalną i zapisz w postaci ogólnego wzoru zależność zachodzącą w równościach powyżej.</p><p>15.3. Udowodnij, że zapisany przez Ciebie wzór jest prawdziwy dla każdej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "15.1. 3,5²−3·4=0,25; 9,5²−9·10=0,25; 99,5²−99·100=0,25. 15.2. (n+0,5)²−n(n+1)=0,25. 15.3. (n+0,5)²−n(n+1)=n²+n+0,25−n²−n=0,25",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Reguła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>n</mi><mo>+</mo><mn>0,5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>0,25</mn></math>. Uzupełnienia: n=3, n=9, n=99. Dowód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>0,25</mn><mo>−</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mi>n</mi><mo>=</mo><mn>0,25</mn></math>.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Za dwa lata mama Ewy będzie miała 5 razy tyle lat, ile Ewa miała dwa lata temu. Gdy Ewa będzie mieć dwa razy więcej lat niż obecnie, razem z mamą będą miały 60 lat. Oblicz, ile lat ma Ewa a ile jej mama obecnie. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Ewa ma 9 lat, mama 33 lata",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>e — wiek Ewy, m — mamy. Za 2 lata: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mo>(</mo><mi>e</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>. Gdy Ewa ma 2e (za e lat): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>e</mi><mo>+</mo><mo>(</mo><mi>m</mi><mo>+</mo><mi>e</mi><mo>)</mo><mo>=</mo><mn>60</mn></math> → m=60−3e. Podstawiając: e=9, m=33.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Gdy Ewa podwoi wiek, mama też będzie starsza o tyle samo lat"
+   }
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Suma dwóch liczb naturalnych jest równa 96, a ich największy wspólny dzielnik jest równy 12. Znajdź te liczby. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 i 84 lub 36 i 60",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Liczby = 12a, 12b, NWD=12, więc NWD(a,b)=1 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>a</mi><mo>+</mo><mn>12</mn><mi>b</mi><mo>=</mo><mn>96</mn></math> → a+b=8. Pary względnie pierwsze: (1,7) i (3,5), stąd 12 i 84 albo 36 i 60.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Dwie pary spełniają warunki; ponadto trzeba odrzucić pary, których NWD jest większy niż 12"
+   }
+  },
+  {
+   "id": "rejonowy_2020_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "ostrosłupy",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Na ścianach sześcianu o krawędzi długości 6 cm zbudowano ostrosłupy prawidłowe, których wszystkie ściany boczne są trójkątami równobocznymi (rysunek poniżej).</p><p>Oblicz pole powierzchni i objętość otrzymanej bryły. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2020_podkarpackie_q18_fig1.png"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole powierzchni 216√3 cm² (≈374 cm²); objętość 216(1+√2) cm³ = 216+216√2 cm³ (≈521,5 cm³)",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Ostrosłupy: podstawa 6×6, ściany boczne — trójkąty równoboczne o boku 6. Wysokość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn></math>, h=3√2. Powierzchnia = 24 trójkąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mfrac><mrow><msup><mn>6</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>216</mn><msqrt><mn>3</mn></msqrt></math>. Objętość = sześcian + 6 ostrosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup><mo>+</mo><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>216</mn><mo>+</mo><mn>216</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Ściany sześcianu są zakryte ostrosłupami i nie należą do powierzchni bryły"
+   }
+  }
+ ]
+}

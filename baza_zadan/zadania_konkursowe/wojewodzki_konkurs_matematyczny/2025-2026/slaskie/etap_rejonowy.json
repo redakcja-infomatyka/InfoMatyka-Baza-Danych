@@ -1,0 +1,617 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa śląskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "slaskie",
+ "rok_szkolny": "2025/2026",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2025-2026_slaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2025-2026_slaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W pewnej liczbie trzycyfrowej suma wszystkich cyfr wynosi 10, cyfra setek jest liczbą pierwszą, a cyfra dziesiątek jest dwa razy większa niż cyfra jedności. Te warunki spełnia liczba</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "163"
+    },
+    {
+     "litera": "B",
+     "html": "253"
+    },
+    {
+     "litera": "C",
+     "html": "532"
+    },
+    {
+     "litera": "D",
+     "html": "721"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cyfry setek, dziesiątek i jedności oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math>. Warunki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn><mi>u</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>+</mo><mi>t</mi><mo>+</mo><mi>u</mi><mo>=</mo><mn>10</mn></mrow></math> dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>+</mo><mn>3</mn><mi>u</mi><mo>=</mo><mn>10</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> to liczba pierwsza. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>u</mi><mo>=</mo><mn>1</mn></mrow></math> wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math> (pierwsza) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> — liczba 721. Pozostałe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math> dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> równe 10, 4 lub 1 — żadna nie jest pierwsza.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz sumę cyfr jako setki + 3·jedności = 10 i sprawdź, kiedy setki wychodzą pierwsze",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Cyfra setek ma być liczbą pierwszą, a 1 nie jest liczbą pierwszą"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo>−</mo><mi>a</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>)</mo></mrow><mrow><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow></mfrac></math> jest równa 1 dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> równego</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "−7"
+    },
+    {
+     "litera": "D",
+     "html": "−3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>8</mn><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>, równanie ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo>−</mo><mi>a</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>6</mn><mo>)</mo><mo>:</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo>−</mo><mi>a</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>7</mn></mrow></math>. Wśród odpowiedzi jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>7</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zacznij od mianownika, a potem szukaj takiego a, żeby licznik był mu równy",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Suma pewnych trzech kolejnych liczb naturalnych wynosi 63. Iloczyn tych liczb jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9240"
+    },
+    {
+     "litera": "B",
+     "html": "7980"
+    },
+    {
+     "litera": "C",
+     "html": "6840"
+    },
+    {
+     "litera": "D",
+     "html": "5814"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy kolejne liczby naturalne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>. Ich suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi><mo>=</mo><mn>63</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>21</mn></mrow></math>, czyli liczby 20, 21, 22. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>·</mo><mn>21</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>9240</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel sumę przez 3, żeby dostać środkową z trzech liczb",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wszystkich liczb naturalnych, dodatnich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą mniejszą od 500 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> jest liczbą naturalną, jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "21"
+    },
+    {
+     "litera": "B",
+     "html": "22"
+    },
+    {
+     "litera": "C",
+     "html": "23"
+    },
+    {
+     "litera": "D",
+     "html": "24"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> ma pierwiastek naturalny, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><msup><mi>k</mi><mn>2</mn></msup></mrow></math>. Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>&lt;</mo><mn>500</mn></mrow></math> spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>22</mn></mrow></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>22</mn><mn>2</mn></msup><mo>=</mo><mn>484</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>23</mn><mn>2</mn></msup><mo>=</mo><mn>529</mn></mrow></math> — to 22 liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "chodzi o kwadraty kolejnych liczb — znajdź największy kwadrat mniejszy od 500",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Turysta wyruszył ze schroniska o godzinie 8:55. Przeszedł 10 km ze średnią prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math> i dotarł na szczyt góry, na którym zatrzymał się na odpoczynek trwający 30 minut. Wrócił tą samą drogą i do schroniska dotarł o godzinie 14:35. Drogę powrotną przeszedł ze średnią prędkością</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>24</mn></mfrac><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,4</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Droga w górę trwała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>2,5</mn></mrow></math> h, czyli 150 min. Cały czas wycieczki (8:55–14:35) to 340 min, więc na powrót przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>340</mn><mo>−</mo><mn>150</mn><mo>−</mo><mn>30</mn><mo>=</mo><mn>160</mn></mrow></math> min, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math> h. Prędkość powrotna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>:</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mn>3,75</mn></mrow></math> km/h, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,75</mn><mo>:</mo><mn>3,6</mn><mo>=</mo><mn>1</mn><mfrac><mn>1</mn><mn>24</mn></mfrac></mrow></math> m/s.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cały czas wyprawy zamień na minuty i odejmij marsz w górę oraz odpoczynek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Dane w km/h, a warianty w m/s; jeden wariant to wynik w km/h z doklejonym m/s"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>30</mn></msup><mo>+</mo><msup><mn>27</mn><mn>20</mn></msup></mrow></math> można zapisać jako</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>60</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>59</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>120</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>61</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>30</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>30</mn></msup><mo>=</mo><msup><mn>3</mn><mn>60</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>27</mn><mn>20</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>20</mn></msup><mo>=</mo><msup><mn>3</mn><mn>60</mn></msup></mrow></math>, więc suma to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>60</mn></msup><mo>+</mo><msup><mn>3</mn><mn>60</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>60</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>59</mn></msup></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź obie potęgi do wspólnej podstawy 3 i wyłącz ją przed nawias",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Suma dwóch równych potęg 3^60 + 3^60 to nie 3^61"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Dany jest czworokąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są tej samej długości, zaś przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na dwa równe kąty. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest punktem przecięcia się przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>. Wskaż zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> to kąty odpowiadające."
+    },
+    {
+     "litera": "B",
+     "html": "Pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCO</mi></math> są takie same."
+    },
+    {
+     "litera": "C",
+     "html": "Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest mniejsze od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math> to kąty przyległe."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>DC</mi></mrow></math>), więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na połowy, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, zatem kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> — to kąty naprzemianległe przy siecznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>DC</mi></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają wspólną podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i tę samą wysokość, więc równe pola; po odjęciu wspólnego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCO</mi></math> też są równe.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W pewnym trapezie równoramiennym krótsza podstawa i wysokość trapezu mają taką samą długość 3 cm, a kąt ostry ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>.</p>",
+   "warianty": [
+    {
+     "litera": "I",
+     "html": "Pole tego trapezu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>9</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm<sup>2</sup>."
+    },
+    {
+     "litera": "II",
+     "html": "Obwód tego trapezu jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>)</mo></mrow></math> cm."
+    },
+    {
+     "litera": "III",
+     "html": "Ramię tego trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> cm."
+    },
+    {
+     "litera": "IV",
+     "html": "Długość dłuższej podstawy tego trapezu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkącie prostokątnym utworzonym przez wysokość kąt przy podstawie ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>, drugi kąt ostry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math>. Bok naprzeciw niego to połowa ramienia; skoro naprzeciw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math> (wysokość) jest 3, ta połowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math>, a ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><ul><li><b>I</b> Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mo>+</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm² — P.</li><li><b>II</b> Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm — P.</li><li><b>III</b> Ramię ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> — F.</li><li><b>IV</b> Dłuższa podstawa ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math> — F.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:dwa-odcinki-przy-podstawie"
+    ],
+    "opis": "Dłuższa podstawa trapezu równoramiennego to krótsza plus dwa rzuty ramion, nie jeden"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń"
+   ],
+   "tresc_html": "<p>W pewnej klasie jest 24 uczniów. Na dodatkowe zajęcia tylko z języka francuskiego uczęszcza 8 uczniów. 4 uczniów uczęszcza na dodatkowe zajęcia z języka francuskiego i dodatkowe zajęcia z języka hiszpańskiego. 7 uczniów nie uczęszcza na żadne zajęcia dodatkowe, zaś pozostali uczniowie biorą udział tylko w zajęciach z języka hiszpańskiego.</p>",
+   "warianty": [
+    {
+     "litera": "I",
+     "html": "W klasie jest 4 uczniów, którzy uczęszczają tylko na zajęcia z języka hiszpańskiego."
+    },
+    {
+     "litera": "II",
+     "html": "W klasie jest 13 uczniów, którzy uczęszczają na dodatkowe zajęcia tylko z jednego języka obcego."
+    },
+    {
+     "litera": "III",
+     "html": "W klasie jest 19 uczniów, którzy nie uczęszczają na zajęcia z języka hiszpańskiego."
+    },
+    {
+     "litera": "IV",
+     "html": "W klasie jest 12 uczniów, którzy nie uczęszczają na zajęcia z języka francuskiego."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Tylko francuski: 8; oba języki: 4; żadne zajęcia: 7; tylko hiszpański: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math> wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>.</p><ul><li><b>I</b> Tylko hiszpański to 5, nie 4 — F.</li><li><b>II</b> Tylko jeden język: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>13</mn></mrow></math> — P.</li><li><b>III</b> Nie chodzi na hiszpański: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>15</mn></mrow></math>, nie 19 — F.</li><li><b>IV</b> Nie chodzi na francuski: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>12</mn></mrow></math> — P.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "od 24 odejmij wszystkie podane grupy — dostaniesz tych od samego hiszpańskiego",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:zbiory-czesc-wspolna"
+    ],
+    "opis": "Nie chodzą na hiszpański to nie wszyscy minus 'tylko hiszpański'; uczący się obu też chodzą"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Znani polscy matematycy żyli w latach:</p><ul><li>Wacław Sierpiński MDCCCLXXXII – MCMLXIX,</li><li>Stefan Banach MDCCCXCII – MCMXLV,</li><li>Kazimierz Kuratowski MDCCCXCVI – MCMLXXX.</li></ul>",
+   "warianty": [
+    {
+     "litera": "I",
+     "html": "Najdłużej żył Kazimierz Kuratowski."
+    },
+    {
+     "litera": "II",
+     "html": "Okres od 1897 do 1944 przypada w czasie życia wszystkich trzech matematyków."
+    },
+    {
+     "litera": "III",
+     "html": "Wacław Sierpiński był o 10 lat starszy od Stefana Banacha."
+    },
+    {
+     "litera": "IV",
+     "html": "W 1900 roku najmłodszym z całej trójki matematyków był Stefan Banach."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Lata życia: Sierpiński 1882–1969 (87 lat), Banach 1892–1945 (53 lata), Kuratowski 1896–1980 (84 lata).</p><ul><li><b>I</b> Najdłużej żył Sierpiński, nie Kuratowski — F.</li><li><b>II</b> Każdy z nich żył przez cały okres 1897–1944 — P.</li><li><b>III</b> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1892</mn><mo>−</mo><mn>1882</mn><mo>=</mo><mn>10</mn></mrow></math> — P.</li><li><b>IV</b> W 1900 r. najmłodszy (najpóźniej urodzony) jest Kuratowski (ur. 1896), nie Banach — F.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Najdłużej żył nie ten, kto zmarł najpóźniej; trzeba policzyć długości życia"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są figury: prostokąt o wymiarach 0,33 dm i 2 cm, trójkąt równoboczny o boku 0,04 m, równoległobok o bokach 0,4 dm i 3 cm oraz wysokościach 0,02 m i 1,5 cm.</p>",
+   "warianty": [
+    {
+     "litera": "I",
+     "html": "Spośród pól danych figur największe jest pole prostokąta."
+    },
+    {
+     "litera": "II",
+     "html": "Spośród pól danych figur najmniejsze jest pole trójkąta równobocznego."
+    },
+    {
+     "litera": "III",
+     "html": "Pole prostokąta jest o 0,6 cm<sup>2</sup> większe od pola równoległoboku."
+    },
+    {
+     "litera": "IV",
+     "html": "Pole prostokąta jest większe od pola trójkąta równobocznego o 0,33 cm<sup>2</sup>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pola: prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6,6</mn></mrow></math> cm²; trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>6,93</mn></mrow></math> cm²; równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>6</mn></mrow></math> cm² (zgodnie z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math>).</p><ul><li><b>I</b> Największe pole ma trójkąt, nie prostokąt — F.</li><li><b>II</b> Najmniejsze pole ma równoległobok, nie trójkąt — F.</li><li><b>III</b> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,6</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>0,6</mn></mrow></math> cm² — P.</li><li><b>IV</b> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,6</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mo>−</mo><mn>0,33</mn></mrow></math>, więc prostokąt ma mniejsze, nie większe pole — F.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wszystkie wymiary zamień na centymetry i dopiero wtedy policz trzy pola",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji",
+     "inne:wysokosc-do-boku",
+     "jednostki"
+    ],
+    "opis": "Dłuższa wysokość równoległoboku idzie do krótszego boku; do tego dane w dm, cm i m"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "podzielność",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W skład pewnego pociągu wchodzą wyłącznie wagony pierwszej i drugiej klasy. W każdym wagonie drugiej klasy jest 10 przedziałów po 6 miejsc, a w każdym wagonie pierwszej klasy jest 9 przedziałów po 6 miejsc. Pasażerowie zajęli 560 miejsc w tym pociągu, przy czym w wagonach drugiej klasy zostało 20 miejsc wolnych, natomiast w wagonach pierwszej klasy zostało 8 miejsc wolnych. Oblicz, z ilu wagonów pierwszej klasy oraz z ilu wagonów drugiej klasy składa się ten pociąg?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Pociąg składa się z 2 wagonów pierwszej klasy i 8 wagonów drugiej klasy.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wagonów drugiej klasy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — liczbę wagonów pierwszej klasy. Liczba zajętych miejsc w wagonach drugiej klasy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>x</mi><mo>−</mo><mn>20</mn></mrow></math>, a w wagonach pierwszej klasy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>y</mi><mo>−</mo><mn>8</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>x</mi><mo>−</mo><mn>20</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>y</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>560</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>9</mn><mi>y</mi><mo>=</mo><mn>98</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>98</mn><mo>−</mo><mn>10</mn><mi>x</mi></mrow><mn>9</mn></mfrac></mrow></math>. Szukamy takich naturalnych wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, dla których <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest dodatnią liczbą naturalną (czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>98</mn><mo>−</mo><mn>10</mn><mi>x</mi></mrow></math> jest podzielne przez 9). Jedyną taką wartością jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>; wówczas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>. Odpowiedź: pociąg składa się z 2 wagonów pierwszej klasy i 8 wagonów drugiej klasy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz wszystkie miejsca w pociągu, a potem skróć równanie przez 6",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Agata, Iwona i Marta zbierały maliny. Agata zebrała 4 kg malin, Iwona zebrała połowę tego co Agata plus połowę tego co Marta, a Marta zebrała tyle ile Iwona plus jedną czwartą tego co Agata. Oblicz, ile kilogramów malin zebrały dziewczyny razem?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Razem 15 kg (Agata 4 kg, Iwona 5 kg, Marta 6 kg).",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę (w kg) malin zebranych przez Martę. Agata zebrała 4 kg, a Iwona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi></mrow></math> kg (połowa tego co Agata plus połowa tego co Marta). Marta zebrała tyle co Iwona plus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> tego co Agata, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>. Zatem Marta zebrała 6 kg, Iwona 5 kg, a Agata 4 kg. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>15</mn></mrow></math> kg. Odpowiedź: dziewczyny zebrały razem 15 kg malin.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wstaw wyrażenie na Iwonę do zdania o Marcie — zostanie jedno równanie",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "kąty"
+   ],
+   "tresc_html": "<p>Na rysunku zaznaczono kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>83</mn><mo>°</mo></mrow></math>, dwa kąty o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> oraz kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Oblicz miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2025-2026_slaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "β = 83°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oba trójkąty mają wspólny kąt przy wierzchołku, oznaczmy go <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>. Suma miar kątów w każdym z trójkątów jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>=</mo><mi>α</mi><mo>+</mo><mn>83</mn><mo>°</mo><mo>+</mo><mi>γ</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>83</mn><mo>°</mo></mrow></math>. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>83</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny. Na przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>. Rozważ wszystkie możliwości, przedstawiając je na rysunku.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "45° albo 135°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> można zbudować na dwa sposoby — po dwóch stronach przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> (oznaczmy drugie położenie wierzchołka jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>D</mi><mo>′</mo></msup></math>). Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABC</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>, a kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> mają po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><msup><mi>D</mi><mo>′</mo></msup></mrow></math> (symetralna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>) dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na połowy. W pierwszym położeniu (gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leży po przeciwnej stronie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABD</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>. W drugim położeniu (gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>D</mi><mo>′</mo></msup></math> leży po tej samej stronie co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math> (można też: kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><msup><mi>D</mi><mo>′</mo></msup><mi>AB</mi><mo>=</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>A</mi><msup><mi>D</mi><mo>′</mo></msup><mi>B</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>). Odpowiedź: szukany kąt ma miarę 45° albo 135°.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Trójkąt równoboczny można zbudować po obu stronach przeciwprostokątnej"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe",
+    "procenty"
+   ],
+   "tresc_html": "<p>W sklepie A koszyk zawierający 2 kg truskawek kosztuje 30 zł. W sklepie B za koszyk zawierający o 25% truskawek więcej trzeba zapłacić o 15% więcej niż za koszyk truskawek w sklepie A.</p><p><strong>a)</strong> Oblicz, ile kosztuje 1 kg truskawek w sklepie A, a ile w sklepie B.</p><p><strong>b)</strong> Oblicz, o ile procent cena 1 kg truskawek jest niższa w sklepie B niż w sklepie A?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1 kg w sklepie A: 15 zł, w sklepie B: 13,80 zł; cena w sklepie B jest o 8% niższa niż w A.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>1 kg truskawek w sklepie A kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn></mrow></math> zł. Koszyk w sklepie B kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,15</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>34,5</mn></mrow></math> zł i zawiera <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>2,5</mn></mrow></math> kg truskawek, więc 1 kg truskawek w sklepie B kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34,5</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>13,8</mn></mrow></math> zł. Cena 1 kg w sklepie B stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>13,8</mn><mn>15</mn></mfrac><mo>=</mo><mn>0,92</mn><mo>=</mo><mn>92</mn><mo>%</mo></mrow></math> ceny w sklepie A, zatem jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>92</mn><mo>%</mo><mo>=</mo><mn>8</mn><mo>%</mo></mrow></math> niższa. Odpowiedź: 1 kg truskawek kosztuje 15 zł w sklepie A i 13,80 zł w sklepie B; cena w sklepie B jest o 8% niższa niż w sklepie A.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "koszyk w B jest o 15% droższy i o 25% cięższy — podziel jedną zmianę przez drugą",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Procentów 25% i 15% nie odejmuje się; obniżkę liczy się względem ceny w sklepie A"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_slaskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Jakie cyfry można wstawić w miejsce kratek, aby liczba</p><p style=\"text-align:center\">2 7 □ 4 □ 5 □ □</p><p>była podzielna jednocześnie przez 100 i 9? Znajdź wszystkie takie liczby i podaj metodę znajdywania takich liczb.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 liczb: 27049500, 27148500, 27247500, 27346500, 27445500, 27544500, 27643500, 27742500, 27841500, 27940500, 27949500, 27040500.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy brakujące cyfry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mn>7</mn><mi>x</mi><mn>4</mn><mi>y</mi><mn>5</mn><mi>v</mi><mi>z</mi></mrow></math>. Liczba jest podzielna przez 100, gdy kończy się dwoma zerami, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>0</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>0</mn></mrow></math>. Liczba jest podzielna przez 9, gdy suma jej cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>7</mn><mo>+</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>+</mo><mi>y</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>18</mn><mo>+</mo><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math> jest podzielna przez 9, co jest równoważne temu, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math> jest podzielne przez 9. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math> może być równe 0, 9 lub 18: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>18</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>9</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>9</mn></mrow></math> istnieje dziesięć par cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>. Łącznie warunki spełnia 12 liczb: 27049500, 27148500, 27247500, 27346500, 27445500, 27544500, 27643500, 27742500, 27841500, 27940500, 27949500, 27040500.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Suma dwóch brakujących cyfr może wynosić 0, 9 lub 18, nie tylko 9"
+   }
+  }
+ ]
+}

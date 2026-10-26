@@ -1,0 +1,512 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla szkół podstawowych (warmińsko-mazurskie)",
+ "etap": "szkolny",
+ "wojewodztwo": "warminsko-mazurskie",
+ "rok_szkolny": "2019/2020",
+ "data": "2019-11-20",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 14,
+ "max_punktow": 25,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2019-2020_warminsko-mazurskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Przekątna kwadratu o polu 100 ma długość:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "25"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><msqrt><mn>2</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>100</mn></msqrt><mo>=</mo><mn>10</mn></mrow></math>. Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola odczytaj bok kwadratu, a przekątna to bok razy √2",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Sześcian najmniejszej liczby pierwszej nieparzystej to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "27"
+    },
+    {
+     "litera": "D",
+     "html": "125"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Najmniejsza liczba pierwsza nieparzysta to 3 (2 jest parzysta). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pamiętaj, że 1 nie jest liczbą pierwszą",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Warunek „nieparzystej” odrzuca 2, a 1 nie jest liczbą pierwszą, choć wygląda na najmniejszą nieparzystą"
+   }
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Leon spośród liczb naturalnych mniejszych od 32 wybrał wszystkie te, które przy dzieleniu przez 7 dają resztę 4. Suma wybranych przez Leona liczb to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "54"
+    },
+    {
+     "litera": "B",
+     "html": "58"
+    },
+    {
+     "litera": "C",
+     "html": "86"
+    },
+    {
+     "litera": "D",
+     "html": "90"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby mniejsze od 32 dające resztę 4 przy dzieleniu przez 7 to 4, 11, 18, 25. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>25</mn><mo>=</mo><mn>58</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisuj liczby od 4 co 7, dopóki są mniejsze od 32",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Sama liczba 4 (iloraz 0) też daje resztę 4; górna granica „mniejszych od 32” jest ostra"
+   }
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Państwo Kowalscy mają trzech synów i jedną córkę. Średnia wieku wszystkich dzieci państwa Kowalskich jest równa 10 lat, a średnia wieku wszystkich synów jest równa 8 lat. Córka państwa Kowalskich ma:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9 lat"
+    },
+    {
+     "litera": "B",
+     "html": "11 lat"
+    },
+    {
+     "litera": "C",
+     "html": "12 lat"
+    },
+    {
+     "litera": "D",
+     "html": "16 lat"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma wieku czwórki dzieci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>40</mn></mrow></math> lat. Suma wieku trzech synów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></mrow></math> lata. Wiek córki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>16</mn></mrow></math> lat.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze średnich policz łączny wiek czwórki dzieci i łączny wiek samych synów",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Średnia ogólna nie jest średnią z dwóch średnich grup o różnej liczności"
+   }
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Najmniej znaków rzymskich użyjemy przy zapisie liczby:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18"
+    },
+    {
+     "litera": "B",
+     "html": "499"
+    },
+    {
+     "litera": "C",
+     "html": "625"
+    },
+    {
+     "litera": "D",
+     "html": "909"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba znaków rzymskich: 18 = XVIII (5), 499 = CDXCIX (6), 625 = DCXXV (5), 909 = CMIX (4) – najmniej.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż każdą liczbę na setki, dziesiątki i jedności i licz znaki, pamiętając o zapisie odejmowanym",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Dane są temperatury: 36,7°C, 23,2°C, −23,2°C, −22,3°C. Różnica najwyższej i najniższej temperatury jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−59,9°C"
+    },
+    {
+     "litera": "B",
+     "html": "−13,5°C"
+    },
+    {
+     "litera": "C",
+     "html": "13,5°C"
+    },
+    {
+     "litera": "D",
+     "html": "59,9°C"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Najwyższa temperatura to 36,7°C, najniższa to −23,2°C. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36,7</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>23,2</mn><mo>)</mo><mo>=</mo><mn>59,9</mn></mrow></math>°C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wybierz skrajne temperatury — odejmowanie liczby ujemnej to dodawanie",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Długości boków pewnego trójkąta są liczbami naturalnymi, a dwa z nich mają długość 1 cm i 5 cm. Obwód tego trójkąta jest równy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8 cm"
+    },
+    {
+     "litera": "B",
+     "html": "9 cm"
+    },
+    {
+     "litera": "C",
+     "html": "10 cm"
+    },
+    {
+     "litera": "D",
+     "html": "11 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełnia nierówność trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>5</mn><mo>+</mo><mn>1</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>6</mn></mrow></math>. Jedyna liczba naturalna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>11</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z nierówności trójkąta trzeci bok mieści się między różnicą a sumą — naturalna wartość jest tylko jedna",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Nierówność trójkąta jest ostra: bok 4 daje trójkąt zdegenerowany"
+   }
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna",
+    "potęgi i pierwiastki"
+   ],
+   "tresc_html": "<p>Wartość bezwzględna sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "133"
+    },
+    {
+     "litera": "B",
+     "html": "83"
+    },
+    {
+     "litera": "C",
+     "html": "77"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obliczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>100</mn><mo>=</mo><mo>−</mo><mn>67</mn></mrow></math>. Wartość bezwzględna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>67</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>67</mn></mrow></math> – to inna wartość niż 133, 83 i 77.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz potęgi po kolei, wartość bezwzględną bierz dopiero z całej sumy",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokątna działka, która na planie w skali 1 : 2000 ma wymiary 75 mm i 50 mm zajmuje w rzeczywistości:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,15 ha"
+    },
+    {
+     "litera": "B",
+     "html": "1,5 ha"
+    },
+    {
+     "litera": "C",
+     "html": "15 ha"
+    },
+    {
+     "litera": "D",
+     "html": "inna odpowiedź"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rzeczywiste wymiary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mtext> mm</mtext><mo>·</mo><mn>2000</mn><mo>=</mo><mn>150</mn><mtext> m</mtext></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mtext> mm</mtext><mo>·</mo><mn>2000</mn><mo>=</mo><mn>100</mn><mtext> m</mtext></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>150</mn><mtext> m</mtext><mo>·</mo><mn>100</mn><mtext> m</mtext><mo>=</mo><mn>15000</mn><mtext> m²</mtext><mo>=</mo><mn>1,5</mn><mtext> ha</mtext></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz najpierw wymiary: 1 mm planu to 2 m w terenie, a hektar to 10 000 m²",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Kasia poprawnie zaokrągliła liczbę 7 462 do pełnych setek i otrzymała liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, a Paweł poprawnie zaokrąglił liczbę 7 492 do pełnych tysięcy i otrzymał liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Czy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są równe? Wybierz odpowiedź A (Tak) albo B (Nie) i jej uzasadnienie spośród 1, 2 albo 3.</p><p>Uzasadnienia (…, ponieważ):</p><ol><li>początkowa liczba Kasi jest mniejsza od początkowej liczby Pawła.</li><li>cyfra tysięcy każdej z początkowych liczb jest taka sama.</li><li>otrzymane zaokrąglenia różnią się o 500.</li></ol>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Tak"
+    },
+    {
+     "litera": "B",
+     "html": "Nie"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B3",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zaokrąglenie 7462 do pełnych setek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>m</mi><mo>=</mo><mn>7500</mn></mrow></math> (bo 62 ≥ 50). Zaokrąglenie 7492 do pełnych tysięcy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>7000</mn></mrow></math> (bo 492 &lt; 500). Liczby nie są równe – różnią się o 500.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przy setkach patrz na cyfrę dziesiątek, przy tysiącach na cyfrę setek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:uzasadnienie-prawdziwe-ale-nie-powod"
+    ],
+    "opis": "Uzasadnienia 1 i 2 są prawdziwymi zdaniami, ale nie wyjaśniają, czemu m≠n"
+   }
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Jacek i Agata, wyjeżdżając na wycieczkę rowerową, spotkali się w połowie drogi pomiędzy swoimi domami oddalonymi od siebie o 16 km. Agata wyjechała z domu o godz. 12:30. Jacek jechał z prędkością 20 km/h, a Agata z prędkością 12 km/h. Na miejsce spotkania oboje przybyli jednocześnie. Oblicz, o której godzinie Jacek wyjechał z domu? Pamiętaj o zapisywaniu jednostek.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12:46",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Miejsce spotkania leży w połowie drogi, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math> km od każdego domu. Agata pokonała 8 km z prędkością 12 km/h w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> h = 40 min, więc dojechała o godz. 12:30 + 40 min = 13:10. Jacek pokonał 8 km z prędkością 20 km/h w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>20</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math> h = 24 min. Ponieważ na miejsce spotkania przybyli jednocześnie (o godz. 13:10), Jacek wyjechał o godz. 13:10 − 24 min = 12:46.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oboje jadą po 8 km, więc wystarczy porównać czasy ich jazdy",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> o krótszej podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MN</mi><mo>=</mo><mn>6</mn></mrow></math>, dłuższym ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>LM</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz kącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>KLM</mi><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>. Wykonaj rysunek pomocniczy tego trapezu i oblicz jego pole.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "80",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Rysujemy trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MN</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> oraz ramieniu prostopadłym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NK</mi></math>. Rzut wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> tworzy z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LM</mi></math> trójkąt prostokątny równoramienny (kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> ma 45°). Wysokość trapezu równa się rzutowi poziomemu ramienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>8</mn></mrow></math>. Dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MN</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>8</mn><mo>=</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>14</mn></mrow></math>. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>6</mn><mo>+</mo><mn>14</mn><mo>)</mo><mo>·</mo><mn>8</mn><mo>=</mo><mn>80</mn></mrow></math>.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "liczba krawędzi, ścian i wierzchołków",
+    "graniastosłupy",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość zdań, wpisując w tabeli P – jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Podstawą graniastosłupa prawidłowego jest dowolny wielokąt."
+    },
+    {
+     "litera": "2",
+     "html": "Ostrosłup pięciokątny ma 6 krawędzi."
+    },
+    {
+     "litera": "3",
+     "html": "Przekątne w prostokącie przecinają się w połowie każdej z nich."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podstawą graniastosłupa prawidłowego jest wielokąt foremny, nie dowolny – F.</p><p>Ostrosłup pięciokątny ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>10</mn></mrow></math> krawędzi, nie 6 – F.</p><p>W prostokącie przekątne przecinają się w połowie każdej z nich – P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij definicję graniastosłupa prawidłowego i policz krawędzie ostrosłupa: podstawa plus boczne",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2019-2020_warminsko-mazurskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Podaj liczbę odwrotną do liczby przeciwnej do wartości wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mn>0,25</mn><mo>+</mo><mn>5,25</mn><mo>:</mo><mn>0,05</mn><mo>−</mo><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>2,5</mn><mo>−</mo><mn>3</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>+</mo><mn>1,25</mn><mo>=</mo></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "−1/113",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Obliczamy wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mn>0,25</mn><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5,25</mn><mo>:</mo><mn>0,05</mn><mo>=</mo><mn>105</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mo>−</mo><mn>3</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>)</mo><mo>=</mo><mn>8,75</mn></mrow></math>. Zatem całe wyrażenie ma wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><mo>+</mo><mn>105</mn><mo>+</mo><mn>8,75</mn><mo>+</mo><mn>1,25</mn><mo>=</mo><mn>113</mn></mrow></math>. Liczbą przeciwną do 113 jest −113, a liczbą odwrotną do −113 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>1</mn><mn>113</mn></mfrac></mrow></math>.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o odwrotność liczby przeciwnej, nie o wartość; minus przed iloczynem z ujemnym nawiasem"
+   }
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "szkolny",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2024/2025",
+ "data": "2024-10-17",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 25,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2025_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2025_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest o 110 mniejsza od jej kwadratu. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest zatem mniejsza od jej sześcianu o</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "990"
+    },
+    {
+     "litera": "B",
+     "html": "1320"
+    },
+    {
+     "litera": "C",
+     "html": "1716"
+    },
+    {
+     "litera": "D",
+     "html": "2184"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mi>n</mi><mo>=</mo><mn>110</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>11</mn><mo>·</mo><mn>10</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>11</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>3</mn></msup><mo>−</mo><mi>n</mi><mo>=</mo><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>110</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>1320</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz warunek jako n(n−1) = 110 i szukaj dwóch kolejnych liczb naturalnych",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Trzycyfrową liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> podzielono przez liczbę dwucyfrową <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i otrzymano w wyniku liczbę dwucyfrową <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz resztę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, która jest także liczbą dwucyfrową. Okazało się, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest najmniejszą liczbą o tej własności. Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "31"
+    },
+    {
+     "litera": "B",
+     "html": "33"
+    },
+    {
+     "litera": "C",
+     "html": "37"
+    },
+    {
+     "litera": "D",
+     "html": "41"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Reszta jest dwucyfrowa i mniejsza od dzielnika, więc dzielnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≥</mo><mn>11</mn></mrow></math>. Najmniejsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> otrzymamy dla najmniejszych możliwych wartości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>11</mn></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>&lt;</mo><mn>11</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> dwucyfrowe, więc jedynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>10</mn></mrow></math>) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>10</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>11</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>120</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>11</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>31</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "reszta musi być mniejsza od dzielnika — dobieraj po kolei najmniejsze możliwe b, c i a",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Na osi liczbowej zaznaczono kropkami liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</p><p>Wskaż zdanie fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 5 mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn></mrow></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 2 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest o 3 mniejsza od liczby 0."
+    },
+    {
+     "litera": "D",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest o 11 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q3_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z rysunku (kolejne kreski osi różnią się o 1): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>−</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest więc o 2 mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, a nie większa — zdanie B jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj a, b, c, d z osi; uważaj, czy b leży na lewo, czy na prawo od c",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>W ramce obok umieszczono 6 liczb naturalnych: 1, 12, 123, 1234, 12345, 123456. Ile wśród nich jest liczb pierwszych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Żadna z tych liczb nie jest pierwsza."
+    },
+    {
+     "litera": "B",
+     "html": "Dokładnie jedna z tych liczb jest pierwsza."
+    },
+    {
+     "litera": "C",
+     "html": "Dokładnie dwie z tych liczb są pierwsze."
+    },
+    {
+     "litera": "D",
+     "html": "Dokładnie trzy z tych liczb są pierwsze."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba 1 nie jest pierwsza. Liczby 12, 1234, 123456 są parzyste. Liczba 12345 dzieli się przez 5. Liczba 123 dzieli się przez 3, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>. Żadna z tych liczb nie jest pierwsza.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź parzystość, końcówkę i sumę cyfr — oraz przypomnij sobie, czy 1 jest pierwsza",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Liczba 1 nie jest pierwsza, a 123 wygląda na pierwszą (suma cyfr zdradza podzielność przez 3)."
+   }
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Do każdego z 10 pudełek Asia włożyła pewną nieparzystą liczbę klocków. Razem w tych pudełkach jest 100 klocków. Największa liczba klocków, jaka może znajdować się w jednym pudełku, to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "11"
+    },
+    {
+     "litera": "B",
+     "html": "19"
+    },
+    {
+     "litera": "C",
+     "html": "91"
+    },
+    {
+     "litera": "D",
+     "html": "99"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pozostałym 9 pudełkom przydzielamy najmniejszą możliwą liczbę nieparzystą, czyli po 1 klocku: razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>9</mn></mrow></math>. W jednym pudełku zostaje wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>91</mn></mrow></math> — liczba nieparzysta, więc to maksimum.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w każdym z pozostałych dziewięciu pudełek musi leżeć co najmniej jeden klocek",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Każde pudełko ma liczbę nieparzystą, więc żadne nie może być puste; pozostałe dziewięć ma po co najmniej 1."
+   }
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Od południa w pewien poniedziałek do chwili obecnej wskazówka minutowa zegara wykonała o 66 pełnych obrotów więcej, niż wskazówka godzinowa, a zatem obecnie jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "północ z wtorku na środę."
+    },
+    {
+     "litera": "B",
+     "html": "środa, godzina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>18</mn><mn>00</mn></msup></math>."
+    },
+    {
+     "litera": "C",
+     "html": "czwartek, godzina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>00</mn></msup></math>."
+    },
+    {
+     "litera": "D",
+     "html": "piątek, godzina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>00</mn></msup></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W ciągu 12 godzin wskazówka minutowa wykonuje 12 pełnych obrotów, a godzinowa 1, czyli minutowa zyskuje 11 obrotów przewagi. Aby zyskać 66 obrotów, potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>:</mo><mn>11</mn><mo>=</mo><mn>6</mn></mrow></math> takich okresów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>72</mn></mrow></math> godziny, czyli 3 doby. Od południa w poniedziałek to czwartek, godzina 12:00.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj, ile obrotów robi każda wskazówka w ciągu 12 godzin",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "66 to różnica obrotów obu wskazówek, a nie liczba obrotów minutowej; godzinowa też się obraca."
+   }
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Jeden bok trójkąta ma długość 4 cm, drugi 10 cm, a trzeci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> cm, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną. Ile jest wszystkich wartości, jakie może przyjmować liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "12"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>4</mn><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><mn>10</mn><mo>+</mo><mn>4</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><mn>14</mn></mrow></math>. Liczb naturalnych spełniających ten warunek (7, 8, …, 13) jest 7.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trzeci bok musi być większy od różnicy i mniejszy od sumy dwóch pozostałych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie liczb naturalnych w przedziale otwartym między 6 a 14 – łatwo pomylić się o jeden."
+   }
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W sześć pól diagramu wpisano liczby. Wpisz w puste pole (kółko w środku) liczbę 3 razy większą od jednej z nich i jednocześnie o 30 większą od innej.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q8_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "51",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród liczb w polach są 17 i 21. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>51</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>51</mn></mrow></math>, szukana liczba to 51.</p>",
+    "punktacja_html": "<p>1 punkt – za poprawną odpowiedź</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "mnóż po kolei każdą liczbę z kółek przez 3 i sprawdzaj, czy wynik minus 30 też tam jest",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>0,5</mn></mrow></mfrac></math> dla pewnej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa 0,5. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>0,5</mn></mrow></mfrac></math> dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa __________ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>0,5</mn></mrow></mfrac><mo>=</mo><mn>0,5</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>0,5</mn><mo>=</mo><mn>2</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1,5</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mn>0,5</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>1</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>1 punkt – za poprawną odpowiedź</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pierwszego warunku wyznacz x, potem wstaw go do drugiego wyrażenia",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Z figur takich, jak na rysunku nr 1, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> centymetrów, zbudowano figurę taką, jak na rysunku nr 2, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>39</mn></mrow></math> cm i figurę taką, jak na rysunku nr 3, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>21</mn></mrow></math> cm.</p><p>Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> figury na rysunku 1. jest równa __________ centymetrów.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "15",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rysunek 2. (5 figur) ma wysokość 39 cm, a rysunek 3. (2 figury) — 21 cm. Trzy dodatkowe figury podnoszą wysokość o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>39</mn><mo>−</mo><mn>21</mn><mo>=</mo><mn>18</mn></mrow></math> cm, więc jedna dodatkowa figura dokłada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math> cm. Rysunek 3. to jedna figura (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>) plus jedna dodatkowa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>21</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>15</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>1 punkt – za poprawną odpowiedź</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "porównaj rysunki 2 i 3: o ile figur i o ile centymetrów się różnią",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek",
+     "plot-i-slupki"
+    ],
+    "opis": "Wewnętrzna krawędź najwyższego elementu wygląda jak kolejny element; n elementów daje n−1 przesunięć."
+   }
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Są cztery liczby naturalne, będące jednocześnie wielokrotnością liczby 10 i dzielnikiem liczby 1110. Dwie z nich, to 10 i 1110.</p><p>Dwie pozostałe, to __________ i __________ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "30 i 370",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1110</mn><mo>=</mo><mn>10</mn><mo>·</mo><mn>111</mn><mo>=</mo><mn>10</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>37</mn></mrow></math>. Wielokrotności 10, które dzielą 1110, to 10 razy dzielnik liczby 111 (1, 3, 37, 111): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>,</mo><mn>30</mn><mo>,</mo><mn>370</mn><mo>,</mo><mn>1110</mn></mrow></math>. Pozostałe dwie to 30 i 370.</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "podziel 1110 przez 10 i rozłóż na czynniki to, co zostanie",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Z kwadratów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> oraz z rombów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> zbudowano figurę przedstawioną na rysunku poniżej. Literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> oznaczono na rysunku niektóre kąty. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>°</mo></mrow></math>.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest równa __________ stopni.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> jest równa __________ stopni.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "β = 70°, γ = 160°",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W punkcie wspólnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> kąty dają pełny obrót 360°: kąt kwadratu to 90°, kąt rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>=</mo><mn>160</mn><mo>°</mo></mrow></math> (kąty przyległe rombu sumują się do 180°). Kąt rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> w tym punkcie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>160</mn><mo>°</mo><mo>=</mo><mn>110</mn><mo>°</mo></mrow></math>, więc przyległy do niego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>110</mn><mo>°</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math>. W drugim wspólnym wierzchołku (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math>) analogicznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>110</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>160</mn><mo>°</mo></mrow></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty przy wspólnym wierzchołku dają 360°, a sąsiednie kąty rombu 180°",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Suma długości wszystkich krawędzi małego sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> jest równa obwodowi jednej ściany dużego sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>.</p><p>Pole jednej ściany sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> stanowi __________ pola powierzchni całkowitej sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>.</p><p>Objętość sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest __________ razy większa od objętości sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1,5 i 27",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>m</mi><mo>=</mo><mn>4</mn><mi>d</mi></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>3</mn><mi>m</mi></mrow></math>. Pole ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>m</mi><mn>2</mn></msup></mrow></math>, pole całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>m</mi><mn>2</mn></msup></mrow></math>, stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,5</mn></mrow></math>. Objętości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>3</mn></msup><mo>:</mo><msup><mi>m</mi><mn>3</mn></msup><mo>=</mo><mn>27</mn><mo>:</mo><mn>1</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij krawędź małego sześcianu za 1 i wyznacz z warunku krawędź dużego",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W zapisie mnożenia pisemnego, przedstawionym poniżej, użyto wszystkich cyfr: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, przy czym cztery cyfry zastąpiono literami. Różnym literom odpowiadają różne cyfry.</p><p>Literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> oznaczono cyfrę __________ .</p><p>Literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> oznaczono cyfrę __________ .</p><p>Literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> oznaczono cyfrę __________ .</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A = 0, B = 3, C = 5",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>28</mn></mrow></math> — zapisujemy 8, przenosimy 2. Dziesiątki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>A</mi><mo>+</mo><mn>2</mn></mrow></math> ma kończyć się na 2, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>A</mi></mrow></math> kończy się na 0: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> to 0 lub 5. Setki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>36</mn></mrow></math> ma dać cyfrę 6 bez przeniesienia z dziesiątek, co pasuje tylko do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math> (przenosimy 3). Zostają cyfry 1, 3, 5 na B, C i przeniesienie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>15</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mn>5</mn></mrow></math> (przeniesienie 1 to D).</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> podzielony jest na cztery figury tak, jak na rysunku poniżej. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> to kwadraty, przy czym obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest równy 36 cm, a obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> wynosi 16 cm. Figura <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> ma obwód 72 cm.</p><p>Obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> jest równy __________ cm.</p><p>Obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równy __________ cm.</p><p>Pole figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest równe __________ cm².</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_dolnoslaskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "obwód M = 28 cm, obwód ABCD = 80 cm, pole F = 254 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Boki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>36</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>l</mi><mo>=</mo><mn>16</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>4</mn></mrow></math> cm. Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mi>k</mi><mo>+</mo><mi>l</mi><mo>+</mo><mi>m</mi><mo>=</mo><mn>13</mn><mo>+</mo><mi>m</mi></mrow></math>. Brzeg F to trzy boki ABCD (bez dolnego) plus schodek między K, L i M zamiast czwartego boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>s</mi><mo>+</mo><mi>k</mi><mo>−</mo><mi>l</mi><mo>+</mo><mi>m</mi><mo>=</mo><mn>72</mn></mrow></math>. Po podstawieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>m</mi><mo>+</mo><mn>44</mn><mo>=</mo><mn>72</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>m</mi><mo>=</mo><mn>7</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>20</mn></mrow></math>. Obwód M: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>28</mn></mrow></math> cm. Obwód ABCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>80</mn></mrow></math> cm. Pole F: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>20</mn><mn>2</mn></msup><mo>−</mo><msup><mn>9</mn><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><msup><mn>7</mn><mn>2</mn></msup><mo>=</mo><mn>254</mn></mrow></math> cm².</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2025_dolnoslaskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math> — to trzy graniastosłupy takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math> ma tyle krawędzi, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math> wierzchołków, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math> ma tyle ścian, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math> krawędzi. Te trzy graniastosłupy mają łącznie 84 wierzchołki.</p><p>Liczba wierzchołków graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>, to __________ .</p><p>Liczba ścian graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>, to __________ .</p><p>Liczba krawędzi graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math>, to __________ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "wierzchołki G₁ = 24, ściany G₂ = 10, krawędzie G₃ = 66",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math> mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>n</mi><mn>3</mn></msub></math> boków (wierzchołki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math>, krawędzie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi></mrow></math>, ściany: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math>). Warunki zadania dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msub><mi>n</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><msub><mi>n</mi><mn>1</mn></msub></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>n</mi><mn>3</mn></msub><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn><msub><mi>n</mi><mn>2</mn></msub></mrow></math>, a suma wszystkich wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>n</mi><mn>2</mn></msub><mo>+</mo><msub><mi>n</mi><mn>3</mn></msub><mo>)</mo><mo>=</mo><mn>84</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>n</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>n</mi><mn>2</mn></msub><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>n</mi><mn>3</mn></msub><mo>=</mo><mn>22</mn></mrow></math>. Wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math>. Ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>. Krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>66</mn></mrow></math>.</p>",
+    "punktacja_html": "<p>Po 1 punkcie – za każdy poprawny element odpowiedzi</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Każda luka pyta o inną wielkość (wierzchołki, ściany, krawędzie), a nie o liczbę boków podstawy."
+   }
+  }
+ ]
+}

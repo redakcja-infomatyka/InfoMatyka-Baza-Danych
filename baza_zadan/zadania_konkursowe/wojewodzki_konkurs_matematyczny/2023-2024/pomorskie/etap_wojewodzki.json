@@ -1,0 +1,184 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "pomorskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 6,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023-2024_pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 5,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość poniższych zdań. Jeśli zdanie jest prawdziwe – zamaluj kratkę pod literą P, a jeśli fałszywe – zamaluj kratkę pod literą F.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Istnieją cztery liczby naturalne, których suma jest liczbą nieparzystą i których iloczyn też jest liczbą nieparzystą."
+    },
+    {
+     "litera": "2",
+     "html": "Ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>3</mn></msup></math> jest równa 4."
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>1</mn><mo>·</mo><mn>2</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>·</mo><mn>3</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>·</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mo>…</mo><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2023</mn><mo>·</mo><mn>2024</mn></mrow></mfrac><mo>=</mo><mfrac><mn>2023</mn><mn>2024</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "4",
+     "html": "Jeśli liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 3, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow></math> przy dzieleniu przez 5 daje resztę 4."
+    },
+    {
+     "litera": "5",
+     "html": "Liczba wszystkich trójkątów znajdujących się na poniższym rysunku jest równa 9. <img src=\"figures/wojewodzki_2023-2024_pomorskie_q1_fig1.png\" alt=\"rysunek do zadania 1\" style=\"display:block;max-width:280px;height:auto;margin-top:8px\">"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Iloczyn czterech liczb jest nieparzysty tylko, gdy wszystkie są nieparzyste, a suma czterech liczb nieparzystych jest zawsze parzysta — <b>F</b>.</li><li>Kolejne potęgi liczby 4 kończą się na 4, 6, 4, 6, …, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>3</mn></msup></math> kończy się na 4 — <b>P</b>.</li><li>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>, suma teleskopuje do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>2024</mn></mfrac><mo>=</mo><mfrac><mn>2023</mn><mn>2024</mn></mfrac></mrow></math> — <b>P</b>.</li><li>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>3</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>10</mn><mi>k</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>4</mn></mrow></math> — <b>P</b>.</li><li>Z wierzchołka wychodzi 5 odcinków do podstawy (10 trójkątów w parach z podstawą), a poziomy odcinek przecina tylko 4 z nich (kolejne 6 trójkątów) — razem 16, a nie 9 — <b>F</b>.</li></ul>",
+    "punktacja_html": "<p>Za każdą prawidłową odpowiedź uczeń otrzymuje jeden punkt.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q2",
+   "numer": 2,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę spodni najpierw podwyższono o 20%, a następnie nową cenę obniżono o 20%. Po tych zmianach spodnie kosztują 240 zł. Ile kosztowały te spodnie przed obiema zmianami? Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "250 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza początkową cenę spodni. Po podwyżce o 20% cena wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>x</mi></mrow></math>, a po obniżce tej ceny o 20% mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>1,2</mn><mi>x</mi><mo>=</mo><mn>240</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,96</mn><mi>x</mi><mo>=</mo><mn>240</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>250</mn></mrow></math>.</p><p>Odpowiedź: Spodnie kosztowały 250 zł.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zastosuje poprawną metodę obliczenia ceny spodni po podwyżce albo przed obniżką.</li><li>Uczeń otrzymuje 2 punkty, gdy zastosuje poprawną metodę obliczenia ceny spodni przed obiema zmianami i poda prawidłową odpowiedź.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podwyżka o 20% i obniżka o 20% nie znoszą się, bo procenty liczy się od różnych podstaw"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q3",
+   "numer": 3,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "stężenie procentowe / mieszaniny",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>W pewnym zakładzie stopiono trzy różne stopy złota: stop I, stop II oraz stop III i otrzymano 700 gramów stopu, w którym czyste złoto stanowi 75% jego masy. Stosunek mas użytych stopów jest równy odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>:</mo><mn>12</mn><mo>:</mo><mn>15</mn></mrow></math>. Stosunek mas czystego złota zawartego w tych stopach jest równy odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>:</mo><mn>8</mn><mo>:</mo><mn>10</mn></mrow></math>. Oblicz, w którym stopie zawartość procentowa złota była największa.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "W stopie I (zawartość złota: I – 91⅞%, II – 70%, III – 70%)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Suma części stosunku mas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>35</mn></mrow></math>, a na jedną część przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>700</mn><mo>:</mo><mn>35</mn><mo>=</mo><mn>20</mn></mrow></math> g. Masy stopów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>I</mtext><mo>=</mo><mn>160</mn></mrow></math> g, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>II</mtext><mo>=</mo><mn>240</mn></mrow></math> g, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>III</mtext><mo>=</mo><mn>300</mn></mrow></math> g.</p><p>Masa czystego złota w całym stopie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>700</mn><mo>·</mo><mn>0,75</mn><mo>=</mo><mn>525</mn></mrow></math> g. Suma części stosunku mas złota: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>25</mn></mrow></math>, na jedną część przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>525</mn><mo>:</mo><mn>25</mn><mo>=</mo><mn>21</mn></mrow></math> g. Masy złota: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>I</mtext><mo>=</mo><mn>147</mn></mrow></math> g, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>II</mtext><mo>=</mo><mn>168</mn></mrow></math> g, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>III</mtext><mo>=</mo><mn>210</mn></mrow></math> g.</p><p>Zawartość procentowa złota: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>I</mtext><mo>:</mo><mfrac><mn>147</mn><mn>160</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>91</mn><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>%</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>II</mtext><mo>:</mo><mfrac><mn>168</mn><mn>240</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>70</mn><mo>%</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>III</mtext><mo>:</mo><mfrac><mn>210</mn><mn>300</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>70</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: Największa procentowa zawartość złota jest w stopie I.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy prawidłowo obliczy masy stopów albo obliczy masy czystego złota w stopach.</li><li>Uczeń otrzymuje 2 punkty, gdy prawidłowo obliczy masy stopów i obliczy masy czystego złota w stopach.</li><li>Uczeń otrzymuje 3 punkty, gdy poda prawidłową odpowiedź.</li></ul><p>Uwaga! Uczeń może pominąć jednostki w obliczeniach.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie licz gramów — porównaj dla każdego stopu stosunek części złota do części masy",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q4",
+   "numer": 4,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W pewnym graniastosłupie czworokątnym prostym wszystkie ściany boczne są kwadratami. Przekątne podstawy tego graniastosłupa mają długości 10 i 24. Oblicz pole powierzchni całkowitej tego graniastosłupa.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "916",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ przekątne podstawy są różnej długości, a wszystkie ściany boczne są przystającymi kwadratami (jednakowe krawędzie podstawy), podstawą graniastosłupa jest romb. Krawędź podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> obliczamy z twierdzenia Pitagorasa dla połówek przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>169</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>13</mn></mrow></math>.</p><p>Ściany boczne są kwadratami, więc wysokość graniastosłupa jest równa 13. Pole podstawy (romb): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mn>10</mn><mo>·</mo><mn>24</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>120</mn></mrow></math>. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>13</mn><mo>·</mo><mn>13</mn><mo>=</mo><mn>676</mn></mrow></math>.</p><p>Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>120</mn><mo>+</mo><mn>676</mn><mo>=</mo><mn>916</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zauważy, że podstawą graniastosłupa jest romb i obliczy długość krawędzi podstawy.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy pole powierzchni całkowitej graniastosłupa.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z połówek przekątnych (5 i 12) wyznacz bok podstawy; wysokość bryły jest taka sama jak ten bok",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q5",
+   "numer": 5,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podobieństwo i skala",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math> wiedząc, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległy do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn></mrow></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023-2024_pomorskie_q5_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "12",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math>, trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> są podobne. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>4</mn></mrow><mn>8</mn></mfrac></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>4</mn><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>24</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Odpowiedź: Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math> jest równa 12.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zastosuje poprawną metodę obliczenia długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy prawidłowo obliczy długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math>.</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trójkąty EAB i ECD są podobne, bo AB ∥ CD; zauważ, że EC to EA powiększone o 4",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek",
+     "inne:proporcja-z-odcinkiem-AC"
+    ],
+    "opis": "W podobieństwie trójkątów EAB i ECD bok to EC = EA + AC, a nie sam odcinek AC"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_pomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 6,
+   "tematy": [
+    "działania na pierwiastkach",
+    "proporcjonalność odwrotna",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>6.1</strong> Piechur porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>. Każdy jego krok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mtext> m</mtext></mrow></math>. Ile kroków wykona piechur w czasie 12 minut?</p><ul><li>A. 1000</li><li>B. 800</li><li>C. 640</li><li>D. 100</li></ul><p><strong>6.2</strong> Cztery pompy o jednakowej wydajności, pracując jednocześnie, wypompowały wodę zgromadzoną w zbiorniku w czasie 12 godzin. Ile takich pomp należałoby użyć, aby taką samą ilość wody wypompować w ciągu 6 godzin?</p><ul><li>A. 2</li><li>B. 3</li><li>C. 6</li><li>D. 8</li></ul><p><strong>6.3</strong> Marta ma 20 lat. Jej siostra Amelia za cztery lata będzie dwa razy młodsza od Marty. Ile lat temu Marta była trzy razy starsza od Amelii?</p><ul><li>A. 2 lata temu</li><li>B. 4 lata temu</li><li>C. 6 lat temu</li><li>D. 8 lat temu</li></ul><p><strong>6.4</strong> Drewnianą sześcienną kostkę o krawędzi 4 cm rozcięto na 64 jednakowe sześcienne kostki. Następnie 27 z tych kostek pomalowano na czerwono a pozostałe na niebiesko. Ze wszystkich niebieskich kostek ułożono prostopadłościan. Objętość otrzymanego prostopadłościanu jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>37</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>148</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li></ul><p><strong>6.5</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><msup><mrow><mo>(</mo><msqrt><mn>32</mn></msqrt><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>37</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>21</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn></mrow></math></li></ul><p><strong>6.6</strong> Wiadomo, że dzień 23 lutego 2025 roku to będzie niedziela. Zatem w 2025 roku w lutym</p><ul><li>A. będzie 5 sobót.</li><li>B. będzie 5 niedziel.</li><li>C. będą 4 niedziele.</li><li>D. będzie 5 poniedziałków.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6.1 – A, 6.2 – D, 6.3 – A, 6.4 – B, 6.5 – D, 6.6 – C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><strong>6.1</strong> 12 min = 0,2h; droga = 4·0,2 = 0,8km = 800m; kroki = 800/0,8 = 1000 → A.</p><p><strong>6.2</strong> 4 pompy · 12h = 48 pompo-godzin; przy 6h potrzeba 48/6 = 8 pomp → D.</p><p><strong>6.3</strong> Za 4 lata Marta ma 24, Amelia ma 12, więc teraz Amelia ma 8. 20−t = 3(8−t) ⇒ t=2 → A.</p><p><strong>6.4</strong> 64 kostki − 27 czerwonych = 37 niebieskich, każda o objętości 1cm³, więc prostopadłościan (np. 1×1×37) ma objętość 37cm³ → B.</p><p><strong>6.5</strong> √32=4√2, √8=2√2, różnica=2√2, kwadrat=8; 3−8=−5 → D.</p><p><strong>6.6</strong> 2025 nie jest przestępny, luty ma 28 dni = dokładnie 4 tygodnie, więc każdy dzień tygodnia (w tym niedziela) występuje dokładnie 4 razy → C.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kalendarz-czas"
+    ],
+    "opis": "6.6: luty 2025 nie jest przestępny (arkusz z roku przestępnego 2024); poza tym 6.5 (a−b)² ≠ a²−b², 6.1 metry zamiast kroków"
+   }
+  }
+ ]
+}

@@ -1,0 +1,723 @@
+{
+ "konkurs": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+ "etap": "szkolny",
+ "wojewodztwo": "dolnoslaskie",
+ "rok_szkolny": "2020/2021",
+ "data": "2020-10-21",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 20,
+ "max_punktow": 25,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2021_dolnoslaskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2021_dolnoslaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "potęgi i pierwiastki",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych, których kwadrat jest trzycyfrowy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20"
+    },
+    {
+     "litera": "B",
+     "html": "21"
+    },
+    {
+     "litera": "C",
+     "html": "22"
+    },
+    {
+     "litera": "D",
+     "html": "23"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat liczby naturalnej jest trzycyfrowy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><msup><mi>n</mi><mn>2</mn></msup><mo>≤</mo><mn>999</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>31</mn><mn>2</mn></msup><mo>=</mo><mn>961</mn><mo>,</mo><msup><mn>32</mn><mn>2</mn></msup><mo>=</mo><mn>1024</mn></math>, n przyjmuje wartości od 10 do 31, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>31</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math> liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, od której liczby kwadraty robią się trzycyfrowe, a od której czterocyfrowe",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie liczb od 10 do 31 włącznie: łatwo odjąć końce i zgubić jedną liczbę"
+   }
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Wojtek ułożył poprawny (zgodnie z aktualnie obowiązującymi zasadami) zapis liczby w systemie rzymskim, używając kartoników z zapisanymi na nich znakami z tego systemu.</p><p>Jeden z kartoników odwrócił tak, że znak na nim zapisany jest niewidoczny. Liczba Wojtka zapisana w systemie dziesiętnym, to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "346"
+    },
+    {
+     "litera": "B",
+     "html": "456"
+    },
+    {
+     "litera": "C",
+     "html": "355"
+    },
+    {
+     "litera": "D",
+     "html": "406"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021_dolnoslaskie_q2_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odsłonięte kartoniki tworzą zapis C C C _ L V I. Ukryty znak musi dawać poprawny zapis rzymski: jeśli to X, powstaje CCCXLVI = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>346</mn></math>. Każda inna cyfra łamałaby zasady zapisu (np. czwarte C z rzędu albo powtórzone L), więc jest to jedyna możliwość.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj osobno CCC i LVI, a zakryty kartonik stoi tuż przed L, więc się odejmuje",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Za pomocą cyfr 1, 2, 3 zapisano wszystkie liczby trzycyfrowe o każdej cyfrze innej. Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> odpowiednio najmniejszą i największą z tych liczb. Ile jest liczb nieparzystych większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, ale mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "198"
+    },
+    {
+     "litera": "B",
+     "html": "197"
+    },
+    {
+     "litera": "C",
+     "html": "99"
+    },
+    {
+     "litera": "D",
+     "html": "98"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Najmniejsza z liczb to k = 123, największa m = 321. Liczby nieparzyste większe od 123 i mniejsze od 321 to kolejne liczby nieparzyste od 125 do 319 — jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>319</mn><mo>−</mo><mn>125</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>98</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal tylko najmniejszą i największą z sześciu liczb, a potem licz co drugą liczbę między nimi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Ostro między k i m (bez końców), i chodzi o wszystkie liczby nieparzyste, nie tylko z cyfr 1, 2, 3"
+   }
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Pewien rok zwykły rozpoczął się w poniedziałek. Ile razy w tym roku trzynasty dzień miesiąca wypadnie w piątek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1 stycznia to poniedziałek, więc 13 stycznia (12 dni później, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> mod </mtext><mn>7</mn><mo>=</mo><mn>5</mn></math>) wypada w sobotę. Każdy kolejny miesiąc przesuwa dzień tygodnia 13. dnia o resztę z dzielenia liczby dni tego miesiąca przez 7. Licząc kolejno wszystkie miesiące, piątek 13. wypada wyłącznie 13 kwietnia i 13 lipca — czyli 2 razy.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile dzielników jednocyfrowych ma liczba 5544?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5544</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>. Wśród cyfr 1–9 liczba 5544 dzieli się przez 1, 2, 3, 4, 6, 7, 8, 9 (nie dzieli się przez 5, bo nie kończy się na 0 ani 5) — to 8 dzielników.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przejdź po kolei cechy podzielności przez cyfry od 2 do 9",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:dzielnik-jeden"
+    ],
+    "opis": "Liczba 1 też jest dzielnikiem jednocyfrowym, łatwo ją pominąć przy wypisywaniu"
+   }
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Który z podanych ułamków jest największy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>23</mn><mn>45</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>234</mn><mn>567</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2345</mn><mn>6789</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Porównajmy każdy ułamek z 2/3 przez mnożenie na krzyż: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>69</mn><mo>&lt;</mo><mn>45</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>90</mn></math>; podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>234</mn><mo>·</mo><mn>3</mn><mo>&lt;</mo><mn>567</mn><mo>·</mo><mn>2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2345</mn><mo>·</mo><mn>3</mn><mo>&lt;</mo><mn>6789</mn><mo>·</mo><mn>2</mn></math>. Każdy z pozostałych ułamków jest więc mniejszy od 2/3 — to on jest największy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj każdy ułamek z ½, a te, które są większe, porównaj ze sobą",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach",
+    "wyłączanie czynnika przed znak pierwiastka"
+   ],
+   "tresc_html": "<p>Wskaż równość fałszywą.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>5</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mo>−</mo><mn>5</mn></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mn>40</mn><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><msqrt><mfrac><mn>9</mn><mn>4</mn></mfrac></msqrt><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><msqrt><mfrac><mn>1</mn><mn>4</mn></mfrac></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mn>1</mn><mn>4</mn></mfrac></msqrt><mo>−</mo><msqrt><mfrac><mn>1</mn><mn>16</mn></mfrac></msqrt><mo>=</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>·</mo><msqrt><mfrac><mn>1</mn><mn>64</mn></mfrac></msqrt><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>·</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdźmy równość D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>·</mo><msqrt><mfrac><mn>1</mn><mn>64</mn></mfrac></msqrt><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>64</mn></msqrt><mo>·</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot><mo>=</mo><mn>8</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>2</mn></math>. Strony są różne, więc to równość fałszywa.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno obie strony każdej równości — wszystkie te pierwiastki wychodzą wymierne",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Na talerzu było 45 śliwek. Asia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math> wszystkich śliwek, Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> tego, co pozostało, Jurek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math> tych śliwek, które zostawiła mu Kasia, a Wojtek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> reszty. Wskaż zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Wojtek zjadł więcej śliwek niż każda z pozostałych osób."
+    },
+    {
+     "litera": "B",
+     "html": "Dziewczęta zjadły razem więcej śliwek niż chłopcy."
+    },
+    {
+     "litera": "C",
+     "html": "Wojtek zostawił na talerzu mniej niż 20 śliwek."
+    },
+    {
+     "litera": "D",
+     "html": "Każda z tych czterech osób zjadła po tyle samo śliwek."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Asia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 40. Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 35. Jurek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>·</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 30. Wojtek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>·</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mn>5</mn></math>. Każda z czterech osób zjadła po 5 śliwek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "po każdej osobie licz, ile śliwek zostaje na talerzu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Wielokąt przedstawiony na rysunku ma obwód 28. Dwa dłuższe boki są tej samej długości i wszystkie krótsze boki są też tej samej długości. Ponadto każde dwa sąsiednie boki są prostopadłe. Z dwóch takich wielokątów można ułożyć prostokąt. Ile jest równy obwód tego prostokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30"
+    },
+    {
+     "litera": "B",
+     "html": "42"
+    },
+    {
+     "litera": "C",
+     "html": "48"
+    },
+    {
+     "litera": "D",
+     "html": "56"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021_dolnoslaskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obwód wielokąta to dwa dłuższe boki plus wszystkie stopnie: suma poziomych odcinków schodów równa się długości dłuższego boku i tak samo suma pionowych, więc obwód = 4 razy dłuższy bok = 28, stąd dłuższy bok ma 7. Schody mają 7 stopni, więc każdy stopień ma długość 7 : 7 = 1. Dwa takie wielokąty (jeden obrócony o 180°) układają się w prostokąt o bokach 7 i 7 + 1 = 8, więc jego obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>30</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przesuń schodki na brzegi — obwód zamienia się w cztery długie boki; potem złóż dwie figury",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W kratki zapisu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mo>□</mo><mo>+</mo><mn>11</mn><mo>·</mo><mo>□</mo></math> wpisano dwie różne liczby naturalne takie, że wartość tego wyrażenia jest równa 100. Ile jest równa suma obu wpisanych liczb?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "11"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "13"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukamy liczb naturalnych x, y spełniających <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>x</mi><mo>+</mo><mn>11</mn><mi>y</mi><mo>=</mo><mn>100</mn></math>. Sprawdzając kolejne wartości y, jedynym rozwiązaniem w liczbach naturalnych jest y = 4, x = 8 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>11</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>100</mn></math>). Suma wpisanych liczb to 8 + 4 = 12.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmuj od 100 kolejne wielokrotności 11 i patrz, kiedy reszta dzieli się przez 7",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Na osi liczbowej zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, któremu odpowiada liczba −19, i punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, któremu odpowiada liczba 46. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> podzielono na pięć równych części. Która z podanych liczb odpowiada jednemu z punktów tego podziału?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−7"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "20"
+    },
+    {
+     "litera": "D",
+     "html": "34"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odcinek AB ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>46</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>19</mn><mo>)</mo><mo>=</mo><mn>65</mn></math>, więc każda z pięciu części ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>65</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>13</mn></math>. Punkty podziału to −19, −6, 7, 20, 33, 46. Wśród podanych liczb jest to 20.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz długość odcinka AB i podziel ją na pięć części",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "czworokąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi><mo>=</mo><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi><mo>=</mo><mi>CD</mi></math> (patrz rysunek). Wskaż zdanie fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Półprosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na dwa równe kąty."
+    },
+    {
+     "litera": "B",
+     "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest równy kątowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest dwa razy większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest trzykrotnie większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021_dolnoslaskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech kąt BAD = kąt ABC = α (kąty przy dłuższej podstawie), wtedy kąt ADC = kąt BCD = 180° − α. Ponieważ BA = BD, kąt ADB = α, więc kąt BDC = 180° − 2α. Ponieważ CB = CD, kąt DBC = kąt BDC. Z sumy kątów trójkąta BCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180°</mn><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mn>2</mn><mo>(</mo><mn>180°</mn><mo>−</mo><mn>2</mn><mi>α</mi><mo>)</mo><mo>=</mo><mn>180°</mn></math>, stąd α = 72°. Zatem kąt BAD = 72°, a kąt BCD = 108° ≠ 2 · 72° = 144°, więc zdanie C jest fałszywe.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Do zapisu trzech kolejnych liczb parzystych użyto łącznie 8 cyfr. Wskaż zdanie fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Dwie z tych liczb są trzycyfrowe."
+    },
+    {
+     "litera": "B",
+     "html": "Suma tych liczb dzieli się przez 75."
+    },
+    {
+     "litera": "C",
+     "html": "Jedna z tych liczb dzieli się przez 7."
+    },
+    {
+     "litera": "D",
+     "html": "Najwięcej dzielników ma największa z nich."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy kolejne liczby parzyste zapisane łącznie 8 cyframi to 98, 100, 102 (2+3+3 cyfr przy przejściu z liczby dwucyfrowej na trzycyfrowe). Liczba dzielników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>98</mn><mo>=</mo><msup><mn>2</mn><mn>1</mn></msup><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup></math> ma 6, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> ma 9, a 102 = 2 · 3 · 17 ma 8. Najwięcej dzielników ma środkowa liczba, nie największa — zdanie D jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zastanów się, jak 8 cyfr rozkłada się na trzy kolejne liczby parzyste",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kartkę w kształcie trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o obwodzie 54 cm (patrz rysunek 1.) złożono tak jak na rysunku 2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math>. Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′BCD</mi></math> jest równy</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "48 cm"
+    },
+    {
+     "litera": "B",
+     "html": "42 cm"
+    },
+    {
+     "litera": "C",
+     "html": "36 cm"
+    },
+    {
+     "litera": "D",
+     "html": "27 cm"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021_dolnoslaskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>18</mn></math>. Niech AE = x. Zgięcie wzdłuż DE⊥AB przenosi A na A′, więc EA′ = x i A′B = 18 − 2x. Ponieważ A′ jest środkiem EB, x = 18 − 2x, skąd x = 6. W trójkącie ADE (kąt 60°) AD = 2x = 12, więc DC = 6 i DA′ = DA = 12. Obwód A′BCD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>42</mn></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zginanie nie zmienia długości: DA′ = DA, więc dwa boki czworokąta składają się w cały bok trójkąta",
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Skrzynka z mandarynkami ma masę 12 kg, z czego 15% to masa samej skrzynki. W ciągu dnia sprzedano część mandarynek i teraz masa samej skrzynki stanowi 20% masy skrzynki wraz z pozostałymi mandarynkami. Ile kilogramów mandarynek sprzedano?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,8 kg"
+    },
+    {
+     "litera": "B",
+     "html": "3 kg"
+    },
+    {
+     "litera": "C",
+     "html": "3,6 kg"
+    },
+    {
+     "litera": "D",
+     "html": "6 kg"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Masa skrzynki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>0,15</mn><mo>=</mo><mn>1,8</mn></math> kg, mandarynek początkowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mn>1,8</mn><mo>=</mo><mn>10,2</mn></math> kg. Gdy skrzynka stanowi 20% całości, całość waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,8</mn><mo>:</mo><mn>0,2</mn><mo>=</mo><mn>9</mn></math> kg, więc mandarynek zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>−</mo><mn>1,8</mn><mo>=</mo><mn>7,2</mn></math> kg. Sprzedano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10,2</mn><mo>−</mo><mn>7,2</mn><mo>=</mo><mn>3</mn></math> kg.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "masa samej skrzynki się nie zmienia — to ona jest stałym punktem odniesienia",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Wśród liczb pięciocyfrowych, których zapis dziesiętny ma postać 2244*, gdzie gwiazdką oznaczono cyfrę jedności, są dwie liczby pierwsze. Tymi liczbami są:</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "22441, 22447",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba pierwsza postaci 2244* musi być nieparzysta i nie może kończyć się cyfrą 5, więc kandydatami są 22441, 22443, 22447 i 22449. Liczby 22443 (suma cyfr 15) oraz 22449 (suma cyfr 21) są podzielne przez 3, więc odpadają. Pozostają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22441</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22447</mn></math> — obie są liczbami pierwszymi.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi — 1 p.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odrzuć końcówki parzyste i piątkę, a resztę przesiej cechą podzielności przez 3",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Za pomocą cyfr 1, 2, 3, 4 utworzono wszystkie liczby czterocyfrowe o każdej cyfrze innej. Liczby te zapisano w kolejności od najmniejszej do największej.</p><ul><li>Liczba 4213 znajduje się w tym zapisie na __________ miejscu.</li><li>Na 13. miejscu w tym zapisie znajduje się liczba __________ .</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "21; 3124",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Z cyfr 1, 2, 3, 4 można utworzyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math> liczby. Przed liczbami zaczynającymi się od cyfry 4 stoi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> liczb; wśród zaczynających się od 4 kolejno są 4123, 4132, 4213, więc liczba 4213 stoi na 21. miejscu. Miejsca 1–6 zajmują liczby z cyfrą 1 na początku, miejsca 7–12 z cyfrą 2, a 13. miejsce to pierwsza liczba z cyfrą 3 na początku, czyli 3124.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi — 1 p.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz blokami — wszystkie liczby o tej samej pierwszej cyfrze stoją obok siebie",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas",
+    "procenty"
+   ],
+   "tresc_html": "<p>Dwie kolejki w lunaparku jeżdżą po zamkniętych torach o długości 40 m. Pierwsza z nich porusza z prędkością 0,5 m/s, a druga z prędkością o 20% mniejszą. Kolejki ruszyły w tym samym momencie.</p><ul><li>Jedno pełne okrążenie wolniejsza kolejka wykona w czasie o __________ sekund krótszym niż szybsza kolejka.</li><li>Gdy szybsza kolejka przejedzie jedno pełne okrążenie, wolniejszej pozostanie do przejechania jednego pełnego okrążenia jeszcze __________ metrów.</li></ul><p><em>Uwaga: w oficjalnym kluczu za pierwszy element nie przyznaje się punktów w związku z błędnym sformułowaniem, które pojawiło się w treści zdania (wolniejsza kolejka pokonuje okrążenie w czasie dłuższym, nie krótszym).</em></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "— (pierwszy element nieoceniany z powodu błędu w treści); 8",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Prędkość drugiej kolejki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>0,4</mn></math> m/s. Czasy jednego okrążenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>:</mo><mn>0,5</mn><mo>=</mo><mn>80</mn></math> s oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>:</mo><mn>0,4</mn><mo>=</mo><mn>100</mn></math> s (różnica 20 s, lecz wolniejsza kolejka jedzie dłużej, więc pierwszy podpunkt jest błędnie sformułowany i nie jest oceniany). Gdy szybsza kolejka pokona okrążenie w 80 s, wolniejsza przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>32</mn></math> m, więc do końca okrążenia pozostanie jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>−</mo><mn>32</mn><mo>=</mo><mn>8</mn></math> m.</p>",
+    "punktacja_html": "<p>Za drugi prawidłowy element odpowiedzi — 1 p.; za pierwszy element punktów nie przyznaje się.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w tym samym czasie wolniejsza kolejka pokonuje 80% drogi szybszej",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają, ile wolniejszej kolejce zostało do końca okrążenia, a nie ile przejechała"
+   }
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "trójkąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jeśli do miary najmniejszego kąta w pewnym trójkącie dodamy 3 stopnie, to otrzymamy miarę średniego kąta, a jeśli do miary najmniejszego dodamy 30 stopni, to otrzymamy miarę największego kąta w tym trójkącie.</p><ul><li>Miara najmniejszego kąta w tym trójkącie jest równa __________ stopni.</li><li>Miara największego kąta w tym trójkącie jest równa __________ stopni.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "49; 79",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie miarą najmniejszego kąta. Wtedy kąty trójkąta mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>30</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>33</mn><mo>=</mo><mn>180</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>49</mn></mrow></math>. Największy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>49</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>79</mn></mrow></math>°.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi — 1 p.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz wszystkie trzy kąty przez najmniejszy i skorzystaj z sumy 180°",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021_dolnoslaskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Są dwa prostopadłościany, które spełniają dwa następujące warunki:</p><ul><li>wymiary wyrażają się całkowitymi liczbami centymetrów;</li><li>jedna ze ścian tej bryły ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> cm², a inna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>39</mn></math> cm².</li></ul><ul><li>Pole powierzchni całkowitej tej z tych dwóch brył, która ma większą objętość, jest równe __________ cm².</li><li>Objętość tej z tych dwóch brył, która ma mniejsze pole powierzchni całkowitej, jest równa __________ cm³.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1758; 273",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wspólna krawędź dwóch ścian jest wspólnym dzielnikiem liczb 21 i 39; wspólne dzielniki to 1 i 3. Otrzymujemy dwa prostopadłościany: o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>7</mn><mo>×</mo><mn>13</mn></mrow></math> (pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>302</mn></math> cm², objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>273</mn></math> cm³) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>21</mn><mo>×</mo><mn>39</mn></mrow></math> (pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1758</mn></math> cm², objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>819</mn></math> cm³). Bryła o większej objętości (1 × 21 × 39) ma pole powierzchni całkowitej 1758 cm², a bryła o mniejszym polu powierzchni (3 × 7 × 13) ma objętość 273 cm³.</p>",
+    "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi — 1 p.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytania krzyżowe: pole bryły o większej objętości i objętość bryły o mniejszym polu"
+   }
+  }
+ ]
+}

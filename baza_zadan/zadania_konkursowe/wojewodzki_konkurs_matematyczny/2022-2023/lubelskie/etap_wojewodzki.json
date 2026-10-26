@@ -1,0 +1,544 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkoły podstawowej (lubelskie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "lubelskie",
+ "rok_szkolny": "2022/2023",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 19,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023_lubelskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023_lubelskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Która z liczb <u>nie</u> jest liczbą naturalną?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>2022</mn></msup><mo>+</mo><mn>8</mn></mrow><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>2023</mn></msup><mo>−</mo><mn>1</mn></mrow><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>1111</mn></msup><mo>+</mo><mn>2</mn></mrow><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>5555</mn></msup><mo>+</mo><mn>5</mn></mrow><mn>6</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba 10 przy dzieleniu przez 6 daje resztę 4, a każda kolejna potęga 10 też daje resztę 4 (bo 4·10=40, znów reszta 4). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>5555</mn></msup><mo>+</mo><mn>5</mn></math> ma resztę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, czyli 3 — nie dzieli się przez 6. Wyrażenie z odpowiedzi D nie jest więc liczbą naturalną.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź cechy podzielności liczników — najpierw parzystość, potem sumę cyfr",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Jaką liczbę otrzymamy, obliczając wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>49998</mn><mn>2</mn></msup><mo>−</mo><msup><mn>50002</mn><mn>2</mn></msup></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−400000"
+    },
+    {
+     "litera": "B",
+     "html": "400000"
+    },
+    {
+     "litera": "C",
+     "html": "−16"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math> dla a = 49998, b = 50002 mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>100000</mn></math>. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mo>·</mo><mn>100000</mn><mo>=</mo><mo>−</mo><mn>400000</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "to różnica kwadratów — użyj wzoru a²−b²=(a−b)(a+b) zamiast potęgować",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Odjemna jest mniejsza od odjemnika: różnica kwadratów daje wynik ujemny, a warianty mają oba znaki"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Jaki obwód ma pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> (rysunek), jeżeli wiadomo, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leży wewnątrz tego pięciokąta oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "mniejszy niż 30"
+    },
+    {
+     "litera": "B",
+     "html": "równy 30"
+    },
+    {
+     "litera": "C",
+     "html": "większy niż 30"
+    },
+    {
+     "litera": "D",
+     "html": "nie można tego obliczyć"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lubelskie_q3_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkt F dzieli pięciokąt na trójkąty FAB, FBC, FCD, FDE, FEA. Z nierówności trójkąta każdy bok pięciokąta jest krótszy od sumy sąsiednich odcinków z F, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>&lt;</mo><mo>|</mo><mi>FA</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>FB</mi><mo>|</mo></math>. Sumując pięć takich nierówności, obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>30</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każdy bok pięciokąta jest krótszy od sumy dwóch odcinków z F — dodaj te nierówności stronami",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Dane są dwa trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math> (rysunek), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></math>.</p><p>Która z poniższych informacji pozwala stwierdzić, że te trójkąty są przystające?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mi>δ</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>GE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mi>γ</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>GE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lubelskie_q4_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mn>5</mn></math> oraz równe kąty przy A i F (po 20°). Jeśli dodatkowo kąt przy C jest równy kątowi przy G (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mi>γ</mi></math>), to i trzeci kąt (przy B i przy E) musi być równy, bo suma kątów w trójkącie wynosi 180°. Dwa równe kąty i leżący między odpowiadającymi wierzchołkami równy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>EF</mi></math> dają przystawanie trójkątów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w obu trójkątach bok 5 wychodzi z wierzchołka kąta 20° — dopasuj do siebie pozostałe kąty",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek"
+    ],
+    "opis": "Odpowiadające kąty trzeba dobrać przez położenie względem boku 5 i kąta 20°, nie przez wygląd rysunku"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Powierzchnia boczna walca po rozłożeniu na płaszczyznę jest kwadratem o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math>). Jaka jest objętość tego walca?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>3</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mi>π</mi></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwinięcie powierzchni bocznej walca ma bok równy obwodowi podstawy i jednocześnie wysokości walca, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mi>r</mi><mo>=</mo><mi>a</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>a</mi></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bok kwadratu to i obwód podstawy, i wysokość walca — wylicz promień z 2πr = a",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Wszystkie przekątne wychodzące z jednego wierzchołka pewnego wielokąta dzielą go na 2023 trójkąty. Ile boków ma ten wielokąt?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2025",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątne poprowadzone z jednego wierzchołka n-kąta dzielą go na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>2</mn></math> trójkątów. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>2023</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2025</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij sobie, na ile trójkątów przekątne z jednego wierzchołka dzielą n-kąt",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "nierówności",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Dana jest nierówność</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>≤</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn></math>,</p><p>gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza niewiadomą.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Największą liczbą całkowitą, która nie należy do zbioru rozwiązań tej nierówności jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2020</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2021</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2022</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2023</mn></msup></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba 1 jest najmniejszą liczbą pierwszą spełniającą tę nierówność."
+    },
+    {
+     "litera": "3",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>6</mn><mo>−</mo><mroot><mn>111</mn><mn>3</mn></mroot></math> należy do zbioru rozwiązań tej nierówności."
+    },
+    {
+     "litera": "4",
+     "html": "Wszystkie liczby należące do zbioru rozwiązań tej nierówności należą także do zbioru rozwiązań nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Nierówność upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>≤</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mn>1</mn></math>.</p><p>1) Cztery kolejne potęgi liczby −1 (parzysta, nieparzysta, parzysta, nieparzysta) sumują się do 0 — to największa liczba całkowita spoza rozwiązania: P. 2) Liczba 1 nie jest liczbą pierwszą: F. 3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>111</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>6</mn><mo>−</mo><mroot><mn>111</mn><mn>3</mn></mroot><mo>&gt;</mo><mn>1</mn></math>: P. 4) Druga nierówność to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>1</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math> jej nie spełnia: F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zwiń (√2−x)(√2+x) i rozwiń kwadrat — x² się skróci i zostanie nierówność liniowa",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator"
+    ],
+    "opis": "Zd. 2: liczba 1 spełnia nierówność, ale nie jest pierwsza; zd. 4: brzeg x=1 przy nierówności ostrej"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "dwusieczna kąta / symetralna odcinka",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W trójkącie ostrokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> oraz dwusieczną kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, która przecięła bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DF</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBE</mi></math> ma miarę 24°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDF</mi></math> ma miarę 46°.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby.</p><ul><li>a) Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi …… stopni.</li><li>b) Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> ma miarę równą …… stopni.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 88°, b) 70°",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt BFD ma kąt prosty przy F, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBF</mi></math> to połowa kąta ABC (BD — dwusieczna): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∠</mo><mi>ABC</mi><mo>+</mo><mn>46</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>180</mn></math>, więc kąt ABC = 88°.</p><p>W trójkącie BEC (kąt prosty przy E) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>EBC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mo>∠</mo><mi>ACB</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBC</mi><mo>=</mo><mn>44</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBE</mi><mo>=</mo><mn>44</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>ACB</mi><mo>=</mo><mn>24</mn><mo>°</mo></math>, skąd kąt ACB = 70°.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Janek jest o 2 lata starszy od swojej siostry Zosi. Gdyby Zosia była dwa razy młodsza, a Janek o 6 lat młodszy, to byłby tyle samo razy starszy od siostry, ile razy jest od niej starszy teraz. Ile lat ma Janek, a ile jego siostra Zosia?</p><p>Uzupełnij zdanie, wpisując w puste miejsca tylko liczby.</p><p>Janek ma …… lat, a jego siostra Zosia ma …… lat.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Janek ma 12 lat, a jego siostra Zosia ma 10 lat",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math> oznacza wiek Janka, wtedy Zosia ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>−</mo><mn>2</mn></math> lat, a Janek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>J</mi><mrow><mi>J</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math> razy starszy. Po zmianie Zosia miałaby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>J</mi><mo>−</mo><mn>2</mn></mrow><mn>2</mn></mfrac></math> lat, a Janek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>−</mo><mn>6</mn></math> lat, przy tej samej wielokrotności, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>J</mi><mo>−</mo><mn>6</mn><mo>)</mo></math> (mnożąc równe ilorazy przez wspólny mianownik). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>12</mn></math>, a Zosia ma 10 lat.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz oba stosunki wieku — dzielenie przez połowę to mnożenie licznika przez 2",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>W pudełku umieszczono 5 białych kul, 12 czerwonych i 10 zielonych. Jaką najmniejszą liczbę kul trzeba wyjąć z pudełka, aby mieć pewność, że wśród wyjętych kul będzie co najmniej po jednej kuli każdego koloru?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "23",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W najgorszym razie najpierw wyjmiemy wszystkie kule dwóch liczniejszych kolorów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>22</mn></math> (czerwone i zielone), a białej wciąż może brakować. Kolejna, 23. kula, musi już być biała, bo innych nie zostało.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyobraź sobie najgorsze możliwe losowanie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "Pewność: najgorszy przypadek to wyjęcie wszystkich kul z dwóch NAJLICZNIEJSZYCH kolorów"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> (rysunek) wynosi 2, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ML</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>LB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>LK</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>. Jakie pole ma trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lubelskie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "14",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>K jest środkiem AM, więc trójkąty AKL i KLM (wspólny wierzchołek L, równe podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KM</mi><mo>|</mo></math>) mają równe pola: pole AKL = 2. L jest środkiem BK, więc podobnie pole ABL = pole AKL = 2, skąd pole ABK = 4. Analogicznie, ponieważ M jest środkiem CL, pole BCL = 4 i pole CAM = 4. Trójkąt ABC składa się z ABK, BCL, CAM i KLM, więc jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>14</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "punkty K, L, M są środkami odcinków — porównuj pola trójkątów o równych podstawach i wspólnej wysokości",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "bryły obrotowe"
+   ],
+   "tresc_html": "<p>Objętość kuli jest równa objętości stożka, w którym promień podstawy ma długość 3, a wysokość jest cztery razy od niego dłuższa.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby.</p><ul><li>a) Promień kuli ma długość …… .</li><li>b) Pole powierzchni kuli wynosi …… .</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 3, b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mi>π</mi></math>",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Stożek ma promień 3 i wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><mn>9</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn><mi>π</mi></math>. Z równości objętości kuli i stożka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>3</mn></msup><mo>=</mo><mn>36</mn><mi>π</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>R</mi><mn>3</mn></msup><mo>=</mo><mn>27</mn><mo>,</mo><mi>R</mi><mo>=</mo><mn>3</mn></math>. Pole powierzchni kuli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn><mi>π</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz objętość stożka i przyrównaj ją do wzoru na objętość kuli",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "symetrie",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> jest jednym z wierzchołków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego trójkąta jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest punktem symetrycznym do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> względem osi odciętych.</p><p>Uzupełnij poniższe zdania.</p><ul><li>c) Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne …… .</li><li>d) Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi …… jednostek kwadratowych.</li><li>e) Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi …… jednostek.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, d) 24, e) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math>",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>S jest środkiem AB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>A</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, a C jest symetryczne do B względem osi x: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>. AB jest poziomy, ma długość 12, a wysokość z C wynosi 4, więc pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>4</mn></math>, a z tw. Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><mn>16</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz B ze środka odcinka, C odbij względem osi x — dalej wystarczy trójkąt prostokątny",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Do ponumerowania stron encyklopedii <em>Matematyka bez tajemnic</em> użyto 2993 cyfry. Ile stron ma ta encyklopedia?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1025",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></math>, a strony 100–999 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>2700</mn></math> cyfr — razem 2889. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2993</mn><mo>−</mo><mn>2889</mn><mo>=</mo><mn>104</mn></math> cyfry na strony czterocyfrowe, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>104</mn><mn>4</mn></mfrac><mo>=</mo><mn>26</mn></math> stron. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>1025</mn></math> stron.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz osobno strony jedno-, dwu- i trzycyfrowe, potem sprawdź, ile cyfr zostało",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie stron w przedziałach: ile jest stron jedno-, dwu- i trzycyfrowych oraz od której strony liczyć dalej"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Antek wybrał pewną liczbę dwucyfrową i podzielił ją przez sumę jej cyfr. Otrzymał 5 i resztę 11. Gdy przestawił w tej liczbie cyfry i tak otrzymaną liczbę podzielił przez sumę jej cyfr powiększoną o otrzymaną wcześniej resztę, to iloraz wyniósł teraz 2, a reszta 19. Ułóż układ równań zgodny z treścią zadania, rozwiąż go i podaj liczbę, jaką wybrał Antek.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "76",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cyfrę dziesiątek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — cyfrę jedności wybranej liczby. Z treści zadania otrzymujemy układ równań:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mtable><mtr><mtd><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>5</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>+</mo><mn>11</mn></mtd></mtr><mtr><mtd><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>11</mn><mo>)</mo><mo>+</mo><mn>19</mn></mtd></mtr></mtable></math></p><p>Rozwiązując układ, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>6</mn></math>. Antek wybrał liczbę 76.</p>",
+    "punktacja_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Wprowadzenie oznaczeń i zapisanie jednego równania zgodnie z warunkami zadania – 1 pkt</li><li>Zapisanie układu równań zgodnie z warunkami zadania – 2 pkt</li><li>Rozwiązanie układu równań i poprawne obliczenie jednej niewiadomej (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7</mn></math>) – 3 pkt</li><li>Obliczenie drugiej niewiadomej i podanie liczby dwucyfrowej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>6</mn></math>, liczba 76) – 4 pkt</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W sześcianie o krawędzi długości 6 cm połączono odcinkami środki jego krawędzi. Następnie powstałe w ten sposób naroża odcięto. Oblicz pole powierzchni całkowitej bryły otrzymanej po odcięciu naroży.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>108</mn><mo>+</mo><mn>36</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Po połączeniu środków krawędzi sześcianu i odcięciu naroży powstaje bryła o 6 ścianach będących kwadratami i 8 ścianach będących trójkątami równobocznymi. Bok każdej z tych ścian to przekątna kwadratu o boku 3 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Pole ściany kwadratowej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>18</mn></math> cm², a pole ściany trójkątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> cm². Pole powierzchni całkowitej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>18</mn><mo>+</mo><mn>8</mn><mo>·</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>108</mn><mo>+</mo><mn>36</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>",
+    "punktacja_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Poprawne obliczenie pola powierzchni ściany wielościanu będącej kwadratem (18 cm²) – 1 pkt</li><li>Poprawne obliczenie długości boku trójkąta równobocznego będącego ścianą wielościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm) – 2 pkt</li><li>Poprawne obliczenie pola powierzchni ściany wielościanu będącej trójkątem równobocznym (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> cm²) – 3 pkt</li><li>Poprawne obliczenie pola wielościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>108</mn><mo>+</mo><mn>36</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm²) – 4 pkt</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "statystyka opisowa",
+    "procenty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Po sprawdzianie z działu <em>Liczby i działania</em> nauczyciel poinformował uczniów, że 30% piszących sprawdzian otrzymało piątkę, czwórkę otrzymało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> piszących, a pięciu uczniów otrzymało ocenę dostateczną. Pozostali uczniowie, którzy przystąpili do sprawdzianu, rozwiązali wszystkie zadania bezbłędnie i otrzymali szóstki. Średnia ocen ze sprawdzianu wyniosła 4,4. Ilu uczniów przystąpiło do sprawdzianu, a ilu otrzymało ocenę celującą?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Do sprawdzianu przystąpiło 30 uczniów, ocenę celującą otrzymało 4 uczniów",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów piszących sprawdzian. Wtedy piątek było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mi>x</mi></math>, czwórek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi></math>, trójek 5, a szóstek (ocen celujących) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mi>x</mi><mo>−</mo><mn>5</mn></math>. Średnia ocen wynosi 4,4:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,3</mn><mi>x</mi><mo>·</mo><mn>5</mn><mo>+</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>·</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>+</mo><mo>(</mo><mn>0,3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>·</mo><mn>6</mn></mrow><mi>x</mi></mfrac><mo>=</mo><mn>4,4</mn></math></p><p>Rozwiązując równanie, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math>. Ocenę celującą otrzymało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mo>·</mo><mn>30</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>4</mn></math> uczniów.</p>",
+    "punktacja_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Wprowadzenie oznaczeń i poprawne zapisanie liczby ocen celujących – 1 pkt</li><li>Poprawne zapisanie równania z jedną niewiadomą wyrażającego średnią ocen – 2 pkt</li><li>Obliczenie liczby uczniów piszących sprawdzian (30) – 3 pkt</li><li>Obliczenie liczby ocen celujących (4) – 4 pkt</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "dwusieczna kąta / symetralna odcinka"
+   ],
+   "tresc_html": "<p>Długości podstaw trapezu równoramiennego wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>23</mn><mn>1,2</mn></mfrac><mo>·</mo><mfrac><mn>12</mn><mn>10</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><msup><mn>13</mn><mn>2</mn></msup></msqrt></math>. Przekątna tego trapezu zawiera się w dwusiecznej kąta przy dłuższej podstawie. Oblicz długość wysokości tego trapezu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Podstawy trapezu mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>23</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>13</mn></math>. Ponieważ przekątna zawiera się w dwusiecznej kąta przy dłuższej podstawie, jeden z trójkątów, na które przekątna dzieli trapez, jest równoramienny, skąd ramię trapezu ma długość równą krótszej podstawie, czyli 13. Rzut ramienia na dłuższą podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>23</mn><mo>−</mo><mn>13</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></math>. Z twierdzenia Pitagorasa wysokość trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math>.</p>",
+    "punktacja_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Poprawne obliczenie długości podstaw trapezu (23 i 13) – 1 pkt</li><li>Zauważenie, że jeden z trójkątów, na które przekątna podzieliła trapez jest trójkątem równoramiennym, i poprawne podanie długości ramienia trapezu (13) – 2 pkt</li><li>Poprawne obliczenie długości wysokości trapezu (12) – 3 pkt</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023_lubelskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Ania w sklepie Dziwne rzeczy zakupiła przycisk do papieru. Na tekturowym pudełku, do którego zapakowany był przycisk, zapisane były informacje:</p><p><em>W pudełku znajduje się przedmiot w kształcie ostrosłupa prawidłowego trójkątnego, którego objętość wynosi</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math> <em>cm³. Stosunek długości wysokości ostrosłupa do długości krawędzi jego podstawy wynosi</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>1</mn></math>.</p><p>Oblicz długość wysokości ostrosłupa, o którym jest mowa w powyższej informacji.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy krawędź podstawy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>:</mo><mi>a</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>1</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>. Objętość ostrosłupa prawidłowego trójkątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>4</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>4</mn></mfrac><mo>=</mo><mn>16</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>64</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm.</p>",
+    "punktacja_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Poprawne zapisanie zależności długości wysokości ostrosłupa od długości krawędzi podstawy lub odwrotnie (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>) – 1 pkt</li><li>Poprawne zapisanie równania z jedną niewiadomą wyrażającego objętość ostrosłupa – 2 pkt</li><li>Obliczenie długości wysokości ostrosłupa (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm) – 3 pkt</li></ul>"
+   },
+   "czas_min": 5
+  }
+ ]
+}

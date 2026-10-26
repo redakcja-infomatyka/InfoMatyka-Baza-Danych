@@ -1,0 +1,590 @@
+{
+ "konkurs": "IV Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2019/2020",
+ "data": "2020-01-16",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 25,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2019-2020_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Każdego dnia lutego pewnego roku o godz. 6:00 Paweł mierzył i zapisywał temperaturę zewnętrzną. Chłopiec zauważył, że średnia temperatura o godz. 6:00 pierwszych pięciu dni lutego była równa (−2)°C, a średnia temperatura o godz. 6:00 pierwszych sześciu dni lutego była równa (−4)°C. Jaka temperatura była 6 lutego o godz. 6:00? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−14°C"
+    },
+    {
+     "litera": "B",
+     "html": "−8°C"
+    },
+    {
+     "litera": "C",
+     "html": "−6°C"
+    },
+    {
+     "litera": "D",
+     "html": "−3°C"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma temperatur z pierwszych pięciu dni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>10</mn></mrow></math>. Suma z pierwszych sześciu dni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>24</mn></mrow></math>. Temperatura 6 lutego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>24</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>10</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>14</mn></mrow></math>°C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień obie średnie na sumy temperatur i porównaj te sumy",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>W którym z poniższych przykładów cena towaru po obu zmianach będzie taka sama, jak cena towaru przed zmianami? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Podwyżka towaru o 30%, a potem obniżka o 30%."
+    },
+    {
+     "litera": "B",
+     "html": "Obniżka towaru o 40%, a potem podwyżka o 60%."
+    },
+    {
+     "litera": "C",
+     "html": "Podwyżka towaru o 10%, a potem obniżka o 15%."
+    },
+    {
+     "litera": "D",
+     "html": "Obniżka towaru o 20%, a potem podwyżka o 25%."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cena wraca do początkowej, gdy iloczyn współczynników obu zmian wynosi 1. A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,3</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>0,91</mn></mrow></math>. B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mo>·</mo><mn>1,6</mn><mo>=</mo><mn>0,96</mn></mrow></math>. C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,1</mn><mo>·</mo><mn>0,85</mn><mo>=</mo><mn>0,935</mn></mrow></math>. D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>1,25</mn><mo>=</mo><mn>1</mn></mrow></math>. Wynik 1 daje jedynie D.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz każdą zmianę jako mnożnik i szukaj pary, której iloczyn daje 1",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podwyżka i obniżka o ten sam procent nie znoszą się, bo procent liczy się od innej podstawy"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>13</mn><mo>+</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−10"
+    },
+    {
+     "litera": "B",
+     "html": "−2"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "10"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wartości bezwzględne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>13</mn><mo>+</mo><mn>7</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>6</mn><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw policz to, co siedzi w każdej wartości bezwzględnej, dopiero potem odejmuj",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Jaką liczbę należy odjąć od ilorazu liczb 0,729 i (−0,3), aby otrzymać (−0,25)? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−2,68"
+    },
+    {
+     "litera": "B",
+     "html": "−2,18"
+    },
+    {
+     "litera": "C",
+     "html": "2,18"
+    },
+    {
+     "litera": "D",
+     "html": "2,68"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloraz liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,729</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>0,3</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>2,43</mn></mrow></math>. Szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>2,43</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>0,25</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>2,18</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "iloraz licz jak 729 : 3, zadbaj o przecinek i znak, potem ułóż równanie z odejmowaniem",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "„Odjąć od ilorazu”: to szukana liczba jest odjemnikiem, łatwo odwrócić kolejność odejmowania"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyłączanie czynnika przed znak pierwiastka",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Ile jest równa suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>96</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>54</mn></msqrt></math>? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>150</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>294</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>948</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5184</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyłączamy czynnik przed pierwiastek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>96</mn></msqrt><mo>=</mo><msqrt><mrow><mn>16</mn><mo>·</mo><mn>6</mn></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>54</mn></msqrt><mo>=</mo><msqrt><mrow><mn>9</mn><mo>·</mo><mn>6</mn></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>7</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><msqrt><mn>294</mn></msqrt></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz czynniki przed pierwiastki — oba składniki mają wtedy ten sam pierwiastek",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka cyfra będzie w rzędzie jedności liczby, którą otrzymamy po wykonaniu potęgowania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2020</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostatnie cyfry potęg dwójki powtarzają się w cyklu długości 4: 2, 4, 8, 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2020</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>505</mn></mrow></math> bez reszty, wykładnikowi 2020 odpowiada czwarty wyraz cyklu, czyli cyfra 6.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "końcówki kolejnych potęg dwójki powtarzają się co 4 — sprawdź resztę z dzielenia 2020 przez 4",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Cykl ostatnich cyfr 2,4,8,6: reszta 0 z dzielenia wykładnika przez 4 odpowiada czwartej pozycji cyklu"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Ilucyfrową liczbę naturalną otrzymamy po wykonaniu wszystkich działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>8</mn><mn>13</mn></msup><mo>·</mo><msup><mn>15</mn><mn>2</mn></msup><mo>·</mo><msup><mn>25</mn><mn>20</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "38 cyfrową"
+    },
+    {
+     "litera": "B",
+     "html": "40 cyfrową"
+    },
+    {
+     "litera": "C",
+     "html": "43 cyfrową"
+    },
+    {
+     "litera": "D",
+     "html": "45 cyfrową"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkładamy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>8</mn><mn>13</mn></msup><mo>·</mo><msup><mn>15</mn><mn>2</mn></msup><mo>·</mo><msup><mn>25</mn><mn>20</mn></msup><mo>=</mo><msup><mn>2</mn><mn>42</mn></msup><mo>·</mo><msup><mn>3</mn><mn>5</mn></msup><mo>·</mo><msup><mn>5</mn><mn>42</mn></msup></mrow></math>. Łącząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>42</mn></msup><mo>·</mo><msup><mn>5</mn><mn>42</mn></msup><mo>=</mo><msup><mn>10</mn><mn>42</mn></msup></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>243</mn><mo>·</mo><msup><mn>10</mn><mn>42</mn></msup></mrow></math> — liczbę 243 z 42 zerami, czyli 45 cyfr.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "rozłóż wszystko na czynniki pierwsze i połącz dwójki z piątkami w potęgę dziesiątki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Liczba cyfr k·10^n: tu współczynnik k = 3^5 ma kilka cyfr, nie jedną"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wyrażenie „sześcian sumy kwadratu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i potrojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>” zapisane za pomocą symboli matematycznych, to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><mn>3</mn><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>„Kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>” to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup></math>, a „potrojona liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>” to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi></mrow></math>. Ich suma to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>b</mi></mrow></math>, a sześcian tej sumy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sześcian dotyczy całej sumy — najpierw zapisz tę sumę w nawiasie",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>1 stycznia 1990 roku Kamila zaczęła pisać pamiętniki. Na każdej kartce zapisywała wydarzenia z sześciu dni. Kamila przestała pisać pamiętniki, gdy napisała pięć 100-kartkowych pamiętników.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Rok, w którym Kamila zaczęła pisać pamiętniki był rokiem przestępnym."
+    },
+    {
+     "litera": "2",
+     "html": "Ostatni wpis do pamiętników Kamila zrobiła 19 marca 1998 r."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rok 1990 nie dzieli się przez 4, więc nie jest przestępny.</p><p>Pięć pamiętników po 100 kartek to 500 kartek, a każda opisuje 6 dni, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>500</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>3000</mn></mrow></math> dni licząc od 1 stycznia 1990 r. Lata 1990–1997 (z przestępnymi 1992 i 1996) dają łącznie 2922 dni, więc zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3000</mn><mo>−</mo><mn>2922</mn><mo>=</mo><mn>78</mn></mrow></math> dni roku 1998 — to 19 marca 1998 r.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kalendarz-czas",
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie dni włącznie z 1 stycznia oraz lata przestępne 1992 i 1996 w przedziale"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez 23 jest równa 21, a reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez 23 jest równa 2.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest wielokrotnością liczby 23."
+    },
+    {
+     "litera": "2",
+     "html": "Różnica liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest liczbą podzielną przez 23."
+    },
+    {
+     "litera": "3",
+     "html": "Reszta z dzielenia iloczynu liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez 23 jest równa 19."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zapisujemy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23</mn><mi>k</mi><mo>+</mo><mn>21</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23</mn><mi>m</mi><mo>+</mo><mn>2</mn></mrow></math>.</p><p>Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>23</mn><mo>(</mo><mi>k</mi><mo>+</mo><mi>m</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math> — wielokrotność 23.</p><p>Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>23</mn><mo>(</mo><mi>k</mi><mo>−</mo><mi>m</mi><mo>)</mo><mo>+</mo><mn>19</mn></mrow></math> — niepodzielna przez 23.</p><p>Iloczyn reszt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>42</mn><mo>=</mo><mn>23</mn><mo>+</mo><mn>19</mn></mrow></math>, więc reszta z dzielenia iloczynu przez 23 wynosi 19.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "działaj na samych resztach albo podstaw najmniejsze liczby, które je dają",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,0000025</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>0,00006</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zapisana w notacji wykładniczej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> zapisany w notacji wykładniczej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>10</mn></mrow></msup></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W notacji wykładniczej mnożnik musi należeć do przedziału [1, 10), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0,0000025</mn><mo>=</mo><mn>2,5</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></mrow></math>.</p><p>Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>2,5</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup><mo>·</mo><mn>6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>=</mo><mn>15</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>11</mn></mrow></msup><mo>=</mo><mn>1,5</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>10</mn></mrow></msup></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w notacji wykładniczej pierwszy czynnik musi być od 1 do 10; w iloczynie mnóż osobno liczby, osobno potęgi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Notacja wykładnicza wymaga współczynnika z przedziału [1, 10); równa wartość to jeszcze nie ta notacja"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Na osi liczbowej zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma współrzędną równą (−7), a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędną równą 2. Wiadomo, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest dłuższy od odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> oraz że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędną równą (−4)."
+    },
+    {
+     "litera": "2",
+     "html": "Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa 12."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>7</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>9</mn></mrow></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędną −4 albo −10.</p><p>Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&gt;</mo><mn>9</mn></mrow></math> spełnia tylko współrzędna −10, dla której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz |AB|, weź jego trzecią część i sprawdź obie możliwe strony punktu C",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "warunek-istnienia"
+    ],
+    "opis": "Dwa położenia C; warunek BC dłuższy od AB eliminuje jedno z nich"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>y</mi><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0,75</mn></math> wartość tego wyrażenia jest równa 1."
+    },
+    {
+     "litera": "2",
+     "html": "Podane wyrażenie można przekształcić do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą ujemną i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest liczbą dodatnią, to wartość tego wyrażenia jest liczbą dodatnią."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Upraszczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>y</mi><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>)</mo><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math>.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,75</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>1</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mn>0,75</mn><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>, a postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math> zgadza się z drugim zdaniem.</p><p>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math> to iloczyn dwóch liczb ujemnych — jest dodatni.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "wyłączanie czynnika przed znak pierwiastka",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są odpowiednio równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>42</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msqrt><mn>6</mn></msqrt></math> cm, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 12 cm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny."
+    },
+    {
+     "litera": "2",
+     "html": "Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><msqrt><mn>6</mn></msqrt></math> cm²."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W trójkątach prostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><msqrt><mrow><mn>168</mn><mo>−</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BD</mi><mo>=</mo><msqrt><mrow><mn>294</mn><mo>−</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>150</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>6</mn></msqrt></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mi>AD</mi><mo>+</mo><mi>BD</mi><mo>=</mo><mn>7</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mi>BC</mi></mrow></math> — trójkąt jest równoramienny. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>7</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>12</mn><mo>=</mo><mn>42</mn><msqrt><mn>6</mn></msqrt></mrow></math> cm².</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podane boki AC i BC są różne, ale równe mogą być inne dwa boki trójkąta"
+   }
+  },
+  {
+   "id": "rejonowy_2019-2020_swietokrzyskie_q15",
+   "numer": 15,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Suma długości wszystkich krawędzi ostrosłupa prawidłowego czworokątnego jest równa 84 cm. Stosunek długości krawędzi podstawy do długości krawędzi bocznej jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>3</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Krawędź boczna tego ostrosłupa ma długość 9 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Wysokość tego ostrosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>5</mn></msqrt></math> cm."
+    },
+    {
+     "litera": "3",
+     "html": "Objętość tego ostrosłupa jest równa 144 cm³."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech krawędź podstawy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>k</mi></mrow></math>, a boczna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>k</mi></mrow></math>. Suma krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>·</mo><mn>3</mn><mi>k</mi><mo>=</mo><mn>28</mn><mi>k</mi><mo>=</mo><mn>84</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow></math>, a krawędź boczna ma 9 cm.</p><p>Połowa przekątnej podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>9</mn></msqrt><mo>=</mo><mn>3</mn></mrow></math> cm, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>12</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>=</mo><mn>144</mn></mrow></math> cm³.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:wysokosc-sciany-vs-bryly"
+    ],
+    "opis": "Wysokość ostrosłupa a wysokość ściany bocznej: spodek wysokości to środek podstawy, nie środek krawędzi"
+   }
+  }
+ ]
+}

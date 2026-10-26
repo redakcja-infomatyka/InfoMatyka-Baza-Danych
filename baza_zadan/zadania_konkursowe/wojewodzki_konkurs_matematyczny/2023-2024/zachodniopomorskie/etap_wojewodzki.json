@@ -1,0 +1,613 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa zachodniopomorskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "zachodniopomorskie",
+ "rok_szkolny": "2023/2024",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 18,
+ "max_punktow": 36,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023-2024_zachodniopomorskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Iloczyn trzech kolejnych liczb naturalnych podzielnych przez 3 po uproszczeniu można zapisać jako:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>5</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>9</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>(</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trzy kolejne liczby podzielne przez 3 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>,</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>,</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>. Ich iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>·</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>27</mn><mi>n</mi><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kolejne liczby podzielne przez 3 różnią się o 3, a nie o 1",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Kolejne liczby PODZIELNE PRZEZ 3, a nie trzy kolejne liczby, z których pierwsza dzieli się przez 3"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Ile cyfr w zapisie dziesiętnym ma liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>5</mn></msup><mo>·</mo><msup><mn>5</mn><mn>13</mn></msup></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "16"
+    },
+    {
+     "litera": "D",
+     "html": "17"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>5</mn></msup><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>10</mn></msup><mo>·</mo><msup><mn>5</mn><mn>13</mn></msup><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup><mo>·</mo><msup><mn>5</mn><mn>10</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><msup><mn>10</mn><mn>10</mn></msup><mo>·</mo><mn>125</mn></math>. To liczba 1 250 000 000 000, która ma 13 cyfr.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "rozłóż czwórkę na dwójki i sparuj je z piątkami w dziesiątki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Po wyłączeniu 10^10 zostaje 5^3 = 125, czyli trzy cyfry, nie jedna"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mo>⟨</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mn>5</mn><mo>)</mo></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>9</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>9</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>11</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>11</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>≤</mo><mn>0</mn></math>, więc pierwsza wartość bezwzględna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>5</mn></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>&gt;</mo><mn>0</mn></math>, więc druga to po prostu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>6</mn><mi>x</mi><mo>−</mo><mn>9</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź znak każdego wyrażenia pod modułem w podanym przedziale i opuść moduły",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Jaka jest skala podobieństwa kwadratu, którego bok ma długość równą połowie przekątnej kwadratu ABCD do kwadratu ABCD:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech bok kwadratu ABCD ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>, więc bok nowego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Skala podobieństwa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow><mi>a</mi></mfrac><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź bok nowego kwadratu przez bok ABCD, korzystając z długości przekątnej",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Skala nowego kwadratu DO kwadratu ABCD — łatwo odwrócić stosunek"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> są wierzchołami pewnego kwadratu.</p><ul><li>I. Jeden z wierzchołków kwadratu może mieć współrzędne (2, −2).</li><li>II. Obwód kwadratu może wynosić 20 jednostek.</li><li>III. Pole kwadratu może wynosić 12,5 jednostek kwadratowych.</li></ul><p>Które z podanych stwierdzeń są prawdziwe?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "wszystkie"
+    },
+    {
+     "litera": "B",
+     "html": "tylko II"
+    },
+    {
+     "litera": "C",
+     "html": "tylko III"
+    },
+    {
+     "litera": "D",
+     "html": "tylko II i III"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi><mo>=</mo><msqrt><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>5</mn></math>. Gdy XY jest bokiem: obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>20</mn></math> (II prawdziwe). Gdy XY jest przekątną: pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msup><mn>5</mn><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>12,5</mn></math> (III prawdziwe). Odległości punktu (2,−2) od X i Y to 3 i 4 — nie pasują do żadnego z tych boków, więc I jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz odległość XY, a potem sprawdź osobno przypadek boku i przypadek przekątnej",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "XY może być bokiem albo przekątną; punkt (2,−2) daje kąt prosty, ale nie kwadrat"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zamiana jednostek",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W trakcie ulewy spadło 28 litrów wody na metr kwadratowy. Wysokość słupa wody w naczyniu sześciennym o krawędzi 80 cm (pustym przed ulewą) wynosiła po ulewie:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28 mm"
+    },
+    {
+     "litera": "B",
+     "html": "35 dm"
+    },
+    {
+     "litera": "C",
+     "html": "35 cm"
+    },
+    {
+     "litera": "D",
+     "html": "7 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Opad 28 l/m² to warstwa wody o wysokości 28 mm – 1 litr rozlany na 1 m² zawsze daje warstwę grubości 1 mm, niezależnie od wielkości i kształtu naczynia. Wysokość wody w sześciennym naczyniu po ulewie wynosi więc 28 mm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wysokość słupa wody nie zależy od wymiarów naczynia — krawędź 80 cm jest zbędna",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "jednostki"
+    ],
+    "opis": "Litry na metr kwadratowy to wysokość opadu; wielkość naczynia jest bez znaczenia"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Dla pewnej liczby naturalnej n zachodzi równość:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>...</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi><mo>=</mo><msup><mn>2</mn><mn>15</mn></msup><mo>·</mo><msup><mn>3</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup><mo>·</mo><mn>11</mn><mo>·</mo><mn>13</mn></math></p><p>Jaką liczbą jest n?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "13"
+    },
+    {
+     "litera": "B",
+     "html": "14"
+    },
+    {
+     "litera": "C",
+     "html": "15"
+    },
+    {
+     "litera": "D",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Brak czynnika 17 daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&lt;</mo><mn>17</mn></math>, a obecność 13 daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>≥</mo><mn>13</mn></math>. Sprawdzając n=13,14,15,16, tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>16</mn></math> daje w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> wykładnik dwójki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>, zgodny z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>W sześcianie połączono odcinkami kilka wierzchołków tak, że powstał czworościan foremny. Jaką część objętości sześcianu stanowi objętość czworościanu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wybierając na przemian 4 z 8 wierzchołków sześcianu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dostajemy czworościan foremny; pozostałe 4 wierzchołki odcinają 4 czworościany prostokątne o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>a</mi><mo>,</mo><mi>a</mi></math>, każdy o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>6</mn></mfrac></math>. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>6</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>3</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> objętości sześcianu.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zamiast liczyć czworościan wprost, odetnij od sześcianu cztery narożne ostrosłupy",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Kod dostępu do komputera Bartka złożony jest z trzech kolejnych wykładników potęg liczby 4 ułożonych w kolejności od najmniejszej do największej. Suma tych potęg wynosi 5376. Kod dostępu jest równy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "234"
+    },
+    {
+     "litera": "B",
+     "html": "345"
+    },
+    {
+     "litera": "C",
+     "html": "456"
+    },
+    {
+     "litera": "D",
+     "html": "567"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mi>n</mi></msup><mo>+</mo><msup><mn>4</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>4</mn><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>=</mo><msup><mn>4</mn><mi>n</mi></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>16</mn><mo>)</mo><mo>=</mo><mn>21</mn><mo>·</mo><msup><mn>4</mn><mi>n</mi></msup><mo>=</mo><mn>5376</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mi>n</mi></msup><mo>=</mo><mn>256</mn><mo>=</mo><msup><mn>4</mn><mn>4</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>4</mn></math>. Kod: 456.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz najmniejszą z tych potęg czwórki przed nawias",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>1000</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>2000</mn></msup><mo>−</mo><mn>1</mn></mrow><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><msqrt><mn>5</mn></msqrt><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Oba czynniki mają wykładnik 2000, więc mnożymy podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>5</mn><mo>−</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>1</mn></math>. Zatem cała liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>2000</mn></msup><mo>=</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "pomnóż najpierw same podstawy — kryje się tam wzór (a−b)(a+b)",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "statystyka opisowa",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Zosia od poniedziałku do niedzieli rozwiązywała średnio 12 zadań dziennie. Od poniedziałku do piątku rozwiązywała średnio 7 zadań na dzień. Ile zadań rozwiązała Zosia w sobotę, jeżeli wiadomo że w niedzielę rozwiązała o 5 zadań mniej niż w sobotę.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "27 zadań",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Suma zadań rozwiązanych od poniedziałku do niedzieli (7 dni): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>84</mn></math>. Suma zadań od poniedziałku do piątku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>35</mn></math>. Zatem w sobotę i niedzielę razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>−</mo><mn>35</mn><mo>=</mo><mn>49</mn></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę zadań w niedzielę, wtedy w sobotę było ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>5</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>49</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>22</mn></math>. W sobotę Zosia rozwiązała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>27</mn></math> zadań.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz obie sumy zadań: 7·12 i 5·7 — różnica przypada na weekend",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Wyznacz cyfrę jedności liczby, która jest wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2023</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2024</mn></msup></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Cyfry jedności kolejnych potęg liczby 7 powtarzają się cyklicznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>1</mn></msup></math> kończy się cyfrą 7, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2</mn></msup></math> cyfrą 9, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>3</mn></msup></math> cyfrą 3, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>4</mn></msup></math> cyfrą 1 itd. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>505</mn><mo>+</mo><mn>3</mn></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2023</mn></msup></math> kończy się cyfrą 3, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2024</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>506</mn></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2024</mn></msup></math> kończy się cyfrą 1. Cyfra jedności sumy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cyfry jedności potęg siódemki powtarzają się co cztery",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "koła / okręgi",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Średnicą koła jest podstawa trójkąta równobocznego o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Oblicz pole części wspólnej koła i trójkąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "P = a²/24 · (3√3 + π)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> podstawy dzieli część wspólną na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> oraz wycinek koła o kącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>. Pole trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac></math>. Pole wycinka koła o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>w</mi></msub><mo>=</mo><mfrac><mrow><mn>60</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac></math>. Pole części wspólnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac><mo>+</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>24</mn></mfrac><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mi>π</mi><mo>)</mo></math>.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>&gt;</mo><mn>0</mn></math> spełniają układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mfrac><mi>c</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>2</mn></mtd></mtr><mtr><mtd><mfrac><mi>c</mi><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow></mfrac><mo>=</mo><mn>3</mn></mtd></mtr></mtable></mrow></math></p><p>Uporządkuj rosnąco liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a < b < c",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Z obu równań wyznaczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>−</mo><mn>3</mn><mi>a</mi></math>. Porównując: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>−</mo><mn>3</mn><mi>a</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn><mi>a</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>15</mn><mi>a</mi><mo>−</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>12</mn><mi>a</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mn>0</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>5</mn><mi>a</mi><mo>&lt;</mo><mn>12</mn><mi>a</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz c z obu równań i porównaj otrzymane wyrażenia",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Długopis kosztuje o 60% mniej niż piórnik. Piórnik kosztuje o 60% mniej niż plecak. O ile procent plecak jest droższy od długopisu?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "525%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> oznacza cenę plecaka. Cena piórnika to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mi>p</mi></math>, a cena długopisu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>0,4</mn><mi>p</mi><mo>=</mo><mn>0,16</mn><mi>p</mi></math>. Plecak jest droższy od długopisu o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>p</mi><mo>−</mo><mn>0,16</mn><mi>p</mi></mrow><mrow><mn>0,16</mn><mi>p</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mrow><mn>0,84</mn><mi>p</mi></mrow><mrow><mn>0,16</mn><mi>p</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>525</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę plecaka za 100 zł i licz procenty względem ceny długopisu",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Dwa razy „o 60% mniej” i pytanie o drożej: zmienia się podstawa procentu"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Znajdź liczbę dwucyfrową, która jest równa potrojonemu iloczynowi swoich cyfr.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "15 lub 24",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza cyfrę dziesiątek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> cyfrę jedności. Warunek zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi><mi>b</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>10</mn><mi>a</mi></mrow><mrow><mn>3</mn><mi>a</mi><mo>−</mo><mn>1</mn></mrow></mfrac></math>. Sprawdzając kolejne cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, warunek spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>5</mn></math> (liczba 15) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>4</mn></math> (liczba 24). Szukana liczba to 15 lub 24.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "„Znajdź liczbę” w liczbie pojedynczej, a rozwiązań jest więcej niż jedno"
+   }
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "proporcjonalność prosta",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Państwo Nowakowie polecieli na wycieczkę samolotem. Ich łączny bagaż ważył aż 94 kg. Pan Nowak za nadbagaż zapłacił 15 złotych, a jego żona 20 złotych. Gdyby pan Nowak podróżował sam z bagażem obojga, zapłaciłby za nadbagaż 135 złotych. Ile kilogramów bagażu może bezpłatnie wziąć ze sobą pasażer? Ile musi zapłacić za 1 kg nadbagażu? Rozwiąż zadanie metodą algebraiczną.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "40 kg bezpłatnie, 2,50 zł za 1 kg nadbagażu",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę bezpłatnego bagażu przewożonego przez jedną osobę. Nadbagaż dwóch osób to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>94</mn><mo>−</mo><mn>2</mn><mi>x</mi></math>, a jednej osoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>94</mn><mo>−</mo><mi>x</mi></math>. Cena 1 kg nadbagażu jest stała, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>20</mn></mrow><mrow><mn>94</mn><mo>−</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>135</mn><mrow><mn>94</mn><mo>−</mo><mi>x</mi></mrow></mfrac></math>. Rozwiązując równanie, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math>. Cena za 1 kg nadbagażu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>20</mn></mrow><mrow><mn>94</mn><mo>−</mo><mn>80</mn></mrow></mfrac><mo>=</mo><mn>2,5</mn></math>. Pasażer może bezpłatnie przewieźć 40 kg bagażu, a za 1 kg nadbagażu musi zapłacić 2,50 zł.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2023-2024_zachodniopomorskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód",
+    "dowodzenie / dowody",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> jest kwadratem o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> jest kwadratem, którego każdy wierzchołek leży na innym boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i dzieli ten bok w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>3</mn></math>. Wykaż, że suma długości obwodów tych kwadratów jest większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Suma obwodów wynosi a(4 + √10) > 7a",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Każdy wierzchołek kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> dzieli bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> na odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi></math>. Długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>16</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><msqrt><mn>10</mn></msqrt><mn>4</mn></mfrac><mi>a</mi></math>. Suma obwodów obu kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>c</mi><mo>=</mo><mn>4</mn><mi>a</mi><mo>+</mo><msqrt><mn>10</mn></msqrt><mi>a</mi><mo>=</mo><mi>a</mi><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>10</mn></msqrt><mo>)</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt><mo>&gt;</mo><mn>3</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>10</mn></msqrt><mo>)</mo><mo>&gt;</mo><mi>a</mi><mo>(</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>7</mn><mi>a</mi></math>, co należało wykazać.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:stosunek-podzialu"
+    ],
+    "opis": "Podział boku w stosunku 1:3 to części a/4 i 3a/4, a nie a/3 i 2a/3"
+   }
+  }
+ ]
+}

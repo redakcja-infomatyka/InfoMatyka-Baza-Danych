@@ -1,0 +1,687 @@
+{
+ "konkurs": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "kujawsko-pomorskie",
+ "rok_szkolny": "2023/2024",
+ "data": "2023-11-09",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2024_kujawsko-pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>W szkole podstawowej jest 464 uczniów. Wszyscy mają zostać ustawieni czwórkami w kolumnie. Odległość między kolejnymi czwórkami ma wynosić jeden metr. Jak będzie łączna suma odległości pomiędzy tymi czwórkami uczniów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "116"
+    },
+    {
+     "litera": "B",
+     "html": "115"
+    },
+    {
+     "litera": "C",
+     "html": "114"
+    },
+    {
+     "litera": "D",
+     "html": "117"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>464 uczniów w czwórkach to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>464</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>116</mn></math> czwórek. Między 116 czwórkami jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>116</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>115</mn></math> odstępów, każdy po 1 m — łącznie 115 m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel uczniów na czwórki — przerw jest o jedną mniej niż czwórek",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Odstępów między czwórkami jest o jeden mniej niż czwórek"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych, które są większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> i jednocześnie mniejsze od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>77</mn></msqrt></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "69"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "70"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>&lt;</mo><mn>7</mn><mo>&lt;</mo><mn>9</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>&lt;</mo><msqrt><mn>7</mn></msqrt><mo>&lt;</mo><mn>3</mn></math>. Podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn><mo>&lt;</mo><mn>77</mn><mo>&lt;</mo><mn>81</mn><mo>=</mo><msup><mn>9</mn><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&lt;</mo><msqrt><mn>77</mn></msqrt><mo>&lt;</mo><mn>9</mn></math>. Liczby naturalne między nimi to 3, 4, 5, 6, 7, 8 — jest ich 6.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oszacuj oba pierwiastki między sąsiednimi kwadratami liczb naturalnych",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Kasia pocięła prostokątną kartkę papieru na 20 czworokątów. Wśród nich było 9 rombów, 8 prostokątów i 6 czworokątów, które nie były ani rombami, ani prostokątami. Ile kwadratów wycięła?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czworokątów będących rombem lub prostokątem jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>14</mn></math>. Z zasady włączeń i wyłączeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>14</mn><mo>=</mo><mn>3</mn></math> — tyle czworokątów jest jednocześnie rombem i prostokątem, czyli kwadratem.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kwadrat jest naraz rombem i prostokątem — szukasz części wspólnej obu grup",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dwie oddzielne działki, prostokątną i kwadratową, zamierzano ogrodzić siatką. Działka kwadratowa ma pole równe 3600 m², a działka prostokątna ma krótszy bok takiej samej długości, co działka kwadratowa, natomiast drugi bok jest o 40 metrów dłuższy. Ile metrów siatki należy kupić, aby ogrodzić obie działki?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "800 m"
+    },
+    {
+     "litera": "B",
+     "html": "560 m"
+    },
+    {
+     "litera": "C",
+     "html": "440 m"
+    },
+    {
+     "litera": "D",
+     "html": "400 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok działki kwadratowej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3600</mn></msqrt><mo>=</mo><mn>60</mn></math> m, jej obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>240</mn></math> m. Działka prostokątna ma boki 60 m i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>100</mn></math> m, więc jej obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>60</mn><mo>+</mo><mn>100</mn><mo>)</mo><mo>=</mo><mn>320</mn></math> m. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240</mn><mo>+</mo><mn>320</mn><mo>=</mo><mn>560</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola kwadratu odczytaj jego bok, dopiero potem licz oba obwody",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>20</mn></msup><mo>+</mo><msup><mn>2</mn><mn>23</mn></msup></math> przez 5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "2"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    },
+    {
+     "litera": "E",
+     "html": "0"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>≡</mo><mn>1</mn><mo>(</mo><mi>mod</mi><mn>5</mn><mo>)</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>20</mn></msup><mo>≡</mo><mn>1</mn></math>. Reszty z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup></math> powtarzają się co 4: 2, 4, 3, 1, … Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>+</mo><mn>3</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>23</mn></msup><mo>≡</mo><mn>3</mn></math>. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "potęgi szóstki zawsze kończą się szóstką, a końcówki potęg dwójki powtarzają się co cztery",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Samochód spala przeciętnie 7,5 litra benzyny na 100 kilometrów, a bak samochodu ma pojemność 50 litrów. Kierowca zatankował do pełna. Ile paliwa zostanie mu w baku po przejechaniu 360 kilometrów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22 litry"
+    },
+    {
+     "litera": "B",
+     "html": "20 litrów"
+    },
+    {
+     "litera": "C",
+     "html": "23 litry"
+    },
+    {
+     "litera": "D",
+     "html": "27 litrów"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Na 360 km samochód spala <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>·</mo><mn>3,6</mn><mo>=</mo><mn>27</mn></math> litrów. W baku zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>23</mn></math> litry.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz zużycie na 360 km i odejmij je od pojemności baku",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Rzeczywista odległość między dwoma miastami w linii prostej wynosi 120 km, a na mapie to 6 cm. W jakiej skali wykonana jest ta mapa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 : 200 000"
+    },
+    {
+     "litera": "B",
+     "html": "1 : 50 000"
+    },
+    {
+     "litera": "C",
+     "html": "1 : 2 000 000"
+    },
+    {
+     "litera": "D",
+     "html": "1 : 500 000"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>120 km to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12000000</mn></math> cm. Skala mapy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>12000000</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>2000000</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 120 km na centymetry, zanim podzielisz przez 6",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "ułamki"
+   ],
+   "tresc_html": "<p>W pewnej restauracji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>7</mn></mfrac></math> liczby wszystkich stolików to stoliki dwuosobowe. Pozostałe stoliki to stoliki trzyosobowe. Ile jest stolików dwuosobowych, jeśli przy wszystkich stolikach maksymalnie może usiąść 85 osób?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "12"
+    },
+    {
+     "litera": "D",
+     "html": "40"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dzielimy stoliki na 7 równych grup: 4 grupy dwuosobowe i 3 grupy trzyosobowe, czyli miejsc w jednej grupie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>17</mn></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>85</mn><mo>:</mo><mn>17</mn><mo>=</mo><mn>5</mn></math>, stolików dwuosobowych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>20</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "weź stoliki w grupach po 7 i policz, ile miejsc daje jedna taka grupa",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile cyfr potrzeba do ponumerowania stron encyklopedii od strony pierwszej do strony sto dwunastej włącznie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "112"
+    },
+    {
+     "litera": "B",
+     "html": "224"
+    },
+    {
+     "litera": "C",
+     "html": "113"
+    },
+    {
+     "litera": "D",
+     "html": "228"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Strony 1–9 to 9 cyfr. Strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></math> cyfr. Strony 100–112 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>39</mn></math> cyfr. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>180</mn><mo>+</mo><mn>39</mn><mo>=</mo><mn>228</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno strony jedno-, dwu- i trzycyfrowe",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pani Kasia spacerowała codziennie w parku wokół kwadratowego skweru. Obejście całego skweru zajmowało jej 10 minut. Ile minut zajmie jej obejście kwadratowego skweru o polu czterokrotnie większym?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "160 minut"
+    },
+    {
+     "litera": "B",
+     "html": "100 minut"
+    },
+    {
+     "litera": "C",
+     "html": "20 minut"
+    },
+    {
+     "litera": "D",
+     "html": "40 minut"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole czterokrotnie większe oznacza bok dwukrotnie dłuższy, a więc i obwód dwukrotnie większy. Czas obejścia też się podwaja: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>20</mn></math> minut.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole cztery razy większe to bok dwa razy dłuższy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Czterokrotnie większe pole nie oznacza czterokrotnie dłuższego obwodu"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Kasia kupiła dla siebie trzy zeszyty i pięć ołówków, za które zapłaciła 19,10 zł. Kupując dla siostry takie same trzy ołówki i jeden zeszyt zapłaciła 8 zł 10 gr. Zatem kupując dla brata takie same jeden zeszyt i jeden ołówek musi zapłacić:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5,05 zł"
+    },
+    {
+     "litera": "B",
+     "html": "9,55 zł"
+    },
+    {
+     "litera": "C",
+     "html": "5,50 zł"
+    },
+    {
+     "litera": "D",
+     "html": "4,05 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> to cena zeszytu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> to cena ołówka. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>3</mn><mi>o</mi><mo>=</mo><mn>8,10</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>8,10</mn><mo>−</mo><mn>3</mn><mi>o</mi></math>; podstawiając do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>z</mi><mo>+</mo><mn>5</mn><mi>o</mi><mo>=</mo><mn>19,10</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24,30</mn><mo>−</mo><mn>4</mn><mi>o</mi><mo>=</mo><mn>19,10</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi><mo>=</mo><mn>1,30</mn></math> zł i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>4,20</mn></math> zł. Zeszyt z ołówkiem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,20</mn><mo>+</mo><mn>1,30</mn><mo>=</mo><mn>5,50</mn></math> zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "odejmij oba zakupy stronami — zostanie podwojony komplet zeszyt plus ołówek",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cena bluzki wzrosła dwukrotnie. Najpierw o 20%, a następnie o 10%. Zatem końcowa cena wzrosła w stosunku do początkowej ceny o:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30%"
+    },
+    {
+     "litera": "B",
+     "html": "15%"
+    },
+    {
+     "litera": "C",
+     "html": "25%"
+    },
+    {
+     "litera": "D",
+     "html": "32%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwa kolejne wzrosty o 20% i o 10% to mnożenie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mo>·</mo><mn>1,1</mn><mo>=</mo><mn>1,32</mn></math>, czyli łączny wzrost o 32%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę 100 zł i podnoś ją po kolei",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Druga podwyżka liczy się od już podwyższonej ceny – procenty się nie dodają"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty"
+   ],
+   "tresc_html": "<p>Różnica miar dwóch kątów przyległych wynosi 48°, zatem mniejszy z tych kątów ma miarę:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "48°"
+    },
+    {
+     "litera": "B",
+     "html": "132°"
+    },
+    {
+     "litera": "C",
+     "html": "66°"
+    },
+    {
+     "litera": "D",
+     "html": "114°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąty przyległe sumują się do 180°. Jeśli mniejszy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, większy ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>48</mn></math>°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>48</mn><mo>=</mo><mn>180</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>66</mn></math>°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skorzystaj z tego, że kąty przyległe dają razem 180°",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Ile wynosi pole równoległoboku, którego boki wynoszą 7 cm i 9 cm, a jedna z wysokości ma 8 cm?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "56 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "63 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "72 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "64 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wysokość równoległoboku nie może przekraczać boku, do którego nie jest przypisana, więc 8 cm to wysokość opuszczona na bok 7 cm (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&gt;</mo><mn>7</mn></math>, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>&lt;</mo><mn>9</mn></math>). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>56</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zastanów się, do którego boku może należeć wysokość 8 cm",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Wysokość 8 cm nie może być opuszczona na każdy bok – trzeba sprawdzić, do którego boku pasuje"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Do sklepu dostarczono 160 opakowań cukierków w ćwierćkilogramowych paczkach oraz ciastka ważące łącznie o 150% więcej niż cukierki. O ile kilogramów więcej dostarczono do sklepu ciastek niż cukierków?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "40"
+    },
+    {
+     "litera": "D",
+     "html": "60"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cukierków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>·</mo><mn>0,25</mn><mo>=</mo><mn>40</mn></math> kg. Ciastek jest o 150% więcej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>·</mo><mn>2,5</mn><mo>=</mo><mn>100</mn></math> kg. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>60</mn></math> kg.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw zamień ćwierćkilogramowe paczki na kilogramy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "„O 150% więcej” to nie „150% masy cukierków”"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "liczby wymierne i niewymierne",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Istnieje liczba wymierna, która posiada liczbę przeciwną, ale nie posiada liczby odwrotnej."
+    },
+    {
+     "litera": "2",
+     "html": "Dla każdej liczby całkowitej różnej od zera, liczba odwrotna jest większa od zera i mniejsza lub równa jeden."
+    },
+    {
+     "litera": "3",
+     "html": "Suma dwóch liczb pierwszych jest zawsze liczbą złożoną."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zero ma liczbę przeciwną (0), lecz nie ma odwrotnej — P. Odwrotność liczby ujemnej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, czyli mniej niż zero — F. Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> jest liczbą pierwszą, nie złożoną — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "szukaj kontrprzykładów — pomyśl o zerze, o liczbach ujemnych i o dwójce",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator"
+    ],
+    "opis": "Zdanie 3: liczby pierwsze to nie tylko nieparzyste – jest jeszcze 2"
+   }
+  },
+  {
+   "id": "szkolny_2024_kujawsko-pomorskie_q17",
+   "numer": 17,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z trzech jednakowych sześcianów, każdy o objętości 64 cm³, ułożono prostopadłościan.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Prostopadłościan ma wymiary 8 cm x 8 cm x 3 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Pole jednej ze ścian prostopadłościanu wynosi 48 cm²."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Krawędź sześcianu ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> cm, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></math>. Trzy sześciany w rzędzie dają prostopadłościan 12 cm x 4 cm x 4 cm, a nie 8 cm x 8 cm x 3 cm — F. Jedna ze ścian ma wymiary 4 cm x 12 cm, czyli pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>48</mn></math> cm² — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyznacz krawędź sześcianu i ustaw trzy sześciany w rzędzie",
+   "czas_min": 2
+  }
+ ]
+}

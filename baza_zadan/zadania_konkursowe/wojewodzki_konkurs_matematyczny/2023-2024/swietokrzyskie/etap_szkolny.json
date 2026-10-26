@@ -1,0 +1,502 @@
+{
+ "konkurs": "VIII Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2023/2024",
+ "data": "2023-11-14",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 14,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2023-2024_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Jaką najmniejszą liczbę można zapisać używając każdego z następujących znaków rzymskich: I, V, X, C, M dokładnie jeden raz? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "914"
+    },
+    {
+     "litera": "B",
+     "html": "616"
+    },
+    {
+     "litera": "C",
+     "html": "614"
+    },
+    {
+     "litera": "D",
+     "html": "414"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Aby liczba była jak najmniejsza, przy literze M (1000) warto zastosować odejmowanie: CM = 900. Z pozostałych liter X, I, V najmniejszą wartość daje układ X, IV: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>14</mn></math>. Razem: CMXIV <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>900</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>914</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "żeby zapis był mały, postaw C przed M, a z I, V, X ułóż najmniejszą końcówkę",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>W marcu płaszcz kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> złotych. W kwietniu jego cenę obniżono o 150 zł. W maju cenę tego płaszcza obniżono o 30%, a w czerwcu, w trakcie kolejnej obniżki, o 40%. Które z wyrażeń opisuje cenę płaszcza po wszystkich trzech obniżkach? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mi>p</mi><mo>−</mo><mn>150</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,42</mn><mi>p</mi><mo>−</mo><mn>63</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,72</mn><mi>p</mi><mo>−</mo><mn>108</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,88</mn><mi>p</mi><mo>−</mo><mn>132</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po obniżce kwietniowej cena wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>−</mo><mn>150</mn></math>. Po majowej (30%): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7</mn><mo>(</mo><mi>p</mi><mo>−</mo><mn>150</mn><mo>)</mo></math>. Po czerwcowej (40%): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mo>·</mo><mn>0,7</mn><mo>(</mo><mi>p</mi><mo>−</mo><mn>150</mn><mo>)</mo><mo>=</mo><mn>0,42</mn><mi>p</mi><mo>−</mo><mn>63</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obniżki to mnożenie: najpierw odejmij 150, potem pomnóż przez 0,7 i przez 0,6",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Dwie kolejne obniżki procentowe nie sumują się; każda liczona od już obniżonej ceny"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków"
+   ],
+   "tresc_html": "<p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>190</mn></msqrt><mo>−</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>170</mn></msqrt><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mn>150</mn></msqrt><mo>−</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msqrt><mn>130</mn></msqrt><mo>−</mo><mn>6</mn></math>.</p><p>Która spośród nich jest mniejsza od 5? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Porównujemy z kwadratami liczb całkowitych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>14</mn><mn>2</mn></msup><mo>=</mo><mn>196</mn><mo>&gt;</mo><mn>190</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>190</mn></msqrt><mo>&lt;</mo><mn>14</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>5</mn></math>. Natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>13</mn><mn>2</mn></msup><mo>=</mo><mn>169</mn><mo>&lt;</mo><mn>170</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>&lt;</mo><mn>150</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>11</mn><mn>2</mn></msup><mo>=</mo><mn>121</mn><mo>&lt;</mo><mn>130</mn></math>, więc liczby b, c, d są większe od 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "nie licz pierwiastków — przenieś liczbę całkowitą na drugą stronę i porównaj kwadraty",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "koła / okręgi",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> ma promień o 3 cm dłuższy niż okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>. Okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> ma promień o 3 cm dłuższy niż okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>. Okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> ma średnicę równą sumie długości średnic okręgów o środkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>. Jaką długość ma promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, jeżeli średnica okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest równa 48 cm? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5 cm"
+    },
+    {
+     "litera": "B",
+     "html": "6 cm"
+    },
+    {
+     "litera": "C",
+     "html": "10 cm"
+    },
+    {
+     "litera": "D",
+     "html": "13 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promienie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mi>L</mi></msub><mo>=</mo><msub><mi>r</mi><mi>K</mi></msub><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mi>M</mi></msub><mo>=</mo><msub><mi>r</mi><mi>K</mi></msub><mo>+</mo><mn>6</mn></math>. Suma średnic: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><msub><mi>r</mi><mi>K</mi></msub><mo>+</mo><msub><mi>r</mi><mi>L</mi></msub><mo>+</mo><msub><mi>r</mi><mi>M</mi></msub><mo>)</mo><mo>=</mo><mn>6</mn><msub><mi>r</mi><mi>K</mi></msub><mo>+</mo><mn>18</mn><mo>=</mo><mn>48</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mi>K</mi></msub><mo>=</mo><mn>5</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz promień okręgu K jako r i zsumuj trzy średnice",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Dane o średnicach, a pytanie o promień; łatwo pomylić średnicę z promieniem w równaniu"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty"
+   ],
+   "tresc_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53</mn><mo>°</mo></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> należy do tego kąta, ale nie leży na żadnym z jego ramion. Przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> poprowadzono dwie proste: jedną prostopadłą do półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi></math> i drugą równoległą do półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Jaka jest miara większego z kątów, pod jakim przecinają się te proste? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "53°"
+    },
+    {
+     "litera": "B",
+     "html": "107°"
+    },
+    {
+     "litera": "C",
+     "html": "127°"
+    },
+    {
+     "litera": "D",
+     "html": "143°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prosta prostopadła do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi></math> tworzy z nią kąt 90°, a prosta równoległa do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tworzy z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi></math> kąt 53° (jak kąt ABC). Kąt między prostymi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>53</mn><mo>°</mo><mo>=</mo><mn>37</mn><mo>°</mo></math>, a większy z kątów przecięcia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>37</mn><mo>°</mo><mo>=</mo><mn>143</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "położenie P nie ma znaczenia — liczą się tylko kierunki obu prostych względem ramion kąta",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trójkącie ostrokątnym jeden z kątów ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math>. Jaką miarę może mieć jeden z dwóch pozostałych kątów? Wybierz odpowiedź spośród podanych.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "50°"
+    },
+    {
+     "litera": "B",
+     "html": "60°"
+    },
+    {
+     "litera": "C",
+     "html": "80°"
+    },
+    {
+     "litera": "D",
+     "html": "90°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pozostałe dwa kąty sumują się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></math>. Jeśli jeden z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, drugi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>°</mo><mo>−</mo><mi>x</mi></math>. Trójkąt jest ostrokątny, gdy oba są mniejsze od 90°, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>90</mn><mo>°</mo></math>. Spośród podanych wartości warunek ten spełnia 80°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pozostałe dwa kąty mają sumę 150° — sprawdź, czy oba wychodzą ostre",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Ostrokątny znaczy: wszystkie trzy kąty ostre; trzeba sprawdzić także trzeci kąt"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "działania na pierwiastkach",
+    "wartość bezwzględna",
+    "ułamki",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mfrac><mn>4</mn><mn>25</mn></mfrac></msqrt><mo>+</mo><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>+</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>+</mo><mn>1</mn><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>−</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>1,5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math></p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest liczbą większą od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest liczbą nie mniejszą niż liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> jest równy 15,8(3)."
+    },
+    {
+     "litera": "4",
+     "html": "Żadna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> nie jest liczbą całkowitą."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mfrac><mn>4</mn><mn>25</mn></mfrac></msqrt><mo>+</mo><mroot><mfrac><mn>27</mn><mn>8</mn></mfrac><mn>3</mn></mroot><mo>=</mo><mn>0,4</mn><mo>+</mo><mn>1,5</mn><mo>=</mo><mn>1,9</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>0,12</mn><mo>·</mo><mo>(</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>8</mn><mn>7</mn></mfrac><mo>−</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>)</mo><mo>=</mo><mn>0,12</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>|</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>.</p><p>1) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>≈</mo><mn>2,19</mn><mo>&lt;</mo><mn>2,2</mn></math> — F. 2) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>&gt;</mo><mn>0,12</mn><mo>=</mo><mi>b</mi></math> — P. 3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mn>1,9</mn><mn>0,12</mn></mfrac><mo>=</mo><mn>15,8</mn><mo>(</mo><mn>3</mn><mo>)</mo></math> — P. 4) żadna z nich nie jest całkowita — P.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w liczbie b wyłącz 0,12 przed nawias, a pod pierwiastkami zobacz 4/25 i 27/8",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>14 listopada 2023 roku wypada we wtorek.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W październiku 2023 roku było pięć czwartków."
+    },
+    {
+     "litera": "2",
+     "html": "Dzień 14 sierpnia 2023 roku wypadł w poniedziałek."
+    },
+    {
+     "litera": "3",
+     "html": "14 kwietnia 2023 roku wypadł w ten sam dzień tygodnia, co 14 lipca 2023 roku."
+    },
+    {
+     "litera": "4",
+     "html": "W marcu 2023 roku było tyle samo piątków co niedziel."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>14 XI 2023 to wtorek.</p><p>1) 14 X jest 31 dni wcześniej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>31</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>3</mn></math>), czyli sobota; czwartki w październiku to 5, 12, 19, 26 — tylko 4, nie 5 — F.</p><p>2) 14 VIII jest 92 dni wcześniej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>92</mn><mo>=</mo><mn>13</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>1</mn></math>), czyli poniedziałek — P.</p><p>3) Od 14 IV do 14 VII jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>91</mn><mo>=</mo><mn>13</mn><mo>·</mo><mn>7</mn></math> dni — ten sam dzień tygodnia — P.</p><p>4) 14 IV jest 214 dni wcześniej niż 14 XI (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>214</mn><mo>=</mo><mn>30</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>4</mn></math>), czyli piątek; 1 III jest 44 dni wcześniej niż 14 IV (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>44</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>2</mn></math>), czyli środa. W 31-dniowym marcu środy, czwartki i piątki mają po 5 wystąpień, a niedziele — 4, więc piątków jest więcej niż niedziel — F.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma kolejnych czterech liczb całkowitych może być równa 706."
+    },
+    {
+     "litera": "2",
+     "html": "Suma kolejnych pięciu liczb całkowitych może być równa 743."
+    },
+    {
+     "litera": "3",
+     "html": "Suma kolejnych sześciu liczb całkowitych nieparzystych może być równa 792."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1) Cztery kolejne liczby dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>706</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>175</mn></math> — liczba całkowita, więc możliwe — P.</p><p>2) Pięć kolejnych liczb sumuje się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>n</mi><mo>=</mo><mn>743</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>148,6</mn></math> — nie jest całkowita, niemożliwe — F.</p><p>3) Sześć kolejnych liczb nieparzystych daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>+</mo><mn>30</mn><mo>=</mo><mn>792</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>127</mn></math> — liczba nieparzysta, więc możliwe — P.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sumę kolejnych liczb zapisz przez środkową — sprawdzaj podzielność zamiast zgadywać",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest podzielna przez 15.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>−</mo><mn>450</mn></math> jest podzielna przez 15."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>k</mi><mo>+</mo><mn>54</mn></math> jest podzielna przez 6."
+    },
+    {
+     "litera": "3",
+     "html": "Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>70</mn></math> przez 9 jest równa 7."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>15</mn><mi>m</mi></math>. 1) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>−</mo><mn>450</mn><mo>=</mo><mn>15</mn><mi>m</mi><mo>−</mo><mn>15</mn><mo>·</mo><mn>30</mn></math> — różnica wielokrotności 15 jest podzielna przez 15 — P.</p><p>2) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>k</mi><mo>+</mo><mn>54</mn><mo>=</mo><mn>120</mn><mi>m</mi><mo>+</mo><mn>54</mn><mo>=</mo><mn>6</mn><mo>(</mo><mn>20</mn><mi>m</mi><mo>+</mo><mn>9</mn><mo>)</mo></math> — podzielna przez 6 — P.</p><p>3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>70</mn><mo>=</mo><mn>45</mn><mi>m</mi><mo>+</mo><mn>70</mn></math>; skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mi>m</mi></math> dzieli się przez 9, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>=</mo><mn>9</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>7</mn></math>, reszta zawsze wynosi 7 — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw k = 15m i sprawdź każdy składnik osobno",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "podzielność",
+    "dowodzenie / dowody",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Uzasadnij, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>·</mo><msup><mn>3</mn><mn>2024</mn></msup><mo>−</mo><mn>2024</mn><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup></math> jest wielokrotnością liczby 15.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Wyrażenie jest równe 3²⁰²²·15·809, a więc jest wielokrotnością liczby 15.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wyłączamy wspólny czynnik i przekształcamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>·</mo><msup><mn>3</mn><mn>2024</mn></msup><mo>−</mo><mn>2024</mn><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>·</mo><mo>(</mo><mn>2023</mn><mo>·</mo><mn>3</mn><mo>−</mo><mn>2024</mn><mo>)</mo><mo>=</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>·</mo><mo>(</mo><mn>6069</mn><mo>−</mo><mn>2024</mn><mo>)</mo><mo>=</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>·</mo><mn>4045</mn><mo>=</mo><msup><mn>3</mn><mn>2022</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>809</mn><mo>=</mo><msup><mn>3</mn><mn>2022</mn></msup><mo>·</mo><mn>15</mn><mo>·</mo><mn>809</mn></math>. Otrzymana liczba zawiera czynnik 15, jest więc wielokrotnością liczby 15.</p>",
+    "punktacja_html": "<p>Klucz punktowania (po 1 pkt): zapisanie 3²⁰²⁴ w postaci 3·3²⁰²³; zapisanie iloczynu 3²⁰²³·4045; przedstawienie 4045 = 5·809 (lub stwierdzenie podzielności 4045 przez 5); przedstawienie 3²⁰²³ = 3·3²⁰²² (lub stwierdzenie podzielności 3²⁰²³ przez 3); zapisanie 3²⁰²²·15·809 i wniosek o podzielności przez 15.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "prędkość / droga / czas",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>240 000</mn></math> trasa między Klonowem a Jeżowem ma długość 7,5 cm. Rowerzysta wyjechał z Klonowa do Jeżowa o godzinie 9:50. Jechał ze średnią prędkością 15 km/h. W Jeżowie spędził trzy kwadranse, po czym wrócił do Klonowa, jadąc tą samą trasą ze średnią prędkością 20 km/h. O której godzinie rowerzysta wrócił do Klonowa? Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12:41",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Skala 1:240 000 oznacza, że 240 000 cm w terenie to 2,4 km. Długość trasy wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,4</mn><mo>·</mo><mn>7,5</mn><mo>=</mo><mn>18</mn></math> (km).</p><p>Czas jazdy do Jeżowa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>18</mn><mn>15</mn></mfrac><mo>=</mo><mn>1,2</mn></math> (h), czyli 1 h 12 min. Postój trwał trzy kwadranse, czyli 45 min. Czas powrotu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>18</mn><mn>20</mn></mfrac><mo>=</mo><mn>0,9</mn></math> (h), czyli 54 min.</p><p>Łączny czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mtext> h </mtext><mn>12</mn><mtext> min</mtext><mo>+</mo><mn>45</mn><mtext> min</mtext><mo>+</mo><mn>54</mn><mtext> min</mtext><mo>=</mo><mn>2</mn><mtext> h </mtext><mn>51</mn><mtext> min</mtext></math>. Rowerzysta wyjechał o 9:50, więc wrócił o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>:</mo><mn>50</mn><mo>+</mo><mn>2</mn><mtext> h </mtext><mn>51</mn><mtext> min</mtext><mo>=</mo><mn>12</mn><mo>:</mo><mn>41</mn></math>.</p><p>Odpowiedź: rowerzysta wrócił do Klonowa o godzinie 12:41.</p>",
+    "punktacja_html": "<p>Klucz punktowania (po 1 pkt): obliczenie długości trasy (18 km); obliczenie czasu przejazdu do Jeżowa (1,2 h); obliczenie czasu powrotu (0,9 h); obliczenie całkowitego czasu (2 h 51 min); podanie godziny powrotu (12:41).</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "konwencja"
+    ],
+    "opis": "Czas w godzinach dziesiętnych trzeba zamienić na minuty: ułamek godziny to nie minuty"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "stężenie procentowe / mieszaniny",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ile gramów 23-procentowego roztworu i ile gramów 15-procentowego roztworu należy zmieszać, aby otrzymać 400 gramów roztworu 20-procentowego? Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "250 g roztworu 23-procentowego i 150 g roztworu 15-procentowego",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę (w gramach) roztworu 23-procentowego, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>−</mo><mi>x</mi></math> masę roztworu 15-procentowego. Z bilansu masy substancji rozpuszczonej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>%</mo><mo>·</mo><mi>x</mi><mo>+</mo><mn>15</mn><mo>%</mo><mo>·</mo><mo>(</mo><mn>400</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>20</mn><mo>%</mo><mo>·</mo><mn>400</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,23</mn><mi>x</mi><mo>+</mo><mn>60</mn><mo>−</mo><mn>0,15</mn><mi>x</mi><mo>=</mo><mn>80</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,08</mn><mi>x</mi><mo>=</mo><mn>20</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>250</mn></math>.</p><p>Zatem należy zmieszać 250 g roztworu 23-procentowego oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>−</mo><mn>250</mn><mo>=</mo><mn>150</mn></math> g roztworu 15-procentowego.</p>",
+    "punktacja_html": "<p>Klucz punktowania (po 1 pkt): obliczenie 20% z 400 (80 g); zapisanie zależności między masami roztworów; ułożenie odpowiedniego równania; poprawne rozwiązanie równania; obliczenie mas obu roztworów (250 g oraz 150 g).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Styropianowy blok w kształcie prostopadłościanu o podstawie kwadratu i polu powierzchni równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>198</mn><msup><mtext> cm</mtext><mn>2</mn></msup></math> podzielono na pięć jednakowych sześciennych bloczków. Oblicz pole powierzchni i objętość jednego sześciennego bloczka. Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Pole powierzchni: 54 cm², objętość: 27 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi podstawy prostopadłościanu (i zarazem krawędzią jednego sześcianu). Prostopadłościan złożony z pięciu jednakowych sześcianów ustawionych w rzędzie ma krawędź boczną długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi></math>. Pole jego powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mi>a</mi><mo>·</mo><mi>a</mi><mo>+</mo><mn>4</mn><mo>·</mo><mn>5</mn><mi>a</mi><mo>·</mo><mi>a</mi><mo>=</mo><mn>22</mn><msup><mi>a</mi><mn>2</mn></msup></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>198</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> cm.</p><p>Pole powierzchni jednego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>s</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></math> cm². Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>s</mi></msub><mo>=</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></math> cm³.</p><p>Odpowiedź: jeden sześcienny bloczek ma pole powierzchni 54 cm² i objętość 27 cm³.</p>",
+    "punktacja_html": "<p>Klucz punktowania (po 1 pkt): oznaczenie krawędzi i zapisanie zależności między krawędzią podstawy a krawędzią boczną; poprawne zapisanie wzoru na pole powierzchni prostopadłościanu; obliczenie krawędzi podstawy (3 cm); obliczenie pola powierzchni sześcianu (54 cm²); obliczenie objętości sześcianu (27 cm³).</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Po podziale bryły pole powierzchni nie dzieli się jak objętość; pojawiają się nowe ściany"
+   }
+  }
+ ]
+}

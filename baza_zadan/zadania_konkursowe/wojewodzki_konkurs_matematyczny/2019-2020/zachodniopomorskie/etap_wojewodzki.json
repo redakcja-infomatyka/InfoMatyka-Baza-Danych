@@ -1,0 +1,485 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa zachodniopomorskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "zachodniopomorskie",
+ "rok_szkolny": "2019/2020",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 38,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2019-2020_zachodniopomorskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb całkowitych pomiędzy 9999 i 100000, których suma cyfr wynosi 2?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "7"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W liczbach pięciocyfrowych (10000–99999) o sumie cyfr 2 jedna cyfra wynosi 2, a pozostałe 0, albo dwie cyfry wynoszą 1, a pozostałe 0 (pierwsza cyfra musi być różna od zera).</p><p>Wariant z cyfrą 2: 20000 — 1 liczba. Wariant z dwiema jedynkami: 11000, 10100, 10010, 10001 — 4 liczby.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></math> liczb.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pierwszą cyfrą może być tylko 1 albo 2 — rozważ oba przypadki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "okrąg wpisany i opisany",
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są przeciwległymi wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Promień okręgu wpisanego w ten kwadrat ma długość:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><msqrt><mn>2</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "2,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przekątna kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>.</p><p>Promień okręgu wpisanego to połowa boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>2,5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "AC to przekątna kwadratu, a promień okręgu wpisanego to połowa boku",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Okrąg wpisany, nie opisany; dane wierzchołki są przeciwległe, więc odcinek AC to przekątna, a nie bok"
+   }
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń",
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>Prawdopodobieństwo wylosowania liczby podzielnej przez 7 lub 11 ze zbioru liczb naturalnych dwucyfrowych wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>89</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>89</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>90</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>90</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród liczb dwucyfrowych (10–99, 90 liczb) podzielnych przez 7 jest 13 (14, 21, …, 98), podzielnych przez 11 jest 9 (11, 22, …, 99), a podzielnych przez oba naraz (przez 77) tylko 1 (77).</p><p>Z zasady włączeń i wyłączeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>9</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>21</mn></math>, więc szukane prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>90</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno wielokrotności 7 i 11 wśród dwucyfrowych, potem odejmij podzielne przez oba",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "podwojne-liczenie",
+     "plot-i-slupki"
+    ],
+    "opis": "Spójnik „lub”: liczba podzielna przez 7 i 11 liczy się raz; liczb dwucyfrowych jest 90, nie 89"
+   }
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Wskaż 313 cyfrę po przecinku w rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>13</mn></mfrac></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwinięcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>13</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>230769</mn><mo>)</mo></math> ma okres długości 6.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>313</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>52</mn><mo>+</mo><mn>1</mn></math>, cyfra na 313. miejscu odpowiada pierwszej cyfrze okresu, czyli 2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "znajdź długość okresu rozwinięcia i weź resztę z dzielenia 313 przez tę długość",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym ramię oraz krótsza podstawa mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, a kąt rozwarty trapezu ma miarę 150°. Obwód tego trapezu jest równy:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt przy dłuższej podstawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Opuszczając wysokość z wierzchołka ramienia, otrzymujemy trójkąt 30-60-90 o przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>: wysokość trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>, rzut ramienia na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>.</p><p>Dłuższa podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt ostry ma 30° — rzut ramienia na dłuższą podstawę licz z trójkąta 30-60-90",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Każdy wierzchołek sześcianu zaznaczono kolorem zielonym. Następnie połączono każde dwa zielone punkty odcinkiem. Wszystkie punkty przecięcia odcinków, które nie są zielone, pomalowano kolorem czerwonym. Liczba otrzymanych czerwonych punktów wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród odcinków łączących wierzchołki sześcianu przekątne każdej ściany przecinają się w jej środku, co daje 6 czerwonych punktów.</p><p>Ponadto wszystkie 4 przekątne przestrzenne sześcianu przecinają się w jednym punkcie – środku sześcianu – co daje 1 kolejny czerwony punkt.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>7</mn></math> czerwonych punktów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "krawędzie nic nie wnoszą — sprawdź osobno przekątne ścian i przekątne sześcianu",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msqrt><mn>24</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math>, to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>c</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mi>c</mi></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>6</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msqrt><mn>24</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>6</mn></mfrac></math>.</p><p>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mi>c</mi></mfrac><mo>=</mo><mn>6</mn><mo>=</mo><mi>a</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnieś oba równania do kwadratu i wyznacz a oraz c, dopiero potem sprawdzaj odpowiedzi",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat podzielono na dwa prostokąty, których stosunek obwodów wynosi 5 : 4. Oblicz stosunek pól tych prostokątów.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2 : 1",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość boku kwadratu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> długość jednego z boków prostokąta, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>a</mi></math>. Stosunek obwodów otrzymanych prostokątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>a</mi></mrow><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>2</mn><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>a</mi></math>. Pola prostokątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>3</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>P</mi><mn>1</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>1</mn></mfrac></math>. Stosunek pól wynosi 2 : 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij bok kwadratu za 3 i ułóż równanie na obwody",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Narysowano cięciwę okręgu, która ma długość 12 cm. Odległość środka łuku, na którym oparta jest cięciwa od tej cięciwy wynosi 2 cm. Oblicz promień tego okręgu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "R = 10 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> będzie cięciwą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jej środkiem. Odległość środka łuku od cięciwy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AO</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CO</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>R</mi></math> to promień, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>OD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>R</mi><mo>−</mo><mn>2</mn></math>. Z twierdzenia Pitagorasa dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADO</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>R</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mi>R</mi><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>10</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "użyj Pitagorasa dla połowy cięciwy — drugą przyprostokątną zapisz jako R − 2",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W poniedziałek cenę pewnego towaru zwiększono o 10%, w środę zmniejszono o 20%, a w piątek zmniejszono jeszcze o 30%. Oblicz początkową cenę towaru, jeśli ostatecznie po zmianach wynosiła 1232 zł.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2000 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę towaru na początku. Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>%</mo><mo>·</mo><mn>80</mn><mo>%</mo><mo>·</mo><mn>70</mn><mo>%</mo><mo>·</mo><mi>x</mi><mo>=</mo><mn>1232</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,616</mn><mi>x</mi><mo>=</mo><mn>1232</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2000</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cofaj zmiany po kolei: podziel przez 0,7, potem przez 0,8, na końcu przez 1,1",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że:</p><p style=\"text-align:center\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math></p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "L = P = √2 (dowód)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Podnosimy równanie obustronnie do kwadratu. Lewa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>−</mo><mn>2</mn><msqrt><mrow><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></msqrt><mo>+</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>4</mn><mo>−</mo><mn>2</mn><msqrt><mrow><mn>4</mn><mo>−</mo><mn>3</mn></mrow></msqrt><mo>=</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn></math>. Prawa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mi>P</mi></math>, co kończy dowód.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "nierówności",
+    "procenty"
+   ],
+   "tresc_html": "<p>W partii 40 000 żarówek 3% stanowią żarówki uszkodzone. Ile uszkodzonych żarówek należy usunąć, aby w pozostałych żarówkach było mniej niż 2% żarówek uszkodzonych?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "co najmniej 409 żarówek",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uszkodzonych żarówek, które trzeba usunąć. 3% z 40 000 to 1200 uszkodzonych żarówek, więc po usunięciu jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1200</mn><mo>−</mo><mi>x</mi><mo>)</mo></math> uszkodzonych na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>40000</mn><mo>−</mo><mi>x</mi><mo>)</mo></math> wszystkich żarówek. Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1200</mn><mo>−</mo><mi>x</mi><mo>&lt;</mo><mn>0,02</mn><mo>(</mo><mn>40000</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>408</mn><mfrac><mn>8</mn><mn>49</mn></mfrac></math>. Należy zatem usunąć co najmniej 409 uszkodzonych żarówek.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Po usunięciu żarówek zmienia się podstawa procentu – 2% liczy się od pozostałej partii, nie od 40 000"
+   }
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "koła / okręgi"
+   ],
+   "tresc_html": "<p>W trójkącie prostokątnym przyprostokątne mają długości 10 cm i 20 cm. Na krótszej przyprostokątnej, jako na średnicy zbudowano okrąg. Oblicz długości odcinków, na jakie ten okrąg podzielił przeciwprostokątną.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "|BD| = 2√5 cm, |DC| = 8√5 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>20</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn><msqrt><mn>5</mn></msqrt></math>. Okrąg zbudowany na krótszej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jako średnicy przecina przeciwprostokątną w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>; kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> oparty na półokręgu jest prosty, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Z pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mn>10</mn><mo>·</mo><mn>20</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>100</mn><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>:</mo><mn>2</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>. Korzystając z podobieństwa trójkątów otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "kąt oparty na średnicy jest prosty, więc to spodek wysokości — użyj rzutów przyprostokątnych",
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "stężenie procentowe / mieszaniny",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Do zbiornika w kształcie prostopadłościanu o wymiarach 20 dm, 10 dm, 10 m wlano 5000 dm³ mleka o zawartości 3,4% tłuszczu, resztę dopełniono mlekiem o zawartości 4,2% tłuszczu. Ile procent tłuszczu zawiera mleko w zbiorniku?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Objętość zbiornika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>20000</mn></math> dm³, czyli 20 000 litrów. Ilość tłuszczu w mleku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,4</mn><mo>%</mo></math> z 5000 l to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,034</mn><mo>·</mo><mn>5000</mn><mo>=</mo><mn>170</mn></math> l, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,2</mn><mo>%</mo></math> z 15 000 l to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,042</mn><mo>·</mo><mn>15000</mn><mo>=</mo><mn>630</mn></math> l, razem 800 l tłuszczu. Zawartość tłuszczu w zbiorniku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>800</mn><mn>20000</mn></mfrac><mo>=</mo><mn>4</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 10 m na decymetry, a stężenia uśrednij w stosunku objętości",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Jeden wymiar zbiornika podany w metrach, dwa w decymetrach"
+   }
+  },
+  {
+   "id": "wojewodzki_2019-2020_zachodniopomorskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "zmiany procentowe",
+    "podobieństwo i skala",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Długość krawędzi sześcianu zwiększono tak, że jego pole powierzchni całkowitej wzrosło o 69%. O ile procent wzrosła objętość tego sześcianu?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "o 119,7%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi sześcianu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub></math> długość krawędzi powiększonego sześcianu; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>3</mn></msup></math>. Pole po zwiększeniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>0,69</mn><mo>·</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>10,14</mn><msup><mi>a</mi><mn>2</mn></msup></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><mn>10,14</mn><msup><mi>a</mi><mn>2</mn></msup><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,69</mn><msup><mi>a</mi><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>1</mn></msub><mo>=</mo><mn>1,3</mn><mi>a</mi></math>. Objętość powiększonego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><msup><mrow><mo>(</mo><mn>1,3</mn><mi>a</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>2,197</mn><msup><mi>a</mi><mn>3</mn></msup></math>. Wzrost objętości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>−</mo><mi>V</mi></mrow><mi>V</mi></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mrow><mn>2,197</mn><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>a</mi><mn>3</mn></msup></mrow><msup><mi>a</mi><mn>3</mn></msup></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>1,197</mn><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>119,7</mn><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole rośnie jak kwadrat skali, a objętość jak jej sześcian — najpierw znajdź skalę",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Pytają „o ile procent wzrosła”, a nie „do ilu procent”; objętość nie rośnie o tyle samo co pole"
+   }
+  }
+ ]
+}

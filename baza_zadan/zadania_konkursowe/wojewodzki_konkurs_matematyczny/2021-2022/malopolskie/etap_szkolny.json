@@ -1,0 +1,742 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2021/2022",
+ "data": "2021-10-08",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2021-2022_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2021-2022_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę pewnego towaru obniżono najpierw o 30%, a później nową cenę obniżono o kolejne 40%. Łącznie początkową cenę obniżono o</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "35%"
+    },
+    {
+     "litera": "B",
+     "html": "42%"
+    },
+    {
+     "litera": "C",
+     "html": "58%"
+    },
+    {
+     "litera": "D",
+     "html": "70%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po pierwszej obniżce cena stanowi 70% ceny początkowej, po drugiej — 60% z tego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>0,42</mn></mrow></math>, czyli 42% ceny początkowej. Łączna obniżka: 100% − 42% = 58%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę 100 i licz, ile z niej zostaje po każdej obniżce",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Druga obniżka liczy się od nowej ceny, więc procentów nie wolno po prostu dodać"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wybierz zdanie fałszywe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Podwojenie każdej liczby naturalnej podwaja liczbę jej naturalnych dzielników."
+    },
+    {
+     "litera": "B",
+     "html": "Podwojenie długości dwóch równoległych boków prostokąta podwaja jego pole."
+    },
+    {
+     "litera": "C",
+     "html": "Podwojenie mianownika i podzielenie licznika przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> nie zmienia wartości ułamka."
+    },
+    {
+     "litera": "D",
+     "html": "Podwojenie długości przekątnych kwadratu podwaja jego obwód."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprawdźmy zdanie A: liczba 2 ma dzielniki {1, 2} — jest ich 2, a liczba 4 ma dzielniki {1, 2, 4} — jest ich 3. Podwojenie liczby nie podwoiło liczby dzielników, więc zdanie A jest fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamiast rozumować ogólnie, podstaw w każdym zdaniu najprostszy konkretny przykład",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja",
+     "o-co-pytaja"
+    ],
+    "opis": "Dzielenie przez 1/2 to mnożenie przez 2, a nie branie połowy; szukamy zdania fałszywego"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wielokąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ada narysowała (10 − x) prostokątów oraz (2x − 1) sześciokątów, które łącznie miały 58 wierzchołków. Ile miały łącznie przekątnych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "59"
+    },
+    {
+     "litera": "B",
+     "html": "51"
+    },
+    {
+     "litera": "C",
+     "html": "44"
+    },
+    {
+     "litera": "D",
+     "html": "29"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prostokąt ma 4 wierzchołki, sześciokąt — 6, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mn>10</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mn>6</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>58</mn></mrow></math>, skąd x=3: 7 prostokątów i 5 sześciokątów. Prostokąt ma 2 przekątne, sześciokąt — 9, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>59</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ułóż równanie na wierzchołki, a potem użyj wzoru na liczbę przekątnych",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby wymierne i niewymierne"
+   ],
+   "tresc_html": "<p>Adam zapisał trzy różne liczby:</p><ul><li>liczbę całkowitą, która nie jest naturalna,</li><li>liczbę wymierną, która nie jest całkowita,</li><li>liczbę rzeczywistą, która nie jest wymierna.</li></ul><p>Następnie Adam dodał wszystkie zapisane liczby. Którą z poniższych sum mógł otrzymać?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "0"
+    },
+    {
+     "litera": "C",
+     "html": "2,(89)"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>3</mn></mfrac></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba całkowita niebędąca naturalną plus liczba wymierna niecałkowita dają sumę wymierną, więc cała suma trzech liczb (wymierna + niewymierna) musi być niewymierna. Jedyna taka odpowiedź to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>3</mn></mfrac></mrow></math>, np. dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>1</mn><mo>+</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>3</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w sumie jest dokładnie jedna liczba niewymierna — czy taka suma może wyjść wymierna",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Ułamek okresowy wygląda na liczbę niewymierną, a jest wymierny"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Oblicz objętość V sześcianu o polu powierzchni całkowitej równym 72.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>432</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole powierzchni sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>72</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sześcian ma 6 jednakowych ścian — wyznacz najpierw a², potem podnieś a do sześcianu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Który z poniższych zapisów przedstawia liczbę naturalną zapisaną w systemie rzymskim?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "XXL"
+    },
+    {
+     "litera": "B",
+     "html": "CD"
+    },
+    {
+     "litera": "C",
+     "html": "ID"
+    },
+    {
+     "litera": "D",
+     "html": "XD"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W liczbach rzymskich mniejszy znak może poprzedzać tylko wskazany większy (I przed V/X, X przed L/C, C przed D/M) i tylko pojedynczo. Zapis CD spełnia tę zasadę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>500</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>400</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź każdy zapis regułą odejmowania w systemie rzymskim",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Zapis rzymski: X wolno odjąć tylko od L i C, więc XD wygląda na 490, ale jest niepoprawny"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Podróżując z miasta A do miasta B, kierowca przejechał 120 km ze średnią prędkością 60 km/h. Drogę powrotną z miasta B do miasta A kierowca pokonał ze średnią prędkością 80 km/h, jadąc tą samą trasą. Ile wyniosła średnia prędkość jazdy podczas całej podróży? Podaj wynik zaokrąglony do jedności.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "67 km/h"
+    },
+    {
+     "litera": "B",
+     "html": "68 km/h"
+    },
+    {
+     "litera": "C",
+     "html": "69 km/h"
+    },
+    {
+     "litera": "D",
+     "html": "70 km/h"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czas jazdy tam: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>2</mn></mrow></math> h, powrotu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>80</mn><mo>=</mo><mn>1,5</mn></mrow></math> h. Łącznie 240 km w 3,5 h: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>:</mo><mn>3,5</mn><mo>≈</mo><mn>68,57</mn></mrow></math> km/h, po zaokrągleniu 69 km/h.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno czas w jedną i w drugą stronę — średnia to cała droga przez cały czas",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Średnia prędkość to nie średnia arytmetyczna prędkości, bo czasy jazdy są różne"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Wszystkie krawędzie graniastosłupa prawidłowego mają tę samą długość, będącą liczbą pierwszą. Pole powierzchni bocznej tego graniastosłupa wynosi 36. Ile istnieje różnych graniastosłupów spełniających te warunki?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ściany boczne to kwadraty o boku a, więc pole boczne wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math>, gdzie n to liczba boków podstawy, a — liczba pierwsza. Dla a=2 mamy n=9, dla a=3 mamy n=4; kolejna liczba pierwsza, 5, daje n niecałkowite. Istnieją więc 2 takie graniastosłupy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole boczne to liczba ścian razy a², więc a² musi dzielić 36 — sprawdź kolejne liczby pierwsze",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Graniastosłup prawidłowy może mieć w podstawie dowolny n-kąt, nie tylko trójkąt, kwadrat czy sześciokąt"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "działania na pierwiastkach",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole rombu o przekątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math> wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole rombu to połowa iloczynu przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>4</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>6</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole rombu to połowa iloczynu przekątnych — wymnóż nawiasy",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W stołówce opiekunowie zebrali wszystkich uczestników obozu: chłopców i dziewczęta. Następnie grupa 15 dziewcząt udała się na wycieczkę rowerową, po czym liczba zebranych w stołówce chłopców była dwukrotnie wyższa od obecnych tam dziewcząt. Krótką chwilę później 45 chłopców udało się na zajęcia sportowe. Wtedy chłopców obecnych w stołówce było pięć razy mniej niż obecnych tam dziewcząt. Ile dziewcząt uczestniczy w tym obozie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25"
+    },
+    {
+     "litera": "B",
+     "html": "40"
+    },
+    {
+     "litera": "C",
+     "html": "150"
+    },
+    {
+     "litera": "D",
+     "html": "165"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech G — liczba dziewcząt w obozie. Po wyjściu 15: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>G</mi><mo>−</mo><mn>15</mn><mo>)</mo></mrow></math>. Po wyjściu 45 chłopców: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>−</mo><mn>45</mn><mo>=</mo><mfrac><mrow><mi>G</mi><mo>−</mo><mn>15</mn></mrow><mn>5</mn></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>G</mi><mo>=</mo><mn>360</mn></mrow></math>, czyli G=40.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz literą liczbę dziewcząt po wyjściu 15 i wyraź przez nią obie liczby chłopców",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Niewiadoma wygodna w równaniu to dziewczęta w stołówce, a pytają o wszystkie dziewczęta na obozie"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Dokończ zdanie: Nie można odmierzyć wody o objętości 300 ml, mając do dyspozycji kran z nieograniczoną ilością wody oraz wyłącznie dwa naczynia o pojemności</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "100 ml i 500 ml"
+    },
+    {
+     "litera": "B",
+     "html": "400 ml i 500 ml"
+    },
+    {
+     "litera": "C",
+     "html": "500 ml i 600 ml"
+    },
+    {
+     "litera": "D",
+     "html": "200 ml i 600 ml"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mając kran, zlew i dwa naczynia o pojemnościach a i b, można odmierzyć dowolną wielokrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></mrow></math>. Dla 200 ml i 600 ml NWD wynosi 200, a 300 nie jest jego wielokrotnością — w pozostałych parach NWD to 100, więc 300 ml da się odmierzyć.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "odmierzyć można tylko wielokrotności NWD obu pojemności — porównaj je z 300",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Krótsza przekątna dzieli deltoid na dwa trójkąty równoramienne. Dłuższa przekątna deltoidu <strong>nie może</strong> go podzielić na dwa trójkąty:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "równoboczne"
+    },
+    {
+     "litera": "B",
+     "html": "ostrokątne"
+    },
+    {
+     "litera": "C",
+     "html": "prostokątne"
+    },
+    {
+     "litera": "D",
+     "html": "równoramienne"
+    },
+    {
+     "litera": "E",
+     "html": "różnoboczne"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Krótsza przekątna łączy wierzchołki między dwiema parami równych boków deltoidu, więc dzieli go na dwa trójkąty, z których każdy korzysta z jednej pary równych boków — zawsze równoramienne. Dłuższa przekątna to oś symetrii: dzieli deltoid na dwa przystające trójkąty o bokach: krótszym boku, dłuższym boku i tej przekątnej. Byłyby one równoboczne tylko, gdyby oba boki deltoidu miały tę samą długość — a wtedy figura byłaby rombem, nie deltoidem.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "kąty",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Jaką miarę ma kąt ostry utworzony przez wskazówki godzinową i minutową o godzinie 1:15?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22,5°"
+    },
+    {
+     "litera": "B",
+     "html": "30°"
+    },
+    {
+     "litera": "C",
+     "html": "37,5°"
+    },
+    {
+     "litera": "D",
+     "html": "52,5°"
+    },
+    {
+     "litera": "E",
+     "html": "60°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Minutowa po 15 min jest odchylona o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>6</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Godzinowa o 1:00 jest przy 30°, a w 15 min przesuwa się o kolejne 7,5°, czyli do 37,5°. Kąt między wskazówkami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo><mo>−</mo><mn>37,5</mn><mo>°</mo><mo>=</mo><mn>52,5</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wskazówka godzinowa też się przesuwa — o kwadrans to ćwierć z 30°",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:ruch-wskazowki-godzinowej"
+    ],
+    "opis": "Wskazówka godzinowa o 1:15 nie stoi na jedynce, tylko przesunęła się o ćwierć godziny"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "NWW / NWD",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><msup><mn>2</mn><mn>9</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>14</mn></msup></mrow></math>. Wartość ilorazu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>NWW</mtext><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo></mrow><mrow><mtext>NWD</mtext><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo></mrow></mfrac></math> wynosi</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>10</mn></msup><mo>·</mo><msup><mn>5</mn><mn>10</mn></msup></mrow></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>9</mn></msup><mo>·</mo><msup><mn>5</mn><mn>14</mn></msup></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>NWW(A, B) bierze wyższe wykładniki, NWD(A, B) — niższe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>=</mo><msup><mn>2</mn><mn>9</mn></msup><mo>·</mo><msup><mn>5</mn><mn>14</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></mrow></math>. Iloraz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "do NWW bierz wyższe wykładniki, do NWD niższe — przy dzieleniu wykładniki się odejmują",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaki dzień tygodnia był 1 stycznia 2000 roku, jeżeli 1 stycznia 2001 roku to poniedziałek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "wtorek"
+    },
+    {
+     "litera": "B",
+     "html": "środa"
+    },
+    {
+     "litera": "C",
+     "html": "czwartek"
+    },
+    {
+     "litera": "D",
+     "html": "piątek"
+    },
+    {
+     "litera": "E",
+     "html": "sobota"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 1 stycznia 2000 do 1 stycznia 2001 mija rok 2000, przestępny (podzielny przez 400), czyli 366 dni. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>366</mn><mo>=</mo><mn>52</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>2</mn></mrow></math>, więc 1 stycznia 2000 przypadał 2 dni wcześniej niż poniedziałek — w sobotę.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rok 2000 był przestępny — podziel liczbę jego dni przez 7 i patrz na resztę",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "notacja wykładnicza",
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Włos człowieka rośnie z szybkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>9</mn></mrow></msup></mrow></math> m/s. W ciągu 10 godzin włos urośnie o:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup></mrow></math> mm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></mrow></math> mm"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> mm"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> mm"
+    },
+    {
+     "litera": "E",
+     "html": "3,24 mm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>10 h to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>3600</mn><mo>=</mo><mn>36000</mn></mrow></math> s. Przyrost: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>9</mn></mrow></msup><mo>·</mo><mn>36000</mn><mo>=</mo><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup></mrow></math> m, czyli (razy 1000) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,24</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> mm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 10 godzin na sekundy i pilnuj przejścia z metrów na milimetry",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Prędkość podana w m/s, a odpowiedzi są w milimetrach"
+   }
+  },
+  {
+   "id": "szkolny_2021-2022_malopolskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Przekątna AC dzieli trapez ABCD na dwa trójkąty równoramienne, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> tak, jak przedstawiono na rysunku obok. Punkt E leży na podstawie AB trapezu ABCD oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, a miara kąta BAC wynosi 40°.</p><p>Ile wynosi różnica pomiędzy miarą największego a miarą najmniejszego kąta trapezu EBCD?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40°"
+    },
+    {
+     "litera": "B",
+     "html": "50°"
+    },
+    {
+     "litera": "C",
+     "html": "55°"
+    },
+    {
+     "litera": "D",
+     "html": "70°"
+    },
+    {
+     "litera": "E",
+     "html": "80°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2021-2022_malopolskie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ AB∥DC, kąt DCA (naprzemianległy do kąta 40°) też ma 40°. Trójkąt ACD ma AD=CD, więc jest równoramienny: kąt DAC=40°, stąd kąt DAB=80° i kąt ADC=100°. Trójkąt ABC ma AB=AC, więc kąty przy podstawie mają po 70°, skąd kąt BCD=110°. Ponieważ AE=AD, trójkąt ADE jest równoramienny z kątami przy podstawie po 50°. W czworokącie EBCD kąty wynoszą: E=130°, B=70°, C=110°, D=50°. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>130</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

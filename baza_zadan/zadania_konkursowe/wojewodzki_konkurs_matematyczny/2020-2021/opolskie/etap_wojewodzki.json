@@ -1,0 +1,352 @@
+{
+ "konkurs": "XXI Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "opolskie",
+ "rok_szkolny": "2020/2021",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 11,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2021_opolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2021_opolskie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Dwa pociągi towarowe, każdy o długości 250 m, jadą po dwóch równoległych torach w przeciwnych kierunkach z tą samą prędkością 45 km/h. Pociągi miną się w ciągu:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "20 sekund."
+    },
+    {
+     "litera": "2",
+     "html": "40 sekund."
+    },
+    {
+     "litera": "3",
+     "html": "0,4 minuty."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pociągi jadą naprzeciw siebie, więc zbliżają się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mn>45</mn><mo>=</mo><mn>90</mn></math> km/h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>90</mn><mspace width=\"0.15em\"></mspace><mn>000</mn></mrow><mn>3600</mn></mfrac><mo>=</mo><mn>25</mn></math> m/s. Miną się, gdy pokonają łączną długość obu pociągów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>+</mo><mn>250</mn><mo>=</mo><mn>500</mn></math> m. Czas mijania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>500</mn><mn>25</mn></mfrac><mo>=</mo><mn>20</mn></math> s.</p><ul><li>20 sekund — <strong>TAK</strong>.</li><li>40 sekund — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn></math> minuty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,4</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>24</mn></math> s, a nie 20 s — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pociągi zbliżają się z sumą prędkości i muszą pokonać sumę swoich długości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:predkosc-wzgledna",
+     "jednostki"
+    ],
+    "opis": "Pociągi mijają się na drodze równej sumie ich długości, a przy jeździe naprzeciw prędkości się dodają; km/h na s"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q2",
+   "numer": 2,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2020</mn><mo>+</mo><mn>2021</mn></math> jest liczbą:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "parzystą."
+    },
+    {
+     "litera": "2",
+     "html": "pierwszą."
+    },
+    {
+     "litera": "3",
+     "html": "podzielną przez 2021."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Suma kolejnych liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2021</mn><mo>=</mo><mfrac><mrow><mn>2021</mn><mo>·</mo><mn>2022</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2021</mn><mo>·</mo><mn>1011</mn></math>.</p><ul><li>Liczby 2021 i 1011 są nieparzyste, więc ich iloczyn jest nieparzysty — <strong>NIE</strong>.</li><li>Iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2021</mn><mo>·</mo><mn>1011</mn></math> ma dzielniki różne od 1 i od siebie samego (np. 2021), więc nie jest liczbą pierwszą — <strong>NIE</strong>.</li><li>Suma równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2021</mn><mo>·</mo><mn>1011</mn></math>, więc dzieli się przez 2021 — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sparuj wyrazy od końców, żeby zapisać sumę jako iloczyn",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q3",
+   "numer": 3,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "działania na potęgach",
+    "działania na pierwiastkach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>30</mn></msup><mo>+</mo><msup><mn>5</mn><mn>29</mn></msup></mrow><mrow><msup><mn>5</mn><mn>29</mn></msup><mo>+</mo><msup><mn>5</mn><mn>28</mn></msup></mrow></mfrac></math> jest równa wartości wyrażenia:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>25</mn><mn>3</mn></msup><mo>+</mo><msup><mn>125</mn><mn>2</mn></msup></mrow><mrow><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup></mrow></mfrac></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><msqrt><msup><mn>5</mn><mn>6</mn></msup></msqrt><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wyłączając wspólne czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>30</mn></msup><mo>+</mo><msup><mn>5</mn><mn>29</mn></msup></mrow><mrow><msup><mn>5</mn><mn>29</mn></msup><mo>+</mo><msup><mn>5</mn><mn>28</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mn>5</mn><mn>29</mn></msup><mo>(</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><msup><mn>5</mn><mn>28</mn></msup><mo>(</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><msup><mn>5</mn><mn>29</mn></msup><msup><mn>5</mn><mn>28</mn></msup></mfrac><mo>=</mo><mn>5</mn></math>. Szukamy wyrażeń o wartości 5.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>25</mn><mn>3</mn></msup><mo>=</mo><msup><mn>5</mn><mn>6</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>125</mn><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>6</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>6</mn></msup><mo>+</mo><msup><mn>5</mn><mn>6</mn></msup></mrow><mrow><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></mrow><mrow><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup></mrow></mfrac><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>≠</mo><mn>5</mn></math> — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><msqrt><msup><mn>5</mn><mn>6</mn></msup></msqrt><mn>3</mn></mroot><mo>=</mo><mroot><msup><mn>5</mn><mn>3</mn></msup><mn>3</mn></mroot><mo>=</mo><mn>5</mn></math> — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>≠</mo><mn>5</mn></math> — <strong>NIE</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz wspólny czynnik z licznika i z mianownika, a odpowiedzi zapisz jako potęgi piątki",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Wysokość równoległoboku ma długość 20 cm i jest o 20% krótsza od boku, na który jest opuszczona. Czy prawdą jest, że:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "pole tego równoległoboku wynosi 480 cm²."
+    },
+    {
+     "litera": "2",
+     "html": "pole tego równoległoboku wynosi 50 dm²."
+    },
+    {
+     "litera": "3",
+     "html": "obwód tego równoległoboku wynosi co najmniej 90 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wysokość jest o 20% krótsza od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, na który jest opuszczona, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>=</mo><mn>0,8</mn><mi>a</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>25</mn></math> cm. Pole równoległoboku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>25</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>500</mn></math> cm².</p><ul><li>Pole wynosi 500 cm², a nie 480 cm² — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math> dm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5000</mn></math> cm², a pole to 500 cm² — <strong>NIE</strong>.</li><li>Jeden bok ma 25 cm, a drugi bok (ramię) jest nie krótszy niż wysokość, czyli co najmniej 20 cm. Zatem obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>(</mo><mn>25</mn><mo>+</mo><mi>b</mi><mo>)</mo><mo>≥</mo><mn>2</mn><mo>(</mo><mn>25</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>90</mn></math> cm — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "o 20% krótsza to 0,8 boku; przy obwodzie pamiętaj, że ramię nie jest krótsze od wysokości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "jednostki"
+    ],
+    "opis": "Wysokość o 20% krótsza od boku: 20% liczy się od boku, nie od wysokości; potem cm² na dm² (1 dm² = 100 cm²)"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Zdecyduj, czy poniższe zdania są prawdziwe.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Istnieje ostrosłup prawidłowy sześciokątny, którego wszystkie krawędzie są równej długości."
+    },
+    {
+     "litera": "2",
+     "html": "Każdy ostrosłup prawidłowy trójkątny ma krawędzie równej długości."
+    },
+    {
+     "litera": "3",
+     "html": "Pole powierzchni czworościanu foremnego o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<ul><li>W ostrosłupie prawidłowym sześciokątnym promień okręgu opisanego na podstawie jest równy długości krawędzi podstawy. Gdyby krawędź boczna była równa krawędzi podstawy, wierzchołek leżałby w płaszczyźnie podstawy (wysokość zero) — taki ostrosłup nie istnieje — <strong>NIE</strong>.</li><li>W ostrosłupie prawidłowym trójkątnym podstawą jest trójkąt równoboczny, ale krawędzie boczne mogą być dowolnej (większej niż wysokość podstawy z jej środka) długości i na ogół różnią się od krawędzi podstawy — <strong>NIE</strong>.</li><li>Czworościan foremny ma 4 ściany będące trójkątami równobocznymi o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Pole jednej ściany to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>, więc pole całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math> — <strong>TAK</strong>.</li></ul>",
+    "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij sobie, z ilu trójkątów równobocznych składa się sześciokąt foremny i ile ścian ma czworościan",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "inne:prawidlowy-vs-foremny"
+    ],
+    "opis": "Ostrosłup prawidłowy to nie to samo co foremny; przy sześciokącie równe krawędzie dają wysokość zero"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "reszta z dzielenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że jeżeli liczba naturalna nie jest podzielna przez 3, to jej kwadrat daje przy dzieleniu przez 3 resztę 1.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Teza jest prawdziwa (dowód)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba naturalna niepodzielna przez 3 daje przy dzieleniu przez 3 resztę 1 lub 2, więc ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math> dla pewnej liczby całkowitej nieujemnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>k</mi><mo>)</mo><mo>+</mo><mn>1</mn></math> — reszta 1.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn></math> — reszta 1.</li></ul><p>W obu przypadkach kwadrat daje przy dzieleniu przez 3 resztę 1, co kończy dowód.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie uzasadni biorąc pod uwagę liczby, które przy dzieleniu przez 3 dają resztę 1 oraz 2 – 5p</li><li>rozważa dwa przypadki z małym błędem rachunkowym – 4p</li><li>uzasadni tylko w jednym przypadku – 3p</li><li>zapisze wyrażenia określające liczby niepodzielne przez 3 – 2p</li><li>zapisze wyrażenie określające liczbę niepodzielną przez 3 – 1p</li><li>Podanie tylko przykładów – 0p</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Świeże pomidory zawierają około 95% wody. Po wstępnym suszeniu połowa wody wyparowała z pomidorów. Oblicz, jaki procent podsuszonych pomidorów teraz stanowi woda.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "około 90,5%",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przyjmijmy, że świeżych pomidorów było 100 kg. Wody było wtedy 95 kg, a suchej masy 5 kg. Po odparowaniu połowy wody zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>95</mn><mn>2</mn></mfrac><mo>=</mo><mn>47,5</mn></math> kg wody, a sucha masa (5 kg) nie zmieniła się. Łączna masa podsuszonych pomidorów wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>47,5</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>52,5</mn></math> kg.</p><p>Procent wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>47,5</mn><mn>52,5</mn></mfrac><mo>=</mo><mfrac><mn>95</mn><mn>105</mn></mfrac><mo>=</mo><mfrac><mn>19</mn><mn>21</mn></mfrac><mo>≈</mo><mn>0,905</mn></math>, czyli około <strong>90,5%</strong>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy, jaki procent stanowi woda (około 90,5%) – 5p</li><li>poprawny sposób z błędem rachunkowym – 4p</li><li>zapisze wyrażenie określające masę pomidorów po wyparowaniu – 3p</li><li>zapisze wyrażenie określające masę wody po wyparowaniu – 2p</li><li>zapisze wyrażenie określające masę wody przed wyparowaniem – 1p</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przyjmij 100 kg pomidorów — sucha masa nie wyparuje, zmienia się tylko woda",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Procent wody liczy się od nowej, mniejszej masy pomidorów, a nie od masy pierwotnej"
+   }
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Oblicz pole kwadratu, którego przekątna jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></math> dłuższa od boku. Liczbę wyrażającą obliczone pole podaj w jak najprostszej postaci.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością boku kwadratu. Jego przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>. Z warunku zadania przekątna jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></math> dłuższa od boku:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>−</mo><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math>. Pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn></math>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole kwadratu (4) – 5p</li><li>poprawny sposób obliczania z małym błędem rachunkowym – 4p</li><li>wyznaczy długość boku kwadratu – 3p</li><li>zapisze równanie – 1p</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz 2 przed nawias po prawej stronie i porównaj z a(√2−1)",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "działania na pierwiastkach",
+    "wyłączanie czynnika przed znak pierwiastka"
+   ],
+   "tresc_html": "<p>Sprawdź, która liczba jest większa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><msqrt><mn>5</mn></msqrt></mfrac></math> czy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><msqrt><mn>10</mn></msqrt></mfrac></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Większa jest druga liczba: √10/2 + 2/√10",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Sprowadzamy każdą sumę do jednego ułamka o mianowniku z pierwiastkiem.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><msqrt><mn>5</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>·</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>3</mn></mrow><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>5</mn><mo>+</mo><mn>9</mn></mrow><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>14</mn><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><msqrt><mn>10</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>10</mn></msqrt><mo>·</mo><msqrt><mn>10</mn></msqrt></mrow><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>2</mn></mrow><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>10</mn><mo>+</mo><mn>4</mn></mrow><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>14</mn><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac></math></p><p>Obie liczby mają ten sam licznik 14, więc większa jest ta o mniejszym mianowniku. Porównujemy mianowniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msqrt><mn>45</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><msqrt><mn>40</mn></msqrt></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>45</mn></msqrt><mo>&gt;</mo><msqrt><mn>40</mn></msqrt></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>&lt;</mo><mfrac><mn>14</mn><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac></math>. Większa jest druga liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><msqrt><mn>10</mn></msqrt></mfrac></math>.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>dokona poprawnego porównania ułamków – 5p</li><li>porówna mianowniki (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>45</mn></msqrt><mo>&gt;</mo><msqrt><mn>40</mn></msqrt></mrow></math>) – 4p</li><li>zapisze sumy w postaci jednego ułamka (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></mfrac></math>) – 3p</li><li>podejmuje próby sprowadzenia do wspólnego mianownika – 1p</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprowadź każdą sumę do jednego ułamka i porównaj mianowniki",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "okrąg wpisany i opisany",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W kwadrat o boku długości 20 cm wpisano okrąg, a następnie w ten okrąg wpisano prostokąt, którego jeden bok ma długość 12 cm. Oblicz pole powierzchni wpisanego prostokąta.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "192 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Okrąg wpisany w kwadrat o boku 20 cm ma średnicę równą bokowi kwadratu, czyli 20 cm. Prostokąt wpisany w okrąg ma przekątną równą średnicy okręgu, więc jego przekątna wynosi 20 cm.</p><p>Znamy jeden bok prostokąta (12 cm) i przekątną (20 cm). Z twierdzenia Pitagorasa drugi bok wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>20</mn><mn>2</mn></msup><mo>−</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>400</mn><mo>−</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>256</mn></msqrt><mo>=</mo><mn>16</mn></math> cm.</p><p>Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>192</mn></math> cm².</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole prostokąta (192 cm²) – 5p</li><li>poprawny sposób obliczenia z błędem rachunkowym – 4p</li><li>obliczy długość drugiego boku prostokąta (16 cm) – 3p</li><li>zastosuje twierdzenie Pitagorasa do obliczenia długości drugiego boku prostokąta – 2p</li><li>zauważy, że przekątna prostokąta wynosi 20 cm (odpowiedni rysunek) – 1p</li></ul>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przekątna prostokąta to średnica okręgu, czyli bok kwadratu — dalej Pitagoras",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2021_opolskie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "graniastosłupy",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Dany jest prostopadłościan <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mi>E</mi><mi>F</mi><mi>G</mi><mi>H</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>12</mn></math> cm (patrz rysunek).</p><p>Oblicz odległość wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2021_opolskie_q11_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "12√10/13 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Rozważamy trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math>. Krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>=</mo><mi>a</mi><mo>=</mo><mn>3</mn></math> cm jest prostopadła do ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>D</mi><mi>H</mi><mi>E</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>⊥</mo><mi>A</mi><mi>H</mi></math> i trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math> jest prostokątny w wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>.</p><p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi></math> jest przekątną ściany o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>16</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math> to przekątna prostopadłościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>9</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>169</mn></msqrt><mo>=</mo><mn>13</mn></math> cm.</p><p>Szukana odległość to wysokość opuszczona z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math> możemy zapisać na dwa sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>A</mi><mi>B</mi><mo>·</mo><mi>A</mi><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>B</mi><mi>H</mi><mo>·</mo><mi>d</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mfrac><mrow><mi>A</mi><mi>B</mi><mo>·</mo><mi>A</mi><mi>H</mi></mrow><mrow><mi>B</mi><mi>H</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac><mo>=</mo><mfrac><mrow><mn>12</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac></math> cm.</p>",
+    "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy odległość (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac></math> cm) – 5p</li><li>poprawny sposób z drobnym błędem rachunkowym – 4p</li><li>wyznaczy odległość na rysunku – 3p</li><li>obliczy długość przekątnej prostopadłościanu – 2p</li><li>poprawny sposób wyznaczenia przekątnej prostopadłościanu – 1p</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

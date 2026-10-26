@@ -1,0 +1,661 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych (łódzkie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "lodzkie",
+ "rok_szkolny": "2022/2023",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 16,
+ "max_punktow": 100,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2023_lodzkie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2023_lodzkie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "podzielność",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Dokończ zdanie tak aby było fałszywe.</p><p><em>Iloczyn wszystkich liczb pierwszych mniejszych niż 100 jest</em></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "liczbą podzielną przez 30."
+    },
+    {
+     "litera": "B",
+     "html": "liczbą podzielną przez 66."
+    },
+    {
+     "litera": "C",
+     "html": "liczbą podzielną przez 39."
+    },
+    {
+     "litera": "D",
+     "html": "liczbą podzielną przez 45."
+    },
+    {
+     "litera": "E",
+     "html": "liczbą podzielną przez 210."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloczyn wszystkich liczb pierwszych mniejszych niż 100 zawiera czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> dokładnie raz, a liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn></math> wymaga dwóch czynników 3, więc iloczyn nie jest podzielny przez 45.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż każdy dzielnik na czynniki pierwsze — w iloczynie każda liczba pierwsza występuje tylko raz",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "o-co-pytaja"
+    ],
+    "opis": "Szukamy zdania fałszywego; iloczyn różnych liczb pierwszych zawiera każdą tylko raz, a 45 ma czynnik 3 dwa razy"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Ile jest liczb całkowitych wśród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Zero"
+    },
+    {
+     "litera": "B",
+     "html": "Jedna"
+    },
+    {
+     "litera": "C",
+     "html": "Dwie"
+    },
+    {
+     "litera": "D",
+     "html": "Trzy"
+    },
+    {
+     "litera": "E",
+     "html": "Cztery"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pierwszy ułamek ma licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>0</mn></math>, więc jego wartość to 0 — liczba całkowita. Pozostałe trzy dają kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>32</mn></mrow><mn>7</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>7</mn></mrow><mn>2</mn></mfrac></math> — żadna nie jest całkowita, więc taka liczba jest tylko jedna.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "uprość osobno licznik i mianownik każdego ułamka piętrowego",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "Pierwsze wyrażenie daje 0, a zero też jest liczbą całkowitą"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "zmiany procentowe",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Egzamin, który rozpoczyna się o godzinie 9:00 składa się z dwóch części. Na rozwiązanie pierwszej części egzaminu zdający mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mi>h</mi><mspace width=\"0.2em\"></mspace><mn>20</mn><mspace width=\"0.2em\"></mspace><mi>min</mi></math>, po 10 minutach przerwy rozpoczyna się druga część, która trwa półtorej godziny. Z powodu problemów technicznych czas pierwszej części wydłużono zdającym o 15%. W wyniku zamieszania przerwa wydłużyła się w stosunku do planu o 250%. Krzysiek wyszedł z egzaminu po wykorzystaniu 80% czasu przeznaczonego na drugą część egzaminu. O której godzinie Krzysiek wyszedł z egzaminu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12:19"
+    },
+    {
+     "litera": "B",
+     "html": "12:09"
+    },
+    {
+     "litera": "C",
+     "html": "12:00"
+    },
+    {
+     "litera": "D",
+     "html": "11:44"
+    },
+    {
+     "litera": "E",
+     "html": "11:54"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Część pierwsza trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>1,15</mn><mo>=</mo><mn>92</mn></math> min, więc kończy się o 10:32. Przerwa wydłużona o 250% trwa 35 min, więc część druga zaczyna się o 11:07. Krzysiek wyszedł po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>90</mn><mo>=</mo><mn>72</mn></math> min, czyli o 11:07 + 72 min = 12:19.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystko na minuty; wydłużenie o 250% to dodanie 250%, nie pomnożenie przez 2,5",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Przerwa wydłużona O 250%, a nie DO 250% planowanej długości"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Nauczyciel matematyki w klasie Ani robił statystyki wyników egzaminu z podziałem na rok urodzenia zdających. Obliczył, że 16 osób urodzonych w 2008 roku uzyskało średnio 43 punkty a 9 osób urodzonych w 2009 uzyskało średnio 41 punktów. Następnie zorientował się, że Ania, która urodziła się w 2008 roku, była błędnie przypisana do rocznika 2009. Musiał więc poprawić swoje rachunki. Po korekcie średni wynik grupy osób urodzonych w 2008 roku nie zmienił się. Jaki był średni wynik osób urodzonych w 2009?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40,75"
+    },
+    {
+     "litera": "B",
+     "html": "41,2"
+    },
+    {
+     "litera": "C",
+     "html": "42"
+    },
+    {
+     "litera": "D",
+     "html": "36,9"
+    },
+    {
+     "litera": "E",
+     "html": "40,47"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>16 osób z 2008 roku dało sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>·</mo><mn>43</mn><mo>=</mo><mn>688</mn></math>, a 9 „osób z 2009” (w tym Ania) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>41</mn><mo>=</mo><mn>369</mn></math>. Po korekcie grupa 2008 liczy 17 osób przy tej samej średniej, więc jej suma to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>·</mo><mn>43</mn><mo>=</mo><mn>731</mn></math>, a wynik Ani to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>731</mn><mo>−</mo><mn>688</mn><mo>=</mo><mn>43</mn></math>. Grupa 2009 bez Ani ma sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>369</mn><mo>−</mo><mn>43</mn><mo>=</mo><mn>326</mn></math> i 8 osób, więc średnią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>326</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>40,75</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dopisanie kogoś nie zmienia średniej tylko wtedy, gdy jego wynik równa się tej średniej",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "wyłączanie czynnika przed znak pierwiastka",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>27</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> można zapisać jako:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40"
+    },
+    {
+     "litera": "B",
+     "html": "76"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>+</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>30</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>, wyrażenie w nawiasie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></math>. Podnosząc do kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>75</mn><mo>+</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>=</mo><mn>76</mn><mo>+</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "uprość √27 i dodaj do 2√3, zanim podniesiesz do kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "trójkąty",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Co wynika z danych przedstawionych na rysunku?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Wszystkie trzy trójkąty są przystające."
+    },
+    {
+     "litera": "B",
+     "html": "Trójkąty 1 i 2 są przystające, ale trójkąt 3 nie jest do nich przystający."
+    },
+    {
+     "litera": "C",
+     "html": "Trójkąty 1 i 3 są przystające, ale trójkąt 2 nie jest do nich przystający."
+    },
+    {
+     "litera": "D",
+     "html": "Trójkąty 3 i 2 są przystające, ale trójkąt 1 nie jest do nich przystający."
+    },
+    {
+     "litera": "E",
+     "html": "Nie mamy pewności, że jest tu choć jedna para trójkątów przystających."
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lodzkie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Każdy z trójkątów ma podane tylko dwa boki, a kąt między nimi nigdzie nie jest oznaczony jako prosty — Trójkąt 1 ma zaznaczony kąt bez podanej miary, a Trójkąty 2 i 3 nie mają żadnego oznaczenia kąta mimo rysunku sugerującego kąt prosty. Dwa boki bez znanego kąta między nimi (ani trzeciego boku) nie wyznaczają kształtu trójkąta jednoznacznie, więc mimo tych samych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>29</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>45</mn></msqrt></math> nie mamy pewności, że którakolwiek para trójkątów jest przystająca.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "rysunek",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Kąt prosty zaznaczono tylko w jednym trójkącie; pozostałe tylko wyglądają na prostokątne"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Samochód pokonał trasę długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt></math> km w kierunku północno-wschodnim (pod kątem 45° od kierunku wschodniego) a następnie 15 km na południe. Z miejsca, do którego dotarł wrócił najkrótszą możliwą drogą do punktu startu. Ten ostatni fragment drogi miał długość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "między 9 a 10 kilometrów."
+    },
+    {
+     "litera": "B",
+     "html": "między 10 a 11 kilometrów."
+    },
+    {
+     "litera": "C",
+     "html": "między 11 a 12 kilometrów."
+    },
+    {
+     "litera": "D",
+     "html": "między 12 a 13 kilometrów."
+    },
+    {
+     "litera": "E",
+     "html": "między 13 a 14 kilometrów."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt></math> km pod kątem 45° rozkłada się na dwie równe składowe: wschodnią i północną o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>. Po drugim odcinku (15 km na południe) samochód jest 5 km na wschód i 10 km na południe od startu, więc droga powrotna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>125</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>11,18</mn></math> km — między 11 a 12 km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "√50 rozbij na równe przesunięcia na wschód i na północ, potem zsumuj ruchy pionowe",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "równania z jedną zmienną",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>x</mi></math> jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "liczba mniejsza niż −1"
+    },
+    {
+     "litera": "B",
+     "html": "liczba większa niż −1 i mniejsza od 0"
+    },
+    {
+     "litera": "C",
+     "html": "liczba większa niż 0 i mniejsza od 1"
+    },
+    {
+     "litera": "D",
+     "html": "liczba większa niż 1 i mniejsza od 2"
+    },
+    {
+     "litera": "E",
+     "html": "liczba większa niż 2 i mniejsza od 3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>, równanie ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>x</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>2</mn><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></math>. Liczba −2 jest mniejsza niż −1.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przenieś wyrazy z x na jedną stronę i zauważ, że druga strona to wielokrotność (1 − √2)",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "układ współrzędnych",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Oblicz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> trójkąta, którego wierzchołkami są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>0</mn><mo>,</mo><msqrt><mn>75</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mn>0</mn><mo>,</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><msqrt><mn>23</mn></msqrt><mo>,</mo><msqrt><mn>19</mn></msqrt><mo>)</mo></math></p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>4</mn><msqrt><mn>19</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>4</mn><msqrt><mn>23</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>8</mn><msqrt><mn>19</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>8</mn><msqrt><mn>23</mn></msqrt></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><msqrt><mn>19</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Punkty A i B leżą na osi Y, więc odcinek AB jest podstawą trójkąta o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>)</mo><mo>−</mo><mo>(</mo><msqrt><mn>75</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>8</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>75</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>). Wysokością jest odległość punktu C od osi Y, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>23</mn></msqrt></math>, więc pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><msqrt><mn>23</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>23</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "uprość √75 — A i B leżą na osi Y, a wysokość to odległość C od tej osi",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Podstawa AB leży na osi OY, więc wysokością jest pierwsza współrzędna C, a nie druga"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Z sześcianu o krawędzi 6 dm wydrążono największy możliwy ostrosłup prawidłowy czworokątny (porównaj rysunek).</p><p>W ten sposób powstały cztery bryły (ostrosłupy trójkątne). Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> każdej z nich jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>216</mn></math> dm³"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>72</mn></math> dm³"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>18</mn></math> dm³"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>24</mn></math> dm³"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>36</mn></math> dm³"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lodzkie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wydrążony ostrosłup ma za podstawę górną ścianę sześcianu (kwadrat o boku 6) i wierzchołek w środku ściany dolnej, więc jego wysokość wynosi 6 dm, a objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>72</mn></math> dm³. Pozostała część sześcianu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>216</mn><mo>−</mo><mn>72</mn><mo>=</mo><mn>144</mn></math> dm³, podzielona na 4 przystające ostrosłupy trójkątne, więc każdy ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>36</mn></math> dm³.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "największy ostrosłup ma podstawę równą ścianie sześcianu; odejmij go od sześcianu i podziel resztę na 4",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o każdą z czterech brył pozostałych po wydrążeniu, a nie o wydrążony ostrosłup"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 4,
+   "tematy": [
+    "bryły obrotowe",
+    "okrąg wpisany i opisany",
+    "sześciokąty foremne"
+   ],
+   "tresc_html": "<p>Podstawą niebieskiego walca o wysokości 1 dm jest koło, w które wpisano sześciokąt foremny o polu równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>27</mn><mn>2</mn></mfrac><msqrt><mn>3</mn></msqrt></math> dm². Podstawą zielonego walca o wysokości 22,5 cm jest koło, na którym opisano kwadrat o polu równym 8 dm². Który walec ma większą objętość? Wskaż właściwą odpowiedź A–C oraz jej uzasadnienie 1–3.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "niebieski"
+    },
+    {
+     "litera": "B",
+     "html": "zielony"
+    },
+    {
+     "litera": "C",
+     "html": "objętości obu walców są równe"
+    },
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>1</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>2,25</mn></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>1</mn><mo>&gt;</mo><mn>2</mn><mo>·</mo><mn>2,25</mn></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>1</mn><mo>&lt;</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>2,25</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A2",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niebieski: sześciokąt foremny wpisany w koło ma pole (3√3/2)s²=27√3/2 → s²=9, s=3=promień koła (r=3). V_niebieski=π·3²·1=9π.</p><p>Zielony: kwadrat opisany na kole ma pole 8 → bok=2√2=średnica koła → r=√2. Wysokość 22,5cm=2,25dm. V_zielony=π·(√2)²·2,25=4,5π.</p><p>Porównanie promieni²·wysokość: 3²·1=9 &gt; 2·2,25=4,5 (uzasadnienie 2), więc niebieski walec ma większą objętość — odpowiedź A2.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kierunek-relacji",
+     "jednostki"
+    ],
+    "opis": "Kwadrat jest opisany NA kole (bok = średnica); wysokości walców w różnych jednostkach"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 12,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pizzeria sprzedaje pizzę w trzech rozmiarach:</p><ul><li>Mała (średnica 24 cm) za 28,4 zł</li><li>Średnia (średnica 32 cm) za 41 zł</li><li>Duża (średnica 42 cm) za 48,30 zł</li></ul><p>Finaliści Wojewódzkiego Konkursu Przedmiotowego z matematyki wyliczyli, że potrzebują minimum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mi>π</mi></math> cm² pizzy. Jaka jest minimalna kwota jaką muszą zapłacić, by kupić potrzebną ilość pizzy? Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "234,20 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Promienie i pola pizz: mała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>12</mn></math> cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mi>π</mi></math> cm²; średnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>16</mn></math> cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn><mi>π</mi></math> cm²; duża <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>21</mn></math> cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>441</mn><mi>π</mi></math> cm².</p><p>Najkorzystniejsza cenowo jest duża pizza (1 cm² kosztuje w niej ok. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,11</mn><mi>π</mi></mfrac></math> zł wobec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,16</mn><mi>π</mi></mfrac></math> zł i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,20</mn><mi>π</mi></mfrac></math> zł). Cztery duże pizze dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>441</mn><mi>π</mi><mo>=</mo><mn>1764</mn><mi>π</mi></math> cm², a brakujące <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mi>π</mi><mo>−</mo><mn>1764</mn><mi>π</mi><mo>=</mo><mn>236</mn><mi>π</mi></math> cm² pokrywa jedna średnia pizza (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn><mi>π</mi></math> cm²).</p><p>Łączny koszt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>48,30</mn><mo>+</mo><mn>41</mn><mo>=</mo><mn>234,20</mn></math> zł.</p>",
+    "punktacja_html": "<ul><li>1 punkt – obliczenie promienia małej pizzy (12 cm)</li><li>1 punkt – obliczenie pola małej pizzy (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mi>π</mi></math> cm²)</li><li>1 punkt – obliczenie promienia średniej pizzy (16 cm)</li><li>1 punkt – obliczenie pola średniej pizzy (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>256</mn><mi>π</mi></math> cm²)</li><li>1 punkt – obliczenie promienia dużej pizzy (21 cm)</li><li>1 punkt – obliczenie pola dużej pizzy (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>441</mn><mi>π</mi></math> cm²)</li><li>4 punkty – uzasadnienie, że najbardziej opłaca się kupić cztery duże i średnią pizzę (np. pokazując, że 1 cm² małej pizzy kosztuje około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,20</mn><mi>π</mi></mfrac></math> zł, średniej około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,16</mn><mi>π</mi></mfrac></math> zł i dużej około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,11</mn><mi>π</mi></mfrac></math> zł) lub rozpatrując przynajmniej cztery opcje uzyskania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mi>π</mi></math> cm²</li><li>2 punkty – udzielenie odpowiedzi (234,20 zł)</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 16,
+   "tematy": [
+    "prawdopodobieństwo",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Podaj wszystkie liczby trzycyfrowe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> spełniające warunki: suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oraz suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>9</mn></math> jest równa 5. Oblicz prawdopodobieństwo, że losując jedną liczbę ze zbioru liczb trzycyfrowych wylosujemy liczbę spełniającą powyższy warunek.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1/90",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Warunki spełnia 10 liczb: 104, 113, 122, 131, 203, 212, 221, 302, 311, 401.</p><p>Liczb trzycyfrowych jest 900, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>10</mn><mn>900</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>90</mn></mfrac></math>.</p>",
+    "punktacja_html": "<ul><li>1 punkt – ustalenie, że jest 900 liczb trzycyfrowych</li><li>10 punktów – po jednym punkcie za wskazanie każdej liczby: 104, 113, 122, 131, 203, 212, 221, 302, 311, 401</li><li>3 punkty – jeśli uczeń nie wypisze żadnej liczby spoza powyższej listy, 2 punkty jeśli pojawi się tylko jedna „zła” liczba, 1 punkt jeśli pojawią się dwie „złe” liczby</li><li>2 punkty – podanie wyniku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>900</mn></mfrac></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>90</mn></mfrac></math></li></ul><p>Uwaga 1. Uczeń może uzyskać dwa punkty za odpowiedź tylko wtedy, gdy prawidłowo wyznaczył dziesięć liczb spełniających warunki zadania (czyli nie dopuszczamy do sytuacji, w której uczeń pominął jedną prawidłową liczbę i wpisał na listę jedną nieprawidłową).</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "wszystkie-przypadki"
+    ],
+    "opis": "Liczb trzycyfrowych jest 900; liczby z cyfrą jedności 0 nie spełniają warunku dla n+9"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 11,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Laura i Filon wskazali swoje ulubione liczby. Laura wskazała liczbę pierwszą, Filon liczbę parzystą. Jeśli do średniej arytmetycznej wskazanych liczb dodamy większą z nich, to otrzymamy liczbę cztery razy mniejszą niż 166. Natomiast jeśli od średniej arytmetycznej wskazanych liczb odejmiemy mniejszą z nich, to otrzymamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>169</mn></msqrt><mo>·</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>. Ułóż odpowiedni układ równań. Jaką liczbę wskazała Laura a jaką Filon?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Laura – 11, Filon – 24",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> mniejszą ze wskazanych liczb. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>166</mn><mo>:</mo><mn>4</mn><mo>=</mo><mfrac><mn>83</mn><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>169</mn></msqrt><mo>·</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mn>13</mn><mn>2</mn></mfrac></math>.</p><p>Układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>=</mo><mfrac><mn>83</mn><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>y</mi><mo>=</mo><mfrac><mn>13</mn><mn>2</mn></mfrac></math>.</p><p>Rozwiązaniem jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>11</mn></math>. Liczba 11 jest pierwsza (Laura), a 24 parzysta (Filon), więc Laura wskazała 11, a Filon 24.</p>",
+    "punktacja_html": "<ul><li>2 punkty – określenie jako niewiadomych większej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>) i mniejszej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>) z liczb wskazanych przez Laurę i Filona</li><li>1 punkt – zapisanie, że liczba 4 razy mniejsza niż 166 to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>166</mn><mn>4</mn></mfrac></math> lub 41,5</li><li>1 punkt – zapisanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>169</mn></msqrt><mo>·</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mn>13</mn><mn>2</mn></mfrac></math></li><li>1 punkt – zapisanie średniej arytmetycznej szukanych liczb jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></math></li><li>1 punkt – zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>=</mo><mfrac><mn>83</mn><mn>2</mn></mfrac></math></li><li>1 punkt – zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>y</mi><mo>=</mo><mfrac><mn>13</mn><mn>2</mn></mfrac></math></li><li>2 punkty – rozwiązanie układu równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mtable><mtr><mtd><mi>x</mi><mo>=</mo><mn>24</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>=</mo><mn>11</mn></mtd></mtr></mtable></math></li><li>2 punkt – udzielenie poprawnej odpowiedzi: Laura wskazała liczbę 11 a Filon 24</li></ul><p>Uwaga 1. Jeśli uczeń nieświadomie przyjmie, kto wskazał większą liczbę, to nie może uzyskać dwóch pierwszych ani dwóch ostatnich punktów.</p><p>Uwaga 2. Jeśli uczeń rozwiązuje dwa układy (przy założeniu, że większą liczbę wskazała Laura a następnie, że większą liczbę wskazał Filon) i konfrontuje wyniki z pozostałymi warunkami zadania, to może otrzymać maksymalną liczbę punktów.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Nie wiadomo, czyja liczba jest większa; trzeba sprawdzić warunki pierwszości i parzystości"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 5,
+   "tematy": [
+    "trójkąty",
+    "wzrost wykładniczy",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Trójkąt Sierpińskiego to zbiór, który powstaje poprzez stopniowe usuwanie z trójkątów równobocznych odpowiednich trójkątów równobocznych. Nie da się narysować trójkąta Sierpińskiego a jedynie kolejne jego przybliżenia jak na poniższym rysunku:</p><p>a) Oblicz pole trzeciego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma bok długości 5 cm</p><p>b) Wyznacz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-tego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math></p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2023_lodzkie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "a) 225√3/64 cm², b) P·(3/4)^(n−1)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pierwsze przybliżenie (trójkąt równoboczny o boku 5 cm) ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm². Przy każdym kolejnym przybliżeniu pole mnoży się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>.</p><p>a) Trzecie przybliżenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>225</mn><msqrt><mn>3</mn></msqrt></mrow><mn>64</mn></mfrac></math> cm².</p><p>b) Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-tego przybliżenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></math>.</p>",
+    "punktacja_html": "<ul><li>1 punkt – ustalenie pola pierwszego przybliżenia: (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm²)</li><li>2 punkty – ustalenie pola trzeciego przybliżenia (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>225</mn><msqrt><mn>3</mn></msqrt></mrow><mn>64</mn></mfrac></math> cm²)</li><li>2 punkty</li></ul><p>Razem 5 punktów, w tym: a) 3, b) 2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odczytaj z rysunku, jaka część pola zostaje po każdym kroku",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Pierwsze przybliżenie to cały trójkąt, więc trzecie powstaje po dwóch krokach usuwania"
+   }
+  },
+  {
+   "id": "wojewodzki_2023_lodzkie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 12,
+   "tematy": [
+    "graniastosłupy",
+    "bryły obrotowe",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Podstawą trzech różnych graniastosłupów prostych trójkątnych jest trójkąt prostokątny o przyprostokątnych równych 5 dm i 12 dm. Każdy z graniastosłupów ma jedną ścianę boczną, która jest kwadratem. Wyznacz najmniejszą liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, dla której objętość stożka o promieniu 6 dm i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> jest większa niż suma objętości rozważanych graniastosłupów.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "H = 24 dm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przeciwprostokątna podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>13</mn></math> dm, pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>30</mn></math> dm².</p><p>Każdy graniastosłup ma ścianę boczną będącą kwadratem, więc jego wysokość jest równa jednej z krawędzi podstawy: 5, 12 lub 13 dm. Objętości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>150</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>360</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>·</mo><mn>13</mn><mo>=</mo><mn>390</mn></math> dm³; suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>900</mn></math> dm³.</p><p>Objętość stożka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>·</mo><mi>H</mi><mo>=</mo><mn>12</mn><mi>π</mi><mi>H</mi></math>. Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>π</mi><mi>H</mi><mo>&gt;</mo><mn>900</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>&gt;</mo><mfrac><mn>75</mn><mi>π</mi></mfrac><mo>≈</mo><mn>23,88</mn></math>, więc najmniejsza liczba naturalna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>24</mn></math> dm.</p>",
+    "punktacja_html": "<ul><li>1 punkt – obliczenie lub podanie długości przeciwprostokątnej (13 dm)</li><li>1 punkt – obliczenie pola podstawy graniastosłupów (30 dm²)</li><li>3 punkty – obliczenie objętości trzech graniastosłupów (150 dm³, 360 dm³, 390 dm³)</li><li>2 punkty – zapisanie objętości stożka jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mi>π</mi><mi>H</mi></math></li><li>2 punkty – zapisanie nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mi>π</mi><mi>H</mi><mo>&gt;</mo><mn>900</mn></math> lub przybliżenie lewej strony nierówności jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,68</mn><mi>H</mi></math></li><li>2 punkty – rozwiązanie nierówności (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>&gt;</mo><mn>23,88</mn></math>) lub sprawdzenie jej dla kilku liczb (w tym koniecznie dla 23 i 24)</li><li>1 punkt – podanie odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>24</mn></math> dm)</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

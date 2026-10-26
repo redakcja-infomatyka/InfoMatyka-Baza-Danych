@@ -1,0 +1,657 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2023/2024",
+ "data": "2023-11-13",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2023-2024_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2023-2024_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych dwucyfrowych, których iloczyn cyfr jest liczbą podzielną przez 3?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "63"
+    },
+    {
+     "litera": "B",
+     "html": "54"
+    },
+    {
+     "litera": "C",
+     "html": "42"
+    },
+    {
+     "litera": "D",
+     "html": "38"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Iloczyn cyfr NIE dzieli się przez 3, gdy żadna cyfra nie jest podzielna przez 3: takich cyfr dziesiątek jest 6 (1,2,4,5,7,8), jedności też 6, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> takich liczb. Liczb dwucyfrowych jest 90, więc szukanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>54</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw te liczby, w których żadna z cyfr nie dzieli się przez 3",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:zero-podzielne"
+    ],
+    "opis": "Iloczyn cyfr równy 0 też dzieli się przez 3, więc liczby z cyfrą 0 też się liczą"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne"
+   ],
+   "tresc_html": "<p>Dana jest liczba wymierna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>(</mo><mn>35</mn><mo>)</mo></math>, w której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest pewną cyfrą. W rozwinięciu dziesiętnym iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>·</mo><mi>z</mi></math> dodano do siebie cyfry występujące przed przecinkiem i cyfrę, z której składa się okres. Otrzymana suma jest wielokrotnością liczby 11. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "1"
+    },
+    {
+     "litera": "D",
+     "html": "0"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po cyfrze x od razu zaczyna się okres, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>99</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mi>z</mi><mo>=</mo><mn>11</mn><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>9</mn></mfrac></math>. Ponieważ 35:9=3,(8), po przecinku zawsze powtarza się cyfra 8, a przed przecinkiem jest liczba 11x+3. Dla x=0 to 3, a suma cyfr 3+8=11 jest wielokrotnością 11.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Aby zaparzyć herbatkę malinową, do filiżanki wsypano susz z malin, dolano wrzącą wodę i dosypano cukier. Masa suszu z malin stanowiła 2,5% masy dolanej wody, a masa cukru stanowiła 5% masy dolanej wody. Po pewnym czasie z herbatki malinowej odparowało 7,5% masy dolanej wody. Ile procent masy herbatki, po tym odparowaniu wody, stanowi teraz masa suszu z malin?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4%"
+    },
+    {
+     "litera": "B",
+     "html": "3,5%"
+    },
+    {
+     "litera": "C",
+     "html": "3%"
+    },
+    {
+     "litera": "D",
+     "html": "2,5%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech masa dolanej wody to w; susz waży 0,025w, cukier 0,05w, cały napój 1,075w. Odparowuje 0,075w wody, więc nowa masa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,075</mn><mi>w</mi><mo>−</mo><mn>0,075</mn><mi>w</mi><mo>=</mo><mi>w</mi></math>. Susz nadal waży 0,025w, czyli 2,5% nowej masy.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przyjmij masę wody 100 g i porównaj, ile łącznie dosypano, a ile odparowało",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe",
+    "wyrażenia algebraiczne",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Dane są trzy liczby naturalne dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Dwie spośród tych liczb zwiększono o 10%, a jedną z nich zmniejszono o 10% i średnia arytmetyczna utworzonych w ten sposób nowych liczb jest taka sama, jak średnia liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Wybierz zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></math> jest liczbą nieparzystą"
+    },
+    {
+     "litera": "B",
+     "html": "jedna spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest średnią arytmetyczną dwóch pozostałych"
+    },
+    {
+     "litera": "C",
+     "html": "iloczyn największej z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oraz sumy dwóch pozostałych jest kwadratem liczby naturalnej"
+    },
+    {
+     "litera": "D",
+     "html": "największa spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest większa od sumy dwóch pozostałych."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech x, y rosną o 10%, a z maleje o 10%. Równość średnich daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1</mn><mi>x</mi><mo>+</mo><mn>1,1</mn><mi>y</mi><mo>+</mo><mn>0,9</mn><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>, czyli x+y=z. Ponieważ x, y są dodatnie, z jest największą z trójki, a iloczyn największej liczby i sumy dwóch pozostałych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></math> — kwadrat liczby naturalnej.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "średnia się nie zmienia, więc suma też — zestaw przyrost dwóch liczb z ubytkiem trzeciej",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Na spektakl teatralny miejsca w lożach stanowiły 20% wszystkich miejsc na sali. Cena wyjściowa za miejsce w loży wynosiła 100 zł. Natomiast wyjściowa cena za miejsce poza lożami była równa 80 zł. Do dnia poprzedzającego spektakl włącznie sprzedano 25% miejsc w lożach oraz 75% miejsc poza lożami. W dniu spektaklu bilety zarówno w lożach jak i poza lożami kosztowały po 90 zł za sztukę i wszystkie zostały sprzedane. Na sali teatralnej było łącznie 100 miejsc. O ile złotych dochód ze sprzedaży biletów jest wyższy od wartości wszystkich biletów ustalonej na podstawie ich wyjściowych cen?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "50 zł"
+    },
+    {
+     "litera": "B",
+     "html": "60 zł"
+    },
+    {
+     "litera": "C",
+     "html": "70 zł"
+    },
+    {
+     "litera": "D",
+     "html": "80 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Loże to 20 miejsc, poza lożami 80. Przed spektaklem sprzedano 5 miejsc w lożach po 100 zł i 60 poza lożami po 80 zł; w dniu spektaklu pozostałe 35 miejsc po 90 zł. Dochód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>60</mn><mo>·</mo><mn>80</mn><mo>+</mo><mn>35</mn><mo>·</mo><mn>90</mn><mo>=</mo><mn>8450</mn></math> zł, wartość po cenach wyjściowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>80</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>8400</mn></math> zł. Różnica wynosi 50 zł.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "licz samą różnicę cen i tylko na biletach sprzedanych w dniu spektaklu",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Ile razy w lutym 2023 roku wskazówki minutowa i godzinowa pokryły się na prawidłowo chodzącym zegarze?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "696"
+    },
+    {
+     "litera": "B",
+     "html": "672"
+    },
+    {
+     "litera": "C",
+     "html": "638"
+    },
+    {
+     "litera": "D",
+     "html": "616"
+    },
+    {
+     "litera": "E",
+     "html": "600"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wskazówki pokrywają się co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>11</mn></mfrac></math> godziny, czyli 22 razy na dobę. Luty 2023 (nie przestępny) ma 28 dni, więc pokryć jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>616</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz, ile razy w ciągu 12 godzin minutowa dogania godzinową",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Wskazówki nie pokrywają się co godzinę (w dobie jest ich mniej niż 24); luty 2023 nie jest przestępny"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Suma miar kątów wewnętrznych pewnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta foremnego jest największą możliwą liczbą naturalną, mniejszą niż 2023. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "13"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    },
+    {
+     "litera": "E",
+     "html": "16"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma kątów wewnętrznych n-kąta to (n−2)·180°. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>·</mo><mn>180</mn><mo>=</mo><mn>1980</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>180</mn><mo>=</mo><mn>2160</mn></math> jest już za duże, największa wielokrotność 180 mniejsza niż 2023 to 1980, czyli n−2=11, n=13.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "suma kątów to (n−2)·180 — sprawdź, ile razy 180 mieści się w 2023",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Odcinek o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> podzielono na pięć równych odcinków. Z czterech odcinków powstałych w wyniku tego podziału zbudowano pierwszy kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>5</mn></mfrac></math>, a piąty odcinek ponownie podzielono na pięć równych odcinków. Z uzyskanych w ten sposób czterech odcinków zbudowano drugi kwadrat, a piąty, niewykorzystany odcinek ponownie podzielono na pięć równych odcinków. Zbudowano w ten sposób 64 kwadraty. Ile jest równe pole ostatniego kwadratu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>5</mn><mn>64</mn></msup></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>25</mn><mn>128</mn></msup></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>5</mn><mn>64</mn></msup></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>25</mn><mn>64</mn></msup></mfrac></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>25</mn><mn>128</mn></msup></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po k-tym podziale niewykorzystany odcinek — a więc i bok k-tego kwadratu — ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac></math>. Ostatni, 64. kwadrat ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>5</mn><mn>64</mn></msup></mfrac></math>, a jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>5</mn><mn>128</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>25</mn><mn>64</mn></msup></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bok każdego kolejnego kwadratu jest pięć razy krótszy, a pole to kwadrat boku",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o pole, a nie o bok; kwadrat potęgi 5^64 trzeba poprawnie zapisać przy podstawie 25"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "wyrażenia algebraiczne",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>4</mn></msup><msup><mi>z</mi><mn>5</mn></msup><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><msup><mi>y</mi><mn>5</mn></msup><msup><mi>z</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>4</mn></msup></math> jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>(</mo><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><mi>y</mi><mi>z</mi><mo>(</mo><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>4</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>)</mo></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mi>z</mi><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>4</mn></msup><mo>+</mo><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>4</mn></msup><mi>z</mi><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><msup><mi>y</mi><mn>2</mn></msup><msup><mi>z</mi><mn>3</mn></msup><mo>)</mo></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mi>z</mi><mo>(</mo><msup><mi>y</mi><mn>2</mn></msup><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi><mo>)</mo></math>"
+    },
+    {
+     "litera": "E",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>4</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup><msup><mi>z</mi><mn>2</mn></msup><mo>)</mo><mi>y</mi><mi>z</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wspólny czynnik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>)</mo></mrow><mn>3</mn></msup></math>. Po podzieleniu przezeń dają kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>,</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>,</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi></math>, więc wyrażenie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>(</mo><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi><mo>)</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz przed nawias najniższe potęgi x, y i z",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Kubuś Puchatek zgromadził na zimę pięć pełnych baryłek miodu i dwa pełne worki marchewek, a Królik jedną pełną baryłkę miodu i dziesięć pełnych worków marchewek. Zapasy każdego z nich miały tę samą masę. Baryłki były jednakowe i w każdej pełnej baryłce była taka sama masa miodu. Worki również były jednakowe i w każdym pełnym worku była taka sama masa marchewek. Wybierz zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Pełen worek marchewek ważył tyle samo, co pełna baryłka miodu."
+    },
+    {
+     "litera": "B",
+     "html": "Pełen worek marchewek ważył dwa razy mniej niż pełna baryłka miodu."
+    },
+    {
+     "litera": "C",
+     "html": "Pełen worek marchewek ważył dwa razy więcej niż pełna baryłka miodu."
+    },
+    {
+     "litera": "D",
+     "html": "Pełen worek marchewek ważył trzy razy więcej niż pełna baryłka miodu."
+    },
+    {
+     "litera": "E",
+     "html": "Pełen worek marchewek ważył trzy razy mniej niż pełna baryłka miodu."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech b to masa pełnej baryłki miodu, w to masa pełnego worka marchewek. Zapasy są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>w</mi><mo>=</mo><mi>b</mi><mo>+</mo><mn>10</mn><mi>w</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi><mo>=</mo><mn>8</mn><mi>w</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>w</mi></math>. Worek marchewek waży więc dwa razy mniej niż baryłka miodu.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij od obu zapasów to, co mają wspólne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Trzeba ustalić, co jest cięższe, worek czy baryłka: łatwo odwrócić 'dwa razy mniej' na 'dwa razy więcej'"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>W pewnym trapezie prostokątnym o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> przekątne mają długości 6 cm i 10 cm. Wybierz zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Pole trapezu jest większe niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>h</mi></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Pole trapezu jest większe niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>h</mi></math> i mniejsze niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>h</mi></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Pole trapezu jest większe niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>h</mi></math> i mniejsze niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>h</mi></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Pole trapezu jest większe niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>h</mi></math> i mniejsze niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>h</mi></math>."
+    },
+    {
+     "litera": "E",
+     "html": "Żadna z odpowiedzi A, B, C, D nie jest poprawna."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok trapezu prostopadły do podstaw (długość h) jest przyprostokątną w trójkącie, którego przeciwprostokątną jest przekątna. Przyprostokątna jest krótsza, więc równoległe boki c, d spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>&lt;</mo><mn>6</mn><mo>,</mo><mi>d</mi><mo>&lt;</mo><mn>10</mn></math>. Pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>)</mo><mi>h</mi><mo>:</mo><mn>2</mn><mo>&lt;</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>10</mn><mo>)</mo><mi>h</mi><mo>:</mo><mn>2</mn><mo>=</mo><mn>8</mn><mi>h</mi></math> jest więc zawsze mniejsze niż 8h — żadna z odpowiedzi A–D, wymagających pola większego niż 8h, nie jest poprawna.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "każda podstawa jest krótsza od przekątnej rozpiętej nad nią — oszacuj sumę podstaw z góry",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "procenty"
+   ],
+   "tresc_html": "<p>W tym zadaniu zakładamy idealizację całej sytuacji: idealny kształt i wymiary zabawki, idealnie równe powierzchnie, niebieska ciecz zachowuje się jak woda, a grubość każdej ścianki zabawki jest bliska zeru i pomijamy ją w obliczeniach.</p><p>Zabawka dziecięca ma kształt szczelnie zamkniętego szklanego prostopadłościanu o wymiarach równych 200 mm, 1,5 dm, 10 cm. Zabawka wypełniona jest niebieską cieczą, która zajmuje 20% jej objętości. Postawiono tę zabawkę na ściance o wymiarach 200 mm × 10 cm na równej podłodze. Do jakiej wysokości, mierzonej od powierzchni tej ścianki, sięga poziom niebieskiej cieczy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5 cm"
+    },
+    {
+     "litera": "B",
+     "html": "4 cm"
+    },
+    {
+     "litera": "C",
+     "html": "3 cm"
+    },
+    {
+     "litera": "D",
+     "html": "2 cm"
+    },
+    {
+     "litera": "E",
+     "html": "1 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wymiary zabawki po zamianie na cm to 20, 15, 10. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>15</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>3000</mn></math> cm³, cieczy jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn><mo>·</mo><mn>3000</mn><mo>=</mo><mn>600</mn></math> cm³. Postawiona na ściance 20×10 cm ma podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>200</mn></math> cm², więc poziom cieczy sięga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>200</mn><mo>=</mo><mn>3</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wymiary na centymetry i pomyśl, jaką część wysokości zajmuje ciecz",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "szczegol-bryly"
+    ],
+    "opis": "Wymiary podane w trzech różnych jednostkach; trzeba też ustalić, na której ściance stoi zabawka"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>W dwóch hurtowniach było po tyle samo sztuk dyń. Kiedy w pierwszej hurtowni sprzedano najpierw 150 sztuk dyń, a potem jeszcze dwie trzecie pozostałych, a w drugiej sprzedano tyle sztuk dyń, ile wynosi dwukrotność największej liczby pierwszej mniejszej od 100, to okazało się, że w obu hurtowniach pozostało nadal tyle samo sztuk dyń. Ile sztuk dyń po tej sprzedaży pozostało łącznie w obu hurtowniach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "22"
+    },
+    {
+     "litera": "B",
+     "html": "44"
+    },
+    {
+     "litera": "C",
+     "html": "108"
+    },
+    {
+     "litera": "D",
+     "html": "216"
+    },
+    {
+     "litera": "E",
+     "html": "432"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech n to liczba dyń, jaką miała każda hurtownia. Pierwszej zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>n</mi><mo>−</mo><mn>150</mn><mo>)</mo></math> (sprzedała 150, potem 2/3 reszty). Druga sprzedała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>97</mn><mo>=</mo><mn>194</mn></math> (dwukrotność 97, największej liczby pierwszej poniżej 100), więc zostało jej n−194. Z równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>n</mi><mo>−</mo><mn>150</mn><mo>)</mo><mo>=</mo><mi>n</mi><mo>−</mo><mn>194</mn></math>, skąd n=216. W każdej zostało 216−194=22, łącznie 44.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o łączną liczbę dyń w obu hurtowniach, a nie w jednej"
+   }
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Michał idąc pieszo na stację kolejową przez godzinę przeszedł 4 km, po czym zorientował się, że idąc z tą samą prędkością spóźni się na pociąg o pół godziny. Na szczęście właśnie mijał stację miejskich hulajnóg elektrycznych. Wziął jedną hulajnogę i na niej przebył pozostałą część trasy w ciągu 18 minut i przyjechał 40 minut przed odjazdem pociągu. Postój związany z uruchomieniem hulajnogi trwał 2 minuty. Z jaką średnią prędkością przebył całą trasę Michał? Wybierz zdanie prawdziwe.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Średnia prędkość Michała była mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>."
+    },
+    {
+     "litera": "B",
+     "html": "Średnia prędkość Michała była większa, niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> i mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>."
+    },
+    {
+     "litera": "C",
+     "html": "Średnia prędkość Michała była większa, niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> i mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>."
+    },
+    {
+     "litera": "D",
+     "html": "Średnia prędkość Michała była większa, niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> i mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>."
+    },
+    {
+     "litera": "E",
+     "html": "Średnia prędkość Michała była większa, niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> i mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Piesza część trwała 60 min (4 km/h). Postój i jazda hulajnogą zajęły 2+18=20 min, przyjazd po 60+20=80 min, czyli 40 min przed odjazdem. Idąc dalej pieszo, spóźniłby się o 30 min, więc dotarłby po 80+40+30=150 min, czyli po dodatkowych 150−60=90 min marszu — to 6 km pozostałej trasy. Cała droga to 4+6=10 km w 80 min, więc średnia prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mfrac><mn>80</mn><mn>60</mn></mfrac><mo>=</mo><mn>7,5</mn></math> km/h.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2023-2024_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "liczby pierwsze",
+    "reszta z dzielenia",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dane są cztery kolejne liczby naturalne, wśród których tylko jedna liczba dzieli się przez 3. Skreślamy tę liczbę. Suma pozostałych trzech liczb jest równa 38. Ile jest liczb pierwszych wśród tych pozostałych, nieskreślonych trzech liczb?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "zero"
+    },
+    {
+     "litera": "B",
+     "html": "jedna"
+    },
+    {
+     "litera": "C",
+     "html": "dwie"
+    },
+    {
+     "litera": "D",
+     "html": "trzy"
+    },
+    {
+     "litera": "E",
+     "html": "Brak liczb naturalnych spełniających warunki zadania."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech liczby to n, n+1, n+2, n+3; dokładnie jedna dzieli się przez 3, więc n nie dzieli się przez 3. Gdy dzieli się n+2, suma pozostałych to 3n+4=38 — brak rozwiązania naturalnego. Gdy dzieli się n+1, suma pozostałych to 3n+5=38, skąd n=11. Liczby to 11, 12, 13, 14; skreślamy 12. Wśród 11, 13, 14 liczbami pierwszymi są 11 i 13 — dwie liczby pierwsze.</p>"
+   },
+   "czas_min": 5
+  }
+ ]
+}

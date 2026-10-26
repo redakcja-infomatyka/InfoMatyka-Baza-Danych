@@ -1,0 +1,741 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2020/2021",
+ "data": "2020-10-23",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2020-2021_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2020-2021_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kąty",
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Po przebudzeniu się w ostatnią niedzielę marca Ania przestawiła swój zegarek na czas letni z godziny 7:30 na 8:30. O ile procent zwiększył się kąt ostry pomiędzy wskazówką godzinową a minutową?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 33,(3)%"
+    },
+    {
+     "litera": "B",
+     "html": "o 50%"
+    },
+    {
+     "litera": "C",
+     "html": "o 66,(6)%"
+    },
+    {
+     "litera": "D",
+     "html": "o 100%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>O 7:30 wskazówka godzinowa jest odchylona od godziny 12 o 225°, minutowa o 180° — kąt ostry to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>45</mn></math>°. O 8:30: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>255</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>75</mn></math>°.</p><p>Wzrost: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>75</mn><mo>−</mo><mn>45</mn></mrow><mn>45</mn></mfrac><mo>=</mo><mn>66</mn><mo>,</mo><mo>(</mo><mn>6</mn><mo>)</mo><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "o wpół do wskazówka godzinowa stoi w połowie między cyframi — policz kąt przed i po przestawieniu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "O 7:30 wskazówka godzinowa stoi w połowie między 7 a 8, a nie na 7. Kąt nie jest wielokrotnością 30°"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>W klasie ósmej jest 20 uczniów, w tym 8 dziewcząt. Wychowawczyni losowo wybiera uczniów z klasy do grupy przygotowującej akademię szkolną. Ile osób musi wylosować nauczycielka, aby mieć pewność, że w tej grupie znajdzie się co najmniej dwóch chłopców?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "dokładnie 2"
+    },
+    {
+     "litera": "B",
+     "html": "co najwyżej 4"
+    },
+    {
+     "litera": "C",
+     "html": "dokładnie 8"
+    },
+    {
+     "litera": "D",
+     "html": "co najmniej 10"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Najgorszy przypadek: nauczycielka wylosuje najpierw wszystkie 8 dziewcząt, potem 1 chłopca — to 9 osób i wciąż tylko jeden chłopiec. Dopiero 10. wylosowana osoba musi być drugim chłopcem.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyobraź sobie najgorszy przypadek — najpierw wylosowały się same dziewczęta",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy",
+    "siatki brył",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Jaka jest najmniejsza liczba krawędzi, wzdłuż których należy rozciąć model sześcianu, tak aby po rozłożeniu uzyskać jego siatkę?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sześcian ma 6 ścian i 12 krawędzi. Siatka wymaga, by ściany pozostały połączone w drzewo — takie drzewo na 6 ścianach ma 5 nierozciętych krawędzi.</p><p>Pozostałe trzeba rozciąć: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>7</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zastanów się, ile zgięć musi zostać, żeby wszystkie sześć ścianek trzymało się w jednym kawałku",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "działania na potęgach",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>5</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mroot><mn>2</mn><mn>3</mn></mroot></mfrac><mo>)</mo></mrow><mn>6</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>. Która z danych liczb jest największa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po uproszczeniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>32</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mo>−</mo><mn>2</mn></math>.</p><p>Najbliższa zeru, więc największa, jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie cztery do postaci minus potęga ½ i porównuj same wykładniki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "znak"
+    ],
+    "opis": "Minus stoi przed potęgą parzystą, więc b jest ujemne. Z liczb ujemnych największa jest ta najbliższa zeru"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby wymierne i niewymierne",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Spośród poniższych zdań, wybierz zdanie prawdziwe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Liczba odwrotna do liczby całkowitej jest zawsze liczbą większą od 0 i mniejszą lub równą 1."
+    },
+    {
+     "litera": "B",
+     "html": "Iloraz liczb niewymiernych jest zawsze liczbą niewymierną."
+    },
+    {
+     "litera": "C",
+     "html": "Każda liczba podzielna przez 2 i 4 jest też podzielna przez 8."
+    },
+    {
+     "litera": "D",
+     "html": "Istnieje liczba rzeczywista, która posiada liczbę do niej przeciwną, ale nie posiada liczby odwrotnej."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>D jest prawdziwe: liczba 0 ma liczbę przeciwną (0), ale nie ma odwrotnej, bo dzielenie przez 0 jest niewykonalne.</p><p>Pozostałe są fałszywe: odwrotność −2 to −0,5 (A); <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>÷</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>1</mn></math> jest wymierne (B); 12 dzieli się przez 2 i 4, lecz nie przez 8 (C).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "do każdego zdania szukaj kontrprzykładu — przydadzą się liczby ujemne, zero i pierwiastki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podzielność przez 2 i przez 4 nie daje podzielności przez 2·4. Liczy się NWW, a nie iloczyn"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zamiana jednostek",
+    "notacja wykładnicza"
+   ],
+   "tresc_html": "<p>Uporządkuj podane wielkości od największej do najmniejszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> ml; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> hl; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn></math> m³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> mm³.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> hl; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> ml; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn></math> m³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> mm³."
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> mm³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn></math> m³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> ml; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> hl."
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn></math> m³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> hl; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> ml; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> mm³."
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> mm³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> ml; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn></math> m³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></math> hl."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zamiana na litry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></math> ml = 90 l; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math> hl = 7 l; 0,25 m³ = 250 l; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></math> mm³ = 40 000 l.</p><p>Od największej: 40 000 l, 250 l, 90 l, 7 l.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystko na jedną jednostkę, np. na litry; najbardziej myląca jest zamiana mm³",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Hotel „Pod Różą” oferuje 102 miejsca noclegowe. Jest w nim 16 pokoi dwuosobowych oraz kilkanaście identycznych pokoi rodzinnych. Iluosobowe są pokoje rodzinne?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pokoje dwuosobowe mieszczą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>32</mn></math> osoby, zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>102</mn><mo>−</mo><mn>32</mn><mo>=</mo><mn>70</mn></math> miejsc w pokojach rodzinnych.</p><p>„Kilkanaście” (11–19) pokoi musi dzielić 70 — jedyny taki dzielnik to 14, więc pokój ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>:</mo><mn>14</mn><mo>=</mo><mn>5</mn></math> miejsc.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij miejsca w pokojach dwuosobowych i rozłóż resztę na czynniki — „kilkanaście” to 13–19",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "wzory skróconego mnożenia",
+    "działania na pierwiastkach",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Jakie jest pole zacieniowanej figury, jeśli długość boku jednego z kwadratów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>, a drugiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020-2021_malopolskie_q8_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Duży kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>7</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>, mały: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn></math>. Zacieniowane to różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole szarej ramki to różnica pól kwadratów — rozwiń kwadrat sumy ze wzoru skróconego mnożenia",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Ile dzielników naturalnych, będących liczbą złożoną, ma liczba 2020?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkład: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2020</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>101</mn></math>, więc ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>12</mn></math> dzielników.</p><p>Odejmując 1 (nie jest złożona) i 3 dzielniki pierwsze (2, 5, 101): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mn>1</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>8</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozłóż 2020 na czynniki pierwsze, policz wszystkie dzielniki i odrzuć jedynkę oraz pierwsze",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Korzystając z informacji zamieszczonych na powyższym rysunku, ustal miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25°"
+    },
+    {
+     "litera": "B",
+     "html": "105°"
+    },
+    {
+     "litera": "C",
+     "html": "110°"
+    },
+    {
+     "litera": "D",
+     "html": "115°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2020-2021_malopolskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech D będzie punktem boku AB, przy którym zaznaczono kąt 140°, a E — punktem odcinka DC połączonym z B.</p><p>Kąt 140° jest kątem zewnętrznym trójkąta DBC, więc równa się sumie kątów DBC i DCB. Punkt D leży na AB, więc kąt DBC to po prostu kąt ABC, czyli kąt ABC + α = 140°.</p><p>Z drugiej strony odcinek BE dzieli kąt ABC na kąt ABE = α i kąt prosty EBC, więc kąt ABC = α + 90°.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>140</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>=</mo><mi>α</mi><mo>+</mo><mn>90</mn><mo>°</mo></math>, czyli α = 25° i kąt ABC = 25° + 90° = 115°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąt 140° to kąt zewnętrzny mniejszego trójkąta, a szukany kąt to α powiększone o kąt prosty",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Najpierw wylicza się α, ale pytanie dotyczy kąta ABC, a α jest wśród wariantów odpowiedzi"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Ela pocięła kartkę na 20 wielokątów, wśród których 9 było rombami, 8 było prostokątami, a 6 nie było ani rombami, ani prostokątami. Ile otrzymała kwadratów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "8"
+    },
+    {
+     "litera": "C",
+     "html": "0"
+    },
+    {
+     "litera": "D",
+     "html": "Nie da się tego ustalić."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wielokątów będących rombem lub prostokątem jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>14</mn></math>.</p><p>Z zasady włączeń i wyłączeń <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>8</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>14</mn></math> dostajemy liczbę kwadratów (rombów i prostokątów naraz): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kwadrat to jednocześnie romb i prostokąt — zastosuj zasadę włączeń i wyłączeń",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:kwadrat-jest-rombem-i-prostokatem"
+    ],
+    "opis": "Kwadrat jest jednocześnie rombem i prostokątem, więc kwadraty są policzone w obu grupach"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Drogę ze swojego domu do domu babci Jacek pokonuje na rowerze, poruszając się ze średnią prędkością 15 km/h, natomiast jego rodzice tę samą drogę pokonują samochodem, poruszając się ze średnią prędkością 50 km/h. Aby dotrzeć na miejsce o tym samym czasie co rodzice, Jacek musi wyruszyć 7 minut wcześniej niż oni. Jaką odległość pokonuje Jacek, jadąc ze swojego domu do domu babci?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,15 km"
+    },
+    {
+     "litera": "B",
+     "html": "1,75 km"
+    },
+    {
+     "litera": "C",
+     "html": "2,5 km"
+    },
+    {
+     "litera": "D",
+     "html": "3 km"
+    },
+    {
+     "litera": "E",
+     "html": "5 km"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech d — szukana odległość. Czas Jacka jest o 7 minut dłuższy niż rodziców: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>15</mn></mfrac><mo>−</mo><mfrac><mi>d</mi><mn>50</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>60</mn></mfrac></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>150</mn></mfrac><mi>d</mi><mo>=</mo><mfrac><mn>7</mn><mn>60</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>5</mn></math> km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz obie prędkości na minuty na kilometr i zobacz, ile minut różnicy daje jeden kilometr",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Sporządzono dwa roztwory solne: 1 litr roztworu o stężeniu 10% oraz 3 litry roztworu o stężeniu 5%. Obydwa roztwory wymieszano. Jakie jest stężenie otrzymanego roztworu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>%"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>%"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>%"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>%"
+    },
+    {
+     "litera": "E",
+     "html": "15 %"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Soli w roztworach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>10</mn><mo>%</mo><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn></math> l oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>5</mn><mo>%</mo><mo>=</mo><mn>0</mn><mo>,</mo><mn>15</mn></math> l, razem 0,25 l w 4 l roztworu.</p><p>Stężenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>0,25</mn><mn>4</mn></mfrac><mo>=</mo><mn>6</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>%</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno, ile soli jest w każdym roztworze, i odnieś sumę do łącznej objętości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Stężenie mieszaniny to nie średnia arytmetyczna stężeń, bo objętości roztworów są różne"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Dany jest równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&gt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Na zewnątrz równoległoboku zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math>. Jakim czworokątem może być czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADBE</mi></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "kwadratem"
+    },
+    {
+     "litera": "B",
+     "html": "rombem"
+    },
+    {
+     "litera": "C",
+     "html": "równoległobokiem"
+    },
+    {
+     "litera": "D",
+     "html": "trapezem równoramiennym"
+    },
+    {
+     "litera": "E",
+     "html": "deltoidem"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt ABE jest równoboczny, więc |EA|=|EB| — to jedna para sąsiednich równych boków czworokąta ADBE.</p><p>Przy zachowanym |AB|>|AD| kąt równoległoboku można dobrać tak, by |AD|=|DB|; powstaje druga para równych sąsiednich boków — to własność deltoidu.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Warunek |AB| > |AD| wyklucza figury, które bez niego byłyby możliwe"
+   }
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "statystyka opisowa",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Olek wziął udział w szkolnym turnieju artystycznym, w trakcie którego zaśpiewał dwie piosenki, wyrecytował dwa wiersze i stworzył plakat. Olek zdobył 5 i 4 punkty za piosenki, 5 i 4 punkty za wiersze i 2 punkty za wykonany plakat. Punkty za piosenki mają wagę 4, a punkty za wiersze mają wagę 2. Jaką wagę mają punkty zdobyte za plakat, jeśli średnia ważona punktów zdobytych przez Olka w tym turnieju jest równa 4?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "ujemną"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    },
+    {
+     "litera": "E",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Warunek na wagę plakatu w: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>2</mn><mi>w</mi></mrow><mrow><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mi>w</mi></mrow></mfrac><mo>=</mo><mn>4</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>+</mo><mn>2</mn><mi>w</mi><mo>=</mo><mn>48</mn><mo>+</mo><mn>4</mn><mi>w</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "licz odchylenia od średniej 4 — pomnożone przez wagi muszą się nawzajem znosić",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "podzielność",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Liczbą palindromiczną nazywamy liczbę, która nie zmienia swojej wartości po zapisaniu jej cyfr w odwrotnej kolejności. Ile jest trzycyfrowych liczb palindromicznych podzielnych przez 18?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "9"
+    },
+    {
+     "litera": "E",
+     "html": "10"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba palindromiczna „aba” dzieli się przez 2, gdy a jest parzyste (a≠0), i przez 9, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mi>b</mi></math> dzieli się przez 9.</p><p>Dla a = 2, 4, 6, 8 wychodzi kolejno b = 5, 1, 6, 2 — liczby 252, 414, 666, 828, czyli 4 liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "18 to 2·9 — skrajna cyfra musi być parzysta, a suma cyfr podzielna przez 9",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2020-2021_malopolskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 3,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaką resztę otrzymamy, gdy podzielimy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2019</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2018</mn></msup></mrow></math> przez 5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "2"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    },
+    {
+     "litera": "E",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Reszty z dzielenia przez 5 są okresowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2020</mn></msup></math> ma resztę 1 (okres 4, 2020 dzieli się przez 4), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2019</mn></msup></math> ma resztę 2 (2019 daje resztę 3 z dzielenia przez 4), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>2018</mn></msup></math> ma resztę 1 (2018 parzyste).</p><p>Suma reszt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "reszty kolejnych potęg powtarzają się cyklicznie — znajdź długość cyklu dla każdego składnika",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "konwencja"
+    ],
+    "opis": "Wykładnik podzielny przez długość cyklu odpowiada ostatniemu wyrazowi cyklu, a nie pierwszemu"
+   }
+  }
+ ]
+}

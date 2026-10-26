@@ -1,0 +1,305 @@
+{
+ "konkurs": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+ "etap": "szkolny",
+ "wojewodztwo": "mazowieckie",
+ "rok_szkolny": "2025/2026",
+ "data": "2025-10-13",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 10,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2025_mazowieckie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2025_mazowieckie_q1",
+   "numer": 1,
+   "typ": "prawda_falsz",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z sześcianu o krawędzi 9 usunięto 8 osiem narożników – każdy w kształcie sześcianu o krawędzi 3.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Objętość otrzymanej bryły jest równa 514."
+    },
+    {
+     "litera": "2",
+     "html": "Pole powierzchni całkowitej otrzymanej bryły jest równe polu powierzchni całkowitej wyjściowego sześcianu."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>3</mn></msup><mo>−</mo><mn>8</mn><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>729</mn><mo>−</mo><mn>216</mn><mo>=</mo><mn>513</mn></math>, a nie 514.</p><p>Przy każdym odciętym narożniku (krawędź 3 mniejsza niż połowa krawędzi sześcianu, więc cięcia się nie stykają) znikają 3 kwadraty ściany o boku 3, a w ich miejsce odsłaniają się 3 nowe kwadraty przekroju o tym samym boku — pole powierzchni się nie zmienia, więc dla całej bryły pozostaje takie samo jak w wyjściowym sześcianie.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "objętość policz odejmowaniem, a przy polu sprawdź, co narożnik zabiera, a co odsłania",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Trasę o długości 480 km samochód ciężarowy pokonał w czasie o 2 godziny dłuższym niż samochód osobowy. Samochód osobowy jechał ze średnią prędkością o 50% większą niż samochód ciężarowy.</p><p>Uzupełnij poniższe zdania, wybierając odpowiedź A lub B oraz C lub D.</p><p>Średnia prędkość samochodu osobowego wynosiła A / B.</p><p>Różnica średnich prędkości obu samochodów to C / D.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "120 km/h"
+    },
+    {
+     "litera": "B",
+     "html": "100 km/h"
+    },
+    {
+     "litera": "C",
+     "html": "20 km/h"
+    },
+    {
+     "litera": "D",
+     "html": "40 km/h"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A, D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech v = prędkość ciężarówki, wtedy prędkość osobówki = 1,5v. Czasy: 480/v i 480/(1,5v)=320/v. Różnica czasów: 480/v − 320/v = 160/v = 2 ⇒ v = 80 km/h.</p><p>Prędkość osobówki = 1,5·80 = 120 km/h → <b>A</b>. Różnica prędkości = 120 − 80 = 40 km/h → <b>D</b>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "1,5 raza większa prędkość to 1,5 raza krótszy czas — z różnicy 2 h wyznacz oba czasy",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Zbudowano trójkąt równoramienny z odcinków o długościach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>2</mn><mi>a</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>.</p><p>Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p><p>Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "wielokrotnością liczby 5."
+    },
+    {
+     "litera": "B",
+     "html": "najmniejszą liczbą pierwszą."
+    },
+    {
+     "litera": "C",
+     "html": "równa 1."
+    },
+    {
+     "litera": "D",
+     "html": "wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>2</mn><mo>+</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>−</mo><mn>77,5</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B, D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Boki: 4a−2, a+1, 6 muszą tworzyć trójkąt równoramienny (dwa boki równe) spełniający nierówność trójkąta.</p><p>4a−2=a+1 ⇒ a=1 → boki 2,2,6 — nie spełnia nierówności trójkąta (odrzucamy).<br>4a−2=6 ⇒ a=2 → boki 6,3,6 — poprawny trójkąt.<br>a+1=6 ⇒ a=5 → boki 18,6,6 — nie spełnia nierówności (odrzucamy).</p><p>Jedyne a=2. To najmniejsza liczba pierwsza (B - prawda). Wyrażenie: −3²·2+1½·3−77,5:(−5) = −18+4,5+15,5 = 2 = a (D - prawda). A i C fałszywe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź trzy możliwe pary równych boków i odrzuć te, które łamią nierówność trójkąta",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "W wyrażeniu z wariantu D jest −3² bez nawiasu, czyli minus nie podlega potęgowaniu"
+   }
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q4",
+   "numer": 4,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Czterej koledzy: Adam, Bartek, Czarek i Darek mieszkają w różnych częściach Warszawy. Odległość między domami Adama i Darka jest równa 16 km, między domami Darka i Czarka – 21 km, a między domami Czarka i Bartka – 9 km. Jeśli Darek jedzie do Bartka, odwiedzając po drodze Czarka, to pokonuje drogę o jedną czwartą większą, niż gdyby odwiedził po drodze Adama. Oblicz, jaka jest odległość między domami Bartka i Adama.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 km",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza odległość między domami Adama i Bartka. Trasa przez Czarka ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>21</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>30</mn></math> km, a trasa przez Adama – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi></math> km. Ponieważ trasa przez Czarka jest o jedną czwartą dłuższa, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>(</mo><mn>16</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>24</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Odpowiedź: Adam mieszka w odległości 8 km od Bartka.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): analiza treści zadania i zapisanie poprawnego równania.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj obie trasy: dłuższa to 5/4 krótszej",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "kierunek-relacji"
+    ],
+    "opis": "Droga przez Czarka jest o jedną czwartą większa od drogi przez Adama, więc 1/4 liczy się od drogi przez Adama"
+   }
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q5",
+   "numer": 5,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "NWW / NWD",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>W magazynie liczba torebek makaronu do zapakowania w kartony jest mniejsza niż 500. Jeśli pakuje się je po 24 torebki do każdego kartonu lub po 30 torebek do każdego kartonu, to za każdym razem pozostaje 7 torebek makaronu w ostatnim niepełnym kartonie. Oblicz, jaką liczbę torebek makaronu przygotowano do zapakowania. Rozpatrz wszystkie przypadki.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "127, 247, 367 lub 487",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba torebek pomniejszona o 7 jest podzielna zarówno przez 24, jak i przez 30, więc jest wielokrotnością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>120</mn></math>. Szukana liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mi>k</mi><mo>+</mo><mn>7</mn></math> i jest mniejsza od 500, więc wynosi 127, 247, 367 lub 487.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): zauważenie, że najmniejsza taka liczba to NWW(24, 30) + 7, i obliczenie NWW(24, 30) = 120.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij resztę i szukaj wielokrotności NWW(24, 30)",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Najmniejsza liczba spełniająca warunek reszty nie pasuje do treści o ostatnim niepełnym kartonie"
+   }
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> zaznaczono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, który jest przeciwprostokątną trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Następnie na tej prostej na zewnątrz trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> (patrz rysunek). Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> są wierzchołkami trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>. Oblicz miarę największego kąta trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2025_mazowieckie_q6_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "135°",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równoramienne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ADC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BEC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BCE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>β</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prosty, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DCE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>+</mo><mi>β</mi></math>. Z twierdzenia o sumie miar kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>90</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>45</mn><mo>°</mo></math>. Największy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DCE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>45</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math>.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): zapisanie miary kąta DCE za pomocą wyrażenia α + β + 90°.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "oba boczne trójkąty są równoramienne — te same kąty wracają przy wierzchołku C",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Jedna liczba naturalna przy dzieleniu przez 5 daje resztę 3, a druga resztę 4. Uzasadnij, że iloczyn tych liczb daje przy dzieleniu przez 5 resztę 2.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Iloczyn ma postać 5k + 2, więc reszta z dzielenia przez 5 wynosi 2.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zapiszmy te liczby jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn></math>. Ich iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>25</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>20</mn><mi>a</mi><mo>+</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>12</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>. Iloczyn jest postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>, więc przy dzieleniu przez 5 daje resztę 2.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): zapisanie iloczynu liczb w postaci algebraicznej (5a + 3)(5b + 4).</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Z prostokątnej kartki o obwodzie 98 cm Gabrysia odcięła kwadrat. Pozostałą część kartki w kształcie litery L rozcięła na dwa prostokąty, które nie są kwadratami: jeden o szerokości 3 cm, drugi o szerokości 6 cm. Oblicz pole każdej z otrzymanych figur. Rozpatrz wszystkie przypadki.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Możliwe zestawy pól: {78, 120, 400}, {138, 60, 400}, {120, 204, 36} oraz {240, 111, 9} cm².",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość boku odciętego kwadratu, a połowa obwodu kartki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>98</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>49</mn></math> cm. W zależności od ułożenia cięć otrzymujemy cztery przypadki.</p><p><strong>Przypadek I:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>20</mn></math> cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>78</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>120</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> cm².</p><p><strong>Przypadek II:</strong> bok kwadratu 20 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>138</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>60</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn></math> cm².</p><p><strong>Przypadek III:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>15</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34</mn></math> cm, bok kwadratu 6 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>34</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>204</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> cm².</p><p><strong>Przypadek IV:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>37</mn></math> cm, bok kwadratu 3 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>240</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>111</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></math> cm².</p>",
+    "punktacja_html": "<p>Za rozpatrzenie co najmniej trzech przypadków – 3 pkt, za dwa – 2 pkt, za jeden – 1 pkt.</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_CORRECT",
+     "opis": "Obwód 98 cm oznacza, że suma dwóch sąsiednich boków kartki wynosi 49 cm. Jeżeli szerokości 3 cm i 6 cm to szerokości obu ramion litery L, boki kartki mają długości s+3 i s+6, skąd 2s+9 = 49, czyli kwadrat ma bok 20 cm, kartka 23 cm × 26 cm, a pola to 78, 120 i 400 cm² albo 138, 60 i 400 cm². Jeżeli natomiast szerokość jednego z prostokątów jest wyznaczona przez bok kwadratu, kartka ma wymiary 40 cm × 9 cm i otrzymujemy pola 120, 204 i 36 cm² (kwadrat o boku 6 cm) albo 240, 111 i 9 cm² (kwadrat o boku 3 cm). Klucz podaje wszystkie cztery przypadki i jest poprawny. Modele AI policzyły poprawnie, ale każdy znalazł tylko dwa przypadki (jeden te z kwadratem 20 cm, drugi te z kwadratem 6 cm i 3 cm), a zadanie wyraźnie żąda rozpatrzenia wszystkich."
+    }
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Szerokość 3 cm lub 6 cm może mieć też pasek przylegający bokiem do kwadratu, a nie tylko ramiona litery L"
+   }
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "zmiany procentowe",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Podczas wakacji Bartek przez 4 tygodnie pracował w warsztacie samochodowym. Ponieważ swoje obowiązki wykonywał coraz lepiej, w każdym kolejnym tygodniu zarabiał o 20% więcej niż w poprzednim. Oblicz, ile złotych zarobił Bartek podczas wakacji, jeśli w trzecim tygodniu zarobił o 144 zł mniej niż w czwartym tygodniu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2684 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to zarobek w pierwszym tygodniu. W kolejnych tygodniach zarobki wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi><mo>−</mo><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>144</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,44</mn><mo>·</mo><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,288</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>500</mn></math> zł. Łączny zarobek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>+</mo><mn>600</mn><mo>+</mo><mn>720</mn><mo>+</mo><mn>864</mn><mo>=</mo><mn>2684</mn></math> zł.</p>",
+    "punktacja_html": "<p>Częściowo: po 1 pkt za zapisanie zależności między tygodniami, za obliczenie zarobku w pierwszym tygodniu (500 zł) oraz za obliczenie łącznego zarobku i podanie odpowiedzi.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "144 zł to 20% zarobku z trzeciego tygodnia — zacznij od niego, nie od pierwszego",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2025_mazowieckie_q10",
+   "numer": 10,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jacek skleił cztery identyczne prostopadłościenne klocki i otrzymał sześcian. Adam też skleił inne cztery identyczne prostopadłościenne klocki i otrzymał taki sam sześcian jak Jacek. Okazało się, że pole powierzchni całkowitej jednego klocka Adama jest o 32 cm² mniejsze od pola powierzchni całkowitej jednego klocka Jacka. Jakie wymiary miał klocek Jacka? Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2 cm × 8 cm × 8 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi sześcianu. Jacek dzieli sześcian na cztery jednakowe płytki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mi>a</mi><mo>×</mo><mfrac><mi>a</mi><mn>4</mn></mfrac></math>; pole powierzchni całkowitej jednej z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mi>a</mi><mo>·</mo><mfrac><mi>a</mi><mn>4</mn></mfrac><mo>)</mo><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></math>. Adam dzieli sześcian na cztery jednakowe słupki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mi>a</mi></math>; pole powierzchni całkowitej jednego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>32</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm. Zatem klocek Jacka ma wymiary 2 cm × 8 cm × 8 cm.</p>",
+    "punktacja_html": "<p>Częściowo: po 1 pkt za wzór na pole powierzchni klocka Jacka, za wzór na pole powierzchni klocka Adama oraz za obliczenie wymiarów klocka Jacka.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

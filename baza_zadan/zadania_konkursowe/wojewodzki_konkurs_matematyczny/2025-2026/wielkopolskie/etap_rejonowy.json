@@ -1,0 +1,735 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa wielkopolskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "wielkopolskie",
+ "rok_szkolny": "2025/2026",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 19,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2025-2026_wielkopolskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Ile spośród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>18</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>25</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "jedna liczba"
+    },
+    {
+     "litera": "B",
+     "html": "dwie liczby"
+    },
+    {
+     "litera": "C",
+     "html": "trzy liczby"
+    },
+    {
+     "litera": "D",
+     "html": "cztery liczby"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Upraszczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></math>.</p><p>Warunkowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></math> nie odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> (za duże), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> (dolna granica, nierówność ostra) ani <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> (za małe). Pasuje tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> — jedna liczba.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień każdy ułamek na dziesiętny i sprawdź, czy mieści się między 0,4 a 0,6",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:nierownosc-ostra"
+    ],
+    "opis": "Jedna z liczb po skróceniu leży dokładnie na granicy przedziału, a nierówność jest ostra"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>z</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><mi>x</mi><mi>y</mi></math>, dla <em>x</em> = −2, <em>y</em> = 5, <em>z</em> = −1 wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podstawiamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mo>−</mo><mn>1</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>−</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>3</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>z</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>=</mo><mo>−</mo><mn>10</mn></math>.</p><p>Wartość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mo>(</mo><mo>−</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>8</mn><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>7</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw wartości po kolei i uważaj na znak przy −xy, bo x jest ujemne",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Ile lat upłynęło od roku CDXLVI p.n.e. do roku CMXCIX n.e.?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1344"
+    },
+    {
+     "litera": "B",
+     "html": "1444"
+    },
+    {
+     "litera": "C",
+     "html": "1445"
+    },
+    {
+     "litera": "D",
+     "html": "1454"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby rzymskie: CDXLVI = 446 p.n.e., CMXCIX = 999 n.e.</p><p>Ponieważ nie ma roku zerowego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>446</mn><mo>+</mo><mn>999</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>1444</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz obie liczby rzymskie i pamiętaj, że nie było roku zerowego",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kalendarz-czas"
+    ],
+    "opis": "Przejście p.n.e. → n.e.: nie było roku zerowego"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W pierwszej sali konferencyjnej było o 8 osób więcej niż w drugiej. Gdyby jedna czwarta osób z pierwszej sali przeszła do drugiej, to w pierwszej sali zostałoby tyle osób, ile na początku było w drugiej sali. Ilu uczestników było na początku w drugiej sali?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "32"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech w drugiej sali było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> osób, w pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mn>8</mn></math>.</p><p>Po przejściu ćwierci osób z pierwszej sali zostaje w niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>(</mo><mi>y</mi><mo>+</mo><mn>8</mn><mo>)</mo></math>, co ma być równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>y</mi><mo>+</mo><mn>24</mn><mo>=</mo><mn>4</mn><mi>y</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>24</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź obie sale przez liczbę osób w drugiej sali i porównaj stan po przejściu ćwiartki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Naturalnie oznacza się liczbę osób w pierwszej sali, a pytają o drugą"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "procenty",
+    "równania z jedną zmienną",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Która jest godzina, jeśli wiesz, że pozostała część doby stanowi 25% tej części, która już minęła?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18:24"
+    },
+    {
+     "litera": "B",
+     "html": "19:12"
+    },
+    {
+     "litera": "C",
+     "html": "19:20"
+    },
+    {
+     "litera": "D",
+     "html": "20:00"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech upłynęło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> godzin doby (24 h), pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mi>x</mi></math>. Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>0,25</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mn>1,25</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>19,2</mn></math> h, czyli 19 h 12 min.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "część, która minęła, i pozostała są w stosunku 4:1 — podziel dobę na 5 równych części",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "konwencja"
+    ],
+    "opis": "Wynik wychodzi w ułamku dziesiętnym godziny; część dziesiętna to nie minuty"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia arytmetyczna wszystkich liczb pierwszych nie mniejszych niż 37 i nie większych niż 67 jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "49,5"
+    },
+    {
+     "litera": "B",
+     "html": "51"
+    },
+    {
+     "litera": "C",
+     "html": "52,25"
+    },
+    {
+     "litera": "D",
+     "html": "53,75"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby pierwsze od 37 do 67: 37, 41, 43, 47, 53, 59, 61, 67 — jest ich 8, a ich suma to 408.</p><p>Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>408</mn><mn>8</mn></mfrac><mo>=</mo><mn>51</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sparuj liczby od końców — zamiast sumować osiem liczb, uśrednij środki czterech par",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "NWW / NWD",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Marek i Darek spotkali się na treningu 1 kwietnia. Okazało się, że Marek na trening chodzi w każdy piątek, a Darek co 6 dni (treningi odbywają się również w soboty i niedziele). Ile razy do końca września spotkają się jeszcze wspólnie na treningu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 razy"
+    },
+    {
+     "litera": "B",
+     "html": "5 razy"
+    },
+    {
+     "litera": "C",
+     "html": "6 razy"
+    },
+    {
+     "litera": "D",
+     "html": "4 razy"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wspólne treningi wypadają co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWW</mi><mo>(</mo><mn>7</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>42</mn></math> dni od 1 kwietnia. Od 1 kwietnia do 30 września mija 183 dni.</p><p>Kolejne wspólne treningi wypadają po 42, 84, 126 i 168 dniach (kolejny, 210, wykracza już poza wrzesień) — 4 razy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wspólny trening co NWW(7, 6) dni — policz, ile takich okresów mieści się do końca września",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki",
+     "o-co-pytaja"
+    ],
+    "opis": "\"Spotkają się jeszcze\" — spotkania 1 kwietnia nie liczymy"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>8</mn></mtd></mtr><mtr><mtd><mn>6</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mo>−</mo><mn>4</mn></mtd></mtr></mtable></math> jest spełniony przez pewną parę liczb. Jedną z nich jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>2</mn></mfrac></math>. Druga liczba to:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "1"
+    },
+    {
+     "litera": "C",
+     "html": "−0,5"
+    },
+    {
+     "litera": "D",
+     "html": "−2"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Mnożymy pierwsze równanie przez 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>16</mn></math>. Dodając do drugiego równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>x</mi><mo>=</mo><mn>12</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>. Z pierwszego równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math>.</p><p>Podana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, więc drugą liczbą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wstaw 5/2 raz jako x, raz jako y i sprawdź, które podstawienie pasuje do obu równań",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Suma dwóch liczb naturalnych wynosi 63, a ich największym wspólnym dzielnikiem jest 7. Ile jest par takich liczb? Uwaga: Pary (<em>x</em>, <em>y</em>) i (<em>y</em>, <em>x</em>) uważamy za identyczne.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby mają postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>b</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWD</mi><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>9</mn></math>.</p><p>Pary (a, b): (1, 8), (2, 7), (3, 6), (4, 5) — odrzucamy (3, 6), bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWD</mi><mo>(</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>3</mn></math>. Zostają 3 pary.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel obie liczby przez 7 — szukasz par względnie pierwszych o sumie 9",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "NWD ma być dokładnie 7: po podzieleniu przez 7 liczby muszą być względnie pierwsze"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>Jaka liczba jest ukryta pod znakiem zapytania, jeśli liczby tworzą prostą regułę matematyczną opartą na działaniach arytmetycznych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "55"
+    },
+    {
+     "litera": "B",
+     "html": "42"
+    },
+    {
+     "litera": "C",
+     "html": "49"
+    },
+    {
+     "litera": "D",
+     "html": "60"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2025-2026_wielkopolskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>W każdym kółku liczba na górze to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>P</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>L</mi><mo>·</mo><mi>P</mi></math>, gdzie L, P to dolne liczby. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>31</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>36</mn></math>.</p><p>Dla 5 i 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>6</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>25</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>55</mn></math>.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "trójkąty",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Bok kwadratu ma taką samą długość jak bok trójkąta równobocznego. Suma pól kwadratu i trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm². Oblicz różnicę długości przekątnych kwadratu i wszystkich wysokości trójkąta równobocznego.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>9</mn></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>3</mn></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>9</mn></mrow><mn>2</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu = bok trójkąta = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Z sumy pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>s</mi><mn>2</mn></msup><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>s</mi><mn>2</mn></msup><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>3</mn><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>s</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></math>.</p><p>Obie przekątne kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>s</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math>. Suma trzech wysokości trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>s</mi><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>9</mn></mrow><mn>2</mn></mfrac></math>.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Chodzi o sumę obu przekątnych i wszystkich trzech wysokości, nie o jedną przekątną"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Ostrosłup o podstawie dziesięciokąta ma:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Tyle samo ścian co krawędzi."
+    },
+    {
+     "litera": "B",
+     "html": "O 1 wierzchołek więcej niż wszystkich ścian."
+    },
+    {
+     "litera": "C",
+     "html": "Liczbę wszystkich krawędzi równą podwojonej liczbie krawędzi podstawy."
+    },
+    {
+     "litera": "D",
+     "html": "Sumę liczb ścian i wierzchołków równą liczbie krawędzi."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podstawa dziesięciokątna ma 10 boków. Ostrosłup ma więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>11</mn></math> wierzchołków, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>11</mn></math> ścian (10 bocznych i podstawa) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>20</mn></math> krawędzi (10 podstawy i 10 bocznych).</p><p>Liczba krawędzi to podwojona liczba krawędzi podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>20</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz krawędzie, ściany i wierzchołki ostrosłupa o podstawie dziesięciokąta",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zasada szufladkowa"
+   ],
+   "tresc_html": "<p>Na szkolnym modelu do symulacji misji kosmicznych znajduje się 15 planet skalistych i 12 gazowych olbrzymów. Ile obiektów z tego modelu trzeba wylosować do symulacji misji badawczej, by mieć gwarancję, że trafią się co najmniej dwa gazowe olbrzymy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "15"
+    },
+    {
+     "litera": "B",
+     "html": "17"
+    },
+    {
+     "litera": "C",
+     "html": "16"
+    },
+    {
+     "litera": "D",
+     "html": "14"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Najgorszy możliwy przypadek: losujemy wszystkie 15 planet skalistych, wciąż bez żadnego gazowego olbrzyma.</p><p>Dwa kolejne losowania muszą już dać gazowe olbrzymy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>17</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomyśl o najgorszym możliwym losowaniu: najpierw same planety skaliste",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "Gwarancja: najgorszy przypadek to najpierw wszystkie planety skaliste, a potrzeba dwóch olbrzymów"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q14",
+   "numer": 14,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "działania na pierwiastkach",
+    "działania na potęgach",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mfrac><mrow><msup><mn>16</mn><mn>5</mn></msup><mo>+</mo><msup><mn>4</mn><mn>9</mn></msup></mrow><mrow><msup><mn>16</mn><mn>3</mn></msup><mo>+</mo><msup><mn>4</mn><mn>7</mn></msup></mrow></mfrac><mn>3</mn></mroot><mo>=</mo><mn>4</mn></math>"
+    },
+    {
+     "litera": "2",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>55</mn><mo>−</mo><msqrt><mrow><mn>41</mn><mo>−</mo><mroot><mrow><mn>133</mn><mo>−</mo><msqrt><mrow><mn>67</mn><mo>+</mo><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot></mrow></msqrt></mrow><mn>3</mn></mroot></mrow></msqrt></mrow></msqrt><mo>=</mo><mn>9</mn></math>"
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mrow><msqrt><mn>720</mn></msqrt><mo>−</mo><msqrt><mn>45</mn></msqrt></mrow><msqrt><mn>5</mn></msqrt></mfrac></msqrt><mo>=</mo><mn>3</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zdanie 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>5</mn></msup><mo>=</mo><msup><mn>4</mn><mn>10</mn></msup></math>, więc licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><msup><mn>4</mn><mn>9</mn></msup><mo>=</mo><msup><mn>4</mn><mn>9</mn></msup><mo>·</mo><mn>5</mn></math>, a mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>6</mn></msup><mo>+</mo><msup><mn>4</mn><mn>7</mn></msup><mo>=</mo><msup><mn>4</mn><mn>6</mn></msup><mo>·</mo><mn>5</mn></math>, iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>=</mo><mn>4</mn></math> — prawda (P).</p><p>Zdanie 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>=</mo><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125</mn><mn>3</mn></mroot><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>49</mn></msqrt><mo>=</mo><mn>7</mn></math>, a więc wynik to 7, nie 9 — fałsz (F).</p><p>Zdanie 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>720</mn></msqrt><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>45</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></math>, różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>5</mn></msqrt></math>, po podzieleniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> otrzymujemy 9, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>9</mn></msqrt><mo>=</mo><mn>3</mn></math> — prawda (P).</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprowadź potęgi do podstawy 4 i wyłącz wspólny czynnik; pierwiastki zagnieżdżone licz od środka",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q15",
+   "numer": 15,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "nierówności"
+   ],
+   "tresc_html": "<p>Trzech studentów pracujących w firmie reklamowej rozdało przypadkowym przechodniom 17 upominków. I student rozdał dwa razy więcej niż II student, a III student rozdał mniej od I studenta, ale więcej od II studenta.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pierwszy student rozdał 8 upominków."
+    },
+    {
+     "litera": "2",
+     "html": "Drugi student rozdał 5 upominków."
+    },
+    {
+     "litera": "3",
+     "html": "Trzeci student rozdał 6 upominków."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech II student rozdał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> upominków, wtedy I student <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, a III student <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>17</mn></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>2</mn><mi>b</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mn>17</mn><mo>−</mo><mn>3</mn><mi>b</mi><mo>&lt;</mo><mn>2</mn><mi>b</mi></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>5</mn></math>. Zatem I student rozdał 8, II student 4, a III student 5 upominków.</p><p>Zdanie 1: 8 upominków — prawda (P). Zdanie 2: II rozdał 4, a nie 5 — fałsz (F). Zdanie 3: III rozdał 5, a nie 6 — fałsz (F).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz drugiego przez b, pierwszy to 2b, trzeci to reszta z 17 — sprawdź, kiedy nierówności grają",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q16",
+   "numer": 16,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Ostrosłup prawidłowy czworokątny ma objętość równą 128 cm³. Wiadomo, że stosunek wysokości ostrosłupa do długości krawędzi podstawy wynosi 3 : 4.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Długość krawędzi podstawy wynosi 6 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Wysokość ostrosłupa jest równa 8 cm."
+    },
+    {
+     "litera": "3",
+     "html": "Pole ściany bocznej tego ostrosłupa jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>13</mn></msqrt></math> cm²."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to krawędź podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wysokość ostrosłupa, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi></math>. Z objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mi>H</mi><mo>=</mo><mn>128</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>128</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>512</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>6</mn></math> cm.</p><p>Zdanie 1: krawędź podstawy ma 8 cm, a nie 6 cm — fałsz (F). Zdanie 2: wysokość to 6 cm, a nie 8 cm — fałsz (F). Zdanie 3: apotema ściany bocznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>52</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>13</mn></msqrt></math>, więc pole ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>2</mn><msqrt><mn>13</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>13</mn></msqrt></math> cm² — prawda (P).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw H = ¾a do wzoru na objętość, zostanie proste równanie z a³",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Stosunek wysokość : krawędź = 3 : 4; zdania podają wartości zamienione miejscami"
+   }
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "działania na potęgach",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>12</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>8</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup></math> jest liczbą naturalną. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Rozkładając podstawy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><msup><mn>2</mn><mn>3</mn></msup><msup><mn>3</mn><mn>2</mn></msup></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></mrow><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>)</mo></mrow><mn>8</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mrow><mn>2</mn><mo>·</mo><mn>3</mn></mrow></mfrac><mo>)</mo></mrow><mn>6</mn></msup></math>.</p><p>Po podniesieniu do potęg licznik jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>24</mn></msup><mo>·</mo><msup><mn>3</mn><mn>14</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></math>, a mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup><mo>·</mo><msup><mn>3</mn><mn>14</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></math>, więc całość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>0</mn></msup><mo>·</mo><msup><mn>5</mn><mn>0</mn></msup><mo>=</mo><mn>4</mn></math> — liczbie naturalnej.</p>",
+    "punktacja_html": "<ul><li>2 punkty – gdy poprawnie wykaże i poda właściwą liczbę naturalną 4.</li><li>1 punkt – gdy:<ul><li>popełni drobne błędy (np. literówki w wykładnikach, niepełne skrócenie), ale ogólna logika rozwiązania jest zachowana, a wynik prawie poprawny (np. brak ostatecznego wniosku = 4).</li><li>zastosuje poprawną metodę, ale nie dokończy obliczeń (np. zapisze finalne potęgi, ale nie zsumuje ich do liczby naturalnej).</li></ul></li><li>0 punktów – rozwiązanie błędne lub brak rozwiązania lub brak uzasadnienia (tylko odpowiedź 4 bez obliczeń).</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Wysokości równoległoboku o obwodzie 30 cm są równe 2 cm i 3 cm. Oblicz pole tego równoległoboku. Zapisz wszystkie obliczenia i podaj odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "18 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to dłuższy bok, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> krótszy bok równoległoboku; wysokość opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma 2 cm, a na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> ma 3 cm. Pole można zapisać dwojako: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>a</mi><mo>·</mo><mn>2</mn><mo>=</mo><mi>b</mi><mo>·</mo><mn>3</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac></math>.</p><p>Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>30</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>9</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>18</mn></math> cm².</p>",
+    "punktacja_html": "<ul><li>3 punkty – gdy:<ul><li>poprawnie obliczy długość boku równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math> cm i poda prawidłowe pole 18 cm²,</li></ul></li><li>2 punkty – gdy:<ul><li>poprawnie obliczy długość boku równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math> cm i na tym zakończy,</li></ul></li><li>1 punkt – gdy:<ul><li>zapisze poprawnie jedną z zależności między polem a wysokością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac></math> na tym zakończy lub</li><li>zapisze poprawnie jedną z zależności między polem a wysokością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi></mrow><mn>3</mn></mfrac></math> na tym zakończy</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania lub jeśli uczeń bez wykonywania żadnych obliczeń poda tylko liczbę 18 cm².</li></ul><p><strong>Uwaga!</strong> Jeśli uczeń odgadnie długości boków i obliczy pole – maksymalnie otrzymuje 1 punkt.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2025-2026_wielkopolskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W pięciokącie <em>ABCDE</em> (poniższy rysunek) odcinek |<em>AB</em>| = 15, |<em>BC</em>| = 12, |<em>CD</em>| = 14 i |<em>AE</em>| = 16 oraz |∢<em>AED</em>| = |∢<em>BCD</em>| = 90°, |∢<em>ABC</em>| = 270°. Oblicz pole tego pięciokąta. Zapisz wszystkie obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2025-2026_wielkopolskie_q19_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "210",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ABC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>270</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BCD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></math>, dorysowujemy punkt <em>F</em> tak, że <em>ABCF</em> jest prostokątem o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math>. Wtedy trójkąt <em>AFD</em> jest prostokątny, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>29</mn></math>.</p><p>Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>29</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>+</mo><mn>841</mn><mo>=</mo><mn>985</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>985</mn></msqrt></math>. W trójkącie prostokątnym <em>AED</em>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>985</mn><mo>−</mo><msup><mn>16</mn><mn>2</mn></msup><mo>=</mo><mn>729</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>27</mn></math>.</p><p>Pole pięciokąta obliczamy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msub><mi>P</mi><mi>AED</mi></msub><mo>+</mo><msub><mi>P</mi><mi>AFD</mi></msub><mo>−</mo><msub><mi>P</mi><mi>ABCF</mi></msub></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AED</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>216</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AFD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>29</mn><mo>=</mo><mn>174</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABCF</mi></msub><mo>=</mo><mn>12</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>180</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>216</mn><mo>+</mo><mn>174</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>210</mn></math>.</p>",
+    "punktacja_html": "<ul><li>3 punkty – gdy bezbłędnie rozwiąże zadanie i poda odpowiedź 210,</li><li>2 punkty – gdy:<ul><li>poprawnie obliczy długość odcinka ED i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole trójkąta AFD i AED i na tym zakończy lub dalej popełni błędy lub</li><li>gdy poprawnie obliczy pole trójkąta AFD i AED oraz pole prostokąta ABCF i na tym zakończy lub dalej popełni błędy</li></ul></li><li>1 punkt – gdy:<ul><li>poprawnie obliczy długość odcinka AD i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole trójkąta AFD i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole prostokąta ABCF i na tym zakończy lub dalej popełni błędy</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania lub<ul><li>gdy uczeń poda tylko wyniki bez obliczeń.</li></ul></li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

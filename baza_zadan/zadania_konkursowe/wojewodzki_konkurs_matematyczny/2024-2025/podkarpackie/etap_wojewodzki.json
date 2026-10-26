@@ -1,0 +1,237 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2024/2025",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 9,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2025_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2025_podkarpackie_q1",
+   "numer": 1,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "liczby pierwsze",
+    "działania na potęgach",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Wyznacz największą liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, dla której liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2025</mn><mn>25</mn></msup></math> jest podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mi>n</mi></msup></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "45",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Rozkład na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>=</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2025</mn><mn>25</mn></msup><mo>=</mo><msup><mn>3</mn><mn>100</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mi>n</mi></msup></math> ma dzielić tę liczbę, sama liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> może w rozkładzie mieć tylko trójki i piątki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><msup><mn>3</mn><mi>k</mi></msup><mo>·</mo><msup><mn>5</mn><mi>l</mi></msup></mrow></math>. Analiza wykładników pokazuje, że największą możliwą wartością jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn><mo>=</mo><mn>45</mn></mrow></math>: istotnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>45</mn><mn>45</mn></msup><mo>=</mo><msup><mn>3</mn><mn>90</mn></msup><mo>·</mo><msup><mn>5</mn><mn>45</mn></msup></mrow></math> dzieli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>100</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math>.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): dzielnik liczby 2025 mniejszy od 45 lub 2525, lub 4545.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q2",
+   "numer": 2,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Jaś wypisał w zeszycie wszystkie liczby pięciocyfrowe zaczynające się cyfrą 5. Następnie przepisał każdą z tych liczb na kartkę, dopisując znaki i tworząc działanie: najpierw przepisał pierwsze dwie cyfry liczby (w tej samej kolejności), następnie znak równości, trzecią cyfrę, znak dodawania, czwartą cyfrę, znak mnożenia i piątą cyfrę. Ile poprawnych działań matematycznych (w których równość jest spełniona) otrzymał w ten sposób Jaś?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "59",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Trzy ostatnie cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></math> jednoznacznie wyznaczają liczbę spełniającą warunki, o ile <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>·</mo><mi>c</mi></mrow></math> jest liczbą dwucyfrową rozpoczynającą się od 5 (są to dwie pierwsze cyfry). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>·</mo><mi>c</mi></mrow></math> jest liczbą od 41 do 59 będącą iloczynem dwóch cyfr: 42, 45, 48, 49, 54 lub 56. Zliczając dopuszczalne cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> otrzymujemy kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>59</mn></mrow></math> poprawnych działań.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): liczba naturalna z zakresu ⟨30, 58⟩ lub ⟨60, 68⟩.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "inne:pary-uporzadkowane"
+    ],
+    "opis": "Cyfry c i d w różnej kolejności dają różne liczby; iloczyn 6·7 i 7·6 to dwa osobne działania."
+   }
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q3",
+   "numer": 3,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "NWW / NWD",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Liczby całkowite dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>70</mn></mrow></math>. Ile różnych wartości może przyjmować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "7",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> są podzielne przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>70</mn></mrow></math> też. Zatem NWD jest dzielnikiem 70, czyli jedną z liczb 1, 2, 5, 7, 10, 14, 35, 70. Wartość 70 jest niemożliwa (obie liczby musiałyby być co najmniej 70). Pozostałe 7 wartości są osiągalne (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>35</mn><mo>,</mo><mi>y</mi><mo>=</mo><mn>35</mn></mrow></math> daje 35). Odpowiedź: 7 różnych wartości.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): odpowiedź 6 lub 8.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wspólny dzielnik x i y dzieli też ich sumę — zostaje sprawdzić, które dzielniki 70 są osiągalne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia",
+     "zbior-liczb"
+    ],
+    "opis": "Nie każdy dzielnik 70 da się uzyskać: x i y muszą być dodatnie, więc największy dzielnik odpada."
+   }
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q4",
+   "numer": 4,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty o kątach 30-60-90 i 45-45-90",
+    "czworokąty",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są dwa przystające kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKLM</mi></math> o bokach długości 6 cm. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> są współliniowe, jak na rysunku. Oblicz pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKSD</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2025_podkarpackie_q4_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "36(√2 − 1) cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi></math> (przekątna kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKLM</mi></math>) dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> na dwa kąty po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DSL</mi></math> jest połową kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DL</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn></mrow></math> cm. Pole trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADS</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo></mrow></math>. Z symetrii względem prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math> trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASK</mi></math> ma takie samo pole, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AKSD</mi></msub><mo>=</mo><mn>2</mn><msub><mi>P</mi><mi>ADS</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>36</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> cm².</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt) za odpowiedź wskazującą typowy błąd obliczeniowy, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>90</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>−</mo><mn>36</mn><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>+</mo><mn>36</mn><msqrt><mn>2</mn></msqrt></mrow></math> i inne wymienione w kluczu.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q5",
+   "numer": 5,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność",
+    "wzory skróconego mnożenia"
+   ],
+   "tresc_html": "<p>Wyznacz wszystkie liczby całkowite dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>11</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest liczbą całkowitą.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1, 4 i 9",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Przekształcamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>11</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mn>2</mn></msup><mo>+</mo><mn>10</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>10</mn><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></math>. Wyrażenie jest całkowite wtedy i tylko wtedy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></math> jest dzielnikiem 10. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≥</mo><mn>1</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>1</mn><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>10</mn><mo>}</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math>, 4 lub 9.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): cztery liczby całkowite, w tym 1, 4, 9, lub dokładnie dwie liczby ze zbioru {1, 4, 9}.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "przekształć licznik tak, by pojawił się kwadrat (a+1) — reszta powie, przez co ma dzielić się a+1",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zbior-liczb"
+    ],
+    "opis": "a+1 dzieli 10, ale a ma być dodatnie, więc dzielnik 1 (a=0) trzeba odrzucić."
+   }
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Zygfryd bawi się w następującą zabawę: na żółtej kartce zapisuje pewną liczbę naturalną, na zielonej kartce zapisuje sumę cyfr liczby z żółtej kartki, a na niebieskiej kartce zapisuje sumę cyfr liczby z zielonej kartki. Okazało się, że suma liczb z żółtej, zielonej i niebieskiej kartki jest równa 2025. Jaka liczba mogła być zapisana na żółtej kartce? Podaj wszystkie możliwości.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1989, 1995, 2007 i 2013",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Liczba na żółtej kartce jest mniejsza od 2025, więc suma jej cyfr (zielona kartka) nie przekracza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>28</mn></mrow></math>, a niebieska nie przekracza 10; zatem żółta jest co najmniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>−</mo><mn>28</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>1987</mn></mrow></math>. Rozważając kolejne przypadki (albo korzystając z tego, że wszystkie trzy liczby dają tę samą resztę z dzielenia przez 9, więc muszą być podzielne przez 3) otrzymujemy cztery rozwiązania: 1989, 1995, 2007 i 2013.</p>",
+    "punktacja_html": "<p>Częściowo (1 pkt): co najmniej dwie liczby spośród 1989, 1995, 2007, 2013.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 20 cm. Okręgi o średnicach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> przecinają się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>. Okrąg o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ST</mi></math> jest styczny do odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Oblicz pole figury zaznaczonej kolorem na rysunku.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2025_podkarpackie_q7_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "(50π − 100) cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Okręgi o średnicach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> mają promienie 10 cm; oznaczmy ich środki przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KTLS</mi></math> jest rombem o boku 10 cm z kątami prostymi w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> (kąty wpisane oparte na średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ST</mi></math>), więc jest kwadratem. Połowę szukanego pola dostajemy odejmując od pola ćwiartki koła o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> pole połowy tego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mo>(</mo><mn>50</mn><mi>π</mi><mo>−</mo><mn>100</mn><mo>)</mo></mrow></math> cm².</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np. zauważył, że połowa szukanego pola jest różnicą pola wycinka kołowego i trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SKT</mi></math>, i obliczył te pola, popełniając niewielki błąd.</li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np. obliczył pole ćwiartki koła o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>, odcinającej z koła łuk <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ST</mi></math>; obliczył pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SKT</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SLT</mi></math>; zauważył, że połowa szukanego pola jest różnicą pola wycinka kołowego i trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SKT</mi></math>, ale nie obliczył tych pól.</li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np. zauważył, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SKT</mi></math> lub kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SLT</mi></math> jest prosty (np. stwierdzając, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SKTL</mi></math> jest kwadratem lub poprawnie obliczając długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ST</mi></math>).</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "działania na pierwiastkach",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> mniejszych od 500 o następującej własności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> po zaokrągleniu do całości ma cyfrę jedności równą 3?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "32",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&lt;</mo><mn>500</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><msqrt><mn>529</mn></msqrt><mo>=</mo><mn>23</mn></mrow></math>, więc zaokrąglenie może być równe 3, 13 lub 23. Zaokrąglenie do 3 wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mo>≤</mo><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>3,5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,25</mn><mo>≤</mo><mi>n</mi><mo>&lt;</mo><mn>12,25</mn></mrow></math> — liczby 7…12, jest ich 6. Zaokrąglenie do 13 daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>156,25</mn><mo>≤</mo><mi>n</mi><mo>&lt;</mo><mn>182,25</mn></mrow></math> — liczby 157…182, jest ich 26. Zaokrąglenie do 23 wymagałoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≥</mo><mn>506,25</mn></mrow></math>, co jest sprzeczne z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&lt;</mo><mn>500</mn></mrow></math>. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>32</mn></mrow></math> liczby.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np. poprawnie rozwiązał zadanie, ale popełnił błąd obliczeniowy, np. błędnie obliczając jedną z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2,5</mn><mo>)</mo></mrow><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3,5</mn><mo>)</mo></mrow><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>12,5</mn><mo>)</mo></mrow><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>13,5</mn><mo>)</mo></mrow><mn>2</mn></msup></math> albo błędnie obliczając, ile liczb jest w zadanym zakresie; rozwiązał zadanie, popełniając niewielki błąd przy określaniu zakresu, do którego należy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, np. zamiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2,5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≤</mo><mi>n</mi><mo>&lt;</mo><msup><mrow><mo>(</mo><mn>3,5</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> rozważył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2,5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>≤</mo><mi>n</mi><mo>≤</mo><msup><mrow><mo>(</mo><mn>3,4</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>.</li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np. poprawnie znalazł (i policzył) liczby, których pierwiastek po zaokrągleniu do całości daje 3, oraz zauważył, że są jeszcze inne liczby spełniające warunki zadania; poprawnie znalazł (i policzył) liczby, których pierwiastek po zaokrągleniu do całości daje 13, ale nie rozważył innych; poprawnie zauważył, że rozwiązaniem będą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, dla których pierwiastek po zaokrągleniu jest równy 3 lub 13, ale oparł rozwiązanie o stwierdzenie, że jest to połowa liczb z zakresu ⟨4, 16⟩ i ⟨144, 196⟩; rozwiązał zadanie pomijając zaokrąglanie liczby; poprawnie rozwiązał zadanie rozpatrując tylko liczby, których pierwiastek zaokrągla się w dół do 3 i 13.</li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np. poprawnie znalazł (i policzył) liczby, których pierwiastek po zaokrągleniu do całości daje 3; zapisał nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mo>≤</mo><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>3,5</mn></mrow></math> lub analogiczną, ale nie wywnioskował z niej warunków dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "ustal, jakie k może wyjść po zaokrągleniu, i policz liczby z przedziału od (k−½)² do (k+½)²",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "plot-i-slupki"
+    ],
+    "opis": "Zaokrąglenie √n do 3 i do 13: granice przedziałów n (połówki do kwadratu) i przypadek jednocyfrowy."
+   }
+  },
+  {
+   "id": "wojewodzki_2025_podkarpackie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>W pewnym graniastosłupie prostym podstawa jest trójkątem prostokątnym, a ściana boczna o największym polu jest kwadratem. Pozostałe dwie ściany boczne mają pola odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math>. Udowodnij, że pole podstawy tego graniastosłupa jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>P</mi><mo>·</mo><mi>Q</mi></mrow><mrow><mn>2</mn><msqrt><mrow><msup><mi>P</mi><mn>2</mn></msup><mo>+</mo><msup><mi>Q</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Teza udowodniona: pole podstawy = P·Q / (2√(P² + Q²)).",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></math> będą bokami podstawy, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to przeciwprostokątna. Ściana o największym polu przylega do krawędzi długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> i jest kwadratem, więc wysokość graniastosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Ściany o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> to prostokąty, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>a</mi><mi>c</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Q</mi><mo>=</mo><mi>b</mi><mi>c</mi></mrow></math>, a z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>P</mi><mo>·</mo><mi>Q</mi></mrow><mrow><mn>2</mn><msqrt><mrow><msup><mi>P</mi><mn>2</mn></msup><mo>+</mo><msup><mi>Q</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msqrt><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msup><mi>c</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>, co jest polem podstawy — trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. To kończy dowód.</p>",
+    "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np. zapisał twierdzenie Pitagorasa dla podstawy graniastosłupa, a także zapisał zależności między długościami krawędzi podstawy a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> oraz zastąpił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> w tezie przez odpowiednie wyrażenia z długościami krawędzi i przekształcił je popełniając niewielki błąd.</li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np. zapisał zależności między długościami krawędzi podstawy a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> oraz zastąpił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> w tezie przez odpowiednie wyrażenia z długościami krawędzi, ale nie poczynił istotnych postępów w przekształcaniu wyrażenia; przekształcił je, ale nie uzasadnił w pełni przekształceń (np. nie powołał się na twierdzenie Pitagorasa); przekształcił je popełniając błąd merytoryczny (np. pierwiastek sumy kwadratów przekształcił do sumy lub kwadrat sumy przekształcił do sumy kwadratów).</li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np. poprawnie wypisał założenie i tezę; poprawnie zapisał twierdzenie Pitagorasa dla podstawy graniastosłupa; wprost stwierdził, że wysokość graniastosłupa jest równa długości przeciwprostokątnej podstawy.</li></ul>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

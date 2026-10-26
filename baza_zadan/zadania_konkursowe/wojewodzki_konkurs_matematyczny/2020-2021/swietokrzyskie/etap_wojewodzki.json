@@ -1,0 +1,934 @@
+{
+ "konkurs": "V Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2020/2021",
+ "data": "2021-03-16",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 24,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2020-2021_swietokrzyskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Wszystkich liczb naturalnych pięciocyfrowych, których suma cyfr wynosi 4 jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "36"
+    },
+    {
+     "litera": "B",
+     "html": "26"
+    },
+    {
+     "litera": "C",
+     "html": "35"
+    },
+    {
+     "litera": "D",
+     "html": "25"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pierwsza cyfra jest niezerowa, więc zapisujemy ją jako 1+d (d≥0) i szukamy nieujemnych rozwiązań d+d₂+d₃+d₄+d₅=3. Metodą gwiazdek i kresek (3 jedynki, 4 przegródki na 7 miejscach): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mo>·</mo><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>35</mn></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W okręgu o promieniu 1,3 dm poprowadzono cięciwę długości 100 mm. Ile wynosi odległość środka okręgu od cięciwy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 cm"
+    },
+    {
+     "litera": "B",
+     "html": "0,12 dm"
+    },
+    {
+     "litera": "C",
+     "html": "2,5 cm"
+    },
+    {
+     "litera": "D",
+     "html": "6,5 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Promień to 13 cm, połowa cięciwy 5 cm. Z twierdzenia Pitagorasa odległość d spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>d</mi><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystko na centymetry — promień, połowa cięciwy i szukana odległość tworzą trójkąt prostokątny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Dane w dm i mm, a warianty w cm i dm; obok wyniku w cm stoi wariant w dm z przesuniętym przecinkiem"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trapez równoramienny, którego wysokość jest równa jego krótszej podstawie i wynosi 8 cm. Ramię tego trapezu ma długość 10 cm. Obwód tego trapezu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "52 cm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>36</mn><mo>+</mo><mn>2</mn><msqrt><mn>41</mn></msqrt><mo>)</mo></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "48 cm"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>36</mn><mo>+</mo><mn>2</mn><msqrt><mn>41</mn></msqrt><mo>)</mo></math> cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rzut ramienia na podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></math> cm. Dłuższa podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>20</mn></math> cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>48</mn></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odetnij trójkąty prostokątne przy ramionach — z ramienia i wysokości wyjdzie różnica podstaw",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>W pewnej firmie pracuje 10 osób, w tym dyrektor. Średnie miesięczne wynagrodzenie w tej firmie wynosi 2 870 zł. Ile zarabia dyrektor, jeśli średni zarobek pracownika to 2 300 zł?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5 700 zł"
+    },
+    {
+     "litera": "B",
+     "html": "8 000 zł"
+    },
+    {
+     "litera": "C",
+     "html": "2 830 zł"
+    },
+    {
+     "litera": "D",
+     "html": "5 130 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma wynagrodzeń wszystkich: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>2870</mn><mo>=</mo><mn>28700</mn></math> zł. Suma dla 9 pracowników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>2300</mn><mo>=</mo><mn>20700</mn></math> zł. Zarobek dyrektora: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28700</mn><mo>−</mo><mn>20700</mn><mo>=</mo><mn>8000</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz sumę wszystkich pensji, potem sumę pensji dziewięciu pracowników i odejmij",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "10 osób to dyrektor i 9 pracowników; średnia 2300 zł dotyczy tylko tych 9 osób"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "pierwiastki zagnieżdżone",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mroot><mrow><mn>9</mn><mo>·</mo><mroot><mrow><mn>9</mn><mo>·</mo><mroot><mn>27</mn><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot><msqrt><mn>3</mn></msqrt></mfrac></math> jest liczba:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>3</mn><mn>3</mn></mroot></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "3"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>27</mn></math> i znów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></math> — ten sam wzór powtarza się wyżej, więc cały licznik równa się 3. Wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz od najgłębszego pierwiastka — za każdym razem pod pierwiastkiem robi się 27",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest różnych punktów (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą naturalną wybraną spośród liczb {−3, −2, −1, 0, 1, 2, 3}, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest liczbą pierwszą wybraną spośród liczb {50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65}?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "16"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "36"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby naturalne w zbiorze dla x: 0, 1, 2, 3 — 4 możliwości. Liczby pierwsze w zbiorze dla y: 53, 59, 61 — 3 możliwości. Liczba par: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wśród podanych x weź tylko liczby naturalne, wśród y tylko pierwsze, i pomnóż ilości",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "zbior-liczb"
+    ],
+    "opis": "51 i 57 wyglądają na liczby pierwsze; 0 jest liczbą naturalną, a liczby ujemne nie są"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Jeśli wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>6</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>⇒</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>⇒</mo><mi>a</mi><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>b</mi></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>b</mi><mo>+</mo><mn>3</mn><mi>b</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij a = 3 i b = 2 — te liczby spełniają pierwszy warunek",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "stężenie procentowe / mieszaniny",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Mamy dwa stopy złota ze srebrem. W pierwszym z nich ilość złota i srebra znajduje się w stosunku 2:3, a w drugim 3:7. Ile należy wziąć każdego z tych stopów, aby uzyskać 8 kg nowego stopu, w którym stosunek srebra do złota wynosi 11:5?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7 kg pierwszego stopu i 1 kg drugiego stopu"
+    },
+    {
+     "litera": "B",
+     "html": "1 kg pierwszego stopu i 7 kg drugiego stopu"
+    },
+    {
+     "litera": "C",
+     "html": "3 kg pierwszego stopu i 5 kg drugiego stopu"
+    },
+    {
+     "litera": "D",
+     "html": "5 kg pierwszego stopu i 3 kg drugiego stopu"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech x, y — masy stopów w kg, x+y=8. Złoto w mieszance: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>16</mn></mfrac><mo>·</mo><mn>8</mn><mo>=</mo><mn>2,5</mn></math>. Stąd 4x+3y=25, a razem z x+y=8 daje x=1, y=7.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Na rysunku przedstawiony jest dwunastokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDEFGHIJKLMN</mi></math>.</p><p>Suma miar kątów wewnętrznych zacieniowanej figury wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1710°"
+    },
+    {
+     "litera": "B",
+     "html": "1350°"
+    },
+    {
+     "litera": "C",
+     "html": "1620°"
+    },
+    {
+     "litera": "D",
+     "html": "2070°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2020-2021_swietokrzyskie_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zacieniowana figura ma boki H-I-J-K-L-M-N-C-D-E (9 boków dwunastokąta) oraz odcinki QH i EQ — łącznie 11 boków. Suma kątów n-kąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></math>. Dla n=11: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>1620</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz wierzchołki zacieniowanej figury (środek też nim jest) i użyj wzoru (n−2)·180°",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mn>0,12</mn><mo>+</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>:</mo><mo>(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>+</mo><mfrac><mn>7</mn><mn>9</mn></mfrac><mo>)</mo><mo>)</mo><mo>:</mo><mn>0,5</mn></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,1125"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>53</mn><mn>110</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "0,15"
+    },
+    {
+     "litera": "D",
+     "html": "0,45"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Nawias i ułamek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mn>0,12</mn><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mo>,</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>:</mo><mfrac><mn>32</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></math>. Całość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo><mo>:</mo><mn>0,5</mn><mo>=</mo><mn>0,45</mn></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty",
+    "podzielność"
+   ],
+   "tresc_html": "<p>W próbnym egzaminie ósmoklasisty brało udział więcej niż 150 ale mniej niż 180 uczniów. Zajęli oni sale, w których było dokładnie po 24 uczniów. Ilu chłopców pisało egzamin próbny tego dnia, jeśli dziewczęta stanowiły 25% liczby wszystkich uczniów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "144"
+    },
+    {
+     "litera": "B",
+     "html": "126"
+    },
+    {
+     "litera": "C",
+     "html": "182"
+    },
+    {
+     "litera": "D",
+     "html": "131"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba uczniów to wielokrotność 24 z przedziału (150,180): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>168</mn></math>. Dziewczęta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>%</mo><mo>·</mo><mn>168</mn><mo>=</mo><mn>42</mn></math>. Chłopcy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>168</mn><mo>−</mo><mn>42</mn><mo>=</mo><mn>126</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "liczba uczniów musi być wielokrotnością 24 z podanego przedziału, a chłopcy to ¾ z niej",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>1200</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>27</mn><mn>80</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>25</mn><mn>180</mn></msup></math>. Wskaż prawdziwą zależność:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mi>c</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>a</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mi>a</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Sprowadzamy do wspólnego wykładnika 120: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>600</mn></msup><mo>=</mo><msup><mn>32</mn><mn>120</mn></msup><mo>,</mo><mi>b</mi><mo>=</mo><msup><mn>27</mn><mn>80</mn></msup><mo>=</mo><msup><mn>9</mn><mn>120</mn></msup><mo>,</mo><mi>c</mi><mo>=</mo><msup><mn>25</mn><mn>180</mn></msup><mo>=</mo><msup><mn>125</mn><mn>120</mn></msup></math>. Ponieważ 9 &lt; 32 &lt; 125, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mi>c</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystkie potęgi do wspólnego wykładnika i porównaj same podstawy",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "sześciokąty foremne"
+   ],
+   "tresc_html": "<p>Dany jest sześciokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> o boku długości 6. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AF</mi></math> zbudowano kwadraty (zobacz rysunek).</p><p>Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JG</mi></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "18"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2020-2021_swietokrzyskie_q13_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt JAB = 360°−120°−90° = 150° (120° to kąt sześciokąta, 90° kwadratu), więc do przedłużenia AB brakuje 30°. Odległość J od AB i od A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>sin</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>cos</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>. Tak samo G za B, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JG</mi><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Różnica cyfry dziesiątek i cyfry jedności pewnej liczby dwucyfrowej wynosi 4. Jeśli wiesz, że iloraz tej liczby przez liczbę utworzoną z przestawienia jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>4</mn></mfrac></math>, to szukaną liczbą jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "48"
+    },
+    {
+     "litera": "B",
+     "html": "62"
+    },
+    {
+     "litera": "C",
+     "html": "73"
+    },
+    {
+     "litera": "D",
+     "html": "84"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech liczba ma cyfry t (dziesiątek) i u (jedności), t−u=4. Z ilorazu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mn>10</mn><mi>t</mi><mo>+</mo><mi>u</mi><mo>)</mo><mo>=</mo><mn>7</mn><mo>(</mo><mn>10</mn><mi>u</mi><mo>+</mo><mi>t</mi><mo>)</mo></math>, czyli 33t=66u, więc t=2u. Z t−u=4 mamy u=4, t=8 — liczba 84.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz liczby dwucyfrowe o różnicy cyfr 4 — szukana musi dzielić się przez 7",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (zobacz rysunek). Jeżeli punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> są środkami boków kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EH</mi><mo>=</mo><mfrac><mrow><mn>7,5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></math>, to pole zacieniowanej figury wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>225</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "225"
+    },
+    {
+     "litera": "C",
+     "html": "37,5"
+    },
+    {
+     "litera": "D",
+     "html": "18,75"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2020-2021_swietokrzyskie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt EDH ma kąt prosty przy D, ED=DH, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>EH</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>ED</mi><mn>2</mn></msup></math> — to (tw. Pitagorasa) suma pól 4 takich trójkątów w rogach kwadratu, czyli pole zacieniowania. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EH</mi><mo>=</mo><mfrac><mrow><mn>7,5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>=</mo><mn>2,5</mn><msqrt><mn>3</mn></msqrt><mo>,</mo><mi>pole</mi><mo>=</mo><msup><mn>2,5</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>=</mo><mn>18,75</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "cztery odcięte trójkąty złóż w biały kwadrat — zacieniowana figura ma z nim równe pole",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Dany jest odcinek o długości 100 cm. Ile można utworzyć prostokątów, których boki będą liczbami naturalnymi, a jego obwód będzie równy długości podanego odcinka?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "49"
+    },
+    {
+     "litera": "B",
+     "html": "25"
+    },
+    {
+     "litera": "C",
+     "html": "35"
+    },
+    {
+     "litera": "D",
+     "html": "50"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jeśli boki to a i b (liczby naturalne), to 2(a+b)=100, czyli a+b=50. Prostokąt a×b i b×a to ten sam prostokąt, więc liczymy tylko a≤b: a przyjmuje wartości od 1 do 25. Liczba prostokątów: 25.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z obwodu wynika, że suma dwóch sąsiednich boków to 50 — policz nieuporządkowane pary",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:te-same-prostokaty"
+    ],
+    "opis": "Prostokąt a×b to ten sam co b×a; kwadrat też jest prostokątem"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "koła / okręgi",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Jeśli długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> wynosi 3, a długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>58</mn></msqrt></math>, to pole figury przedstawionej na rysunku wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><mi>π</mi><mo>+</mo><mn>21</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10,5</mn><mo>+</mo><mn>49</mn><mi>π</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mrow><mn>12,25</mn><mi>π</mi></mrow><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>49</mn><mi>π</mi></mrow><mn>8</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2020-2021_swietokrzyskie_q17_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt ABC ma kąt prosty przy A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><msqrt><mrow><mn>58</mn><mo>−</mo><mn>9</mn></mrow></msqrt><mo>=</mo><mn>7</mn></math>. Pole trójkąta i półkola o promieniu 3,5 (średnica AC) razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>3,5</mn><mn>2</mn></msup><mo>=</mo><mfrac><mn>21</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>49</mn><mi>π</mi></mrow><mn>8</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z Pitagorasa wyznacz średnicę półkola, potem dodaj pole trójkąta i pole półkola",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyłączanie czynnika przed znak pierwiastka",
+    "działania na pierwiastkach",
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia kwadratowa liczb jest to pierwiastek kwadratowy ze średniej arytmetycznej kwadratów tych liczb. Średnia kwadratowa liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>,</mo><msqrt><mn>11</mn></msqrt><mo>,</mo><mn>4</mn></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Średnia kwadratowa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>11</mn><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow><mn>3</mn></mfrac></msqrt><mo>=</mo><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnieś liczby do kwadratu (√11 daje 11), uśrednij i wyciągnij pierwiastek",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność odwrotna",
+    "koła / okręgi"
+   ],
+   "tresc_html": "<p>Średnica dużego koła ciągnika ma 1,5 m, zaś małego 0,6 m. Ile razy więcej obrotów wykona małe koło w porównaniu z dużym kołem na drodze 1 km. (przyjmij w obliczeniach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mn>3</mn></math>)</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25"
+    },
+    {
+     "litera": "B",
+     "html": "0,4"
+    },
+    {
+     "litera": "C",
+     "html": "250"
+    },
+    {
+     "litera": "D",
+     "html": "2,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przy π=3 obwód dużego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>4,5</mn></math> m, małego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>1,8</mn></math> m. Liczba obrotów jest odwrotnie proporcjonalna do obwodu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4,5</mn><mn>1,8</mn></mfrac><mo>=</mo><mn>2,5</mn></math> razy więcej obrotów.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "nie licz liczby obrotów — wystarczy stosunek średnic, droga i π się skracają",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q20",
+   "numer": 20,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Dany jest sześcian. Jego boki zwiększamy odpowiednio: długość podstawy dwukrotnie, szerokość podstawy trzykrotnie oraz wysokość sześcianu czterokrotnie. Otrzymujemy w ten sposób prostopadłościan.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Objętość otrzymanego prostopadłościanu jest 24 razy większa od objętości sześcianu."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli najdłuższa krawędź prostopadłościanu ma 16 cm to objętość sześcianu jest równa 0,064 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>dm</mtext><mn>3</mn></msup></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prostopadłościan ma boki 2a, 3a, 4a: objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math> razy większa — prawda.</p><p>Najdłuższa krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>=</mo><mn>16</mn></math> cm daje a=4 cm, a objętość sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></math> cm³ = 0,064 dm³ — prawda.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż przez siebie wszystkie trzy współczynniki powiększenia, a w drugim zdaniu przelicz cm³ na dm³",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Objętość wychodzi w cm³, a zdanie podaje dm³: przelicznik jednostek sześciennych to 1000, nie 10"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q21",
+   "numer": 21,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>W pojemniku jest 80 g solanki o stężeniu 12%.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeśli dolejemy 60 g solanki o stężeniu 10% to otrzymamy roztwór o stężeniu mniejszym niż 11%."
+    },
+    {
+     "litera": "2",
+     "html": "Aby otrzymać roztwór o stężeniu 10% należy dodać 80 g roztworu o stężeniu 8%."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po dolaniu 60 g roztworu 10%: sól = 9,6+6=15,6 g w 140 g, stężenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15,6</mn><mn>140</mn></mfrac><mo>≈</mo><mn>11,14</mn><mo>%</mo></math> — to więcej niż 11%, fałsz.</p><p>Dolewając x g roztworu 8%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9,6</mn><mo>+</mo><mn>0,08</mn><mi>x</mi><mo>=</mo><mn>0,1</mn><mo>(</mo><mn>80</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, stąd x=80 g — prawda.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz wszystko na gramy soli, a w pierwszym zdaniu porównaj z 11% masy mieszaniny zamiast dzielić",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q22",
+   "numer": 22,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "wzrost wykładniczy"
+   ],
+   "tresc_html": "<p>Zrzucona z wysokości piłka tenisowa odbija się od podłoża za każdym razem na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> poprzedniej wysokości.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeżeli piłkę rzucono z wysokości 2,5 m, to po piątym odbiciu się od podłogi będzie na wysokości 19,44 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli po trzecim odbiciu się od podłoża piłka wzniosła się na wysokość 34,56 cm, to była ona rzucona z wysokości 150 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po 5 odbiciach wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>5</mn></msup><mo>=</mo><mn>19,44</mn></math> cm — prawda.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>34,56</mn></math> wynika H=160 cm, nie 150 cm — fałsz.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "mnóż kolejno przez 0,6; drugie zdanie sprawdzisz tym samym łańcuchem, startując ze 150 cm",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q23",
+   "numer": 23,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "zmiany procentowe",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Zakład produkuje 600 sztuk wyrobów w ciągu 30 dni.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W roku nieprzestępnym zakład wyprodukuje łącznie 7300 sztuk."
+    },
+    {
+     "litera": "2",
+     "html": "Jeśli zwiększymy wydajność produkcji o 20%, to 600 sztuk zakład wyprodukuje w czasie 25 dni."
+    },
+    {
+     "litera": "3",
+     "html": "Aby 1000 sztuk wyprodukować w ciągu 40 dni, to wydajność produkcji należy zwiększyć o 125%."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wydajność: 600:30=20 szt./dzień. W roku zwykłym: 20·365=7300 — prawda.</p><p>Po wzroście o 20%: 20·1,2=24 szt./dzień, 600 szt. w 600:24=25 dni — prawda.</p><p>Na 1000 szt. w 40 dni trzeba 1000:40=25 szt./dzień, czyli wzrostu o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>20</mn></mfrac><mo>=</mo><mn>25</mn><mo>%</mo></math>, nie 125% — fałsz.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz wydajność na sztuki dziennie i wszystko licz z tej jednej liczby",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc",
+     "kalendarz-czas"
+    ],
+    "opis": "Zwiększenie o 125% a do 125%; +20% wydajności nie skraca czasu o 20%; rok to 365 dni, nie 12·30"
+   }
+  },
+  {
+   "id": "wojewodzki_2020-2021_swietokrzyskie_q24",
+   "numer": 24,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "prawdopodobieństwo"
+   ],
+   "tresc_html": "<p>W pudełku są kule białe i czerwone. Prawdopodobieństwo wyboru kuli białej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeżeli mamy 10 kul białych to czarnych jest o 5 więcej."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli ilość kul białych zwiększymy o 5 i ilość kul czerwonych też zwiększymy o 5, to prawdopodobieństwo wyboru kuli białej nie ulegnie zmianie."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Skoro białych jest 10, wszystkich jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mn>25</mn></math>, więc pozostałych jest 15, czyli o 5 więcej niż białych — prawda.</p><p>Po dodaniu po 5 kul: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>35</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> — prawdopodobieństwo się zmienia, fałsz.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z prawdopodobieństwa 2/5 odczytaj stosunek kul białych do czerwonych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Dodanie po tyle samo kul białych i czerwonych nie zachowuje stosunku (to nie mnożenie)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,833 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych (podlaskie)",
+ "etap": "rejonowy",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2019/2020",
+ "data": "2019-12-04",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 22,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2019_podlaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2019_podlaskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Którą z podanych czterech liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,9</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,0</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> należy wykreślić, aby suma trzech pozostałych była równa 10?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,9</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,0</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma czterech liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac><mo>+</mo><mn>3,9</mn><mo>+</mo><mn>4,0</mn><mo>+</mo><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>14</mn></math>. Aby pozostałe trzy dały 10, trzeba wykreślić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>4</mn></math>, czyli liczbę 4,0.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zsumuj wszystkie cztery liczby i porównaj sumę z 10",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne"
+   ],
+   "tresc_html": "<p>Rozwinięcie dziesiętne nieskończone ma ułamek</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>15</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ułamek ma skończone rozwinięcie, gdy po skróceniu mianownik ma tylko czynniki 2 i 5 — tak jest dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>6</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>15</mn></mfrac></math>. Mianownik ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></math>, więc jego rozwinięcie jest nieskończone.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "skróć ułamki i sprawdź, czy w mianowniku zostaje coś poza dwójkami i piątkami",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Mianownik 15 wygląda na rozwinięcie nieskończone, ale ułamek trzeba najpierw skrócić"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze"
+   ],
+   "tresc_html": "<p>Ile różnych dzielników większych od 1 ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></mrow></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></math> to iloczyn trzech różnych liczb pierwszych, więc ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math> dzielników. Bez dzielnika 1 zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>7</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz po kolei wszystkie dzielniki iloczynu i odrzuć jedynkę",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "Liczy się dzielniki większe od 1: odpada jedynka, ale sama liczba a zostaje"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Olek ma obecnie trzy razy tyle lat co jego brat Rafał 6 lat temu. Jeśli obecny wiek Rafała oznaczymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, to obecny wiek Olka opisuje wyrażenie</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wiek Rafała 6 lat temu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>6</mn></math>. Olek ma dziś trzy razy tyle lat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najpierw zapisz wiek Rafała sprzed 6 lat, dopiero potem pomnóż",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Odejmowanie 6 lat dotyczy wieku Rafała, a nie wyniku mnożenia"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Samochód, jadący z prędkością 100 km/h, pokona odległość 100 m w czasie</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 s"
+    },
+    {
+     "litera": "B",
+     "html": "3,6 s"
+    },
+    {
+     "litera": "C",
+     "html": "10 s"
+    },
+    {
+     "litera": "D",
+     "html": "36 s"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przy 100 km/h samochód pokonuje 1 km w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3600</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>36</mn></math> s. 100 m to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math> km, więc czas to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>3,6</mn></math> s.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz najpierw, ile sekund samochód jedzie jeden kilometr",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cenę abonamentu telefonicznego podniesiono z 20 zł na 27 zł. Abonament zdrożał o</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25%"
+    },
+    {
+     "litera": "B",
+     "html": "26%"
+    },
+    {
+     "litera": "C",
+     "html": "35%"
+    },
+    {
+     "litera": "D",
+     "html": "74%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cena wzrosła o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>7</mn></math> zł. Wzrost procentowy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>0,35</mn></math>, czyli 35%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podwyżkę porównuj z ceną początkową, a nie z nową",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Podwyżkę liczy się w procentach starej ceny, a nie nowej"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Tomek ma 147 zł, a Sławek ma 57 zł. Ile złotych powinien Tomek dać Sławkowi, aby pozostało mu dwa razy tyle pieniędzy, ile będzie wówczas miał Sławek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "11"
+    },
+    {
+     "litera": "B",
+     "html": "19"
+    },
+    {
+     "litera": "C",
+     "html": "30"
+    },
+    {
+     "litera": "D",
+     "html": "68"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to kwota od Tomka. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>147</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>57</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mo>=</mo><mn>3</mn><mi>x</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "suma pieniędzy obu chłopców się nie zmienia — na końcu dzieli się w stosunku 2:1",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "NWW / NWD",
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Ela chodzi na aerobik co cztery dni, a Zosia co trzy dni. Dziś (środa) były na ćwiczeniach obie. W jaki najbliższy dzień tygodnia znów będą ćwiczyć razem?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Poniedziałek."
+    },
+    {
+     "litera": "B",
+     "html": "Środę."
+    },
+    {
+     "litera": "C",
+     "html": "Piątek."
+    },
+    {
+     "litera": "D",
+     "html": "Niedzielę."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obie ćwiczą razem co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>12</mn></math> dni. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>7</mn><mo>+</mo><mn>5</mn></math>, licząc od środy przesuwamy się o 5 dni: wypada poniedziałek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz NWW obu odstępów, a potem resztę z dzielenia przez 7",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ośmiu chłopców witało się, podając rękę każdy każdemu. Ile było uścisków dłoni?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28"
+    },
+    {
+     "litera": "B",
+     "html": "32"
+    },
+    {
+     "litera": "C",
+     "html": "56"
+    },
+    {
+     "litera": "D",
+     "html": "64"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Każdy z 8 chłopców wita się z pozostałymi 7: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>56</mn></math>. Każdy uścisk liczony jest dwa razy, więc uścisków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>28</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każdy podaje rękę siedmiu innym, ale każdy uścisk policzyłbyś dwa razy",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>Dany jest trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa 38°. Na podstawie trójkąta zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, taki że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "104°"
+    },
+    {
+     "litera": "B",
+     "html": "76°"
+    },
+    {
+     "litera": "C",
+     "html": "66°"
+    },
+    {
+     "litera": "D",
+     "html": "38°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2019_podlaskie_q10_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podstawą trójkąta ABC jest BC, więc kąty ABC i ACB mają po 38°. Ponieważ AD = BD, kąt DAB też ma 38°, więc kąt ADB to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>38</mn><mo>−</mo><mn>38</mn><mo>=</mo><mn>104</mn></math>°, a kąt ADC to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>104</mn><mo>=</mo><mn>76</mn></math>°. Stąd kąt CAD to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>38</mn><mo>−</mo><mn>76</mn><mo>=</mo><mn>66</mn></math>°.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kąty przy podstawie są równe, a trójkąt ABD też jest równoramienny",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Trójkąt prostokątny można utworzyć z odcinków o długościach</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>,</mo><mn>5</mn><mo>,</mo><msqrt><mn>10</mn></msqrt></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>3</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt prostokątny powstaje, gdy suma kwadratów krótszych boków równa jest kwadratowi najdłuższego. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math> — warunek spełniony.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w każdej trójce sprawdź sumę kwadratów dwóch krótszych odcinków",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>O kątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>γ</mi></mrow></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>3</mn><mi>α</mi></mrow></math>. Wynika stąd, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "ostrokątny."
+    },
+    {
+     "litera": "B",
+     "html": "prostokątny."
+    },
+    {
+     "litera": "C",
+     "html": "rozwartokątny."
+    },
+    {
+     "litera": "D",
+     "html": "równoramienny."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>+</mo><mn>3</mn><mi>α</mi><mo>=</mo><mn>180</mn></math>° mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>α</mi><mo>=</mo><mn>180</mn></math>°, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>30</mn></math>°. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>90</mn></math>° — trójkąt ma kąt prosty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz sumę kątów trójkąta jako wielokrotność α",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>W trójkącie równoramiennym o obwodzie 14, stosunek długości ramienia do długości podstawy jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>2</mn></mrow></math>. Podstawa trójkąta ma długość</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5,6"
+    },
+    {
+     "litera": "B",
+     "html": "5,25"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "3,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech ramię ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi></math>, a podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi></math>. Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>k</mi><mo>=</mo><mn>14</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>1,75</mn></math>. Podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>1,75</mn><mo>=</mo><mn>3,5</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel obwód na części: ramię, ramię i podstawa",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:dwa-ramiona"
+    ],
+    "opis": "Trójkąt ma dwa ramiona, więc do obwodu wchodzą dwie części 3, a nie jedna"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pojemnik farby wystarczy na pomalowanie 4 m² powierzchni. Ile co najmniej takich pojemników farby trzeba kupić, aby pomalować z obu stron trzy latawce w kształcie rombu o przekątnych 3,2 m i 2 m?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "cztery"
+    },
+    {
+     "litera": "B",
+     "html": "pięć"
+    },
+    {
+     "litera": "C",
+     "html": "sześć"
+    },
+    {
+     "litera": "D",
+     "html": "dziesięć"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole latawca: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3,2</mn><mo>·</mo><mn>2</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>3,2</mn></math> m². Trzy latawce malowane z obu stron: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>19,2</mn></math> m². Pojemników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19,2</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>4,8</mn></math>, czyli co najmniej 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pole rombu licz z przekątnych, a potem pamiętaj o dwóch stronach i trzech latawcach",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Prostokąt zbudowany jest z pięciu identycznych kwadratów. Jeżeli obwód prostokąta jest równy 60 cm, to pole jednego kwadratu jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "16 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "18 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "25 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prostokąt z pięciu kwadratów o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>a</mi><mo>=</mo><mn>60</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> cm. Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>25</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile boków kwadratu składa się na obwód prostokąta",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mn>4</mn></math>. Wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>:</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno licznik i mianownik — pierwiastki się zredukują",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostrosłupy",
+    "liczba krawędzi, ścian i wierzchołków",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ile wierzchołków ma podstawa ostrosłupa, jeżeli suma liczby wszystkich wierzchołków i wszystkich krawędzi ostrosłupa jest równa 100?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20"
+    },
+    {
+     "litera": "B",
+     "html": "33"
+    },
+    {
+     "litera": "C",
+     "html": "50"
+    },
+    {
+     "litera": "D",
+     "html": "99"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ostrosłup o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątnej ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn></math> wierzchołków i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> krawędzi. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>100</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>99</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>33</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz liczbę wierzchołków i krawędzi ostrosłupa przez liczbę boków podstawy",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Końce odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> mają współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></mrow></math>. Wiedząc, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math> jest środkiem tego odcinka. Znajdź współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>.</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></mrow></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>=</mo><mo>(</mo><mn>4</mn><mo>+</mo><mi>a</mi><mo>)</mo><mo>:</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>=</mo><mo>(</mo><mn>8</mn><mo>+</mo><mi>b</mi><mo>)</mo><mo>:</mo><mn>2</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ze środka odłóż taki sam skok, jaki prowadzi z A do środka",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Oblicz odległość na osi liczbowej między liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>27</mn><mn>10</mn></msup><mo>·</mo><mn>81</mn><mo>:</mo><msup><mn>9</mn><mn>16</mn></msup></mrow></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest najmniejszą liczbą pierwszą. Wynik przedstaw w najprostszej postaci.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "11",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Zapisujemy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jako potęgę o podstawie 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>27</mn><mn>10</mn></msup><mo>·</mo><mn>81</mn><mo>:</mo><msup><mn>9</mn><mn>16</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>10</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>:</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>16</mn></msup><mo>=</mo><msup><mn>3</mn><mn>30</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>:</mo><msup><mn>3</mn><mn>32</mn></msup><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>. Najmniejszą liczbą pierwszą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn></mrow></math>, więc liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn></mrow></math>. Odległość na osi liczbowej między liczbami 9 i −2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>11</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "zapisz 27, 81 i 9 jako potęgi trójki i działaj na samych wykładnikach",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "zbior-liczb"
+    ],
+    "opis": "Odległość od liczby przeciwnej do b, a nie od b; najmniejszą liczbą pierwszą jest 2, a nie 1"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ułamki",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Jedna czwarta uczestników wycieczki mieszka w pokojach trzyosobowych, dwie trzecie mieszka w pokojach dwuosobowych, a pięć pozostałych osób zajmuje pokój pięcioosobowy. Ile pokoi zajmują uczestnicy tej wycieczki?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "26",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W pokojach 3- i 2-osobowych mieszka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>12</mn></mfrac></mrow></math> uczestników, więc pięcioro pozostałych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> uczestników. Zatem wszystkich uczestników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>60</mn></mrow></math>. Pokoje 3-osobowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>15</mn></mrow></math> osób, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></mrow></math> pokoi. Pokoje 2-osobowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>40</mn></mrow></math> osób, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>20</mn></mrow></math> pokoi. Łącznie z pokojem 5-osobowym: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>26</mn></mrow></math> pokoi.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pozostała piątka osób to ta część uczestników, której brakuje do całości",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o liczbę pokoi, a nie o liczbę uczestników, którą naturalnie wylicza się z równania"
+   }
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "czworokąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Suma długości podstaw trapezu równoramiennego jest równa 18 cm. Jedna z podstaw jest dwukrotnie dłuższa od drugiej podstawy. Oblicz wysokość trapezu, jeżeli jego przekątna ma długość 15 cm.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "12 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math> oznaczają długości podstaw. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>18</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math>, więc podstawy mają długości 6 cm i 12 cm. Rzut przekątnej na dłuższą podstawę ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>12</mn><mo>+</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math> cm. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>9</mn><mn>2</mn></msup><mo>=</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dorysuj w myślach wysokości i sprawdź, ile przekątna odcina na dłuższej podstawie",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2019_podlaskie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Do podstawy graniastosłupa prawidłowego czworokątnego doklejono drugi taki sam graniastosłup, otrzymując graniastosłup o polu powierzchni większym o 216 cm² i sumie długości wszystkich krawędzi większej o 36 cm. Oblicz wymiary początkowego graniastosłupa.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "krawędź podstawy 6 cm, wysokość 9 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> wysokość początkowego graniastosłupa. Po sklejeniu dwóch takich graniastosłupów podstawami pole powierzchni rośnie o pole dwóch podstaw, a wysokość podwaja się: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>a</mi><mi>h</mi><mo>=</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>h</mi><mo>+</mo><mn>216</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>h</mi><mo>=</mo><mn>216</mn></mrow></math>. Dla sumy długości krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>a</mi><mo>+</mo><mn>8</mn><mi>h</mi><mo>=</mo><mn>8</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>h</mi><mo>+</mo><mn>36</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>h</mi><mo>=</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>9</mn></mrow></math> cm. Wtedy z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mo>·</mo><mn>9</mn><mo>=</mo><mn>216</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math> cm. Początkowy graniastosłup ma krawędź podstawy 6 cm i wysokość 9 cm.</p>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly"
+    ],
+    "opis": "Sklejone podstawy znikają z powierzchni, a krawędzie podstaw się pokrywają"
+   }
+  }
+ ]
+}

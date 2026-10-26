@@ -1,0 +1,655 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2021/2022",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 19,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2022_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2022_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Dana jest dziesięciocyfrowa liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>65111111</mn><mi>a</mi><mn>2</mn></math>, która jest podzielna przez 12. Zatem cyfra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "2"
+    },
+    {
+     "litera": "E",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Podzielność przez 12 to podzielność przez 4 i przez 3. Końcówka „a2” dzieli się przez 4 dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn><mo>,</mo><mn>9</mn><mo>}</mo></mrow></math>. Suma pozostałych cyfr wynosi 19, więc podzielność przez 3 wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>. Wspólna wartość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "12 = 3 · 4 — sprawdź osobno sumę cyfr i dwie ostatnie cyfry",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Zaokrąglenie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></msqrt><mo>:</mo><msqrt><mfrac><mn>3</mn><mn>64</mn></mfrac></msqrt></math> do jedności jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    },
+    {
+     "litera": "E",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Łącząc pierwiastki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>:</mo><mfrac><mn>3</mn><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>64</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>256</mn><mn>9</mn></mfrac></mrow></math>, więc wyrażenie równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mfrac><mn>256</mn><mn>9</mn></mfrac></msqrt><mo>=</mo><mfrac><mn>16</mn><mn>3</mn></mfrac><mo>≈</mo><mn>5,33</mn></mrow></math>. Po zaokrągleniu do jedności: 5.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 1⅓ na ułamek niewłaściwy i schowaj całe dzielenie pod jeden pierwiastek",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyłączanie czynnika przed znak pierwiastka",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><msqrt><mn>50</mn></msqrt></mrow></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    },
+    {
+     "litera": "E",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>50</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz czynnik przed znak pierwiastka w √50, zanim odejmiesz",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "podzielność"
+   ],
+   "tresc_html": "<p>Ile różnych dzielników większych od 2 ma liczba 42:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "7"
+    },
+    {
+     "litera": "E",
+     "html": "8"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozkład: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn></mrow></math>. Wszystkie dzielniki: 1, 2, 3, 6, 7, 14, 21, 42. Większych od 2 jest 6: 3, 6, 7, 14, 21, 42.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wypisz wszystkie dzielniki 42 i odrzuć te niewiększe od 2",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kwantyfikator"
+    ],
+    "opis": "„Większych od 2” wyklucza zarówno 1, jak i samą liczbę 2"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki",
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Iloczyn kwadratów odwrotności liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>17</mn></mfrac></math> wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>18</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "7"
+    },
+    {
+     "litera": "D",
+     "html": "8"
+    },
+    {
+     "litera": "E",
+     "html": "9"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "E",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odwrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>6</mn></mfrac></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>17</mn></mfrac></math>, a jej kwadrat to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>36</mn><mn>289</mn></mfrac></math>. Odwrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>17</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>2</mn></mfrac></math>, a jej kwadrat to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>289</mn><mn>4</mn></mfrac></math>. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>36</mn><mn>289</mn></mfrac><mo>·</mo><mfrac><mn>289</mn><mn>4</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż odwrotności, zanim podniesiesz je do kwadratu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole trójkąta o bokach równych: 5 cm, 8 cm, 5 cm wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "20 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "12,5 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm²"
+    },
+    {
+     "litera": "E",
+     "html": "40 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt jest równoramienny (5, 5, 8), więc wysokość na podstawę 8 dzieli ją na połowy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn></mrow></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>8</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>12</mn></mrow></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "trójkąt jest równoramienny — opuść wysokość na bok 8 cm i użyj Pitagorasa",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Początkowe ceny pewnych towarów X i Y były jednakowe. Po pewnym czasie cenę towaru X obniżono o 30% natomiast cenę towaru Y podwyższono o 25%. O ile procent po tych zmianach cena towaru X jest niższa od ceny towaru Y?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "30%"
+    },
+    {
+     "litera": "B",
+     "html": "33,(3)%"
+    },
+    {
+     "litera": "C",
+     "html": "40%"
+    },
+    {
+     "litera": "D",
+     "html": "44%"
+    },
+    {
+     "litera": "E",
+     "html": "55%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla ceny początkowej 100: X to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>70</mn></mrow></math>, Y to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>·</mo><mn>1,25</mn><mo>=</mo><mn>125</mn></mrow></math>. X jest niższa od Y o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>125</mn><mo>−</mo><mn>70</mn></mrow><mn>125</mn></mfrac><mo>=</mo><mn>44</mn><mo>%</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyjmij cenę początkową 100 zł, a różnicę cen odnieś do ceny towaru Y",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa"
+    ],
+    "opis": "Różnica cen liczona względem ceny Y po zmianie, nie względem ceny początkowej"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Kwadrat podzielono na dwa prostokąty, w których stosunek obwodów wynosi 7:5. Ile jest równy stosunek pól tych prostokątów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2:1"
+    },
+    {
+     "litera": "B",
+     "html": "3:1"
+    },
+    {
+     "litera": "C",
+     "html": "4:1"
+    },
+    {
+     "litera": "D",
+     "html": "3:2"
+    },
+    {
+     "litera": "E",
+     "html": "7:5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, podział na prostokąty o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>x</mi></mrow></math>. Z obwodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow><mrow><mn>2</mn><mi>a</mi><mo>−</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>5</mn></mfrac></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>4</mn></mfrac></mrow></math>. Pola prostokątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></math>, czyli w stosunku 3:1.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "dodaj połowy obwodów — wychodzi trzykrotność boku, a stosunek dzieli ją na 12 części",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Stosunek obwodów prostokątów nie przenosi się na stosunek ich pól"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczba krawędzi, ścian i wierzchołków",
+    "graniastosłupy",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Dany jest graniastosłup prawidłowy siedmiokątny, którego każda ściana boczna jest kwadratem o obwodzie 12 cm oraz czworościan foremny o polu podstawy równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Ile wynosi łączna długość wszystkich krawędzi obu tych graniastosłupów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>+</mo><mn>18</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>+</mo><mn>36</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm"
+    },
+    {
+     "litera": "C",
+     "html": "72 cm"
+    },
+    {
+     "litera": "D",
+     "html": "99 cm"
+    },
+    {
+     "litera": "E",
+     "html": "122 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ściana boczna graniastosłupa to kwadrat o obwodzie 12, więc krawędź podstawy = 3 cm, a krawędzi jest 21: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>63</mn></mrow></math> cm. Z pola ściany czworościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math> cm, a krawędzi jest 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></mrow></math> cm. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>63</mn><mo>+</mo><mn>36</mn><mo>=</mo><mn>99</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz krawędzie osobno: graniastosłup ma 3 · 7, czworościan 6, a w każdej bryle są równej długości",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Sześcian oraz ostrosłup prawidłowy czworokątny o krawędzi podstawy równej 3 cm i wysokości trzykrotnie dłuższej mają równe objętości. Ile wynosi pole powierzchni sześcianu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "54 cm²"
+    },
+    {
+     "litera": "B",
+     "html": "52 cm²"
+    },
+    {
+     "litera": "C",
+     "html": "36 cm²"
+    },
+    {
+     "litera": "D",
+     "html": "30 cm²"
+    },
+    {
+     "litera": "E",
+     "html": "27 cm²"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Objętość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>9</mn><mo>=</mo><mn>27</mn></mrow></math> cm³. Sześcian o tej objętości ma krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></mrow></math> cm, więc pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></mrow></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz objętość ostrosłupa — to od razu objętość sześcianu",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q11",
+   "numer": 11,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "wyrażenia algebraiczne",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że dla dowolnej wartości zmiennej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>7</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>20</mn><mi>x</mi></mrow></math> jest liczbą dodatnią.</p><p>Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Wartość wyrażenia jest równa 12, więc jest liczbą dodatnią",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Wymnażamy nawiasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>13</mn><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>14</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>13</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>14</mn><mo>)</mo><mo>−</mo><mn>20</mn><mi>x</mi><mo>=</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>−</mo><mn>20</mn><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>. Wartość wyrażenia jest stała i równa 12, więc dla dowolnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą dodatnią.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne opuszczenie nawiasów do postaci np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>14</mn><mi>x</mi><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>−</mo><mn>7</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>14</mn><mi>x</mi><mo>−</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>14</mn><mo>−</mo><mn>20</mn><mi>x</mi></mrow></math></li><li>2 pkt. – poprawne obliczenie wartości wyrażenia: 12</li></ul>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q12",
+   "numer": 12,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "statystyka opisowa",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Na tablicy zapisano 5 liczb. Pierwsza była równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, druga była o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> od niej większa, trzecia o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> większa od drugiej, czwarta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> większa od trzeciej, a piąta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> większa od czwartej.</p><p>Uzasadnij, że średnia arytmetyczna tych liczb jest równa trzeciej liczbie.</p><p>Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Średnia arytmetyczna jest równa 3√3 + 2√7, czyli trzeciej liczbie",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kolejne liczby to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>7</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>7</mn></msqrt></mrow></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>10</mn><msqrt><mn>7</mn></msqrt></mrow></math>, więc średnia arytmetyczna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>10</mn><msqrt><mn>7</mn></msqrt></mrow><mn>5</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math>, co jest równe trzeciej liczbie.</p>",
+    "punktacja_html": "<ul><li>1 pkt – zapisanie podanych pięciu liczb np. w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> – liczba pierwsza, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>7</mn></msqrt></mrow></math> – liczba druga, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math> – liczba trzecia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></mrow></math> – liczba czwarta, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>7</mn></msqrt></mrow></math> – liczba piąta</li><li>2 pkt. – prawidłowy sposób obliczenia średniej arytmetycznej podanych pięciu liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>7</mn></msqrt></mrow><mn>5</mn></mfrac><mo>=</mo><mfrac><mrow><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>10</mn><msqrt><mn>7</mn></msqrt></mrow><mn>5</mn></mfrac></mrow></math></li><li>3 pkt. – poprawne obliczenie średniej arytmetycznej pięciu liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math></li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q13",
+   "numer": 13,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "usuwanie niewymierności z mianownika",
+    "wzory skróconego mnożenia",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac></mrow></math> jest liczbą parzystą.</p><p>Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Wartość wyrażenia jest równa 22, więc jest liczbą parzystą",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Sprowadzamy ułamki do wspólnego mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></mfrac></mrow></math>. Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>2</mn><msqrt><mn>30</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>6</mn><mo>−</mo><mn>2</mn><msqrt><mn>30</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>22</mn></mrow></math>, mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>1</mn></mrow></math>. Zatem wartość wyrażenia wynosi 22 — liczbę parzystą.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawny sposób sprowadzenia ułamków do wspólnego mianownika lub poprawny sposób usunięcia niewymierności z mianowników np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow><mrow><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></mfrac></mrow></math></li><li>2 pkt. – poprawne opuszczenie nawiasów w liczniku oraz w mianowniku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>+</mo><mn>2</mn><msqrt><mn>30</mn></msqrt><mo>+</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>−</mo><mn>2</mn><msqrt><mn>30</mn></msqrt><mo>+</mo><mn>5</mn></mrow><mrow><mn>6</mn><mo>−</mo><mn>5</mn></mrow></mfrac></mrow></math></li><li>3 pkt. – poprawne obliczenie wartości wyrażenia: 22</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q14",
+   "numer": 14,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Mała beczka pełna miodu waży 1,64 kg. Duża pusta beczka o pojemności 4 litrów waży 1,8 kg, a mała pusta beczka o pojemności 0,7 litra waży 0,8 kg. Ile waży duża beczka pełna miodu?</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6,6 kg",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Masa 0,7 litra miodu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,64</mn><mo>−</mo><mn>0,8</mn><mo>=</mo><mn>0,84</mn></mrow></math> kg. Z proporcjonalności prostej masa 4 litrów miodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>0,7</mn><mn>0,84</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mi>x</mi></mfrac></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mi>x</mi><mo>=</mo><mn>3,36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4,8</mn></mrow></math> kg. Duża beczka pełna miodu waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,8</mn><mo>+</mo><mn>4,8</mn><mo>=</mo><mn>6,6</mn></mrow></math> kg.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne obliczenie wagi 0,7 litra miodu: 0,84 kg</li><li>2 pkt. – poprawne obliczenie wagi 4 litrów miodu: 4,8 kg</li><li>3 pkt. – poprawne obliczenie wagi beczki pełnej miodu: 6,6 kg</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dany jest trójkąt prostokątny, w którym długości boków są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn></mrow></math> (rysunek). Oblicz pole tego trójkąta oraz długość najkrótszej wysokości.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_podkarpackie_q15_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole trójkąta = 30, najkrótsza wysokość = 60/13 (4 8/13)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn><mo>+</mo><mn>144</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mi>x</mi><mo>=</mo><mn>192</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>. Boki trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>13</mn></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mo>·</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math>. Najkrótsza wysokość opada na najdłuższy bok (przeciwprostokątną 13): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>13</mn><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mn>60</mn><mn>13</mn></mfrac><mo>=</mo><mn>4</mn><mfrac><mn>8</mn><mn>13</mn></mfrac></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne obliczenie wartości x: 12</li><li>2 pkt. – poprawne obliczenie pola trójkąta: 30</li><li>3 pkt. – poprawny sposób obliczenia długości najkrótszej wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>13</mn><mo>∙</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math></li><li>4 pkt. – poprawne obliczenie długości najkrótszej wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>8</mn><mn>13</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mn>13</mn></mfrac></mrow></math></li></ul><p>Uwaga: Jeżeli uczeń błędnie obliczy wartość x otrzymuje 0pkt za to zadanie. Jeżeli uczeń zaokrągli końcowy wynik np. do 4,6 to otrzymuje 3pkt.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "W trójkącie prostokątnym przyprostokątne są wysokościami; najkrótsza jest ta na przeciwprostokątną"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "sześciokąty foremne",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Oblicz pole sześciokąta foremnego przedstawionego na rysunku.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_podkarpackie_q16_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "384√3 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Odcinek o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> to podwojona wysokość trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (odległość między przeciwległymi bokami sześciokąta): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math> cm. Pole sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mn>16</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>384</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawny sposób obliczenia długości boku sześciokąta: np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>∙</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math></li><li>2 pkt. – poprawne obliczenie długości boku sześciokąta: 16 cm</li><li>3 pkt. – poprawny sposób obliczenia pola sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mtext>sześciokąta</mtext></msub><mo>=</mo><mn>6</mn><mo>∙</mo><mfrac><mrow><msup><mn>16</mn><mn>2</mn></msup><mo>∙</mo><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math></li><li>4 pkt. – poprawne obliczenie pola sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>384</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm²</li></ul><p>Uwaga: Jeżeli uczeń przedstawi błędny sposób obliczenia długości boku sześciokąta to otrzymuje 0pkt za to zadanie.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "NWW / NWD",
+    "układ współrzędnych",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>W prostokątnym układzie współrzędnych zaznacz wszystkie punkty, których współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> są liczbami naturalnymi spełniającymi równocześnie dwa warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWW</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>12</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWD</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>. Połącz te punkty w taki sposób, aby otrzymać wielokąt i oblicz jego pole.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Punkty (1, 12), (12, 1), (3, 4), (4, 3); wielokąt to trapez o polu 36",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Warunki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWW</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWD</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math> spełniają pary liczb, dla których <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> i które są względnie pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mn>12</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>12</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>. Po połączeniu tych punktów powstaje trapez o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>11</mn><msqrt><mn>2</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>, więc pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mn>11</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>36</mn></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne wyznaczenie punktów spełniających warunki zadania: (1, 12), (12, 1), (3, 4), (4, 3)</li><li>2 pkt. – poprawne wykonanie rysunku – połączenie punktów w układzie współrzędnych spełniających warunki zadania</li><li>3 pkt. – poprawny sposób obliczenia pola otrzymanego wielokąta</li><li>4 pkt. – poprawne obliczenie pola wielokąta: 36</li></ul>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki"
+    ],
+    "opis": "Pary uporządkowane: (x,y) i (y,x) to różne punkty, łatwo pominąć część"
+   }
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "koła / okręgi",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Dane są dwie figury: A i B (rysunek).</p><p>Przyjmując, że bok jednej kratki ma 1, oblicz ich pola.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2022_podkarpackie_q18_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "Pole figury A = 7 + π, pole figury B = 4 + 2π",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Figurę A można podzielić na dwa równoległoboki, trzy kwadraty oraz koło o promieniu 1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mi>π</mi><mo>=</mo><mn>7</mn><mo>+</mo><mi>π</mi></mrow></math>. Figura B składa się z dwóch trójkątów oraz połowy koła o promieniu 2, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>B</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mfrac><mrow><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><mi>π</mi></mrow></math>.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawny sposób obliczenia pola figury A lub B</li><li>2 pkt. – poprawne obliczenie pola figury A lub B: (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mi>π</mi></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>2</mn><mi>π</mi></mrow></math>)</li><li>3 pkt. – poprawny sposób obliczenia pola figury A i B oraz poprawne obliczenie pola figury A lub B</li><li>4 pkt. – poprawne obliczenie pola figury A i B: (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mi>π</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>2</mn><mi>π</mi></mrow></math>)</li></ul><p>Uwaga: Jeżeli uczeń za π podstawia 3,14 lub inne przybliżenie może za zadanie 18 otrzymać maksymalnie 2 punkty.</p><p>Jeżeli uczeń błędnie podaje długość promienia koła to otrzymuje 0pkt za poprawny sposób obliczenia pola figury.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2022_podkarpackie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy"
+   ],
+   "tresc_html": "<p>Do zbudowania ostrosłupa prawidłowego użyto tylko dwóch rodzajów figur: trójkątów równobocznych oraz kwadratu. Pole jednego trójkąta równobocznego jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz objętość tego ostrosłupa.</p><p>Zapisz obliczenia i odpowiedź.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "682⅔√2 cm³ (czyli 2048√2/3 cm³)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ostrosłup prawidłowy czworokątny, którego ściany boczne są trójkątami równobocznymi, ma wszystkie krawędzie równej długości. Z pola ściany: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>64</mn><msqrt><mn>3</mn></msqrt></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>256</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math> cm. Połowa przekątnej podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math>, więc wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mn>16</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>256</mn><mo>−</mo><mn>128</mn><mo>=</mo><mn>128</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>256</mn><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>2048</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac><mo>=</mo><mn>682</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><msqrt><mn>2</mn></msqrt></mrow></math> cm³.</p>",
+    "punktacja_html": "<ul><li>1 pkt – poprawne obliczenie długości krawędzi podstawy ostrosłupa: 16 cm</li><li>2 pkt. – poprawne obliczenie wysokości ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm</li><li>3 pkt. – poprawne obliczenie objętości ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>682</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><msqrt><mn>2</mn></msqrt></mrow></math> cm³ lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2048</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math> cm³</li></ul><p>Uwaga: Jeżeli uczeń błędnie obliczy długość krawędzi podstawy ostrosłupa to otrzymuje 0pkt za to zadanie.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

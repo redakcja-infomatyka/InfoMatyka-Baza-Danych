@@ -1,0 +1,582 @@
+{
+ "konkurs": "V Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych województwa świętokrzyskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "swietokrzyskie",
+ "rok_szkolny": "2020/2021",
+ "data": "2021-01-19",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 15,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2020-2021_swietokrzyskie_1.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "notacja wykładnicza",
+    "działania na pierwiastkach",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1,2</mn><mo>)</mo></math> <u>nie można</u> zapisać w postaci:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1200</mn><mn>1000</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mfrac><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><mrow><msup><mn>20</mn><mn>2</mn></msup><mo>:</mo><msup><mn>2</mn><mn>3</mn></msup></mrow></mfrac></msqrt></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0,0012</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mfrac><mn>13</mn><mn>25</mn></mfrac><mo>)</mo><mo>·</mo><mn>2,5</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wariant C: −0,0012·10⁻³ = −0,0000012, a nie −1,2 (dopiero −0,0012·10³ = −1,2).</p>",
+    "uwaga_do_klucza": {
+     "werdykt": "KEY_CORRECT",
+     "opis": "Poprawna jest odpowiedź C. Sprawdzamy, które wyrażenie NIE równa się −1,2. A: −1200/1000 = −1,2. D: (−3 + 2 13/25)·2,5 = (−0,48)·2,5 = −1,2. B po uproszczeniu również daje −1,2 (pierwiastek z 1,44 to 1,2). Natomiast C: −0,0012·10⁻³ = −0,0012/1000 = −0,0000012 = −1,2·10⁻⁶ — to liczba około milion razy mniejsza od −1,2, więc jako −1,2 zapisać jej się NIE da. Dlatego szukaną odpowiedzią jest C. Modele AI pomyliły się, bo odczytały wykładnik w C jako 10³ (dodatni), co dałoby −1,2; w rzeczywistości wykładnik jest ujemny (10⁻³), więc to właśnie C jest wyjątkiem."
+    }
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Dane są liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, dla których spełnione są warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>12</mn></math>. Wynika stąd, że suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równa:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "36"
+    },
+    {
+     "litera": "B",
+     "html": "44"
+    },
+    {
+     "litera": "C",
+     "html": "48"
+    },
+    {
+     "litera": "D",
+     "html": "24"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dodajemy stronami: (a+b)+(b+c)+(c+d)+(a+d) = 2(a+b+c+d) = 10+12+14+12 = 48, więc a+b+c+d = 24.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sparuj równania a+b i c+d — razem obejmują wszystkie cztery liczby",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "podwojne-liczenie"
+    ],
+    "opis": "Po dodaniu wszystkich równań każda liczba występuje dwa razy – trzeba podzielić przez 2"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Maciek znalazł stary notes z zapisanymi datami ważnych dla niego wydarzeń w 2016 roku. W której dacie popełnił błąd, jeśli wiadomo, że 11 luty 2016 r. wypadał w czwartek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6.02.2016 – sobota"
+    },
+    {
+     "litera": "B",
+     "html": "26.02.2016 – piątek"
+    },
+    {
+     "litera": "C",
+     "html": "16.03.2016 – środa"
+    },
+    {
+     "litera": "D",
+     "html": "26.03.2016 – piątek"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 11.02 (czwartek) do 26.03.2016 mija 18+26 = 44 dni (luty 2016 miał 29 dni); 44 = 6·7+2, więc to sobota, nie piątek — błąd tkwi w dacie 26.03.2016.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz skokami po 7 dni od czwartku 11 lutego; pamiętaj, że luty 2016 ma 29 dni",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "kalendarz-czas"
+    ],
+    "opis": "Rok 2016 jest przestępny – luty ma 29 dni, co przesuwa dni tygodnia w marcu"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Nadleśnictwo kupiło sadzonki sosny. Posadzono je w 15 rzędach, w każdym po tyle samo. Gdyby zmniejszyć ilość rzędów o 3, to w każdym z nich byłoby o dwie sadzonki więcej. Ile sadzonek kupiło nadleśnictwo?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "96"
+    },
+    {
+     "litera": "B",
+     "html": "120"
+    },
+    {
+     "litera": "C",
+     "html": "180"
+    },
+    {
+     "litera": "D",
+     "html": "150"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech x to liczba sadzonek w rzędzie: 15x = 12(x+2), stąd x = 8. Sadzonek: 15·8 = 120.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ta sama liczba dzieli się przez 15 i przez 12, a ilorazy różnią się o 2",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Dany jest graniastosłup, który ma 366 krawędzi i 244 wierzchołki. Jaki wielokąt jest w podstawie tego graniastosłupa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "122-kąt"
+    },
+    {
+     "litera": "B",
+     "html": "183-kąt"
+    },
+    {
+     "litera": "C",
+     "html": "61-kąt"
+    },
+    {
+     "litera": "D",
+     "html": "62-kąt"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dla n-kąta w podstawie krawędzi jest 3n = 366, więc n = 122; wierzchołków 2n = 244 zgadza się z treścią — podstawa to 122-kąt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi i 2n wierzchołków",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Tata Marty z zaoszczędzonych pieniędzy założył w banku lokatę na jeden rok. Po roku bank naliczył mu odsetki od lokaty, a następnie od tych odsetek odprowadził podatek w wysokości 18%. Ile podatku odprowadził bank od odsetek, jeśli zysk taty Marty z lokaty wyniósł 164 zł?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "164 zł"
+    },
+    {
+     "litera": "B",
+     "html": "5036 zł"
+    },
+    {
+     "litera": "C",
+     "html": "36 zł"
+    },
+    {
+     "litera": "D",
+     "html": "200 zł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Zysk to 82% odsetek: 0,82x = 164, stąd x = 200 zł. Podatek: 200−164 = 36 zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "164 zł to zysk po podatku, czyli 82% odsetek, a nie całe odsetki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "o-co-pytaja"
+    ],
+    "opis": "164 zł to zysk po podatku (82% odsetek); pytają o podatek, nie o odsetki"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q7",
+   "numer": 7,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "wzory skróconego mnożenia",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wyrażenie dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math> przyjmuje wartość równą 12."
+    },
+    {
+     "litera": "2",
+     "html": "Wyrażenie po uproszczeniu można przedstawić jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po redukcji: w = (x+2)² − 3x(x−3) + (2x−3)(x+1) = 12x+1. Dla x = −1: 12·(−1)+1 = −11, nie 12 — F. To rzeczywiście 12x+1 — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podstaw x = −1 wprost do wyrażenia; dalej zbieraj osobno x², x i wyrazy wolne",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q8",
+   "numer": 8,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "działania na potęgach",
+    "działania na pierwiastkach"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>−</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mrow><mn>8</mn><mo>:</mo><mn>2</mn><mo>−</mo><mn>5</mn><mo>(</mo><mn>6</mn><mo>−</mo><mn>7</mn><mo>)</mo></mrow></msqrt></math>.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>18</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równa dwukrotności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Różnica liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi 3."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczymy: a = ((2−3)²·4−5)³·6:2−3 = −6, b = √(8:2−5(6−7)) = 3. Iloczyn ab = −18 — P. Przeciwna do a: −a = 6 = 2b — P. Różnica b−a = 9, nie 3 — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zwijaj nawiasy od środka — (2−3)² i (6−7) upraszczają całą resztę",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Na wykresie zestawiono oceny z matematyki uczniów klasy VIII A i klasy VIII B.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Średnia ocen uczniów klasy VIII A jest większa niż 3,70."
+    },
+    {
+     "litera": "2",
+     "html": "Średnia ocen uczniów klasy VIII B jest większa od średniej ocen uczniów klasy VIII A."
+    },
+    {
+     "litera": "3",
+     "html": "Średnia ocen wszystkich uczniów klas ósmych jest większa niż średnia ocen uczniów klasy VIII B."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2020-2021_swietokrzyskie_1_q9_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Z wykresu: VIII A ma liczebności ocen 2, 1, 5, 6, 4, 2 (razem 20), VIII B: 1, 3, 5, 7, 4, 0 (razem 20). Średnia A: 75:20 = 3,75 — P. Średnia B: 70:20 = 3,5, mniej niż A — F. Średnia obu klas: 145:40 = 3,625, więcej niż B — P.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek"
+    ],
+    "opis": "Klasa VIII B ma tylko pięć słupków (brak jednej oceny) – trzeba dobrze przypisać słupki do ocen"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q10",
+   "numer": 10,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>W trapezie równoramiennym kąt przy dłuższej podstawie ma miarę 60°, krótsza podstawa ma długość 10 cm, a dłuższa podstawa ma długość 16 cm. Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>39</mn><msqrt><mn>3</mn></msqrt></math> cm²."
+    },
+    {
+     "litera": "2",
+     "html": "Obwód trapezu wynosi 38 cm."
+    },
+    {
+     "litera": "3",
+     "html": "Suma długości wysokości trapezu i jego ramienia mieści się na osi liczbowej między 11, a 12."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rzut ramienia: (16−10):2 = 3 cm — krótsza przyprostokątna trójkąta 30°-60°-90°. Ramię: 2·3 = 6 cm, wysokość: 3√3 cm. Pole: (10+16):2·3√3 = 39√3 cm² — P. Obwód: 10+16+2·6 = 38 cm — P. Suma wysokości i ramienia: 3√3+6 ≈ 11,2, między 11 a 12 — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "opuść wysokości z krótszej podstawy — odcinasz po 3 cm i masz trójkąt o kątach 30-60-90",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q11",
+   "numer": 11,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Za 15 litrów benzyny zapłacono 65,85 zł. Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Za 22 litry benzyny trzeba będzie zapłacić 96,58 zł."
+    },
+    {
+     "litera": "2",
+     "html": "Wiedząc, że na zakupionych 15 litrach paliwa przejechano 187,5 km, to wynika z tego, że spalanie wynosi 8 litrów na 100km."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cena za litr: 65,85:15 = 4,39 zł. Za 22 l: 22·4,39 = 96,58 zł — P. Spalanie: 15:187,5·100 = 8 l/100 km — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz cenę jednego litra i zużycie na jeden kilometr",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q12",
+   "numer": 12,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Na bokach trójkąta prostokątnego zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>3</mn></msub></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> wynosi 64 cm², natomiast pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>3</mn></msub></math> wynosi 144 cm².</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Pole trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>20</mn></msqrt></math>."
+    },
+    {
+     "litera": "2",
+     "html": "Wysokość trójkąta poprowadzona na przeciwprostokątną ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow><mn>3</mn></mfrac></math>."
+    }
+   ],
+   "rysunki": [
+    "rysunki/rejonowy_2020-2021_swietokrzyskie_1_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "PF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyprostokątne: 8 cm oraz √(144−64) = √80 = 4√5 cm; przeciwprostokątna 12 cm. Pole: ½·8·4√5 = 16√5 = 8√20 — P. Wysokość na przeciwprostokątną: 8·4√5:12 = 8√5/3, a nie 4√5/3 — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z rysunku K3 leży na przeciwprostokątnej; wysokość weź jako 2·pole : przeciwprostokątna",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q13",
+   "numer": 13,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty",
+    "procenty"
+   ],
+   "tresc_html": "<p>Boki trójkąta są do siebie w stosunku 5:7:8. Obwód trójkąta wynosi 172 cm. Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Najdłuższy bok trójkąta w przybliżeniu do całości ma długość 68 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Trójkąt jest prostokątny."
+    },
+    {
+     "litera": "3",
+     "html": "Długość najkrótszego boku stanowi 25% obwodu tego trójkąta."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Jednostka podziału: 172:20 = 8,6; boki 43, 60,2, 68,8 cm. Najdłuższy zaokrąglony: 68,8 ≈ 69, nie 68 — F. Sprawdzenie: 43²+60,2² ≠ 68,8², nie prostokątny — F. Najkrótszy: 43:172 = 25% obwodu — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podziel obwód na 5+7+8 = 20 równych części",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "zaokraglenie"
+    ],
+    "opis": "Przybliżenie do całości to zaokrąglenie, a nie obcięcie części ułamkowej"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q14",
+   "numer": 14,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "układ współrzędnych",
+    "szacowanie (zamiast obliczania)"
+   ],
+   "tresc_html": "<p>Dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>. Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od początku układu współrzędnych wynosi 5."
+    },
+    {
+     "litera": "2",
+     "html": "Współrzędne środka odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>."
+    },
+    {
+     "litera": "3",
+     "html": "Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest nie mniejsza niż 8, ale mniejsza od 9."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Odległość A od (0,0): √(3²+4²) = 5 — P. Środek AB: ((3−5)/2, (4−1)/2) = (−1; 1,5), a nie (3/2; −1) — F. Długość AB: √(8²+5²) = √89 ≈ 9,43, czyli nie mniej niż 9 — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnice współrzędnych wstaw do Pitagorasa, a środek odcinka to średnie współrzędnych",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:kolejnosc-wspolrzednych"
+    ],
+    "opis": "W zdaniu o środku odcinka współrzędne mają zamienioną kolejność – łatwo uznać za zgodne"
+   }
+  },
+  {
+   "id": "rejonowy_2020-2021_swietokrzyskie_1_q15",
+   "numer": 15,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "ostrosłupy",
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Ostrosłup prawidłowy czworokątny oraz sześcian mają takie same objętości równe 216 cm³. Krawędź podstawy ostrosłupa ma 6 cm.</p><p>Oceń prawdziwość zdań:</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Wysokość ostrosłupa wynosi 18 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Suma długości wszystkich krawędzi sześcianu wynosi 48 cm."
+    },
+    {
+     "litera": "3",
+     "html": "Krawędź boczna ostrosłupa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>38</mn></msqrt></math> cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Krawędź sześcianu: ∛216 = 6 cm. Wysokość ostrosłupa z ⅓·6²·h = 216: h = 18 cm — P. Krawędzie sześcianu razem: 12·6 = 72 cm, nie 48 — F. Krawędź boczna: √(18²+(3√2)²) = √342 = 3√38 cm — P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "krawędź boczna to przeciwprostokątna z wysokości i połowy przekątnej podstawy",
+   "czas_min": 5
+  }
+ ]
+}
