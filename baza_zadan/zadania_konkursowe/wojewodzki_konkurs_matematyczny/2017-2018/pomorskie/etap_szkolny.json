@@ -1,0 +1,237 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych od klas IV województwa pomorskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "pomorskie",
+ "rok_szkolny": "2017/2018",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 9,
+ "max_punktow": 17,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2017-2018_pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2017-2018_pomorskie_q1",
+   "numer": 1,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Znajdź taką liczbę, której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math> jest równe tyle, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>)</mo><mo>:</mo><mn>1</mn><mfrac><mn>1</mn><mn>12</mn></mfrac></mrow></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "15",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>10</mn><mn>9</mn></mfrac><mo>=</mo><mn>5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>5</mn><mo>=</mo><mfrac><mn>13</mn><mn>4</mn></mfrac></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>=</mo><mn>3</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>2</mn></math>.</p><p>Szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>=</mo><mn>15</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień liczby mieszane na ułamki niewłaściwe i skracaj przed mnożeniem",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q2",
+   "numer": 2,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Janek spojrzał na swój elektroniczny zegarek - była 12:06. Zauważył, że liczba wskazująca minuty, czyli liczba 6, jest dzielnikiem liczby wskazującej godzinę. Ile razy między godziną 12:00 a 13:00 ma miejsce taka sytuacja, tzn. ile razy liczba wskazująca minuty jest dzielnikiem liczby wskazującej godzinę? Wypisz wszystkie te godziny.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6 razy: 12:01, 12:02, 12:03, 12:04, 12:06, 12:12",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Godzina to 12. Minuty muszą być dzielnikiem 12 i mieścić się w zakresie 00–59.</p><p>Dzielniki 12: 1, 2, 3, 4, 6, 12 — sześć wartości: 12:01, 12:02, 12:03, 12:04, 12:06, 12:12.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "godzina to 12 — wypisz jej dzielniki i sprawdź, które mieszczą się w minutach",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:zero-nie-dzielnik"
+    ],
+    "opis": "Odczyt 12:00 kusi do policzenia, ale 0 nie jest dzielnikiem żadnej liczby"
+   }
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q3",
+   "numer": 3,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Zegar elektroniczny wskazuje godzinę 02:07. Oblicz, ile czasu upłynie, zanim po raz pierwszy na tym zegarze pojawią się te same cztery cyfry, czyli cyfry 0, 0, 2, 7.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4 godziny 55 minut",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Godziny złożone z cyfr 0,0,2,7 (i poprawne): 00:27, 02:07, 07:02, 07:20, 20:07.</p><p>Pierwsza po 02:07 to 07:02. Czas: 7:02 − 2:07 = 4 h 55 min (295 minut).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ułóż z cyfr 0, 0, 2, 7 wszystkie poprawne godziny i wybierz najbliższą po 02:07",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q4",
+   "numer": 4,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Podstawa trójkąta równoramiennego ma długość 7 cm. Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Ramię tego trójkąta może być dwa razy krótsze od podstawy."
+    },
+    {
+     "litera": "2",
+     "html": "Ramię tego trójkąta może być o 4 cm krótsze od podstawy."
+    },
+    {
+     "litera": "3",
+     "html": "Obwód tego trójkąta jest większy od 14 cm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FFP",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Podstawa 7. (1) Ramię 3,5: 3,5+3,5=7 nie &gt; 7 — trójkąt nie istnieje → F. (2) Ramię 3: 3+3=6 &lt; 7 → F. (3) Aby trójkąt istniał, ramię &gt; 3,5, więc obwód = 7 + 2·ramię &gt; 14 → P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź nierówność trójkąta — suma dwóch ramion musi być większa od podstawy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Ramię równe połowie podstawy daje trójkąt zdegenerowany – nierówność trójkąta musi być ostra"
+   }
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q5",
+   "numer": 5,
+   "typ": "prawda_falsz",
+   "punkty": 2,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Jedna główka kapusty i jedna gruszka ważą razem tyle, co siedem jabłek. Trzy jabłka ważą tyle, co dwie gruszki. Należy przyjąć, że każda gruszka waży tyle samo i każde jabłko waży tyle samo. Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jedna kapusta waży tyle, co trzy gruszki i jedno jabłko."
+    },
+    {
+     "litera": "2",
+     "html": "Jedna gruszka waży więcej niż dwa jabłka."
+    },
+    {
+     "litera": "3",
+     "html": "Jedna kapusta waży więcej niż 3 gruszki."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFP",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>K+G=7J, 3J=2G ⟹ G=1,5J, więc K=7J−1,5J=5,5J.</p><p>(1) 3G+J=4,5J+J=5,5J=K → P. (2) G=1,5J &lt; 2J → F. (3) 3G=4,5J &lt; 5,5J=K → P.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz gruszkę, a potem kapustę, na jabłka",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>W pewnym miesiącu trzy niedziele wypadły w dni parzyste. Jaki dzień tygodnia wypadł dwudziestego dnia tego miesiąca?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "czwartek",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Kolejne niedziele różnią się o 7 (nieparzyste), więc parzystość się zmienia. Trzy parzyste niedziele wymagają układu P,N,P,N,P — pięć niedziel z pierwszą 2-go: 2, 9, 16, 23, 30.</p><p>16 to niedziela, zatem 20-ty wypada w czwartek.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "kolejne niedziele dzieli 7 dni, więc parzystość dat się zmienia — ile niedziel musi mieć ten miesiąc",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "ułamki",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>Ania zrobiła naszyjnik z koralików w czterech różnych kolorach. Czwarta część wszystkich koralików użytych przez Anię jest w kolorze żółtym, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac></math> pozostałych koralików jest koloru zielonego. Wśród koralików, które nie są ani żółte, ani zielone, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>12</mn></mfrac></math> jest koloru białego, a pozostałe dwa koraliki są czerwone.</p><ul><li>a) Oblicz, ile koralików każdego koloru użyła Ania do zrobienia naszyjnika.</li><li>b) Oblicz, jaki procent wszystkich koralików stanowiły koraliki zielone.</li></ul>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) żółte 15, zielone 21, białe 22, czerwone 2 (razem 60); b) 35%",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>N — liczba koralików. Żółte <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>N</mi><mn>4</mn></mfrac></math>; zielone <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mi>N</mi></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn><mi>N</mi></mrow><mn>20</mn></mfrac></math>; reszta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac></math>.</p><p>Czerwone: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>·</mo><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac><mo>=</mo><mn>2</mn></math> ⟹ N=60. Żółte 15, zielone 21, białe 22, czerwone 2.</p><p>b) 21/60 = 35%.</p>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "statystyka opisowa"
+   ],
+   "tresc_html": "<p>Średnia ocen Jacka do dzisiaj wynosiła 3,25. Dzisiaj Jacek otrzymał piątą ocenę i jego średnia wzrosła do 3,4. Jaką ocenę otrzymał Jacek?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "4",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Przed dziś 4 oceny o średniej 3,25 → suma 13. Po piątej ocenie średnia 3,4 → suma 5·3,4=17.</p><p>Piąta ocena: 17 − 13 = 4.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj sumę czterech ocen z sumą pięciu",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2017-2018_pomorskie_q9",
+   "numer": 9,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "wędrówka kąta",
+    "kąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Wewnątrz pięciokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> w taki sposób, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math> jest równoboczny. Wiedząc, że miara kąta wewnętrznego pięciokąta foremnego jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><mo>°</mo></mrow></math>, oblicz miarę kąta wypukłego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CFE</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "168°",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Trójkąt ABF równoboczny: ∠FAB=∠FBA=60°, AF=BF=AB=bok pięciokąta.</p><p>∠EAF=108°−60°=48°, a AE=AF, więc w trójkącie AEF ∠AFE=(180°−48°)/2=66°. Podobnie ∠BFC=66°.</p><p>Wokół F: ∠CFE=360°−∠EFA−∠AFB−∠BFC=360°−66°−60°−66°=168°.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

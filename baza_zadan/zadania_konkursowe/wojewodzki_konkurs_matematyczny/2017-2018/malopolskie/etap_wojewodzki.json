@@ -1,0 +1,707 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2017/2018",
+ "data": "2018-03-20",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 20,
+ "max_punktow": 40,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2017-2018_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "procenty"
+   ],
+   "tresc_html": "<p>Z drzewa spadło już 40% liści. Gdy z tego drzewa spadnie jeszcze 1800 liści, to na drzewie zostanie ich już tylko 52,5%. Zatem na drzewie rosło początkowo:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28 000 liści"
+    },
+    {
+     "litera": "B",
+     "html": "2400 liści"
+    },
+    {
+     "litera": "C",
+     "html": "20 000 liści"
+    },
+    {
+     "litera": "D",
+     "html": "24 000 liści"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Po odpadnięciu 40% liści zostaje 60%, a po kolejnych 1800 liściach zostaje 52,5%. Różnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>%</mo><mo>−</mo><mn>52,5</mn><mo>%</mo><mo>=</mo><mn>7,5</mn><mo>%</mo></math>, co odpowiada 1800 liściom.</p><p>Zatem początkowo rosło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1800</mn><mo>:</mo><mn>7,5</mn><mo>%</mo><mo>=</mo><mn>24000</mn></math> liści.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "1800 liści to różnica między 60% a 52,5%",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "porównywanie potęg i pierwiastków"
+   ],
+   "tresc_html": "<p>Ile spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>,</mo><msqrt><mn>27</mn></msqrt><mo>,</mo><mroot><mn>33</mn><mn>3</mn></mroot><mo>,</mo><mroot><mn>64</mn><mn>3</mn></mroot></math> jest nie mniejszych niż 3,(9)?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "jedna"
+    },
+    {
+     "litera": "B",
+     "html": "dwie"
+    },
+    {
+     "litera": "C",
+     "html": "trzy"
+    },
+    {
+     "litera": "D",
+     "html": "cztery"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba 3,(9) to inny zapis liczby 4 (bo 0,(9)=1).</p><p>Mamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msqrt><mn>20</mn></msqrt><mo>&gt;</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt><mo>&gt;</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>=</mo><mn>4</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>33</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>4</mn></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn><mo>&gt;</mo><mn>33</mn></math>.</p><p>Warunek spełniają trzy liczby.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "3,(9) to po prostu 4 — porównuj każdą z liczb z czwórką",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "kwantyfikator"
+    ],
+    "opis": "3,(9) to dokładnie 4, a „nie mniejszych” obejmuje też równość z pierwiastkiem z 64"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podobieństwo i skala",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>2500</mn></math> las zajmuje obszar o polu równym 20 cm². Jakie jest pole obszaru, który zajmuje ten las w rzeczywistości?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1250 a"
+    },
+    {
+     "litera": "B",
+     "html": "1250 ha"
+    },
+    {
+     "litera": "C",
+     "html": "125 ha"
+    },
+    {
+     "litera": "D",
+     "html": "1,25 ha"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole w rzeczywistości jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2500</mn><mn>2</mn></msup></math> razy większe niż na mapie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><msup><mn>2500</mn><mn>2</mn></msup><mo>=</mo><mn>125000000</mn></math> cm².</p><p>To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12500</mn></math> m², czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,25</mn></math> ha.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przelicz najpierw skalę na metry, a potem pamiętaj, że pole zmienia się z kwadratem skali",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Pole w skali rośnie z kwadratem skali, a wynik w cm² trzeba zamienić na ary/hektary"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>12</mn><mn>20</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>20</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>8</mn></msup></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>7,5</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>:</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2,5</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mn>9</mn><mn>3</mn></msup></mrow></mfrac></math> jest równe:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "27"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>22</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><msup><mn>3</mn><mn>10</mn></msup></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>20</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>20</mn></msup><mo>=</mo><msup><mn>3</mn><mn>20</mn></msup></math>, licznik równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>20</mn></msup><mo>:</mo><msup><mn>3</mn><mn>8</mn></msup><mo>=</mo><msup><mn>3</mn><mn>12</mn></msup></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>7,5</mn><mo>)</mo></mrow><mn>4</mn></msup></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>2,5</mn><mo>)</mo></mrow><mn>4</mn></msup></mrow></mfrac><mo>=</mo><msup><mn>3</mn><mn>4</mn></msup></math>, mianownik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>9</mn><mn>3</mn></msup><mo>=</mo><msup><mn>3</mn><mn>10</mn></msup></math>.</p><p>Całość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>12</mn></msup><mo>:</mo><msup><mn>3</mn><mn>10</mn></msup><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź licznik i mianownik do potęg trójki, zanim cokolwiek policzysz",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Za 50 dolarów można kupić 40 euro. Ile euro kupimy za 40 dolarów przy tym samym kursie walut?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28"
+    },
+    {
+     "litera": "B",
+     "html": "30"
+    },
+    {
+     "litera": "C",
+     "html": "32"
+    },
+    {
+     "litera": "D",
+     "html": "36"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kurs: za 1 dolara dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>0,8</mn></math> euro.</p><p>Za 40 dolarów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>32</mn></math> euro.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamiast kursu policz, jaką częścią 50 dolarów jest 40 dolarów",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kalendarz i czas",
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Stary zegar spóźnia się 9 minut na dobę. Aby następnego ranka o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>00</mn></msup></math> wskazał dokładną godzinę, trzeba go o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>00</mn></msup></math> ustawić punktualnie, a następnie przestawić wskazówkę minutową do przodu o:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2 minuty"
+    },
+    {
+     "litera": "B",
+     "html": "5 minut"
+    },
+    {
+     "litera": "C",
+     "html": "4 minuty"
+    },
+    {
+     "litera": "D",
+     "html": "3 minuty"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 22:00 do 6:00 mija 8 godzin, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> doby.</p><p>W tym czasie zegar spóźni się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>3</mn></math> minuty, więc wskazówkę trzeba przesunąć do przodu o 3 minuty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, jaką częścią doby jest czas od 22:00 do 6:00",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "trójkąty",
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile trójkątów równoramiennych o obwodzie 15 cm można zbudować z odcinków, których długości wyrażone w centymetrach są liczbami naturalnymi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "3"
+    },
+    {
+     "litera": "C",
+     "html": "4"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt równoramienny o bokach a, a, b ma obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>2</mn><mi>a</mi></math>. Nierówność trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mn>2</mn><mi>a</mi></math> i warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&gt;</mo><mn>0</mn></math> dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>≤</mo><mi>a</mi><mo>≤</mo><mn>7</mn></math>.</p><p>Pasują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>7</mn></math> — cztery trójkąty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ramiona a, podstawa 15 − 2a; sprawdź nierówność trójkąta",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia",
+     "wszystkie-przypadki"
+    ],
+    "opis": "Część trójek 2a+b=15 nie spełnia nierówności trójkąta; trzeba też policzyć trójkąt równoboczny"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Suma najmniejszej liczby naturalnej podzielnej przez 9 i najmniejszej liczby naturalnej podzielnej przez 12, wybranych spośród liczb zapisanych przy użyciu tylko cyfr 8 i 2, wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "516"
+    },
+    {
+     "litera": "B",
+     "html": "570"
+    },
+    {
+     "litera": "C",
+     "html": "1650"
+    },
+    {
+     "litera": "D",
+     "html": "1704"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Szukamy najmniejszych liczb zapisanych cyframi 2 i 8, podzielnych przez 9 i przez 12.</p><p>Podzielność przez 9: suma cyfr dzieli się przez 9. Przy 3 cyfrach 8+8+2=18 pasuje, więc najmniejsza taka liczba to 288.</p><p>Podzielność przez 12 = podzielność przez 4 (końcówka 28 lub 88) i przez 3. Reszta z dzielenia zarówno 8, jak i 2 przez 3 wynosi 2, więc suma cyfr dzieli się przez 3 tylko, gdy liczba cyfr dzieli się przez 3. Najmniejsza pasująca liczba to 228 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>228</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>19</mn></math>).</p><p>Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>288</mn><mo>+</mo><mn>228</mn><mo>=</mo><mn>516</mn></math>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "wędrówka kąta",
+    "trójkąty",
+    "kąty"
+   ],
+   "tresc_html": "<p>W trójkącie ABC kąt BAC ma miarę 90°, a kąt ACB 60°. Punkt D jest takim punktem leżącym na przeciwprostokątnej tego trójkąta, że odcinki AD i AC są tej samej długości. Wynika z tego, że trójkąt ABD jest:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "równoboczny"
+    },
+    {
+     "litera": "B",
+     "html": "równoramienny"
+    },
+    {
+     "litera": "C",
+     "html": "prostokątny"
+    },
+    {
+     "litera": "D",
+     "html": "ostrokątny"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt ACD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mi>AC</mi></math>, a kąt ACD = 60°, więc trójkąt ACD jest równoboczny i kąt DAC = 60°.</p><p>Zatem kąt BAD = 90° − 60° = 30°, a kąt ABD = kąt ABC = 30° (bo kąt ABC = 180° − 90° − 60°). Skoro kąt BAD = kąt ABD, trójkąt ABD jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mi>BD</mi></math>).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz kąty w trójkącie ACD, dopiero potem kąt ADB",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Chłopiec mówi: <em>„Mam dwa razy więcej sióstr niż braci”</em>. Jego siostra powiada: <em>„Mam tyle samo sióstr co braci”</em>. Zatem w tej rodzinie:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "są 3 dziewczyny"
+    },
+    {
+     "litera": "B",
+     "html": "jest 3 chłopaków"
+    },
+    {
+     "litera": "C",
+     "html": "jest pięcioro dzieci"
+    },
+    {
+     "litera": "D",
+     "html": "jest sześcioro dzieci"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech b — liczba chłopców, g — liczba dziewcząt. Chłopiec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mn>1</mn></math> braci i g sióstr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>. Siostra ma b braci i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>−</mo><mn>1</mn></math> sióstr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>g</mi><mo>−</mo><mn>1</mn></math>.</p><p>Z układu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>b</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math>. W rodzinie jest 3 chłopców.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licząc rodzeństwo, dziecko nie liczy samego siebie",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zagadki logiczne"
+   ],
+   "tresc_html": "<p>W miejsce każdej kreski wstaw taką cyfrę, aby prawdziwa była równość: 45 x _ 3 = 3 _ _ _ („x” oznacza symbol mnożenia). Suma tych czterech cyfr wstawionych w miejsce kresek:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "jest większa niż 21"
+    },
+    {
+     "litera": "B",
+     "html": "jest równa 21"
+    },
+    {
+     "litera": "C",
+     "html": "jest równa 17"
+    },
+    {
+     "litera": "D",
+     "html": "jest mniejsza niż 17"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba „_3” pomnożona przez 45 ma dać liczbę czterocyfrową zaczynającą się od 3. Pasują dwie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>·</mo><mn>73</mn><mo>=</mo><mn>3285</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>·</mo><mn>83</mn><mo>=</mo><mn>3735</mn></math>.</p><p>Suma czterech wstawionych cyfr wynosi wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>22</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>23</mn></math> — w obu przypadkach więcej niż 21.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "iloczyn ma być czterocyfrowy i zaczynać się od 3 — to zostawia mało kandydatów",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>O ile mniej kwadratów niż trójkątów znajduje się na rysunku?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "o 2"
+    },
+    {
+     "litera": "B",
+     "html": "o 3"
+    },
+    {
+     "litera": "C",
+     "html": "o 5"
+    },
+    {
+     "litera": "D",
+     "html": "o 4"
+    }
+   ],
+   "rysunki": [
+    "rysunki/wojewodzki_2017-2018_malopolskie_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadraty: 6 jednostkowych (te, których nie przecina przekątna) oraz 1 o boku 2 (w lewym dolnym rogu) — razem 7.</p><p>Trójkąty: przekątna odcina po jednym trójkącie w każdym „schodku” — 4 małe (bok 1), 3 średnie (bok 2), 2 duże (bok 3) i cały duży trójkąt (bok 4) — razem 10.</p><p>Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>3</mn></math>.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek",
+     "wszystkie-przypadki"
+    ],
+    "opis": "Liczyć trzeba też figury złożone z kilku pól: większe kwadraty i większe trójkąty"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "układ współrzędnych"
+   ],
+   "tresc_html": "<p>Punkty Z, I, M, A leżą na prostej w pewnym porządku. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ZI</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>IM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>11</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>14</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AZ</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math>. Jaka jest odległość pomiędzy skrajnie położonymi punktami?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "14"
+    },
+    {
+     "litera": "B",
+     "html": "38"
+    },
+    {
+     "litera": "C",
+     "html": "25"
+    },
+    {
+     "litera": "D",
+     "html": "23"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyjmijmy Z = 0. Skoro |ZI| = 13, niech I = 13. Wtedy z |IM| = 11 mamy M = I − 11 = 2, a z |MA| = 14 mamy A = M − 14 = −12.</p><p>Sprawdzenie: |AZ| = |−12 − 0| = 12 — zgadza się z danymi. Kolejność punktów na prostej: A(−12), Z(0), M(2), I(13).</p><p>Odległość między skrajnymi punktami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>25</mn></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "rozbij cztery odległości na dwie pary o równej sumie",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Pociąg o długości 100 m przejeżdża przez tunel z prędkością 30 km/h. Zmierzono czas takiego przejazdu. Od momentu, w którym lokomotywa wjechała do tunelu, do momentu, w którym ostatni wagon opuścił tunel, upłynęła 1 minuta. Długość tunelu wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "300 m"
+    },
+    {
+     "litera": "B",
+     "html": "400 m"
+    },
+    {
+     "litera": "C",
+     "html": "350 m"
+    },
+    {
+     "litera": "D",
+     "html": "450 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prędkość 30 km/h to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn></math> m/min. W ciągu 1 minuty pociąg pokonuje 500 m, czyli tunel plus swoją długość.</p><p>Długość tunelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>400</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pociąg pokonuje długość tunelu powiększoną o własną długość",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "statystyka opisowa",
+    "procenty"
+   ],
+   "tresc_html": "<p>W tabeli przedstawiono śródroczne oceny z matematyki, jakie otrzymali uczniowie klas siódmych pewnej szkoły.</p><table><tr><td>Ocena</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>Liczba uczniów</td><td>2</td><td>12</td><td>18</td><td>17</td><td>8</td><td>3</td></tr></table><p>a) Jaki procent wszystkich uczniów klas siódmych uzyskało ocenę powyżej średniej? Wynik podaj w postaci liczby mieszanej.</p><p>b) Ilu uczniów musi poprawić swoje oceny z matematyki o jeden stopień, aby średnia na koniec roku wyniosła 3,8?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "a) 46 2/3%, b) 22 uczniów",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba uczniów: 60, suma ocen: 206 (obliczona z tabeli), średnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>206</mn><mo>:</mo><mn>60</mn><mo>≈</mo><mn>3,43</mn></math>. Powyżej średniej są oceny 4, 5, 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>28</mn></math> uczniów.</p><p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>46</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo></math>.</p><p>b) Docelowa suma ocen: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,8</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>228</mn></math>. Trzeba dodać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>228</mn><mo>−</mo><mn>206</mn><mo>=</mo><mn>22</mn></math> stopnie ocen — musi je poprawić 22 uczniów.</p>",
+    "punktacja_html": "<ul><li>2p – prawidłowe podanie obydwu odpowiedzi,</li><li>1p – podanie tylko jednej prawidłowej odpowiedzi,</li><li>0p – brak odpowiedzi lub obydwie odpowiedzi błędne.</li></ul>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "potęgi i pierwiastki"
+   ],
+   "tresc_html": "<p>Ile wynosi suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>60</mn></msup><mo>−</mo><mn>2018</mn></math>?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "530",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>4</mn></msup><mo>−</mo><mn>2018</mn><mo>=</mo><mn>7982</mn></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>60</mn></msup><mo>−</mo><mn>2018</mn></math> składa się z 56 dziewiątek i końcówki 7982 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>60</mn></msup><mo>−</mo><mn>2018</mn><mo>=</mo><mo>(</mo><msup><mn>10</mn><mn>60</mn></msup><mo>−</mo><msup><mn>10</mn><mn>4</mn></msup><mo>)</mo><mo>+</mo><mn>7982</mn></math>).</p><p>Suma cyfr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>·</mo><mn>9</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>504</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>530</mn></math>.</p>",
+    "punktacja_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>0p – brak odpowiedzi lub odpowiedź błędna.</li></ul>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sprawdź, jak to wygląda dla małej potęgi, np. 10⁵ − 2018, i policz dziewiątki",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Ile dziewiątek ma wynik odejmowania od 10^60 liczby czterocyfrowej"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>W trapezie ABCD połączono środek P ramienia AD z końcami drugiego ramienia BC. Udowodnij, że pole powstałego trójkąta BCP jest równe połowie pola trapezu ABCD. <u>Zapisz poniżej pełną treść swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Pole trójkąta BCP jest równe połowie pola trapezu ABCD (dowód)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech dany będzie trapez ABCD o podstawach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Punkt P jest środkiem ramienia AD, więc odległość punktu P od każdej z podstaw jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>h</mi><mn>2</mn></mfrac></math>.</p><p>Pole trójkąta BCP można zapisać jako różnicę pola trapezu ABCD i sumy pól trójkątów PCD i ABP. Pole trójkąta PCD można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math>, natomiast pole trójkąta ABP w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math>. Zatem</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>△</mi><mi>BCP</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>−</mo><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABCD</mi></msub></math>,</p><p>co należało udowodnić.</p>",
+    "punktacja_html": "<ul><li>3p – pełne poprawne rozumowanie,</li><li>2p – zapisanie pola trójkąta BCP jako różnicy pola trapezu ABCD i sumy pól trójkątów PCD i ABP z użyciem długości podstaw trapezu oraz jego wysokości np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mo>△</mo><mi>BCP</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>h</mi><mo>−</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>)</mo></math> i poprzestanie na tym lub popełnienie błędów w dalszym rozumowaniu,</li><li>1p – zapisanie pola trójkąta ABP w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math> i pola trójkąta PCD w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math> i poprzestanie na tym,</li><li>0p – brak dowodu lub błędne rozumowanie.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q18",
+   "numer": 18,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Trzeba pomalować 600 pisanek wielkanocnych. Pierwszy pracownik może samodzielnie wykonać całą pracę w ciągu 20 godzin, drugi w ciągu 24 godzin, a trzeci w ciągu 30 godzin. Po czterech godzinach wspólnej pracy drugi pracownik opuścił stanowisko pracy z powodu choroby. Ile godzin musieli jeszcze razem pracować pozostali dwaj pracownicy, aby dokończyć pracę? <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "6 godzin",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pierwszy pracownik w ciągu godziny jest w stanie pomalować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>30</mn></math> pisanek, drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>24</mn><mo>=</mo><mn>25</mn></math> pisanek, a trzeci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>30</mn><mo>=</mo><mn>20</mn></math> pisanek. Zatem razem są w stanie pomalować w ciągu godziny 75 pisanek, a w czasie czterech godzin <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>75</mn><mo>=</mo><mn>300</mn></math> pisanek. Pierwszy i trzeci pracownik będą więc musieli sami pomalować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>−</mo><mn>300</mn><mo>=</mo><mn>300</mn></math> pisanek. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę godzin wspólnej pracy pierwszego i trzeciego pracownika po opuszczeniu stanowiska pracy przez drugiego pracownika. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mn>30</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>300</mn></math>. Z tego wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>300</mn><mn>50</mn></mfrac><mo>=</mo><mn>6</mn></math>. Pozostali pracownicy musieli pracować razem jeszcze 6 godzin, aby dokończyć pracę.</p>",
+    "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi, ile godzin musieli jeszcze razem pracować pozostali dwaj pracownicy, aby dokończyć pracę,</li><li>3p – zastosowanie poprawnych metod, ale rozwiązanie zawiera błędy rachunkowe lub ułożenie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mn>30</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>300</mn></math> i poprzestanie na tym,</li><li>2p – obliczenie liczby pisanek pomalowanych w ciągu godziny wspólnie przez wszystkich trzech pracowników (75 pisanek) lub w ciągu 4 godzin (300 pisanek) i poprzestanie na tym,</li><li>1p – obliczenie liczby pisanek pomalowanych w ciągu godziny przez każdego z pracowników z osobna i poprzestanie na tym,</li><li>0p – brak rozwiązania lub rozwiązanie błędne lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul>"
+   },
+   "czas_min": 10
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Antek i Julka wybrali się na zakupy. Każde z nich miało banknot pięćdziesięciozłotowy. Reszta, którą otrzymała w kasie Julka, była 3 razy większa niż wartość zakupów Antka, a reszta, którą otrzymał chłopiec, to 7 razy tyle, ile zapłaciła dziewczynka. Jaką kwotę wydała na zakupy Julka, a jaką Antek? <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Julka – 5 zł, Antek – 15 zł",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wartość zakupów Julki, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mi>x</mi></math> to reszta Julki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>x</mi></math> to reszta Antka, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>7</mn><mi>x</mi></math> to wartość zakupów Antka. Wówczas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>(</mo><mn>50</mn><mo>−</mo><mn>7</mn><mi>x</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>150</mn><mo>−</mo><mn>21</mn><mi>x</mi></math>. Z tego wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math> zł. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>7</mn><mi>x</mi><mo>=</mo><mn>15</mn></math> zł. Julka na zakupy wydała 5 zł, a Antek 15 zł.</p>",
+    "punktacja_html": "<ul><li>4p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi wartości zakupów Julki i Antka,</li><li>3p – obliczenie wartości zakupów tylko jednego dziecka i poprzestanie na tym,</li><li>2p – ułożenie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>(</mo><mn>50</mn><mo>−</mo><mn>7</mn><mi>x</mi><mo>)</mo></math> i poprzestanie na tym,</li><li>1p – wyznaczenie związków wynikających z treści zadania uzależnionych od jednej niewiadomej i poprzestanie na tym,</li><li>0p – brak rozwiązania lub błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "Każda relacja wiąże resztę jednej osoby z zakupami drugiej; łatwo przypisać je odwrotnie"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_malopolskie_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Stolarz ma sześcienny drewniany klocek o krawędzi długości 12 cm. W jednej jego ścianie na głębokość 0,3 dm wydrążył otwór w kształcie prostopadłościanu, którego podstawą jest kwadrat o polu równym 0,0016 m². Oblicz objętość i pole powierzchni bryły otrzymanej z klocka po wydrążeniu otworu. <u>Zapisz tok swojego rozumowania</u>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "V = 1680 cm³, P = 912 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Skoro w podstawie wydrążonego prostopadłościanu znajduje się kwadrat o polu równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,0016</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>16</mn></math> cm², to długość jego boku wynosi 4 cm. Głębokość otworu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn></math> dm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn></math> cm. Obliczamy objętość wydrążonego prostopadłościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>48</mn></math> cm³, a następnie objętość bryły otrzymanej z klocka po wydrążeniu otworu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>12</mn><mo>·</mo><mn>12</mn><mo>·</mo><mn>12</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>1728</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>1680</mn></math> cm³. Pole powierzchni bryły otrzymanej z klocka po wydrążeniu otworu jest równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>6</mn><mo>·</mo><mn>12</mn><mo>·</mo><mn>12</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>912</mn></math> cm².</p>",
+    "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do obliczenia objętości i pola powierzchni bryły otrzymanej z klocka po wydrążeniu otworu,</li><li>3p – zastosowanie poprawnych metod, ale rozwiązanie zawiera błędy rachunkowe,</li><li>2p – obliczenie tylko objętości lub tylko pola powierzchni bryły otrzymanej z klocka po wydrążeniu otworu,</li><li>1p – poprawne ujednolicenie jednostek oraz obliczenie objętości wydrążonego prostopadłościanu i poprzestanie na tym,</li><li>0p – rozwiązanie błędne lub brak rozwiązania.</li></ul>"
+   },
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "szczegol-bryly",
+     "jednostki"
+    ],
+    "opis": "Dane w cm, dm i m²; otwór zabiera pole wlotu, ale dodaje dno i cztery ściany boczne"
+   }
+  }
+ ]
+}

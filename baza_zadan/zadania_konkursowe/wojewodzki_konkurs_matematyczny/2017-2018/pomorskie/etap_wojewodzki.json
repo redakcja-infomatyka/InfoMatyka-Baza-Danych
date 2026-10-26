@@ -1,0 +1,273 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych od klas IV województwa pomorskiego",
+ "etap": "wojewodzki",
+ "wojewodztwo": "pomorskie",
+ "rok_szkolny": "2017/2018",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 9,
+ "max_punktow": 20,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2017-2018_pomorskie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q1",
+   "numer": 1,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math> oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>y</mi><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2/5",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mo>+</mo><mfrac><mi>y</mi><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>y</mi><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "oba ułamki mają ten sam mianownik i razem dają całość",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q2",
+   "numer": 2,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Do numeracji stron pewnej książki użyto 2304 cyfr. Numerację rozpoczęto od strony pierwszej i każda ze stron w tej książce została ponumerowana. Oblicz, ile stron ma ta książka.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "804",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Strony 1–9: 9 cyfr; strony 10–99: 90·2 = 180 cyfr; razem 189 cyfr na 99 stron.</p><p>Pozostało 2304 − 189 = 2115 cyfr, po 3 na stronę: 2115 : 3 = 705 stron.</p><p>Łącznie 99 + 705 = <strong>804</strong> strony.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno cyfry stron 1–9 i 10–99, a resztę cyfr rozdziel po trzy na stronę",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie stron włącznie: ile jest stron dwucyfrowych i który numer ma ostatnia strona"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q3",
+   "numer": 3,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "prędkość / droga / czas",
+    "równania z jedną zmienną",
+    "procenty"
+   ],
+   "tresc_html": "<p>Dwóch lekkoatletów ćwiczyło na bieżni. Każdy z nich biegał ze swoją stałą prędkością. Pierwszy lekkoatleta biegał z prędkością o 8% większą od prędkości drugiego oraz przebiegał każde jedno okrążenie w czasie o 10 sekund krótszym niż drugi. Oblicz, ile sekund trwało pokonanie jednego okrążenia przez każdego z lekkoatletów.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "pierwszy 125 s, drugi 135 s",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Niech drugi biegnie okrążenie w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>. Pierwszy ma prędkość 1,08 razy większą, więc czas okrążenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>/</mo><mn>1,08</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>/</mo><mn>1,08</mn><mo>=</mo><mi>t</mi><mo>−</mo><mn>10</mn></mrow></math> ⇒ 0,08t = 10,8 ⇒ t = 135 s. Pierwszy: 135 − 10 = 125 s.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "czasy są odwrotnie proporcjonalne do prędkości: z 108:100 robi się stosunek czasów 25:27",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Prędkość większa o 8% nie oznacza czasu krótszego o 8% – czas maleje 1,08 raza"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q4",
+   "numer": 4,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Kolejnymi cyframi pewnej liczby pięciocyfrowej są: 4, 2, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, 4, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> (cyfry wymieniono rozpoczynając od cyfry dziesiątek tysięcy, a kończąc na cyfrze jedności). Wiadomo, że liczba ta jest podzielna przez 72. Podaj wszystkie liczby pięciocyfrowe spełniające warunki zadania.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "42048 i 42840",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Liczba 42<em>x</em>4<em>y</em> podzielna przez 72 = 8·9. Cecha ÷9: 10+x+y ≡ 0 (mod 9) ⇒ x+y = 8 lub 17. Cecha ÷8: 4x+y ≡ 0 (mod 8).</p><p>x+y=8: x=0,y=8 (42048) oraz x=8,y=0 (42840); x+y=17 nie daje rozwiązań. Sprawdzenie: 42048 = 72·584, 42840 = 72·595.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "wszystkie-przypadki",
+     "zbior-liczb"
+    ],
+    "opis": "Kilka rozwiązań; cyfra x w środku liczby może być zerem"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q5",
+   "numer": 5,
+   "typ": "otwarte",
+   "punkty": 1,
+   "tematy": [
+    "kąty"
+   ],
+   "tresc_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są równoległe. Korzystając z miar kątów podanych na poniższym rysunku, oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2017-2018_pomorskie_q5_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "82°",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Przez wierzchołek kąta α prowadzimy prostą równoległą do m i n. Dzieli ona α na dwa kąty naprzemianległe równe kątom przy prostych: 24° oraz 58°.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>24</mn><mo>°</mo><mo>+</mo><mn>58</mn><mo>°</mo><mo>=</mo><mn>82</mn><mo>°</mo></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "poprowadź przez wierzchołek kąta α prostą równoległą do m i n",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q6",
+   "numer": 6,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "stężenie procentowe / mieszaniny",
+    "układy równań"
+   ],
+   "tresc_html": "<p>Złotnik ma dwa stopy złota ze srebrem. W pierwszym stopie stosunek masy złota do srebra wynosi 2:3, a w drugim stopie stosunek masy złota do srebra jest równy 3:7. Ile kilogramów każdego z tych stopów powinien wziąć złotnik, aby otrzymać 8 kg nowego stopu, w którym stosunek masy złota do srebra będzie równy 5:11?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1 kg pierwszego stopu i 7 kg drugiego stopu",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Nowy stop 5:11 z 8 kg ⇒ złota 2,5 kg. Udział złota: I stop 2/5, II stop 3/10. Niech a + b = 8 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>a</mi><mo>+</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mi>b</mi><mo>=</mo><mn>2,5</mn></mrow></math>.</p><p>4a + 3b = 25, b = 8−a ⇒ a = 1, b = 7. (srebro: 0,6 + 4,9 = 5,5 kg ✓)</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "policz, ile złota ma mieć nowy stop, i sprawdź, ile go brakuje, gdyby wziąć same 8 kg drugiego",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q7",
+   "numer": 7,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "działania na pierwiastkach",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Oblicz wartość wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>9</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>25</mn></msqrt><mn>2</mn></mfrac><mo>−</mo><mo>(</mo><mn>1</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>9</mn><msqrt><mn>16</mn></msqrt></mfrac><mo>+</mo><mfrac><mroot><mn>125</mn><mn>3</mn></mroot><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mrow><mn>3</mn><mroot><mn>64</mn><mn>3</mn></mroot><mo>:</mo><mfrac><msup><mn>2</mn><mn>3</mn></msup><mn>3</mn></mfrac><mo>−</mo><msqrt><mrow><mn>6</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mroot><mrow><mn>4</mn><mfrac><mn>17</mn><mn>27</mn></mfrac></mrow><mn>3</mn></mroot></mrow></msqrt></mrow></mfrac></mrow></math>.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "16,4",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>−</mo><mo>(</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>)</mo></mrow></math> = 15/2 − (8/15 + 3/2) = 82/15.</p><p>Mianownik: 12 : (8/3) − √(6¼)·∛(4 17/27) = 9/2 − 5/2·5/3 = 9/2 − 25/6 = 1/3.</p><p>Wynik: (82/15) : (1/3) = 82/5 = <strong>16,4</strong>.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q8",
+   "numer": 8,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Sześcian o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext>&#160;</mtext><msup><mi>m</mi><mn>3</mn></msup></mrow></math> rozcięto na małe, identyczne sześciany o krawędzi 1 dm. Ze wszystkich małych sześcianów sklejono prostopadłościan, którego podstawą jest jedna ściana małego sześcianu (patrz rysunek). Oblicz, ile puszek farby trzeba kupić, aby pomalować wszystkie ściany tego prostopadłościanu, jeżeli jedna puszka farby wystarcza na pomalowanie dokładnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mtext>&#160;</mtext><msup><mi>m</mi><mn>2</mn></msup></mrow></math> powierzchni.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/wojewodzki_2017-2018_pomorskie_q8_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "7",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>1 m³ = 1000 dm³ ⇒ 1000 sześcianów 1 dm. Prostopadłościan o podstawie 1×1 dm ma wymiary 1×1×1000 dm.</p><p>Pole powierzchni = 2·1 + 4·1000 = 4002 dm² = 40,02 m². Puszek: 40,02 : 6 ≈ 6,67 ⇒ trzeba kupić <strong>7</strong> puszek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "kostek jest 1000, więc słupek ma 1×1×1000 dm — cztery ściany boczne i dwie podstawy, zaokrąglij w górę",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "zaokraglenie"
+    ],
+    "opis": "Przeliczenie m³ na dm³ (1000 sześcianików) i zaokrąglenie liczby puszek w górę"
+   }
+  },
+  {
+   "id": "wojewodzki_2017-2018_pomorskie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "zmiany procentowe",
+    "zamiana jednostek",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Spośród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>7</mn><mo>;</mo><mtext>&#160;</mtext><mo>−</mo><mn>3</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>;</mo><mtext>&#160;</mtext><mo>−</mo><mn>1</mn><mo>;</mo><mtext>&#160;</mtext><mn>0</mn><mo>;</mo><mtext>&#160;</mtext><mn>2</mn><mo>;</mo><mtext>&#160;</mtext><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> największą liczbą niedodatnią jest liczba 0."
+    },
+    {
+     "litera": "2",
+     "html": "Po dwukrotnej obniżce o 5% rower będzie kosztował mniej, niż gdyby przeceniono go jeden raz o 10%."
+    },
+    {
+     "litera": "3",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,0035</mn><mtext>&#160;ha</mtext><mo>+</mo><mn>15</mn><mtext>&#160;</mtext><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>0,4</mn><mtext>&#160;a</mtext><mo>+</mo><msup><mn>10</mn><mn>5</mn></msup><mtext>&#160;</mtext><msup><mi>cm</mi><mn>2</mn></msup></mrow></math>."
+    },
+    {
+     "litera": "4",
+     "html": "Każda liczba wymierna jest albo dodatnia, albo ujemna."
+    },
+    {
+     "litera": "5",
+     "html": "Każdy trójkąt równoramienny ma dokładnie jedną oś symetrii."
+    },
+    {
+     "litera": "6",
+     "html": "Ostrosłup o 20 wierzchołkach ma 40 krawędzi."
+    },
+    {
+     "litera": "7",
+     "html": "Wyrażenie algebraiczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>b</mi><mn>3</mn></msup></mrow></math> to sześcian różnicy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i podwojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+    },
+    {
+     "litera": "8",
+     "html": "Jeżeli długość nart skoczka narciarskiego nie może przekraczać 145% jego wzrostu, to wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>w</mi><mi>d</mi></mfrac><mo>=</mo><mn>1,45</mn></mrow></math> opisuje zależność między maksymalną długością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> nart skoczka o wzroście <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math>."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFPFFFFF",
+    "zrodlo": "AI",
+    "rozwiazanie_ai_html": "<p>1) Największa liczba niedodatnia (≤0) w zbiorze to 0 — <strong>P</strong>. 2) 0,95²=0,9025 > 0,90, więc kosztuje więcej, nie mniej — <strong>F</strong>. 3) 35+15 = 50 m² oraz 40+10 = 50 m² — <strong>P</strong>. 4) 0 jest wymierne, a nie jest ani dodatnie, ani ujemne — <strong>F</strong>. 5) Trójkąt równoboczny (też równoramienny) ma 3 osie — <strong>F</strong>. 6) 20 wierzchołków ⇒ podstawa 19-kąt ⇒ 38 krawędzi — <strong>F</strong>. 7) (a−2b)³ ≠ a³−2b³ — <strong>F</strong>. 8) d = 1,45·w, czyli d/w = 1,45, a nie w/d — <strong>F</strong>.</p>"
+   },
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "zbior-liczb",
+     "kwantyfikator",
+     "pozorna-wlasnosc",
+     "kierunek-relacji"
+    ],
+    "opis": "Zero jako liczba wymierna, trójkąt równoboczny, wierzchołek ostrosłupa w liczbie 20, odwrócony iloraz w/d"
+   }
+  }
+ ]
+}
