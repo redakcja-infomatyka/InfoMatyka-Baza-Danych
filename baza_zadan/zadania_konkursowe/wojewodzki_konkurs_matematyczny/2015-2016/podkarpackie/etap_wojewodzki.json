@@ -1,0 +1,922 @@
+{
+ "konkurs": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+ "etap": "wojewodzki",
+ "wojewodztwo": "podkarpackie",
+ "rok_szkolny": "2015/2016",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 24,
+ "max_punktow": 50,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/wojewodzki/2016_podkarpackie.pdf",
+ "zadania": [
+  {
+   "id": "wojewodzki_2016_podkarpackie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Kubuś Puchatek uwielbia miodek. Trzyma go w słoju, którego pojemność wynosi 20 litrów. Słój jest w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> wypełniony miodem. Jaka część słoja pozostanie pusta, jeżeli Kubuś zje z tego słoja jeszcze 10 litrów miodu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>10</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Miodu było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>16</mn></math> l. Po zjedzeniu 10 l zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>6</mn></math> l, więc puste jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>14</mn></math> l, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>20</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>10</mn></mfrac></math> słoja.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile litrów miodu zostanie, i porównaj z pojemnością słoja",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytają o część pustą słoja, a naturalnie liczy się, ile miodu zostało"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "podobieństwo i skala",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pan Kowalski potrzebuje 12 minut, aby obejść kwadratowy plac dookoła. Ile minut zajmie mu obejście w tym samym tempie kwadratowego placu o czterokrotnie większej powierzchni?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "24 min"
+    },
+    {
+     "litera": "B",
+     "html": "48 min"
+    },
+    {
+     "litera": "C",
+     "html": "12 min"
+    },
+    {
+     "litera": "D",
+     "html": "3 min"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Pole wzrosło 4 razy, więc bok kwadratu wzrósł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>4</mn></msqrt><mo>=</mo><mn>2</mn></math> razy — tyle samo razy wzrasta obwód. Czas obejścia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>24</mn></math> min.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź najpierw, ile razy dłuższy jest bok, gdy pole rośnie 4 razy",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Czterokrotnie większe pole nie oznacza czterokrotnie dłuższego obwodu"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ostatnia cyfra / cykliczność potęg",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Jaka jest cyfra jedności liczby, która jest wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>153</mn></msup><mo>+</mo><msup><mn>10</mn><mn>27</mn></msup><mo>+</mo><msup><mn>9</mn><mn>33</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "5"
+    },
+    {
+     "litera": "C",
+     "html": "6"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Potęgi liczby 5 zawsze kończą się cyfrą 5, a potęgi liczby 10 — cyfrą 0. Cyfry jedności potęg 9 powtarzają się w cyklu 9, 1, więc dla nieparzystego wykładnika 33 jest to 9. Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>14</mn></math>, czyli wynik kończy się cyfrą 4.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wystarczą ostatnie cyfry każdego składnika",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "inne"
+   ],
+   "tresc_html": "<p>Wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10000</mn><mo>−</mo><mo>(</mo><mn>10000</mn><mo>−</mo><mo>(</mo><mn>10000</mn><mo>−</mo><mo>(</mo><mn>10000</mn><mo>−</mo><mo>(</mo><mn>10000</mn><mo>−</mo><mn>9999</mn><mo>)</mo><mo>)</mo><mo>)</mo><mo>)</mo></math> jest liczba?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1"
+    },
+    {
+     "litera": "B",
+     "html": "9999"
+    },
+    {
+     "litera": "C",
+     "html": "10000"
+    },
+    {
+     "litera": "D",
+     "html": "19999"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Licząc od środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10000</mn><mo>−</mo><mn>9999</mn><mo>=</mo><mn>1</mn><mo>;</mo><mn>10000</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>9999</mn><mo>;</mo><mn>10000</mn><mo>−</mo><mn>9999</mn><mo>=</mo><mn>1</mn><mo>;</mo><mn>10000</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>9999</mn><mo>;</mo><mn>10000</mn><mo>−</mo><mn>9999</mn><mo>=</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "rozwijaj od najbardziej wewnętrznego nawiasu — wyniki zaczną się powtarzać",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Dyrektor szkoły postanowił zakupić 14 ławek i 36 krzeseł za łączną kwotę 1500 zł. Ławka była droższa od krzesła o 25 zł. Jeżeli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy kwotę, jaką należy zapłacić za jedną ławkę, to jej cenę można obliczyć, rozwiązując równanie:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mn>36</mn><mi>x</mi><mo>=</mo><mn>1500</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>x</mi><mo>+</mo><mn>36</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1500</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mn>36</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1500</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>14</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>36</mn><mo>+</mo><mi>x</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1500</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie ceną ławki, wtedy cena krzesła to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>25</mn></math>. Koszt 14 ławek i 36 krzeseł: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>x</mi><mo>+</mo><mn>36</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1500</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "ustal, która cena jest niewiadomą x, a którą trzeba przez nią wyrazić",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "x to cena ławki, czyli 25 zł trzeba odjąć przy krześle, a nie przy ławce"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Klocek w kształcie sześcianu o krawędzi długości 10 cm, rozcięto na dwa jednakowe prostopadłościany. Pole powierzchni każdego z tych dwóch prostopadłościanów wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "200 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "300 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "400 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "600 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozcięcie sześcianu 10 × 10 × 10 na pół daje prostopadłościan 10 × 10 × 5. Jego pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>200</mn><mo>+</mo><mn>200</mn><mo>=</mo><mn>400</mn></math> cm².</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "połówka ma wymiary 10 × 10 × 5 — policz jej sześć ścian",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Przy przecięciu powstają dwie nowe ściany, więc pole połówki nie jest połową pola sześcianu"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Jola idąc do szkoły porusza się z prędkością 4 km/h. Każdy jej krok ma długość 0,8 m. Do szkoły Jola idzie 12 minut. Ile kroków w tym czasie wykona?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1000"
+    },
+    {
+     "litera": "B",
+     "html": "800"
+    },
+    {
+     "litera": "C",
+     "html": "640"
+    },
+    {
+     "litera": "D",
+     "html": "100"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prędkość 4 km/h to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4000</mn><mn>60</mn></mfrac></math> m/min. W 12 minut Jola przechodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4000</mn><mn>60</mn></mfrac><mo>·</mo><mn>12</mn><mo>=</mo><mn>800</mn></math> m. Liczba kroków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>800</mn><mo>:</mo><mn>0,8</mn><mo>=</mo><mn>1000</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień 12 minut na część godziny, a kilometry na metry",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>O ile procent zwiększy się pole kwadratu, jeśli obwód kwadratu zwiększymy o 80%?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "80%"
+    },
+    {
+     "litera": "B",
+     "html": "100%"
+    },
+    {
+     "litera": "C",
+     "html": "160%"
+    },
+    {
+     "litera": "D",
+     "html": "224%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Obwód rośnie o 80%, więc bok kwadratu wzrasta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,8</mn></math> raza. Nowe pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,8</mn><mn>2</mn></msup><mo>=</mo><mn>3,24</mn></math> dawnego pola, czyli wzrost o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,24</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>2,24</mn></math>, czyli 224%.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obwód rośnie tyle samo razy co bok, a pole — w kwadracie tej liczby",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "procent-podstawa"
+    ],
+    "opis": "Wzrost obwodu o 80% nie daje wzrostu pola o 80%: bok rośnie 1,8 raza, a pole o kwadrat tego"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q9",
+   "numer": 9,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "podzielność",
+    "NWW / NWD"
+   ],
+   "tresc_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P – jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Jeżeli liczba jest podzielna przez 12, to jest podzielna przez 6."
+    },
+    {
+     "litera": "2",
+     "html": "Jeżeli liczba jest podzielna przez 3 i przez 5, to jest podzielna przez 15."
+    },
+    {
+     "litera": "3",
+     "html": "Jeżeli liczba jest podzielna przez 3 i jest podzielna przez 6, to jest podzielna przez 18."
+    },
+    {
+     "litera": "4",
+     "html": "Jeżeli liczba jest podzielna przez 3, to jest podzielna przez 9."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPFF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1. Każda liczba podzielna przez 12 dzieli się też przez 6 — P. 2. Liczby 3 i 5 są względnie pierwsze, więc podzielność przez obie oznacza podzielność przez ich iloczyn 15 — P. 3. Liczba 12 dzieli się przez 3 i przez 6, ale nie przez 18 — F. 4. Liczba 6 dzieli się przez 3, ale nie przez 9 — F.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "do zdań fałszywych szukaj najmniejszego kontrprzykładu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podzielność przez 3 i 6 nie daje podzielności przez 18 – mnożyć dzielniki wolno tylko przy względnie pierwszych"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Z 36 sześcianów, z których każdy ma krawędź o długości 1 zbudowano graniastosłup prawidłowy czworokątny. Jakich wymiarów <u>nie może mieć</u> ten graniastosłup?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1 × 3 × 12"
+    },
+    {
+     "litera": "B",
+     "html": "1 × 6 × 6"
+    },
+    {
+     "litera": "C",
+     "html": "2 × 2 × 9"
+    },
+    {
+     "litera": "D",
+     "html": "3 × 3 × 4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup prawidłowy czworokątny ma podstawę kwadratową, więc dwa z trzech wymiarów muszą być równe. W wymiarach 1 × 3 × 12 żadne dwie liczby się nie powtarzają — mimo że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn></math>, takiej bryły zbudować nie można.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "prawidłowy czworokątny znaczy, że podstawa jest kwadratem",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Robert napisał program komputerowy, który oblicza odległość punktu przecięcia się przekątnych prostokąta od dwóch prostopadłych boków, a wynik obliczeń przekazuje wyświetlając dwie liczby. Program wyświetlił liczby 25 i 17. Ile wynosi O – obwód, a ile P – pole tego prostokąta?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>84</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>425</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>168</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>1700</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>84</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>850</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>168</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>1730</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek prostokąta leży w odległości połowy boku od każdego z dwóch prostopadłych boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>50</mn><mo>;</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>34</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>50</mn><mo>+</mo><mn>34</mn><mo>)</mo><mo>=</mo><mn>168</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>50</mn><mo>·</mo><mn>34</mn><mo>=</mo><mn>1700</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przekątne przecinają się w środku, więc podane liczby to połowy boków",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Odległość środka od boku to połowa drugiego boku, a nie sam bok prostokąta"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "stężenie procentowe / mieszaniny"
+   ],
+   "tresc_html": "<p>Co waży więcej i o ile gramów więcej: sól w 43 % solance o wadze 320 g, czy cukier w 360 g syropu o stężeniu 48 %?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Cukier o 35,2 g."
+    },
+    {
+     "litera": "B",
+     "html": "Cukier o 45,8 g."
+    },
+    {
+     "litera": "C",
+     "html": "Sól o 33,2 g."
+    },
+    {
+     "litera": "D",
+     "html": "Sól o 35,2 g."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Soli w solance: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,43</mn><mo>·</mo><mn>320</mn><mo>=</mo><mn>137,6</mn></math> g. Cukru w syropie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,48</mn><mo>·</mo><mn>360</mn><mo>=</mo><mn>172,8</mn></math> g. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>172,8</mn><mo>−</mo><mn>137,6</mn><mo>=</mo><mn>35,2</mn></math> g — więcej waży cukier.</p>"
+   },
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Piechur wychodzi na trasę i idzie ze stałą prędkością 5 km/h. Po 1 godzinie i 40 minutach startuje w ślad za nim kolarz i dogania go po 50 minutach. Z jaką prędkością jechał kolarz?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "14 km/h"
+    },
+    {
+     "litera": "B",
+     "html": "24 km/h"
+    },
+    {
+     "litera": "C",
+     "html": "12 km/h"
+    },
+    {
+     "litera": "D",
+     "html": "15 km/h"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Gdy kolarz dogania piechura, ten idzie już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn></math> minut (2,5 h) i przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>2,5</mn><mo>=</mo><mn>12,5</mn></math> km. Tyle samo kolarz przejechał w 50 minut, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> h, więc jego prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12,5</mn><mo>:</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mn>15</mn></math> km/h.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile godzin łącznie szedł piechur do chwili spotkania",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "trójkąty",
+    "procenty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Z trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> został wycięty trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math>, którego bokami były odcinki łączące środki boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Jaki procent powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> stanowi powierzchnia otrzymanej w ten sposób figury?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25%"
+    },
+    {
+     "litera": "B",
+     "html": "50%"
+    },
+    {
+     "litera": "C",
+     "html": "75%"
+    },
+    {
+     "litera": "D",
+     "html": "80%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A lub C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt DEF (środkowy) ma pole równe 1/4 pola ABC. Pozostała figura (trzy narożne trójkąty) ma pole = ABC − DEF = 3/4 = 75% pola ABC.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "połącz środki boków i zobacz, na ile przystających trójkątów dzieli się ABC",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Grupa uczniów z klasy Ani uczestniczyła w biegu na orientację. Liczba uczniów, którzy dobiegli do mety przed Anią, była siedem razy mniejsza od liczby uczniów, którzy dobiegli do mety po niej. Która na mecie była Ania, jeżeli cała grupa liczyła 41 osób?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "6"
+    },
+    {
+     "litera": "C",
+     "html": "35"
+    },
+    {
+     "litera": "D",
+     "html": "36"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech przed Anią dobiegnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> osób, a po niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mn>7</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>41</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>, więc Ania była na miejscu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "oznacz przez x liczbę biegaczy przed Anią i nie zapomnij doliczyć jej samej",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "plot-i-slupki"
+    ],
+    "opis": "Wyliczone x to liczba osób przed Anią, a pytają o jej miejsce; Ania liczy się do 41 osób"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Robotnik kopał dół. Na zapytanie przechodnia, jak głęboki będzie dół odpowiedział: „Mam wzrostu 1m 80cm. Gdy wykopię dół do końca, moja głowa będzie o tyle poniżej powierzchni ziemi, o ile teraz, gdy już wykopałem połowę głębokości dołu, jest powyżej niej”. Głębokość dołu wynosiła:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1,6 m"
+    },
+    {
+     "litera": "B",
+     "html": "1,8 m"
+    },
+    {
+     "litera": "C",
+     "html": "2 m"
+    },
+    {
+     "litera": "D",
+     "html": "2,4 m"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to głębokość dołu. Przy połowie wykopu głowa jest nad ziemią na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,8</mn><mo>−</mo><mfrac><mi>d</mi><mn>2</mn></mfrac></math>, a po ukończeniu — pod ziemią na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>−</mo><mn>1,8</mn></math>. Z równości tych wielkości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2,4</mn></math> m.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "obie odległości głowy od ziemi wyraź przez głębokość dołu i porównaj",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Bogacz posiadający 100 000 złotych, aby wesprzeć biedaka mającego tylko złotówkę, dał mu 100 złotych. O ile procent wzbogacił się biedak?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "99%"
+    },
+    {
+     "litera": "B",
+     "html": "100%"
+    },
+    {
+     "litera": "C",
+     "html": "9900%"
+    },
+    {
+     "litera": "D",
+     "html": "10000%"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Biedak miał 1 zł, a dostał 100 zł, więc jego majątek wzrósł o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>100</mn><mn>1</mn></mfrac><mo>·</mo><mn>100</mn><mi>%</mi><mo>=</mo><mn>10000</mn><mi>%</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przyrost odnieś do jego początkowej złotówki, nie do majątku bogacza",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Za 3 lata Krzysiek będzie trzy razy starszy niż 3 lata temu. Ile lat ma Krzysiek teraz?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "3 lata"
+    },
+    {
+     "litera": "B",
+     "html": "6 lat"
+    },
+    {
+     "litera": "C",
+     "html": "9 lat"
+    },
+    {
+     "litera": "D",
+     "html": "12 lat"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to wiek Krzyśka teraz. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>12</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math> lat.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz oba wieki przez x i ułóż z nich równanie",
+   "czas_min": 1
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q19",
+   "numer": 19,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ogon ryby waży 2 kilogramy. Głowa waży tyle, ile ogon i pół tułowia, a tułów tyle, ile głowa i ogon. Ile waży cała ryba?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "6 kg"
+    },
+    {
+     "litera": "B",
+     "html": "8 kg"
+    },
+    {
+     "litera": "C",
+     "html": "12 kg"
+    },
+    {
+     "litera": "D",
+     "html": "16 kg"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ogon <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>2</mn></math> kg, głowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>t</mi><mo>+</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>, tułów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>h</mi><mo>+</mo><mi>t</mi></math>. Rozwiązując ten układ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>6</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>8</mn></math> kg, więc cała ryba waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>16</mn></math> kg.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź głowę i tułów przez wagę tułowia — ogon już znasz",
+   "czas_min": 2
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q20",
+   "numer": 20,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pan Kowalski ma do sprzedania trzy działki. Pierwsza z nich ma kształt kwadratu, a druga i trzecia są prostokątami. Wszystkie trzy działki mają jednakowe obwody, wynoszące 120 metrów. Długość pierwszej działki prostokątnej stanowi 150% jej szerokości, szerokość drugiej działki prostokątnej stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>7</mn></mfrac></math> jej długości. Która z nich ma największe pole?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Działka kwadratowa."
+    },
+    {
+     "litera": "B",
+     "html": "Pierwsza działka prostokątna."
+    },
+    {
+     "litera": "C",
+     "html": "Druga działka prostokątna."
+    },
+    {
+     "litera": "D",
+     "html": "Pola wszystkich działek są równe."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kwadrat: bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>30</mn></math> m, pole 900 m². Prostokąt 1 z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mn>1,5</mn><mi>w</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mn>24</mn><mo>,</mo><mi>l</mi><mo>=</mo><mn>36</mn></math>, pole 864 m². Prostokąt 2 z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>l</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mn>35</mn><mo>,</mo><mi>w</mi><mo>=</mo><mn>25</mn></math>, pole 875 m². Największe pole ma działka kwadratowa.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "w każdej działce długość + szerokość = 60 m, więc porównuj tylko iloczyny",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "reszta z dzielenia",
+    "podzielność",
+    "dowodzenie / dowody"
+   ],
+   "tresc_html": "<p>Jeżeli liczbę 100 podzielimy przez liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> to otrzymamy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i resztę 6. Jakimi liczbami są <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>? Odpowiedź uzasadnij.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "p = 47, m = 2 lub p = 94, m = 1",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ponieważ reszta z dzielenia wynosi 6, więc dzielnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> musi być większy od 6. Z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>·</mo><mi>m</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>100</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>·</mo><mi>m</mi><mo>=</mo><mn>100</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>94</mn></math>. Dzielniki liczby 94 większe od 6 to 47 i 94, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>47</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>2</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>94</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>1</mn></math>. Są dwie takie pary liczb: 47 i 2 oraz 94 i 1.</p>",
+    "punktacja_html": "<p>Punktacja: 2 pkt za podanie dwóch par liczb spełniających warunki zadania wraz z uzasadnieniem; 1 pkt za podanie dwóch par liczb bez uzasadnienia.</p>"
+   },
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia",
+     "wszystkie-przypadki"
+    ],
+    "opis": "Reszta musi być mniejsza od dzielnika (p > 6), a przy tym zostają dwie pary rozwiązań"
+   }
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Pole powierzchni całkowitej prostopadłościanu o podstawie kwadratu jest równe 264 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Pole podstawy tej bryły stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola powierzchni jednej ściany bocznej. Oblicz wysokość bryły. Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy pole ściany bocznej przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Pole powierzchni całkowitej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>p</mi></msub><mo>+</mo><mn>4</mn><mo>·</mo><mi>x</mi></math>, gdzie pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mn>264</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,5</mn><mi>x</mi><mo>=</mo><mn>264</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>48</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mn>0,75</mn><mo>·</mo><mn>48</mn><mo>=</mo><mn>36</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>, więc krawędź podstawy wynosi 6 cm. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>=</mo><mn>6</mn><mo>·</mo><mi>h</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>48</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>8</mn></math> cm.</p>",
+    "punktacja_html": "<p>Punktacja: 4 pkt pełne rozwiązanie poprawną metodą; 3 pkt poprawna metoda z błędami rachunkowymi; 2 pkt obliczenie tylko pola ściany bocznej; 1 pkt zapisanie zależności między polami.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Pan Bogdan wyjechał z domu do pracy o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>25</mn></msup></math>. Jego żona, pracująca w tym samym zakładzie pracy co pan Bogdan, wyjechała z domu do pracy później. Oboje dotarli do zakładu o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>50</mn></msup></math>. Pan Bogdan jechał ze średnią prędkością 36 km/h, a jego żona z prędkością 45 km/h. O której godzinie żona pana Bogdana wyjechała z domu do pracy?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "7:30",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Od godziny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>25</mn></msup></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>50</mn></msup></math> mija 25 minut. Pan Bogdan w tym czasie, jadąc z prędkością 36 km/h, przejechał trasę długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>36</mn><mo>·</mo><mn>25</mn></mrow><mn>60</mn></mfrac><mo>=</mo><mn>15</mn></math> km. Żona pokonała tę samą trasę 15 km z prędkością 45 km/h w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> godziny, czyli 20 minut. Ponieważ dotarła o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>50</mn></msup></math>, wyjechała z domu o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>30</mn></msup></math>.</p>",
+    "punktacja_html": "<p>Punktacja: 4 pkt pełne rozwiązanie poprawną metodą; 3 pkt poprawna metoda z błędami rachunkowymi lub obliczenie tylko czasu dojazdu (20 minut); 2 pkt obliczenie czasu przejazdu żony poprawną metodą, ale z błędami rachunkowymi; 1 pkt poprawne obliczenie tylko drogi do pracy (15 km).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "czasy przejazdu są odwrotnie proporcjonalne do prędkości",
+   "czas_min": 5
+  },
+  {
+   "id": "wojewodzki_2016_podkarpackie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 3,
+   "tematy": [
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Architekt ma dwa plany tego samego budynku: jeden w skali 1:20, drugi w skali 1:50. Jaka jest długość ściany tego budynku na planie w skali 1:50, jeżeli na planie budynku w skali 1:20 jest ona równa 20 cm?</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "8 cm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>20 cm w skali 1:20 odpowiada w rzeczywistości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> cm. Ta sama ściana na planie w skali 1:50 ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>8</mn></math> cm.</p>",
+    "punktacja_html": "<p>Punktacja: 3 pkt pełne rozwiązanie poprawną metodą; 2 pkt poprawna metoda z błędami rachunkowymi; 1 pkt obliczenie rzeczywistej długości ściany (na podstawie planu w skali 1:20).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj same skale — ile razy plan 1:50 jest mniejszy od 1:20",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "kierunek-relacji"
+    ],
+    "opis": "W skali 1:50 rysunek jest mniejszy niż w skali 1:20, a nie większy"
+   }
+  }
+ ]
+}

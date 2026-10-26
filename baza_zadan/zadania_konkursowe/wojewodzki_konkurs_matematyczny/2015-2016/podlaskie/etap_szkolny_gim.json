@@ -1,0 +1,804 @@
+{
+ "konkurs": "Wojewódzki Konkurs Matematyczny dla uczniów gimnazjów (podlaskie)",
+ "etap": "szkolny",
+ "wojewodztwo": "podlaskie",
+ "rok_szkolny": "2015/2016",
+ "data": "2015-11-09",
+ "typ_szkoly": "gimnazjum",
+ "liczba_zadan": 21,
+ "max_punktow": 30,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2015_podlaskie_gim.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2015_podlaskie_gim_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby wymierne i niewymierne"
+   ],
+   "tresc_html": "<p>Ile jest liczb wymiernych wśród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt><mo>;</mo><msqrt><mn>36</mn></msqrt><mo>;</mo><mn>0,(73)</mn><mo>;</mo><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot><mo>;</mo><mfrac><msqrt><mn>5</mn></msqrt><mn>4</mn></mfrac><mo>;</mo><mfrac><msqrt><mn>25</mn></msqrt><mn>2</mn></mfrac><mo>;</mo><mn>0,66666…</mn><mo>;</mo><mn>0</mn><mo>;</mo><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "7"
+    },
+    {
+     "litera": "C",
+     "html": "5"
+    },
+    {
+     "litera": "D",
+     "html": "6"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niewymierne są tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><mn>4</mn></mfrac></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> nie jest wymierna. Reszta to liczby wymierne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>25</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac></math>, ułamki okresowe 0,(73) i 0,666…, oraz 0 i −1¾. Liczb wymiernych jest zatem 9−2=7.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przejrzyj po kolei — pierwiastki, które się wyliczają, i rozwinięcia okresowe też są wymierne",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Nieskończone rozwinięcia okresowe 0,(73) i 0,666… wyglądają na niewymierne, a pierwiastek z liczby mieszanej łatwo zlekceważyć"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Pięciocyfrowa liczba naturalna 24a8b jest podzielna przez 4, przez 5 i przez 9. Suma cyfr a i b jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "13"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "9"
+    },
+    {
+     "litera": "D",
+     "html": "4"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba kończy się na b, więc podzielność przez 5 daje b=0 lub b=5. Podzielność przez 4 zależy od liczby 8b: 80 dzieli się przez 4, a 85 nie – więc b=0. Suma cyfr 2+4+a+8+0=14+a musi dzielić się przez 9, skąd a=4. Suma a+b=4.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zacznij od ostatniej cyfry: podzielność przez 5 i przez 4 razem ją wyznaczają, resztę dopnij dziewiątką",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "dwusieczna kąta / symetralna odcinka",
+    "kąty"
+   ],
+   "tresc_html": "<p>Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> są kątami przyległymi. Kąt wyznaczony przez dwusieczne kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "180°"
+    },
+    {
+     "litera": "B",
+     "html": "45°"
+    },
+    {
+     "litera": "C",
+     "html": "90°"
+    },
+    {
+     "litera": "D",
+     "html": "60°"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąty α i β są przyległe, więc α+β=180°. Dwusieczne dzielą je na połowy, a kąt między dwusiecznymi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>α</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>β</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>α</mi><mo>+</mo><mi>β</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>90</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zsumuj połówki obu kątów przyległych",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wartość bezwzględna"
+   ],
+   "tresc_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>1,73</mn><mo>></mo><mn>1</mn></math>, liczba pod modułem jest ujemna, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "porównaj √3 z 1 i dopiero potem zdejmij moduł",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wielokąty"
+   ],
+   "tresc_html": "<p>Miara kąta wewnętrznego wielokąta foremnego jest równa 150°. Ile boków ma ten wielokąt?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "16"
+    },
+    {
+     "litera": "C",
+     "html": "10"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt zewnętrzny wielokąta foremnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>, a suma kątów zewnętrznych to zawsze 360°. Liczba boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>°</mo><mo>:</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>12</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz kąt zewnętrzny i sprawdź, ile ich mieści się w 360°",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zamiana jednostek"
+   ],
+   "tresc_html": "<p>Powierzchnia działki rekreacyjnej jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,8</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></math> m². Ile to arów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "0,38 a"
+    },
+    {
+     "litera": "B",
+     "html": "380 a"
+    },
+    {
+     "litera": "C",
+     "html": "3,8 a"
+    },
+    {
+     "litera": "D",
+     "html": "38 a"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>1 ar to 100 m², a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,8</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>3800</mn></math> m². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3800</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>38</mn></math> arów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "1 ar to 100 m² — wystarczy przesunąć przecinek",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>W szufladzie leżały klocki. Dziecko zabrało 6 klocków, co stanowiło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> czwartej części liczby wszystkich klocków. Ile klocków było w tej szufladzie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "9"
+    },
+    {
+     "litera": "B",
+     "html": "36"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "18"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech n to liczba wszystkich klocków. Dziecko zabrało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mi>n</mi><mn>4</mn></mfrac><mo>=</mo><mfrac><mi>n</mi><mn>6</mn></mfrac></math> klocków, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mn>6</mn></mfrac><mo>=</mo><mn>6</mn></math>, skąd n=36.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "6 klocków to 2/3 ćwiartki — wyznacz najpierw całą ćwiartkę",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "twierdzenie Pitagorasa",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>Trójkąt prostokątny można utworzyć z odcinków o długościach</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>,</mo><mn>5</mn><mo>,</mo><msqrt><mn>10</mn></msqrt></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt prostokątny istnieje, gdy suma kwadratów dwóch krótszych boków równa się kwadratowi najdłuższego. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math> – warunek spełniony.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "podnieś boki do kwadratu — pierwiastki znikają i porównujesz same liczby całkowite",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "proporcjonalność prosta"
+   ],
+   "tresc_html": "<p>Dwie jednakowe maszyny zużywają 2 litry smaru w ciągu 2 dni. Ile litrów smaru zużyje 7 takich maszyn w ciągu 20 dni, przy stałym zużyciu przez każdą maszynę?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "70"
+    },
+    {
+     "litera": "B",
+     "html": "35"
+    },
+    {
+     "litera": "C",
+     "html": "140"
+    },
+    {
+     "litera": "D",
+     "html": "280"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dwie maszyny zużywają 2 l w 2 dni, czyli jedna maszyna zużywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn></math> l na dobę. Siedem maszyn w 20 dni zużyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>20</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>70</mn></math> litrów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprowadź wszystko do jednej maszyny i jednego dnia",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Schemat „2 maszyny, 2 litry, 2 dni” kusi skrótem „1 maszyna zużywa 1 litr dziennie”"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Janek ma o cztery lata więcej niż wynosi podwojony wiek jego siostry. Za cztery lata będzie od niej starszy o jedenaście lat. Ile lat ma teraz Janek?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "7"
+    },
+    {
+     "litera": "B",
+     "html": "10"
+    },
+    {
+     "litera": "C",
+     "html": "16"
+    },
+    {
+     "litera": "D",
+     "html": "18"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech J i S to obecne wieki Janka i siostry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>+</mo><mn>4</mn></math>. Za 4 lata: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>S</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>11</mn></math>, czyli J=S+11. Łącząc oba równania: 2S+4=S+11, więc S=7 i J=18.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica wieku nie zmienia się z upływem lat",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zmiany procentowe"
+   ],
+   "tresc_html": "<p>Cena akcji zmalała w ciągu dnia o 60%. Cena na początku dnia to</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "40% końcowej ceny akcji."
+    },
+    {
+     "litera": "B",
+     "html": "60% końcowej ceny akcji."
+    },
+    {
+     "litera": "C",
+     "html": "250% końcowej ceny akcji."
+    },
+    {
+     "litera": "D",
+     "html": "150% końcowej ceny akcji."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Cena końcowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>%</mo><mo>−</mo><mn>60</mn><mo>%</mo><mo>=</mo><mn>40</mn><mo>%</mo></math> ceny początkowej. Cena początkowa stanowi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>%</mo><mo>:</mo><mn>40</mn><mo>%</mo><mo>=</mo><mn>2,5</mn></math> razy cenę końcową, czyli 250% ceny końcowej.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zapisz cenę końcową jako część początkowej i odwróć ten stosunek",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "procent-podstawa",
+     "kierunek-relacji"
+    ],
+    "opis": "Pytanie o cenę początkową jako procent ceny końcowej — podstawa procentu jest odwrócona"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wędrówka kąta",
+    "koła / okręgi",
+    "kąty"
+   ],
+   "tresc_html": "<p>Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest styczną do okręgu w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>110</mn><mo>°</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> zaznaczonego na rysunku jest równa</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "35°"
+    },
+    {
+     "litera": "B",
+     "html": "45°"
+    },
+    {
+     "litera": "C",
+     "html": "55°"
+    },
+    {
+     "litera": "D",
+     "html": "65°"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2015_podlaskie_gim_q12_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt OBC jest równoramienny (OB=OC=promień), więc kąty przy podstawie wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>110</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>35</mn><mo>°</mo></math>. Styczna m jest prostopadła do promienia OB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>35</mn><mo>°</mo><mo>=</mo><mn>55</mn><mo>°</mo></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "styczna jest prostopadła do promienia, a trójkąt z dwóch promieni jest równoramienny",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "równania z jedną zmienną",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Przekształcając wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mi>a</mi><mi>x</mi><mo>−</mo><mi>b</mi><mi>x</mi></math> i wyznaczając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, otrzymasz</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>t</mi><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mi>t</mi></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>t</mi><mi>a</mi></mfrac><mo>+</mo><mi>b</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>t</mi><mi>b</mi></mfrac><mo>−</mo><mi>a</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wyłączając x przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mi>x</mi><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>t</mi><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyłącz x przed nawias",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "symetrie",
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Każdy równoległobok nie będący rombem ani prostokątem</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "ma dwie osie symetrii i środek symetrii."
+    },
+    {
+     "litera": "B",
+     "html": "ma dwie osie symetrii i nie ma środka symetrii."
+    },
+    {
+     "litera": "C",
+     "html": "nie ma osi symetrii, ale ma środek symetrii."
+    },
+    {
+     "litera": "D",
+     "html": "nie ma osi symetrii i nie ma środka symetrii."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Środek symetrii równoległoboku to punkt przecięcia przekątnych – ma go każdy równoległobok. Osie symetrii mają natomiast tylko równoległoboki będące rombem lub prostokątem, więc „zwykły” równoległobok osi symetrii nie ma.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź obrót o 180° wokół punktu przecięcia przekątnych",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Które z podanych równań trzeba dopisać do równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mo>−</mo><mn>1</mn></math>, aby otrzymać układ oznaczony?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>1</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mo>−</mo><mn>1</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Układ dwóch równań liniowych ma dokładnie jedno rozwiązanie (jest oznaczony), gdy proste nie są równoległe, czyli współczynniki przy x i y nie są proporcjonalne. W równaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn></math> współczynniki (1, 2) nie są proporcjonalne do współczynników (1, −2) z danego równania, więc proste przecinają się w jednym punkcie.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "układ jest oznaczony, gdy drugie równanie nie jest proporcjonalne do pierwszego",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Na przygotowanie maszyny do produkcji pewnych detali potrzeba 3 minuty. Po uruchomieniu maszyna wytwarza jeden detal w ciągu 2,5 minuty. Funkcja wyrażająca całkowity czas potrzebny do produkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> detali wyraża się wzorem</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,5</mn></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2,5</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>3</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>3</mn></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Czas produkcji x detali to czas przygotowania (3 min) plus 2,5 minuty na każdy detal: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2,5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>3</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "czas przygotowania jest stały, a reszta rośnie z liczbą detali",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q17",
+   "numer": 17,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "graniastosłupy",
+    "liczba krawędzi, ścian i wierzchołków"
+   ],
+   "tresc_html": "<p>Ile wierzchołków ma graniastosłup o 54 krawędziach?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "18"
+    },
+    {
+     "litera": "B",
+     "html": "36"
+    },
+    {
+     "litera": "C",
+     "html": "28"
+    },
+    {
+     "litera": "D",
+     "html": "27"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Graniastosłup o n-kątnej podstawie ma 3n krawędzi (n na dole, n na górze, n bocznych) i 2n wierzchołków. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>=</mo><mn>54</mn></math> mamy n=18, więc wierzchołków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>36</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "graniastosłup ma 3 razy tyle krawędzi, co boków podstawy",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Z liczby krawędzi wychodzi liczba boków podstawy n, a pytają o wierzchołki"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q18",
+   "numer": 18,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole trapezu przedstawionego na rysunku jest równe</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>1,5</mn><mi>x</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi><mo>+</mo><mn>1,5</mn><mi>x</mi></math>"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2015_podlaskie_gim_q18_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Dolny bok trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>y</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn><mi>y</mi><mo>+</mo><mn>3</mn></math>, wysokość równa się x. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mo>(</mo><mi>y</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mi>y</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>)</mo><mo>·</mo><mi>x</mi><mo>=</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>3</mn><mo>)</mo><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "potnij trapez na prostokąt i trójkąt prostokątny",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q19",
+   "numer": 19,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "działania na potęgach",
+    "liczby pierwsze",
+    "układ współrzędnych",
+    "wyłączanie wspólnego czynnika przed nawias"
+   ],
+   "tresc_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>11</mn><mn>2016</mn></msup><mo>−</mo><msup><mn>11</mn><mn>2015</mn></msup></mrow><msup><mn>11</mn><mn>2015</mn></msup></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> – najmniejsza dwucyfrowa liczba pierwsza. Oblicz odległość na osi liczbowej między liczbą odwrotną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Wynik przedstaw w najprostszej postaci.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "11 1/10 (11,1)",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Obliczamy wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>11</mn><mn>2016</mn></msup><mo>−</mo><msup><mn>11</mn><mn>2015</mn></msup></mrow><msup><mn>11</mn><mn>2015</mn></msup></mfrac><mo>=</mo><mfrac><mrow><msup><mn>11</mn><mn>2015</mn></msup><mo>(</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><msup><mn>11</mn><mn>2015</mn></msup></mfrac><mo>=</mo><mn>10</mn></math>. Najmniejsza dwucyfrowa liczba pierwsza to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>11</mn></math>. Liczba odwrotna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>, a liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>11</mn></math>. Szukana odległość na osi liczbowej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>−</mo><mo>(</mo><mo>−</mo><mn>11</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>11</mn><mfrac><mn>1</mn><mn>10</mn></mfrac></math>.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za b = 11 lub wyłączenie czynnika w liczniku a; 2 pkt za obliczenie a = 10; 3 pkt za poprawną metodę z błędem rachunkowym.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wyłącz 11²⁰¹⁵ przed nawias w liczniku i skróć",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Odwrotna do a i przeciwna do b — dwa różne pojęcia w jednym zdaniu, łatwo wziąć b zamiast −b"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q20",
+   "numer": 20,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "koła / okręgi",
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Pole zamalowanego wycinka koła o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, zaznaczonego na rysunku, jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>π</mi></math> cm². Oblicz pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SPQR</mi></math>.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2015_podlaskie_gim_q20_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "8√2 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Kąt rombu przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> ma miarę 45°, więc zamalowany wycinek odpowiada kątowi środkowemu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>315</mn><mo>°</mo></math>. Promień wycinka obliczamy z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>315</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>14</mn><mi>π</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>4</mn></math>. Bok rombu jest równy promieniowi, a jego wysokość spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Pole rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>a</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm².</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za poprawną metodę wyznaczenia promienia; 2 pkt za r = 4; 3 pkt za r = 4 i h = 2√2.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamalowana część to całe koło bez wycinka 45° — stąd promień, a bok rombu jest mu równy",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "rysunek"
+    ],
+    "opis": "Zamalowany jest duży wycinek (bez kąta 45°), a nie wycinek 45° przy rombie"
+   }
+  },
+  {
+   "id": "szkolny_2015_podlaskie_gim_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "graniastosłupy",
+    "sześciokąty foremne"
+   ],
+   "tresc_html": "<p>Zbiornik o pojemności 144 litrów ma kształt graniastosłupa, którego podstawą jest sześciokąt foremny. Stosunek wysokości pojemnika do długości krawędzi podstawy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></math>. Jaką wysokość ma zbiornik? Odpowiedź podaj z jednostką.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "2√3 dm",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy krawędź podstawy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a wysokość zbiornika przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>h</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></math>. Pole podstawy (sześciokąt foremny) jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>. Ponieważ 144 litry to 144 dm³, z objętości otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>64</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> dm. Zatem wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> dm.</p>",
+    "punktacja_html": "<p>Częściowo: 1 pkt za zapisanie zależności między h i a; 2 pkt za ułożenie równania z objętości; 3 pkt za a = 4.</p>"
+   },
+   "czas_min": 10
+  }
+ ]
+}

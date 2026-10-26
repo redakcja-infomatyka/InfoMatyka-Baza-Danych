@@ -1,0 +1,904 @@
+{
+ "konkurs": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa śląskiego",
+ "etap": "rejonowy",
+ "wojewodztwo": "slaskie",
+ "rok_szkolny": "2015/2016",
+ "data": null,
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 24,
+ "max_punktow": 50,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/rejonowy/2015-2016_slaskie.pdf",
+ "zadania": [
+  {
+   "id": "rejonowy_2015-2016_slaskie_q1",
+   "numer": 1,
+   "typ": "otwarte",
+   "punkty": 6,
+   "tematy": [
+    "równania z jedną zmienną",
+    "zadania wieloczęściowe"
+   ],
+   "tresc_html": "<p>W puste, białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/rejonowy_2015-2016_slaskie_q1_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "W puste pola należy wpisać kolejno liczby: 0, −3, −2, 5, −2, 5.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania.</p><p>Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>0</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn></math>.</p><p>Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn></math>.</p>",
+    "punktacja_html": "<p>Za każde poprawnie uzupełnione pole 1 punkt, w sumie 6 punktów.</p>"
+   },
+   "czas_min": 20,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:kolejnosc-dzialan"
+    ],
+    "opis": "Krzyżówka czytana od lewej kusi liczeniem po kolei, a mnożenie i dzielenie idą przed dodawaniem"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Janek przeszedł 5 km i wtedy zauważył, że przebył już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> całej trasy. Ile kilometrów liczy cała trasa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "6,5"
+    },
+    {
+     "litera": "D",
+     "html": "7,5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>5 km to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> całej trasy, więc cała trasa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>7,5</mn></math> km.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "5 km to dwie trzecie trasy — najpierw wyznacz jedną trzecią",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Dzieląc pewną liczbę przez 34 otrzymano 33 i reszty 29. Jaka to liczba?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "1151"
+    },
+    {
+     "litera": "B",
+     "html": "1122"
+    },
+    {
+     "litera": "C",
+     "html": "1019"
+    },
+    {
+     "litera": "D",
+     "html": "1093"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>34</mn><mo>·</mo><mn>33</mn><mo>+</mo><mn>29</mn><mo>=</mo><mn>1122</mn><mo>+</mo><mn>29</mn><mo>=</mo><mn>1151</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "pomnóż dzielnik przez wynik dzielenia i dodaj resztę",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Patryk ma 15 złotówek, 9 dwuzłotówek, 12 dwudziestogroszówek i 14 pięciogroszówek. Ile pieniędzy ma Patryk?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "36,10"
+    },
+    {
+     "litera": "B",
+     "html": "42,40"
+    },
+    {
+     "litera": "C",
+     "html": "57,70"
+    },
+    {
+     "litera": "D",
+     "html": "33,94"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wartości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>15</mn><mo>;</mo><mn>9</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>18</mn><mo>;</mo><mn>12</mn><mo>·</mo><mn>0,20</mn><mo>=</mo><mn>2,40</mn><mo>;</mo><mn>14</mn><mo>·</mo><mn>0,05</mn><mo>=</mo><mn>0,70</mn></math> zł. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>2,40</mn><mo>+</mo><mn>0,70</mn><mo>=</mo><mn>36,10</mn></math> zł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz osobno złotówki i osobno grosze",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "działania na potęgach"
+   ],
+   "tresc_html": "<p>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>24</mn><mn>2</mn></msup></math> jest większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>2</mn></msup></math>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "2"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "8"
+    },
+    {
+     "litera": "D",
+     "html": "12"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>2</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>24</mn><mn>2</mn></msup><mo>:</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn></math> razy.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "24 to dwa razy 12 — porównaj kwadraty bez ich liczenia",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Porównuje się kwadraty, a nie same podstawy, więc iloraz też trzeba podnieść do kwadratu"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Ile jest trzycyfrowych liczb naturalnych?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "899"
+    },
+    {
+     "litera": "B",
+     "html": "900"
+    },
+    {
+     "litera": "C",
+     "html": "901"
+    },
+    {
+     "litera": "D",
+     "html": "999"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczby trzycyfrowe to od 100 do 999, jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>−</mo><mn>100</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>900</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile jest liczb od 100 do 999 włącznie",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczenie liczb od 100 do 999 włącznie: odejmowanie końców gubi jedną liczbę"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby pierwsze",
+    "trójkąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Jaki jest najmniejszy możliwy obwód trójkąta, który jest nierównoramienny, a długości jego boków są liczbami pierwszymi?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "10"
+    },
+    {
+     "litera": "B",
+     "html": "12"
+    },
+    {
+     "litera": "C",
+     "html": "14"
+    },
+    {
+     "litera": "D",
+     "html": "15"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Boki to różne liczby pierwsze spełniające nierówność trójkąta. Trójki 2,3,5 oraz 2,3,7 oraz 2,5,7 jej nie spełniają, a najmniejsza spełniająca to 3, 5, 7, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>5</mn><mo>&gt;</mo><mn>7</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>15</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bierz trzy różne liczby pierwsze od najmniejszych i sprawdzaj warunek trójkąta",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 3,
+    "rodzaje": [
+     "warunek-istnienia"
+    ],
+    "opis": "Najmniejsze różne liczby pierwsze nie spełniają nierówności trójkąta"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Pierwszego stycznia panował czterostopniowy mróz, a każdego kolejnego dnia temperatura powietrza spadała o pół stopnia. Jaka była temperatura 9 stycznia?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "−9°C"
+    },
+    {
+     "litera": "B",
+     "html": "−8,5°C"
+    },
+    {
+     "litera": "C",
+     "html": "−8°C"
+    },
+    {
+     "litera": "D",
+     "html": "−4,5°C"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 1 do 9 stycznia mija 8 dni, więc temperatura spada o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>4</mn></math>°C. Wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>8</mn></math>°C.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile razy temperatura spadła między 1 a 9 stycznia",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Od 1 do 9 stycznia temperatura spada 8 razy, nie 9"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Masa akwarium o kształcie prostopadłościanu napełnionego wodą do połowy wynosi 28 kg, a napełnionego całkowicie – 49 kg. Jaką masę ma puste akwarium?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "4 kg"
+    },
+    {
+     "litera": "B",
+     "html": "5 kg"
+    },
+    {
+     "litera": "C",
+     "html": "6 kg"
+    },
+    {
+     "litera": "D",
+     "html": "7 kg"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Różnica mas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><mo>−</mo><mn>28</mn><mo>=</mo><mn>21</mn></math> kg to masa połowy wody, więc cała woda waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>21</mn><mo>=</mo><mn>42</mn></math> kg. Puste akwarium: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><mo>−</mo><mn>42</mn><mo>=</mo><mn>7</mn></math> kg.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "różnica mas to masa połowy wody",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Ile najwięcej osób może zmieścić się na placu w kształcie kwadratu o boku długości 200 metrów, jeżeli na każdym metrze kwadratowym powierzchni mieszczą się 4 osoby?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "16 tys."
+    },
+    {
+     "litera": "B",
+     "html": "160 tys."
+    },
+    {
+     "litera": "C",
+     "html": "100 tys."
+    },
+    {
+     "litera": "D",
+     "html": "10 tys."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Powierzchnia placu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>·</mo><mn>200</mn><mo>=</mo><mn>40000</mn></math> m². Liczba osób: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40000</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>160000</mn></math>, czyli 160 tys.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz pole placu w metrach kwadratowych i pomnóż przez liczbę osób na metrze",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki okresowe / rozwinięcia dziesiętne",
+    "reszta z dzielenia"
+   ],
+   "tresc_html": "<p>Dziesiątą cyfrą po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>5</mn><mn>37</mn></mfrac></math> jest</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "5"
+    },
+    {
+     "litera": "B",
+     "html": "4"
+    },
+    {
+     "litera": "C",
+     "html": "3"
+    },
+    {
+     "litera": "D",
+     "html": "1"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Rozwinięcie ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>37</mn></mfrac></math> jest okresowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mo>(</mo><mn>135</mn><mo>)</mo></math> — okres ma 3 cyfry. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>1</mn></math>, dziesiąta cyfra jest taka sama jak pierwsza cyfra okresu, czyli 1.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "część całkowita nie ma znaczenia — znajdź okres i resztę z dzielenia 10 przez jego długość",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "czworokąty",
+    "trójkąty"
+   ],
+   "tresc_html": "<p>W prostokącie kąt ostry między przekątnymi prostokąta wynosi 60°, a długość krótszego boku wynosi 14 cm. Długość przekątnej tego prostokąta wynosi:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "28 cm"
+    },
+    {
+     "litera": "B",
+     "html": "21 cm"
+    },
+    {
+     "litera": "C",
+     "html": "14 cm"
+    },
+    {
+     "litera": "D",
+     "html": "7 cm"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Trójkąt utworzony przez dwie połowy przekątnych i krótszy bok ma między bokami równymi połowie przekątnej kąt 60° — jest więc równoboczny, a krótszy bok równa się połowie przekątnej. Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>28</mn></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "połówki przekątnych są równe — zobacz, jaki trójkąt tworzą z kątem 60°",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Trójkąt równoboczny tworzą połówki przekątnych, a pytanie dotyczy całej przekątnej"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "prędkość / droga / czas"
+   ],
+   "tresc_html": "<p>Szlak prowadzący na szczyt góry ma 900 metrów długości. Turysta, który pokonuje każde 180 metrów tej trasy w ciągu 5 minut, znajdzie się na szczycie po upływie</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny."
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac></math> godziny."
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> godziny."
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> godziny."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Prędkość turysty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>36</mn></math> m/min. Czas na 900 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>:</mo><mn>36</mn><mo>=</mo><mn>25</mn></math> min, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></math> godziny.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, ile odcinków po 180 m mieści się w trasie",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>Uczestnicy biegu startowali co 3 minuty. Pierwszy zawodnik wystartował o 9:27, a ostatni – o 11:06. W biegu uczestniczyło</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "33 zawodników."
+    },
+    {
+     "litera": "B",
+     "html": "34 zawodników."
+    },
+    {
+     "litera": "C",
+     "html": "68 zawodników."
+    },
+    {
+     "litera": "D",
+     "html": "99 zawodników."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Od 9:27 do 11:06 mija 99 minut. Liczba odstępów co 3 minuty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>33</mn></math>, a zawodników jest o jeden więcej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>34</mn></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz odstępy między startami, a potem dolicz pierwszego zawodnika",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "plot-i-slupki"
+    ],
+    "opis": "Liczba startów to liczba odstępów 3-minutowych plus jeden"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q15",
+   "numer": 15,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zbiory / zasada włączeń i wyłączeń"
+   ],
+   "tresc_html": "<p>Każdy uczeń klasy VI należy do koła matematycznego lub polonistycznego. 16 uczniów należy do koła matematycznego, 16 uczniów do polonistycznego, a do jednego i drugiego koła należy 6 uczniów. Ilu uczniów jest w tej klasie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "20"
+    },
+    {
+     "litera": "B",
+     "html": "23"
+    },
+    {
+     "litera": "C",
+     "html": "26"
+    },
+    {
+     "litera": "D",
+     "html": "32"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Liczba uczniów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>16</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>26</mn></math> (uczniów z obu kół nie liczymy dwa razy).</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "dodaj oba koła i odejmij uczniów policzonych dwa razy",
+   "czas_min": 1
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q16",
+   "numer": 16,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "potęgi i pierwiastki",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>−</mo><mn>1</mn></math> jest liczba</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "−1"
+    },
+    {
+     "litera": "C",
+     "html": "0"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>4</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>1</mn></math>. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mo>−</mo><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "uważaj na różnicę między −2² a (−2)²",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q17",
+   "numer": 17,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma trzech liczb jest równa 1. Jedną z tych liczb jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>6</mn></mfrac></math>, więc suma dwóch pozostałych jest ujemna."
+    },
+    {
+     "litera": "2",
+     "html": "Iloczyn trzech liczb jest równy −1. Jedną z tych liczb jest −0,75, więc iloczyn dwóch pozostałych jest ujemny."
+    },
+    {
+     "litera": "3",
+     "html": "Iloraz dwóch liczb o tych samych znakach jest zawsze liczbą dodatnią."
+    },
+    {
+     "litera": "4",
+     "html": "Odwrotność iloczynu trzech liczb ujemnych jest liczbą dodatnią."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>Pozostałe dwie liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mfrac><mn>11</mn><mn>6</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></math> — ujemna, <b>P</b>.</li><li>Pozostałe dwie liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>:</mo><mo>(</mo><mo>−</mo><mn>0,75</mn><mo>)</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math> — dodatnia, <b>F</b>.</li><li>Iloraz liczb o tych samych znakach jest zawsze dodatni — <b>P</b>.</li><li>Iloczyn trzech liczb ujemnych jest ujemny, więc i jego odwrotność — <b>F</b>.</li></ul>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wystarczy ustalić sam znak wyniku, wartości nie trzeba liczyć",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q18",
+   "numer": 18,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty"
+   ],
+   "tresc_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "W każdym równoległoboku przekątne przecinają się w punkcie, który jest środkiem każdej z nich."
+    },
+    {
+     "litera": "2",
+     "html": "Kwadrat to taki równoległobok, który ma wszystkie boki równej długości."
+    },
+    {
+     "litera": "3",
+     "html": "Przekątna równoległoboku zawsze dzieli go na dwa trójkąty o równych polach."
+    },
+    {
+     "litera": "4",
+     "html": "Istnieją równoległoboki, w których przekątne są prostopadłe."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PFPP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<ul><li>W każdym równoległoboku przekątne przecinają się w swoich środkach — <b>P</b>.</li><li>Równoległobok o wszystkich bokach równej długości to romb, a nie zawsze kwadrat — <b>F</b>.</li><li>Przekątna dzieli równoległobok na dwa przystające trójkąty, więc ich pola są równe — <b>P</b>.</li><li>Romb jest równoległobokiem, a jego przekątne są prostopadłe — <b>P</b>.</li></ul>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "przypomnij sobie definicje równoległoboku, rombu i kwadratu",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc",
+     "inne:definicja"
+    ],
+    "opis": "Zdanie brzmi prawdziwie, bo kwadrat ma równe boki, ale opisuje romb, nie kwadrat"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q19",
+   "numer": 19,
+   "typ": "prawda_falsz",
+   "punkty": 4,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Obwód pewnego równoległoboku jest równy 100 cm, a jego pole 180 cm². Jedna z jego wysokości ma długość 9 cm.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Suma długości dwóch sąsiednich boków równoległoboku wynosi 50 cm."
+    },
+    {
+     "litera": "2",
+     "html": "Jeden z boków równoległoboku ma długość 2 dm."
+    },
+    {
+     "litera": "3",
+     "html": "Długość jednego z boków równoległoboku jest o 20 cm większa od długości krótszego boku."
+    },
+    {
+     "litera": "4",
+     "html": "Druga z wysokości równoległoboku ma długość 0,6 dm."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "PPFP",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bok przy wysokości 9 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>20</mn><mo>;</mo><mn>100</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>50</mn><mo>;</mo><mn>50</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>30</mn><mo>;</mo><mn>180</mn><mo>:</mo><mn>30</mn><mo>=</mo><mn>6</mn></math> — więc boki to 20 i 30 cm, a druga wysokość to 6 cm.</p><ul><li>Suma sąsiednich boków to 50 cm — <b>P</b>.</li><li>Jeden z boków ma 20 cm, czyli 2 dm — <b>P</b>.</li><li>Różnica boków to 10 cm, a nie 20 cm — <b>F</b>.</li><li>Druga wysokość to 6 cm, czyli 0,6 dm — <b>P</b>.</li></ul>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z pola i wysokości 9 wyznacz jeden bok, drugi dopełni połowę obwodu",
+   "czas_min": 2
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q20",
+   "numer": 20,
+   "typ": "prawda_falsz",
+   "punkty": 3,
+   "tematy": [
+    "graniastosłupy",
+    "podobieństwo i skala"
+   ],
+   "tresc_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Suma długości krawędzi wychodzących z jednego wierzchołka sześcianu wynosi 12 cm.</p>",
+   "warianty": [
+    {
+     "litera": "1",
+     "html": "Objętość tego sześcianu wynosi 216 cm³."
+    },
+    {
+     "litera": "2",
+     "html": "Pole powierzchni tego sześcianu wynosi 96 cm²."
+    },
+    {
+     "litera": "3",
+     "html": "Zwiększając dwukrotnie długość każdej krawędzi tego sześcianu, zwiększymy dwukrotnie jego objętość."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "FPF",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Krawędź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>4</mn></math> cm.</p><ul><li>Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></math> cm³, nie 216 cm³ — <b>F</b>.</li><li>Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>96</mn></math> cm² — <b>P</b>.</li><li>Podwojenie krawędzi daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></math> razy większą objętość, nie dwukrotnie — <b>F</b>.</li></ul>",
+    "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "z jednego wierzchołka sześcianu wychodzą trzy krawędzie",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Podwojenie krawędzi nie podwaja objętości sześcianu"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q21",
+   "numer": 21,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "układy równań"
+   ],
+   "tresc_html": "<p>Ania, Adrian, Basia i Tomek mają razem 1022 zł. Ania i Basia mają w sumie tyle samo pieniędzy, co Adrian i Tomek razem. Ania ma o 11 zł więcej niż Basia, a Tomek – o 113 zł mniej niż Adrian. Ile pieniędzy ma każde z nich? Zapisz obliczenia.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Ania — 261 zł, Basia — 250 zł, Adrian — 312 zł, Tomek — 199 zł.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Ania i Basia mają w sumie tyle samo, co Adrian i Tomek, więc każda para ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1022</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>511</mn></math> zł.</p><p>Oszczędności Basi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>511</mn><mo>−</mo><mn>11</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>250</mn></math> zł, więc Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>261</mn></math> zł.</p><p>Oszczędności Tomka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>511</mn><mo>−</mo><mn>113</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>199</mn></math> zł, więc Adrian ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>199</mn><mo>+</mo><mn>113</mn><mo>=</mo><mn>312</mn></math> zł.</p>",
+    "punktacja_html": "<ul><li>1 p. za poprawną metodę obliczenia oszczędności Ani i Basi razem lub Adriana i Tomka razem.</li><li>1 p. za poprawną metodę obliczenia oszczędności Basi i Ani.</li><li>1 p. za poprawną metodę obliczenia oszczędności Tomka i Adriana.</li><li>1 pkt. za poprawne obliczenie oszczędności każdego dziecka.</li></ul><p>Uwaga! Jeśli uczeń nie zapisuje obliczeń lub zapisuje tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1022</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>511</mn></mrow></math>, a następnie podaje prawidłową odpowiedź, to przyznajemy 2 punkty, jeśli podaje trzy prawidłowe wyniki – 1 punkt.</p><p>Uwaga! W każdym zadaniu otwartym od 21 do 24 za błędy rachunkowe odejmujemy 1 punkt.</p>"
+   },
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q22",
+   "numer": 22,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "czworokąty",
+    "równania z jedną zmienną",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Obwód trapezu równoramiennego wynosi 36 cm. Krótsza podstawa jest dwa razy dłuższa od ramienia, a wysokość stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> dłuższej podstawy. Różnica długości podstaw jest równa 6 cm. Oblicz pole trapezu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "52 cm²",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Oznaczmy ramię przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. Krótsza podstawa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>r</mi></math>, a dłuższa o 6 cm więcej. Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>r</mi><mo>+</mo><mo>(</mo><mn>2</mn><mi>r</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>+</mo><mn>2</mn><mi>r</mi><mo>=</mo><mn>36</mn></math> otrzymujemy krótszą podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>36</mn><mo>−</mo><mn>6</mn><mo>)</mo><mo>:</mo><mn>3</mn><mo>=</mo><mn>10</mn></math> cm, a dłuższą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>16</mn></math> cm. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>16</mn><mo>=</mo><mn>4</mn></math> cm. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>10</mn><mo>+</mo><mn>16</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>52</mn></math> cm².</p>",
+    "punktacja_html": "<ul><li>1 p. za poprawną metodę obliczenia krótszej podstawy</li><li>1 pkt. za poprawne obliczenie długości dłuższej podstawy i wysokości</li><li>1 pkt. za poprawną metodę obliczenia pola trapezu pod warunkiem, że metody obliczenia potrzebnych długości odcinków są poprawne</li><li>1 pkt. za poprawne obliczenie pola trapezu</li></ul><p>Uwaga! W każdym zadaniu otwartym od 21 do 24 za błędy rachunkowe odejmujemy 1 punkt.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wyraź ramiona i obie podstawy przez jedną wielkość i wstaw do obwodu",
+   "czas_min": 5
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q23",
+   "numer": 23,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Naczynie ma kształt prostopadłościanu. Krawędzie jego podstawy mają długości 4 dm i 3,2 dm. Do naczynia nalano wody do połowy jego wysokości. Następnie na dnie naczynia postawiono metalowy sześcian, który całkowicie zanurzył się w wodzie. Poziom wody w naczyniu podniósł się o 1,2 cm. Oblicz objętość tego sześcianu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "1536 cm³",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Objętość zanurzonego sześcianu jest równa objętości wypartej wody, czyli objętości warstwy wody o wysokości podniesienia poziomu. Po ujednoliceniu jednostek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>40</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>32</mn></math> cm (krawędzie podstawy naczynia), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>1,2</mn></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>a</mi><mo>·</mo><mi>b</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>40</mn><mo>·</mo><mn>32</mn><mo>·</mo><mn>1,2</mn><mo>=</mo><mn>1536</mn></math> cm³.</p>",
+    "punktacja_html": "<ul><li>1 p. za poprawną metodę obliczenia objętości sześcianu.</li><li>1 p. za poprawne obliczenie objętości.</li></ul><p>Uwaga! W każdym zadaniu otwartym od 21 do 24 za błędy rachunkowe odejmujemy 1 punkt.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "sześcian wypiera tyle wody, ile sam ma objętości — policz warstwę o wysokości 1,2 cm",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki"
+    ],
+    "opis": "Krawędzie podstawy w dm, a wzrost poziomu wody w cm"
+   }
+  },
+  {
+   "id": "rejonowy_2015-2016_slaskie_q24",
+   "numer": 24,
+   "typ": "otwarte",
+   "punkty": 4,
+   "tematy": [
+    "prędkość / droga / czas",
+    "ułamki"
+   ],
+   "tresc_html": "<p>Janek wybrał się na pieszą wycieczkę. Gdy przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> drogi, była godzina 9:50. W połowie trasy, o godzinie 10:15, zatrzymał się na odpoczynek, który trwał do godziny 10:40. Przyjmując, że przez całą drogę Janek szedł z taką samą prędkością, oblicz o której godzinie wyruszył na trasę i o której godzinie doszedł do celu.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "Wyruszył o 9:00, a do celu doszedł o 11:55.",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> drogi do połowy trasy jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math> drogi. Ten odcinek Janek pokonał w czasie od 9:50 do 10:15, czyli 25 minut, więc całą drogę przeszedłby w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>150</mn></math> minut. Łącznie z postojem trwało to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>+</mo><mn>25</mn><mo>=</mo><mn>175</mn></math> min = 2 godz. 55 min.</p><p>Od połowy trasy do celu pozostały <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>75</mn></math> min = 1 godz. 15 min, więc do celu dotarł o 10:40 + 1 godz. 15 min = 11:55. Do przejścia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> drogi potrzebował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>50</mn></math> min, więc wyruszył o 9:50 − 50 min = 9:00.</p>",
+    "punktacja_html": "<ul><li>1 p. za poprawne obliczenie czasu przejścia jednej szóstej drogi</li><li>1 p. za poprawną metodę obliczenia czasu przejścia całej drogi łącznie z postojem lub bez postoju</li><li>1 p. za poprawne obliczenie godziny zakończenia wycieczki</li><li>1 p. za poprawne obliczenie godziny rozpoczęcia wycieczki</li></ul><p>Uwaga! Jeśli uczeń prawidłowo rozwiąże zadanie, ale nie obliczy czasu przejścia całej drogi łącznie z postojem lub bez postoju, to przyznajemy 4 punkty.</p><p>Uwaga! W każdym zadaniu otwartym od 21 do 24 za błędy rachunkowe odejmujemy 1 punkt.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "od 1/3 trasy do połowy jest 1/6 drogi — to daje czas na całą trasę",
+   "czas_min": 10
+  }
+ ]
+}

@@ -1,0 +1,662 @@
+{
+ "konkurs": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+ "etap": "szkolny",
+ "wojewodztwo": "malopolskie",
+ "rok_szkolny": "2015/2016",
+ "data": "2015-11-06",
+ "typ_szkoly": "podstawowa",
+ "liczba_zadan": 17,
+ "max_punktow": 24,
+ "zrodlo_pdf": "https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/blob/main/pdfs/szkolny/2015-2016_malopolskie.pdf",
+ "zadania": [
+  {
+   "id": "szkolny_2015-2016_malopolskie_q1",
+   "numer": 1,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "kąty",
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>O której z wymienionych poniżej godzin rozpoczął się festyn, jeżeli jeden z kątów jaki utworzyły wskazówki minutowa z godzinową na zegarze był mniejszy od kąta prostego?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>30</mn></msup></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>05</mn></msup></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>05</mn></msup></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>18</mn><mn>16</mn></msup></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kąt między wskazówkami o godzinie zapisanej jako godz:min liczymy ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>30</mn><mo>·</mo><mi>godz</mi><mo>−</mo><mn>5,5</mn><mo>·</mo><mi>min</mi><mo>|</mo></mrow></math>. Dla godziny 15:05 wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>30</mn><mo>·</mo><mn>3</mn><mo>−</mo><mn>5,5</mn><mo>·</mo><mn>5</mn><mo>|</mo><mo>=</mo><mn>62,5</mn><mo>°</mo></mrow></math>, czyli mniej niż 90°. Festyn zaczął się więc o 15:05.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdzaj godziny po kolei, pamiętając że wskazówka godzinowa też przesuwa się w ciągu godziny",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "pozorna-wlasnosc"
+    ],
+    "opis": "Wskazówka godzinowa przesuwa się w ciągu godziny; liczenie jej na pełnej godzinie zmienia ocenę kątów"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q2",
+   "numer": 2,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "podzielność"
+   ],
+   "tresc_html": "<p>Organizatorzy festynu przygotowali losy na dwie loterie: A i B. W każdej z nich jest 100 losów ponumerowanych kolejno od 1 do 100. W loterii A wygrywają losy, których numery są liczbami podzielnymi przez 12, a w loterii B – te, których numery są liczbami podzielnymi przez 13. Szansa wygrania zależy od liczby losów wygrywających, im jest ich więcej, tym szansa wygrania jest większa. Korzystając z podanych informacji można wyciągnąć wniosek, że:</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "w obu loteriach są te same szanse wygrania"
+    },
+    {
+     "litera": "B",
+     "html": "większe szanse wygrania są w loterii A"
+    },
+    {
+     "litera": "C",
+     "html": "większe szanse wygrania są w loterii B"
+    },
+    {
+     "litera": "D",
+     "html": "nie można określić, w której loterii są większe szanse wygrania."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "B",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Wśród liczb od 1 do 100 podzielnych przez 12 jest 8 (12, 24, …, 96), a podzielnych przez 13 jest 7 (13, 26, …, 91). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>&gt;</mo><mn>7</mn></mrow></math>, więcej losów wygrywających jest w loterii A, czyli tam szanse są większe.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz, ile wielokrotności 12, a ile 13 mieści się wśród liczb od 1 do 100",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q3",
+   "numer": 3,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Janek zapytany o to ile osób brało z nim udział w wyścigu rowerowym, odpowiedział zagadkowo: „Gdyby było nas trzy razy więcej i jeszcze jedna osoba, to nasze dwukołowe rowery miałyby razem 80 kół”. Ile osób brało udział w wyścigu?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "39"
+    },
+    {
+     "litera": "B",
+     "html": "37"
+    },
+    {
+     "litera": "C",
+     "html": "26"
+    },
+    {
+     "litera": "D",
+     "html": "13"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę uczestników. Po zmianie byłoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math> osób, każda na dwukołowym rowerze, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>80</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi><mo>=</mo><mn>39</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>13</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień koła na liczbę rowerzystów, a potem odwróć działania z zagadki Janka",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q4",
+   "numer": 4,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Wodzirej zadał pytanie: „Którą z podanych czterech liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,9</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math> należy wykreślić, aby suma trzech pozostałych była równa 10?”</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,9</mn></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Suma wszystkich czterech liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac><mo>+</mo><mn>3,9</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>14</mn></mrow></math>. Aby trzy pozostałe dawały sumę 10, trzeba skreślić liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>4</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamień wszystko na ułamki dziesiętne i porównaj sumę wszystkich czterech liczb z 10",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q5",
+   "numer": 5,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Na festynie Janek kupił pizzę o wadze 900 g, którą podzielił na 4 kawałki. Najcięższy kawałek ważył tyle, ile pozostałe 3 łącznie. Ile gramów ważył najcięższy kawałek pizzy?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "225"
+    },
+    {
+     "litera": "B",
+     "html": "250"
+    },
+    {
+     "litera": "C",
+     "html": "300"
+    },
+    {
+     "litera": "D",
+     "html": "450"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> oznacza wagę najcięższego kawałka. Pozostałe trzy ważą razem tyle samo, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>+</mo><mi>w</mi><mo>=</mo><mn>900</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mn>450</mn></mrow></math> gramów.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "najcięższy kawałek i pozostałe trzy to dwie równe wagowo części pizzy",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q6",
+   "numer": 6,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>Ula policzyła, że na trzech drzewach obok sceny siedziało łącznie 60 ptaków. W pewnym momencie z pierwszego drzewa odleciało 6 ptaków, z drugiego 8, z trzeciego 4. Wówczas na każdym z tych drzew było ich tyle samo. Ile ptaków początkowo siedziało na drugim drzewie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "12"
+    },
+    {
+     "litera": "B",
+     "html": "14"
+    },
+    {
+     "litera": "C",
+     "html": "18"
+    },
+    {
+     "litera": "D",
+     "html": "22"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę ptaków, jaka została na każdym drzewie po odlocie. Początkowo było ich: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>18</mn><mo>=</mo><mn>60</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>14</mn></mrow></math>. Na drugim drzewie było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>22</mn></mrow></math> ptaków.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "odejmij od 60 wszystkie ptaki, które odleciały, a resztę rozłóż po równo",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja"
+    ],
+    "opis": "Pytanie dotyczy stanu początkowego, a nie liczby ptaków po odlocie"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q7",
+   "numer": 7,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "liczby rzymskie"
+   ],
+   "tresc_html": "<p>Kasia zajęła miejsce w XVI rzędzie, a Zuzia o dwa rzędy bliżej sceny. W którym rzędzie siedziała Zuzia, jeżeli rzędy były numerowane w kolejności rosnącej i rząd o numerze pierwszym był najbliżej sceny?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "XIV"
+    },
+    {
+     "litera": "B",
+     "html": "XVIII"
+    },
+    {
+     "litera": "C",
+     "html": "XIII"
+    },
+    {
+     "litera": "D",
+     "html": "XVII"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Kasia siedziała w rzędzie 16 (XVI). Zuzia była 2 rzędy bliżej sceny, czyli w rzędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>14</mn></mrow></math>, co zapisujemy jako XIV.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "bliżej sceny to mniejszy numer rzędu — licz na cyfrach arabskich i wróć do rzymskich",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q8",
+   "numer": 8,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Trzy siostry: Ewa, Magda i Jagna biorące udział w konkursie „Mam talent” mają razem 31 lat. Ile będzie wynosiła suma ich wieku za 3 lata?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "34"
+    },
+    {
+     "litera": "B",
+     "html": "31"
+    },
+    {
+     "litera": "C",
+     "html": "40"
+    },
+    {
+     "litera": "D",
+     "html": "za mało danych"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Za 3 lata każda z sióstr będzie starsza o 3 lata, więc suma wieku wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math>. Nowa suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>40</mn></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "każda z trzech sióstr będzie starsza o 3 lata",
+   "czas_min": 1,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:kazdy-sie-starzeje"
+    ],
+    "opis": "Za 3 lata starsza jest każda z trzech sióstr, a nie suma jako całość"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q9",
+   "numer": 9,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Asia, Michał, Ola i Paweł byli na festynie. Asia miała 10 zł i wydała 7 zł, Michał miał 12 zł i wydał 9 zł, Ola miała 8 zł i wydała 6 zł, a Paweł miał 5 zł i wydał 4 zł. Które z dzieci wydało <strong>największą część posiadanych pieniędzy</strong>?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "Asia"
+    },
+    {
+     "litera": "B",
+     "html": "Michał"
+    },
+    {
+     "litera": "C",
+     "html": "Ola"
+    },
+    {
+     "litera": "D",
+     "html": "Paweł"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ułamek wydanej kwoty: Asia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>10</mn></mfrac></math> = 0,7; Michał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>12</mn></mfrac></math> = 0,75; Ola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>8</mn></mfrac></math> = 0,75; Paweł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> = 0,8. Największy ułamek wydał Paweł.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "zamiast wydatków porównaj, jaka część pieniędzy każdemu została",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "o-co-pytaja",
+     "procent-podstawa"
+    ],
+    "opis": "Pytanie o największą część posiadanych pieniędzy, a nie o największą wydaną kwotę"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q10",
+   "numer": 10,
+   "typ": "zamkniete",
+   "punkty": 1,
+   "tematy": [
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Na festynie sprzedawano jabłka po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł za sztukę i gruszki po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zł za sztukę. Które wyrażenie opisuje ile zapłacił Karol za 3 jabłka i 5 gruszek kupionych na festynie?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mi>y</mi></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></math>"
+    },
+    {
+     "litera": "D",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi></math>"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Koszt 3 jabłek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>, koszt 5 gruszek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>y</mi></mrow></math>. Razem Karol zapłacił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi></mrow></math>.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "cena razy liczba sztuk, osobno dla jabłek i osobno dla gruszek",
+   "czas_min": 1
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q11",
+   "numer": 11,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "kalendarz i czas"
+   ],
+   "tresc_html": "<p>Ewa przyszła na festyn 20 minut wcześniej niż Jaś, lecz 10 minut później niż Zuzia. Zuzia pierwsza opuściła festyn. Poszła z imprezy 10 minut wcześniej niż Jaś i 5 minut wcześniej niż Ewa. Ile minut dłużej od Jasia przebywała na festynie Ewa?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "25"
+    },
+    {
+     "litera": "B",
+     "html": "20"
+    },
+    {
+     "litera": "C",
+     "html": "15"
+    },
+    {
+     "litera": "D",
+     "html": "5"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "C",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Przyjmijmy umownie, że Zuzia przyszła o 12:00. Wtedy Ewa przyszła o 12:10, a Jaś o 12:30. Zuzia wyszła pierwsza; wybór jej godziny wyjścia nie zmienia różnicy, więc niech będzie to 13:00 – wtedy Jaś wyszedł o 13:10, a Ewa o 13:05. Czas Ewy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>:</mo><mn>05</mn><mo>−</mo><mn>12</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>55</mn></mrow></math> min, czas Jasia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>:</mo><mn>10</mn><mo>−</mo><mn>12</mn><mo>:</mo><mn>30</mn><mo>=</mo><mn>40</mn></mrow></math> min. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>55</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>15</mn></mrow></math> minut.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "wystarczą różnice: o ile wcześniej Ewa przyszła i o ile wcześniej wyszła niż Jaś",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q12",
+   "numer": 12,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "ułamki"
+   ],
+   "tresc_html": "<p>Ewa na festynie wydała 9 zł. Za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> tej kwoty kupiła losy na loterii fantowej, za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> pozostałej kwoty kupiła sok, resztę wydała na lody. Jaką część wydanej kwoty przeznaczyła na zakup lodów?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "B",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+    },
+    {
+     "litera": "C",
+     "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math>"
+    },
+    {
+     "litera": "D",
+     "html": "4 zł."
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Na losy Ewa wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math> zł, zostało 6 zł. Na sok wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>6</mn><mo>=</mo><mn>2</mn></mrow></math> zł, zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math> zł na lody. To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math> całej wydanej kwoty.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "licz w złotówkach: najpierw losy, potem sok z tego, co zostało",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "procent-podstawa",
+     "o-co-pytaja"
+    ],
+    "opis": "Sok to 1/3 pozostałej kwoty, nie całej; pytanie o część kwoty, nie o złote"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q13",
+   "numer": 13,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "czworokąty",
+    "pole i obwód"
+   ],
+   "tresc_html": "<p>Ile cm długości ma obwód plakietki w kształcie trapezu prostokątnego, której ramiona mają długość: 4 cm i 5 cm, a jej pole jest równe 30 cm²?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "24 cm"
+    },
+    {
+     "litera": "B",
+     "html": "22,5 cm"
+    },
+    {
+     "litera": "C",
+     "html": "21 cm"
+    },
+    {
+     "litera": "D",
+     "html": "za mało danych"
+    }
+   ],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "A",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Ramię prostopadłe do podstaw to wysokość trapezu: h = 4 cm. Z pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>30</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></mrow></math>. Ukośne ramię (5 cm) z wysokością (4 cm) tworzy trójkąt 3-4-5, więc różnica podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>. Stąd a = 9, b = 6, a obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>24</mn></mrow></math> cm.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "wysokością jest krótsze ramię, a z pola wyznacz sumę podstaw, nie każdą z nich osobno",
+   "czas_min": 2,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:wysokosc-trapezu"
+    ],
+    "opis": "Wysokością trapezu prostokątnego jest krótsze ramię; same podstawy osobno nie są potrzebne"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q14",
+   "numer": 14,
+   "typ": "zamkniete",
+   "punkty": 2,
+   "tematy": [
+    "graniastosłupy"
+   ],
+   "tresc_html": "<p>Bryła przedstawiona poniżej została sklejona z jednakowych sześciennych kostek o krawędzi długości 1 cm. Na rysunku widać wszystkie kostki, których użyto do zbudowania tej bryły.</p><p>Ile co najmniej takich samych sześciennych kostek trzeba dołożyć do tej bryły, aby powstał sześcian?</p>",
+   "warianty": [
+    {
+     "litera": "A",
+     "html": "8"
+    },
+    {
+     "litera": "B",
+     "html": "21"
+    },
+    {
+     "litera": "C",
+     "html": "24"
+    },
+    {
+     "litera": "D",
+     "html": "56"
+    }
+   ],
+   "rysunki": [
+    "rysunki/szkolny_2015-2016_malopolskie_q14_fig1.svg"
+   ],
+   "odpowiedz": {
+    "poprawna": "D",
+    "zrodlo": "klucz",
+    "rozwiazanie_ai_html": "<p>Bryła jest zbudowana z 8 sześciennych kostek. Jej najdłuższy wymiar to 4 jednostki (rząd czterech kostek), więc najmniejszy sześcian, w którym się zmieści, ma krawędź 4 i objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math>. Trzeba więc dołożyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>56</mn></mrow></math> kostek.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "policz widoczne kostki i sprawdź, jak długa jest najdłuższa krawędź bryły",
+   "czas_min": 2
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q15",
+   "numer": 15,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną"
+   ],
+   "tresc_html": "<p>O której godzinie wyszła z domu na festyn Kasia, jeżeli z doby pozostało jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> tego czasu, który już upłynął? (Dobę rozumiemy jako okres pomiędzy godziną 0:00 jednego dnia i 0:00 dnia następnego).</p><p>Kasia wyszła z domu o godzinie __________ .</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "14:24",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Doba trwa 24 godziny. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas, który już upłynął. Wtedy pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mi>t</mi></mrow></math> godzin i z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mi>t</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>t</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mi>t</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>14,4</mn></mrow></math> godziny, to jest 14 godzin i 24 minuty. Zatem Kasia wyszła z domu o godzinie 14:24.</p>"
+   },
+   "w_pamieci": "pomysl",
+   "wskazowka": "czas miniony i pozostały dzielą dobę na 5 równych części",
+   "czas_min": 5,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "jednostki",
+     "kierunek-relacji"
+    ],
+    "opis": "Pozostały czas to 2/3 czasu, który upłynął, nie doby; ułamek godziny trzeba zamienić na minuty"
+   }
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q16",
+   "numer": 16,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zadania tekstowe na równania",
+    "równania z jedną zmienną",
+    "wyrażenia algebraiczne"
+   ],
+   "tresc_html": "<p>Dawid układał z zapałek szeregowce złożone z jednakowych domków w sposób przedstawiony na rysunku. Pierwszy domek ułożył z 6 zapałek. Na ułożenie szeregowca z dwóch domków potrzebował 11 zapałek, a z trzech 16 zapałek. Z ilu domków składał się szeregowiec, jeżeli do jego budowy Dawid zużył 66 zapałek?</p><p>Szeregowiec, na który zużyto 66 zapałek składał się z __________ domków.</p>",
+   "warianty": [],
+   "rysunki": [
+    "rysunki/szkolny_2015-2016_malopolskie_q16_fig1.png"
+   ],
+   "odpowiedz": {
+    "poprawna": "13",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>Pierwszy domek wymaga 6 zapałek, a każdy kolejny dokłada 5 zapałek. Liczba zapałek dla szeregowca z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> domków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>5</mn><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>5</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>66</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>n</mi><mo>=</mo><mn>65</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>13</mn></mrow></math>. Szeregowiec składał się z 13 domków.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "sprawdź, o ile rośnie liczba zapałek przy dokładaniu każdego kolejnego domku",
+   "czas_min": 5
+  },
+  {
+   "id": "szkolny_2015-2016_malopolskie_q17",
+   "numer": 17,
+   "typ": "otwarte",
+   "punkty": 2,
+   "tematy": [
+    "zliczanie / metody zliczania"
+   ],
+   "tresc_html": "<p>W turnieju szachowym zorganizowanym podczas festynu uczestniczy 32 zawodników. Turniej rozgrywany jest etapami. Na każdym etapie wszyscy uczestniczący w nim zawodnicy są dzieleni na grupy czteroosobowe. W każdej takiej grupie każdy zawodnik rozgrywa po jednej partii z każdym innym. Dwaj najlepsi zawodnicy z grupy przechodzą do następnego etapu, dwaj ostatni odpadają z turnieju. Po zakończeniu etapu, w którym grało ostatnich czterech zawodników, dwaj najlepsi rozgrywają między sobą dodatkową partię finałową. Ile partii rozegrano w czasie całego turnieju?</p><p>Podczas turnieju szachowego rozegrano __________ partii.</p>",
+   "warianty": [],
+   "rysunki": [],
+   "odpowiedz": {
+    "poprawna": "91",
+    "zrodlo": "klucz",
+    "rozwiazanie_html": "<p>W każdej czteroosobowej grupie rozgrywa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>4</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math> partii. Kolejne etapy: 32 zawodników → 8 grup → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>48</mn></mrow></math> partii (awansuje 16); 16 zawodników → 4 grupy → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></mrow></math> partie (awansuje 8); 8 zawodników → 2 grupy → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></mrow></math> partii (awansuje 4); 4 zawodników → 1 grupa → 6 partii (awansuje 2); na koniec 1 partia finałowa. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>91</mn></mrow></math> partii.</p>"
+   },
+   "w_pamieci": "wprost",
+   "wskazowka": "w grupie gra każdy z każdym — policz partie w jednej czwórce i liczbę grup ze wszystkich etapów",
+   "czas_min": 10,
+   "haczyk": {
+    "sila": 2,
+    "rodzaje": [
+     "inne:para-liczona-dwa-razy"
+    ],
+    "opis": "Partia to para zawodników; w grupie 4 osób nie liczyć 4·3 partii, pamiętać też o dodatkowej partii finałowej"
+   }
+  }
+ ]
+}
