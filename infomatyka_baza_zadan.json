@@ -499,35 +499,16 @@
     "variants": [
       {
         "id": 10601,
-        "text": "Aby wybrać wszystkie kolumny z tabeli `Uczniowie`, należy użyć polecenia `SELECT [[*]] FROM Uczniowie`.",
-        "points": 1,
-        "solution": "Poprawna odpowiedź to '*'. Gwiazdka w poleceniu SELECT oznacza wszystkie kolumny."
-      },
-      {
-        "id": 10602,
-        "text": "Klauzula służąca do filtrowania wyników zapytania SQL to [[WHERE]].",
-        "points": 1,
-        "solution": "Poprawna odpowiedź to `WHERE`. Służy ona do określania warunków, które muszą spełniać zwracane wiersze."
-      },
-      {
-        "id": 10603,
-        "text": "Aby posortować wyniki zapytania rosnąco według kolumny `Nazwisko`, należy dodać na końcu kwerendy klauzulę `ORDER BY Nazwisko [[ASC]]`.",
-        "points": 1,
-        "solution": "Poprawna odpowiedź to `ASC` (od ang. ascending – rosnąco). Jest to domyślny porządek sortowania, ale jego jawne podanie jest dobrą praktyką."
+        "text": "Uzupełnij poniższe zdania dotyczące baz danych i języka SQL.\na) Aby wybrać wszystkie kolumny z tabeli `Uczniowie`, należy użyć polecenia `SELECT [[*]] FROM Uczniowie`.\nb) Klauzula służąca do filtrowania wyników zapytania SQL to [[WHERE]].\nc) Aby posortować wyniki zapytania rosnąco według kolumny `Nazwisko`, należy dodać na końcu kwerendy klauzulę `ORDER BY Nazwisko [[ASC]]`.",
+        "points": 3,
+        "solution": "a) Poprawna odpowiedź to '*'. Gwiazdka w poleceniu SELECT oznacza wszystkie kolumny.\n\nb) Poprawna odpowiedź to `WHERE`. Służy ona do określania warunków, które muszą spełniać zwracane wiersze.\n\nc) Poprawna odpowiedź to `ASC` (od ang. ascending – rosnąco). Jest to domyślny porządek sortowania, ale jego jawne podanie jest dobrą praktyką."
       },
       {
         "id": 10604,
-        "text": "Język służący do wykonywania zapytań i zarządzania relacyjną bazą danych to [[SQL]].",
-        "points": 1,
+        "text": "Uzupełnij poniższe zdania dotyczące baz danych i języka SQL.\na) Język służący do wykonywania zapytań i zarządzania relacyjną bazą danych to [[SQL]].\nb) Aby pobrać dane z tabeli, używamy polecenia [[SELECT]].",
+        "points": 2,
         "isSpe": true,
-        "solution": "Poprawna odpowiedź to `SQL` (Structured Query Language – strukturalny język zapytań)."
-      },
-      {
-        "id": 10605,
-        "text": "Aby pobrać dane z tabeli, używamy polecenia [[SELECT]].",
-        "points": 1,
-        "isSpe": true,
-        "solution": "Poprawna odpowiedź to `SELECT`."
+        "solution": "a) Poprawna odpowiedź to `SQL` (Structured Query Language – strukturalny język zapytań).\n\nb) Poprawna odpowiedź to `SELECT`."
       }
     ]
   },
@@ -1061,35 +1042,16 @@
     "variants": [
       {
         "id": 20301,
-        "text": "W języku Python do wielokrotnego wykonywania bloku kodu można użyć pętli [[for]] lub [[while]].",
-        "points": 2,
-        "solution": "Poprawne odpowiedzi to `for` oraz `while`. Obie służą do iteracji, lecz działają na nieco innej zasadzie."
-      },
-      {
-        "id": 20302,
-        "text": "Instrukcja warunkowa w większości języków programowania zaczyna się od słowa kluczowego [[if]].",
-        "points": 1,
-        "solution": "Poprawna odpowiedź to `if`."
-      },
-      {
-        "id": 20303,
-        "text": "Aby wypisać tekst \"Hello, World!\" na ekranie w Pythonie, używamy funkcji [[print]](\"Hello, World!\").",
-        "points": 1,
-        "solution": "Poprawna odpowiedź to `print`."
+        "text": "Uzupełnij poniższe zdania dotyczące programowania.\na) W języku Python do wielokrotnego wykonywania bloku kodu można użyć pętli [[for]] lub [[while]].\nb) Instrukcja warunkowa w większości języków programowania zaczyna się od słowa kluczowego [[if]].\nc) Aby wypisać tekst \"Hello, World!\" na ekranie w Pythonie, używamy funkcji [[print]](\"Hello, World!\").",
+        "points": 4,
+        "solution": "a) Poprawne odpowiedzi to `for` oraz `while`. Obie służą do iteracji, lecz działają na nieco innej zasadzie.\n\nb) Poprawna odpowiedź to `if`.\n\nc) Poprawna odpowiedź to `print`."
       },
       {
         "id": 20304,
-        "text": "Komputer wykonuje polecenia zapisane w [[programie]].",
-        "points": 1,
+        "text": "Uzupełnij poniższe zdania dotyczące programowania.\na) Komputer wykonuje polecenia zapisane w [[programie]].\nb) Aby sprawdzić, czy zmienna `liczba` ma wartość większą od 10, zapisujemy warunek: `if liczba > [[10]]`.",
+        "points": 2,
         "isSpe": true,
-        "solution": "Poprawna odpowiedź to `programie`."
-      },
-      {
-        "id": 20305,
-        "text": "Aby sprawdzić, czy zmienna `liczba` ma wartość większą od 10, zapisujemy warunek: `if liczba > [[10]]`.",
-        "points": 1,
-        "isSpe": true,
-        "solution": "Poprawna odpowiedź to `10`."
+        "solution": "a) Poprawna odpowiedź to `programie`.\n\nb) Poprawna odpowiedź to `10`."
       }
     ]
   },
@@ -15046,7 +15008,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 9,
     "tags": [
       "potęgi",
       "własności potęg",
@@ -15065,21 +15027,9 @@
     "variants": [
       {
         "id": 419601,
-        "text": "Uprość wyrażenie i zapisz wynik w postaci jednej potęgi:\n$\\frac{2^{5} \\cdot 2^{7}}{2^{9}}$",
-        "points": 3,
-        "solution": "$\\frac{2^{5} \\cdot 2^{7}}{2^{9}} = \\frac{2^{12}}{2^{9}} = 2^{3}$"
-      },
-      {
-        "id": 419602,
-        "text": "Uprość wyrażenie i zapisz wynik w postaci jednej potęgi:\n$\\frac{3^{6} \\cdot 3^{8}}{3^{10}}$",
-        "points": 3,
-        "solution": "$\\frac{3^{6} \\cdot 3^{8}}{3^{10}} = \\frac{3^{14}}{3^{10}} = 3^{4}$"
-      },
-      {
-        "id": 419603,
-        "text": "Uprość wyrażenie i zapisz wynik w postaci jednej potęgi:\n$\\frac{(5^{3})^{4}}{5^{2} \\cdot 5^{7}}$",
-        "points": 3,
-        "solution": "$\\frac{(5^{3})^{4}}{5^{2} \\cdot 5^{7}} = \\frac{5^{12}}{5^{9}} = 5^{3}$"
+        "text": "Uprość poniższe wyrażenia. Wyniki zapisz w postaci jednej potęgi.\na) $\\frac{2^{5} \\cdot 2^{7}}{2^{9}}$\nb) $\\frac{3^{6} \\cdot 3^{8}}{3^{10}}$\nc) $\\frac{(5^{3})^{4}}{5^{2} \\cdot 5^{7}}$",
+        "points": 9,
+        "solution": "a) $\\frac{2^{5} \\cdot 2^{7}}{2^{9}} = \\frac{2^{12}}{2^{9}} = 2^{3}$\n\nb) $\\frac{3^{6} \\cdot 3^{8}}{3^{10}} = \\frac{3^{14}}{3^{10}} = 3^{4}$\n\nc) $\\frac{(5^{3})^{4}}{5^{2} \\cdot 5^{7}} = \\frac{5^{12}}{5^{9}} = 5^{3}$"
       }
     ]
   },
@@ -18632,7 +18582,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 6,
     "tags": [
       "mnożenie sum algebraicznych",
       "redukcja wyrazów podobnych",
@@ -18649,15 +18599,9 @@
     "variants": [
       {
         "id": 426001,
-        "text": "Wykonaj mnożenie i zredukuj wyrazy podobne: $(a+2)(a-4)$.",
-        "points": 2,
-        "solution": "$(a+2)(a-4) = a^{2} - 4a + 2a - 8 = a^{2} - 2a - 8$."
-      },
-      {
-        "id": 426002,
-        "text": "Wykonaj mnożenie i zredukuj wyrazy podobne: $(a-2)(4a+3)$.",
-        "points": 2,
-        "solution": "$(a-2)(4a+3) = 4a^{2} + 3a - 8a - 6 = 4a^{2} - 5a - 6$."
+        "text": "Wykonaj poniższe mnożenia i zredukuj wyrazy podobne.\na) $(a+2)(a-4)$\nb) $(a-2)(4a+3)$",
+        "points": 4,
+        "solution": "a) $(a+2)(a-4) = a^{2} - 4a + 2a - 8 = a^{2} - 2a - 8$.\n\nb) $(a-2)(4a+3) = 4a^{2} + 3a - 8a - 6 = 4a^{2} - 5a - 6$."
       }
     ]
   },
@@ -18761,7 +18705,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 4,
+    "estimatedTime": 8,
     "tags": [
       "równania z ułamkami",
       "równania liniowe",
@@ -18778,15 +18722,9 @@
     "variants": [
       {
         "id": 426301,
-        "text": "Rozwiąż równanie: $\\frac{3-x}{4} + \\frac{2x+1}{3} = \\frac{1}{6}$.",
-        "points": 2,
-        "solution": "Mnożymy obie strony przez 12: $3(3-x) + 4(2x+1) = 2$, $9 - 3x + 8x + 4 = 2$, $5x + 13 = 2$, $5x = -11$, $x = -\\frac{11}{5} = -2\\frac{1}{5}$."
-      },
-      {
-        "id": 426302,
-        "text": "Rozwiąż równanie: $\\frac{4+x}{2} - x = 0$.",
-        "points": 2,
-        "solution": "Mnożymy przez 2: $4 + x - 2x = 0$, $4 - x = 0$, $x = 4$."
+        "text": "Rozwiąż poniższe równania.\na) $\\frac{3-x}{4} + \\frac{2x+1}{3} = \\frac{1}{6}$\nb) $\\frac{4+x}{2} - x = 0$",
+        "points": 4,
+        "solution": "a) Mnożymy obie strony przez 12: $3(3-x) + 4(2x+1) = 2$, $9 - 3x + 8x + 4 = 2$, $5x + 13 = 2$, $5x = -11$, $x = -\\frac{11}{5} = -2\\frac{1}{5}$.\n\nb) Mnożymy przez 2: $4 + x - 2x = 0$, $4 - x = 0$, $x = 4$."
       }
     ]
   },
@@ -21849,7 +21787,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 9,
     "tags": [
       "wartość wyrażenia",
       "kolejność działań",
@@ -21867,21 +21805,9 @@
     "variants": [
       {
         "id": 432401,
-        "text": "Oblicz wartość wyrażenia: $4^2 - 2 \\cdot 3^2 + (-1)^4$.",
-        "points": 3,
-        "solution": "$16 - 2 \\cdot 9 + 1 = 16 - 18 + 1 = -1$"
-      },
-      {
-        "id": 432402,
-        "text": "Oblicz wartość wyrażenia: $5^2 - 3 \\cdot 2^3 + (-1)^5$.",
-        "points": 3,
-        "solution": "$25 - 3 \\cdot 8 + (-1) = 25 - 24 - 1 = 0$"
-      },
-      {
-        "id": 432403,
-        "text": "Oblicz wartość wyrażenia: $3^3 - 2 \\cdot 4^2 + (-1)^3$.",
-        "points": 3,
-        "solution": "$27 - 2 \\cdot 16 + (-1) = 27 - 32 - 1 = -6$"
+        "text": "Oblicz wartości poniższych wyrażeń. Pamiętaj o kolejności wykonywania działań.\na) $4^2 - 2 \\cdot 3^2 + (-1)^4$\nb) $5^2 - 3 \\cdot 2^3 + (-1)^5$\nc) $3^3 - 2 \\cdot 4^2 + (-1)^3$",
+        "points": 9,
+        "solution": "a) $16 - 2 \\cdot 9 + 1 = 16 - 18 + 1 = -1$\n\nb) $25 - 3 \\cdot 8 + (-1) = 25 - 24 - 1 = 0$\n\nc) $27 - 2 \\cdot 16 + (-1) = 27 - 32 - 1 = -6$"
       },
       {
         "id": 432404,
@@ -23452,7 +23378,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 6,
     "tags": [
       "równania",
       "nawiasy",
@@ -23470,15 +23396,9 @@
     "variants": [
       {
         "id": 434901,
-        "text": "Rozwiąż równanie: $5a - 2(a - 4) = 17 - (a + 1)$",
-        "points": 2,
-        "solution": "$5a - 2a + 8 = 17 - a - 1$\n$3a + 8 = 16 - a$\n$4a = 8$\n$a = 2$"
-      },
-      {
-        "id": 434902,
-        "text": "Rozwiąż równanie: $6b - 3(b - 2) = 19 - (b + 1)$",
-        "points": 2,
-        "solution": "$6b - 3b + 6 = 19 - b - 1$\n$3b + 6 = 18 - b$\n$4b = 12$\n$b = 3$"
+        "text": "Rozwiąż poniższe równania.\na) $5a - 2(a - 4) = 17 - (a + 1)$\nb) $6b - 3(b - 2) = 19 - (b + 1)$",
+        "points": 4,
+        "solution": "a) $5a - 2a + 8 = 17 - a - 1$\n$3a + 8 = 16 - a$\n$4a = 8$\n$a = 2$\n\nb) $6b - 3b + 6 = 19 - b - 1$\n$3b + 6 = 18 - b$\n$4b = 12$\n$b = 3$"
       },
       {
         "id": 434903,
@@ -23505,7 +23425,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 4,
+    "estimatedTime": 8,
     "tags": [
       "równania",
       "ułamki w równaniach",
@@ -23523,15 +23443,9 @@
     "variants": [
       {
         "id": 435001,
-        "text": "Rozwiąż równanie: $y - 2 = 3 - \\frac{y - 1}{3}$",
-        "points": 2,
-        "solution": "Mnożymy obie strony przez 3: $3y - 6 = 9 - (y - 1)$\n$3y - 6 = 10 - y$\n$4y = 16$\n$y = 4$"
-      },
-      {
-        "id": 435002,
-        "text": "Rozwiąż równanie: $2y - 1 = 3 - \\frac{y - 2}{2}$",
-        "points": 2,
-        "solution": "Mnożymy obie strony przez 2: $4y - 2 = 6 - (y - 2)$\n$4y - 2 = 8 - y$\n$5y = 10$\n$y = 2$"
+        "text": "Rozwiąż poniższe równania.\na) $y - 2 = 3 - \\frac{y - 1}{3}$\nb) $2y - 1 = 3 - \\frac{y - 2}{2}$",
+        "points": 4,
+        "solution": "a) Mnożymy obie strony przez 3: $3y - 6 = 9 - (y - 1)$\n$3y - 6 = 10 - y$\n$4y = 16$\n$y = 4$\n\nb) Mnożymy obie strony przez 2: $4y - 2 = 6 - (y - 2)$\n$4y - 2 = 8 - y$\n$5y = 10$\n$y = 2$"
       },
       {
         "id": 435003,
@@ -23558,7 +23472,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 4,
+    "estimatedTime": 8,
     "tags": [
       "równania",
       "proporcje",
@@ -23576,15 +23490,9 @@
     "variants": [
       {
         "id": 435101,
-        "text": "Rozwiąż równanie: $\\frac{x + 3}{2} = \\frac{x + 7}{3}$",
-        "points": 2,
-        "solution": "Mnożymy na krzyż: $3(x + 3) = 2(x + 7)$\n$3x + 9 = 2x + 14$\n$x = 5$"
-      },
-      {
-        "id": 435102,
-        "text": "Rozwiąż równanie: $\\frac{x + 2}{3} = \\frac{x + 5}{4}$",
-        "points": 2,
-        "solution": "Mnożymy na krzyż: $4(x + 2) = 3(x + 5)$\n$4x + 8 = 3x + 15$\n$x = 7$"
+        "text": "Rozwiąż poniższe równania.\na) $\\frac{x + 3}{2} = \\frac{x + 7}{3}$\nb) $\\frac{x + 2}{3} = \\frac{x + 5}{4}$",
+        "points": 4,
+        "solution": "a) Mnożymy na krzyż: $3(x + 3) = 2(x + 7)$\n$3x + 9 = 2x + 14$\n$x = 5$\n\nb) Mnożymy na krzyż: $4(x + 2) = 3(x + 5)$\n$4x + 8 = 3x + 15$\n$x = 7$"
       }
     ]
   },
@@ -25962,7 +25870,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 2,
     "tags": [
       "wyrazy podobne",
       "redukcja",
@@ -25979,15 +25887,9 @@
     "variants": [
       {
         "id": 440501,
-        "text": "Zapisz w najprostszej postaci wyrażenie: $2x + 3x$",
-        "points": 1,
-        "solution": "$2x + 3x = 5x$"
-      },
-      {
-        "id": 440502,
-        "text": "Zapisz w najprostszej postaci wyrażenie: $7x - 4x$",
-        "points": 1,
-        "solution": "$7x - 4x = 3x$"
+        "text": "Zapisz poniższe wyrażenia w najprostszej postaci.\na) $2x + 3x$\nb) $7x - 4x$",
+        "points": 2,
+        "solution": "a) $2x + 3x = 5x$\n\nb) $7x - 4x = 3x$"
       }
     ]
   },
@@ -26427,7 +26329,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 6,
     "tags": [
       "usuwanie niewymierności",
       "pierwiastki w mianowniku",
@@ -26444,15 +26346,9 @@
     "variants": [
       {
         "id": 441701,
-        "text": "Usuń niewymierność z mianownika: $\\frac{3}{\\sqrt{5}}$",
-        "points": 1,
-        "solution": "$\\frac{3}{\\sqrt{5}} = \\frac{3 \\cdot \\sqrt{5}}{\\sqrt{5} \\cdot \\sqrt{5}} = \\frac{3\\sqrt{5}}{5}$"
-      },
-      {
-        "id": 441702,
-        "text": "Usuń niewymierność z mianownika: $\\frac{5}{2\\sqrt{3}}$",
-        "points": 1,
-        "solution": "$\\frac{5}{2\\sqrt{3}} = \\frac{5\\sqrt{3}}{2\\sqrt{3} \\cdot \\sqrt{3}} = \\frac{5\\sqrt{3}}{2 \\cdot 3} = \\frac{5\\sqrt{3}}{6}$"
+        "text": "Usuń niewymierność z mianowników poniższych ułamków.\na) $\\frac{3}{\\sqrt{5}}$\nb) $\\frac{5}{2\\sqrt{3}}$",
+        "points": 2,
+        "solution": "a) $\\frac{3}{\\sqrt{5}} = \\frac{3 \\cdot \\sqrt{5}}{\\sqrt{5} \\cdot \\sqrt{5}} = \\frac{3\\sqrt{5}}{5}$\n\nb) $\\frac{5}{2\\sqrt{3}} = \\frac{5\\sqrt{3}}{2\\sqrt{3} \\cdot \\sqrt{3}} = \\frac{5\\sqrt{3}}{2 \\cdot 3} = \\frac{5\\sqrt{3}}{6}$"
       }
     ]
   },
@@ -30389,7 +30285,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 2,
     "tags": [
       "potęgi",
       "obliczanie potęg",
@@ -30406,15 +30302,9 @@
     "variants": [
       {
         "id": 452501,
-        "text": "Oblicz $2^{4}$.",
-        "points": 1,
-        "solution": "$2^{4} = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$"
-      },
-      {
-        "id": 452502,
-        "text": "Oblicz $3^{2}$.",
-        "points": 1,
-        "solution": "$3^{2} = 3 \\cdot 3 = 9$"
+        "text": "Oblicz poniższe potęgi.\na) $2^{4}$\nb) $3^{2}$",
+        "points": 2,
+        "solution": "a) $2^{4} = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16$\n\nb) $3^{2} = 3 \\cdot 3 = 9$"
       }
     ]
   },
@@ -30433,7 +30323,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 2,
     "tags": [
       "pierwiastek kwadratowy",
       "klasa 7",
@@ -30449,15 +30339,9 @@
     "variants": [
       {
         "id": 452601,
-        "text": "Oblicz pierwiastek kwadratowy z liczby 25.",
-        "points": 1,
-        "solution": "$\\sqrt{25} = 5$, bo $5^{2} = 25$."
-      },
-      {
-        "id": 452602,
-        "text": "Oblicz pierwiastek kwadratowy z liczby 16.",
-        "points": 1,
-        "solution": "$\\sqrt{16} = 4$, bo $4^{2} = 16$."
+        "text": "Oblicz poniższe pierwiastki kwadratowe.\na) $\\sqrt{25}$\nb) $\\sqrt{16}$",
+        "points": 2,
+        "solution": "a) $\\sqrt{25} = 5$, bo $5^{2} = 25$.\n\nb) $\\sqrt{16} = 4$, bo $4^{2} = 16$."
       }
     ]
   },
@@ -30476,7 +30360,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "wyrazy podobne",
       "redukcja",
@@ -30493,15 +30377,9 @@
     "variants": [
       {
         "id": 452701,
-        "text": "Przekształć wyrażenie $3x + 2 - 5x$, redukując wyrazy podobne.",
-        "points": 1,
-        "solution": "$3x - 5x + 2 = -2x + 2$"
-      },
-      {
-        "id": 452702,
-        "text": "Przekształć wyrażenie $5x + 7 - 2x + 3$, redukując wyrazy podobne.",
-        "points": 1,
-        "solution": "$5x - 2x + 7 + 3 = 3x + 10$"
+        "text": "Zredukuj wyrazy podobne w poniższych wyrażeniach.\na) $3x + 2 - 5x$\nb) $5x + 7 - 2x + 3$",
+        "points": 2,
+        "solution": "a) $3x - 5x + 2 = -2x + 2$\n\nb) $5x - 2x + 7 + 3 = 3x + 10$"
       }
     ]
   },
@@ -30520,7 +30398,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "równania liniowe",
       "klasa 7",
@@ -30536,15 +30414,9 @@
     "variants": [
       {
         "id": 452801,
-        "text": "Rozwiąż równanie $3x - 5 = 10$.",
-        "points": 1,
-        "solution": "$3x = 15 \\;/:3$, więc $x = 5$."
-      },
-      {
-        "id": 452802,
-        "text": "Rozwiąż równanie $2x + 4 = 12$.",
-        "points": 1,
-        "solution": "$2x = 8 \\;/:2$, więc $x = 4$."
+        "text": "Rozwiąż poniższe równania.\na) $3x - 5 = 10$\nb) $2x + 4 = 12$",
+        "points": 2,
+        "solution": "a) $3x = 15 \\;/:3$, więc $x = 5$.\n\nb) $2x = 8 \\;/:2$, więc $x = 4$."
       }
     ]
   },
@@ -30651,7 +30523,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "liczby całkowite",
       "kolejność działań",
@@ -30668,15 +30540,9 @@
     "variants": [
       {
         "id": 453101,
-        "text": "Oblicz wartość wyrażenia $(-4) + 7 - (-3) \\cdot 2$.",
-        "points": 1,
-        "solution": "$(-4) + 7 - (-3) \\cdot 2 = 3 - (-6) = 3 + 6 = 9$"
-      },
-      {
-        "id": 453102,
-        "text": "Oblicz wartość wyrażenia $(-2) + 5 - (-1) \\cdot 3$.",
-        "points": 1,
-        "solution": "$(-2) + 5 - (-1) \\cdot 3 = 3 - (-3) = 3 + 3 = 6$"
+        "text": "Oblicz wartości poniższych wyrażeń.\na) $(-4) + 7 - (-3) \\cdot 2$\nb) $(-2) + 5 - (-1) \\cdot 3$",
+        "points": 2,
+        "solution": "a) $(-4) + 7 - (-3) \\cdot 2 = 3 - (-6) = 3 + 6 = 9$\n\nb) $(-2) + 5 - (-1) \\cdot 3 = 3 - (-3) = 3 + 3 = 6$"
       }
     ]
   },
@@ -30695,7 +30561,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "liczby całkowite",
       "mnożenie",
@@ -30712,15 +30578,9 @@
     "variants": [
       {
         "id": 453201,
-        "text": "Oblicz $6 \\cdot (-3) + 4 \\cdot 2$.",
-        "points": 1,
-        "solution": "$6 \\cdot (-3) + 4 \\cdot 2 = -18 + 8 = -10$"
-      },
-      {
-        "id": 453202,
-        "text": "Oblicz $-5 \\cdot 3 + 2 \\cdot 4$.",
-        "points": 1,
-        "solution": "$-5 \\cdot 3 + 2 \\cdot 4 = -15 + 8 = -7$"
+        "text": "Oblicz wartości poniższych wyrażeń.\na) $6 \\cdot (-3) + 4 \\cdot 2$\nb) $-5 \\cdot 3 + 2 \\cdot 4$",
+        "points": 2,
+        "solution": "a) $6 \\cdot (-3) + 4 \\cdot 2 = -18 + 8 = -10$\n\nb) $-5 \\cdot 3 + 2 \\cdot 4 = -15 + 8 = -7$"
       }
     ]
   },
@@ -30739,7 +30599,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "liczby całkowite",
       "dzielenie",
@@ -30756,15 +30616,9 @@
     "variants": [
       {
         "id": 453301,
-        "text": "Oblicz $\\frac{-12}{-3} + 5$.",
-        "points": 1,
-        "solution": "$\\frac{-12}{-3} + 5 = 4 + 5 = 9$"
-      },
-      {
-        "id": 453302,
-        "text": "Oblicz $\\frac{8}{-2} - 3$.",
-        "points": 1,
-        "solution": "$\\frac{8}{-2} - 3 = -4 - 3 = -7$"
+        "text": "Oblicz wartości poniższych wyrażeń.\na) $\\frac{-12}{-3} + 5$\nb) $\\frac{8}{-2} - 3$",
+        "points": 2,
+        "solution": "a) $\\frac{-12}{-3} + 5 = 4 + 5 = 9$\n\nb) $\\frac{8}{-2} - 3 = -4 - 3 = -7$"
       }
     ]
   },
@@ -30827,7 +30681,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 6,
     "tags": [
       "równania liniowe",
       "nawiasy",
@@ -30844,15 +30698,9 @@
     "variants": [
       {
         "id": 453501,
-        "text": "Rozwiąż równanie $3(x - 2) + 4 = 2x + 5$.",
-        "points": 2,
-        "solution": "$3x - 6 + 4 = 2x + 5$, czyli $3x - 2 = 2x + 5$, stąd $x = 7$."
-      },
-      {
-        "id": 453502,
-        "text": "Rozwiąż równanie $2(x + 3) = 3x - 1$.",
-        "points": 2,
-        "solution": "$2x + 6 = 3x - 1$, czyli $6 + 1 = 3x - 2x$, stąd $x = 7$."
+        "text": "Rozwiąż poniższe równania.\na) $3(x - 2) + 4 = 2x + 5$\nb) $2(x + 3) = 3x - 1$",
+        "points": 4,
+        "solution": "a) $3x - 6 + 4 = 2x + 5$, czyli $3x - 2 = 2x + 5$, stąd $x = 7$.\n\nb) $2x + 6 = 3x - 1$, czyli $6 + 1 = 3x - 2x$, stąd $x = 7$."
       }
     ]
   },
@@ -30916,7 +30764,7 @@
     "type": "uzupełnij lukę",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 4,
     "tags": [
       "ciągi liczbowe",
       "regularność",
@@ -30933,15 +30781,9 @@
     "variants": [
       {
         "id": 453701,
-        "text": "Uzupełnij ciąg liczbowy: 2, 7, 12, 17, [[22]], [[27]].",
-        "points": 1,
-        "solution": "Każdy kolejny wyraz jest o 5 większy: 17 + 5 = 22, 22 + 5 = 27."
-      },
-      {
-        "id": 453702,
-        "text": "Uzupełnij ciąg liczbowy: 5, 11, 17, 23, [[29]].",
-        "points": 1,
-        "solution": "Każdy kolejny wyraz jest o 6 większy: 23 + 6 = 29."
+        "text": "Uzupełnij poniższe ciągi liczbowe.\na) 2, 7, 12, 17, [[22]], [[27]]\nb) 5, 11, 17, 23, [[29]]",
+        "points": 2,
+        "solution": "a) Każdy kolejny wyraz jest o 5 większy: 17 + 5 = 22, 22 + 5 = 27.\n\nb) Każdy kolejny wyraz jest o 6 większy: 23 + 6 = 29."
       }
     ]
   },
@@ -34514,7 +34356,7 @@
     "type": "uzupełnij lukę",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "tabliczka mnożenia",
       "mnożenie w pamięci",
@@ -34531,183 +34373,63 @@
     "variants": [
       {
         "id": 460601,
-        "text": "Uzupełnij: $5 \\cdot 5 =$ [[25]]",
-        "points": 1,
-        "solution": "$5 \\cdot 5 = 25$"
-      },
-      {
-        "id": 460602,
-        "text": "Uzupełnij: $6 \\cdot 8 =$ [[48]]",
-        "points": 1,
-        "solution": "$6 \\cdot 8 = 48$"
-      },
-      {
-        "id": 460603,
-        "text": "Uzupełnij: $9 \\cdot 7 =$ [[63]]",
-        "points": 1,
-        "solution": "$9 \\cdot 7 = 63$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $5 \\cdot 5 =$ [[25]]\nb) $6 \\cdot 8 =$ [[48]]\nc) $9 \\cdot 7 =$ [[63]]",
+        "points": 3,
+        "solution": "a) $5 \\cdot 5 = 25$\n\nb) $6 \\cdot 8 = 48$\n\nc) $9 \\cdot 7 = 63$"
       },
       {
         "id": 460604,
-        "text": "Uzupełnij: $8 \\cdot 6 =$ [[48]]",
-        "points": 1,
-        "solution": "$8 \\cdot 6 = 48$"
-      },
-      {
-        "id": 460605,
-        "text": "Uzupełnij: $7 \\cdot 9 =$ [[63]]",
-        "points": 1,
-        "solution": "$7 \\cdot 9 = 63$"
-      },
-      {
-        "id": 460606,
-        "text": "Uzupełnij: $10 \\cdot 5 =$ [[50]]",
-        "points": 1,
-        "solution": "$10 \\cdot 5 = 50$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $8 \\cdot 6 =$ [[48]]\nb) $7 \\cdot 9 =$ [[63]]\nc) $10 \\cdot 5 =$ [[50]]",
+        "points": 3,
+        "solution": "a) $8 \\cdot 6 = 48$\n\nb) $7 \\cdot 9 = 63$\n\nc) $10 \\cdot 5 = 50$"
       },
       {
         "id": 460607,
-        "text": "Uzupełnij: $6 \\cdot 7 =$ [[42]]",
-        "points": 1,
-        "solution": "$6 \\cdot 7 = 42$"
-      },
-      {
-        "id": 460608,
-        "text": "Uzupełnij: $9 \\cdot 8 =$ [[72]]",
-        "points": 1,
-        "solution": "$9 \\cdot 8 = 72$"
-      },
-      {
-        "id": 460609,
-        "text": "Uzupełnij: $5 \\cdot 10 =$ [[50]]",
-        "points": 1,
-        "solution": "$5 \\cdot 10 = 50$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $6 \\cdot 7 =$ [[42]]\nb) $9 \\cdot 8 =$ [[72]]\nc) $5 \\cdot 10 =$ [[50]]",
+        "points": 3,
+        "solution": "a) $6 \\cdot 7 = 42$\n\nb) $9 \\cdot 8 = 72$\n\nc) $5 \\cdot 10 = 50$"
       },
       {
         "id": 460610,
-        "text": "Uzupełnij: $10 \\cdot 9 =$ [[90]]",
-        "points": 1,
-        "solution": "$10 \\cdot 9 = 90$"
-      },
-      {
-        "id": 460611,
-        "text": "Uzupełnij: $7 \\cdot 6 =$ [[42]]",
-        "points": 1,
-        "solution": "$7 \\cdot 6 = 42$"
-      },
-      {
-        "id": 460612,
-        "text": "Uzupełnij: $8 \\cdot 9 =$ [[72]]",
-        "points": 1,
-        "solution": "$8 \\cdot 9 = 72$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $10 \\cdot 9 =$ [[90]]\nb) $7 \\cdot 6 =$ [[42]]\nc) $8 \\cdot 9 =$ [[72]]",
+        "points": 3,
+        "solution": "a) $10 \\cdot 9 = 90$\n\nb) $7 \\cdot 6 = 42$\n\nc) $8 \\cdot 9 = 72$"
       },
       {
         "id": 460613,
-        "text": "Uzupełnij: $9 \\cdot 5 =$ [[45]]",
-        "points": 1,
-        "solution": "$9 \\cdot 5 = 45$"
-      },
-      {
-        "id": 460614,
-        "text": "Uzupełnij: $6 \\cdot 9 =$ [[54]]",
-        "points": 1,
-        "solution": "$6 \\cdot 9 = 54$"
-      },
-      {
-        "id": 460615,
-        "text": "Uzupełnij: $7 \\cdot 8 =$ [[56]]",
-        "points": 1,
-        "solution": "$7 \\cdot 8 = 56$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $9 \\cdot 5 =$ [[45]]\nb) $6 \\cdot 9 =$ [[54]]\nc) $7 \\cdot 8 =$ [[56]]",
+        "points": 3,
+        "solution": "a) $9 \\cdot 5 = 45$\n\nb) $6 \\cdot 9 = 54$\n\nc) $7 \\cdot 8 = 56$"
       },
       {
         "id": 460616,
-        "text": "Uzupełnij: $10 \\cdot 6 =$ [[60]]",
-        "points": 1,
-        "solution": "$10 \\cdot 6 = 60$"
-      },
-      {
-        "id": 460617,
-        "text": "Uzupełnij: $8 \\cdot 7 =$ [[56]]",
-        "points": 1,
-        "solution": "$8 \\cdot 7 = 56$"
-      },
-      {
-        "id": 460618,
-        "text": "Uzupełnij: $5 \\cdot 8 =$ [[40]]",
-        "points": 1,
-        "solution": "$5 \\cdot 8 = 40$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $10 \\cdot 6 =$ [[60]]\nb) $8 \\cdot 7 =$ [[56]]\nc) $5 \\cdot 8 =$ [[40]]",
+        "points": 3,
+        "solution": "a) $10 \\cdot 6 = 60$\n\nb) $8 \\cdot 7 = 56$\n\nc) $5 \\cdot 8 = 40$"
       },
       {
         "id": 460619,
-        "text": "Uzupełnij: $9 \\cdot 10 =$ [[90]]",
-        "points": 1,
-        "solution": "$9 \\cdot 10 = 90$"
-      },
-      {
-        "id": 460620,
-        "text": "Uzupełnij: $10 \\cdot 7 =$ [[70]]",
-        "points": 1,
-        "solution": "$10 \\cdot 7 = 70$"
-      },
-      {
-        "id": 460621,
-        "text": "Uzupełnij: $8 \\cdot 8 =$ [[64]]",
-        "points": 1,
-        "solution": "$8 \\cdot 8 = 64$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $9 \\cdot 10 =$ [[90]]\nb) $10 \\cdot 7 =$ [[70]]\nc) $8 \\cdot 8 =$ [[64]]",
+        "points": 3,
+        "solution": "a) $9 \\cdot 10 = 90$\n\nb) $10 \\cdot 7 = 70$\n\nc) $8 \\cdot 8 = 64$"
       },
       {
         "id": 460622,
-        "text": "Uzupełnij: $7 \\cdot 10 =$ [[70]]",
-        "points": 1,
-        "solution": "$7 \\cdot 10 = 70$"
-      },
-      {
-        "id": 460623,
-        "text": "Uzupełnij: $9 \\cdot 9 =$ [[81]]",
-        "points": 1,
-        "solution": "$9 \\cdot 9 = 81$"
-      },
-      {
-        "id": 460624,
-        "text": "Uzupełnij: $6 \\cdot 10 =$ [[60]]",
-        "points": 1,
-        "solution": "$6 \\cdot 10 = 60$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $7 \\cdot 10 =$ [[70]]\nb) $9 \\cdot 9 =$ [[81]]\nc) $6 \\cdot 10 =$ [[60]]",
+        "points": 3,
+        "solution": "a) $7 \\cdot 10 = 70$\n\nb) $9 \\cdot 9 = 81$\n\nc) $6 \\cdot 10 = 60$"
       },
       {
         "id": 460625,
-        "text": "Uzupełnij: $5 \\cdot 9 =$ [[45]]",
-        "points": 1,
-        "solution": "$5 \\cdot 9 = 45$"
-      },
-      {
-        "id": 460626,
-        "text": "Uzupełnij: $10 \\cdot 8 =$ [[80]]",
-        "points": 1,
-        "solution": "$10 \\cdot 8 = 80$"
-      },
-      {
-        "id": 460627,
-        "text": "Uzupełnij: $7 \\cdot 7 =$ [[49]]",
-        "points": 1,
-        "solution": "$7 \\cdot 7 = 49$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $5 \\cdot 9 =$ [[45]]\nb) $10 \\cdot 8 =$ [[80]]\nc) $7 \\cdot 7 =$ [[49]]",
+        "points": 3,
+        "solution": "a) $5 \\cdot 9 = 45$\n\nb) $10 \\cdot 8 = 80$\n\nc) $7 \\cdot 7 = 49$"
       },
       {
         "id": 460628,
-        "text": "Uzupełnij: $6 \\cdot 6 =$ [[36]]",
-        "points": 1,
-        "solution": "$6 \\cdot 6 = 36$"
-      },
-      {
-        "id": 460629,
-        "text": "Uzupełnij: $8 \\cdot 10 =$ [[80]]",
-        "points": 1,
-        "solution": "$8 \\cdot 10 = 80$"
-      },
-      {
-        "id": 460630,
-        "text": "Uzupełnij: $9 \\cdot 6 =$ [[54]]",
-        "points": 1,
-        "solution": "$9 \\cdot 6 = 54$"
+        "text": "Oblicz poniższe iloczyny i uzupełnij luki.\na) $6 \\cdot 6 =$ [[36]]\nb) $8 \\cdot 10 =$ [[80]]\nc) $9 \\cdot 6 =$ [[54]]",
+        "points": 3,
+        "solution": "a) $6 \\cdot 6 = 36$\n\nb) $8 \\cdot 10 = 80$\n\nc) $9 \\cdot 6 = 54$"
       }
     ]
   },
@@ -35087,7 +34809,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "ułamki zwykłe",
       "dodawanie",
@@ -35106,93 +34828,33 @@
     "variants": [
       {
         "id": 461601,
-        "text": "Oblicz: $\\frac{2}{7} + \\frac{4}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{7} + \\frac{4}{7} = \\frac{6}{7}$"
-      },
-      {
-        "id": 461602,
-        "text": "Oblicz: $\\frac{5}{9} + \\frac{3}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{9} + \\frac{3}{9} = \\frac{8}{9}$"
-      },
-      {
-        "id": 461603,
-        "text": "Oblicz: $1\\frac{2}{5} + 2\\frac{1}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{2}{5} + 2\\frac{1}{5} = \\frac{7}{5} + \\frac{11}{5} = \\frac{18}{5} = 3\\frac{3}{5}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{2}{7} + \\frac{4}{7}$\nb) $\\frac{5}{9} + \\frac{3}{9}$\nc) $1\\frac{2}{5} + 2\\frac{1}{5}$",
+        "points": 3,
+        "solution": "a) $\\frac{2}{7} + \\frac{4}{7} = \\frac{6}{7}$\n\nb) $\\frac{5}{9} + \\frac{3}{9} = \\frac{8}{9}$\n\nc) $1\\frac{2}{5} + 2\\frac{1}{5} = \\frac{7}{5} + \\frac{11}{5} = \\frac{18}{5} = 3\\frac{3}{5}$"
       },
       {
         "id": 461604,
-        "text": "Oblicz: $\\frac{7}{10} + \\frac{2}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{10} + \\frac{2}{10} = \\frac{9}{10}$"
-      },
-      {
-        "id": 461605,
-        "text": "Oblicz: $4\\frac{5}{12} + 2\\frac{6}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{5}{12} + 2\\frac{6}{12} = \\frac{53}{12} + \\frac{30}{12} = \\frac{83}{12} = 6\\frac{11}{12}$"
-      },
-      {
-        "id": 461606,
-        "text": "Oblicz: $3\\frac{4}{8} + 1\\frac{3}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{4}{8} + 1\\frac{3}{8} = \\frac{28}{8} + \\frac{11}{8} = \\frac{39}{8} = 4\\frac{7}{8}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{7}{10} + \\frac{2}{10}$\nb) $4\\frac{5}{12} + 2\\frac{6}{12}$\nc) $3\\frac{4}{8} + 1\\frac{3}{8}$",
+        "points": 3,
+        "solution": "a) $\\frac{7}{10} + \\frac{2}{10} = \\frac{9}{10}$\n\nb) $4\\frac{5}{12} + 2\\frac{6}{12} = \\frac{53}{12} + \\frac{30}{12} = \\frac{83}{12} = 6\\frac{11}{12}$\n\nc) $3\\frac{4}{8} + 1\\frac{3}{8} = \\frac{28}{8} + \\frac{11}{8} = \\frac{39}{8} = 4\\frac{7}{8}$"
       },
       {
         "id": 461607,
-        "text": "Oblicz: $2\\frac{3}{6} + 5\\frac{2}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{3}{6} + 5\\frac{2}{6} = \\frac{15}{6} + \\frac{32}{6} = \\frac{47}{6} = 7\\frac{5}{6}$"
-      },
-      {
-        "id": 461608,
-        "text": "Oblicz: $\\frac{9}{11} + \\frac{1}{11}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{11} + \\frac{1}{11} = \\frac{10}{11}$"
-      },
-      {
-        "id": 461609,
-        "text": "Oblicz: $6\\frac{7}{15} + 3\\frac{5}{15}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6\\frac{7}{15} + 3\\frac{5}{15} = \\frac{97}{15} + \\frac{50}{15} = \\frac{147}{15} = 9\\frac{4}{5}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $2\\frac{3}{6} + 5\\frac{2}{6}$\nb) $\\frac{9}{11} + \\frac{1}{11}$\nc) $6\\frac{7}{15} + 3\\frac{5}{15}$",
+        "points": 3,
+        "solution": "a) $2\\frac{3}{6} + 5\\frac{2}{6} = \\frac{15}{6} + \\frac{32}{6} = \\frac{47}{6} = 7\\frac{5}{6}$\n\nb) $\\frac{9}{11} + \\frac{1}{11} = \\frac{10}{11}$\n\nc) $6\\frac{7}{15} + 3\\frac{5}{15} = \\frac{97}{15} + \\frac{50}{15} = \\frac{147}{15} = 9\\frac{4}{5}$"
       },
       {
         "id": 461610,
-        "text": "Oblicz: $1\\frac{8}{9} + 2\\frac{7}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{8}{9} + 2\\frac{7}{9} = \\frac{17}{9} + \\frac{25}{9} = \\frac{42}{9} = 4\\frac{2}{3}$"
-      },
-      {
-        "id": 461611,
-        "text": "Oblicz: $\\frac{3}{7} + \\frac{2}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{7} + \\frac{2}{7} = \\frac{5}{7}$"
-      },
-      {
-        "id": 461612,
-        "text": "Oblicz: $2\\frac{3}{7} + 1\\frac{2}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{3}{7} + 1\\frac{2}{7} = \\frac{17}{7} + \\frac{9}{7} = \\frac{26}{7} = 3\\frac{5}{7}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{8}{9} + 2\\frac{7}{9}$\nb) $\\frac{3}{7} + \\frac{2}{7}$\nc) $2\\frac{3}{7} + 1\\frac{2}{7}$",
+        "points": 3,
+        "solution": "a) $1\\frac{8}{9} + 2\\frac{7}{9} = \\frac{17}{9} + \\frac{25}{9} = \\frac{42}{9} = 4\\frac{2}{3}$\n\nb) $\\frac{3}{7} + \\frac{2}{7} = \\frac{5}{7}$\n\nc) $2\\frac{3}{7} + 1\\frac{2}{7} = \\frac{17}{7} + \\frac{9}{7} = \\frac{26}{7} = 3\\frac{5}{7}$"
       },
       {
         "id": 461613,
-        "text": "Oblicz: $1\\frac{7}{8} + \\frac{5}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{7}{8} + \\frac{5}{8} = \\frac{15}{8} + \\frac{5}{8} = \\frac{20}{8} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 461614,
-        "text": "Oblicz: $5\\frac{1}{2} + 2\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$5\\frac{1}{2} + 2\\frac{1}{2} = \\frac{11}{2} + \\frac{5}{2} = \\frac{16}{2} = 8$"
-      },
-      {
-        "id": 461615,
-        "text": "Oblicz: $1\\frac{3}{5} + \\frac{4}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{3}{5} + \\frac{4}{5} = \\frac{8}{5} + \\frac{4}{5} = \\frac{12}{5} = 2\\frac{2}{5}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{7}{8} + \\frac{5}{8}$\nb) $5\\frac{1}{2} + 2\\frac{1}{2}$\nc) $1\\frac{3}{5} + \\frac{4}{5}$",
+        "points": 3,
+        "solution": "a) $1\\frac{7}{8} + \\frac{5}{8} = \\frac{15}{8} + \\frac{5}{8} = \\frac{20}{8} = 2\\frac{1}{2}$\n\nb) $5\\frac{1}{2} + 2\\frac{1}{2} = \\frac{11}{2} + \\frac{5}{2} = \\frac{16}{2} = 8$\n\nc) $1\\frac{3}{5} + \\frac{4}{5} = \\frac{8}{5} + \\frac{4}{5} = \\frac{12}{5} = 2\\frac{2}{5}$"
       }
     ]
   },
@@ -35211,7 +34873,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "ułamki zwykłe",
       "odejmowanie",
@@ -35230,99 +34892,39 @@
     "variants": [
       {
         "id": 461701,
-        "text": "Oblicz: $\\frac{5}{8} - \\frac{3}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{8} - \\frac{3}{8} = \\frac{2}{8} = \\frac{1}{4}$"
-      },
-      {
-        "id": 461702,
-        "text": "Oblicz: $\\frac{7}{12} - \\frac{4}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{12} - \\frac{4}{12} = \\frac{3}{12} = \\frac{1}{4}$"
-      },
-      {
-        "id": 461703,
-        "text": "Oblicz: $3\\frac{5}{6} - 1\\frac{2}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{5}{6} - 1\\frac{2}{6} = \\frac{23}{6} - \\frac{8}{6} = \\frac{15}{6} = 2\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{5}{8} - \\frac{3}{8}$\nb) $\\frac{7}{12} - \\frac{4}{12}$\nc) $3\\frac{5}{6} - 1\\frac{2}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{5}{8} - \\frac{3}{8} = \\frac{2}{8} = \\frac{1}{4}$\n\nb) $\\frac{7}{12} - \\frac{4}{12} = \\frac{3}{12} = \\frac{1}{4}$\n\nc) $3\\frac{5}{6} - 1\\frac{2}{6} = \\frac{23}{6} - \\frac{8}{6} = \\frac{15}{6} = 2\\frac{1}{2}$"
       },
       {
         "id": 461704,
-        "text": "Oblicz: $4\\frac{7}{10} - 2\\frac{3}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{7}{10} - 2\\frac{3}{10} = \\frac{47}{10} - \\frac{23}{10} = \\frac{24}{10} = 2\\frac{2}{5}$"
-      },
-      {
-        "id": 461705,
-        "text": "Oblicz: $\\frac{9}{15} - \\frac{4}{15}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{15} - \\frac{4}{15} = \\frac{5}{15} = \\frac{1}{3}$"
-      },
-      {
-        "id": 461706,
-        "text": "Oblicz: $5\\frac{8}{9} - 3\\frac{5}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$5\\frac{8}{9} - 3\\frac{5}{9} = \\frac{53}{9} - \\frac{32}{9} = \\frac{21}{9} = 2\\frac{1}{3}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $4\\frac{7}{10} - 2\\frac{3}{10}$\nb) $\\frac{9}{15} - \\frac{4}{15}$\nc) $5\\frac{8}{9} - 3\\frac{5}{9}$",
+        "points": 3,
+        "solution": "a) $4\\frac{7}{10} - 2\\frac{3}{10} = \\frac{47}{10} - \\frac{23}{10} = \\frac{24}{10} = 2\\frac{2}{5}$\n\nb) $\\frac{9}{15} - \\frac{4}{15} = \\frac{5}{15} = \\frac{1}{3}$\n\nc) $5\\frac{8}{9} - 3\\frac{5}{9} = \\frac{53}{9} - \\frac{32}{9} = \\frac{21}{9} = 2\\frac{1}{3}$"
       },
       {
         "id": 461707,
-        "text": "Oblicz: $2\\frac{3}{7} - 1\\frac{2}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{3}{7} - 1\\frac{2}{7} = \\frac{17}{7} - \\frac{9}{7} = \\frac{8}{7} = 1\\frac{1}{7}$"
-      },
-      {
-        "id": 461708,
-        "text": "Oblicz: $6\\frac{5}{12} - 4\\frac{3}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6\\frac{5}{12} - 4\\frac{3}{12} = \\frac{77}{12} - \\frac{51}{12} = \\frac{26}{12} = 2\\frac{1}{6}$"
-      },
-      {
-        "id": 461709,
-        "text": "Oblicz: $1\\frac{7}{8} - \\frac{5}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{7}{8} - \\frac{5}{8} = \\frac{15}{8} - \\frac{5}{8} = \\frac{10}{8} = 1\\frac{1}{4}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $2\\frac{3}{7} - 1\\frac{2}{7}$\nb) $6\\frac{5}{12} - 4\\frac{3}{12}$\nc) $1\\frac{7}{8} - \\frac{5}{8}$",
+        "points": 3,
+        "solution": "a) $2\\frac{3}{7} - 1\\frac{2}{7} = \\frac{17}{7} - \\frac{9}{7} = \\frac{8}{7} = 1\\frac{1}{7}$\n\nb) $6\\frac{5}{12} - 4\\frac{3}{12} = \\frac{77}{12} - \\frac{51}{12} = \\frac{26}{12} = 2\\frac{1}{6}$\n\nc) $1\\frac{7}{8} - \\frac{5}{8} = \\frac{15}{8} - \\frac{5}{8} = \\frac{10}{8} = 1\\frac{1}{4}$"
       },
       {
         "id": 461710,
-        "text": "Oblicz: $3\\frac{9}{10} - 1\\frac{4}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{9}{10} - 1\\frac{4}{10} = \\frac{39}{10} - \\frac{14}{10} = \\frac{25}{10} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 461711,
-        "text": "Oblicz: $3\\frac{3}{8} - 1\\frac{2}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{3}{8} - 1\\frac{2}{8} = \\frac{27}{8} - \\frac{10}{8} = \\frac{17}{8} = 2\\frac{1}{8}$"
-      },
-      {
-        "id": 461712,
-        "text": "Oblicz: $2\\frac{5}{8} - 1\\frac{3}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{5}{8} - 1\\frac{3}{8} = \\frac{21}{8} - \\frac{11}{8} = \\frac{10}{8} = 1\\frac{1}{4}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $3\\frac{9}{10} - 1\\frac{4}{10}$\nb) $3\\frac{3}{8} - 1\\frac{2}{8}$\nc) $2\\frac{5}{8} - 1\\frac{3}{8}$",
+        "points": 3,
+        "solution": "a) $3\\frac{9}{10} - 1\\frac{4}{10} = \\frac{39}{10} - \\frac{14}{10} = \\frac{25}{10} = 2\\frac{1}{2}$\n\nb) $3\\frac{3}{8} - 1\\frac{2}{8} = \\frac{27}{8} - \\frac{10}{8} = \\frac{17}{8} = 2\\frac{1}{8}$\n\nc) $2\\frac{5}{8} - 1\\frac{3}{8} = \\frac{21}{8} - \\frac{11}{8} = \\frac{10}{8} = 1\\frac{1}{4}$"
       },
       {
         "id": 461713,
-        "text": "Oblicz: $6\\frac{2}{9} - 3\\frac{1}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6\\frac{2}{9} - 3\\frac{1}{9} = \\frac{56}{9} - \\frac{28}{9} = \\frac{28}{9} = 3\\frac{1}{9}$"
-      },
-      {
-        "id": 461714,
-        "text": "Oblicz: $4\\frac{5}{6} - 2\\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{5}{6} - 2\\frac{1}{6} = \\frac{29}{6} - \\frac{13}{6} = \\frac{16}{6} = 2\\frac{2}{3}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $6\\frac{2}{9} - 3\\frac{1}{9}$\nb) $4\\frac{5}{6} - 2\\frac{1}{6}$",
+        "points": 2,
+        "solution": "a) $6\\frac{2}{9} - 3\\frac{1}{9} = \\frac{56}{9} - \\frac{28}{9} = \\frac{28}{9} = 3\\frac{1}{9}$\n\nb) $4\\frac{5}{6} - 2\\frac{1}{6} = \\frac{29}{6} - \\frac{13}{6} = \\frac{16}{6} = 2\\frac{2}{3}$"
       },
       {
         "id": 461715,
-        "text": "Oblicz: $5\\frac{7}{8} - 2\\frac{3}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$5\\frac{7}{8} - 2\\frac{3}{8} = \\frac{47}{8} - \\frac{19}{8} = \\frac{28}{8} = 3\\frac{1}{2}$"
-      },
-      {
-        "id": 461716,
-        "text": "Oblicz: $3\\frac{3}{4} - \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{3}{4} - \\frac{1}{4} = \\frac{15}{4} - \\frac{1}{4} = \\frac{14}{4} = 3\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $5\\frac{7}{8} - 2\\frac{3}{8}$\nb) $3\\frac{3}{4} - \\frac{1}{4}$",
+        "points": 2,
+        "solution": "a) $5\\frac{7}{8} - 2\\frac{3}{8} = \\frac{47}{8} - \\frac{19}{8} = \\frac{28}{8} = 3\\frac{1}{2}$\n\nb) $3\\frac{3}{4} - \\frac{1}{4} = \\frac{15}{4} - \\frac{1}{4} = \\frac{14}{4} = 3\\frac{1}{2}$"
       }
     ]
   },
@@ -35341,7 +34943,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 6,
     "tags": [
       "ułamki zwykłe",
       "dodawanie",
@@ -35360,123 +34962,45 @@
     "variants": [
       {
         "id": 461801,
-        "text": "Oblicz: $\\frac{1}{2} + \\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$"
-      },
-      {
-        "id": 461802,
-        "text": "Oblicz: $\\frac{3}{4} + \\frac{2}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{4} + \\frac{2}{5} = \\frac{15}{20} + \\frac{8}{20} = \\frac{23}{20} = 1\\frac{3}{20}$"
-      },
-      {
-        "id": 461803,
-        "text": "Oblicz: $\\frac{5}{6} + \\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} + \\frac{1}{8} = \\frac{20}{24} + \\frac{3}{24} = \\frac{23}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{1}{2} + \\frac{1}{3}$\nb) $\\frac{3}{4} + \\frac{2}{5}$\nc) $\\frac{5}{6} + \\frac{1}{8}$",
+        "points": 3,
+        "solution": "a) $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$\n\nb) $\\frac{3}{4} + \\frac{2}{5} = \\frac{15}{20} + \\frac{8}{20} = \\frac{23}{20} = 1\\frac{3}{20}$\n\nc) $\\frac{5}{6} + \\frac{1}{8} = \\frac{20}{24} + \\frac{3}{24} = \\frac{23}{24}$"
       },
       {
         "id": 461804,
-        "text": "Oblicz: $\\frac{2}{3} + \\frac{3}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{3} + \\frac{3}{10} = \\frac{20}{30} + \\frac{9}{30} = \\frac{29}{30}$"
-      },
-      {
-        "id": 461805,
-        "text": "Oblicz: $\\frac{4}{9} + \\frac{5}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{9} + \\frac{5}{12} = \\frac{16}{36} + \\frac{15}{36} = \\frac{31}{36}$"
-      },
-      {
-        "id": 461806,
-        "text": "Oblicz: $\\frac{7}{8} + \\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{8} + \\frac{1}{6} = \\frac{21}{24} + \\frac{4}{24} = \\frac{25}{24} = 1\\frac{1}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{2}{3} + \\frac{3}{10}$\nb) $\\frac{4}{9} + \\frac{5}{12}$\nc) $\\frac{7}{8} + \\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{2}{3} + \\frac{3}{10} = \\frac{20}{30} + \\frac{9}{30} = \\frac{29}{30}$\n\nb) $\\frac{4}{9} + \\frac{5}{12} = \\frac{16}{36} + \\frac{15}{36} = \\frac{31}{36}$\n\nc) $\\frac{7}{8} + \\frac{1}{6} = \\frac{21}{24} + \\frac{4}{24} = \\frac{25}{24} = 1\\frac{1}{24}$"
       },
       {
         "id": 461807,
-        "text": "Oblicz: $\\frac{5}{7} + \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{7} + \\frac{2}{3} = \\frac{15}{21} + \\frac{14}{21} = \\frac{29}{21} = 1\\frac{8}{21}$"
-      },
-      {
-        "id": 461808,
-        "text": "Oblicz: $\\frac{3}{5} + \\frac{4}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{5} + \\frac{4}{9} = \\frac{27}{45} + \\frac{20}{45} = \\frac{47}{45} = 1\\frac{2}{45}$"
-      },
-      {
-        "id": 461809,
-        "text": "Oblicz: $\\frac{2}{6} + \\frac{5}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{6} + \\frac{5}{8} = \\frac{8}{24} + \\frac{15}{24} = \\frac{23}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{5}{7} + \\frac{2}{3}$\nb) $\\frac{3}{5} + \\frac{4}{9}$\nc) $\\frac{2}{6} + \\frac{5}{8}$",
+        "points": 3,
+        "solution": "a) $\\frac{5}{7} + \\frac{2}{3} = \\frac{15}{21} + \\frac{14}{21} = \\frac{29}{21} = 1\\frac{8}{21}$\n\nb) $\\frac{3}{5} + \\frac{4}{9} = \\frac{27}{45} + \\frac{20}{45} = \\frac{47}{45} = 1\\frac{2}{45}$\n\nc) $\\frac{2}{6} + \\frac{5}{8} = \\frac{8}{24} + \\frac{15}{24} = \\frac{23}{24}$"
       },
       {
         "id": 461810,
-        "text": "Oblicz: $\\frac{7}{10} + \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{10} + \\frac{3}{4} = \\frac{14}{20} + \\frac{15}{20} = \\frac{29}{20} = 1\\frac{9}{20}$"
-      },
-      {
-        "id": 461811,
-        "text": "Oblicz: $\\frac{2}{3} + \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{3} + \\frac{1}{4} = \\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$"
-      },
-      {
-        "id": 461812,
-        "text": "Oblicz: $\\frac{5}{6} + \\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} + \\frac{1}{3} = \\frac{5}{6} + \\frac{2}{6} = \\frac{7}{6} = 1\\frac{1}{6}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{7}{10} + \\frac{3}{4}$\nb) $\\frac{2}{3} + \\frac{1}{4}$\nc) $\\frac{5}{6} + \\frac{1}{3}$",
+        "points": 3,
+        "solution": "a) $\\frac{7}{10} + \\frac{3}{4} = \\frac{14}{20} + \\frac{15}{20} = \\frac{29}{20} = 1\\frac{9}{20}$\n\nb) $\\frac{2}{3} + \\frac{1}{4} = \\frac{8}{12} + \\frac{3}{12} = \\frac{11}{12}$\n\nc) $\\frac{5}{6} + \\frac{1}{3} = \\frac{5}{6} + \\frac{2}{6} = \\frac{7}{6} = 1\\frac{1}{6}$"
       },
       {
         "id": 461813,
-        "text": "Oblicz: $\\frac{9}{10} + \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{10} + \\frac{1}{4} = \\frac{18}{20} + \\frac{5}{20} = \\frac{23}{20} = 1\\frac{3}{20}$"
-      },
-      {
-        "id": 461814,
-        "text": "Oblicz: $\\frac{1}{6} + \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{6} + \\frac{2}{3} = \\frac{1}{6} + \\frac{4}{6} = \\frac{5}{6}$"
-      },
-      {
-        "id": 461815,
-        "text": "Oblicz: $\\frac{4}{5} + \\frac{1}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{5} + \\frac{1}{10} = \\frac{8}{10} + \\frac{1}{10} = \\frac{9}{10}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{9}{10} + \\frac{1}{4}$\nb) $\\frac{1}{6} + \\frac{2}{3}$\nc) $\\frac{4}{5} + \\frac{1}{10}$",
+        "points": 3,
+        "solution": "a) $\\frac{9}{10} + \\frac{1}{4} = \\frac{18}{20} + \\frac{5}{20} = \\frac{23}{20} = 1\\frac{3}{20}$\n\nb) $\\frac{1}{6} + \\frac{2}{3} = \\frac{1}{6} + \\frac{4}{6} = \\frac{5}{6}$\n\nc) $\\frac{4}{5} + \\frac{1}{10} = \\frac{8}{10} + \\frac{1}{10} = \\frac{9}{10}$"
       },
       {
         "id": 461816,
-        "text": "Oblicz: $\\frac{7}{12} + \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{12} + \\frac{1}{4} = \\frac{7}{12} + \\frac{3}{12} = \\frac{10}{12} = \\frac{5}{6}$"
-      },
-      {
-        "id": 461817,
-        "text": "Oblicz: $1\\frac{1}{4} + 2\\frac{2}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{1}{4} + 2\\frac{2}{5} = \\frac{5}{4} + \\frac{12}{5} = \\frac{25}{20} + \\frac{48}{20} = \\frac{73}{20} = 3\\frac{13}{20}$"
-      },
-      {
-        "id": 461818,
-        "text": "Oblicz: $\\frac{3}{8} + \\frac{5}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{8} + \\frac{5}{12} = \\frac{9}{24} + \\frac{10}{24} = \\frac{19}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{7}{12} + \\frac{1}{4}$\nb) $1\\frac{1}{4} + 2\\frac{2}{5}$\nc) $\\frac{3}{8} + \\frac{5}{12}$",
+        "points": 3,
+        "solution": "a) $\\frac{7}{12} + \\frac{1}{4} = \\frac{7}{12} + \\frac{3}{12} = \\frac{10}{12} = \\frac{5}{6}$\n\nb) $1\\frac{1}{4} + 2\\frac{2}{5} = \\frac{5}{4} + \\frac{12}{5} = \\frac{25}{20} + \\frac{48}{20} = \\frac{73}{20} = 3\\frac{13}{20}$\n\nc) $\\frac{3}{8} + \\frac{5}{12} = \\frac{9}{24} + \\frac{10}{24} = \\frac{19}{24}$"
       },
       {
         "id": 461819,
-        "text": "Oblicz: $2\\frac{1}{3} + 3\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{1}{3} + 3\\frac{1}{2} = \\frac{7}{3} + \\frac{7}{2} = \\frac{14}{6} + \\frac{21}{6} = \\frac{35}{6} = 5\\frac{5}{6}$"
-      },
-      {
-        "id": 461820,
-        "text": "Oblicz: $\\frac{4}{7} + \\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{7} + \\frac{1}{2} = \\frac{8}{14} + \\frac{7}{14} = \\frac{15}{14} = 1\\frac{1}{14}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $2\\frac{1}{3} + 3\\frac{1}{2}$\nb) $\\frac{4}{7} + \\frac{1}{2}$",
+        "points": 2,
+        "solution": "a) $2\\frac{1}{3} + 3\\frac{1}{2} = \\frac{7}{3} + \\frac{7}{2} = \\frac{14}{6} + \\frac{21}{6} = \\frac{35}{6} = 5\\frac{5}{6}$\n\nb) $\\frac{4}{7} + \\frac{1}{2} = \\frac{8}{14} + \\frac{7}{14} = \\frac{15}{14} = 1\\frac{1}{14}$"
       }
     ]
   },
@@ -35495,7 +35019,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 6,
     "tags": [
       "ułamki zwykłe",
       "odejmowanie",
@@ -35514,99 +35038,39 @@
     "variants": [
       {
         "id": 461901,
-        "text": "Oblicz: $\\frac{5}{6} - \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} - \\frac{1}{4} = \\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}$"
-      },
-      {
-        "id": 461902,
-        "text": "Oblicz: $\\frac{7}{8} - \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{8} - \\frac{2}{3} = \\frac{21}{24} - \\frac{16}{24} = \\frac{5}{24}$"
-      },
-      {
-        "id": 461903,
-        "text": "Oblicz: $\\frac{3}{5} - \\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{5} - \\frac{1}{6} = \\frac{18}{30} - \\frac{5}{30} = \\frac{13}{30}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{5}{6} - \\frac{1}{4}$\nb) $\\frac{7}{8} - \\frac{2}{3}$\nc) $\\frac{3}{5} - \\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{5}{6} - \\frac{1}{4} = \\frac{10}{12} - \\frac{3}{12} = \\frac{7}{12}$\n\nb) $\\frac{7}{8} - \\frac{2}{3} = \\frac{21}{24} - \\frac{16}{24} = \\frac{5}{24}$\n\nc) $\\frac{3}{5} - \\frac{1}{6} = \\frac{18}{30} - \\frac{5}{30} = \\frac{13}{30}$"
       },
       {
         "id": 461904,
-        "text": "Oblicz: $\\frac{9}{10} - \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{10} - \\frac{1}{4} = \\frac{18}{20} - \\frac{5}{20} = \\frac{13}{20}$"
-      },
-      {
-        "id": 461905,
-        "text": "Oblicz: $\\frac{5}{7} - \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{7} - \\frac{2}{3} = \\frac{15}{21} - \\frac{14}{21} = \\frac{1}{21}$"
-      },
-      {
-        "id": 461906,
-        "text": "Oblicz: $\\frac{11}{12} - \\frac{3}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{11}{12} - \\frac{3}{8} = \\frac{22}{24} - \\frac{9}{24} = \\frac{13}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{9}{10} - \\frac{1}{4}$\nb) $\\frac{5}{7} - \\frac{2}{3}$\nc) $\\frac{11}{12} - \\frac{3}{8}$",
+        "points": 3,
+        "solution": "a) $\\frac{9}{10} - \\frac{1}{4} = \\frac{18}{20} - \\frac{5}{20} = \\frac{13}{20}$\n\nb) $\\frac{5}{7} - \\frac{2}{3} = \\frac{15}{21} - \\frac{14}{21} = \\frac{1}{21}$\n\nc) $\\frac{11}{12} - \\frac{3}{8} = \\frac{22}{24} - \\frac{9}{24} = \\frac{13}{24}$"
       },
       {
         "id": 461907,
-        "text": "Oblicz: $\\frac{4}{5} - \\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{5} - \\frac{1}{3} = \\frac{12}{15} - \\frac{5}{15} = \\frac{7}{15}$"
-      },
-      {
-        "id": 461908,
-        "text": "Oblicz: $\\frac{7}{9} - \\frac{2}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{9} - \\frac{2}{6} = \\frac{14}{18} - \\frac{6}{18} = \\frac{8}{18} = \\frac{4}{9}$"
-      },
-      {
-        "id": 461909,
-        "text": "Oblicz: $\\frac{3}{4} - \\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{4} - \\frac{1}{8} = \\frac{6}{8} - \\frac{1}{8} = \\frac{5}{8}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{4}{5} - \\frac{1}{3}$\nb) $\\frac{7}{9} - \\frac{2}{6}$\nc) $\\frac{3}{4} - \\frac{1}{8}$",
+        "points": 3,
+        "solution": "a) $\\frac{4}{5} - \\frac{1}{3} = \\frac{12}{15} - \\frac{5}{15} = \\frac{7}{15}$\n\nb) $\\frac{7}{9} - \\frac{2}{6} = \\frac{14}{18} - \\frac{6}{18} = \\frac{8}{18} = \\frac{4}{9}$\n\nc) $\\frac{3}{4} - \\frac{1}{8} = \\frac{6}{8} - \\frac{1}{8} = \\frac{5}{8}$"
       },
       {
         "id": 461910,
-        "text": "Oblicz: $\\frac{13}{15} - \\frac{4}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{13}{15} - \\frac{4}{10} = \\frac{26}{30} - \\frac{12}{30} = \\frac{14}{30} = \\frac{7}{15}$"
-      },
-      {
-        "id": 461911,
-        "text": "Oblicz: $\\frac{7}{10} - \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{10} - \\frac{3}{4} = \\frac{14}{20} - \\frac{15}{20} = -\\frac{1}{20}$\nUwaga: odjemna jest mniejsza od odjemnika, więc wynik jest liczbą ujemną."
-      },
-      {
-        "id": 461912,
-        "text": "Oblicz: $\\frac{7}{8} - \\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{8} - \\frac{1}{6} = \\frac{21}{24} - \\frac{4}{24} = \\frac{17}{24}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{13}{15} - \\frac{4}{10}$\nb) $\\frac{7}{10} - \\frac{3}{4}$\nc) $\\frac{7}{8} - \\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{13}{15} - \\frac{4}{10} = \\frac{26}{30} - \\frac{12}{30} = \\frac{14}{30} = \\frac{7}{15}$\n\nb) $\\frac{7}{10} - \\frac{3}{4} = \\frac{14}{20} - \\frac{15}{20} = -\\frac{1}{20}$\nUwaga: odjemna jest mniejsza od odjemnika, więc wynik jest liczbą ujemną.\n\nc) $\\frac{7}{8} - \\frac{1}{6} = \\frac{21}{24} - \\frac{4}{24} = \\frac{17}{24}$"
       },
       {
         "id": 461913,
-        "text": "Oblicz: $\\frac{3}{4} - \\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{4} - \\frac{1}{2} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$"
-      },
-      {
-        "id": 461914,
-        "text": "Oblicz: $\\frac{8}{15} - \\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{8}{15} - \\frac{1}{3} = \\frac{8}{15} - \\frac{5}{15} = \\frac{3}{15} = \\frac{1}{5}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{3}{4} - \\frac{1}{2}$\nb) $\\frac{8}{15} - \\frac{1}{3}$",
+        "points": 2,
+        "solution": "a) $\\frac{3}{4} - \\frac{1}{2} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$\n\nb) $\\frac{8}{15} - \\frac{1}{3} = \\frac{8}{15} - \\frac{5}{15} = \\frac{3}{15} = \\frac{1}{5}$"
       },
       {
         "id": 461915,
-        "text": "Oblicz: $\\frac{9}{10} - \\frac{3}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{10} - \\frac{3}{5} = \\frac{9}{10} - \\frac{6}{10} = \\frac{3}{10}$"
-      },
-      {
-        "id": 461916,
-        "text": "Oblicz: $\\frac{11}{20} - \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{11}{20} - \\frac{1}{4} = \\frac{11}{20} - \\frac{5}{20} = \\frac{6}{20} = \\frac{3}{10}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{9}{10} - \\frac{3}{5}$\nb) $\\frac{11}{20} - \\frac{1}{4}$",
+        "points": 2,
+        "solution": "a) $\\frac{9}{10} - \\frac{3}{5} = \\frac{9}{10} - \\frac{6}{10} = \\frac{3}{10}$\n\nb) $\\frac{11}{20} - \\frac{1}{4} = \\frac{11}{20} - \\frac{5}{20} = \\frac{6}{20} = \\frac{3}{10}$"
       }
     ]
   },
@@ -35625,7 +35089,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 3,
+    "estimatedTime": 6,
     "tags": [
       "ułamki zwykłe",
       "dodawanie i odejmowanie",
@@ -35644,15 +35108,9 @@
     "variants": [
       {
         "id": 462001,
-        "text": "Oblicz: $\\frac{1}{2} + \\frac{2}{5} + \\frac{1}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{2} + \\frac{2}{5} + \\frac{1}{10} = \\frac{5}{10} + \\frac{4}{10} + \\frac{1}{10} = \\frac{10}{10} = 1$"
-      },
-      {
-        "id": 462002,
-        "text": "Oblicz: $\\frac{5}{6} - \\frac{1}{3} + \\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} - \\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6} - \\frac{2}{6} + \\frac{3}{6} = \\frac{6}{6} = 1$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{1}{2} + \\frac{2}{5} + \\frac{1}{10}$\nb) $\\frac{5}{6} - \\frac{1}{3} + \\frac{1}{2}$",
+        "points": 2,
+        "solution": "a) $\\frac{1}{2} + \\frac{2}{5} + \\frac{1}{10} = \\frac{5}{10} + \\frac{4}{10} + \\frac{1}{10} = \\frac{10}{10} = 1$\n\nb) $\\frac{5}{6} - \\frac{1}{3} + \\frac{1}{2} = \\frac{5}{6} - \\frac{2}{6} + \\frac{3}{6} = \\frac{6}{6} = 1$"
       }
     ]
   },
@@ -35672,7 +35130,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "ułamki zwykłe",
       "odwrotność liczby",
@@ -35691,63 +35149,27 @@
     "variants": [
       {
         "id": 462101,
-        "text": "Podaj odwrotność liczby $\\frac{2}{5}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $\\frac{2}{5}$ jest $\\frac{5}{2} = 2\\frac{1}{2}$, bo $\\frac{2}{5} \\cdot 2\\frac{1}{2} = 1$."
-      },
-      {
-        "id": 462102,
-        "text": "Podaj odwrotność liczby $\\frac{7}{3}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $\\frac{7}{3}$ jest $\\frac{3}{7}$, bo $\\frac{7}{3} \\cdot \\frac{3}{7} = 1$."
-      },
-      {
-        "id": 462103,
-        "text": "Podaj odwrotność liczby $4$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $4$ jest $\\frac{1}{4}$, bo $4 \\cdot \\frac{1}{4} = 1$."
+        "text": "Podaj odwrotności poniższych liczb.\na) $\\frac{2}{5}$\nb) $\\frac{7}{3}$\nc) $4$",
+        "points": 3,
+        "solution": "a) Odwrotnością liczby $\\frac{2}{5}$ jest $\\frac{5}{2} = 2\\frac{1}{2}$, bo $\\frac{2}{5} \\cdot 2\\frac{1}{2} = 1$.\n\nb) Odwrotnością liczby $\\frac{7}{3}$ jest $\\frac{3}{7}$, bo $\\frac{7}{3} \\cdot \\frac{3}{7} = 1$.\n\nc) Odwrotnością liczby $4$ jest $\\frac{1}{4}$, bo $4 \\cdot \\frac{1}{4} = 1$."
       },
       {
         "id": 462104,
-        "text": "Podaj odwrotność liczby $\\frac{1}{8}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $\\frac{1}{8}$ jest $8$, bo $\\frac{1}{8} \\cdot 8 = 1$."
-      },
-      {
-        "id": 462105,
-        "text": "Podaj odwrotność liczby $1\\frac{1}{2}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $1\\frac{1}{2} = \\frac{3}{2}$ jest $\\frac{2}{3}$, bo $1\\frac{1}{2} \\cdot \\frac{2}{3} = 1$."
-      },
-      {
-        "id": 462106,
-        "text": "Podaj odwrotność liczby $3\\frac{2}{5}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $3\\frac{2}{5} = \\frac{17}{5}$ jest $\\frac{5}{17}$, bo $3\\frac{2}{5} \\cdot \\frac{5}{17} = 1$."
+        "text": "Podaj odwrotności poniższych liczb.\na) $\\frac{1}{8}$\nb) $1\\frac{1}{2}$\nc) $3\\frac{2}{5}$",
+        "points": 3,
+        "solution": "a) Odwrotnością liczby $\\frac{1}{8}$ jest $8$, bo $\\frac{1}{8} \\cdot 8 = 1$.\n\nb) Odwrotnością liczby $1\\frac{1}{2} = \\frac{3}{2}$ jest $\\frac{2}{3}$, bo $1\\frac{1}{2} \\cdot \\frac{2}{3} = 1$.\n\nc) Odwrotnością liczby $3\\frac{2}{5} = \\frac{17}{5}$ jest $\\frac{5}{17}$, bo $3\\frac{2}{5} \\cdot \\frac{5}{17} = 1$."
       },
       {
         "id": 462107,
-        "text": "Podaj odwrotność liczby $10$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $10$ jest $\\frac{1}{10}$, bo $10 \\cdot \\frac{1}{10} = 1$."
-      },
-      {
-        "id": 462108,
-        "text": "Podaj odwrotność liczby $2\\frac{3}{4}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $2\\frac{3}{4} = \\frac{11}{4}$ jest $\\frac{4}{11}$, bo $2\\frac{3}{4} \\cdot \\frac{4}{11} = 1$."
+        "text": "Podaj odwrotności poniższych liczb.\na) $10$\nb) $2\\frac{3}{4}$",
+        "points": 2,
+        "solution": "a) Odwrotnością liczby $10$ jest $\\frac{1}{10}$, bo $10 \\cdot \\frac{1}{10} = 1$.\n\nb) Odwrotnością liczby $2\\frac{3}{4} = \\frac{11}{4}$ jest $\\frac{4}{11}$, bo $2\\frac{3}{4} \\cdot \\frac{4}{11} = 1$."
       },
       {
         "id": 462109,
-        "text": "Podaj odwrotność liczby $\\frac{11}{15}$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $\\frac{11}{15}$ jest $\\frac{15}{11} = 1\\frac{4}{11}$, bo $\\frac{11}{15} \\cdot 1\\frac{4}{11} = 1$."
-      },
-      {
-        "id": 462110,
-        "text": "Podaj odwrotność liczby $1$.",
-        "points": 1,
-        "solution": "Odwrotnością liczby $1$ jest $1$, bo $1 \\cdot 1 = 1$."
+        "text": "Podaj odwrotności poniższych liczb.\na) $\\frac{11}{15}$\nb) $1$",
+        "points": 2,
+        "solution": "a) Odwrotnością liczby $\\frac{11}{15}$ jest $\\frac{15}{11} = 1\\frac{4}{11}$, bo $\\frac{11}{15} \\cdot 1\\frac{4}{11} = 1$.\n\nb) Odwrotnością liczby $1$ jest $1$, bo $1 \\cdot 1 = 1$."
       }
     ]
   },
@@ -35767,7 +35189,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "ułamki zwykłe",
       "mnożenie",
@@ -35787,87 +35209,33 @@
     "variants": [
       {
         "id": 462201,
-        "text": "Oblicz: $\\frac{1}{2} \\cdot \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{2} \\cdot \\frac{3}{4} = \\frac{3}{8}$"
-      },
-      {
-        "id": 462202,
-        "text": "Oblicz: $\\frac{2}{3} \\cdot \\frac{4}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{3} \\cdot \\frac{4}{5} = \\frac{8}{15}$"
-      },
-      {
-        "id": 462203,
-        "text": "Oblicz: $3 \\cdot \\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3 \\cdot \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{1}{2} \\cdot \\frac{3}{4}$\nb) $\\frac{2}{3} \\cdot \\frac{4}{5}$\nc) $3 \\cdot \\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{1}{2} \\cdot \\frac{3}{4} = \\frac{3}{8}$\n\nb) $\\frac{2}{3} \\cdot \\frac{4}{5} = \\frac{8}{15}$\n\nc) $3 \\cdot \\frac{1}{6} = \\frac{3}{6} = \\frac{1}{2}$"
       },
       {
         "id": 462204,
-        "text": "Oblicz: $\\frac{5}{8} \\cdot 4$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{8} \\cdot 4 = \\frac{20}{8} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 462205,
-        "text": "Oblicz: $\\frac{3}{7} \\cdot \\frac{7}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{7} \\cdot \\frac{7}{9} = \\frac{21}{63} = \\frac{1}{3}$"
-      },
-      {
-        "id": 462206,
-        "text": "Oblicz: $\\frac{4}{5} \\cdot \\frac{15}{16}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{5} \\cdot \\frac{15}{16} = \\frac{60}{80} = \\frac{3}{4}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{5}{8} \\cdot 4$\nb) $\\frac{3}{7} \\cdot \\frac{7}{9}$\nc) $\\frac{4}{5} \\cdot \\frac{15}{16}$",
+        "points": 3,
+        "solution": "a) $\\frac{5}{8} \\cdot 4 = \\frac{20}{8} = 2\\frac{1}{2}$\n\nb) $\\frac{3}{7} \\cdot \\frac{7}{9} = \\frac{21}{63} = \\frac{1}{3}$\n\nc) $\\frac{4}{5} \\cdot \\frac{15}{16} = \\frac{60}{80} = \\frac{3}{4}$"
       },
       {
         "id": 462207,
-        "text": "Oblicz: $6 \\cdot \\frac{2}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6 \\cdot \\frac{2}{9} = \\frac{12}{9} = 1\\frac{1}{3}$"
-      },
-      {
-        "id": 462208,
-        "text": "Oblicz: $\\frac{7}{10} \\cdot \\frac{5}{14}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{10} \\cdot \\frac{5}{14} = \\frac{35}{140} = \\frac{1}{4}$"
-      },
-      {
-        "id": 462209,
-        "text": "Oblicz: $\\frac{3}{8} \\cdot 2$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{8} \\cdot 2 = \\frac{6}{8} = \\frac{3}{4}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $6 \\cdot \\frac{2}{9}$\nb) $\\frac{7}{10} \\cdot \\frac{5}{14}$\nc) $\\frac{3}{8} \\cdot 2$",
+        "points": 3,
+        "solution": "a) $6 \\cdot \\frac{2}{9} = \\frac{12}{9} = 1\\frac{1}{3}$\n\nb) $\\frac{7}{10} \\cdot \\frac{5}{14} = \\frac{35}{140} = \\frac{1}{4}$\n\nc) $\\frac{3}{8} \\cdot 2 = \\frac{6}{8} = \\frac{3}{4}$"
       },
       {
         "id": 462210,
-        "text": "Oblicz: $\\frac{9}{11} \\cdot \\frac{22}{27}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{11} \\cdot \\frac{22}{27} = \\frac{198}{297} = \\frac{2}{3}$"
-      },
-      {
-        "id": 462211,
-        "text": "Oblicz: $2 \\cdot \\frac{5}{12}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2 \\cdot \\frac{5}{12} = \\frac{10}{12} = \\frac{5}{6}$"
-      },
-      {
-        "id": 462212,
-        "text": "Oblicz: $\\frac{8}{9} \\cdot \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{8}{9} \\cdot \\frac{3}{4} = \\frac{24}{36} = \\frac{2}{3}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{9}{11} \\cdot \\frac{22}{27}$\nb) $2 \\cdot \\frac{5}{12}$\nc) $\\frac{8}{9} \\cdot \\frac{3}{4}$",
+        "points": 3,
+        "solution": "a) $\\frac{9}{11} \\cdot \\frac{22}{27} = \\frac{198}{297} = \\frac{2}{3}$\n\nb) $2 \\cdot \\frac{5}{12} = \\frac{10}{12} = \\frac{5}{6}$\n\nc) $\\frac{8}{9} \\cdot \\frac{3}{4} = \\frac{24}{36} = \\frac{2}{3}$"
       },
       {
         "id": 462213,
-        "text": "Oblicz: $\\frac{3}{5} \\cdot 15$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{5} \\cdot 15 = \\frac{45}{5} = 9$"
-      },
-      {
-        "id": 462214,
-        "text": "Oblicz: $\\frac{7}{8} \\cdot \\frac{4}{21}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{8} \\cdot \\frac{4}{21} = \\frac{28}{168} = \\frac{1}{6}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{3}{5} \\cdot 15$\nb) $\\frac{7}{8} \\cdot \\frac{4}{21}$",
+        "points": 2,
+        "solution": "a) $\\frac{3}{5} \\cdot 15 = \\frac{45}{5} = 9$\n\nb) $\\frac{7}{8} \\cdot \\frac{4}{21} = \\frac{28}{168} = \\frac{1}{6}$"
       }
     ]
   },
@@ -35887,7 +35255,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 6,
     "tags": [
       "ułamki zwykłe",
       "mnożenie",
@@ -35906,141 +35274,51 @@
     "variants": [
       {
         "id": 462301,
-        "text": "Oblicz: $1\\frac{1}{2} \\cdot \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{1}{2} \\cdot \\frac{2}{3} = \\frac{3}{2} \\cdot \\frac{2}{3} = \\frac{6}{6} = 1$"
-      },
-      {
-        "id": 462302,
-        "text": "Oblicz: $2\\frac{1}{4} \\cdot 2$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{1}{4} \\cdot 2 = \\frac{9}{4} \\cdot 2 = \\frac{18}{4} = 4\\frac{1}{2}$"
-      },
-      {
-        "id": 462303,
-        "text": "Oblicz: $3 \\cdot 1\\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3 \\cdot 1\\frac{1}{6} = 3 \\cdot \\frac{7}{6} = \\frac{21}{6} = 3\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{1}{2} \\cdot \\frac{2}{3}$\nb) $2\\frac{1}{4} \\cdot 2$\nc) $3 \\cdot 1\\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $1\\frac{1}{2} \\cdot \\frac{2}{3} = \\frac{3}{2} \\cdot \\frac{2}{3} = \\frac{6}{6} = 1$\n\nb) $2\\frac{1}{4} \\cdot 2 = \\frac{9}{4} \\cdot 2 = \\frac{18}{4} = 4\\frac{1}{2}$\n\nc) $3 \\cdot 1\\frac{1}{6} = 3 \\cdot \\frac{7}{6} = \\frac{21}{6} = 3\\frac{1}{2}$"
       },
       {
         "id": 462304,
-        "text": "Oblicz: $1\\frac{2}{5} \\cdot \\frac{5}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{2}{5} \\cdot \\frac{5}{7} = \\frac{7}{5} \\cdot \\frac{5}{7} = \\frac{35}{35} = 1$"
-      },
-      {
-        "id": 462305,
-        "text": "Oblicz: $2\\frac{2}{3} \\cdot 1\\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{2}{3} \\cdot 1\\frac{1}{8} = \\frac{8}{3} \\cdot \\frac{9}{8} = \\frac{72}{24} = 3$"
-      },
-      {
-        "id": 462306,
-        "text": "Oblicz: $3\\frac{1}{2} \\cdot 1\\frac{3}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{1}{2} \\cdot 1\\frac{3}{7} = \\frac{7}{2} \\cdot \\frac{10}{7} = \\frac{70}{14} = 5$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{2}{5} \\cdot \\frac{5}{7}$\nb) $2\\frac{2}{3} \\cdot 1\\frac{1}{8}$\nc) $3\\frac{1}{2} \\cdot 1\\frac{3}{7}$",
+        "points": 3,
+        "solution": "a) $1\\frac{2}{5} \\cdot \\frac{5}{7} = \\frac{7}{5} \\cdot \\frac{5}{7} = \\frac{35}{35} = 1$\n\nb) $2\\frac{2}{3} \\cdot 1\\frac{1}{8} = \\frac{8}{3} \\cdot \\frac{9}{8} = \\frac{72}{24} = 3$\n\nc) $3\\frac{1}{2} \\cdot 1\\frac{3}{7} = \\frac{7}{2} \\cdot \\frac{10}{7} = \\frac{70}{14} = 5$"
       },
       {
         "id": 462307,
-        "text": "Oblicz: $4\\frac{1}{5} \\cdot 2\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{1}{5} \\cdot 2\\frac{1}{2} = \\frac{21}{5} \\cdot \\frac{5}{2} = \\frac{105}{10} = 10\\frac{1}{2}$"
-      },
-      {
-        "id": 462308,
-        "text": "Oblicz: $\\frac{4}{9} \\cdot 2\\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{9} \\cdot 2\\frac{1}{4} = \\frac{4}{9} \\cdot \\frac{9}{4} = \\frac{36}{36} = 1$"
-      },
-      {
-        "id": 462309,
-        "text": "Oblicz: $1\\frac{3}{4} \\cdot 4$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{3}{4} \\cdot 4 = \\frac{7}{4} \\cdot 4 = \\frac{28}{4} = 7$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $4\\frac{1}{5} \\cdot 2\\frac{1}{2}$\nb) $\\frac{4}{9} \\cdot 2\\frac{1}{4}$\nc) $1\\frac{3}{4} \\cdot 4$",
+        "points": 3,
+        "solution": "a) $4\\frac{1}{5} \\cdot 2\\frac{1}{2} = \\frac{21}{5} \\cdot \\frac{5}{2} = \\frac{105}{10} = 10\\frac{1}{2}$\n\nb) $\\frac{4}{9} \\cdot 2\\frac{1}{4} = \\frac{4}{9} \\cdot \\frac{9}{4} = \\frac{36}{36} = 1$\n\nc) $1\\frac{3}{4} \\cdot 4 = \\frac{7}{4} \\cdot 4 = \\frac{28}{4} = 7$"
       },
       {
         "id": 462310,
-        "text": "Oblicz: $2\\frac{3}{5} \\cdot 1\\frac{9}{13}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{3}{5} \\cdot 1\\frac{9}{13} = \\frac{13}{5} \\cdot \\frac{22}{13} = \\frac{286}{65} = 4\\frac{2}{5}$"
-      },
-      {
-        "id": 462311,
-        "text": "Oblicz: $\\frac{3}{7} \\cdot 2\\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{7} \\cdot 2\\frac{1}{3} = \\frac{3}{7} \\cdot \\frac{7}{3} = \\frac{21}{21} = 1$"
-      },
-      {
-        "id": 462312,
-        "text": "Oblicz: $1\\frac{3}{4} \\cdot 2$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{3}{4} \\cdot 2 = \\frac{7}{4} \\cdot 2 = \\frac{14}{4} = 3\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $2\\frac{3}{5} \\cdot 1\\frac{9}{13}$\nb) $\\frac{3}{7} \\cdot 2\\frac{1}{3}$\nc) $1\\frac{3}{4} \\cdot 2$",
+        "points": 3,
+        "solution": "a) $2\\frac{3}{5} \\cdot 1\\frac{9}{13} = \\frac{13}{5} \\cdot \\frac{22}{13} = \\frac{286}{65} = 4\\frac{2}{5}$\n\nb) $\\frac{3}{7} \\cdot 2\\frac{1}{3} = \\frac{3}{7} \\cdot \\frac{7}{3} = \\frac{21}{21} = 1$\n\nc) $1\\frac{3}{4} \\cdot 2 = \\frac{7}{4} \\cdot 2 = \\frac{14}{4} = 3\\frac{1}{2}$"
       },
       {
         "id": 462313,
-        "text": "Oblicz: $1\\frac{1}{6} \\cdot 1\\frac{5}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{1}{6} \\cdot 1\\frac{5}{7} = \\frac{7}{6} \\cdot \\frac{12}{7} = \\frac{84}{42} = 2$"
-      },
-      {
-        "id": 462314,
-        "text": "Oblicz: $2\\frac{5}{8} \\cdot \\frac{4}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{5}{8} \\cdot \\frac{4}{7} = \\frac{21}{8} \\cdot \\frac{4}{7} = \\frac{84}{56} = 1\\frac{1}{2}$"
-      },
-      {
-        "id": 462315,
-        "text": "Oblicz: $3\\frac{1}{8} \\cdot 4$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{1}{8} \\cdot 4 = \\frac{25}{8} \\cdot 4 = \\frac{100}{8} = 12\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{1}{6} \\cdot 1\\frac{5}{7}$\nb) $2\\frac{5}{8} \\cdot \\frac{4}{7}$\nc) $3\\frac{1}{8} \\cdot 4$",
+        "points": 3,
+        "solution": "a) $1\\frac{1}{6} \\cdot 1\\frac{5}{7} = \\frac{7}{6} \\cdot \\frac{12}{7} = \\frac{84}{42} = 2$\n\nb) $2\\frac{5}{8} \\cdot \\frac{4}{7} = \\frac{21}{8} \\cdot \\frac{4}{7} = \\frac{84}{56} = 1\\frac{1}{2}$\n\nc) $3\\frac{1}{8} \\cdot 4 = \\frac{25}{8} \\cdot 4 = \\frac{100}{8} = 12\\frac{1}{2}$"
       },
       {
         "id": 462316,
-        "text": "Oblicz: $1\\frac{2}{3} \\cdot 1\\frac{1}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{2}{3} \\cdot 1\\frac{1}{5} = \\frac{5}{3} \\cdot \\frac{6}{5} = \\frac{30}{15} = 2$"
-      },
-      {
-        "id": 462317,
-        "text": "Oblicz: $2\\frac{2}{9} \\cdot 3$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{2}{9} \\cdot 3 = \\frac{20}{9} \\cdot 3 = \\frac{60}{9} = 6\\frac{2}{3}$"
-      },
-      {
-        "id": 462318,
-        "text": "Oblicz: $3\\frac{1}{2} \\cdot 2\\frac{2}{7}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{1}{2} \\cdot 2\\frac{2}{7} = \\frac{7}{2} \\cdot \\frac{16}{7} = \\frac{112}{14} = 8$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{2}{3} \\cdot 1\\frac{1}{5}$\nb) $2\\frac{2}{9} \\cdot 3$\nc) $3\\frac{1}{2} \\cdot 2\\frac{2}{7}$",
+        "points": 3,
+        "solution": "a) $1\\frac{2}{3} \\cdot 1\\frac{1}{5} = \\frac{5}{3} \\cdot \\frac{6}{5} = \\frac{30}{15} = 2$\n\nb) $2\\frac{2}{9} \\cdot 3 = \\frac{20}{9} \\cdot 3 = \\frac{60}{9} = 6\\frac{2}{3}$\n\nc) $3\\frac{1}{2} \\cdot 2\\frac{2}{7} = \\frac{7}{2} \\cdot \\frac{16}{7} = \\frac{112}{14} = 8$"
       },
       {
         "id": 462319,
-        "text": "Oblicz: $\\frac{5}{6} \\cdot 2\\frac{2}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} \\cdot 2\\frac{2}{5} = \\frac{5}{6} \\cdot \\frac{12}{5} = \\frac{60}{30} = 2$"
-      },
-      {
-        "id": 462320,
-        "text": "Oblicz: $1\\frac{7}{8} \\cdot 1\\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{7}{8} \\cdot 1\\frac{1}{3} = \\frac{15}{8} \\cdot \\frac{4}{3} = \\frac{60}{24} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 462321,
-        "text": "Oblicz: $2\\frac{4}{7} \\cdot 1\\frac{1}{6}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{4}{7} \\cdot 1\\frac{1}{6} = \\frac{18}{7} \\cdot \\frac{7}{6} = \\frac{126}{42} = 3$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{5}{6} \\cdot 2\\frac{2}{5}$\nb) $1\\frac{7}{8} \\cdot 1\\frac{1}{3}$\nc) $2\\frac{4}{7} \\cdot 1\\frac{1}{6}$",
+        "points": 3,
+        "solution": "a) $\\frac{5}{6} \\cdot 2\\frac{2}{5} = \\frac{5}{6} \\cdot \\frac{12}{5} = \\frac{60}{30} = 2$\n\nb) $1\\frac{7}{8} \\cdot 1\\frac{1}{3} = \\frac{15}{8} \\cdot \\frac{4}{3} = \\frac{60}{24} = 2\\frac{1}{2}$\n\nc) $2\\frac{4}{7} \\cdot 1\\frac{1}{6} = \\frac{18}{7} \\cdot \\frac{7}{6} = \\frac{126}{42} = 3$"
       },
       {
         "id": 462322,
-        "text": "Oblicz: $\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4} = \\frac{6}{24} = \\frac{1}{4}$"
-      },
-      {
-        "id": 462323,
-        "text": "Oblicz: $1\\frac{1}{4} \\cdot 2 \\cdot \\frac{2}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{1}{4} \\cdot 2 \\cdot \\frac{2}{5} = \\frac{5}{4} \\cdot 2 \\cdot \\frac{2}{5} = \\frac{20}{20} = 1$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4}$\nb) $1\\frac{1}{4} \\cdot 2 \\cdot \\frac{2}{5}$",
+        "points": 2,
+        "solution": "a) $\\frac{1}{2} \\cdot \\frac{2}{3} \\cdot \\frac{3}{4} = \\frac{6}{24} = \\frac{1}{4}$\n\nb) $1\\frac{1}{4} \\cdot 2 \\cdot \\frac{2}{5} = \\frac{5}{4} \\cdot 2 \\cdot \\frac{2}{5} = \\frac{20}{20} = 1$"
       }
     ]
   },
@@ -36060,7 +35338,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 3,
     "tags": [
       "ułamki zwykłe",
       "dzielenie",
@@ -36079,99 +35357,39 @@
     "variants": [
       {
         "id": 462401,
-        "text": "Oblicz: $\\frac{1}{2} : \\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{1}{2} : \\frac{1}{4} = \\frac{1}{2} \\cdot 4 = \\frac{4}{2} = 2$"
-      },
-      {
-        "id": 462402,
-        "text": "Oblicz: $\\frac{3}{4} : \\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{4} : \\frac{1}{8} = \\frac{3}{4} \\cdot 8 = \\frac{24}{4} = 6$"
-      },
-      {
-        "id": 462403,
-        "text": "Oblicz: $\\frac{2}{5} : 3$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{2}{5} : 3 = \\frac{2}{5} \\cdot \\frac{1}{3} = \\frac{2}{15}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{1}{2} : \\frac{1}{4}$\nb) $\\frac{3}{4} : \\frac{1}{8}$\nc) $\\frac{2}{5} : 3$",
+        "points": 3,
+        "solution": "a) $\\frac{1}{2} : \\frac{1}{4} = \\frac{1}{2} \\cdot 4 = \\frac{4}{2} = 2$\n\nb) $\\frac{3}{4} : \\frac{1}{8} = \\frac{3}{4} \\cdot 8 = \\frac{24}{4} = 6$\n\nc) $\\frac{2}{5} : 3 = \\frac{2}{5} \\cdot \\frac{1}{3} = \\frac{2}{15}$"
       },
       {
         "id": 462404,
-        "text": "Oblicz: $4 : \\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4 : \\frac{1}{2} = 4 \\cdot 2 = 8$"
-      },
-      {
-        "id": 462405,
-        "text": "Oblicz: $\\frac{5}{6} : \\frac{1}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{6} : \\frac{1}{3} = \\frac{5}{6} \\cdot 3 = \\frac{15}{6} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 462406,
-        "text": "Oblicz: $\\frac{7}{9} : \\frac{14}{27}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{9} : \\frac{14}{27} = \\frac{7}{9} \\cdot \\frac{27}{14} = \\frac{189}{126} = 1\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $4 : \\frac{1}{2}$\nb) $\\frac{5}{6} : \\frac{1}{3}$\nc) $\\frac{7}{9} : \\frac{14}{27}$",
+        "points": 3,
+        "solution": "a) $4 : \\frac{1}{2} = 4 \\cdot 2 = 8$\n\nb) $\\frac{5}{6} : \\frac{1}{3} = \\frac{5}{6} \\cdot 3 = \\frac{15}{6} = 2\\frac{1}{2}$\n\nc) $\\frac{7}{9} : \\frac{14}{27} = \\frac{7}{9} \\cdot \\frac{27}{14} = \\frac{189}{126} = 1\\frac{1}{2}$"
       },
       {
         "id": 462407,
-        "text": "Oblicz: $\\frac{4}{15} : \\frac{8}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{4}{15} : \\frac{8}{5} = \\frac{4}{15} \\cdot \\frac{5}{8} = \\frac{20}{120} = \\frac{1}{6}$"
-      },
-      {
-        "id": 462408,
-        "text": "Oblicz: $6 : \\frac{2}{3}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6 : \\frac{2}{3} = 6 \\cdot \\frac{3}{2} = \\frac{18}{2} = 9$"
-      },
-      {
-        "id": 462409,
-        "text": "Oblicz: $\\frac{9}{10} : 3$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{10} : 3 = \\frac{9}{10} \\cdot \\frac{1}{3} = \\frac{9}{30} = \\frac{3}{10}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{4}{15} : \\frac{8}{5}$\nb) $6 : \\frac{2}{3}$\nc) $\\frac{9}{10} : 3$",
+        "points": 3,
+        "solution": "a) $\\frac{4}{15} : \\frac{8}{5} = \\frac{4}{15} \\cdot \\frac{5}{8} = \\frac{20}{120} = \\frac{1}{6}$\n\nb) $6 : \\frac{2}{3} = 6 \\cdot \\frac{3}{2} = \\frac{18}{2} = 9$\n\nc) $\\frac{9}{10} : 3 = \\frac{9}{10} \\cdot \\frac{1}{3} = \\frac{9}{30} = \\frac{3}{10}$"
       },
       {
         "id": 462410,
-        "text": "Oblicz: $\\frac{3}{8} : \\frac{9}{16}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{3}{8} : \\frac{9}{16} = \\frac{3}{8} \\cdot \\frac{16}{9} = \\frac{48}{72} = \\frac{2}{3}$"
-      },
-      {
-        "id": 462411,
-        "text": "Oblicz: $\\frac{5}{8} : \\frac{15}{16}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{5}{8} : \\frac{15}{16} = \\frac{5}{8} \\cdot \\frac{16}{15} = \\frac{80}{120} = \\frac{2}{3}$"
-      },
-      {
-        "id": 462412,
-        "text": "Oblicz: $\\frac{9}{10} : \\frac{3}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{10} : \\frac{3}{5} = \\frac{9}{10} \\cdot \\frac{5}{3} = \\frac{45}{30} = 1\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{3}{8} : \\frac{9}{16}$\nb) $\\frac{5}{8} : \\frac{15}{16}$\nc) $\\frac{9}{10} : \\frac{3}{5}$",
+        "points": 3,
+        "solution": "a) $\\frac{3}{8} : \\frac{9}{16} = \\frac{3}{8} \\cdot \\frac{16}{9} = \\frac{48}{72} = \\frac{2}{3}$\n\nb) $\\frac{5}{8} : \\frac{15}{16} = \\frac{5}{8} \\cdot \\frac{16}{15} = \\frac{80}{120} = \\frac{2}{3}$\n\nc) $\\frac{9}{10} : \\frac{3}{5} = \\frac{9}{10} \\cdot \\frac{5}{3} = \\frac{45}{30} = 1\\frac{1}{2}$"
       },
       {
         "id": 462413,
-        "text": "Oblicz: $\\frac{7}{12} : \\frac{14}{24}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{7}{12} : \\frac{14}{24} = \\frac{7}{12} \\cdot \\frac{24}{14} = \\frac{168}{168} = 1$"
-      },
-      {
-        "id": 462414,
-        "text": "Oblicz: $4 : \\frac{8}{9}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4 : \\frac{8}{9} = 4 \\cdot \\frac{9}{8} = \\frac{36}{8} = 4\\frac{1}{2}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{7}{12} : \\frac{14}{24}$\nb) $4 : \\frac{8}{9}$",
+        "points": 2,
+        "solution": "a) $\\frac{7}{12} : \\frac{14}{24} = \\frac{7}{12} \\cdot \\frac{24}{14} = \\frac{168}{168} = 1$\n\nb) $4 : \\frac{8}{9} = 4 \\cdot \\frac{9}{8} = \\frac{36}{8} = 4\\frac{1}{2}$"
       },
       {
         "id": 462415,
-        "text": "Oblicz: $\\frac{11}{12} : \\frac{22}{36}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{11}{12} : \\frac{22}{36} = \\frac{11}{12} \\cdot \\frac{36}{22} = \\frac{396}{264} = 1\\frac{1}{2}$"
-      },
-      {
-        "id": 462416,
-        "text": "Oblicz: $\\frac{9}{16} : 3$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\frac{9}{16} : 3 = \\frac{9}{16} \\cdot \\frac{1}{3} = \\frac{9}{48} = \\frac{3}{16}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\frac{11}{12} : \\frac{22}{36}$\nb) $\\frac{9}{16} : 3$",
+        "points": 2,
+        "solution": "a) $\\frac{11}{12} : \\frac{22}{36} = \\frac{11}{12} \\cdot \\frac{36}{22} = \\frac{396}{264} = 1\\frac{1}{2}$\n\nb) $\\frac{9}{16} : 3 = \\frac{9}{16} \\cdot \\frac{1}{3} = \\frac{9}{48} = \\frac{3}{16}$"
       }
     ]
   },
@@ -36191,7 +35409,7 @@
     "type": "otwarte",
     "difficulty": "średnie",
     "author": "InfoMatyka",
-    "estimatedTime": 2,
+    "estimatedTime": 6,
     "tags": [
       "ułamki zwykłe",
       "dzielenie",
@@ -36210,93 +35428,33 @@
     "variants": [
       {
         "id": 462501,
-        "text": "Oblicz: $1\\frac{1}{2} : \\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{1}{2} : \\frac{3}{4} = \\frac{3}{2} : \\frac{3}{4} = \\frac{3}{2} \\cdot \\frac{4}{3} = \\frac{12}{6} = 2$"
-      },
-      {
-        "id": 462502,
-        "text": "Oblicz: $2\\frac{1}{4} : 1\\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{1}{4} : 1\\frac{1}{8} = \\frac{9}{4} : \\frac{9}{8} = \\frac{9}{4} \\cdot \\frac{8}{9} = \\frac{72}{36} = 2$"
-      },
-      {
-        "id": 462503,
-        "text": "Oblicz: $5 : 1\\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$5 : 1\\frac{1}{4} = 5 : \\frac{5}{4} = 5 \\cdot \\frac{4}{5} = \\frac{20}{5} = 4$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{1}{2} : \\frac{3}{4}$\nb) $2\\frac{1}{4} : 1\\frac{1}{8}$\nc) $5 : 1\\frac{1}{4}$",
+        "points": 3,
+        "solution": "a) $1\\frac{1}{2} : \\frac{3}{4} = \\frac{3}{2} : \\frac{3}{4} = \\frac{3}{2} \\cdot \\frac{4}{3} = \\frac{12}{6} = 2$\n\nb) $2\\frac{1}{4} : 1\\frac{1}{8} = \\frac{9}{4} : \\frac{9}{8} = \\frac{9}{4} \\cdot \\frac{8}{9} = \\frac{72}{36} = 2$\n\nc) $5 : 1\\frac{1}{4} = 5 : \\frac{5}{4} = 5 \\cdot \\frac{4}{5} = \\frac{20}{5} = 4$"
       },
       {
         "id": 462504,
-        "text": "Oblicz: $3\\frac{1}{3} : 2$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{1}{3} : 2 = \\frac{10}{3} : 2 = \\frac{10}{3} \\cdot \\frac{1}{2} = \\frac{10}{6} = 1\\frac{2}{3}$"
-      },
-      {
-        "id": 462505,
-        "text": "Oblicz: $2\\frac{2}{5} : 1\\frac{1}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{2}{5} : 1\\frac{1}{5} = \\frac{12}{5} : \\frac{6}{5} = \\frac{12}{5} \\cdot \\frac{5}{6} = \\frac{60}{30} = 2$"
-      },
-      {
-        "id": 462506,
-        "text": "Oblicz: $4\\frac{1}{2} : 2\\frac{1}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{1}{2} : 2\\frac{1}{4} = \\frac{9}{2} : \\frac{9}{4} = \\frac{9}{2} \\cdot \\frac{4}{9} = \\frac{36}{18} = 2$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $3\\frac{1}{3} : 2$\nb) $2\\frac{2}{5} : 1\\frac{1}{5}$\nc) $4\\frac{1}{2} : 2\\frac{1}{4}$",
+        "points": 3,
+        "solution": "a) $3\\frac{1}{3} : 2 = \\frac{10}{3} : 2 = \\frac{10}{3} \\cdot \\frac{1}{2} = \\frac{10}{6} = 1\\frac{2}{3}$\n\nb) $2\\frac{2}{5} : 1\\frac{1}{5} = \\frac{12}{5} : \\frac{6}{5} = \\frac{12}{5} \\cdot \\frac{5}{6} = \\frac{60}{30} = 2$\n\nc) $4\\frac{1}{2} : 2\\frac{1}{4} = \\frac{9}{2} : \\frac{9}{4} = \\frac{9}{2} \\cdot \\frac{4}{9} = \\frac{36}{18} = 2$"
       },
       {
         "id": 462507,
-        "text": "Oblicz: $3\\frac{3}{4} : 1\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3\\frac{3}{4} : 1\\frac{1}{2} = \\frac{15}{4} : \\frac{3}{2} = \\frac{15}{4} \\cdot \\frac{2}{3} = \\frac{30}{12} = 2\\frac{1}{2}$"
-      },
-      {
-        "id": 462508,
-        "text": "Oblicz: $6 : 1\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6 : 1\\frac{1}{2} = 6 : \\frac{3}{2} = 6 \\cdot \\frac{2}{3} = \\frac{12}{3} = 4$"
-      },
-      {
-        "id": 462509,
-        "text": "Oblicz: $4\\frac{2}{3} : 7$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$4\\frac{2}{3} : 7 = \\frac{14}{3} : 7 = \\frac{14}{3} \\cdot \\frac{1}{7} = \\frac{14}{21} = \\frac{2}{3}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $3\\frac{3}{4} : 1\\frac{1}{2}$\nb) $6 : 1\\frac{1}{2}$\nc) $4\\frac{2}{3} : 7$",
+        "points": 3,
+        "solution": "a) $3\\frac{3}{4} : 1\\frac{1}{2} = \\frac{15}{4} : \\frac{3}{2} = \\frac{15}{4} \\cdot \\frac{2}{3} = \\frac{30}{12} = 2\\frac{1}{2}$\n\nb) $6 : 1\\frac{1}{2} = 6 : \\frac{3}{2} = 6 \\cdot \\frac{2}{3} = \\frac{12}{3} = 4$\n\nc) $4\\frac{2}{3} : 7 = \\frac{14}{3} : 7 = \\frac{14}{3} \\cdot \\frac{1}{7} = \\frac{14}{21} = \\frac{2}{3}$"
       },
       {
         "id": 462510,
-        "text": "Oblicz: $1\\frac{4}{5} : 1\\frac{2}{10}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$1\\frac{4}{5} : 1\\frac{2}{10} = \\frac{9}{5} : \\frac{12}{10} = \\frac{9}{5} \\cdot \\frac{10}{12} = \\frac{90}{60} = 1\\frac{1}{2}$"
-      },
-      {
-        "id": 462511,
-        "text": "Oblicz: $2\\frac{1}{2} : 5$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$2\\frac{1}{2} : 5 = \\frac{5}{2} : 5 = \\frac{5}{2} \\cdot \\frac{1}{5} = \\frac{5}{10} = \\frac{1}{2}$"
-      },
-      {
-        "id": 462512,
-        "text": "Oblicz: $5\\frac{1}{4} : 1\\frac{3}{4}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$5\\frac{1}{4} : 1\\frac{3}{4} = \\frac{21}{4} : \\frac{7}{4} = \\frac{21}{4} \\cdot \\frac{4}{7} = \\frac{84}{28} = 3$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $1\\frac{4}{5} : 1\\frac{2}{10}$\nb) $2\\frac{1}{2} : 5$\nc) $5\\frac{1}{4} : 1\\frac{3}{4}$",
+        "points": 3,
+        "solution": "a) $1\\frac{4}{5} : 1\\frac{2}{10} = \\frac{9}{5} : \\frac{12}{10} = \\frac{9}{5} \\cdot \\frac{10}{12} = \\frac{90}{60} = 1\\frac{1}{2}$\n\nb) $2\\frac{1}{2} : 5 = \\frac{5}{2} : 5 = \\frac{5}{2} \\cdot \\frac{1}{5} = \\frac{5}{10} = \\frac{1}{2}$\n\nc) $5\\frac{1}{4} : 1\\frac{3}{4} = \\frac{21}{4} : \\frac{7}{4} = \\frac{21}{4} \\cdot \\frac{4}{7} = \\frac{84}{28} = 3$"
       },
       {
         "id": 462513,
-        "text": "Oblicz: $6\\frac{2}{5} : 1\\frac{3}{5}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$6\\frac{2}{5} : 1\\frac{3}{5} = \\frac{32}{5} : \\frac{8}{5} = \\frac{32}{5} \\cdot \\frac{5}{8} = \\frac{160}{40} = 4$"
-      },
-      {
-        "id": 462514,
-        "text": "Oblicz: $3 : 1\\frac{1}{8}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$3 : 1\\frac{1}{8} = 3 : \\frac{9}{8} = 3 \\cdot \\frac{8}{9} = \\frac{24}{9} = 2\\frac{2}{3}$"
-      },
-      {
-        "id": 462515,
-        "text": "Oblicz: $7\\frac{1}{2} : 2\\frac{1}{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$7\\frac{1}{2} : 2\\frac{1}{2} = \\frac{15}{2} : \\frac{5}{2} = \\frac{15}{2} \\cdot \\frac{2}{5} = \\frac{30}{10} = 3$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $6\\frac{2}{5} : 1\\frac{3}{5}$\nb) $3 : 1\\frac{1}{8}$\nc) $7\\frac{1}{2} : 2\\frac{1}{2}$",
+        "points": 3,
+        "solution": "a) $6\\frac{2}{5} : 1\\frac{3}{5} = \\frac{32}{5} : \\frac{8}{5} = \\frac{32}{5} \\cdot \\frac{5}{8} = \\frac{160}{40} = 4$\n\nb) $3 : 1\\frac{1}{8} = 3 : \\frac{9}{8} = 3 \\cdot \\frac{8}{9} = \\frac{24}{9} = 2\\frac{2}{3}$\n\nc) $7\\frac{1}{2} : 2\\frac{1}{2} = \\frac{15}{2} : \\frac{5}{2} = \\frac{15}{2} \\cdot \\frac{2}{5} = \\frac{30}{10} = 3$"
       }
     ]
   },
@@ -36316,7 +35474,7 @@
     "type": "otwarte",
     "difficulty": "łatwe",
     "author": "InfoMatyka",
-    "estimatedTime": 1,
+    "estimatedTime": 2,
     "tags": [
       "ułamki zwykłe",
       "potęgowanie",
@@ -36335,15 +35493,9 @@
     "variants": [
       {
         "id": 462601,
-        "text": "Oblicz: $\\left(\\frac{2}{3}\\right)^{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$"
-      },
-      {
-        "id": 462602,
-        "text": "Oblicz: $\\left(1\\frac{1}{2}\\right)^{2}$. Wynik podaj w najprostszej postaci.",
-        "points": 1,
-        "solution": "$\\left(1\\frac{1}{2}\\right)^{2} = \\left(\\frac{3}{2}\\right)^{2} = \\frac{9}{4} = 2\\frac{1}{4}$"
+        "text": "Wykonaj poniższe działania. Wyniki podaj w najprostszej postaci.\na) $\\left(\\frac{2}{3}\\right)^{2}$\nb) $\\left(1\\frac{1}{2}\\right)^{2}$",
+        "points": 2,
+        "solution": "a) $\\left(\\frac{2}{3}\\right)^{2} = \\frac{4}{9}$\n\nb) $\\left(1\\frac{1}{2}\\right)^{2} = \\left(\\frac{3}{2}\\right)^{2} = \\frac{9}{4} = 2\\frac{1}{4}$"
       }
     ]
   },
