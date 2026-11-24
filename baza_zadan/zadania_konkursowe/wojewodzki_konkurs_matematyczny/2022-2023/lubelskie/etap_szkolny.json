@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_lubelskie.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_lubelskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 4 na iloczyn trzech cyfr i policz ustawienia każdego rozkładu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.02,
+    "procent": 39,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "cyfry powtarzają się w pięciocyfrowym bloku — sprawdź resztę z dzielenia 137 przez 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.58,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno każdy moduł, dopiero potem licznik i mianownik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.56,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q4",
@@ -163,6 +179,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "111 wygląda na liczbę pierwszą, a dzieli się przez 3"
+   },
+   "trudnosc": {
+    "logit": -4.14,
+    "procent": 14,
+    "procent_etap": 16
    }
   },
   {
@@ -200,7 +221,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podzielność przez 4 czytaj z dwóch ostatnich cyfr, przez 3 — z sumy cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.33,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q6",
@@ -240,6 +266,11 @@
      "procent-podstawa"
     ],
     "opis": "Kolejne zmiany procentowe liczy się od nowej ceny, więc +20% i dwa razy −10% nie znoszą się"
+   },
+   "trudnosc": {
+    "logit": -1.52,
+    "procent": 34,
+    "procent_etap": 41
    }
   },
   {
@@ -285,6 +316,11 @@
      "warunek-istnienia"
     ],
     "opis": "Ramię o 6 cm krótsze od podstawy trzeba sprawdzić nierównością trójkąta"
+   },
+   "trudnosc": {
+    "logit": 1.73,
+    "procent": 66,
+    "procent_etap": 73
    }
   },
   {
@@ -331,6 +367,11 @@
      "kierunek-relacji"
     ],
     "opis": "„5 razy mniejsza od” — łatwo odwrócić, która z dwóch potęg piątki jest większa"
+   },
+   "trudnosc": {
+    "logit": 3.36,
+    "procent": 79,
+    "procent_etap": 86
    }
   },
   {
@@ -373,6 +414,11 @@
      "inne:dzielenie-przez-zmienna"
     ],
     "opis": "Po podzieleniu obu stron przez x ginie rozwiązanie x = 0"
+   },
+   "trudnosc": {
+    "logit": 4.24,
+    "procent": 85,
+    "procent_etap": 90
    }
   },
   {
@@ -420,6 +466,11 @@
      "kwantyfikator"
     ],
     "opis": "„Zawsze ostry” — kąt między ramionami może być prosty lub rozwarty"
+   },
+   "trudnosc": {
+    "logit": 4.88,
+    "procent": 88,
+    "procent_etap": 93
    }
   },
   {
@@ -439,7 +490,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) Tydzień ma 168 h, więc 11/42 · 168 = 44 godziny.</p><p>b) Kwadrans to 0,25 h, więc 10 · 0,25 = 2,5 godziny.</p><p>c) Minuta ma 60 s, więc 4/15 · 60 = 16 sekund.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 51,
+    "procent_etap": 59
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q12",
@@ -467,6 +523,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy podstawie mniejszej od 1 większy wykładnik daje mniejszą liczbę"
+   },
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 27
    }
   },
   {
@@ -495,6 +556,11 @@
      "inne:przyprostokatne-to-wysokosci"
     ],
     "opis": "W trójkącie prostokątnym dwie wysokości to przyprostokątne; łatwo liczyć tylko jedną"
+   },
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 61
    }
   },
   {
@@ -523,6 +589,11 @@
      "kierunek-relacji"
     ],
     "opis": "Dłuższa wysokość opada na krótszy bok, nie na dłuższy"
+   },
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 63,
+    "procent_etap": 71
    }
   },
   {
@@ -542,7 +613,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) −7 + (−1/7) = −7 1/7.</p><p>b) 5 + (−5) = 0.</p><p>c) −2 − (−2)<sup>3</sup> = −2 − (−8) = 6.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q16",
@@ -563,7 +639,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ze wzoru na pole trapezu wyznacz wysokość",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.31,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2023_lubelskie_q17",
@@ -582,7 +663,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wartości w złotych: jednozłotówki n, dwudziestogroszówki 4·0,20n (jest ich 4n), dziesięciogroszówki (n−2)·0,10, dwuzłotówki 3·2, jednogroszówki 2·0,01. Suma równa się 21,02 zł: n + 4·0,20n + (n−2)·0,10 + 3·2 + 2·0,01 = 21,02 [zł].</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.33,
+    "procent": 53,
+    "procent_etap": 60
+   }
   }
  ]
 }

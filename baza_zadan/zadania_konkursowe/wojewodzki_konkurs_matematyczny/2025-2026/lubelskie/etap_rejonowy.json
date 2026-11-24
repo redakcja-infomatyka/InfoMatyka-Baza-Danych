@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_lubelskie.pdf",
  "zadania": [
   {
    "id": "rejonowy_2026_lubelskie_q1",
@@ -51,6 +52,11 @@
      "zaokraglenie"
     ],
     "opis": "Wynik to ułamek okresowy, a wariant podaje jego przybliżenie 2,33 — kusi znak równości"
+   },
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 75
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od policzenia zer — pierwsza cyfra musi się z nimi zgadzać",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.25,
+    "procent": 47,
+    "procent_etap": 48
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q3",
@@ -133,6 +144,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczby całkowite: trzeba doliczyć ujemne i zero, a 'nie większą niż' obejmuje samo 16"
+   },
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 56
    }
   },
   {
@@ -170,7 +186,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy ustalić znak każdego wyrażenia, bez liczenia wartości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q5",
@@ -215,6 +236,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odwrotność liczy się od wartości bezwzględnej, więc znak minus z wyrażenia nie przechodzi"
+   },
+   "trudnosc": {
+    "logit": 6.72,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -256,6 +282,11 @@
      "znak"
     ],
     "opis": "Nieparzysta potęga wyrażenia z minusem zachowuje znak: (−x^4)^5 jest ujemne"
+   },
+   "trudnosc": {
+    "logit": 2.16,
+    "procent": 70,
+    "procent_etap": 71
    }
   },
   {
@@ -296,7 +327,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź potęgi do wspólnej podstawy, a pierwiastki oszacuj między sąsiednimi kwadratami",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.56,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q8",
@@ -317,7 +353,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna daje trójkąt 45°-45°-90°, a we wzorze na pole użyj podanej połowy sumy podstaw",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.87,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q9",
@@ -336,7 +377,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> cm. Odcinek prostopadły z jednego wierzchołka dzieli ją tak, że krótszy bok jest przyprostokątną, a przyległy skrajny odcinek (4 cm) jego rzutem na przekątną — z twierdzenia Euklidesa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>64</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm.</p><p>Z twierdzenia Pitagorasa dłuższy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msqrt><mrow><msup><mn>16</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>192</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>8</mn><mo>·</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>64</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.13,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q10",
@@ -357,7 +403,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź krawędzie, ściany i wierzchołki przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.45,
+    "procent": 44,
+    "procent_etap": 46
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q11",
@@ -381,7 +432,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kąty niezaznaczone leżą przy punktach przecięcia i same tworzą trójkąt",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.04,
+    "procent": 69,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q12",
@@ -408,6 +464,11 @@
      "plot-i-slupki"
     ],
     "opis": "10^102 − 6 ma 102 cyfry, ale dziewiątek jest o jedną mniej niż zer w 10^102"
+   },
+   "trudnosc": {
+    "logit": 2.35,
+    "procent": 71,
+    "procent_etap": 73
    }
   },
   {
@@ -436,6 +497,11 @@
      "procent-podstawa"
     ],
     "opis": "Ćwierć liczy się od pozostałej kwoty, a 10% od całej — dwie różne podstawy w jednym zadaniu"
+   },
+   "trudnosc": {
+    "logit": 3.28,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -455,7 +521,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie cyfrą dziesiątek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> cyfrą jedności; liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></math>. Z warunków zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>21</mn><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math>. Z pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mi>y</mi><mo>=</mo><mn>11</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></math>. Drugie równanie daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>7</mn><mi>y</mi><mo>−</mo><mn>12</mn></math>. Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>y</mi><mo>=</mo><mn>7</mn><mi>y</mi><mo>−</mo><mn>12</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Szukana liczba to 84.</p>",
     "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – cyfra dziesiątek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – cyfra jedności, i zapisanie liczby dwucyfrowej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></math></li><li>2 pkt – zapisanie jednego równania zgodnie z warunkami zadania, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>21</mn><mo>(</mo><mi>x</mi><mo>&#x2212;</mo><mi>y</mi><mo>)</mo></math></li><li>3 pkt – zapisanie układu równań zgodnie z warunkami zadania, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>21</mn><mo>(</mo><mi>x</mi><mo>&#x2212;</mo><mi>y</mi><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>&#x2212;</mo><mn>12</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math></li><li>4 pkt – rozwiązanie, zapisanego zgodnie z warunkami zadania, układu równań i poprawne obliczenie jednej niewiadomej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>4</mn></math></li><li>5 pkt – poprawne podanie liczby dwucyfrowej: 84</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.35,
+    "procent": 71,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2026_lubelskie_q15",
@@ -484,6 +555,11 @@
      "inne:konfiguracja-figury"
     ],
     "opis": "Trójkąt równoboczny leży na zewnątrz kwadratu — warunek o części wspólnej wyklucza rysunek do środka"
+   },
+   "trudnosc": {
+    "logit": 6.55,
+    "procent": 95,
+    "procent_etap": 95
    }
   },
   {
@@ -512,6 +588,11 @@
      "procent-podstawa"
     ],
     "opis": "Spadek zawartości wody o 1,5 punktu procentowego nie oznacza utraty 1,5% masy — stała jest sucha masa"
+   },
+   "trudnosc": {
+    "logit": 2.26,
+    "procent": 71,
+    "procent_etap": 72
    }
   }
  ]

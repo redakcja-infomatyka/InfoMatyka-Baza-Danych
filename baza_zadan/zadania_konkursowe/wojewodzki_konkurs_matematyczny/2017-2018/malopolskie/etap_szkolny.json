@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2017-2018_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz wyniku działania — zmniejszenie każdej z pięciu cyfr o 4 zmienia liczbę zawsze tak samo",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.24,
+    "procent": 37,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od liczby wierzchołków odejmij ten wierzchołek i jego dwóch sąsiadów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.02,
+    "procent": 9,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q3",
@@ -118,7 +129,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź najmniejszą wspólną wielokrotność 12 i 8, a potem dodaj ją do godziny startu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.02,
+    "procent": 22,
+    "procent_etap": 25
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2013_podlaskie_sp_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q4",
@@ -155,7 +177,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dopisz D i C z przodu, zamień oba zapisy na liczby i podziel większą przez mniejszą z resztą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 63
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q5",
@@ -203,6 +230,11 @@
      "o-co-pytaja"
     ],
     "opis": "α na rysunku leży na zewnątrz trójkąta, a nie jest jego kątem wewnętrznym"
+   },
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 27
    }
   },
   {
@@ -240,7 +272,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile razy druga mapa jest dokładniejsza od pierwszej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.73,
+    "procent": 24,
+    "procent_etap": 28
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q7",
@@ -277,7 +314,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj oba języki i odejmij tych policzonych dwa razy, a wynik odejmij od 30",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.43,
+    "procent": 19,
+    "procent_etap": 22
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q8",
@@ -321,6 +363,11 @@
      "zbior-liczb"
     ],
     "opis": "Pierwsza cyfra liczby trzycyfrowej nie może być zerem"
+   },
+   "trudnosc": {
+    "logit": -2.25,
+    "procent": 28,
+    "procent_etap": 33
    }
   },
   {
@@ -367,6 +414,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trafienie w pole 0 też jest rzutem, a dwie strzałki mogą trafić w to samo pole"
+   },
+   "trudnosc": {
+    "logit": 3.78,
+    "procent": 82,
+    "procent_etap": 88
    }
   },
   {
@@ -405,7 +457,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz sumę wieku córek i sprawdź, o ile rocznie zmniejsza się różnica do wieku matki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.6,
+    "procent": 25,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q11",
@@ -443,7 +500,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyraź nieobecnych wczoraj i dziś jako ułamki całej klasy — te dwie części różnią się o 5 uczniów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.08,
+    "procent": 60,
+    "procent_etap": 67
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q12",
@@ -480,7 +542,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pogrupuj wyrazy w pary (1−2), (3−4), … i osobno potraktuj ostatni składnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.12,
+    "procent": 38,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q13",
@@ -517,7 +584,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma wszystkich czterech numerów miejsc jest z góry znana — zacznij od miejsca Eryka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.83,
+    "procent": 41,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q14",
@@ -554,7 +626,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kwadrat pod „6” potraktujmy jako podstawę sześcianu. W rzędzie kolejne kwadraty zawijają się na ścianę prawą, górną i lewą, kwadrat nad podstawą — na ścianę tylną, a kwadrat z L i K (pod podstawą) — na ścianę przednią.</p><p>Punkt X leży na krawędzi między ścianą górną i lewą, od strony przedniej — to wierzchołek, w którym stykają się ściany górna, lewa i przednia. Na ścianie przedniej ten sam wierzchołek to punkt L (naprzeciw M). Po sklejeniu X nakłada się na L.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.45,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q15",
@@ -590,7 +667,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj oba odejmowania: różnica największej i najmniejszej to 6 razy najmniejsza liczba",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.97,
+    "procent": 68,
+    "procent_etap": 75
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q16",
@@ -632,6 +714,11 @@
      "rysunek"
     ],
     "opis": "Zd. 1: wszystkie narożniki wyglądają na proste, ale dwa kąty wewnętrzne wcięcia mają 270°"
+   },
+   "trudnosc": {
+    "logit": 3.67,
+    "procent": 81,
+    "procent_etap": 88
    }
   },
   {
@@ -653,7 +740,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w a) załóż po 3 truskawki w każdej salaterce; w b) skróć koszt galaretek z ułamkiem o mianowniku 99",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.8,
+    "procent": 88,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2017-2018_malopolskie_q18",
@@ -680,6 +772,11 @@
      "o-co-pytaja"
     ],
     "opis": "b) Większa oszczędność działa dopiero po 2 latach; pytanie dotyczy różnicy czasu, nie nowego czasu"
+   },
+   "trudnosc": {
+    "logit": 4.29,
+    "procent": 85,
+    "procent_etap": 90
    }
   },
   {

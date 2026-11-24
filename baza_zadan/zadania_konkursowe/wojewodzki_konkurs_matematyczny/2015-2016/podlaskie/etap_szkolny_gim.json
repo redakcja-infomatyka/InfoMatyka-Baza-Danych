@@ -8,6 +8,7 @@
  "liczba_zadan": 21,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2015_podlaskie_gim.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2015_podlaskie_gim_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2015_podlaskie_gim_q1",
@@ -51,6 +52,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Nieskończone rozwinięcia okresowe 0,(73) i 0,666… wyglądają na niewymierne, a pierwiastek z liczby mieszanej łatwo zlekceważyć"
+   },
+   "trudnosc": {
+    "logit": 2.86,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od ostatniej cyfry: podzielność przez 5 i przez 4 razem ją wyznaczają, resztę dopnij dziewiątką",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q3",
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj połówki obu kątów przyległych",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.51,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj √3 z 1 i dopiero potem zdejmij moduł",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.82,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q5",
@@ -200,7 +221,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kąt zewnętrzny i sprawdź, ile ich mieści się w 360°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.67,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q6",
@@ -237,7 +263,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1 ar to 100 m² — wystarczy przesunąć przecinek",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.96,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q7",
@@ -274,7 +305,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "6 klocków to 2/3 ćwiartki — wyznacz najpierw całą ćwiartkę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.05,
+    "procent": 21,
+    "procent_etap": 25
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_podlaskie_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q8",
@@ -312,7 +354,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podnieś boki do kwadratu — pierwiastki znikają i porównujesz same liczby całkowite",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.43,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q9",
@@ -356,6 +403,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Schemat „2 maszyny, 2 litry, 2 dni” kusi skrótem „1 maszyna zużywa 1 litr dziennie”"
+   },
+   "trudnosc": {
+    "logit": -3.54,
+    "procent": 18,
+    "procent_etap": 21
    }
   },
   {
@@ -394,7 +446,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku nie zmienia się z upływem lat",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q11",
@@ -439,6 +496,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pytanie o cenę początkową jako procent ceny końcowej — podstawa procentu jest odwrócona"
+   },
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 49,
+    "procent_etap": 55
    }
   },
   {
@@ -480,7 +542,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "styczna jest prostopadła do promienia, a trójkąt z dwóch promieni jest równoramienny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q13",
@@ -518,7 +585,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz x przed nawias",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.0,
+    "procent": 9,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q14",
@@ -556,7 +628,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź obrót o 180° wokół punktu przecięcia przekątnych",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.81,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q15",
@@ -593,7 +670,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "układ jest oznaczony, gdy drugie równanie nie jest proporcjonalne do pierwszego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.17,
+    "procent": 29,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q16",
@@ -630,7 +712,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czas przygotowania jest stały, a reszta rośnie z liczbą detali",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.25,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q17",
@@ -675,6 +762,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z liczby krawędzi wychodzi liczba boków podstawy n, a pytają o wierzchołki"
+   },
+   "trudnosc": {
+    "logit": -4.54,
+    "procent": 11,
+    "procent_etap": 13
    }
   },
   {
@@ -715,7 +807,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "potnij trapez na prostokąt i trójkąt prostokątny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.47,
+    "procent": 54,
+    "procent_etap": 61
+   }
   },
   {
    "id": "szkolny_2015_podlaskie_gim_q19",
@@ -746,6 +843,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odwrotna do a i przeciwna do b — dwa różne pojęcia w jednym zdaniu, łatwo wziąć b zamiast −b"
+   },
+   "trudnosc": {
+    "logit": 1.47,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -778,6 +880,11 @@
      "rysunek"
     ],
     "opis": "Zamalowany jest duży wycinek (bez kąta 45°), a nie wycinek 45° przy rombie"
+   },
+   "trudnosc": {
+    "logit": 6.92,
+    "procent": 96,
+    "procent_etap": 98
    }
   },
   {
@@ -798,7 +905,12 @@
     "rozwiazanie_html": "<p>Oznaczmy krawędź podstawy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a wysokość zbiornika przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>h</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></math>. Pole podstawy (sześciokąt foremny) jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>. Ponieważ 144 litry to 144 dm³, z objętości otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>64</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> dm. Zatem wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> dm.</p>",
     "punktacja_html": "<p>Częściowo: 1 pkt za zapisanie zależności między h i a; 2 pkt za ułożenie równania z objętości; 3 pkt za a = 4.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 93
+   }
   }
  ]
 }

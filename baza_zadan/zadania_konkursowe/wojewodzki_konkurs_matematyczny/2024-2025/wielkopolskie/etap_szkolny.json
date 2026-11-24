@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_wielkopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno licznik i mianownik ułamka piętrowego, a przy dzieleniu skracaj przed mnożeniem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.84,
+    "procent": 41,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q2",
@@ -89,6 +95,11 @@
      "znak"
     ],
     "opis": "Dwa różne pojęcia w jednym zdaniu: odwrotna do jednej liczby, przeciwna do drugiej; łatwo pominąć zmianę znaku"
+   },
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 69
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodać można tylko jednomiany podobne — z dokładnie tymi samymi potęgami",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -9.39,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q4",
@@ -164,7 +180,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz dni wakacji: resztę czerwca plus cały lipiec i sierpień",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q5",
@@ -210,7 +231,18 @@
      "kierunek-relacji"
     ],
     "opis": "Odległości na mapie rosną o 50%, ale mianownik skali nie maleje o 50%, tylko dzieli się przez 1,5"
-   }
+   },
+   "trudnosc": {
+    "logit": 0.62,
+    "procent": 56,
+    "procent_etap": 62
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2013-2014_malopolskie_q7",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q6",
@@ -247,7 +279,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw pojemność zbiornika, potem po każdej jeździe licz od razu, jaka część zostaje",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.87,
+    "procent": 40,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q7",
@@ -284,7 +321,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz wszystko na minuty i zobacz, ile czasu zostaje na resztę trasy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.87,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q8",
@@ -321,7 +363,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "opuść nawias, iksy na jedną stronę, ułamki na drugą — wspólny mianownik 9",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.24,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q9",
@@ -366,6 +413,11 @@
      "o-co-pytaja"
     ],
     "opis": "Po cofnięciu 20% wychodzi liczba zgłoszonych, a pytają o całe koło, którego zgłosiło się tylko 5/6"
+   },
+   "trudnosc": {
+    "logit": -2.52,
+    "procent": 26,
+    "procent_etap": 30
    }
   },
   {
@@ -404,7 +456,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejrzyj tylko nieparzyste wielokrotności 7 i sprawdzaj ich resztę z dzielenia przez 9",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q11",
@@ -449,6 +506,11 @@
      "warunek-istnienia"
     ],
     "opis": "Największa podstawa naturalna musi spełniać nierówność trójkąta, więc nie może być równa sumie ramion"
+   },
+   "trudnosc": {
+    "logit": -2.18,
+    "procent": 29,
+    "procent_etap": 34
    }
   },
   {
@@ -489,7 +551,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przesuń jedno ramię równolegle — z obu ramion i różnicy podstaw powstaje trójkąt prostokątny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.29,
+    "procent": 71,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q13",
@@ -528,7 +595,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zaznaczmy punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leżący po przeciwnej stronie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, taki że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi><mo>=</mo><mi>AB</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi><mo>=</mo><mi>EB</mi><mo>+</mo><mi>BD</mi><mo>=</mo><mi>AB</mi><mo>+</mo><mi>BD</mi><mo>=</mo><mi>AC</mi></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równoramienny, a jego kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>80</mn><mo>°</mo><mo>=</mo><mn>100</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>AEB</mi><mo>=</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>100</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>40</mn><mo>°</mo></math>.</p><p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>AED</mi><mo>=</mo><mn>40</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADE</mi><mo>=</mo><mn>70</mn><mo>°</mo></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>DAE</mi><mo>=</mo><mn>70</mn><mo>°</mo></math>. On też jest równoramienny, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi><mo>=</mo><mi>ED</mi><mo>=</mo><mi>AC</mi></math>.</p><p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi><mo>=</mo><mi>AC</mi></math>, to trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> jest równoramienny i zaznaczony kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ACE</mi><mo>=</mo><mo>∢</mo><mi>AEC</mi><mo>=</mo><mn>40</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.16,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q14",
@@ -566,7 +638,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędzi jest 3 razy tyle co boków podstawy, a wierzchołków 2 razy tyle",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.66,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q15",
@@ -608,6 +685,11 @@
      "konwencja"
     ],
     "opis": "Liczba cyfr k·10^n, gdy po wyłączeniu potęg dziesiątki zostaje dwucyfrowy czynnik k"
+   },
+   "trudnosc": {
+    "logit": 5.43,
+    "procent": 91,
+    "procent_etap": 95
    }
   },
   {
@@ -645,7 +727,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "marki wychodzą przez wykluczanie, kolory dopasuj dopiero na końcu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.23,
+    "procent": 78,
+    "procent_etap": 85
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q17",
@@ -675,7 +762,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dzielniki dobieraj w pary o iloczynie 24, a NWW wylicz z iloczynu obu liczb i NWD",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 53
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q18",
@@ -697,7 +789,12 @@
     "rozwiazanie_html": "<p>Sprowadzamy obie potęgi do wspólnej podstawy 2 i wyłączamy wspólny czynnik przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>16</mn><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>23</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>23</mn></msup><mo>=</mo><msup><mn>2</mn><mn>27</mn></msup><mo>+</mo><msup><mn>2</mn><mn>23</mn></msup><mo>=</mo><msup><mn>2</mn><mn>23</mn></msup><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>23</mn></msup><mo>(</mo><mn>32</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>23</mn></msup><mo>·</mo><mn>33</mn></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest więc iloczynem, w którym jednym z czynników jest 33, zatem 33 jest dzielnikiem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, c.n.u.</p>",
     "punktacja_html": "<p>Zasady oceniania: 2 pkt za poprawne uzasadnienie i wykazanie, że 33 jest dzielnikiem liczby a; 1 pkt za poprawne zastosowanie twierdzenia o potęgowaniu potęgi i wyłączenie wspólnego czynnika przed nawias bez wykazania podzielności przez 33.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.11,
+    "procent": 38,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2024-2025_wielkopolskie_q19",
@@ -725,6 +822,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy przekładaniu tych samych prostokątów zachowuje się pole, a obwód kwadratu nie musi być równy 80 cm"
+   },
+   "trudnosc": {
+    "logit": 3.79,
+    "procent": 82,
+    "procent_etap": 88
    }
   },
   {
@@ -746,7 +848,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich znajomych na początku. Wtedy liczba dziewcząt wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>66</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo><mo>·</mo><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi></math>. Po dołączeniu jednej osoby (dziewczyny) znajomych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>1</mn></math>, a dziewcząt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn></math>, co stanowi 68% wszystkich. Układamy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mfrac><mn>68</mn><mn>100</mn></mfrac><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Po pomnożeniu przez 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>200</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>100</mn><mo>=</mo><mn>68</mn><mi>x</mi><mo>+</mo><mn>68</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mn>32</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24</mn></math>. Dziewcząt jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mn>16</mn></math>, więc chłopców <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>8</mn></math>. Odpowiedź: w grupie znajomych jest 8 chłopców.</p>",
     "punktacja_html": "<p>Zasady oceniania: 3 pkt za bezbłędne rozwiązanie i wynik 8 chłopców; punkty częściowe za wprowadzenie oznaczeń i ułożenie poprawnego równania oraz jego rozwiązanie.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 91
+   }
   }
  ]
 }

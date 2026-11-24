@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024_mazowieckie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz warunek jako √(1,5x) = ½x i podnieś obie strony do kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.34,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2024_mazowieckie_q2",
@@ -73,7 +79,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest punktem przecięcia wysokości (ortocentrum). Każda wysokość trójkąta jest krótsza od boku, do którego nie jest poprowadzona (jest przyprostokątną trójkąta prostokątnego, w którym ten bok byłby przeciwprostokątną), więc suma trzech wysokości jest mniejsza od obwodu — zdanie 1 jest prawdziwe (P). Zdanie 2 jest fałszywe (F): np. w trójkącie równobocznym o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> pokrywa się ze środkiem trójkąta, a suma jego odległości od boków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>0,87</mn><mi>a</mi></mrow></math>, podczas gdy połowa obwodu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math> — suma odległości jest mniejsza od połowy obwodu.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.37,
+    "procent": 95,
+    "procent_etap": 98
+   }
   },
   {
    "id": "szkolny_2024_mazowieckie_q3",
@@ -93,7 +104,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel stronami ab i ac, żeby dostać stosunek b : c, potem skorzystaj z bc = 42",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2024_mazowieckie_q4",
@@ -115,7 +131,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij czas jazdy rowerem w jedną stronę za 1 i wyraź w tym czas wtorku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.38,
+    "procent": 72,
+    "procent_etap": 79
+   }
   },
   {
    "id": "szkolny_2024_mazowieckie_q5",
@@ -145,6 +166,11 @@
      "o-co-pytaja"
     ],
     "opis": "Ułamek 4/9 dotyczy odcinka KS, a podana długość 1075 m — odcinka DK"
+   },
+   "trudnosc": {
+    "logit": 2.33,
+    "procent": 71,
+    "procent_etap": 78
    }
   },
   {
@@ -175,6 +201,11 @@
      "rysunek"
     ],
     "opis": "Dwa „schodkowe” wielokąty nie składają się w prostokąt AB×BC — trzeba przesunąć o jeden schodek"
+   },
+   "trudnosc": {
+    "logit": 4.06,
+    "procent": 84,
+    "procent_etap": 89
    }
   },
   {
@@ -195,7 +226,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o ramionach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CAB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ABC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> jest równoramienny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ADB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi></mrow></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BDC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DCB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DBC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mi>α</mi><mn>2</mn></mfrac></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>DCB</mi></mrow></math> jest jednocześnie kątem przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>α</mi><mo>+</mo><mfrac><mi>α</mi><mn>2</mn></mfrac><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>72</mn><mo>°</mo></mrow></math>. Zatem kąty trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BDC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DCB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DBC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.56,
+    "procent": 73,
+    "procent_etap": 80
+   }
   },
   {
    "id": "szkolny_2024_mazowieckie_q8",
@@ -224,6 +260,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "„Dokładnie dwoma znakami”: liczba podzielna przez 3 i 4 jest też podzielna przez 6, więc ma trzy znaki"
+   },
+   "trudnosc": {
+    "logit": 7.3,
+    "procent": 97,
+    "procent_etap": 99
    }
   },
   {
@@ -243,7 +284,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy krawędzie podstawy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> (dłuższa) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (krótsza) oraz wysokość przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mi>h</mi><mo>=</mo><mn>960</mn></mrow></math>, a mniejsza ściana boczna ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mi>h</mi><mo>=</mo><mn>96</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>960</mn><mn>96</mn></mfrac><mo>=</mo><mn>10</mn></mrow></math>. Po zmianie objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>a</mi><mo>·</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>960</mn><mo>+</mo><mn>768</mn><mo>=</mo><mn>1728</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mi>h</mi><mo>=</mo><mn>1728</mn></mrow></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mi>h</mi><mo>=</mo><mn>144</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mi>h</mi><mo>=</mo><mn>96</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>96</mn><mo>+</mo><mn>4</mn><mi>h</mi><mo>=</mo><mn>144</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>. Krawędzie powstałego prostopadłościanu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>12</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow></math> — wszystkie są równe 12, zatem jest to sześcian o krawędzi 12.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.73,
+    "procent": 92,
+    "procent_etap": 96
+   }
   }
  ]
 }

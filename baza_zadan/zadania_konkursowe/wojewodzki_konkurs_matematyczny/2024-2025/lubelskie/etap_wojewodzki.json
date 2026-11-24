@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_lubelskie.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025_lubelskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 350 na czynniki pierwsze i patrz tylko na różne czynniki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.02,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt ostry i rozwarty rombu dają razem 180°, a wysokość weź z trójkąta 30-60-90",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q3",
@@ -127,6 +138,11 @@
      "procent-podstawa"
     ],
     "opis": "„Zwiększyć o 200%” to pomnożyć przez 3, a nie przez 2 — łatwo pomylić „o” z „do”/„dwa razy”."
+   },
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 51
    }
   },
   {
@@ -164,7 +180,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zastanów się, jak zmienia się liczba kawałków po każdym pojedynczym złamaniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.85,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q5",
@@ -203,6 +224,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Mniejsze pole prostokąta nie znaczy, że zmieści się w trójkącie; w zd. 1 cyfry 224 i 242 zamienione."
+   },
+   "trudnosc": {
+    "logit": 4.93,
+    "procent": 89,
+    "procent_etap": 84
    }
   },
   {
@@ -240,6 +266,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nie każda trójka odcinków tworzy trójkąt — trzeba sprawdzić nierówność trójkąta dla każdej z czterech trójek."
+   },
+   "trudnosc": {
+    "logit": 2.46,
+    "procent": 72,
+    "procent_etap": 65
    }
   },
   {
@@ -283,6 +314,11 @@
      "zbior-liczb"
     ],
     "opis": "Najmniejsze rozwiązanie jest ujemne, a liczba ujemna nie może być pierwsza; do tego znak przy dzieleniu przez −1."
+   },
+   "trudnosc": {
+    "logit": 6.0,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -313,6 +349,11 @@
      "inne:interpretacja-tresci"
     ],
     "opis": "„Googol googoli” to googol razy googol; wynik trzeba zapisać w notacji wykładniczej z mantysą od 1 do 10."
+   },
+   "trudnosc": {
+    "logit": 1.69,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -359,6 +400,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pierwiastek z sumy to nie suma pierwiastków — liczba mieszana 1 7/12 kusi jako √1 + √(49/144)."
+   },
+   "trudnosc": {
+    "logit": 4.93,
+    "procent": 89,
+    "procent_etap": 84
    }
   },
   {
@@ -381,7 +427,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz czynnik przed pierwiastek w √20 i √12, a iloczyn licz wzorem (a+b)(a−b)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.24,
+    "procent": 61,
+    "procent_etap": 54
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q11",
@@ -403,7 +454,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w trójkącie BDC kąty to 30°, 60°, 90° — użyj proporcji boków, potem tak samo w ABC",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q12",
@@ -422,7 +478,12 @@
     "rozwiazanie_html": "<p>Oznaczmy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — pierwsza liczba, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — druga, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> — trzecia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>y</mi></mrow></math> — czwarta. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>135</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>=</mo><mn>135</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>45</mn></mrow></math>. Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mi>y</mi><mo>−</mo><mi>x</mi></mrow></msqrt><mo>=</mo><mn>3</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>−</mo><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math>. Z układu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>45</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>−</mo><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>27</mn></mrow></math>. Zatem cztery liczby to 18, 27, 36 i 54.</p>",
     "punktacja_html": "<ul><li>1 pkt – Wprowadzenie oznaczeń i poprawne zapisanie zależności pomiędzy liczbami: pierwszą liczbą i trzecią oraz drugą liczbą i czwartą.</li><li>2 pkt – Poprawne zapisanie, zgodnie z warunkami zadania, jednego równania.</li><li>3 pkt – Poprawne zapisanie, zgodnie z warunkami zadania, układu równań.</li><li>4 pkt – Poprawne rozwiązanie układu równań zapisanego zgodnie z warunkami zadania.</li><li>5 pkt – Poprawne obliczenie i podanie czterech liczb naturalnych spełniających warunki zadania.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.14,
+    "procent": 48,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q13",
@@ -443,7 +504,12 @@
     "rozwiazanie_html": "<p>Rozwiązujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mi>x</mi></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math>. Objętość walca o promieniu podstawy 4 i wysokości 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mi>π</mi><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>=</mo><mn>64</mn><mi>π</mi></mrow></math>. Objętość sześcianu o krawędzi 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><mi>π</mi><mo>&gt;</mo><mn>64</mn></mrow></math>, większą objętość ma walec i jest ona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> razy większa od objętości sześcianu.</p>",
     "punktacja_html": "<ul><li>1 pkt – Poprawne rozwiązanie równania.</li><li>2 pkt – Poprawne obliczenie objętości walca.</li><li>3 pkt – Poprawne obliczenie objętości sześcianu.</li><li>4 pkt – Poprawne porównanie objętości walca i sześcianu oraz podanie odpowiedzi.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.05,
+    "procent": 49,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q14",
@@ -462,7 +528,12 @@
     "rozwiazanie_html": "<p>Różnica zakupów Janka i Antka to 2 ołówki i 6 kartonów brystolu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>−</mo><mn>31,50</mn><mo>=</mo><mn>10,50</mn></mrow></math> zł. Dzieląc przez 2, otrzymujemy koszt 1 ołówka i 3 kartonów brystolu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10,50</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>5,25</mn></mrow></math> zł. Zakupy Gosi (1 ołówek + 1 karton + 1 klej) równe są zakupom Antka pomniejszonym o 1 ołówek i 3 kartony brystolu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31,50</mn><mo>−</mo><mn>5,25</mn><mo>=</mo><mn>26,25</mn></mrow></math> zł. Gosia zapłaciła 26,25 zł.</p>",
     "punktacja_html": "<ul><li>1 pkt – Poprawne obliczenie wartości 2 ołówków i 6 kartonów brystolu (różnica kosztów poniesionych przez Janka i Antka).</li><li>2 pkt – Poprawne obliczenie wartości 1 ołówka i 3 kartonów brystolu.</li><li>3 pkt – Poprawne obliczenie kwoty zapłaconej przez Gosię (różnica kosztów poniesionych przez Antka i wartości zakupu 1 ołówka i 3 kartonów brystolu).</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.0,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2025_lubelskie_q15",
@@ -485,7 +556,12 @@
     "rozwiazanie_html": "<p>Promień okręgu opisanego na kwadracie o boku 2 to połowa przekątnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math>. Pole małego koła (opisanego): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mi>π</mi></mrow></math>. Pole dużego koła (o promieniu równym bokowi, czyli 2): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>π</mi></mrow></math>. Pole dwóch odcinków kołowych małego koła (przy górnym boku kwadratu) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>−</mo><mn>2</mn></mrow></math>, a pole części kwadratu (różnica pola kwadratu i ćwiartki dużego koła) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mi>π</mi></mrow></math>. Pole zacieniowanej figury to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>π</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>−</mo><mi>π</mi><mo>)</mo><mo>=</mo><mn>2</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 pkt – Poprawne obliczenie długości promienia okręgu opisanego na kwadracie.</li><li>2 pkt – Poprawne obliczenie pól powierzchni obu kół.</li><li>3 pkt – Poprawne obliczenia pola powierzchni dwóch odcinków małego koła.</li><li>4 pkt – Poprawne obliczenie pola powierzchni części kwadratu (różnica pola powierzchni kwadratu i ¼ pola powierzchni dużego koła).</li><li>5 pkt – Poprawne obliczenie pola zamalowanej figury.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.91,
+    "procent": 93,
+    "procent_etap": 90
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 28,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2013_podlaskie_gim.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2013_podlaskie_gim_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułóż równanie: po oddaniu x Tomkowi zostaje dwa razy tyle, ile ma wtedy Sławek",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.92,
+    "procent": 22,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każde trzy wierzchołki dają trójkąt — policz, na ile sposobów wybierzesz trzy z pięciu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.08,
+    "procent": 14,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie, która cecha podzielności patrzy na sumę cyfr",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.46,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q4",
@@ -157,7 +173,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "o cyfrze jedności decyduje wyłącznie cyfra jedności podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q5",
@@ -194,7 +215,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumy punktów: z czterech sprawdzianów i z pięciu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.64,
+    "procent": 11,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q6",
@@ -232,7 +258,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokości to h, h+2, h+4, h+6, h+8 — zapisz warunek dla największego sześcianu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.88,
+    "procent": 40,
+    "procent_etap": 33
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q7",
@@ -269,7 +300,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "panowie P i Q mają tylko po jednym powitaniu — sprawdź, z kim zostają wtedy R i S",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.38,
+    "procent": 86,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q8",
@@ -316,6 +352,11 @@
      "znak"
     ],
     "opis": "Przesunięcie wykresu w prawo to minus w module, nie plus"
+   },
+   "trudnosc": {
+    "logit": -2.86,
+    "procent": 23,
+    "procent_etap": 18
    }
   },
   {
@@ -354,7 +395,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "31 dni to 4 tygodnie i 3 dni — tylko te trzy dni tygodnia wypadną 5 razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q10",
@@ -391,7 +437,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, ile trzeba by zabrać, żeby warunek dało się popsuć, i cofnij się o jeden",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.05,
+    "procent": 94,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q11",
@@ -428,7 +479,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Cztery krawędzie bez wspólnych wierzchołków to skojarzenie doskonałe grafu sześcianu (Q3). Liczba skojarzeń doskonałych Q3 wynosi 9.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.41,
+    "procent": 97,
+    "procent_etap": 96
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q12",
@@ -471,6 +527,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Bok 2 może być podstawą albo ramieniem, a kąt między ramionami ma dwie możliwe wartości"
+   },
+   "trudnosc": {
+    "logit": 6.99,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -519,6 +580,11 @@
      "rysunek"
     ],
     "opis": "Trójkąt równoboczny przy krótszym boku daje połowę przekątnej, a pytają o całą"
+   },
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 33
    }
   },
   {
@@ -565,6 +631,11 @@
      "zaokraglenie"
     ],
     "opis": "Dwa warianty 'Tak' – liczy się, czy średnica mieści się w boku, nie w przekątnej; π≈3 daje remis"
+   },
+   "trudnosc": {
+    "logit": 4.61,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -602,7 +673,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź z obu środków odcinki prostopadłe do cięciwy — jej połowa ma 12",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.83,
+    "procent": 88,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q16",
@@ -648,6 +724,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wzrost boku o 20% to nie wzrost pola o 2·20%; pole skaluje się kwadratem"
+   },
+   "trudnosc": {
+    "logit": -2.5,
+    "procent": 26,
+    "procent_etap": 20
    }
   },
   {
@@ -693,7 +774,18 @@
      "procent-podstawa"
     ],
     "opis": "Stężenie mieszaniny to nie zwykła średnia stężeń przy różnych objętościach"
-   }
+   },
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 20
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2021-2022_zachodniopomorskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q18",
@@ -714,7 +806,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech <math><mi>BC</mi><mo>=</mo><mi>a</mi></math>, więc <math><mi>AB</mi><mo>=</mo><mn>2</mn><mi>a</mi></math> i <math><mi>AM</mi><mo>=</mo><mi>MB</mi><mo>=</mo><mi>a</mi></math>. Trójkąt <math><mi>AMD</mi></math> jest równoramienny (<math><mi>AM</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>a</mi></math>), a <math><mi>BMC</mi></math> równoramienny (<math><mi>BM</mi><mo>=</mo><mi>BC</mi><mo>=</mo><mi>a</mi></math>). Wtedy <math><mo>∠</mo><mi>AMD</mi><mo>+</mo><mo>∠</mo><mi>BMC</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>-</mo><mo>∠</mo><mi>A</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>180</mn><mo>-</mo><mo>∠</mo><mi>B</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>90</mn><mo>°</mo></math> (bo <math><mo>∠</mo><mi>A</mi><mo>+</mo><mo>∠</mo><mi>B</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>). Stąd <math><mo>∠</mo><mi>CMD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>-</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.53,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2013_podlaskie_gim_q19",
@@ -741,6 +838,11 @@
      "o-co-pytaja"
     ],
     "opis": "Niewiadomą jest pierwsza część trasy, a pytają o długość całej trasy"
+   },
+   "trudnosc": {
+    "logit": 4.11,
+    "procent": 84,
+    "procent_etap": 78
    }
   },
   {
@@ -763,7 +865,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odetnij od sześcianu cztery narożne ostrosłupy o trzech prostopadłych krawędziach a",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 75
+   }
   }
  ]
 }

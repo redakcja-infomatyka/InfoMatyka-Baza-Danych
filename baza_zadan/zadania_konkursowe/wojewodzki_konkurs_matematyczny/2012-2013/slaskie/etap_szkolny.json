@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2012-2013_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2012-2013_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2012-2013_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Uzupełniona krzyżówka poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>; pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Za każdą poprawnie wpisaną liczbę przyznaje się 1 punkt (łącznie 6 punktów).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>16</mn><mo>]</mo><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>:</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>9</mn></mrow></math></p>",
     "punktacja_html": "<p>Za poprawne wstawienie nawiasów w obu wyrażeniach — 2 punkty; w jednym z wyrażeń — 1 punkt.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.64,
+    "procent": 81,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q3",
@@ -85,7 +96,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpisz osobno miliony, tysiące i jedności",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.4,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q4",
@@ -123,7 +139,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, na jakie cyfry mogą się kończyć takie liczby, i ile jest dziesiątek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.34,
+    "procent": 46,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q5",
@@ -167,6 +188,11 @@
      "kalendarz-czas"
     ],
     "opis": "Podróż przechodzi przez północ – nie wolno odejmować godzin wprost"
+   },
+   "trudnosc": {
+    "logit": -3.4,
+    "procent": 19,
+    "procent_etap": 22
    }
   },
   {
@@ -204,7 +230,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień dobę na minuty i skróć ułamek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.9,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q7",
@@ -248,6 +279,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dwie proste nie muszą przecinać się wewnątrz koła – łatwo pominąć podział na 3 części"
+   },
+   "trudnosc": {
+    "logit": 1.98,
+    "procent": 68,
+    "procent_etap": 76
    }
   },
   {
@@ -286,7 +322,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel pole przez dany bok, a potem zamień jednostki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.92,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q9",
@@ -330,6 +371,11 @@
      "plot-i-slupki"
     ],
     "opis": "Spotkanie w chwili startu się nie liczy – pomyłka o jeden"
+   },
+   "trudnosc": {
+    "logit": -1.2,
+    "procent": 38,
+    "procent_etap": 44
    }
   },
   {
@@ -368,7 +414,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zobacz, jaki trójkąt tworzą ta przekątna i dwa boki rombu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.59,
+    "procent": 6,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q11",
@@ -412,6 +463,11 @@
      "o-co-pytaja"
     ],
     "opis": "Liczba zawodniczek przed Anią to nie jej miejsce; pozostałych jest 27, nie 28"
+   },
+   "trudnosc": {
+    "logit": -3.05,
+    "procent": 21,
+    "procent_etap": 25
    }
   },
   {
@@ -452,7 +508,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "startuj od trójkąta z kątem prostym i idź w lewo, korzystając z kątów wierzchołkowych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q13",
@@ -496,6 +557,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Największa skala to ta z najmniejszym mianownikiem, nie z największą liczbą"
+   },
+   "trudnosc": {
+    "logit": -4.73,
+    "procent": 10,
+    "procent_etap": 12
    }
   },
   {
@@ -531,7 +597,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kotlina, wąwóz i dolina to obniżenia terenu, czyli formy wklęsłe. Równina jest terenem płaskim, a nie wklęsłym.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.57,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q15",
@@ -559,6 +630,11 @@
      "konwencja"
     ],
     "opis": "Wiatr nazywa się od kierunku, z którego wieje, a nie dokąd wskazuje strzałka"
+   },
+   "trudnosc": {
+    "logit": 2.48,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -581,7 +657,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz jednostki: 1 cm na mapie to tyle centymetrów, ile wynosi mianownik skali",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.35,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q17",
@@ -602,7 +683,12 @@
     "rozwiazanie_ai_html": "<p>a) Szczyt jest oznaczony punktem wysokościowym opisanym liczbą 780 – to jego wysokość bezwzględna: 780 m n.p.m.</p><p>b) Punkt A leży na warstwicy 600 m, punkt B – na warstwicy 750 m. Wysokość względna to różnica tych wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>750</mn><mtext> m</mtext><mo>−</mo><mn>600</mn><mtext> m</mtext><mo>=</mo><mn>150</mn><mtext> m</mtext></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 punkt za prawidłowe odczytanie wysokości bezwzględnej</li><li>1 punkt za poprawne obliczenie wysokości względnej</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.48,
+    "procent": 54,
+    "procent_etap": 61
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q18",
@@ -621,7 +707,12 @@
     "rozwiazanie_ai_html": "<p>a) Kierunek i siłę wiatru mierzy wiatromierz.</p><p>b) Ilość opadów mierzy deszczomierz.</p><p>c) Ciśnienie atmosferyczne mierzy barometr.</p>",
     "punktacja_html": "<ul><li>2 punkty za 3 poprawne odpowiedzi</li><li>1 punkt za 2 poprawne odpowiedzi</li></ul>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q19",
@@ -640,7 +731,12 @@
     "rozwiazanie_ai_html": "<p>a) runo (niskie rośliny i grzyby przy ziemi) – zawilce, borowiki, borówki.</p><p>b) podszyt (krzewy) – leszczyny, głóg, jarzębina.</p><p>c) korony drzew (wysokie drzewa) – buki, dęby.</p>",
     "punktacja_html": "<ul><li>3 punkty za prawidłowe uzupełnienie 8 nazw</li><li>2 punkty za 6-7 nazw</li><li>1 punkt za 4-5 nazw</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.83,
+    "procent": 82,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q20",
@@ -666,6 +762,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "„Pory lub pór roku” – niektóre informacje dotyczą dwóch pór naraz"
+   },
+   "trudnosc": {
+    "logit": 6.24,
+    "procent": 94,
+    "procent_etap": 97
    }
   },
   {
@@ -704,7 +805,12 @@
     "rozwiazanie_ai_html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mtext> dm</mtext><mo>:</mo><mn>4</mn><mo>=</mo><mn>8</mn><mtext> dm</mtext><mo>=</mo><mn>0,8</mn><mtext> m</mtext></mrow></math> – prawda.</p><p>Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mtext> dm</mtext><mo>·</mo><mn>8</mn><mtext> dm</mtext><mo>=</mo><mn>64</mn><mtext> dm²</mtext></mrow></math>, nie 16 dm² – fałsz.</p><p>Odcinając od kwadratu trójkąty AKD, KBL i LCD (pola 16, 8 i 16 dm²), pole trójkąta KLD wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>24</mn><mtext> dm²</mtext></mrow></math>, nie 40 dm² – fałsz.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mn>64</mn><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math> pola kwadratu – prawda.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 8 punktów (za zadania 21.–22.).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.86,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q22",
@@ -747,6 +853,11 @@
      "kwantyfikator"
     ],
     "opis": "Zysk zależy od sposobu sprzedaży; „nie mniej niż” wymaga sprawdzenia najgorszego przypadku"
+   },
+   "trudnosc": {
+    "logit": 4.25,
+    "procent": 85,
+    "procent_etap": 90
    }
   },
   {
@@ -767,7 +878,12 @@
     "rozwiazanie_html": "<p>Szukana liczba jest podzielna przez 3, 4, 5 i 6, czyli jest wielokrotnością liczby 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>60</mn></mrow></math>). Spośród liczb większych od 400 i mniejszych od 600 wielokrotnościami 60 są: 420, 480 i 540. Szukana liczba przy dzieleniu przez 7 daje resztę 1 — ten warunek spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>77</mn><mo>+</mo><mn>1</mn></mrow></math>. W szkole uczyło się 540 uczniów.</p>",
     "punktacja_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli: a) podał warunek podzielności szukanej liczby przez 3, 4, 5 i 6 jednocześnie lub przez 60 (wielokrotność 3, 4, 5 i 6 lub 60), lub b) odgadł 540 bez uzasadnienia, lub c) wypisał bez uzasadnienia 420, 480 i 540, lub d) wypisał liczby z przedziału liczb (400, 600) podzielne przez 7 z resztą 1.</li><li>2 punkty otrzymuje uczeń, jeżeli: a) wypisał warunek podzielności przez 3, 4, 5 i 6 jednocześnie lub przez 60 i podał liczby 420, 480 i 540, lub b) wypisał liczby z (400, 600) podzielne przez 7 z resztą 1 i podał warunek podzielności szukanej liczby przez 3, 4, 5 i 6 lub przez 60, lub c) podał warunek wielokrotność 60 i przy dzieleniu przez 7 dają resztę 1.</li><li>3 punkty otrzymuje uczeń za rozwiązanie z usterkami, np. brak jednego pełnego uzasadnienia lub wybór liczb spełniających warunki 540 i 600 z poprawnymi uzasadnieniami.</li><li>4 punkty za rozwiązanie całkowicie poprawne z uzasadnieniami.</li></ul><p>Uwaga: uczeń powinien wykonywać obliczenia na pracy. Z wykonanych obliczeń można wywnioskować, czy sprawdza podane w zadaniu własności. Zapisy muszą być wyczerpujące i jednoznaczne.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 73
+   }
   },
   {
    "id": "szkolny_2012-2013_slaskie_q24",
@@ -788,7 +904,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zauważ, że 0,8 z ćwiartki masy to prosty ułamek całości – policz od razu, jaka część masy zostaje",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.22,
+    "procent": 47,
+    "procent_etap": 54
+   }
   }
  ]
 }

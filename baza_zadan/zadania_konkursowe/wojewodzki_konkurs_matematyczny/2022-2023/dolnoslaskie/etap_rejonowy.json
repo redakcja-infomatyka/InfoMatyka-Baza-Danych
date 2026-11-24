@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023_dolnoslaskie_q1",
@@ -50,6 +51,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Liczby 51, 57, 87, 91 wyglądają na pierwsze; przy ich doliczeniu zmienia się kolor zwycięzcy"
+   },
+   "trudnosc": {
+    "logit": 0.73,
+    "procent": 56,
+    "procent_etap": 58
    }
   },
   {
@@ -95,6 +101,11 @@
      "inne:nierownosc-ostra"
     ],
     "opis": "Średnia ma być MNIEJSZA od 1, a przy 10 zerach wynosi dokładnie 1"
+   },
+   "trudnosc": {
+    "logit": 0.72,
+    "procent": 56,
+    "procent_etap": 57
    }
   },
   {
@@ -132,7 +143,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź każdą opcję do potęgi dziesiątki i porównuj same wykładniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 64,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q4",
@@ -170,7 +186,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podnieś do kwadratu od razu całe wyrażenie — pierwiastek zniknie, zostaną potęgi dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q5",
@@ -217,6 +238,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Punkty leżą na wszystkich czterech bokach, także na bokach odległych od A (trójki pitagorejskie)"
+   },
+   "trudnosc": {
+    "logit": 7.52,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -254,7 +280,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel kwotę na tyle części, ile daje suma liczb z proporcji",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.24,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q7",
@@ -291,7 +322,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź pierwszy i trzeci ułamek do wspólnego mianownika — pojawi się x+y",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.75,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q8",
@@ -330,7 +366,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź trzy tygodnie przez pierwszy (1; 1,3; 1,69), a suma to trzykrotność średniej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 47
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q9",
@@ -403,7 +444,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z każdego warunku odczytaj dopełnienie: jaka część kul jest biała, a jaka zielona",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q11",
@@ -429,7 +475,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przeciwprostokątna każdego trójkąta to bok sześciokąta; pole licz jako sześciokąt minus 6 trójkątów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.21,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q12",
@@ -458,6 +509,11 @@
      "znak"
     ],
     "opis": "W drugim wyrażeniu składniki stoją w odwrotnej kolejności, więc wyłącza się czynnik ujemny"
+   },
+   "trudnosc": {
+    "logit": -1.99,
+    "procent": 30,
+    "procent_etap": 32
    }
   },
   {
@@ -481,7 +537,12 @@
     "rozwiazanie_ai_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math> (kąt prosty w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi><mo>=</mo><mn>17</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi><mo>=</mo><mn>8</mn></math> (trójka 8-15-17), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AF</mi><mo>=</mo><mn>12</mn></math>.</p><p>Łącząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> z wierzchołkami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AEB</mi></msub><mo>=</mo><mn>150</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>80</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ADE</mi></msub><mo>=</mo><mn>120</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>CDE</mi></msub><mo>=</mo><mn>400</mn><mo>−</mo><mn>150</mn><mo>−</mo><mn>80</mn><mo>−</mo><mn>120</mn><mo>=</mo><mn>50</mn></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> (pole 200) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ACE</mi></msub><mo>=</mo><mn>200</mn><mo>−</mo><mn>120</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>30</mn></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> (pole 200) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>+<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BDE</mi></msub><mo>=</mo><mn>200</mn><mo>−</mo><mn>80</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>70</mn></math>.</p>",
     "punktacja_html": "<p>Za każdy prawidłowy element odpowiedzi – 1 p.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.78,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q14",
@@ -503,7 +564,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloczyn jest zerem, gdy znika któryś nawias — rozwiąż osobno |x−7|=4 i |x+1|=4",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.21,
+    "procent": 47,
+    "procent_etap": 49
+   }
   },
   {
    "id": "rejonowy_2023_dolnoslaskie_q15",
@@ -526,7 +592,12 @@
     "rozwiazanie_html": "<p>Oznaczmy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – długość krawędzi podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> – wysokość graniastosłupa. Sześć ścian bocznych układa się w poziomie, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>=</mo><mn>30</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math> cm.</p><p>Pionowo bok kwadratu obejmuje wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> oraz cztery apotematy podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mi>H</mi><mo>+</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>30</mn><mo>−</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mo>(</mo><mn>30</mn><mo>−</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>375</mn><msqrt><mn>3</mn></msqrt><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm³.</p>",
     "punktacja_html": "<p>Punktacja:</p><ul><li>1 p. – poprawna metoda obliczenia długości krawędzi podstawy graniastosłupa</li><li>1 p. – poprawna metoda obliczenia wysokości graniastosłupa</li><li>1 p. – poprawna metoda obliczenia objętości graniastosłupa</li><li>1 p. – poprawność rachunkowa w całym zadaniu</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.88,
+    "procent": 98,
+    "procent_etap": 98
+   }
   }
  ]
 }

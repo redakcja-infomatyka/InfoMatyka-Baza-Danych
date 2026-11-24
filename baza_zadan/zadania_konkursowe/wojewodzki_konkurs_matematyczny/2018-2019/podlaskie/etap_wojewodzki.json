@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2018_podlaskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z warunku na średnią wyznacz x przez y",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.29,
+    "procent": 20,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q2",
@@ -83,7 +89,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "punkt C to środek odcinka AB — uśrednij współrzędne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.65,
+    "procent": 17,
+    "procent_etap": 12
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_lodzkie_q8",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2018_podlaskie_q3",
@@ -120,7 +137,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt PAB = 60° (trójkąt równoboczny), więc kąt PAE = 108° − 60° = 48° (kąt pięciokąta). Trójkąt APE jest równoramienny (AP = AE), więc kąt APE = (180° − 48°) : 2 = 66°; analogicznie kąt BPC = 66°. Kąty wokół P sumują się do 360°: 60° + 66° + 66° + kąt CPD + kąt DPE = 360°, czyli kąt CPD + kąt DPE = 168°. Ponieważ PA = PB, punkt P leży na osi symetrii pięciokąta przechodzącej przez D, więc kąt CPD = kąt DPE, skąd kąt DPE = 84° — odpowiedź A.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.15,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q4",
@@ -157,7 +179,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "ilość rozpuszczonej substancji się nie zmienia — to ona wyznacza nową objętość roztworu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.31,
+    "procent": 46,
+    "procent_etap": 39
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q5",
@@ -195,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "prawa strona to zwykła liczba — potem odłóż ją od 3,4 w obie strony",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.06,
+    "procent": 50,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q6",
@@ -232,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1,7161 to 17161 przez 10000 — pierwiastkuj licznik i mianownik osobno",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.6,
+    "procent": 11,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q7",
@@ -270,7 +307,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "okres rozwinięcia 2/7 ma 6 cyfr — podziel 135 przez 6 z resztą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.97,
+    "procent": 30,
+    "procent_etap": 24
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023_lubuskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2018_podlaskie_q8",
@@ -308,7 +356,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz bok kwadratu literą i porównaj oba pola",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.54,
+    "procent": 18,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q9",
@@ -353,6 +406,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o dwukrotność wartości wyrażenia, a nie o samą wartość"
+   },
+   "trudnosc": {
+    "logit": 0.74,
+    "procent": 57,
+    "procent_etap": 50
    }
   },
   {
@@ -389,7 +447,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Krótsza przekątna AC dzieli trapez na trójkąt równoboczny ABC (bok = 6) i trójkąt prostokątny ACD o kątach 30°-60°-90° (kąt ACD = 60°, bo jest naprzemianległy z kątem 60° trójkąta równobocznego przy AB∥CD). Przy przeciwprostokątnej AC = 6: krótsza przyprostokątna CD = 3, dłuższa AD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Obwód = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>15</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> — odpowiedź C.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q11",
@@ -426,7 +489,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, na ile sposobów można otrzymać każdą z podanych sum",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.65,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q12",
@@ -471,6 +539,11 @@
      "o-co-pytaja"
     ],
     "opis": "Po wyznaczeniu niewiadomej (najmniejszego kąta) trzeba podać kąt średni"
+   },
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 8
    }
   },
   {
@@ -508,7 +581,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "2:3 to pięć równych części — podziel, a potem powtórz podział większej kwoty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.64,
+    "procent": 17,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q14",
@@ -553,6 +631,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pierwiastek z sumy to nie suma pierwiastków: √(9+4) ≠ √9+√4"
+   },
+   "trudnosc": {
+    "logit": -3.99,
+    "procent": 14,
+    "procent_etap": 10
    }
   },
   {
@@ -591,7 +674,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ta wysokość dzieli trójkąt na dwa mniejsze trójkąty prostokątne równoramienne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.7,
+    "procent": 16,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q16",
@@ -629,7 +717,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamień wszystkie składniki na potęgi dwójki i wyłącz wspólny czynnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.05,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q17",
@@ -674,6 +767,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Stosunek pól to kwadrat skali; obwody zmieniają się tyle razy, ile promienie"
+   },
+   "trudnosc": {
+    "logit": -5.23,
+    "procent": 8,
+    "procent_etap": 5
    }
   },
   {
@@ -712,7 +810,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz, jaką częścią wszystkich kul są 4 białe",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.99,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q19",
@@ -749,7 +852,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejdź po kolei przez cztery figury i policz osie każdej z nich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.43,
+    "procent": 54,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q20",
@@ -786,7 +894,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "promień, odległość od środka i połowa cięciwy tworzą trójkąt prostokątny",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.21,
+    "procent": 8,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q21",
@@ -807,7 +920,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wysokość, na jakiej drzewo zostało złamane. Złamana część (od miejsca złamania do czubka) ma wtedy długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>−</mo><mi>x</mi></mrow></math> i jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz 6 m. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>20</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>400</mn><mo>−</mo><mn>40</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mi>x</mi><mo>=</mo><mn>364</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>9,1</mn></mrow></math> m. Odpowiedź: drzewo zostało złamane na wysokości 9,1 m.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q22",
@@ -827,7 +945,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy pięć kolejnych liczb całkowitych przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>4</mn></mrow></math>. Ich suma jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>5</mn><mi>n</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>5</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> jest wielokrotnością liczby 5, suma pięciu kolejnych liczb całkowitych jest podzielna przez 5.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.58,
+    "procent": 25,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2018_podlaskie_q23",
@@ -855,6 +978,11 @@
      "szczegol-bryly"
     ],
     "opis": "Wycięcie narożnego klocka nie zmienia pola, ale wycięcie dwóch sąsiednich już tak"
+   },
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 80
    }
   },
   {
@@ -881,6 +1009,11 @@
      "inne:nowa-reszta"
     ],
     "opis": "1/8 'nowej reszty' liczy się od kwoty po odjęciu 2000 zł, nie od całej pozostałości"
+   },
+   "trudnosc": {
+    "logit": 4.83,
+    "procent": 88,
+    "procent_etap": 83
    }
   }
  ]

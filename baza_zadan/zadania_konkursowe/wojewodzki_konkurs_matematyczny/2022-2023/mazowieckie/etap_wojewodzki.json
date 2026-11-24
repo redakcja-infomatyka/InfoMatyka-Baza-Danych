@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023_mazowieckie_q1",
@@ -38,7 +39,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trzeci kąt to 90°, więc AB jest przeciwprostokątną — dalej z proporcji 1 : √3 : 2",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 59
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2026_lubuskie_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023_mazowieckie_q2",
@@ -84,6 +96,11 @@
      "znak"
     ],
     "opis": "Wariant z minusem w parzystej potędze daje liczbę dodatnią; łatwo odrzucić go odruchowo"
+   },
+   "trudnosc": {
+    "logit": 5.89,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -134,6 +151,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Kąt prosty może leżeć także przy wierzchołku C, nie tylko przy A lub B"
+   },
+   "trudnosc": {
+    "logit": 5.56,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -181,6 +203,11 @@
      "jednostki"
     ],
     "opis": "1 godz. 15 min to 1,25 h, a nie 1,15 h"
+   },
+   "trudnosc": {
+    "logit": 0.68,
+    "procent": 56,
+    "procent_etap": 49
    }
   },
   {
@@ -211,6 +238,11 @@
      "jednostki"
     ],
     "opis": "Pole kwadratu podane w dm², a promień trzeba porównać z wartością w cm"
+   },
+   "trudnosc": {
+    "logit": 7.42,
+    "procent": 97,
+    "procent_etap": 96
    }
   },
   {
@@ -238,6 +270,11 @@
      "plot-i-slupki"
     ],
     "opis": "Krzewów na boku jest o jeden więcej niż odstępów, bo stoją w obu rogach"
+   },
+   "trudnosc": {
+    "logit": 4.4,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -266,6 +303,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają nie o znalezioną liczbę, lecz o wszystkie liczby ułożone z jej cyfr"
+   },
+   "trudnosc": {
+    "logit": 6.44,
+    "procent": 95,
+    "procent_etap": 92
    }
   },
   {
@@ -289,7 +331,12 @@
     "rozwiazanie_html": "<p>Kąt wewnętrzny pięciokąta foremnego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math>. Dorysowując w pięciokącie odpowiednie odcinki łączące jego wierzchołki, dzielimy go na cztery trójkąty, które po sklejeniu tworzą czworościan. Złożenie jest możliwe, ponieważ w wierzchołku bryły schodzą się trzy kąty o sumie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>108</mn><mo>°</mo><mo>=</mo><mn>324</mn><mo>°</mo><mo>&lt;</mo><mn>360</mn><mo>°</mo></mrow></math>.</p><p>Można to zrobić na dwa różne sposoby (np. dzieląc pięciokąt jedną przekątną i dwoma odcinkami wychodzącymi z jej końców, jak na Rys. 1a, albo trzema odcinkami wychodzącymi z jednego wierzchołka, jak na Rys. 2a), otrzymując siatki dwóch różnych czworościanów. Wystarczy narysować dwie poprawne, różne siatki czworościanów.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Wykonuje np. rysunek 1a – 1p.</li><li>Wykonuje np. rysunek 2a – 1p.</li></ul><p>Uwaga. Jeśli uczeń narysuje dwie siatki czworościanów bez uzasadnienia, to też otrzymuje 2 punkty.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.64,
+    "procent": 95,
+    "procent_etap": 93
+   }
   },
   {
    "id": "wojewodzki_2023_mazowieckie_q9",
@@ -310,7 +357,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę dwuzłotówek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — liczbę pięciozłotówek. Kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>232</mn><mo>&lt;</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>&lt;</mo><mn>245</mn></mrow></math>. Po zamianie liczby monet Bartek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dwuzłotówek i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pięciozłotówek, więc obecna kwota to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi></mrow></math>.</p><p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>15</mn><mi>y</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>x</mi><mo>=</mo><mn>7</mn><mi>y</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>.</p><p>Wtedy kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>·</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>12</mn><mi>x</mi></mrow></math>. Z nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>232</mn><mo>&lt;</mo><mn>12</mn><mi>x</mi><mo>&lt;</mo><mn>245</mn></mrow></math> oraz całkowitości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19,3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>20,42</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>40</mn></mrow></math>. Kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></mrow></math> zł, obecna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>240</mn><mo>=</mo><mn>180</mn></mrow></math> zł. Prezent kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>60</mn></mrow></math> zł.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Przeprowadza analizę zadania – 1p.</li><li>Wyznacza jedną niewiadomą za pomocą drugiej – 1p.</li><li>Oblicza, ile złotych kosztował prezent dla brata Bartka, i podaje odpowiedź – 1p.</li></ul><p>Uwaga. Jeśli uczeń w 3. z nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>x</mi><mo>&gt;</mo><mn>232</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>x</mi><mo>&lt;</mo><mn>245</mn></mrow></math> wywnioskuje bez uzasadnienia, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>x</mi><mo>=</mo><mn>240</mn></mrow></math> (jako jedyną wielokrotność liczby 12 zawartą między liczbami 232 a 245), to również należy mu przyznać 1 punkt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.8,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2023_mazowieckie_q10",
@@ -341,6 +393,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pole BCE stanowi 2/3 pola ECO, więc ECO jest większe, a nie mniejsze od BCE"
+   },
+   "trudnosc": {
+    "logit": 6.32,
+    "procent": 94,
+    "procent_etap": 92
    }
   }
  ]

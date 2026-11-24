@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018-2019_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018-2019_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2018-2019_pomorskie_q1",
@@ -28,7 +29,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odwróć obie strony równania i rozbij (a+b)/a na 1 + b/a",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.98,
+    "procent": 68,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2018-2019_pomorskie_q2",
@@ -51,7 +57,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "boki tworzą ciąg arytmetyczny, więc to trójkąt podobny do 3-4-5, a bok a jest środkowy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.97,
+    "procent": 93,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2018-2019_pomorskie_q3",
@@ -73,7 +84,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przyjmij, że większa liczba to 10, i odczytaj resztę z warunku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2018-2019_pomorskie_q4",
@@ -101,6 +117,11 @@
      "znak"
     ],
     "opis": "−32⁴ to minus przed potęgą, a nie (−32)⁴; do tego (−4)⁰ i nieparzysta potęga ułamka ujemnego"
+   },
+   "trudnosc": {
+    "logit": 3.99,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -131,6 +152,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazanie 01 to liczba 1, a jedynka nie jest liczbą pierwszą; godziny od 0 do 23, minuty od 0 do 59"
+   },
+   "trudnosc": {
+    "logit": 4.17,
+    "procent": 84,
+    "procent_etap": 79
    }
   },
   {
@@ -152,7 +178,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>NC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MNC</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>MAC</mi></mrow></msub></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MAC</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mrow><mi>DAC</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MNC</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>16</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub></mrow></math>. Szukany stosunek pól wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>16</mn></mfrac></math>.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zauważy, że pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> jest równe 0,75 pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAC</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie wyznaczy stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> do pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.86,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2018-2019_pomorskie_q7",
@@ -174,7 +205,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "suma sześcianów kolejnych liczb to kwadrat ich zwykłej sumy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.9,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2018-2019_pomorskie_q8",
@@ -201,6 +237,11 @@
      "procent-podstawa"
     ],
     "opis": "8.1: spadek udziału z 55% do 50% to punkty procentowe, a liczba dziewcząt liczona od innej podstawy"
+   },
+   "trudnosc": {
+    "logit": 9.16,
+    "procent": 100,
+    "procent_etap": 99
    }
   },
   {
@@ -254,6 +295,11 @@
      "znak"
     ],
     "opis": "Zd. 2: „dowolnych dwóch kątów” to nie to samo co kąty przy ramieniu; zd. 4: minus przed pierwiastkiem z liczby ujemnej"
+   },
+   "trudnosc": {
+    "logit": 4.3,
+    "procent": 85,
+    "procent_etap": 80
    }
   }
  ]

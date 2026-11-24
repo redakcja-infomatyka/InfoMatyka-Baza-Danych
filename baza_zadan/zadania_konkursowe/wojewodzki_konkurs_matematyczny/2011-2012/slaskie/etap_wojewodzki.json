@@ -8,6 +8,7 @@
  "liczba_zadan": 27,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2011-2012_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2011-2012_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2011-2012_slaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dzielenie przez ⅙ to mnożenie przez 6, iloczyn z 2,5 policz osobno, dopiero na końcu połowa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.5,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q2",
@@ -83,7 +89,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połówki przekątnych są równe, więc powstaje trójkąt równoramienny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q3",
@@ -120,7 +131,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z objętości prostopadłościanu odczytaj krawędź sześcianu, potem sześć jednakowych ścian",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.1,
+    "procent": 8,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q4",
@@ -158,7 +174,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw zamień metr kwadratowy na centymetry kwadratowe, dopiero potem licz procent",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.09,
+    "procent": 21,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q5",
@@ -195,7 +216,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź granice i kandydatów do wspólnego mianownika — wystarczą 40 i 60",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.38,
+    "procent": 19,
+    "procent_etap": 15
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_kujawsko-pomorskie_q19",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q6",
@@ -240,6 +272,11 @@
      "jednostki"
     ],
     "opis": "Podstawa w dm, pole w cm² – trzeba ujednolicić jednostki przed liczeniem wysokości"
+   },
+   "trudnosc": {
+    "logit": -1.35,
+    "procent": 36,
+    "procent_etap": 29
    }
   },
   {
@@ -284,6 +321,11 @@
      "jednostki"
     ],
     "opis": "2 godziny 15 minut to nie 2,15 h – minuty trzeba zamienić na ułamek godziny"
+   },
+   "trudnosc": {
+    "logit": -6.55,
+    "procent": 3,
+    "procent_etap": 2
    }
   },
   {
@@ -321,7 +363,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj każde wyrażenie z samą liczbą b",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.06,
+    "procent": 21,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q9",
@@ -358,7 +405,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ilu kilometrom w terenie odpowiada 1 cm na mapie, i zamień to na centymetry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.24,
+    "procent": 20,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q10",
@@ -395,7 +447,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, jaką częścią całej drogi jest pozostałe 18 km",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.74,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q11",
@@ -440,6 +497,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dwa podane kąty są różne, ale trzeci kąt równa się jednemu z nich"
+   },
+   "trudnosc": {
+    "logit": -6.42,
+    "procent": 4,
+    "procent_etap": 2
    }
   },
   {
@@ -477,7 +539,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ze średniej odtwórz sumę wszystkich czterech temperatur",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.4,
+    "procent": 4,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q13",
@@ -512,7 +579,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Roztwór wodny powstaje, gdy substancja rozpuszcza się w wodzie równomiernie, a mieszaniny nie da się rozdzielić przez odstanie ani przesączenie. Kreda, olej i piasek nie rozpuszczają się w wodzie (tworzą zawiesinę lub emulsję), natomiast sok rozpuszcza się w wodzie, tworząc roztwór.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.15,
+    "procent": 38,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q14",
@@ -547,7 +619,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Brąz to stop, w którym głównym składnikiem jest miedź (stopiona z cyną).</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q15",
@@ -584,7 +661,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz stawkę za jedną godzinę pracy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 43,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q16",
@@ -621,7 +703,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wylicz prędkość w km/h i sprawdzaj nią kolejne zdania",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 31
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_kujawsko-pomorskie_q23",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q17",
@@ -650,7 +743,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "we wzorze podwaja się tylko pierwsza liczba",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.75,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q18",
@@ -687,7 +785,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw ustal, ilu jest chłopców, a ile dziewcząt",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q19",
@@ -733,6 +836,11 @@
      "jednostki"
     ],
     "opis": "Obwód w m, bok w dm, pole w dm² i cm² – przy polu przelicznik to 100, nie 10"
+   },
+   "trudnosc": {
+    "logit": 2.49,
+    "procent": 73,
+    "procent_etap": 66
    }
   },
   {
@@ -770,7 +878,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz dla każdej z dziewczynek osobno, ile przejechała, a ile przeszła",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.54,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q21",
@@ -803,7 +916,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Na rysunku najdłuższy łuk (najwyższa droga Słońca) wypada 22 czerwca. 1) To pierwszy dzień astronomicznego lata — P. 2) Dniami równonocy są 21 marca i 23 września (wiosna i jesień), nie lato i zima — F. 3) Punkty przecięcia łuków z linią E–W są różne dla każdej daty, więc miejsca wschodu i zachodu Słońca zmieniają się w ciągu roku — F.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.83,
+    "procent": 67,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q22",
@@ -838,7 +956,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1) Wirus HIV nie przenosi się przez podanie ręki, tylko przez krew i inne płyny ustrojowe — F. 2) Cukrzyca wynika z nieprawidłowej pracy trzustki (niedobór insuliny) — P. 3) Alergia to nadwrażliwość układu odpornościowego, a nie choroba zakaźna — F. 4) Szczepionki zapobiegają chorobom, a nie leczą już rozwiniętych — F.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q23",
@@ -857,7 +980,12 @@
     "rozwiazanie_html": "<table><thead><tr><th>KRAINA</th><th>KONTYNENT</th></tr></thead><tbody><tr><td>Sahara</td><td>Afryka</td></tr><tr><td>Alpy</td><td>Europa</td></tr><tr><td>Himalaje</td><td>Azja</td></tr><tr><td>Karpaty</td><td>Europa</td></tr><tr><td>Kotlina Kongo</td><td>Afryka</td></tr><tr><td>Kordyliery</td><td>Ameryka Północna</td></tr><tr><td>Wyżyna Brazylijska</td><td>Ameryka Południowa</td></tr><tr><td>Nizina Chińska</td><td>Azja</td></tr></tbody></table>",
     "punktacja_html": "<p>Punktacja: poprawne uzupełnienie 7 lub 8 pól – 3 p.; 5 lub 6 pól – 2 p.; 3 lub 4 pola – 1 p.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 77,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q24",
@@ -886,6 +1014,11 @@
      "rysunek"
     ],
     "opis": "Podnóże góry leży na 800 m n.p.m., a nie na zerze – liczy się różnicę wysokości z rysunku"
+   },
+   "trudnosc": {
+    "logit": -0.73,
+    "procent": 42,
+    "procent_etap": 34
    }
   },
   {
@@ -906,7 +1039,12 @@
     "rozwiazanie_html": "<p>Przyprostokątne trójkąta prostokątnego mają długości 6 cm i 8 cm, a przeciwprostokątna (najdłuższy bok) 10 cm. Pole trójkąta obliczamy z przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></math> cm². To samo pole można zapisać, korzystając z najdłuższego boku i szukanej wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>24</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mn>48</mn><mn>10</mn></mfrac><mo>=</mo><mn>4,8</mn></math> cm.</p>",
     "punktacja_html": "<ul><li>1. Obliczenie pola trójkąta z wykorzystaniem długości przyprostokątnych.<ul><li>a) Metoda (wykorzystanie wzoru na pole trójkąta i przyprostokątnych) – 1 p.</li><li>b) Poprawny wynik z jednostką – 24 cm² – 1 p.</li></ul></li><li>2. Obliczenie szukanej wysokości.<ul><li>a) Metoda (wykorzystanie wzoru na pole) – 1 p.</li><li>b) Poprawny wynik z jednostką – 4,8 cm – 1 p.</li></ul></li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania, uczeń otrzymuje 4 p.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.44,
+    "procent": 18,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q26",
@@ -927,7 +1065,12 @@
     "rozwiazanie_html": "<p>a) Oszczędności Czarka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math> oszczędności Dawida, więc różnica między nimi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></math> oszczędności Dawida. Ta różnica wynosi 60 zł, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> Dawida to 60 zł, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> to 20 zł, a całość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>8</mn></mfrac></math> to 160 zł. Dawid ma 160 zł, a Czarek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>100</mn></math> zł. Łączne oszczędności wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>+</mo><mn>100</mn><mo>=</mo><mn>260</mn></math> zł.</p><p>b) Kwota Dawida stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>160</mn><mn>260</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>13</mn></mfrac><mo>=</mo><mn>0,6153</mn><mo>…</mo><mo>≈</mo><mn>0,62</mn></math> łącznych oszczędności obu chłopców.</p>",
     "punktacja_html": "<p>a)</p><ul><li>1. Zauważenie, że 60 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> oszczędności Dawida – 1 p.</li><li>2. Obliczenie oszczędności Dawida – 1 p.</li><li>3. Obliczenie łącznych oszczędności Czarka i Dawida – 1 p.</li></ul><p>b)</p><ul><li>4. Obliczenie, jaką część łącznych oszczędności stanowi kwota, którą posiada Dawid – 1 p.</li><li>Podanie wyniku we wskazanej postaci i udzielenie odpowiedzi – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania, uczeń otrzymuje 5 p.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.17,
+    "procent": 70,
+    "procent_etap": 63
+   }
   },
   {
    "id": "wojewodzki_2011-2012_slaskie_q27",
@@ -953,6 +1096,11 @@
      "inne:liczba-krawedzi"
     ],
     "opis": "Graniastosłup ma dwie podstawy – obie dają krawędzie, a krawędzi bocznych jest tyle, ile boków podstawy"
+   },
+   "trudnosc": {
+    "logit": -3.14,
+    "procent": 21,
+    "procent_etap": 16
    }
   }
  ]

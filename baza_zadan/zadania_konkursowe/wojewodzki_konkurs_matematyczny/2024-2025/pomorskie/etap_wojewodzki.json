@@ -8,6 +8,7 @@
  "liczba_zadan": 8,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024-2025_pomorskie_q1",
@@ -27,7 +28,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę czekoladek, które Kasia dostała na urodziny. Zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>, a zostało jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>. Ponieważ zostało o 12 więcej niż zjadła, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>28</mn></mrow></math>.</p><p>Odpowiedź: Kasia dostała na urodziny 28 czekoladek.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze prawidłowe równanie z jedną niewiadomą pozwalające obliczyć, ile czekoladek Kasia dostała na urodziny.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy, ile czekoladek Kasia dostała na urodziny.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.4,
+    "procent": 19,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2024-2025_pomorskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math> oznacza daną dodatnią liczbę dwucyfrową (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — cyfra dziesiątek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — cyfra jedności). Liczba otrzymana po przestawieniu cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi></mrow></math>. Różnica tych liczb jest równa 75% mniejszej z nich:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>75</mn><mo>%</mo><mo>·</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>x</mi><mo>−</mo><mn>9</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mi>x</mi><mo>=</mo><mn>66</mn><mi>y</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></mrow></math>.</p><p>Dla kolejnych cyfr jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math> otrzymujemy pary cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>: (2,1), (4,2), (6,3), (8,4), a więc liczby 21, 42, 63, 84.</p><p>Odpowiedź: Szukane liczby to 21, 42, 63 i 84.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze poprawne równanie pozwalające obliczyć zależność między cyfrą jedności, a cyfrą dziesiątek lub poda co najmniej dwie z szukanych liczb.</li><li>Uczeń otrzymuje 2 punkty, gdy zapisze poprawne równanie pozwalające obliczyć zależność między cyfrą jedności, a cyfrą dziesiątek i poda jedną liczbę spełniającą warunki zadania lub poda wszystkie szukane liczby i nie wymieni żadnych błędnych.</li><li>Uczeń otrzymuje 3 punkty, gdy zapisze poprawne równanie pozwalające obliczyć zależność między cyfrą jedności, a cyfrą dziesiątek i poda wszystkie szukane liczby oraz nie wymieni żadnych błędnych lub poda wszystkie szukane liczby i nie wymieni żadnych błędnych oraz sprawdzi wszystkie warunki zadania dla każdej podanej liczby.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2024-2025_pomorskie_q3",
@@ -74,6 +85,11 @@
      "inne:promien-wpisany-vs-opisany"
     ],
     "opis": "Spodek wysokości ściany bocznej leży w odległości promienia okręgu WPISANEGO w podstawę, nie opisanego"
+   },
+   "trudnosc": {
+    "logit": 4.61,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -97,7 +113,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z trójkąta APB wyznacz sumę połówek kątów A i B, potem wróć do sumy kątów w ABC",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2024-2025_pomorskie_q5",
@@ -117,7 +138,12 @@
     "rozwiazanie_html": "<p>Z twierdzenia Talesa (ramiona przedłużone do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, podstawy równoległe): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>8</mn></mfrac></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Odpowiedź: Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi></math> jest równa 12.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy prawidłowo zapisze zależność wynikającą z tw. Talesa lub z podobieństwa trójkątów, pozwalającą obliczyć długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy prawidłowo obliczy długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi></math>.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.23,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2024-2025_pomorskie_q6",
@@ -146,6 +172,11 @@
      "konwencja"
     ],
     "opis": "b to liczba przeciwna do najmniejszej liczby pierwszej (to nie 1), a dzielenie przez potęgę ujemną"
+   },
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 57
    }
   },
   {
@@ -175,6 +206,11 @@
      "jednostki"
     ],
     "opis": "7.2: mianownik x−y jest ujemny; 7.3: pytają o gęsi, nie o kury; 7.5: km/h na m/s"
+   },
+   "trudnosc": {
+    "logit": 7.79,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -203,6 +239,11 @@
      "jednostki"
     ],
     "opis": "Stosunek pól to kwadrat skali, nie sama skala; do tego ary trzeba zamienić na cm²"
+   },
+   "trudnosc": {
+    "logit": 1.68,
+    "procent": 66,
+    "procent_etap": 58
    }
   }
  ]

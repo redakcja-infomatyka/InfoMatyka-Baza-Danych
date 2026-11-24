@@ -8,6 +8,7 @@
  "liczba_zadan": 40,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj najmniejszej wspólnej wielokrotności obu czasów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.7,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q2",
@@ -89,6 +95,11 @@
      "o-co-pytaja"
     ],
     "opis": "Dwa kroki (odwrotna, potem przeciwna); odwrotność liczby mieszanej to nie odwrócenie samej części ułamkowej"
+   },
+   "trudnosc": {
+    "logit": -1.64,
+    "procent": 33,
+    "procent_etap": 35
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj wśród wartości ujemnych i porównaj ich rzędy wielkości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.58,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q4",
@@ -161,7 +177,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Zamieniamy 6 = 2·3. I = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>2</mn><mn>33</mn></msup><msup><mn>3</mn><mn>33</mn></msup></mfrac></math> nie jest liczbą naturalną. II = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>44</mn></msup><mo>·</mo><msup><mn>2</mn><mn>11</mn></msup></math> jest naturalna. III = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>6</mn><mn>33</mn></msup><msup><mn>6</mn><mn>33</mn></msup></mfrac><mo>=</mo><mn>1</mn></math> jest naturalna. Naturalne są tylko II i III.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.84,
+    "procent": 57,
+    "procent_etap": 59
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q5",
@@ -196,7 +217,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Krawędzie mają długości 2k, 3k, 5k. Objętość: 2k·3k·5k = 30k³ = 810, więc k³ = 27, k = 3, a krawędzie to 6, 9, 15. Pole powierzchni: 2·(6·9 + 9·15 + 6·15) = 2·279 = 558.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.11,
+    "procent": 38,
+    "procent_etap": 40
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q18",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q6",
@@ -234,7 +266,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w nierówności 2πr > 15π skróć π i weź kolejną liczbę całkowitą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.87,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q7",
@@ -271,7 +308,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloczyn dwóch liczb równa się iloczynowi ich NWD i NWW",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.84,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q8",
@@ -309,7 +351,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw dane do wzoru na pole trapezu — suma podstaw jest już podana",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.81,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q9",
@@ -346,7 +393,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, o ile najstarsza przewyższa średnią, a o ile każda inna jest poniżej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.45,
+    "procent": 35,
+    "procent_etap": 37
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q10",
@@ -390,7 +448,18 @@
      "jednostki"
     ],
     "opis": "Ar to 100 m², nie 1000 m²; dane w m² i arach, odpowiedzi w hektarach"
-   }
+   },
+   "trudnosc": {
+    "logit": -4.22,
+    "procent": 13,
+    "procent_etap": 15
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_warminsko-mazurskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q11",
@@ -427,7 +496,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy pomnożyć same reszty i wziąć resztę z wyniku",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.33,
+    "procent": 27,
+    "procent_etap": 29
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q12",
@@ -464,7 +538,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 4c, potem odejmij b i podziel przez 2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 47
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q13",
@@ -508,6 +587,11 @@
      "inne:kolejnosc-slow"
     ],
     "opis": "„Kwadrat trzykrotności” to nie „trzykrotność kwadratu”; „podwojony kwadrat” to nie „kwadrat podwojonej”"
+   },
+   "trudnosc": {
+    "logit": -2.33,
+    "procent": 27,
+    "procent_etap": 29
    }
   },
   {
@@ -545,7 +629,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 to 3 · 4 — sprawdź obie cechy podzielności naraz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.18,
+    "procent": 20,
+    "procent_etap": 22
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q15",
@@ -582,7 +671,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz osobno metry na kilometry i sekundy na godziny",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.94,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q16",
@@ -627,6 +721,11 @@
      "kwantyfikator"
     ],
     "opis": "Odcinek ma też oś zawierającą go; prosta ma nieskończenie wiele osi"
+   },
+   "trudnosc": {
+    "logit": 0.14,
+    "procent": 51,
+    "procent_etap": 52
    }
   },
   {
@@ -673,6 +772,11 @@
      "jednostki"
     ],
     "opis": "Wydaje się, że potrzebne są wymiary; wystarczy suma trzech krawędzi; dane w dm, odpowiedzi w cm i m"
+   },
+   "trudnosc": {
+    "logit": -1.26,
+    "procent": 37,
+    "procent_etap": 38
    }
   },
   {
@@ -718,6 +822,11 @@
      "o-co-pytaja"
     ],
     "opis": "„O ile procent większa” zależy od podstawy; pytanie o zdania FAŁSZYWE"
+   },
+   "trudnosc": {
+    "logit": 1.23,
+    "procent": 61,
+    "procent_etap": 63
    }
   },
   {
@@ -755,7 +864,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz wszystkie ustawienia i odrzuć te zaczynające się od zera",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.11,
+    "procent": 29,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q20",
@@ -800,6 +914,11 @@
      "kierunek-relacji"
     ],
     "opis": "Krótszemu bokowi odpowiada dłuższa wysokość"
+   },
+   "trudnosc": {
+    "logit": -1.0,
+    "procent": 39,
+    "procent_etap": 41
    }
   },
   {
@@ -838,7 +957,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odetnij cztery narożne trójkąty i porównaj ich sumę z całym prostokątem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.99,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q22",
@@ -876,7 +1000,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "środek symetrii to środek przekątnej — wystarczą punkty A i C",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.25,
+    "procent": 20,
+    "procent_etap": 22
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q23",
@@ -914,7 +1043,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz liczbę wróbli na dwa sposoby przez liczbę drzew",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.99,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q24",
@@ -952,7 +1086,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 360° na 24 równe części i sprawdź, ile ich dzieli skrajne kąty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.45,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q25",
@@ -990,7 +1129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj √3 z 1,41 i ustal, jaki znak ma wyrażenie pod modułem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.49,
+    "procent": 26,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q26",
@@ -1028,7 +1172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok małego kwadratu to połowa boku dużego",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 37
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q27",
@@ -1065,7 +1214,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 3,2 do 24 jako ułamek zwykły i skróć",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.39,
+    "procent": 36,
+    "procent_etap": 37
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q28",
@@ -1110,6 +1264,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kwadrat sumy to nie suma kwadratów"
+   },
+   "trudnosc": {
+    "logit": -4.33,
+    "procent": 12,
+    "procent_etap": 14
    }
   },
   {
@@ -1147,7 +1306,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw prawdopodobieństwo kuli czerwonej — to dopełnienie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q30",
@@ -1184,7 +1348,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuń się o dwa lata do przodu — wtedy suma wieku dzieli się w stosunku 2:1",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.56,
+    "procent": 17,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q31",
@@ -1228,6 +1397,11 @@
      "znak"
     ],
     "opis": "−2⁶ to nie (−2)⁶: minus nie jest potęgowany bez nawiasu"
+   },
+   "trudnosc": {
+    "logit": -1.55,
+    "procent": 34,
+    "procent_etap": 36
    }
   },
   {
@@ -1272,7 +1446,22 @@
      "procent-podstawa"
     ],
     "opis": "2/5 to część ilości początkowej, nie tej, która pozostała"
-   }
+   },
+   "trudnosc": {
+    "logit": -6.11,
+    "procent": 5,
+    "procent_etap": 6
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2012_podlaskie_sp_q6",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q32",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q33",
@@ -1316,6 +1505,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Intuicja „10 razy więcej much, to 10 razy dłużej” przy 10 razy większej liczbie pająków"
+   },
+   "trudnosc": {
+    "logit": -1.2,
+    "procent": 38,
+    "procent_etap": 39
    }
   },
   {
@@ -1353,7 +1547,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ilość soli się nie zmienia — rośnie tylko objętość roztworu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.62,
+    "procent": 6,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q35",
@@ -1390,7 +1589,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwiń nawiasy — wyrazy z x² skrócą się po obu stronach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.61,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q36",
@@ -1434,6 +1638,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Skracanie ułamka tylko z jednym składnikiem licznika"
+   },
+   "trudnosc": {
+    "logit": -6.2,
+    "procent": 4,
+    "procent_etap": 5
    }
   },
   {
@@ -1479,6 +1688,11 @@
      "jednostki"
     ],
     "opis": "Promile zamiast procentów; zmiany procentowe się mnożą, nie dodają"
+   },
+   "trudnosc": {
+    "logit": -2.74,
+    "procent": 24,
+    "procent_etap": 26
    }
   },
   {
@@ -1516,7 +1730,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każdy mecz eliminuje dokładnie jednego zawodnika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.44,
+    "procent": 35,
+    "procent_etap": 37
+   }
   },
   {
    "id": "rejonowy_2023-2024_zachodniopomorskie_q39",
@@ -1562,6 +1781,11 @@
      "kwantyfikator"
     ],
     "opis": "„Zawsze”: zdanie prawdziwe tylko dla trójkąta równoramiennego nie jest zawsze prawdziwe"
+   },
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 57
    }
   },
   {
@@ -1607,6 +1831,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Oprócz przekątnych ścian są przekątne sześcianu przecinające się w jego środku"
+   },
+   "trudnosc": {
+    "logit": 5.03,
+    "procent": 89,
+    "procent_etap": 90
    }
   }
  ]

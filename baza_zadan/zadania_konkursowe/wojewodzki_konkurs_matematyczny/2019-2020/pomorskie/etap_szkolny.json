@@ -8,6 +8,7 @@
  "liczba_zadan": 6,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019-2020_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019-2020_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2019-2020_pomorskie_q1",
@@ -37,6 +38,11 @@
      "procent-podstawa"
     ],
     "opis": "Po zjedzeniu jabłek 20% liczy się od nowej, mniejszej liczby owoców, a nie od pierwotnej"
+   },
+   "trudnosc": {
+    "logit": 1.1,
+    "procent": 60,
+    "procent_etap": 67
    }
   },
   {
@@ -90,6 +96,11 @@
      "o-co-pytaja"
     ],
     "opis": "Zdanie mówi o liczbie odwrotnej do wyrażenia, a nie o wartości samego wyrażenia"
+   },
+   "trudnosc": {
+    "logit": 7.86,
+    "procent": 98,
+    "procent_etap": 99
    }
   },
   {
@@ -112,7 +123,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śledź, jaka część żelków zostaje Jasiowi po każdym dniu, a Małgosi zsumuj zjedzone",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.51,
+    "procent": 64,
+    "procent_etap": 71
+   }
   },
   {
    "id": "szkolny_2019-2020_pomorskie_q4",
@@ -134,7 +150,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z obwodu wylicz krótszy bok, potem policz pole dwa razy: raz z jednym bokiem, raz z drugim",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.64,
+    "procent": 65,
+    "procent_etap": 72
+   }
   },
   {
    "id": "szkolny_2019-2020_pomorskie_q5",
@@ -165,6 +186,11 @@
      "o-co-pytaja"
     ],
     "opis": "Belka biegnie do narożnika (połowa przekątnej, nie boku), a wysokość altany obejmuje też ściany"
+   },
+   "trudnosc": {
+    "logit": 3.46,
+    "procent": 80,
+    "procent_etap": 86
    }
   },
   {
@@ -188,7 +214,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz 2020²⁰¹⁹ przed nawias i podziel obie strony",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 72
+   }
   }
  ]
 }

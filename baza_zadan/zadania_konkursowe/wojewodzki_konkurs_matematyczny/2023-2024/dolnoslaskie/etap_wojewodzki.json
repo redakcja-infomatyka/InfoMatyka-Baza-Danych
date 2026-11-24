@@ -8,6 +8,7 @@
  "liczba_zadan": 6,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024_dolnoslaskie_q1",
@@ -28,7 +29,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij, że sześć lat temu mieli a i 3a lat — zostaje jedno równanie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2024_dolnoslaskie_q2",
@@ -52,7 +58,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "najpierw odtwórz całe zamówienie, potem licz same nadwyżki ponad 200 zł",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.4,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2024_dolnoslaskie_q3",
@@ -74,7 +85,12 @@
     "rozwiazanie_html": "<p>Obwód trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>36</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>+</mo><mi>CP</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>L</mi><mo>=</mo><mn>12</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CP</mi><mo>=</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>PB</mi><mo>=</mo><mn>8</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>QA</mi><mo>=</mo><mn>12</mn></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> będzie wysokością trójkąta opuszczoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>ABP</mi></msub><msub><mi>P</mi><mi>ABC</mi></msub></mfrac><mo>=</mo><mfrac><mi>PB</mi><mi>BC</mi></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABP</mi></math> mają wspólną wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>APQ</mi></msub><msub><mi>P</mi><mi>ABP</mi></msub></mfrac><mo>=</mo><mfrac><mi>AQ</mi><mi>AB</mi></mfrac><mo>=</mo><mfrac><mn>12</mn><mn>16</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>APQ</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><msub><mi>P</mi><mi>ABC</mi></msub></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
     "punktacja_html": "<ul><li>1 pkt – zastosowanie poprawnej metody obliczenia obwodu trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>;</li><li>1 pkt – zastosowanie poprawnej metody obliczenia długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BP</mi></math>;</li><li>1 pkt – zastosowanie poprawnej metody obliczenia, jaką częścią pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABP</mi></math>;</li><li>1 pkt – zastosowanie poprawnej metody obliczenia, jaką częścią pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABP</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math>;</li><li>1 pkt – zastosowanie poprawnej metody i obliczenie, że pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.31,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2024_dolnoslaskie_q4",
@@ -103,6 +119,11 @@
      "rysunek"
     ],
     "opis": "Kwadrat ABCD jest obrócony: odcinek AC to jego przekątna, a nie bok"
+   },
+   "trudnosc": {
+    "logit": 6.73,
+    "procent": 96,
+    "procent_etap": 93
    }
   },
   {
@@ -130,6 +151,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Trzeba podać wszystkie liczby; wyrażenie wygląda na symetryczne względem cyfr, a nie jest"
+   },
+   "trudnosc": {
+    "logit": 7.85,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -152,7 +178,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj dwa równania z kwadratami i odejmij podwojone pierwsze — wyjdą kwadraty różnic",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.56,
+    "procent": 98,
+    "procent_etap": 96
+   }
   }
  ]
 }

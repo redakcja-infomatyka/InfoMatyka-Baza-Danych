@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 80,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_lodzkie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_lodzkie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025_lodzkie_q1",
@@ -35,6 +36,11 @@
      "zaokraglenie"
     ],
     "opis": "a) leżakowanie nie rośnie z liczbą porcji; b), d) wynik ułamkowy, a liczą się tylko całe paczki i pierniczki"
+   },
+   "trudnosc": {
+    "logit": 5.38,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -62,6 +68,11 @@
      "inne:dwa-mecze-na-pare"
     ],
     "opis": "Każda para gra dwa mecze – liczba par to nie liczba meczów; drużyna rozgrywa 28, nie 14 meczów"
+   },
+   "trudnosc": {
+    "logit": 4.14,
+    "procent": 84,
+    "procent_etap": 78
    }
   },
   {
@@ -86,7 +97,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz potęg — uprość wykładniki wzorami skróconego mnożenia i usuń niewymierność z mianownika",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.62,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2025_lodzkie_q4",
@@ -114,6 +130,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pierwsze przykłady (1·3, 3·5) potwierdzają podzielność przez 3; trzeba szukać kontrprzykładu"
+   },
+   "trudnosc": {
+    "logit": 3.81,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -143,6 +164,11 @@
      "o-co-pytaja"
     ],
     "opis": "Procenty obu kandydatów nie sumują się do 100% – głosowali też inni; trzeba liczyć z procentu jednego kandydata"
+   },
+   "trudnosc": {
+    "logit": 4.02,
+    "procent": 83,
+    "procent_etap": 78
    }
   },
   {
@@ -172,6 +198,11 @@
      "o-co-pytaja"
     ],
     "opis": "Ostatnia strona to 100+39−1; losuje się spośród wszystkich stron książki, nie tylko trzycyfrowych"
+   },
+   "trudnosc": {
+    "logit": 4.79,
+    "procent": 88,
+    "procent_etap": 83
    }
   },
   {
@@ -192,7 +223,12 @@
     "rozwiazanie_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 5. a) Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> był rombem, wszystkie boki muszą mieć długość 5, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> musi być równoległy do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>; stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>y</mi><mi>D</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math> oraz np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>x</mi><mi>C</mi></msub><mo>=</mo><mo>−</mo><mn>7</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>x</mi><mi>D</mi></msub><mo>=</mo><mo>−</mo><mn>10</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>. b) Dla równoległoboku nie będącego rombem wystarczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>y</mi><mi>D</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math> (aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> był równoległy i równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>C</mi></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>D</mi></msub></math> dobrać tak, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>≠</mo><mn>5</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 punkt za rysunek poglądowy</li><li>2 punkty za obliczenie długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (5)</li><li>1 punkt za wskazanie jaka może być współrzędna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>C</mi></msub></math> by czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> był rombem</li><li>1 punkt za wskazanie jaki może być współrzędna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>D</mi></msub></math> by czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> był rombem</li><li>1 punkt za wskazanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>y</mi><mi>D</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math> by czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> był rombem</li><li>1 punkt za wskazanie przykładowych wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>C</mi></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>x</mi><mi>D</mi></msub></math> by odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> miały równą długość (inną niż 5)</li><li>1 punkt za wskazanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>y</mi><mi>D</mi></msub><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math> by czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> był równoległobokiem</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.21,
+    "procent": 99,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2025_lodzkie_q8",
@@ -214,7 +250,12 @@
     "rozwiazanie_html": "<p>Magda: koło o promieniu 5 ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mi>π</mi></mrow></math>, kwadrat ma pole 100, więc ścinki mają pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>25</mn><mi>π</mi></mrow></math>. Krzysiek: największy kwadrat wpisany w koło o promieniu 5 ma pole 50, więc jego ścinki mają pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mi>π</mi><mo>−</mo><mn>50</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>25</mn><mi>π</mi><mo>−</mo><mn>50</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>100</mn><mo>−</mo><mn>25</mn><mi>π</mi><mo>)</mo><mo>=</mo><mn>50</mn><mi>π</mi><mo>−</mo><mn>150</mn></mrow></math>, więc więcej ścinek zostało <strong>Krzyśkowi</strong> — o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mi>π</mi><mo>−</mo><mn>150</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>2x1 punkt za sporządzenie rysunków</li><li>1 punkt za policzenie pola koła o promieniu 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>25</mn><mi>π</mi></mrow></math></li><li>1 punkt za obliczenie pola kwadratu o boku 10: 100</li><li>1 punkt za obliczenie ścinek Magdy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>25</mn><mi>π</mi></mrow></math></li><li>1 punkt za obliczenie pola kwadratu, który wyciął Krzysiek: 50</li><li>1 punkt za obliczenie pola powierzchni ścinek Krzyśka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mi>π</mi><mo>−</mo><mn>50</mn></mrow></math></li><li>1 punkt za udzielenie odpowiedzi, że pole powierzchni ścinek Krzyśka jest większe</li><li>1 punkt za obliczenie różnicy w polach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mi>π</mi><mo>−</mo><mn>150</mn></mrow></math></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.65,
+    "procent": 74,
+    "procent_etap": 67
+   }
   },
   {
    "id": "wojewodzki_2025_lodzkie_q9",
@@ -233,7 +274,12 @@
     "rozwiazanie_html": "<p>Są <strong>dwa</strong> takie ostrosłupy: albo krawędź podstawy 4 dm i krawędź boczna 3,5 dm, albo krawędź podstawy 3,5 dm i krawędź boczna 4 dm. Dla podstawy o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przekątna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math>. Pierwszy ostrosłup (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>, krawędź 3,5): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><msqrt><mn>17</mn></msqrt><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>17</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math> dm³. Drugi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3,5</mn></mrow></math>, krawędź 4): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><msqrt><mn>158</mn></msqrt><mn>4</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>49</mn><msqrt><mn>158</mn></msqrt></mrow><mn>48</mn></mfrac></mrow></math> dm³. Porównanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>&lt;</mo><msub><mi>V</mi><mn>2</mn></msub></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 punkt za ustalenie, że są dwa takie ostrosłupy</li><li>1 punkt za ustalenie (bądź zapisanie), że przekątna kwadratu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math> (dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn><mi>dm</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3,5</mn><mi>dm</mi></mrow></math>)</li><li>1 punkt za zapisanie twierdzenia Pitagorasa dla ostrosłupa o krawędzi podstawy 4 i krawędzi bocznej 3,5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mi>dm</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3,5</mn><mi>dm</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>1 punkt za obliczenie wysokości tego ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><msqrt><mn>17</mn></msqrt><mn>2</mn></mfrac><mi>dm</mi></mrow></math></li><li>1 punkt za obliczenie objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>17</mn></msqrt></mrow><mn>3</mn></mfrac><msup><mi>dm</mi><mn>3</mn></msup></mrow></math></li><li>1 punkt za zapisanie twierdzenia Pitagorasa dla ostrosłupa o krawędzi podstawy 3,5 i krawędzi bocznej 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><msqrt><mn>2</mn></msqrt><mi>dm</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>4</mn><mi>dm</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>1 punkt za obliczenie wysokości tego ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><msqrt><mn>158</mn></msqrt><mn>4</mn></mfrac><mi>dm</mi></mrow></math></li><li>1 punkt za obliczenie objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>49</mn><msqrt><mn>158</mn></msqrt></mrow><mn>48</mn></mfrac><msup><mi>dm</mi><mn>3</mn></msup></mrow></math></li><li>2 punkt za porównanie liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>&lt;</mo><msub><mi>V</mi><mn>2</mn></msub></mrow></math></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.26,
+    "procent": 99,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2025_lodzkie_q10",
@@ -264,6 +310,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wspólne koło walca i stożka jest wewnątrz bryły; stosunek objętości 3:1 nie oznacza stosunku wysokości 3:1"
+   },
+   "trudnosc": {
+    "logit": 4.99,
+    "procent": 89,
+    "procent_etap": 84
    }
   }
  ]

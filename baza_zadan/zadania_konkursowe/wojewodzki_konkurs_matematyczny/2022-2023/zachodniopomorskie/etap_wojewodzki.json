@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 36,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz od najgłębszego ułamka i wychodź piętro po piętrze na zewnątrz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.92,
+    "procent": 40,
+    "procent_etap": 33
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to ustawienia cyfr 1, 9, 8, 8 — powtórzoną ósemkę uwzględnij dzieląc przez 2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.5,
+    "procent": 44,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q3",
@@ -126,6 +137,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O 12.30 mała wskazówka nie stoi na 12, tylko przesunęła się o pół godziny drogi"
+   },
+   "trudnosc": {
+    "logit": -0.58,
+    "procent": 43,
+    "procent_etap": 36
    }
   },
   {
@@ -166,7 +182,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica pól tych kwadratów to po prostu suma ich boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.72,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q5",
@@ -206,7 +227,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przeciwprostokątną dostaniesz mnożąc przyprostokątną przez √2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q6",
@@ -250,6 +276,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite: dzielniki 9 są też ujemne"
+   },
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 57
    }
   },
   {
@@ -295,7 +326,18 @@
      "podwojne-liczenie"
     ],
     "opis": "„Przez 2 lub 5”: liczby podzielne przez 10 liczone dwa razy"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 36
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2017-2018_warminsko-mazurskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q8",
@@ -332,7 +374,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie ściany 5×5 zostają bez zmian — rośnie tylko pole czterech ścian bocznych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.95,
+    "procent": 30,
+    "procent_etap": 24
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2016-2017_warminsko-mazurskie_q1",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q9",
@@ -377,6 +430,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Układ ma kilka rozwiązań; „trzy rodzaje” wymaga co najmniej jednego ciastka każdego rodzaju"
+   },
+   "trudnosc": {
+    "logit": 0.0,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -415,7 +473,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy cyfra jedności każdego składnika osobno — potęgi mają krótki cykl",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.92,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q11",
@@ -435,7 +498,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumę lat całej szóstki z sumą lat pozostałej piątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.07,
+    "procent": 14,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q12",
@@ -461,7 +529,18 @@
      "inne:zmiana-obu-wielkosci"
     ],
     "opis": "Wcześniejsza śmierć skraca też panowanie, nie tylko życie"
-   }
+   },
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 75
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_kujawsko-pomorskie_q17",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q13",
@@ -484,7 +563,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licznik to różnica kwadratów (2¹⁶)² − 32² — rozłóż go i skróć z mianownikiem",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.44,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q14",
@@ -506,7 +590,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy, kto jeździ trzema środkami, jest w sumie 80+110+60 policzony trzy razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.0,
+    "procent": 69,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q15",
@@ -533,7 +622,18 @@
      "konwencja"
     ],
     "opis": "Stosunek złota do srebra 2:3 to udział złota 2/5, a nie 2/3"
-   }
+   },
+   "trudnosc": {
+    "logit": 3.52,
+    "procent": 80,
+    "procent_etap": 74
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2013_podkarpackie_q16",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q16",
@@ -553,7 +653,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Prowadząc z końców krótszej podstawy wysokości, dzielimy dłuższą podstawę na odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mi>x</mi></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>14</mn></math>). Z twierdzenia Pitagorasa dla obu trójkątów prostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>14</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>15</mn><mn>2</mn></msup></math>. Odejmując równania stronami, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>12</mn></math>. Wysokość trapezu wynosi 12.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q17",
@@ -573,7 +678,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Punkt równo oddalony od wszystkich boków to środek okręgu wpisanego, a szukana odległość to promień tego okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup></math>, trójkąt jest prostokątny, a przy wierzchołku kąta prostego powstaje kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Odcinki stycznych dają równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>−</mo><mi>d</mi><mo>+</mo><mn>12</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>13</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2</mn></math>. Odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od każdego z boków jest równa 2.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2022-2023_zachodniopomorskie_q18",
@@ -593,7 +703,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Wysokość trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABM</mi></math> o boku 8 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ME</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> również jest równoboczny, więc z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math> otrzymujemy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>3</mn><mo>(</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>24</mn><mo>−</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.02,
+    "procent": 89,
+    "procent_etap": 85
+   }
   }
  ]
 }

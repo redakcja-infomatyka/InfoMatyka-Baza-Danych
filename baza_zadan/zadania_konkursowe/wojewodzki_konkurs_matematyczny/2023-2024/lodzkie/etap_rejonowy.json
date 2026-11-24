@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 80,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_lodzkie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_lodzkie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024_lodzkie_q1",
@@ -56,6 +57,11 @@
      "zbior-liczb"
     ],
     "opis": "„Dla dowolnej liczby rzeczywistej” obejmuje zero i liczby ujemne; √(x⁶) to |x³|"
+   },
+   "trudnosc": {
+    "logit": 2.02,
+    "procent": 69,
+    "procent_etap": 70
    }
   },
   {
@@ -102,6 +108,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dzielenie 2:2:2 od lewej; liczba pierwsza 2 też powstaje, więc pierwszych układów jest więcej niż dwa"
+   },
+   "trudnosc": {
+    "logit": 5.84,
+    "procent": 93,
+    "procent_etap": 93
    }
   },
   {
@@ -144,7 +155,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno każdy pierwiastek, a potem tylko resztę z dzielenia sumy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q4",
@@ -183,7 +199,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zbierz iksy po jednej stronie, liczby po drugiej — dopiero potem patrz na rysunki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.05,
+    "procent": 39,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q5",
@@ -228,7 +249,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dłuższą podstawę złóż z trzech odcinków: x, górna podstawa i 2x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.87,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q6",
@@ -277,6 +303,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby a, b, c, d mogą być ujemne — dopisanie zera nie zawsze zmniejsza średnią"
+   },
+   "trudnosc": {
+    "logit": 1.85,
+    "procent": 67,
+    "procent_etap": 69
    }
   },
   {
@@ -316,7 +347,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math> jest wysokością prostopadłą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąty 30°, 60°, 90°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>a</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> (kąty 45°, 45°, 90°) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>DB</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi><mo>=</mo><mi>a</mi><msqrt><mn>6</mn></msqrt></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, kąt 60° przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi><mo>=</mo><mi>a</mi><msqrt><mn>2</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi><mo>=</mo><mn>2</mn><mi>a</mi><msqrt><mn>2</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>+</mo><mi>CE</mi><mo>+</mo><mi>ED</mi><mo>+</mo><mi>DA</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>+</mo><mn>2</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mi>a</mi><mo>=</mo><mi>a</mi><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.81,
+    "procent": 93,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q8",
@@ -361,7 +397,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole kwadratu policz z przekątnych, a promień koła z punktu styczności z bokiem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.47,
+    "procent": 64,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q9",
@@ -403,7 +444,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "usuń niewymierność z mianowników, mnożąc przez sprzężenie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 43
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q10",
@@ -453,6 +499,11 @@
      "o-co-pytaja"
     ],
     "opis": "Zmiana czasu była w nocy 28/29, a dyżur zaczyna się 29 wieczorem; podróż 1:15–4:15 przechodzi przez 3→2"
+   },
+   "trudnosc": {
+    "logit": 4.28,
+    "procent": 85,
+    "procent_etap": 86
    }
   },
   {
@@ -473,7 +524,12 @@
     "rozwiazanie_html": "<p>a) Wystarczy podać kontrprzykład. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>9</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>16</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>+</mo><mn>16</mn></mrow></msqrt><mo>=</mo><msqrt><mn>25</mn></msqrt><mo>=</mo><mn>5</mn></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>9</mn></msqrt><mo>+</mo><msqrt><mn>16</mn></msqrt><mo>=</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>7</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>≠</mo><mn>7</mn></math>, pierwiastek sumy nie jest równy sumie pierwiastków.</p><p>b) Równość zachodzi, gdy jedna z liczb jest zerem, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>0</mn><mo>+</mo><mn>1</mn></mrow></msqrt><mo>=</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0</mn></msqrt><mo>+</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></math>.</p>",
     "punktacja_html": "<p>Punktacja: a) 2 pkt za poprawny przykład; b) 2 pkt za poprawny przykład (np. x=0, y=1).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.65,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q12",
@@ -502,6 +558,11 @@
      "inne:cofniecie-wieku-kazdej-osoby"
     ],
     "opis": "Cofając się o 20 lat, suma wieku trzech osób maleje o 60, nie o 20"
+   },
+   "trudnosc": {
+    "logit": 1.36,
+    "procent": 63,
+    "procent_etap": 64
    }
   },
   {
@@ -530,6 +591,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent nieważnych głosów liczy się względem osób, które odebrały kartę, a nie wszystkich uprawnionych"
+   },
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 69
    }
   },
   {
@@ -551,7 +617,12 @@
     "rozwiazanie_html": "<p>Powstały sześciokąt jest złożony z kwadratu o boku 4 i przystającego rombu o boku 4, mających wspólny bok (który jest przekątną sześciokąta). Kąt ostry rombu ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math> (jego bok zawiera się w osi symetrii kwadratu tworzącej z bokiem kwadratu kąt 45°).</p><p>Obwód sześciokąta tworzy 6 boków długości 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math> cm.</p><p>Wysokość rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>16</mn></math>. Pole rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math>. Pole sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm².</p>",
     "punktacja_html": "<ul><li>2 punkty – rysunek</li><li>2 punkty – rysunek</li><li>1 punkt – obliczenie obwodu sześciokąta: 24</li><li>2 punkty – zauważenie, że kąt ostry rombu ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math></li><li>2 punkty – obliczenie wysokości rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math></li><li>1 punkt – obliczenie pola kwadratu: 16</li><li>1 punkt – obliczenie pola rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>2</mn></msqrt></math></li><li>1 punkt – obliczenie pola sześciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.55,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2024_lodzkie_q15",
@@ -573,7 +644,12 @@
     "rozwiazanie_html": "<p>a) Pole podstawy akwarium: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> dm², objętość klocka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></math> dm³. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> będzie początkową wysokością wody. Objętość wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>H</mi></math>, a po wrzuceniu klocka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>·</mo><mn>1,25</mn><mi>H</mi><mo>=</mo><mn>22,5</mn><mi>H</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>H</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>22,5</mn><mi>H</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mn>16</mn><mn>9</mn></mfrac></math> dm. Po wrzuceniu klocka woda sięga do wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,25</mn><mo>·</mo><mfrac><mn>16</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></math> dm.</p><p>b) Maksymalna objętość akwarium: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>·</mo><mn>3,75</mn><mo>=</mo><mn>67,5</mn></math> dm³. Woda z jednym klockiem zajmuje wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>9</mn></mfrac></math> dm, czyli objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>·</mo><mfrac><mn>20</mn><mn>9</mn></mfrac><mo>=</mo><mn>40</mn></math> dm³. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>67,5</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>27,5</mn></math> dm³. Wymiary podstawy (3 dm × 6 dm) pozwalają zmieścić na dnie jeszcze dwa klocki o krawędzi 2 dm, więc można włożyć dwa dodatkowe klocki (akceptowana jest też odpowiedź: jeden klocek).</p>",
     "punktacja_html": "<ul><li>1 punkt – obliczenie objętości sześcianu - <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> dm³</li><li>1 punkt – zapisanie objętości wody przed wrzuceniem sześcianu z niewiadomą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>18</mn><mi>H</mi></math></li><li>1 punkt – zapisanie objętości wody po wrzuceniu do niego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>n</mi></msub><mo>=</mo><mn>18</mn><mo>·</mo><mn>1,25</mn><mi>H</mi></math></li><li>1 punkt – zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mi>H</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>22,5</mn><mi>H</mi></math></li><li>2 punkty – obliczenie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mn>16</mn><mn>9</mn></mfrac></math> dm</li><li>1 punkt – obliczenie, że woda po wrzuceniu sześcianu sięga do wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>9</mn></mfrac></math> dm</li><li>1 punkt – obliczenie maksymalnej objętości akwarium: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>67,5</mn></math> dm³</li><li>1 punkt – obliczenie początkowej objętości wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mi>w</mi></msub><mo>=</mo><mn>32</mn></math> dm³ lub wody z jednym sześcianem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>40</mn></math> dm³</li><li>1 punkt - zauważenie, że pozostała objętość akwarium to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>27,5</mn></math> dm³</li><li>1 punkt – zauważenie, że wymiary akwarium pozwalają żeby zmieściły się dwa dodatkowe sześciany</li><li>1 punkt – udzielenie odpowiedzi – dwa.</li></ul><p>Uwaga! Akceptujemy odpowiedź w podpunkcie b) jeden klocek.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.62,
+    "procent": 95,
+    "procent_etap": 96
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020_lodzkie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2020_lodzkie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamień każdy nawias na ułamek (n+1)/n — sąsiednie czynniki się skracają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.97,
+    "procent": 76,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz cyfry jedności kolejnych potęg trójki, znajdź okres i podziel wykładnik z resztą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.42,
+    "procent": 19,
+    "procent_etap": 20
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zobacz, jak wielki jest sam wykładnik w wieży potęg, i dopiero potem porównuj",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.26,
+    "procent": 28,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q4",
@@ -158,7 +174,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz czynniki przed pierwiastki i szukaj wzorów skróconego mnożenia — część składników się zniesie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.91,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q5",
@@ -202,6 +223,11 @@
      "procent-podstawa"
     ],
     "opis": "Kolejne obniżki procentowe liczone od coraz mniejszej kwoty, więc nie wolno ich dodawać"
+   },
+   "trudnosc": {
+    "logit": -0.77,
+    "procent": 42,
+    "procent_etap": 43
    }
   },
   {
@@ -247,6 +273,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Stosunek pól to kwadrat skali; skala dotyczy długości, nie powierzchni"
+   },
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 62
    }
   },
   {
@@ -285,7 +316,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jakie całkowite długości trzeciego boku dopuszcza nierówność trójkąta",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.0,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q8",
@@ -323,7 +359,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 180° na 1+9+8 równych części",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.67,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q9",
@@ -363,7 +404,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy kącie 60° rzut ramienia na podstawę to połowa ramienia — wyraź obwód przez krótszą podstawę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.59,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q10",
@@ -409,6 +455,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kwadraty stoją na przyprostokątnej i PRZECIWprostokątnej, a nie na obu przyprostokątnych"
+   },
+   "trudnosc": {
+    "logit": 2.05,
+    "procent": 69,
+    "procent_etap": 70
    }
   },
   {
@@ -454,6 +505,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z równania wychodzi promień, a pytają o średnicę"
+   },
+   "trudnosc": {
+    "logit": 0.19,
+    "procent": 51,
+    "procent_etap": 53
    }
   },
   {
@@ -498,6 +554,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, o ile dłużej malowali, a nie ile trwało malowanie; Franek z trzema kolegami to cztery osoby"
+   },
+   "trudnosc": {
+    "logit": -0.06,
+    "procent": 49,
+    "procent_etap": 50
    }
   },
   {
@@ -517,7 +578,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Nierówność 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>4</mn></mfrac><mo>&gt;</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>.</p><p>Nierówność 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>≥</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>13</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mo>−</mo><mn>5</mn></math>.</p><p>Wspólnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>: całkowite −5,−4,−3,−2,−1,0 — 6 liczb.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.52,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q14",
@@ -537,7 +603,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Ustawiam wierzchołek kąta prostego w (0,0), A(6,0), B(0,6). Środki kwadratów na przyprostokątnych: (3,−3) i (−3,3); środek kwadratu na przeciwprostokątnej: (6,6).</p><p>Pole trójkąta o wierzchołkach (3,−3),(−3,3),(6,6): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>72</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>36</mn></math> cm².</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.17,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2020_lodzkie_q15",
@@ -562,6 +633,11 @@
      "jednostki"
     ],
     "opis": "Pole podstawy podane w dm², a krawędź boczna w cm"
+   },
+   "trudnosc": {
+    "logit": 8.0,
+    "procent": 98,
+    "procent_etap": 98
    }
   }
  ]

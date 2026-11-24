@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023_opolskie_q1",
@@ -41,7 +42,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 2023 na czynniki pierwsze i sprawdź, czy któryś z nich się powtarza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.34,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2023_opolskie_q2",
@@ -83,6 +89,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Losowanie bez zwracania: po pierwszej skarpetce zostaje mniej tego samego koloru niż 1/3"
+   },
+   "trudnosc": {
+    "logit": 5.57,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pogrupuj kolejne składniki po cztery i wyłącz potęgę trójki przed nawias",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.74,
+    "procent": 92,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2023_opolskie_q4",
@@ -162,6 +178,11 @@
      "znak"
     ],
     "opis": "Pierwiastek z kwadratu to wartość bezwzględna: √(9−4√5) to nie 2−√5, bo 2−√5 jest ujemne"
+   },
+   "trudnosc": {
+    "logit": 5.87,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -202,6 +223,11 @@
      "inne:sklejanie-krawedzi-siatki"
     ],
     "opis": "Przy składaniu siatki sklejone brzegi kwadratu stają się jedną krawędzią; nie wolno liczyć ich dwa razy"
+   },
+   "trudnosc": {
+    "logit": 5.84,
+    "procent": 93,
+    "procent_etap": 89
    }
   },
   {
@@ -225,7 +251,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile dni zajmuje im wspólnie 3/4 pracy; reszta z 14 dni to samodzielna praca murarza",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.18,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2023_opolskie_q7",
@@ -252,6 +283,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "To, że pola i szerokości się zgadzają, nie znaczy, że koła się zmieszczą; liczy się przekątna ułożenia słoików"
+   },
+   "trudnosc": {
+    "logit": 7.11,
+    "procent": 97,
+    "procent_etap": 95
    }
   },
   {
@@ -273,7 +309,12 @@
     "rozwiazanie_html": "<p>Rozważmy dwa przypadki.</p><ul><li>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest parzysta, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2</mn><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>k</mi><mn>2</mn></msup></math> — liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math> jest podzielna przez 4.</li><li>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest nieparzysta, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest iloczynem dwóch kolejnych liczb parzystych. Spośród dwóch kolejnych liczb parzystych jedna jest podzielna przez 4, więc ten iloczyn dzieli się przez 8, a tym bardziej przez 4.</li></ul><p>W obu przypadkach co najmniej jedna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 4, co kończy dowód.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie uzasadni – 5p</li><li>poprawnie uzasadnia, popełnia błąd rachunkowy przy przekształceniach – 4p</li><li>nie stosuje wzorów skróconego mnożenia i nie mnoży sum, ale zapisze wszystkie przypadki – 3p</li><li>uzasadni tylko w dwóch przypadkach – 2p</li><li>uzasadni tylko w jednym przypadku – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.03,
+    "procent": 89,
+    "procent_etap": 85
+   }
   },
   {
    "id": "wojewodzki_2023_opolskie_q9",
@@ -304,6 +345,11 @@
      "o-co-pytaja"
     ],
     "opis": "Stosunek pól to kwadrat stosunku boków; pytają o obwód większego kwadratu, nie mniejszego"
+   },
+   "trudnosc": {
+    "logit": 4.54,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -324,7 +370,12 @@
     "rozwiazanie_html": "<p>Sześcian o krawędzi 4 można rozciąć na trzy jednakowe ostrosłupy czworokątne: każdy ma za podstawę jedną ścianę sześcianu (kwadrat o boku 4), a wierzchołek w przeciwległym wierzchołku sześcianu. W takim ostrosłupie jedna krawędź boczna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi></math> jest prostopadła do podstawy i równa krawędzi sześcianu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi><mo>=</mo><mn>4</mn></math>.</p><p>Ściany ostrosłupa:</p><ul><li>podstawa — kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>;</li><li>dwie ściany będące trójkątami prostokątnymi o przyprostokątnych 4 i 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>;</li><li>dwie ściany będące trójkątami prostokątnymi o przyprostokątnych 4 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></math>.</li></ul><p>Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>16</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></math>.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>32</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></math> – 5p</li><li>poprawnie oblicza z błędem rachunkowym – 4p</li><li>narysuje siatkę – 2p</li><li>obliczy pole co najmniej dwóch ścian – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.52,
+    "procent": 98,
+    "procent_etap": 96
+   }
   },
   {
    "id": "wojewodzki_2023_opolskie_q11",
@@ -347,7 +398,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "masa soli się nie zmienia — porównaj stężenia i zobacz, jaką częścią masy jest odparowana woda",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 51
+   }
   }
  ]
 }

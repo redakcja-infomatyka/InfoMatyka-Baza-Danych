@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024_opolskie_q1",
@@ -42,7 +43,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż (√5−2) przez (√5+2) — wzór na różnicę kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q2",
@@ -85,6 +91,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite o |y|<5 to także zero i liczby ujemne, łatwo pominąć zero"
+   },
+   "trudnosc": {
+    "logit": 0.99,
+    "procent": 59,
+    "procent_etap": 52
    }
   },
   {
@@ -127,6 +138,11 @@
      "konwencja"
     ],
     "opis": "Składnik 48,97·10^11 nie jest w notacji wykładniczej, trzeba go przeliczyć przed dodaniem"
+   },
+   "trudnosc": {
+    "logit": 2.68,
+    "procent": 74,
+    "procent_etap": 67
    }
   },
   {
@@ -169,6 +185,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nierówność trójkąta jest ostra: przy boku 3 mamy 2+3=5, więc trójkąt jest zdegenerowany"
+   },
+   "trudnosc": {
+    "logit": -0.68,
+    "procent": 42,
+    "procent_etap": 35
    }
   },
   {
@@ -202,7 +223,12 @@
     "rozwiazanie_html": "<p>W ostrosłupie prawidłowym, którego podstawą jest wielokąt foremny o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach, ściana boczna może być trójkątem rozwartokątnym tylko dla podstawy trójkątnej (TAK); dla podstawy czworokątnej i sześciokątnej kąt przy podstawie ściany bocznej jest zbyt duży, aby kąt przy wierzchołku ostrosłupa był rozwarty (NIE, NIE).</p>",
     "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.96,
+    "procent": 89,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q6",
@@ -223,7 +249,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zysk ma być ten sam, więc wpłata i oprocentowanie są odwrotnie proporcjonalne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.6,
+    "procent": 34,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q7",
@@ -245,7 +276,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, ile słoików zostało razem po sprzedaży, i podziel je w stosunku 5 : 2",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q8",
@@ -271,7 +307,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dopisanie 6 zmienia liczbę a w 10a + 6 — zobacz, o ile urosła suma",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q9",
@@ -291,7 +332,12 @@
     "rozwiazanie_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>12</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> (dłuższy bok). Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> to prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math>; ma na niej leżeć wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>18</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>. Krótsza przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>=</mo><mn>10</mn></math> cm. Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>388</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>97</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy długości obu przekątnych (10 cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>97</mn></msqrt></mrow></math> cm) – 5p</li><li>poprawnie oblicza z błędem rachunkowym – 4p</li><li>poprawnie stosuje twierdzenie Pitagorasa – 3p</li><li>poda długość krótszej przekątnej – 2p</li><li>wykona rysunek z zaznaczonymi długościami – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.99,
+    "procent": 93,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2024_opolskie_q10",
@@ -319,6 +365,11 @@
      "jednostki"
     ],
     "opis": "Dane w cm, a pytanie o przyrost poziomu wody w milimetrach"
+   },
+   "trudnosc": {
+    "logit": -0.34,
+    "procent": 46,
+    "procent_etap": 38
    }
   },
   {
@@ -341,7 +392,12 @@
     "rozwiazanie_html": "<p>Wierzchołek jednego kwadratu leży w środku drugiego, więc część wspólna obu kwadratów to ćwiartka kwadratu o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>8</mn><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>=</mo><mn>16</mn></math> cm². Pole figury: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>=</mo><mn>128</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>112</mn></math> cm². Obwód powstaje z obwodów obu kwadratów pomniejszonych o zasłonięte odcinki: na brzeg figury składa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>−</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole i obwód figury (112 cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>56</mn><mo>−</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></math> cm) – 5p</li><li>oblicza poprawnym sposobem z błędem rachunkowym – 4p</li><li>obliczy tylko pole albo obwód – 3p</li><li>oblicza jedną wielkość z błędem rachunkowym – 2p</li><li>poda długość przekątnej, połowę jej długości lub różnicę między długością boku a połową przekątnej – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.11,
+    "procent": 99,
+    "procent_etap": 98
+   }
   }
  ]
 }

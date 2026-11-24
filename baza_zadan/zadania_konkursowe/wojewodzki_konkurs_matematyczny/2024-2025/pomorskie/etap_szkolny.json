@@ -8,6 +8,7 @@
  "liczba_zadan": 8,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_pomorskie_q1",
@@ -34,6 +35,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Podzielność przez 12 to przez 3 i 4, a nie przez 2 i 6; trzeba też X = 0"
+   },
+   "trudnosc": {
+    "logit": 5.61,
+    "procent": 92,
+    "procent_etap": 96
    }
   },
   {
@@ -61,6 +67,11 @@
      "jednostki"
     ],
     "opis": "Od wjazdu do całkowitego wyjazdu samochód przebywa tunel plus własną długość; prędkość w km/h"
+   },
+   "trudnosc": {
+    "logit": 1.68,
+    "procent": 66,
+    "procent_etap": 72
    }
   },
   {
@@ -82,7 +93,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rzuć ramię na dłuższą podstawę i licz na samych kwadratach — pierwiastek wyciągnij dopiero na końcu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.83,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2024-2025_pomorskie_q4",
@@ -103,7 +119,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od planowanej ceny jednej babeczki, potem od tego, ile zł zostało do zarobienia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.06,
+    "procent": 50,
+    "procent_etap": 57
+   }
   },
   {
    "id": "szkolny_2024-2025_pomorskie_q5",
@@ -123,7 +144,12 @@
     "rozwiazanie_html": "<p>Liczba powstała przez dopisanie cyfry 8 na końcu ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>, a liczba powstała przez dopisanie cyfry 2 na początku ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2000</mn><mo>+</mo><mi>x</mi></mrow></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><mo>(</mo><mn>2000</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>4000</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>x</mi><mo>=</mo><mn>3992</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>499</mn></mrow></math>.</p><p>Odpowiedź: szukana liczba to 499.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): zapisanie liczb w postaci 10x + 8 oraz 2000 + x.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.62,
+    "procent": 56,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2024-2025_pomorskie_q6",
@@ -142,7 +168,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich uczniów. Chłopców jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,2</mn><mi>x</mi></mrow></math>, a dziewcząt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>x</mi></mrow></math>. Tego dnia przyszło 80% chłopców, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></mrow></math>, oraz 20% dziewcząt, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,2</mn><mo>·</mo><mn>0,8</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></mrow></math>. Liczby obecnych chłopców i dziewcząt są równe, więc każda z tych grup stanowi 50% obecnych uczniów.</p><p>Odpowiedź: wśród obecnych tego dnia uczniów było 50% chłopców i 50% dziewcząt.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): zapisanie, jaka część chłopców i jaka część dziewcząt przyszła (lub nie przyszła) do szkoły.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.85,
+    "procent": 41,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2024-2025_pomorskie_q7",
@@ -188,6 +219,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zd. 4: pierwiastek z różnicy kwadratów to nie różnica liczb"
+   },
+   "trudnosc": {
+    "logit": 3.84,
+    "procent": 82,
+    "procent_etap": 89
    }
   },
   {
@@ -218,6 +254,11 @@
      "kierunek-relacji"
     ],
     "opis": "10.2: o ile procent mniej liczy się od liczby chłopców, a nie dziewcząt"
+   },
+   "trudnosc": {
+    "logit": 4.21,
+    "procent": 84,
+    "procent_etap": 90
    }
   }
  ]

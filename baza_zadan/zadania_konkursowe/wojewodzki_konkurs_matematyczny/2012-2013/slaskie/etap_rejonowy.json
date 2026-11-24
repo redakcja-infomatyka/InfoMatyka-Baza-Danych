@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012-2013_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012-2013_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2012-2013_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>W puste pola wpisujemy kolejno: <strong>0</strong> (górny wiersz), <strong>6</strong> i <strong>−3</strong> (środkowy wiersz), <strong>−2</strong> (piąta kolumna, wiersz zaczynający się od −2) oraz <strong>5</strong> i <strong>3</strong> (dolny wiersz). Wszystkie działania są wtedy poprawne.</p><p>Poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>0</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn></math>.</p><p>Pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn></math>.</p>",
     "punktacja_html": "<p>Za każdą poprawnie wpisaną liczbę 1 punkt, w sumie 6 punktów.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.85,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>36</mn><mo>:</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>24</mn></math></p><p>b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mo>(</mo><mn>7</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>15</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>24</mn></math></p>",
     "punktacja_html": "<p>2 punkty za wstawienie nawiasów w obu wyrażeniach; 1 punkt za jedno wyrażenie.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.71,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q3",
@@ -94,6 +105,11 @@
      "konwencja"
     ],
     "opis": "15 minut to nie 0,15 godziny; dystraktor zbudowany pod zapis minut jak części dziesiętnych"
+   },
+   "trudnosc": {
+    "logit": -4.11,
+    "procent": 14,
+    "procent_etap": 16
    }
   },
   {
@@ -131,7 +147,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz na ułamkach zwykłych: 0,75 = ¾, i skracaj przed mnożeniem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.78,
+    "procent": 41,
+    "procent_etap": 43
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubuskie_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q5",
@@ -168,7 +195,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie trzy sumy — każda dziewczynka policzy się w nich dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.71,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q6",
@@ -213,6 +245,11 @@
      "kierunek-relacji"
     ],
     "opis": "Słonica jest o 570 kg cięższa od połowy masy ojca — łatwo dodać zamiast odjąć"
+   },
+   "trudnosc": {
+    "logit": -2.75,
+    "procent": 24,
+    "procent_etap": 26
    }
   },
   {
@@ -252,7 +289,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poszukaj w siatce pasków trzech ścian leżących w jednej linii",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.4,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q8",
@@ -289,7 +331,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekształć nierówność tak, żeby kratka została sama po jednej stronie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 48,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q9",
@@ -326,7 +373,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaką częścią 150 g jest 120 g, i tak samo zmniejsz resztę składników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.21,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q10",
@@ -370,6 +422,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę odwrotną, a wśród wariantów jest liczba przeciwna do a"
+   },
+   "trudnosc": {
+    "logit": -2.55,
+    "procent": 26,
+    "procent_etap": 27
    }
   },
   {
@@ -408,7 +465,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj różnice między liczbami jabłek, batonów i bananów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q12",
@@ -452,6 +514,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia z dwóch średnich przy grupach różnej liczebności to nie średnia całości"
+   },
+   "trudnosc": {
+    "logit": -4.59,
+    "procent": 11,
+    "procent_etap": 13
    }
   },
   {
@@ -489,7 +556,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przyprostokątne też są wysokościami — trzecią znajdziesz, licząc pole na dwa sposoby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.06,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q14",
@@ -526,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień wymiary deski na metry i policz objętość jednej deski",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.98,
+    "procent": 30,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q15",
@@ -561,7 +638,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Bakterie wywołujące tężec (laseczka tężca) bytują w glebie i wnikają do organizmu przez zanieczyszczone rany - dlatego zranienie podczas pracy w ogrodzie grozi właśnie zakażeniem tężcem.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.17,
+    "procent": 29,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q16",
@@ -596,7 +678,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>„Choroby brudnych rąk” przenoszą się drogą pokarmową przez zanieczyszczone ręce i żywność - należą do nich dur brzuszny, czerwonka i wirusowe zapalenie wątroby.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 55
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q17",
@@ -616,7 +703,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Sąsiadów odczytujemy zgodnie z ruchem wskazówek zegara od wybrzeża: 1 (północny wschód) - Litwa, stolica Wilno; 2 (wschód) - Białoruś, stolica Mińsk; 3 (południowy wschód) - Ukraina, stolica Kijów; 4 (południe) - Słowacja, stolica Bratysława; 5 (zachód) - Niemcy, stolica Berlin.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 49,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q18",
@@ -634,7 +726,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Sudety: najwyższe pasmo Karkonosze ze szczytem Śnieżka (1602 m n.p.m.), osobliwość - skalne grzyby. Karpaty: pasmo Tatry ze szczytem Rysy (2499 m n.p.m.), osobliwość - wodospad Siklawa. Góry Świętokrzyskie: pasmo Łysogóry ze szczytem Łysica (612 m n.p.m.), osobliwość - Jaskinia Raj.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.03,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q19",
@@ -652,7 +749,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>A) las pierwotny i żubry - Białowieski PN (4). B) ruchome wydmy i największe jezioro przybrzeżne - Słowiński PN (3). C) wydmy śródlądowe, łosie, rezerwat UNESCO - Kampinoski PN (1). D) wysokie klify i orzeł bielik - Woliński PN (5).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.17,
+    "procent": 70,
+    "procent_etap": 71
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q20",
@@ -698,6 +800,11 @@
      "o-co-pytaja"
     ],
     "opis": "48 minut zapisane jako 0,48 godziny; do tego pytanie o drogę pozostałą, a nie przejechaną"
+   },
+   "trudnosc": {
+    "logit": 1.69,
+    "procent": 66,
+    "procent_etap": 67
    }
   },
   {
@@ -742,6 +849,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pole powierzchni to podwojona suma trzech podanych ścian, nie sama suma"
+   },
+   "trudnosc": {
+    "logit": 3.47,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -764,7 +876,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz ary na metry kwadratowe, a wymiary domu z planu powiększ według skali",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.91,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2012-2013_slaskie_q23",
@@ -785,7 +902,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile ryżu zostało łącznie w obu pojemnikach po odsypaniu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.08,
+    "procent": 29,
+    "procent_etap": 31
+   }
   }
  ]
 }

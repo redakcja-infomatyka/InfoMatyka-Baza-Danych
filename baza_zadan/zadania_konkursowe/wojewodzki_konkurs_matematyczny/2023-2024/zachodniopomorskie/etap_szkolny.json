@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 4√8 jako 8√2, żeby obie liczby miały ten sam pierwiastek",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.67,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile razy 6 s mieści się w 30 minutach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.19,
+    "procent": 20,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian to trzecia potęga, a „5 razy mniejsza” to dzielenie przez 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.41,
+    "procent": 19,
+    "procent_etap": 22
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q4",
@@ -155,7 +171,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż podstawy: 12 = 3·4, 9 = 3², i skracaj potęgi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.1,
+    "procent": 38,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q5",
@@ -192,7 +213,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż przez skalę i pamiętaj, że 1 km to 100 000 cm",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.26,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q6",
@@ -229,7 +255,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wody nie przybywa — policz, ile jej jest i jakim procentem ma być w nowym roztworze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.05,
+    "procent": 50,
+    "procent_etap": 57
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q7",
@@ -274,6 +305,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nierówność trójkąta jest ostra: bok równy różnicy dwóch pozostałych daje trójkąt zdegenerowany"
+   },
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -314,7 +350,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdej równości sprawdź, czy te trzy odcinki są bokami trójkąta prostokątnego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.63,
+    "procent": 43,
+    "procent_etap": 49
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q9",
@@ -351,7 +392,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "chłopcy to reszta procentów — od nich licz całą klasę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.06,
+    "procent": 21,
+    "procent_etap": 25
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q10",
@@ -389,7 +435,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 1 − r i zbierz wyrazy z r po jednej stronie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q11",
@@ -430,7 +481,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz trzeci kąt w trójkącie ACD i porównaj boki leżące naprzeciw równych kątów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.06,
+    "procent": 77,
+    "procent_etap": 84
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2010_podkarpackie_gim_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q12",
@@ -467,7 +529,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie dziesięć wyników — każdy chłopiec występuje w nich po cztery razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.51,
+    "procent": 64,
+    "procent_etap": 71
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q13",
@@ -505,7 +572,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj ∛24 z 3, a 2√3 zapisz jako √12",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.54,
+    "procent": 44,
+    "procent_etap": 50
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q14",
@@ -542,7 +614,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 = 3 · 4 — sprawdź obie cechy podzielności naraz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q15",
@@ -586,6 +663,11 @@
      "kwantyfikator"
     ],
     "opis": "„musi wyjąć co najmniej 9, żeby mieć pewność” — 9 owoców daje pewność, ale tylu nie trzeba; liczy się minimum"
+   },
+   "trudnosc": {
+    "logit": 3.23,
+    "procent": 78,
+    "procent_etap": 85
    }
   },
   {
@@ -608,7 +690,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od 70 zł odejmij 10 zł i potraktuj wynik jako 3/8 całej kwoty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.07,
+    "procent": 39,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q17",
@@ -631,7 +718,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel obie figury na jednakowe trójkąty równoboczne i porównaj, ile ich jest",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.7,
+    "procent": 66,
+    "procent_etap": 73
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q18",
@@ -651,7 +743,12 @@
     "rozwiazanie_html": "<p>Zaznaczamy punkty w układzie współrzędnych i opisujemy czworokąt prostokątem: przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> prowadzimy proste równoległe do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> — proste równoległe do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>. Otrzymany prostokąt ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>×</mo><mn>4</mn></math>, czyli pole równe 20. Od pola prostokąta odejmujemy pola czterech trójkątów prostokątnych w narożnikach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>1,5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>4</mn></msub><mo>=</mo><mn>3</mn></math> (razem 9,5). Pole czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>9,5</mn><mo>=</mo><mn>10,5</mn></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za opisanie prostokąta i jego pole (20); 1 pkt za obliczenie pól czterech trójkątów; 1 pkt za obliczenie pola czworokąta (10,5).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 91
+   }
   },
   {
    "id": "szkolny_2023-2024_zachodniopomorskie_q19",
@@ -678,6 +775,11 @@
      "o-co-pytaja"
     ],
     "opis": "Równanie naturalnie daje cenę jednej cebulki, a pytają o cenę całej paczki po 20 sztuk"
+   },
+   "trudnosc": {
+    "logit": 2.62,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -701,7 +803,18 @@
     "rozwiazanie_html": "<p>Bok rombu obliczamy z twierdzenia Pitagorasa dla trójkąta o przyprostokątnych będących połowami przekątnych (15 cm i 20 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mn>20</mn><mn>2</mn></msup><mo>=</mo><mn>625</mn></math>, więc bok rombu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>625</mn></msqrt><mo>=</mo><mn>25</mn></math> cm. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (połowy rombu) zapisujemy na dwa sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>25</mn><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>40</mn><mo>·</mo><mn>15</mn></mrow><mn>2</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>40</mn><mo>·</mo><mn>15</mn></mrow><mn>2</mn></mfrac></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>24</mn></math>, czyli jeden bok prostokąta ma długość 24 cm. Drugi bok obliczamy z twierdzenia Pitagorasa (np. dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFC</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>24</mn><mn>2</mn></msup><mo>=</mo><msup><mn>40</mn><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>32</mn></math> cm. Prostokątny kawałek szyby ma wymiary 32 cm × 24 cm.</p>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za: obliczenie boku rombu (25 cm), zapisanie pola trójkąta na dwa sposoby, obliczenie jednego boku prostokąta (24 cm), obliczenie drugiego boku prostokąta (32 cm).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.08,
+    "procent": 90,
+    "procent_etap": 94
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_pomorskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   }
  ]
 }

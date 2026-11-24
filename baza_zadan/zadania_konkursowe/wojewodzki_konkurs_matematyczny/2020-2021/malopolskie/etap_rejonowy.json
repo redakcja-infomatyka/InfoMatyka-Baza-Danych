@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020-2021_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020-2021_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2020-2021_malopolskie_q1",
@@ -54,6 +55,11 @@
      "kwantyfikator"
     ],
     "opis": "Zakaz trzech powtórzeń z rzędu to nie to samo co liczba wystąpień znaku w całej liczbie (np. XXXIX)"
+   },
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 91
    }
   },
   {
@@ -100,6 +106,11 @@
      "kalendarz-czas"
     ],
     "opis": "Jubiler pracuje tylko od poniedziałku do piątku, więc liczy się dni robocze lutego 2021, a nie 28 dni"
+   },
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 82
    }
   },
   {
@@ -144,7 +155,18 @@
      "procent-podstawa"
     ],
     "opis": "Stała jest sucha masa, a nie ubytek wody; utracone 2 kg z 3 kg to nie procent wody w świeżych"
-   }
+   },
+   "trudnosc": {
+    "logit": 4.19,
+    "procent": 84,
+    "procent_etap": 85
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2022_lubuskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q4",
@@ -188,6 +210,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia to nie mediana: nie musi połowa liczb być co najmniej równa średniej"
+   },
+   "trudnosc": {
+    "logit": 2.06,
+    "procent": 69,
+    "procent_etap": 70
    }
   },
   {
@@ -227,7 +254,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz wszystkie średnice z tą samą potęgą dziesiątki i dodaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q6",
@@ -271,6 +303,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba możliwych sum od 3 do 18 i zasada szufladkowa: o jeden więcej niż szuflad"
+   },
+   "trudnosc": {
+    "logit": 1.66,
+    "procent": 65,
+    "procent_etap": 67
    }
   },
   {
@@ -316,6 +353,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o łączną liczbę uczniów, a niewiadomą naturalnie jest liczebność jednej klasy"
+   },
+   "trudnosc": {
+    "logit": -2.07,
+    "procent": 30,
+    "procent_etap": 31
    }
   },
   {
@@ -357,7 +399,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "2 litry to 2000 cm³, a po odcięciu narożników każdy bok podstawy maleje o 2x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q9",
@@ -392,7 +439,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Iloczyn cyfr 5155 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>125</mn><mo>=</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math>. Ponieważ 5 jest liczbą pierwszą, jedynym rozkładem 125 na cztery cyfry 1–9 jest zestaw {5,5,5,1}, dający tylko 4 permutacje (5551, 5515, 5155, 1555) – najmniej spośród podanych kodów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.55,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q10",
@@ -441,6 +493,11 @@
      "inne:ktora-przekatna"
     ],
     "opis": "Krótsza przekątna sześciokąta foremnego to a√3, nie 2a"
+   },
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -492,6 +549,11 @@
      "zbior-liczb"
     ],
     "opis": "n całkowite: zacieniowana ćwiartka wymaga ujemnych dzielników 6, łatwo rozważyć tylko dodatnie"
+   },
+   "trudnosc": {
+    "logit": 3.95,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -534,7 +596,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw konkretną parę liczb względnie pierwszych i sprawdź zdania po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.33,
+    "procent": 53,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q13",
@@ -576,7 +643,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wektory z A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> = (10, 2), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> = (3, 4), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></mrow></math>. Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mn>10</mn><mo>·</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>17</mn></mrow></math>. Wysokość z wierzchołka B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>17</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>6,8</mn></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q14",
@@ -625,6 +697,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prędkość średnia na całej trasie to nie średnia arytmetyczna prędkości z odcinków"
+   },
+   "trudnosc": {
+    "logit": 2.39,
+    "procent": 72,
+    "procent_etap": 73
    }
   },
   {
@@ -670,7 +747,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trójkąt ABC jest równoramienny — odejmij jego kąt przy C od kąta wewnętrznego ośmiokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q16",
@@ -700,6 +782,11 @@
      "jednostki"
     ],
     "opis": "c): odległość w metrach, prędkość w km/h, a odpowiedź ma być w sekundach"
+   },
+   "trudnosc": {
+    "logit": 5.59,
+    "procent": 92,
+    "procent_etap": 92
    }
   },
   {
@@ -725,7 +812,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Jeśli czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECF</mi></math> jest równoległobokiem, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> jest równoboczny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>FG</mi><mo>∥</mo><mi>CD</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FH</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>GC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> (boki rombu), zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FH</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>0,5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>0,5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FH</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>HB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mn>0,5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1,5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>.</p><p><strong>b)</strong> Dłuższa przekątna rombu jest wysokością trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> o boku 4 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CED</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>, więc krótsza przekątna rombu dzieli go na dwa trójkąty równoboczne o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>; stąd krótsza przekątna ma długość 2. Pole rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>2</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Wysokość trapezu jest równa wysokości trójkąta równobocznego o boku 6 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>)</mo><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>15</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>13,(3)</mn><mo>%</mo></mrow></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>3 punkty – pełne rozwiązanie: wykazanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1,5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>.</li><li>2 punkty – stwierdzenie, że długość odcinka AF jest równa długości boku trójkąta CDE oraz wykazanie, że długość odcinka FH jest równa długości połowy boku trójkąta CDE.</li><li>1 punkt – stwierdzenie, że długość odcinka AF jest równa długości boku trójkąta CDE lub wykazanie, że długość odcinka FH jest równa długości połowy boku trójkąta CDE.</li><li>0 punktów – brak istotnego postępu lub posługiwanie się wyłącznie konkretnymi wartościami długości boków trapezu lub przedstawienie rozwiązania opartego na założeniu prawdziwości tezy.</li></ul><p><strong>Podpunkt b)</strong></p><ul><li>4 punkty – pełne rozwiązanie: obliczenie, że pole rombu stanowi 13,(3)% pola trapezu.</li><li>3 punkty – poprawny sposób obliczenia pola rombu i pola trapezu (odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><msqrt><mn>3</mn></msqrt></math>).</li><li>2 punkty – poprawny sposób obliczenia pola rombu lub pola trapezu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><msqrt><mn>3</mn></msqrt></math>) lub poprawny sposób znalezienia długości co najmniej jednej z przekątnych rombu (2; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>) i wysokości trapezu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>).</li><li>1 punkt – poprawny sposób obliczenia długości co najmniej jednej z przekątnych rombu (2; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>) lub wysokości trapezu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>) lub poprawny sposób obliczenia pola trójkąta równobocznego o boku 2 (sposób II; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>).</li><li>0 punktów – brak istotnego postępu lub podanie odpowiedzi (13,(3)%) bez wykonania obliczeń.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.33,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "rejonowy_2020-2021_malopolskie_q18",
@@ -753,6 +845,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczb trzycyfrowych jest 900; w II.b 161 losów przegrywających pomija liczby podzielne przez 14"
+   },
+   "trudnosc": {
+    "logit": 8.47,
+    "procent": 99,
+    "procent_etap": 99
    }
   }
  ]

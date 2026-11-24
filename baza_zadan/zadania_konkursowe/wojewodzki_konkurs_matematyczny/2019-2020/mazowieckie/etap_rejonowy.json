@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019_mazowieckie_q1",
@@ -52,6 +53,11 @@
      "kierunek-relacji"
     ],
     "opis": "„o 4 większa od b” i „o 5 mniejsza od a” łatwo zapisać odwrotnie, przypisując dodawanie złej stronie"
+   },
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 49
    }
   },
   {
@@ -90,7 +96,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij ułamek na dwa składniki i skróć każdy z osobna, zanim podniesiesz do kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2019_mazowieckie_q3",
@@ -121,7 +132,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, czy 8²+15²=17², a obwód policz od razu z sumy liczb stosunku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.01,
+    "procent": 22,
+    "procent_etap": 24
+   }
   },
   {
    "id": "rejonowy_2019_mazowieckie_q4",
@@ -166,6 +182,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Sześciokąt foremny ma przekątne dwóch różnych długości: krótsze i najdłuższe"
+   },
+   "trudnosc": {
+    "logit": 2.77,
+    "procent": 75,
+    "procent_etap": 76
    }
   },
   {
@@ -186,7 +207,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Zapisujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>8</mn><mn>10</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>10</mn></msup><mo>=</mo><msup><mn>2</mn><mn>30</mn></msup></mrow></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>2</mn><mn>30</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>15</mn></msup><mo>=</mo><msup><mn>4</mn><mn>15</mn></msup></mrow></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>15</mn></msup><mo>&gt;</mo><msup><mn>3</mn><mn>15</mn></msup><mo>=</mo><mi>a</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><msup><mn>2</mn><mn>32</mn></msup><mo>&gt;</mo><msup><mn>2</mn><mn>30</mn></msup><mo>=</mo><mi>b</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>. Łącząc obie nierówności, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.4,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2019_mazowieckie_q6",
@@ -213,6 +239,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę rodzeństwa, a z równania wychodzi liczba członków rodziny; trzeba odjąć rodziców i Bartka"
+   },
+   "trudnosc": {
+    "logit": 1.92,
+    "procent": 68,
+    "procent_etap": 69
    }
   },
   {
@@ -241,6 +272,11 @@
      "warunek-istnienia"
     ],
     "opis": "Brakujące kąty można podzielić między trójkąty na dwa sposoby; jeden podział daje kąt zewnętrzny 180°"
+   },
+   "trudnosc": {
+    "logit": 7.71,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -259,7 +295,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Prędkość Weroniki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25</mn><mn>5</mn></mfrac><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>3</mn></mrow></math> m/s, a prędkość Karoliny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>36</mn><mn>8</mn></mfrac><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>4,5</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>2,25</mn></mrow></math> m/s. W każdej sekundzie Weronika zmniejsza dzielącą je odległość o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>2,25</mn><mo>=</mo><mn>0,75</mn></mrow></math> m. Aby nadrobić 180 m, potrzebuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>0,75</mn><mo>=</mo><mn>240</mn></mrow></math> s, czyli 4 minuty. Zatem Weronika dogoni Karolinę o godzinie 17.04.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.75,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2019_mazowieckie_q9",
@@ -279,7 +320,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>50</mn></mrow></math>, punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leżą na jednej prostej, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży między <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest prostokątny, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>24</mn><mn>2</mn></msup><mo>+</mo><msup><mn>18</mn><mn>2</mn></msup><mo>=</mo><mn>576</mn><mo>+</mo><mn>324</mn><mo>=</mo><mn>900</mn><mo>=</mo><msup><mn>30</mn><mn>2</mn></msup></mrow></math>, zatem kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest prosty, czyli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest prostopadły do prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Wobec tego również trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prostokątny (kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> równy 90°) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>32</mn><mn>2</mn></msup><mo>+</mo><msup><mn>24</mn><mn>2</mn></msup><mo>=</mo><mn>1024</mn><mo>+</mo><mn>576</mn><mo>=</mo><mn>1600</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>40</mn></mrow></math>. Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 40.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.7,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2019_mazowieckie_q10",
@@ -297,7 +343,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza krawędź podstawy (kwadratu). Przekątna podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math>, a przekątna ściany bocznej jest pięć razy dłuższa, więc równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math>. Ściana boczna jest prostokątem o krawędziach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>5</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>49</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>7</mn><mi>a</mi></mrow></math>. Objętość graniastosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>h</mi><mo>=</mo><mn>7</mn><msup><mi>a</mi><mn>3</mn></msup></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>7</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math>. Krawędź podstawy ma długość 1.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.12,
+    "procent": 70,
+    "procent_etap": 71
+   }
   }
  ]
 }

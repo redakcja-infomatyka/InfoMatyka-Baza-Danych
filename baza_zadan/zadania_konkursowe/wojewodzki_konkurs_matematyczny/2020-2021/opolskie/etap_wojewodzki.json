@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021_opolskie_q1",
@@ -49,6 +50,11 @@
      "jednostki"
     ],
     "opis": "Pociągi mijają się na drodze równej sumie ich długości, a przy jeździe naprzeciw prędkości się dodają; km/h na s"
+   },
+   "trudnosc": {
+    "logit": 0.51,
+    "procent": 54,
+    "procent_etap": 47
    }
   },
   {
@@ -84,7 +90,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj wyrazy od końców, żeby zapisać sumę jako iloczyn",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q3",
@@ -120,7 +131,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz wspólny czynnik z licznika i z mianownika, a odpowiedzi zapisz jako potęgi piątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.56,
+    "procent": 64,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q4",
@@ -164,6 +180,11 @@
      "jednostki"
     ],
     "opis": "Wysokość o 20% krótsza od boku: 20% liczy się od boku, nie od wysokości; potem cm² na dm² (1 dm² = 100 cm²)"
+   },
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 69
    }
   },
   {
@@ -206,6 +227,11 @@
      "inne:prawidlowy-vs-foremny"
     ],
     "opis": "Ostrosłup prawidłowy to nie to samo co foremny; przy sześciokącie równe krawędzie dają wysokość zero"
+   },
+   "trudnosc": {
+    "logit": 3.24,
+    "procent": 78,
+    "procent_etap": 71
    }
   },
   {
@@ -226,7 +252,12 @@
     "rozwiazanie_html": "<p>Liczba naturalna niepodzielna przez 3 daje przy dzieleniu przez 3 resztę 1 lub 2, więc ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math> dla pewnej liczby całkowitej nieujemnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>k</mi><mo>)</mo><mo>+</mo><mn>1</mn></math> — reszta 1.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>1</mn></math> — reszta 1.</li></ul><p>W obu przypadkach kwadrat daje przy dzieleniu przez 3 resztę 1, co kończy dowód.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie uzasadni biorąc pod uwagę liczby, które przy dzieleniu przez 3 dają resztę 1 oraz 2 – 5p</li><li>rozważa dwa przypadki z małym błędem rachunkowym – 4p</li><li>uzasadni tylko w jednym przypadku – 3p</li><li>zapisze wyrażenia określające liczby niepodzielne przez 3 – 2p</li><li>zapisze wyrażenie określające liczbę niepodzielną przez 3 – 1p</li><li>Podanie tylko przykładów – 0p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.57,
+    "procent": 81,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q7",
@@ -254,6 +285,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent wody liczy się od nowej, mniejszej masy pomidorów, a nie od masy pierwotnej"
+   },
+   "trudnosc": {
+    "logit": 3.1,
+    "procent": 77,
+    "procent_etap": 70
    }
   },
   {
@@ -277,7 +313,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz 2 przed nawias po prawej stronie i porównaj z a(√2−1)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q9",
@@ -300,7 +341,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź każdą sumę do jednego ułamka i porównaj mianowniki",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.41,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q10",
@@ -323,7 +369,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna prostokąta to średnica okręgu, czyli bok kwadratu — dalej Pitagoras",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.36,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2021_opolskie_q11",
@@ -346,7 +397,12 @@
     "rozwiazanie_html": "<p>Rozważamy trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math>. Krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>=</mo><mi>a</mi><mo>=</mo><mn>3</mn></math> cm jest prostopadła do ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>D</mi><mi>H</mi><mi>E</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>⊥</mo><mi>A</mi><mi>H</mi></math> i trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math> jest prostokątny w wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>.</p><p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi></math> jest przekątną ściany o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>16</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math> to przekątna prostopadłościanu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>9</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>=</mo><msqrt><mn>169</mn></msqrt><mo>=</mo><mn>13</mn></math> cm.</p><p>Szukana odległość to wysokość opuszczona z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>H</mi></math> możemy zapisać na dwa sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>A</mi><mi>B</mi><mo>·</mo><mi>A</mi><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>B</mi><mi>H</mi><mo>·</mo><mi>d</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mfrac><mrow><mi>A</mi><mi>B</mi><mo>·</mo><mi>A</mi><mi>H</mi></mrow><mrow><mi>B</mi><mi>H</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac><mo>=</mo><mfrac><mrow><mn>12</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac></math> cm.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy odległość (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><msqrt><mn>10</mn></msqrt></mrow><mn>13</mn></mfrac></math> cm) – 5p</li><li>poprawny sposób z drobnym błędem rachunkowym – 4p</li><li>wyznaczy odległość na rysunku – 3p</li><li>obliczy długość przekątnej prostopadłościanu – 2p</li><li>poprawny sposób wyznaczenia przekątnej prostopadłościanu – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.76,
+    "procent": 92,
+    "procent_etap": 89
+   }
   }
  ]
 }

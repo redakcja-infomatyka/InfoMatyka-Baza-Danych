@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020-2021_malopolskie_q1",
@@ -55,6 +56,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Klasy mają różną liczbę uczniów, więc średnia całości nie jest zwykłą średnią z dwóch średnich"
+   },
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 24
    }
   },
   {
@@ -103,6 +109,11 @@
      "kwantyfikator"
     ],
     "opis": "„Na pewno”: gdy x jest bardzo duże, suma odwrotności może być ujemna"
+   },
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
    }
   },
   {
@@ -155,6 +166,11 @@
      "inne:obwod-z-bokami"
     ],
     "opis": "Obwód wycinka pierścienia to oba łuki i dwa prostoliniowe boki o długości szerokości pierścienia"
+   },
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 61
    }
   },
   {
@@ -195,7 +211,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Punkt A leży na symetralnej BC, więc AB=AC, a ta symetralna pokrywa się z dwusieczną kąta BAC. Kąt prosty DAB dzieli się na trzy równe części po 30°, więc kąt BAC=60° — trójkąt ABC jest równoboczny: AB=AC=BC=4 cm.</p><p>W trójkącie ADC kąt ADC=90°, kąt DAC=30°, AC=4, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mn>4</mn><mo>·</mo><mi>cos</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm. Ponieważ kąt DAB=90°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>12</mn></mrow></msqrt><mo>=</mo><msqrt><mn>28</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.31,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q5",
@@ -234,7 +255,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech x — liczba rzutów za 2 pkt, y — za 3 pkt, x+y=44. Trafień za 2 pkt jest x/3, za 3 pkt y/4 — obie muszą być całkowite. Skoro 44 dzieli się przez 4, to x też musi dzielić się przez 4; łącznie z podzielnością przez 3 daje to: x podzielne przez 12, x≠0, czyli x=12, 24 lub 36.</p><p>Punkty: dla x=12 (y=32): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>32</mn></math> — parzyste; dla x=24 (y=20): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>31</mn></math> — nieparzyste, to ten przypadek; dla x=36 suma=30 — parzyste. Trafionych rzutów: 8+5=13.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.99,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q6",
@@ -284,6 +310,11 @@
      "inne:przeciwprostokatna-czy-przyprostokatna"
     ],
     "opis": "Krawędź podstawy a jest przeciwprostokątną ściany bocznej, a nie jej przyprostokątną"
+   },
+   "trudnosc": {
+    "logit": 7.32,
+    "procent": 97,
+    "procent_etap": 95
    }
   },
   {
@@ -326,7 +357,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość z kąta prostego jest średnią geometryczną odcinków przeciwprostokątnej",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 1.56,
+    "procent": 64,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q8",
@@ -367,7 +403,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, które sumy od 2 do 12 są pierwsze, i policz pary dające każdą z nich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.96,
+    "procent": 68,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q9",
@@ -410,7 +451,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "x to różnica kwadratów, a w y zamień 32 i 16 na potęgi dwójki i odejmij wykładniki",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.16,
+    "procent": 84,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q10",
@@ -456,6 +502,11 @@
      "podwojne-liczenie"
     ],
     "opis": "Liczby z dwoma zerami (100, 200, 300) łatwo policzyć dwa razy"
+   },
+   "trudnosc": {
+    "logit": 7.51,
+    "procent": 98,
+    "procent_etap": 96
    }
   },
   {
@@ -508,6 +559,11 @@
      "rysunek"
     ],
     "opis": "Sznurek owija się za róg krótszego boku zagrody, co daje dodatkowy kawałek koła"
+   },
+   "trudnosc": {
+    "logit": 5.1,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -539,6 +595,11 @@
      "kierunek-relacji"
     ],
     "opis": "Namiar z latarni na jacht to kierunek przeciwny do namiaru z jachtu na latarnię"
+   },
+   "trudnosc": {
+    "logit": 6.91,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -563,7 +624,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Oznaczmy krawędź podstawy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a wysokość graniastosłupa przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>. Z danych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mi>H</mi><mo>=</mo><mn>72</mn><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mi>H</mi><mo>=</mo><mn>144</mn></math>. Po uproszczeniu otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mi>H</mi><mo>=</mo><mn>288</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>H</mi><mo>=</mo><mn>48</mn></math>. Z drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mfrac><mn>48</mn><mi>a</mi></mfrac></math>; po podstawieniu do pierwszego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mfrac><mn>48</mn><mi>a</mi></mfrac><mo>=</mo><mn>288</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>8</mn></math>. Suma długości krawędzi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>60</mn></math>.</p><p><strong>b)</strong> Otrzymany ostrosłup nie jest prawidłowy, ponieważ jego krawędzie boczne mają różne długości (spodek wysokości nie leży w środku podstawy, a ściany boczne nie są przystające).</p><p><strong>c)</strong> Bok sześciokąta będącego podstawą ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>2</mn></math>. Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>P</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mn>2</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>. Wysokość ostrosłupa jest dwa razy mniejsza od wysokości graniastosłupa, więc wynosi 4. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>6 punktów – pełne rozwiązanie: obliczenie sumy długości krawędzi graniastosłupa (60).</li><li>5 punktów – obliczenie długości krawędzi podstawy oraz wysokości graniastosłupa (6; 8) lub poprawny sposób obliczenia sumy długości krawędzi graniastosłupa.</li><li>4 punkty – poprawny sposób obliczenia długości krawędzi podstawy albo wysokości graniastosłupa.</li><li>3 punkty – poprawny sposób ustalenia rozwiązania układu równań.</li><li>2 punkty – poprawne zapisanie układu dwóch równań z dwiema niewiadomymi.</li><li>1 punkt – poprawne zapisanie jednego równania z dwiema niewiadomymi.</li><li>0 punktów – brak odpowiedzi lub odpowiedź błędna lub podanie odpowiedzi (60) bez wykonania obliczeń.</li></ul><p>Uwaga: Jeśli w podpunkcie a) uczeń przyjął, że H = 8, a = 6, a następnie sprawdził, że takie wartości spełniają warunki zadania, otrzymuje za podpunkt a) 3 punkty.</p><p><strong>Podpunkt b)</strong></p><ul><li>1 punkt – stwierdzenie, że ostrosłup nie jest prawidłowy wraz z co najmniej jednym poprawnym argumentem.</li><li>0 punktów – odpowiedź błędna lub błędne uzasadnienie odpowiedzi.</li></ul><p><strong>Podpunkt c)</strong></p><ul><li>3 punkty – pełne rozwiązanie: obliczenie objętości ostrosłupa (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math>).</li><li>2 punkty – poprawny sposób obliczenia objętości ostrosłupa lub obliczenie pola podstawy ostrosłupa oraz podanie wysokości ostrosłupa (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math>; 4).</li><li>1 punkt – poprawny sposób obliczenia pola podstawy ostrosłupa.</li><li>0 punktów – brak odpowiedzi lub odpowiedź błędna lub podanie odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math>) bez wykonania obliczeń.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.79,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2020-2021_malopolskie_q14",
@@ -585,7 +651,12 @@
     "rozwiazanie_html": "<p><strong>I.</strong> Oznaczmy mniejszą część przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, a większą przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5000</mn><mo>−</mo><mi>x</mi></math>. Po wydatkach kwoty wynoszą odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>600</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4000</mn><mo>−</mo><mi>x</mi></math>. Ponieważ stosunek się nie zmienił: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mrow><mn>5000</mn><mo>−</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>600</mn></mrow><mrow><mn>4000</mn><mo>−</mo><mi>x</mi></mrow></mfrac></math>. Po wymnożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mn>4000</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>600</mn><mo>)</mo><mo>(</mo><mn>5000</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1600</mn><mi>x</mi><mo>=</mo><mn>3000000</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1875</mn></math>. Większa kwota to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5000</mn><mo>−</mo><mn>1875</mn><mo>=</mo><mn>3125</mn></math>, a stosunek większej kwoty do mniejszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3125</mn><mn>1875</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac></math>.</p><p><strong>II.</strong> Oznaczmy wartość stypendium przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Na sprzęt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn><mi>y</mi></math>, pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mi>y</mi></math>. Po pierwszej zaliczce 1200 zł pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mi>y</mi><mo>−</mo><mn>1200</mn></math>. Na zawody przeznaczono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>(</mo><mn>0,75</mn><mi>y</mi><mo>−</mo><mn>1200</mn><mo>)</mo></math>, pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mo>(</mo><mn>0,75</mn><mi>y</mi><mo>−</mo><mn>1200</mn><mo>)</mo></math>. Po drugiej zaliczce 780 zł zostało 15% stypendium, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mo>(</mo><mn>0,75</mn><mi>y</mi><mo>−</mo><mn>1200</mn><mo>)</mo><mo>−</mo><mn>780</mn><mo>=</mo><mn>0,15</mn><mi>y</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mi>y</mi><mo>=</mo><mn>1500</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>5000</mn></math>. Stypendium Zuzi wynosiło 5000 zł.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>5 punktów – pełne rozwiązanie: obliczenie stosunku między większą i mniejszą kwotą oraz przedstawienie go w postaci ułamka nieskracalnego (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>).</li><li>4 punkty – poprawny sposób obliczenia stosunku między większą i mniejszą kwotą.</li><li>3 punkty – poprawny sposób obliczenia wartości jednej z kwot.</li><li>2 punkty – zapisanie poprawnego równania (proporcji) umożliwiającego obliczenie wartości jednej z kwot lub zapisanie poprawnego równania (proporcji) umożliwiającego obliczenie stosunku kwoty większej do kwoty mniejszej.</li><li>1 punkt – zapisanie poprawnych wyrażeń algebraicznych opisujących wartości obu kwot po wydatkach.</li><li>0 punktów – brak istotnego postępu lub podanie odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>) bez wykonania obliczeń.</li></ul><p>Uwaga: Jeśli w podpunkcie a) uczeń zapisze stosunek wartości jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1000</mn><mn>600</mn></mfrac></math> bez żadnego uzasadnienia, następnie uprości odpowiedź do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>, otrzymuje za podpunkt a) 2 punkty.</p><p><strong>Podpunkt b)</strong></p><ul><li>4 punkty – pełne rozwiązanie: obliczenie wartości stypendium (5000 zł).</li><li>3 punkty – poprawny sposób obliczenia wartości stypendium.</li><li>2 punkty – zapisanie poprawnego równania pozwalającego obliczyć wartość stypendium.</li><li>1 punkt – zapisanie poprawnego wyrażenia algebraicznego opisującego kwotę wydaną na zawody lub zapisanie poprawnego wyrażenia algebraicznego opisującego kwotę, która została Zuzi po poniesieniu wydatków na zawody.</li><li>0 punktów – brak istotnego postępu lub podanie odpowiedzi (5000 zł) bez wykonania obliczeń.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.83,
+    "procent": 98,
+    "procent_etap": 97
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_lubelskie.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_lubelskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "jeden procent to dzielenie przez 100 — zobacz, co to robi z wykładnikiem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.34,
+    "procent": 7,
+    "procent_etap": 9
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw wygodną liczbę, np. b = 100, i policz z tego a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.7,
+    "procent": 24,
+    "procent_etap": 26
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q3",
@@ -120,7 +131,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najmniejsza możliwa podstawa ostrosłupa to trójkąt — policz krawędzie podstawy i boczne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.35,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q4",
@@ -165,6 +181,11 @@
      "warunek-istnienia"
     ],
     "opis": "Podzielność przez 5 daje dwie możliwe cyfry jedności; jedną z nich wyklucza dopiero podzielność przez 4"
+   },
+   "trudnosc": {
+    "logit": -1.87,
+    "procent": 31,
+    "procent_etap": 33
    }
   },
   {
@@ -207,6 +228,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zapis rzymski z czterema jednakowymi znakami pod rząd ma poprawną wartość, ale nie jest poprawnym zapisem"
+   },
+   "trudnosc": {
+    "logit": 4.46,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -244,6 +270,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zmniejszenie cyfry w mianowniku zwiększa ułamek; różnica się zgadza, ale nie jej kierunek"
+   },
+   "trudnosc": {
+    "logit": 1.57,
+    "procent": 64,
+    "procent_etap": 66
    }
   },
   {
@@ -290,6 +321,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "−x² przy x ujemnym: minus stoi przed kwadratem; w zdaniu 4 pomija się drugi pierwiastek równania kwadratowego"
+   },
+   "trudnosc": {
+    "logit": 3.57,
+    "procent": 81,
+    "procent_etap": 81
    }
   },
   {
@@ -324,7 +360,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w ułamku skróć nawiasy, zanim cokolwiek wymnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q9",
@@ -371,6 +412,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pierwiastek z sumy kwadratów nie jest sumą podstaw; zdanie 3 zawiera ≠, a liczby podsuwają błąd dzielenia przez 6"
+   },
+   "trudnosc": {
+    "logit": 4.39,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -393,7 +439,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ćwierć sumy kątów daje 45° — to połowa kwadratu, a najdłuższy bok to jego przekątna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q11",
@@ -414,7 +465,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuń obie proste do wierzchołka B — kąt między nimi się nie zmieni",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.58,
+    "procent": 55,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q12",
@@ -442,6 +498,11 @@
      "zbior-liczb"
     ],
     "opis": "Pytanie dotyczy liczby liczb doskonałych, a nie ich wartości; jest też pokusa zaliczenia liczby 1"
+   },
+   "trudnosc": {
+    "logit": -2.3,
+    "procent": 28,
+    "procent_etap": 29
    }
   },
   {
@@ -463,7 +524,12 @@
     "rozwiazanie_html": "<p>Przekątne przecinają się pod kątem 120°, więc w trójkącie utworzonym przez dłuższą podstawę i części przekątnych kąty przy tej podstawie mają miary po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn><mo>°</mo></math>. Ponieważ przekątne dzielą kąty przy dłuższej podstawie na połowy, kąt trapezu przy tej podstawie wynosi 60°. Z kątów naprzemianległych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>DC</mi></math>) wynika, że ramię trapezu jest równe krótszej podstawie; oznaczmy je przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Rzuty ramion na dłuższą podstawę dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mi>a</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mi>a</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>7</mn></math> cm. Obwód trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>35</mn></math> cm.</p>",
     "punktacja_html": "<ul><li>1 pkt – poprawne obliczenie miary połowy kąta trapezu leżącego przy jego dłuższej podstawie.</li><li>2 pkt – poprawne obliczenie długości ramienia trapezu.</li><li>3 pkt – poprawne obliczenie długości krótszej podstawy trapezu.</li><li>4 pkt – poprawne obliczenie długości obwodu trapezu.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.08,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q14",
@@ -484,7 +550,12 @@
     "rozwiazanie_html": "<p>Przyprostokątne mają długość 8 cm, więc przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm. Środek każdego kwadratu leży po zewnętrznej stronie odpowiedniego boku, w odległości połowy boku od niego. Odcinek łączący środki kwadratów zbudowanych na przyprostokątnych jest równoległy do przeciwprostokątnej i ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm, a wysokość powstałego trójkąta opuszczona na ten bok wynosi również <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>128</mn><mo>=</mo><mn>64</mn></math> cm².</p>",
     "punktacja_html": "<ul><li>1 pkt – poprawne obliczenie długości przeciwprostokątnej trójkąta.</li><li>2 pkt – poprawne obliczenie długości boku trójkąta otrzymanego przez połączenie punktów przecięcia się przekątnych kwadratów (odcinek równoległy do przeciwprostokątnej trójkąta prostokątnego).</li><li>3 pkt – poprawne obliczenie długości wysokości trójkąta otrzymanego przez połączenie punktów przecięcia się przekątnych kwadratów.</li><li>4 pkt – poprawne obliczenie pola trójkąta otrzymanego przez połączenie punktów przecięcia się przekątnych kwadratów.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.82,
+    "procent": 93,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q15",
@@ -504,7 +575,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę batoników w pierwszym pudełku, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> w drugim. Z warunków zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,65</mn><mi>x</mi><mo>+</mo><mn>20</mn><mo>=</mo><mi>y</mi><mo>+</mo><mn>0,35</mn><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>56</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>y</mi><mo>−</mo><mn>56</mn><mo>)</mo></math>. Z pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0,3</mn><mi>x</mi><mo>+</mo><mn>20</mn></math>. Podstawiając do drugiego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>56</mn><mo>=</mo><mn>4</mn><mo>(</mo><mn>0,3</mn><mi>x</mi><mo>+</mo><mn>20</mn><mo>)</mo><mo>−</mo><mn>224</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>56</mn><mo>=</mo><mn>1,2</mn><mi>x</mi><mo>−</mo><mn>144</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>200</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1000</mn></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0,3</mn><mo>·</mo><mn>1000</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>320</mn></math>. Na początku w pierwszym pudełku było 1000, a w drugim 320 batoników.</p>",
     "punktacja_html": "<ul><li>1 pkt – wprowadzenie oznaczeń, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – liczba batoników w pierwszym pudełku, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – liczba batoników w drugim pudełku, i zapisanie jednego równania zgodnie z warunkami zadania.</li><li>2 pkt – zapisanie układu równań zgodnie z warunkami zadania.</li><li>3 pkt – rozwiązanie, zapisanego zgodnie z warunkami zadania, układu równań i poprawne obliczenie jednej niewiadomej.</li><li>4 pkt – poprawne obliczenie drugiej niewiadomej.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.37,
+    "procent": 86,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2025_lubelskie_q16",
@@ -524,7 +600,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza pierwszą liczbę. Kolejne liczby to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>12</mn></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mn>224</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo></math>. Rozwijając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>224</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>96</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>128</mn><mo>=</mo><mn>16</mn><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Michał zapisał liczby 8, 12, 16, 20.</p>",
     "punktacja_html": "<ul><li>1 pkt – wprowadzenie zmiennej i poprawne zapisanie jednej ze stron równania.</li><li>2 pkt – poprawne zapisanie równania zgodnie z warunkami zadania.</li><li>3 pkt – poprawne rozwiązanie równania zapisanego zgodnie z warunkami zadania.</li><li>4 pkt – poprawne obliczenie i podanie czterech liczb naturalnych spełniających warunki zadania.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.04,
+    "procent": 59,
+    "procent_etap": 61
+   }
   }
  ]
 }

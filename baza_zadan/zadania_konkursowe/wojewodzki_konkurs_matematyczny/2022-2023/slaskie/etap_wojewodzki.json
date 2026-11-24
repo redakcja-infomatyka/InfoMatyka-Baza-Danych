@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_slaskie_q1",
@@ -30,7 +31,12 @@
     "rozwiazanie_html": "<p>Kolejne hasła krzyżówki: <strong>1)</strong> KĄT, <strong>2)</strong> ŚREDNICA, <strong>3)</strong> CENTYMETR, <strong>4)</strong> POTĘGA, <strong>5)</strong> KOŁO, <strong>6)</strong> RÓWNORAMIENNY, <strong>7)</strong> JEDNOMIAN, <strong>8)</strong> SUMA, <strong>9)</strong> MEDIANA, <strong>10)</strong> KWADRAT, <strong>11)</strong> PIERWIASTEK, <strong>12)</strong> DZIELNIK, <strong>13)</strong> AR, <strong>14)</strong> WYSOKOŚĆ, <strong>15)</strong> FIGURA, <strong>16)</strong> ZERO, <strong>17)</strong> WIERZCHOŁEK, <strong>18)</strong> STYCZNA, <strong>19)</strong> LICZNIK, <strong>20)</strong> PRZEKĄTNA, <strong>21)</strong> RÓWNANIE, <strong>22)</strong> RESZTA. Litery z zacieniowanej kolumny (hasła od 1 do 13) czytane z góry na dół tworzą hasło (nieoceniane): TRYGONOMETRIA.</p>",
     "punktacja_html": "<p>Za każde poprawnie uzupełnione pole przyznaje się 1 punkt (łącznie 22 pkt).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 8.62,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q2",
@@ -77,6 +83,11 @@
      "jednostki"
     ],
     "opis": "Masa rośnie jak objętość (krawędź do sześcianu), nie jak krawędź; do tego zamiana dm³ na cm³"
+   },
+   "trudnosc": {
+    "logit": -2.78,
+    "procent": 24,
+    "procent_etap": 19
    }
   },
   {
@@ -115,7 +126,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połącz trzy pierwiastki sześcienne w jeden i pogrupuj 40·5 przy mnożeniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.37,
+    "procent": 63,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q4",
@@ -160,6 +176,11 @@
      "kierunek-relacji"
     ],
     "opis": "Wielokrotność, a nie dzielnik: jeden z wariantów to dzielnik 396"
+   },
+   "trudnosc": {
+    "logit": -3.58,
+    "procent": 17,
+    "procent_etap": 13
    }
   },
   {
@@ -197,7 +218,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "100 km to 5/6 trasy 120 km",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.8,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q6",
@@ -234,7 +260,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W wariantach A, B i C czynnik 2 (lub 6) stoi wprost przed nawiasem, więc od razu widać, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest parzyste. W wariancie D przed nawiasem stoi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi></math>, które dla nieparzystego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą nieparzystą — ten zapis nie dowodzi wprost podzielności przez 2.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q7",
@@ -278,6 +309,11 @@
      "procent-podstawa"
     ],
     "opis": "Wzrost ceny w procentach liczy się od starej ceny za kilogram, nie od nowej"
+   },
+   "trudnosc": {
+    "logit": -3.47,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -316,7 +352,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 2x⁴ jako kwadrat, a potem sprawdź podwojony iloczyn",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q9",
@@ -357,7 +398,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna 6 tnie figurę na 30-60-90 i 45-45-90 — pola licz z zależności w tych trójkątach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.49,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q10",
@@ -403,6 +449,11 @@
      "znak"
     ],
     "opis": "Przy usuwaniu niewymierności mnoży się przez sprzężenie, więc znak w liczniku się zmienia"
+   },
+   "trudnosc": {
+    "logit": 5.6,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -441,7 +492,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<ul><li>Wysokość z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mrow><mo>(</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>36</mn></math> — P.</li><li>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> ma boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> to spodek wysokości), obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>3</mn></msqrt></math> — F.</li><li>Trójkąt jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mi>BC</mi></math>), więc ma oś symetrii — P.</li><li>Wysokość z kąta prostego w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> na przeciwprostokątną wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>12</mn><msqrt><mn>3</mn></msqrt></mrow><mn>5</mn></mfrac></math>, a przyprostokątne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> — wszystkie niewymierne, żadna nie wynosi 2,4 — F.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.44,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q12",
@@ -481,6 +537,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wyjęcie sześcianu zmniejsza objętość, ale pole powierzchni nigdy nie maleje"
+   },
+   "trudnosc": {
+    "logit": 3.81,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -527,6 +588,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Bok krótszy o 5 cm nie oznacza pola mniejszego o 25 cm², bo (a−5)² ≠ a²−25"
+   },
+   "trudnosc": {
+    "logit": 3.27,
+    "procent": 78,
+    "procent_etap": 72
    }
   },
   {
@@ -559,7 +625,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<ul><li>Iloczyn cyfr równy 5 wymaga cyfr {1,1,1,5} (bo 5 jest liczbą pierwszą) — suma cyfr zawsze wynosi 8, niepodzielną przez 3, więc taka liczba nie może być podzielna przez 3 — F.</li><li>Największą różnicę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>bd</mi><mo>‾</mo></mover><mo>−</mo><mover><mi>ac</mi><mo>‾</mo></mover></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>7</mn><mo>,</mo><mi>c</mi><mo>=</mo><mn>8</mn><mo>,</mo><mi>d</mi><mo>=</mo><mn>9</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>79</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>61</mn></math> — P.</li><li>Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>d</mi><mo>)</mo><mo>+</mo><mn>90</mn><mo>(</mo><mi>b</mi><mo>−</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>2997</mn></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>d</mi><mo>=</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>c</mi></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> ma 6 możliwości (1–6), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — 10, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>60</mn></math> — P.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.36,
+    "procent": 99,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q15",
@@ -580,7 +651,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przy prostopadłych przekątnych wysokość trapezu równa się średniej podstaw",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.74,
+    "procent": 88,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q16",
@@ -608,6 +684,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Polecenie każe podać wszystkie prostopadłościany; łatwo przeoczyć skrajne przypadki krawędzi 1"
+   },
+   "trudnosc": {
+    "logit": 5.95,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -627,7 +708,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — cena ołówka przed zmianą, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> — cena długopisu przed zmianą. Koszt dwóch długopisów i ołówka przed zmianą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>5</mn><mi>x</mi></math>. Po zmianie: ołówek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,48</mn><mi>x</mi></math>, długopis <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,86</mn><mo>·</mo><mn>2</mn><mi>x</mi></math>, więc koszt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>0,86</mn><mo>·</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1,48</mn><mi>x</mi><mo>=</mo><mn>4,92</mn><mi>x</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,92</mn><mi>x</mi><mo>&lt;</mo><mn>5</mn><mi>x</mi></math>, koszt dwóch długopisów i ołówka był mniejszy po zmianie cen.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2022-2023_slaskie_q18",
@@ -656,6 +742,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę kul po dołożeniu białych, a układ równań naturalnie daje stan początkowy"
+   },
+   "trudnosc": {
+    "logit": 3.15,
+    "procent": 78,
+    "procent_etap": 71
    }
   }
  ]

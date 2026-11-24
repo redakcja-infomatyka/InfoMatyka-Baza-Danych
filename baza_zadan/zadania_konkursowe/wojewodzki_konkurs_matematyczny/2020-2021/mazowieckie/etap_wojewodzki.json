@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021_mazowieckie_q1",
@@ -36,7 +37,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od rozkładu 176 na czynniki pierwsze — możliwych trójek dzielników jest niewiele",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.31,
+    "procent": 46,
+    "procent_etap": 39
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2026_lubuskie_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q2",
@@ -84,6 +96,11 @@
      "rysunek"
     ],
     "opis": "Punkt W leży na lewo od osi y, a nie na niej; jego odciętą trzeba wyliczyć z boku sześciokąta"
+   },
+   "trudnosc": {
+    "logit": 2.15,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -126,7 +143,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to losowanie bez zwracania — przy drugim pączku na talerzu zostaje już tylko 7 sztuk",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.4,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q4",
@@ -168,7 +190,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód zmienia się jak promień, a pole jak kwadrat promienia — sprawdź, ile razy różnią się promienie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q5",
@@ -190,7 +217,12 @@
     "rozwiazanie_html": "<p>Przekształcamy nierówność, korzystając ze wzorów skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn></mrow></math>. Lewa strona jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow></math>, a prawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>50</mn></mrow></math>. Nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>6</mn><mo>≥</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>50</mn></mrow></math> upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><mi>x</mi><mo>≥</mo><mo>−</mo><mn>44</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≤</mo><mn>22</mn></mrow></math>. Liczby pierwsze nie większe od 22 to 2, 3, 5, 7, 11, 13, 17, 19 — jest ich dokładnie 8.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Rozwiązuje nierówność korzystając ze wzorów skróconego mnożenia – 1p.</li><li>Wypisuje liczby pierwsze spełniające nierówność i podaje odpowiedź – 1p.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.97,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q6",
@@ -218,6 +250,11 @@
      "kierunek-relacji"
     ],
     "opis": "Trzeba wykazać implikację z założenia o ujemności do 0<a<1, nie odwrotną"
+   },
+   "trudnosc": {
+    "logit": 5.13,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -240,7 +277,12 @@
     "rozwiazanie_html": "<p>Prędkość i czas są odwrotnie proporcjonalne, ponieważ droga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi></mrow></math> jest stała. Odczytując z wykresu dowolny punkt, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>3</mn></mrow></math> km/h i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> h, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math> km. Długość drogi z domu do pracy wynosi 6 km.</p><p>Uwaga: z powodu błędu technicznego wydruku (ukrycie na wykresie średniej prędkości pieszego) Wojewódzka Komisja Konkursowa dostosowała schemat punktowania do pierwszej części pytania — obliczenia długości drogi. Druga część (czas jazdy rowerem) nie była oceniana.</p>",
     "punktacja_html": "<p>Ze względu na techniczny błąd wydruku – ukrycie V<sub>śr</sub> pieszego – Komisja Wojewódzka dostosowała schemat punktowania zadania do pierwszej części pytania.</p><p>Uczeń:</p><ul><li>Dokonuje analizy zadania, np. zapisuje zależność między prędkością, drogą i czasem; odczytuje z wykresu, że np. gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>3</mn></mrow></math> km/h, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> h – 1p.</li><li>Oblicza drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> z domu do pracy – 1p.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.64,
+    "procent": 74,
+    "procent_etap": 67
+   }
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q8",
@@ -263,7 +305,12 @@
     "rozwiazanie_html": "<p>Podstawą ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku 5, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży nad wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> — krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AE</mi><mo>=</mo><mn>5</mn></mrow></math> jest prostopadła do podstawy. Wszystkie ściany boczne są trójkątami prostokątnymi. Ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> mają przyprostokątne o długościach 5 i 5, więc ich pola wynoszą po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac></math>. Ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> mają przyprostokątne 5 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BE</mi><mo>=</mo><mi>DE</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math>), więc ich pola wynoszą po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mrow><mn>25</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>25</mn><mo>+</mo><mn>25</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>25</mn><mo>(</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></math>.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Zauważa, że ściany boczne są trójkątami prostokątnymi i wyznacza długości ich przyprostokątnych – 1p.</li><li>Rysuje prawidłową siatkę ostrosłupa przyjmując za jednostkę długość boku kratki – 1p.</li><li>Oblicza pole powierzchni bocznej ostrosłupa i przedstawia je w postaci iloczynu – 1p.</li></ul><p>Uwaga. Jeśli uczeń przedstawi pole powierzchni bocznej ostrosłupa w postaci innego iloczynu, to też otrzymuje 1p.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.21,
+    "procent": 84,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2021_mazowieckie_q9",
@@ -291,6 +338,11 @@
      "inne:warunek-uzycia-wszystkich-cyfr"
     ],
     "opis": "Liczba musi zawierać wszystkie trzy cyfry 3, 4 i 5 – łatwo przeoczyć ten warunek"
+   },
+   "trudnosc": {
+    "logit": 6.28,
+    "procent": 94,
+    "procent_etap": 91
    }
   },
   {
@@ -315,7 +367,12 @@
     "rozwiazanie_html": "<p>Prosta przechodząca przez środek symetrii dowolnego równoległoboku dzieli go na dwie przystające części o równych polach. Poprowadźmy prostą przez środek symetrii <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> równoległoboku i środek symetrii wyciętego rombu (punkt przecięcia jego przekątnych). Ta prosta dzieli równoległobok na dwie części o równych polach; jednocześnie, przechodząc przez środek rombu, dzieli wycięty romb na dwie części o równych polach (bo romb również jest równoległobokiem). Skoro z każdej z dwóch równych połówek równoległoboku usunięto równe połówki rombu, to otrzymana figura — równoległobok z wyciętym rombem — także jest podzielona przez tę prostą na dwie części o równych polach, co należało wykazać.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Uzupełnia rysunek zgodnie z treścią zadania – 1p.</li><li>Zauważa, że prosta przechodząca przez środek symetrii <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> dowolnego równoległoboku dzieli go na dwa czworokąty o równych polach – 1p.</li><li>Uzasadnia przystawanie trójkątów lub równość pól powołując się na twierdzenie zawarte w punkcie 2 – 1p.</li><li>Podsumowuje i zapisuje wniosek – 1p.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.03,
+    "procent": 89,
+    "procent_etap": 85
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 17,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_pomorskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2017-2018_pomorskie_q1",
@@ -27,7 +28,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień liczby mieszane na ułamki niewłaściwe i skracaj przed mnożeniem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.74,
+    "procent": 66,
+    "procent_etap": 73
+   }
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q2",
@@ -54,6 +60,11 @@
      "inne:zero-nie-dzielnik"
     ],
     "opis": "Odczyt 12:00 kusi do policzenia, ale 0 nie jest dzielnikiem żadnej liczby"
+   },
+   "trudnosc": {
+    "logit": 1.37,
+    "procent": 63,
+    "procent_etap": 70
    }
   },
   {
@@ -75,7 +86,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułóż z cyfr 0, 0, 2, 7 wszystkie poprawne godziny i wybierz najbliższą po 02:07",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.93,
+    "procent": 83,
+    "procent_etap": 89
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022-2023_pomorskie_q6",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q4",
@@ -116,6 +138,11 @@
      "warunek-istnienia"
     ],
     "opis": "Ramię równe połowie podstawy daje trójkąt zdegenerowany – nierówność trójkąta musi być ostra"
+   },
+   "trudnosc": {
+    "logit": 1.58,
+    "procent": 65,
+    "procent_etap": 72
    }
   },
   {
@@ -149,7 +176,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz gruszkę, a potem kapustę, na jabłka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 80
+   }
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q6",
@@ -170,7 +202,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kolejne niedziele dzieli 7 dni, więc parzystość dat się zmienia — ile niedziel musi mieć ten miesiąc",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 91
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2012-2013_malopolskie_q2",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q7",
@@ -191,7 +234,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>N — liczba koralików. Żółte <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>N</mi><mn>4</mn></mfrac></math>; zielone <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mi>N</mi></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn><mi>N</mi></mrow><mn>20</mn></mfrac></math>; reszta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac></math>.</p><p>Czerwone: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>·</mo><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac><mo>=</mo><mn>2</mn></math> ⟹ N=60. Żółte 15, zielone 21, białe 22, czerwone 2.</p><p>b) 21/60 = 35%.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.98,
+    "procent": 68,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q8",
@@ -211,7 +259,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumę czterech ocen z sumą pięciu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.02,
+    "procent": 22,
+    "procent_etap": 25
+   }
   },
   {
    "id": "szkolny_2017-2018_pomorskie_q9",
@@ -231,7 +284,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Trójkąt ABF równoboczny: ∠FAB=∠FBA=60°, AF=BF=AB=bok pięciokąta.</p><p>∠EAF=108°−60°=48°, a AE=AF, więc w trójkącie AEF ∠AFE=(180°−48°)/2=66°. Podobnie ∠BFC=66°.</p><p>Wokół F: ∠CFE=360°−∠EFA−∠AFB−∠BFC=360°−66°−60°−66°=168°.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.49,
+    "procent": 92,
+    "procent_etap": 96
+   }
   }
  ]
 }

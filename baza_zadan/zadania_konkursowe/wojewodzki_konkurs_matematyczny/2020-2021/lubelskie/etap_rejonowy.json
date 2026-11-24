@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021_lubelskie.pdf",
  "zadania": [
   {
    "id": "rejonowy_2021_lubelskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwinięcie jest okresowe — podziel 17 przez długość okresu i patrz na resztę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.69,
+    "procent": 33,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q2",
@@ -90,6 +96,11 @@
      "znak"
     ],
     "opis": "Minus przed iloczynem (a−b)(a+b) zmienia znak obu wyrazów a²−b²"
+   },
+   "trudnosc": {
+    "logit": -0.68,
+    "procent": 42,
+    "procent_etap": 44
    }
   },
   {
@@ -128,7 +139,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na cyfry jedności — u siódemki powtarzają się co 4, u piątki i dziesiątki są stałe",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.38,
+    "procent": 27,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q4",
@@ -167,7 +183,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole to połowa kwadratu przyprostokątnej, więc najpierw znajdź ramię, potem przeciwprostokątną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.37,
+    "procent": 27,
+    "procent_etap": 29
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q5",
@@ -204,7 +225,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> będą spodkami wysokości, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> ich punktem przecięcia. W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEHF</mi></math> kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> są proste, więc kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>100</mn><mo>°</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>. Kąt przy podstawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>80</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>50</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.4,
+    "procent": 72,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q6",
@@ -239,7 +265,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź a, b, c, d do potęg o podstawie 3, a w d wyłącz wspólny czynnik przed nawias",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.27,
+    "procent": 62,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q7",
@@ -282,6 +313,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Boki kwadratów w stosunku 4:1 nie oznaczają pól w stosunku 4:1"
+   },
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -309,6 +345,11 @@
      "kierunek-relacji"
     ],
     "opis": "„Hania przyszła 4 min wcześniej niż Ola” – łatwo ustawić Olę przed Hanią na osi czasu"
+   },
+   "trudnosc": {
+    "logit": 1.41,
+    "procent": 63,
+    "procent_etap": 65
    }
   },
   {
@@ -329,7 +370,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw czas jazdy w jedną stronę ze środy, potem ile z 45 minut zostało na powrót pieszo",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.79,
+    "procent": 41,
+    "procent_etap": 43
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q10",
@@ -359,6 +405,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 20% mniejsza od” – procent liczony od kąta z BC; pytanie o kąt rozwarty między przekątnymi"
+   },
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 66
    }
   },
   {
@@ -380,7 +431,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij CD = 1 i AB = 4 — wysokość i tak skróci się w obu polach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.93,
+    "procent": 31,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q12",
@@ -399,7 +455,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to obecny wiek syna, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> to wiek ojca. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>5</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>2,6</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>48</mn></mrow></math>.</p><ul><li>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>32</mn></mrow></math> lata.</li><li>b) Syn ma 16 lat.</li><li>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>−</mo><mi>t</mi><mo>=</mo><mn>9</mn><mo>(</mo><mn>16</mn><mo>−</mo><mi>t</mi><mo>)</mo></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>12</mn></mrow></math>.</li><li>d) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>16</mn><mo>+</mo><mi>t</mi><mo>)</mo></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>16</mn></mrow></math>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 87
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q13",
@@ -427,6 +488,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z Pitagorasa wychodzi połowa różnicy podstaw, a pytają o całą różnicę"
+   },
+   "trudnosc": {
+    "logit": 6.69,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -457,6 +523,11 @@
      "procent-podstawa"
     ],
     "opis": "Trójka 12-16-20 kusi przekątną BD, a pytają o dłuższą; w c) procent liczony od pola EBC"
+   },
+   "trudnosc": {
+    "logit": 4.17,
+    "procent": 84,
+    "procent_etap": 85
    }
   },
   {
@@ -487,6 +558,11 @@
      "procent-podstawa"
     ],
     "opis": "„O ile procent wrześniowa większa od październikowej” – podstawą jest liczba z października"
+   },
+   "trudnosc": {
+    "logit": 3.62,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -509,7 +585,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz większą liczbę jako 19 razy mniejsza plus 6 i wstaw do różnicy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.52,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2021_lubelskie_q17",
@@ -537,6 +618,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przyprostokątne też są wysokościami; najkrótsza wysokość to nie najkrótszy bok"
+   },
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 86
    }
   },
   {
@@ -559,7 +645,12 @@
     "rozwiazanie_html": "<p>Przedłużenia ramion tworzą z podstawą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> kąty 45°, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest prostokątny równoramienny (kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest prosty). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, krótsza podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EDC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, więc wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Ramię trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> cm. Obwód trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mo>(</mo><mn>12</mn><mo>+</mo><mn>14</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></math> cm.</p>",
     "punktacja_html": "<ul><li>1 pkt – obliczenie długości ramienia trapezu.</li><li>2 pkt – obliczenie długości krótszej podstawy trapezu.</li><li>3 pkt – obliczenie długości dłuższej podstawy trapezu.</li><li>4 pkt – obliczenie obwodu trapezu.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.78,
+    "procent": 88,
+    "procent_etap": 89
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2018_podkarpackie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij, że w każdym mieszkaniu są 2 pokoje, i sprawdź, ile pokoi zostaje do rozdania",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.84,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwijaj ułamek piętrami, zaczynając od tego najgłębszego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.78,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, czy opłaca się rozbijać 200 na czynniki, skoro pozostałe liczby to jedynki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q4",
@@ -157,7 +173,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz boki obu kwadratów, a resztę pola podziel w myślach na dwa prostokąty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.87,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q5",
@@ -194,7 +215,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz łączną kwotę i o ile złotych musi zmienić się stan Daniela, potem dobierz monety",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.81,
+    "procent": 75,
+    "procent_etap": 68
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2023_podlaskie_q17",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q6",
@@ -234,7 +266,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w każdym trójkącie zaznaczono dwa kąty — zsumuj kąty trzech trójkątów i odejmij te przy przecięciu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.04,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q7",
@@ -278,6 +315,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o odwrotność sumy odwrotności – łatwo zatrzymać się na samej sumie"
+   },
+   "trudnosc": {
+    "logit": -2.95,
+    "procent": 22,
+    "procent_etap": 17
    }
   },
   {
@@ -317,7 +359,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podwojenie prędkości skraca czas o połowę — zestaw to z 35-minutową różnicą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 71,
+    "procent_etap": 63
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q9",
@@ -355,7 +402,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "z dwóch ostatnich składników wyłącz 2018/2017 przed nawias",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.04,
+    "procent": 49,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q10",
@@ -402,6 +454,11 @@
      "kierunek-relacji"
     ],
     "opis": "Średnia jako procent wieku Kasi, nie wiek Kasi jako procent średniej – łatwo odwrócić podstawę"
+   },
+   "trudnosc": {
+    "logit": 1.37,
+    "procent": 63,
+    "procent_etap": 55
    }
   },
   {
@@ -444,6 +501,11 @@
      "inne:dzielniki-wlacznie-z-liczba"
     ],
     "opis": "Do dzielników liczby 15 należy też sama liczba 15 (i 1) – łatwo ją pominąć"
+   },
+   "trudnosc": {
+    "logit": 0.36,
+    "procent": 53,
+    "procent_etap": 46
    }
   },
   {
@@ -485,7 +547,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty przy podstawie policz z kąta 100°, a kąt CDE potraktuj jako kąt zewnętrzny małego trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.4,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q13",
@@ -523,7 +590,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ostatnie cyfry potęg powtarzają się co 4 — sprawdź resztę z dzielenia 2018 przez 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q14",
@@ -564,7 +636,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt wewnętrzny dziewięciokąta to 140° — dorysuj przekątną i policz kąty w trójkątach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.25,
+    "procent": 85,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q15",
@@ -605,6 +682,11 @@
      "jednostki"
     ],
     "opis": "Objętość wychodzi w cm³, a zdanie podaje dm³ – przelicznik to 1000, nie 10"
+   },
+   "trudnosc": {
+    "logit": 2.42,
+    "procent": 72,
+    "procent_etap": 65
    }
   },
   {
@@ -641,7 +723,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każda cyfra trafia raz na miejsce setek, raz dziesiątek i raz jedności",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.63,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q17",
@@ -668,6 +755,11 @@
      "jednostki"
     ],
     "opis": "Dane w dm², m, mm i dm, a obwody trzeba podać w cm – przelicznik jednostek pola to 100"
+   },
+   "trudnosc": {
+    "logit": 3.76,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -700,7 +792,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Duży pokój=1/2 mieszkania, więc mały=(1/2):3=1/6 (1 – P). Suma udziałów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>25</mn><mn>28</mn></mfrac></math>, więc przedpokój to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>28</mn></mfrac></math> mieszkania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>·</mo><mfrac><mn>3</mn><mn>28</mn></mfrac><mo>=</mo><mn>4,5</mn></math> → S=42 m² (2 – P, bo 42>40). Kuchnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>≈</mo><mn>14,3</mn><mo>%</mo></math> > 14% (3 – F).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 66
+   }
   },
   {
    "id": "wojewodzki_2018_podkarpackie_q19",
@@ -727,6 +824,11 @@
      "plot-i-slupki"
     ],
     "opis": "Płotek wokół kwadratu jest zamknięty – skrajne słupki się łączą, nie dochodzą dodatkowe zapałki"
+   },
+   "trudnosc": {
+    "logit": 6.66,
+    "procent": 96,
+    "procent_etap": 93
    }
   },
   {
@@ -754,6 +856,11 @@
      "procent-podstawa"
     ],
     "opis": "Marża 8% liczona od ceny hurtowej, nie od ceny sprzedaży 351 zł"
+   },
+   "trudnosc": {
+    "logit": -0.26,
+    "procent": 46,
+    "procent_etap": 39
    }
   },
   {
@@ -780,6 +887,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Pytanie o wszystkie możliwe wymiary pudełka – kostki da się ułożyć na więcej niż jeden sposób"
+   },
+   "trudnosc": {
+    "logit": 5.04,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -802,7 +914,12 @@
     "rozwiazanie_html": "<p>Krótszy bok prostokąta dzieli się na odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>, a dłuższy na odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, więc boki prostokąta mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>b</mi></math>, a jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>a</mi><mi>b</mi></math>. W narożnikach powstają cztery trójkąty prostokątne (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEH</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FCG</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>GDH</mi></math>), każdy o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi></math>. Zatem pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>a</mi><mi>b</mi><mo>−</mo><mn>4</mn><mi>a</mi><mi>b</mi><mo>=</mo><mn>5</mn><mi>a</mi><mi>b</mi></math>, a szukany stosunek pól to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math>.</p>",
     "punktacja_html": "<ul><li>4 pkt. – uczeń rozwiązuje zadanie bezbłędnie – oblicza poprawnie stosunek pola czworokąta EFGH do pola prostokąta ABCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math></li><li>3 pkt. – uczeń stosuje poprawną metodę obliczenia pola czworokąta EFGH, ale zapisuje zły stosunek wynikający z popełnionego błędu rachunkowego lub uczeń oblicza pole czworokąta EFGH, ale zapisuje niepoprawny stosunek</li><li>2 pkt. – uczeń zauważa cztery trójkąty prostokątne o równych polach i oblicza pole jednego z nich lub pola wszystkich czterech trójkątów</li><li>1 pkt. – uczeń oznacza długości boków prostokąta za pomocą liter oraz zapisuje zależności wynikające ze stosunku 1 : 2</li><li>0 pkt. - rozwiązanie błędne lub brak rozwiązania</li></ul><p>Uwaga! Jeśli uczeń za długości boków prostokąta przyjmuje konkretne wartości liczbowe, to za rozwiązanie zadania może otrzymać co najwyżej 2 punkty.</p><ul><li>2 pkt. – uczeń doprowadza rozwiązanie zadania do końca i otrzymuje stosunek 5 : 9</li><li>1pkt. – uczeń doprowadza rozwiązanie zadania do końca, ale zapisuje niepoprawny stosunek lub uczeń zapisuje zły stosunek wynikający z popełnionego błędu rachunkowego</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.4,
+    "procent": 72,
+    "procent_etap": 65
+   }
   }
  ]
 }

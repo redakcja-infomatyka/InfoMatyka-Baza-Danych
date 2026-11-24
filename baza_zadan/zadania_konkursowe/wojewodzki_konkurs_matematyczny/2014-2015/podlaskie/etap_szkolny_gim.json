@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2014_podlaskie_gim.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2014_podlaskie_gim_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wszystkie wykładniki są wielokrotnościami 100 — sprowadź je do setnej potęgi i porównaj podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.3,
+    "procent": 62,
+    "procent_etap": 69
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw za k kilka liczb i sprawdź, jaka reszta wychodzi przy dzieleniu przez 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.59,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 5/6 na ułamek dziesiętny — wyjdzie rozwinięcie okresowe",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.96,
+    "procent": 9,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q4",
@@ -155,7 +171,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz (a − b) : b i rozbij ten ułamek na dwa składniki, albo sprawdź na przykładzie 10 : 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.18,
+    "procent": 38,
+    "procent_etap": 44
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2018_podlaskie_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q5",
@@ -199,6 +226,11 @@
      "konwencja"
     ],
     "opis": "Wieża potęg 2^(3^0) liczy się od góry, nie jako (2^3)^0"
+   },
+   "trudnosc": {
+    "logit": -3.23,
+    "procent": 20,
+    "procent_etap": 23
    }
   },
   {
@@ -244,6 +276,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Ćwiartka potęgi to odjęcie 2 od wykładnika, a nie podzielenie wykładnika przez 4"
+   },
+   "trudnosc": {
+    "logit": -4.15,
+    "procent": 13,
+    "procent_etap": 16
    }
   },
   {
@@ -288,6 +325,11 @@
      "inne:proporcja-trzech-wielkosci"
     ],
     "opis": "Trzy wielkości naraz: jeden kot łapie jedną mysz w 5 godzin, nie w godzinę"
+   },
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 72
    }
   },
   {
@@ -325,7 +367,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez mianownik, wymnóż nawias i przenieś x na drugą stronę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.86,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q9",
@@ -362,7 +409,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż dane równanie przez 2 i szukaj opcji o tej samej lewej stronie, ale innej prawej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q10",
@@ -399,7 +451,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, jak musi być ustawiona prosta, żeby w ogóle nie dotknęła osi OX",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.19,
+    "procent": 20,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q11",
@@ -445,6 +502,11 @@
      "jednostki"
     ],
     "opis": "Przeliczenie m² na ary, hektary i km² — 1 ha = 10000 m², 1 km² = 10^6 m²"
+   },
+   "trudnosc": {
+    "logit": -0.25,
+    "procent": 47,
+    "procent_etap": 53
    }
   },
   {
@@ -483,7 +545,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdej trójce porównaj sumę kwadratów dwóch krótszych boków z kwadratem najdłuższego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.29,
+    "procent": 28,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q13",
@@ -520,7 +587,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw procent z kąta pełnego, potem zależność między kątem wpisanym a środkowym",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.74,
+    "procent": 24,
+    "procent_etap": 28
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q14",
@@ -564,7 +636,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prosta sama ma nieskończenie wiele osi, ale dodany punkt spoza niej zostawia tylko jedną"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.49,
+    "procent": 44,
+    "procent_etap": 50
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2015_podlaskie_gim_q12",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q15",
@@ -602,7 +685,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dwusieczna kąta prostego odcina od boku AB po 45° — porównaj kąty trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.79,
+    "procent": 24,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q16",
@@ -639,7 +727,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnice współrzędnych to przyprostokątne — zastosuj Pitagorasa i wyłącz kwadrat spod pierwiastka",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.64,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q17",
@@ -677,7 +770,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij na dwa przypadki: 2x − 3 = 5 oraz 2x − 3 = −5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.19,
+    "procent": 20,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q18",
@@ -697,7 +795,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>10</mn><msqrt><mn>6</mn></msqrt></math> cm². Wysokość na bok 5√2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm. Wysokość na bok 4√3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>2,5</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.37,
+    "procent": 79,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q19",
@@ -716,7 +819,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Cyfra jedności = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> cyfry setek, więc setki podzielne przez 3: 6→4. Suma cyfr 17: 6+7+4=17. Cyfra dziesiątek 7 jest największą cyfrą i pierwszą. Liczba: 674.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2014_podlaskie_gim_q20",
@@ -741,6 +849,11 @@
      "szczegol-bryly"
     ],
     "opis": "Prostopadłościan ma 12 krawędzi, każdej długości po 4"
+   },
+   "trudnosc": {
+    "logit": -0.14,
+    "procent": 48,
+    "procent_etap": 55
    }
   }
  ]

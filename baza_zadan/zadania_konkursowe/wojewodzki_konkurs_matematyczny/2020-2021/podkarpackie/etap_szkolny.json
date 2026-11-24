@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021_podkarpackie_q1",
@@ -48,7 +49,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz znaki cyfra po cyfrze — każda cyfra daje od 0 do 4 znaków rzymskich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.91,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q2",
@@ -98,6 +104,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczby całkowite o |x|<100: trzeba policzyć ujemne, dodatnie i jeszcze zero"
+   },
+   "trudnosc": {
+    "logit": -1.3,
+    "procent": 37,
+    "procent_etap": 43
    }
   },
   {
@@ -140,7 +151,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż każdy mianownik na czynniki pierwsze i sprawdź, czy każdy z nich jest nie większy od 30",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.42,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q4",
@@ -189,6 +205,11 @@
      "inne:ruch-wskazowki-godzinowej"
     ],
     "opis": "O 16:40 wskazówka godzinowa nie stoi na 4, bo przesunęła się o 2/3 godziny"
+   },
+   "trudnosc": {
+    "logit": 1.3,
+    "procent": 62,
+    "procent_etap": 69
    }
   },
   {
@@ -231,7 +252,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozszerz ułamek do mianownika 9999 — okres odczytasz wprost z licznika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 60,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q6",
@@ -280,6 +306,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Procent liczy się od nowej ceny X, nie sumuje się 30% i 20%"
+   },
+   "trudnosc": {
+    "logit": 1.09,
+    "procent": 60,
+    "procent_etap": 67
    }
   },
   {
@@ -323,7 +354,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz nowe boki jako (a+4) i 4b, potem odejmij pole wyjściowe",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.11,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q8",
@@ -364,7 +400,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź obie liczby do tej samej potęgi dziesiątki, potem uśrednij mnożniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.81,
+    "procent": 41,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q9",
@@ -405,7 +446,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wybierz zapis, w którym każdy czynnik jest liczbą pierwszą — reszta to pułapki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -7.54,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q10",
@@ -453,6 +499,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa potęgi to nie potęga o połowie wykładnika"
+   },
+   "trudnosc": {
+    "logit": -2.71,
+    "procent": 24,
+    "procent_etap": 28
    }
   },
   {
@@ -501,6 +552,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z sumy łatwo dostaje się liczbę środkową, a pytają o kwadrat najmniejszej"
+   },
+   "trudnosc": {
+    "logit": -3.99,
+    "procent": 14,
+    "procent_etap": 17
    }
   },
   {
@@ -542,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw dodaj C i D i pogrupuj wyrazy, dopiero potem podstaw x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.68,
+    "procent": 24,
+    "procent_etap": 29
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q13",
@@ -584,7 +645,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba obwody trójkątów — przekątna liczy się w tej sumie dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.4,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q14",
@@ -626,7 +692,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w trapezie równoramiennym kąt ostry i rozwarty przy ramieniu dają razem 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.9,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q15",
@@ -667,7 +738,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw x = 10 i potraktuj kratkę jak niewiadomą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.16,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q16",
@@ -717,6 +793,11 @@
      "szczegol-bryly"
     ],
     "opis": "Przy sklejeniu znika powierzchnia z obu klocków, nie z jednego"
+   },
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -751,7 +832,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1. Kąt wewnętrzny dziesięciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>10</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>144</mn></math>° ≠ 154° — fałsz.</p><p>2. Pole 196 cm² daje bok 14 cm, obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>56</mn></math> cm = 5,6 dm — prawda.</p><p>3. Boki trójkąta ABC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><msqrt><mn>10</mn></msqrt><mo>,</mo><mi>BC</mi><mo>=</mo><msqrt><mn>17</mn></msqrt><mo>,</mo><mi>CA</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math>. Dla F = (2,3): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi><mo>=</mo><msqrt><mn>17</mn></msqrt><mo>,</mo><mi>DF</mi><mo>=</mo><msqrt><mn>5</mn></msqrt><mo>,</mo><mi>EF</mi><mo>=</mo><msqrt><mn>10</mn></msqrt></math> — te same długości boków, trójkąty przystające — prawda.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.4,
+    "procent": 95,
+    "procent_etap": 98
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q18",
@@ -789,6 +875,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba z cyfrą jedności 5 zaokrągla się w górę, więc też należy do przedziału"
+   },
+   "trudnosc": {
+    "logit": 1.06,
+    "procent": 60,
+    "procent_etap": 66
    }
   },
   {
@@ -831,6 +922,11 @@
      "znak"
     ],
     "opis": "Zdanie dotyczy liczby przeciwnej do ilorazu, a nie samego ilorazu"
+   },
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -852,7 +948,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część ozdoby robią razem w ciągu jednej minuty",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 82
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q21",
@@ -875,7 +976,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "otocz trójkąt najmniejszym prostokątem z kratek i odejmij narożne trójkąty prostokątne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.06,
+    "procent": 49,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2021_podkarpackie_q22",
@@ -898,7 +1004,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Gwiazda składa się z kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>) oraz czterech przystających trójkątów równoramiennych o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Łączne pole czterech trójkątów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>x</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>2</mn><mi>x</mi><mi>h</mi></math>. Szerokość gwiazdy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>h</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>h</mi><mo>=</mo><mi>y</mi><mo>−</mo><mi>x</mi></math>. Zatem pole gwiazdy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>h</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>(</mo><mi>y</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mi>y</mi></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.99,
+    "procent": 76,
+    "procent_etap": 83
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2018-2019_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "potraktuj a jako jednostkę i porównaj odległości wyrażone w wielokrotnościach a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 1.07,
+    "procent": 60,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź każdą z liczb do potęgi dwójki, także sumę 2⁵+2⁵",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.89,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q3",
@@ -126,7 +137,18 @@
      "jednostki"
     ],
     "opis": "Zużycie podane w litrach, a licznik pokazuje m³: trzeba poprawnie przeliczyć litry na m³"
-   }
+   },
+   "trudnosc": {
+    "logit": -1.6,
+    "procent": 34,
+    "procent_etap": 40
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_podlaskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q4",
@@ -170,7 +192,18 @@
      "kierunek-relacji"
     ],
     "opis": "Pytają o wysokość trampoliny, nie o najwyższy punkt skoku; ruch w górę i w dół trzeba śledzić ze znakiem"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 55
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2015-2016_slaskie_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q5",
@@ -214,7 +247,22 @@
      "kierunek-relacji"
     ],
     "opis": "To α jest 4/5 kąta przyległego, a nie przyległy 4/5 α; łatwo też wziąć 4/5 ze 180°"
-   }
+   },
+   "trudnosc": {
+    "logit": -4.5,
+    "procent": 11,
+    "procent_etap": 13
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2026_lubuskie_q8",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "szkolny_2022_lodzkie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q6",
@@ -251,7 +299,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź 2 cm nie ma tu znaczenia — szukaj największego sześcianu liczby naturalnej nie większego od 95",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q7",
@@ -295,6 +348,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ile dziewiątek ma 10^101 − 8: łatwo pomylić się o jedną cyfrę przy liczeniu dziewiątek"
+   },
+   "trudnosc": {
+    "logit": 0.94,
+    "procent": 58,
+    "procent_etap": 65
    }
   },
   {
@@ -351,7 +409,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część płotu malują razem w ciągu godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.57,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q10",
@@ -388,7 +451,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz sumę ocen z 20 prac i załóż, że pozostałe to same szóstki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q11",
@@ -426,7 +494,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj mianownika z czynnikiem pierwszym większym od 20",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.24,
+    "procent": 37,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q12",
@@ -464,7 +537,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij 108·16 na 27·64 i pierwiastkuj czynniki osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.19,
+    "procent": 47,
+    "procent_etap": 54
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q13",
@@ -501,7 +579,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 30 marchewek na dziewiątki i czwórki — pasuje tylko jeden układ",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.23,
+    "procent": 85,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q14",
@@ -539,7 +622,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz najpierw liczbę o 4 mniejszą od trzykrotności x, potem użyj wzoru na kwadrat różnicy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.62,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q15",
@@ -576,7 +664,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każda para prostych daje najwyżej jeden punkt przecięcia — policz pary",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.25,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q16",
@@ -621,6 +714,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 2012 jest przestępny, ale 29 lutego 2012 już minął przed urodzinami w październiku"
+   },
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -642,7 +740,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 525 na czynniki pierwsze i pogrupuj je w dwie liczby dwucyfrowe",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.9,
+    "procent": 68,
+    "procent_etap": 75
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q18",
@@ -671,6 +774,11 @@
      "inne:liczba-roznych-symboli"
     ],
     "opis": "Pytają o liczbę RÓŻNYCH cyfr rzymskich wyniku, a ogradzamy tylko prostokąt, nie cały trapez"
+   },
+   "trudnosc": {
+    "logit": 3.77,
+    "procent": 82,
+    "procent_etap": 88
    }
   },
   {
@@ -690,7 +798,12 @@
     "rozwiazanie_html": "<p>Przykładowe poprawne rozkłady (wystarczą dwa różne):</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>21</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>42</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>84</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>70</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>56</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math></p><p><em>lub każdy inny poprawny sposób.</em></p>",
     "punktacja_html": "<p>Za poprawne wyznaczenie każdego z dwóch sposobów przyznaje się po 2 punkty.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.83,
+    "procent": 88,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2018-2019_malopolskie_q20",
@@ -719,6 +832,11 @@
      "jednostki"
     ],
     "opis": "Czas 1 h 52 min to nie 1,52 h: trzeba zamienić minuty na ułamek godziny"
+   },
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 69
    }
   }
  ]

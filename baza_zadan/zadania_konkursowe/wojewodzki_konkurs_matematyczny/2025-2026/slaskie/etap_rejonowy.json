@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025-2026_slaskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Cyfra setek ma być liczbą pierwszą, a 1 nie jest liczbą pierwszą"
+   },
+   "trudnosc": {
+    "logit": -5.83,
+    "procent": 6,
+    "procent_etap": 7
    }
   },
   {
@@ -90,7 +96,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od mianownika, a potem szukaj takiego a, żeby licznik był mu równy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.03,
+    "procent": 49,
+    "procent_etap": 51
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q3",
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel sumę przez 3, żeby dostać środkową z trzech liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.17,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q4",
@@ -165,7 +181,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "chodzi o kwadraty kolejnych liczb — znajdź największy kwadrat mniejszy od 500",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q5",
@@ -209,6 +230,11 @@
      "jednostki"
     ],
     "opis": "Dane w km/h, a warianty w m/s; jeden wariant to wynik w km/h z doklejonym m/s"
+   },
+   "trudnosc": {
+    "logit": 4.02,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -254,6 +280,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Suma dwóch równych potęg 3^60 + 3^60 to nie 3^61"
+   },
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 42,
+    "procent_etap": 45
    }
   },
   {
@@ -290,7 +321,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>DC</mi></mrow></math>), więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na połowy, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, zatem kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> — to kąty naprzemianległe przy siecznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>DC</mi></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają wspólną podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i tę samą wysokość, więc równe pola; po odjęciu wspólnego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCO</mi></math> też są równe.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q8",
@@ -333,6 +369,11 @@
      "inne:dwa-odcinki-przy-podstawie"
     ],
     "opis": "Dłuższa podstawa trapezu równoramiennego to krótsza plus dwa rzuty ramion, nie jeden"
+   },
+   "trudnosc": {
+    "logit": 5.48,
+    "procent": 92,
+    "procent_etap": 92
    }
   },
   {
@@ -377,6 +418,11 @@
      "inne:zbiory-czesc-wspolna"
     ],
     "opis": "Nie chodzą na hiszpański to nie wszyscy minus 'tylko hiszpański'; uczący się obu też chodzą"
+   },
+   "trudnosc": {
+    "logit": 2.34,
+    "procent": 71,
+    "procent_etap": 73
    }
   },
   {
@@ -419,6 +465,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Najdłużej żył nie ten, kto zmarł najpóźniej; trzeba policzyć długości życia"
+   },
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 82
    }
   },
   {
@@ -468,6 +519,11 @@
      "jednostki"
     ],
     "opis": "Dłuższa wysokość równoległoboku idzie do krótszego boku; do tego dane w dm, cm i m"
+   },
+   "trudnosc": {
+    "logit": 4.82,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -490,7 +546,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz wszystkie miejsca w pociągu, a potem skróć równanie przez 6",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.21,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q13",
@@ -511,7 +572,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw wyrażenie na Iwonę do zdania o Marcie — zostanie jedno równanie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.81,
+    "procent": 57,
+    "procent_etap": 58
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q14",
@@ -531,7 +597,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oba trójkąty mają wspólny kąt przy wierzchołku, oznaczmy go <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>. Suma miar kątów w każdym z trójkątów jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>=</mo><mi>α</mi><mo>+</mo><mn>83</mn><mo>°</mo><mo>+</mo><mi>γ</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>83</mn><mo>°</mo></mrow></math>. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>83</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.35,
+    "procent": 46,
+    "procent_etap": 47
+   }
   },
   {
    "id": "rejonowy_2025-2026_slaskie_q15",
@@ -558,6 +629,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trójkąt równoboczny można zbudować po obu stronach przeciwprostokątnej"
+   },
+   "trudnosc": {
+    "logit": 8.27,
+    "procent": 99,
+    "procent_etap": 99
    }
   },
   {
@@ -586,6 +662,11 @@
      "procent-podstawa"
     ],
     "opis": "Procentów 25% i 15% nie odejmuje się; obniżkę liczy się względem ceny w sklepie A"
+   },
+   "trudnosc": {
+    "logit": 1.98,
+    "procent": 68,
+    "procent_etap": 70
    }
   },
   {
@@ -611,6 +692,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Suma dwóch brakujących cyfr może wynosić 0, 9 lub 18, nie tylko 9"
+   },
+   "trudnosc": {
+    "logit": 5.24,
+    "procent": 90,
+    "procent_etap": 91
    }
   }
  ]

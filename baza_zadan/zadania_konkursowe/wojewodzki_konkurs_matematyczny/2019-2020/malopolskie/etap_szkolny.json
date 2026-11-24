@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019-2020_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019-2020_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2019-2020_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śledź tylko białe pudełko — ono jedynie dostaje kulki, więc cofnij ten jeden ruch",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.16,
+    "procent": 20,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q2",
@@ -83,7 +89,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień „w 40% pusta” na „w 60% pełna” i zobacz, jakiej części beczki dotyczy różnica",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.25,
+    "procent": 52,
+    "procent_etap": 59
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q3",
@@ -118,7 +129,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wstawiając cyfrę na początku (_16): podzielne przez 12 dają 216, 516, 816 — 3 sposoby. W środku (1_6): tylko 156 — 1 sposób. Na końcu (16_): tylko 168 — 1 sposób. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>5</mn></math> sposobów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.95,
+    "procent": 76,
+    "procent_etap": 83
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q4",
@@ -156,7 +172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1 m³ to 10⁶ cm³ — sprowadź obie objętości do tych samych jednostek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.49,
+    "procent": 64,
+    "procent_etap": 71
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q5",
@@ -193,7 +214,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bierz najmniejsze różne długości po kolei; cięć jest o jedno mniej niż kawałków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 77
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2009-2010_warminsko-mazurskie_q11",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q6",
@@ -231,7 +263,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba obwody — odcinek cięcia wchodzi do tej sumy dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.85,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q7",
@@ -269,7 +306,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz każdą liczbę jako potęgę dwójki lub trójki i porównuj wykładniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.3,
+    "procent": 62,
+    "procent_etap": 69
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q8",
@@ -307,7 +349,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "spróbuj podać konkretny przykład pary bliźniaczej do każdej odpowiedzi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.04,
+    "procent": 39,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q9",
@@ -344,7 +391,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystko równa się tej samej liczbie — zapisz każdą literę jako ona plus lub minus coś",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.36,
+    "procent": 19,
+    "procent_etap": 22
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q10",
@@ -380,7 +432,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wszystkie przekątne dzielą sześciokąt na trójkąty równoboczne trzech wielkości: 2 duże (łączące co drugi wierzchołek), 6 średnich (o boku równym bokowi sześciokąta) i 6 małych (wycięte przy wierzchołkach przez przecinające się przekątne). Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>14</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.33,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q11",
@@ -415,7 +472,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Cała minuta 19:59 odpada (powtarza się 9 z godziny), podobnie sekundy w 19:58. Po zmianie godziny na 20 (cyfry 2, 0) trzeba omijać te cyfry — najmniejsza pasująca minuta to 13, a w niej najmniejsza sekunda omijająca 0, 1, 2, 3 to 45. Wynik: 20:13:45, czyli po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>898</mn></math> sekundach.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.12,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q12",
@@ -457,7 +519,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij 5 2/119 na 3 1/119 + 2 1/119 i wyłącz wspólne czynniki przed nawias",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 82
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q13",
@@ -500,7 +567,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>64</mn></math>. Trójkąt MNR ma podstawę MN=8 i takie samo pole, więc jego wysokość (odległość R od prostej MN) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>64</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>16</mn></math>, skąd podstawa RP trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>24</mn></math>. Z pola trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>8</mn><mo>+</mo><mn>24</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>·</mo><mi>PL</mi><mo>=</mo><mn>64</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PL</mi><mo>=</mo><mn>4</mn></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.86,
+    "procent": 75,
+    "procent_etap": 82
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q14",
@@ -549,6 +621,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia ważona: sumę iloczynów dzieli się przez sumę wag (tu ułamkową), nie przez liczbę liczb"
+   },
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 69
    }
   },
   {
@@ -589,7 +666,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pominięcie jednej ściany daje sumę pięciu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50,5</mn><mo>−</mo><mn>45,25</mn><mo>=</mo><mn>5,25</mn></math> — to pole najmniejszej ściany. Pominięcie najmniejszej i największej daje sumę czterech: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50,5</mn><mo>−</mo><mn>31,25</mn><mo>=</mo><mn>19,25</mn></math>, więc największa ściana ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19,25</mn><mo>−</mo><mn>5,25</mn><mo>=</mo><mn>14</mn></math>. Szukany procent: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,25</mn><mo>:</mo><mn>14</mn><mo>=</mo><mn>0,375</mn></math>, czyli 37,5%.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.97,
+    "procent": 89,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q16",
@@ -631,7 +713,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uprość √48 i √12 do wielokrotności √3, dopiero potem podstaw do wzoru",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2019-2020_malopolskie_q17",
@@ -672,7 +759,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część pracy każda oddelegowana część ekipy wykonuje w ciągu jednego dnia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.89,
+    "procent": 68,
+    "procent_etap": 75
+   }
   }
  ]
 }

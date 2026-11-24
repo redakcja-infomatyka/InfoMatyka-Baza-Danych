@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź osobno podzielność przez 2 i przez 3 — do tej drugiej dodaj cyfry",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.62,
+    "procent": 11,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q2",
@@ -88,6 +94,11 @@
      "warunek-istnienia"
     ],
     "opis": "Zestaw z obwodem 20, w którym suma dwóch boków równa się trzeciemu – trójkąt zdegenerowany"
+   },
+   "trudnosc": {
+    "logit": -4.27,
+    "procent": 13,
+    "procent_etap": 9
    }
   },
   {
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmowanie liczby ujemnej to dodawanie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.03,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q4",
@@ -170,6 +186,11 @@
      "inne:obracanie-paczki"
     ],
     "opis": "Paczkę można obrócić (porównać posortowane wymiary); masy w dag/g; „nie większa niż 25 kg” obejmuje 25"
+   },
+   "trudnosc": {
+    "logit": 0.22,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -208,7 +229,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz 2¹⁹ przed nawias",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q6",
@@ -252,6 +278,11 @@
      "plot-i-slupki"
     ],
     "opis": "Przedział od 750 do 849 włącznie – liczenie końców przedziału"
+   },
+   "trudnosc": {
+    "logit": 1.37,
+    "procent": 63,
+    "procent_etap": 55
    }
   },
   {
@@ -289,7 +320,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż 3 cm przez skalę, a potem pamiętaj, że 1 km to 100 000 cm",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.62,
+    "procent": 11,
+    "procent_etap": 8
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022_podlaskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q8",
@@ -326,7 +368,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to cztery jednakowe trójkąty równoboczne — użyj wzoru a²√3/4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.1,
+    "procent": 29,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q9",
@@ -366,7 +413,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w pasie czterech ścianek przeciwległe są co druga — wypisz najpierw pary figur naprzeciw siebie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.84,
+    "procent": 75,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q10",
@@ -403,7 +455,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma czterech ocen jest z góry znana — sprawdzaj, ile musiałaby wynosić brakująca ocena",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.99,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q11",
@@ -447,7 +504,18 @@
      "plot-i-slupki"
     ],
     "opis": "Start od 0 – pierwsza operacja (0→1) też się liczy"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.55,
+    "procent": 64,
+    "procent_etap": 56
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2011_podkarpackie_q15",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q12",
@@ -485,7 +553,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie ściany mają wspólną krawędź — jej długość musi dzielić i 45, i 36",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.24,
+    "procent": 78,
+    "procent_etap": 71
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q13",
@@ -523,7 +596,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba 48 nie jest potrzebna — wystarczy suma wyrazów proporcji",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.75,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q14",
@@ -569,6 +647,11 @@
      "kierunek-relacji"
     ],
     "opis": "„4 razy krótszy od łuku przerywanego” – przerywany to reszta okręgu, nie cały okrąg"
+   },
+   "trudnosc": {
+    "logit": 0.52,
+    "procent": 55,
+    "procent_etap": 47
    }
   },
   {
@@ -609,7 +692,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkie słupki są wielokrotnościami 25 — licz w takich jednostkach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.81,
+    "procent": 41,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q16",
@@ -657,6 +745,11 @@
      "zbior-liczb"
     ],
     "opis": "x²=121 w liczbach całkowitych ma też rozwiązanie ujemne; skracanie ułamka nie zmienia jego wartości"
+   },
+   "trudnosc": {
+    "logit": 5.96,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -677,7 +770,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Po rozłożeniu na płasko dwóch sąsiadujących ścian sześcianu powstaje prostokąt o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>. Najkrótsza droga mrówki to przekątna tego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>5</mn></msqrt></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math> wynosi ona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>·</mo><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>5</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.3,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q18",
@@ -699,7 +797,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trasa jest ta sama — porównaj 5·v z 3·(v+10)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.85,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q19",
@@ -717,7 +820,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Liczba pięciocyfrowa mniejsza od 20 000 zaczyna się cyfrą 1. Suma cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></math>, więc druga cyfra (pierwiastek sześcienny z sumy) to 3. Cyfra dziesiątek to 2·3=6, ostatnia to 3+6=9. Z sumy: pierwsza+trzecia=27−3−6−9=9, więc trzecia cyfra to 9−1=8. Liczba: 13869.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2022-2023_warminsko-mazurskie_q20",
@@ -739,7 +847,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W trójkącie BCL boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>CL</mi><mo>=</mo><mi>a</mi></math>, a kąt BCL = kąt kwadratu + kąt trójkąta równobocznego = 90°+60°=150°. Trójkąt jest równoramienny, więc kąt BLC=(180°−150°):2=15°. Z twierdzenia cosinusów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BL</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mi>cos</mi><mn>150</mn><mo>°</mo></mrow></msqrt><mo>=</mo><mi>a</mi><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.17,
+    "procent": 100,
+    "procent_etap": 99
+   }
   }
  ]
 }

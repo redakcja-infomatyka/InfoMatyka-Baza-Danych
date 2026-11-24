@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024_podkarpackie_q1",
@@ -27,7 +28,12 @@
     "rozwiazanie_html": "<p>Rozważamy dwa przypadki w zależności od parzystości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math>, to nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mfrac><mi>a</mi><mrow><mn>2</mn><mi>k</mi></mrow></mfrac></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&lt;</mo><mi>a</mi></mrow></math>, więc dla ustalonego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> najmniejsza wartość ułamka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>k</mi></mrow></mfrac></math>. Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>k</mi></mrow></mfrac><mo>&lt;</mo><mfrac><mn>15</mn><mn>29</mn></mfrac></mrow></math> jest równoważny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>29</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>&lt;</mo><mn>30</mn><mi>k</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&gt;</mo><mn>29</mn></mrow></math>. Najmniejsze parzyste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>60</mn></mrow></math>.</p><p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></math>, to najmniejsza wartość ułamka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>k</mi><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></mfrac></math>, a warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>k</mi><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mfrac><mn>15</mn><mn>29</mn></mfrac></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>29</mn><mi>k</mi><mo>&lt;</mo><mn>15</mn><mo>(</mo><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&gt;</mo><mn>15</mn></mrow></math>. Najmniejsze nieparzyste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>16</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>31</mn></mrow></math>.</p><p>Mniejsza z obu wartości to 31, więc najmniejszą możliwą wartością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest 31.</p>",
     "punktacja_html": "<ul><li>2 punkty — za prawidłową odpowiedź</li><li>1 punkt — za odpowiedź częściowo poprawną: liczba nieparzysta większa od 31 albo liczba parzysta większa lub równa 60 albo ułamek zwykły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> spełniający nierówności z zadania</li></ul><p>Uwaga: Część punktów przyznajemy, gdy uczeń znalazł liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniającą warunki zadania, ale znaleziona wartość nie jest najmniejszą możliwą lub gdy w odpowiedzi podał odpowiedni ułamek zamiast samego mianownika.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.63,
+    "procent": 100,
+    "procent_etap": 100
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q2",
@@ -51,7 +57,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź kąt BSC i kąt BAC przez kąt przy podstawie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.2,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q3",
@@ -72,7 +83,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw a = 2k i b = 5k, wtedy zostaje jedno równanie na k²",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.9,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q4",
@@ -99,6 +115,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ostre granice (większe od 6000, mniejsze od 9000) i liczenie wyrazów ciągu co 7 — łatwo zgubić jeden."
+   },
+   "trudnosc": {
+    "logit": 5.04,
+    "procent": 89,
+    "procent_etap": 90
    }
   },
   {
@@ -121,7 +142,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz długość AF, podziel ją na 5 równych części i dodaj dwie do wartości w A",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.05,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q6",
@@ -144,7 +170,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "iloczyn trzech kolejnych liczb jest bliski sześcianowi środkowej — szukaj n z n³ ≈ 15600",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q7",
@@ -174,6 +205,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dwa kąty proste mogą leżeć przy wspólnym boku albo nie — dwie różne konfiguracje."
+   },
+   "trudnosc": {
+    "logit": 9.22,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -195,7 +231,12 @@
     "rozwiazanie_html": "<p><em>Założenie:</em> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> są kolejnymi liczbami naturalnymi. <em>Teza:</em> suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>+</mo><mi>f</mi><mo>+</mo><mi>g</mi></mrow></math> jest liczbą złożoną.</p><p>Zapiszmy te liczby względem środkowej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>e</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>f</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>g</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>3</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>+</mo><mi>f</mi><mo>+</mo><mi>g</mi><mo>=</mo><mn>7</mn><mi>d</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest liczbą naturalną większą od 1 (następuje po liczbach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>), liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>d</mi></mrow></math> jest podzielna przez 7 i większa od 7, a więc jest liczbą złożoną, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.:<ul><li>zapisał siedem kolejnych liczb naturalnych w postaci wyrażeń algebraicznych, w zależności od jednej zmiennej, a następnie wykorzystał to do przedstawienia ich sumy w postaci wyrażenia algebraicznego będącego iloczynem, ale nie wywnioskował z tego, że jest to liczba złożona (lub napisał, że jest to liczba złożona, ale bez uzasadnienia, np. powołania się na podzielność przez 7),</li><li>zapisał siedem kolejnych liczb naturalnych w postaci wyrażeń algebraicznych, w zależności od jednej zmiennej, a następnie wykorzystał to do przedstawienia ich sumy w postaci wyrażenia algebraicznego i uzasadnił że otrzymane wyrażenie reprezentuje liczbę złożoną, na przykład wskazując jego podzielność przez 7,</li><li>zapisał siedem kolejnych liczb naturalnych w postaci wyrażeń algebraicznych, w zależności od jednej zmiennej, a następnie wykorzystał to do przedstawienia ich sumy w postaci wyrażenia algebraicznego będącego iloczynem, ale popełnił błąd obliczeniowy. Mimo tego uzasadnił, że otrzymany wynik jest liczbą złożoną, w formie analogicznego rozumowania.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.:<ul><li>zapisał siedem kolejnych liczb naturalnych w postaci wyrażeń algebraicznych, w zależności od jednej zmiennej, wykorzystał to do przedstawienia ich sumy w postaci wyrażenia algebraicznego, ale nie zrobił dalszych postępów w rozwiązaniu (w szczególności nie przedstawił sumy w postaci wyrażenia algebraicznego będącego iloczynem).</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.:<ul><li>wypisał założenie i tezę, ale nie przeprowadził dowodu.</li></ul></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.25,
+    "procent": 61,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2024_podkarpackie_q9",
@@ -216,7 +257,12 @@
     "rozwiazanie_html": "<p>Oznaczmy cenę zestawu „Autobus” przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. „Boisko” jest o 25% droższe, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mi>a</mi></mrow></math>. „Boisko” jest o 85 zł droższe od „Cukierni”, więc „Cukiernia” kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn></mrow></math> zł. „Dinopark” jest o 10% tańszy od „Cukierni”, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mo>·</mo><mo>(</mo><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn><mo>)</mo></mrow></math> zł. Ponieważ „Dinopark” jest o 4 zł droższy od „Autobusu”, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mo>·</mo><mo>(</mo><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn><mo>)</mo><mo>=</mo><mi>a</mi><mo>+</mo><mn>4</mn></mrow></math>. Przekształcając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,125</mn><mi>a</mi><mo>−</mo><mn>76,5</mn><mo>=</mo><mi>a</mi><mo>+</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,125</mn><mi>a</mi><mo>=</mo><mn>80,5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>644</mn></mrow></math>. Zestaw „Autobus” kosztuje 644 zł.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.:<ul><li>poprawnie opisał sytuację w zadaniu za pomocą liniowego równania z jedną niewiadomą i je rozwiązał, popełniając błąd obliczeniowy,</li><li>popełnił niewielki błąd w opisie sytuacji w zadaniu za pomocą liniowego równania z jedną niewiadomą, po czym poprawnie rozwiązał otrzymane równanie (uwaga: niewielki błąd może dotyczyć pomylenia słów „droższy/tańszy”, ale nie może polegać na zamianie informacji „Dinopark” jest o 10% tańszy od „Cukierni” na „Cukiernia” jest o 10% droższa od „Dinoparku”),</li><li>poprawnie opisał sytuację w zadaniu za pomocą liniowego równania z jedną niewiadomą, poprawnie obliczył wartość niewiadomej, ale nie przełożył jej na odpowiedź.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.:<ul><li>uczeń poprawnie opisał sytuację w zadaniu za pomocą liniowego równania z jedną niewiadomą, ale nie zrobił (lub zrobił niewielkie) postępów w jego rozwiązaniu,</li><li>uczeń opisał sytuację daną w zadaniu za pomocą wyrażeń algebraicznych z niewielkim błędem, zastosował poprawną metodę rozwiązywania inną niż równanie liniowe i metodę prób i błędów, ale nie doprowadził jej do końca lub popełnił niewielki błąd obliczeniowy,</li><li>popełnił błąd w opisie sytuacji w zadaniu za pomocą liniowego równania z jedną niewiadomą, polegający np. na zamianie informacji „Dinopark” jest o 10% tańszy od „Cukierni” na „Cukiernia” jest o 10% droższa od „Dinoparku”, po czym poprawnie rozwiązał otrzymane równanie.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.:<ul><li>uczeń poprawnie zapisał za pomocą wyrażeń algebraicznych niektóre zależności dane w zadaniu, w tym co najmniej jedno zawierające procenty.</li></ul></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.43,
+    "procent": 91,
+    "procent_etap": 92
+   }
   }
  ]
 }

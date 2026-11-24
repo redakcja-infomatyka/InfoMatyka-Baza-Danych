@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2018_podlaskie_q1",
@@ -52,6 +53,11 @@
      "kierunek-relacji"
     ],
     "opis": "Zegarek się śpieszy, więc pokazuje więcej niż rzeczywista godzina; łatwo odjąć zamiast dodać"
+   },
+   "trudnosc": {
+    "logit": 0.02,
+    "procent": 50,
+    "procent_etap": 56
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 10 kg na gramy, zanim zaczniesz dzielić",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.86,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q3",
@@ -133,6 +144,11 @@
      "warunek-istnienia"
     ],
     "opis": "Warunek z nierówności trójkąta daje granicę niecałkowitą i ostrą; łatwo zaokrąglić w złą stronę"
+   },
+   "trudnosc": {
+    "logit": -1.44,
+    "procent": 35,
+    "procent_etap": 42
    }
   },
   {
@@ -173,7 +189,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel figurę na jednakowe kwadraty o boku równym krótszemu bokowi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.04,
+    "procent": 50,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q5",
@@ -211,7 +232,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 3, potem podziel przez x i przenieś a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.8,
+    "procent": 10,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q6",
@@ -251,7 +277,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile wynosi jedna działka osi, i licz odchylenia od 2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q7",
@@ -296,6 +327,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dwa możliwe układy ramion, ale jeden z nich nie spełnia nierówności trójkąta"
+   },
+   "trudnosc": {
+    "logit": -1.65,
+    "procent": 33,
+    "procent_etap": 39
    }
   },
   {
@@ -337,7 +373,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z |AB| = |BD| wyznacz kąt ADB, a z równoramienności — kąty przy A i C",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.63,
+    "procent": 56,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q9",
@@ -381,6 +422,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy liczeniu kolejnych liczb pierwszych łatwo wliczyć 1 albo pominąć 2"
+   },
+   "trudnosc": {
+    "logit": -7.07,
+    "procent": 2,
+    "procent_etap": 3
    }
   },
   {
@@ -426,6 +472,11 @@
      "jednostki"
     ],
     "opis": "Dane jest pole, a skala dotyczy długości; pól nie można porównywać wprost, trzeba wrócić do boku"
+   },
+   "trudnosc": {
+    "logit": -1.51,
+    "procent": 35,
+    "procent_etap": 41
    }
   },
   {
@@ -465,7 +516,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel 96 przez 6, a różnicę kwadratów rozłóż na (b−a)(b+a)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.15,
+    "procent": 29,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q12",
@@ -502,7 +558,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie, ile centymetrów sześciennych ma 1 litr",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.27,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q13",
@@ -539,7 +600,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie liczby na ułamki zwykłe i pilnuj znaku minus",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q14",
@@ -576,7 +642,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czytaj kolejno: najpierw suma, potem sześcian, na końcu podwojenie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.96,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q15",
@@ -615,7 +686,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz objętość pełnego prostopadłościanu i odejmij wycięty klocek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q16",
@@ -652,7 +728,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno każdą wartość bezwzględną, dopiero potem odejmij",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.29,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q17",
@@ -674,7 +755,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź wszystkie części gromadki wspólnym mianownikiem i sprawdź, ile zostaje",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.36,
+    "procent": 53,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q18",
@@ -696,7 +782,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "różnica wieku Zosi i Adama się nie zmienia — porównaj ją w obu momentach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q19",
@@ -717,7 +808,12 @@
     "rozwiazanie_html": "<p><strong>Działka I</strong> (kwadrat): bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>3</mn></math> m, więc pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math> m².</p><p><strong>Działka II</strong>: niech szerokość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>x</mi></math>. Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>x</mi><mo>)</mo><mo>=</mo><mn>12</mn></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2,4</mn></math> m, długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,6</mn></math> m, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,4</mn><mo>·</mo><mn>3,6</mn><mo>=</mo><mn>8,64</mn></math> m².</p><p><strong>Działka III</strong>: niech długość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>y</mi></math>. Z obwodu wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3,5</mn></math> m, szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn></math> m, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mo>·</mo><mn>2,5</mn><mo>=</mo><mn>8,75</mn></math> m².</p><p>Największe pole ma działka w kształcie kwadratu — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn></math> m².</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za metodę obliczenia długości boków prostokątów, 1 pkt za metodę obliczenia pól, 1 pkt za zapisanie, która działka ma największe pole, 1 pkt za poprawność wyniku.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.4,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2018_podlaskie_q20",
@@ -745,6 +841,11 @@
      "o-co-pytaja"
     ],
     "opis": "2,5 min to czas przejazdu całego pociągu, a pytają o maszynistę z przodu; do tego km/h przy minutach i metrach"
+   },
+   "trudnosc": {
+    "logit": 5.03,
+    "procent": 89,
+    "procent_etap": 94
    }
   }
  ]

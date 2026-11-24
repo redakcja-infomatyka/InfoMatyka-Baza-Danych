@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2017-2018_slaskie_q1",
@@ -38,6 +39,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Odjemnik to nie wynik różnicy; liczba 1 nie jest złożona (ani pierwsza)"
+   },
+   "trudnosc": {
+    "logit": 5.18,
+    "procent": 90,
+    "procent_etap": 94
    }
   },
   {
@@ -57,7 +63,22 @@
     "rozwiazanie_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>201</mn></math>. B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3333</mn><mo>−</mo><mo>(</mo><mn>1111</mn><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>3233</mn></math>. C) równy 222,2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>222,2</mn></math>.</p>",
     "punktacja_html": "<p>Za wstawienie nawiasów poprawnie w każdym wyrażeniu — 3 pkt, w dwóch — 2 pkt, w jednym — 1 pkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.64,
+    "procent": 81,
+    "procent_etap": 88
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2016-2017_slaskie_q2",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2016-2017_slaskie_q2",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2017-2018_slaskie_q3",
@@ -95,7 +116,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź pierwszą niedzielę po 7 września i licz co 7 dni, miesiąc po miesiącu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.91,
+    "procent": 68,
+    "procent_etap": 75
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q4",
@@ -139,6 +165,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Po wyłączeniu 2 i 5 zostaje 143 — wygląda na liczbę pierwszą, a rozkłada się dalej"
+   },
+   "trudnosc": {
+    "logit": -3.6,
+    "procent": 17,
+    "procent_etap": 20
    }
   },
   {
@@ -182,6 +213,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trzeba zebrać wszystkie końcówki podzielne przez 4, także z zerem, i pilnować, by cyfra setek ≠ 0"
+   },
+   "trudnosc": {
+    "logit": 6.25,
+    "procent": 94,
+    "procent_etap": 97
    }
   },
   {
@@ -219,7 +255,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "po każdym dolaniu w szklance znów jest 240 ml — licz ułamki wciąż z tej samej liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.86,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q7",
@@ -256,7 +297,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź najpierw, ile pełnych godzin się mieści, bo godzina to 3600 s",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.57,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q8",
@@ -294,7 +340,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz każdą stronę osobno; uważaj na odejmowanie liczby ujemnej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.19,
+    "procent": 20,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q9",
@@ -331,7 +382,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień liczby rzymskie na arabskie i sprawdzaj działania po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q10",
@@ -375,6 +431,11 @@
      "plot-i-slupki"
     ],
     "opis": "Zakres „od 0 do 15” obejmuje 15, która też daje resztę 3"
+   },
+   "trudnosc": {
+    "logit": -5.92,
+    "procent": 5,
+    "procent_etap": 6
    }
   },
   {
@@ -421,6 +482,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pierwszy kawałek to 2/5 metra (długość bezwzględna), a nie 2/5 wstążki; pytają o długość początkową"
+   },
+   "trudnosc": {
+    "logit": 3.99,
+    "procent": 83,
+    "procent_etap": 89
    }
   },
   {
@@ -458,7 +524,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj oba ważenia — różnica to masa 20 kulek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q13",
@@ -496,7 +567,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz końcowy podział 30 monet, a potem cofnij oba przełożenia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.01,
+    "procent": 39,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q14",
@@ -533,7 +609,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozłóż 2000 na czynniki pierwsze i sprawdź, skąd w iloczynie biorą się piątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.31,
+    "procent": 79,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q15",
@@ -571,7 +652,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku mamy i syna się nie zmienia — wykorzystaj ją",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.87,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q16",
@@ -619,6 +705,11 @@
      "procent-podstawa"
     ],
     "opis": "„A stanowi 2/3 B” — porównanie „o ile B większa od A” liczy się względem A, inna część"
+   },
+   "trudnosc": {
+    "logit": 3.21,
+    "procent": 78,
+    "procent_etap": 85
    }
   },
   {
@@ -658,7 +749,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj wykładniki: do NWW bierz większe, do NWD mniejsze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.71,
+    "procent": 56,
+    "procent_etap": 63
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q18",
@@ -703,6 +799,11 @@
      "procent-podstawa"
     ],
     "opis": "30%, 40% i 30% sumują się do 100%, ale każdy procent liczony jest od innej, malejącej kwoty"
+   },
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 88
    }
   },
   {
@@ -724,7 +825,12 @@
     "rozwiazanie_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma miarę 60°, bo to kąt wewnętrzny trójkąta równobocznego. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> wynosi 45°, ponieważ przekątna kwadratu jest nachylona do boku pod takim kątem. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BSC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>30</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>105</mn><mo>°</mo></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ESC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> są kątami przyległymi, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ESC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>105</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p>",
     "punktacja_html": "<ul><li>1 p. za wykonanie rysunku i obliczenie lub zaznaczenie na rysunku miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> oraz kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math>.</li><li>2 p. za poprawną metodę obliczenia miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> lub poprawne zapisanie (bez zapisu działań) miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math>.</li><li>3 p. za poprawne obliczenie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ESC</mi></math>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.29,
+    "procent": 71,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q20",
@@ -746,7 +852,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnicę pól rozbij na dwa prostokąty i kwadracik 5 cm × 5 cm",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2017-2018_slaskie_q21",
@@ -775,6 +886,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dwie możliwe ceny; dolne ograniczenie wynika z tego, że oszczędności Cyryla nie mogą być ujemne"
+   },
+   "trudnosc": {
+    "logit": 5.89,
+    "procent": 93,
+    "procent_etap": 97
    }
   },
   {
@@ -798,7 +914,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, o ile metrów na minutę Dawid zmniejsza dystans; czas Adama licz jego tempem",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.27,
+    "procent": 78,
+    "procent_etap": 85
+   }
   }
  ]
 }

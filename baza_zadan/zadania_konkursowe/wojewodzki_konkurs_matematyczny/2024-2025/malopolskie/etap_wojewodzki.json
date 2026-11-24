@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024-2025_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, której liczby kwadratem jest 2025, i podnieś do kwadratu następną",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.68,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwiń wzór na kwadrat sumy i zauważ, że iloczyn ∛4·∛2 się upraszcza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.37,
+    "procent": 53,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q3",
@@ -124,6 +135,11 @@
      "znak"
     ],
     "opis": "Minus przed kreską ułamkową: po pomnożeniu przez 12 trzeba zmienić znaki całego licznika (3 − 2x)."
+   },
+   "trudnosc": {
+    "logit": 1.35,
+    "procent": 62,
+    "procent_etap": 55
    }
   },
   {
@@ -161,7 +177,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dwuzłotówek jest tyle, co reszty monet razem, więc stanowią połowę wszystkich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q5",
@@ -205,6 +226,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Figura foremna nie musi mieć środka symetrii: pięciokąt foremny i trójkąt równoboczny go nie mają."
+   },
+   "trudnosc": {
+    "logit": 1.69,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -245,7 +271,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "łuk BEC to półokrąg o średnicy BC, a łuk BDC odpowiada kątowi 120°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.55,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q7",
@@ -289,7 +320,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole odcinka koła między cięciwą BC a łukiem BDC to pole wycinka minus pole trójkąta ABC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>120</mn><mn>360</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>sin</mi><mn>120</mn><mo>°</mo><mo>=</mo><mn>12</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Pole półkola BEC o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><mn>27</mn><mo>=</mo><mn>13</mn><mo>,</mo><mn>5</mn><mi>π</mi></math>.</p><p>Pole księżyca K: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>,</mo><mn>5</mn><mi>π</mi><mo>−</mo><mo>(</mo><mn>12</mn><mi>π</mi><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>1</mn><mo>,</mo><mn>5</mn><mi>π</mi><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.66,
+    "procent": 92,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q8",
@@ -338,6 +374,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Odległość od osi to wartość bezwzględna współrzędnej; punkty są we wszystkich czterech ćwiartkach."
+   },
+   "trudnosc": {
+    "logit": 0.41,
+    "procent": 53,
+    "procent_etap": 46
    }
   },
   {
@@ -387,6 +428,11 @@
      "rysunek"
     ],
     "opis": "Słowo „zawsze” w zdaniu I: typowy rysunek z trzema trójkątami równobocznymi to tylko szczególny przypadek."
+   },
+   "trudnosc": {
+    "logit": 7.69,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -430,7 +476,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "punkt symetralnej jest równo oddalony od B i C — z Pitagorasa dla PB kwadraty się skrócą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q11",
@@ -476,6 +527,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pole powierzchni bocznej, a nie całkowitej; wśród wariantów jest wynik z dodaną podstawą."
+   },
+   "trudnosc": {
+    "logit": 4.66,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -525,6 +581,11 @@
      "konwencja"
     ],
     "opis": "Pierwsza cyfra nie może być zerem, a zero może być cyfrą jedności: trzeba rozbić na przypadki."
+   },
+   "trudnosc": {
+    "logit": 2.72,
+    "procent": 74,
+    "procent_etap": 67
    }
   },
   {
@@ -546,7 +607,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Skarpety mają tylko dwa kolory, więc wśród 3 wylosowanych skarpet co najmniej dwie muszą być tego samego koloru (zasada szufladkowa). Odpowiedź: <strong>3</strong>.</p><p><strong>b) I.</strong> W szufladzie A jest tylko 1 biała skarpeta, więc nie można wylosować dwóch białych. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>9</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></math>.</p><p><strong>II.</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>9</mn></mfrac></math>.</p><p><strong>III.</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>20</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>20</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p><p><strong>c)</strong> Po dołożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> białych skarpetek w szufladzie A jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> białych i 9 czarnych skarpet, w sumie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>+</mo><mn>10</mn><mo>)</mo></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mrow><mi>a</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>9</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>10</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>. Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> nie zależy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt (a)</strong></p><ul><li>1 punkt – podanie poprawnej odpowiedzi (3)</li><li>0 punktów – błędna odpowiedź lub brak odpowiedzi</li></ul><p><strong>Podpunkt (b) I</strong></p><ul><li>2 punkty – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet tego samego koloru, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>)</li><li>1 punkt – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet tego samego koloru</li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (b) II</strong></p><ul><li>2 punkty – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet tego samego koloru, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>9</mn></mfrac></math>)</li><li>1 punkt – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet białych lub poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet czarnych</li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (b) III</strong></p><ul><li>2 punkty – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet tego samego koloru, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>)</li><li>1 punkt – poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet białych lub poprawna metoda obliczenia prawdopodobieństwa wylosowania dwóch skarpet czarnych</li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (c)</strong></p><ul><li>3 punkty – pełny poprawny dowód</li><li>2 punkty – zapisanie poprawnego wyrażenia algebraicznego przedstawiającego prawdopodobieństwo wylosowania dwóch skarpet tego samego koloru</li><li>1 punkt – zapisanie poprawnego wyrażenia na prawdopodobieństwo wylosowania jednej białej skarpety z szuflady A</li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Uwaga:</strong></p><ul><li>Jeśli uczeń podał poprawną odpowiedź do podpunktu (a) w części strony zatytułowanej „Rozwiązanie”, a nie w miejscu na to wyznaczonym, otrzymuje 1 punkt za podpunkt (a).</li><li>Jeśli w podpunkcie (c) uczeń oblicza prawdopodobieństwo jedynie dla konkretnych wartości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, to za swoje rozwiązanie otrzymuje 0 punktów.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.89,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2024-2025_malopolskie_q14",
@@ -579,6 +645,11 @@
      "szczegol-bryly"
     ],
     "opis": "Obwód ramy obejmuje też brzeg wewnętrzny; w e) pole bryły obejmuje też ściany wewnętrzne szkieletu."
+   },
+   "trudnosc": {
+    "logit": 8.06,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -606,7 +677,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Wysokość trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> o boku 4 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, a wysokość trójkąta prostokątnego równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> (o przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>4</mn></math>) jest połową przeciwprostokątnej, czyli 2. Pole czworokąta obliczamy odejmując pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>4</mn><mo>=</mo><mn>4</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm².</p><p><strong>b)</strong> Boki czworokąta: dłuższe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mi>CD</mi><mo>=</mo><mn>4</mn></math>, krótsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>BC</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>. Obwód dwunastokąta I składa się z 4 boków dłuższych i 8 boków krótszych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mi>I</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>16</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></math>. Obwód dwunastokąta II składa się z 12 boków krótszych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mi>II</mi></msub><mo>=</mo><mn>12</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>24</mn><msqrt><mn>2</mn></msqrt></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>O</mi><mi>I</mi></msub><msub><mi>O</mi><mi>II</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>24</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msqrt><mn>2</mn></msqrt><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>.</p><p><strong>c)</strong> Długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest sumą wysokości trójkąta równobocznego o boku 4 oraz długości przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm.</p><p><strong>d)</strong> Długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa najkrótszej przekątnej dwunastokąta II, czyli przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm.</p>",
     "punktacja_html": "<p><strong>Podpunkt (a)</strong></p><ul><li>2 punkty – poprawna metoda obliczenia pola czworokąta, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm²)</li><li>1 punkt – poprawna metoda obliczenia pola czworokąta lub poprawne obliczenie pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> lub poprawne obliczenie pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math></li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (b)</strong></p><ul><li>3 punkty – poprawna metoda obliczenia stosunku obwodów dwunastokątów, poprawne obliczenia i podanie poprawnej odpowiedzi w poprawnej postaci (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>)</li><li>2 punkty – poprawna metoda obliczenia obwodów obu dwunastokątów oraz poprawna metoda obliczenia stosunku obwodów dwunastokątów lub poprawne obliczenie obwodu dwunastokąta I oraz obwodu dwunastokąta II</li><li>1 punkt – poprawna metoda obliczenia obwodu dowolnego z dwunastokątów lub poprawne obliczenie długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> lub odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math></li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (c)</strong></p><ul><li>3 punkty – poprawna metoda obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm)</li><li>2 punkty – poprawna metoda obliczenia długości przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i poprawna metoda obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> lub poprawne obliczenie długości przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> lub poprawne obliczenie wysokości trójkąta równobocznego o boku długości 4 cm oraz poprawne obliczenie wysokości trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> opuszczonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math></li><li>1 punkt – poprawna metoda obliczenia długości przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> lub poprawna metoda obliczenia wysokości trójkąta równobocznego o boku długości 4 cm</li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Podpunkt (d)</strong></p><ul><li>2 punkty – poprawna metoda obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, poprawne obliczenia i podanie poprawnej odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math> cm)</li><li>1 punkt – poprawna metoda obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math></li><li>0 punktów – błędne rozwiązanie lub brak rozwiązania</li></ul><p><strong>Uwaga:</strong> Podanie poprawnej odpowiedzi bez odpowiedniej jednostki nie jest uznane za błąd arytmetyczny. Podanie jednostki błędnej jest traktowane jako błąd arytmetyczny.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.53,
+    "procent": 98,
+    "procent_etap": 96
+   }
   }
  ]
 }

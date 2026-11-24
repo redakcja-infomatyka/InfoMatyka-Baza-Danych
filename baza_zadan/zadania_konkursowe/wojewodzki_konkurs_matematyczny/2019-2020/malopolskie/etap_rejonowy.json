@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019-2020_malopolskie_q1",
@@ -53,6 +54,11 @@
      "kwantyfikator"
     ],
     "opis": "„Ponad 100 zł”: wynik dzielenia 100 przez rabat na książkę trzeba zaokrąglić w górę, a nie w dół"
+   },
+   "trudnosc": {
+    "logit": 0.9,
+    "procent": 58,
+    "procent_etap": 59
    }
   },
   {
@@ -89,7 +95,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>EF ma długość 7. Współrzędne dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EG</mi><mo>=</mo><msqrt><mn>10</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FG</mi><mo>=</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></math>. Dla B=(1,2) wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi><mo>=</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi><mo>=</mo><msqrt><mn>10</mn></msqrt></math> — te same długości boków, więc trójkąt EFB jest przystający do EFG.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q3",
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ostatnie cyfry kolejnych potęg dwójki powtarzają się cyklicznie — weź resztę z dzielenia 2019 przez 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.49,
+    "procent": 12,
+    "procent_etap": 13
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q4",
@@ -165,7 +181,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "klocki bez zielonej ściany tworzą w środku mniejszy sześcian",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.87,
+    "procent": 23,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q5",
@@ -202,7 +223,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od liczby uczniów mających jakiekolwiek zwierzę, potem odejmij tych z kotem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.11,
+    "procent": 51,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q6",
@@ -247,6 +273,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nie każda trójka odcinków tworzy trójkąt: trzeba sprawdzić nierówność trójkąta dla każdej trójki"
+   },
+   "trudnosc": {
+    "logit": 1.36,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -283,7 +314,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>9 grudnia 2019 to poniedziałek. Dzień tygodnia przesuwa się o 1 w roku zwykłym i o 2, gdy w międzyczasie wypada 29 lutego. Śledząc kolejne lata do 2030: 9 grudnia wypada w sobotę w 2023 i 2028 roku oraz w niedzielę w 2029 roku — w pozostałych latach to dzień powszedni. Łącznie 3 razy trzeba będzie zrezygnować z tej daty.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.85,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q8",
@@ -320,7 +356,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "k jest równoległa do BC, więc szukany kąt to kąt między BC a prostą prostopadłą do AB",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 64
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023_lubuskie_q28",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q9",
@@ -357,7 +404,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 3795 na czynniki pierwsze i połącz je w dwie liczby dwucyfrowe",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.47,
+    "procent": 64,
+    "procent_etap": 66
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q10",
@@ -397,7 +449,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zauważ, jak przekątna pod kątem 45° wiąże szerokość z wysokością każdego prostokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.2,
+    "procent": 61,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q11",
@@ -439,7 +496,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połącz stosunki w jeden ciąg 1:2:3:4:5 i sprawdź, jaką częścią sumy jest trzeci składnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.09,
+    "procent": 38,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q12",
@@ -480,7 +542,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licz od końca — zacznij od stanu końcowego i odwracaj kolejne przekładania",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.46,
+    "procent": 86,
+    "procent_etap": 87
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q13",
@@ -522,7 +589,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj z tego, że połowa sumy podstaw równa się wysokości, a kąt 45° wiąże przekątną z wysokością",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.75,
+    "procent": 82,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q14",
@@ -563,7 +635,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "suma dwóch kwadratów daje zero tylko wtedy, gdy każdy nawias jest zerem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.96,
+    "procent": 40,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q15",
@@ -582,7 +659,12 @@
     "rozwiazanie_html": "<p>Sprzedano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn><mo>·</mo><mn>250</mn><mo>=</mo><mn>50</mn></math> bombek, pozostało do sprzedania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>200</mn></math> bombek. Sprzedaż 200 bombek powinna przynieść dochód w wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>2400</mn></math> zł. Aby osiągnąć tę kwotę, trzeba sprzedać po 16 zł jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2400</mn><mo>:</mo><mn>16</mn><mo>=</mo><mn>150</mn></math> bombek. Wynika z tego, że popękanych bombek było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>−</mo><mn>150</mn><mo>=</mo><mn>50</mn></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za obliczenie liczby bombek pozostałych do sprzedania (200); 2 pkt za obliczenie dochodu ze sprzedaży pozostałych bombek (2400 zł); 3 pkt za obliczenie liczby bombek dających dochód 2400 zł (150); 4 pkt za pełne, bezbłędne rozwiązanie.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q16",
@@ -610,6 +692,11 @@
      "inne:polozenie-punktu"
     ],
     "opis": "Punkty D i E leżą na przedłużeniach przeciwprostokątnej, a nie na niej; rysunek z D, E wewnątrz daje inny kąt"
+   },
+   "trudnosc": {
+    "logit": 5.6,
+    "procent": 92,
+    "procent_etap": 92
    }
   },
   {
@@ -631,7 +718,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> będzie najmniejszą z rozważanych liczb naturalnych. Jedenaście kolejnych liczb naturalnych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>,</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>n</mi><mo>+</mo><mn>10</mn></math>. Średnia arytmetyczna tych liczb ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mi>n</mi><mo>+</mo><mn>55</mn></mrow><mn>11</mn></mfrac><mo>=</mo><mi>n</mi><mo>+</mo><mn>5</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>1,25</mn><mi>n</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>20</mn></math>. Największa z liczb jest równa 30, natomiast średnia arytmetyczna wynosi 25. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math> odpowiada 100%, to średnia stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2500</mn><mn>30</mn></mfrac><mo>%</mo><mo>=</mo><mn>83,(3)</mn><mo>%</mo><mo>=</mo><mn>83</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></math>.</p>",
     "punktacja_html": "<ul><li>5p – bezbłędne obliczenia prowadzące do podania jakim procentem największej z rozważanych liczb jest średnia arytmetyczna wszystkich rozważanych liczb.</li><li>4p – wyznaczenie największej z rozważanych liczb (30) oraz średniej arytmetycznej rozważanych liczb (25) i poprzestanie na tym.</li><li>3p – obliczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>20</mn></math> i poprzestanie na tym.</li><li>2p – zapisanie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>1,25</mn><mi>n</mi></math> i poprzestanie na tym.</li><li>1p – zapisanie średniej arytmetycznej w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>11</mn><mi>n</mi><mo>+</mo><mn>55</mn></mrow><mn>11</mn></mfrac></math> i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 5 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.84,
+    "procent": 75,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q18",
@@ -657,6 +749,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, o ile prędkość ma być większa od planowanej, a nie jaka ma być ta prędkość"
+   },
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 75
    }
   },
   {
@@ -679,7 +776,12 @@
     "rozwiazanie_html": "<p>Parzystą liczbą pierwszą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>2</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>6</mn></math>. Warunki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>6</mn></math> spełniają pary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>. Otrzymany wielokąt jest czworokątem (trapezem) o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest przekątną kwadratu o boku 5, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> przekątną kwadratu o boku 1. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> j².</p>",
     "punktacja_html": "<ul><li>5p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania pola wielokąta.</li><li>4p – obliczenie pola trapezu z popełnieniem błędów rachunkowych.</li><li>3p – zapisanie poprawnego sposobu obliczenia pola czworokąta ABCD i poprzestanie na tym.</li><li>2p – zaznaczenie punktów A, B, C i D w układzie współrzędnych oraz połączenie ich w czworokąt ABCD (trapez) i poprzestanie na tym.</li><li>1p – wyznaczenie wartości liczb x oraz y i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnych odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 5 punktów.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.78,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2019-2020_malopolskie_q20",
@@ -706,6 +808,11 @@
      "jednostki"
     ],
     "opis": "Dwa układy krawędzi (podstawa i wysokość można zamienić) dają dwa różne pola; przekątna jest w dm"
+   },
+   "trudnosc": {
+    "logit": 7.44,
+    "procent": 97,
+    "procent_etap": 97
    }
   }
  ]

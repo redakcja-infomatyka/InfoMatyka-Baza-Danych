@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź największą trzycyfrową podzielną przez 4, dopisz odbicie i patrz na trzecią cyfrę od końca",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.67,
+    "procent": 33,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy kolejny bit podwaja liczbę możliwości",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.53,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź sam znak każdego wyrażenia; kwadrat liczby różnej od zera jest dodatni",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.74,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q4",
@@ -156,7 +172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź wszystkie trzy potęgi do wspólnej podstawy albo wspólnego wykładnika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.46,
+    "procent": 44,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q5",
@@ -193,7 +214,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź najpierw podzielność przez 4, a potem która cyfra daje sumę cyfr podzielną przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.2,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q6",
@@ -230,7 +256,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 10 minut na sekundy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.93,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q7",
@@ -267,7 +298,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zniżkę licz jako 10% + 10% + 10% + 5% z 240, a dopiero potem resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.91,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q8",
@@ -304,7 +340,26 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień na ułamek niewłaściwy, odwróć go i dopiero na końcu zmień znak",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.46,
+    "procent": 18,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q4",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "szkolny_2019-2020_zachodniopomorskie_q7",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2016-2017_warminsko-mazurskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q9",
@@ -342,7 +397,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna do kwadratu to podwojone pole kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.14,
+    "procent": 14,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q10",
@@ -387,6 +447,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówka godzinowa o 11.20 nie stoi na 11 – przesunęła się o 1/3 godziny"
+   },
+   "trudnosc": {
+    "logit": 1.18,
+    "procent": 61,
+    "procent_etap": 54
    }
   },
   {
@@ -422,7 +487,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Iloczyn cyfr jest największy, gdy cyfry są sobie jak najbliższe i różne od 1. Dla sumy 7 najlepszy rozkład to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn></mrow></math>, iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> — więcej niż da się uzyskać z czterech cyfr sumujących się do 7. Cyfry 2, 2, 3 tworzą trzy liczby: 223, 232, 322 — odpowiedź C.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.17,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q12",
@@ -467,6 +537,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trzeba sprawdzić wszystkie podstawy ostrosłupa i warunek, że długość kawałka to liczba całkowita"
+   },
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -504,7 +579,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, ile najwięcej czerwonych kwiatów może być tulipanami",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 65
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_podkarpackie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q14",
@@ -541,7 +627,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż licznik i mianownik przez √2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.1,
+    "procent": 1,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q15",
@@ -579,7 +670,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oszacuj, ile minut ma doba, a potem rok",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.6,
+    "procent": 43,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q16",
@@ -629,6 +725,11 @@
      "konwencja"
     ],
     "opis": "Definicja trapezu: co najmniej jedna para boków równoległych, więc prostokąt się do niej łapie"
+   },
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -657,6 +758,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "„Jeden z kątów” może być kątem prostym – są dwie konfiguracje, nie tylko dwa kąty ostre"
+   },
+   "trudnosc": {
+    "logit": 6.78,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -679,7 +785,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz kąt AEB — trójkąt ABE wyjdzie równoramienny, a potem spójrz na kąt EBC",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.55,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2020-2021_warminsko-mazurskie_q19",
@@ -707,6 +818,11 @@
      "jednostki"
     ],
     "opis": "Objętość w litrach, krawędź w cm, a wynik w m² – trzy różne jednostki do uzgodnienia"
+   },
+   "trudnosc": {
+    "logit": 3.37,
+    "procent": 79,
+    "procent_etap": 72
    }
   },
   {
@@ -736,6 +852,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o różnicę wieku, nie o wiek; za 10 lat suma rośnie o 20, bo starzeją się obaj"
+   },
+   "trudnosc": {
+    "logit": -0.3,
+    "procent": 46,
+    "procent_etap": 39
    }
   }
  ]

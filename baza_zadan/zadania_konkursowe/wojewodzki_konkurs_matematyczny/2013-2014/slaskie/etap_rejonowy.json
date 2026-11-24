@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2013-2014_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2013-2014_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2013-2014_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania w wierszach i kolumnach. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>5</mn></math>. Do pustych pól należy wpisać kolejno: 6, 10, 5, 5 i 2.</p>",
     "punktacja_html": "<ul><li>Za każdą poprawnie rozwiązaną krzyżówkę – 3 punkty.</li><li>Jeżeli 1 błąd – 2 punkty, a jeżeli 2 błędy – 1 punkt.</li></ul>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 2.01,
+    "procent": 69,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q2",
@@ -50,7 +56,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "patrz, co odejmujesz — nawiasem możesz zmniejszyć albo powiększyć odejmowaną część",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q3",
@@ -88,7 +99,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaką częścią testu jest te 5 pytań bez odpowiedzi",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.74,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q4",
@@ -126,7 +142,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie liczbę wierzchołków, ścian i krawędzi sześcianu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.7,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q5",
@@ -171,6 +192,11 @@
      "jednostki"
     ],
     "opis": "Boki w mm i dm, warianty w cm; różnica boków daje trójkąt zdegenerowany (nierówność ostra)"
+   },
+   "trudnosc": {
+    "logit": -3.41,
+    "procent": 19,
+    "procent_etap": 20
    }
   },
   {
@@ -216,6 +242,11 @@
      "kalendarz-czas"
     ],
     "opis": "Pierwszy dzień ważności liczy się do 30 dni; łatwo dodać 30 do daty, zamiast liczyć włącznie"
+   },
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 42,
+    "procent_etap": 45
    }
   },
   {
@@ -253,7 +284,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy każdej parze figur sprawdź, ile kątów prostych kwadratu zostaje w każdej z części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 66
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q8",
@@ -298,6 +334,11 @@
      "konwencja"
     ],
     "opis": "Pytają o liczbę przeciwną, a wśród wariantów jest odwrotność wyniku"
+   },
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 33
    }
   },
   {
@@ -342,6 +383,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość to cała droga przez cały czas, nie średnia z dwóch prędkości"
+   },
+   "trudnosc": {
+    "logit": -3.47,
+    "procent": 18,
+    "procent_etap": 20
    }
   },
   {
@@ -388,6 +434,11 @@
      "zbior-liczb"
     ],
     "opis": "Wariant spełnia podzielność, ale jedna z cyfr to 1, która nie jest liczbą pierwszą"
+   },
+   "trudnosc": {
+    "logit": -2.69,
+    "procent": 24,
+    "procent_etap": 26
    }
   },
   {
@@ -433,6 +484,11 @@
      "inne:przeciwprostokatna-jako-przyprostokatna"
     ],
     "opis": "Podane boki to najdłuższy i najkrótszy; najdłuższy jest przeciwprostokątną, nie wysokością"
+   },
+   "trudnosc": {
+    "logit": -5.59,
+    "procent": 6,
+    "procent_etap": 8
    }
   },
   {
@@ -470,7 +526,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile basenów oba krany napełnią razem w 6 godzin",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.26,
+    "procent": 28,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q13",
@@ -505,7 +566,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Choroby cywilizacyjne (np. otyłość, cukrzyca, choroby serca) wywołuje przede wszystkim styl życia: złe odżywianie i zbyt mała aktywność fizyczna.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.47,
+    "procent": 18,
+    "procent_etap": 20
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q14",
@@ -524,7 +590,12 @@
     "rozwiazanie_ai_html": "<p>A. Odra i Nysa Łużycka wyznaczają zachodnią granicę Polski — z Niemcami. B. Granica biegnąca grzbietami Tatr to granica ze Słowacją, której stolicą jest Bratysława. C. Na północnym wschodzie Polska graniczy z Litwą.</p>",
     "punktacja_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.54,
+    "procent": 44,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q15",
@@ -543,7 +614,12 @@
     "rozwiazanie_ai_html": "<p>A. Ostrów Tumski i Panorama Racławicka wskazują na Wrocław. B. Nizina Północnopodlaska i sąsiedztwo Narwiańskiego Parku Narodowego wskazują na Białystok. C. Lotnisko Okęcie i funkcja stolicy wskazują na Warszawę.</p>",
     "punktacja_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.47,
+    "procent": 26,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q16",
@@ -562,7 +638,12 @@
     "rozwiazanie_ai_html": "<p>A. Swędzące plamki przechodzące w pęcherzyki z płynem to ospa wietrzna. B. Obrzęk ślinianek przyusznych („gruba szyja”), groźny dla płodności chłopców, to świnka. C. Drobna różowa wysypka, groźna dla kobiet w ciąży, to różyczka. D. Bóle mięśni, gardła, głowy, katar i gorączka to objawy grypy.</p>",
     "punktacja_html": "<ul><li>4 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.62,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q17",
@@ -598,7 +679,12 @@
     "rozwiazanie_ai_html": "<p>1. Żywność ekologiczna, wolna od chemicznych środków ochrony roślin, rzeczywiście sprzyja zdrowiu.</p><p>2. Fast food nie powinien być podstawą diety — jest zbyt tłusty i ubogi w wartości odżywcze.</p><p>3. Awitaminozy powstają z niedoboru witamin, a nie ich nadmiaru.</p><p>4. AIDS wywołuje wirus HIV, a nie bakteria.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q18",
@@ -630,7 +716,12 @@
     "rozwiazanie_ai_html": "<p>1. Tlen i dwutlenek węgla transportują czerwone krwinki (erytrocyty), a nie białe.</p><p>2. Okres rozwoju wewnątrz organizmu matki rzeczywiście nazywamy życiem płodowym.</p><p>3. Rozwijające się barki to jeden z typowych objawów dojrzewania płciowego chłopców.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.66,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q19",
@@ -668,7 +759,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdym przykładzie licz sumę cyfr albo sprawdzaj, czy oba składniki dzielą się przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.69,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q20",
@@ -714,6 +810,11 @@
      "jednostki"
     ],
     "opis": "Pas wzdłuż obwodu: narożniki liczone dwa razy, gdy mnoży się obwód przez szerokość; też ar to 100 m²"
+   },
+   "trudnosc": {
+    "logit": 4.92,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -735,7 +836,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "najpierw z masy całej liny policz jej długość, dopiero potem odejmij odcięty kawałek",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.39,
+    "procent": 53,
+    "procent_etap": 55
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q22",
@@ -756,7 +862,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel sumę krawędzi przez 4 — zostanie suma trzech wymiarów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -4.12,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2013-2014_slaskie_q23",
@@ -777,7 +888,12 @@
     "rozwiazanie_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> prosty, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>⊥</mo><mi>AD</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>47</mn><mo>°</mo><mo>=</mo><mn>43</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> jest naprzemianległy z kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>), zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>DBC</mi><mo>=</mo><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BCD</mi><mo>=</mo><mn>94</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>43</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>86</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>133</mn><mo>°</mo></math>. Pozostałe kąty wewnętrzne trapezu mają miary: 86°, 94° i 133°.</p>",
     "punktacja_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli wykona poprawnie rysunek i obliczy miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>.</li><li>2 punkty otrzymuje uczeń, jeżeli obliczy miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math>.</li><li>3 punkty otrzymuje uczeń, jeżeli obliczy miary kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math>.</li><li>4 punkty otrzymuje uczeń, jeżeli obliczy miary kątów wewnętrznych w trapezie.</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.77,
+    "procent": 75,
+    "procent_etap": 76
+   }
   }
  ]
 }

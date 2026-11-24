@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2018_podlaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie mnóż — policz, ile czynników 5 kryje się w tym iloczynie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q2",
@@ -82,7 +88,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw konkretne liczby, np. m = 100 i p = 10, i sprawdź, który wzór pasuje",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.33,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_zachodniopomorskie_q21",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018_podlaskie_q3",
@@ -121,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz pole większego kwadratu i wyłącz czynnik przed pierwiastek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.1,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q4",
@@ -158,7 +180,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poszukaj odpowiedzi prawdziwej dla dowolnych takich liczb, a do pozostałych znajdź kontrprzykład",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 49,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q5",
@@ -195,7 +222,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Prosta łącząca środki dwóch sąsiednich boków prostokąta 9×12 cm odcina od niego trójkąt prostokątny o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>4,5</mn></mrow></math> cm. Częścią wspólną prostokąta i jego odbicia jest ten trójkąt razem z przystającym odbiciem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>4,5</mn><mo>=</mo><mn>27</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.52,
+    "procent": 86,
+    "procent_etap": 87
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q6",
@@ -233,7 +265,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uprość najpierw √32, √64 i √8, potem wykonaj dzielenie nawiasu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.24,
+    "procent": 47,
+    "procent_etap": 48
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q7",
@@ -270,7 +307,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz to dzielenie jako ułamek i rozbij go na dwa składniki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.18,
+    "procent": 38,
+    "procent_etap": 39
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2014_podlaskie_gim_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018_podlaskie_q8",
@@ -310,7 +358,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pola kwadratów to kwadraty boków — drugą przyprostokątną weź z Pitagorasa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q9",
@@ -348,7 +401,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę wierzchołków, ścian i krawędzi przez liczbę boków podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.12,
+    "procent": 29,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q10",
@@ -394,6 +452,11 @@
      "konwencja"
     ],
     "opis": "Stosunek pól to kwadrat skali, a nie sama skala"
+   },
+   "trudnosc": {
+    "logit": 1.18,
+    "procent": 61,
+    "procent_etap": 62
    }
   },
   {
@@ -440,6 +503,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wysokość 6 cm ma mniejszy trójkąt, a pytają o pole większego"
+   },
+   "trudnosc": {
+    "logit": -0.02,
+    "procent": 49,
+    "procent_etap": 51
    }
   },
   {
@@ -477,7 +545,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz obie prędkości z drogi i czasu, a potem zastanów się, co mówi ich różnica",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.8,
+    "procent": 24,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q13",
@@ -517,7 +590,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź przez wierzchołek kąta x prostą równoległą do k i l",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.59,
+    "procent": 34,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q14",
@@ -555,7 +633,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij krawędź równą 1 i policz objętość sześcianu o krawędzi 1,1",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q15",
@@ -593,7 +676,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na cyfry jedności trzech sześcianów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.48,
+    "procent": 12,
+    "procent_etap": 13
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q16",
@@ -630,7 +718,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuwaj przecinek i o tyle samo zmieniaj wykładnik",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.3,
+    "procent": 20,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q17",
@@ -667,7 +760,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj każdą z liczb ze średnią 2 i zbilansuj niedobory z nadwyżkami",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.97,
+    "procent": 2,
+    "procent_etap": 3
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q18",
@@ -704,7 +802,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "współrzędne środka to średnie współrzędnych końców — licz x i y osobno",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.08,
+    "procent": 8,
+    "procent_etap": 10
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020-2021_wielkopolskie_q13",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018_podlaskie_q19",
@@ -725,7 +834,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AK</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Oba trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBC</mi></math> są więc równoramienne. Oznaczmy kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>DAK</mi><mo>=</mo><mi>γ</mi></mrow></math>, a równe kąty przy podstawie trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Kąt wewnętrzny przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>γ</mi></mrow></math>, więc dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBC</mi></math> z kątami przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>β</mi><mo>+</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>γ</mi><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>2</mn><mi>β</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>2</mn><mi>β</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> tworzą kąt półpełny, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CKD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.21,
+    "procent": 84,
+    "procent_etap": 85
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q20",
@@ -753,6 +867,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Otrzymana liczba wygląda na pierwszą, a ma mały dzielnik"
+   },
+   "trudnosc": {
+    "logit": 5.27,
+    "procent": 90,
+    "procent_etap": 91
    }
   },
   {
@@ -773,7 +892,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj przyrosty parami i podziel przez 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.37,
+    "procent": 19,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2018_podlaskie_q22",
@@ -803,6 +927,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Spadek wody z 99% do 98% wygląda na drobny, a podwaja udział suchej masy"
+   },
+   "trudnosc": {
+    "logit": 1.67,
+    "procent": 66,
+    "procent_etap": 67
    }
   },
   {
@@ -824,7 +953,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Podstawą otrzymanego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest odcinek łączący środki kwadratów zbudowanych na przyprostokątnych; jego długość jest równa przeciwprostokątnej wyjściowego trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> tego trójkąta jest sumą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><msup><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>2</mn></msup><mo>=</mo><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>18</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CD</mi><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Pole otrzymanego trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>36</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.22,
+    "procent": 94,
+    "procent_etap": 95
+   }
   }
  ]
 }

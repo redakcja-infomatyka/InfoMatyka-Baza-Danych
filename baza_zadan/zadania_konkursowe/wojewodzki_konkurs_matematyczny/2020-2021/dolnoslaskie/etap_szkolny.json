@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021_dolnoslaskie_q1",
@@ -52,6 +53,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie liczb od 10 do 31 włącznie: łatwo odjąć końce i zgubić jedną liczbę"
+   },
+   "trudnosc": {
+    "logit": 0.33,
+    "procent": 53,
+    "procent_etap": 60
    }
   },
   {
@@ -91,7 +97,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj osobno CCC i LVI, a zakryty kartonik stoi tuż przed L, więc się odejmuje",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.25,
+    "procent": 47,
+    "procent_etap": 53
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q3",
@@ -135,6 +146,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ostro między k i m (bez końców), i chodzi o wszystkie liczby nieparzyste, nie tylko z cyfr 1, 2, 3"
+   },
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 63,
+    "procent_etap": 71
    }
   },
   {
@@ -171,7 +187,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1 stycznia to poniedziałek, więc 13 stycznia (12 dni później, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> mod </mtext><mn>7</mn><mo>=</mo><mn>5</mn></math>) wypada w sobotę. Każdy kolejny miesiąc przesuwa dzień tygodnia 13. dnia o resztę z dzielenia liczby dni tego miesiąca przez 7. Licząc kolejno wszystkie miesiące, piątek 13. wypada wyłącznie 13 kwietnia i 13 lipca — czyli 2 razy.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q5",
@@ -215,6 +236,11 @@
      "inne:dzielnik-jeden"
     ],
     "opis": "Liczba 1 też jest dzielnikiem jednocyfrowym, łatwo ją pominąć przy wypisywaniu"
+   },
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 58
    }
   },
   {
@@ -252,7 +278,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj każdy ułamek z ½, a te, które są większe, porównaj ze sobą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.13,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q7",
@@ -290,7 +321,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno obie strony każdej równości — wszystkie te pierwiastki wychodzą wymierne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.07,
+    "procent": 60,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q8",
@@ -327,7 +363,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "po każdej osobie licz, ile śliwek zostaje na talerzu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q9",
@@ -367,7 +408,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuń schodki na brzegi — obwód zamienia się w cztery długie boki; potem złóż dwie figury",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.37,
+    "procent": 79,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q10",
@@ -404,7 +450,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmuj od 100 kolejne wielokrotności 11 i patrz, kiedy reszta dzieli się przez 7",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.56,
+    "procent": 43,
+    "procent_etap": 50
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q11",
@@ -441,7 +492,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz długość odcinka AB i podziel ją na pięć części",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.86,
+    "procent": 23,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q12",
@@ -480,7 +536,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech kąt BAD = kąt ABC = α (kąty przy dłuższej podstawie), wtedy kąt ADC = kąt BCD = 180° − α. Ponieważ BA = BD, kąt ADB = α, więc kąt BDC = 180° − 2α. Ponieważ CB = CD, kąt DBC = kąt BDC. Z sumy kątów trójkąta BCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180°</mn><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mn>2</mn><mo>(</mo><mn>180°</mn><mo>−</mo><mn>2</mn><mi>α</mi><mo>)</mo><mo>=</mo><mn>180°</mn></math>, stąd α = 72°. Zatem kąt BAD = 72°, a kąt BCD = 108° ≠ 2 · 72° = 144°, więc zdanie C jest fałszywe.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.7,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q13",
@@ -518,7 +579,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, jak 8 cyfr rozkłada się na trzy kolejne liczby parzyste",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.26,
+    "procent": 85,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q14",
@@ -558,7 +624,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zginanie nie zmienia długości: DA′ = DA, więc dwa boki czworokąta składają się w cały bok trójkąta",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.45,
+    "procent": 80,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q15",
@@ -595,7 +666,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "masa samej skrzynki się nie zmienia — to ona jest stałym punktem odniesienia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q16",
@@ -617,7 +693,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odrzuć końcówki parzyste i piątkę, a resztę przesiej cechą podzielności przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.52,
+    "procent": 80,
+    "procent_etap": 87
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q17",
@@ -638,7 +719,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz blokami — wszystkie liczby o tej samej pierwszej cyfrze stoją obok siebie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 79
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q18",
@@ -667,6 +753,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ile wolniejszej kolejce zostało do końca okrążenia, a nie ile przejechała"
+   },
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -690,7 +781,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz wszystkie trzy kąty przez najmniejszy i skorzystaj z sumy 180°",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.95,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2021_dolnoslaskie_q20",
@@ -717,6 +813,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytania krzyżowe: pole bryły o większej objętości i objętość bryły o mniejszym polu"
+   },
+   "trudnosc": {
+    "logit": 5.1,
+    "procent": 90,
+    "procent_etap": 94
    }
   }
  ]

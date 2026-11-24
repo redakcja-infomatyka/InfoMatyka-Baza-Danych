@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_opolskie_q1",
@@ -48,6 +49,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Odcinek ma też drugą oś symetrii: prostą, na której leży, a nie tylko symetralną"
+   },
+   "trudnosc": {
+    "logit": 1.04,
+    "procent": 59,
+    "procent_etap": 61
    }
   },
   {
@@ -85,7 +91,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij bok kwadratu równy 2 — odcięty trójkąt jest prostokątny równoramienny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.4,
+    "procent": 72,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2025_opolskie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pierwszego równania wyznacz a przez b i podstaw do wyrażenia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2025_opolskie_q4",
@@ -161,6 +177,11 @@
      "kierunek-relacji"
     ],
     "opis": "Dłuższy bok idzie w parze z krótszą wysokością: a·h_a = b·h_b, a nie dopasowanie w kolejności"
+   },
+   "trudnosc": {
+    "logit": 7.15,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -203,6 +224,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prędkość średnia to nie średnia arytmetyczna prędkości przy różnych czasach jazdy"
+   },
+   "trudnosc": {
+    "logit": 2.68,
+    "procent": 74,
+    "procent_etap": 76
    }
   },
   {
@@ -232,6 +258,11 @@
      "o-co-pytaja"
     ],
     "opis": "Cena poprzednia to najniższa cena z ostatnich 30 dni, a nie cena początkowa 480 zł"
+   },
+   "trudnosc": {
+    "logit": 4.43,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -255,7 +286,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "trójkąty AED i ABE mają wspólny wierzchołek A, a podstawy ED i EB na jednej przekątnej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.75,
+    "procent": 92,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2025_opolskie_q8",
@@ -284,6 +320,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ile dni jeszcze zostało po dwóch dniach czytania, a nie ile dni łącznie"
+   },
+   "trudnosc": {
+    "logit": 5.25,
+    "procent": 90,
+    "procent_etap": 91
    }
   },
   {
@@ -305,7 +346,12 @@
     "rozwiazanie_html": "<p>Aby wsunąć taflę przez drzwi „na ukos\", jej krótszy bok musi być krótszy od przekątnej otworu drzwiowego. Krótszy bok tafli ma długość 2,1 m. Przekątna drzwi o wymiarach 2 m na 0,9 m wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>0,9</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>4</mn><mo>+</mo><mn>0,81</mn></mrow></msqrt><mo>=</mo><msqrt><mn>4,81</mn></msqrt></math> m.</p><p>Porównujemy przekątną z krótszym bokiem tafli, podnosząc obie liczby do kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2,1</mn><mn>2</mn></msup><mo>=</mo><mn>4,41</mn></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,81</mn><mo>&gt;</mo><mn>4,41</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>4,81</mn></msqrt><mo>&gt;</mo><mn>2,1</mn></math>. Przekątna drzwi jest więc dłuższa niż krótszy bok tafli.</p><p><strong>Tak</strong>, taflę można wnieść do łazienki przez te drzwi.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>uzasadni, że długość przekątnej drzwi jest większa od długości krótszego boku tafli szkła (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>4,81</mn></msqrt><mo>&gt;</mo><mn>2,1</mn></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,81</mn><mo>&gt;</mo><mn>4,41</mn></math>) – 5p</li><li>zastosuje poprawny sposób obliczenia i porównania, ale popełni błąd rachunkowy – 4p</li><li>obliczy długość przekątnej drzwi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>4,81</mn></msqrt></math> m) – 3p</li><li>zastosuje poprawny sposób obliczenia długości przekątnej drzwi – 2p</li><li>zauważy, że trzeba obliczyć długość przekątnej drzwi – 1p</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.59,
+    "procent": 95,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2025_opolskie_q10",
@@ -336,6 +382,11 @@
      "konwencja"
     ],
     "opis": "Syrop piją dwie siostry dziennie; stosunek 1:7 oznacza 1/8 napoju, a nie 1/7"
+   },
+   "trudnosc": {
+    "logit": 4.21,
+    "procent": 84,
+    "procent_etap": 85
    }
   },
   {
@@ -362,6 +413,11 @@
      "inne:wysokosc-sciany-vs-bryly"
     ],
     "opis": "Wysokość ściany bocznej (trójkąta) to nie wysokość ostrosłupa"
+   },
+   "trudnosc": {
+    "logit": 4.03,
+    "procent": 83,
+    "procent_etap": 84
    }
   }
  ]

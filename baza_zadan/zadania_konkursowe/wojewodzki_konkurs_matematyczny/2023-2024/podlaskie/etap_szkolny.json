@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_podlaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "na każdym z czterech miejsc postaw największą możliwą cyfrę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.39,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q2",
@@ -81,7 +87,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wiersz 1 ma już dwa zera, więc pozostałe dwa pola muszą być jedynkami: 0, 1, 0, 1.</p><p>Kolumna trzecia ma zera w wierszach 1 i 2, więc w wierszach 3 i 4 musi mieć jedynki. W wierszu 3 zostają wtedy pola 0 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> o sumie 0, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math>.</p><p>Kolumna pierwsza ma już dwa zera (wiersze 1 i 3), więc wiersze 2 i 4 mają w niej jedynki. W wierszu 4 (1, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, 1, ?) suma musi wynosić 2, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0</mn></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.18,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q3",
@@ -126,7 +137,18 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite: trzeba policzyć też ujemne i zero, nie tylko dodatnie"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.46,
+    "procent": 18,
+    "procent_etap": 22
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2023-2024_warminsko-mazurskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2023_podlaskie_q4",
@@ -164,7 +186,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odrobił połowę strat, więc ostateczny ubytek to połowa wszystkich strat",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.62,
+    "procent": 34,
+    "procent_etap": 40
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2011-2012_slaskie_q11",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2023_podlaskie_q5",
@@ -203,7 +236,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź osobno oś pionową i poziomą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.64,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q6",
@@ -244,7 +282,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w trapezie równoramiennym kąty przy dłuższej podstawie są równe — dalej suma kątów trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.34,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q7",
@@ -284,6 +327,11 @@
      "inne:niepelne-uzasadnienie"
     ],
     "opis": "Odpowiedź Tak jest prosta, ale uzasadnienie musi wystarczać na 15, a nie tylko na 3 lub 5"
+   },
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 50
    }
   },
   {
@@ -304,7 +352,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "piątka ze środka jest w każdym kwadracie 2 × 2 — porównuj tylko pozostałe trzy liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -7.18,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q9",
@@ -324,7 +377,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dwie proste prostopadłe do tej samej prostej są równoległe",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.1,
+    "procent": 5,
+    "procent_etap": 5
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q10",
@@ -345,7 +403,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 100 na czynniki pierwsze i połącz dwa z nich w jeden czynnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.58,
+    "procent": 6,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q11",
@@ -372,6 +435,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie 'ile razy 10³ większe od 10', a nie ile wynosi 10³"
+   },
+   "trudnosc": {
+    "logit": 2.45,
+    "procent": 72,
+    "procent_etap": 80
    }
   },
   {
@@ -410,6 +478,11 @@
      "o-co-pytaja"
     ],
     "opis": "Zdanie 2 mówi o x pomniejszonym o 1, a nie o samym x"
+   },
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 37
    }
   },
   {
@@ -438,6 +511,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O 12:30 wskazówka godzinowa nie stoi na 12, przesunęła się o pół godziny"
+   },
+   "trudnosc": {
+    "logit": -0.93,
+    "procent": 40,
+    "procent_etap": 46
    }
   },
   {
@@ -463,6 +541,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 1932 jest przestępny, a 29 lutego leży w liczonym przedziale; trzeba też dobrze zliczyć długości miesięcy"
+   },
+   "trudnosc": {
+    "logit": 5.12,
+    "procent": 90,
+    "procent_etap": 94
    }
   },
   {
@@ -492,6 +575,11 @@
      "procent-podstawa"
     ],
     "opis": "20% więcej niż czereśni: procent liczony od liczby czereśni, nie od wiśni ani od całości"
+   },
+   "trudnosc": {
+    "logit": -2.82,
+    "procent": 23,
+    "procent_etap": 27
    }
   },
   {
@@ -516,7 +604,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw trzeci kąt dużego trójkąta — to kąt zewnętrzny małego trójkąta z 25°",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.11,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q17",
@@ -536,7 +629,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "załóż, że wszystkie zwierzęta to kury, i sprawdź, ile nóg brakuje",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.95,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q18",
@@ -556,7 +654,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każde cięcie zwiększa liczbę kawałków dokładnie o jeden",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.44,
+    "procent": 26,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q19",
@@ -583,6 +686,11 @@
      "o-co-pytaja"
     ],
     "opis": "Zbiornik pełny w 1/3, więc płaci się za brakujące 2/3, nie za 1/3"
+   },
+   "trudnosc": {
+    "logit": -5.24,
+    "procent": 8,
+    "procent_etap": 9
    }
   },
   {
@@ -603,7 +711,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukasz najmniejszej wspólnej wielokrotności 4 i 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.46,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q21",
@@ -643,7 +756,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dopełnij figurę do prostokąta i odejmij trójkąty z rogów oraz wcięcie u góry",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 67
+   }
   },
   {
    "id": "szkolny_2023_podlaskie_q22",
@@ -663,7 +781,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z objętości i z sumy krawędzi wyznacz długość krawędzi każdego sześcianu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.51,
+    "procent": 34,
+    "procent_etap": 41
+   }
   }
  ]
 }

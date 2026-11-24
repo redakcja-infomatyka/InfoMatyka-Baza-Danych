@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 46,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015-2016_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015-2016_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2015-2016_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śledź samą różnicę: o ile zmienia ją zmniejszenie odjemnej, a o ile zwiększenie odjemnika",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.17,
+    "procent": 13,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q2",
@@ -90,6 +96,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wzrost o 10% i spadek o 10% wyglądają, jakby się znosiły"
+   },
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 20
    }
   },
   {
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj równania, w którym x znika po wykonaniu działania",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.89,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q4",
@@ -172,6 +188,11 @@
      "jednostki"
     ],
     "opis": "Długości cięciw podane w m, dm, mm i cm; trzeba porównać ze średnicą w jednych jednostkach"
+   },
+   "trudnosc": {
+    "logit": -3.44,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -210,7 +231,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole rombu to bok razy wysokość — przyrównaj je do wzoru na pole trapezu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.16,
+    "procent": 13,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q6",
@@ -247,7 +273,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczby maleją co 3, więc szukaj wzoru z −3x i sprawdź go dla pierwszej pozycji",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.2,
+    "procent": 28,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q7",
@@ -284,7 +315,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma wszystkich krawędzi to cztery razy suma trzech krawędzi z jednego wierzchołka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.65,
+    "procent": 56,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q8",
@@ -329,6 +365,11 @@
      "jednostki"
     ],
     "opis": "Odległość na planie w mm, a warianty odpowiedzi w mm, cm, m i km"
+   },
+   "trudnosc": {
+    "logit": 0.15,
+    "procent": 51,
+    "procent_etap": 43
    }
   },
   {
@@ -372,6 +413,11 @@
      "kwantyfikator"
     ],
     "opis": "Liczba podzielna przez 4 jest też podzielna przez 2, więc podkreślona jest automatycznie dwa razy"
+   },
+   "trudnosc": {
+    "logit": 6.44,
+    "procent": 95,
+    "procent_etap": 92
    }
   },
   {
@@ -407,7 +453,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Aby suma była o 1 większa od sumy zaokrągleń, wszystkie trzy ułamki muszą być zaokrąglane w dół (część dziesiąta mniejsza niż 5), a ich części ułamkowe sumować się do 1. Najmniejszą sumę cyfr dziesiątych daje przeniesienie wartości na dalsze miejsca po przecinku, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,49</mn><mo>+</mo><mn>0,49</mn><mo>+</mo><mn>0,02</mn><mo>=</mo><mn>1</mn></math>. Suma cyfr dziesiątych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>0</mn><mo>=</mo><mn>8</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.21,
+    "procent": 99,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q11",
@@ -436,6 +487,11 @@
      "o-co-pytaja"
     ],
     "opis": "Trójkąt równoboczny tworzą połówki przekątnych, a pytanie dotyczy całej przekątnej"
+   },
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 27
    }
   },
   {
@@ -464,6 +520,11 @@
      "procent-podstawa"
     ],
     "opis": "Podwyżka liczona od ceny po obniżce, więc nie odrabia się jej tym samym procentem"
+   },
+   "trudnosc": {
+    "logit": 1.71,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -486,7 +547,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z wierzchołka krótszej podstawy poprowadź wysokość — odcięty trójkąt ma równe przyprostokątne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.34,
+    "procent": 46,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q14",
@@ -508,7 +574,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź sześcianu ma 4 cm, a dwie ściany pomalowane mają kostki z krawędzi bez narożników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.17,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q15",
@@ -528,7 +599,12 @@
     "rozwiazanie_html": "<p>Suma wszystkich ośmiu liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>2</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>22</mn></math>. Suma znanych liczb to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>&gt;</mo><mi>x</mi></math> i obie liczby są naturalne, jedyna możliwość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn></math>.</p>",
     "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi szukanych liczb, również metodą prób i błędów,</li><li>3p – poprawne rozumowanie pozwalające na wyznaczenie szukanych liczb, jednak w rozwiązaniu zadania uczeń popełnił błędy rachunkowe lub nie uwzględnił warunków zadania, w wyniku czego otrzymał np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math> lub podał, że obie liczby są równe 1,</li><li>2p – poprawne metody prowadzące do obliczenia sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi></math>,</li><li>1p – poprawna metoda ustalenia sumy wszystkich 8 liczb.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.38,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q16",
@@ -549,7 +625,12 @@
     "rozwiazanie_html": "<p>W rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></math> guzików. Stąd w rzędzie 7. jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>7</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>13</mn></math> guzików (a), a w rzędzie 20. jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>20</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>39</mn></math> guzików (b). Liczba guzików w rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> (c). W rzędzie parzystym skrajne guziki są czarne, więc białych jest o jeden mniej niż czarnych; dla parzystego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczba białych guzików wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>1</mn></math> (d).</p>",
     "punktacja_html": "<ul><li><strong>a)</strong> 1p – podanie poprawnej liczby guzików: 13.</li><li><strong>b)</strong> 1p – podanie poprawnej liczby guzików: 39.</li><li><strong>c)</strong> 2p – zapisanie wyrażenia algebraicznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>; 1p – poprawne słowne zapisanie rozumowania, np.: „liczba punktów jest o jeden mniejsza od podwojonego numeru rzędu”.</li><li><strong>d)</strong> 2p – zapisanie wyrażenia algebraicznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>1</mn></math>; 1p – słowne zapisanie, np.: „liczba białych guzików jest o jeden mniejsza od numeru rzędu parzystego”.</li></ul>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 4.65,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2015-2016_malopolskie_q17",
@@ -577,6 +658,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o całą drogę tego dnia (tam i z powrotem); różnica czasu podana w minutach"
+   },
+   "trudnosc": {
+    "logit": 5.5,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -603,6 +689,11 @@
      "warunek-istnienia"
     ],
     "opis": "Woda sięga wyżej niż kostka, więc nie można dzielić przez pole dna pomniejszone o kostkę"
+   },
+   "trudnosc": {
+    "logit": 1.41,
+    "procent": 63,
+    "procent_etap": 55
    }
   },
   {
@@ -622,7 +713,12 @@
     "rozwiazanie_html": "<p>Ponieważ Kuba i Wojtek zapłacili tyle samo, mamy układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>t</mi><mo>+</mo><mn>8</mn><mi>ż</mi><mo>=</mo><mn>16</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>t</mi><mo>+</mo><mn>12</mn><mi>ż</mi><mo>=</mo><mn>16</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> to cena tulipana, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ż</mi></math> cena żonkila. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>1,60</mn></math> zł i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ż</mi><mo>=</mo><mn>0,80</mn></math> zł. Janek za 5 tulipanów i 9 żonkili zapłaciłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>1,60</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0,80</mn><mo>=</mo><mn>15,20</mn></math> zł, czyli więcej niż 15 zł — <strong>nie wystarczy</strong>.</p>",
     "punktacja_html": "<ul><li>4p – poprawne rozumowanie zakończone zapisaniem właściwego wniosku,</li><li>3p – poprawne ustalenie sposobu obliczenia ceny, którą musi zapłacić Janek,</li><li>2p – zapisanie, że za 16 zł można kupić 20 żonkili i za 16 zł można kupić 10 tulipanów lub ułożenie poprawnego równania z jedną niewiadomą lub w metodzie z dwiema niewiadomymi obliczenie ceny obu kwiatków,</li><li>1p – stwierdzenie, że dwa tulipany kosztują tyle samo co 4 żonkile lub ułożenie poprawnego układu równań,</li><li>0p – rozwiązanie błędne, brak rozwiązania lub zapisanie tylko poprawnej odpowiedzi bez uzasadnienia.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.26,
+    "procent": 71,
+    "procent_etap": 64
+   }
   }
  ]
 }

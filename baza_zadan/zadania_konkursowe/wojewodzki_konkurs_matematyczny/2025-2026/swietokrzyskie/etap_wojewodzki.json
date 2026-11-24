@@ -8,6 +8,7 @@
  "liczba_zadan": 13,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025-2026_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025-2026_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025-2026_swietokrzyskie_q1",
@@ -51,6 +52,11 @@
      "plot-i-slupki"
     ],
     "opis": "Najmniejsza taka liczba to sama 3 (iloraz 0), łatwo zacząć od 10"
+   },
+   "trudnosc": {
+    "logit": 0.28,
+    "procent": 52,
+    "procent_etap": 45
    }
   },
   {
@@ -88,6 +94,11 @@
      "procent-podstawa"
     ],
     "opis": "Zdanie 1 odwraca relację: jakim procentem a jest b, a nie b jakim procentem a"
+   },
+   "trudnosc": {
+    "logit": 0.81,
+    "procent": 57,
+    "procent_etap": 50
    }
   },
   {
@@ -130,6 +141,11 @@
      "plot-i-slupki"
     ],
     "opis": "Wielokrotności 100 wśród czterocyfrowych: 9000/100 albo okrągłe 100 zamiast liczenia od 1000 do 9900"
+   },
+   "trudnosc": {
+    "logit": 6.77,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -167,7 +183,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wykładnik jest parzysty, więc to kwadrat — przypomnij sobie, na jakie cyfry kończą się kwadraty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.36,
+    "procent": 53,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2025-2026_swietokrzyskie_q5",
@@ -212,6 +233,11 @@
      "inne:suma-wiekow-rosnie-o-2"
     ],
     "opis": "Łączny wiek dwóch osób rośnie o 2 lata na każdy rok"
+   },
+   "trudnosc": {
+    "logit": 0.58,
+    "procent": 55,
+    "procent_etap": 48
    }
   },
   {
@@ -253,6 +279,11 @@
      "procent-podstawa"
     ],
     "opis": "Zielone to 25% żółtych, nie 25% wszystkich piłeczek; zdanie 1 podaje wynik od złej podstawy"
+   },
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 39
    }
   },
   {
@@ -294,6 +325,11 @@
      "konwencja"
     ],
     "opis": "Mediana wymaga uporządkowania liczb; wartość w zdaniu 2 to średnia środkowych z nieposortowanego zapisu"
+   },
+   "trudnosc": {
+    "logit": 1.38,
+    "procent": 63,
+    "procent_etap": 55
    }
   },
   {
@@ -333,7 +369,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wysokość i krótsza podstawa dają trójkąt prostokątny równoramienny: krótsza podstawa = 5 cm, przekątna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. To przyprostokątna drugiego takiego trójkąta, więc dłuższa podstawa = 10 cm.</p><ul><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>37,5</mn></math> cm².</li><li>Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math> cm.</li><li>Suma obwodów obu trójkątów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>+</mo><mn>15</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>41,2</mn></math> cm – więcej niż 35.</li><li>Kąt ostry trapezu (przy dłuższej podstawie) ma 45°.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.61,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2025-2026_swietokrzyskie_q9",
@@ -376,6 +417,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z trójkąta prostokątnego wychodzi połowa cięciwy; zdanie 1 myli długość okręgu z polem koła"
+   },
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -411,7 +457,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinek AS to połowa przekątnej — z przekątnej wyliczysz bok i pole",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.89,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2025-2026_swietokrzyskie_q11",
@@ -457,6 +508,11 @@
      "szczegol-bryly"
     ],
     "opis": "Liczba wierzchołków ostrosłupa to wierzchołki podstawy plus wierzchołek główny"
+   },
+   "trudnosc": {
+    "logit": 0.63,
+    "procent": 56,
+    "procent_etap": 48
    }
   },
   {
@@ -501,6 +557,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pole powierzchni bocznej (3 ściany czworościanu), nie całkowitej"
+   },
+   "trudnosc": {
+    "logit": -1.27,
+    "procent": 37,
+    "procent_etap": 30
    }
   },
   {
@@ -541,6 +602,11 @@
      "znak"
     ],
     "opis": "Kwadrat liczby ujemnej: (−2)² a nie −2²"
+   },
+   "trudnosc": {
+    "logit": -2.3,
+    "procent": 28,
+    "procent_etap": 22
    }
   }
  ]

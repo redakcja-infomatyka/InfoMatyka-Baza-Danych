@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 38,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pierwszą cyfrą może być tylko 1 albo 2 — rozważ oba przypadki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q2",
@@ -89,6 +95,11 @@
      "o-co-pytaja"
     ],
     "opis": "Okrąg wpisany, nie opisany; dane wierzchołki są przeciwległe, więc odcinek AC to przekątna, a nie bok"
+   },
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 50,
+    "procent_etap": 42
    }
   },
   {
@@ -135,6 +146,11 @@
      "plot-i-slupki"
     ],
     "opis": "Spójnik „lub”: liczba podzielna przez 7 i 11 liczy się raz; liczb dwucyfrowych jest 90, nie 89"
+   },
+   "trudnosc": {
+    "logit": 2.66,
+    "procent": 74,
+    "procent_etap": 67
    }
   },
   {
@@ -173,7 +189,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź długość okresu rozwinięcia i weź resztę z dzielenia 313 przez tę długość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.21,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q5",
@@ -213,7 +234,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt ostry ma 30° — rzut ramienia na dłuższą podstawę licz z trójkąta 30-60-90",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 61,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q6",
@@ -251,7 +277,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "krawędzie nic nie wnoszą — sprawdź osobno przekątne ścian i przekątne sześcianu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.39,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q7",
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podnieś oba równania do kwadratu i wyznacz a oraz c, dopiero potem sprawdzaj odpowiedzi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.74,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q8",
@@ -310,7 +346,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij bok kwadratu za 3 i ułóż równanie na obwody",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.63,
+    "procent": 81,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q9",
@@ -332,7 +373,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj Pitagorasa dla połowy cięciwy — drugą przyprostokątną zapisz jako R − 2",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.89,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q10",
@@ -353,7 +399,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofaj zmiany po kolei: podziel przez 0,7, potem przez 0,8, na końcu przez 1,1",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.32,
+    "procent": 27,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q11",
@@ -373,7 +424,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Podnosimy równanie obustronnie do kwadratu. Lewa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>−</mo><mn>2</mn><msqrt><mrow><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></msqrt><mo>+</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>4</mn><mo>−</mo><mn>2</mn><msqrt><mrow><mn>4</mn><mo>−</mo><mn>3</mn></mrow></msqrt><mo>=</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn></math>. Prawa strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mi>P</mi></math>, co kończy dowód.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.44,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q12",
@@ -399,6 +455,11 @@
      "procent-podstawa"
     ],
     "opis": "Po usunięciu żarówek zmienia się podstawa procentu – 2% liczy się od pozostałej partii, nie od 40 000"
+   },
+   "trudnosc": {
+    "logit": 5.04,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -421,7 +482,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kąt oparty na średnicy jest prosty, więc to spodek wysokości — użyj rzutów przyprostokątnych",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.88,
+    "procent": 88,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q14",
@@ -449,7 +515,18 @@
      "jednostki"
     ],
     "opis": "Jeden wymiar zbiornika podany w metrach, dwa w decymetrach"
-   }
+   },
+   "trudnosc": {
+    "logit": 3.83,
+    "procent": 82,
+    "procent_etap": 76
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023-2024_slaskie_q19",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2019-2020_zachodniopomorskie_q15",
@@ -479,6 +556,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pytają „o ile procent wzrosła”, a nie „do ilu procent”; objętość nie rośnie o tyle samo co pole"
+   },
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 68
    }
   }
  ]

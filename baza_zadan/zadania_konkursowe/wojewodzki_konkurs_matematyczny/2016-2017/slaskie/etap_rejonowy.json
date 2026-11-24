@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016-2017_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016-2017_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2016-2017_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p><strong>POZIOMO:</strong> B = 100 (najmniejsza liczba trzycyfrowa); C = 45 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>5</mn></math>); D = 63 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>:</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>21</mn><mo>:</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>36</mn><mo>−</mo><mn>36</mn><mo>)</mo><mo>=</mo><mn>9</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>63</mn></math>); G = 909 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>+</mo><mn>9</mn></math>); J = 64 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>:</mo><mn>0,25</mn></math>); K = 27 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>:</mo><mn>2</mn></math>); L = 250 (połowa z połowy 1000).</p><p><strong>PIONOWO:</strong> A = 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>12</mn></math>); C = 44 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>22</mn></math>); E = 35 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>7</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>); F = 101 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>); H = 16 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn></math>); I = 67 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>33</mn></math>); M = 50 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>:</mo><mn>10</mn></math>).</p>",
     "punktacja_html": "<p>Za 14 poprawnych wyników uczeń otrzymuje 7 punktów, za 13 – 6 punktów, za 12 – 5 punktów, za 11 lub 10 – 4 punkty, za 9 lub 8 - 3 punkty, za 7 lub 6 – 2 punkty, za 5 lub 4 – 1 punkt</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 1.85,
+    "procent": 67,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q2",
@@ -59,6 +65,11 @@
      "inne:wynik-ujemny"
     ],
     "opis": "Najmniejszy wynik może być ujemny; trzeba nawiasem zrobić z odejmowania mnożnik"
+   },
+   "trudnosc": {
+    "logit": 6.15,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -96,7 +107,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel sumę przez 3 — to środkowa z tych liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.81,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q4",
@@ -140,6 +156,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wśród wariantów jest liczba monet drugiego rodzaju; łatwo podać tę, którą wyliczyło się najpierw"
+   },
+   "trudnosc": {
+    "logit": -3.45,
+    "procent": 18,
+    "procent_etap": 20
    }
   },
   {
@@ -178,7 +199,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień kilometry na metry, a godzinę na sekundy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.75,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q6",
@@ -223,6 +249,11 @@
      "konwencja"
     ],
     "opis": "Stosunek pól to kwadrat skali; skala dotyczy długości, nie pól"
+   },
+   "trudnosc": {
+    "logit": -3.53,
+    "procent": 18,
+    "procent_etap": 19
    }
   },
   {
@@ -260,7 +291,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomyśl o najgorszym przypadku — ile kul da się wyjąć, nie mając trzech w jednym kolorze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q8",
@@ -304,6 +340,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wygląda na dwa kąty proste co godzinę, ale wskazówki się nie zgadzają z tym rytmem"
+   },
+   "trudnosc": {
+    "logit": 6.06,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -340,7 +381,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Aby żadne dwie cięciwy się nie przecinały, muszą tworzyć triangulację 10-kąta: n=10 boków oraz n−3=7 przekątnych, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>17</mn></math> odcinków.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 7.53,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q10",
@@ -378,7 +424,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij wagę Basi jako 2 części i wyraź w tych częściach wagi pozostałych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.77,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q11",
@@ -422,6 +473,11 @@
      "o-co-pytaja"
     ],
     "opis": "Najpierw wychodzi cena zeszytu i ona też stoi wśród wariantów, a pytają o długopis"
+   },
+   "trudnosc": {
+    "logit": -3.74,
+    "procent": 16,
+    "procent_etap": 18
    }
   },
   {
@@ -459,7 +515,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "popatrz na cyfrę jedności: to, co zostaje po dużych skrzynkach, musi dzielić się przez 10",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.71,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q13",
@@ -497,7 +558,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "co 35 liczb wzór się powtarza — policz, ile liczb zostaje w jednym takim bloku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.28,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q14",
@@ -534,7 +600,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj długości stycznia, lutego w roku przestępnym i marca",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.12,
+    "procent": 29,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q15",
@@ -571,7 +642,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w co drugim domu posadź tylko jedną osobę, a resztę dopchnij do limitu pary",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.6,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q16",
@@ -615,6 +691,11 @@
      "kwantyfikator"
     ],
     "opis": "Słowo zawsze: jeden pasujący przykład (klasa z pkt 1) nie wystarcza, warunki dopuszczają wiele klas"
+   },
+   "trudnosc": {
+    "logit": 7.3,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -653,7 +734,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile kilometrów przypada na jedną minutę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.71,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q18",
@@ -692,7 +778,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola trójkąta AED wyznacz najpierw krótszy bok prostokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.21,
+    "procent": 70,
+    "procent_etap": 72
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q19",
@@ -714,7 +805,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułóż równanie: połowa wieku plus 13 to wiek minus 8",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.62,
+    "procent": 25,
+    "procent_etap": 27
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q20",
@@ -736,7 +832,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz koszt jednej grupy: dorosły i czworo dzieci",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.08,
+    "procent": 29,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2016-2017_slaskie_q21",
@@ -764,6 +865,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wymiary trzeba podać w cm, a nie w liczbie małych sześcianów; trzeba też podać obie możliwości"
+   },
+   "trudnosc": {
+    "logit": 4.52,
+    "procent": 87,
+    "procent_etap": 88
    }
   },
   {
@@ -785,7 +891,12 @@
     "rozwiazanie_html": "<p>Ponieważ trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mi>BC</mi></math>) i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi><mo>=</mo><mn>40</mn><mo>°</mo></math>, kąty przy podstawie mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>40</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>70</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BAC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ABC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>70</mn><mo>°</mo></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> prosty) kąty mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BAD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>20</mn><mo>°</mo></math>. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest dwusieczną kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BAE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mn>70</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>35</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DAE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>35</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></math>.</p>",
     "punktacja_html": "<p>Schemat punktowania: 1 pkt za poprawny rysunek trójkąta z wysokością i daną prostą, 1 pkt za poprawną metodę obliczenia miar kątów w trójkącie ABD lub AEC, 1 pkt za poprawną metodę obliczenia miary kąta DAE, 1 pkt za poprawny wynik.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.2,
+    "procent": 78,
+    "procent_etap": 79
+   }
   }
  ]
 }

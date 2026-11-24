@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021-2022_slaskie_q1",
@@ -30,7 +31,12 @@
     "rozwiazanie_html": "<p>Kolejne hasła krzyżówki: <strong>1)</strong> KWADRAT, <strong>2)</strong> MEDIANA, <strong>3)</strong> PRZEKĄTNA, <strong>4)</strong> KĄTY WIERZCHOŁKOWE, <strong>5)</strong> PROCENT, <strong>6)</strong> HEKTAR, <strong>7)</strong> SZEŚCIAN, <strong>8)</strong> PROMIEŃ, <strong>9)</strong> PRZECIWPROSTOKĄTNA, <strong>10)</strong> SZEŚCIOKĄT, <strong>11)</strong> ŚREDNICA. Litery z zacieniowanej kolumny czytane z góry na dół tworzą hasło (nieoceniane): A. A. KOCHAŃSKI, czyli inicjały imion i nazwisko Adama Adamandego Kochańskiego – polskiego matematyka żyjącego w XVII wieku.</p>",
     "punktacja_html": "<p>Za każde poprawnie uzupełnione pole przyznaje się 1 punkt (łącznie 11 pkt).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 8.35,
+    "procent": 99,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q2",
@@ -53,7 +59,12 @@
     "rozwiazanie_html": "<p>Kolejne pola krzyżówki: <strong>1)</strong> 2, <strong>2)</strong> 3, <strong>3)</strong> 567890, <strong>4)</strong> 0, <strong>5)</strong> 3600, <strong>6)</strong> 777, <strong>7)</strong> 9, <strong>8)</strong> 27, <strong>9)</strong> 17, <strong>10)</strong> 4, <strong>11)</strong> 49. Cyfry z zacieniowanej kolumny czytane z góry na dół tworzą początek rozwinięcia dziesiętnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>2,23606797749</mn><mo>…</mo></math> (hasło nieoceniane).</p>",
     "punktacja_html": "<p>Za każde poprawnie uzupełnione pole przyznaje się 1 punkt (łącznie 11 pkt).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 6.35,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q3",
@@ -90,7 +101,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każdą zmianę ceny zapisz jako mnożenie przez ustalony czynnik i przyjrzyj się kolejności",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.09,
+    "procent": 21,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q4",
@@ -129,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w liczniku wzór (a−b)(a+b), potem usuń niewymierność z mianownika",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.61,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q5",
@@ -167,7 +188,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z ramienia i wysokości wyznacz odsunięcie podstawy, a pole licz jako średnia podstaw razy wysokość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q6",
@@ -212,6 +238,11 @@
      "konwencja"
     ],
     "opis": "Dłuższy okres wygląda na większą liczbę, a trzeba porównać rozwinięcia cyfra po cyfrze"
+   },
+   "trudnosc": {
+    "logit": 2.82,
+    "procent": 75,
+    "procent_etap": 68
    }
   },
   {
@@ -250,7 +281,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "od prostokąta odetnij trzy narożne trójkąty i wyraź ich pola ułamkami pola prostokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q8",
@@ -287,7 +323,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy sumie cyfr równej 2 takie liczby są tylko trzy — wypisz je i sprawdź",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.56,
+    "procent": 25,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q9",
@@ -333,6 +374,11 @@
      "znak"
     ],
     "opis": "a i b są całkowite, więc mogą być ujemne, a dla ujemnych nierówność kwadratów i mnożenie przez a odwracają się"
+   },
+   "trudnosc": {
+    "logit": 4.0,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -378,6 +424,11 @@
      "warunek-istnienia"
     ],
     "opis": "Rozkład 12 na czynniki (x−y)(x+y) musi dać liczby naturalne, więc oba czynniki muszą mieć tę samą parzystość"
+   },
+   "trudnosc": {
+    "logit": 4.06,
+    "procent": 84,
+    "procent_etap": 78
    }
   },
   {
@@ -423,6 +474,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dwa równe boki wystarczą, by uznać trójkąt za równoramienny, a trzeba jeszcze sprawdzić nierówność trójkąta"
+   },
+   "trudnosc": {
+    "logit": 4.06,
+    "procent": 84,
+    "procent_etap": 78
    }
   },
   {
@@ -459,7 +515,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ola ma 7 cukierków czekoladowych, więc Ala ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>14</mn></math>. Owocowe i czekoladowe Ali to razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>28</mn></math>, czyli 70% jej cukierków, więc wszystkich ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>:</mo><mn>0,7</mn><mo>=</mo><mn>40</mn></math>, w tym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>12</mn></math> toffi. Ola też ma 40 cukierków: owocowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>24</mn></math>, czekoladowych 7, toffi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>−</mo><mn>24</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>9</mn></math>.</p><ul><li>U Ali: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>14</mn><mn>40</mn></mfrac><mo>=</mo><mfrac><mn>14</mn><mn>40</mn></mfrac></math> — <b>P</b>.</li><li>Toffi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>40</mn></mfrac><mo>≠</mo><mfrac><mn>12</mn><mn>40</mn></mfrac></math> — <b>F</b>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>40</mn></mfrac><mo>=</mo><mn>0,3</mn></math> — <b>P</b>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>26</mn></math> u Ali, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>16</mn></math> u Oli — <b>F</b>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.62,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q13",
@@ -485,6 +546,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prostokąty nie są podobne, więc stosunku pól nie dostaje się przez podniesienie stosunku obwodów do kwadratu"
+   },
+   "trudnosc": {
+    "logit": 3.63,
+    "procent": 81,
+    "procent_etap": 74
    }
   },
   {
@@ -505,7 +571,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> będzie spodkiem wysokości opuszczonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><mn>4</mn></math> cm. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma 45°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi><mo>=</mo><mi>DC</mi><mo>=</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma 30°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>2</mn><mo>·</mo><mi>DC</mi><mo>=</mo><mn>8</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn><mo>=</mo><mn>4</mn><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>8</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></math>. Odpowiedź: obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math> cm, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.89,
+    "procent": 76,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q15",
@@ -523,7 +594,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi><mo>=</mo><mi>EB</mi><mo>=</mo><mn>8</mn></math> cm. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi><mo>=</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></math> cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> jest przeciwprostokątną trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn></math> cm. Aby wyznaczyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, opuszczamy z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> wysokość na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi><mo>=</mo><mi>DE</mi><mo>=</mo><mn>6</mn></math> cm, a rzut poziomy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AP</mi><mo>=</mo><mn>8</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>24</mn></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>24</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>612</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>17</mn></msqrt></math> cm. Odpowiedź: przekątne mają długości 10 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>17</mn></msqrt></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2021-2022_slaskie_q16",
@@ -552,7 +628,18 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie dotyczy odległości od punktu B, a naturalnie liczy się drogę wolniejszego biegacza od A"
-   }
+   },
+   "trudnosc": {
+    "logit": 4.46,
+    "procent": 86,
+    "procent_etap": 81
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_slaskie_q18",
+     "rodzaj": "to_samo"
+    }
+   ]
   }
  ]
 }

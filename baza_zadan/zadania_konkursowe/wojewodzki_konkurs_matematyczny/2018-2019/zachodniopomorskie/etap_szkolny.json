@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 26,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q1",
@@ -56,6 +57,11 @@
      "kwantyfikator"
     ],
     "opis": "„Ile MOŻE być” – wynik zależy od liczby, od której się zaczyna; trzeba podać oba przypadki"
+   },
+   "trudnosc": {
+    "logit": -0.26,
+    "procent": 46,
+    "procent_etap": 53
    }
   },
   {
@@ -100,7 +106,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpatrz samą górną połowę prostokąta, dolna jest jej obrotem — policz pole trapezu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.41,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q3",
@@ -149,6 +160,11 @@
      "jednostki"
     ],
     "opis": "W C łatwo policzyć a+b (półobwód) zamiast obwodu; w D ary mylone z hektarami"
+   },
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -198,6 +214,11 @@
      "warunek-istnienia"
     ],
     "opis": "Odcinki 1, 2, 3 i np. 2017, 2018, 1 dają trójkąt zdegenerowany – nierówność trójkąta jest ostra"
+   },
+   "trudnosc": {
+    "logit": 4.64,
+    "procent": 87,
+    "procent_etap": 92
    }
   },
   {
@@ -237,7 +258,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr, razem 189 do strony 99. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>390</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>201</mn></mrow></math> cyfr na strony trzycyfrowe, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>201</mn><mo>÷</mo><mn>3</mn><mo>=</mo><mn>67</mn></mrow></math> stron — książka ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>99</mn><mo>+</mo><mn>67</mn><mo>=</mo><mn>166</mn></mrow></math> stron. Cyfra 6 na miejscu jedności występuje w liczbach 6, 16, …, 166 — 17 razy. Na miejscu dziesiątek — w przedziale 60–69 (10 razy) i 160–166 (7 razy) — też 17 razy. Setek z cyfrą 6 nie ma. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>+</mo><mn>17</mn><mo>=</mo><mn>34</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.78,
+    "procent": 93,
+    "procent_etap": 96
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q6",
@@ -278,7 +304,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmij 1 od każdego wyrazu i zobacz, co zostaje",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.71,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q7",
@@ -319,7 +350,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w każdym iloczynie wyłącz 11 i 111, porównaj tylko iloczyny cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.75,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q8",
@@ -360,7 +396,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz warunek jako 1/x = 4x",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.42,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q9",
@@ -401,7 +442,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wszędzie stoją te same cyfry 2018 — porównaj tylko liczbę miejsc po przecinku u góry i na dole",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.62,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q10",
@@ -442,7 +488,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, kąty przy ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> sumują się do 180°, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>DC</mi></mrow></math>) z kątem 120° przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, więc kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> mają po 30°, skąd kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> (naprzemianległy do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math>) też ma 30°. Z twierdzenia cosinusów w trójkątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>BC</mi></mrow></math>, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> równa się kątowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, czyli wynosi 30°.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.89,
+    "procent": 88,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q11",
@@ -483,7 +534,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pola już zamalowane wraz ze wszystkimi polami, które się z nimi stykają (także po przekątnej), tworzą zablokowany obszar. Wolne zostają: w wierszach 1 i 2 kolumny 3–5, a w kolumnach 4 i 5 wszystkie pięć wierszy. Poziomy pasek 3 kratek mieści się tylko w wierszu 1 i w wierszu 2 (kolumny 3–5) — 2 sposoby. Pionowy pasek 3 kratek mieści się w kolumnie 4 i w kolumnie 5, każda daje 3 położenia (wiersze 1–3, 2–4, 3–5) — 6 sposobów. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>8</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q12",
@@ -522,7 +578,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Zamieniamy na ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,2</mn><mo>=</mo><mfrac><mn>81</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>3</mn></mfrac></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>243</mn><mn>15</mn></mfrac><mo>−</mo><mfrac><mn>65</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>178</mn><mn>15</mn></mfrac></mrow></math>. Kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>31684</mn><mn>225</mn></mfrac><mo>=</mo><mn>140</mn><mfrac><mn>184</mn><mn>225</mn></mfrac></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.12,
+    "procent": 70,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q13",
@@ -572,6 +633,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Oprócz linii środkowych i przekątnych działa każda para prostopadłych prostych przez środek"
+   },
+   "trudnosc": {
+    "logit": 5.5,
+    "procent": 92,
+    "procent_etap": 96
    }
   },
   {
@@ -613,7 +679,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śliwki to brakujące procenty — najpierw dopełnij 40% i 30% do całości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.88,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q15",
@@ -655,7 +726,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jak zmieniają się końcówki kolejnych potęg 9, i czy wykładnik jest parzysty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.02,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q16",
@@ -677,7 +753,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno a i c — dzielenie przez 1/3² to mnożenie przez 9, potem patrz na sumę cyfr",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.22,
+    "procent": 84,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2018-2019_zachodniopomorskie_q17",
@@ -698,7 +779,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Oznaczmy sąsiednie boki równoległoboku przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z obwodu 220 cm wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>110</mn></mrow></math>. Dwa trójkąty mające wspólny bok (przekątną) różnią się obwodami o różnicę długości boków równoległoboku, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>70</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>40</mn></mrow></math> cm.</p><p><strong>b)</strong> Pole równoległoboku obliczamy z pierwszej wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>70</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>1750</mn></mrow></math> cm². Druga wysokość opada na bok 40 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1750</mn><mo>÷</mo><mn>40</mn><mo>=</mo><mn>43,75</mn></mrow></math> cm. (Jeśli wysokość 25 cm opada na bok 40 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>40</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>1000</mn></mrow></math> cm², a druga wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>÷</mo><mn>70</mn><mo>=</mo><mfrac><mn>100</mn><mn>7</mn></mfrac></mrow></math> cm.)</p>",
     "punktacja_html": "<p>Punktacja: a) 1 pkt za zależność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>110</mn></mrow></math>, 1 pkt za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>30</mn></mrow></math>, 1 pkt za długości boków 70 cm i 40 cm; b) 1 pkt za pole, 1 pkt za sposób obliczenia drugiej wysokości, 1 pkt za poprawność rachunkową.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.24,
+    "procent": 90,
+    "procent_etap": 94
+   }
   }
  ]
 }

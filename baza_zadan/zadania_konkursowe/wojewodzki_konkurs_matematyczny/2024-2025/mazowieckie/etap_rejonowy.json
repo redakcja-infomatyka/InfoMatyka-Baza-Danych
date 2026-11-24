@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024_mazowieckie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość na trasie to nie średnia arytmetyczna prędkości na odcinkach"
+   },
+   "trudnosc": {
+    "logit": 3.25,
+    "procent": 78,
+    "procent_etap": 80
    }
   },
   {
@@ -92,7 +98,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt 28° przenieś na AED jako naprzemianległy, dalej AE=DE; równoległobok sprawdź sumą kątów przy CD",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.81,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2024_mazowieckie_q3",
@@ -129,6 +140,11 @@
      "inne:siebie-nie-liczy"
     ],
     "opis": "Siostry Ani to nie siostry Pawła; liczba sióstr dziecka nie obejmuje jego samego"
+   },
+   "trudnosc": {
+    "logit": 4.81,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -150,7 +166,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Usuwamy niewymierność z mianownika, mnożąc ułamek przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mn>5</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>4</mn><mo>)</mo></mrow><mrow><mn>5</mn><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></mrow><mn>1</mn></mfrac><mo>=</mo><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Zatem całe wyrażenie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>18</mn></mrow></math>, czyli jest liczbą naturalną. Dzielnikami naturalnymi liczby 18 są: 1, 2, 3, 6, 9, 18.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.42,
+    "procent": 72,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2024_mazowieckie_q5",
@@ -170,7 +191,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Porównujemy ułamek dany z ułamkiem po zmianie, obliczając ich różnicę i sprowadzając do wspólnego mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>−</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mi>b</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>−</mo><mi>a</mi><mi>b</mi><mo>−</mo><mn>3</mn><mi>b</mi></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>, licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow></math> jest ujemny, a mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math> dodatni, więc cała różnica jest ujemna. Oznacza to, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>&lt;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math>, czyli liczba otrzymana po zwiększeniu licznika i mianownika o 3 jest zawsze większa od wyjściowej.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2024_mazowieckie_q6",
@@ -195,7 +221,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "jeden przejazd wzdłuż brzegów skraca oba wymiary o 1 m (po 50 cm z każdej strony)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.2,
+    "procent": 97,
+    "procent_etap": 97
+   }
   },
   {
    "id": "rejonowy_2024_mazowieckie_q7",
@@ -217,7 +248,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz warunek jako suma dwóch kątów = trzeci kąt i wstaw to do sumy 180°",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.19,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2024_mazowieckie_q8",
@@ -245,6 +281,11 @@
      "o-co-pytaja"
     ],
     "opis": "Układ naturalnie daje produkcję z października, a pytają o listopad"
+   },
+   "trudnosc": {
+    "logit": 4.16,
+    "procent": 84,
+    "procent_etap": 85
    }
   },
   {
@@ -273,6 +314,11 @@
      "inne:zakryte-sciany"
     ],
     "opis": "Mały sześcian styka się z dwiema bryłami; wysokość prostopadłościanu trzeba odczytać z rysunku"
+   },
+   "trudnosc": {
+    "logit": 8.17,
+    "procent": 99,
+    "procent_etap": 99
    }
   },
   {
@@ -294,7 +340,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>W koszykach jest kolejno: I. — 38, II. — 62, III. — 40, IV. — 30, V. — 36, VI. — 32 grzybów, a razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>38</mn><mo>+</mo><mn>62</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>36</mn><mo>+</mo><mn>32</mn><mo>=</mo><mn>238</mn></mrow></math>. Jeden z chłopców (Tymon lub Miłosz) zebrał dwa razy więcej grzybów niż drugi, więc stosunek ich zbiorów wynosi 2 : 1, a łączna liczba zebranych przez nich grzybów dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math>. Jeden koszyk należy do Oskara; jego liczba grzybów musi być taka, by pozostałe 238 minus ta liczba dzieliło się przez 3. Tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>238</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>198</mn></mrow></math> jest podzielne przez 3, więc koszyk z 40 grzybami (III.) należy do Oskara. Pozostali dwaj chłopcy zebrali razem 198 grzybów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>198</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>66</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>132</mn></mrow></math>. Jeden ma dwa koszyki, drugi trzy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>=</mo><mn>30</mn><mo>+</mo><mn>36</mn></mrow></math> (koszyki IV. i V. — Tymon) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>132</mn><mo>=</mo><mn>38</mn><mo>+</mo><mn>62</mn><mo>+</mo><mn>32</mn></mrow></math> (koszyki I., II. i VI. — Miłosz). Ostatecznie: koszyki Tymona to IV. i V., koszyki Miłosza to I., II. i VI., a koszyk Oskara to III.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.32,
+    "procent": 85,
+    "procent_etap": 86
+   }
   }
  ]
 }

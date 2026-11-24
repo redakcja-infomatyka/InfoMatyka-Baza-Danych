@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024_opolskie_q1",
@@ -47,6 +48,11 @@
      "kwantyfikator"
     ],
     "opis": "Trapez równoramienny może mieć prostopadłe przekątne; 'na pewno' kontra 'może być'"
+   },
+   "trudnosc": {
+    "logit": 4.06,
+    "procent": 84,
+    "procent_etap": 84
    }
   },
   {
@@ -90,6 +96,11 @@
      "procent-podstawa"
     ],
     "opis": "Suma par liczy każdy kolor dwa razy; 'o ile % więcej niż białych' liczy się od liczby białych"
+   },
+   "trudnosc": {
+    "logit": 0.07,
+    "procent": 50,
+    "procent_etap": 52
    }
   },
   {
@@ -124,7 +135,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż każdą liczbę na czynniki nie większe od 9",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.18,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q4",
@@ -159,7 +175,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wybieraj zestawy cyfr o sumie podzielnej przez 3, potem licz ich ustawienia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.62,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q5",
@@ -200,6 +221,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Liczba klocków to nie iloraz objętości – trzeba sprawdzić, ile mieści się wzdłuż każdej krawędzi"
+   },
+   "trudnosc": {
+    "logit": 2.67,
+    "procent": 74,
+    "procent_etap": 76
    }
   },
   {
@@ -230,6 +256,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o cenę po drugiej podwyżce, a rachunek naturalnie daje cenę początkową"
+   },
+   "trudnosc": {
+    "logit": 3.68,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -253,7 +284,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpoznaj proporcje 3-4-5 i znajdź skalę z przeciwprostokątnej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.37,
+    "procent": 27,
+    "procent_etap": 29
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q8",
@@ -275,7 +311,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku taty i Zosi nigdy się nie zmienia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.0,
+    "procent": 30,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q9",
@@ -298,7 +339,12 @@
     "rozwiazanie_html": "<p>Listwa o długości 160 cm dzieli się na dwie części, z których jedna jest 3 razy dłuższa od drugiej, więc krótsza ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>40</mn></math> cm, a dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math> cm. Te części są przekątnymi latawca (deltoidu), a pole latawca to połowa iloczynu przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>40</mn><mo>·</mo><mn>120</mn><mo>=</mo><mn>2400</mn></math> cm².</p><p>Przy dowolnym podziale listwy na przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mi>x</mi></math> pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>(</mo><mn>160</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>. Iloczyn dwóch liczb o stałej sumie 160 jest największy, gdy są równe, czyli dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>80</mn></math>. Wtedy pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>80</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>3200</mn></math> cm².</p><p>Powierzchnia latawca wynosi <strong>2400 cm²</strong>. Dzieląc listwę w innej proporcji <strong>można</strong> otrzymać latawiec o większej powierzchni — przy podziale na dwie równe części po 80 cm pole wynosi 3200 cm² (jest to największe możliwe pole).</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy powierzchnię latawca (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2400</mn><mtext>&#160;</mtext><msup><mi>cm</mi><mn>2</mn></msup></math>) oraz poda przykład latawca o większym polu, którego suma przekątnych wynosi 160 cm – 5p</li><li>zastosuje poprawny sposób obliczenia obu powierzchni z błędem rachunkowym – 4p</li><li>obliczy tylko pole wskazanego latawca – 3p</li><li>poprawnie oblicza jedną powierzchnię z błędem rachunkowym – 2p</li><li>obliczy długości przekątnych – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.61,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q10",
@@ -319,7 +365,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień prędkość na metry na minutę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.25,
+    "procent": 37,
+    "procent_etap": 39
+   }
   },
   {
    "id": "rejonowy_2024_opolskie_q11",
@@ -349,6 +400,11 @@
      "procent-podstawa"
     ],
     "opis": "To krawędź stanowi 80% wysokości, a nie wysokość 80% krawędzi"
+   },
+   "trudnosc": {
+    "logit": -0.49,
+    "procent": 44,
+    "procent_etap": 46
    }
   }
  ]

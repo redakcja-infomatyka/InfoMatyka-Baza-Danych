@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_dolnoslaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie wypisuj wszystkich — ustal od razu największą i najmniejszą liczbę o sumie cyfr 25",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 59
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz je po kolei od 100 — jest ich tylko kilkanaście",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.14,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q3",
@@ -126,6 +137,11 @@
      "plot-i-slupki"
     ],
     "opis": "Także k musi być trzycyfrowe (k ≥ 100), a przy liczeniu wartości od–do trzeba liczyć włącznie"
+   },
+   "trudnosc": {
+    "logit": 2.49,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustaw liczby w łańcuch — każda kolejna to ułamek mniejszy od 1 poprzedniej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.23,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q5",
@@ -200,7 +221,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zobacz, co skraca się w iloczynie w mianowniku, i dopiero potem dziel sumę składnik po składniku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.74,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q6",
@@ -238,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz milion jako 10⁶ i licz tylko na wykładnikach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.71,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q7",
@@ -276,7 +307,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trzy pierwiastki kwadratowe dzielą wykładnik przez 8 — w odpowiedziach policz tak samo",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.68,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q8",
@@ -311,7 +347,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Szukane liczby są bliskie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>290</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>72,5</mn></mrow></math>. Liczby 72, 73, 74, 75 zaokrąglają się do 70, 70, 70, 80 (75 w górę), a suma zaokrągleń wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>80</mn><mo>=</mo><mn>290</mn></mrow></math> - zgadza się. Najmniejsza stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>75</mn><mo>=</mo><mn>96</mn><mo>%</mo></mrow></math> największej.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.18,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q9",
@@ -351,7 +392,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "prostopadłe idą po ukośnych liniach w drugą stronę — na każdej policz wszystkie pary punktów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.01,
+    "procent": 93,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q10",
@@ -392,7 +438,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wykorzystaj, że E leży na boku DC, a przekątna dzieli kąt kwadratu na pół",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.87,
+    "procent": 68,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q11",
@@ -430,7 +481,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź nierówność trójkąta dla podanych długości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.28,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q12",
@@ -471,7 +527,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z sumy kątów w trójkącie ACE wyznacz α, potem skorzystaj z sumy kątów trójkąta ABC",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 67
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q13",
@@ -509,7 +570,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw α = 180° − 2β do każdego związku i zobacz, który się nie zgadza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.99,
+    "procent": 68,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q14",
@@ -548,7 +614,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, jaki procent obwodu stanowi podstawa w pierwszym trójkącie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.38,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q15",
@@ -592,6 +663,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pytają o stosunek krawędzi podstawy do krawędzi bocznej, łatwo podać odwrotność"
+   },
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 64
    }
   },
   {
@@ -613,7 +689,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "lipiec to 4 pełne tygodnie i 3 dni — te trzy nadmiarowe dni tygodnia idą po sobie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.28,
+    "procent": 79,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q17",
@@ -633,7 +714,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź wielokrotnościami 7 od 105 w górę i od 994 w dół, sprawdzając sumę cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q18",
@@ -660,6 +746,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba wyrazów od −25 do 50 co 5 to różnica podzielona przez krok plus jeden"
+   },
+   "trudnosc": {
+    "logit": 0.47,
+    "procent": 54,
+    "procent_etap": 61
    }
   },
   {
@@ -681,7 +772,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz każdą liczbę jako cyfra razy potęga 10 zamiast liczyć zera",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2023_dolnoslaskie_q20",
@@ -703,7 +799,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ścian jest n + 2, krawędzi 3n — odejmij te, które stykają się z wybraną",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.54,
+    "procent": 95,
+    "procent_etap": 98
+   }
   }
  ]
 }

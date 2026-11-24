@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023_podkarpackie_q1",
@@ -27,7 +28,12 @@
     "rozwiazanie_html": "<p>Aby liczba była podzielna przez 12, musi być parzysta, więc wszystkie liczby spełniające warunki zadania kończą się cyfrą 2. Podzielność przez 12 wymaga podzielności przez 4, a ponieważ końcówki 32 i 92 są podzielne przez 4, a 22 nie, przedostatnią cyfrą może być tylko 3 lub 9.</p><p>Podzielność przez 12 wymaga też podzielności przez 3, czyli podzielności sumy cyfr przez 3. Cyfry 3 i 9 są podzielne przez 3, więc reszta z dzielenia sumy cyfr przez 3 zależy tylko od dwójek — liczba musi zawierać dokładnie trzy dwójki (sześciu dwójek być nie może, bo przedostatnia cyfra jest różna od 2).</p><p>Cyfry wybieramy więc następująco: ostatnie dwie tworzą końcówkę 32 lub 92 (2 możliwości); wśród pozostałych czterech cyfr dokładnie dwie muszą być dwójkami, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac linethickness=\"0\"><mn>4</mn><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math> sposobów; w każdym z dwóch pozostałych miejsc może być 3 lub 9 (2·2 możliwości). Z zasady mnożenia liczba szukanych liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>48</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>2 punkty – prawidłowa odpowiedź: 48.</li><li>1 punkt – częściowo poprawna odpowiedź: 24 lub 30 lub 32 lub 36 lub 40 lub 44 lub 45 lub 46 lub 47 lub 49 lub 50 lub 51 lub 96.</li></ul><p>Uwaga: część punktów przyznajemy za odpowiedzi, które wynikają z prawidłowego rozumowania (takiego jak przedstawione powyżej lub innego) połączonego z niewielkim błędem.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.5,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q2",
@@ -49,7 +55,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkie krawędzie są równe, więc podstawa to romb; pole ściany bocznej to a², pierwiastek zbędny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.9,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q3",
@@ -71,7 +82,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj odległości średniej 15,25 od 11 i od 19 — dają one stosunek liczebności drużyn",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q4",
@@ -96,7 +112,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz 19² jako (c−b)(c+b); 19 jest pierwsza, więc rozkład jest jeden, a obwód to 19 + (b+c)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.64,
+    "procent": 92,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q5",
@@ -126,6 +147,11 @@
      "plot-i-slupki"
     ],
     "opis": "Dolna granica leży tuż pod liczbą całkowitą: zgrubne przybliżenie √2 przesuwa ją na końcówkę; liczenie włącznie"
+   },
+   "trudnosc": {
+    "logit": 3.76,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -147,7 +173,12 @@
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> liczbę okrążeń Adama w ciągu godziny (60 minut). Pokonanie jednego okrążenia zajmuje wtedy Adamowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mi>a</mi></mfrac></math> minut, a Bruno robi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>2</mn></mrow></math> okrążeń, więc jego okrążenie trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mrow><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math> minut. Ponieważ okrążenie Adama trwa o minutę dłużej niż Brunowi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mi>a</mi></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><mn>60</mn><mrow><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math>.</p><p>Przekształcając równoważnie (dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>60</mn><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>60</mn><mi>a</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>120</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>121</mn><mo>=</mo><msup><mn>11</mn><mn>2</mn></msup></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></math> jest dodatnie, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>11</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>10</mn></mrow></math>. Adam wykonuje dziesięć okrążeń w ciągu godziny.</p>",
     "punktacja_html": "<ul><li>2 punkty – prawidłowa odpowiedź: 10.</li><li>1 punkt – częściowo poprawna odpowiedź: 12.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.62,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q7",
@@ -170,7 +201,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kąty trzech wycinków to kąty trójkąta, więc razem składają się na pół koła",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.42,
+    "procent": 91,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q8",
@@ -191,7 +227,12 @@
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> liczbę białych kul. Czarnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>9</mn></mrow></math>, więc łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>9</mn></mrow></math> kul. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>9</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>14</mn></mrow></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mfrac><mi>b</mi><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>20</mn></mrow></mfrac></mrow></math>.</p><p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><msub><mi>P</mi><mn>2</mn></msub><mo>−</mo><msub><mi>P</mi><mn>3</mn></msub></mrow></math>, po podzieleniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i sprowadzeniu do wspólnego mianownika, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mrow><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>14</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>6</mn><mrow><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>14</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>20</mn><mo>)</mo></mrow></mfrac></mrow></math>, a po pomnożeniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>14</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mfrac><mn>6</mn><mrow><mn>2</mn><mi>b</mi><mo>+</mo><mn>20</mn></mrow></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>b</mi><mo>+</mo><mn>100</mn><mo>=</mo><mn>12</mn><mi>b</mi><mo>+</mo><mn>54</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>b</mi><mo>=</mo><mn>56</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>23</mn></mrow></math>. W urnie były 23 białe kule.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> za pomocą wyrażeń zawierających jedną zmienną, a następnie ułożył prawidłowe równanie i poczynił istotny postęp w jego rozwiązywaniu, ale popełnił błąd przy jego rozwiązywaniu lub nie doprowadził rozwiązywania do końca.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> za pomocą wyrażeń zawierających jedną zmienną, a następnie ułożył prawidłowe równanie, ale nie poczynił istotnych postępów w jego rozwiązywaniu,</li><li>błędnie zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> za pomocą wyrażeń zawierających jedną zmienną (na przykład dzieląc liczbę kul białych przez liczbę kul czarnych) i na ich podstawie zapisał równanie o podobnej trudności do prawidłowego, a następnie je poprawnie rozwiązał.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> za pomocą wyrażeń zawierających jedną zmienną, ale nie zapisał prawidłowego równania,</li><li>zapisał, że prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> są równe ilorazowi liczby białych kul i łącznej liczb kul w odpowiednich momentach, a odpowiednie liczby kul zapisał w postaci wyrażeń zawierających jedną zmienną,</li><li>zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> za pomocą wyrażeń zawierających jedną zmienną z niewielkim błędem (np. myląc założenie „kul białych było o 9 mniej niż kul czarnych” z „kul białych było o 9 więcej niż kul czarnych”), a następnie na ich podstawie zapisał równanie.</li></ul></li></ul><p>Uwaga: uczeń nie otrzymuje punktów, jeśli zapisał prawdopodobieństwa P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> dzieląc liczbę kul białych przez liczbę kul czarnych i na ich podstawie zapisał równanie, ale go nie rozwiązał.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.86,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2023_podkarpackie_q9",
@@ -211,7 +252,12 @@
     "rozwiazanie_html": "<p>Narysujmy okrąg o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Ponieważ kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BKD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLD</mi></math> są proste, punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> leżą na tym okręgu (kąt oparty na średnicy jest prosty), po dwóch stronach średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>, która leży wewnątrz kąta. W takim razie kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLD</mi></math> są kątami wpisanymi w ten okrąg, opartymi na tym samym łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KD</mi></math>. Z twierdzenia o kątach wpisanych otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∡</mo><mi>KBD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∡</mo><mi>KLD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, co należało dowieść.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód. Otrzymuje je również, jeśli nie wypisał wprost założeń i tezy, ale przeprowadzone rozumowanie jest poprawnym dowodem, wskazującym na zrozumienie przez ucznia roli założeń i tezy w zadaniu.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>uczeń zauważył, że punkty K i L leżą na okręgu o średnicy BD, połączył ze środkiem okręgu i rozpoczął obliczenia na kątach, ale nie doprowadził ich do końca lub popełnił w nich błąd.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>uczeń zauważył, że punkty K i L leżą na okręgu o średnicy BD, ale nie wywnioskował z tego spostrzeżenia tezy,</li><li>uczeń założył istnienie okręgu (w żaden sposób go nie uzasadniając) i na tej podstawie wywnioskował tezę.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>uczeń wypisał założenia i tezę zadania oraz wykonał poprawny rysunek ilustrujący treść zadania,</li><li>uczeń przeprowadził dowód w szczególnym przypadku, przy założeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BK</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.56,
+    "procent": 99,
+    "procent_etap": 98
+   }
   }
  ]
 }

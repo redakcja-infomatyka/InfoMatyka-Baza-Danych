@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012-2013_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012-2013_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2012-2013_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpisz obie liczby rzymskie na składniki — pamiętaj, że CM znaczy 900",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.35,
+    "procent": 7,
+    "procent_etap": 9
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q2",
@@ -89,6 +95,11 @@
      "znak"
     ],
     "opis": "„Różnica liczb a i b” to a−b, a tu pierwsza liczba jest mniejsza; kusi odjęcie mniejszej od większej"
+   },
+   "trudnosc": {
+    "logit": -2.57,
+    "procent": 25,
+    "procent_etap": 27
    }
   },
   {
@@ -129,7 +140,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile działek mieści się między 4,75 a 5, i wyznacz wartość jednej działki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 42,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q4",
@@ -177,6 +193,11 @@
      "inne:procent-a-liczebnosc"
     ],
     "opis": "Diagram podaje tylko procenty; różnica 3 punktów procentowych nie mówi nic o liczbie uczniów"
+   },
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 67
    }
   },
   {
@@ -215,7 +236,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz liczbę chłopców i dziewczynek — pamiętaj, że nikt nie jest własnym rodzeństwem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.12,
+    "procent": 60,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q6",
@@ -253,7 +279,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zaokrąglij do 1000 m² i przypomnij sobie, ile metrów kwadratowych ma ar",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.09,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q7",
@@ -290,7 +321,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz osobno prawdziwki, kurki i podgrzybki przez x, a potem dodaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.27,
+    "procent": 37,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q8",
@@ -328,7 +364,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj do siebie oba obwody trójkątów — przekątna wejdzie do sumy dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.57,
+    "procent": 25,
+    "procent_etap": 27
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q9",
@@ -372,6 +413,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Objętość pudełka podzielona przez objętość kostki nie mówi, ile kostek wejdzie; do tego wymiary w cm, dm i m"
+   },
+   "trudnosc": {
+    "logit": 0.18,
+    "procent": 51,
+    "procent_etap": 53
    }
   },
   {
@@ -409,7 +455,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaka musi być suma siedmiu ocen, żeby średnia wyniosła 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.33,
+    "procent": 20,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q11",
@@ -444,7 +495,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Za pomarańcze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,7</mn><mo>·</mo><mn>5,60</mn><mo>=</mo><mn>9,52</mn></math> zł. Łącznie wydano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>2,80</mn><mo>=</mo><mn>17,20</mn></math> zł, więc na banany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17,20</mn><mo>−</mo><mn>9,52</mn><mo>=</mo><mn>7,68</mn></math> zł, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,68</mn><mo>:</mo><mn>4,80</mn><mo>=</mo><mn>1,6</mn></math> kg.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.69,
+    "procent": 33,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q12",
@@ -492,6 +548,11 @@
      "o-co-pytaja"
     ],
     "opis": "Według definicji z treści przy każdym wierzchołku są DWA kąty zewnętrzne, nie jeden jak w znanym fakcie"
+   },
+   "trudnosc": {
+    "logit": 3.09,
+    "procent": 77,
+    "procent_etap": 79
    }
   },
   {
@@ -529,7 +590,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część płotu maluje każdy z braci w ciągu jednego dnia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.11,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q14",
@@ -567,7 +633,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z kąta 135° wyznacz kąt przy dłuższej podstawie i dorysuj w myślach obie wysokości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.99,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q15",
@@ -611,6 +682,11 @@
      "inne:wierzcholek-na-dwoch-bokach"
     ],
     "opis": "Wierzchołek leży na dwóch bokach naraz, więc odpadają nitki do obu sąsiednich boków"
+   },
+   "trudnosc": {
+    "logit": 4.01,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -649,7 +725,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw obwód prostokąta na planie, a dopiero potem przelicz go w skali",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.37,
+    "procent": 27,
+    "procent_etap": 29
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q17",
@@ -671,7 +752,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "co jeden oddaje, drugi dostaje — zapisz tę samą wielkość raz z minusem, raz z plusem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q18",
@@ -699,6 +785,11 @@
      "konwencja"
     ],
     "opis": "Czasy w dwóch formatach; „552 s” łatwo odczytać jak 5 min 52 s"
+   },
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 37
    }
   },
   {
@@ -720,7 +811,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zastanów się, która cyfra na miejscu pojedynczego czynnika najbardziej zbija iloczyn",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2012-2013_malopolskie_q20",
@@ -752,6 +848,11 @@
      "rysunek"
     ],
     "opis": "W trapezie „4” opisuje tylko część dolnej podstawy pod skosem, a nie całą podstawę"
+   },
+   "trudnosc": {
+    "logit": 1.16,
+    "procent": 61,
+    "procent_etap": 62
    }
   },
   {
@@ -780,6 +881,11 @@
      "jednostki"
     ],
     "opis": "Szybkość Piotrka jest w m/s, a nadwyżka Pawła w km/h; trzeba zamienić przed dodaniem"
+   },
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 55
    }
   },
   {
@@ -810,6 +916,11 @@
      "rysunek"
     ],
     "opis": "Odcinek 4 jest mierzony od dołu, więc przyprostokątna białego trójkąta to a−4, a nie 4"
+   },
+   "trudnosc": {
+    "logit": 4.2,
+    "procent": 84,
+    "procent_etap": 85
    }
   },
   {
@@ -837,6 +948,11 @@
      "kwantyfikator"
     ],
     "opis": "„Mieć pewność” oznacza liczenie przy najgorszej wydajności z przedziału; maluje się ściany i sufit, bez podłogi"
+   },
+   "trudnosc": {
+    "logit": 5.87,
+    "procent": 93,
+    "procent_etap": 93
    }
   }
  ]

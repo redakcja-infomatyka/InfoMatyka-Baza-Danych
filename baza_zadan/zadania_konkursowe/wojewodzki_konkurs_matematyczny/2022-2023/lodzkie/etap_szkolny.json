@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 100,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_lodzkie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_lodzkie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_lodzkie_q1",
@@ -56,6 +57,11 @@
      "znak"
     ],
     "opis": "b = −3² to minus przed kwadratem, a nie kwadrat liczby ujemnej"
+   },
+   "trudnosc": {
+    "logit": -2.11,
+    "procent": 29,
+    "procent_etap": 34
    }
   },
   {
@@ -97,7 +103,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 36 na 4 · 9 i sprawdź osobno dwie ostatnie cyfry oraz sumę cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.16,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q3",
@@ -139,7 +150,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 0,(3) na ułamek zwykły, a potem sprowadź każdą odpowiedź do tej samej postaci",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.25,
+    "procent": 47,
+    "procent_etap": 53
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q4",
@@ -180,7 +196,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj same podwyżki, zanim zaczniesz liczyć ceny końcowe",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.41,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q5",
@@ -229,6 +250,11 @@
      "inne:kolejnosc-bokow"
     ],
     "opis": "Boki podane nie w kolejności rosnącej: najdłuższy nie jest wypisany jako ostatni"
+   },
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 36
    }
   },
   {
@@ -278,6 +304,11 @@
      "kalendarz-czas"
     ],
     "opis": "Start podany w czasie polskim, meta w litewskim; do tego trzeba odjąć postój"
+   },
+   "trudnosc": {
+    "logit": 3.43,
+    "procent": 80,
+    "procent_etap": 86
    }
   },
   {
@@ -328,6 +359,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z równania 2n = 36 wychodzi liczba boków podstawy, a pytają o wszystkie wierzchołki"
+   },
+   "trudnosc": {
+    "logit": -1.92,
+    "procent": 31,
+    "procent_etap": 36
    }
   },
   {
@@ -367,7 +403,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Rozwijając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>(</mo><mi>x</mi><mi>y</mi><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup></math>.</p><p>Odejmując prawą stronę równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>−</mo><mn>2</mn><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.17,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q9",
@@ -418,6 +459,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pozostała figura jest kwadratem, a kwadrat też jest prostokątem"
+   },
+   "trudnosc": {
+    "logit": -1.93,
+    "procent": 31,
+    "procent_etap": 36
    }
   },
   {
@@ -459,7 +505,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "liczba sabotażystów wśród graczy zależy tylko od tego, jaka karta trafiła na bok",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.55,
+    "procent": 92,
+    "procent_etap": 96
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q11",
@@ -499,6 +550,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia klasy to nie średnia dwóch średnich, gdy grupy mają różną liczebność"
+   },
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 77
    }
   },
   {
@@ -522,7 +578,12 @@
     "rozwiazanie_html": "<p><strong>b)</strong> Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę uczniów w klasie 8b. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> klasy to „inne\", a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> to „piłka nożna\", liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> musi być wielokrotnością liczb 3, 4 i 12. Jedyną taką liczbą z przedziału od 19 do 28 jest 24, więc klasa 8b liczy 24 osoby.</p><p><strong>a)</strong> W klasie 8b: inne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>24</mn><mn>12</mn></mfrac><mo>=</mo><mn>2</mn></mrow></math>, piłka nożna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>24</mn><mn>4</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math>, a na tenis i siatkówkę (po tyle samo) przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>2</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>16</mn></mrow></math>, czyli po 8 osób. Tenis lubi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> klasy.</p><p><strong>c)</strong> Wszystkich ósmoklasistów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>75</mn></mrow></math>. Tenis wskazało: w 8a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>%</mo><mo>·</mo><mn>25</mn><mo>=</mo><mn>15</mn></mrow></math>, w 8b 8, w 8c 7, razem 30 osób. To <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>30</mn><mn>75</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>40</mn><mo>%</mo></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja (12 pkt): a) 4 pkt, b) 3 pkt, c) 5 pkt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.23,
+    "procent": 90,
+    "procent_etap": 94
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q13",
@@ -550,6 +611,11 @@
      "procent-podstawa"
     ],
     "opis": "cm³ na dm³ to dzielenie przez 1000, a cm² na dm² przez 100; wysokość jest o 75% dłuższa"
+   },
+   "trudnosc": {
+    "logit": 7.63,
+    "procent": 98,
+    "procent_etap": 99
    }
   },
   {
@@ -573,7 +639,12 @@
     "rozwiazanie_html": "<p>Bok kwadratu: z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math>, więc pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>24</mn></mrow></math>. Białe trójkąty i zamalowane trójkąty razem dają cały kwadrat, a białe mają być dwa razy większe, więc pole białego obszaru wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>24</mn><mo>=</mo><mn>16</mn></mrow></math>.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AEC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>12</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math> w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mi>x</mi><mo>=</mo><mi>x</mi><msqrt><mn>6</mn></msqrt></mrow></math>.</p><p>Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mi>x</mi><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>16</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac></mrow></math>, a po usunięciu niewymierności z mianownika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>3</mn></mrow><mn>3</mn></mfrac></mrow></math>.</p>",
     "punktacja_html": "<ul><li>2 punkty – obliczenie długości boku kwadratu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math>)</li><li>1 punkt – policzenie pola kwadratu (24)</li><li>2 punkty – policzenie pole białego obszaru (16)</li><li>2 punkty – policzenie pola trójkąta AEC (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow></math>)</li><li>2 punkty – wyznaczenie pola trójkąta ABF w zależności od niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><msqrt><mn>6</mn></msqrt></mrow></math>)</li><li>1 punkt – zapisanie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mi>x</mi><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>16</mn></mrow></math></li><li>2 punkty – rozwiązanie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac></mrow></math></li><li>2 punkty – usunięcie niewymierności z mianownika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>3</mn></mrow><mn>3</mn></mfrac></mrow></math></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.23,
+    "procent": 99,
+    "procent_etap": 100
+   }
   },
   {
    "id": "szkolny_2023_lodzkie_q15",
@@ -594,7 +665,12 @@
     "rozwiazanie_html": "<p><strong>Równanie na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>:</strong> ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>192</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>75</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math>, równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>−</mo><mn>21</mn><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>+</mo><mn>18</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>=</mo><mn>39</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>13</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.</p><p><strong>Równanie na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>:</strong> korzystając z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>π</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mi>π</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>5</mn></msup><mo>=</mo><mn>32</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>49</mn></msqrt><mo>=</mo><mn>7</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>π</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>π</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>π</mi><mo>+</mo><mn>12</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math>, równanie przyjmuje postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>y</mi><mo>−</mo><mn>7</mn><mi>π</mi><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>π</mi><mo>+</mo><mn>12</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mi>y</mi><mo>=</mo><mn>9</mn><mo>+</mo><mn>2</mn><mi>y</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>10</mn></mfrac></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mi>y</mi></mfrac><mo>=</mo><mfrac><mrow><mn>13</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>:</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mrow><mn>130</mn><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>.</p>",
     "punktacja_html": "<ul><li>2 punkty – zapisanie pierwszego równania w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>−</mo><mn>21</mn><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>+</mo><mn>18</mn></mrow></math></li><li>2 punkty – rozwiązanie pierwszego równania (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>13</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>)</li><li>1 punkt – zapisanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>π</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mi>π</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>1 punkt – zapisanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>5</mn></msup><mo>=</mo><mn>32</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>49</mn></msqrt><mo>=</mo><mn>7</mn></mrow></math></li><li>1 punkt – zapisanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>π</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>π</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>π</mi><mo>+</mo><mn>12</mn></mrow></math></li><li>1 punkt – zapisanie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><mi>y</mi><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>2 punkty – zapisanie wyjściowego równania w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>32</mn><mi>y</mi><mo>−</mo><mn>7</mn><mi>π</mi><mo>=</mo><msup><mi>π</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mi>π</mi><mo>+</mo><mn>12</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>1 punkt – zapisanie wyjściowego równania w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mi>y</mi><mo>=</mo><mn>9</mn><mo>+</mo><mn>2</mn><mi>y</mi></mrow></math></li><li>1 punkt – rozwiązanie drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>10</mn></mfrac></mrow></math></li><li>2 punkty – obliczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mi>y</mi></mfrac><mo>=</mo><mfrac><mrow><mn>130</mn><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.57,
+    "procent": 98,
+    "procent_etap": 99
+   }
   }
  ]
 }

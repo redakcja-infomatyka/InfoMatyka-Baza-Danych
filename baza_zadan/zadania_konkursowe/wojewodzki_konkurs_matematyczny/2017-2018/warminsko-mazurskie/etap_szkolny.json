@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2017-2018_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przekątne w każdym z wielokątów albo użyj wzoru n(n−3)/2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.7,
+    "procent": 16,
+    "procent_etap": 19
+   }
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q2",
@@ -81,7 +87,22 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kolejne niedziele mają na przemian parzysty i nieparzysty numer dnia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 73
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2016-2017_malopolskie_q3",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2015_podlaskie_sp_q17",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q3",
@@ -125,6 +146,11 @@
      "inne:pojecie-kata"
     ],
     "opis": "Kąt półpełny to 180°, a nie 360° — łatwo pomylić go z kątem pełnym"
+   },
+   "trudnosc": {
+    "logit": -5.61,
+    "procent": 6,
+    "procent_etap": 7
    }
   },
   {
@@ -163,7 +189,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj ten kąt do sumy dwóch pozostałych i porównaj ze 180°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.64,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q5",
@@ -207,6 +238,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba czterocyfrowa nie może zaczynać się od zera — nie każdy układ cyfr o sumie 3 jest dobry"
+   },
+   "trudnosc": {
+    "logit": 1.53,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -252,6 +288,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O wpół do siódmej wskazówka godzinowa nie stoi na 6, tylko jest w połowie drogi między 6 a 7"
+   },
+   "trudnosc": {
+    "logit": -1.36,
+    "procent": 36,
+    "procent_etap": 42
    }
   },
   {
@@ -296,6 +337,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o wartość bezwzględną TRZECIEJ POTĘGI wyniku, a nie samego wyniku; wariant z tą liczbą kusi"
+   },
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 45
    }
   },
   {
@@ -340,6 +386,11 @@
      "zaokraglenie"
     ],
     "opis": "Okres się powtarza — o zaokrągleniu decyduje siódma cyfra po przecinku, czyli pierwsza cyfra kolejnego okresu"
+   },
+   "trudnosc": {
+    "logit": 0.81,
+    "procent": 57,
+    "procent_etap": 64
    }
   },
   {
@@ -384,6 +435,11 @@
      "warunek-istnienia"
     ],
     "opis": "Znana para 12²=144 i 21²=441 nie spełnia warunku „mniejsze od 20”"
+   },
+   "trudnosc": {
+    "logit": 0.72,
+    "procent": 56,
+    "procent_etap": 63
    }
   },
   {
@@ -428,6 +484,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Ułamek niewłaściwy może być równy 1 (np. 5/5) — zdanie tylko wygląda na prawdziwe"
+   },
+   "trudnosc": {
+    "logit": 1.39,
+    "procent": 63,
+    "procent_etap": 70
    }
   },
   {
@@ -451,7 +512,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień średnie na sumy ocen: suma całej klasy minus suma dziewcząt",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.06,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q12",
@@ -472,7 +538,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz w groszach; suma podwajanego ciągu to dwa razy ostatni wyraz minus pierwszy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.52,
+    "procent": 34,
+    "procent_etap": 41
+   }
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q13",
@@ -491,7 +562,12 @@
     "rozwiazanie_html": "<p>Znaczki angielskie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>480</mn><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>240</mn><mo>=</mo><mn>80</mn></mrow></math>. Znaczki francuskie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>480</mn><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>120</mn><mo>=</mo><mn>90</mn></mrow></math>. Znaczki włoskie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>80</mn><mo>+</mo><mn>90</mn><mo>)</mo><mo>=</mo><mn>85</mn></mrow></math>. Znaczki niemieckie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>·</mo><mo>(</mo><mn>80</mn><mo>+</mo><mn>90</mn><mo>+</mo><mn>85</mn><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>·</mo><mn>255</mn><mo>=</mo><mn>153</mn></mrow></math>. Znaczki polskie (pozostałe): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>480</mn><mo>−</mo><mo>(</mo><mn>80</mn><mo>+</mo><mn>90</mn><mo>+</mo><mn>85</mn><mo>+</mo><mn>153</mn><mo>)</mo><mo>=</mo><mn>480</mn><mo>−</mo><mn>408</mn><mo>=</mo><mn>72</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 4 pkt za bezbłędne rozwiązanie; 3 pkt przy poprawnej metodzie z jednym błędem rachunkowym; 2 pkt bez błędu rachunkowego, ale przy złym odczytaniu danych; 1 pkt przy dwóch błędach rachunkowych lub jednym błędzie w sposobie liczenia znaczków.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2017-2018_warminsko-mazurskie_q14",
@@ -520,6 +596,11 @@
      "jednostki"
     ],
     "opis": "Prostokąt: drugi bok może być o 12 cm krótszy albo dłuższy od 20 cm — są dwa przypadki"
+   },
+   "trudnosc": {
+    "logit": 5.4,
+    "procent": 91,
+    "procent_etap": 95
    }
   }
  ]

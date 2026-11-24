@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podlaskie_gim.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podlaskie_gim_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2014_podlaskie_gim_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 299 przez 3 z resztą — reszta daje część ułamkową",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.56,
+    "procent": 7,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ostatnie cyfry potęg dwójki powtarzają się co cztery, więc sprawdź resztę z dzielenia 2015 przez 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.87,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q3",
@@ -117,7 +128,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wszystkich rozsadzeń jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math>. Ze wzoru włączeń i wyłączeń liczba rozsadzeń, w których co najmniej jedna osoba wraca na swoje miejsce, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>15</mn><mo>=</mo><mn>9</mn></math> sposobów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.3,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q4",
@@ -161,6 +177,11 @@
      "inne:pary-liczone-podwojnie"
     ],
     "opis": "Każda para drużyn gra tylko raz; liczba 7·6 liczy każdy mecz dwa razy"
+   },
+   "trudnosc": {
+    "logit": -5.87,
+    "procent": 5,
+    "procent_etap": 4
    }
   },
   {
@@ -198,7 +219,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź po kolei: od Jacka do Tomka, potem od Tomka do Jakuba",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.15,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q6",
@@ -235,7 +261,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumy ocen: przy czterech i przy pięciu ocenach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.14,
+    "procent": 21,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q7",
@@ -272,7 +303,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 23 na sumę potęg dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.16,
+    "procent": 13,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q8",
@@ -309,7 +345,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile z tych liczb nie dzieli się ani przez 2, ani przez 3",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.22,
+    "procent": 4,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q9",
@@ -347,7 +388,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "5 minut to dwunasta część pełnego obiegu końca wskazówki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.3,
+    "procent": 20,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q10",
@@ -393,6 +439,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytają o produkcję po wzroście, a nie o sam przyrost; jest też wariant z błędnie postawionym nawiasem"
+   },
+   "trudnosc": {
+    "logit": -3.81,
+    "procent": 16,
+    "procent_etap": 11
    }
   },
   {
@@ -430,7 +481,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dziecko nie liczy siebie do rodzeństwa — zapisz oba warunki liczbą chłopców i dziewczynek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.7,
+    "procent": 66,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q12",
@@ -468,7 +524,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w trójkącie ACE podstawą jest połowa boku, a wysokością cały bok kwadratu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.68,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q13",
@@ -512,6 +573,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Stosunek pól figur podobnych to kwadrat skali, nie sama skala"
+   },
+   "trudnosc": {
+    "logit": -5.06,
+    "procent": 8,
+    "procent_etap": 5
    }
   },
   {
@@ -549,7 +615,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz punkt przecięcia dwóch pierwszych prostych i podstaw go do trzeciej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.98,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q15",
@@ -586,7 +657,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij twierdzenie o kącie wpisanym opartym na średnicy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.76,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q16",
@@ -623,7 +699,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel wzór na objętość przez wzór na pole kuli — π i r² się skrócą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.05,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q17",
@@ -668,6 +749,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Skala to pierwiastek trzeciego stopnia ze stosunku objętości, a nie sam ten stosunek"
+   },
+   "trudnosc": {
+    "logit": -1.9,
+    "procent": 31,
+    "procent_etap": 25
    }
   },
   {
@@ -712,6 +798,11 @@
      "o-co-pytaja"
     ],
     "opis": "W treści podano średnicę dna, a do wzoru na pole koła potrzebny jest promień"
+   },
+   "trudnosc": {
+    "logit": -3.25,
+    "procent": 20,
+    "procent_etap": 16
    }
   },
   {
@@ -750,7 +841,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "masa maleje osiem razy, więc objętość też, a krawędź w skali pierwiastka sześciennego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.28,
+    "procent": 28,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q20",
@@ -787,7 +883,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok kwadratu jest jednocześnie obwodem podstawy i wysokością walca",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q21",
@@ -809,7 +910,12 @@
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> kąt, jaki przekątna tworzy z dłuższym bokiem prostokąta, przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> szukany kąt ostry między przekątnymi, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> kąt rozwarty między przekątnymi. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> będzie punktem przecięcia przekątnych. Przekątne prostokąta są równe i przecinają się w połowie, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>), a jego kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>. Stąd suma kątów trójkąta daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> są przyległe, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Porównując obie równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mi>γ</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></math>, czyli kąt ostry między przekątnymi jest dwa razy większy od kąta, który przekątna tworzy z dłuższym bokiem. cnd.</p>",
     "punktacja_html": "<ul><li>3 punkty – pełne rozwiązanie: za udowodnienie tezy wynikającej wyłącznie z poprawnych założeń, czyli bezbłędne przekształcenie zapisanych zależności do najprostszej postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>=</mo><mi>β</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>β</mi></math></li><li>2 punkty – zasadnicze trudności zadania zostały pokonane bezbłędnie, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera usterki (błędy rachunkowe): za zapisanie kilku poprawnych oraz wystarczających do udowodnienia tezy zależności, ale w trakcie dalszych przekształceń zostały popełnione błędy lub wykorzystano dodatkowo inne błędne zależności, lub uzasadnienie tezy zawiera luki</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane: za zapisanie jednej poprawnej zależności między kątami, w której wystąpi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, z wykorzystaniem własności kątów w trójkątach równoramiennych np. w trójkącie ABE lub trójkącie BCE (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>δ</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>) lub własności kątów przyległych (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>) lub własności kątów prostokąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>)</li><li>0 punktów – rozwiązanie niestanowiące postępu: za rozwiązanie opierające się na błędnych założeniach dotyczących kątów lub brak rozwiązania, rozwiązanie błędne</li></ul><p>Uwaga! Jeśli uczeń oznaczy odpowiednie kąty na rysunku, uwzględniając powyższe własności i prowadzące do udowodnienia tezy, to przyznajemy punkty zgodnie ze schematem.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 66
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q22",
@@ -829,7 +935,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę robotników, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczbę dni pracy. Wielkości te są odwrotnie proporcjonalne, bo iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi></math> (całkowity nakład pracy) jest stały. Z warunków zadania otrzymujemy układ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>y</mi><mo>−</mo><mn>4</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>y</mi><mo>+</mo><mn>12</mn><mo>)</mo></math>. Po rozwinięciu i redukcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>20</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>x</mi><mo>−</mo><mn>10</mn><mi>y</mi><mo>=</mo><mn>120</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>60</mn></math>. Dodając stronami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>20</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>−</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>60</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>80</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>36</mn></math>. Odpowiedź: pracowało 40 robotników przez 36 dni.</p>",
     "punktacja_html": "<ul><li>3 punkty - pełne rozwiązanie: za poprawne obliczenie liczby robotników 40 i liczby dni 36</li><li>2 punkty - zasadnicze trudności zadania zostały pokonane bezbłędnie, ale dalsza część rozwiązania zawiera usterki: za poprawną metodę obliczenia liczby robotników i liczby dni przy popełnionych błędach rachunkowych, np. za poprawną metodę rozwiązania właściwego układu równań, ale z błędami rachunkowymi</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane: za zapisanie właściwych zależności między wielkościami odwrotnie proporcjonalnymi, umożliwiających wyznaczenie liczby robotników i liczby dni, ale przy obliczaniu popełniono błędy lub nie doprowadzono obliczeń do końca, np. za zapisanie właściwego układu równań</li><li>0 punktów – rozwiązanie niestanowiące postępu: za rozwiązanie zawierające błędy przy zapisie zależności między wielkościami odwrotnie proporcjonalnymi, umożliwiających wyznaczenie liczby robotników i liczby dni, za rozwiązanie błędne lub brak rozwiązania</li></ul><p>Uwaga! Jeśli uczeń rozwiąże zadanie metodą prób i błędów, to powinien rozważyć co najmniej trzy przypadki, aby otrzymać punkty zgodnie ze schematem.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.46,
+    "procent": 91,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_gim_q23",
@@ -857,6 +968,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kąt z podstawą jest dwa razy MNIEJSZY niż kąt z wysokością; łatwo zamienić kąty miejscami"
+   },
+   "trudnosc": {
+    "logit": 5.08,
+    "procent": 90,
+    "procent_etap": 86
    }
   }
  ]

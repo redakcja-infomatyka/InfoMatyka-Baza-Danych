@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024-2025_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024-2025_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż podstawy na czynniki pierwsze i sprawdź, czy wykładnik dzieli się przez 3",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.75,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q2",
@@ -89,6 +95,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite: trzeba policzyć ujemne i zero, nie tylko 1, 2, 3, …"
+   },
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 50
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj z reguły mnożenia potęg o tej samej podstawie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.96,
+    "procent": 15,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q4",
@@ -173,6 +189,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pytanie brzmi „o ile procent”, a nie „do ilu procent”; poza tym pole nie rośnie o tyle samo procent co bok"
+   },
+   "trudnosc": {
+    "logit": -2.94,
+    "procent": 22,
+    "procent_etap": 24
    }
   },
   {
@@ -210,7 +231,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każdy nawias zamień na jeden ułamek i skracaj po kolei sąsiednie licznik z mianownikiem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.04,
+    "procent": 59,
+    "procent_etap": 61
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q6",
@@ -248,7 +274,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód dzieli się na 10+13+13 jednakowych części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.22,
+    "procent": 37,
+    "procent_etap": 39
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q7",
@@ -281,7 +312,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>12</mn></math> cm. 1) Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>12</mn><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> cm – prawda. 2) Iloczyn przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>72</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>144</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>249,4</mn></math>, mniej niż 252 – fałsz. 3) Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>3</mn></msqrt></math> i 12 zachodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup></math> – prawda.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.9,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q8",
@@ -315,7 +351,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyraź po kolei c, b i a przez samo d",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.92,
+    "procent": 89,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q9",
@@ -356,6 +397,11 @@
      "znak"
     ],
     "opis": "Najmniejsze x i y nie dają najmniejszej wartości W = y² − x², a W może być ujemne"
+   },
+   "trudnosc": {
+    "logit": 3.03,
+    "procent": 77,
+    "procent_etap": 78
    }
   },
   {
@@ -396,6 +442,11 @@
      "znak"
     ],
     "opis": "Oba rozwiązania są ujemne: różnica 4,3 się zgadza, ale trzeba sprawdzić, która liczba jest większa"
+   },
+   "trudnosc": {
+    "logit": 4.01,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -428,7 +479,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trójkąt ACD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mn>10</mn></math> (ta sama odcięta A i D), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><msqrt><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>10</mn></math> – równoramienny, prawda. Pole ABCD (wzór Gaussa dla wielokąta): 120 – prawda. Środek AC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>; prosta BD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>2</mn></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3</mn><mo>≠</mo><mn>5</mn></math> – fałsz.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.63,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q12",
@@ -464,7 +520,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 75% na stosunek przyprostokątnych i przyjmij wygodne długości boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.34,
+    "procent": 79,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q13",
@@ -499,7 +560,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień prędkości na kilometry na minutę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.31,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2024-2025_swietokrzyskie_q14",
@@ -539,6 +605,11 @@
      "procent-podstawa"
     ],
     "opis": "Po dosypaniu soli masa roztworu też rośnie: stężenie liczy się od nowej masy"
+   },
+   "trudnosc": {
+    "logit": 0.35,
+    "procent": 53,
+    "procent_etap": 55
    }
   }
  ]

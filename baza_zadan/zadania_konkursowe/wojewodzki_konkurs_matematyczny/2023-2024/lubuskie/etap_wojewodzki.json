@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_lubuskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2024_lubuskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 4 i 2 jako potęgi dwójki i odejmij wykładniki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.95,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q2",
@@ -80,7 +86,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Palindrom trzycyfrowy ma postać <em>aba</em>; podzielność przez 4 zależy od dwóch ostatnich cyfr <em>ba</em> = 10b+a, czyli 2b+a ≡ 0 (mod 4). Dla a∈{4,8} b parzyste (5 możliwości każde), dla a∈{2,6} b nieparzyste (5 każde), dla a nieparzystego brak. Razem 10+10 = 20.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.43,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q3",
@@ -115,7 +126,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>6⅕ − 5,94 = 0,26; 0,26² = 0,0676. (0,1)³+(⅕)² = 0,001+0,04 = 0,041. Nawias: 0,0676 − 0,041 = 0,0266. ×2 = 0,0532 = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>133</mn><mn>2500</mn></mfrac></math>. (B i C = 0,0266 to wartość bez ×2.)</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q4",
@@ -160,6 +176,11 @@
      "jednostki"
     ],
     "opis": "Dane w dm, m i mm, a warianty w m², cm² i mm²; przy zamianie jednostek pola łatwo pomylić współczynnik"
+   },
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -198,7 +219,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>W trójkącie prostokątnym ABD (kąt przy D): BD = √(10²−(2√5)²) = √80 = 4√5. Wysokość trapezu h = AD·BD/AB = (2√5·4√5)/10 = 4. Rzut ramienia = √(20−16) = 2, więc CD = 10−2·2 = 6. Pole = ½(10+6)·4 = 32.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.19,
+    "procent": 84,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q6",
@@ -238,6 +264,11 @@
      "kwantyfikator"
     ],
     "opis": "„Musi wyjąć co najmniej 9”: 9 kul daje pewność, ale pytanie dotyczy najmniejszej potrzebnej liczby"
+   },
+   "trudnosc": {
+    "logit": 2.89,
+    "procent": 76,
+    "procent_etap": 68
    }
   },
   {
@@ -276,6 +307,11 @@
      "inne:liczenie-cyfr"
     ],
     "opis": "Licząc zera, łatwo zapomnieć, że liczba 100 ma dwa zera"
+   },
+   "trudnosc": {
+    "logit": 9.83,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -313,7 +349,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skróć potęgi o tych samych podstawach, zanim cokolwiek pomnożysz, i osobno ustal znak",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.04,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q9",
@@ -351,7 +392,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz lewą stronę z definicji, a prawą zapisz jako wyrażenie z y",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.75,
+    "procent": 42,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q10",
@@ -387,7 +433,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Suma 19·3600 = 68400. Nowa średnia 3600·1,04 = 3744; nowa suma 20·3744 = 74880. Pensja = 74880−68400 = 6480 zł. Wszystkie warianty A–D opisują tę samą kwotę 6480 (80% powyżej 3600; +2736 nad 3744; +2880 nad 3600) — arkusz ma cztery prawdziwe zdania; wybieram A jako bezpośrednią kwotę.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.23,
+    "procent": 78,
+    "procent_etap": 71
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q11",
@@ -431,6 +482,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nie każda trójka liczb naturalnych o sumie 7 tworzy trójkąt; trzeba sprawdzić nierówność trójkąta"
+   },
+   "trudnosc": {
+    "logit": 4.73,
+    "procent": 88,
+    "procent_etap": 83
    }
   },
   {
@@ -468,7 +524,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamień każdy nawias na ułamek — liczniki i mianowniki sąsiadów się poskracają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.38,
+    "procent": 72,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q13",
@@ -489,7 +550,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to pościg po obwodzie: odległość między nimi podziel przez różnicę prędkości",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.71,
+    "procent": 87,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q14",
@@ -511,7 +577,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "jedna godzina to łuk 30°, a kąt wpisany ma połowę łuku, na którym jest oparty",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q15",
@@ -534,7 +605,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zauważ, że EB = BC, a trójkąt EBC ma tę samą wysokość co równoległobok",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2018-2019_malopolskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024_lubuskie_q16",
@@ -553,7 +635,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Objętość komory 28·28·50 = 39200 cm³, płytka 0,2 cm³ → 196000 płytek. Układ: s+b = 196000 oraz 10s+4b = 1000000. Stąd 6s = 216000, s = 36000, b = 160000. (Sprawdzenie: 360000+640000 = 1000000 \\$.)</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.17,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2024_lubuskie_q17",
@@ -571,7 +658,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Trapez ABCD: wysokość h=√(8²−1²)=3√7 (przesunięcie 1=(6−4)/2), pole = ½(6+4)·3√7 = 15√7.</p><p>Trójkąty równoboczne ABE (bok 6): pole 9√3; CDE (bok 4): pole 4√3.</p><p>Ściany BCE i ADE mają boki 8,4,6 (Heron: p=9, pole=√(9·1·5·3)=3√15 każda).</p><p>Suma: 15√7+9√3+4√3+3√15+3√15 = 15√7+13√3+6√15 ≈ 85,44.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.85,
+    "procent": 99,
+    "procent_etap": 99
+   }
   }
  ]
 }

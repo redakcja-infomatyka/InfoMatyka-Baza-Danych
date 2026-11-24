@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_mazowieckie_q1",
@@ -37,7 +38,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką częścią doby są 3 godziny i 8 godzin, i w tej samej proporcji podziel 9 minut",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.0,
+    "procent": 76,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2025_mazowieckie_q2",
@@ -76,7 +82,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównuj kąty, nie długości boków — każdy z małych trójkątów jest prostokątny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.32,
+    "procent": 79,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2025_mazowieckie_q3",
@@ -122,6 +133,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pilot podniósł średnią, ale z samej średniej nie wynika, że jest starszy od każdego uczestnika"
+   },
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 62
    }
   },
   {
@@ -141,7 +157,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Przekształcamy wyrażenie do prostszej postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>b</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>2</mn><mi>a</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>2</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow><mn>4</mn></mfrac></mrow></math>. Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> jest kwadratem, więc jest nieujemne, a zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>−</mo><mfrac><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mn>4</mn></mfrac><mo>≤</mo><mn>0</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>b</mi></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math>, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>&lt;</mo><mn>0</mn></mrow></math>. W żadnym przypadku wartość wyrażenia nie jest liczbą dodatnią.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.53,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2025_mazowieckie_q5",
@@ -171,6 +192,11 @@
      "inne:obwod-figury-z-dziura"
     ],
     "opis": "Zacieniowana figura ma dziurę: do obwodu wlicza się też brzeg wewnętrznego trójkąta"
+   },
+   "trudnosc": {
+    "logit": 5.87,
+    "procent": 93,
+    "procent_etap": 93
    }
   },
   {
@@ -193,7 +219,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz stosunek wysokości klocka leżącego do stojącego i skróć go do końca",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.63,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2025_mazowieckie_q7",
@@ -220,6 +251,11 @@
      "jednostki"
     ],
     "opis": "Prędkość mamy w m/s, córki w km/h, droga w km — trzeba ujednolicić jednostki"
+   },
+   "trudnosc": {
+    "logit": 4.73,
+    "procent": 88,
+    "procent_etap": 88
    }
   },
   {
@@ -249,6 +285,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dwa prostokąty spełniają warunek; łatwo też odwrócić, która wielkość jest o 4 mniejsza"
+   },
+   "trudnosc": {
+    "logit": 5.4,
+    "procent": 91,
+    "procent_etap": 92
    }
   },
   {
@@ -279,6 +320,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zmiany procentowe się mnożą, a nie odejmują: nie wolno odjąć 20% od 25%"
+   },
+   "trudnosc": {
+    "logit": 2.57,
+    "procent": 73,
+    "procent_etap": 74
    }
   },
   {
@@ -305,6 +351,11 @@
      "kierunek-relacji"
     ],
     "opis": "Trzeba ustalić, który wazon ma większą krawędź, i dobrze odczytać kierunek stosunku 4/3"
+   },
+   "trudnosc": {
+    "logit": 6.06,
+    "procent": 94,
+    "procent_etap": 94
    }
   }
  ]

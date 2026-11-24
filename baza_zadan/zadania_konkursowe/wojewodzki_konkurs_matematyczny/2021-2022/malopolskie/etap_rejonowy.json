@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2021-2022_malopolskie_q1",
@@ -53,6 +54,11 @@
      "jednostki"
     ],
     "opis": "Masa zależy od objętości (sześcian skali), a wynik w gramach trzeba przeliczyć na dekagramy"
+   },
+   "trudnosc": {
+    "logit": -0.74,
+    "procent": 42,
+    "procent_etap": 44
    }
   },
   {
@@ -90,7 +96,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>19</mn></msup><mo>=</mo><msup><mn>2</mn><mn>38</mn></msup><mo>·</mo><msup><mn>3</mn><mn>19</mn></msup></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>38</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>9</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>≈</mo><msup><mrow><mo>(</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><mn>4</mn><mo>=</mo><mn>2,5</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>19</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>9</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>≈</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>=</mo><mn>1,2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math>.</p><p>Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup><mo>·</mo><mn>1,2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>20</mn></msup></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.54,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q3",
@@ -135,6 +146,11 @@
      "procent-podstawa"
     ],
     "opis": "'O ile procent b jest większa od a', a nie 'ile procent a stanowi b'"
+   },
+   "trudnosc": {
+    "logit": 3.34,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -173,7 +189,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ściany boczne mają wspólną wysokość, więc równe pola oznaczają równe krawędzie podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.51,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q5",
@@ -210,7 +231,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "śledź tylko soki — każde dolanie wody mnoży ich objętość przez ten sam ułamek, woda to reszta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.86,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q6",
@@ -256,6 +282,11 @@
      "zaokraglenie"
     ],
     "opis": "Płaci się za każdy rozpoczęty km: trasa dwa razy dłuższa to nie dwa razy więcej rozpoczętych kilometrów"
+   },
+   "trudnosc": {
+    "logit": 3.35,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -301,6 +332,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie dni roboczych od 28 czerwca do 31 sierpnia włącznie: długości miesięcy i dzień końcowy"
+   },
+   "trudnosc": {
+    "logit": 4.64,
+    "procent": 87,
+    "procent_etap": 88
    }
   },
   {
@@ -339,7 +375,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamień a, b, c na ułamki zwykłe i sprawdź, który z nich może dać w mianowniku czynnik 11",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.25,
+    "procent": 78,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q9",
@@ -388,6 +429,11 @@
      "plot-i-slupki"
     ],
     "opis": "Pozycja środkowa i 'ósme od końca' na liście 73 filmów oraz liczenie miejsc włącznie"
+   },
+   "trudnosc": {
+    "logit": 7.78,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -430,7 +476,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównuj prawdopodobieństwa jako ułamki, a tam gdzie mowa o pewności, rozważ najgorszy przypadek",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.7,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q11",
@@ -472,7 +523,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "punkt przecięcia przekątnych to środek odcinka BD — dodaj współrzędne i podziel przez 2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.01,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q12",
@@ -523,6 +579,11 @@
      "rysunek"
     ],
     "opis": "Podział na 12 trójkątów kusi, by suma kątów była 12·180°; wielokąt jest wklęsły"
+   },
+   "trudnosc": {
+    "logit": 1.63,
+    "procent": 65,
+    "procent_etap": 67
    }
   },
   {
@@ -565,7 +626,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "36 = 4 · 9 — cecha dla 4 patrzy na dwie ostatnie cyfry, a suma cyfr wynosi 3(a+b)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.32,
+    "procent": 94,
+    "procent_etap": 95
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q14",
@@ -613,6 +679,11 @@
      "o-co-pytaja"
     ],
     "opis": "Sumy wieku w dwóch różnych chwilach: 'gdy Celina była w wieku Bogdana' i 'gdy Adam będzie w wieku Bogdana'"
+   },
+   "trudnosc": {
+    "logit": 7.03,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -641,6 +712,11 @@
      "zbior-liczb"
     ],
     "opis": "'Niekoniecznie różnych' liczb pierwszych: kwadraty liczb pierwszych też są półpierwsze"
+   },
+   "trudnosc": {
+    "logit": 9.27,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -666,7 +742,12 @@
     "rozwiazanie_html": "<p><strong>I.a)</strong> Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math>.</p><p><strong>I.b)</strong> Krótszy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest przeciwprostokątną trójkąta prostokątnego równoramiennego o przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi><msqrt><mn>2</mn></msqrt></math>. Miejsca zagięcia dzielą pasek na cztery przystające trapezy równoramienne o krótszej podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>2</mn></msqrt></math> i dłuższej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mi>x</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>(</mo><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><mi>x</mi></math>. Obwód równoległoboku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>4</mn><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><mi>x</mi><mo>)</mo><mo>+</mo><mn>2</mn><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>10</mn><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn><mi>x</mi></math>.</p><p><strong>II.a)</strong> Dla boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>. Ośmiokąt dzielimy na kwadrat i cztery przystające trapezy prostokątne. Pole jednego trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math>, pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. Pole ośmiokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn></math>.</p><p><strong>II.b)</strong> Najdłuższa przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>d</mi><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msup><mi>d</mi><mn>2</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msqrt><mrow><mn>8</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></msqrt></math>.</p>",
     "punktacja_html": "<ul><li><strong>Podpunkt I. a)</strong> — 1 punkt (pełne rozwiązanie): podanie poprawnej miary kąta ∢ADC (135°).</li><li><strong>Podpunkt I. b)</strong> — 3 punkty (pełne rozwiązanie): zapisanie w najprostszej postaci poprawnego wyrażenia algebraicznego przedstawiającego obwód równoległoboku ABCD; 2 punkty: poprawny sposób znalezienia wyrażenia algebraicznego przedstawiającego obwód równoległoboku ABCD; 1 punkt: poprawny sposób znalezienia wyrażenia algebraicznego przedstawiającego długość boku AD równoległoboku ABCD.</li><li><strong>Podpunkt II. a)</strong> — 3 punkty (pełne rozwiązanie): obliczenie pola powierzchni ośmiokąta foremnego; 2 punkty: poprawny sposób obliczenia pola powierzchni ośmiokąta foremnego; 1 punkt: poprawny sposób obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</li><li><strong>Podpunkt II. b)</strong> — 3 punkty (pełne rozwiązanie): obliczenie długości najdłuższej przekątnej ośmiokąta foremnego; 2 punkty: poprawny sposób obliczenia długości najdłuższej przekątnej ośmiokąta foremnego; 1 punkt: poprawny sposób obliczenia długości dłuższej z przyprostokątnych trójkąta prostokątnego, w którym przeciwprostokątną jest najdłuższa przekątna ośmiokąta foremnego.</li></ul><p>Uwaga: Uczeń, który w podpunkcie I. a) poda odpowiedź 135 bez symbolu stopnia, otrzymuje 1 punkt.</p><p>Uwaga: Uczeń, który po poprawnym obliczeniu szukanej długości przekątnej przekształci wynik w sposób błędny, na przykład zapisze pierwiastek sumy jako sumę pierwiastków, może za podpunkt II. a) otrzymać co najwyżej 2 punkty.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.43,
+    "procent": 100,
+    "procent_etap": 100
+   }
   },
   {
    "id": "rejonowy_2021-2022_malopolskie_q17",
@@ -693,6 +774,11 @@
      "plot-i-slupki"
     ],
     "opis": "Trucht tylko pomiędzy kolejnymi biegami: przerw jest o jedną mniej niż biegów"
+   },
+   "trudnosc": {
+    "logit": 8.49,
+    "procent": 99,
+    "procent_etap": 99
    }
   }
  ]

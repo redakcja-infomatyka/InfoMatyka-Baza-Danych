@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2025-2026_pomorskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2025-2026_pomorskie_q1",
@@ -27,7 +28,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "z podanej równości odczytaj stosunek zawartości i podziel 1900 na części w tym stosunku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.88,
+    "procent": 40,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q2",
@@ -45,7 +51,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Droga: 5 km/h · <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>60</mn></mfrac></math> h = 1 km.</p><p>Starsza: 1 km ÷ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>60</mn></mfrac></math> h = 6 km/h.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.22,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q3",
@@ -65,7 +76,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile godzin minęło, i pomnóż przez spóźnienie z jednej godziny",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.24,
+    "procent": 37,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q4",
@@ -83,7 +99,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Środkowa liczba: 144÷3 = 48. Liczby: 47, 48, 49. Największa = 49.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.53,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q5",
@@ -102,7 +123,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Trapez i trójkąt ABC mają tę samą wysokość h. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>AB</mi><mo>+</mo><mi>CD</mi><mo>)</mo></mrow><mi>AB</mi></mfrac></math>=1,25, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>CD</mi><mi>AB</mi></mfrac></math>=0,25, czyli AB = 4·CD.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.22,
+    "procent": 85,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q6",
@@ -121,7 +147,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>2≡−1 (mod 3), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2025</mn></msup></math>≡(−1)^2025≡2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2026</mn></msup></math>≡0. Suma ≡ 2 (mod 3).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.05,
+    "procent": 60,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q7",
@@ -149,6 +180,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 25% mniej od Krysi” i „o 50% więcej od Moniki”: procent liczy się od Krysi i od Moniki, nie od Ani"
+   },
+   "trudnosc": {
+    "logit": 0.43,
+    "procent": 54,
+    "procent_etap": 60
    }
   },
   {
@@ -177,6 +213,11 @@
      "inne:samoodniesienie"
     ],
     "opis": "„Trzy czwarte masy tej rury” to ułamek całej, jeszcze nieznanej masy, a nie ułamek podanych 10 kg"
+   },
+   "trudnosc": {
+    "logit": -1.83,
+    "procent": 32,
+    "procent_etap": 37
    }
   },
   {
@@ -207,7 +248,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz jednostki: 1 ha to 10 000 m², a 1 m³ to 1000 dm³",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.22,
+    "procent": 61,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2025-2026_pomorskie_q10",
@@ -237,6 +283,11 @@
      "kierunek-relacji"
     ],
     "opis": "10.3: łatwo odwrócić stosunek mieszania i przypisać proporcje niewłaściwym roztworom"
+   },
+   "trudnosc": {
+    "logit": 3.42,
+    "procent": 80,
+    "procent_etap": 86
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025_opolskie_q1",
@@ -48,6 +49,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Odcinek ma też drugą oś: prostą, na której leży. Łatwo uznać, że ma tylko jedną (symetralną)."
+   },
+   "trudnosc": {
+    "logit": 3.19,
+    "procent": 78,
+    "procent_etap": 71
    }
   },
   {
@@ -92,6 +98,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Minus przed wartością bezwzględną; kwadrat nawiasu jest nieujemny, ale nie musi być liczbą wymierną."
+   },
+   "trudnosc": {
+    "logit": 1.19,
+    "procent": 61,
+    "procent_etap": 54
    }
   },
   {
@@ -124,7 +135,12 @@
     "rozwiazanie_html": "<p>Reszta musi być mniejsza od dzielnika, a suma cyfr liczby dwucyfrowej nie przekracza 18. Resztę 10 można otrzymać, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>1</mn></math> daje resztę 0 — trzeba dobrać przykład, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>6</mn></math> r. 3; resztę 10 daje np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>:</mo><mn>13</mn><mo>=</mo><mn>5</mn></math> r. 11 — istnieją odpowiednie liczby, więc <strong>TAK</strong>. Resztę 15 również można otrzymać (dzielnik ≥ 16) — <strong>TAK</strong>. Reszta 17 wymagałaby dzielnika ≥ 18, czyli sumy cyfr równej 18 (tylko liczba 99), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>:</mo><mn>18</mn><mo>=</mo><mn>5</mn></math> r. 9 — więc reszta 17 jest niemożliwa, <strong>NIE</strong>.</p>",
     "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.52,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q4",
@@ -169,6 +185,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Największy romb w prostokącie wcale nie ma wierzchołków w środkach boków, gdy prostokąt nie jest kwadratem."
+   },
+   "trudnosc": {
+    "logit": 6.73,
+    "procent": 96,
+    "procent_etap": 93
    }
   },
   {
@@ -202,7 +223,12 @@
     "rozwiazanie_html": "<p>Czworościan foremny ma siatkę złożoną z czterech trójkątów równobocznych — <strong>TAK</strong>. Istnieją ostrosłupy, których wszystkie ściany są trójkątami prostokątnymi (np. ostrosłup o trzech krawędziach wychodzących z jednego wierzchołka wzajemnie prostopadłych) — <strong>TAK</strong>. Ostrosłup prawidłowy czworokątny o odpowiednio dobranych krawędziach ma podstawę-kwadrat i ściany boczne będące trójkątami prostokątnymi — <strong>TAK</strong>.</p>",
     "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.3,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q6",
@@ -225,7 +251,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "masa kwasu się nie zmienia, więc masa roztworu rośnie w stosunku odwrotnym do stężeń",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.11,
+    "procent": 51,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q7",
@@ -246,7 +277,12 @@
     "rozwiazanie_html": "<p>Dwie kolejne liczby nieparzyste zapiszmy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą. Różnica ich kwadratów, po zastosowaniu wzoru na różnicę kwadratów, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest podzielna przez 8, co kończy dowód.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie uzasadni – 5p</li><li>poprawnie uzasadnia, popełnia błąd rachunkowy przy przekształceniach – 4p</li><li>zapisze wyrażenie określające różnicę kwadratów dwóch kolejnych liczb nieparzystych, nie stosuje wzorów skróconego mnożenia – 3p</li><li>zapisze wyrażenia określające dwie kolejne liczby nieparzyste – 2p</li><li>zapisze wyrażenie określające liczbę nieparzystą – 1p</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.0,
+    "procent": 68,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q8",
@@ -268,7 +304,12 @@
     "rozwiazanie_html": "<p>Suma kątów pięciokąta wynosi 540°. Kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są proste (razem 180°), więc trzy pozostałe równe kąty mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>540</mn><mo>°</mo><mo>−</mo><mn>180</mn><mo>°</mo></mrow><mn>3</mn></mfrac><mo>=</mo><mn>120</mn><mo>°</mo></math>. Ponieważ kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są proste, boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są prostopadłe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest prostokątem. Oznaczmy równą długość boków przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>s</mi></math>) o kącie przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> równym 120°, więc kąty przy podstawie mają po 30°, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>s</mi><msqrt><mn>3</mn></msqrt></math>. Ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>10</mn></math>. Pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn><msqrt><mn>3</mn></msqrt></math> cm². Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mtext>tg</mtext><mn>30</mn><mo>°</mo><mo>=</mo><mn>5</mn></math>, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn><msqrt><mn>3</mn></msqrt></math> cm². Pole pięciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>25</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>125</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie obliczy pole powierzchni pięciokąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>125</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm²) – 5p</li><li>poprawnie oblicza pole, ale popełnia błąd rachunkowy – 4p</li><li>obliczy długości wszystkich boków pięciokąta – 3p</li><li>poda wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> – 2p</li><li>poda miary kątów pięciokąta – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.46,
+    "procent": 97,
+    "procent_etap": 96
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q9",
@@ -288,7 +329,12 @@
     "rozwiazanie_html": "<p>Prostopadłościan zmieści się w kuli, gdy jego przekątna jest nie dłuższa od średnicy kuli (równoważnie: połowa przekątnej nie jest większa od promienia). Przekątna prostopadłościanu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>200</mn></msqrt><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math> cm, więc jej połowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. Promień kuli wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm. Porównujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>48</mn></msqrt></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt><mo>&gt;</mo><msqrt><mn>48</mn></msqrt></math>, połowa przekątnej jest większa od promienia, więc prostopadłościan <strong>nie zmieści się</strong> w kuli.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>udzieli poprawnej odpowiedzi i uzasadni, że połowa długości przekątnej prostopadłościanu jest większa od długości promienia kuli (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>&gt;</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>50</mn></msqrt><mo>&gt;</mo><msqrt><mn>48</mn></msqrt></mrow></math>) – 5p</li><li>zastosuje poprawny sposób obliczenia i porównania, ale popełni błąd rachunkowy – 4p</li><li>obliczy długość przekątnej prostopadłościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm) – 3p</li><li>zastosuje poprawny sposób obliczenia długości przekątnej prostopadłościanu – 2p</li><li>zauważy, że trzeba obliczyć długość przekątnej prostopadłościanu – 1p</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.42,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q10",
@@ -309,7 +355,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z objętości wyznacz wysokość, potem Pitagoras z apotemą podstawy na wysokość ściany",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.18,
+    "procent": 78,
+    "procent_etap": 71
+   }
   },
   {
    "id": "wojewodzki_2025_opolskie_q11",
@@ -339,6 +390,11 @@
      "o-co-pytaja"
     ],
     "opis": "Od spotkania każdy jedzie odcinek, który przejechał drugi samochód; pytają o minuty, nie o godziny."
+   },
+   "trudnosc": {
+    "logit": 5.25,
+    "procent": 90,
+    "procent_etap": 87
    }
   }
  ]

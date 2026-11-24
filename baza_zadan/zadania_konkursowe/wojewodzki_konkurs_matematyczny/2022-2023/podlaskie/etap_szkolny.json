@@ -8,6 +8,7 @@
  "liczba_zadan": 31,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022_podlaskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień zapis rzymski na arabski i rozłóż obie liczby na czynniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.93,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q2",
@@ -82,7 +88,26 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trzy wyrażenia zależą tylko od x² albo od |x| — poszukaj tego czwartego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubelskie_q5",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2021_podlaskie_q11",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q3",
@@ -119,7 +144,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień średnie na sumy i porównaj sumę z 7 dni z sumą z 6 dni",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.77,
+    "procent": 24,
+    "procent_etap": 28
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q4",
@@ -163,6 +193,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Łatwo wypisać tylko liczby z dwiema jedynkami i zapomnieć o liczbie z cyfrą 2 na początku"
+   },
+   "trudnosc": {
+    "logit": -1.58,
+    "procent": 34,
+    "procent_etap": 40
    }
   },
   {
@@ -200,7 +235,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż 3 cm przez mianownik skali, dopiero potem zamieniaj jednostki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.62,
+    "procent": 11,
+    "procent_etap": 12
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2022-2023_warminsko-mazurskie_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q6",
@@ -237,7 +283,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień km na metry, a dzielenie przez 2/3 na mnożenie przez 3/2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.09,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q7",
@@ -281,6 +332,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie przedziału włącznie z obu końców; 450 też zaokrągla się do 500"
+   },
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 61
    }
   },
   {
@@ -318,7 +374,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie mnóż całych liczb — wystarczą same cyfry jedności",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.21,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q9",
@@ -355,7 +416,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przez 6 dzieli się to, co dzieli się jednocześnie przez 2 i przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.2,
+    "procent": 8,
+    "procent_etap": 9
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2013_podlaskie_sp_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q10",
@@ -393,7 +465,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "lipiec to 4 tygodnie i 3 dni, więc tylko trzy kolejne dni tygodnia wypadają 5 razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 70,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q11",
@@ -431,7 +508,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok = pole : wysokość — policz tak oba boki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.61,
+    "procent": 25,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q12",
@@ -468,7 +550,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkie wyniki są ujemne, więc szukaj tego najbliższego zeru",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.67,
+    "procent": 25,
+    "procent_etap": 29
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q13",
@@ -512,6 +599,11 @@
      "szczegol-bryly"
     ],
     "opis": "Zanurzona jest też dolna ściana sześcianu, nie tylko paski na ścianach bocznych"
+   },
+   "trudnosc": {
+    "logit": 1.53,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -549,7 +641,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czas nie jest dziesiętny — sprawdź przeliczenie minut na godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.09,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q15",
@@ -587,7 +684,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oba trójkąty mają wspólną wysokość, więc pola są w stosunku podstaw",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q16",
@@ -631,6 +733,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent liczony od zmniejszonej liczby, nie od początkowej"
+   },
+   "trudnosc": {
+    "logit": -0.24,
+    "procent": 47,
+    "procent_etap": 54
    }
   },
   {
@@ -668,7 +775,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola powierzchni wyznacz pole jednej ściany, a z niego krawędź",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.93,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q18",
@@ -705,7 +817,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz od najgłębszego ułamka w górę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.89,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q19",
@@ -750,6 +867,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O wpół do dziesiątej wskazówka godzinowa nie stoi na 9, tylko między 9 a 10"
+   },
+   "trudnosc": {
+    "logit": -1.61,
+    "procent": 34,
+    "procent_etap": 40
    }
   },
   {
@@ -797,6 +919,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kąt przyległy do α, a nie o samo α"
+   },
+   "trudnosc": {
+    "logit": -1.19,
+    "procent": 38,
+    "procent_etap": 44
    }
   },
   {
@@ -834,7 +961,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw podnieś do kwadratu, dopiero potem dodawaj",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.34,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q22",
@@ -871,7 +1003,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj wydajności kranów: jaką część basenu każdy napełnia w godzinę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.77,
+    "procent": 16,
+    "procent_etap": 19
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2024-2025_warminsko-mazurskie_q12",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q23",
@@ -915,7 +1058,18 @@
      "warunek-istnienia"
     ],
     "opis": "Odcinki spełniające nierówność trójkąta z równością nie tworzą trójkąta"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.16,
+    "procent": 20,
+    "procent_etap": 24
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2021-2022_warminsko-mazurskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q24",
@@ -960,6 +1114,11 @@
      "konwencja"
     ],
     "opis": "Przed okresem stoi jedna cyfra spoza okresu, trzeba ją odjąć przed liczeniem reszty"
+   },
+   "trudnosc": {
+    "logit": 0.6,
+    "procent": 55,
+    "procent_etap": 62
    }
   },
   {
@@ -998,7 +1157,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile godzin ma jeden rok",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.11,
+    "procent": 29,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q26",
@@ -1016,7 +1180,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Bolek pokonuje połowę drogi w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math> minut, a Lolek w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn></mrow></math> minut. Aby spotkać się w połowie drogi w tym samym momencie, Bolek musi wyjść <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>5</mn></mrow></math> minut po Lolku.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 52
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2022_podlaskie_q27",
@@ -1037,7 +1212,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość boku kwadratu. Każdy z prostokątów ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>3</mn></mfrac></math>, więc jego obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mi>a</mi><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>8</mn><mi>a</mi></mrow><mn>3</mn></mfrac></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>a</mi><mo>=</mo><mn>32</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math> cm. Obwód kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>48</mn></mrow></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.42,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q28",
@@ -1055,7 +1235,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Zapiszmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>7</mn><mi>k</mi><mo>+</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>7</mn><mi>l</mi><mo>+</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>7</mn><mi>m</mi><mo>+</mo><mn>6</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>7</mn><mo>(</mo><mi>k</mi><mo>+</mo><mi>l</mi><mo>+</mo><mi>m</mi><mo>)</mo><mo>+</mo><mn>15</mn></mrow></math>. Suma reszt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>15</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>1</mn></mrow></math>, więc reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></math> przez 7 jest równa 1.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.37,
+    "procent": 19,
+    "procent_etap": 22
+   }
   },
   {
    "id": "szkolny_2022_podlaskie_q29",
@@ -1081,6 +1266,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zmniejszenie każdego wymiaru o 1/3 nie zmniejsza objętości o 1/3"
+   },
+   "trudnosc": {
+    "logit": 5.8,
+    "procent": 93,
+    "procent_etap": 96
    }
   },
   {
@@ -1106,6 +1296,11 @@
      "procent-podstawa"
     ],
     "opis": "Nowe 10% liczone od zmniejszonej liczby wszystkich tulipanów"
+   },
+   "trudnosc": {
+    "logit": 0.66,
+    "procent": 56,
+    "procent_etap": 63
    }
   },
   {
@@ -1125,7 +1320,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> oraz trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> mają tę samą wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> co trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>26</mn><mo>−</mo><mi>x</mi></mrow></math>. Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mn>26</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>−</mo><mi>x</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>14</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7</mn></mrow></math>. Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> jest równa 7 cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.29,
+    "procent": 62,
+    "procent_etap": 69
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_podlaskie_q23",
+     "rodzaj": "wariant"
+    }
+   ]
   }
  ]
 }

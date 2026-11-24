@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q1",
@@ -51,6 +52,11 @@
      "znak"
     ],
     "opis": "Minus przed ułamkiem (x+1)/2 obejmuje cały licznik – kreska ułamkowa działa jak nawias"
+   },
+   "trudnosc": {
+    "logit": -2.35,
+    "procent": 27,
+    "procent_etap": 22
    }
   },
   {
@@ -96,6 +102,11 @@
      "znak"
     ],
     "opis": "Dzielenie nierówności przez liczbę ujemną odwraca znak; potem najmniejsza całkowita, nie zaokrąglenie w dół"
+   },
+   "trudnosc": {
+    "logit": 1.14,
+    "procent": 60,
+    "procent_etap": 53
    }
   },
   {
@@ -133,7 +144,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozpisz każdy ułamek jako różnicę dwóch odwrotności – sąsiednie wyrazy się poskracają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.75,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q4",
@@ -170,7 +186,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaki procent całości stanowią dzieci",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.14,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q5",
@@ -214,6 +235,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę kartek, a nie stron; liczy się też tylko 90 stron dwucyfrowych"
+   },
+   "trudnosc": {
+    "logit": 4.17,
+    "procent": 84,
+    "procent_etap": 79
    }
   },
   {
@@ -250,7 +276,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Liczby trzycyfrowe podzielne przez 45 to wielokrotności 45 od 135 do 990. Dokładnie dwie równe cyfry mają wśród nich: 225, 585, 855, 900, 990 — pozostałe wielokrotności mają trzy różne cyfry. Takich liczb jest 5.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.25,
+    "procent": 90,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q7",
@@ -287,7 +318,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, która z figur nie wygląda tak samo po obrocie o 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.7,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q8",
@@ -326,7 +362,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz liczbę czarnych literką i zapisz sumę wszystkich kolorów jako 40",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.06,
+    "procent": 21,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q9",
@@ -363,7 +404,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z drugiego równania wyznacz y i podstaw do pierwszego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.84,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q10",
@@ -401,7 +447,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamiast liczyć średnie, porównaj sumę dwóch środkowych liczb z sumą skrajnych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.24,
+    "procent": 37,
+    "procent_etap": 30
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q11",
@@ -447,6 +498,11 @@
      "kierunek-relacji"
     ],
     "opis": "Więcej pracowników to mniej dni (proporcjonalność odwrotna) – łatwo przypisać +3 do złej strony"
+   },
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 36
    }
   },
   {
@@ -487,7 +543,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz LM = a, wtedy KL = 2a – z Pitagorasa licz samo a², bez wyciągania pierwiastka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.01,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q13",
@@ -526,7 +587,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W trójkącie TKS: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>TS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>TK</mi><mo>|</mo></mrow></math>, więc kąty podstawy wynoszą 20°, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>STK</mi><mo>=</mo><mn>140</mn><mo>°</mo></mrow></math> i (bo P, T, S są współliniowe) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>PTK</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Kąt zewnętrzny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>TKR</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>160</mn><mo>°</mo></mrow></math>. W trójkącie TKR: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>TK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KR</mi><mo>|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>KTR</mi><mo>=</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>160</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>10</mn><mo>°</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>PTR</mi><mo>=</mo><mn>40</mn><mo>°</mo><mo>−</mo><mn>10</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. W trójkącie PRT <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>PT</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>PR</mi><mo>|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>120</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.35,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q14",
@@ -573,6 +639,11 @@
      "rysunek"
     ],
     "opis": "Podana długość 20√2 to cięciwa (przeciwprostokątna), a nie promień ćwiartki koła"
+   },
+   "trudnosc": {
+    "logit": 0.58,
+    "procent": 55,
+    "procent_etap": 48
    }
   },
   {
@@ -605,7 +676,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Krótszy bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>a</mi><mo>=</mo><mn>32</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>, dłuższy bok ma 12 cm.</p><ul><li>Wysokość na dłuższy bok to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mi>sin</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm — <b>NIE</b>.</li><li>Pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>12</mn><mo>·</mo><mi>sin</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm², a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm² — <b>NIE</b>.</li><li>Dłuższa przekątna leży naprzeciw kąta 120°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>12</mn><mo>·</mo><mi>cos</mi><mn>120</mn><mo>°</mo><mo>=</mo><mn>208</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>4</mn><msqrt><mn>13</mn></msqrt></mrow></math> cm — <b>TAK</b>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.04,
+    "procent": 83,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q16",
@@ -644,7 +720,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kwadrat przekątnej z twierdzenia Pitagorasa i porównuj kwadraty zamiast pierwiastków",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.81,
+    "procent": 75,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q17",
@@ -665,7 +746,12 @@
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>1</mn><mo>−</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>4</mn><mo>−</mo><mn>20</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>10</mn><mo>=</mo><mn>14</mn><mo>−</mo><mn>21</mn><msqrt><mn>2</mn></msqrt></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mo>−</mo><mn>12</mn><mo>−</mo><mn>12</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>6</mn><mo>=</mo><mo>−</mo><mn>6</mn><mo>−</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mi>z</mi><mo>+</mo><mi>y</mi><mo>−</mo><mn>20</mn></mrow><msqrt><mi>x</mi></msqrt></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>−</mo><mn>9</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>+</mo><mo>(</mo><mn>14</mn><mo>−</mo><mn>21</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>−</mo><mn>20</mn></mrow><msqrt><mn>72</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><mo>+</mo><mn>9</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>14</mn><mo>−</mo><mn>21</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>20</mn></mrow><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><mn>12</mn><msqrt><mn>2</mn></msqrt></mrow><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math></p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math> jest liczbą całkowitą.</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy poprawnie uzasadni i wyznaczy liczbę całkowitą równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn></math>.</li><li>2 punkty – gdy poprawnie obliczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>, ale popełni błędy rachunkowe w obliczeniach końcowych i otrzyma inną liczbę całkowitą.</li><li>1 punkt – gdy:<ul><li>poprawnie obliczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> lub poprawnie obliczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>,</li><li>zastosuje poprawny sposób mnożenia wyrażeń algebraicznych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>, ale popełni błędy w obliczeniach lub na tym zakończy.</li></ul></li><li>0 punktów – rozwiązanie błędne lub brak rozwiązania.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.11,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q18",
@@ -685,7 +771,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to cena pierwszej płyty, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> cena drugiej płyty (w zł). Układamy układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>120</mn></mrow></mtd></mtr><mtr><mtd><mrow><mn>1,3</mn><mi>x</mi><mo>+</mo><mn>0,8</mn><mi>y</mi><mo>=</mo><mn>120</mn><mo>·</mo><mn>1,15</mn></mrow></mtd></mtr></mtable></mrow></math>. Z drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,3</mn><mi>x</mi><mo>+</mo><mn>0,8</mn><mi>y</mi><mo>=</mo><mn>138</mn></mrow></math>. Mnożąc pierwsze równanie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>0,8</mn></mrow></math> i dodając stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>x</mi><mo>=</mo><mn>42</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>84</mn></mrow></math> zł oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>120</mn><mo>−</mo><mn>84</mn><mo>=</mo><mn>36</mn></mrow></math> zł. Odpowiedź: pierwsza płyta kosztowała 84 zł, a druga 36 zł.</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy:<ul><li>poprawnie obliczy cenę pierwszej i drugiej płyty.</li></ul></li><li>2 punkty – gdy:<ul><li>rozwiąże układ równań (równanie) i obliczy cenę pierwszej płyty i rozwiązując popełni błędy rachunkowe, które nie doprowadzą do poprawnego wyniku drugiej płyty</li></ul></li><li>1 punkty – gdy:<ul><li>zapisze poprawnie układ równań (równania) i rozwiązując popełni błędy rachunkowe, które nie doprowadzą do poprawnych wyników, lub</li><li>zapisze poprawnie układ równań (równania) i na tym zakończy.</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2024-2025_wielkopolskie_q19",
@@ -704,7 +795,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> to wysokość ostrosłupa, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> apotema podstawy (połowa krawędzi podstawy). W trójkącie prostokątnym o przeciwprostokątnej równej wysokości ściany bocznej 8 cm i kącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mfrac><mn>8</mn><mn>2</mn></mfrac><mo>=</mo><mn>4</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Krawędź podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>h</mi><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>192</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>256</mn></mrow></math> cm<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow></mrow><mn>3</mn></msup></math>.</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy bezbłędnie rozwiąże zadanie zgodnie z treścią i otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>256</mn></mrow></math> cm³ oraz poda odpowiedź z właściwą jednostką.</li><li>2 punkty – gdy:<ul><li>poprawnie obliczy wysokość ostrosłupa i długość podstawy i na tym zakończy lub dalej popełni błędy, lub</li><li>poprawnie obliczy wysokość ostrosłupa i długość podstawy i dalej nie wykorzysta poprawnie twierdzenia o potęgowaniu pierwiastków – nie doprowadzi do poprawnego wyniku objętości, lub</li><li>gdy bezbłędnie rozwiąże zadanie zgodnie z treścią, ale nie poda właściwej jednostki, lub</li><li>gdy wymiary poda na rysunku bez obliczeń dla wysokości ostrosłupa i krawędzi podstawy – wykonując je w pamięci.</li></ul></li><li>1 punkt – gdy:<ul><li>obliczy poprawnie wysokość ostrosłupa i na tym zakończy lub dalej popełni błędy, lub</li><li>obliczy poprawnie długość połowy krawędzi podstawy i na tym zakończy lub dalej popełni błędy, lub</li><li>obliczy poprawnie długość podstawy i na tym zakończy lub dalej popełni błędy, lub</li><li>gdy wymiary poda na rysunku bez obliczeń dla wysokości ostrosłupa lub krawędzi podstawy – wykonując je w pamięci.</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania, błąd merytoryczny w podaniu wzoru na objętość ostrosłupa.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 74
+   }
   }
  ]
 }

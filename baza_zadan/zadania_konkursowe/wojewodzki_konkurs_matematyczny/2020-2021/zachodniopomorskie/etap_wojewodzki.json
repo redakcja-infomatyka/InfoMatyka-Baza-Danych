@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 36,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 420 na 7 równych części, a większą kwotę na 5 — i porównaj wszystkie trzy części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.42,
+    "procent": 19,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q2",
@@ -85,7 +91,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna daje kąty naprzemianległe, a górny trójkąt jest równoramienny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q3",
@@ -129,6 +140,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o odległość od liczby a, a nie od zera; łatwo wybrać liczbę o największej wartości bezwzględnej"
+   },
+   "trudnosc": {
+    "logit": -0.55,
+    "procent": 43,
+    "procent_etap": 36
    }
   },
   {
@@ -167,7 +183,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ostrosłup o podstawie n-kąta ma 2n krawędzi jednakowej długości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q5",
@@ -206,7 +227,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "długość boku z twierdzenia Pitagorasa, potem uprość pierwiastek i weź cztery boki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q6",
@@ -241,7 +267,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Sylwia nie może stać na końcach ani obok Kasi, ani obok Doroty, więc po obu jej stronach muszą stać Ela i Marysia. Jest to możliwe tylko, gdy Sylwia stoi na miejscu drugim (na trzecim lub czwartym Dorota i Kasia trafiłyby na oba krańce kolejki, więc Ela nie zdążyłaby stanąć przed Dorotą). Skoro Marysia nie jest pierwsza, na miejscu pierwszym stoi Ela, a Marysia na trzecim; Dorota (nie ostatnia) i Kasia zajmują miejsca czwarte i piąte.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.23,
+    "procent": 78,
+    "procent_etap": 71
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2012_podkarpackie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q7",
@@ -279,7 +316,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpoznaj kwadrat różnicy, zanim podstawisz x",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.66,
+    "procent": 17,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q8",
@@ -317,7 +359,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "promień okręgu opisanego to połowa przekątnej kwadratu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.43,
+    "procent": 12,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q9",
@@ -355,7 +402,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustal znaki wyrażeń pod modułami, zanim opuścisz wartość bezwzględną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q10",
@@ -393,7 +445,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "punkt przecięcia przekątnych to środek odcinka AC",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.15,
+    "procent": 4,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q11",
@@ -414,7 +471,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień każdą średnią na sumę oczek i porównaj z sumą potrzebną przy średniej 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.59,
+    "procent": 34,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q12",
@@ -443,6 +505,11 @@
      "kierunek-relacji"
     ],
     "opis": "10% liczy się od kwoty Jacka po oddaniu 20%, nie od jego pierwotnych oszczędności; pytanie W jako % J"
+   },
+   "trudnosc": {
+    "logit": 4.39,
+    "procent": 86,
+    "procent_etap": 80
    }
   },
   {
@@ -466,7 +533,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "różnica kwadratów: suma stojącej i złamanej części to 10 m",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.46,
+    "procent": 54,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q14",
@@ -494,6 +566,11 @@
      "inne:kwota-netto"
     ],
     "opis": "25 zł to kwota już odłożona w dniu pracy; wydatek 15 zł odejmuje się tylko w dniach bez pracy"
+   },
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 57
    }
   },
   {
@@ -515,7 +592,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba dzieci to wielokrotność 27, z której da się wziąć 5/12 — sprawdź te z zakresu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.61,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2020-2021_zachodniopomorskie_q16",
@@ -547,6 +629,11 @@
      "konwencja"
     ],
     "opis": "Skala 1:1000 dotyczy długości; pole w rzeczywistości jest 1000² razy większe od pola na rysunku"
+   },
+   "trudnosc": {
+    "logit": 8.0,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -569,7 +656,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź wszystko do potęg dwójki i wyłącz wspólny czynnik przed nawias",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.11,
+    "procent": 70,
+    "procent_etap": 62
+   }
   }
  ]
 }

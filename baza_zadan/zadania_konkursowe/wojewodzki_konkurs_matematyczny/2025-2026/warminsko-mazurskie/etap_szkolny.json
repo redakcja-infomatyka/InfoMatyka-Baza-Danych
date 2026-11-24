@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2025-2026_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2025-2026_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1 nie jest ani pierwsza, ani złożona — złożone zaczynają się od 4; sumuj obie czwórki i dziel przez 8",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.25,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q2",
@@ -83,7 +89,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź oba przypadki: 48° przy podstawie albo między ramionami",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.45,
+    "procent": 44,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q3",
@@ -121,7 +132,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwinięcie ma okres o długości 2 — decyduje parzystość numeru cyfry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.91,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q4",
@@ -167,6 +183,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczby całkowite to też ujemne i zero; nierówność ostra wyklucza końce"
+   },
+   "trudnosc": {
+    "logit": -4.11,
+    "procent": 14,
+    "procent_etap": 16
    }
   },
   {
@@ -205,7 +226,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz osobno: wierzchołki obu podstaw, krawędzie podstaw i krawędzie boczne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.11,
+    "procent": 5,
+    "procent_etap": 5
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q6",
@@ -250,6 +276,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwojenie krawędzi nie podwaja pola powierzchni, a farba zależy od pola"
+   },
+   "trudnosc": {
+    "logit": -3.18,
+    "procent": 20,
+    "procent_etap": 24
    }
   },
   {
@@ -287,7 +318,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie liczby rzymskie na arabskie, odejmij, a wynik zapisz z powrotem po rzymsku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.16,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q8",
@@ -331,6 +367,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa potęgi to nie potęga połowy podstawy ani połowa wykładnika"
+   },
+   "trudnosc": {
+    "logit": -3.55,
+    "procent": 18,
+    "procent_etap": 21
    }
   },
   {
@@ -370,7 +411,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij ruch na odcinki z wykresu — czekanie na przystanku nie dodaje kilometrów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.18,
+    "procent": 61,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q10",
@@ -409,7 +455,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj z tabeli, w które dni wypada najmniejsza i największa liczba gości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.97,
+    "procent": 30,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q11",
@@ -429,7 +480,12 @@
     "rozwiazanie_html": "<p>Sześciokąt foremny składa się z sześciu trójkątów równobocznych o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Pole sześciokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>72</mn><msqrt><mn>3</mn></msqrt></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>48</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>48</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za zastosowanie właściwego wzoru na pole trójkąta równobocznego; 1 pkt za bezbłędne obliczenie długości boku (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>) i obwodu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msqrt><mn>3</mn></msqrt></mrow></math>).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.29,
+    "procent": 52,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q12",
@@ -457,6 +513,11 @@
      "procent-podstawa"
     ],
     "opis": "Dwie obniżki po 10% to nie obniżka o 20%, a powrót do ceny liczy się od niższej kwoty"
+   },
+   "trudnosc": {
+    "logit": -1.59,
+    "procent": 34,
+    "procent_etap": 40
    }
   },
   {
@@ -486,6 +547,11 @@
      "kwantyfikator"
     ],
     "opis": "„Przynajmniej na jednej” obejmuje też przypadek, gdy obie kostki pokazują liczbę parzystą"
+   },
+   "trudnosc": {
+    "logit": -0.51,
+    "procent": 44,
+    "procent_etap": 50
    }
   },
   {
@@ -507,7 +573,12 @@
     "rozwiazanie_html": "<p>Trapez jest równoramienny, więc ramiona są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>. Podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>=</mo><mn>22</mn></mrow></math>. Ramiona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>11</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>52</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za wykonanie rysunku z poprawnie podpisanymi długościami boków; 1 pkt za obliczenie wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>; 1 pkt za obliczenie obwodu i podanie odpowiedzi liczbą naturalną (52).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.05,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2025-2026_warminsko-mazurskie_q15",
@@ -535,6 +606,11 @@
      "o-co-pytaja"
     ],
     "opis": "−3² to minus kwadratu, nie kwadrat liczby −3; na końcu podać liczbę odwrotną, nie samą wartość"
+   },
+   "trudnosc": {
+    "logit": 5.13,
+    "procent": 90,
+    "procent_etap": 94
    }
   }
  ]

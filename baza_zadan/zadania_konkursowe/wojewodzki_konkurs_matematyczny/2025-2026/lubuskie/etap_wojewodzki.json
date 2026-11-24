@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_lubuskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_lubuskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2026_lubuskie_q1",
@@ -42,7 +43,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Zamieniamy lata na liczby arabskie i liczymy długość życia: Banach 1892–1945 (53 lata), Ulam 1909–1984 (75 lat), Sierpiński 1882–1969 (87 lat), Steinhaus 1887–1972 (85 lat). Najdłużej żył Sierpiński.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 50,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2026_lubuskie_q2",
@@ -79,7 +85,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>s</mi></math> lat, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> to wiek najstarszego syna (musi być nieparzyste, bo ojciec ma nieparzysty wiek). Warunki spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>15</mn></math>: ojciec ma 45 lat, synowie 7, 11 i 15 lat (suma 78 się zgadza), razem 33 lata. Po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> latach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>33</mn><mo>+</mo><mn>3</mn><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 82
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023-2024_malopolskie_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2026_lubuskie_q3",
@@ -122,6 +139,11 @@
      "kalendarz-czas"
     ],
     "opis": "Ostatni dzień lutego w roku przestępnym to 29., a nie 28. lutego"
+   },
+   "trudnosc": {
+    "logit": 3.71,
+    "procent": 81,
+    "procent_etap": 75
    }
   },
   {
@@ -168,6 +190,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trójkąt ma trzy wysokości, a dwie opuszczone na ramiona są równe; łatwo policzyć jedną z nich"
+   },
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 66
    }
   },
   {
@@ -205,7 +232,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustal pierwszą cyfrę i policz, na ile sposobów dwie pozostałe uzupełniają sumę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.14,
+    "procent": 48,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2026_lubuskie_q6",
@@ -235,7 +267,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 176 na czynniki — dzielnik pierwszy 11 musi być jedną z tych liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.31,
+    "procent": 46,
+    "procent_etap": 39
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021_mazowieckie_q1",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2026_lubuskie_q7",
@@ -267,7 +310,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to trójkąt 30-60-90 o przeciwprostokątnej AB — z przyprostokątnych wyjdą i pola, i obwody",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 59
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2023_mazowieckie_q1",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2026_lubuskie_q8",
@@ -306,6 +360,11 @@
      "o-co-pytaja"
     ],
     "opis": "Najdłuższy odcinek w bryle to przekątna graniastosłupa, nie najdłuższa przekątna podstawy"
+   },
+   "trudnosc": {
+    "logit": 3.85,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -350,6 +409,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Iloraz jest dodatni, ale nie musi być większy od 1 — ciąg nie musi rosnąć"
+   },
+   "trudnosc": {
+    "logit": 9.21,
+    "procent": 100,
+    "procent_etap": 99
    }
   },
   {
@@ -398,6 +462,11 @@
      "kwantyfikator"
     ],
     "opis": "Wielokrotny wybór: wariant „większy niż 23” też jest prawdziwy, gdy obwód jest już znany"
+   },
+   "trudnosc": {
+    "logit": 6.96,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -437,7 +506,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz 2, 8, 16 i x jako potęgi dwójki i porównuj same wykładniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.63,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2026_lubuskie_q12",
@@ -481,6 +555,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Iloczyn kolejnych liczb dzieli się przez 6, ale żadna z pięciu liczb nie musi"
+   },
+   "trudnosc": {
+    "logit": 5.21,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -526,6 +605,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba 2 jest pierwsza i parzysta — z nią suma bywa nieparzysta, a nawet pierwsza"
+   },
+   "trudnosc": {
+    "logit": 4.61,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -547,7 +631,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj a³√3/4 z 54√3 — √3 się skraca i zostaje sam sześcian",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.34,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2026_lubuskie_q15",
@@ -573,6 +662,11 @@
      "inne:sztuki-niepodzielne"
     ],
     "opis": "Pisanki są niepodzielne — wspólna wydajność daje czas ułamkowy, którego nie da się zrealizować"
+   },
+   "trudnosc": {
+    "logit": 6.05,
+    "procent": 94,
+    "procent_etap": 90
    }
   },
   {
@@ -603,6 +697,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wzrost o 20%, a potem spadek o 20% nie przywraca wyjściowej masy roztworu"
+   },
+   "trudnosc": {
+    "logit": 3.42,
+    "procent": 80,
+    "procent_etap": 73
    }
   },
   {
@@ -623,7 +722,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie bokiem kwadratu. Po rozcięciu powstają dwa prostokąty o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mfrac><mi>a</mi><mn>2</mn></mfrac></math>. Z pierwszego prostokąta (obwód podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>) powstaje graniastosłup o krawędzi podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>4</mn></mfrac></math> i objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>32</mn></mfrac></math>. Z drugiego (obwód podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>) powstaje graniastosłup o krawędzi podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>8</mn></mfrac></math> i objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>8</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>64</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub><mo>+</mo><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mn>375</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>20</mn></math> cm, więc pole kartki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>400</mn></math> cm².</p>",
     "punktacja_html": "<ul><li>Uczeń może przedstawić podział kwadratu na rysunku uwzględniającym wszystkie potrzebne wymiary lub opisać słownie sposób podziału kartki z podaniem wszystkich potrzebnych długości (np. w pierwszym graniastosłupie krawędź podstawy jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi></mrow></math>, a wysokość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>, w drugim graniastosłupie krawędź podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>a</mi></mrow></math>, a wysokość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>). – 2p.</li><li>Zapisanie wzorów na objętość obu graniastosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>32</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>8</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>64</mn></mfrac></mrow></math> – 1p.</li><li>Rozwiązanie równania wynikającego z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>+</mo><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mn>375</mn></mrow></math> i podanie długości boku kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>20</mn></mrow></math> [cm]. – 1p.</li><li>Obliczenie pola powierzchni wyjściowego kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>400</mn></mrow></math> [cm²]. – 1p.</li></ul><p><strong>Uwagi:</strong></p><ol><li>Uczeń może podać odpowiedź bez uwzględnienia jednostek.</li><li>Błędne przekształcenie jednostek powoduje utratę 1 punktu.</li></ol>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.17,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2026_lubuskie_q18",
@@ -643,7 +747,12 @@
     "rozwiazanie_html": "<p>Oznaczmy krótszą podstawę i wysokość (krótsze ramię) przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></math>. Krótsza przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>2</mn></msqrt></math> i jest równa dłuższemu ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Stąd dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>x</mi></math>. Z pola trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>)</mo><mo>·</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>96</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>192</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Boki trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>16</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mn>32</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<ul><li>Wykonanie poglądowego rysunku i oznaczenie tą samą zmienną odcinków AD i DC np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Wyznaczenie długości przekątnej AC trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mi>C</mi><mo>=</mo><mi>x</mi><msqrt><mn>2</mn></msqrt></mrow></math> – 1p.</li><li>Ustalenie długości podstawy AB trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mi>B</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math> – 1p.</li><li>Wykorzystanie informacji o polu trapezu do obliczenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>)</mo><mo>·</mo><mi>x</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>96</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>192</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math> – 2p.</li><li>Wyznaczenie długości boków trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mi>B</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mi>C</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mi>D</mi><mo>=</mo><mi>A</mi><mi>D</mi><mo>=</mo><mn>8</mn></mrow></math> i obliczenie obwodu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mn>32</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> – 1p.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 84
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2010_podkarpackie_gim.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2010_podkarpackie_gim_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2010_podkarpackie_gim_q1",
@@ -46,7 +47,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wykonaj działania od środka i dopiero całość podnieś do czwartej potęgi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q2",
@@ -84,7 +90,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "połącz obie potęgi w jedną — iloczyn podstaw to różnica kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q3",
@@ -122,7 +133,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Sześciokąt o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dzielimy odcinkami od środka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> do wierzchołków oraz do połówek odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi></math>, …, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OF</mi></math> na 24 przystające małe trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi></math> biegnie dokładnie wzdłuż krawędzi tej siatki (przez środki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OF</mi></math>), więc czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQF</mi></math> składa się z dokładnie 5 takich trójkącików. Stosunek pól wynosi 5 : 24.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.04,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q4",
@@ -163,7 +179,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz trzeci kąt w trójkącie ACD i sprawdź, czy nie jest on równoramienny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.06,
+    "procent": 77,
+    "procent_etap": 78
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2023-2024_zachodniopomorskie_q11",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q5",
@@ -202,7 +229,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź obie grupy z niebieskimi oczami jako procent wszystkich uczniów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q6",
@@ -239,7 +271,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz dzbanek przez szklanki i kufel, potem wstaw to do warunku o trzech kuflach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.27,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q7",
@@ -280,7 +317,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OECF</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> — środek okręgu) kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> są proste, a przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma 60°, więc kąt środkowy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>EOF</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>120</mn><mo>°</mo></mrow></math>. Z długości łuku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>=</mo><mfrac><mn>120</mn><mn>360</mn></mfrac><mo>·</mo><mn>2</mn><mi>π</mi><mi>r</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mfrac><mn>3</mn><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></mrow></math>. Bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mi>r</mi></mrow></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mi>π</mi></mfrac></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.05,
+    "procent": 89,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q8",
@@ -317,7 +359,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podwój liczbę przekątnych i rozłóż wynik na dwa czynniki różniące się o 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.65,
+    "procent": 33,
+    "procent_etap": 35
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023_lubuskie_q18",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q9",
@@ -354,7 +407,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź obie proporcje do wspólnej wartości b",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.17,
+    "procent": 47,
+    "procent_etap": 49
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q10",
@@ -392,7 +450,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraz wolny odczytaj z przecięcia z osią OY, resztę z warunku f(7) = 0",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.75,
+    "procent": 24,
+    "procent_etap": 26
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q11",
@@ -429,7 +492,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile razy więcej karmy zjada 12 kaczek niż 8",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.99,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q12",
@@ -474,7 +542,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wymiary maleją o 1/3, ale objętość nie maleje o 1/3: liczy się sześcian skali, a nie sama skala"
-   }
+   },
+   "trudnosc": {
+    "logit": 4.72,
+    "procent": 88,
+    "procent_etap": 88
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2018-2019_zachodniopomorskie_q15",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q13",
@@ -519,6 +598,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Równanie z wartością bezwzględną ma dwa rozwiązania, a pytają o ich sumę"
+   },
+   "trudnosc": {
+    "logit": -3.59,
+    "procent": 17,
+    "procent_etap": 19
    }
   },
   {
@@ -557,7 +641,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź do wspólnego mianownika — iloczyn mianowników to (√6)² − (√5)²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q15",
@@ -596,7 +685,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>DC</mi></mrow></math> i dwusieczności kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> = kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> jest równoramienny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BC</mi><mo>=</mo><mi>DC</mi><mo>=</mo><mn>1</mn></mrow></math>. Na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> obieramy punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AM</mi><mo>=</mo><mn>1</mn></mrow></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MB</mi><mo>=</mo><mn>1</mn><mo>=</mo><mi>BC</mi></mrow></math>. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AMCD</mi></math> jest równoległobokiem, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BMC</mi><mo>=</mo><mi>α</mi></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MBC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MB</mi><mo>=</mo><mi>BC</mi></mrow></math>), więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>ABC</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi></mrow></math>, a z równoległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>α</mi></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.05,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q16",
@@ -617,7 +711,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "liczby typu abcabc to abc · 1001 — rozłóż wszystko na czynniki i skracaj przed mnożeniem",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.58,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q17",
@@ -637,7 +736,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz nawias, a ujemny wykładnik zamień na odwrotność",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.26,
+    "procent": 37,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q18",
@@ -658,7 +762,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Środek koła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem podstawy trójkąta. Część wspólną koła i trójkąta dzielimy na dwa przystające trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> oraz wycinek koła o kącie 60°. Pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac></mrow></math>. Pole wycinka koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>w</mi></msub><mo>=</mo><mfrac><mrow><mn>60</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac><mo>+</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>8</mn></mfrac><mo>+</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>24</mn></mfrac><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mi>π</mi><mo>)</mo></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.71,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q19",
@@ -687,6 +796,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytają, o ile procent wzrosła objętość, a nie ile procent dawnej objętości stanowi nowa"
+   },
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 77
    }
   },
   {
@@ -705,7 +819,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> oznaczają kwoty, które dali odpowiednio tato, Asia i Wojtek. Układamy układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>)</mo><mo>+</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>x</mi><mo>+</mo><mi>z</mi><mo>)</mo><mo>+</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>+</mo><mn>13</mn></mrow></math>. Rozwiązaniem jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>53</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>43</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>37</mn></mrow></math>. Zatem prezent kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mn>53</mn><mo>+</mo><mn>43</mn><mo>+</mo><mn>37</mn><mo>=</mo><mn>133</mn></mrow></math> zł.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.68,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q21",
@@ -725,7 +844,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż same reszty i weź resztę z otrzymanego iloczynu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.14,
+    "procent": 48,
+    "procent_etap": 49
+   }
   },
   {
    "id": "rejonowy_2010_podkarpackie_gim_q22",
@@ -745,7 +869,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyrażenie pod pierwiastkiem musi być nieujemne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.91,
+    "procent": 15,
+    "procent_etap": 17
+   }
   }
  ]
 }

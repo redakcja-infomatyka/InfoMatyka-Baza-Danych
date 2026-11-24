@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2014-2015_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2014-2015_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2014-2015_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 90 km na centymetry i podziel przez 12",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.95,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamiast liczyć obie długości dnia, dodaj opóźnienie wschodu i przyspieszenie zachodu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.62,
+    "procent": 25,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q3",
@@ -125,6 +136,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o obroty wskazówki sekundowej, a nie o liczbę sekund; pełny obrót godzinowej to 12 h, nie doba"
+   },
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 46
    }
   },
   {
@@ -162,7 +178,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przeczytaj obie liczby rzymskie w zapisie arabskim i dopiero potem mnóż",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.23,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q5",
@@ -206,6 +227,11 @@
      "kwantyfikator"
     ],
     "opis": "Warunek: powrót innym szlakiem niż wejście — łatwo go pominąć i liczyć 4·4"
+   },
+   "trudnosc": {
+    "logit": -4.03,
+    "procent": 14,
+    "procent_etap": 17
    }
   },
   {
@@ -246,7 +272,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt wierzchołkowy do 80° i kąt przyległy do 150° to dwa kąty tego samego trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.49,
+    "procent": 35,
+    "procent_etap": 41
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q7",
@@ -290,6 +321,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalnie liczy się samochody (niewiadoma z równania), a pytają o motocykle"
+   },
+   "trudnosc": {
+    "logit": -4.4,
+    "procent": 12,
+    "procent_etap": 14
    }
   },
   {
@@ -328,7 +364,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź od końca — to, co zostało, to połowa bez pół śliwki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.91,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q9",
@@ -366,7 +407,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1,5 km to 1500 m, a na każdy metr przypadają dwa kroki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.82,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q10",
@@ -410,6 +456,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o własne pieniądze właściciela, a nie o część z funduszy UE"
+   },
+   "trudnosc": {
+    "logit": -7.74,
+    "procent": 1,
+    "procent_etap": 1
    }
   },
   {
@@ -454,6 +505,11 @@
      "o-co-pytaja"
     ],
     "opis": "Równanie daje liczbę wszystkich żołędzi, a pytają, ile zostało pod drzewem"
+   },
+   "trudnosc": {
+    "logit": 1.36,
+    "procent": 63,
+    "procent_etap": 70
    }
   },
   {
@@ -499,6 +555,11 @@
      "jednostki"
     ],
     "opis": "Pytają o wolne miejsce, nie o wodę w zbiorniku; warianty w m³, dm³ i litrach"
+   },
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 36
    }
   },
   {
@@ -537,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok to pierwiastek z pola, a obwód to cztery boki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.74,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q14",
@@ -574,7 +640,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wiek Asi zapisz jako y − 2 i dodaj 5 lat",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.51,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2014-2015_malopolskie_q15",
@@ -603,6 +674,11 @@
      "inne:ktory-bok-przeciwprostokatna"
     ],
     "opis": "Skoro AC=BC, to AB jest przeciwprostokątną, a nie przyprostokątną"
+   },
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
    }
   },
   {
@@ -633,6 +709,11 @@
      "plot-i-slupki"
     ],
     "opis": "Pierwszy domek ma 9 zapałek, każdy następny 8 — łatwo zgubić pierwszy domek przy liczeniu"
+   },
+   "trudnosc": {
+    "logit": -1.08,
+    "procent": 38,
+    "procent_etap": 45
    }
   },
   {
@@ -654,7 +735,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj Asię z rodzeństwem razem — dane o Kasi w ogóle nie są potrzebne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.77,
+    "procent": 24,
+    "procent_etap": 28
+   }
   }
  ]
 }

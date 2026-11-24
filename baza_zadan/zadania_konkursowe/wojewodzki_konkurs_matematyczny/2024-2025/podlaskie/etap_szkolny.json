@@ -8,6 +8,7 @@
  "liczba_zadan": 25,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024_podlaskie_q1",
@@ -47,7 +48,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 12/5 na ułamek dziesiętny i sprawdź, ile wynosi jedna działka na każdej z osi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.2,
+    "procent": 47,
+    "procent_etap": 54
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q2",
@@ -84,7 +90,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij kwotę na złote i grosze i za każdym razem bierz największą monetę, jaka się mieści",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.25,
+    "procent": 78,
+    "procent_etap": 85
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q3",
@@ -121,7 +132,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zjedzone są tylko 2 owoce, więc każdego rodzaju ubywa najwyżej 2 — sprawdzaj odpowiedzi po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.14,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q4",
@@ -158,7 +174,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 1½ na ułamek niewłaściwy i odwróć, a potem licz wartości odpowiedzi po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.61,
+    "procent": 55,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q5",
@@ -197,7 +218,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oba szukane kąty są przyległe do tych z rysunku — dopełnij każdy do 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.71,
+    "procent": 33,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q6",
@@ -236,7 +262,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątne prostokąta są równe i przecinają się w połowie, więc powstają trójkąty równoramienne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.13,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q7",
@@ -274,7 +305,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień ułamki na dziesiętne i przelicz każdą pozycję osobno na mniejszą jednostkę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.13,
+    "procent": 38,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q8",
@@ -314,7 +350,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "na każdym rysunku policz osobno odcinki poziome i pionowe — skośne nie tworzą par",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.02,
+    "procent": 50,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q9",
@@ -365,6 +406,11 @@
      "rysunek"
     ],
     "opis": "Strzałka z liczbą 7 obejmuje tylko część podstawy; resztę trzeba odczytać z kąta 45°"
+   },
+   "trudnosc": {
+    "logit": -2.76,
+    "procent": 24,
+    "procent_etap": 28
    }
   },
   {
@@ -403,7 +449,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno krawędzie obu podstaw i krawędzie boczne, a ściany to podstawy plus ściany boczne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.66,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q11",
@@ -421,7 +472,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Liczba dzieli się przez 12, gdy dzieli się jednocześnie przez 3 i przez 4. Podzielność przez 4: liczba utworzona z dwóch ostatnich cyfr (*6) musi dzielić się przez 4 — spełniają to cyfry dziesiątek 1, 3, 5, 7, 9. Podzielność przez 3: suma cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mo>*</mo><mo>+</mo><mn>6</mn><mo>=</mo><mn>13</mn><mo>+</mo><mo>*</mo></math> musi dzielić się przez 3 — spełniają to cyfry 2, 5, 8. Wspólną cyfrą jest 5, zatem szukaną liczbą jest 2556 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2556</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>213</mn></math>). Należy wpisać cyfrę 5.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q12",
@@ -448,6 +504,11 @@
      "zbior-liczb"
     ],
     "opis": "Cyfra dziesiątek lub jedności może być zerem (pary 0+7 i 7+0)"
+   },
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 77
    }
   },
   {
@@ -466,7 +527,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1535</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>259</mn><mo>)</mo><mo>=</mo><mn>1535</mn><mo>+</mo><mn>259</mn><mo>=</mo><mn>1794</mn></math>. Temperatura topnienia żelaza jest o 1794°C większa od temperatury topnienia wodoru.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.4,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q14",
@@ -484,7 +550,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Najmniejsza możliwa suma ośmiu różnych liczb naturalnych większych od zera to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>36</mn></math>. Aby otrzymać 37, zwiększamy największą liczbę o 1, zastępując 8 liczbą 9. Szukane liczby to: 1, 2, 3, 4, 5, 6, 7, 9.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.3,
+    "procent": 20,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q15",
@@ -504,7 +575,12 @@
     "rozwiazanie_html": "<p>Oznaczmy najmniejszy kąt przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Kolejne kąty to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>40</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>80</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>120</mn><mo>°</mo></math>. Ich suma wynosi 360°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>240</mn><mo>°</mo><mo>=</mo><mn>360</mn><mo>°</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>120</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn><mo>°</mo></math>. Kąty mają miary 30°, 70°, 110°, 150°.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za ustalenie poprawnego sposobu rozwiązania; 1 pkt za wyznaczenie miar kątów i podanie odpowiedzi.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.18,
+    "procent": 20,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q16",
@@ -524,7 +600,12 @@
     "rozwiazanie_html": "<p>Liczba czwartoklasistów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> dzieli się przez 2 i przez 3, więc jest wielokrotnością 6; przy dzieleniu przez 5 daje resztę 3; ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><mn>80</mn></math>. Wielokrotności 6 z tego przedziału to 54, 60, 66, 72, 78. Resztę 3 przy dzieleniu przez 5 daje tylko 78 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>15</mn><mo>+</mo><mn>3</mn></math>). W trzech klasach razem jest 78 dzieci.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za ustalenie poprawnego sposobu rozwiązania; 1 pkt za podanie odpowiedzi.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.47,
+    "procent": 35,
+    "procent_etap": 41
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q17",
@@ -551,6 +632,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Ilość farby zależy od pola powierzchni, a nie od długości krawędzi ani objętości"
+   },
+   "trudnosc": {
+    "logit": -3.93,
+    "procent": 15,
+    "procent_etap": 17
    }
   },
   {
@@ -578,6 +664,11 @@
      "inne:objetosc-zamiast-ukladania"
     ],
     "opis": "Klocków nie da się rozciąć: 10 cm nie dzieli się przez 3, więc liczenie z objętości zawyża wynik"
+   },
+   "trudnosc": {
+    "logit": 0.52,
+    "procent": 55,
+    "procent_etap": 61
    }
   },
   {
@@ -597,7 +688,12 @@
     "rozwiazanie_html": "<p>Trzeci wędkarz złowił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>42</mn><mn>5</mn></mfrac></math> kg. Drugi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>42</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>28</mn><mn>5</mn></mfrac><mo>=</mo><mn>5</mn><mfrac><mn>3</mn><mn>5</mn></mfrac></math> kg. Pierwszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>28</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>21</mn><mn>5</mn></mfrac><mo>=</mo><mn>4</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></math> kg. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>42</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>28</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>21</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>91</mn><mn>5</mn></mfrac><mo>=</mo><mn>18</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></math> kg. Trzej wędkarze złowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></math> kg ryb.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za ustalenie poprawnego sposobu rozwiązania; 1 pkt za poprawność rachunkową i podanie odpowiedzi.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q20",
@@ -624,6 +720,11 @@
      "o-co-pytaja"
     ],
     "opis": "Liczba uczniów to nie liczba klas: 6 uczniów z jednym kolegą tworzy pary, a każdy samotny to osobna klasa"
+   },
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 77,
+    "procent_etap": 84
    }
   },
   {
@@ -643,7 +744,12 @@
     "rozwiazanie_html": "<p>Największa liczba jednakowych paczek to największy wspólny dzielnik liczb 2310 i 1290. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2310</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1290</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>43</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mn>2310</mn><mo>,</mo><mn>1290</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></math>. Kasia przygotuje 30 paczek.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za ustalenie poprawnego sposobu rozwiązania (NWD = 30); 1 pkt za podanie odpowiedzi.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.33,
+    "procent": 19,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2024_podlaskie_q22",
@@ -669,6 +775,11 @@
      "procent-podstawa"
     ],
     "opis": "Drugiego dnia 50% reszty trasy, a nie całej trasy"
+   },
+   "trudnosc": {
+    "logit": -2.64,
+    "procent": 25,
+    "procent_etap": 29
    }
   },
   {
@@ -696,6 +807,11 @@
      "jednostki"
     ],
     "opis": "Wymiary panelu podane w metrach i centymetrach jednocześnie"
+   },
+   "trudnosc": {
+    "logit": -1.98,
+    "procent": 30,
+    "procent_etap": 35
    }
   },
   {
@@ -723,6 +839,11 @@
      "procent-podstawa"
     ],
     "opis": "Ułamek 2/5 liczy się od reszty, nie od wszystkich sadzonek; 1 ar to 100 m²"
+   },
+   "trudnosc": {
+    "logit": -0.39,
+    "procent": 45,
+    "procent_etap": 52
    }
   },
   {
@@ -743,7 +864,12 @@
     "rozwiazanie_html": "<p>Michał — najmniejszy obwód: patyczki 4 cm, 6 cm, 8 cm tworzą trójkąt (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>6</mn><mo>&gt;</mo><mn>8</mn></math>) o najmniejszym obwodzie 18 cm (patyczki 2, 4, 6 nie tworzą trójkąta). Dorota — z pozostałych największy obwód: 40 cm, 50 cm, 60 cm (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>+</mo><mn>50</mn><mo>&gt;</mo><mn>60</mn></math>), obwód 150 cm. Jacek — z czterech pozostałych patyczków (2, 9, 10, 30 cm) trójkąt tworzą tylko 2 cm, 9 cm, 10 cm (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>9</mn><mo>&gt;</mo><mn>10</mn></math>). Nie został wykorzystany patyczek długości 30 cm.</p>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za ustalenie patyczków Michała (4, 6, 8 cm), Doroty (40, 50, 60 cm) oraz Jacka (2, 9, 10 cm) i podanie odpowiedzi.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.46,
+    "procent": 72,
+    "procent_etap": 80
+   }
   }
  ]
 }

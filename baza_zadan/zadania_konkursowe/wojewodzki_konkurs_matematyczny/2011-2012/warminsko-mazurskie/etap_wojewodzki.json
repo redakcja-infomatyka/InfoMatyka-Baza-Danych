@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2011-2012_warminsko-mazurskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień jedną tysięczną na ułamek dziesiętny i weź połowę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.75,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q2",
@@ -89,6 +95,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy kwadransie po pełnej godzinie wskazówka godzinowa już się przesunęła – kąt nie jest prosty"
+   },
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 29
    }
   },
   {
@@ -133,6 +144,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wiadomość dostały osoby z obu fal rozsyłania, nie tylko z drugiej"
+   },
+   "trudnosc": {
+    "logit": 1.66,
+    "procent": 65,
+    "procent_etap": 58
    }
   },
   {
@@ -170,7 +186,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 2 lalki na tyle samo warte misie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.87,
+    "procent": 5,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q5",
@@ -211,7 +232,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok kwadratu odczytaj ze średnic kół, a obwód gwiazdy to same ramiona trójkątów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 56
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2014_podlaskie_sp_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q6",
@@ -248,7 +280,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj dzielniki każdej liczby mniejsze od niej samej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.78,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q7",
@@ -286,7 +323,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "potraktuj sumę kątów przy podstawie jak jedną wielkość — cała suma to 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.08,
+    "procent": 29,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q8",
@@ -323,7 +365,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "tuzin to 12 sztuk — pomnóż i sprawdź, czy wynik jest wśród odpowiedzi",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q9",
@@ -363,7 +410,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz jednostkowe odcinki obwodu krzyża, potem bok kwadratu o takim samym obwodzie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.38,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q10",
@@ -401,7 +453,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że liczba pomniejszona o swoją połowę to nadal jej połowa",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.13,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q11",
@@ -446,6 +503,11 @@
      "inne:zagadka-slowna"
     ],
     "opis": "„Kilo i pół cegły” kusi, by odczytać jako półtora kilograma; pół cegły to niewiadoma, nie pół kilo"
+   },
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 21
    }
   },
   {
@@ -486,7 +548,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "x łączy środki dwóch boków prostokąta — porównaj go z przekątną, czyli ze średnicą koła",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.4,
+    "procent": 53,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q13",
@@ -523,7 +590,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejrzyj kolejne sześciany i sprawdź, który z nich jest też kwadratem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.55,
+    "procent": 43,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q14",
@@ -567,6 +639,11 @@
      "inne:okres-ciagu"
     ],
     "opis": "Brzoza zamyka jeden cykl i otwiera następny – okres jest krótszy, niż sugeruje symetryczny zapis"
+   },
+   "trudnosc": {
+    "logit": 0.3,
+    "procent": 52,
+    "procent_etap": 45
    }
   },
   {
@@ -607,7 +684,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź trójkąt po trójkącie, przenosząc kąty przez wierzchołkowe na przecięciach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.0,
+    "procent": 49,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q16",
@@ -628,7 +710,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba obwody — wysokość wliczy się dwa razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.85,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q17",
@@ -655,6 +742,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają tylko o ściany niezamalowane – zewnętrzna powierzchnia jest już pomalowana"
+   },
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -675,7 +767,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>23+29 = 52; 1/0,125 = 8; MXLVII−CMLXIV = 1047−964 = 83; NWD(28,35) = 7; NWW(6,21) = 42. Szyfr: 52-8-83-7-42 = 52883742.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.14,
+    "procent": 78,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q19",
@@ -696,7 +793,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz tylko ostatnie cyfry i wykorzystaj cykl potęg trójki",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 53,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2011-2012_warminsko-mazurskie_q20",
@@ -714,7 +816,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Prędkość zbliżania psa do lisa: 8−6=2 m/s, więc pies dogoniłby lisa po 360:2=180 s. Lis dobiega do nory (1000 m) w czasie 1000:6≈166,7 s, czyli wcześniej niż zostałby dogoniony — lis zdąży uciec.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 47
+   }
   }
  ]
 }

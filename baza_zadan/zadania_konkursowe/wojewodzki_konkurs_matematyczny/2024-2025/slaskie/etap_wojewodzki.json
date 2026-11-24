@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024-2025_slaskie_q1",
@@ -27,7 +28,12 @@
     "rozwiazanie_html": "<p>Hasło (nieoceniane): <strong>GEOMETRIA EUKLIDESOWA</strong>.</p><p>Rozwiązania haseł:</p><ol><li>OKRĄG</li><li>PROCENT</li><li>WIERZCHOŁEK</li><li>ROMB</li><li>WARTOŚĆ BEZWZGLĘDNA</li><li>TRAPEZ</li><li>KĄTY PRZYLEGŁE</li><li>OŚ LICZBOWA</li><li>HEKTAR</li><li>DZIELNA</li><li>OSTROSŁUP</li><li>TRÓJKĄT</li><li>SYMETRALNA</li><li>WYKŁADNIK</li><li>ODCINEK</li><li>UŁAMEK</li><li>SUMA</li><li>KĄT PROSTY</li><li>MIANOWNIK</li><li>ŚREDNICA</li></ol>",
     "punktacja_html": "<p>Za każde poprawnie uzupełnione pole przyznaje się 1 punkt, w sumie 20 punktów.</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 7.21,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q2",
@@ -72,6 +78,11 @@
      "inne:zero-parzyste"
     ],
     "opis": "Cyfra dziesiątych bywa zerem (1/11, 1/13) — zero też jest cyfrą parzystą"
+   },
+   "trudnosc": {
+    "logit": 0.66,
+    "procent": 56,
+    "procent_etap": 49
    }
   },
   {
@@ -110,7 +121,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę krawędzi i ścian przez liczbę boków podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.76,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q4",
@@ -154,6 +170,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba czterocyfrowa nie może zaczynać się od zera — trzeba odrzucić ustawienia z 0 na początku"
+   },
+   "trudnosc": {
+    "logit": 1.32,
+    "procent": 62,
+    "procent_etap": 55
    }
   },
   {
@@ -191,7 +212,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z każdego środka odczytaj brakujący koniec odcinka, potem uśrednij skrajne liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.83,
+    "procent": 41,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q6",
@@ -228,7 +254,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie licz całości — porównaj fragment zaraz po M, czyli setki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.8,
+    "procent": 16,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q7",
@@ -266,7 +297,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy z rombów ma kąty 60° i 120°, więc obie przekątne wyrazisz przez bok a",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.2,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q8",
@@ -311,6 +347,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wzrost o 10% i spadek o 20% to nie spadek o 10% — drugi procent liczy się od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -4.62,
+    "procent": 11,
+    "procent_etap": 8
    }
   },
   {
@@ -356,6 +397,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwojenie krawędzi podstawy nie podwaja objętości — pole podstawy rośnie z kwadratem"
+   },
+   "trudnosc": {
+    "logit": -2.12,
+    "procent": 29,
+    "procent_etap": 23
    }
   },
   {
@@ -396,7 +442,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz przed nawias najmniejszą potęgę dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.87,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q11",
@@ -441,6 +492,11 @@
      "kwantyfikator"
     ],
     "opis": "Nie podano, że KX to bok — może być też przekątną; zdania mówią „może”, a kwadratów jest mniej niż się zdaje"
+   },
+   "trudnosc": {
+    "logit": 7.08,
+    "procent": 97,
+    "procent_etap": 95
    }
   },
   {
@@ -477,7 +533,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> jest prostokątny, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>135</mn></math> cm². W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> (15, 15, 18) wysokość na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>15</mn><mn>2</mn></msup><mo>−</mo><msup><mn>9</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>12</mn></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>18</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>108</mn></math> cm².</p><p>135 > 108, więc pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> nie jest mniejsze. Fałsz.</p><p>Pole czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>135</mn><mo>+</mo><mn>108</mn><mo>=</mo><mn>243</mn></math> cm². Prawda.</p><p>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><msqrt><mn>549</mn></msqrt></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>63</mn><mo>+</mo><msqrt><mn>549</mn></msqrt></math>. Fałsz.</p><p>Wysokości w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> to 12 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14,4</mn></math> – żadna nie wynosi 15 cm. Fałsz.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.82,
+    "procent": 93,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q13",
@@ -523,6 +584,11 @@
      "rysunek"
     ],
     "opis": "Prawdopodobieństwo liczy się z liczby uczniów (wysokości słupków), a nie z liczby słupków"
+   },
+   "trudnosc": {
+    "logit": 5.06,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -550,7 +616,18 @@
      "procent-podstawa"
     ],
     "opis": "25% liczy się od pozostałej części trasy, nie od całej trasy"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.98,
+    "procent": 68,
+    "procent_etap": 61
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_opolskie_q6",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q15",
@@ -572,7 +649,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech trapez równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma ramiona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></mrow></math>, a przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt ostry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na dwa kąty o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i jest prostopadła do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi></mrow></math>, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi><mo>)</mo><mo>−</mo><mi>α</mi><mo>=</mo><mi>α</mi></mrow></math>. Zatem trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math> (trapez równoramienny). W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math> (połowa trójkąta równobocznego), więc naprzeciw kąta 30° leży bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></mrow></math>, a przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, czyli podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy dłuższa od podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.1,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q16",
@@ -591,7 +673,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> oznacza objętość basenu. Wydajność pierwszego kranu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>V</mi></mrow></math> na godzinę, drugiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>V</mi></mrow></math> na godzinę. Wydajność łączna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mi>V</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mi>V</mi></mrow></math> na godzinę. Czas napełnienia całego basenu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn><mo>:</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>6</mn><mn>5</mn></mfrac></mrow></math> godziny. Odpowiedź: jeżeli odkręcimy oba krany, to na napełnienie basenu potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>5</mn></mfrac></math> godziny, czyli 72 minuty.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 26
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2024-2025_warminsko-mazurskie_q12",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_slaskie_q17",
@@ -620,6 +713,11 @@
      "rysunek"
     ],
     "opis": "Odcinki AD i BC są narysowane, ale nie są brzegiem zacieniowanej figury — w obwodzie tylko łuki"
+   },
+   "trudnosc": {
+    "logit": 7.11,
+    "procent": 97,
+    "procent_etap": 95
    }
   },
   {
@@ -640,7 +738,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FOE</mi></math> jest połową kwadratu o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, więc odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OE</mi></math> (bok kwadratu) ma długość 4 cm. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> (ściany bocznej) opuszczona na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math> cm. Pole jednej ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>3</mn></mrow></math> cm². Pole powierzchni bocznej ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
+   }
   }
  ]
 }

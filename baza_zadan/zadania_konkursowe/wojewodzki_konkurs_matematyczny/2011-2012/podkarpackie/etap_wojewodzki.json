@@ -8,6 +8,7 @@
  "liczba_zadan": 21,
  "max_punktow": 46,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2012_podkarpackie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2012_podkarpackie_q1",
@@ -51,6 +52,11 @@
      "inne:pominiety-zamek"
     ],
     "opis": "Łatwo policzyć tylko pudełka i skrzynie, zapominając, że kufer też jest zamknięty"
+   },
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 80
    }
   },
   {
@@ -96,6 +102,11 @@
      "inne:godzina-lekcyjna"
     ],
     "opis": "Godzina lekcyjna to 45 minut, a nie 60; trzecia część kwadransa to 5 minut"
+   },
+   "trudnosc": {
+    "logit": -0.36,
+    "procent": 46,
+    "procent_etap": 38
    }
   },
   {
@@ -135,7 +146,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdzaj osobno oś pionową i poziomą — patrz, czy dolny znak nie jest odwrócony",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q4",
@@ -181,6 +197,11 @@
      "jednostki"
     ],
     "opis": "Trzy odbicia to trzy mnożenia przez 2/5; wynik w cm, a wariant zapisany w innej jednostce"
+   },
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -219,7 +240,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj kontrprzykładu tam, gdzie dzielniki mają wspólny czynnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.33,
+    "procent": 27,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q6",
@@ -256,7 +282,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Analiza pikselowa 5 spiral (3 współśrodkowe łuki każda) pokazała kąt środka przerwy każdego pierścienia. W figurach 1,2,3,5 kolejność skrętu (kierunek narastania przerwy między pierścieniami) jest zgodna, a figura 4 ma odwrócony (lustrzany) kierunek skrętu względem pozostałych.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.1,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q7",
@@ -294,7 +325,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyrównaj obie skale — szukana liczba ma być równa swojemu przeliczeniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.71,
+    "procent": 33,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q8",
@@ -339,6 +375,11 @@
      "inne:podzial-proporcjonalny"
     ],
     "opis": "Zwrot dzieli się według nadpłaty ponad własny udział, a nie proporcjonalnie do liczby zakupów 8:7"
+   },
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -386,6 +427,11 @@
      "inne:czytanie-relacji"
     ],
     "opis": "Obwód jest o 24 cm WIĘKSZY od boku, a nie równy 24 cm"
+   },
+   "trudnosc": {
+    "logit": -4.03,
+    "procent": 14,
+    "procent_etap": 10
    }
   },
   {
@@ -423,7 +469,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij butelkę za 70 porcji — wtedy dzienne porcje wychodzą całkowite",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.13,
+    "procent": 48,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q11",
@@ -460,7 +511,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz sum wypłat — sprawdź, skąd bierze się spadek o 42 zł u każdej z 14 osób",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.66,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q12",
@@ -499,7 +555,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz oba rodzaje kartoników i zastanów się, czemu suma przekracza 80",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.36,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q13",
@@ -534,7 +595,18 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Pierwsza nie może być M, S (warunki), D (Ela przed Dorotą) ani K (prowadzi do sprzeczności). Ustawienie E, S, M, D, K spełnia wszystkie warunki, więc pierwsza jest Ela.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.23,
+    "procent": 78,
+    "procent_etap": 71
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020-2021_zachodniopomorskie_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q14",
@@ -555,7 +627,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Każda cyfra to blok 6 kresek: liczba pionowych kresek między dwiema poziomymi daje cyfrę (−−||||=0, −|−|||=1, −||−||=2). Bloki czytamy od prawej do lewej (sprawdzenie: rys.1 daje 0,0,1,2,0 → odwrócone 02100). Rys.2: bloki 0,2,0,0,1 → odwrócone <strong>10020</strong>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q15",
@@ -577,7 +654,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma krawędzi to 4·(a+b+c) — stąd suma trzech kolejnych liczb",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q16",
@@ -601,7 +683,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że AK = AB = AE — trójkąt AKE jest równoramienny, zacznij od kąta przy A",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.51,
+    "procent": 86,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q17",
@@ -631,6 +718,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Elementy zachodzą na siebie, więc długość nie rośnie proporcjonalnie do liczby elementów"
+   },
+   "trudnosc": {
+    "logit": 3.75,
+    "procent": 82,
+    "procent_etap": 75
    }
   },
   {
@@ -652,7 +744,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pole trójkąta ABD policz dwa razy — raz od boku AB, raz od przekątnej BD",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.15,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q19",
@@ -674,7 +771,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Objętość asfaltu = 19,6 : 1,4 = 14 m³. Pole trapezu (asfalt): podstawy 27 m i 27−8−6 = 13 m, wysokość 20 m → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>+</mo><mn>27</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> m². Grubość = 14 : 400 = 0,035 m = 3,5 cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2012_podkarpackie_q20",
@@ -702,6 +804,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Spadek zawartości wody o 1 punkt procentowy nie oznacza utraty 1% masy; stała jest sucha masa"
+   },
+   "trudnosc": {
+    "logit": 3.75,
+    "procent": 82,
+    "procent_etap": 75
    }
   },
   {
@@ -721,7 +828,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Głębokość d. Na dnie: listewka wystaje/schowana o |180 − d| = d − 180 (poniżej). Przy połowie d/2: nad ziemią 180 − d/2. Warunek d − 180 = 180 − d/2 → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>d</mi><mo>=</mo><mn>360</mn></math> → d = 240 cm.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.44,
+    "procent": 95,
+    "procent_etap": 92
+   }
   }
  ]
 }

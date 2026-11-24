@@ -8,6 +8,7 @@
  "liczba_zadan": 28,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_lubuskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023_lubuskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023_lubuskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wśród 19 kolejnych liczb całkowitych od −8 jest zero — liczenie minusów nic nie daje"
+   },
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 37
    }
   },
   {
@@ -90,7 +96,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw konkretne liczby, np. n = 100 i p = 10, i sprawdź, który wzór pasuje",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.33,
+    "procent": 12,
+    "procent_etap": 9
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_zachodniopomorskie_q21",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023_lubuskie_q3",
@@ -127,7 +144,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wymierne dodatnie to: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>)</mo></mrow><mn>0</mn></msup><mo>=</mo><mn>1</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mn>3</mn></mroot><mo>=</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1,5</mn><mo>)</mo></mrow><mn>8</mn></msup></math> (parzysty wykładnik) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>3</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></math>.</p><p>To cztery liczby — pozostałe są niewymierne lub ujemne.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.74,
+    "procent": 88,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q4",
@@ -165,7 +187,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ilu metrom w terenie odpowiada 1 cm na mapie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.48,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q5",
@@ -200,7 +227,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Przekątne deltoidu są prostopadłe, a dłuższa (10 cm) jest osią symetrii — dzieli krótszą na połowy w punkcie O.</p><p>Trójkąt z przeciwprostokątną równą bokowi (5 cm) i przyprostokątną OA>0 (fragmentem dłuższej przekątnej) daje drugą przyprostokątną OB<5 cm.</p><p>Krótsza przekątna = 2·OB < 10 cm.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q6",
@@ -245,6 +277,11 @@
      "kwantyfikator"
     ],
     "opis": "Słowo „jedynymi” — kwadrat ma osie w przekątnych, ale ma też dwie inne"
+   },
+   "trudnosc": {
+    "logit": -1.32,
+    "procent": 36,
+    "procent_etap": 30
    }
   },
   {
@@ -283,7 +320,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podnieś oba pierwiastki do kwadratu i odejmij — Pitagoras usuwa pierwiastki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.93,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q8",
@@ -327,6 +369,11 @@
      "inne:rozroznialne-obiekty"
     ],
     "opis": "Portfel i telefon to różne przedmioty — liczy się, który gdzie, nie tylko para kieszeni"
+   },
+   "trudnosc": {
+    "logit": -7.26,
+    "procent": 2,
+    "procent_etap": 1
    }
   },
   {
@@ -364,7 +411,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 12 i uprość",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.69,
+    "procent": 16,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q10",
@@ -409,6 +461,11 @@
      "jednostki"
     ],
     "opis": "Trasa podana średnicą w metrach, koło promieniem w centymetrach"
+   },
+   "trudnosc": {
+    "logit": -0.39,
+    "procent": 45,
+    "procent_etap": 38
    }
   },
   {
@@ -446,7 +503,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skróć ułamki przed mnożeniem: osób jest 36/24 razy więcej, dni 9/7 razy więcej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.67,
+    "procent": 25,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q12",
@@ -483,7 +545,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola powierzchni sześcianu wyznacz jego krawędź — resztę licz już z niej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.81,
+    "procent": 67,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q13",
@@ -522,7 +589,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trasy tworzą kąt prosty — poszukaj znanej trójki pitagorejskiej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.58,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q14",
@@ -563,7 +635,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z zaznaczonej wysokości 1 wyznacz bok trójkącika, potem policz, ile boków tworzy obwód",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.75,
+    "procent": 88,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q15",
@@ -600,7 +677,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź na konkretnym przykładzie, np. 12 → 1212",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.81,
+    "procent": 16,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q16",
@@ -641,7 +723,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozwiń sąsiednie ściany na płaszczyznę — najkrótsza droga jest wtedy odcinkiem prostym",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.92,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q17",
@@ -678,7 +765,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile pięciogroszówek daje jedną złotówkę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 21
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_zachodniopomorskie_q27",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "rejonowy_2026_kujawsko-pomorskie_q10",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023_lubuskie_q18",
@@ -716,7 +818,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 2b, a dopiero potem uwolnij x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.15,
+    "procent": 48,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q19",
@@ -762,6 +869,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przykład z prostokątem podsuwa „najkrótszy bok”, a dla trójkąta liczy się najmniejsza wysokość"
+   },
+   "trudnosc": {
+    "logit": 2.09,
+    "procent": 69,
+    "procent_etap": 62
    }
   },
   {
@@ -801,7 +913,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie licz pierwiastków — porównuj same sumy kwadratów boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.49,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q21",
@@ -843,6 +960,11 @@
      "zaokraglenie"
     ],
     "opis": "Przybliżenie do części dziesiątych to zaokrąglenie, a nie obcięcie rozwinięcia 0,1818…"
+   },
+   "trudnosc": {
+    "logit": 1.19,
+    "procent": 61,
+    "procent_etap": 54
    }
   },
   {
@@ -881,6 +1003,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nie każda trójka odcinków daje trójkąt — trzeba sprawdzić nierówność trójkąta"
+   },
+   "trudnosc": {
+    "logit": 2.41,
+    "procent": 72,
+    "procent_etap": 65
    }
   },
   {
@@ -927,6 +1054,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Na rysunku zaznaczono różne kąty, a bok 4 cm wygląda na inaczej położony — trzeba policzyć trzeci kąt"
+   },
+   "trudnosc": {
+    "logit": 4.91,
+    "procent": 88,
+    "procent_etap": 84
    }
   },
   {
@@ -949,7 +1081,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "za x przyjmij wiek Elwiry sprzed dwóch lat i zapisz, ile lat mają oboje dzisiaj",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.45,
+    "procent": 26,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q25",
@@ -974,7 +1111,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie odpowiedzi to ułamki liczby wszystkich uczniów — policz najpierw słupki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.71,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q26",
@@ -995,7 +1137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie liczby są wielokrotnościami 14 — wypisz je i szukaj pary o sumie 70",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.02,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2023_lubuskie_q27",
@@ -1023,7 +1170,18 @@
      "inne:okres-ciagu"
     ],
     "opis": "Ciąg 1234321234… ma okres 6, a nie 7 — jedynka na styku się nie powtarza"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.91,
+    "procent": 68,
+    "procent_etap": 61
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2011_podlaskie_gim_q13",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023_lubuskie_q28",
@@ -1045,7 +1203,12 @@
     "rozwiazanie_html": "<p>Niech przekątna prostokąta ABCD zawiera punkty podziału (odcinki prostopadłe padają ze stopami dzielącymi przekątną na części 3 cm, 6 cm, 3 cm). Odcinek DK jest wysokością trójkąta ADS, a ponieważ dzieli ona podstawę AS na równe części, trójkąt ADS jest równoramienny. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>D</mi><mi>S</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>S</mi><mi>C</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>A</mi><mi>D</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> cm, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>R</mi><mi>S</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></math> cm. Trójkąt DRS jest połówką trójkąta równobocznego, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>D</mi><mi>R</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm. Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>3</mn></msqrt></math> cm².",
     "punktacja_html": "<ul><li>1 – rysunek zgodny z warunkami zadania oraz wyznaczenie długości boku AD,</li><li>1 – wyznaczenie długości boku DC,</li><li>1 – obliczenie pola prostokąta (punkt przyznajemy tylko dla poprawnie obliczonych boków prostokąta; wynik końcowy z właściwą jednostką).</li></ul><p>Razem: 3 punkty.</p><p>Także za każdy inny niż w schemacie poprawny sposób rozwiązania zadania przyznajemy maksymalną liczbę punktów.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.56,
+    "procent": 95,
+    "procent_etap": 93
+   }
   }
  ]
 }

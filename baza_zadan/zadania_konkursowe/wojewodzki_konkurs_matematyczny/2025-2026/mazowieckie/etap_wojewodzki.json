@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2026_mazowieckie_q1",
@@ -49,7 +50,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz obie szanse jako ułamki i skróć je przed porównaniem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.59,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz sumę kątów w trójkącie BCH, a potem w trójkącie o wierzchołkach H, G i F",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.09,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q3",
@@ -127,6 +138,11 @@
      "kwantyfikator"
     ],
     "opis": "Warianty z „może”, „na pewno”, „może nie”, „nie musi” — łatwo pomylić ogólność z przykładem"
+   },
+   "trudnosc": {
+    "logit": 5.08,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -155,6 +171,11 @@
      "procent-podstawa"
     ],
     "opis": "„Krótsza o 20% od drugiej” — procent liczony od większej przekątnej, nie od danej 4"
+   },
+   "trudnosc": {
+    "logit": 2.54,
+    "procent": 73,
+    "procent_etap": 66
    }
   },
   {
@@ -176,7 +197,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi></math> oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> to środek sześciokąta) jest równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, a jego wysokość jest równa współrzędnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>. Bok sześciokąta ma długość 6, więc pozostałe wierzchołki mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>9</mn><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>F</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.49,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q6",
@@ -196,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw wygodną liczbę uczniów grupy A, np. 3, i licz na konkretnych liczbach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q7",
@@ -221,7 +252,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma obu pól to pole kwadratu, więc znasz bok; wysokość trójkąta wyliczysz z jego pola",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 52,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q8",
@@ -251,6 +287,11 @@
      "inne:obwod-polkola-ze-srednica"
     ],
     "opis": "Obwód zacieniowanych półkoli to łuki plus ich średnice leżące na średnicy dużego koła"
+   },
+   "trudnosc": {
+    "logit": 5.91,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -270,7 +311,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> będą liczbami naturalnymi, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>231</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>231</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></mrow></math>, iloczyn dwóch czynników naturalnych można otrzymać na cztery sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>231</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>77</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>33</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>21</mn></mrow></math>. Rozwiązując układy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mi>m</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>n</mi></mrow></math> otrzymujemy: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>231</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>116</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>115</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>77</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>37</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>21</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>33</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>20</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>13</mn></mrow></math>. Szukane pary liczb to 116 i 115, 40 i 37, 16 i 5 oraz 20 i 13.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.81,
+    "procent": 93,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2026_mazowieckie_q10",
@@ -290,7 +336,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "stosunek pól to wysokość ściany do połowy krawędzi — przyjmij tę połowę za 1",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 76
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 21,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015_podlaskie_gim.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015_podlaskie_gim_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2015_podlaskie_gim_q1",
@@ -46,7 +47,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz wszystkie sześć liczb rosnąco i weź średnią dwóch środkowych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q2",
@@ -90,6 +96,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o tych, którzy uczą się tylko niemieckiego, a nie o część wspólną obu grup"
+   },
+   "trudnosc": {
+    "logit": -1.98,
+    "procent": 30,
+    "procent_etap": 24
    }
   },
   {
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz średnią ośmiu wyników, a potem jaka suma dziewięciu daje średnią o 1 większą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.71,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q4",
@@ -171,6 +187,11 @@
      "znak"
     ],
     "opis": "Współczynnik 1−π jest ujemny, więc przy dzieleniu trzeba odwrócić znak nierówności"
+   },
+   "trudnosc": {
+    "logit": -0.21,
+    "procent": 47,
+    "procent_etap": 40
    }
   },
   {
@@ -216,6 +237,11 @@
      "konwencja"
     ],
     "opis": "Wynik w godzinach dziesiętnych trzeba poprawnie zamienić na minuty; wariant 3,36 h udaje 3 h 36 min"
+   },
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 27
    }
   },
   {
@@ -253,7 +279,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz najpierw cały nawias 7−x, potem zapisz x nad wspólnym mianownikiem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.36,
+    "procent": 46,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q7",
@@ -290,7 +321,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile jest wszystkich możliwych zakończeń złożonych z dwóch cyfr",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2011_podlaskie_gim_q11",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q8",
@@ -334,6 +376,11 @@
      "plot-i-slupki"
     ],
     "opis": "Nierówności ostre 14<n<49 wykluczają krańce będące wielokrotnościami 7"
+   },
+   "trudnosc": {
+    "logit": -2.04,
+    "procent": 30,
+    "procent_etap": 24
    }
   },
   {
@@ -372,7 +419,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 27¹² jako potęgę trójki i podziel przez 9 osobno każdy składnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.63,
+    "procent": 56,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q10",
@@ -410,7 +462,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno licznik x−y i mianownik x+y, zanim zaczniesz upraszczać",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.4,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q11",
@@ -451,7 +508,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinki AD i DK są równe, a kąt ADK to 90°+60°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q12",
@@ -488,7 +550,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj prostej, która przeprowadza na siebie i daną prostą, i punkt",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.49,
+    "procent": 44,
+    "procent_etap": 37
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2014_podlaskie_gim_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q13",
@@ -525,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przekątne wychodzące z jednego wierzchołka i pamiętaj, że każdą liczysz dwa razy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.32,
+    "procent": 20,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q14",
@@ -572,6 +650,11 @@
      "inne:odpowiadajace-boki"
     ],
     "opis": "W trójkątach podobnych ADE i ACB trzeba dobrać boki odpowiadające sobie, nie przepisać kolejności liter"
+   },
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -609,7 +692,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "promień wchodzi do objętości w kwadracie, a wysokość w pierwszej potędze",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.58,
+    "procent": 17,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q16",
@@ -646,7 +734,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obrót daje dwa stożki sklejone podstawami, a bok kwadratu jest tworzącą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.44,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q17",
@@ -684,7 +777,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz boki wszystkich ścian — każda krawędź należy do dwóch trójkątów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.23,
+    "procent": 20,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q18",
@@ -725,7 +823,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie szukaj R i r osobno — Pitagoras z połową cięciwy daje od razu R²−r²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.41,
+    "procent": 63,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q19",
@@ -746,7 +849,12 @@
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczby naturalne takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn><mi>y</mi><mo>+</mo><mn>2</mn></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>5</mn><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>25</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>25</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>y</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>y</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Ponieważ wyrażenie w nawiasie jest liczbą naturalną, suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math> jest iloczynem liczby 5 i liczby naturalnej, a więc jest podzielna przez 5.</p>",
     "punktacja_html": "<ul><li>4 punkty – pełne rozwiązanie. Za przeprowadzenie pełnego rozumowania (prawidłowe przekształcenie wyrażenia i wyłączenie 5 przed nawias lub podzielenie wyrażenia przez 5).</li><li>3 punkty – rozwiązanie pełne przy popełnionych błędach rachunkowych. Za poprawne zapisanie wyrażenia oraz prawidłowe zastosowanie wzorów skróconego mnożenia i nie uzasadnienie podzielności przez 5.</li><li>2 punkty – zasadnicze trudności zostały pokonane, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera poważne błędy merytoryczne. Zapisanie liczb a i b w postaci wyrażeń algebraicznych pokazujących, że liczby te przy dzieleniu przez 5 mają odpowiednio reszty 1 i 2 oraz zapisanie sumy kwadratów tych liczb, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>5</mn><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></math>.</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane. Zapisanie sumy kwadratów liczb a i b w postaci wyrażenia algebraicznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math> lub zapisanie liczb a i b w postaci wyrażeń algebraicznych pokazujących, że liczby te przy dzieleniu przez 5 mają odpowiednio reszty 1 i 2, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn><mi>y</mi><mo>+</mo><mn>2</mn></math>.</li><li>0 punktów – rozwiązanie niestanowiące postępu. Za brak rozwiązania, rozwiązanie błędne lub pokazanie podzielności dla przykładowych liczb.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.88,
+    "procent": 58,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q20",
@@ -768,7 +876,12 @@
     "rozwiazanie_html": "<p>Obliczamy promień kuli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mi>k</mi></msub></math> ze wzoru na objętość kuli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msubsup><mi>r</mi><mi>k</mi><mn>3</mn></msubsup><mo>=</mo><mn>288</mn><mi>π</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msubsup><mi>r</mi><mi>k</mi><mn>3</mn></msubsup><mo>=</mo><mn>216</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>r</mi><mi>k</mi></msub><mo>=</mo><mn>6</mn></math> cm. Kula wpisana w stożek odpowiada okręgowi wpisanemu w trójkąt równoboczny będący przekrojem osiowym, którego promień jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> wysokości trójkąta (a zarazem wysokości stożka), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>h</mi><mo>=</mo><mn>6</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>18</mn></math> cm. Promień podstawy stożka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mi>h</mi><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> cm. Objętość stożka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>18</mn><mo>=</mo><mn>648</mn><mi>π</mi></math> cm³.</p>",
     "punktacja_html": "<ul><li>4 punkty – pełne rozwiązanie. Za obliczenie objętości stożka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>648</mn><mi>π</mi></math> cm³.</li><li>3 punkty – rozwiązanie pełne przy popełnionych błędach rachunkowych. Za poprawną metodę obliczenia promienia stożka, gdy obliczona jest wysokość stożka, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>=</mo><mi>r</mi><msqrt><mn>3</mn></msqrt></math>.</li><li>2 punkty – zasadnicze trudności zostały pokonane, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera poważne błędy merytoryczne. Za poprawną metodę obliczenia wysokości stożka, gdy obliczony jest promień kuli, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>h</mi><mo>=</mo><mn>6</mn></math>.</li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane. Za poprawną metodę obliczenia promienia, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msubsup><mi>r</mi><mi>k</mi><mn>3</mn></msubsup><mo>=</mo><mn>288</mn><mi>π</mi></math> lub zapisanie zależności między wysokością stożka a promieniem kuli.</li><li>0 punktów – rozwiązanie niestanowiące postępu. Za rozwiązanie błędne lub brak rozwiązania.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.75,
+    "procent": 88,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2015_podlaskie_gim_q21",
@@ -788,7 +901,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza pojemność pierwszej beczki. Skoro po napełnieniu drugiej beczki w pierwszej pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zawartości, to druga beczka ma pojemność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi></math>. Po napełnieniu trzeciej beczki z drugiej pozostaje w drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> zawartości, więc trzecia beczka ma pojemność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi></math>. Napełniając drugą i trzecią beczkę z pierwszej, zostaje w niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>)</mo><mo>=</mo><mn>160</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>15</mn></mfrac><mi>x</mi><mo>=</mo><mn>160</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>600</mn></math>. Zatem pojemności beczek wynoszą: pierwsza 600 l, druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>·</mo><mn>600</mn><mo>=</mo><mn>240</mn></math> l, trzecia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>600</mn><mo>=</mo><mn>200</mn></math> l.</p>",
     "punktacja_html": "<ul><li>4 punkty – pełne rozwiązanie. Obliczenie pojemności poszczególnych beczek: 600 litrów, 240 litrów, 200 litrów.</li><li>3 punkty – rozwiązanie pełne przy popełnionych błędach rachunkowych. Za obliczenie pojemności jednej z beczek lub obliczenie pojemności trzech beczek z błędami rachunkowymi.</li><li>2 punkty – zasadnicze trudności zostały pokonane, ale rozwiązanie nie zostało dokończone lub dalsza część rozwiązania zawiera poważne błędy merytoryczne. Za poprawną metodę obliczenia pojemności beczki, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>)</mo><mo>=</mo><mn>160</mn></math></li><li>1 punkt – dokonano istotnego postępu, ale zasadnicze trudności zadania nie zostały pokonane. Za zapisanie związków między pojemnościami poszczególnych beczek, np. pojemność II beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> pojemności I beczki, a pojemność III beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> pojemności II beczki.</li><li>0 punktów – rozwiązanie niestanowiące postępu. Za rozwiązanie błędne lub brak rozwiązania.</li></ul><p>Uwaga! Jeżeli uczeń zapisze związki między pojemnościami poszczególnych beczek z błędem: pojemność II beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> pojemności I beczki, a pojemność III beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> pojemności II beczki lub pojemność II beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pojemności I beczki, a pojemność III beczki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> pojemności II beczki i dalej prawidłowo rozwiąże zadanie ze swoim błędem to może otrzymać co najwyżej 2 punkty.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 82
+   }
   }
  ]
 }

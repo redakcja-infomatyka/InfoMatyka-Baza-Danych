@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_malopolskie_q1",
@@ -52,6 +53,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, za ile lat, a nie ile lat będzie miała Olga. Łatwo podać jej przyszły wiek"
+   },
+   "trudnosc": {
+    "logit": -3.39,
+    "procent": 19,
+    "procent_etap": 22
    }
   },
   {
@@ -95,6 +101,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 2028 jest przestępny, a 29 lutego leży w liczonym przedziale"
+   },
+   "trudnosc": {
+    "logit": 1.67,
+    "procent": 66,
+    "procent_etap": 72
    }
   },
   {
@@ -140,6 +151,11 @@
      "warunek-istnienia"
     ],
     "opis": "Liczby z cyfrą 0 mają iloczyn cyfr 0, a przez zero nie da się dzielić"
+   },
+   "trudnosc": {
+    "logit": 0.05,
+    "procent": 50,
+    "procent_etap": 57
    }
   },
   {
@@ -186,6 +202,11 @@
      "znak"
     ],
     "opis": "Odległość jest nieujemna. Trzeba porównać 4√3 z 6, zanim zdejmie się wartość bezwzględną"
+   },
+   "trudnosc": {
+    "logit": 2.1,
+    "procent": 69,
+    "procent_etap": 76
    }
   },
   {
@@ -224,7 +245,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyobraź sobie sześciokąt jako sześć trójkątów równobocznych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.53,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q6",
@@ -265,7 +291,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z |AB| = |AC| kąty przy B i C są równe — stąd najpierw x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.19,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q7",
@@ -306,7 +337,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "od sumy obwodów obu rombów odejmij obwód wspólnego równoległoboku — x się w nim skraca",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.28,
+    "procent": 85,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q8",
@@ -343,7 +379,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 735,5 jako 7,355 · 10² i dodawaj wykładniki dziesiątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.55,
+    "procent": 64,
+    "procent_etap": 72
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q9",
@@ -394,6 +435,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kolejne zmiany procentowe się mnoży, a nie sumuje: +5% i -20% to nie jest -15%"
+   },
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 37
    }
   },
   {
@@ -444,6 +490,11 @@
      "kwantyfikator"
     ],
     "opis": "W zdaniu III jest słowo 'wymiernymi', a a i b nie muszą być wymierne. Do tego 'zawsze' w zdaniu I"
+   },
+   "trudnosc": {
+    "logit": 6.31,
+    "procent": 94,
+    "procent_etap": 97
    }
   },
   {
@@ -486,7 +537,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozkładaj na potęgi 2 i 3 (18 = 6·3, 36 = 12·3) zamiast mnożyć wielkie liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.01,
+    "procent": 69,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q12",
@@ -534,6 +590,11 @@
      "podwojne-liczenie"
     ],
     "opis": "Zespoły nie są ponumerowane, więc wybór pierwszej pary od razu wyznacza podział"
+   },
+   "trudnosc": {
+    "logit": -0.56,
+    "procent": 43,
+    "procent_etap": 50
    }
   },
   {
@@ -576,7 +637,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz x przed nawiasy i skróć z 8x² zanim cokolwiek wymnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.0,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q14",
@@ -621,7 +687,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamiast pól porównaj kwadraty przyprostokątnych i wykorzystaj, że 49 to prawie 50",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q15",
@@ -662,7 +733,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj, ile ścianek ubywa, a ile przybywa przy wycięciu z rogu, z krawędzi i ze środka ściany",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.44,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2024-2025_malopolskie_q16",
@@ -710,6 +786,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość to cała droga przez cały czas, a nie średnia z prędkości etapów"
+   },
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 43,
+    "procent_etap": 49
    }
   }
  ]

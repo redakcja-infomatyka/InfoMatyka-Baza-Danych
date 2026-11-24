@@ -8,6 +8,7 @@
  "liczba_zadan": 7,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019-2020_pomorskie_q1",
@@ -35,6 +36,11 @@
      "procent-podstawa"
     ],
     "opis": "„b mniejsza od d o ile procent” — procent liczy się od d, nie od b; do tego „o 200% większa” to trzy razy więcej"
+   },
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -56,7 +62,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licz wstecz: zacznij od stanu końcowego, gdy w obu beczkach jest po równo, i odwracaj przelania",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2019-2020_pomorskie_q3",
@@ -79,7 +90,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "trójkąty BDC i BEA są podobne — mają wspólny kąt przy B i kąt prosty",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.15,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2019-2020_pomorskie_q4",
@@ -100,7 +116,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> będą dwoma kątami wewnętrznymi trójkąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> trzecim kątem. Kąt przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math> i zgodnie z założeniem jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Ponieważ suma kątów wewnętrznych trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mi>α</mi></mrow></math>. Trójkąt ma dwa równe kąty wewnętrzne, więc jest równoramienny.</p>",
     "punktacja_html": "<p>Uczeń otrzymuje 1 pkt za przeprowadzenie poprawnego dowodu.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.57,
+    "procent": 64,
+    "procent_etap": 66
+   }
   },
   {
    "id": "rejonowy_2019-2020_pomorskie_q5",
@@ -121,7 +142,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz większą jako 3 razy mniejsza plus 4 i wstaw do sumy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.24,
+    "procent": 20,
+    "procent_etap": 22
+   }
   },
   {
    "id": "rejonowy_2019-2020_pomorskie_q6",
@@ -149,6 +175,11 @@
      "warunek-istnienia"
     ],
     "opis": "6.1: liczbą naturalną ma być obwód, a nie bok; do tego nierówność trójkąta jest ostra"
+   },
+   "trudnosc": {
+    "logit": 6.48,
+    "procent": 95,
+    "procent_etap": 95
    }
   },
   {
@@ -203,6 +234,11 @@
      "podwojne-liczenie"
     ],
     "opis": "Zd.1: względna pierwszość nie przenosi się dalej (nie jest przechodnia); zd.6: „7 lub 11” — wspólne wielokrotności liczą się dwa razy"
+   },
+   "trudnosc": {
+    "logit": 7.64,
+    "procent": 98,
+    "procent_etap": 98
    }
   }
  ]

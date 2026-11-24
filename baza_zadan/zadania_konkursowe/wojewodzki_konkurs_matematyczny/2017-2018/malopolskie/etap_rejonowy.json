@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2017-2018_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2017-2018_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2017-2018_malopolskie_q1",
@@ -51,6 +52,11 @@
      "kierunek-relacji"
     ],
     "opis": "Zeszyt jest o 2 zł tańszy od długopisu, więc długopis droższy; łatwo odwrócić relację"
+   },
+   "trudnosc": {
+    "logit": -6.5,
+    "procent": 3,
+    "procent_etap": 4
    }
   },
   {
@@ -96,6 +102,11 @@
      "o-co-pytaja"
     ],
     "opis": "Szukana liczba to ta, której 2/3 daje wynik; trzeba dzielić przez 2/3, nie mnożyć ani stawać wcześniej"
+   },
+   "trudnosc": {
+    "logit": -1.67,
+    "procent": 33,
+    "procent_etap": 35
    }
   },
   {
@@ -144,6 +155,11 @@
      "rysunek"
     ],
     "opis": "Trzeba odczytać, przy którym wierzchołku dolnego trójkąta schodzą się boki równe a"
+   },
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 56
    }
   },
   {
@@ -181,7 +197,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uważaj: wstawiony znak może połączyć się z następną literą w zapis odejmowania",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.55,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q5",
@@ -218,7 +239,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź w każdym przykładzie, czy odejmowane wyrazy są podobne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.47,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q6",
@@ -264,6 +290,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pytają o sumę reszt, nie o resztę z sumy; suma reszt może przekroczyć 2"
+   },
+   "trudnosc": {
+    "logit": -1.15,
+    "procent": 38,
+    "procent_etap": 40
    }
   },
   {
@@ -302,7 +333,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź ma 4 kostki — licz osobno narożniki, środki krawędzi i środki ścian",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.54,
+    "procent": 44,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q8",
@@ -339,7 +375,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż 9,5 przez 4 i dopiero potem popraw notację wykładniczą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.1,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q9",
@@ -377,7 +418,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj obwody obu trójkątów — przekątna policzy się wtedy dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.04,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q10",
@@ -422,7 +468,18 @@
      "jednostki"
     ],
     "opis": "Skala i mm na planie, a wynik w hektarach; łatwo pomylić przelicznik ha na m²"
-   }
+   },
+   "trudnosc": {
+    "logit": -1.1,
+    "procent": 38,
+    "procent_etap": 40
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019-2020_warminsko-mazurskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q11",
@@ -460,7 +517,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup n-kątny ma 2n krawędzi podstawy i n bocznych — ułóż z tego długość drutu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.35,
+    "procent": 46,
+    "procent_etap": 47
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q12",
@@ -503,6 +565,11 @@
      "warunek-istnienia"
     ],
     "opis": "Trójki zdegenerowane (1,2,3 oraz 1 z dwoma kolejnymi dużymi) nie spełniają ostrej nierówności trójkąta"
+   },
+   "trudnosc": {
+    "logit": 4.94,
+    "procent": 89,
+    "procent_etap": 90
    }
   },
   {
@@ -548,6 +615,11 @@
      "kalendarz-czas"
     ],
     "opis": "Grudzień ma 31 dni, a dawna średnia jest NIŻSZA o 2°C od obecnej"
+   },
+   "trudnosc": {
+    "logit": 2.68,
+    "procent": 74,
+    "procent_etap": 76
    }
   },
   {
@@ -592,6 +664,11 @@
      "inne:granica-nierownosci-ostrej"
     ],
     "opis": "Wynik równy granicy w wariancie: „większą od” to ostra nierówność"
+   },
+   "trudnosc": {
+    "logit": 1.3,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -632,7 +709,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozłóż liczby pod pierwiastkami na czynniki pierwsze i sprawdź, który czynnik nie ma pary",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.38,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q16",
@@ -653,7 +735,12 @@
     "rozwiazanie_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt ostry na połowy. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> są naprzemianległe (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi><mo>∥</mo><mi>AB</mi></math>), więc mają równe miary. Zatem trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></mrow></math>. Z obwodu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>x</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>11</mn><mo>=</mo><mn>26</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>11</mn><mo>=</mo><mn>26</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mrow><mn>26</mn><mo>−</mo><mn>11</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> cm. Z pola trapezu (krótsza podstawa 5 cm, dłuższa 11 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><mo>+</mo><mn>11</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mn>32</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>4</mn></mrow></math> cm. Szukany procent: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>100</mn><mo>%</mo></mrow><mn>26</mn></mfrac><mo>=</mo><mfrac><mn>400</mn><mn>26</mn></mfrac><mo>%</mo><mo>=</mo><mn>15</mn><mfrac><mn>10</mn><mn>26</mn></mfrac><mo>%</mo><mo>=</mo><mn>15</mn><mfrac><mn>5</mn><mn>13</mn></mfrac><mo>%</mo></mrow></math>.</p>",
     "punktacja_html": "<ul><li>5p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi, jakim procentem obwodu trapezu jest długość wysokości tego trapezu.</li><li>4p – zapisanie warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>100</mn><mo>%</mo></mrow><mn>26</mn></mfrac></math> i poprzestanie na tym lub podanie dokładnej odpowiedzi na podstawie błędnych obliczeń (jeden błąd rachunkowy) lub podanie odpowiedzi w jakimkolwiek poprawnym przybliżeniu, różnej od dokładnego wyniku.</li><li>3p – obliczenie długości wysokości trapezu i poprzestanie na tym.</li><li>2p – obliczenie długości krótszej podstawy oraz ramion trapezu i poprzestanie na tym.</li><li>1p – zauważenie, że trójkąt ACD jest równoramienny i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za brak uzasadnienia, że ramię i krótsza podstawa trapezu są tej samej długości odejmujemy 1 punkt.</p><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona przyznajemy 5 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.0,
+    "procent": 93,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q17",
@@ -680,7 +767,18 @@
      "o-co-pytaja"
     ],
     "opis": "Spotkanie w połowie drogi: liczy się odcinek do spotkania, a pytają o całą odległość AB"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.63,
+    "procent": 74,
+    "procent_etap": 75
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_kujawsko-pomorskie_q2",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2017-2018_malopolskie_q18",
@@ -701,7 +799,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to początkowa liczba cukierków w torbie. Pierwsze dziecko wzięło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi></mrow></math>, drugie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi></mrow></math>, a trzecie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mn>27</mn></mfrac><mi>x</mi></mrow></math>. W torbie zostały 24 cukierki, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>4</mn><mn>27</mn></mfrac><mi>x</mi><mo>+</mo><mn>24</mn><mo>=</mo><mi>x</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>27</mn></mfrac><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>81</mn></mrow></math> cukierków. Pierwsze dziecko wzięło 27, drugie 18, a trzecie 12 cukierków. Aby każde dziecko miało po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>81</mn><mo>=</mo><mn>27</mn></mrow></math> cukierków, mama powinna dać drugiemu dziecku jeszcze 9, a trzeciemu 15 cukierków.</p>",
     "punktacja_html": "<p>Schemat oceniania 1:</p><ul><li>5p – poprawne metody oraz bezbłędne wnioskowania prowadzące do podania odpowiedzi, jak mama powinna podzielić pozostałe cukierki, aby każde dziecko otrzymało jedną trzecią wszystkich cukierków.</li><li>4p – wywnioskowanie, że w papierowej torbie było początkowo 81 cukierków i poprzestanie na tym.</li><li>3p – wywnioskowanie, że w torbie było 54 cukierków zanim drugie dziecko wzięło swoją część i poprzestanie na tym.</li><li>2p – wywnioskowanie, że w torbie było 36 cukierków zanim trzecie dziecko wzięło swoją część i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Schemat oceniania 2:</p><ul><li>5p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania odpowiedzi, jak mama powinna podzielić pozostałe cukierki, aby każde dziecko otrzymało jedną trzecią wszystkich cukierków.</li><li>4p – obliczenie ile cukierków zabrało z torby pierwsze, drugie i trzecie dziecko (27, 18, 12) i poprzestanie na tym.</li><li>3p – rozwiązanie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>27</mn></mfrac><mi>x</mi><mo>=</mo><mn>24</mn></math>, czyli obliczenie początkowej liczby cukierków znajdujących się w papierowej torbie (81) i poprzestanie na tym lub odgadnięcie początkowej liczby cukierków, sprawdzenie wyniku z warunkami zadania i podanie poprawnej odpowiedzi.</li><li>2p – zapisanie liczby cukierków jakie otrzymało trzecie dziecko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>4</mn><mn>27</mn></mfrac><mi>x</mi><mo>)</mo></math> oraz ułożenie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>4</mn><mn>27</mn></mfrac><mi>x</mi><mo>+</mo><mn>24</mn><mo>=</mo><mi>x</mi></math> i poprzestanie na tym.</li><li>1p – zapisanie liczby cukierków wziętych przez pierwsze i drugie dziecko (odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi></math>) i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona przyznajemy 5 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.13,
+    "procent": 84,
+    "procent_etap": 85
+   }
   }
  ]
 }

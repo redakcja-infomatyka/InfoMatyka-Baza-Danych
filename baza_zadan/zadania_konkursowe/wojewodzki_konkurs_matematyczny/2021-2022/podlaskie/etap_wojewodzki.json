@@ -8,6 +8,7 @@
  "liczba_zadan": 26,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021_podlaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, czy to kwadrat dwumianu: ¼x² = (½x)², a 4 = 2²",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.54,
+    "procent": 18,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q2",
@@ -85,7 +91,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj z kątów wierzchołkowych w punkcie przecięcia i z sumy kątów w dwóch trójkątach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.88,
+    "procent": 58,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q3",
@@ -122,7 +133,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj odległość każdej prostej od środka z promieniem, pamiętając o prostej przez środek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.09,
+    "procent": 38,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q4",
@@ -161,7 +177,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw drogi po pół godziny, potem twierdzenie Pitagorasa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.04,
+    "procent": 8,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q5",
@@ -198,7 +219,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie szukaj samych liczb — sprawdź, przez co pomnożył się cały iloczyn",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.98,
+    "procent": 14,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q6",
@@ -238,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oba to trójkąty prostokątne równoramienne — porównaj ich przeciwprostokątne DC i EB",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.38,
+    "procent": 53,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q7",
@@ -284,6 +315,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie dotyczy kątów DRUGIEGO trójkąta, a nie tego równoramiennego, który się znajduje"
+   },
+   "trudnosc": {
+    "logit": 1.55,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -328,6 +364,11 @@
      "inne:srednica-vs-promien"
     ],
     "opis": "Dana jest średnica podstawy k, a nie promień – we wzorze trzeba wstawić k/2"
+   },
+   "trudnosc": {
+    "logit": -1.62,
+    "procent": 34,
+    "procent_etap": 27
    }
   },
   {
@@ -376,6 +417,11 @@
      "rysunek"
     ],
     "opis": "Podpisane kąty należą do białych wycinków, a pytanie dotyczy części zamalowanej"
+   },
+   "trudnosc": {
+    "logit": -3.65,
+    "procent": 17,
+    "procent_etap": 12
    }
   },
   {
@@ -413,7 +459,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj osobno procenty, osobno liczby, a wyniki pomnóż",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.56,
+    "procent": 34,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q11",
@@ -450,7 +501,30 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj wyrażenia, które nie zależy wyłącznie od x² albo |x|",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.89,
+    "procent": 23,
+    "procent_etap": 18
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubelskie_q5",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "szkolny_2013_podlaskie_gim_q6",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "szkolny_2022_podlaskie_q2",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q16",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021_podlaskie_q12",
@@ -488,7 +562,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie wielkości na metry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q13",
@@ -525,7 +604,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź nierówność trójkąta na samych liczbach z proporcji",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.04,
+    "procent": 14,
+    "procent_etap": 10
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2016_podkarpackie_q5",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2021-2022_warminsko-mazurskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021_podlaskie_q14",
@@ -564,7 +658,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj z rysunku, o ile w górę przesuwa się każdy kolejny równoległobok",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.71,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q15",
@@ -601,7 +700,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolejność na zmianach się liczy — chłopiec biegnie pierwszy, dziewczynki po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.92,
+    "procent": 89,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q16",
@@ -640,7 +744,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinek OB to połowa przekątnej — z przekątnej licz i pole, i bok kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q17",
@@ -677,7 +786,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj każdy dodawany ułamek z następnym odejmowanym",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q18",
@@ -715,7 +829,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel każdy składnik licznika osobno przez √2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.01,
+    "procent": 22,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q19",
@@ -753,7 +872,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę ścian, krawędzi i wierzchołków przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.88,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q20",
@@ -784,6 +908,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Okrąg dzielący pierścień na równe pola nie leży w połowie szerokości pierścienia"
+   },
+   "trudnosc": {
+    "logit": -0.04,
+    "procent": 49,
+    "procent_etap": 41
    }
   },
   {
@@ -804,7 +933,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mi>r</mi><mo>≠</mo><mi>s</mi></mrow></math>, obie strony równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mfrac><mrow><mi>n</mi><mi>p</mi></mrow><mrow><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi></mrow></mfrac></mrow></math> można pomnożyć przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi><mo>)</mo></mrow></math>, otrzymując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi><mo>)</mo><mo>=</mo><mi>n</mi><mi>p</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>r</mi><mo>−</mo><mn>2</mn><mi>s</mi><mo>=</mo><mi>n</mi><mi>p</mi></mrow></math>. Przenosząc wyrazy z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> na jedną stronę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>r</mi><mo>−</mo><mi>n</mi><mi>p</mi><mo>=</mo><mn>2</mn><mi>s</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>(</mo><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>s</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>r</mi><mo>≠</mo><mi>p</mi></mrow></math>, obie strony można podzielić przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>s</mi></mrow><mrow><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi></mrow></mfrac></mrow></math>, co kończy dowód.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.16,
+    "procent": 48,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q22",
@@ -831,6 +965,11 @@
      "szczegol-bryly"
     ],
     "opis": "Przetapiana jest półkula, a nie cała kula – objętość to połowa objętości kuli"
+   },
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 46
    }
   },
   {
@@ -853,7 +992,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj osobno procenty, a osobno stałe kwoty",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.88,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2021_podlaskie_q24",
@@ -881,6 +1025,11 @@
      "o-co-pytaja"
     ],
     "opis": "Najkrótsza wysokość opada na najdłuższy bok – nie jest nią najkrótsza przyprostokątna"
+   },
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 80
    }
   },
   {
@@ -910,6 +1059,11 @@
      "szczegol-bryly"
     ],
     "opis": "Powierzchnia graniastosłupa pięciokątnego obejmuje też nową ścianę powstałą z przekroju"
+   },
+   "trudnosc": {
+    "logit": 5.99,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -937,6 +1091,11 @@
      "inne:podwojne-liczenie-naroznikow"
     ],
     "opis": "Listewki stykają się w narożach – naiwne 12 krawędzi po 20 cm liczy narożniki wielokrotnie"
+   },
+   "trudnosc": {
+    "logit": 6.6,
+    "procent": 95,
+    "procent_etap": 93
    }
   }
  ]

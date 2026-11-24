@@ -8,6 +8,7 @@
  "liczba_zadan": 5,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019_kujawsko-pomorskie_q1",
@@ -36,6 +37,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pytają, jakim procentem krótszej podstawy jest wysokość, a nie odwrotnie; łatwo podzielić w złą stronę"
+   },
+   "trudnosc": {
+    "logit": 7.63,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -65,7 +71,18 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalną niewiadomą jest droga do miejsca spotkania (połowa trasy), a pytają o całą odległość AB"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.63,
+    "procent": 74,
+    "procent_etap": 75
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2017-2018_malopolskie_q17",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2019_kujawsko-pomorskie_q3",
@@ -86,7 +103,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oznacz wspólną wartość po zmianach przez x i wyraź przez nią cztery części — plus 2 i minus 2 się znoszą",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2019_kujawsko-pomorskie_q4",
@@ -109,7 +131,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj oba ułamki ze sobą — ich wzajemny stosunek wynika z proporcji liczników i mianowników",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2019_kujawsko-pomorskie_q5",
@@ -129,7 +156,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz masę kwasu, nie procenty — po każdym przelaniu podziel ją przez objętość w naczyniu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.54,
+    "procent": 92,
+    "procent_etap": 92
+   }
   }
  ]
 }

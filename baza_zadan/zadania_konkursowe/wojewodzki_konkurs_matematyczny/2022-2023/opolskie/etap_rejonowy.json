@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023_opolskie_q1",
@@ -48,6 +49,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Para 18 i 36 daje iloczyn 648 i obie są wielokrotnościami 6, ale ich NWD to nie 6"
+   },
+   "trudnosc": {
+    "logit": 3.71,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -83,7 +89,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nic nie licz — patrz tylko na znaki: parzystość wykładnika i znak mianownika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.56,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2023_opolskie_q3",
@@ -126,6 +137,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Stosunek pól 4:1 to nie stosunek boków ani obwodów — boki i obwody są w skali pierwiastka"
+   },
+   "trudnosc": {
+    "logit": 0.3,
+    "procent": 52,
+    "procent_etap": 54
    }
   },
   {
@@ -168,6 +184,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Nie wiadomo, który z dwóch trójkątów ma pole 30 — trzeba rozważyć oba"
+   },
+   "trudnosc": {
+    "logit": 3.93,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -209,6 +230,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "27,008 udaje sześcian (27 i 8 to sześciany), a √(3/507) wygląda na niewymierny, choć się skraca"
+   },
+   "trudnosc": {
+    "logit": 5.14,
+    "procent": 90,
+    "procent_etap": 90
    }
   },
   {
@@ -237,6 +263,11 @@
      "procent-podstawa"
     ],
     "opis": "VAT liczony od ceny netto — nie odejmuje się 23% ani 15 punktów od ceny brutto"
+   },
+   "trudnosc": {
+    "logit": -0.6,
+    "procent": 43,
+    "procent_etap": 45
    }
   },
   {
@@ -257,7 +288,12 @@
     "rozwiazanie_html": "<p>Boki muszą być dodatnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn><mo>&gt;</mo><mn>0</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>4</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>4</mn><mi>x</mi><mo>&gt;</mo><mn>0</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>12,5</mn></math> (warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>&gt;</mo><mn>0</mn></math> jest zawsze spełniony). Zostają warunki trójkąta:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>&gt;</mo><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>−</mo><mn>7</mn><mo>&gt;</mo><mn>50</mn><mo>−</mo><mn>4</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>&gt;</mo><mn>57</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>6</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math>;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mi>b</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>&gt;</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>&lt;</mo><mn>41</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>8,2</mn></math>;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>51</mn><mo>−</mo><mi>x</mi><mo>&gt;</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>19</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math> (spełniony).</li></ul><p>Łącząc wszystkie warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>8,2</mn></math>, więc naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to <strong>7 i 8</strong>. Sprawdzenie: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7</mn></math> boki 6, 22, 22; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math> boki 8, 25, 18 — w obu przypadkach istnieje trójkąt.</p>",
     "punktacja_html": "<ul><li>5p – poda możliwe wartości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (7, 8) wraz z uzasadnieniem, że dla tych wartości i tylko dla tych długości odcinków są liczbami dodatnimi i spełniającymi warunek trójkąta</li><li>4p – sprawdza wszystkie warunki i popełnia błąd rachunkowy lub nie sprawdza, czy będą to liczby dodatnie</li><li>3p – zapisze wszystkie warunki, ale nie rozwiązuje nierówności</li><li>2p – zapisze dwie lub trzy nierówności</li><li>1p – sprawdza tylko jeden warunek trójkąta lub tylko, czy liczby są dodatnie</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.52,
+    "procent": 95,
+    "procent_etap": 95
+   }
   },
   {
    "id": "rejonowy_2023_opolskie_q8",
@@ -279,7 +315,12 @@
     "rozwiazanie_html": "<p>Kąt ostry równoległoboku ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Opuśćmy z wierzchołka końca boku długości 6 cm wysokość na prostą zawierającą bok długości 15 cm. Powstaje trójkąt prostokątny o przeciwprostokątnej 6 cm i kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>, w którym rzut boku na podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></math> cm, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm.</p><p>Dłuższa przekątna (naprzeciw kątów ostrych) jest przeciwprostokątną trójkąta o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>18</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>324</mn><mo>+</mo><mn>27</mn></mrow></msqrt><mo>=</mo><msqrt><mn>351</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm.</p><p>Krótsza przekątna (naprzeciw kątów rozwartych) jest przeciwprostokątną trójkąta o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>12</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>144</mn><mo>+</mo><mn>27</mn></mrow></msqrt><mo>=</mo><msqrt><mn>171</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm.</p><p>Przekątne mają długości <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm</strong> i <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm</strong>.</p>",
     "punktacja_html": "<ul><li>5p – obliczy długości obu przekątnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>19</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>39</mn></msqrt></math> cm)</li><li>4p – poprawny sposób obliczenia obu przekątnych z błędem rachunkowym</li><li>3p – wskaże i opisze boki trójkąta prostokątnego, z którego można obliczyć dłuższą przekątną</li><li>2p – obliczy długość krótszej przekątnej</li><li>1p – obliczy krótszą wysokość równoległoboku</li></ul><p>Uczeń może zacząć od dłuższej wysokości, oceniamy analogicznie.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.29,
+    "procent": 91,
+    "procent_etap": 91
+   }
   },
   {
    "id": "rejonowy_2023_opolskie_q9",
@@ -299,7 +340,12 @@
     "rozwiazanie_html": "<p>Ośmiościan foremny wpisany w sześcian o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>12</mn></math> cm ma wierzchołki w środkach ścian sześcianu. Krawędź ośmiościanu łączy środki dwóch sąsiednich ścian, więc jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>72</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Ośmiościan składa się z dwóch ostrosłupów prawidłowych czworokątnych o wspólnej podstawie. Podstawa jest kwadratem o przekątnej równej krawędzi sześcianu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>12</mn></math> cm, więc jej pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>72</mn></math> cm². Wysokość każdego ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> cm, więc objętość ośmiościanu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>72</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>288</mn></math> cm³.</p><p>Ośmiościan ma 12 krawędzi, więc suma ich długości to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Objętość ośmiościanu wynosi <strong>288 cm³</strong>, a suma długości wszystkich krawędzi <strong><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm</strong>.</p>",
     "punktacja_html": "<ul><li>5p – obliczy objętość (288 cm³) oraz sumę długości krawędzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>2</mn></msqrt></math> cm)</li><li>4p – poprawny sposób obliczenia objętości z błędem rachunkowym</li><li>3p – wyznaczy pole podstawy i wysokość ostrosłupa prawidłowego</li><li>2p – obliczy sumę długości krawędzi</li><li>1p – poda długość krawędzi ośmiościanu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm)</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.65,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2023_opolskie_q10",
@@ -321,7 +367,12 @@
     "rozwiazanie_html": "<p>Skoro liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 2, można ją zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą nieujemną. Wtedy</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><msup><mrow><mo>(</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>k</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>.</p><p>Otrzymane wyrażenie jest iloczynem liczby 5 i liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></math> jest podzielne przez 5, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>5p – uzasadni podzielność</li><li>3p – zastosuje wzór skróconego mnożenia lub poprawnie wykona mnożenie sum</li><li>2p – zapisze odpowiednie wyrażenie (kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zwiększony o 1)</li><li>1p – poda wyrażenie opisujące liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.29,
+    "procent": 52,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2023_opolskie_q11",
@@ -350,6 +401,11 @@
      "o-co-pytaja"
     ],
     "opis": "Żeby wyrównać, oddaje się połowę różnicy, a nie całą różnicę"
+   },
+   "trudnosc": {
+    "logit": -0.47,
+    "procent": 44,
+    "procent_etap": 46
    }
   }
  ]

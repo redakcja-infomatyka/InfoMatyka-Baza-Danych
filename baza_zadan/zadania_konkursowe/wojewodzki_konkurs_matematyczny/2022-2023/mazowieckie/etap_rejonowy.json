@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2022_mazowieckie_q1",
@@ -38,7 +39,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz czynniki spod pierwiastków i oszacuj każdy składnik osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.96,
+    "procent": 68,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2022_mazowieckie_q2",
@@ -85,6 +91,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "x jest liczbą całkowitą: oprócz oczywistego rozkładu 13·14 jest też rozwiązanie ujemne"
+   },
+   "trudnosc": {
+    "logit": 4.1,
+    "procent": 84,
+    "procent_etap": 85
    }
   },
   {
@@ -124,7 +135,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj wszystkie kule, a w drugiej części pomyśl o najgorszym możliwym losowaniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.8,
+    "procent": 75,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2022_mazowieckie_q4",
@@ -150,6 +166,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Warunek, że cyfry są różne, odrzuca część kandydatów z cech podzielności przez 4 i 9"
+   },
+   "trudnosc": {
+    "logit": 5.44,
+    "procent": 91,
+    "procent_etap": 92
    }
   },
   {
@@ -172,7 +193,12 @@
     "rozwiazanie_html": "<p>Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> łączą środek ściany z jej wierzchołkiem, więc każdy z nich ma długość równą połowie przekątnej ściany sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są środkami sąsiednich ścian, a odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest przeciwprostokątną trójkąta prostokątnego równoramiennego o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> (odcinki łączące środki ścian ze środkiem wspólnej krawędzi). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest więc równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>, a jego obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>L</mi><mi>ABC</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>1p. – przeprowadza analizę zadania, np. za pomocą rysunku,</li><li>1p. – uzupełnia rysunek i wyznacza długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>,</li><li>1p. – wyznacza długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> oraz zapisuje wyrażenie określające obwód otrzymanej figury.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.95,
+    "procent": 76,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2022_mazowieckie_q6",
@@ -195,7 +221,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, o ile zmalała suma wieku ośmiu zawodników, skoro średnia spadła o rok",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.84,
+    "procent": 57,
+    "procent_etap": 59
+   }
   },
   {
    "id": "rejonowy_2022_mazowieckie_q7",
@@ -224,6 +255,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prędkości w km/h i m/s; średnia prędkość to nie średnia z dwóch prędkości"
+   },
+   "trudnosc": {
+    "logit": 2.79,
+    "procent": 75,
+    "procent_etap": 76
    }
   },
   {
@@ -252,6 +288,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Stosunek 1:2 można odmierzać od A albo od B, więc są dwa położenia punktu F"
+   },
+   "trudnosc": {
+    "logit": 5.14,
+    "procent": 90,
+    "procent_etap": 90
    }
   },
   {
@@ -274,7 +315,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz kąty rombu (sąsiednie dają 180°), a z warunku 20% policz pole boczne",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.65,
+    "procent": 92,
+    "procent_etap": 92
+   }
   }
  ]
 }

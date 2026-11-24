@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020_podkarpackie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2020_podkarpackie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na cyfry jedności — każda z tych potęg powtarza je cyklicznie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 33
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij, że cukierków było 100, i policz, ile zostaje z każdego rodzaju",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.1,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q3",
@@ -120,7 +131,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śledź, jaka część początkowej kwoty zostaje Ewie po każdym dniu, a Adamowi ile ubyło razem",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.15,
+    "procent": 70,
+    "procent_etap": 63
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q4",
@@ -158,7 +174,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz wszystko jako potęgi trójki — zobaczysz, co się skróci i co wyłączyć przed nawias",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.12,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q5",
@@ -195,7 +216,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile jest róż i ile kwiatów białych, a potem ile najwięcej róż może być białych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 65
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020-2021_warminsko-mazurskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q6",
@@ -232,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szansa wybrania pudełka razy szansa wygranej w tym pudełku, potem dodaj oba przypadki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 52,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q7",
@@ -269,7 +306,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Warunek daje b=c (krótsza podstawa = ramię) i a=d (dłuższa podstawa = przekątna). Z d²=c²+ab wynika a²−ab−b²=0, czyli a/b=φ.</p><p>cos α=(a−b)/(2b)=(φ−1)/2=cos72°, więc kąt ostry 72°, rozwarty 108°. Zdanie A (36°) jest fałszywe; B, C, D prawdziwe.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.98,
+    "procent": 89,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q8",
@@ -307,7 +349,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Podział kąta rozwartego na 4 równe daje kąt ostry 60°, rozwarty 120° (każdy z 4 kątów po 30°). Przekątna z wierzchołka kąta rozwartego = a (bo trójkąt równoboczny), wysokość = a·sin60° = a√3/2.</p><p>Pole rombu = a²·sin60° = a²√3/2, a nie a²√3/4 — zdanie D fałszywe.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.92,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q9",
@@ -346,7 +393,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość z kąta prostego to średnia geometryczna obu odcinków przeciwprostokątnej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q10",
@@ -382,7 +434,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>W każdym wierzchołku przekątna dzieli kąt czworokąta (<180°) na dwa; oba nie mogą być po 90°. Więc najwyżej jeden kąt prosty przy każdym z dwóch końców przekątnej — najwyżej dwa.</p><p>Dwa są osiągalne (np. przekątna prostopadła do dwóch przeciwległych boków). Odpowiedź: co najwyżej dwa.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.37,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q11",
@@ -402,7 +459,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij liczby ośmiocyfrowe na iloczyn z czynnikiem 10001",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 49,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q12",
@@ -421,7 +483,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech k=5m+2 dla pewnej liczby całkowitej m. Wtedy k²=25m²+20m+4=5(5m²+4m)+4, więc k² daje resztę 4 z dzielenia przez 5.</p><p>3k²=3(5(5m²+4m)+4)=5·3(5m²+4m)+12=5·(...)+10+2, czyli 3k² daje resztę 2 z dzielenia przez 5. Q.E.D.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q13",
@@ -441,7 +508,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Dwucyfrowa 10a+b, jej odbicie 10b+a. Czterocyfrowa: 1000a+100b+10b+a = 1001a+110b = 11(91a+10b). Podzielna przez 11. ∎</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.93,
+    "procent": 58,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q14",
@@ -463,7 +535,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "potraktuj 2²⁰¹⁹ jak jedną liczbę i użyj wzoru na różnicę kwadratów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.69,
+    "procent": 66,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q15",
@@ -485,7 +562,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>9 równych części, każda o polu 81/9 = 9. Prostokąty zewnętrzne a×b: a+b=9, ab=9 ⇒ a,b=(9±3√5)/2, więc kwadrat wewnętrzny ma bok a−b=3√5.</p><p>Prostokąty wewnętrzne c×d: c+d=3√5, c−d=3 (bok KLMN), cd=9. Zacieniony to prostokąt c×d, obwód = 2(c+d) = 2·3√5 = 6√5.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.18,
+    "procent": 100,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q16",
@@ -505,7 +587,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech AD=t, DB=3t (D bliżej A). CD⊥AB, w trójkącie BCD: CD = DB·tan30° = 3t/√3 = t√3.</p><p>W trójkącie ACD: tan A = CD/AD = t√3/t = √3 ⇒ A = 60°. Zatem C = 180°−30°−60° = 90°. ∎</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.09,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q17",
@@ -525,7 +612,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Krawędzie CA=p, CB=q, CS=r wzajemnie prostopadłe. ½pq=3⇒pq=6, ½qr=4⇒qr=8, ½pr=6⇒pr=12.</p><p>(pqr)² = 6·8·12 = 576 ⇒ pqr = 24. V = ⅙·pqr = 24/6 = 4.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.66,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2020_podkarpackie_q18",
@@ -550,6 +642,11 @@
      "jednostki"
     ],
     "opis": "Średnica kropli jest w mm, a naczynia w cm, więc przy zamianie objętości trzeba użyć sześcianu przelicznika"
+   },
+   "trudnosc": {
+    "logit": 5.0,
+    "procent": 89,
+    "procent_etap": 84
    }
   }
  ]

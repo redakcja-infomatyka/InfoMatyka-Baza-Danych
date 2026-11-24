@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2013-2014_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2013-2014_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2013-2014_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Uzupełniamy puste białe pola tak, aby zgadzały się działania w wierszach i kolumnach:</p><ul><li>górny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></math></li><li>środkowy wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></math></li><li>dolny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li>lewa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math></li><li>środkowa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></math></li><li>prawa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></math></li></ul>",
     "punktacja_html": "<p>Punktacja: za poprawnie rozwiązaną krzyżówkę 3 punkty, przy 1 błędzie 2 punkty, przy 2 błędach 1 punkt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 63
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q2",
@@ -50,7 +56,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż wynik po prawej stronie na czynniki i poszukaj ich w wyrażeniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.59,
+    "procent": 43,
+    "procent_etap": 49
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q3",
@@ -94,6 +105,11 @@
      "konwencja"
     ],
     "opis": "Wariant bez nawiasu wygląda na poprawny zapis, ale kolejność działań zmienia jego wartość"
+   },
+   "trudnosc": {
+    "logit": -5.43,
+    "procent": 7,
+    "procent_etap": 8
    }
   },
   {
@@ -131,7 +147,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofnij się najpierw o pełną dobę, resztę czasu odejmij osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.96,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q5",
@@ -168,7 +189,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "gram to tysięczna część kilograma — policz miejsca po przecinku",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.3,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q6",
@@ -212,6 +238,11 @@
      "inne:kolejnosc-opisu"
     ],
     "opis": "Opis słowny złożony: kolejność 'o dwa większa od dwa razy większej' łatwo odwrócić"
+   },
+   "trudnosc": {
+    "logit": -5.86,
+    "procent": 6,
+    "procent_etap": 6
    }
   },
   {
@@ -249,7 +280,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz dobę na kwadranse",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.36,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q8",
@@ -286,7 +322,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz osobno liczby zaczynające się od 3 i od 5, a od 7 od razu odrzuć",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q9",
@@ -323,7 +364,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 1,5 km na centymetry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.38,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q10",
@@ -368,6 +414,11 @@
      "o-co-pytaja"
     ],
     "opis": "Równanie daje kwoty początkowe, a warianty mówią, ile braciom ZOSTAŁO po wyjęciu pieniędzy"
+   },
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 36
    }
   },
   {
@@ -405,7 +456,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "skróć każdy ułamek i porównaj, ile któremu brakuje do całości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.01,
+    "procent": 14,
+    "procent_etap": 17
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q12",
@@ -445,7 +501,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź najpierw kąt ostry, jaki ukośna prosta tworzy z poziomą",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.17,
+    "procent": 29,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q13",
@@ -480,7 +541,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Na typowej mapie północ jest u góry, więc lewa (i prawa) ramka mapy biegnie w kierunku północ–południe, tak jak południki. Zorientowanie mapy polega na obróceniu jej tak, by igła kompasu wskazująca północ ułożyła się równolegle do lewej ramki mapy.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 2.39,
+    "procent": 72,
+    "procent_etap": 79
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q14",
@@ -502,7 +568,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień wymiary na milimetry, zanim podzielisz przez 25",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.4,
+    "procent": 19,
+    "procent_etap": 22
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q15",
@@ -528,7 +599,12 @@
      "opis": "Klucz jest poprawny. Na rysunku A wartości poziomic maleją ku środkowi (na zewnątrz 500, dalej 400, a najbardziej wewnątrz 300), więc środek leży niżej niż otoczenie — to kotlina (zagłębienie terenu). Na rysunku B zaznaczone są dwa punkty szczytowe o wysokościach 725 i 692, otoczone poziomicami 600, 500, 400 — to wzniesienie o dwóch wierzchołkach. Modele AI błędnie odczytały rysunek A jako wzniesienie o jednym wierzchołku, co wymagałoby, żeby wartości poziomic rosły ku środkowi, a jest odwrotnie — dlatego jest to kotlina, a nie wzniesienie."
     }
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.38,
+    "procent": 53,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q16",
@@ -549,7 +625,12 @@
     "rozwiazanie_html": "<p>A. Rzeka płynie w kierunku południowo-wschodnim.</p><p>B. Łagodne zbocze doliny rzecznej znajduje się od strony północno-wschodniej (dopuszczalna odpowiedź: północnej).</p>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.83,
+    "procent": 88,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q17",
@@ -570,7 +651,12 @@
     "rozwiazanie_html": "<p>A. Wysokość bezwzględna szczytu B wynosi 250 m n.p.m.</p><p>B. Punkt A leży na wysokości 50 m n.p.m., więc wysokość względna szczytu B względem punktu A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mtext> m</mtext><mo>−</mo><mn>50</mn><mtext> m</mtext><mo>=</mo><mn>200</mn><mtext> m</mtext></math>.</p>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.42,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q18",
@@ -589,7 +675,12 @@
     "rozwiazanie_html": "<table><thead><tr><th>Składnik pogody</th><th>Przyrząd</th><th>Jednostka pomiaru</th></tr></thead><tbody><tr><td>Opady atmosferyczne</td><td>deszczomierz</td><td>milimetr (mm)</td></tr><tr><td>Ciśnienie atmosferyczne</td><td>barometr</td><td>hektopaskal (hPa)</td></tr><tr><td>Kierunek i prędkość wiatru</td><td>wiatromierz</td><td>kilometr na godzinę (km/h)</td></tr><tr><td>Temperatura powietrza</td><td>termometr</td><td>stopień Celsjusza (°C)</td></tr></tbody></table>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za każdy prawidłowo wypełniony wiersz.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.24,
+    "procent": 71,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q19",
@@ -628,7 +719,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, przez jakie liczby musi się dzielić liczba uczniów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.92,
+    "procent": 76,
+    "procent_etap": 83
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q20",
@@ -674,6 +770,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówka godzinowa o 19:20 nie stoi dokładnie na 7 — przesunęła się o 1/3 godziny"
+   },
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 83
    }
   },
   {
@@ -696,7 +797,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj obie części ceny i sprawdź, o ile przekraczają całość",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.98,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2013-2014_slaskie_q22",
@@ -727,6 +833,11 @@
      "inne:przekatna-zamiast-boku"
     ],
     "opis": "Wyliczony odcinek wspólny na AB jest przekątną zacieniowanego kwadratu, nie jego bokiem"
+   },
+   "trudnosc": {
+    "logit": 2.61,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -754,6 +865,11 @@
      "zaokraglenie"
     ],
     "opis": "Trzeba odjąć drzwi od ścian, a liczbę paczek zaokrąglić w górę mimo ułamka"
+   },
+   "trudnosc": {
+    "logit": 5.89,
+    "procent": 93,
+    "procent_etap": 96
    }
   },
   {
@@ -773,7 +889,12 @@
     "rozwiazanie_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ilość materiału na jedną spódnicę, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> na jeden żakiet (w metrach). Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>s</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mn>15,2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>25,6</mn></math>. Podwajając pierwsze równanie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>=</mo><mn>30,4</mn></math>. Odejmując od niego drugie równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>z</mi><mo>=</mo><mn>30,4</mn><mo>−</mo><mn>25,6</mn><mo>=</mo><mn>4,8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>1,6</mn></math> m. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mo>(</mo><mn>15,2</mn><mo>−</mo><mn>5</mn><mo>·</mo><mn>1,6</mn><mo>)</mo><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,2</mn></math> m. Na jedną spódnicę potrzeba 1,2 m (1 m 2 dm), a na jeden żakiet 1,6 m (1 m 6 dm) materiału.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za obliczenie ilości materiału na 12 spódnic i 10 żakietów, 1 pkt za ilość na 3 żakiety, 1 pkt za ilość na 1 żakiet, 1 pkt za ilość na 1 spódnicę.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.58,
+    "procent": 55,
+    "procent_etap": 62
+   }
   }
  ]
 }

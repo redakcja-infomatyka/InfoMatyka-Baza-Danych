@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_podkarpackie_q1",
@@ -29,7 +30,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "poszukaj trójki pitagorejskiej wśród danych i sprawdź, czy trzy punkty nie leżą na jednej prostej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.46,
+    "procent": 91,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2025_podkarpackie_q2",
@@ -50,7 +56,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień każdą średnią na sumę i odejmuj kolejne sumy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.4,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2025_podkarpackie_q3",
@@ -79,6 +90,11 @@
      "warunek-istnienia"
     ],
     "opis": "Trzy przypadki trójkąta równoramiennego plus układ współliniowy; łatwo wziąć tylko symetralną AB"
+   },
+   "trudnosc": {
+    "logit": 7.47,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -107,6 +123,11 @@
      "zbior-liczb"
     ],
     "opis": "Największe n kusi najmniejszym dzielnikiem 77, ale wtedy k nie jest liczbą naturalną"
+   },
+   "trudnosc": {
+    "logit": 4.92,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -131,7 +152,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij prostokąt na cztery części wyznaczone przez łuki i porównaj je z ćwiartkami kół",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.39,
+    "procent": 91,
+    "procent_etap": 91
+   }
   },
   {
    "id": "rejonowy_2025_podkarpackie_q6",
@@ -154,7 +180,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz wspólną potęgę trójki przed nawias i rozłóż 2025 na czynniki",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.76,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2025_podkarpackie_q7",
@@ -175,7 +206,12 @@
     "rozwiazanie_html": "<p><em>Założenie:</em> liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mo>+</mo><mn>77</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>78</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></mrow></msqrt></mrow></msqrt></mrow></msqrt></math>. <em>Teza:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą całkowitą.</p><p>Zaczniemy od przekształcenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></mrow></msqrt></math>. Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mo>(</mo><mn>80</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>80</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mn>80</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>=</mo><msqrt><msup><mn>80</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>80</mn></mrow></math>.</p><p>Możemy też zauważyć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>1</mn><mo>+</mo><mn>78</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></mrow></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>78</mn><mo>·</mo><mn>80</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mo>(</mo><mn>79</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>79</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mn>79</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>=</mo><msqrt><msup><mn>79</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>79</mn></mrow></math>.</p><p>Możemy również obliczyć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>1</mn><mo>+</mo><mn>77</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>78</mn><msqrt><mrow><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></mrow></msqrt></mrow></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>77</mn><mo>·</mo><mn>79</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mo>(</mo><mn>78</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>78</mn><mo>+</mo><mn>1</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><msup><mn>78</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></msqrt><mo>=</mo><msqrt><msup><mn>78</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>78</mn></mrow></math>.</p><p>Otrzymana wartość jest liczbą całkowitą, co kończy dowód.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.:<ul><li>uczeń zastosował poprawną metodę obliczeń, ale z powodu nieostrożnego uogólnienia wskazał inny wynik,</li><li>uczeń obliczył poprawnie wartość wyrażenia, korzystając ze spostrzeżenia że iloczyn liczb różniących się o 2 jest o 1 mniejszy od kwadratu ich średniej, ale nie uzasadnił tego spostrzeżenia,</li><li>uczeń obliczył wartość wyrażenia, ale rozwiązanie nie ma struktury dowodu i wynik nie został przez ucznia skomentowany.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.:<ul><li>uczeń poprawnie obliczył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></msqrt></math> jako 80, ale nie obliczył wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>+</mo><mn>78</mn><msqrt><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></msqrt></msqrt></math>.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.:<ul><li>uczeń wypisał założenie i tezę (lub samą tezę),</li><li>uczeń poprawnie zapisał wzór skróconego mnożenia, np. jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math>, ale nie obliczył na jego podstawie wartości żadnego z pierwiastków,</li><li>uczeń obliczył wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></math> jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>80</mn><mn>2</mn></msup></math> lub 6400, ale nie obliczył pierwiastka z tej liczby,</li><li>uczeń poprawnie obliczył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>+</mo><mn>79</mn><mo>·</mo><mn>81</mn></msqrt></math> jako 80, ale przy dalszym obliczaniu wartości wyrażenia popełnił poważne błędy merytoryczne, np. wykonywał działania w błędnej kolejności.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.65,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2025_podkarpackie_q8",
@@ -204,6 +240,11 @@
      "zaokraglenie"
     ],
     "opis": "W szklance 3% jest pustych, a w dzbanku 3% pełnych; potem pełne szklanki 'zanim się wyleje'"
+   },
+   "trudnosc": {
+    "logit": 4.48,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -225,7 +266,12 @@
     "rozwiazanie_html": "<p>Po złożeniu siatki otrzymamy ostrosłup o podstawie kwadratu, w którym jedna z krawędzi jest prostopadła do podstawy (kąty na obu ścianach bocznych przy tej krawędzi są proste), a tym samym jest wysokością ostrosłupa. Oznaczmy długość tej krawędzi przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, a długość krawędzi bocznych różnych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> i od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>34</mn></msqrt></mrow></math> cm przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p><p>Z twierdzenia Pitagorasa dla ściany bocznej niezawierającej krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>34</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>34</mn><mo>=</mo><mn>136</mn></mrow></math>, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>10</mn></mrow></math> cm.</p><p>Z twierdzenia Pitagorasa dla ściany bocznej z krawędzią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> mamy natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>100</mn></mrow></math>, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>8</mn></mrow></math> cm.</p><p>Objętość tego ostrosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>·</mo><mn>8</mn><mo>=</mo><mn>96</mn></mrow></math> cm³.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.:<ul><li>popełnił niewielki błąd obliczeniowy, przy poprawnej całości rozumowania,</li><li>poprawnie obliczył wysokość ostrosłupa, ale obliczając objętość nie uwzględnił współczynnika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> lub uwzględnił błędny.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.:<ul><li>uczeń obliczył długość krawędzi ostrosłupa równą 8 cm, ale nie zauważył że jest to wysokość ostrosłupa i nie obliczył jego objętości,</li><li>uczeń błędnie zastosował twierdzenie Pitagorasa (np. dodając kwadrat przyprostokątnej i przeciwprostokątnej) i na ten podstawie obliczył długość krawędzi ostrosłupa, a później jego objętość.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.:<ul><li>uczeń zauważył, że jedna z krawędzi ostrosłupa jest jego wysokością, ale nie obliczył długości żadnej krawędzi innej niż dana w zadaniu,</li><li>uczeń obliczył poprawnie długość jednej z krawędzi jako 10 cm, ale nie obliczyły długości krawędzi 8 cm.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.43,
+    "procent": 95,
+    "procent_etap": 95
+   }
   }
  ]
 }

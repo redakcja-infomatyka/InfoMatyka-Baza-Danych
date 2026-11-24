@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_mazowieckie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw przestaw litery w zapisie, dopiero potem policz obie liczby i ich różnicę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.47,
+    "procent": 73,
+    "procent_etap": 80
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q2",
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj ramię i przekątną z ich rzutami na dłuższą podstawę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.7,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q3",
@@ -112,7 +123,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola wyznacz krawędź jednego sześcianu, z objętości — krawędź drugiego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.17,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q4",
@@ -132,7 +148,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba miejsc to kwadrat — poszukaj kwadratów między 60 a 100",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.91,
+    "procent": 93,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q5",
@@ -153,7 +174,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie trzy obwody stronami — wyjdzie suma wszystkich krawędzi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.84,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q6",
@@ -179,6 +205,11 @@
      "kierunek-relacji"
     ],
     "opis": "„Parzystych dwa razy mniej niż nieparzystych”: łatwo odwrócić, ile wypadło których"
+   },
+   "trudnosc": {
+    "logit": 1.49,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -201,7 +232,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź oba puchary przez wysokość srebrnego i złóż oba procenty w jeden mnożnik",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 61,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q8",
@@ -222,7 +258,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że AKCL ma obie pary boków równoległych",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.0,
+    "procent": 69,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q9",
@@ -242,7 +283,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Numer dnia i numer miesiąca są nieparzyste, więc ich suma jest parzysta. Suma jest podzielna przez 9 i nie większa niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>42</mn></mrow></math>, a jednocześnie parzysta, zatem może wynosić tylko 18 lub 36. Miesiące o nieparzystym numerze to 1, 3, 5, 7, 9, 11. Dla każdego z nich szukamy nieparzystych numerów dni, dla których suma wynosi 18 lub 36: 17 + 1, 15 + 3, 13 + 5, 31 + 5, 11 + 7, 29 + 7, 9 + 9, 27 + 9, 7 + 11, 25 + 11. Otrzymujemy dokładnie dziesięć dat: 17 stycznia, 15 marca, 13 maja, 31 maja, 11 lipca, 29 lipca, 9 września, 27 września, 7 listopada i 25 listopada.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.7,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2023_mazowieckie_q10",
@@ -267,6 +313,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Fory 40 m, czyli tyle, o ile Bartek wygrał, wyglądają na wyrównanie szans, a jednak nie dają remisu"
+   },
+   "trudnosc": {
+    "logit": 2.67,
+    "procent": 74,
+    "procent_etap": 81
    }
   }
  ]

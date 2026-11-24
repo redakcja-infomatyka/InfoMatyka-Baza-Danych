@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż każdą odpowiedź przez 4 i sprawdź, czy wychodzi liczba całkowita",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.98,
+    "procent": 40,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q2",
@@ -88,6 +94,11 @@
      "jednostki"
     ],
     "opis": "Naturalny wynik wychodzi w m/h, a poprawny wariant jest w cm/h; obok kusi ta sama liczba z inną jednostką"
+   },
+   "trudnosc": {
+    "logit": -4.06,
+    "procent": 14,
+    "procent_etap": 10
    }
   },
   {
@@ -125,7 +136,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "warunek trójkąta sprawdzisz na samych liczbach ze stosunku, długość 36 cm nie jest potrzebna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.04,
+    "procent": 14,
+    "procent_etap": 10
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019-2020_zachodniopomorskie_q12",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2021_podlaskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q4",
@@ -165,7 +191,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przelicz wymiary na klocki i odejmij puste wnętrze od pełnego prostopadłościanu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.97,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q5",
@@ -210,6 +241,11 @@
      "o-co-pytaja"
     ],
     "opis": "Porównanie dotyczy tylko ścian bocznych, a nie wszystkich ścian graniastosłupa"
+   },
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -256,6 +292,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wskazówka godzinowa o 14:20 nie stoi na 2; poza tym wśród wariantów jest tylko kąt wklęsły"
+   },
+   "trudnosc": {
+    "logit": 3.92,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -293,7 +334,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź ary i hektary do metrów kwadratowych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.37,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q8",
@@ -332,7 +378,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odsiewaj diagramy warunkami: najpierw granica 76 kg, potem lipiec kontra listopad i grudzień",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.09,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q9",
@@ -380,7 +431,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wycięcie trójkąta wcale nie zmniejsza obwodu: znika jeden bok, a dochodzą dwa"
-   }
+   },
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 30
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2020_kujawsko-pomorskie_q6",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q10",
@@ -415,7 +477,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Tomek sąsiaduje z Rafałem i Dawidem, więc w jednym rzędzie stoją w kolejności Rafał–Tomek–Dawid. Wojtek sąsiaduje z Filipem i Igorem, a Marcin z Filipem, więc w drugim rzędzie stoją Marcin–Filip–Wojtek–Igor. Wojtek jest naprzeciwko Dawida, co ustawia oba rzędy dokładnie naprzeciw siebie – wtedy czwarte miejsce w pierwszym rzędzie zajmuje Zuzia, obok Dawida, naprzeciwko Igora (zgodnie z warunkiem).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 70
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2019-2020_malopolskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q11",
@@ -453,7 +526,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "końcówki kolejnych potęg dwójki powtarzają się co cztery",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.34,
+    "procent": 12,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q12",
@@ -490,7 +568,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pewność oznacza, że wszystkie cztery pozostałe kartki muszą mieć tę samą parzystość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.27,
+    "procent": 85,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q13",
@@ -528,7 +611,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "popatrz na największą liczbę pierwszą i na to, ile piątek kryje się w iloczynie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.07,
+    "procent": 69,
+    "procent_etap": 62
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2019-2020_malopolskie_q11",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q14",
@@ -566,7 +660,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dłuższa przekątna to dwa boki podstawy, a sześciokąt rozetnij na trójkąty równoboczne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.38,
+    "procent": 63,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q15",
@@ -603,7 +702,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno liczby jedno-, dwu- i trzycyfrowe",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 53,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q16",
@@ -653,6 +757,11 @@
      "o-co-pytaja"
     ],
     "opis": "Czworościan ma cztery ściany, ale ściany boczne to tylko trzy; podzielność przez 3 i 6 nie daje 18"
+   },
+   "trudnosc": {
+    "logit": 4.38,
+    "procent": 86,
+    "procent_etap": 80
    }
   },
   {
@@ -681,7 +790,18 @@
      "wszystkie-przypadki"
     ],
     "opis": "Uderzenie o wpół do pierwszej godziny w czasie pobytu łatwo pominąć; tarcza 12-godzinna daje dwie godziny"
-   }
+   },
+   "trudnosc": {
+    "logit": 6.83,
+    "procent": 96,
+    "procent_etap": 94
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2013-2014_malopolskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q18",
@@ -703,7 +823,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Kwadrat i romb mają wspólny bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>d</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>d</mi><mn>2</mn></msub></math> będą przekątnymi rombu. Przekątne rombu są prostopadłe i dzielą się na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><msub><mi>d</mi><mn>1</mn></msub><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><msub><mi>d</mi><mn>2</mn></msub><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>d</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mn>4</mn></mfrac></math>. Pole kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup></math>, a pole rombu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msub><mi>d</mi><mn>1</mn></msub><msub><mi>d</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></math>. Różnica pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mfrac><mrow><msub><mi>d</mi><mn>1</mn></msub><msub><mi>d</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><msubsup><mi>d</mi><mn>1</mn><mn>2</mn></msubsup><mo>+</mo><msubsup><mi>d</mi><mn>2</mn><mn>2</mn></msubsup></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mn>2</mn><msub><mi>d</mi><mn>1</mn></msub><msub><mi>d</mi><mn>2</mn></msub></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><msup><mrow><mo>(</mo><msub><mi>d</mi><mn>1</mn></msub><mo>−</mo><msub><mi>d</mi><mn>2</mn></msub><mo>)</mo></mrow><mn>2</mn></msup><mn>4</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>d</mi><mn>1</mn></msub><mo>−</mo><msub><mi>d</mi><mn>2</mn></msub><mo>=</mo><mn>10</mn></math> cm, różnica pól wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>10</mn><mn>2</mn></msup><mn>4</mn></mfrac><mo>=</mo><mn>25</mn></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.87,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2021-2022_warminsko-mazurskie_q19",
@@ -742,6 +867,11 @@
      "rysunek"
     ],
     "opis": "Wykres podaje odległość od Torunia, a zdanie pyta, kto jest bliżej Warszawy; trzeba ustalić, który wykres jest czyj"
+   },
+   "trudnosc": {
+    "logit": 5.63,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -769,6 +899,11 @@
      "jednostki"
     ],
     "opis": "Wysokość graniastosłupa jest podana w metrach, a wymiary podstawy w centymetrach"
+   },
+   "trudnosc": {
+    "logit": 7.02,
+    "procent": 96,
+    "procent_etap": 95
    }
   }
  ]

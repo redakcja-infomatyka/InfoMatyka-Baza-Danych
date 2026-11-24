@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 46,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2013_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2013_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2013_podkarpackie_q1",
@@ -51,6 +52,11 @@
      "procent-podstawa"
     ],
     "opis": "Ciasto waży o 25% więcej niż mąka, więc procent liczy się od mąki, nie od ciasta"
+   },
+   "trudnosc": {
+    "logit": -2.63,
+    "procent": 25,
+    "procent_etap": 26
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj mianownik z licznikiem składnik po składniku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.68,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q3",
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czas 9,63 s to zmyłka — policz m/s dla 10 s i pomnóż przez 3,6",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.54,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q4",
@@ -169,6 +185,11 @@
      "jednostki"
     ],
     "opis": "Wynik wychodzi w cm, a warianty podano w mm"
+   },
+   "trudnosc": {
+    "logit": -2.88,
+    "procent": 23,
+    "procent_etap": 24
    }
   },
   {
@@ -214,6 +235,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o część niepomalowaną, a ułamki dotyczą połówek płotu, nie całego płotu"
+   },
+   "trudnosc": {
+    "logit": -2.45,
+    "procent": 26,
+    "procent_etap": 28
    }
   },
   {
@@ -260,6 +286,11 @@
      "rysunek"
     ],
     "opis": "Łatwo przeoczyć duży trójkąt złożony z górnej krawędzi, przekątnej kwadratu i ukośnego boku"
+   },
+   "trudnosc": {
+    "logit": 4.99,
+    "procent": 89,
+    "procent_etap": 90
    }
   },
   {
@@ -307,6 +338,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Schodki wyglądają na brak danych, ale przesunięcie odcinków daje obwód prostokąta"
+   },
+   "trudnosc": {
+    "logit": -0.11,
+    "procent": 48,
+    "procent_etap": 50
    }
   },
   {
@@ -344,7 +380,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz większą jako 15·mniejsza + reszta i dodaj do tego mniejszą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.19,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q9",
@@ -388,6 +429,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o masę suszonych jabłek, a naturalnie liczy się masę wyparowanej wody"
+   },
+   "trudnosc": {
+    "logit": 1.51,
+    "procent": 64,
+    "procent_etap": 66
    }
   },
   {
@@ -425,7 +471,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pierwszego warunku: 2 borsuki ważą tyle co 3 lisy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.91,
+    "procent": 31,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q11",
@@ -462,7 +513,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw odejmij ułamki, dopiero potem zamień dobę na godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.29,
+    "procent": 46,
+    "procent_etap": 48
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q12",
@@ -499,7 +555,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Dłuższy bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>256</mn><mo>:</mo><mn>2</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>896</mn></mrow></math> m. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>256</mn><mo>+</mo><mn>896</mn><mo>)</mo><mo>=</mo><mn>2304</mn></mrow></math> m. Czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2304</mn><mo>:</mo><mn>4</mn><mo>:</mo><mn>24</mn><mo>=</mo><mn>24</mn></mrow></math> doby.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.39,
+    "procent": 45,
+    "procent_etap": 47
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q13",
@@ -537,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola wyznacz bok w metrach i zamień go na centymetry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.22,
+    "procent": 37,
+    "procent_etap": 39
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q14",
@@ -581,6 +647,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kto dostaje więcej za wygraną, ten musiał wygrać mniej partii; łatwo odwrócić"
+   },
+   "trudnosc": {
+    "logit": -1.18,
+    "procent": 38,
+    "procent_etap": 39
    }
   },
   {
@@ -625,6 +696,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kasia ma monety o większym nominale, więc ma ich mniej; łatwo przypisać liczby odwrotnie"
+   },
+   "trudnosc": {
+    "logit": -2.55,
+    "procent": 26,
+    "procent_etap": 27
    }
   },
   {
@@ -663,7 +739,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij wygodny prostokąt, np. 10 na 10, i policz jego nowe boki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.19,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q17",
@@ -707,6 +788,11 @@
      "warunek-istnienia"
     ],
     "opis": "Warunek, że Robert jest najmłodszy, eliminuje rozkład z bliźniaczkami młodszymi od niego"
+   },
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 53
    }
   },
   {
@@ -744,7 +830,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, o ile lody są droższe od galaretki, i dodaj tę różnicę do galaretki ze śmietaną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.84,
+    "procent": 41,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q19",
@@ -766,7 +857,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód kwadratu to suma obu obwodów — stąd długość jego boku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.05,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q20",
@@ -789,7 +885,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przewagę towarowego w kilometrach i o ile maleje ona co godzinę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.01,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2013_podkarpackie_q21",
@@ -817,6 +918,11 @@
      "procent-podstawa"
     ],
     "opis": "Dolano 1/4 pozostałej objętości, a nie 1/4 całego basenu"
+   },
+   "trudnosc": {
+    "logit": -1.15,
+    "procent": 38,
+    "procent_etap": 40
    }
   },
   {
@@ -845,6 +951,11 @@
      "zbior-liczb"
     ],
     "opis": "Obie liczby muszą być dwucyfrowe, a para dwóch równych liczb też się liczy"
+   },
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 68
    }
   },
   {
@@ -864,7 +975,12 @@
     "rozwiazanie_html": "<p>Sześcian złożony z 8 kostek o krawędzi 1 cm ma krawędź długości 2 cm. Jego objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> cm³, a pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>24</mn></mrow></math> cm².</p><p>Po zabraniu dwóch kostek z górnej warstwy rozważamy dwa przypadki:</p><ul><li>gdy usunięte kostki nie sąsiadują ze sobą (leżą po przekątnej) — pole powierzchni nowej bryły nie zmienia się i wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>24</mn></mrow></math> cm²,</li><li>gdy usunięte kostki sąsiadują ze sobą — pole powierzchni nowej bryły wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>22</mn></mrow></math> cm².</li></ul>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za: poprawny rysunek sześcianu z uwzględnieniem kostek o krawędzi 1 cm, obliczenie pola całkowitego sześcianu (24 cm²), obliczenie objętości sześcianu (8 cm³), obliczenie pola powierzchni I bryły (24 cm²) oraz obliczenie pola powierzchni II bryły (22 cm²).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.63,
+    "procent": 87,
+    "procent_etap": 88
+   }
   }
  ]
 }

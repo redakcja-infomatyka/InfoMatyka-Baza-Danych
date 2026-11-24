@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie średnie na sumy temperatur i porównaj te sumy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.66,
+    "procent": 25,
+    "procent_etap": 26
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q2",
@@ -89,6 +95,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwyżka i obniżka o ten sam procent nie znoszą się, bo procent liczy się od innej podstawy"
+   },
+   "trudnosc": {
+    "logit": -2.14,
+    "procent": 29,
+    "procent_etap": 30
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw policz to, co siedzi w każdej wartości bezwzględnej, dopiero potem odejmuj",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.75,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q4",
@@ -171,6 +187,11 @@
      "kierunek-relacji"
     ],
     "opis": "„Odjąć od ilorazu”: to szukana liczba jest odjemnikiem, łatwo odwrócić kolejność odejmowania"
+   },
+   "trudnosc": {
+    "logit": -1.58,
+    "procent": 34,
+    "procent_etap": 36
    }
   },
   {
@@ -209,7 +230,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz czynniki przed pierwiastki — oba składniki mają wtedy ten sam pierwiastek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.06,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q6",
@@ -254,6 +280,11 @@
      "konwencja"
     ],
     "opis": "Cykl ostatnich cyfr 2,4,8,6: reszta 0 z dzielenia wykładnika przez 4 odpowiada czwartej pozycji cyklu"
+   },
+   "trudnosc": {
+    "logit": -4.89,
+    "procent": 9,
+    "procent_etap": 11
    }
   },
   {
@@ -298,6 +329,11 @@
      "konwencja"
     ],
     "opis": "Liczba cyfr k·10^n: tu współczynnik k = 3^5 ma kilka cyfr, nie jedną"
+   },
+   "trudnosc": {
+    "logit": 2.02,
+    "procent": 69,
+    "procent_etap": 70
    }
   },
   {
@@ -335,7 +371,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian dotyczy całej sumy — najpierw zapisz tę sumę w nawiasie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.94,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q9",
@@ -370,6 +411,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie dni włącznie z 1 stycznia oraz lata przestępne 1992 i 1996 w przedziale"
+   },
+   "trudnosc": {
+    "logit": 7.42,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -404,7 +450,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "działaj na samych resztach albo podstaw najmniejsze liczby, które je dają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.81,
+    "procent": 67,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q11",
@@ -440,6 +491,11 @@
      "konwencja"
     ],
     "opis": "Notacja wykładnicza wymaga współczynnika z przedziału [1, 10); równa wartość to jeszcze nie ta notacja"
+   },
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 47
    }
   },
   {
@@ -477,6 +533,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dwa położenia C; warunek BC dłuższy od AB eliminuje jedno z nich"
+   },
+   "trudnosc": {
+    "logit": 1.02,
+    "procent": 59,
+    "procent_etap": 61
    }
   },
   {
@@ -509,7 +570,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Upraszczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>y</mi><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>)</mo><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mi>y</mi><mo>=</mo><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math>.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,75</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>1</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mn>0,75</mn><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>, a postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math> zgadza się z drugim zdaniem.</p><p>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&lt;</mo><mn>0</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow></math> to iloczyn dwóch liczb ujemnych — jest dodatni.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.66,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2019-2020_swietokrzyskie_q14",
@@ -546,6 +612,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podane boki AC i BC są różne, ale równe mogą być inne dwa boki trójkąta"
+   },
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 72
    }
   },
   {
@@ -584,6 +655,11 @@
      "inne:wysokosc-sciany-vs-bryly"
     ],
     "opis": "Wysokość ostrosłupa a wysokość ściany bocznej: spodek wysokości to środek podstawy, nie środek krawędzi"
+   },
+   "trudnosc": {
+    "logit": 3.35,
+    "procent": 79,
+    "procent_etap": 80
    }
   }
  ]

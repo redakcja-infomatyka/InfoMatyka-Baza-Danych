@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014-2015_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014-2015_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2014-2015_slaskie_q1",
@@ -36,6 +37,11 @@
      "konwencja"
     ],
     "opis": "W wierszach i kolumnach obowiązuje kolejność działań, a kusi liczenie od lewej do prawej"
+   },
+   "trudnosc": {
+    "logit": 5.23,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -55,7 +61,12 @@
     "rozwiazanie_html": "<ul><li>A) najmniejszy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>50</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>·</mo><mn>10</mn><mo>=</mo><mo>−</mo><mn>4900</mn></math></li><li>B) największy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>−</mo><mn>50</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>·</mo><mn>10</mn><mo>=</mo><mn>5000</mn></math></li><li>C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>50</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>·</mo><mn>10</mn><mo>=</mo><mo>−</mo><mn>980</mn></math></li><li>D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>−</mo><mn>50</mn><mo>)</mo><mo>·</mo><mn>2</mn><mo>+</mo><mn>8</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>180</mn></math></li></ul>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za poprawne wstawienie nawiasów w każdym z wyrażeń (łącznie 4 pkt).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.03,
+    "procent": 89,
+    "procent_etap": 85
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q3",
@@ -100,6 +111,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalna niewiadoma to masa zwykłej monety, a pytają o lżejszą"
+   },
+   "trudnosc": {
+    "logit": -2.83,
+    "procent": 23,
+    "procent_etap": 18
    }
   },
   {
@@ -137,7 +153,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile metrów samochód pokona w ciągu 60 minut",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.52,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q5",
@@ -174,7 +195,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pojazdy zbliżają się o sumę prędkości w ciągu godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.83,
+    "procent": 10,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q6",
@@ -212,7 +238,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczebność każdej klasy przez x i dodaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.38,
+    "procent": 12,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q7",
@@ -249,7 +280,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień hektary na metry kwadratowe — 1 ha to 10 000 m²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.41,
+    "procent": 19,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_kujawsko-pomorskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q8",
@@ -293,6 +335,11 @@
      "plot-i-slupki"
     ],
     "opis": "11 części to nie 11 cięć; do tego 90 s zapisane jako „1,3 minuty”"
+   },
+   "trudnosc": {
+    "logit": -0.48,
+    "procent": 44,
+    "procent_etap": 37
    }
   },
   {
@@ -330,7 +377,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczby przeciwne dają w sumie zero",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.02,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q10",
@@ -374,6 +426,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wazon jest już w połowie pełny; trzeba też zamienić cm³ na litry"
+   },
+   "trudnosc": {
+    "logit": -4.43,
+    "procent": 12,
+    "procent_etap": 8
    }
   },
   {
@@ -412,7 +469,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj trójkąt z prostokątem o tej samej podstawie i wysokości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.39,
+    "procent": 12,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q12",
@@ -449,7 +511,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofnij się o 60 godzin, rozbijając je na pełne doby i resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.52,
+    "procent": 55,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q13",
@@ -486,7 +553,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw proste liczby, np. a = 2, b = 1, c = 1",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.99,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q14",
@@ -524,7 +596,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdej odpowiedzi dolicz brakujący trzeci kąt",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.42,
+    "procent": 19,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q15",
@@ -561,7 +638,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile małych sześcianów mieści się wzdłuż jednej krawędzi",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.07,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2014-2015_slaskie_q16",
@@ -611,6 +693,11 @@
      "kwantyfikator"
     ],
     "opis": "Prostokąt jest trapezem prostokątnym i równoramiennym; zdania z „może” i „istnieje”"
+   },
+   "trudnosc": {
+    "logit": 4.93,
+    "procent": 89,
+    "procent_etap": 84
    }
   },
   {
@@ -656,6 +743,11 @@
      "jednostki"
     ],
     "opis": "Ułamek godziny: 7,2 h to nie 7 h 20 min"
+   },
+   "trudnosc": {
+    "logit": 0.75,
+    "procent": 57,
+    "procent_etap": 50
    }
   },
   {
@@ -702,6 +794,11 @@
      "inne:rownowaznosc-zapisu"
     ],
     "opis": "Równanie przekształcone (operacje odwrotne) też opisuje tę sytuację"
+   },
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -729,6 +826,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Cyfry to wyniki kostki (1–6); trzeba podać obie możliwości"
+   },
+   "trudnosc": {
+    "logit": 3.67,
+    "procent": 81,
+    "procent_etap": 75
    }
   },
   {
@@ -760,6 +862,11 @@
      "szczegol-bryly"
     ],
     "opis": "Kwadraty w dm, arkusz w cm; wycięcie z obu końców boku"
+   },
+   "trudnosc": {
+    "logit": -1.6,
+    "procent": 34,
+    "procent_etap": 27
    }
   },
   {
@@ -789,6 +896,11 @@
      "procent-podstawa"
     ],
     "opis": "2/3 liczy się z pozostałej powierzchni, nie z całego placu"
+   },
+   "trudnosc": {
+    "logit": -2.44,
+    "procent": 26,
+    "procent_etap": 21
    }
   },
   {
@@ -809,7 +921,12 @@
     "rozwiazanie_html": "<p>Oznaczmy krótszą podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, dłuższą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>4</mn><mi>b</mi><mo>=</mo><mn>48</mn></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>12</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>36</mn></math> cm. W trapezie równoramiennym rzut ramienia na dłuższą podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>24</mn><mn>2</mn></mfrac><mo>=</mo><mn>12</mn></math> cm. Ponieważ kąt ostry ma miarę 45°, powstały trójkąt prostokątny jest równoramienny, więc wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>12</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mfrac><mn>48</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>=</mo><mn>288</mn></math> cm².</p>",
     "punktacja_html": "<p>Punktacja (4 pkt): 1 pkt za poprawną metodę obliczenia podstaw trapezu, 2 pkt za poprawną metodę ustalenia wysokości, 3 pkt za poprawną metodę obliczenia pola trapezu, 4 pkt za poprawne obliczenie pola trapezu (288 cm²).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.79,
+    "procent": 41,
+    "procent_etap": 34
+   }
   }
  ]
 }

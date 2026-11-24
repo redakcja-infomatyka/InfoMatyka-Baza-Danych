@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024_podkarpackie_q1",
@@ -30,7 +31,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy łuk między sąsiednimi wierzchołkami to 36°, a kąt wpisany ma połowę miary swojego łuku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.46,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q2",
@@ -53,7 +59,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licznik i mianownik różnią się o 39, więc wspólny dzielnik musi dzielić 39",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.09,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q3",
@@ -81,6 +92,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Punkt A może leżeć także poza odcinkiem [11, 17], nie tylko między liczbami"
+   },
+   "trudnosc": {
+    "logit": 5.41,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -103,7 +119,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "√n musi wyjść naturalne, więc n to kwadrat — sprawdź, kiedy jego piąta potęga jest sześcianem",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.69,
+    "procent": 87,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q5",
@@ -126,7 +147,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dorysuj w myślach trójkąt prostokątny o przeciwprostokątnej 7,5 i przyprostokątnej 6 — szukasz drugiej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.11,
+    "procent": 84,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q6",
@@ -148,7 +174,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "37 jest pierwsza, więc dzielniki to same potęgi 37 — a ich cyfry jedności powtarzają się co 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.91,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q7",
@@ -169,7 +200,12 @@
     "rozwiazanie_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> mają wspólną wysokość spuszczoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCS</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Podobnie trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> mają wspólną wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>DCS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>BCS</mi></msub></mrow></math>. Rozpatrując wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> w trójkątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math> dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math> jest sumą trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCSD</mi></msub><mo>=</mo><mn>2</mn><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><mn>3</mn><msub><mi>P</mi><mi>ABS</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Jednocześnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CDS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>BCS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Zatem pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> jest równe polu pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math>.</p>",
     "punktacja_html": "<ul><li>4 punkty – jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód. Otrzymuje je również, jeśli nie wypisał wprost założeń i tezy, ale przeprowadzone rozumowanie jest poprawnym dowodem, wskazującym na zrozumienie przez ucznia roli założeń i tezy w zadaniu.</li><li>3 punkty – jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.:<ul><li>uczeń poprawnie wyraził pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAS</mi></math> w zależności od tej samej wartości (na przykład pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math>), ale nie dokończył dowodu,</li><li>uczeń popełnił niewielki błąd, wyrażając pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math> w zależności od tej samej wartości (na przykład pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math>), ale ze względu na błąd otrzymał różne wartości.</li></ul></li><li>2 punkty – jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.:<ul><li>uczeń wypisał co najmniej dwie poprawne zależności pomiędzy polami trójkątów występujących w zadaniu,</li><li>uczeń poprawnie rozwiązał zadanie przy dodatkowym założeniu, że przekątne są prostopadłe,</li><li>uczeń zapisał założenie i tezę oraz co najmniej jedną zależność pomiędzy polami trójkątów występujących w zadaniu.</li></ul></li><li>1 punkt – jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.:<ul><li>zapisał poprawnie założenia i tezę zadania,</li><li>uczeń wypisał jedną poprawną zależność pomiędzy dwoma polami trójkątów występujących w zadaniu, ale nie kontynuował rozwiązania,</li><li>uczeń rozwiązał zadanie przy kilku dodatkowych założeniach, np. równości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BS</mi></math> oraz prostopadłości przekątnych.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.8,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2024_podkarpackie_q8",
@@ -197,6 +233,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba wszystkich w kolejce obejmuje też samą dziewczynkę; 9 osób między nimi to różnica pozycji 10"
+   },
+   "trudnosc": {
+    "logit": 6.64,
+    "procent": 95,
+    "procent_etap": 93
    }
   },
   {
@@ -219,7 +260,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz palindromy osobno wśród liczb 1-, 2-, 3- i 4-cyfrowych",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.69,
+    "procent": 96,
+    "procent_etap": 93
+   }
   }
  ]
 }

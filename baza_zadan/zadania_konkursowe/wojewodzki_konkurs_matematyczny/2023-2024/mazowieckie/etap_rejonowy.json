@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023_mazowieckie_q1",
@@ -39,7 +40,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z sum kątów w obu trójkątach wyznacz brakujące kąty, a trapez sprawdź kątami odpowiadającymi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.95,
+    "procent": 68,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2023_mazowieckie_q2",
@@ -87,6 +93,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "\"Wybierz wszystkie\": ta sama cyfra jest zapisana w dwóch wariantach w różnej postaci (pierwiastek, potęga)"
+   },
+   "trudnosc": {
+    "logit": 2.28,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -134,6 +145,11 @@
      "o-co-pytaja"
     ],
     "opis": "Czas pracy obliczony po drodze to pułapka; pytanie dotyczy innej masy czereśni (720 kg)"
+   },
+   "trudnosc": {
+    "logit": 2.26,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -176,7 +192,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaką część bukietu stanowią czerwone róże — skróć oba ułamki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.29,
+    "procent": 37,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2023_mazowieckie_q5",
@@ -198,7 +219,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz liczby a, a+1, a+2, a+3 i odejmij iloczyny — kwadraty się zniosą",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.23,
+    "procent": 61,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2023_mazowieckie_q6",
@@ -227,6 +253,11 @@
      "o-co-pytaja"
     ],
     "opis": "\"Maksymalnie\" miejsc: liczba miejsc nie kończy się na ostatnim użytym 8, tylko tuż przed następną ósemką"
+   },
+   "trudnosc": {
+    "logit": 7.49,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -255,6 +286,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Punkty A i B mogą leżeć po tej samej lub po przeciwnych stronach spodka wysokości z C"
+   },
+   "trudnosc": {
+    "logit": 7.49,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -276,7 +312,12 @@
     "rozwiazanie_html": "<p>Oznaczmy czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a punkt przecięcia przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Powstają cztery trójkąty, każdy o polu 15.</p><p><strong>Równoległobok.</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><msub><mi>P</mi><mi>ASD</mi></msub><mo>=</mo><mn>15</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>30</mn></mrow></math>, a trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> — pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><msub><mi>P</mi><mi>BCS</mi></msub><mo>=</mo><mn>30</mn></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają wspólną podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i równe pola, więc równe wysokości — punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są jednakowo oddalone od prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Analogicznie z trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Obie pary boków są równoległe, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równoległobokiem.</p><p><strong>Stosunek przekątnych.</strong> W równoległoboku przekątne dzielą się na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest ich środkiem. Krótsza przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Opuśćmy z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DSE</mi></math> jest kątem przyległym do kąta 120°, więc ma 60°, a trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DES</mi></math> jest połową trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ASD</mi></msub><mo>+</mo><msub><mi>P</mi><mi>DSC</mi></msub><mo>=</mo><mn>30</mn></mrow></math>, a z drugiej strony <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACD</mi></msub><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>60</mn><mn>3</mn></mfrac><mo>=</mo><mn>20</mn></mrow></math>. Dłuższa przekątna ma więc długość 20, a stosunek długości krótszej do dłuższej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>20</mn></mfrac><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>5</mn></mfrac></mrow></math>, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>1p. – Uzasadnia, że opisany czworokąt jest równoległobokiem.</li><li>1p. – Oblicza długość dłuższej przekątnej równoległoboku.</li><li>1p. – Oblicza stosunek długości przekątnych.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.7,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2023_mazowieckie_q9",
@@ -305,6 +346,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Liczby całkowite: równanie ma też rozwiązanie ujemne, które łatwo zgubić przy pierwiastkowaniu"
+   },
+   "trudnosc": {
+    "logit": 3.54,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -325,7 +371,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie krawędzią podstawy (kwadratu) graniastosłupa czworokątnego. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> są środkami dwóch sąsiednich krawędzi podstawy, a rozcięcie dzieli kwadrat na cztery trójkąty. Ich pola wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ALK</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>LBC</mi></msub><mo>=</mo><msub><mi>P</mi><mi>KCD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>KLC</mi></msub><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac><mo>−</mo><mn>2</mn><mo>·</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>8</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></mrow></math>. Wszystkie graniastosłupy mają tę samą wysokość, więc ich objętości są proporcjonalne do pól podstaw. Największą objętość ma klocek o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLC</mi></math> (pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math>), a najmniejszą — klocek o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ALK</mi></math> (pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac></math>). Stosunek objętości najmniejszego do największego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac><mo>:</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli około 33%.</p>",
     "punktacja_html": "<p>I sposób:</p><ul><li>1p. – Przeprowadza analizę zadania np. za pomocą rysunku.</li><li>1p. – Oblicza pola podstaw otrzymanych klocków.</li><li>1p. – Oblicza z dokładnością do 1%, ile procent objętości największego z otrzymanych klocków stanowi objętość najmniejszego klocka.</li></ul><p>II sposób:</p><ul><li>1p. – Przeprowadza analizę zadania np. za pomocą rysunku.</li><li>1p. – Przedstawia podział podstawy graniastosłupa na cztery trójkąty np. za pomocą rysunku i porównuje ich pola.</li><li>1p. – Oblicza z dokładnością do 1%, ile procent objętości największego z otrzymanych klocków stanowi objętość najmniejszego klocka.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.12,
+    "procent": 99,
+    "procent_etap": 98
+   }
   }
  ]
 }

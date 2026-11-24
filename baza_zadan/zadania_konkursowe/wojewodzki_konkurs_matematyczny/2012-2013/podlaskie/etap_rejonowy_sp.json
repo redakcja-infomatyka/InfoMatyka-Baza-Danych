@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012_podlaskie_sp.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2012_podlaskie_sp_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij rzymski zapis liczby 16",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -9.23,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj z definicji: liczby przeciwne to a i −a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.49,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejdź po zdaniach po kolei i skonfrontuj każde z definicją",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.23,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q4",
@@ -156,7 +172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dzielna = dzielnik · iloraz + reszta",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.59,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q5",
@@ -201,6 +222,11 @@
      "konwencja"
     ],
     "opis": "Wariant bez nawiasu: 2a+2b·x mnoży przez x tylko jeden składnik, choć wygląda jak obwód razy cena"
+   },
+   "trudnosc": {
+    "logit": -6.36,
+    "procent": 4,
+    "procent_etap": 5
    }
   },
   {
@@ -247,7 +273,26 @@
      "procent-podstawa"
     ],
     "opis": "36 litrów to część, która została, a nie ta, która wyparowała"
-   }
+   },
+   "trudnosc": {
+    "logit": -6.11,
+    "procent": 5,
+    "procent_etap": 6
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023-2024_zachodniopomorskie_q32",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q32",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2016-2017_warminsko-mazurskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q7",
@@ -285,7 +330,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz trzeci kąt z sumy 180° i sprawdź, czy któryś jest prosty lub rozwarty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.63,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q8",
@@ -323,7 +373,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz krawędź na decymetry, zanim policzysz objętość",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.25,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q9",
@@ -361,7 +416,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz krawędzie graniastosłupa o podstawie n-kąta i sprawdź podzielność",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.99,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q10",
@@ -406,6 +466,11 @@
      "zaokraglenie"
     ],
     "opis": "Zapis 0,99≈1 wygląda na błędny, bo brak części dziesiątych; trzeba naprawdę zaokrąglić 5,972"
+   },
+   "trudnosc": {
+    "logit": -4.88,
+    "procent": 9,
+    "procent_etap": 11
    }
   },
   {
@@ -450,6 +515,11 @@
      "znak"
     ],
     "opis": "−1⁶ to nie (−1)⁶: potęga wiąże mocniej niż minus"
+   },
+   "trudnosc": {
+    "logit": -3.9,
+    "procent": 15,
+    "procent_etap": 17
    }
   },
   {
@@ -495,6 +565,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kto od kogo 2 razy mniej: wyższych jest mniej; miejsce liczone od najwyższego, Basia też się liczy"
+   },
+   "trudnosc": {
+    "logit": 1.03,
+    "procent": 59,
+    "procent_etap": 61
    }
   },
   {
@@ -522,6 +597,11 @@
      "kierunek-relacji"
     ],
     "opis": "Skala 3:1 to powiększenie, 1:3 pomniejszenie; łatwo odwrócić kierunek przeliczenia"
+   },
+   "trudnosc": {
+    "logit": -0.16,
+    "procent": 48,
+    "procent_etap": 49
    }
   },
   {
@@ -543,7 +623,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolejność działań — najpierw dzielenie, więc zamień 1⅗ na ułamek dziesiętny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.25,
+    "procent": 52,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q15",
@@ -563,7 +648,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw f = 59 i skróć przez 9 przed mnożeniem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.46,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q16",
@@ -583,7 +673,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "drugi ułamek jest odwrotnością pierwszego — nie szukaj wcale a ani b",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q17",
@@ -608,6 +703,11 @@
      "procent-podstawa"
     ],
     "opis": "35% liczy się od pieniędzy Oli, nie od całych 50 zł"
+   },
+   "trudnosc": {
+    "logit": -0.15,
+    "procent": 48,
+    "procent_etap": 49
    }
   },
   {
@@ -628,7 +728,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola podstawy wyznacz krawędź, potem osobno 8 krawędzi podstaw i 4 boczne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -4.95,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2012_podlaskie_sp_q19",
@@ -648,7 +753,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Kąt prosty przy C. Trójkąt ACD (AC=AD) ma kąt przy A = 180°−40° = 140°, więc ∠ACD = 20°. Trójkąt BCE (BC=BE): kąt przy B = 180°−50° = 130°, więc ∠BCE = 25°. ∠DCE = 20° + 90° + 25° = 135°.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.11,
+    "procent": 99,
+    "procent_etap": 98
+   }
   }
  ]
 }

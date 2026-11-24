@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2020_mazowieckie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zsumuj wszystkie liczby; zaznaczone dają pięciokrotność sumy Julki — sprawdzaj reszty z dzielenia przez 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2020_mazowieckie_q2",
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przenieś y² na lewą stronę i rozłóż x²−y² na (x−y)(x+y)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.49,
+    "procent": 44,
+    "procent_etap": 46
+   }
   },
   {
    "id": "rejonowy_2020_mazowieckie_q3",
@@ -114,7 +125,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt zewnętrzny to 180° minus kąt wewnętrzny — ułóż z tego równanie, potem skorzystaj z proporcji boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2020_mazowieckie_q4",
@@ -153,7 +169,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz przed nawias najmniejszą potęgę dwójki i rozłóż na czynniki to, co zostanie w nawiasie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.95,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2020_mazowieckie_q5",
@@ -186,6 +207,11 @@
      "rysunek"
     ],
     "opis": "Pytają, ile białych zostanie po uzupełnieniu, a nie ile białych zużyto; do tego niewidoczne klocki na rysunku"
+   },
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -215,6 +241,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 200% większa” oznacza trzy razy większą, a nie dwa razy"
+   },
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 67
    }
   },
   {
@@ -238,7 +269,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj czasy na ostatnich 30% drogi — szybsza jazda musi odrobić 9 minut postoju",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.1,
+    "procent": 77,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2020_mazowieckie_q8",
@@ -265,6 +301,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dwa graniastosłupy sześciokątne można ułożyć na kilka sposobów o tej samej najmniejszej objętości"
+   },
+   "trudnosc": {
+    "logit": 9.5,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -286,7 +327,12 @@
     "rozwiazanie_html": "<p>Wyznaczmy wysokość trapezu. Przesuwając krótsze ramię tak, by z dłuższym ramieniem i różnicą podstaw powstał trójkąt, oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> rzut ramienia 6,3 m na dłuższą podstawę. Z twierdzenia Pitagorasa wysokość spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>10</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>. Przyjmując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>40</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn><mo>−</mo><mo>(</mo><mn>100</mn><mo>−</mo><mn>20</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mi>x</mi><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><msqrt><mrow><mn>40</mn><mo>−</mo><mn>4</mn></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> m. Pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>4</mn><mo>+</mo><mn>14</mn><mo>)</mo><mo>·</mo><mn>6</mn><mo>=</mo><mn>54</mn></mrow></math> m<sup>2</sup>. Na jednokrotne nawożenie potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>·</mo><mn>30</mn><mtext> g</mtext><mo>=</mo><mn>1620</mn><mtext> g</mtext><mo>=</mo><mn>1,62</mn></mrow></math> kg nawozu, a na sześć zastosowań w roku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>1,62</mn><mo>=</mo><mn>9,72</mn></mrow></math> kg. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9,72</mn><mo>&lt;</mo><mn>10</mn></mrow></math> (albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>:</mo><mn>1,62</mn><mo>&gt;</mo><mn>6</mn></mrow></math>), jeden worek nawozu wystarczy panu Andrzejowi na rok.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>Uczeń wykonuje rysunek zgodny z warunkami zadania i wprowadza oznaczenia. – 1p.</li><li>Oblicza wysokość trapezu. – 1p.</li><li>Oblicza pole trapezu. – 1p.</li><li>Ustala, na ile zastosowań wystarczy panu Andrzejowi jedno opakowanie nawozu i podaje odpowiedź. – 1p.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.52,
+    "procent": 98,
+    "procent_etap": 97
+   }
   }
  ]
 }

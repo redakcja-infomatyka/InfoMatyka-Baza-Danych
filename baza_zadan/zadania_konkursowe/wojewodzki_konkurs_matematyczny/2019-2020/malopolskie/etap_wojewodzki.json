@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2019-2020_malopolskie_q1",
@@ -48,7 +49,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij N = 1000 i policz po kolei M, L i K oraz P",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.83,
+    "procent": 41,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q2",
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz rozkłady 12 na trzy czynniki — najkrótszą przekątną da ten najbliższy sześcianowi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q3",
@@ -130,7 +141,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABC</mi><mo>=</mo><mo>∢</mo><mi>ACB</mi><mo>=</mo><mi>β</mi></math>. CD dzieli kąt C na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BCD</mi><mo>=</mo><mfrac><mi>β</mi><mn>2</mn></mfrac></math>.</p><p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, trójkąt BCD jest równoramienny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BDC</mi><mo>=</mo><mo>∢</mo><mi>DBC</mi><mo>=</mo><mi>β</mi></math>. Z sumy kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>β</mi><mo>+</mo><mfrac><mi>β</mi><mn>2</mn></mfrac><mo>=</mo><mn>180°</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>72°</mn></math>.</p><p>Kąt CDA jest przyległy do CDB: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CDA</mi><mo>=</mo><mn>180°</mn><mo>−</mo><mn>72°</mn><mo>=</mo><mn>108°</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q4",
@@ -171,7 +187,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdzaj kolejne lata urodzenia: suma cyfr rośnie o 1, a wiek maleje o 1",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q5",
@@ -210,7 +231,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wojtek ma dwóch sąsiadów: Filipa i Igora, więc w jednym szeregu stoją kolejno Marcin, Filip, Wojtek, Igor. Naprzeciwko Wojtka stoi Dawid, a Tomek — jego sąsiad — ma po drugiej stronie Rafała: Rafał, Tomek, Dawid, Zuzia (Zuzia naprzeciwko Igora).</p><p>Wynika stąd, że Zuzia stoi obok Dawida.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 70
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_warminsko-mazurskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q6",
@@ -251,7 +283,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz n(n−3)/2 dla kolejnych n i patrz, której liczby nie da się tak otrzymać",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.52,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q7",
@@ -300,6 +337,11 @@
      "o-co-pytaja"
     ],
     "opis": "Iloczyn zaczyna się od 11, nie od 1 — to nie jest silnia 104!"
+   },
+   "trudnosc": {
+    "logit": 4.97,
+    "procent": 89,
+    "procent_etap": 84
    }
   },
   {
@@ -346,6 +388,11 @@
      "zbior-liczb"
     ],
     "opis": "Niedodatnie obejmują zero, a 0 = 0³ też jest sześcianem liczby całkowitej"
+   },
+   "trudnosc": {
+    "logit": 5.16,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -387,7 +434,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj drogi: przy obserwatorze to sama długość pociągu, na moście długość plus 200 m",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.33,
+    "procent": 71,
+    "procent_etap": 64
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2009-2010_warminsko-mazurskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q10",
@@ -429,7 +487,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zobacz, co dzieje się z różnicą dwóch pierwszych liczb po jednej operacji",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q11",
@@ -471,7 +534,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "13 jest, 17 już nie — to zawęża n; resztę rozstrzygnij liczbą czynników 5 i 2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.51,
+    "procent": 86,
+    "procent_etap": 82
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_warminsko-mazurskie_q13",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q12",
@@ -521,7 +595,18 @@
      "wszystkie-przypadki"
     ],
     "opis": "Suma 0 (dwa zera) też jest podzielna przez 7; łatwo pominąć ją albo sumę 14"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 68
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2021_lubuskie_q11",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q13",
@@ -540,7 +625,12 @@
     "rozwiazanie_html": "<p>Rozdział 10 jednakowych maskotek pomiędzy 4 dziewczynki, z których każda ma otrzymać co najmniej jedną, odpowiada zapisaniu liczby 10 w postaci uporządkowanej sumy czterech dodatnich składników. Rozważając kolejno, ile maskotek może otrzymać pierwsza dziewczynka, otrzymujemy liczby sposobów rozdziału pozostałych maskotek:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>28</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>21</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>.</p><p>Ostatecznie wszystkich możliwości jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>84</mn></math>.</p>",
     "punktacja_html": "<ul><li>4p – poprawne metody prowadzące do podania w odpowiedzi liczby sposobów podziału między czterema dziewczynkami 10 jednakowych maskotek tak, aby każda z nich otrzymała co najmniej jedną.</li></ul><p>Dla przykładowego rozwiązania nr 1:</p><ul><li>3p – zliczenie wszystkich sposobów w ramach pięciu z wymienionych gałęzi i poprzestanie na tym.</li><li>2p – zliczenie wszystkich sposobów w ramach trzech z wymienionych gałęzi i poprzestanie na tym.</li><li>1p – zliczenie wszystkich sposobów w ramach jednej z wymienionych gałęzi i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Dla przykładowego rozwiązania nr 2:</p><ul><li>3p – zliczenie wszystkich sposobów w ramach trzech z wymienionych podgrup i poprzestanie na tym.</li><li>2p – zliczenie wszystkich sposobów w ramach dwóch z wymienionych podgrup i poprzestanie na tym.</li><li>1p – zliczenie wszystkich sposobów w ramach jednej z wymienionych podgrup i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 4 punkty.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.66,
+    "procent": 96,
+    "procent_etap": 93
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q14",
@@ -561,7 +651,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>b</mi></math> będą długościami boków oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>x</mi></math> długością przekątnej BD równoległoboku ABCD. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></math>, tezę można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mi>a</mi><msqrt><mn>3</mn></msqrt></mfrac></math>.</p><p>Trójkąty DCB i DPA są prostokątne i mają kąty ostre przy wierzchołkach C i P równej miary, zatem na mocy cechy kąt-kąt-kąt są podobne. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mi>x</mi><mi>b</mi></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></math>.</p><p>Z twierdzenia Pitagorasa dla trójkąta DCB otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup></mrow></msqrt></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mi>b</mi><msqrt><mn>3</mn></msqrt></math>. Wynika z tego, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mi>a</mi><msqrt><mn>3</mn></msqrt></mfrac></math>, co należało udowodnić.</p>",
     "punktacja_html": "<ul><li>4p – pełen dowód własności.</li><li>3p – zapisanie zależności wynikającej z podobieństwa trójkątów DCB i DPA np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>DP</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></mfrac></math> oraz zapisanie warunku wynikającego z twierdzenia Pitagorasa dla trójkąta DCB np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DC</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><msup><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></msqrt></math> i poprzestanie na tym.</li><li>2p – zapisanie zależności wynikającej z podobieństwa trójkątów DCB i DPA np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>DP</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></mfrac></math> lub zauważenie, że trójkąty DCB i DPA są podobne oraz zapisanie warunku wynikającego z twierdzenia Pitagorasa dla trójkąta DCB np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DC</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><msup><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></msqrt></math> i poprzestanie na tym.</li><li>1p – zauważenie, że trójkąty DCB i DPA są podobne lub zapisanie warunku wynikającego z twierdzenia Pitagorasa dla trójkąta DCB np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DC</mi><mo>|</mo></mrow><mo>=</mo><msqrt><mrow><msup><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></msqrt></math> i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub brak dowodu</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 4 punkty.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.21,
+    "procent": 100,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q15",
@@ -588,6 +683,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Najdłuższa krawędź to ta do przeciwległego wierzchołka podstawy, nie krawędź nad bokiem"
+   },
+   "trudnosc": {
+    "logit": 7.67,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -611,7 +711,12 @@
     "rozwiazanie_html": "<p>Pola odcinków koła opisanego na kwadracie, wyznaczonych przez łuki AD, DC, CB i AB, są takie same. Dzięki temu odcinki związane z łukami AD i AB można wykorzystać do uzupełnienia niezamalowanych odcinków o łukach DC i CB, a obliczenie pola zacieniowanego obszaru sprowadza się do wyznaczenia pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola koła o środku C i promieniu AD oraz pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> jako różnicy pola kwadratu ABCD i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola koła o środku C i promieniu AD.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>3</mn><mi>π</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>−</mo><mi>π</mi></math>. Ostatecznie pole zacieniowanego obszaru jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>π</mi><mo>+</mo><mn>4</mn><mo>−</mo><mi>π</mi><mo>=</mo><mn>2</mn><mi>π</mi><mo>+</mo><mn>4</mn></math>.</p>",
     "punktacja_html": "<ul><li>5p – bezbłędne obliczenia prowadzące do podania pola zacieniowanej figury.</li></ul><p>Dla przykładowego rozwiązania nr 1:</p><ul><li>4p – prawidłowe zapisanie wyrażenia opisującego pole szukanego obszaru np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mo>+</mo><mn>4</mn><mi>π</mi><mo>−</mo><mi>π</mi><mo>−</mo><mi>π</mi><mo>−</mo><mn>2</mn><mo>(</mo><mi>π</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> i popełnienie błędów rachunkowych przy jego upraszczaniu.</li><li>3p – obliczenie pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> oraz pól dwóch kół i poprzestanie na tym.</li><li>2p – obliczenie obydwu pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> lub obliczenie pól dwóch kół oraz jednego z pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> i poprzestanie na tym.</li><li>1p – obliczenie tylko pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> lub obliczenie tylko pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> lub obliczenie pól dwóch kół i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Dla przykładowego rozwiązania nr 2:</p><ul><li>4p – obliczenie obydwu pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> i poprzestanie na tym.</li><li>3p – obliczenie pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> oraz zauważenie pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> jest różnicą pola kwadratu ABCD i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD lub obliczenie pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> oraz zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD i poprzestanie na tym.</li><li>2p – zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD oraz zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> jest różnicą pola kwadratu ABCD i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD lub obliczenie tylko pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> lub obliczenie tylko pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> i poprzestanie na tym.</li><li>1p – zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD lub zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> jest różnicą pola kwadratu ABCD i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola koła o środku w punkcie C i promieniu AD i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 5 punktów.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.36,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2019-2020_malopolskie_q17",
@@ -631,7 +736,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wagę najcięższej dziewczyny, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> wagę najcięższego chłopca, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> sumę wag dziewcząt z pominięciem najcięższej, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> sumę wag chłopców z pominięciem najcięższego. Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>14</mn></mfrac><mo>=</mo><mn>49,5</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>6</mn></mfrac><mo>+</mo><mn>7</mn><mo>=</mo><mfrac><mi>b</mi><mn>8</mn></mfrac></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>693</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>168</mn><mo>=</mo><mn>3</mn><mi>b</mi></math>. Rozwiązując układ, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>273</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>420</mn></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>273</mn><mo>+</mo><mi>x</mi></mrow><mn>7</mn></mfrac><mo>=</mo><mn>46</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>420</mn><mo>+</mo><mi>y</mi></mrow><mn>9</mn></mfrac><mo>=</mo><mn>53</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>49</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>57</mn></math>. Najcięższa dziewczyna waży 49 kg, a najcięższy chłopiec 57 kg.</p>",
     "punktacja_html": "<ul><li>6p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania wagi najcięższej dziewczyny i najcięższego chłopca.</li><li>5p – obliczenie jednej z poszukiwanych wielkości (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>49</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>57</mn></math>) i poprzestanie na tym.</li><li>4p – bezbłędne rozwiązanie układu równań prowadzącego do znalezienia wielkości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>273</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>420</mn></math> i poprzestanie na tym.</li><li>3p – doprowadzenie układu równań do postaci, w której jedno z równań posiada tylko jedną niewiadomą np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>b</mi><mo>=</mo><mn>693</mn><mo>−</mo><mi>a</mi></mtd></mtr><mtr><mtd><mn>4</mn><mi>a</mi><mo>+</mo><mn>168</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>693</mn><mo>−</mo><mi>a</mi><mo>)</mo></mtd></mtr></mtable></mrow></math> i poprzestanie na tym.</li><li>2p – zapisanie układu równań z niewiadomymi a oraz b np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>14</mn></mfrac><mo>=</mo><mn>49,5</mn></mtd></mtr><mtr><mtd><mfrac><mi>a</mi><mn>6</mn></mfrac><mo>+</mo><mn>7</mn><mo>=</mo><mfrac><mi>b</mi><mn>8</mn></mfrac></mtd></mtr></mtable></mrow></math> i poprzestanie na tym.</li><li>1p – opisanie czterech niewiadomych x, y, a, b i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub podanie poprawnych odpowiedzi bez obliczeń.</li></ul><p>Drugi wariant schematu punktowania:</p><ul><li>6p – pełne rozwiązanie bez błędów rachunkowych.</li><li>5p – rozwiązanie zadania z błędami rachunkowymi lub obliczenie jednej z poszukiwanych wielkości i poprzestanie na tym.</li><li>4p – doprowadzenie układu do równania z jedna niewiadomą lub ułożenie równania z jedną niewiadomą lub popełnienie błędu metodycznego podczas rozwiązywania układu lub równania.</li><li>3p – ułożenie układu dwóch równań z dwoma niewiadomymi, prowadzącego do rozwiązania zadania.</li><li>2p – poprawna metoda wyznaczenia sumy mas najcięższego chłopca i najcięższej dziewczynki lub wyznaczenie średniej wagi 6 dziewcząt (45,5 kg) i średniej wagi 6 chłopców (52,5 kg).</li><li>1p – poprawna metoda wyznaczenia łącznej masy chłopców i łącznej masy dziewcząt lub rozpatrzenia szczególnego przypadku dla odgadnietego poprawnego rozwiązania.</li><li>0p – błędne rozwiązanie lub podanie poprawnych odpowiedzi bez obliczeń.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona, przyznajemy 6 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.87,
+    "procent": 93,
+    "procent_etap": 90
+   }
   }
  ]
 }

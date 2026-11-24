@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "15 = 3 · 5, więc patrz osobno na ostatnią cyfrę i na sumę wszystkich cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj ze wzoru na sumę kątów wielokąta i podziel ją przez liczbę kątów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.48,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q3",
@@ -126,6 +137,11 @@
      "konwencja"
     ],
     "opis": "Przed okresem stoi cyfra nieokresowa 4 – okres zaczyna się od drugiego miejsca po przecinku"
+   },
+   "trudnosc": {
+    "logit": 1.78,
+    "procent": 66,
+    "procent_etap": 73
    }
   },
   {
@@ -171,6 +187,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówka godzinowa o 9:20 nie stoi na 9 – przesunęła się o jedną trzecią godziny"
+   },
+   "trudnosc": {
+    "logit": -0.37,
+    "procent": 45,
+    "procent_etap": 52
    }
   },
   {
@@ -215,7 +236,18 @@
      "jednostki"
     ],
     "opis": "Dwie działki podane w różnych jednostkach (m² i ary), wynik w hektarach"
-   }
+   },
+   "trudnosc": {
+    "logit": -4.22,
+    "procent": 13,
+    "procent_etap": 15
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023-2024_zachodniopomorskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q6",
@@ -261,6 +293,11 @@
      "jednostki"
     ],
     "opis": "Średnia trzech wymiarów to nie ich suma; wynik trzeba też przeliczyć z dm na m"
+   },
+   "trudnosc": {
+    "logit": -1.03,
+    "procent": 39,
+    "procent_etap": 46
    }
   },
   {
@@ -298,7 +335,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile razy 20 sekund mieści się w minucie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.6,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q8",
@@ -335,7 +377,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uprość każde wyrażenie z pierwiastkiem i porównaj je z 1 oraz z 1,5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q9",
@@ -379,6 +426,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytanie o to, o ile procent wzrosła wartość, a nie do ilu procent"
+   },
+   "trudnosc": {
+    "logit": -1.21,
+    "procent": 37,
+    "procent_etap": 44
    }
   },
   {
@@ -417,7 +469,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, która z podanych sum cyfr sama wymusza podzielność przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.95,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q11",
@@ -438,7 +495,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "złóż obie obniżki w jeden mnożnik ceny początkowej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.4,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q12",
@@ -463,7 +525,18 @@
      "o-co-pytaja"
     ],
     "opis": "Odpowiedzią nie jest wartość wyrażenia, lecz liczba przeciwna do jej odwrotności"
-   }
+   },
+   "trudnosc": {
+    "logit": 4.72,
+    "procent": 88,
+    "procent_etap": 92
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019-2020_warminsko-mazurskie_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q13",
@@ -482,7 +555,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy boki prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równoboczny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, a trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDF</mi></math> jest równoboczny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Ponadto kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ABE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>FDA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FDA</mi></math> mają zatem po dwa boki równe (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>) oraz równy kąt między nimi, więc na mocy cechy przystawania bok–kąt–bok są przystające. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, co należało udowodnić.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.84,
+    "procent": 96,
+    "procent_etap": 98
+   }
   },
   {
    "id": "szkolny_2018-2019_warminsko-mazurskie_q14",
@@ -510,6 +588,11 @@
      "jednostki"
     ],
     "opis": "Boki trójkąta podane w m, dm i cm – dopiero po przeliczeniu widać, który bok jest podstawą"
+   },
+   "trudnosc": {
+    "logit": 3.32,
+    "procent": 79,
+    "procent_etap": 86
    }
   }
  ]

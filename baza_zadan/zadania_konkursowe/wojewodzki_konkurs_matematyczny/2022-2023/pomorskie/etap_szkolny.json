@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022-2023_pomorskie_q1",
@@ -30,7 +31,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola trapezu wyznacz wysokość — to ta sama wysokość, która pracuje w trójkącie ACD",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.1,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q2",
@@ -51,7 +57,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz bok najpierw na wymiar rzeczywisty, dopiero potem podziel go przez drugą skalę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.61,
+    "procent": 11,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q3",
@@ -78,6 +89,11 @@
      "o-co-pytaja"
     ],
     "opis": "Niewiadomą jest ubytek z górnej półki, a pytają o łączną liczbę zabranych kasztanów z obu półek"
+   },
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 49,
+    "procent_etap": 56
    }
   },
   {
@@ -101,7 +117,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "weź połowę obwodu i odejmij od niej dany bok — zostanie drugi bok prostokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.1,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q5",
@@ -143,7 +164,12 @@
     "rozwiazanie_ai_html": "<ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac><mo>=</mo><mn>72</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>70</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>&lt;</mo><mn>72</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math> — <b>NIE</b>.</li><li>Gdy liczba wymierna jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>, iloczyn z dowolną liczbą niewymierną wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math>, czyli jest wymierny — <b>NIE</b>.</li><li>Bok skrócony o 5% to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,95</mn><mi>a</mi></mrow></math>, więc nowe pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>0,95</mn><mn>2</mn></msup><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>0,9025</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, czyli spadek o 9,75%, nie o 25% — <b>NIE</b>.</li><li>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>=</mo><mn>2</mn></mrow></math> lewa strona to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>−</mo><mn>2</mn><mo>]</mo><mo>·</mo><mn>2</mn><mo>+</mo><mn>1,5</mn><mo>=</mo><mn>5</mn></mrow></math>, a prawa strona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mn>5</mn></mrow></math> — równość zachodzi — <b>TAK</b>.</li><li>Przy równych obwodach bok trójkąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>a</mi></mrow></math>, więc pole trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a stosunek pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>:</mo><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math> — <b>TAK</b>.</li></ul>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy udzieli jednej prawidłowej odpowiedzi.</li><li>Uczeń otrzymuje 2 punkty, gdy udzieli dwóch prawidłowych odpowiedzi.</li><li>Uczeń otrzymuje 3 punkty, gdy udzieli trzech prawidłowych odpowiedzi.</li><li>Uczeń otrzymuje 4 punkty, gdy udzieli czterech prawidłowych odpowiedzi.</li><li>Uczeń otrzymuje 5 punktów, gdy udzieli pięciu prawidłowych odpowiedzi.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.17,
+    "procent": 97,
+    "procent_etap": 99
+   }
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q6",
@@ -164,7 +190,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poszukaj innego ustawienia tych samych czterech cyfr, najbliższego po 03:05",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.86,
+    "procent": 41,
+    "procent_etap": 47
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2017-2018_pomorskie_q3",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q7",
@@ -188,7 +225,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w trójkącie BDC policz sumę połówek kątów B i C, potem wróć do sumy kątów w ABC",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.08,
+    "procent": 50,
+    "procent_etap": 57
+   }
   },
   {
    "id": "szkolny_2022-2023_pomorskie_q8",
@@ -216,6 +258,11 @@
      "o-co-pytaja"
     ],
     "opis": "Warianty zawierają zarówno sumę procentów, jak i pozostałą część ceny zamiast obniżki"
+   },
+   "trudnosc": {
+    "logit": 0.3,
+    "procent": 52,
+    "procent_etap": 60
    }
   },
   {
@@ -244,6 +291,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "9.4: bok długości 2 może być podstawą albo ramieniem, a kąt między ramionami może być ostry lub rozwarty"
+   },
+   "trudnosc": {
+    "logit": 7.76,
+    "procent": 98,
+    "procent_etap": 99
    }
   }
  ]

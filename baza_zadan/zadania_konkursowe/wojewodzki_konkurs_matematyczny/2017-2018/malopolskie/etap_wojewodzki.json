@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2017-2018_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2017-2018_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2017-2018_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "1800 liści to różnica między 60% a 52,5%",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.06,
+    "procent": 50,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q2",
@@ -89,6 +95,11 @@
      "kwantyfikator"
     ],
     "opis": "3,(9) to dokładnie 4, a „nie mniejszych” obejmuje też równość z pierwiastkiem z 64"
+   },
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -134,6 +145,11 @@
      "jednostki"
     ],
     "opis": "Pole w skali rośnie z kwadratem skali, a wynik w cm² trzeba zamienić na ary/hektary"
+   },
+   "trudnosc": {
+    "logit": 1.94,
+    "procent": 68,
+    "procent_etap": 61
    }
   },
   {
@@ -171,7 +187,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź licznik i mianownik do potęg trójki, zanim cokolwiek policzysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q5",
@@ -208,7 +229,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamiast kursu policz, jaką częścią 50 dolarów jest 40 dolarów",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.23,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q6",
@@ -246,7 +272,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką częścią doby jest czas od 22:00 do 6:00",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 33
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q7",
@@ -292,6 +323,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Część trójek 2a+b=15 nie spełnia nierówności trójkąta; trzeba też policzyć trójkąt równoboczny"
+   },
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 57
    }
   },
   {
@@ -327,7 +363,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Szukamy najmniejszych liczb zapisanych cyframi 2 i 8, podzielnych przez 9 i przez 12.</p><p>Podzielność przez 9: suma cyfr dzieli się przez 9. Przy 3 cyfrach 8+8+2=18 pasuje, więc najmniejsza taka liczba to 288.</p><p>Podzielność przez 12 = podzielność przez 4 (końcówka 28 lub 88) i przez 3. Reszta z dzielenia zarówno 8, jak i 2 przez 3 wynosi 2, więc suma cyfr dzieli się przez 3 tylko, gdy liczba cyfr dzieli się przez 3. Najmniejsza pasująca liczba to 228 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>228</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>19</mn></math>).</p><p>Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>288</mn><mo>+</mo><mn>228</mn><mo>=</mo><mn>516</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q9",
@@ -366,7 +407,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kąty w trójkącie ACD, dopiero potem kąt ADB",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q10",
@@ -403,7 +449,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licząc rodzeństwo, dziecko nie liczy samego siebie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.05,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q11",
@@ -440,7 +491,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloczyn ma być czterocyfrowy i zaczynać się od 3 — to zostawia mało kandydatów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q12",
@@ -485,6 +541,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Liczyć trzeba też figury złożone z kilku pól: większe kwadraty i większe trójkąty"
+   },
+   "trudnosc": {
+    "logit": 4.86,
+    "procent": 88,
+    "procent_etap": 84
    }
   },
   {
@@ -522,7 +583,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij cztery odległości na dwie pary o równej sumie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.98,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q14",
@@ -559,7 +625,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pociąg pokonuje długość tunelu powiększoną o własną długość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q15",
@@ -579,7 +650,12 @@
     "rozwiazanie_ai_html": "<p>Liczba uczniów: 60, suma ocen: 206 (obliczona z tabeli), średnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>206</mn><mo>:</mo><mn>60</mn><mo>≈</mo><mn>3,43</mn></math>. Powyżej średniej są oceny 4, 5, 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>28</mn></math> uczniów.</p><p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>46</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo></math>.</p><p>b) Docelowa suma ocen: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,8</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>228</mn></math>. Trzeba dodać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>228</mn><mo>−</mo><mn>206</mn><mo>=</mo><mn>22</mn></math> stopnie ocen — musi je poprawić 22 uczniów.</p>",
     "punktacja_html": "<ul><li>2p – prawidłowe podanie obydwu odpowiedzi,</li><li>1p – podanie tylko jednej prawidłowej odpowiedzi,</li><li>0p – brak odpowiedzi lub obydwie odpowiedzi błędne.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.64,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q16",
@@ -607,6 +683,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ile dziewiątek ma wynik odejmowania od 10^60 liczby czterocyfrowej"
+   },
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 75
    }
   },
   {
@@ -628,7 +709,12 @@
     "rozwiazanie_html": "<p>Niech dany będzie trapez ABCD o podstawach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Punkt P jest środkiem ramienia AD, więc odległość punktu P od każdej z podstaw jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>h</mi><mn>2</mn></mfrac></math>.</p><p>Pole trójkąta BCP można zapisać jako różnicę pola trapezu ABCD i sumy pól trójkątów PCD i ABP. Pole trójkąta PCD można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math>, natomiast pole trójkąta ABP w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math>. Zatem</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>△</mi><mi>BCP</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>−</mo><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABCD</mi></msub></math>,</p><p>co należało udowodnić.</p>",
     "punktacja_html": "<ul><li>3p – pełne poprawne rozumowanie,</li><li>2p – zapisanie pola trójkąta BCP jako różnicy pola trapezu ABCD i sumy pól trójkątów PCD i ABP z użyciem długości podstaw trapezu oraz jego wysokości np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mo>△</mo><mi>BCP</mi></mrow></msub><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mi>h</mi><mo>−</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>)</mo></math> i poprzestanie na tym lub popełnienie błędów w dalszym rozumowaniu,</li><li>1p – zapisanie pola trójkąta ABP w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math> i pola trójkąta PCD w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>·</mo><mfrac><mi>h</mi><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac></math> i poprzestanie na tym,</li><li>0p – brak dowodu lub błędne rozumowanie.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.25,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q18",
@@ -647,7 +733,12 @@
     "rozwiazanie_html": "<p>Pierwszy pracownik w ciągu godziny jest w stanie pomalować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>30</mn></math> pisanek, drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>24</mn><mo>=</mo><mn>25</mn></math> pisanek, a trzeci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>30</mn><mo>=</mo><mn>20</mn></math> pisanek. Zatem razem są w stanie pomalować w ciągu godziny 75 pisanek, a w czasie czterech godzin <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>75</mn><mo>=</mo><mn>300</mn></math> pisanek. Pierwszy i trzeci pracownik będą więc musieli sami pomalować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>−</mo><mn>300</mn><mo>=</mo><mn>300</mn></math> pisanek. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę godzin wspólnej pracy pierwszego i trzeciego pracownika po opuszczeniu stanowiska pracy przez drugiego pracownika. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mn>30</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>300</mn></math>. Z tego wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>300</mn><mn>50</mn></mfrac><mo>=</mo><mn>6</mn></math>. Pozostali pracownicy musieli pracować razem jeszcze 6 godzin, aby dokończyć pracę.</p>",
     "punktacja_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi, ile godzin musieli jeszcze razem pracować pozostali dwaj pracownicy, aby dokończyć pracę,</li><li>3p – zastosowanie poprawnych metod, ale rozwiązanie zawiera błędy rachunkowe lub ułożenie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mn>30</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>300</mn></math> i poprzestanie na tym,</li><li>2p – obliczenie liczby pisanek pomalowanych w ciągu godziny wspólnie przez wszystkich trzech pracowników (75 pisanek) lub w ciągu 4 godzin (300 pisanek) i poprzestanie na tym,</li><li>1p – obliczenie liczby pisanek pomalowanych w ciągu godziny przez każdego z pracowników z osobna i poprzestanie na tym,</li><li>0p – brak rozwiązania lub rozwiązanie błędne lub podanie poprawnej odpowiedzi bez obliczeń.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.26,
+    "procent": 78,
+    "procent_etap": 71
+   }
   },
   {
    "id": "wojewodzki_2017-2018_malopolskie_q19",
@@ -674,6 +765,11 @@
      "kierunek-relacji"
     ],
     "opis": "Każda relacja wiąże resztę jednej osoby z zakupami drugiej; łatwo przypisać je odwrotnie"
+   },
+   "trudnosc": {
+    "logit": 2.09,
+    "procent": 69,
+    "procent_etap": 62
    }
   },
   {
@@ -701,6 +797,11 @@
      "jednostki"
     ],
     "opis": "Dane w cm, dm i m²; otwór zabiera pole wlotu, ale dodaje dno i cztery ściany boczne"
+   },
+   "trudnosc": {
+    "logit": 5.16,
+    "procent": 90,
+    "procent_etap": 86
    }
   }
  ]

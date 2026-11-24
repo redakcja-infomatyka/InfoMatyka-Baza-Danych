@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2015_opolskie_q1",
@@ -41,7 +42,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skróć obie strony o wspólne gruszki i jabłka, zostanie prosty stosunek mas",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.46,
+    "procent": 44,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q2",
@@ -82,6 +88,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Obniżka o 40% liczona od nowej, wyższej ceny — podwyżka i obniżka o ten sam procent się nie znoszą"
+   },
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 21
    }
   },
   {
@@ -115,7 +126,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odjemna − odjemnik = różnica, więc pierwsze zdanie mówi wprost o różnicy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 54
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q4",
@@ -148,7 +164,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Po złożeniu sześcianu z tej siatki naprzeciwległe są ściany: K i O (prawa litera O), A i O (górna litera O) oraz N i R. Zatem: 1) naprzeciw K jest O — TAK; 2) naprzeciw A jest O — TAK; 3) naprzeciw N jest R, a nie K — NIE.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.81,
+    "procent": 67,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q5",
@@ -186,6 +207,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Liczby o sumie cyfr 8 mogą też zawierać zero (czterocyfrowe), ale zero nie może stać na początku"
+   },
+   "trudnosc": {
+    "logit": 5.15,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -208,7 +234,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmuj po kolei od pola działki, a resztę na końcu podziel przez 11",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q7",
@@ -231,7 +262,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy kącie 45° wysokość odcina trójkąt równoramienny, więc odcinek przy podstawie równa się wysokości",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q8",
@@ -256,7 +292,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz bok wyciętego kwadratu przez x, dno ma wtedy 36−2x na 22−2x",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q9",
@@ -279,7 +320,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dopisanie 2 z lewej to +200, a z prawej to ×10 i +2",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.31,
+    "procent": 62,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2015_opolskie_q10",
@@ -309,6 +355,11 @@
      "procent-podstawa"
     ],
     "opis": "15% liczy się od ceny sukienki, nie spodni — 24 zł to 15% wyższej ceny"
+   },
+   "trudnosc": {
+    "logit": -2.28,
+    "procent": 28,
+    "procent_etap": 22
    }
   },
   {
@@ -337,6 +388,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość na trasie tam i z powrotem to nie średnia arytmetyczna obu prędkości"
+   },
+   "trudnosc": {
+    "logit": -2.02,
+    "procent": 30,
+    "procent_etap": 24
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2013-2014_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2013-2014_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2013-2014_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>18</mn></math>. Do pustych pól należy wpisać kolejno: 6, 20, 4, 5, 2 oraz −14.</p>",
     "punktacja_html": "<ul><li>Za każdą poprawnie rozwiązaną krzyżówkę – 3 punkty.</li><li>Jeżeli 1 błąd – 2 punkty, a jeżeli 2 błędy – 1 punkt.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.03,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>16</mn><mo>+</mo><mn>32</mn><mo>)</mo><mo>:</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>48</mn><mo>:</mo><mn>4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></math>. B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>15</mn><mo>)</mo><mo>−</mo><mn>25</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>100</mn><mo>:</mo><mn>20</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>.</p>",
     "punktacja_html": "<ul><li>2 punkty za wstawienie poprawnie nawiasów w wyrażeniach.</li><li>1 punkt za wstawienie poprawnie nawiasów w jednym z wyrażeń.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.99,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q3",
@@ -92,6 +103,11 @@
      "plot-i-slupki"
     ],
     "opis": "Zliczanie liczb w przedziale zaokrągleń: który koniec należy do 2500 i ile liczb liczyć włącznie"
+   },
+   "trudnosc": {
+    "logit": 0.27,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -129,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przetłumacz opis po kolei: najpierw iloczyn, potem suma",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.61,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q5",
@@ -166,7 +187,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skreśl z obu stron tyle samo kulek i tyle samo kostek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -7.2,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q6",
@@ -211,6 +237,11 @@
      "warunek-istnienia"
     ],
     "opis": "Ostra nierówność: kąt przy B ma być większy niż 90°, a nie co najmniej 90°"
+   },
+   "trudnosc": {
+    "logit": -3.39,
+    "procent": 19,
+    "procent_etap": 15
    }
   },
   {
@@ -256,6 +287,11 @@
      "o-co-pytaja"
     ],
     "opis": "Trójkąt równoboczny daje kąt AOS, a pytają o kąt AOB złożony z dwóch takich kątów"
+   },
+   "trudnosc": {
+    "logit": 0.22,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -300,6 +336,11 @@
      "znak"
     ],
     "opis": "Minus przed kwadratem nawiasu: kwadrat zjada minus wewnątrz, ale nie ten na zewnątrz"
+   },
+   "trudnosc": {
+    "logit": -4.19,
+    "procent": 13,
+    "procent_etap": 9
    }
   },
   {
@@ -345,6 +386,11 @@
      "jednostki"
     ],
     "opis": "15% to 15 g na 100 g całości, nie na 100 g reszty; do tego dekagramy obok gramów"
+   },
+   "trudnosc": {
+    "logit": -3.35,
+    "procent": 19,
+    "procent_etap": 15
    }
   },
   {
@@ -390,6 +436,11 @@
      "plot-i-slupki"
     ],
     "opis": "Odcinanie warstwy pomalowanej z obu stron krawędzi, a nie tylko z jednej"
+   },
+   "trudnosc": {
+    "logit": -3.82,
+    "procent": 16,
+    "procent_etap": 11
    }
   },
   {
@@ -428,7 +479,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zmniejszyć trzykrotnie to podzielić przez 3, i to cały wynik dodawania",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.8,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q12",
@@ -466,7 +522,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz objętość sześcianu, a potem odejmij od niej 10%",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.77,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q13",
@@ -485,7 +546,12 @@
     "rozwiazanie_ai_html": "<p>Ziemia obraca się wokół własnej osi w ciągu 24 godzin (doba). Gdy Księżyc znajdzie się dokładnie między Słońcem a Ziemią, zasłania Słońce – to zaćmienie Słońca.</p>",
     "punktacja_html": "<ul><li>2 pkt. za wszystkie poprawne odpowiedzi</li><li>Po 1 pkt za każdą poprawną odpowiedź</li></ul>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.14,
+    "procent": 29,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q14",
@@ -504,7 +570,12 @@
     "rozwiazanie_ai_html": "<p>A. Krótkie chłodne lato, dzień polarny i długa mroźna zima to cechy tundry. B. Stała temperatura ok. 30°C i obfite deszcze zenitalne wskazują na wilgotne lasy równikowe. C. Upalne bezdeszczowe lato i łagodna deszczowa zima to roślinność śródziemnomorska.</p>",
     "punktacja_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi</li><li>Po 1 pkt za każdą poprawną odpowiedź</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.11,
+    "procent": 51,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q15",
@@ -523,7 +594,12 @@
     "rozwiazanie_ai_html": "<p>Grenlandia (3), ograniczona działalność gospodarcza (5) i niedźwiedzie polarne (6) to cechy Arktyki. Pingwiny (1), najzimniejszy obszar Ziemi (2) oraz brak działalności gospodarczej i wojskowej (4) dotyczą Antarktydy.</p>",
     "punktacja_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi</li><li>2 pkt. za 4-5 poprawnych odpowiedzi</li><li>1 pkt za 2-3 poprawne odpowiedzi</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.52,
+    "procent": 80,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q16",
@@ -542,7 +618,12 @@
     "rozwiazanie_ai_html": "<p>Siła ciężkości powoduje padanie śniegu (3), a jej przyczyną jest pole grawitacyjne Ziemi (C). Siła tarcia zatrzymuje toczącą się piłkę (4), przyczyna: nierówności powierzchni (A). Siła sprężystości działa w amortyzatorach (2), przyczyna: zdolność do odkształceń (D). Siła oddziaływania magnetycznego kieruje kompasem (1), przyczyna: pole magnetyczne (B).</p>",
     "punktacja_html": "<ul><li>4 pkt. za wszystkie poprawne odpowiedzi</li><li>1 pkt za każdą poprawną odpowiedź w wierszu,</li><li>1 pkt jeżeli uczeń, pomimo błędnych odpowiedzi, uzupełnił jedną kolumnę poprawnie</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.07,
+    "procent": 60,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q17",
@@ -574,7 +655,12 @@
     "rozwiazanie_ai_html": "<p>Syberia to azjatycka część Rosji pokryta tajgą i tundrą. Prawda.</p><p>Preria to step w Ameryce Północnej, nie Południowej. Fałsz.</p><p>Lapończycy na Półwyspie Skandynawskim hodują renifery. Prawda.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.96,
+    "procent": 59,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q18",
@@ -606,7 +692,12 @@
     "rozwiazanie_ai_html": "<p>Ogrzane powietrze rozszerza się i staje się lżejsze. Prawda.</p><p>Ogrzewanie ścina białko jaja. Prawda.</p><p>Ogrzewany metalowy pręt wydłuża się, a nie kurczy. Fałsz.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q19",
@@ -649,6 +740,11 @@
      "o-co-pytaja"
     ],
     "opis": "Równoległobok nie jest prostokątem, więc pole to nie iloczyn boków; obwód trójkąta zawiera przekątną"
+   },
+   "trudnosc": {
+    "logit": 4.24,
+    "procent": 85,
+    "procent_etap": 79
    }
   },
   {
@@ -684,7 +780,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "tam, gdzie coś ma być zawsze prawdą, szukaj kontrprzykładu, gdzie indziej wyłącz czynnik",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.16,
+    "procent": 13,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2013-2014_slaskie_q21",
@@ -711,6 +812,11 @@
      "jednostki"
     ],
     "opis": "Powierzchnie w hektarach i arach, cena w tysiącach zł, a pytanie o cenę za 1 m²"
+   },
+   "trudnosc": {
+    "logit": -0.38,
+    "procent": 45,
+    "procent_etap": 38
    }
   },
   {
@@ -739,6 +845,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wycięcie narożnych sześcianików zmniejsza objętość, ale nie zmienia pola powierzchni"
+   },
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 68
    }
   },
   {
@@ -760,7 +871,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj prędkości — razem pokonują całe 150 km w 4 godziny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.87,
+    "procent": 31,
+    "procent_etap": 25
+   }
   }
  ]
 }

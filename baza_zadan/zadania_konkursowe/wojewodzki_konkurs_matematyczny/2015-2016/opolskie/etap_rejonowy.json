@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2016_opolskie_q1",
@@ -41,7 +42,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licz od strony piątek — 111 jest nieparzyste, więc monet 5 zł musi być nieparzysta liczba",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.91,
+    "procent": 83,
+    "procent_etap": 84
+   }
   },
   {
    "id": "rejonowy_2016_opolskie_q2",
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile kolejnych liczb wystarczy, by na pewno trafić wielokrotność danego dzielnika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2016_opolskie_q3",
@@ -115,6 +126,11 @@
      "kierunek-relacji"
     ],
     "opis": "Procent liczony od różnych podstaw: o ile b większe od a liczy się względem a, nie b; 25%−20% to nie 5%"
+   },
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -156,6 +172,11 @@
      "konwencja"
     ],
     "opis": "Czas 1 h 24 min zapisany dziesiętnie w godzinach — łatwo utożsamić 1,4 h z 1 h 40 min albo 1,24 h"
+   },
+   "trudnosc": {
+    "logit": -1.36,
+    "procent": 36,
+    "procent_etap": 38
    }
   },
   {
@@ -197,6 +218,11 @@
      "warunek-istnienia"
     ],
     "opis": "Trzeci bok równy różnicy dwóch boków daje trójkąt zdegenerowany — nierówność trójkąta musi być ostra"
+   },
+   "trudnosc": {
+    "logit": 0.17,
+    "procent": 51,
+    "procent_etap": 53
    }
   },
   {
@@ -215,7 +241,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Wielokrotności 15 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mi>k</mi></mrow></math>. Dwucyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>15</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>90</mn></mrow></math>. Trzycyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>105</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>990</mn></mrow></math>. Czterocyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>67</mn><mo>=</mo><mn>1005</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>666</mn><mo>=</mo><mn>9990</mn></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2016_opolskie_q7",
@@ -233,7 +264,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Na 275 km samochód zużyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mfrac><mn>275</mn><mn>100</mn></mfrac><mo>=</mo><mn>16,5</mn></mrow></math> litra benzyny, co kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,5</mn><mo>·</mo><mn>4,34</mn><mo>=</mo><mn>71,61</mn></mrow></math> zł. Mając 25,5 litra, przy zużyciu 6 litrów na 100 km, przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25,5</mn><mn>6</mn></mfrac><mo>·</mo><mn>100</mn><mo>=</mo><mn>425</mn></mrow></math> km.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.08,
+    "procent": 39,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2016_opolskie_q8",
@@ -261,6 +297,11 @@
      "kwantyfikator"
     ],
     "opis": "„Co najmniej dostateczną” obejmuje też ocenę dostateczną i pojedynczą celującą podaną osobno"
+   },
+   "trudnosc": {
+    "logit": 5.39,
+    "procent": 91,
+    "procent_etap": 91
    }
   },
   {
@@ -282,7 +323,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Obie sieczne wraz z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> tworzą trójkąt. Sieczna oznaczona kątem 20° tworzy z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> kąt 20°, a zaznaczony przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> kąt 120° jest kątem wierzchołkowym kąta wewnętrznego tego trójkąta w punkcie przecięcia siecznych. Trzeci kąt trójkąta (przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>) ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy temu kątowi, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest kątem przyległym do tego kąta 40° przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>40</mn><mo>°</mo><mo>=</mo><mn>140</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.8,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2016_opolskie_q10",
@@ -309,6 +355,11 @@
      "procent-podstawa"
     ],
     "opis": "Bok jest o 15% dłuższy od wysokości — procent liczony od wysokości, nie od boku"
+   },
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 60
    }
   },
   {
@@ -329,7 +380,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmuj kolejno największy sześcian, który jeszcze mieści się w reszcie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.06,
+    "procent": 49,
+    "procent_etap": 50
+   }
   }
  ]
 }

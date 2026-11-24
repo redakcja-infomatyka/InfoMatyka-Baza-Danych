@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2017-2018_pomorskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2017-2018_pomorskie_q1",
@@ -27,7 +28,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oba ułamki mają ten sam mianownik i razem dają całość",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.47,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2017-2018_pomorskie_q2",
@@ -54,6 +60,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie stron włącznie: ile jest stron dwucyfrowych i który numer ma ostatnia strona"
+   },
+   "trudnosc": {
+    "logit": 1.92,
+    "procent": 68,
+    "procent_etap": 61
    }
   },
   {
@@ -85,6 +96,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prędkość większa o 8% nie oznacza czasu krótszego o 8% – czas maleje 1,08 raza"
+   },
+   "trudnosc": {
+    "logit": 3.76,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -111,6 +127,11 @@
      "zbior-liczb"
     ],
     "opis": "Kilka rozwiązań; cyfra x w środku liczby może być zerem"
+   },
+   "trudnosc": {
+    "logit": 3.84,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -133,7 +154,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź przez wierzchołek kąta α prostą równoległą do m i n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.52,
+    "procent": 44,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2017-2018_pomorskie_q6",
@@ -154,7 +180,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, ile złota ma mieć nowy stop, i sprawdź, ile go brakuje, gdyby wziąć same 8 kg drugiego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.39,
+    "procent": 72,
+    "procent_etap": 65
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2013_podkarpackie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2017-2018_pomorskie_q7",
@@ -173,7 +210,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>−</mo><mo>(</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>)</mo></mrow></math> = 15/2 − (8/15 + 3/2) = 82/15.</p><p>Mianownik: 12 : (8/3) − √(6¼)·∛(4 17/27) = 9/2 − 5/2·5/3 = 9/2 − 25/6 = 1/3.</p><p>Wynik: (82/15) : (1/3) = 82/5 = <strong>16,4</strong>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.55,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2017-2018_pomorskie_q8",
@@ -204,6 +246,11 @@
      "zaokraglenie"
     ],
     "opis": "Przeliczenie m³ na dm³ (1000 sześcianików) i zaokrąglenie liczby puszek w górę"
+   },
+   "trudnosc": {
+    "logit": 4.54,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -267,6 +314,11 @@
      "kierunek-relacji"
     ],
     "opis": "Zero jako liczba wymierna, trójkąt równoboczny, wierzchołek ostrosłupa w liczbie 20, odwrócony iloraz w/d"
+   },
+   "trudnosc": {
+    "logit": 8.02,
+    "procent": 98,
+    "procent_etap": 98
    }
   }
  ]

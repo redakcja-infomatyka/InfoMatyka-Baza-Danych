@@ -8,6 +8,7 @@
  "liczba_zadan": 32,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_lubuskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_lubuskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023_lubuskie_q1",
@@ -51,6 +52,11 @@
      "konwencja"
     ],
     "opis": "Liczba cyfr potęgi dziesięciu: 10^n ma n+1 cyfr, nie n"
+   },
+   "trudnosc": {
+    "logit": -3.48,
+    "procent": 18,
+    "procent_etap": 20
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj wyrazy od końców albo przypomnij sobie sumę kolejnych liczb nieparzystych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.85,
+    "procent": 32,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q3",
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wybierz tor dla pierwszego pływaka, potem dla drugiego — tory nie mogą się powtórzyć",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.07,
+    "procent": 39,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q4",
@@ -170,6 +186,11 @@
      "jednostki"
     ],
     "opis": "Dane w km², odpowiedzi w m²: 1 km² to 10^6 m², a nie 10^3 m²"
+   },
+   "trudnosc": {
+    "logit": -0.76,
+    "procent": 42,
+    "procent_etap": 44
    }
   },
   {
@@ -206,7 +227,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kolejna prosta w położeniu ogólnym przecina wszystkie poprzednie i za każdym przecięciem dodaje jeden nowy obszar: 1 prosta daje 2 obszary, 2. dodaje 2 (razem 4), a 3. dodaje 3 nowe (bo przecina obie poprzednie) — razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>7</mn></math> obszarów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.61,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q6",
@@ -243,7 +269,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na cyfry jedności — parzystość sumy przesądza, na jaką cyfrę kończy się b",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q7",
@@ -280,7 +311,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Sprawdzamy oś i środek symetrii każdej z czterech figur.</p><p>Schodkowa figura w lewym górnym rogu ma oś symetrii wzdłuż przekątnej łączącej jej narożniki, ale obrót o 180° nie nakłada jej na samą siebie — ma oś, a nie ma środka.</p><p>Krzyżyk z ząbkami (prawa góra) i podwójna strzałka (prawy dół) nakładają się na siebie po obrocie o 180°, ale nie mają żadnej osi — mają środek, a nie oś. Łamana gwiazda (lewy dół) ma i oś, i środek symetrii.</p><p>Warunek „oś, a nie środek” spełnia więc dokładnie jedna figura.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.0,
+    "procent": 68,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q8",
@@ -324,6 +360,11 @@
      "plot-i-slupki"
     ],
     "opis": "Płaci się za cięcia, nie za części: części jest o jedną więcej niż cięć"
+   },
+   "trudnosc": {
+    "logit": -1.18,
+    "procent": 38,
+    "procent_etap": 39
    }
   },
   {
@@ -362,7 +403,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwinięcie jest okresowe — podziel 135 przez długość okresu i patrz na resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.97,
+    "procent": 30,
+    "procent_etap": 32
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2018_podlaskie_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023_lubuskie_q10",
@@ -399,7 +451,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż równanie przez 4 i zbierz wyrazy z y po jednej stronie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.35,
+    "procent": 19,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q11",
@@ -437,7 +494,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyprostokątna jest połową przeciwprostokątnej — rozpoznaj ten trójkąt",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.3,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q12",
@@ -474,7 +536,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij dzielniki na czynniki: 18 = 2 · 9, 15 = 3 · 5, i sprawdzaj cechy podzielności",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q13",
@@ -511,7 +578,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "średnia prędkość to cała droga przez cały czas, a nie średnia z prędkości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.62,
+    "procent": 11,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q14",
@@ -555,6 +627,11 @@
      "inne:zagniezdzony-zapis"
     ],
     "opis": "Zewnętrzna ramka obejmuje całe działanie – łatwo ją przeoczyć i nie podnieść wyniku do potęgi"
+   },
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 60
    }
   },
   {
@@ -595,7 +672,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel sześciokąt na trójkąty równoboczne o boku 2 i skorzystaj z ich wysokości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.46,
+    "procent": 72,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q16",
@@ -633,7 +715,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "beczka w 0,4 pusta jest w 0,6 pełna — porównaj obie ilości wody",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 52,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q17",
@@ -671,7 +758,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czworościan ma 4 trójkąty równoboczne, sześcian 6 kwadratów — porównaj sumy pól",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.02,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q18",
@@ -708,7 +800,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj wzoru na liczbę przekątnych i rozłóż wynik na dwa czynniki różniące się o 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.65,
+    "procent": 33,
+    "procent_etap": 35
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2010_podkarpackie_gim_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023_lubuskie_q19",
@@ -745,7 +848,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień na system dziesiętny, a dzielenie przez 15 rozbij na dzielenie przez 5 i przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.29,
+    "procent": 37,
+    "procent_etap": 38
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q20",
@@ -783,7 +891,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij średnicę równą 1 i porównaj przepis Egipcjan ze wzorem πr²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.09,
+    "procent": 77,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q21",
@@ -821,7 +934,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna kwadratu to bok razy √2 — i uważaj na jednostki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.58,
+    "procent": 17,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q22",
@@ -858,7 +976,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw zamień wartości bezwzględne na liczby, potem licz nawias",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.74,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q23",
@@ -905,6 +1028,11 @@
      "inne:nakladanie-figur"
     ],
     "opis": "Trójkąty nachodzą na siebie – wspólny sześciokąt liczony dwa razy"
+   },
+   "trudnosc": {
+    "logit": 3.0,
+    "procent": 76,
+    "procent_etap": 78
    }
   },
   {
@@ -949,6 +1077,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kwadrat różnicy a różnica kwadratów – dwa podobnie brzmiące wyrażenia"
+   },
+   "trudnosc": {
+    "logit": -4.77,
+    "procent": 10,
+    "procent_etap": 12
    }
   },
   {
@@ -986,7 +1119,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejdź na kąt zewnętrzny — te sumują się do 360°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.7,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q26",
@@ -1023,7 +1161,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdej parze rozwiąż to dłuższe równanie i porównaj pierwiastek z pierwszym",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.47,
+    "procent": 18,
+    "procent_etap": 20
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q27",
@@ -1060,7 +1203,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozłóż 77 i 55 na czynniki — każda zdjęta warstwa skraca jeden wymiar o 1",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.9,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q28",
@@ -1097,7 +1245,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuń obie proste do wierzchołka B — prostopadłość dopełnia kąt do 90°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 64
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019-2020_malopolskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023_lubuskie_q29",
@@ -1131,7 +1290,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczbę dzielników czytaj z rozkładu na czynniki pierwsze, a w ostatnim zdaniu je wypisz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.09,
+    "procent": 60,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q30",
@@ -1166,7 +1330,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, czy 11! dzieli 110!, a w pierwszym zdaniu porównuj czynniki po kolei",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.6,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q31",
@@ -1203,7 +1372,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przy monetach policz najmniejszą możliwą sumę różnych kwot, przy kołach szacuj z π ≈ 3,14",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.47,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2023_lubuskie_q32",
@@ -1244,6 +1418,11 @@
      "procent-podstawa"
     ],
     "opis": "Podwyżka i obniżka o ten sam procent liczone od różnych podstaw; kolejne obniżki się mnożą, nie sumują"
+   },
+   "trudnosc": {
+    "logit": 2.71,
+    "procent": 74,
+    "procent_etap": 76
    }
   }
  ]

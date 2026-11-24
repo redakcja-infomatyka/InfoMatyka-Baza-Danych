@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2021-2022_slaskie_q1",
@@ -38,6 +39,11 @@
      "kalendarz-czas"
     ],
     "opis": "Hasło 9: pierwszy rok tysiąclecia liczy się od roku 1, a nie od 0; w haśle 11 liczyć dni półroczy"
+   },
+   "trudnosc": {
+    "logit": 8.2,
+    "procent": 99,
+    "procent_etap": 99
    }
   },
   {
@@ -75,7 +81,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz znaki osobno dla setek, dziesiątek i jedności — cyfry 4 i 9 wymagają po dwa znaki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 49,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q3",
@@ -119,6 +130,11 @@
      "procent-podstawa"
     ],
     "opis": "Porównanie procentowe liczy się względem nowej ceny A, a nie ceny wyjściowej"
+   },
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 62
    }
   },
   {
@@ -156,7 +172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź wszystko do potęg dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.86,
+    "procent": 23,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q5",
@@ -202,6 +223,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pytają o najmniejszą liczbę odwrotną, czyli trzeba wskazać największą z liczb"
+   },
+   "trudnosc": {
+    "logit": -1.2,
+    "procent": 37,
+    "procent_etap": 39
    }
   },
   {
@@ -240,7 +266,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile razy objętość prostopadłościanu jest większa od objętości kostki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.68,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q7",
@@ -278,7 +309,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ostatnie cyfry potęg dwójki powtarzają się co cztery — weź resztę z dzielenia wykładnika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.04,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q8",
@@ -322,6 +358,11 @@
      "znak"
     ],
     "opis": "x jest ujemne, więc −x jest dodatnie; wyrażenie z minusem nie musi być ujemne"
+   },
+   "trudnosc": {
+    "logit": 3.41,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -367,6 +408,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Nierówności z kwadratami nie zawsze zachowują kierunek: liczby ujemne i ułamki z przedziału (0,1)"
+   },
+   "trudnosc": {
+    "logit": 7.33,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -412,6 +458,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zdanie IV: wysokość opuszczona na podstawę nie jest najdłuższą wysokością tego trójkąta"
+   },
+   "trudnosc": {
+    "logit": 7.82,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -457,6 +508,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "(a−5)² to nie a²−25; równe pola nie oznaczają równych obwodów"
+   },
+   "trudnosc": {
+    "logit": 2.76,
+    "procent": 75,
+    "procent_etap": 76
    }
   },
   {
@@ -494,7 +550,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<ul><li>I. √60 ≈ 7,75, √130 ≈ 11,40: liczby naturalne to 8, 9, 10, 11 — cztery, nie trzy — <b>F</b>.</li><li>II. √105 ≈ 10,25: jedyna liczba naturalna w przedziale to 11, i jest pierwsza — <b>P</b>.</li><li>III. Po usunięciu niewymierności z mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><msqrt><mn>130</mn></msqrt><mo>−</mo><msqrt><mn>105</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>130</mn></msqrt><mo>+</mo><msqrt><mn>105</mn></msqrt></mrow><mn>25</mn></mfrac></mrow></math>, ze znakiem +, a nie − — <b>F</b>.</li><li>IV. √130 · √60 : √105 = √(7800/105) = √(520/7) = 2√130/√7 — <b>P</b>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.01,
+    "procent": 93,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q13",
@@ -520,6 +581,11 @@
      "inne:obaj-sie-starzeja"
     ],
     "opis": "Za 5 lat starszy jest i ojciec, i syn, więc do sumy ich lat trzeba dodać 10"
+   },
+   "trudnosc": {
+    "logit": -1.15,
+    "procent": 38,
+    "procent_etap": 40
    }
   },
   {
@@ -540,7 +606,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością boku kwadratu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> — długością przekątnej. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>2</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>12</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> dm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.89,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2021-2022_slaskie_q15",
@@ -567,6 +638,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość to nie średnia prędkości odcinków; czas pięć razy krótszy, a nie dłuższy"
+   },
+   "trudnosc": {
+    "logit": -0.47,
+    "procent": 44,
+    "procent_etap": 46
    }
   },
   {
@@ -593,6 +669,11 @@
      "inne:obwod-siatki"
     ],
     "opis": "Obwód siatki sześcianu to 14 odcinków długości krawędzi, a nie 12 krawędzi bryły"
+   },
+   "trudnosc": {
+    "logit": 5.29,
+    "procent": 91,
+    "procent_etap": 91
    }
   }
  ]

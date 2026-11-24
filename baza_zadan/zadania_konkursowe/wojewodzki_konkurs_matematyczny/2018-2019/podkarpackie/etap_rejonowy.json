@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019_podkarpackie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj z najmniejszą wspólną wielokrotnością obu dzielników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q2",
@@ -83,7 +89,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamiast podnosić do kwadratu, zapisz różnicę kwadratów dwóch kolejnych liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.29,
+    "procent": 20,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q3",
@@ -127,6 +138,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Łatwo pominąć zestaw cyfr z powtórzeniem albo policzyć jego ustawienia jak dla trzech różnych cyfr"
+   },
+   "trudnosc": {
+    "logit": 2.88,
+    "procent": 76,
+    "procent_etap": 77
    }
   },
   {
@@ -164,7 +180,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamień 4 na potęgę dwójki i połącz dwójki z piątkami w dziesiątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.32,
+    "procent": 53,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q5",
@@ -203,7 +224,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "upraszczaj każde z osobna: potęgi o tej samej podstawie, pierwiastek z ilorazu, różnica kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.82,
+    "procent": 57,
+    "procent_etap": 59
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q6",
@@ -247,6 +273,11 @@
      "procent-podstawa"
     ],
     "opis": "Dwie kolejne podwyżki procentowe nie sumują się; druga liczona od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -3.03,
+    "procent": 22,
+    "procent_etap": 23
    }
   },
   {
@@ -292,6 +323,11 @@
      "plot-i-slupki"
     ],
     "opis": "Pewność wymaga najgorszego przypadku: wszystkie inne kule wyjęte, a potem jeszcze jedna"
+   },
+   "trudnosc": {
+    "logit": -2.57,
+    "procent": 25,
+    "procent_etap": 27
    }
   },
   {
@@ -329,7 +365,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj obie prędkości i podziel przez nie 3 km, wynik zamień na minuty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.63,
+    "procent": 11,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q9",
@@ -376,6 +417,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalnie wyznacza się kąt 'odniesienia', a pytają o najmniejszy z trzech kątów"
+   },
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 42
    }
   },
   {
@@ -415,7 +461,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi — sprawdź podzielność",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.02,
+    "procent": 14,
+    "procent_etap": 16
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2026_lubuskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2019_podkarpackie_q11",
@@ -445,7 +502,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj ułamki stojące przy n i podstaw ogólną postać liczby n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.04,
+    "procent": 60,
+    "procent_etap": 61
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q12",
@@ -489,6 +551,11 @@
      "rysunek"
     ],
     "opis": "Ściana cięcia jest trójkątem równobocznym, więc czworościan wygląda na foremny, choć nim nie jest"
+   },
+   "trudnosc": {
+    "logit": 2.29,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -509,7 +576,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>13.1. Oś symetrii czworokąta ABCD jest prostopadła do OX, więc jest pionowa i jednakowo odległa od B i C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>0,5</mn></mrow></math>. Odbijając A względem niej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>.</p><p>13.2–13.3. Środek symetrii czworokąta ABCE to środek przekątnej AC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>. Punkt E jest symetryczny do B względem tego środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>.</p><p>13.4. Boki czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>16</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.54,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q14",
@@ -530,7 +602,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każdy iloczyn zamień na różnicę ułamków — sąsiednie wyrazy się zniosą",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.08,
+    "procent": 60,
+    "procent_etap": 61
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q15",
@@ -557,6 +634,11 @@
      "kierunek-relacji"
     ],
     "opis": "'Liczba o 234 mniejsza od' — łatwo odwrócić, która liczba jest większa; odwrotne też daje liczbę dwucyfrową"
+   },
+   "trudnosc": {
+    "logit": -0.05,
+    "procent": 49,
+    "procent_etap": 50
    }
   },
   {
@@ -578,7 +660,12 @@
     "rozwiazanie_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> dzieli kąt prosty w stosunku 1 : 2, czyli na kąty 30° i 60°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>DAB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CAD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mają po 60°, więc trójkąt jest równoboczny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma miarę 30° (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>), a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> również 30°, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> cm.</p>",
     "punktacja_html": "<ul><li>1 pkt – obliczenie miar kątów, na jakie odcinek AD dzieli kąt prosty (30° i 60°)</li><li>2 pkt – zauważenie, że trójkąt ABD jest równoboczny a jego bok ma długość 4 cm lub zauważenie, że trójkąt ADC jest równoramienny a jego ramiona mają długość 4 cm</li><li>3 pkt – zauważenie, że trójkąt ABD jest równoboczny a jego bok ma długość 4 cm i zauważenie, że trójkąt ADC jest równoramienny a jego ramiona mają długość 4 cm</li><li>4 pkt – obliczenie długości przeciwprostokątnej BC (8 cm)</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.73,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q17",
@@ -599,7 +686,12 @@
     "rozwiazanie_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>,</mo><mfrac><mrow><mo>−</mo><mn>1</mn><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn></mrow></math>, a promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> (odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>) spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>8</mn></mrow></math>. Pole pierścienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>π</mi><mo>(</mo><msubsup><mi>r</mi><mn>1</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup><mo>)</mo><mo>=</mo><mi>π</mi><mo>(</mo><mn>18</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>10</mn><mi>π</mi></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 pkt – wykonanie pełnego rysunku z zaznaczonym punktem S w środku odcinka AB – nie wymagamy ani konstrukcji ani współrzędnych punktu S lub sporządzenie niekompletnego rysunku z zaznaczonym punktem S i wyznaczonymi jego współrzędnymi</li><li>2 pkt – obliczenie długości promienia okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> (lub kwadratu długości promienia) lub długości promienia okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> (lub kwadratu długości promienia)</li><li>3 pkt – obliczenie długości obu promieni (lub ich kwadratów)</li><li>4 pkt – obliczenie pola pierścienia kołowego wyznaczonego przez okręgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.24,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2019_podkarpackie_q18",
@@ -620,7 +712,12 @@
     "rozwiazanie_html": "<p>Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> są naprzemianległe, więc mają równe miary; ponieważ przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na połowy, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> ma równe kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, czyli jest równoramienny i ramiona trapezu mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn></mrow></math> cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn></mrow></math> cm. Prowadząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> równoległy do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> jest rombem o boku 10 cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>; trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> jest równoboczny, zatem kąt ostry trapezu ma miarę 60°.</p>",
     "punktacja_html": "<p>I część zadania</p><ul><li>1 pkt – wykonanie odpowiedniego rysunku i zauważenie, że kąty CAB i DCA są naprzemianległe zatem mają równe miary</li><li>2 pkt – zauważenie, że trójkąt ACD ma te same kąty przy podstawie AC, więc jest równoramienny</li><li>3 pkt – obliczenie obwodu trapezu ABCD</li></ul><p>II część zadania</p><ul><li>4 pkt – poprowadzenie odcinka CE równoległego do ramienia AD i zauważenie, że punkt E jest środkiem podstawy AB (I sposób) lub poprowadzenie wysokości w trapezie i wyznaczenie długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (II sposób)</li><li>5 pkt – zauważenie, że trójkąt EBC jest równoboczny (I sposób) lub zauważenie, że trójkąty prostokątne utworzone po obu stronach trapezu przez wysokość, odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i ramię trapezu są szczególne i mają kąty ostre o miarach 60° i 30°</li><li>6 pkt – podanie miary kąta ostrego trapezu ABCD</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.49,
+    "procent": 92,
+    "procent_etap": 92
+   }
   }
  ]
 }

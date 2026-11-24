@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "procenty składaj mnożąc wskaźniki 1,05 i 1,10, a nie dodając",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.52,
+    "procent": 26,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q2",
@@ -88,6 +94,11 @@
      "znak"
     ],
     "opis": "−2⁶ to nie (−2)⁶: minus stoi przed potęgą, a nie jest potęgowany"
+   },
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 36
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma parzysta tylko z dwóch nieparzystych — odłóż jedyną parzystą liczbę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw średnią całego zestawu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.54,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q5",
@@ -201,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok dużego kwadratu to √a, a mały ma bok o połowę krótszy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q6",
@@ -240,7 +266,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty przy tym samym ramieniu dopełniają się do 180°, potem suma kątów trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.3,
+    "procent": 62,
+    "procent_etap": 69
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q7",
@@ -284,6 +315,11 @@
      "kwantyfikator"
     ],
     "opis": "„Zawsze” nieparzysta: jeden przykład nie wystarcza, trzeba sprawdzić n parzyste i nieparzyste"
+   },
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 41
    }
   },
   {
@@ -328,6 +364,11 @@
      "warunek-istnienia"
     ],
     "opis": "Odruchowo bada się kąty porównując kwadraty boków, a najpierw trzeba sprawdzić nierówność trójkąta"
+   },
+   "trudnosc": {
+    "logit": 1.25,
+    "procent": 61,
+    "procent_etap": 68
    }
   },
   {
@@ -366,7 +407,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, o ile rośnie ułamek, gdy licznik zwiększysz o 18",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.11,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q10",
@@ -403,7 +449,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez c, potem przenieś wyraz z x na drugą stronę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.23,
+    "procent": 47,
+    "procent_etap": 54
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q11",
@@ -442,7 +493,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz ogólnie liczbę krawędzi, ścian i wierzchołków dla podstawy n-kątnej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.94,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q12",
@@ -480,7 +536,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole liczone na dwa sposoby jest to samo — dłuższej podstawie odpowiada krótsza wysokość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.93,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q13",
@@ -518,7 +579,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że √60 to 2√15, więc w nawiasie stoi wielokrotność √15",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.51,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q14",
@@ -554,7 +620,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Obwód koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>1,884</mn></mrow></math> m. Droga w ciągu minuty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mtext> km/h</mtext><mo>=</mo><mn>1000</mn><mtext> m/min</mtext></mrow></math>. Liczba pełnych obrotów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>:</mo><mn>1,884</mn><mo>≈</mo><mn>530,8</mn></mrow></math>, czyli 530 obrotów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.9,
+    "procent": 68,
+    "procent_etap": 75
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q15",
@@ -591,7 +662,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj same reszty i tę sumę podziel przez 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.09,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q16",
@@ -611,7 +687,12 @@
     "rozwiazanie_html": "<p>Rozkładamy liczbę 2400 na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2400</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>5</mn></mrow></math>. Wśród podanych liczb szukamy takich trzech, których iloczyn jest równy 2400: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>2400</mn></mrow></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>25</mn><mo>=</mo><mn>47</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Po 1 pkt: za znalezienie trzech liczb o iloczynie 2400 (16, 6, 25); za obliczenie ich sumy (47).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q17",
@@ -639,6 +720,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy różnych masach roztworów stężenie mieszaniny nie jest średnią arytmetyczną stężeń"
+   },
+   "trudnosc": {
+    "logit": -2.27,
+    "procent": 28,
+    "procent_etap": 33
    }
   },
   {
@@ -659,7 +745,12 @@
     "rozwiazanie_html": "<p>Dłuższa podstawa trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>17</mn></mrow></math> cm, a krótsza — z własności trapezu równoramiennego — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math> cm. Z podanego obwodu wyznaczamy długość ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>36</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>5</mn></mrow></math>. Wysokość obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>3</mn></mrow></math>. Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>17</mn><mo>+</mo><mn>9</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>39</mn></mrow></math> cm².</p>",
     "punktacja_html": "<p>Po 1 pkt: za rysunek z oznaczeniami i wyznaczenie krótszej podstawy (b = 9); za obliczenie ramienia (c = 5); za obliczenie wysokości (h = 3); za obliczenie pola trapezu (39 cm²).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2022-2023_zachodniopomorskie_q19",
@@ -686,6 +777,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Prędkość średnia na całej trasie to nie średnia arytmetyczna prędkości z obu kursów"
+   },
+   "trudnosc": {
+    "logit": 3.68,
+    "procent": 81,
+    "procent_etap": 88
    }
   },
   {
@@ -709,7 +805,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z symetrii względem (0,0) odczytaj przekątną na osi y, drugą wyznacz ze wzoru na pole",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 75
+   }
   }
  ]
 }

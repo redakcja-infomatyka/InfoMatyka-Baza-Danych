@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 100,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_lodzkie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2021_lodzkie_q1",
@@ -48,7 +49,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz rok urodzenia jako 200d i porównaj sumę cyfr z wiekiem 2020 − rok",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q2",
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podzielność przez 12 to podzielność przez 3 i przez 4 — sumę cyfr policz z liczby cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.02,
+    "procent": 59,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q3",
@@ -138,6 +149,11 @@
      "procent-podstawa"
     ],
     "opis": "25% liczone od kieszonkowego Tośki, a pytają o Miśkę; łatwo podać kwotę Tośki"
+   },
+   "trudnosc": {
+    "logit": -5.57,
+    "procent": 6,
+    "procent_etap": 8
    }
   },
   {
@@ -180,7 +196,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oszacuj oba pierwiastki, porównując je z pierwiastkami z kolejnych kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.23,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q5",
@@ -230,6 +251,11 @@
      "jednostki"
     ],
     "opis": "Po zamianie jednostek jeden zestaw daje równość a+b=c, trójkąt zdegenerowany, nie trójkąt"
+   },
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 58
    }
   },
   {
@@ -274,7 +300,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość weź z prawego boku, potem odejmij od pola prostokąta biały trójkąt i biały trapez",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.82,
+    "procent": 75,
+    "procent_etap": 82
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q7",
@@ -315,7 +346,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloraz to kreska ułamkowa — suma trafia do licznika, różnica do mianownika",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.52,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q8",
@@ -357,7 +393,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podnoszenie do sześcianu znosi pierwiastek trzeciego stopnia",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.67,
+    "procent": 16,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q9",
@@ -398,7 +439,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>E: −√0,01·((−2)³/4) + (√9/√64)·√0,64 = −0,1·(−2) + (3/8)·0,8 = 0,2 + 0,3 = 0,5 = 1/2. (A = 5,5; B = 69,5; C = 1; D = 4.)</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q10",
@@ -440,7 +486,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 9, 27 i pierwiastek jako potęgi trójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q11",
@@ -488,7 +539,18 @@
      "procent-podstawa"
     ],
     "opis": "Procenty liczone od śliwek; porównanie gruszek z jabłkami wymaga nowej podstawy, nie odejmowania procentów"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 52
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_lubuskie_q18",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2021_lodzkie_q12",
@@ -532,6 +594,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zd. 3: pole w skali zmienia się z kwadratem skali, a wynik trzeba porównać w dm², nie w cm²"
+   },
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 70,
+    "procent_etap": 78
    }
   },
   {
@@ -551,7 +618,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>5 lat temu: starszy = a, młodszy = a/2, ojciec = 2a. Obecnie suma: (a+5)+(a/2+5)+(2a+5)=120 → 3,5a=105 → a=30. Stąd starszy 35, młodszy 20, ojciec 65 (sprawdzenie 5 lat temu: 30 = 2·15 = ½·60).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.92,
+    "procent": 76,
+    "procent_etap": 83
+   }
   },
   {
    "id": "szkolny_2021_lodzkie_q14",
@@ -576,6 +648,11 @@
      "szczegol-bryly"
     ],
     "opis": "Wycięty otwór dokłada ścianki wewnętrzne do pola powierzchni; nie wolno tylko odjąć pola kwadratu"
+   },
+   "trudnosc": {
+    "logit": 5.59,
+    "procent": 92,
+    "procent_etap": 96
    }
   },
   {
@@ -594,7 +671,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Sól: A = 1,0; B = 0,9. Przelew 1 L z A (0,2 soli): A → 4 L, 0,8 soli (20%); B → 10 L, 1,1 soli (11%). Przelew 1 L z B (0,11 soli): B → 9 L, 0,99 soli = 11%; A → 5 L, 0,91 soli = 18,2%.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.01,
+    "procent": 96,
+    "procent_etap": 99
+   }
   }
  ]
 }

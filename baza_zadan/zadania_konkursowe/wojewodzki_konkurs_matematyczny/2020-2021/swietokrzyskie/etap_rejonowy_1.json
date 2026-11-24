@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020-2021_swietokrzyskie_1.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020-2021_swietokrzyskie_1_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q1",
@@ -48,7 +49,12 @@
      "opis": "Poprawna jest odpowiedź C. Sprawdzamy, które wyrażenie NIE równa się −1,2. A: −1200/1000 = −1,2. D: (−3 + 2 13/25)·2,5 = (−0,48)·2,5 = −1,2. B po uproszczeniu również daje −1,2 (pierwiastek z 1,44 to 1,2). Natomiast C: −0,0012·10⁻³ = −0,0012/1000 = −0,0000012 = −1,2·10⁻⁶ — to liczba około milion razy mniejsza od −1,2, więc jako −1,2 zapisać jej się NIE da. Dlatego szukaną odpowiedzią jest C. Modele AI pomyliły się, bo odczytały wykładnik w C jako 10³ (dodatni), co dałoby −1,2; w rzeczywistości wykładnik jest ujemny (10⁻³), więc to właśnie C jest wyjątkiem."
     }
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.81,
+    "procent": 67,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q2",
@@ -92,6 +98,11 @@
      "podwojne-liczenie"
     ],
     "opis": "Po dodaniu wszystkich równań każda liczba występuje dwa razy – trzeba podzielić przez 2"
+   },
+   "trudnosc": {
+    "logit": -5.24,
+    "procent": 8,
+    "procent_etap": 9
    }
   },
   {
@@ -137,6 +148,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 2016 jest przestępny – luty ma 29 dni, co przesuwa dni tygodnia w marcu"
+   },
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 67
    }
   },
   {
@@ -175,7 +191,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ta sama liczba dzieli się przez 15 i przez 12, a ilorazy różnią się o 2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.87,
+    "procent": 31,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q5",
@@ -213,7 +234,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi i 2n wierzchołków",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.84,
+    "procent": 3,
+    "procent_etap": 3
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q6",
@@ -258,6 +284,11 @@
      "o-co-pytaja"
     ],
     "opis": "164 zł to zysk po podatku (82% odsetek); pytają o podatek, nie o odsetki"
+   },
+   "trudnosc": {
+    "logit": -0.44,
+    "procent": 44,
+    "procent_etap": 46
    }
   },
   {
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw x = −1 wprost do wyrażenia; dalej zbieraj osobno x², x i wyrazy wolne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.25,
+    "procent": 52,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q8",
@@ -322,7 +358,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zwijaj nawiasy od środka — (2−3)² i (6−7) upraszczają całą resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.8,
+    "procent": 67,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q9",
@@ -362,6 +403,11 @@
      "rysunek"
     ],
     "opis": "Klasa VIII B ma tylko pięć słupków (brak jednej oceny) – trzeba dobrze przypisać słupki do ocen"
+   },
+   "trudnosc": {
+    "logit": 2.45,
+    "procent": 72,
+    "procent_etap": 74
    }
   },
   {
@@ -397,7 +443,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "opuść wysokości z krótszej podstawy — odcinasz po 3 cm i masz trójkąt o kątach 30-60-90",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.75,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q11",
@@ -426,7 +477,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz cenę jednego litra i zużycie na jeden kilometr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.76,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q12",
@@ -459,7 +515,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z rysunku K3 leży na przeciwprostokątnej; wysokość weź jako 2·pole : przeciwprostokątna",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.65,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2020-2021_swietokrzyskie_1_q13",
@@ -501,6 +562,11 @@
      "zaokraglenie"
     ],
     "opis": "Przybliżenie do całości to zaokrąglenie, a nie obcięcie części ułamkowej"
+   },
+   "trudnosc": {
+    "logit": 2.68,
+    "procent": 74,
+    "procent_etap": 76
    }
   },
   {
@@ -542,6 +608,11 @@
      "inne:kolejnosc-wspolrzednych"
     ],
     "opis": "W zdaniu o środku odcinka współrzędne mają zamienioną kolejność – łatwo uznać za zgodne"
+   },
+   "trudnosc": {
+    "logit": 1.8,
+    "procent": 67,
+    "procent_etap": 68
    }
   },
   {
@@ -576,7 +647,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź boczna to przeciwprostokątna z wysokości i połowy przekątnej podstawy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 72
+   }
   }
  ]
 }

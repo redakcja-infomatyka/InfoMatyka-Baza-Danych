@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018-2019_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018-2019_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2018-2019_malopolskie_q1",
@@ -51,6 +52,11 @@
      "inne:stosunek-czesci-do-calosci"
     ],
     "opis": "Stosunek 2:3 dotyczy części między sobą, a nie części do całej wstążki"
+   },
+   "trudnosc": {
+    "logit": 1.06,
+    "procent": 60,
+    "procent_etap": 61
    }
   },
   {
@@ -96,6 +102,11 @@
      "kierunek-relacji"
     ],
     "opis": "Pytają o iloraz obwodu przez pole, nie pola przez obwód"
+   },
+   "trudnosc": {
+    "logit": 1.92,
+    "procent": 68,
+    "procent_etap": 69
    }
   },
   {
@@ -134,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź obie liczby do tej samej potęgi dziesiątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q4",
@@ -171,7 +187,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z jazdy rowerem w obie strony wylicz czas roweru w jedną stronę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.4,
+    "procent": 45,
+    "procent_etap": 47
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_lodzkie_q1",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q5",
@@ -216,6 +243,11 @@
      "procent-podstawa"
     ],
     "opis": "20% liczone od części, która minęła, a nie od całej doby"
+   },
+   "trudnosc": {
+    "logit": -0.56,
+    "procent": 43,
+    "procent_etap": 45
    }
   },
   {
@@ -261,6 +293,11 @@
      "jednostki"
     ],
     "opis": "Przekątna w km, druga w m, a wynik ukryty w dm; wariant w km kusi błędną zamianą jednostek"
+   },
+   "trudnosc": {
+    "logit": 0.04,
+    "procent": 50,
+    "procent_etap": 52
    }
   },
   {
@@ -299,7 +336,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw 2⁵ − 3³ i porównaj czynniki pierwsze obu liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.06,
+    "procent": 30,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q8",
@@ -335,7 +377,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Obliczamy kolejno: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>∗</mo><mn>1004</mn><mo>=</mo><mfrac><mn>1</mn><mrow><mn>0</mn><mo>−</mo><mn>1004</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>1004</mn></mfrac></math>, potem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>1004</mn></mfrac><mo>)</mo><mo>∗</mo><mn>0</mn><mo>=</mo><mo>−</mo><mn>1004</mn></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1003</mn><mo>∗</mo><mo>(</mo><mo>−</mo><mn>1004</mn><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2007</mn></mfrac></math>, a na koniec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2007</mn></mfrac><mo>∗</mo><mn>0</mn><mo>=</mo><mn>2007</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.89,
+    "procent": 83,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q9",
@@ -379,6 +426,11 @@
      "inne:proporcjonalnosc-odwrotna"
     ],
     "opis": "Dłużej wystarcza butelka = mniej pije dziennie; udziały to 1 : 1/2 : 1/3, a nie 3 : 2 : 1"
+   },
+   "trudnosc": {
+    "logit": 2.45,
+    "procent": 72,
+    "procent_etap": 74
    }
   },
   {
@@ -424,6 +476,11 @@
      "warunek-istnienia"
     ],
     "opis": "Trzy równania na ramiona dają trzy wartości m, ale jedna trójka boków łamie nierówność trójkąta"
+   },
+   "trudnosc": {
+    "logit": 4.05,
+    "procent": 84,
+    "procent_etap": 84
    }
   },
   {
@@ -468,6 +525,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczy się też pierwszy wspólny strzał; liczba odstępów to nie liczba strzałów"
+   },
+   "trudnosc": {
+    "logit": 3.13,
+    "procent": 77,
+    "procent_etap": 79
    }
   },
   {
@@ -508,7 +570,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "trójkąt ze środków boków ma połowę obwodu, a pierwiastki wystarczy oszacować między całkowitymi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.95,
+    "procent": 76,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q13",
@@ -553,6 +620,11 @@
      "warunek-istnienia"
     ],
     "opis": "Podstawa graniastosłupa ma co najmniej 3 krawędzie"
+   },
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 60
    }
   },
   {
@@ -574,7 +646,12 @@
     "rozwiazanie_ai_html": "<p>Liczba prezentów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> spełnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>−</mo><mn>4</mn></math> jest podzielne przez NWW(10,8) = 40, przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>&lt;</mo><mi>N</mi><mo>&lt;</mo><mn>200</mn></math>. Jedyna taka liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mn>164</mn></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>164</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>40</mn></math>).</p><p>Pełne zapakowanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi><mo>=</mo><mn>164</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi><mo>=</mo><mn>82</mn></math>. Rozwiązania w liczbach dodatnich: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>14</mn></math>, co daje odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>18</mn><mo>,</mo><mn>13</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>3</mn></math> – 4 sposoby.</p>",
     "punktacja_html": "<ul><li>4p – prawidłowe podanie obydwu odpowiedzi,</li><li>2p – prawidłowe podanie jednej odpowiedzi,</li><li>0p – brak odpowiedzi lub obydwie odpowiedzi błędne.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.71,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q15",
@@ -598,7 +675,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj liczbę przed i po wstawieniu zera — różnica zależy tylko od cyfry dziesiątek",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.91,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q16",
@@ -622,7 +704,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zauważ, że EB = BC, więc trójkąt EBC jest równoramienny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 82
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2024_lubuskie_q15",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018-2019_malopolskie_q17",
@@ -648,6 +741,11 @@
      "inne:liczby-vs-cyfry"
     ],
     "opis": "Liczy się cyfry 6, a nie numery stron z szóstką; 66 i 166 mają po dwie"
+   },
+   "trudnosc": {
+    "logit": 6.88,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -674,6 +772,11 @@
      "jednostki"
     ],
     "opis": "Wysokość w dm, a pole i objętość w cm² i cm³"
+   },
+   "trudnosc": {
+    "logit": 6.2,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -702,6 +805,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o dodatkowych robotników, a praca skończona 4 dni przed terminem, nie po 4 dniach"
+   },
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -722,7 +830,12 @@
     "rozwiazanie_html": "<p>Niech przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CF</mi></math> sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>. Korzystając z nierówności trójkąta otrzymujemy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>.</p><p>Ponadto z warunków zadania wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1</mn></math>.</p><p>Dodając nierówności stronami i grupując, otrzymujemy, że obwód sześciokąta jest mniejszy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>)</mo><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>6</mn></math>.</p><p>Odpowiedź: Tak, obwód sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> jest zawsze mniejszy od 6.</p>",
     "punktacja_html": "<ul><li>6p – poprawne metody oraz bezbłędne obliczenia prowadzące do rozstrzygnięcia, czy obwód sześciokąta ABCDEF jest zawsze mniejszy od 6.</li><li>5p – brak sformułowania wniosku będącego odpowiedzią na pytanie.</li><li>4p – dodanie stronami tych nierówności oraz doprowadzenie do szacowania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>&lt;</mo><mn>2</mn><mo>·</mo><mo>(</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>)</mo></math> i poprzestanie na tym.</li><li>3p – wypisanie sześciu nierówności trójkąta potrzebnych do końcowego rozstrzygnięcia i poprzestanie na tym.</li><li>2p – wypisanie 4 lub 5 poprawnych nierówności trójkąta potrzebnych do końcowego rozstrzygnięcia i poprzestanie na tym.</li><li>1p – powołanie się na potrzebę zastosowania nierówności trójkąta lub wypisanie co najwyżej 3 poprawnych nierówności trójkąta potrzebnych do końcowego rozstrzygnięcia i poprzestanie na tym.</li><li>0p – błędne rozwiązanie lub rozpatrzenie szczególnego przypadku np. sześciokąta foremnego, czy sześciokąta o wybranych długościach boków lub podanie poprawnej odpowiedzi bez obliczeń i uzasadnienia.</li></ul><p>Uwaga: Za poprawne rozwiązanie zadania inną metodą niż przedstawiona przyznajemy 6 punktów.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.15,
+    "procent": 100,
+    "procent_etap": 99
+   }
   }
  ]
 }

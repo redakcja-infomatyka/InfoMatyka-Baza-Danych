@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022_mazowieckie_q1",
@@ -54,6 +55,11 @@
      "inne:rownosc-w-nieostrej"
     ],
     "opis": "Trzeba wskazać wszystkie nierówności; w jednej z nich zachodzi dokładnie równość przy znaku ≥"
+   },
+   "trudnosc": {
+    "logit": 4.38,
+    "procent": 86,
+    "procent_etap": 80
    }
   },
   {
@@ -92,7 +98,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część łazienki sprzątają razem w ciągu jednej minuty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.74,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2022_mazowieckie_q3",
@@ -137,6 +148,11 @@
      "kwantyfikator"
     ],
     "opis": "Środkiem może być każdy z trzech punktów, a pytanie dotyczy punktu, który NIE może być X"
+   },
+   "trudnosc": {
+    "logit": 2.49,
+    "procent": 73,
+    "procent_etap": 66
    }
   },
   {
@@ -167,6 +183,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odpady to tylko szkło odcięte z kwadratowej tafli; sześciokąt jest rysunkiem na szybie, nie wycięciem"
+   },
+   "trudnosc": {
+    "logit": 2.01,
+    "procent": 69,
+    "procent_etap": 61
    }
   },
   {
@@ -190,7 +211,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "czerwonych kul nie przybyło — porównaj stosunek białych do czerwonych przed i po dołożeniu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.03,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2022_mazowieckie_q6",
@@ -212,7 +238,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "to środkowa trójkąta — porównaj podstawy i wspólną wysokość obu części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2022_mazowieckie_q7",
@@ -233,7 +264,12 @@
     "rozwiazanie_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></mrow></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math>, a obwód prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>8</mn><mi>a</mi></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> dzieli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w stosunku 5:1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Prostokąt symetryczny względem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży po drugiej stronie prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i zachodzi na prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> tylko wzdłuż odcinka na tej prostej. Obwód powstałego wielokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>′</mo><mi>C</mi><mo>′</mo><mi>D</mi><mo>′</mo><mi>A</mi><mo>′</mo><mi>BCD</mi></mrow></math> to suma boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>14</mn><mi>a</mi></mrow></math>. Zatem obwód prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>8</mn><mi>a</mi></mrow><mrow><mn>14</mn><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>7</mn></mfrac></mrow></math> obwodu wielokąta.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>analizuje zadanie wykonując rysunek pomocniczy i oznacza długości odpowiednich odcinków za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – 1p.</li><li>oblicza, jaką częścią obwodu wielokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB’C’D’A’BCD</mi></math> jest obwód prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i podaje odpowiedź – 1p.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.89,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2022_mazowieckie_q8",
@@ -252,7 +288,12 @@
     "rozwiazanie_html": "<p>W kodach typu I każdą z trzech liter (dwie na początku i jedna na końcu) można wybrać na 3 sposoby spośród S, B, K, a każdą z trzech cyfr na 3 sposoby spośród 4, 6, 8 — z powtórzeniami. Kodów typu I jest więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>6</mn></msup><mo>=</mo><mn>729</mn></mrow></math>.</p><p>W kodach typu II litery i cyfry nie mogą się powtarzać. Dwie litery spośród W, Y, Z można ustawić na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math> sposobów, a pięć różnych cyfr spośród 1, 3, 5, 7, 9 na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>120</mn></mrow></math> sposobów. Kodów typu II jest więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>120</mn><mo>=</mo><mn>720</mn></mrow></math>.</p><p>Łącznie różnych kodów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>729</mn><mo>+</mo><mn>720</mn><mo>=</mo><mn>1449</mn></mrow></math>, więc grupa może liczyć maksymalnie 1449 uczestników.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>oblicza, ile można utworzyć kodów typu I – 1p.</li><li>oblicza, ile można utworzyć kodów typu II – 1p.</li><li>oblicza, ilu maksymalnie uczestników może liczyć internetowa grupa dyskusyjna – 1p.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2022_mazowieckie_q9",
@@ -283,6 +324,11 @@
      "inne:podstawa-podwyzki"
     ],
     "opis": "Podwyżka w 4. i 5. godzinie liczona od stawki 2. i 3. godziny, nie od pierwszej"
+   },
+   "trudnosc": {
+    "logit": 5.46,
+    "procent": 91,
+    "procent_etap": 88
    }
   },
   {
@@ -306,7 +352,12 @@
     "rozwiazanie_html": "<p>Niech krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Każdy „róg” odcinamy płaszczyzną przechodzącą przez środki trzech krawędzi wychodzących z wierzchołka, więc powstaje czworościan (czerwony klocek), którego podstawą jest trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> (przekątna kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>), a trzy pozostałe ściany to trójkąty prostokątne równoramienne o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>.</p><p>Sześcian ma 8 wierzchołków, więc powstaje 8 jednakowych czerwonych klocków. Ich łączna powierzchnia to 8 trójkątów równobocznych oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></mrow></math> trójkątów prostokątnych o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>·</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac></mrow></math> każdy.</p><p>Zielony klocek ma 8 ścian w kształcie trójkąta równobocznego (przystających do podstaw czerwonych klocków) oraz 6 ścian kwadratowych o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math>.</p><p>Osiem trójkątów równobocznych występuje po obu stronach, więc wystarczy porównać powierzchnie pozostałe. Pole 4 trójkątów prostokątnych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac></mrow></math> — tyle samo, ile pole jednego kwadratu. Zatem 24 trójkąty prostokątne mają łączne pole równe 6 kwadratom. Powierzchnia wszystkich czerwonych klocków jest więc taka sama jak powierzchnia zielonego klocka — nie jest od niej większa.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>przyjmuje, że długość krawędzi sześcianu jest równa np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, oraz zauważa, że jedna ze ścian klocka powstałego po odcięciu „rogów” jest kwadratem – 1p.</li><li>ustala, ile i jakie klocki powstaną po odcięciu wszystkich „rogów” – 1p.</li><li>poprawnie zapisuje za pomocą wyrażeń powierzchnię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> czerwonych klocków i powierzchnię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> zielonego klocka oraz porównuje je – 1p.</li></ul><p>Uwaga. Jeżeli uczeń zauważy, że na łączną powierzchnię czerwonych klocków składa się taka sama liczba przystających trójkątów równobocznych co na powierzchnię zielonego klocka i w związku z tym porówna tylko pola 6 kwadratów z polem 24 trójkątów prostokątnych, to należy przyznać mu 1 punkt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.31,
+    "procent": 94,
+    "procent_etap": 92
+   }
   }
  ]
 }

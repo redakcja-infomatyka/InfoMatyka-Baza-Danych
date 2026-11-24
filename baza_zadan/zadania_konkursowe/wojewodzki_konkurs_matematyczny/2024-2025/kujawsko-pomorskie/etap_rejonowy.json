@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Obniżka o 20% i podwyżka o 10% to nie −10%, a procenty liczy się od ceny początkowej, nie od końcowej"
+   },
+   "trudnosc": {
+    "logit": -3.09,
+    "procent": 21,
+    "procent_etap": 23
    }
   },
   {
@@ -98,6 +104,11 @@
      "inne:ktory-bok-przeciwprostokatna"
     ],
     "opis": "„Dwa dłuższe boki” to przeciwprostokątna i jedna przyprostokątna, a nie dwie przyprostokątne"
+   },
+   "trudnosc": {
+    "logit": -1.83,
+    "procent": 32,
+    "procent_etap": 33
    }
   },
   {
@@ -133,7 +144,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1,5</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mfrac><mi>x</mi><mi>y</mi></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>−</mo><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mn>9</mn><mn>4</mn></mfrac></mrow></math>, iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>2</mn></mfrac></math>. Dzielenie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow></mfrac></math> to mnożenie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mn>7</mn><mn>2</mn></mfrac></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>15</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>105</mn><mn>4</mn></mfrac></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.51,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q4",
@@ -170,7 +186,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź Kasię przez Darię i wstaw do warunku na Darię — zostanie jedno proste równanie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.08,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q5",
@@ -216,6 +237,11 @@
      "zbior-liczb"
     ],
     "opis": "Rozwiązanie równania nie jest całkowite; liczenie trzycyfrowych od 100 włącznie, łatwo o jeden za mało"
+   },
+   "trudnosc": {
+    "logit": 2.24,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -253,7 +279,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wiersz 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>92</mn><mi>x</mi></mrow></math> podzielne przez 11 daje 924, więc brakująca cyfra wiersza 1 to 4. Wiersz 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>46</mn><mi>x</mi></mrow></math> podzielne przez 9 daje 468, więc brakująca cyfra wiersza 2 to 8. Kolumna 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>94</mn><mi>x</mi></mrow></math> podzielne przez 9 daje 945, więc pierwsza cyfra wiersza 3 to 5. Kolumna 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mi>x</mi></mrow></math> podzielne przez 7 daje 266, więc druga cyfra wiersza 3 to 6. Wiersz 3 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>56</mn><mi>x</mi></mrow></math>) ma być podzielny przez 5, a kolumna 3 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mi>x</mi></mrow></math>) przez 2, więc x=0. Suma wpisanych cyfr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>0</mn><mo>=</mo><mn>23</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.28,
+    "procent": 79,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q7",
@@ -291,7 +322,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Brakujący wiersz mnożenia przez cyfrę dziesiątek mnożnika oznacza, że O=0. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mn>0</mn><mi>K</mi><mo>·</mo><mi>K</mi><mo>=</mo><mi>L</mi><mn>0</mn><mi>L</mi></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>K</mi><mn>2</mn></msup><mo>=</mo><mi>L</mi></mrow></math>, czyli K=2, L=4 (K=3 daje niejednocyfrowe K·L). Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mn>0</mn><mi>K</mi><mo>·</mo><mi>L</mi><mo>=</mo><mi>P</mi><mn>0</mn><mi>P</mi></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn><mo>=</mo><mi>P</mi></mrow></math>. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>202</mn><mo>·</mo><mn>402</mn><mo>=</mo><mn>81204</mn></mrow></math>, czyli PAKOL=81204 (A=1). Suma cyfr 15 dzieli się przez 3, a końcówka 04 przez 4 — liczba jest podzielna przez 3 i 4.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.1,
+    "procent": 94,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q8",
@@ -329,7 +365,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "ścieżka to pierścień — odejmij kwadraty promieni, zanim pomnożysz przez π",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q9",
@@ -373,6 +414,11 @@
      "konwencja"
     ],
     "opis": "Okres zaczyna się dopiero po zerze na miejscu dziesiątych – mianownik to nie 99"
+   },
+   "trudnosc": {
+    "logit": -0.04,
+    "procent": 49,
+    "procent_etap": 51
    }
   },
   {
@@ -410,7 +456,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "środek to średnia współrzędnych — odbij M względem S",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.15,
+    "procent": 29,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q11",
@@ -455,6 +506,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę odwrotną do wyniku, a wśród wariantów jest liczba przeciwna"
+   },
+   "trudnosc": {
+    "logit": -1.76,
+    "procent": 32,
+    "procent_etap": 34
    }
   },
   {
@@ -500,6 +556,11 @@
      "szczegol-bryly"
     ],
     "opis": "Dane w dm², odpowiedź w metrach; powierzchnia boczna to tylko cztery ściany"
+   },
+   "trudnosc": {
+    "logit": 0.7,
+    "procent": 56,
+    "procent_etap": 57
    }
   },
   {
@@ -540,7 +601,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z kąta 225° odczytaj ukos 45° i wysokość trapezu, potem odejmij oba trapezy od kwadratu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.56,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q14",
@@ -579,7 +645,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij promień równy 1 i z warunku o obwodach wyznacz bok kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.05,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q15",
@@ -617,7 +688,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz najmniejszy kąt jako x — suma kątów trójkąta daje resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.22,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q16",
@@ -654,7 +730,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź sześcianu to przekątna kwadratu, więc przy polu pierwiastek znika; pola licz osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q17",
@@ -692,7 +773,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "grupuj sąsiednie wyrazy parami i policz, ile jest par",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2025_kujawsko-pomorskie_q18",
@@ -737,6 +823,11 @@
      "kalendarz-czas"
     ],
     "opis": "Luty 2025 ma 28 dni – liczba 2024 w treści podsuwa myśl o roku przestępnym"
+   },
+   "trudnosc": {
+    "logit": 2.77,
+    "procent": 75,
+    "procent_etap": 76
    }
   },
   {
@@ -767,7 +858,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "osobno skróć same liczby, osobno wykładniki dziesiątki; w drugim zdaniu sprowadź wszystko do potęg trójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.1,
+    "procent": 69,
+    "procent_etap": 71
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 35,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2010_podkarpackie_gim.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2010_podkarpackie_gim_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q1",
@@ -27,7 +28,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw x = 2 i zwiń wszystko do prostego równania z a",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.03,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q2",
@@ -54,6 +60,11 @@
      "procent-podstawa"
     ],
     "opis": "Zmiana podstawy procentu: skoro x to 75% y, kusi odpowiedź, że y to 125% x"
+   },
+   "trudnosc": {
+    "logit": -0.7,
+    "procent": 42,
+    "procent_etap": 35
    }
   },
   {
@@ -82,6 +93,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite: oprócz par dodatnich trzeba wypisać też pary ujemne o iloczynie 6"
+   },
+   "trudnosc": {
+    "logit": 6.1,
+    "procent": 94,
+    "procent_etap": 91
    }
   },
   {
@@ -103,7 +119,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Wystarczy pokazać, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>1</mn></mrow></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt><mo>)</mo><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><mn>15</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>. Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są wzajemnie odwrotne.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.48,
+    "procent": 44,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q5",
@@ -129,6 +150,11 @@
      "jednostki"
     ],
     "opis": "Prędkość w km/h, a zysk czasu podany w minutach: 40 minut trzeba zamienić na część godziny"
+   },
+   "trudnosc": {
+    "logit": 6.62,
+    "procent": 95,
+    "procent_etap": 93
    }
   },
   {
@@ -151,7 +177,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że 5/2 to (2/5) w potędze −1, i porównaj wykładniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q7",
@@ -171,7 +202,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Krótsza przekątna dzieli romb na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, każdy o polu równym 1 cm<sup>2</sup> (pole rombu wynosi 2 cm<sup>2</sup>). Pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>3</mn></msqrt></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mroot><mn>3</mn><mn>4</mn></mroot></mfrac></mrow></math>. Po usunięciu niewymierności z mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mroot><mn>27</mn><mn>4</mn></mroot></mrow><mrow><mroot><mn>3</mn><mn>4</mn></mroot><mo>·</mo><mroot><mn>27</mn><mn>4</mn></mroot></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mroot><mn>27</mn><mn>4</mn></mroot></mrow><mn>3</mn></mfrac></mrow></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.84,
+    "procent": 93,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q8",
@@ -193,7 +229,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "połącz P z wierzchołkami i porównaj sumę pól trzech trójkątów z polem całego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.74,
+    "procent": 75,
+    "procent_etap": 67
+   }
   },
   {
    "id": "wojewodzki_2010_podkarpackie_gim_q9",
@@ -220,6 +261,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z równania wychodzi promień półkola, a pytają o szerokość tunelu"
+   },
+   "trudnosc": {
+    "logit": 7.14,
+    "procent": 97,
+    "procent_etap": 95
    }
   }
  ]

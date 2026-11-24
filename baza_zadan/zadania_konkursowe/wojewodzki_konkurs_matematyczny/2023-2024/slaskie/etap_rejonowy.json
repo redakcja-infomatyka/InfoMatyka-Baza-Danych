@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023-2024_slaskie_q1",
@@ -37,6 +38,11 @@
      "konwencja"
     ],
     "opis": "b) kolejność działań przy dzieleniu i mnożeniu; e) 0,8% to nie 0,8"
+   },
+   "trudnosc": {
+    "logit": 9.74,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -75,7 +81,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfry jedności potęg trójki powtarzają się co 4 — sprawdź reszty wykładników z dzielenia przez 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.34,
+    "procent": 27,
+    "procent_etap": 29
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q3",
@@ -112,7 +123,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DC</mi><mo>∥</mo><mi>AB</mi></mrow></math>, kąty naprzemianległe dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ACD</mi><mo>=</mo><mo>∠</mo><mi>CAB</mi></mrow></math>, a z dwusiecznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>CAB</mi><mo>=</mo><mo>∠</mo><mi>DAC</mi></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest więc równoramienny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>DC</mi></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ACB</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mi>α</mi></mrow></math>, a z równości kątów przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ABC</mi><mo>=</mo><mn>2</mn><mi>α</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>.</p><p>Rzut ramienia na podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mfrac><mi>AD</mi><mn>2</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mn>2</mn><mi>AD</mi></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>AD</mi><mo>=</mo><mn>18</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mn>12</mn></mrow></math>, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mi>sin</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>12</mn><mo>+</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>27</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.54,
+    "procent": 92,
+    "procent_etap": 92
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q4",
@@ -149,7 +165,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień dobę na sekundy, czyli na krople, i podziel przez 20",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.05,
+    "procent": 30,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q5",
@@ -187,7 +208,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwijaj od najgłębszego pierwiastka — każdy kolejny wychodzi całkowity",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.02,
+    "procent": 50,
+    "procent_etap": 51
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q6",
@@ -232,6 +258,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Obniżka liczona od nowej, wyższej ceny: cofnięcie podwyżki o 1/3 to nie obniżka o 1/3"
+   },
+   "trudnosc": {
+    "logit": -1.95,
+    "procent": 30,
+    "procent_etap": 32
    }
   },
   {
@@ -271,7 +302,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź wysokość na najdłuższy bok — dostaniesz dwa trójkąty 30-60-90",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.17,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q8",
@@ -308,7 +344,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "prędkości 44:55 to 4:5, więc czasy mają się jak 5:4 — różnicą jest jedna część",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.75,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q9",
@@ -346,7 +387,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "okres rozwinięcia 3/7 ma 6 cyfr — potrzebna tylko reszta z dzielenia 2023 przez 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.96,
+    "procent": 40,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q10",
@@ -383,7 +429,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zegary rozjeżdżają się o 3 minuty na godzinę — z ich różnicy odczytasz, ile czasu minęło",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q11",
@@ -421,7 +472,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw wzór na liczbę przekątnych n(n−3)/2 i skróć przez n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.39,
+    "procent": 36,
+    "procent_etap": 37
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q12",
@@ -458,7 +514,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj wzoru na różnicę kwadratów zamiast rozwijać oba nawiasy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.02,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q13",
@@ -502,6 +563,11 @@
      "zbior-liczb"
     ],
     "opis": "k ma być całkowite, więc liczą się też ujemne k, przy których k+7 jest dodatnim dzielnikiem 51"
+   },
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 58
    }
   },
   {
@@ -547,6 +613,11 @@
      "inne:rozwiazanie-zerowe"
     ],
     "opis": "Zdanie IV: równanie a²+b²=0 ma rozwiązanie a=b=0, łatwo uznać je za sprzeczne"
+   },
+   "trudnosc": {
+    "logit": 5.37,
+    "procent": 91,
+    "procent_etap": 91
    }
   },
   {
@@ -591,6 +662,11 @@
      "procent-podstawa"
     ],
     "opis": "Zdanie III: ułamek liczony od k, a nie od p; różnica p−m jest 1/4 innej liczby niż podana"
+   },
+   "trudnosc": {
+    "logit": 3.91,
+    "procent": 83,
+    "procent_etap": 83
    }
   },
   {
@@ -631,7 +707,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oba trójkąty razem mają pole równe połowie kwadratu — stąd wyznaczysz jego bok",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.16,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q17",
@@ -677,6 +758,11 @@
      "o-co-pytaja"
     ],
     "opis": "Zdanie I: wyliczone 70 zł to oszczędności Kasi, a nie cena bluzki przed obniżką"
+   },
+   "trudnosc": {
+    "logit": 6.49,
+    "procent": 95,
+    "procent_etap": 95
    }
   },
   {
@@ -698,7 +784,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>EBC</mi></msub><mo>=</mo><msub><mi>P</mi><mi>AEC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mn>40</mn></mrow></math> (trójkąty mają wspólną wysokość i równe podstawy). Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>EBF</mi></msub><mo>=</mo><msub><mi>P</mi><mi>EFC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>EBC</mi></msub><mo>=</mo><mn>20</mn></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>EFO</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>EFC</mi></msub><mo>=</mo><mn>10</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>EBFO</mi></msub><mo>=</mo><msub><mi>P</mi><mi>EBF</mi></msub><mo>+</mo><msub><mi>P</mi><mi>EFO</mi></msub><mo>=</mo><mn>20</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>30</mn></mrow></math>. Odpowiedź: pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBFO</mi></math> wynosi 30.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.06,
+    "procent": 89,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q19",
@@ -724,7 +815,18 @@
      "jednostki"
     ],
     "opis": "Wymiary zbiornika podane w dm i w m; trzeba je ujednolicić, zanim policzy się pojemność w litrach"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.26,
+    "procent": 62,
+    "procent_etap": 63
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2019-2020_zachodniopomorskie_q14",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_slaskie_q20",
@@ -744,7 +846,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>), więc kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASD</mi></math> mają równe miary (oznaczmy je <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>). Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SAB</mi></math> są kątami naprzemianległymi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DC</mi><mo>∥</mo><mi>AB</mi></mrow></math>), więc też mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>SAD</mi><mo>=</mo><mo>∠</mo><mi>SAB</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math> zawiera się w dwusiecznej kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math>. Analogicznie trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>SBC</mi><mo>=</mo><mo>∠</mo><mi>BSC</mi><mo>=</mo><mo>∠</mo><mi>SBA</mi></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BS</mi></math> zawiera się w dwusiecznej kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, co należało wykazać.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.71,
+    "procent": 88,
+    "procent_etap": 88
+   }
   }
  ]
 }

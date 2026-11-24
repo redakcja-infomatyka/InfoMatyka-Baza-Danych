@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2017-2018_pomorskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2017-2018_pomorskie_q1",
@@ -35,6 +36,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 200% większa” to nie „200% liczby”: trzeba dodać 200% do całej liczby"
+   },
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 52
    }
   },
   {
@@ -63,6 +69,11 @@
      "inne:ruch-wskazowki-godzinowej"
     ],
     "opis": "Wskazówka godzinowa o 20:25 nie stoi na 8 — przesunęła się w stronę 9"
+   },
+   "trudnosc": {
+    "logit": 0.8,
+    "procent": 57,
+    "procent_etap": 58
    }
   },
   {
@@ -83,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odjęcie 4½ to to samo co odjęcie 1/5 liczby — stąd wyliczysz całą liczbę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.58,
+    "procent": 64,
+    "procent_etap": 66
+   }
   },
   {
    "id": "rejonowy_2017-2018_pomorskie_q4",
@@ -104,7 +120,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba postaci 4·p (p pierwsze) ma dokładnie pięć dzielników właściwych: 1, 2, 4, p, 2p",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.11,
+    "procent": 70,
+    "procent_etap": 71
+   }
   },
   {
    "id": "rejonowy_2017-2018_pomorskie_q5",
@@ -124,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj wszystkie trzy ważenia — dostaniesz podwojoną masę wszystkich zabawek razem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.97,
+    "procent": 15,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2017-2018_pomorskie_q6",
@@ -145,7 +171,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Bok Ani = a. Warunek Zosi: (a+10)² − a² = 600 → 20a + 100 = 600 → a = 25.</p><p>Pole Ani = 625, pole Marysi = 24² = 576. Różnica = 49.</p><p>49/625 = 0,0784 = <strong>7,84%</strong>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.8,
+    "procent": 82,
+    "procent_etap": 83
+   }
   },
   {
    "id": "rejonowy_2017-2018_pomorskie_q7",
@@ -199,6 +230,11 @@
      "znak"
     ],
     "opis": "Zdanie 6: liczba przeciwna do √3−2 — trzeba zmienić znak obu składników"
+   },
+   "trudnosc": {
+    "logit": 7.2,
+    "procent": 97,
+    "procent_etap": 97
    }
   },
   {
@@ -220,7 +256,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesunięcie przecinka o jedno miejsce w prawo to mnożenie przez 10",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.56,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2017-2018_pomorskie_q9",
@@ -244,7 +285,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pole trójkąta DEB policz na dwa sposoby: z podstawą DB i z podstawą EB",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.28,
+    "procent": 90,
+    "procent_etap": 91
+   }
   }
  ]
 }

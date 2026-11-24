@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021-2022_malopolskie_q1",
@@ -51,6 +52,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Funkcje są rozróżnialne: dziewczyna może być przewodniczącą albo zastępczynią — dwa układy, nie jeden"
+   },
+   "trudnosc": {
+    "logit": -0.59,
+    "procent": 43,
+    "procent_etap": 36
    }
   },
   {
@@ -90,7 +96,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, ile soli brakuje w samej słabszej solance i ile dokłada każdy kilogram mocniejszej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.44,
+    "procent": 44,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q3",
@@ -132,6 +143,11 @@
      "o-co-pytaja"
     ],
     "opis": "Niewiadomą naturalnie jest liczba monet Ani, a pytanie dotyczy monet 2-złotowych Bartka"
+   },
+   "trudnosc": {
+    "logit": 1.49,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -177,6 +193,11 @@
      "konwencja"
     ],
     "opis": "Liczba cyfr k·10^n: trzeba zebrać potęgę dziesiątki i sprawdzić, ile cyfr ma czynnik przed nią"
+   },
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -221,6 +242,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie liczb od 100000 do 999999 włącznie — pomyłka o jeden"
+   },
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 20
    }
   },
   {
@@ -261,7 +287,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "150° to 5/12 pełnego koła, a promień półkola jest połową promienia wycinka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.33,
+    "procent": 53,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q7",
@@ -305,6 +336,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Równanie x = −x wygląda na sprzeczne, a ma rozwiązanie x = 0"
+   },
+   "trudnosc": {
+    "logit": 1.24,
+    "procent": 61,
+    "procent_etap": 54
    }
   },
   {
@@ -347,7 +383,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt BAC = 90°, kąt ABC = 60°, więc kąt ACB = 30°.</p><p>W trójkącie 30-60-90 bok naprzeciw 30° jest połową przeciwprostokątnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mo>:</mo><mi>B</mi><mi>C</mi><mo>=</mo><mn>1</mn><mo>:</mo><mn>2</mn></math>.</p><p>Z twierdzenia o dwusiecznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>P</mi><mo>:</mo><mi>P</mi><mi>C</mi><mo>=</mo><mi>A</mi><mi>B</mi><mo>:</mo><mi>B</mi><mi>C</mi><mo>=</mo><mn>1</mn><mo>:</mo><mn>2</mn></math>, a trójkąty ABP i PBC mają wspólną wysokość z B, więc ich pola są w stosunku 1 : 2.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q9",
@@ -388,7 +429,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość wyznacz z trójkąta o bokach: krawędź boczna i połowa przekątnej podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.59,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q10",
@@ -436,6 +482,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Kwadrat iloczynu powstaje nie tylko z dubletów — łatwo pominąć pary o różnych liczbach oczek"
+   },
+   "trudnosc": {
+    "logit": 2.27,
+    "procent": 71,
+    "procent_etap": 64
    }
   },
   {
@@ -485,6 +536,11 @@
      "kwantyfikator"
     ],
     "opis": "2¼ to liczba mieszana, nie iloczyn; warunek dotyczy też liczby przeciwnej, co ogranicza zbiór z góry"
+   },
+   "trudnosc": {
+    "logit": 4.52,
+    "procent": 87,
+    "procent_etap": 82
    }
   },
   {
@@ -524,7 +580,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ściany boczne to prostokąty a×h (na obu przyprostokątnych a) oraz a√2×h (na przeciwprostokątnej). Gdyby h = a, kwadratami byłyby dwie ściany, więc jedyną ścianą-kwadratem musi być ta na przeciwprostokątnej: h = a√2.</p><p>Suma krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>2</mn><mi>a</mi><mo>+</mo><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>+</mo><mn>3</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>5</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><mo>+</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math>, stąd a = 2, h = 2√2.</p><p>Pole podstawy = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>2</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math></p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.85,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q13",
@@ -564,7 +625,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>I. Wysokość z C i symetralna AB są obie prostopadłe do AB, więc są względem siebie równoległe.</p><p>II. D leży na symetralnej AB i symetralnej AC, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>D</mi><mi>A</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>D</mi><mi>B</mi><mo>|</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>D</mi><mi>A</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>D</mi><mi>C</mi><mo>|</mo></math> — wszystkie trzy odległości są równe.</p><p>III. Symetralna AB to zbiór punktów równoodległych od A i B, więc każdy inny punkt jest bliżej jednego z nich.</p><p>Wszystkie trzy stwierdzenia są prawdziwe.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.34,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2021-2022_malopolskie_q14",
@@ -593,6 +659,11 @@
      "zbior-liczb"
     ],
     "opis": "Warunek z preambuły: p jest parzyste — łatwo o nim zapomnieć w pytaniu o resztę z dzielenia przez d"
+   },
+   "trudnosc": {
+    "logit": 8.97,
+    "procent": 99,
+    "procent_etap": 99
    }
   },
   {
@@ -624,6 +695,11 @@
      "rysunek"
     ],
     "opis": "W ułożeniu z przesunięciem co drugi rząd mieści o jeden ołówek mniej"
+   },
+   "trudnosc": {
+    "logit": 8.52,
+    "procent": 99,
+    "procent_etap": 98
    }
   },
   {
@@ -649,7 +725,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>10</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msqrt><mrow><mn>10</mn><mo>·</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>7</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>10</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2</mn></mrow></msqrt><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>.</p><p><strong>b)</strong> Ściany ABE i CDE to trójkąty równoboczne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mfrac><mrow><msup><mn>6</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>CDE</mi></msub><mo>=</mo><mfrac><mrow><msup><mn>4</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Ściany BCE i ADE mają boki 8, 6, 4; ze wzoru Herona dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mn>9</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub><mo>=</mo><msub><mi>P</mi><mi>ADE</mi></msub><mo>=</mo><msqrt><mrow><mn>9</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>15</mn></msqrt></math>. Wysokość trapezu ABCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mn>63</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mfrac><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>)</mo><mo>·</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn><msqrt><mn>7</mn></msqrt></math>. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><msqrt><mn>15</mn></msqrt><mo>+</mo><mn>15</mn><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>13</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>15</mn></msqrt><mo>+</mo><mn>15</mn><msqrt><mn>7</mn></msqrt></math>.</p><p><strong>c)</strong> Długość boku trójkąta równobocznego o obwodzie 2p to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>p</mi></mrow><mn>3</mn></mfrac></math>. Podstawiając ją do wzoru Herona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><msqrt><mrow><mi>p</mi><mo>(</mo><mi>p</mi><mo>−</mo><mfrac><mrow><mn>2</mn><mi>p</mi></mrow><mn>3</mn></mfrac><msup><mo>)</mo><mn>3</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mi>p</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mi>p</mi><mn>3</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mfrac><msup><mi>p</mi><mn>4</mn></msup><mn>27</mn></mfrac></msqrt><mo>=</mo><mfrac><mrow><msup><mi>p</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>2 punkty – obliczenie pola trójkąta za pomocą wzoru Herona.</li><li>1 punkt – poprawny sposób obliczenia pola trójkąta za pomocą wzoru Herona. Na przykład: uczeń obliczył p i poprawnie podstawia do wzoru Herona wartość p i długości boków.</li><li>0 punktów – brak rozwiązania lub rozwiązanie błędne lub podanie odpowiedzi (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt></math>) bez wykonania obliczeń.</li></ul><p><strong>Podpunkt b)</strong></p><ul><li>5 punktów – pełne rozwiązanie: obliczenie pola powierzchni całkowitej ostrosłupa (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>15</mn></msqrt><mo>+</mo><mn>15</mn><msqrt><mn>7</mn></msqrt></math>).</li><li>0 punktów – brak rozwiązania lub podanie odpowiedzi bez wykonania obliczeń.</li></ul><p>Ocenianie trzech części rozwiązania – niżej wymienione części rozwiązania oceniane są niezależnie od siebie:</p><ul><li>Trapez ABCD: 2 punkty – poprawny sposób obliczenia pola powierzchni trapezu (na przykład: uczeń podstawił znalezioną wysokość i długości podstaw do wzoru na pole trapezu); 1 punkt – poprawny sposób obliczenia wysokości trapezu (na przykład: uczeń oznaczył wysokość trapezu jako h i zapisał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup></math>).</li><li>Ściana ABE lub ściana CDE: 1 punkt – poprawny sposób obliczenia pola powierzchni ściany ABE lub ściany CDE (na przykład: uczeń podstawia długość boku trójkąta równobocznego do wzoru na jego pole).</li><li>Ściana BCE lub ściana ADE: 1 punkt – poprawny sposób obliczenia pola powierzchni ściany BCE lub ściany ADE (na przykład: uczeń obliczył p i poprawnie podstawia do wzoru Herona wartość p i długości boków).</li></ul><p><strong>Podpunkt c)</strong></p><ul><li>3 punkty – zapisanie poprawnego wyrażenia na długość boku trójkąta oraz znalezienie poprawnego wzoru na pole trójkąta równobocznego o obwodzie 2p.</li><li>2 punkty – zapisanie poprawnego wyrażenia na długość boku trójkąta oraz poprawny sposób znalezienia wzoru na pole trójkąta równobocznego o obwodzie 2p. Na przykład: uczeń zapisał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>p</mi></mrow><mn>3</mn></mfrac></math>, a następnie podstawia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>p</mi></mrow><mn>3</mn></mfrac></math> w miejsce a, b i c we wzorze Herona.</li><li>1 punkt – zapisanie poprawnego wyrażenia na długość boku trójkąta o obwodzie 2p.</li><li>0 punktów – brak odpowiedzi.</li></ul><p>Uwaga: Uczeń, który zapisał wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>p</mi></mrow><mn>3</mn></mfrac></math>, które następnie poprawnie podstawił do wzoru na pole trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> i otrzymał poprawny wzór w zależności od p, otrzymuje 3 punkty za podpunkt c).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.98,
+    "procent": 99,
+    "procent_etap": 99
+   }
   }
  ]
 }

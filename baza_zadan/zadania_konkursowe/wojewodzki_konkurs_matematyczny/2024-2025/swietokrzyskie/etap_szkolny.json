@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij oba zapisy rzymskie na składniki — CM to 900, XL to 40",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.92,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q2",
@@ -94,6 +100,11 @@
      "znak"
     ],
     "opis": "Liczenie liczb całkowitych w przedziale z ujemnym końcem: który jest pierwszy całkowity i liczenie włącznie"
+   },
+   "trudnosc": {
+    "logit": 1.48,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -139,6 +150,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dwie kolejne podwyżki procentowe nie sumują się: druga liczy się od już podniesionej ceny"
+   },
+   "trudnosc": {
+    "logit": -3.65,
+    "procent": 17,
+    "procent_etap": 20
    }
   },
   {
@@ -185,6 +201,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kąt przy podstawie trójkąta APC to tylko część kąta CAB, a jego wartość jest wśród wariantów"
+   },
+   "trudnosc": {
+    "logit": -0.26,
+    "procent": 46,
+    "procent_etap": 53
    }
   },
   {
@@ -218,7 +239,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2024</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>11</mn><mo>·</mo><mn>23</mn></mrow></math>.</p><p>(1) Ma czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup></math> i 11, więc dzieli się przez 44 — P. (2) Suma dzielników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>11</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>4320</mn></mrow></math>, to więcej niż 3800 — F. (3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>=</mo><mn>8</mn><mo>·</mo><mn>253</mn><mo>+</mo><mn>1</mn></mrow></math>, reszta 1 — P.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.14,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q6",
@@ -252,7 +278,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z proporcji wylicz najpierw oszczędności Moniki, a od nich oszczędności Eli",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.7,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q7",
@@ -290,7 +321,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz potęg — sprowadź licznik i mianownik każdego ułamka do wspólnej podstawy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.85,
+    "procent": 82,
+    "procent_etap": 89
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q8",
@@ -326,7 +362,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkie trójkąty mają wysokość równą bokowi prostokąta — liczy się tylko część podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 73
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q9",
@@ -361,7 +402,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>−</mo><mn>0</mn><mo>,</mo><mn>6</mn><mo>=</mo><mo>−</mo><mn>0</mn><mo>,</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>+</mo><mn>0</mn><mo>,</mo><mn>75</mn><mo>=</mo><mn>2</mn><mo>,</mo><mn>85</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>125</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mo>−</mo><mfrac><mn>29</mn><mn>6</mn></mfrac><mo>≈</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>83</mn></mrow></math>.</p><p>(1) ujemne: a i d — P. (2) największa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>85</mn><mo>&lt;</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>4</mn><mo>,</mo><mn>24</mn></mrow></math> — P. (3) przeciwna do c=0,125 to −0,125 — P. (4) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>2</mn><mo>,</mo><mn>85</mn><mo>+</mo><mn>0</mn><mo>,</mo><mn>125</mn><mo>=</mo><mn>2</mn><mo>,</mo><mn>975</mn></mrow></math> — P.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.76,
+    "procent": 96,
+    "procent_etap": 98
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q10",
@@ -396,7 +442,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnicę cen płaszcza i koszulki odczytasz wprost z treści, a podwyżkę licz od całej sumy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.1,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q11",
@@ -417,7 +468,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> będzie dowolną liczbą naturalną. Pięć kolejnych liczb naturalnych parzystych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>8</mn></mrow></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>10</mn><mi>n</mi><mo>+</mo><mn>20</mn><mo>=</mo><mn>10</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>. Jest to iloczyn liczby 10 i liczby naturalnej, więc suma jest podzielna przez 10.</p>",
     "punktacja_html": "<p>Częściowo: 1 pkt za poprawny zapis pięciu kolejnych liczb parzystych; 1 pkt za zapis ich sumy; 1 pkt za przekształcenie do postaci 10(n+2) i uzasadnienie.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q12",
@@ -444,6 +500,11 @@
      "procent-podstawa"
     ],
     "opis": "„O ile procent mniejsza” — różnica odniesiona do ceny mazaków, a nie stosunek cen ani różnica do ceny zeszytu"
+   },
+   "trudnosc": {
+    "logit": 2.78,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -465,7 +526,12 @@
     "rozwiazanie_html": "<p>Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mi>a</mi><mo>−</mo><mn>662</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>b</mi><mo>+</mo><mn>662</mn></mrow></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math> (iloraz 15 i reszta 4). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>662</mn><mo>=</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>b</mi><mo>=</mo><mn>658</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>47</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>47</mn><mo>+</mo><mn>662</mn><mo>=</mo><mn>709</mn></mrow></math>. Iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>709</mn><mo>·</mo><mn>47</mn><mo>=</mo><mn>33323</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Częściowo: po 1 pkt za ułożenie równania, poprawną metodę rozwiązania, obliczenie liczby a (709), obliczenie liczby b (47) oraz obliczenie iloczynu (33323).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.42,
+    "procent": 72,
+    "procent_etap": 79
+   }
   },
   {
    "id": "szkolny_2024-2025_swietokrzyskie_q14",
@@ -485,7 +551,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cyfrę jedności szukanej liczby; wtedy cyfra dziesiątek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>−</mo><mi>x</mi></mrow></math>, a sama liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>9</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>10</mn><mo>+</mo><mi>x</mi></mrow></math>. Liczba po przestawieniu cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mn>10</mn><mo>+</mo><mo>(</mo><mn>9</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>9</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>10</mn><mo>+</mo><mi>x</mi><mo>−</mo><mn>9</mn><mo>=</mo><mi>x</mi><mo>·</mo><mn>10</mn><mo>+</mo><mo>(</mo><mn>9</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>−</mo><mn>10</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>−</mo><mn>9</mn><mo>=</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>−</mo><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>18</mn><mi>x</mi><mo>=</mo><mo>−</mo><mn>72</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math>. Zatem cyfra jedności to 4, a cyfra dziesiątek to 5 — szukana liczba to 54, a po przestawieniu cyfr 45.</p>",
     "punktacja_html": "<p>Częściowo: po 1 pkt za zapis liczby za pomocą jednej niewiadomej, ułożenie równania, poprawne rozwiązanie równania oraz podanie liczb (54 i 45) i odpowiedzi.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.51,
+    "procent": 34,
+    "procent_etap": 41
+   }
   }
  ]
 }

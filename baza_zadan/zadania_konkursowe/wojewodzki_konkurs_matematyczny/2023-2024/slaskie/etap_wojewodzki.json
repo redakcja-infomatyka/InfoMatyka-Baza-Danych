@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023-2024_slaskie_q1",
@@ -30,7 +31,12 @@
     "rozwiazanie_html": "<p>Kolejne hasła krzyżówki: <strong>1)</strong> SYMETRALNA, <strong>2)</strong> ROMB, <strong>3)</strong> TRÓJKĄT, <strong>4)</strong> ODJEMNA, <strong>5)</strong> OKRĄG, <strong>6)</strong> KĄT, <strong>7)</strong> PRZEKĄTNA, <strong>8)</strong> OSTROSŁUP, <strong>9)</strong> MEDIANA, <strong>10)</strong> DZIELNIK, <strong>11)</strong> PROCENT, <strong>12)</strong> PÓŁPROSTA, <strong>13)</strong> PIERŚCIEŃ KOŁOWY, <strong>14)</strong> STOPIEŃ, <strong>15)</strong> PROSTOPADŁOŚĆ, <strong>16)</strong> ODCINEK, <strong>17)</strong> PROMIEŃ, <strong>18)</strong> WIERZCHOŁEK, <strong>19)</strong> POTĘGA, <strong>20)</strong> KOŁO. Litery z zacieniowanej kolumny czytane z góry na dół tworzą hasło (nieoceniane): TRÓJKĄT SIERPIŃSKIEGO.</p>",
     "punktacja_html": "<p>Za każde poprawnie uzupełnione pole przyznaje się 1 punkt (łącznie 20 pkt).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 9.26,
+    "procent": 100,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q2",
@@ -74,6 +80,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Przy powtórzonej cyfrze (1,1,6) liczba przestawień jest mniejsza niż przy trzech różnych cyfrach"
+   },
+   "trudnosc": {
+    "logit": 1.01,
+    "procent": 59,
+    "procent_etap": 52
    }
   },
   {
@@ -112,7 +123,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kwadrat musi mieć bok równy krótszemu bokowi kartki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.62,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q4",
@@ -149,7 +165,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ilu jednostkom stosunku odpowiada najmniejsza kwota",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.28,
+    "procent": 12,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q5",
@@ -187,7 +208,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pomnóż licznik przez licznik i mianownik przez mianownik — wyjdą różnice kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.97,
+    "procent": 5,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q6",
@@ -232,6 +258,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zmian procentowych czynników się nie dodaje, tylko mnoży"
+   },
+   "trudnosc": {
+    "logit": -3.58,
+    "procent": 17,
+    "procent_etap": 13
    }
   },
   {
@@ -270,7 +301,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sąsiednie kąty równoległoboku dają 180°, a różnicę już znasz",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.97,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q8",
@@ -308,7 +344,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wiek Jasia i Asi zapisz przez wiek Basi i zsumuj",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.78,
+    "procent": 6,
+    "procent_etap": 4
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_slaskie_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q9",
@@ -347,7 +394,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w trójkącie prostokątnym równoramiennym ta odległość to połowa przeciwprostokątnej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.21,
+    "procent": 28,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q10",
@@ -385,7 +437,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczbę krawędzi i liczbę ścian zapisz przez liczbę boków podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.97,
+    "procent": 22,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q11",
@@ -422,7 +479,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz znaki osobno dla setek, dziesiątek i jedności każdej liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.29,
+    "procent": 52,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q12",
@@ -466,6 +528,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kto jest dwa razy droższy: łatwo odwrócić relację między ceną ołówka i długopisu"
+   },
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 34
    }
   },
   {
@@ -510,6 +577,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie spotkań włącznie z chwilą startu i chwilą końca treningu"
+   },
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 48
    }
   },
   {
@@ -547,7 +619,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż W na iloczyn dwóch czynników i popatrz na ich ostatnie cyfry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.18,
+    "procent": 84,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q15",
@@ -590,6 +667,11 @@
      "szczegol-bryly"
     ],
     "opis": "Wierzchołek ostrosłupa leży na górze drugiego sześcianu, więc wysokość to dwie krawędzie, a nie jedna"
+   },
+   "trudnosc": {
+    "logit": 6.85,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -628,7 +710,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz sumy, nie pojedyncze liczby; w zdaniu III wystarczy porównać same średnie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.09,
+    "procent": 84,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q17",
@@ -666,7 +753,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></math>. Dorysowany trójkąt ma przyprostokątną równą a (wysokość trapezu) i kąt 60° przy dłuższej podstawie, więc druga przyprostokątna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math>, a przeciwprostokątna (dłuższe ramię) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>I. Pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>6</mn></msqrt></math>. Fałsz.</p><p>II. Najdłuższy bok to dłuższa podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></math>. Prawda.</p><p>III. Obwód to suma czterech boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></math>. Fałsz.</p><p>IV. Dłuższe ramię (przeciwprostokątna trójkąta) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>, zgodnie z obliczeniem powyżej. Prawda.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.5,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q18",
@@ -685,7 +777,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Kolejne liczby oznaczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>12</mn></math>. Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>+</mo><mn>384</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math>. Zatem kolejne liczby to 30, 26, 22, 18, a ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>96</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.48,
+    "procent": 54,
+    "procent_etap": 47
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_slaskie_q18",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q19",
@@ -706,7 +809,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Z twierdzenia Pitagorasa w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>20</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>10</mn><msqrt><mn>5</mn></msqrt></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest wysokością trójkąta opuszczoną na przeciwprostokątną, więc z porównania pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>5</mn></msqrt><mo>·</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>−</mo><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>10</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></math>. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mo>=</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.94,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2023-2024_slaskie_q20",
@@ -733,6 +841,11 @@
      "procent-podstawa"
     ],
     "opis": "Wzrost procentowy liczy się względem starej produkcji dziennej, nie nowej"
+   },
+   "trudnosc": {
+    "logit": 1.38,
+    "procent": 63,
+    "procent_etap": 55
    }
   }
  ]

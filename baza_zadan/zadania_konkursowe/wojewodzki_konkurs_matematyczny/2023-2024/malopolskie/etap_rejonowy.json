@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023-2024_malopolskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na ostatnie cyfry — one powtarzają się co 4 potęgi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.02,
+    "procent": 50,
+    "procent_etap": 51
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij, że AB ma 25 jednostek — wtedy oba podziały wyjdą całkowite",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.06,
+    "procent": 49,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wymierne są tylko pierwiastki z kwadratów — policz je i odejmij od 360",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 49
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q4",
@@ -155,7 +171,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trzy proste — dwie równoległe i jedna do nich prostopadła — nie tworzą żadnego kąta ostrego. Czwarta prosta, nierównoległa i nieprostopadła do żadnej z pozostałych trzech, przecina każdą z nich pod kątem ostrym: to 3 przecięcia, a każde daje po 2 kąty ostre (wierzchołkowe) — mniej się nie da uzyskać, bo dowolna prosta „skośna” względem układu innych kierunków rodzi kąt ostry z każdą z nich. Najmniej kątów ostrych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.84,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q5",
@@ -192,7 +213,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź wszystkie trzy składniki do tej samej potęgi 10⁻⁶ i dopiero dodaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.15,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q6",
@@ -230,7 +256,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz √2 przed nawias w √6 − √2 i zestaw to z zapisem różnicy dla krawędzi a",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.56,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q7",
@@ -268,7 +299,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że BCDE to równoległobok, a trójkąt ma z nim wspólną wysokość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.61,
+    "procent": 65,
+    "procent_etap": 67
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q8",
@@ -307,7 +343,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "punkt D leży symetrycznie do B względem (0,0), a dwa boki są pionowe — policz pole na dwa sposoby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.42,
+    "procent": 86,
+    "procent_etap": 87
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q9",
@@ -350,7 +391,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie, w jakim trójkącie iloczyn dwóch boków równa się najdłuższemu razy wysokość",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.73,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q10",
@@ -392,7 +438,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkich ptaków jest kwadrat liczby przewodów — szukaj kwadratu między 20 a 60",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.32,
+    "procent": 79,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q11",
@@ -434,7 +485,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pogrupuj licznik: a⁵ + a³ to a³(a² + 1)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.03,
+    "procent": 50,
+    "procent_etap": 51
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q12",
@@ -483,6 +539,11 @@
      "o-co-pytaja"
     ],
     "opis": "Równanie naturalnie daje liczbę wszystkich strzałów, a pytają tylko o strzały za 4 punkty"
+   },
+   "trudnosc": {
+    "logit": 4.23,
+    "procent": 85,
+    "procent_etap": 85
    }
   },
   {
@@ -531,6 +592,11 @@
      "jednostki"
     ],
     "opis": "Każdy wymiar w innej jednostce (km, m, dm), a skala liniowa 1:500 zmniejsza objętość 500³ razy"
+   },
+   "trudnosc": {
+    "logit": 6.7,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -572,7 +638,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech x — wiek najstarszego syna; ojciec ma wtedy 3x lat, więc 4x + młodszy + średni = 78. Dobierając liczby pierwsze (młodszy &lt; 10, średni &gt; 10) tak, by 4x wyszło całkowite, a 3x nieparzyste, pasuje młodszy = 7, średni = 11: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>78</mn><mo>−</mo><mn>7</mn><mo>−</mo><mn>11</mn><mo>=</mo><mn>60</mn></math>, więc x = 15, a ojciec ma 3·15 = 45 lat (nieparzyste — zgadza się). Synowie razem: 78 − 45 = 33 lat. Po t latach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>33</mn><mo>+</mo><mn>3</mn><mi>t</mi></math>, skąd t = 6.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 88
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2026_lubuskie_q2",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q15",
@@ -614,7 +691,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj obwody wszystkich trzech trójkątów i sprawdź, ile razy powtórzy się przekątna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.17,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2023-2024_malopolskie_q16",
@@ -656,7 +738,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "punkt P leży na okręgu opisanym na prostokącie — skorzystaj z twierdzenia Talesa dla przekątnych",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.13,
+    "procent": 99,
+    "procent_etap": 99
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2018_opolskie_q1",
@@ -47,6 +48,11 @@
      "kierunek-relacji"
     ],
     "opis": "„4 razy młodsza” dotyczy chwili sprzed czterech lat, więc wiek taty wyliczony z tej relacji nie jest jego wiekiem dziś"
+   },
+   "trudnosc": {
+    "logit": -1.19,
+    "procent": 38,
+    "procent_etap": 39
    }
   },
   {
@@ -89,6 +95,11 @@
      "kwantyfikator"
     ],
     "opis": "„dwie liczby parzyste” odnosi się do jednej pary; pary (15,210) i (30,105) razem mają dwie liczby parzyste"
+   },
+   "trudnosc": {
+    "logit": 3.37,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -130,6 +141,11 @@
      "znak"
     ],
     "opis": "−3² to nie (−3)²; przy liczbach ujemnych ta o mniejszej wartości bezwzględnej jest większa"
+   },
+   "trudnosc": {
+    "logit": 1.96,
+    "procent": 68,
+    "procent_etap": 70
    }
   },
   {
@@ -171,6 +187,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówka godzinowa przesuwa się razem z upływem minut i o 14:20 nie stoi już dokładnie na 2"
+   },
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 78
    }
   },
   {
@@ -211,6 +232,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kąt 36° pojawia się w rachunku jako połowa kąta przy podstawie, ale sam nie jest kątem trapezu"
+   },
+   "trudnosc": {
+    "logit": 6.21,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -234,7 +260,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przyjmij, że w skrzyni jest 35 części – wtedy oba ułamki staną się całkowitą liczbą części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 52,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2018_opolskie_q7",
@@ -257,7 +288,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy bok to suma dwóch promieni – dodaj trzy równania stronami",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.78,
+    "procent": 57,
+    "procent_etap": 58
+   }
   },
   {
    "id": "rejonowy_2018_opolskie_q8",
@@ -277,7 +313,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz masę czystego octu w gotowych 2 kg – tyle samo octu było w mocniejszym roztworze",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.99,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2018_opolskie_q9",
@@ -297,7 +338,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "obaj jadą tak samo szybko, więc drogę, która została po samotnym starcie, dzielą po połowie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.07,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2018_opolskie_q10",
@@ -327,6 +373,11 @@
      "o-co-pytaja"
     ],
     "opis": "Ogrodzenie dotyczy nowej, powiększonej działki, a nie początkowego kwadratu"
+   },
+   "trudnosc": {
+    "logit": -1.39,
+    "procent": 36,
+    "procent_etap": 37
    }
   },
   {
@@ -346,7 +397,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Wśród liczb 1, 2, 3, 4, 5 są trzy liczby nieparzyste (1, 3, 5) i dwie parzyste (2, 4). Iloczyn pięciu sum jest nieparzysty tylko wtedy, gdy każda z tych sum jest nieparzysta, a suma dwóch liczb jest nieparzysta tylko wtedy, gdy jeden składnik jest parzysty, a drugi nieparzysty. Na każdej stronie kartek są jednak tylko dwie liczby parzyste, a nieparzystych — trzy. Zatem co najmniej jednej z trzech nieparzystych liczb z jednej strony musi odpowiadać liczba nieparzysta z drugiej strony (bo parzystych jest tylko dwie). Na takiej kartce suma dwóch liczb nieparzystych jest parzysta, więc cały iloczyn jest parzysty. Odpowiedź: wynik nie może być liczbą nieparzystą — zawsze jest parzysty.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.34,
+    "procent": 94,
+    "procent_etap": 95
+   }
   }
  ]
 }

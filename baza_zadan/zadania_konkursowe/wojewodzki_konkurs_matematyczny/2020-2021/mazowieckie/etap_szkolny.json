@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2020_mazowieckie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, na jakie cyfry kończą się kwadraty liczb od 0 do 9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2020_mazowieckie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pogrupuj składniki w pary dające okrągłe wyniki: trzecie z trzecimi, dziesiętne z dziesiętnymi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.39,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2020_mazowieckie_q3",
@@ -120,6 +131,11 @@
      "inne:definicja-rownoramiennego"
     ],
     "opis": "Podstawa ograniczona nierównością trójkąta; trójkąt równoboczny też jest równoramienny"
+   },
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 52,
+    "procent_etap": 60
    }
   },
   {
@@ -146,6 +162,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dziesięć liter to wszystkie cyfry, ale zero nie może trafić do mianownika ani do Z"
+   },
+   "trudnosc": {
+    "logit": 6.82,
+    "procent": 96,
+    "procent_etap": 98
    }
   },
   {
@@ -172,6 +193,11 @@
      "procent-podstawa"
     ],
     "opis": "Kolejne obniżki liczone od coraz niższej ceny, nie sumują się"
+   },
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
    }
   },
   {
@@ -193,7 +219,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oznacz pierwszą liczbę przez a — pozostałe to a+1, a+2, a+3, bo ułamek jest ten sam",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.26,
+    "procent": 62,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2020_mazowieckie_q7",
@@ -214,7 +245,12 @@
     "rozwiazanie_html": "<p>Jednostką na osi czasu jest 5 minut, a na osi prędkości 5 km/h.</p><p>Droga do przystanku (15 minut = 0,25 h z prędkością 50 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mn>0,25</mn><mo>·</mo><mn>50</mn><mo>=</mo><mn>12,5</mn></math> km. Następnie 10 minut oczekiwania na autobus.</p><p>Droga autobusem (65 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>12</mn></mfrac></math> h z prędkością 60 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>65</mn></math> km.</p><p>Droga pieszo do domu babci (20 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h z prędkością 5 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>1,(6)</mn></math> km.</p><p>Łączna długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>12,5</mn><mo>+</mo><mn>65</mn><mo>+</mo><mn>1,(6)</mn><mo>≈</mo><mn>79</mn></math> km. Odpowiedź: Ada pokonała około 79 km.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za poprawną interpretację danych z wykresu; 1 pkt za obliczenie długości trasy i podanie odpowiedzi.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.59,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2020_mazowieckie_q8",
@@ -235,7 +271,12 @@
     "rozwiazanie_html": "<p>Poprowadźmy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>; jest ona jednocześnie wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math>.</p><p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mi>h</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>1,2</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>0,2</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,2</mn><mo>·</mo><msub><mi>P</mi><mi>BCD</mi></msub></math>.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest połową pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mn>0,5</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>0,1</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></math>. Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest 10 razy mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za rysunek i zauważenie wspólnej wysokości trójkątów; 1 pkt za uzasadnienie zależności między polami trójkątów KDC i BCD; 1 pkt za podanie i uzasadnienie odpowiedzi.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.99,
+    "procent": 89,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2020_mazowieckie_q9",
@@ -262,6 +303,11 @@
      "warunek-istnienia"
     ],
     "opis": "Pytanie zakłada zwycięzcę, a układ daje niecałkowitą liczbę głosów — trzeba to zauważyć"
+   },
+   "trudnosc": {
+    "logit": 8.13,
+    "procent": 99,
+    "procent_etap": 100
    }
   },
   {
@@ -290,6 +336,11 @@
      "szczegol-bryly"
     ],
     "opis": "Tunele krzyżują się w środku — ścianki wewnętrzne liczone bez wspólnej kostki i bez otworów"
+   },
+   "trudnosc": {
+    "logit": 8.24,
+    "procent": 99,
+    "procent_etap": 100
    }
   }
  ]

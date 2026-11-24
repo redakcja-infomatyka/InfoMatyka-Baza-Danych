@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 45,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2011_podlaskie_gim.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2011_podlaskie_gim_q1",
@@ -51,6 +52,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Odcinek kojarzy się z jedną osią (symetralną), a prosta go zawierająca też jest osią"
+   },
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij, że żetonów jest łącznie 30, i porównaj obie trójki liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q3",
@@ -123,7 +134,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Trzeba wyrównać liczbę kul białych i czarnych. Start: 5 białych, 8 czarnych. Zabranie 3 czarnych: 5 i 5 → P=5/10=1/2 (C). Uwaga: dodanie 3 białych (B) też daje 8 i 8 → 8/16=1/2, więc B również jest poprawne — pytanie ma dwie poprawne odpowiedzi.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.36,
+    "procent": 27,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q4",
@@ -161,7 +177,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątne z jednego wierzchołka dzielą kąt wewnętrzny na trzy równe części",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.27,
+    "procent": 46,
+    "procent_etap": 39
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q5",
@@ -198,7 +219,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dla każdej odpowiedzi znajdź sąsiednie liczby pierwsze i sprawdź ich średnią",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 54
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q6",
@@ -235,7 +261,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt prosty w przekroju osiowym oznacza h = r, więc objętość to ⅓πr³",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.11,
+    "procent": 70,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q7",
@@ -277,6 +308,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Promień 3 razy krótszy nie zmniejsza objętości 3 razy — objętość zależy od sześcianu promienia"
+   },
+   "trudnosc": {
+    "logit": 1.37,
+    "procent": 63,
+    "procent_etap": 55
    }
   },
   {
@@ -314,7 +350,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloczyn liczby maszynistek i liczby dni jest stały",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q9",
@@ -351,7 +392,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz 3∗5 z definicji, a potem zapisz 2∗x tym samym wzorem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.98,
+    "procent": 22,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q10",
@@ -397,6 +443,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o odległość od równika, a nie o drogę przebytą przez statek"
+   },
+   "trudnosc": {
+    "logit": 0.9,
+    "procent": 58,
+    "procent_etap": 51
    }
   },
   {
@@ -442,7 +493,18 @@
      "zbior-liczb"
     ],
     "opis": "Dwie ostatnie cyfry mogą być równe i mogą być zerami — nie zakładać cyfr różnych"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2015_podlaskie_gim_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q12",
@@ -485,6 +547,11 @@
      "zbior-liczb"
     ],
     "opis": "Minus przed całym ułamkiem zmienia znak współczynnika; „nieujemna” obejmuje zero"
+   },
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 55
    }
   },
   {
@@ -529,7 +596,18 @@
      "plot-i-slupki"
     ],
     "opis": "Okres ciągu 1234321… to 6, a nie 7 — skrajna jedynka jest wspólna dla sąsiednich okresów"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.14,
+    "procent": 60,
+    "procent_etap": 53
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2023_lubuskie_q27",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q14",
@@ -547,7 +625,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Liczba 8a06 · b = c4754. Cyfra jedności 6·b kończy się na 4 → b=4 lub 9. Sprawdzenie: 8306·9 = 74754, więc a=3, b=9, c=7 (b=4 nie daje rozwiązania całkowitego dla a).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q15",
@@ -569,7 +652,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "modele mają tę samą objętość, więc różnica 50 klocków to V/2 − V/3",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.4,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q16",
@@ -609,6 +697,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dołożenie kuli danego koloru nie musi zwiększyć szansy jej wylosowania"
+   },
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -629,7 +722,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>W równoległoboku kąty przy tym samym boku sumują się do 180°. Dwusieczne dwóch sąsiednich kątów tworzą z bokiem kąty będące ich połowami, których suma to 90°, więc w trójkącie kąt między dwusiecznymi = 180°−90° = 90°. Każdy z czterech kątów powstałego czworokąta jest prosty, zatem jest to prostokąt.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.21,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q18",
@@ -650,7 +748,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Rozwijamy cztery ściany boczne na płaszczyznę: pas o wymiarach 4a (poziomo) × a (pionowo). Punkty A i A′ leżą na przeciwległych końcach pasa. Najkrótsza droga to przekątna: √((4a)² + a²) = √(17a²) = a√17.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.17,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q19",
@@ -670,7 +773,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Punkty przecięcia z osiami: A=(6,0), B=(0,3). Trójkąt prostokątny AOB o przyprostokątnych 6 i 3. Pole = ½·6·3 = 9, AB = √(36+9) = 3√5. Wysokość z O: h = 2·9/(3√5) = 6/√5 = 6√5/5.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.41,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2011_podlaskie_gim_q20",
@@ -699,6 +807,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Liczby całkowite — trzeba uwzględnić pary z liczbami ujemnymi"
+   },
+   "trudnosc": {
+    "logit": 7.19,
+    "procent": 97,
+    "procent_etap": 95
    }
   }
  ]

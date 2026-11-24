@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 32,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2012-2013_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2012-2013_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2012-2013_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz mecze w jednej czterozespołowej grupie, a potem pomnóż przez liczbę grup",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.13,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q2",
@@ -89,6 +95,11 @@
      "kierunek-relacji"
     ],
     "opis": "„trzy razy mniej z zagranicy” – liczy się najpierw mniejszą część, a pytają o widzów z Polski"
+   },
+   "trudnosc": {
+    "logit": -6.09,
+    "procent": 5,
+    "procent_etap": 6
    }
   },
   {
@@ -135,6 +146,11 @@
      "plot-i-slupki"
     ],
     "opis": "Pytają, ile osób w sumie wiedziało: trzeba liczyć wszystkie fale i samego Wojtka"
+   },
+   "trudnosc": {
+    "logit": 2.49,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -181,6 +197,11 @@
      "kalendarz-czas"
     ],
     "opis": "„Pełnych tygodni” oznacza część całkowitą ilorazu, nie zaokrąglenie"
+   },
+   "trudnosc": {
+    "logit": 5.86,
+    "procent": 93,
+    "procent_etap": 96
    }
   },
   {
@@ -225,6 +246,11 @@
      "konwencja"
     ],
     "opis": "6. dekada XX wieku to nie lata sześćdziesiąte; dekady liczy się jak stulecia"
+   },
+   "trudnosc": {
+    "logit": -0.58,
+    "procent": 43,
+    "procent_etap": 50
    }
   },
   {
@@ -263,7 +289,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Łącząc wierzchołki kwadratu ze środkami przeciwległych boków (jak na rysunku), otrzymujemy pośrodku kwadrat, którego pole stanowi zawsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> pola kwadratu wyjściowego - to klasyczna własność tej konstrukcji (sąsiednie odcinki są prostopadłe i dzielą się w stosunku 2:2:1). Pole małego kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></mrow></math> cm², więc pole dużego kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>80</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.72,
+    "procent": 88,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q7",
@@ -300,7 +331,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj liter, które mają oś i pionową, i poziomą — przejrzyj nazwy litera po literze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 79
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q8",
@@ -337,7 +373,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofnij trzy odbicia, za każdym razem mnożąc przez 5/4 — skracaj, zanim pomnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.08,
+    "procent": 50,
+    "procent_etap": 57
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q9",
@@ -384,6 +425,11 @@
      "o-co-pytaja"
     ],
     "opis": "Szuka się zdania fałszywego; „dokładnie 28 okrążeń” wygląda na poprawne przybliżenie"
+   },
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 72
    }
   },
   {
@@ -421,7 +467,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw podziel przez 5, dopiero potem mnóż przez 9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.14,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q11",
@@ -465,6 +516,11 @@
      "jednostki"
     ],
     "opis": "Wynik wychodzi w minutach, a odpowiedzi są w ułamkach godziny"
+   },
+   "trudnosc": {
+    "logit": -1.81,
+    "procent": 32,
+    "procent_etap": 37
    }
   },
   {
@@ -508,6 +564,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kurs kupna i kurs sprzedaży są różne, więc zysku w euro nie można przeliczyć po jednym kursie"
+   },
+   "trudnosc": {
+    "logit": 0.15,
+    "procent": 51,
+    "procent_etap": 58
    }
   },
   {
@@ -553,6 +614,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba ma być parzysta i podzielna przez 3, więc wielokrotność 3 nie wystarcza"
+   },
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 52
    }
   },
   {
@@ -598,6 +664,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Klasyczna pułapka typu „kij i piłka”: różnica cen to nie cena jednego przedmiotu"
+   },
+   "trudnosc": {
+    "logit": -4.78,
+    "procent": 10,
+    "procent_etap": 11
    }
   },
   {
@@ -636,7 +707,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kąt od pełnych godzin, a potem dolicz przesunięcie wskazówki godzinowej — 0,5° na minutę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.62,
+    "procent": 56,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q16",
@@ -683,6 +759,11 @@
      "jednostki"
     ],
     "opis": "Skala 1:1000 dotyczy długości, pole zmniejsza się w kwadracie skali"
+   },
+   "trudnosc": {
+    "logit": -0.6,
+    "procent": 43,
+    "procent_etap": 49
    }
   },
   {
@@ -721,7 +802,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zdejmij pomalowaną warstwę z każdej strony — w środku zostaje mniejszy sześcian",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.76,
+    "procent": 24,
+    "procent_etap": 28
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q18",
@@ -742,7 +828,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz staż literą i zapisz równanie: stan za rok równa się 3 razy stan sprzed 7 lat",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.41,
+    "procent": 27,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q19",
@@ -765,7 +856,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z miasta B wyznacz zagęszczenie na 1 m² i przenieś je na pole trójkąta — liczby wychodzą okrągło",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2012-2013_malopolskie_q20",
@@ -785,7 +881,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "ktoś musiał być ostatni — sprawdź, kto w ogóle to o sobie mówi, i zacznij od niego",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 77
+   }
   }
  ]
 }

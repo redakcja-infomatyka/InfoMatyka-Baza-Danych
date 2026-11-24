@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q1",
@@ -51,6 +52,11 @@
      "inne:nierownosc-ostra"
     ],
     "opis": "Jedna z liczb po skróceniu leży dokładnie na granicy przedziału, a nierówność jest ostra"
+   },
+   "trudnosc": {
+    "logit": -2.3,
+    "procent": 28,
+    "procent_etap": 29
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw wartości po kolei i uważaj na znak przy −xy, bo x jest ujemne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.13,
+    "procent": 38,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q3",
@@ -133,6 +144,11 @@
      "kalendarz-czas"
     ],
     "opis": "Przejście p.n.e. → n.e.: nie było roku zerowego"
+   },
+   "trudnosc": {
+    "logit": 3.46,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -178,6 +194,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalnie oznacza się liczbę osób w pierwszej sali, a pytają o drugą"
+   },
+   "trudnosc": {
+    "logit": -2.04,
+    "procent": 30,
+    "procent_etap": 32
    }
   },
   {
@@ -226,6 +247,11 @@
      "konwencja"
     ],
     "opis": "Wynik wychodzi w ułamku dziesiętnym godziny; część dziesiętna to nie minuty"
+   },
+   "trudnosc": {
+    "logit": -0.87,
+    "procent": 40,
+    "procent_etap": 42
    }
   },
   {
@@ -264,7 +290,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj liczby od końców — zamiast sumować osiem liczb, uśrednij środki czterech par",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.09,
+    "procent": 48,
+    "procent_etap": 50
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q7",
@@ -310,6 +341,11 @@
      "o-co-pytaja"
     ],
     "opis": "\"Spotkają się jeszcze\" — spotkania 1 kwietnia nie liczymy"
+   },
+   "trudnosc": {
+    "logit": 4.0,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -347,7 +383,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw 5/2 raz jako x, raz jako y i sprawdź, które podstawienie pasuje do obu równań",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.31,
+    "procent": 46,
+    "procent_etap": 48
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q9",
@@ -391,6 +432,11 @@
      "warunek-istnienia"
     ],
     "opis": "NWD ma być dokładnie 7: po podzieleniu przez 7 liczby muszą być względnie pierwsze"
+   },
+   "trudnosc": {
+    "logit": 1.94,
+    "procent": 68,
+    "procent_etap": 69
    }
   },
   {
@@ -428,7 +474,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W każdym kółku liczba na górze to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>P</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mi>L</mi><mo>·</mo><mi>P</mi></math>, gdzie L, P to dolne liczby. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>31</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>36</mn></math>.</p><p>Dla 5 i 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>6</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>25</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>55</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q11",
@@ -473,6 +524,11 @@
      "o-co-pytaja"
     ],
     "opis": "Chodzi o sumę obu przekątnych i wszystkich trzech wysokości, nie o jedną przekątną"
+   },
+   "trudnosc": {
+    "logit": 5.98,
+    "procent": 93,
+    "procent_etap": 94
    }
   },
   {
@@ -511,7 +567,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz krawędzie, ściany i wierzchołki ostrosłupa o podstawie dziesięciokąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q13",
@@ -555,6 +616,11 @@
      "kwantyfikator"
     ],
     "opis": "Gwarancja: najgorszy przypadek to najpierw wszystkie planety skaliste, a potrzeba dwóch olbrzymów"
+   },
+   "trudnosc": {
+    "logit": -0.92,
+    "procent": 40,
+    "procent_etap": 42
    }
   },
   {
@@ -591,7 +657,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź potęgi do podstawy 4 i wyłącz wspólny czynnik; pierwiastki zagnieżdżone licz od środka",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.73,
+    "procent": 88,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q15",
@@ -626,7 +697,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz drugiego przez b, pierwszy to 2b, trzeci to reszta z 17 — sprawdź, kiedy nierówności grają",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.07,
+    "procent": 69,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q16",
@@ -666,6 +742,11 @@
      "kierunek-relacji"
     ],
     "opis": "Stosunek wysokość : krawędź = 3 : 4; zdania podają wartości zamienione miejscami"
+   },
+   "trudnosc": {
+    "logit": 3.57,
+    "procent": 81,
+    "procent_etap": 81
    }
   },
   {
@@ -686,7 +767,12 @@
     "rozwiazanie_html": "<p>Rozkładając podstawy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><msup><mn>2</mn><mn>3</mn></msup><msup><mn>3</mn><mn>2</mn></msup></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></mrow><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>)</mo></mrow><mn>8</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mrow><mn>2</mn><mo>·</mo><mn>3</mn></mrow></mfrac><mo>)</mo></mrow><mn>6</mn></msup></math>.</p><p>Po podniesieniu do potęg licznik jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>24</mn></msup><mo>·</mo><msup><mn>3</mn><mn>14</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></math>, a mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup><mo>·</mo><msup><mn>3</mn><mn>14</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></math>, więc całość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>0</mn></msup><mo>·</mo><msup><mn>5</mn><mn>0</mn></msup><mo>=</mo><mn>4</mn></math> — liczbie naturalnej.</p>",
     "punktacja_html": "<ul><li>2 punkty – gdy poprawnie wykaże i poda właściwą liczbę naturalną 4.</li><li>1 punkt – gdy:<ul><li>popełni drobne błędy (np. literówki w wykładnikach, niepełne skrócenie), ale ogólna logika rozwiązania jest zachowana, a wynik prawie poprawny (np. brak ostatecznego wniosku = 4).</li><li>zastosuje poprawną metodę, ale nie dokończy obliczeń (np. zapisze finalne potęgi, ale nie zsumuje ich do liczby naturalnej).</li></ul></li><li>0 punktów – rozwiązanie błędne lub brak rozwiązania lub brak uzasadnienia (tylko odpowiedź 4 bez obliczeń).</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.71,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q18",
@@ -706,7 +792,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to dłuższy bok, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> krótszy bok równoległoboku; wysokość opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma 2 cm, a na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> ma 3 cm. Pole można zapisać dwojako: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>a</mi><mo>·</mo><mn>2</mn><mo>=</mo><mi>b</mi><mo>·</mo><mn>3</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac></math>.</p><p>Z obwodu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>30</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mi>b</mi><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>9</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>18</mn></math> cm².</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy:<ul><li>poprawnie obliczy długość boku równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math> cm i poda prawidłowe pole 18 cm²,</li></ul></li><li>2 punkty – gdy:<ul><li>poprawnie obliczy długość boku równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math> cm i na tym zakończy,</li></ul></li><li>1 punkt – gdy:<ul><li>zapisze poprawnie jedną z zależności między polem a wysokością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac></math> na tym zakończy lub</li><li>zapisze poprawnie jedną z zależności między polem a wysokością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi></mrow><mn>3</mn></mfrac></math> na tym zakończy</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania lub jeśli uczeń bez wykonywania żadnych obliczeń poda tylko liczbę 18 cm².</li></ul><p><strong>Uwaga!</strong> Jeśli uczeń odgadnie długości boków i obliczy pole – maksymalnie otrzymuje 1 punkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.33,
+    "procent": 71,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2025-2026_wielkopolskie_q19",
@@ -729,7 +820,12 @@
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ABC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>270</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BCD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></math>, dorysowujemy punkt <em>F</em> tak, że <em>ABCF</em> jest prostokątem o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math>. Wtedy trójkąt <em>AFD</em> jest prostokątny, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>12</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>29</mn></math>.</p><p>Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>29</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>+</mo><mn>841</mn><mo>=</mo><mn>985</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>985</mn></msqrt></math>. W trójkącie prostokątnym <em>AED</em>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>985</mn><mo>−</mo><msup><mn>16</mn><mn>2</mn></msup><mo>=</mo><mn>729</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ED</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>27</mn></math>.</p><p>Pole pięciokąta obliczamy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msub><mi>P</mi><mi>AED</mi></msub><mo>+</mo><msub><mi>P</mi><mi>AFD</mi></msub><mo>−</mo><msub><mi>P</mi><mi>ABCF</mi></msub></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AED</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>216</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>AFD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>29</mn><mo>=</mo><mn>174</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ABCF</mi></msub><mo>=</mo><mn>12</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>180</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>216</mn><mo>+</mo><mn>174</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>210</mn></math>.</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy bezbłędnie rozwiąże zadanie i poda odpowiedź 210,</li><li>2 punkty – gdy:<ul><li>poprawnie obliczy długość odcinka ED i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole trójkąta AFD i AED i na tym zakończy lub dalej popełni błędy lub</li><li>gdy poprawnie obliczy pole trójkąta AFD i AED oraz pole prostokąta ABCF i na tym zakończy lub dalej popełni błędy</li></ul></li><li>1 punkt – gdy:<ul><li>poprawnie obliczy długość odcinka AD i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole trójkąta AFD i na tym zakończy lub dalej popełni błędy lub</li><li>poprawnie obliczy pole prostokąta ABCF i na tym zakończy lub dalej popełni błędy</li></ul></li><li>0 punktów – rozwiązanie błędne, brak rozwiązania lub<ul><li>gdy uczeń poda tylko wyniki bez obliczeń.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.44,
+    "procent": 95,
+    "procent_etap": 95
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2018-2019_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2018-2019_slaskie_q1",
@@ -37,6 +38,11 @@
      "o-co-pytaja"
     ],
     "opis": "Hasło f): pytają o mianownik liczby ODWROTNEJ do 1,11, a nie samej 1,11"
+   },
+   "trudnosc": {
+    "logit": 6.08,
+    "procent": 94,
+    "procent_etap": 97
    }
   },
   {
@@ -75,7 +81,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź wszystkie owoce przez liczbę pomarańczy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.07,
+    "procent": 29,
+    "procent_etap": 35
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q3",
@@ -112,7 +123,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolejność cyfr się nie zmienia — szukaj najmniejszej cyfry, za którą zostają jeszcze dwie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.49,
+    "procent": 54,
+    "procent_etap": 61
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2026_lubuskie_q12",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2018-2019_slaskie_q4",
@@ -157,6 +179,11 @@
      "plot-i-slupki"
     ],
     "opis": "Sama liczba 4 też daje resztę 4 z dzielenia przez 5; łatwo zacząć wyliczanie od 9"
+   },
+   "trudnosc": {
+    "logit": -3.67,
+    "procent": 16,
+    "procent_etap": 20
    }
   },
   {
@@ -195,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofaj się miesiącami, licząc reszty z dzielenia liczby dni przez 7",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q6",
@@ -232,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż czynniki na liczby pierwsze, zamiast mnożyć",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.64,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q7",
@@ -275,6 +312,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie do 13:35 obejmuje jeszcze sygnał połówki o 13:30"
+   },
+   "trudnosc": {
+    "logit": 2.84,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -310,7 +352,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pierwsza cyfra jest co najmniej 1. Dla pierwszej cyfry 1 suma pozostałych trzech cyfr może wynosić 0, 1 lub 2, co daje odpowiednio 1, 3 i 6 liczb, razem 10. Dla pierwszej cyfry 2 suma pozostałych może wynosić 0 lub 1, czyli 1+3=4 liczby. Dla pierwszej cyfry 3 suma pozostałych musi wynosić 0, czyli 1 liczba. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.03,
+    "procent": 77,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q9",
@@ -348,7 +395,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczy się tylko ostatnia cyfra — jej potęgi powtarzają się cyklicznie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.36,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q10",
@@ -394,6 +446,11 @@
      "warunek-istnienia"
     ],
     "opis": "Zdanie 4: wartość 0 daje więcej niż jedno x, także ujemne; łatwo znaleźć tylko naturalne"
+   },
+   "trudnosc": {
+    "logit": 5.07,
+    "procent": 90,
+    "procent_etap": 94
    }
   },
   {
@@ -439,6 +496,11 @@
      "kwantyfikator"
     ],
     "opis": "Zdanie 2: „suma dwóch liczb pierwszych jest parzysta” nie działa, gdy jedną z nich jest 2"
+   },
+   "trudnosc": {
+    "logit": 2.38,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -486,6 +548,11 @@
      "znak"
     ],
     "opis": "Zdanie 2: minus przed (−2)⁴ — potęga parzysta, ale minus z przodu zostaje"
+   },
+   "trudnosc": {
+    "logit": 3.21,
+    "procent": 78,
+    "procent_etap": 85
    }
   },
   {
@@ -532,6 +599,11 @@
      "kierunek-relacji"
     ],
     "opis": "Zdanie 1: krótszy to 4/5 dłuższego, ale dłuższy nie jest o 1/5 większy od krótszego"
+   },
+   "trudnosc": {
+    "logit": 5.12,
+    "procent": 90,
+    "procent_etap": 94
    }
   },
   {
@@ -577,6 +649,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zdanie 2: 831,60 zł to cena OBECNA, a obniżka liczona jest od ceny początkowej"
+   },
+   "trudnosc": {
+    "logit": 4.5,
+    "procent": 86,
+    "procent_etap": 91
    }
   },
   {
@@ -606,6 +683,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ilu uczniów POJECHAŁO, a nie ilu miało jechać"
+   },
+   "trudnosc": {
+    "logit": -1.14,
+    "procent": 38,
+    "procent_etap": 44
    }
   },
   {
@@ -629,7 +711,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z |DC| = |DB| odczytaj kąt przy wierzchołku C",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.47,
+    "procent": 64,
+    "procent_etap": 71
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q17",
@@ -650,7 +737,12 @@
     "rozwiazanie_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn></math> cm. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> jest prostokątny; z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>h</mi><mo>=</mo><mn>6</mn></math> cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math> jest przeciwprostokątną trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEB</mi></math> o przyprostokątnych 6 cm i 8 cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn></math> cm. Aby wyznaczyć przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, przedłużamy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> prowadzimy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CF</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFC</mi></math> jest prostokątny, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>16</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>24</mn></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>24</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>612</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>612</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>17</mn></msqrt></math> cm. Odpowiedź: przekątne mają długości 10 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>17</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<p>Punktacja (0–4): 1 p. za poprawną metodę obliczenia wysokości; 2 p. za obliczenie wysokości i metodę obliczenia jednej przekątnej; 3 p. za obliczenie wysokości i metodę obliczenia dwóch przekątnych; 4 p. za poprawne obliczenie wysokości i obu przekątnych. Wynik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>612</mn></msqrt></math> akceptujemy.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2018-2019_slaskie_q18",
@@ -680,7 +772,18 @@
      "o-co-pytaja"
     ],
     "opis": "Odległość miejsca spotkania liczona od punktu B, a naturalnie liczy się drogę od A"
-   }
+   },
+   "trudnosc": {
+    "logit": 4.46,
+    "procent": 86,
+    "procent_etap": 91
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_slaskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   }
  ]
 }

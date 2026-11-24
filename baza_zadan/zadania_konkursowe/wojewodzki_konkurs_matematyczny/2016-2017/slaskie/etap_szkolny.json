@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016-2017_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016-2017_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2016-2017_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Po uzupełnieniu wszystkie działania w wierszach i kolumnach są poprawne:</p><ul><li>wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IV</mtext><mo>+</mo><mtext>VII</mtext><mo>−</mo><mtext>IX</mtext><mo>=</mo><mtext>II</mtext></mrow></math> (4+7−9=2), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IX</mtext><mo>−</mo><mtext>II</mtext><mo>+</mo><mtext>XIX</mtext><mo>=</mo><mtext>XXVI</mtext></mrow></math> (9−2+19=26), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>XII</mtext><mo>+</mo><mtext>XIX</mtext><mo>−</mo><mtext>VI</mtext><mo>=</mo><mtext>XXV</mtext></mrow></math> (12+19−6=25), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>I</mtext><mo>+</mo><mtext>XXIV</mtext><mo>−</mo><mtext>XXII</mtext><mo>=</mo><mtext>III</mtext></mrow></math> (1+24−22=3);</li><li>kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IV</mtext><mo>+</mo><mtext>IX</mtext><mo>−</mo><mtext>XII</mtext><mo>=</mo><mtext>I</mtext></mrow></math> (4+9−12=1), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>VII</mtext><mo>−</mo><mtext>II</mtext><mo>+</mo><mtext>XIX</mtext><mo>=</mo><mtext>XXIV</mtext></mrow></math> (7−2+19=24), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IX</mtext><mo>+</mo><mtext>XIX</mtext><mo>−</mo><mtext>VI</mtext><mo>=</mo><mtext>XXII</mtext></mrow></math> (9+19−6=22), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>II</mtext><mo>+</mo><mtext>XXVI</mtext><mo>−</mo><mtext>XXV</mtext><mo>=</mo><mtext>III</mtext></mrow></math> (2+26−25=3).</li></ul>",
     "punktacja_html": "<p>Punktacja: za uzupełnienie liczbami rzymskimi — 5 p. za wszystkie poprawne, 4 p. za 5–6, 3 p. za 4, 2 p. za 3, 1 p. za 2 poprawne wyniki. Za zapis w systemie dziesiątkowym odpowiednio mniej (maks. 3 p.).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 91
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q2",
@@ -48,7 +54,22 @@
     "rozwiazanie_html": "<p>A) wynik możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>200</mn><mo>−</mo><mn>200</mn><mo>=</mo><mn>0</mn></mrow></math>.</p><p>B) wynik możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn></mrow></math>.</p><p>C) wynik równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>:</mo><mo>[</mo><mo>(</mo><mn>400</mn><mo>:</mo><mn>20</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>]</mo><mo>=</mo><mn>400</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>100</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: po 1 p. za poprawne wstawienie nawiasów w każdym z wyrażeń.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.22,
+    "procent": 85,
+    "procent_etap": 90
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2017-2018_slaskie_q2",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2016-2017_slaskie_q2",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2016-2017_slaskie_q3",
@@ -92,6 +113,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba dwucyfrowa nie może zaczynać się od zera, choć zero jest cyfrą mniejszą od 4"
+   },
+   "trudnosc": {
+    "logit": -3.59,
+    "procent": 17,
+    "procent_etap": 20
    }
   },
   {
@@ -129,7 +155,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofaj się od 20016, wykonując działania odwrotne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.81,
+    "procent": 10,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q5",
@@ -167,7 +198,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź sumę cyfr, a potem rozłóż liczbę na czynniki i policz dzielniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.56,
+    "procent": 26,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q6",
@@ -204,7 +240,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw wyznacz jedną piątą ceny, dzieląc podaną kwotę przez 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.46,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q7",
@@ -249,6 +290,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O 9.30 wskazówka godzinowa nie stoi na 9, tylko w połowie drogi do 10"
+   },
+   "trudnosc": {
+    "logit": -0.51,
+    "procent": 44,
+    "procent_etap": 50
    }
   },
   {
@@ -293,6 +339,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę użyć cyfry 7, nie o liczbę stron zawierających siódemkę (77, 177, 277)"
+   },
+   "trudnosc": {
+    "logit": 4.34,
+    "procent": 85,
+    "procent_etap": 91
    }
   },
   {
@@ -331,7 +382,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj pola — pole trójkąta to połowa iloczynu przyprostokątnych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.31,
+    "procent": 20,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q10",
@@ -376,6 +432,11 @@
      "warunek-istnienia"
     ],
     "opis": "Jeden patyczek podany w dm; przy równości sumy dwóch boków z trzecim trójkąt nie powstaje"
+   },
+   "trudnosc": {
+    "logit": 1.79,
+    "procent": 67,
+    "procent_etap": 74
    }
   },
   {
@@ -413,7 +474,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 48 i 72 na czynniki pierwsze i odczytaj z nich NWD oraz NWW",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q12",
@@ -451,7 +517,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba wszystkich książek musi dzielić się i przez 3, i przez 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.8,
+    "procent": 16,
+    "procent_etap": 19
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q13",
@@ -488,7 +559,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolory powtarzają się co 4 — licz resztę z dzielenia przez 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.17,
+    "procent": 13,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q14",
@@ -533,6 +609,11 @@
      "jednostki"
     ],
     "opis": "Pole w cm², warianty w m²: przy jednostkach kwadratowych dzieli się przez 10 000, a nie przez 100"
+   },
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 32,
+    "procent_etap": 38
    }
   },
   {
@@ -571,7 +652,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "trzeci koszyk to 1 część, a dwa pierwsze razem 9 takich części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.07,
+    "procent": 30,
+    "procent_etap": 35
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q16",
@@ -619,6 +705,11 @@
      "kwantyfikator"
     ],
     "opis": "Słowo „zawsze”: kilka pierwszych przykładów potwierdza zdanie, kontrprzykład trzeba celowo poszukać"
+   },
+   "trudnosc": {
+    "logit": 6.39,
+    "procent": 95,
+    "procent_etap": 98
    }
   },
   {
@@ -658,7 +749,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przegrane to 1 część, remisy 2 części, a wygrane te 2 części i jeszcze 5 meczów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.11,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q18",
@@ -702,6 +798,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Ramię trapezu jest przeciwprostokątną trójkąta 45°, a nie równa się wysokości"
+   },
+   "trudnosc": {
+    "logit": 3.55,
+    "procent": 80,
+    "procent_etap": 87
    }
   },
   {
@@ -731,6 +832,11 @@
      "zaokraglenie"
     ],
     "opis": "Okres w nawiasie trzeba rozpisać dalej, żeby zobaczyć cyfrę decydującą o zaokrągleniu"
+   },
+   "trudnosc": {
+    "logit": 2.24,
+    "procent": 71,
+    "procent_etap": 78
    }
   },
   {
@@ -757,6 +863,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Suma cyfr może być równa 9 albo 18; łatwo rozpatrzyć tylko jedną z tych możliwości"
+   },
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -778,7 +889,12 @@
     "rozwiazanie_html": "<p>Wokół wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mamy kąt kwadratu 90° oraz dwa kąty trójkątów równobocznych po 60°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>EBF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> (boki trójkątów równobocznych na równych bokach kwadratu), trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math> jest równoramienny, a jego kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BEF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BFE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 p. za poprawny rysunek z dorysowanym trójkątem, 1 p. za obliczenie kąta między ramionami, 1 p. za obliczenie kątów ostrych trójkąta.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.3,
+    "procent": 46,
+    "procent_etap": 53
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q22",
@@ -799,7 +915,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień oba czasy na minuty i cofnij zegar o ich sumę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.81,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2016-2017_slaskie_q23",
@@ -821,7 +942,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 15 cm w skali na metry, potem policz, ile kroków na metr robi Ala",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 64
+   }
   }
  ]
 }

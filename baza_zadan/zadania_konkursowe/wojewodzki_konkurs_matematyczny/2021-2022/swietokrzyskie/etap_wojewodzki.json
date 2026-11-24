@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 32,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021-2022_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz 8⁴⁵ przed nawias i zobacz, co w nim zostaje",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.78,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q2",
@@ -84,7 +90,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przesuń przecinek tak, by wykładniki dzieliły się przez 2 i przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.48,
+    "procent": 44,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q3",
@@ -121,7 +132,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułamek równy 1 znaczy licznik = mianownik; stąd wyznacz x przez y",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.49,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q4",
@@ -159,7 +175,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz sumę cyfr 1+2+3+4+5, a przy 4 i 25 patrz tylko na końcówkę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.56,
+    "procent": 73,
+    "procent_etap": 66
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q5",
@@ -204,6 +225,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Odjęcie 25% od a i dodanie 25% do b nie oznacza, że b jest o 50% mniejsze od a"
+   },
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 26
    }
   },
   {
@@ -236,7 +262,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>BC</mi><mo>·</mo><mi>AD</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AC</mi><mo>·</mo><mi>BE</mi></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mi>BE</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>AC</mi></math> — trójkąt jest równoramienny (zdanie 1 prawdziwe, P).</p><p>Oś symetrii trójkąta (przez C i środek AB) zamienia A z B, więc zamienia też F (środek BC) z G (środkiem AC): trójkąty AFB i BGA są swoimi odbiciami — przystające (zdanie 2 prawdziwe, P). Ta sama symetria zamienia spodki wysokości D i E, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi><mo>=</mo><mi>EC</mi></math> (zdanie 3 prawdziwe, P).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q7",
@@ -274,7 +305,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt wewnętrzny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></mrow><mn>8</mn></mfrac><mo>=</mo><mn>135</mn><mo>°</mo></math> — zdanie 1 prawdziwe (P).</p><p>Przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>20</mn></math>, a nie 24 — zdanie 2 fałszywe (F).</p><p>Ośmiokąt to kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mi>a</mi><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mi>a</mi><mo>(</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math> z odciętymi rogami. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EH</mi></math>, tak jak bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DG</mi></math> tego kwadratu, ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>14,49</mn></math> cm, a nie 12 cm — zdanie 3 fałszywe (F).</p><p>Trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEFG</mi></math>: podstawy 6 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm, wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm; pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>12</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>18</mn><mo>+</mo><mn>18</mn><msqrt><mn>2</mn></msqrt></math> cm² — zdanie 4 prawdziwe (P).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.92,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q8",
@@ -311,7 +347,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dorysuj wysokość — dłuższe ramię jest przeciwprostokątną trójkąta, którego przyprostokątne odczytasz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.42,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q9",
@@ -359,6 +400,11 @@
      "inne:pominiete-pi"
     ],
     "opis": "Stosunek pól kół to kwadrat stosunku promieni; różnica długości okręgów zawiera π, a nie same centymetry"
+   },
+   "trudnosc": {
+    "logit": 4.41,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -398,7 +444,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz liczbę krawędzi graniastosłupa przez liczbę boków podstawy i sprawdź podzielność",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.72,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q11",
@@ -430,7 +481,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>, pole boczne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mi>l</mi></math> (l — wysokość ściany bocznej). Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mi>l</mi><mo>=</mo><mn>12</mn><mo>·</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mi>a</mi></math> — zdanie 1 prawdziwe (P).</p><p>Apotema podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></math>, więc wysokość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mi>l</mi><mn>2</mn></msup><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>429</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Promień okręgu opisanego na sześciokącie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, więc krawędź boczna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mfrac><mn>433</mn><mn>4</mn></mfrac></msqrt><mi>a</mi><mo>=</mo><mfrac><msqrt><mn>433</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></math> — zdanie 2 prawdziwe (P).</p><p>Krótsza przekątna sześciokąta foremnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mi>a</mi></math> — zdanie 3 prawdziwe (P).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.9,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q12",
@@ -467,7 +523,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z prawdopodobieństwa policz liczbę czarnych, a białe zostaną z odejmowania",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.56,
+    "procent": 11,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q13",
@@ -511,6 +572,11 @@
      "zbior-liczb"
     ],
     "opis": "Cyfra setek nie może być zerem, a cyfry muszą być różne; łatwo odjąć tylko jedno z tych ograniczeń"
+   },
+   "trudnosc": {
+    "logit": 0.19,
+    "procent": 51,
+    "procent_etap": 44
    }
   },
   {
@@ -555,6 +621,11 @@
      "inne:nierownosc-ostra"
     ],
     "opis": "Suma cyfr ma być większa od 15, więc liczby o sumie cyfr równej 15 nie spełniają warunku"
+   },
+   "trudnosc": {
+    "logit": -3.06,
+    "procent": 21,
+    "procent_etap": 17
    }
   },
   {
@@ -599,7 +670,18 @@
      "inne:losowanie-bez-zwracania"
     ],
     "opis": "Dwa losy już wyciągnięto, a jeden z nich był wygrywający; trzeba zmienić i liczbę losów, i liczbę wygranych"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 59
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2022_podlaskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021-2022_swietokrzyskie_q16",
@@ -643,6 +725,11 @@
      "kwantyfikator"
     ],
     "opis": "Wyniki dwóch rzutów to pary uporządkowane; w zd. 1 prawdopodobieństwa są równe, a nie jedno większe"
+   },
+   "trudnosc": {
+    "logit": 4.71,
+    "procent": 88,
+    "procent_etap": 83
    }
   }
  ]

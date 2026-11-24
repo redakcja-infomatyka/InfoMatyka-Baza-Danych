@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2016_podkarpackie_q1",
@@ -51,6 +52,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o część pustą słoja, a naturalnie liczy się, ile miodu zostało"
+   },
+   "trudnosc": {
+    "logit": -3.59,
+    "procent": 17,
+    "procent_etap": 13
    }
   },
   {
@@ -97,7 +103,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Czterokrotnie większe pole nie oznacza czterokrotnie dłuższego obwodu"
-   }
+   },
+   "trudnosc": {
+    "logit": -2.29,
+    "procent": 28,
+    "procent_etap": 22
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2014_podkarpackie_q15",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q3",
@@ -135,7 +152,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczą ostatnie cyfry każdego składnika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.61,
+    "procent": 25,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q4",
@@ -172,7 +194,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwijaj od najbardziej wewnętrznego nawiasu — wyniki zaczną się powtarzać",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -7.77,
+    "procent": 1,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q5",
@@ -217,6 +244,11 @@
      "kierunek-relacji"
     ],
     "opis": "x to cena ławki, czyli 25 zł trzeba odjąć przy krześle, a nie przy ławce"
+   },
+   "trudnosc": {
+    "logit": -3.1,
+    "procent": 21,
+    "procent_etap": 16
    }
   },
   {
@@ -261,6 +293,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Przy przecięciu powstają dwie nowe ściany, więc pole połówki nie jest połową pola sześcianu"
+   },
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 26
    }
   },
   {
@@ -298,7 +335,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 12 minut na część godziny, a kilometry na metry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q8",
@@ -345,6 +387,11 @@
      "procent-podstawa"
     ],
     "opis": "Wzrost obwodu o 80% nie daje wzrostu pola o 80%: bok rośnie 1,8 raza, a pole o kwadrat tego"
+   },
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -390,6 +437,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielność przez 3 i 6 nie daje podzielności przez 18 – mnożyć dzielniki wolno tylko przy względnie pierwszych"
+   },
+   "trudnosc": {
+    "logit": 0.13,
+    "procent": 51,
+    "procent_etap": 43
    }
   },
   {
@@ -427,7 +479,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "prawidłowy czworokątny znaczy, że podstawa jest kwadratem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.04,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q11",
@@ -472,6 +529,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odległość środka od boku to połowa drugiego boku, a nie sam bok prostokąta"
+   },
+   "trudnosc": {
+    "logit": -0.62,
+    "procent": 43,
+    "procent_etap": 35
    }
   },
   {
@@ -507,7 +569,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Soli w solance: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,43</mn><mo>·</mo><mn>320</mn><mo>=</mo><mn>137,6</mn></math> g. Cukru w syropie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,48</mn><mo>·</mo><mn>360</mn><mo>=</mo><mn>172,8</mn></math> g. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>172,8</mn><mo>−</mo><mn>137,6</mn><mo>=</mo><mn>35,2</mn></math> g — więcej waży cukier.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.45,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q13",
@@ -544,7 +611,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile godzin łącznie szedł piechur do chwili spotkania",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 54
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q14",
@@ -583,7 +655,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połącz środki boków i zobacz, na ile przystających trójkątów dzieli się ABC",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.07,
+    "procent": 50,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q15",
@@ -629,6 +706,11 @@
      "plot-i-slupki"
     ],
     "opis": "Wyliczone x to liczba osób przed Anią, a pytają o jej miejsce; Ania liczy się do 41 osób"
+   },
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 30
    }
   },
   {
@@ -667,7 +749,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie odległości głowy od ziemi wyraź przez głębokość dołu i porównaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q17",
@@ -704,7 +791,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyrost odnieś do jego początkowej złotówki, nie do majątku bogacza",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 1.11,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q18",
@@ -742,7 +834,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz oba wieki przez x i ułóż z nich równanie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.27,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q19",
@@ -780,7 +877,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź głowę i tułów przez wagę tułowia — ogon już znasz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.56,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q20",
@@ -818,7 +920,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w każdej działce długość + szerokość = 60 m, więc porównuj tylko iloczyny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.77,
+    "procent": 42,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q21",
@@ -847,6 +954,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Reszta musi być mniejsza od dzielnika (p > 6), a przy tym zostają dwie pary rozwiązań"
+   },
+   "trudnosc": {
+    "logit": 3.33,
+    "procent": 79,
+    "procent_etap": 72
    }
   },
   {
@@ -867,7 +979,12 @@
     "rozwiazanie_html": "<p>Oznaczmy pole ściany bocznej przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Pole powierzchni całkowitej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>p</mi></msub><mo>+</mo><mn>4</mn><mo>·</mo><mi>x</mi></math>, gdzie pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mn>264</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,5</mn><mi>x</mi><mo>=</mo><mn>264</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>48</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mn>0,75</mn><mo>·</mo><mn>48</mn><mo>=</mo><mn>36</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>, więc krawędź podstawy wynosi 6 cm. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>=</mo><mn>6</mn><mo>·</mo><mi>h</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>48</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>8</mn></math> cm.</p>",
     "punktacja_html": "<p>Punktacja: 4 pkt pełne rozwiązanie poprawną metodą; 3 pkt poprawna metoda z błędami rachunkowymi; 2 pkt obliczenie tylko pola ściany bocznej; 1 pkt zapisanie zależności między polami.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.51,
+    "procent": 73,
+    "procent_etap": 66
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q23",
@@ -888,7 +1005,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czasy przejazdu są odwrotnie proporcjonalne do prędkości",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2016_podkarpackie_q24",
@@ -916,6 +1038,11 @@
      "kierunek-relacji"
     ],
     "opis": "W skali 1:50 rysunek jest mniejszy niż w skali 1:20, a nie większy"
+   },
+   "trudnosc": {
+    "logit": -4.02,
+    "procent": 14,
+    "procent_etap": 10
    }
   }
  ]

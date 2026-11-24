@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 45,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2011-2012_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2011-2012_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2011-2012_slaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podwajaj kolejno od 3 i zsumuj cztery liczby",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.51,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij podstawę o n bokach i wyraź krawędzie, ściany i wierzchołki przez n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.34,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q3",
@@ -126,6 +137,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o dzielniki pierwsze, nie o wszystkie dzielniki; 111 wygląda na liczbę pierwszą"
+   },
+   "trudnosc": {
+    "logit": -4.03,
+    "procent": 14,
+    "procent_etap": 17
    }
   },
   {
@@ -164,7 +180,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód takiego prostokąta to bok kwadratu wzięty trzy razy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.03,
+    "procent": 22,
+    "procent_etap": 25
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q5",
@@ -202,7 +223,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "różnica wieku dziewczynek się nie zmienia — porównaj ją w obu momentach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q6",
@@ -246,6 +272,11 @@
      "inne:odwrotna-vs-przeciwna"
     ],
     "opis": "Liczba odwrotna, nie przeciwna; jeden z wariantów czeka na pomylenie tych pojęć"
+   },
+   "trudnosc": {
+    "logit": -6.92,
+    "procent": 2,
+    "procent_etap": 3
    }
   },
   {
@@ -283,7 +314,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skróć 25/60 do 5/12, zanim pomnożysz przez 110 groszy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.08,
+    "procent": 38,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q8",
@@ -321,7 +357,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "połowa reszty znaczy, że w największej skrzynce jest trzecia część wszystkich jabłek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.08,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q9",
@@ -358,7 +399,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż liczby na czynniki pierwsze i policz osobno NWD i NWW",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.81,
+    "procent": 24,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q10",
@@ -395,7 +441,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Poziomice (200, 400, 600, 800) leżą najgęściej, najbliżej siebie, po stronie południowo-wschodniej wzniesienia — im gęstsze poziomice, tym stok stromszy.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.42,
+    "procent": 45,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q11",
@@ -439,6 +490,11 @@
      "o-co-pytaja"
     ],
     "opis": "8 cm na globusie to lot w jedną stronę, a pytają o drogę do Polski i z powrotem"
+   },
+   "trudnosc": {
+    "logit": 2.07,
+    "procent": 69,
+    "procent_etap": 76
    }
   },
   {
@@ -474,7 +530,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Podszyt tworzą krzewy, więc muszą to być rośliny krzewiaste — leszczyna, kalina i jeżyna — a wśród zwierząt tej warstwy jeleń.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 3.01,
+    "procent": 76,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q13",
@@ -522,6 +583,11 @@
      "rysunek"
     ],
     "opis": "Ośmiokąt w kształcie litery T ma dwa kąty wklęsłe po 270°, nie same kąty proste"
+   },
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 95
    }
   },
   {
@@ -560,7 +626,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw cenę 1 kg sprzed podwyżki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.64,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q15",
@@ -604,6 +675,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Karteczki można układać w różnych orientacjach; bok 11 nie musi dzielić się przez 3 ani 5"
+   },
+   "trudnosc": {
+    "logit": 6.94,
+    "procent": 96,
+    "procent_etap": 99
    }
   },
   {
@@ -648,6 +724,11 @@
      "kwantyfikator"
     ],
     "opis": "Słowo „dokładnie”: wśród czterech kolejnych liczb mogą być dwie podzielne przez 3"
+   },
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -686,7 +767,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, jakiej części masy brakuje, i przyrównaj ją do dodanych 4/5 kg",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.99,
+    "procent": 39,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q18",
@@ -705,7 +791,12 @@
     "rozwiazanie_html": "<p>Rzeźbiarze krajobrazu i utworzone przez nich elementy:</p><ul><li>wiatr → C (wydmy),</li><li>człowiek → D (pola uprawne),</li><li>rzeka → A (meandry),</li><li>morze → E (klify).</li></ul>",
     "punktacja_html": "<p>Punktacja: poprawne uzupełnienie 4 pól — 2 p.; poprawne uzupełnienie 2–3 pól — 1 p.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q19",
@@ -724,7 +815,12 @@
     "rozwiazanie_html": "<p>Przykładowe uzupełnienie tabeli:</p><ul><li>temperatura powietrza — termometr — stopnie C (°C),</li><li>ciśnienie atmosferyczne — barometr — hPa, mmHg,</li><li>opady atmosferyczne — deszczomierz — mm,</li><li>prędkość wiatru — anemometr — m/s,</li><li>wilgotność powietrza — higrometr — %.</li></ul>",
     "punktacja_html": "<p>Punktacja: poprawne uzupełnienie 8 lub 9 pól — 3 p.; 6 lub 7 pól — 2 p.; 4 lub 5 pól — 1 p.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.21,
+    "procent": 78,
+    "procent_etap": 85
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q20",
@@ -750,6 +846,11 @@
      "o-co-pytaja"
     ],
     "opis": "Za sprzedaną szóstą część jajek pani Anna już dostała pieniądze; 32,40 zł to plan na całość"
+   },
+   "trudnosc": {
+    "logit": 2.51,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -774,7 +875,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "boki różnią się o 3 − 1,6 cm, a ich suma to połowa obwodu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.9,
+    "procent": 76,
+    "procent_etap": 83
+   }
   },
   {
    "id": "szkolny_2011-2012_slaskie_q22",
@@ -803,6 +909,11 @@
      "procent-podstawa"
     ],
     "opis": "Z nowej pensji trzeba wrócić do starej: 0,2 liczy się od starej pensji, nie od nowej"
+   },
+   "trudnosc": {
+    "logit": -0.81,
+    "procent": 41,
+    "procent_etap": 48
    }
   }
  ]

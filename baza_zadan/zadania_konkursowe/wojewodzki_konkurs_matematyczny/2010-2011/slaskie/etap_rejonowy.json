@@ -8,6 +8,7 @@
  "liczba_zadan": 25,
  "max_punktow": 48,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2010-2011_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2010-2011_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2010-2011_slaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "5 minut to 1/12 godziny",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.87,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q2",
@@ -88,6 +94,11 @@
      "o-co-pytaja"
     ],
     "opis": "Brat bierze 1/3 POZOSTAŁYCH mandarynek, a nie 1/3 wszystkich."
+   },
+   "trudnosc": {
+    "logit": -6.2,
+    "procent": 4,
+    "procent_etap": 5
    }
   },
   {
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 150 km na centymetry i podziel przez 30",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.85,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q4",
@@ -170,6 +186,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O 12:30 wskazówka godzinowa nie stoi na 12, przesunęła się o pół godziny."
+   },
+   "trudnosc": {
+    "logit": -1.57,
+    "procent": 34,
+    "procent_etap": 36
    }
   },
   {
@@ -214,6 +235,11 @@
      "o-co-pytaja"
     ],
     "opis": "Dwie odwrotności: po zsumowaniu odwrotności trzeba jeszcze odwrócić sumę."
+   },
+   "trudnosc": {
+    "logit": -3.77,
+    "procent": 16,
+    "procent_etap": 18
    }
   },
   {
@@ -251,7 +277,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż każdą parę na wspólne dzielniki i porównaj cztery wyniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -7.52,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q7",
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian ma 12 jednakowych krawędzi i 6 jednakowych ścian",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.85,
+    "procent": 6,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q8",
@@ -325,7 +361,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "grupuj wyrazy parami",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.56,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q9",
@@ -369,7 +410,18 @@
      "inne:skladnik-ograniczajacy"
     ],
     "opis": "Liczbę placków wyznacza składnik, którego starczy najkrócej, a nie pierwszy z brzegu."
-   }
+   },
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 46
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2013_podlaskie_sp_q12",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q10",
@@ -408,7 +460,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość dzieli trójkąt na dwie połowy — porównaj boki jednej z nich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.53,
+    "procent": 18,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q11",
@@ -452,6 +509,11 @@
      "jednostki"
     ],
     "opis": "Wymiary w metrach i centymetrach, a odpowiedzi w litrach i dm³."
+   },
+   "trudnosc": {
+    "logit": -2.38,
+    "procent": 27,
+    "procent_etap": 29
    }
   },
   {
@@ -490,7 +552,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oba trójkąty mają wspólną wysokość — porównaj same podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.58,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q13",
@@ -525,7 +592,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Energią czystą (odnawialną) są promieniowanie słoneczne, woda i wiatr – źródła niewyczerpywalne i niepowodujące spalin. Pozostałe szeregi zawierają paliwa kopalne (gaz, torf, węgiel, ropę) lub biomasę.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.75,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q14",
@@ -562,7 +634,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Punkt X leży na lewo od południka 0° (czyli na zachód) i powyżej równika (czyli na północ) – długość geograficzna zachodnia, szerokość geograficzna północna.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.38,
+    "procent": 36,
+    "procent_etap": 37
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q15",
@@ -597,7 +674,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Nizina Śląska leży najniżej i ma najcieplejszy klimat spośród wymienionych krain, dzięki czemu okres wegetacyjny trwa tam najdłużej.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 3.77,
+    "procent": 82,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q16",
@@ -632,7 +714,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ekosystem to wszystkie organizmy żywe zamieszkujące dany teren razem z ich nieożywionym środowiskiem.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.23,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q17",
@@ -676,6 +763,11 @@
      "konwencja"
     ],
     "opis": "Nazwa wiatru mówi, skąd wieje, a nie dokąd wskazuje strzałka."
+   },
+   "trudnosc": {
+    "logit": 2.72,
+    "procent": 74,
+    "procent_etap": 76
    }
   },
   {
@@ -720,6 +812,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nierówność trójkąta jest ostra: bok 14 cm lub 2 cm daje odcinek, nie trójkąt."
+   },
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -757,7 +854,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz 6000 sekund na minuty i wszystko porównuj w minutach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 43
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q20",
@@ -794,7 +896,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij równania stronami, żeby pozbyć się pomarańczy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.09,
+    "procent": 84,
+    "procent_etap": 85
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q21",
@@ -813,7 +920,12 @@
     "rozwiazanie_html": "<p>Poprawne przyporządkowania:</p><ul><li>witamina A – kurza ślepota,</li><li>witamina B₂ – zajady,</li><li>witamina C – częste przeziębienia,</li><li>witamina D – krzywica.</li></ul><p>Astma nie jest skutkiem niedoboru żadnej z wymienionych witamin (pozostaje niewykorzystana).</p>",
     "punktacja_html": "<p>Za 4 poprawne przyporządkowania 2 pkt, za 3 poprawne przyporządkowania 1 pkt.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 7.81,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q22",
@@ -840,6 +952,11 @@
      "znak"
     ],
     "opis": "Amplituda przy ujemnej temperaturze minimalnej: odejmowanie liczby ujemnej."
+   },
+   "trudnosc": {
+    "logit": 2.11,
+    "procent": 70,
+    "procent_etap": 71
    }
   },
   {
@@ -859,7 +976,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Michał ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> lat, więc dzieci mają razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>30</mn></math> lat. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę lat, które upłyną. Wtedy ojciec będzie miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>+</mo><mi>x</mi></math> lat, a dzieci razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>2</mn><mi>x</mi></math> lat. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>30</mn><mo>+</mo><mn>2</mn><mi>x</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>18</mn></math>. Za 18 lat ojciec będzie miał 66 lat, a dzieci razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>36</mn><mo>=</mo><mn>66</mn></math> lat. Młodsze z rodzeństwa, Kasia, będzie miało wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>30</mn></math> lat.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q24",
@@ -879,7 +1001,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, ile jabłek jest w każdym koszu na końcu, i cofnij przełożenia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2010-2011_slaskie_q25",
@@ -904,6 +1031,11 @@
      "zaokraglenie"
     ],
     "opis": "Puszki kupuje się w całości (w górę); malujemy ściany i sufit, ale bez podłogi."
+   },
+   "trudnosc": {
+    "logit": 4.08,
+    "procent": 84,
+    "procent_etap": 84
    }
   }
  ]

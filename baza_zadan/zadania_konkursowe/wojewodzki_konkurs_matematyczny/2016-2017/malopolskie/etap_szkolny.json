@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016-2017_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016-2017_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2016-2017_malopolskie_q1",
@@ -46,7 +47,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz najpierw, ile kilometrów w terenie przypada na 1 cm mapy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.82,
+    "procent": 41,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q2",
@@ -86,7 +92,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z kąta półpełnego przy B odczytaj kąt trójkąta, potem suma kątów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.93,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q3",
@@ -123,7 +134,22 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "co tydzień parzystość daty niedzieli się zmienia — ile niedziel musi mieć taki miesiąc",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 73
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2017-2018_warminsko-mazurskie_q2",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2015_podlaskie_sp_q17",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q4",
@@ -160,7 +186,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj dzielników 48 w przedziale od 7 do 13",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.04,
+    "procent": 22,
+    "procent_etap": 25
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q5",
@@ -197,7 +228,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolejność działań: mnożenie i dzielenie po kolei od lewej, dopiero potem dodawanie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.04,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q6",
@@ -235,7 +271,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wiek ojca rośnie o rok, a suma wieku dzieci o dwa lata rocznie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.18,
+    "procent": 13,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q7",
@@ -273,7 +314,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile kostek mieści się w sześcianie, potem zamień decymetry na metry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.14,
+    "procent": 29,
+    "procent_etap": 34
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2009-2010_warminsko-mazurskie_q2",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q8",
@@ -310,7 +362,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Duży „kadłub” to czworokąt z obiema przekątnymi (poziomą i pionową) — dzielą go na 4 małe trójkąty, a łącząc je parami po dwa sąsiednie otrzymujemy kolejne 4 — razem 8. „Ogon” to trójkąt z jedną wysokością: 2 małe trójkąty plus cały trójkąt — razem 3. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>11</mn></math> trójkątów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.55,
+    "procent": 80,
+    "procent_etap": 87
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q9",
@@ -355,7 +412,18 @@
      "procent-podstawa"
     ],
     "opis": "Co drugie okno zamknięte liczy się już po zamknięciu połowy otwartych, a nie z porannego stanu"
-   }
+   },
+   "trudnosc": {
+    "logit": 0.67,
+    "procent": 56,
+    "procent_etap": 63
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2020-2021_pomorskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q10",
@@ -392,7 +460,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przekątne wychodzące z jednego wierzchołka i pamiętaj, że każdą liczysz dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q11",
@@ -429,7 +502,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmij od wczorajszych 13 tych, którzy jedzą codziennie, i odnieś resztę do grupy dziewięciorga",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q12",
@@ -466,7 +544,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz liczby całkowite leżące między −3,01 a 2,99, nie zapominając o zerze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.37,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q13",
@@ -506,6 +589,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Orzeł herbowy na pierwszy rzut oka wygląda symetrycznie, ale głowa z dziobem jest zwrócona w bok"
+   },
+   "trudnosc": {
+    "logit": 3.13,
+    "procent": 77,
+    "procent_etap": 84
    }
   },
   {
@@ -537,7 +625,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamiast równania podziel dobę na 5 + 4 równe części; tuzin to 12",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.45,
+    "procent": 72,
+    "procent_etap": 80
+   }
   },
   {
    "id": "szkolny_2016-2017_malopolskie_q15",
@@ -564,6 +657,11 @@
      "plot-i-slupki"
     ],
     "opis": "Strony trzycyfrowe zaczynają się od 100: liczba trzycyfrowych stron to nie numer ostatniej strony minus 99"
+   },
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 64
    }
   },
   {
@@ -593,6 +691,11 @@
      "procent-podstawa"
     ],
     "opis": "Stosunek 2:1 dotyczy części do jazdy po odjęciu ścieżki, a nie całego lodowiska"
+   },
+   "trudnosc": {
+    "logit": 1.53,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -619,6 +722,11 @@
      "kierunek-relacji"
     ],
     "opis": "64000 zł przypada za dwa lata, a pytanie dotyczy obecnego roku; suma od pierwszego roku, nie od czwartego"
+   },
+   "trudnosc": {
+    "logit": 4.07,
+    "procent": 84,
+    "procent_etap": 89
    }
   }
  ]

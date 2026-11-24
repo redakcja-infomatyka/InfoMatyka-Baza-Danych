@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2015_podlaskie_sp.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2015_podlaskie_sp_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2015_podlaskie_sp_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj oba zakupy — różni je dokładnie jedna książka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.48,
+    "procent": 18,
+    "procent_etap": 20
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q2",
@@ -86,7 +92,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt ADE to 90° − 60°, przekątna dzieli kąt prosty na pół, resztę daje suma kątów trójkąta ADK",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.65,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q3",
@@ -123,7 +134,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to liczba wszystkich ustawień czterech różnych cyfr — licz możliwości na kolejnych miejscach",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.74,
+    "procent": 1,
+    "procent_etap": 1
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2014_podkarpackie_q2",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q4",
@@ -161,7 +183,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jaką częścią całej masy arbuza są owe ⅔ kg",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.64,
+    "procent": 17,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q5",
@@ -205,6 +232,11 @@
      "kierunek-relacji"
     ],
     "opis": "Mapa w skali 4 razy mniejszej: odległość na mapie maleje, a nie rośnie"
+   },
+   "trudnosc": {
+    "logit": -4.37,
+    "procent": 12,
+    "procent_etap": 14
    }
   },
   {
@@ -242,7 +274,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z objętości odczytaj krawędź dużego sześcianu, potem policz ile małych mieści się wzdłuż niej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.77,
+    "procent": 10,
+    "procent_etap": 12
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2013_podkarpackie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q7",
@@ -279,7 +322,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj łączną liczbę stron po 11 dniach z tą po 10 dniach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.79,
+    "procent": 16,
+    "procent_etap": 18
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2014_podkarpackie_q15",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q8",
@@ -324,6 +378,11 @@
      "o-co-pytaja"
     ],
     "opis": "Krzewy po OBU stronach alejki, a do tego krzewy to punkty, a długość to liczba odstępów"
+   },
+   "trudnosc": {
+    "logit": 1.24,
+    "procent": 61,
+    "procent_etap": 63
    }
   },
   {
@@ -369,6 +428,11 @@
      "o-co-pytaja"
     ],
     "opis": "Iloraz potęg to nie iloraz wykładników; pytanie o 'ile razy', a nie 'o ile'"
+   },
+   "trudnosc": {
+    "logit": -9.09,
+    "procent": 0,
+    "procent_etap": 0
    }
   },
   {
@@ -414,6 +478,11 @@
      "warunek-istnienia"
     ],
     "opis": "Odejmowanie godzin i minut przez pełną godzinę; układ 02:70 nie jest godziną"
+   },
+   "trudnosc": {
+    "logit": 2.18,
+    "procent": 70,
+    "procent_etap": 71
    }
   },
   {
@@ -451,7 +520,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kwiecień to 4 pełne tygodnie i 2 dni — tylko dwa dni tygodnia trafiają się w nim pięć razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.79,
+    "procent": 75,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q12",
@@ -488,7 +562,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw żółte jako reszta do całości, dopiero potem czerwone jako 60% żółtych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.07,
+    "procent": 21,
+    "procent_etap": 23
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q13",
@@ -532,7 +611,18 @@
      "kierunek-relacji"
     ],
     "opis": "'O połowę więcej' to półtora raza, a nie dwa razy; łatwo też odwrócić, kto ma więcej od kogo"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.06,
+    "procent": 21,
+    "procent_etap": 23
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2014_podkarpackie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q14",
@@ -569,7 +659,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 4 borsuki = 6 lisów na 2 borsuki = 3 lisy i podwój drugie zdanie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.91,
+    "procent": 31,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q15",
@@ -607,7 +702,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę ścian, krawędzi i wierzchołków przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.26,
+    "procent": 20,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q16",
@@ -646,7 +746,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "α i β z rysunku są przyległe — połącz ten warunek z różnicą 24°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.7,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q17",
@@ -690,6 +795,11 @@
      "o-co-pytaja"
     ],
     "opis": "Piętrowe sformułowanie 'odwrotność sumy odwrotności': łatwo pominąć ostatnie odwrócenie"
+   },
+   "trudnosc": {
+    "logit": -2.26,
+    "procent": 28,
+    "procent_etap": 30
    }
   },
   {
@@ -728,7 +838,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "okres ma 5 cyfr — licz resztę z dzielenia 142 przez 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.58,
+    "procent": 34,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q19",
@@ -773,6 +888,11 @@
      "znak"
     ],
     "opis": "Cofając się od piątku do wtorku, trzeba odwrócić każdą zmianę, także spadek o 4°C"
+   },
+   "trudnosc": {
+    "logit": -3.11,
+    "procent": 21,
+    "procent_etap": 23
    }
   },
   {
@@ -810,7 +930,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie własności przekątnych i sumę kątów w czworokątach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.05,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q21",
@@ -830,7 +955,12 @@
     "rozwiazanie_html": "<p>Z wzoru na pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow></math> obliczamy sumę podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>100</mn></mrow><mn>15</mn></mfrac><mo>=</mo><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> (cm). Skoro jedna podstawa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> drugiej, dzielimy sumę na 5 równych części: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>:</mo><mn>5</mn><mo>=</mo><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>. Zatem podstawy mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mn>8</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mn>5</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> cm.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za obliczenie sumy podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>; 1 pkt za obliczenie długości jednej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>; 1 pkt za obliczenie długości podstaw (8 cm i 5⅓ cm).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.54,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q22",
@@ -849,7 +979,18 @@
     "rozwiazanie_html": "<p>Podwajając pierwszy zakup, 12 zeszytów i 10 długopisów kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>15,20</mn><mo>=</mo><mn>30,40</mn></mrow></math> zł. Porównując z drugim zakupem (12 zeszytów i 7 długopisów za 25,60 zł), 3 długopisy kosztują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30,40</mn><mo>−</mo><mn>25,60</mn><mo>=</mo><mn>4,80</mn></mrow></math> zł, więc jeden długopis kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4,80</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>1,60</mn></mrow></math> zł. Z pierwszego zakupu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>1,60</mn><mo>=</mo><mn>8</mn></mrow></math> zł to koszt długopisów, więc 6 zeszytów kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15,20</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>7,20</mn></mrow></math> zł, a jeden zeszyt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,20</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,20</mn></mrow></math> zł. Odpowiedź: zeszyt kosztował 1,20 zł, a długopis 1,60 zł.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za obliczenie różnicy kosztu (4,80 zł); 1 pkt za obliczenie ceny długopisu (1,60 zł); 1 pkt za obliczenie ceny zeszytu (1,20 zł).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.88,
+    "procent": 40,
+    "procent_etap": 42
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2014_podkarpackie_q23",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q23",
@@ -868,7 +1009,12 @@
     "rozwiazanie_html": "<p>Zapas owsa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>120</mn><mo>=</mo><mn>4800</mn></mrow></math> kg.</p><p><strong>Wersja I</strong> (o 1 kg więcej dostaje każdy z 8 koni, tj. po 6 kg): zapas wystarczy na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4800</mn><mo>:</mo><mo>(</mo><mn>8</mn><mo>·</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>4800</mn><mo>:</mo><mn>48</mn><mo>=</mo><mn>100</mn></mrow></math> dni.</p><p><strong>Wersja II</strong> (o 1 kg więcej dostaje tylko jeden koń, dzienne zużycie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>5</mn><mo>+</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>41</mn></mrow></math> kg): zapas wystarczy na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4800</mn><mo>:</mo><mn>41</mn><mo>≈</mo><mn>117</mn></mrow></math> dni.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za obliczenie zapasu owsa (4800 kg); 1 pkt za obliczenie liczby dni (100 lub 117 — obie wersje uznawane).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.73,
+    "procent": 56,
+    "procent_etap": 58
+   }
   },
   {
    "id": "rejonowy_2015_podlaskie_sp_q24",
@@ -895,6 +1041,11 @@
      "szczegol-bryly"
     ],
     "opis": "Kwadraty wycina się z obu końców każdego boku, więc każdy wymiar dna maleje o dwa boki kwadratu"
+   },
+   "trudnosc": {
+    "logit": -1.14,
+    "procent": 38,
+    "procent_etap": 40
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2026_opolskie_q1",
@@ -41,7 +42,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "45 = 9 · 5 — wystarczy spojrzeć na ostatnią cyfrę i na sumę cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.07,
+    "procent": 39,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2026_opolskie_q2",
@@ -83,6 +89,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "„Na pewno” wymaga każdego n; pierwsze sprawdzone przypadki dają liczby podzielne przez 4"
+   },
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 48
    }
   },
   {
@@ -126,6 +137,11 @@
      "znak"
     ],
     "opis": "Pierwiastek z kwadratu to wartość bezwzględna; wyrażenie w nawiasie jest ujemne"
+   },
+   "trudnosc": {
+    "logit": 4.2,
+    "procent": 84,
+    "procent_etap": 79
    }
   },
   {
@@ -168,6 +184,11 @@
      "inne:kolejnosc-wyboru-cyfr"
     ],
     "opis": "Cyfra setek nie może być zerem; przy nieparzystych trzeba zacząć wybór od cyfry jedności"
+   },
+   "trudnosc": {
+    "logit": 5.94,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -208,6 +229,11 @@
      "inne:krawedzie-siatki-vs-bryly"
     ],
     "opis": "Siatka ma więcej odcinków niż bryła krawędzi; krawędź bryły to połowa boku siatki"
+   },
+   "trudnosc": {
+    "logit": 5.94,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -236,6 +262,11 @@
      "procent-podstawa"
     ],
     "opis": "Po suszeniu zmienia się masa całych jabłek, więc procent liczymy od nowej masy"
+   },
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 66
    }
   },
   {
@@ -265,6 +296,11 @@
      "kierunek-relacji"
     ],
     "opis": "Iwona ma mieć dwa razy więcej lat, niż Janusz ma TERAZ, a nie niż będzie miał wtedy"
+   },
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 66
    }
   },
   {
@@ -294,6 +330,11 @@
      "inne:roznica-czasow-jazdy"
     ],
     "opis": "Seat wyjechał później i przyjechał wcześniej; różnica czasów jazdy to nie same 16 minut"
+   },
+   "trudnosc": {
+    "logit": 6.64,
+    "procent": 96,
+    "procent_etap": 93
    }
   },
   {
@@ -316,7 +357,12 @@
     "rozwiazanie_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leżą na większym okręgu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży na mniejszym okręgu o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ASB</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> (kąt oparty na średnicy). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math>, a promień mniejszego koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Część wspólna składa się z połowy mniejszego koła oraz wycinka większego koła o kącie 90° pomniejszonego o trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASB</mi></math>. Połowa mniejszego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>π</mi></mrow></math>. Ćwiartka większego koła pomniejszona o trójkąt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>16</mn><mi>π</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>4</mn><mi>π</mi><mo>−</mo><mn>8</mn></mrow></math>. Razem pole części wspólnej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>π</mi><mo>+</mo><mn>4</mn><mi>π</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>8</mn><mo>(</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> cm².</p>",
     "punktacja_html": "<p>Punktacja: 5 pkt za poprawne pole części wspólnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>(</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> cm²; 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za obliczenie pól wszystkich elementów; 2 pkt za obliczenie pola jednej figury (połowy mniejszego koła, ćwiartki większego koła, trójkąta); 1 pkt za obliczenie promienia mniejszego koła.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.02,
+    "procent": 98,
+    "procent_etap": 98
+   }
   },
   {
    "id": "wojewodzki_2026_opolskie_q10",
@@ -337,7 +383,12 @@
     "rozwiazanie_html": "<p>Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn></mrow></math>, a z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>30</mn><mn>2</mn></msup><mo>−</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>675</mn></msqrt><mo>=</mo><mn>15</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Ponieważ kąt przy przekątnej wynosi 30°, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACK</mi></math> z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> jest równoramienny. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></mrow></math>; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DK</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>x</mi></mrow></math>, a z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADK</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACK</mi></math> opuszczona na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KC</mi></math> równa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>15</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACK</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>15</mn><mo>=</mo><mn>75</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 5 pkt za obliczenie pola trójkąta (75√3); 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za zauważenie, że trójkąt ACK jest równoramienny, i wyznaczenie odpowiednich odcinków; 2 pkt za wyznaczenie kątów w trójkątach prostokątnych; 1 pkt za wykonanie rysunku.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.5,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2026_opolskie_q11",
@@ -364,6 +415,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, o ile czasu przyspieszy napełnianie, a nie ile ono potrwa z dwoma wężami"
+   },
+   "trudnosc": {
+    "logit": 6.89,
+    "procent": 96,
+    "procent_etap": 94
    }
   }
  ]

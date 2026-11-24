@@ -8,6 +8,7 @@
  "liczba_zadan": 25,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_lubuskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_lubuskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2026_lubuskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień na cyfry arabskie tylko najmniejszą i największą z tych liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.15,
+    "procent": 29,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj najpierw znaki wyników, dopiero potem ich wielkości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.81,
+    "procent": 24,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q3",
@@ -117,7 +128,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Obliczamy składniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>2</mn><mo>,</mo><mn>2</mn><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>:</mo><mn>0,(3)</mn><mo>=</mo><mn>6</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mn>2,5</mn><mo>:</mo><mn>3</mn><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></math>.</p><p>Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>−</mo><mn>2</mn><mo>+</mo><mn>6</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mn>8</mn><mfrac><mn>2</mn><mn>9</mn></mfrac></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.59,
+    "procent": 73,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q4",
@@ -154,7 +170,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz obu podatków osobno — wystarczy podatek od różnicy zarobków",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.76,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q5",
@@ -191,7 +212,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 3, a potem podziel przez ab",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.88,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q6",
@@ -235,6 +261,11 @@
      "konwencja"
     ],
     "opis": "Czwarta część potęgi: dzieli się wartość, a nie podstawę"
+   },
+   "trudnosc": {
+    "logit": -2.38,
+    "procent": 27,
+    "procent_etap": 28
    }
   },
   {
@@ -280,6 +311,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwyżki procentowe dwóch wymiarów mnożą się, a nie dodają"
+   },
+   "trudnosc": {
+    "logit": -4.71,
+    "procent": 10,
+    "procent_etap": 12
    }
   },
   {
@@ -325,7 +361,22 @@
      "o-co-pytaja"
     ],
     "opis": "Który kąt jest 4/5 którego; łatwo wyliczyć kąt przyległy albo wziąć 4/5 ze 180°"
-   }
+   },
+   "trudnosc": {
+    "logit": -4.5,
+    "procent": 11,
+    "procent_etap": 13
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_malopolskie_q5",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "szkolny_2022_lodzkie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2026_lubuskie_q9",
@@ -364,7 +415,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup ma 3 razy tyle krawędzi, ile boków ma jego podstawa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.02,
+    "procent": 14,
+    "procent_etap": 16
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_podkarpackie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2026_lubuskie_q10",
@@ -401,7 +463,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień cały czas treningu na minuty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.67,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q11",
@@ -439,7 +506,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczby wszystkich owoców przez liczbę pomarańczy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.07,
+    "procent": 29,
+    "procent_etap": 31
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q12",
@@ -476,7 +548,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wybieraj zostawiane cyfry od lewej — każda ma być jak najmniejsza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.49,
+    "procent": 54,
+    "procent_etap": 56
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_slaskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2026_lubuskie_q13",
@@ -513,7 +596,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz od środka i zapisuj wszystko jako potęgi dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.49,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q14",
@@ -550,7 +638,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 0,4 jako 4/10, zanim podniesiesz do piątej potęgi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.0,
+    "procent": 39,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q15",
@@ -588,7 +681,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "boki rombu są promieniami, a przekątna SB też — szukaj trójkątów równobocznych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.94,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q16",
@@ -626,7 +724,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij od prostokąta dwa narożne trójkąty przy pominiętych wierzchołkach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.18,
+    "procent": 38,
+    "procent_etap": 39
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q17",
@@ -662,7 +765,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyobraź sobie kwadrat 6×6 z doklejonym trójkątem o przyprostokątnych 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.9,
+    "procent": 58,
+    "procent_etap": 60
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q18",
@@ -697,7 +805,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "okres ma 6 cyfr — dziel numer pozycji przez 6 i patrz na resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.07,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q19",
@@ -739,6 +852,11 @@
      "o-co-pytaja"
     ],
     "opis": "Stosunek wieku dotyczy chwili sprzed 4 lat; trzeba przesunąć wiek obojga do teraz"
+   },
+   "trudnosc": {
+    "logit": 0.81,
+    "procent": 57,
+    "procent_etap": 58
    }
   },
   {
@@ -775,7 +893,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz czynniki przed pierwiastki, zanim cokolwiek dodasz czy pomnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.05,
+    "procent": 60,
+    "procent_etap": 61
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q21",
@@ -819,6 +942,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Ułamek b wygląda na ułamek a pomnożony przez 2, ale najgłębszy poziom 2/2 to 1, nie 2"
+   },
+   "trudnosc": {
+    "logit": 3.69,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -865,6 +993,11 @@
      "jednostki"
     ],
     "opis": "Przekątne w różnych jednostkach, a warianty w cm², dm² i m² — każdy trzeba przeliczyć osobno"
+   },
+   "trudnosc": {
+    "logit": 2.82,
+    "procent": 75,
+    "procent_etap": 77
    }
   },
   {
@@ -903,7 +1036,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cztery jednakowe składniki to mnożenie przez 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.83,
+    "procent": 57,
+    "procent_etap": 59
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q24",
@@ -926,7 +1064,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "AK = AD oraz KB = BC, więc po obu stronach powstają trójkąty równoramienne",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.25,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2026_lubuskie_q25",
@@ -948,7 +1091,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "jedna godzina to łuk 30°, a kąt wpisany to połowa swojego łuku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.62,
+    "procent": 74,
+    "procent_etap": 75
+   }
   }
  ]
 }

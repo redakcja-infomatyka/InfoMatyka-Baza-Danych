@@ -8,6 +8,7 @@
  "liczba_zadan": 21,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2013_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2013_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2013_podkarpackie_q1",
@@ -51,6 +52,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Palindrom nie musi mieć osi symetrii, a napis może mieć oś poziomą zamiast pionowej"
+   },
+   "trudnosc": {
+    "logit": -1.97,
+    "procent": 30,
+    "procent_etap": 24
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz każde działanie i porównuj odległości od 5, a nie same wyniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.12,
+    "procent": 70,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q3",
@@ -125,7 +136,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel objętość przez objętość jednego sześcianu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.77,
+    "procent": 10,
+    "procent_etap": 7
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2015_podlaskie_sp_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q4",
@@ -167,6 +189,11 @@
      "inne:czytanie-treści"
     ],
     "opis": "Wysokość na planie to 3 cm plus 2/5 całości — łatwo źle odczytać zdanie; skala wymaga tych samych jednostek"
+   },
+   "trudnosc": {
+    "logit": 3.26,
+    "procent": 78,
+    "procent_etap": 72
    }
   },
   {
@@ -214,6 +241,11 @@
      "jednostki"
     ],
     "opis": "Niewiadoma wychodzi w cm krótszej części, a pytają o dłuższą — ta sama liczba, ale w dm"
+   },
+   "trudnosc": {
+    "logit": 0.07,
+    "procent": 50,
+    "procent_etap": 43
    }
   },
   {
@@ -254,7 +286,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmij od pola dużego kwadratu cztery narożne trójkąty prostokątne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.54,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q7",
@@ -292,7 +329,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odwrotność 1¼ zapisz jako ułamek zwykły, a potem cofnij dzielenie przez −3",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q8",
@@ -336,6 +378,11 @@
      "plot-i-slupki"
     ],
     "opis": "Trzeba policzyć, ile dni minęło od 6. do 10. dnia, czyli ile razy dzielono przez 3"
+   },
+   "trudnosc": {
+    "logit": 1.27,
+    "procent": 62,
+    "procent_etap": 54
    }
   },
   {
@@ -374,7 +421,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz najmniejszy kąt przez x, drugi to 2x — skorzystaj z sumy kątów trójkąta",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.24,
+    "procent": 4,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q10",
@@ -413,7 +465,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 432 przez 1,8, żeby dostać większy teren, i dopiero potem sprawdź różnicę po sprzedaży",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.09,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q11",
@@ -454,7 +511,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kąty niezaznaczone są wierzchołkowe z kątami środkowego trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q12",
@@ -493,7 +555,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość 2 cm skraca się z połową sumy podstaw — górną podstawę wyznacz z procentu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.51,
+    "procent": 54,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q13",
@@ -530,7 +597,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz przed nawias wspólny czynnik 723·725",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.07,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q14",
@@ -553,7 +625,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj obwody obu trójkątów — przekątna wejdzie do sumy dwa razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q15",
@@ -581,6 +658,11 @@
      "o-co-pytaja"
     ],
     "opis": "Czworokąt daje kąt rozwarty między prostymi, a pytają o kąt ostry"
+   },
+   "trudnosc": {
+    "logit": 1.27,
+    "procent": 62,
+    "procent_etap": 54
    }
   },
   {
@@ -604,7 +686,22 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, ile złota dałby sam drugi stop, i o ile podnosi je każdy kilogram pierwszego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.39,
+    "procent": 72,
+    "procent_etap": 65
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2017-2018_pomorskie_q6",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2022-2023_zachodniopomorskie_q15",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q17",
@@ -625,7 +722,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie liczby to wielokrotności 21 — wypisz pary sumujące się do 105 i sprawdź ich NWD",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.88,
+    "procent": 58,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q18",
@@ -656,6 +758,11 @@
      "procent-podstawa"
     ],
     "opis": "Prędkość o 8% większa nie oznacza czasu o 8% krótszego"
+   },
+   "trudnosc": {
+    "logit": 3.94,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -679,7 +786,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "śledź, jaka część pszenicy zostaje po każdym etapie, i przyrównaj ją do 180 kg",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.01,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q20",
@@ -701,7 +813,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, w jakich odstępach wielokrotności 25 pojawiają się wśród wielokrotności 5",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.8,
+    "procent": 67,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2013_podkarpackie_q21",
@@ -728,6 +845,11 @@
      "procent-podstawa"
     ],
     "opis": "Odtworzenie wymiaru sprzed obniżki: procent liczy się od starej wartości, nie od nowej"
+   },
+   "trudnosc": {
+    "logit": 2.61,
+    "procent": 74,
+    "procent_etap": 66
    }
   }
  ]

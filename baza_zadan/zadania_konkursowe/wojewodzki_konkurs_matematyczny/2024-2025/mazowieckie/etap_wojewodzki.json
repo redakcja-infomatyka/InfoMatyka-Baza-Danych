@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025_mazowieckie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź wśród czterech temperatur jedyną parę różniącą się o 5°C",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.35,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2025_mazowieckie_q2",
@@ -76,7 +82,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz masę bochenka m — warunek daje równanie 24m = 6 : m, potem sprawdź oba zdania",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.46,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2025_mazowieckie_q3",
@@ -98,7 +109,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Długości wstążek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>w</mi><mi>m</mi></msub><mo>=</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>b</mi><mo>+</mo><mn>8</mn><mi>c</mi></mrow></math> (różowa) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>w</mi><mi>t</mi></msub><mo>=</mo><mn>6</mn><mi>a</mi><mo>+</mo><mn>6</mn><mi>b</mi><mo>+</mo><mn>4</mn><mi>c</mi></mrow></math> (niebieska). Ich różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>w</mi><mi>t</mi></msub><mo>−</mo><msub><mi>w</mi><mi>m</mi></msub><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>−</mo><mn>4</mn><mi>c</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>−</mo><mn>4</mn><mi>c</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, ponieważ z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>&gt;</mo><mn>2</mn><mi>c</mi></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>&gt;</mo><mn>4</mn><mi>c</mi></mrow></math>. Zatem Asia zużyła więcej niebieskiej wstążki (na prezent dla taty).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.39,
+    "procent": 86,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2025_mazowieckie_q4",
@@ -119,7 +135,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech kolejne cyfry utworzonej liczby to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></math>. Wtedy ta liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100000</mn><mi>a</mi><mo>+</mo><mn>10000</mn><mi>b</mi><mo>+</mo><mn>1000</mn><mi>c</mi><mo>+</mo><mn>100</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>100100</mn><mi>a</mi><mo>+</mo><mn>10010</mn><mi>b</mi><mo>+</mo><mn>1001</mn><mi>c</mi><mo>=</mo><mn>1001</mn><mo>(</mo><mn>100</mn><mi>a</mi><mo>+</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1001</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>·</mo><mn>13</mn></mrow></math>, każda taka liczba jest podzielna przez trzy kolejne liczby pierwsze 7, 11 i 13.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2025_mazowieckie_q5",
@@ -139,7 +160,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CAB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CAD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równoramienny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>α</mi></mrow></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> są równe i naprzemianległe, więc odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe, zatem czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest trapezem. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> mają wspólną podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> i równe wysokości (odległość równoległych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADC</mi></msub><mo>=</mo><msub><mi>P</mi><mi>BDC</mi></msub></mrow></math>. Odejmując od obu pól wspólne pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DOC</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AOD</mi></msub><mo>=</mo><msub><mi>P</mi><mi>BOC</mi></msub></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.76,
+    "procent": 92,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2025_mazowieckie_q6",
@@ -166,6 +192,11 @@
      "rysunek"
     ],
     "opis": "Siatka wykresu: na godzinę przypadają trzy kratki (po 20 min), a nie dwie; łatwo źle odczytać punkty załamania"
+   },
+   "trudnosc": {
+    "logit": 4.86,
+    "procent": 88,
+    "procent_etap": 84
    }
   },
   {
@@ -192,6 +223,11 @@
      "o-co-pytaja"
     ],
     "opis": "W 3. miesiącu narzut liczony od ceny hurtowej, nie rynkowej; pytają o zarobek (zysk), nie o utarg"
+   },
+   "trudnosc": {
+    "logit": 3.98,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -221,6 +257,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odległość 4 cm mierzona od podstawy AB, nie od wierzchołka C; pola skalują się kwadratem skali"
+   },
+   "trudnosc": {
+    "logit": 3.59,
+    "procent": 81,
+    "procent_etap": 74
    }
   },
   {
@@ -248,6 +289,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Dane w dm, porównanie z 6 m; kąt 30° może leżeć przy podstawie lub przy wierzchołku — dwa ostrosłupy"
+   },
+   "trudnosc": {
+    "logit": 8.54,
+    "procent": 99,
+    "procent_etap": 98
    }
   }
  ]

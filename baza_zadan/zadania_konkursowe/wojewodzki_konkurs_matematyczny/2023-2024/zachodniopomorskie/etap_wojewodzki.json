@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 36,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q1",
@@ -52,6 +53,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kolejne liczby PODZIELNE PRZEZ 3, a nie trzy kolejne liczby, z których pierwsza dzieli się przez 3"
+   },
+   "trudnosc": {
+    "logit": -1.11,
+    "procent": 38,
+    "procent_etap": 31
    }
   },
   {
@@ -96,6 +102,11 @@
      "konwencja"
     ],
     "opis": "Po wyłączeniu 10^10 zostaje 5^3 = 125, czyli trzy cyfry, nie jedna"
+   },
+   "trudnosc": {
+    "logit": -0.44,
+    "procent": 44,
+    "procent_etap": 37
    }
   },
   {
@@ -134,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź znak każdego wyrażenia pod modułem w podanym przedziale i opuść moduły",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.11,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q4",
@@ -179,6 +195,11 @@
      "kierunek-relacji"
     ],
     "opis": "Skala nowego kwadratu DO kwadratu ABCD — łatwo odwrócić stosunek"
+   },
+   "trudnosc": {
+    "logit": -1.64,
+    "procent": 33,
+    "procent_etap": 27
    }
   },
   {
@@ -226,6 +247,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "XY może być bokiem albo przekątną; punkt (2,−2) daje kąt prosty, ale nie kwadrat"
+   },
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 84
    }
   },
   {
@@ -272,6 +298,11 @@
      "jednostki"
     ],
     "opis": "Litry na metr kwadratowy to wysokość opadu; wielkość naczynia jest bez znaczenia"
+   },
+   "trudnosc": {
+    "logit": 3.53,
+    "procent": 80,
+    "procent_etap": 74
    }
   },
   {
@@ -307,7 +338,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Brak czynnika 17 daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&lt;</mo><mn>17</mn></math>, a obecność 13 daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>≥</mo><mn>13</mn></math>. Sprawdzając n=13,14,15,16, tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>16</mn></math> daje w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> wykładnik dwójki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>, zgodny z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.35,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q8",
@@ -345,7 +381,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamiast liczyć czworościan wprost, odetnij od sześcianu cztery narożne ostrosłupy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.85,
+    "procent": 75,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q9",
@@ -383,7 +424,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz najmniejszą z tych potęg czwórki przed nawias",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.91,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q10",
@@ -421,7 +467,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pomnóż najpierw same podstawy — kryje się tam wzór (a−b)(a+b)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.12,
+    "procent": 38,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q11",
@@ -443,7 +494,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz obie sumy zadań: 7·12 i 5·7 — różnica przypada na weekend",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q12",
@@ -464,7 +520,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfry jedności potęg siódemki powtarzają się co cztery",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.25,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q13",
@@ -485,7 +546,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> podstawy dzieli część wspólną na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> oraz wycinek koła o kącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>. Pole trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac></math>. Pole wycinka koła o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>w</mi></msub><mo>=</mo><mfrac><mrow><mn>60</mn><mo>°</mo></mrow><mrow><mn>360</mn><mo>°</mo></mrow></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac></math>. Pole części wspólnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>16</mn></mfrac><mo>+</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>24</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>24</mn></mfrac><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mi>π</mi><mo>)</mo></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.71,
+    "procent": 92,
+    "procent_etap": 89
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q14",
@@ -505,7 +571,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz c z obu równań i porównaj otrzymane wyrażenia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q15",
@@ -532,6 +603,11 @@
      "procent-podstawa"
     ],
     "opis": "Dwa razy „o 60% mniej” i pytanie o drożej: zmienia się podstawa procentu"
+   },
+   "trudnosc": {
+    "logit": 4.01,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -559,6 +635,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "„Znajdź liczbę” w liczbie pojedynczej, a rozwiązań jest więcej niż jedno"
+   },
+   "trudnosc": {
+    "logit": 4.5,
+    "procent": 86,
+    "procent_etap": 82
    }
   },
   {
@@ -579,7 +660,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę bezpłatnego bagażu przewożonego przez jedną osobę. Nadbagaż dwóch osób to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>94</mn><mo>−</mo><mn>2</mn><mi>x</mi></math>, a jednej osoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>94</mn><mo>−</mo><mi>x</mi></math>. Cena 1 kg nadbagażu jest stała, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>20</mn></mrow><mrow><mn>94</mn><mo>−</mo><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>135</mn><mrow><mn>94</mn><mo>−</mo><mi>x</mi></mrow></mfrac></math>. Rozwiązując równanie, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math>. Cena za 1 kg nadbagażu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mo>+</mo><mn>20</mn></mrow><mrow><mn>94</mn><mo>−</mo><mn>80</mn></mrow></mfrac><mo>=</mo><mn>2,5</mn></math>. Pasażer może bezpłatnie przewieźć 40 kg bagażu, a za 1 kg nadbagażu musi zapłacić 2,50 zł.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.21,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2023-2024_zachodniopomorskie_q18",
@@ -607,6 +693,11 @@
      "inne:stosunek-podzialu"
     ],
     "opis": "Podział boku w stosunku 1:3 to części a/4 i 3a/4, a nie a/3 i 2a/3"
+   },
+   "trudnosc": {
+    "logit": 2.58,
+    "procent": 73,
+    "procent_etap": 66
    }
   }
  ]

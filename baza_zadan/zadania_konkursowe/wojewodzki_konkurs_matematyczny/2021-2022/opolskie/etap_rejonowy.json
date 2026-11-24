@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2022_opolskie_q1",
@@ -48,6 +49,11 @@
      "procent-podstawa"
     ],
     "opis": "Różnica udziałów w % całej działki to punkty procentowe, a o ile procent większe liczy się od drugiej wielkości"
+   },
+   "trudnosc": {
+    "logit": 2.51,
+    "procent": 73,
+    "procent_etap": 74
    }
   },
   {
@@ -80,7 +86,12 @@
     "rozwiazanie_html": "<p>Umieśćmy sześcian tak, by jego wierzchołki miały współrzędne ze zbioru {0, 4}. Środek każdej krawędzi ma jedną współrzędną równą 2, a dwie pozostałe równe 0 lub 4. Kwadrat odległości między środkami dwóch krawędzi może przyjmować wartości 0, 8, 16, 24 lub 32.</p><ul><li>Dla krawędzi prostopadłych wychodzących z jednego wierzchołka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> — długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math> jest możliwa — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msqrt><mn>20</mn></msqrt></math> — takiej odległości nie da się uzyskać (20 nie należy do zbioru możliwych kwadratów odległości) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> — uzyskujemy je dla środków krawędzi o prostopadłych kierunkach, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> — <strong>TAK</strong>.</li></ul>",
     "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.12,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2022_opolskie_q3",
@@ -115,7 +126,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfry jedności potęg powtarzają się co 4 — sprawdź resztę wykładnika z dzielenia przez 4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.64,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2022_opolskie_q4",
@@ -151,7 +167,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstawy są o 1 dłuższa i o 1 krótsza od wysokości — uśrednij je zamiast rozwijać nawiasy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2022_opolskie_q5",
@@ -193,6 +214,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "„Zawsze” kontra „może”: suma niewymiernych wygląda na niewymierną, a bywa wymierna"
+   },
+   "trudnosc": {
+    "logit": -1.32,
+    "procent": 36,
+    "procent_etap": 38
    }
   },
   {
@@ -222,6 +248,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Z warunku a+b=6 łatwo wypisać tylko pary cyfr niezerowych i pominąć cyfrę jedności 0"
+   },
+   "trudnosc": {
+    "logit": 4.73,
+    "procent": 88,
+    "procent_etap": 88
    }
   },
   {
@@ -249,6 +280,11 @@
      "procent-podstawa"
     ],
     "opis": "„3/5 pozostałych” liczy się od tego, co zostało po Kasi razem z jej dodatkowymi 2 sztukami"
+   },
+   "trudnosc": {
+    "logit": 3.29,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -279,6 +315,11 @@
      "jednostki"
     ],
     "opis": "Czasy podane w minutach, a różnica prędkości w km/h — trzeba zamienić minuty na godziny"
+   },
+   "trudnosc": {
+    "logit": 0.48,
+    "procent": 54,
+    "procent_etap": 56
    }
   },
   {
@@ -301,7 +342,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok·wysokość daje to samo pole dla obu par — stąd stosunek boków, a obwód daje ich sumę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.73,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2022_opolskie_q10",
@@ -325,7 +371,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z wysokości wyznacz bok i pole trójkąta — przy mnożeniu przez stosunek pierwiastki się zniosą",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.99,
+    "procent": 68,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2022_opolskie_q11",
@@ -349,7 +400,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj różnicy kwadratów zamiast rozwijać (a−3)²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 28
+   }
   }
  ]
 }

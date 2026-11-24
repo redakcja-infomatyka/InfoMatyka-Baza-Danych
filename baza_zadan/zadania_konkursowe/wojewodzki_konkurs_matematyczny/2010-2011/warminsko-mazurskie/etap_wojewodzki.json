@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2010-2011_warminsko-mazurskie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q1",
@@ -52,6 +53,11 @@
      "zbior-liczb"
     ],
     "opis": "Najmniejsza liczba pierwsza: czy 1 jest liczbą pierwszą?"
+   },
+   "trudnosc": {
+    "logit": -6.23,
+    "procent": 4,
+    "procent_etap": 3
    }
   },
   {
@@ -90,7 +96,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "różnica obu ważeń to masa połowy mleka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.76,
+    "procent": 10,
+    "procent_etap": 7
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2009-2010_warminsko-mazurskie_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q3",
@@ -128,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień na arabskie i sprawdź dwie ostatnie cyfry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.28,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q4",
@@ -172,6 +194,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę przeciwną do różnicy, nie o samą różnicę"
+   },
+   "trudnosc": {
+    "logit": -3.44,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -209,7 +236,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt przyległy dopełnia do kąta półpełnego",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.88,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q6",
@@ -246,7 +278,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj wyrazy od końców",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.37,
+    "procent": 19,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q7",
@@ -284,7 +321,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z liczby wierzchołków odczytaj, ile boków ma podstawa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.8,
+    "procent": 16,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q8",
@@ -321,7 +363,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień litr na centymetry sześcienne i znajdź krawędź",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.47,
+    "procent": 18,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q9",
@@ -358,7 +405,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź każde zdanie z definicjami figur",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.91,
+    "procent": 5,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q10",
@@ -395,7 +447,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj tylko Elę i Stasia: o ile wcześniej przyszła i o ile później wyszła",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 70
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2012_podkarpackie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q11",
@@ -439,6 +502,11 @@
      "plot-i-slupki"
     ],
     "opis": "Sadzonki na obu końcach żywopłotu: liczba sadzonek a liczba odstępów"
+   },
+   "trudnosc": {
+    "logit": 0.46,
+    "procent": 54,
+    "procent_etap": 47
    }
   },
   {
@@ -483,6 +551,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba cięć a liczba otrzymanych części deski"
+   },
+   "trudnosc": {
+    "logit": -0.36,
+    "procent": 46,
+    "procent_etap": 38
    }
   },
   {
@@ -527,6 +600,11 @@
      "konwencja"
     ],
     "opis": "18 dziesiątek i 13 setek to więcej niż jedna cyfra rzędu — nie wolno dopisywać cyfr obok siebie"
+   },
+   "trudnosc": {
+    "logit": -1.05,
+    "procent": 39,
+    "procent_etap": 32
    }
   },
   {
@@ -564,7 +642,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ile sekund ma godzina i na końcu metry na kilometry",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.45,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q15",
@@ -609,6 +692,11 @@
      "o-co-pytaja"
     ],
     "opis": "Dwie skale, średnica vs promień, a wynik podany w innej jednostce niż naturalnie wychodzi"
+   },
+   "trudnosc": {
+    "logit": 2.63,
+    "procent": 74,
+    "procent_etap": 67
    }
   },
   {
@@ -634,6 +722,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ile jest stron jedno-, dwu- i trzycyfrowych — liczenie przedziałów włącznie"
+   },
+   "trudnosc": {
+    "logit": 5.02,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -655,7 +748,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z kosztu policz obwód, a hektar to 10000 m²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.55,
+    "procent": 34,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q18",
@@ -682,6 +780,11 @@
      "jednostki"
     ],
     "opis": "Wymiary podstawy w dm i cm, wzrost poziomu w mm — trzeba ujednolicić"
+   },
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 38
    }
   },
   {
@@ -701,7 +804,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Liczba postaci 1&#95;2&#95; podzielna przez 15 (przez 3 i 5). Cyfra jedności 0 lub 5; suma cyfr 3+setki+jedności podzielna przez 3. Dla 0: setki 0,3,6,9 → 1020,1320,1620,1920. Dla 5: setki 1,4,7 → 1125,1425,1725. Razem 7 liczb.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.77,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2010-2011_warminsko-mazurskie_q20",
@@ -727,6 +835,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Kilka kolejnych liczb symetrycznych mieści się w limicie prędkości — trzeba podać wszystkie"
+   },
+   "trudnosc": {
+    "logit": 8.27,
+    "procent": 99,
+    "procent_etap": 98
    }
   }
  ]

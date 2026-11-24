@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019-2020_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019-2020_slaskie_q1",
@@ -37,6 +38,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "h) 240 to drzewa pozostałe, nie wszystkie; r) 1 nie jest pierwsza, a 49 tylko wygląda na pierwszą"
+   },
+   "trudnosc": {
+    "logit": 8.05,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -82,6 +88,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kąt między ramionami jest MNIEJSZY od kąta przy podstawie, łatwo odwrócić relację"
+   },
+   "trudnosc": {
+    "logit": -4.53,
+    "procent": 11,
+    "procent_etap": 13
    }
   },
   {
@@ -126,6 +137,11 @@
      "o-co-pytaja"
     ],
     "opis": "Szukany jest środek odcinka na osi, a nie połowa odległości między liczbami"
+   },
+   "trudnosc": {
+    "logit": -5.84,
+    "procent": 6,
+    "procent_etap": 6
    }
   },
   {
@@ -172,6 +188,11 @@
      "inne:skala-pola"
     ],
     "opis": "Odpowiedzi w arach i hektarach; skala dotyczy długości, pole trzeba przeliczyć na a/ha"
+   },
+   "trudnosc": {
+    "logit": -0.8,
+    "procent": 41,
+    "procent_etap": 43
    }
   },
   {
@@ -217,6 +238,11 @@
      "inne:polowy-przekatnych"
     ],
     "opis": "Przyprostokątne trójkąta w rombie to POŁOWY przekątnych, nie całe przekątne"
+   },
+   "trudnosc": {
+    "logit": -5.62,
+    "procent": 6,
+    "procent_etap": 7
    }
   },
   {
@@ -261,6 +287,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielność przez 12 to przez 3 i 4, nie przez 2 i 6; sama suma cyfr nie wystarcza"
+   },
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 36
    }
   },
   {
@@ -306,6 +337,11 @@
      "inne:mediana-bez-sortowania"
     ],
     "opis": "Medianę liczy się po uporządkowaniu danych, nie ze środka listy w podanej kolejności"
+   },
+   "trudnosc": {
+    "logit": -1.3,
+    "procent": 37,
+    "procent_etap": 38
    }
   },
   {
@@ -344,7 +380,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w figurze podobnej wszystkie długości zmieniają się w tej samej skali",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.39,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q9",
@@ -384,7 +425,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole trójkąta o boku k razy mniejszym jest k² razy mniejsze. Niech pole figury (1) to A; zacieniowany trójkąt na (2) ma pole A/4.</p><ol><li>Na (4) zacieniowane pola to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>A</mi><mn>4</mn></mfrac><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><mi>A</mi><mn>16</mn></mfrac><mo>+</mo><mn>9</mn><mo>·</mo><mfrac><mi>A</mi><mn>64</mn></mfrac><mo>=</mo><mfrac><mrow><mn>37</mn><mi>A</mi></mrow><mn>64</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>37</mn><mn>16</mn></mfrac></math> razy pole z (2), nie 4 razy: F.</li><li>Najmniejsze trójkąty na (4) mają bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow></math> boku figury (1): P.</li><li>Konstrukcja zachowuje symetrię trójkąta równobocznego — 3 osie: P.</li><li>Liczba zacieniowanych trójkątów rośnie jak 1, 4, 13, 40 (w kroku dochodzi 3 razy więcej niż poprzednio); w piątej figurze jest 40, nie 94: F.</li></ol>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.37,
+    "procent": 95,
+    "procent_etap": 95
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q10",
@@ -421,7 +467,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw zapis ogólny: n i n + 1 dla kolejnych, 2k + 1 dla nieparzystych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.19,
+    "procent": 61,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q11",
@@ -459,7 +510,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz tych potęg — sprowadź je do wspólnej podstawy 2 albo do wspólnego wykładnika 8",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.77,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q12",
@@ -495,7 +551,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech bok kwadratu ma długość a. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> to pole kwadratu bez trzech trójkątów narożnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>24</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></mrow></math>, a = 8.</p><ol><li>Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFC</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mn>8</mn><mn>2</mn></msup><mn>8</mn></mfrac><mo>=</mo><mn>8</mn></mrow></math>, nie 12: F.</li><li>Bok kwadratu wynosi 8: P.</li><li>EF łączy środki sąsiednich boków, więc jest równoległy do przekątnej BD; przekątne kwadratu AC i BD są prostopadłe, więc AC⊥EF: P.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>8,94</mn></mrow></math>, a średnia boku i przekątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>8</mn><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>9,66</mn></mrow></math> — różne: F.</li></ol>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.29,
+    "procent": 91,
+    "procent_etap": 91
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q13",
@@ -520,7 +581,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok dużego trójkąta dzieli się na x, 10 − 2x, x — zapisz w pamięci oba obwody i porównaj",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.6,
+    "procent": 65,
+    "procent_etap": 67
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q14",
@@ -540,7 +606,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pole każdej ścianki to objętość wody dzielona przez jej wysokość — krawędzie są zbędne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.51,
+    "procent": 80,
+    "procent_etap": 81
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q15",
@@ -560,7 +631,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z danych Kamila policz drogę, z niej czas Jasia — różnicę wyraź w minutach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q16",
@@ -580,7 +656,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Ponieważ w klasie 8a stosunek dziewcząt do chłopców wynosi 3 : 2, liczba wszystkich uczniów tej klasy dzieli się przez 5; analogicznie w klasie 8b (5 : 4) dzieli się przez 9. Liczby pierwsze z przedziału <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>40</mn><mo>,</mo><mn>50</mn><mo>)</mo></mrow></math> to 41, 43 i 47. Analizując możliwe sumy (wielokrotność 5 dla klasy 8a oraz wielokrotność 9 dla klasy 8b), otrzymujemy dwie realizowalne sumy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>43</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>27</mn><mo>=</mo><mn>47</mn></mrow></math>. Ponieważ w klasie 8a jest mniej uczniów niż w klasie 8b, warunki zadania spełnia jedynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>27</mn></mrow></math>. Zatem klasa 8a liczy 20 uczniów, a klasa 8b — 27 uczniów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.69,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2019-2020_slaskie_q17",
@@ -601,7 +682,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> łączy środki boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, jest więc równoległy do przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math> jest połową trójkąta równobocznego o boku 14 cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>14</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>7</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>7</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostokątem, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>14</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>7</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAE</mi></math> jest prosty. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>14</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>7</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>196</mn><mo>+</mo><mn>147</mn><mo>=</mo><mn>343</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>7</mn><msqrt><mn>7</mn></msqrt></mrow></math> cm.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.65,
+    "procent": 87,
+    "procent_etap": 88
+   }
   }
  ]
 }

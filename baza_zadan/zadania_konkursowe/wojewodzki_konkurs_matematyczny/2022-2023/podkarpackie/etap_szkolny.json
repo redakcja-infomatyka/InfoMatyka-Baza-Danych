@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_podkarpackie_q1",
@@ -29,7 +30,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfrą jedności musi być 7, a suma cyfr ma się dzielić przez 9",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.92,
+    "procent": 40,
+    "procent_etap": 47
+   }
   },
   {
    "id": "szkolny_2023_podkarpackie_q2",
@@ -57,6 +63,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ile dziewiątek zostaje przy odejmowaniu 2022 od 10^2022 – łatwo pomylić się o jedną"
+   },
+   "trudnosc": {
+    "logit": 5.21,
+    "procent": 90,
+    "procent_etap": 94
    }
   },
   {
@@ -78,7 +89,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "trzy dzielniki ma tylko kwadrat liczby pierwszej — sprawdź, które takie kwadraty się mieszczą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.16,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2023_podkarpackie_q4",
@@ -100,7 +116,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połowa cięciwy, promień i połowa odcinka między środkami tworzą trójkąt prostokątny",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.34,
+    "procent": 62,
+    "procent_etap": 69
+   }
   },
   {
    "id": "szkolny_2023_podkarpackie_q5",
@@ -129,6 +150,11 @@
      "plot-i-slupki"
     ],
     "opis": "Nierówność ostra na obu końcach i liczenie liczb całkowitych w przedziale – pomyłka o jeden"
+   },
+   "trudnosc": {
+    "logit": 3.76,
+    "procent": 82,
+    "procent_etap": 88
    }
   },
   {
@@ -158,6 +184,11 @@
      "warunek-istnienia"
     ],
     "opis": "Dzielnik musi być większy od reszty – nie każdy dzielnik 1680−217 się nadaje"
+   },
+   "trudnosc": {
+    "logit": 5.27,
+    "procent": 90,
+    "procent_etap": 95
    }
   },
   {
@@ -187,6 +218,11 @@
      "o-co-pytaja"
     ],
     "opis": "Niewiadomą naturalnie jest liczba pięciozłotówek, a pytają o dwuzłotówki"
+   },
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
    }
   },
   {
@@ -208,7 +244,12 @@
     "rozwiazanie_html": "<p>Dłuższe przekątne sześciokąta foremnego przecinają się w środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i dzielą go na sześć trójkątów równobocznych o boku 4 cm. Odległość między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> to długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>, złożonego z dwóch wysokości trójkątów równobocznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>&lt;</mo><mn>8</mn></mrow></math>, odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EM</mi></math> (każdy długości 4 cm, leżące na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>) nachodzą na siebie. Ich część wspólna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>LM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EM</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest prostokątem o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, więc jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>KLMN</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>32</mn><mo>−</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik. Wynik może być przedstawiony w różnej postaci, maksymalną liczbę punktów przyznajemy za wyrażenie nie bardziej skomplikowane niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm² (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mo>−</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm² lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm²). Wynik uznajemy za prawidłowy również jeśli zostanie podany bez jednostki.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np. nie uzasadnił wprost nietrudnego spostrzeżenia na temat położenia figur (np. że kwadraty będą na siebie „nachodzić”), popełnił błąd rachunkowy, który nie miał wpływu na trudność rozumowania (np. błędnie obliczył odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>, ale była ona dłuższa niż 4 cm i krótsza niż 8 cm), albo zapisał prawidłowe wyrażenie arytmetyczne opisujące pole prostokąta, ale nie obliczył jego wartości.</li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np. narysował kwadraty wewnątrz sześciokąta, ale na innych bokach, albo na dobrych bokach, ale na zewnątrz sześciokąta, i prawidłowo rozwiązał zadanie w takiej wersji, albo popełnił jeden błąd obliczeniowy, który wpłynął na trudność zadania (np. obliczył odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> większą niż 8 cm i dalej rozumował poprawnie, zakładając, że kwadraty nie nachodzą na siebie).</li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np. prawidłowo obliczył długość wysokości jednego z trójkątów równobocznych tworzących sześciokąt albo zauważył, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest prostokątem o boku długości 4 cm.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.76,
+    "procent": 96,
+    "procent_etap": 98
+   }
   },
   {
    "id": "szkolny_2023_podkarpackie_q9",
@@ -238,6 +279,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalnie wylicza się pierwotną cenę piłki, a pytają o to, ile zapłacił po obniżce"
+   },
+   "trudnosc": {
+    "logit": 1.57,
+    "procent": 64,
+    "procent_etap": 72
    }
   }
  ]

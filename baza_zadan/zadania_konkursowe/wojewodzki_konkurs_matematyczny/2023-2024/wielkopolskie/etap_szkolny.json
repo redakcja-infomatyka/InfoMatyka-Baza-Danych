@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023-2024_wielkopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z warunku wyznacz zależność między x i y i wstaw ją do drugiego ułamka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q2",
@@ -79,7 +85,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Iloraz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>)</mo><mo>:</mo><mn>0,75</mn><mo>=</mo><mo>−</mo><mfrac><mn>33</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>11</mn><mn>2</mn></mfrac></mrow></math>, podwojony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>11</mn></mrow></math>.</p><p>Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mfrac><mn>33</mn><mn>8</mn></mfrac><mo>)</mo><mo>·</mo><mn>0,75</mn><mo>=</mo><mo>−</mo><mfrac><mn>99</mn><mn>32</mn></mfrac></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>11</mn><mo>−</mo><mo>(</mo><mo>−</mo><mfrac><mn>99</mn><mn>32</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>253</mn><mn>32</mn></mfrac></mrow></math>. Liczba przeciwna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>253</mn><mn>32</mn></mfrac></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.56,
+    "procent": 80,
+    "procent_etap": 87
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q3",
@@ -116,7 +127,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "połącz wyrazy w pary i policz, ile jest takich par",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.21,
+    "procent": 52,
+    "procent_etap": 59
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q4",
@@ -153,7 +169,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel procenty przez siebie i liczby przez siebie, potem pomnóż wyniki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.09,
+    "procent": 29,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q5",
@@ -198,6 +219,11 @@
      "kalendarz-czas"
     ],
     "opis": "Reszta 16 godzin po pełnych dobach przechodzi przez północ, a lipiec i sierpień mają po 31 dni"
+   },
+   "trudnosc": {
+    "logit": 2.71,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -235,7 +261,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj wiek wszystkich sześciu osób, zanim policzysz średnią",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.91,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q7",
@@ -272,7 +303,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kto jechał danym autem, ten na pewno nie jest jego właścicielem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.47,
+    "procent": 72,
+    "procent_etap": 80
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q8",
@@ -317,6 +353,11 @@
      "kwantyfikator"
     ],
     "opis": "Liczby pierwsze ostro MNIEJSZE od x, a x samo jest liczbą pierwszą"
+   },
+   "trudnosc": {
+    "logit": -0.89,
+    "procent": 40,
+    "procent_etap": 47
    }
   },
   {
@@ -355,7 +396,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz wzór na liczbę przekątnych i skróć obie strony przez liczbę boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.03,
+    "procent": 39,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q10",
@@ -396,7 +442,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oba małe trójkąty są równoramienne — wystarczy ci suma kątów przy podstawie KL",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.83,
+    "procent": 82,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q11",
@@ -434,7 +485,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę ścian, krawędzi i wierzchołków przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.76,
+    "procent": 32,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q12",
@@ -479,6 +535,11 @@
      "jednostki"
     ],
     "opis": "Wymiary zewnętrzne, szyby grube, brak przykrywy (wysokość pomniejszona tylko o dno); warianty w różnych jednostkach"
+   },
+   "trudnosc": {
+    "logit": 3.4,
+    "procent": 79,
+    "procent_etap": 86
    }
   },
   {
@@ -514,7 +575,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Powierzchnia dużego sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>864</mn></mrow></math> cm². Każdą ścianę dzielimy na 4 kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>×</mo><mn>6</mn><mo>=</mo><mn>36</mn></mrow></math> cm².</p><p>Usunięte, sąsiadujące sześciany są narożne — każdy pokazywał na zewnątrz 3 takie kwadraty, więc znika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>36</mn><mo>=</mo><mn>216</mn></mrow></math> cm² starej powierzchni. W zamian odsłaniają się 4 nowe ścianki (po dwie z każdego sześcianu, bo trzecią, wspólną między nimi, mają oba usunięte): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>36</mn><mo>=</mo><mn>144</mn></mrow></math> cm².</p><p>Pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>864</mn><mo>−</mo><mn>216</mn><mo>+</mo><mn>144</mn><mo>=</mo><mn>792</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.1,
+    "procent": 90,
+    "procent_etap": 94
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q14",
@@ -553,7 +619,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile złotych oszczędza się na jednym pudełku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.79,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q15",
@@ -590,7 +661,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1) Cyfry jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>102</mn></msup></math> kończy się na 4, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>17</mn><mn>90</mn></msup></math> na 9, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>14</mn><mn>71</mn></msup></math> na 4, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>18</mn><mn>55</mn></msup></math> na 2; suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>19</mn></mrow></math> daje cyfrę jedności 9 — prawda.</p><p>2) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>13</mn></msup><mo>·</mo><msup><mn>5</mn><mn>9</mn></msup><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>16</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></math> ma 11 cyfr, nie 22 — fałsz.</p><p>3) Po uproszczeniu wykładników wychodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><msup><mn>10</mn><mi>m</mi></msup><mo>:</mo><mn>10</mn></mrow></math> — prawda.</p><p>4) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mn>14</mn><mn>20</mn></msup><msup><mn>98</mn><mn>10</mn></msup></mfrac><mo>=</mo><mfrac><mrow><msup><mn>2</mn><mn>20</mn></msup><mo>·</mo><msup><mn>7</mn><mn>20</mn></msup></mrow><mrow><msup><mn>2</mn><mn>10</mn></msup><mo>·</mo><msup><mn>7</mn><mn>20</mn></msup></mrow></mfrac><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math> — prawda.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.02,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q16",
@@ -626,6 +702,11 @@
      "inne:czesc-wspolna-zbiorow"
     ],
     "opis": "„13 ma siostrę” obejmuje też tych 5, którzy mają i brata, i siostrę"
+   },
+   "trudnosc": {
+    "logit": 1.02,
+    "procent": 59,
+    "procent_etap": 66
    }
   },
   {
@@ -657,7 +738,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij obwód trójkąta od obwodu trapezu — zostanie jeden bok prostokąta",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.7,
+    "procent": 81,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q18",
@@ -678,7 +764,12 @@
     "rozwiazanie_html": "<p>Korzystamy z tego, że iloraz pierwiastków jest pierwiastkiem ilorazu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>192</mn></msqrt><mo>−</mo><msqrt><mn>147</mn></msqrt><mo>+</mo><msqrt><mn>75</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>192</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mfrac><msqrt><mn>147</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>+</mo><mfrac><msqrt><mn>75</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>−</mo><msqrt><mn>49</mn></msqrt><mo>+</mo><msqrt><mn>25</mn></msqrt><mo>=</mo><mn>8</mn><mo>−</mo><mn>7</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>6</mn></mrow></math>. Liczba 6 jest liczbą naturalną, co należało wykazać.</p>",
     "punktacja_html": "<p>Zasady oceniania: 2 pkt – poprawne uzasadnienie i wyznaczenie liczby 6. 1 pkt – poprawne zastosowanie wzoru na iloraz pierwiastków, wyłączenie czynnika przed znak pierwiastka albo usunięcie niewymierności z mianownika i dalsze błędy. 0 pkt – rozwiązanie błędne lub brak rozwiązania.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.73,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q19",
@@ -697,7 +788,12 @@
     "rozwiazanie_html": "<p>Planowany przychód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>·</mo><mn>35</mn><mo>=</mo><mn>7000</mn></mrow></math> zł. Sprzedano po 35 zł: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>%</mo><mo>·</mo><mn>200</mn><mo>=</mo><mn>60</mn></mrow></math> skarbonek, co dało przychód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>·</mo><mn>35</mn><mo>=</mo><mn>2100</mn></mrow></math> zł. Z pozostałej sprzedaży (po 50 zł) trzeba uzyskać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7000</mn><mo>−</mo><mn>2100</mn><mo>=</mo><mn>4900</mn></mrow></math> zł, czyli sprzedano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4900</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>98</mn></mrow></math> skarbonek. Uszkodzonych było zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>60</mn><mo>−</mo><mn>98</mn><mo>=</mo><mn>42</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Zasady oceniania: 3 pkt – bezbłędne rozwiązanie i wynik 42. 2 pkt – obliczenie, jaki przychód trzeba uzyskać ze sprzedaży po 50 zł (4900 zł), lub dalej błędy. 1 pkt – obliczenie przychodu ze sprzedaży po 35 zł (2100 zł) lub dalej błędy. 0 pkt – rozwiązanie błędne lub brak rozwiązania.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.48,
+    "procent": 64,
+    "procent_etap": 71
+   }
   },
   {
    "id": "szkolny_2023-2024_wielkopolskie_q20",
@@ -716,7 +812,12 @@
     "rozwiazanie_html": "<p>Czas w środę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>12</mn><mtext> min</mtext><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mtext> h</mtext></mrow></math>. Droga do klubu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mi>v</mi><mo>·</mo><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>=</mo><mn>1,2</mn></mrow></math> km. W czwartek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></mrow></math> h, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mfrac><mi>s</mi><msub><mi>t</mi><mn>2</mn></msub></mfrac><mo>=</mo><mfrac><mn>1,2</mn><mfrac><mn>2</mn><mn>15</mn></mfrac></mfrac><mo>=</mo><mn>1,2</mn><mo>·</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math> km/h.</p>",
     "punktacja_html": "<p>Zasady oceniania: 3 pkt – bezbłędne rozwiązanie z zastosowaniem jednostek. 2 pkt – poprawne obliczenie drogi i prędkości bez poprawnych jednostek na końcu. 1 pkt – obliczenie drogi lub prędkości lub dalsze błędy i brak poprawnych jednostek. 0 pkt – rozwiązanie błędne lub brak rozwiązania.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.7,
+    "procent": 24,
+    "procent_etap": 28
+   }
   }
  ]
 }

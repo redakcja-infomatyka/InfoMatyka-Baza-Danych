@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023_podkarpackie_q1",
@@ -29,7 +30,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba pola — te dwa trójkąty razem wypełniają połowę kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q2",
@@ -51,7 +57,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfry jedności potęg siódemki powtarzają się co cztery",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q3",
@@ -69,7 +80,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Suma liczby trzycyfrowej i 2023 leży pomiędzy 2123 a 3022, więc wynik musi być czterocyfrowym palindromem zaczynającym się od cyfry 2 lub 3. Gdyby zaczynał się od 3, to (jako palindrom) kończyłby się na 3; wtedy ostatnia cyfra szukanego składnika musiałaby być 0, co jest niemożliwe dla palindromu. Zatem wynik zaczyna się i kończy cyfrą 2. Aby suma kończyła się na 2, ostatnia cyfra szukanej liczby musi być 9 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>3</mn></mrow></math> daje na końcu 2), więc — jako palindrom — zaczyna się także od 9. Liczba postaci 9x9 dodana do 2023 daje wynik większy od 2900 i mniejszy od 3000, czyli 2992. Stąd szukany palindrom to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2992</mn><mo>−</mo><mn>2023</mn><mo>=</mo><mn>969</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 81
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q4",
@@ -89,7 +105,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustal końcowy rozkład (1:1:2 z 72) i cofaj oba przełożenia od tyłu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.52,
+    "procent": 64,
+    "procent_etap": 66
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q5",
@@ -112,7 +133,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "woda to graniastosłup o podstawie trójkąta prostokątnego o przyprostokątnych pół krawędzi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.17,
+    "procent": 78,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q6",
@@ -134,7 +160,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "głosy mężczyzn dzielą się po równo, więc całą różnicę tworzą same kobiety",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.03,
+    "procent": 77,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q7",
@@ -164,6 +195,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "91 = 7·13 wygląda na liczbę pierwszą; uczeń bierze tylko dzielnik 91 i gubi pozostałe wartości k"
+   },
+   "trudnosc": {
+    "logit": 1.54,
+    "procent": 64,
+    "procent_etap": 66
    }
   },
   {
@@ -184,7 +220,12 @@
     "rozwiazanie_html": "<p><em>Założenie:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><msqrt><mn>11</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><msqrt><mn>23</mn></msqrt></mrow></math>. <em>Teza:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Podnosząc obie równości do kwadratu, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>23</mn></mrow></math>. Odejmując pierwszą równość od drugiej, dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>23</mn><mo>−</mo><mn>11</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn></mrow></math>. Dzieląc obie strony przez 4, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>4 punkty – jeśli za pomocą poprawnego rozumowania przeprowadził pełny dowód. Otrzymuje je również, jeśli nie wypisał wprost założeń i tezy, ale przeprowadzone rozumowanie jest poprawnym dowodem.</li><li>3 punkty – jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>popełnił jeden drobny błąd rachunkowy i z tego względu otrzymał zamiast tezy inną wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi></math>, ale zauważył to i skomentował, że musi to oznaczać błąd w zadaniu lub jego obliczeniach.</li></ul></li><li>2 punkty – jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>uzasadnił, że prawdziwe są równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>23</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></math>, ale nie doprowadził dowodu do końca,</li><li>popełnił błąd korzystając z wzoru skróconego mnożenia oraz pomylił się przy odejmowaniu równań, otrzymując w ten sposób tezę,</li><li>popełnił drobne błędy rachunkowe i z tego względu otrzymał zamiast tezy inną wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi></math>.</li></ul></li><li>1 punkt – jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>uczeń prawidłowo określił założenia i tezę oraz podniósł co najmniej jedno z równań danych w założeniach do kwadratu (np. zapisał równość postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>11</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></math> lub analogiczną).</li></ul></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2023_podkarpackie_q9",
@@ -208,7 +249,12 @@
     "rozwiazanie_html": "<p>Ponieważ odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma taką samą długość jak promień koła, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>r</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BSC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BCS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>SBC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math>, jako przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBC</mi></math>, ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>r</mi></mrow></math>) i ma kąt przy podstawie równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Pole koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn><mi>π</mi></mrow></math> cm².</p>",
     "punktacja_html": "<ul><li>4 punkty – jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>π</mi></math> cm² lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>π</mi></math>.</li><li>3 punkty – jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>zauważył oba trójkąty równoramienne i prawidłowo obliczył ich kąty, ale popełnił jeden błąd rachunkowy przy obliczaniu długości promienia lub pola.</li></ul></li><li>2 punkty – jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>poprawnie obliczył kąty w trójkątach BSC i SBA, ale nie obliczył długości promienia koła,</li><li>pomylił się obliczając kąty w trójkątach BSC i SBA, a następnie na podstawie błędnych miar kątów poprawnie obliczył promień i pole koła.</li></ul></li><li>1 punkt – jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>poprawnie uzasadnił równoramienność co najmniej jednego z trójkątów BSC i SBA.</li></ul></li></ul><p>Uwaga: W tym zadaniu odpowiedź uznajemy za poprawną również w sytuacji, gdy uczeń podał ją bez jednostek.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.51,
+    "procent": 98,
+    "procent_etap": 97
+   }
   }
  ]
 }

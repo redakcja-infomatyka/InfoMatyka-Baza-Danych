@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż najpierw 1,25 przez 8, dopiero potem dodaj wykładniki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.34,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połącz podzielność przez 2 i przez 5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.28,
+    "procent": 13,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q3",
@@ -103,7 +114,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź wiek Julii i Ali przez wiek Kasi i dodaj do sumy brakujące lata",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -5.09,
+    "procent": 8,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q4",
@@ -130,6 +146,11 @@
      "jednostki"
     ],
     "opis": "Prędkość w m/s, czas w godzinach, odpowiedź w kilometrach – trzeba spójnie zamienić jednostki"
+   },
+   "trudnosc": {
+    "logit": -4.51,
+    "procent": 11,
+    "procent_etap": 8
    }
   },
   {
@@ -159,6 +180,11 @@
      "kierunek-relacji"
     ],
     "opis": "Z równania 2c = 3d łatwo odwrócić stosunek chłopców do dziewcząt"
+   },
+   "trudnosc": {
+    "logit": -0.46,
+    "procent": 44,
+    "procent_etap": 37
    }
   },
   {
@@ -179,7 +205,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, ile razy napoju jest więcej niż soku, i użyj tego przelicznika w obie strony",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.63,
+    "procent": 17,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q7",
@@ -200,7 +231,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie wyciągaj pierwiastka — z pola weź samo e², a bok policz z (e/2)² + (3e/2)²",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.57,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q8",
@@ -228,7 +264,18 @@
      "inne:losowanie-bez-zwracania"
     ],
     "opis": "Wylosowany w poniedziałek numer wypada z puli – we wtorek losuje się z mniejszej liczby numerów"
-   }
+   },
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 26
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2024-2025_warminsko-mazurskie_q2",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q9",
@@ -271,7 +318,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok kwadratu i przyprostokątne trójkąta są równe wysokości — stąd obie podstawy i kąty",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.37,
+    "procent": 86,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q10",
@@ -292,7 +344,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód prostokąta wyraź przez bok kwadratu; 1 ha = 10 000 m²",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.11,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q11",
@@ -314,7 +371,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość, połowa przekątnej podstawy i krawędź boczna tworzą trójkąt prostokątny",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 0.95,
+    "procent": 58,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q12",
@@ -336,7 +398,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDF</mi></math> są przystające (cecha kąt-bok-kąt), bo mają odpowiednie kąty równe i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>ABC</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>DEF</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math>.</p><p>Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>ABC</mi></mrow></msub><mo>:</mo><msub><mi>P</mi><mrow><mi>DEF</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>9</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>:</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>3</mn></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.18,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q13",
@@ -359,7 +426,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rzut przekątnej na dłuższą podstawę ma długość linii środkowej trapezu",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.41,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2024_kujawsko-pomorskie_q14",
@@ -404,6 +476,11 @@
      "procent-podstawa"
     ],
     "opis": "Wzrost ceny 1 kg o 25% nie oznacza, że zawartość zmalała o 25% – inna podstawa procentu"
+   },
+   "trudnosc": {
+    "logit": 2.03,
+    "procent": 69,
+    "procent_etap": 62
    }
   }
  ]

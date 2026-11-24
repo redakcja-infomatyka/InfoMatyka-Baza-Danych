@@ -8,6 +8,7 @@
  "liczba_zadan": 7,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2023-2024_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2023-2024_pomorskie_q1",
@@ -33,7 +34,18 @@
      "jednostki"
     ],
     "opis": "Dane w mm³, wynik w litrach: przelicznik jednostek sześciennych to nie 1000 ani 100"
-   }
+   },
+   "trudnosc": {
+    "logit": 0.15,
+    "procent": 51,
+    "procent_etap": 53
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_pomorskie_q1",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "rejonowy_2023-2024_pomorskie_q2",
@@ -64,6 +76,11 @@
      "o-co-pytaja"
     ],
     "opis": "0,7 liczy się od pozostałych ziaren, nie od wszystkich; pytają o popiół, a nie o całą mieszankę"
+   },
+   "trudnosc": {
+    "logit": 3.39,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -86,7 +103,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie wysokości dają trójkąty prostokątne ze wspólnym kątem przy B — porównaj przyprostokątne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.94,
+    "procent": 68,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2023-2024_pomorskie_q4",
@@ -106,7 +128,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów przypadającą na jednego nauczyciela na początku (przy dwóch opiekunach). Wszystkich uczniów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. Po dołączeniu trzeciego nauczyciela na jednego opiekuna przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math> uczniów, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>15</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>30</mn></mrow></math>.</p><p>Odpowiedź: w wycieczce wzięło udział 30 uczniów klasy VIII a.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): zapisanie poprawnego równania pozwalającego obliczyć liczbę uczniów przypadającą na jednego nauczyciela na początku.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2023-2024_pomorskie_q5",
@@ -136,6 +163,11 @@
      "plot-i-slupki"
     ],
     "opis": "Ujemna liczba mieszana −2 5/12 to −(2+5/12); liczyć odstępy między punktami, nie punkty"
+   },
+   "trudnosc": {
+    "logit": 5.47,
+    "procent": 92,
+    "procent_etap": 92
    }
   },
   {
@@ -162,6 +194,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby muszą być różne: pozostałe cztery nie mogą wszystkie być jedynkami"
+   },
+   "trudnosc": {
+    "logit": -0.82,
+    "procent": 41,
+    "procent_etap": 43
    }
   },
   {
@@ -193,6 +230,11 @@
      "kierunek-relacji"
     ],
     "opis": "Blok: pyta o wodę do dolania, nie cały napój; kto ma ile monet; ściany boczne; boki wg kątów; dwa zera"
+   },
+   "trudnosc": {
+    "logit": 8.36,
+    "procent": 99,
+    "procent_etap": 99
    }
   }
  ]

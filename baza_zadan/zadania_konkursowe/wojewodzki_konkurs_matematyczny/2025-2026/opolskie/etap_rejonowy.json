@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2026_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2026_opolskie_q1",
@@ -49,6 +50,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby pierwsze mają być różne, więc w iloczynie nie może się pojawić 2·2"
+   },
+   "trudnosc": {
+    "logit": -0.82,
+    "procent": 41,
+    "procent_etap": 43
    }
   },
   {
@@ -85,7 +91,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź obie strony do tej samej postaci: wspólny czynnik, wspólna podstawa, wyłączenie spod pierwiastka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.19,
+    "procent": 20,
+    "procent_etap": 22
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q3",
@@ -119,7 +130,12 @@
     "rozwiazanie_html": "<ul><li>Rozwijając ułamki okresowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7</mn><mo>(</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0,7333…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,</mn><mo>(</mo><mn>73</mn><mo>)</mo><mo>=</mo><mn>0,7373…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,</mn><mo>(</mo><mn>737</mn><mo>)</mo><mo>=</mo><mn>0,737737…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,73</mn><mo>(</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>0,73777…</mn></math>. Porównując kolejne cyfry po przecinku, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7333…</mn><mo>&lt;</mo><mn>0,7373…</mn><mo>&lt;</mo><mn>0,737737…</mn><mo>&lt;</mo><mn>0,73777…</mn></math>, więc liczby są w kolejności rosnącej — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>=</mo><mo>−</mo><mn>32768</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>8</mn></msup><mo>=</mo><mn>256</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><msup><mn>2</mn><mn>4</mn></msup></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>16</mn></msup><mo>=</mo><mn>65536</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><mn>256</mn></math>. Ciąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>32768</mn><mo>,</mo><mn>256</mn><mo>,</mo><mn>65536</mn><mo>,</mo><mn>256</mn></math> nie jest rosnący (po 65536 znów 256) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>≈</mo><mn>1,17</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>7</mn></mfrac><mo>≈</mo><mn>1,14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>10</mn></mfrac><mo>=</mo><mn>1,1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>15</mn></mfrac><mo>≈</mo><mn>1,07</mn></math> — liczby maleją, więc nie są w kolejności rosnącej — <strong>NIE</strong>.</li></ul>",
     "punktacja_html": "<p>Jeżeli 3 odpowiedzi do zadania będą poprawne, przyznajemy 2 punkty. Za dwie poprawne odpowiedzi przyznajemy 1 punkt, w pozostałych przypadkach przyznajemy 0 punktów.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.1,
+    "procent": 84,
+    "procent_etap": 85
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q4",
@@ -160,6 +176,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pole powierzchni się nie zmienia, a z tego łatwo wnioskować, że suma krawędzi też się nie zmienia"
+   },
+   "trudnosc": {
+    "logit": 4.5,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -198,7 +219,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszędzie porównuj kwadraty długości, a boki ułamkowe sprowadź do wspólnego mianownika",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.74,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q6",
@@ -221,7 +247,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "część wspólna to ćwiartka koła o promieniu równym połowie przekątnej kwadratu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q7",
@@ -244,7 +275,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz Pitagorasa dla b i b+3 — kwadraty się skrócą i zostanie równanie liniowe",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.76,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q8",
@@ -266,7 +302,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyraź wiek matki i wiek ojca przez wiek syna — sam wiek syna się skróci",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.92,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q9",
@@ -295,6 +336,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ile starszy wydał, a nie ile miał na początku"
+   },
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 60
    }
   },
   {
@@ -318,7 +364,12 @@
     "rozwiazanie_html": "<p>Oznaczmy wierzchołki sześciokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mi>E</mi><mi>F</mi></math>. Łącząc co drugi wierzchołek, otrzymujemy trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mi>E</mi></math>. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>A</mi></math> są podstawami trzech przystających trójkątów równoramiennych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>D</mi><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi><mi>A</mi></math>) o ramionach 6 cm i kącie 120° między nimi. Skoro trójkąty te są przystające (cecha bok-kąt-bok), to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mi>C</mi><mi>E</mi><mo>=</mo><mi>E</mi><mi>A</mi></math>, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mi>E</mi></math> jest równoboczny.</p><p>Bok trójkąta to krótsza przekątna sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> cm. Pole trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>108</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm².</p><p>Pole tego trójkąta wynosi <strong>27√3 cm²</strong> (≈ 46,8 cm²).</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>poprawnie uzasadni, że trójkąt jest równoboczny i obliczy pole powierzchni trójkąta (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm²) – 5p</li><li>uzasadni i zastosuje poprawny sposób obliczenia pola, ale popełni błąd rachunkowy – 4p</li><li>tylko obliczy pole trójkąta – 3p</li><li>uzasadni, że trójkąt jest równoboczny albo zastosuje poprawny sposób obliczenia pola – 2p</li><li>wykona poprawny rysunek – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.35,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2026_opolskie_q11",
@@ -346,6 +397,11 @@
      "o-co-pytaja"
     ],
     "opis": "Kąt 30° krawędź tworzy z wysokością, nie z podstawą"
+   },
+   "trudnosc": {
+    "logit": 4.5,
+    "procent": 86,
+    "procent_etap": 87
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021-2022_wielkopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 = 3 · 4, więc sprawdź sumę cyfr i dwie ostatnie cyfry; jedynek jest 17, bo liczba ma 20 cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.16,
+    "procent": 38,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q2",
@@ -88,6 +94,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trzeba wypisać wszystkie rozkłady 8 na trzy cyfry, łącznie z rozkładem na trzy jednakowe cyfry"
+   },
+   "trudnosc": {
+    "logit": 2.71,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -133,6 +144,11 @@
      "konwencja"
     ],
     "opis": "Cykl ostatnich cyfr potęgi 2: reszta 0 z dzielenia wykładnika przez 4 oznacza czwarty wyraz cyklu"
+   },
+   "trudnosc": {
+    "logit": -3.88,
+    "procent": 15,
+    "procent_etap": 18
    }
   },
   {
@@ -177,6 +193,11 @@
      "procent-podstawa"
     ],
     "opis": "Oba procenty liczone od ceny śliwek, a pytanie odnosi się do ceny jabłek: zmienia się podstawa"
+   },
+   "trudnosc": {
+    "logit": -0.52,
+    "procent": 44,
+    "procent_etap": 50
    }
   },
   {
@@ -222,6 +243,11 @@
      "o-co-pytaja"
     ],
     "opis": "Odległość wierzchołka kąta prostego od przeciwprostokątnej to wysokość, a nie przyprostokątna"
+   },
+   "trudnosc": {
+    "logit": -1.71,
+    "procent": 33,
+    "procent_etap": 39
    }
   },
   {
@@ -267,6 +293,11 @@
      "jednostki"
     ],
     "opis": "Litr trzeba zamienić na milimetry sześcienne: współczynnik sześcienny, nie liniowy"
+   },
+   "trudnosc": {
+    "logit": 1.35,
+    "procent": 62,
+    "procent_etap": 69
    }
   },
   {
@@ -311,6 +342,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie dotyczy liczby przeciwnej do rozwiązania równania, a nie samego rozwiązania"
+   },
+   "trudnosc": {
+    "logit": -3.33,
+    "procent": 19,
+    "procent_etap": 23
    }
   },
   {
@@ -350,7 +386,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "półnuta to połowa całej nuty, a kropki dokładają do niej połowę i ćwiartkę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.0,
+    "procent": 30,
+    "procent_etap": 35
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q9",
@@ -388,7 +429,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty sąsiednie równoległoboku dają razem 180°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.25,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q10",
@@ -427,7 +473,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz oba pola jako iloczyny i odejmij nowe od starego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.79,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q11",
@@ -465,7 +516,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup o podstawie n-kąta ma 3n krawędzi i n ścian bocznych",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.55,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q12",
@@ -502,7 +558,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "środkowa z pięciu kolejnych liczb to suma podzielona przez 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.52,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q13",
@@ -539,7 +600,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz znaki grupami: tysiące, setki, dziesiątki, jedności — CM, CD i IX to po dwa znaki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q14",
@@ -576,7 +642,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "po każdej rundzie zostaje czwarta część zawodników — dodaj biegi z kolejnych rund",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.44,
+    "procent": 44,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q15",
@@ -622,6 +693,11 @@
      "kalendarz-czas"
     ],
     "opis": "Liczenie dni: jedzenie zaczyna się dzień po zebraniu zapasu, łatwo przesunąć się o jeden dzień"
+   },
+   "trudnosc": {
+    "logit": 0.85,
+    "procent": 57,
+    "procent_etap": 64
    }
   },
   {
@@ -660,7 +736,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz 0,16² przed nawias i zobacz, ile daje 0,16 + 0,84",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.08,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q17",
@@ -705,6 +786,11 @@
      "plot-i-slupki"
     ],
     "opis": "Granice: ostra nierówność przy 24 i liczba niecałkowita −22,9 jako dolna granica"
+   },
+   "trudnosc": {
+    "logit": 0.66,
+    "procent": 56,
+    "procent_etap": 63
    }
   },
   {
@@ -745,7 +831,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "otocz trójkąt prostokątem i odejmij trzy trójkąty prostokątne z narożników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.99,
+    "procent": 30,
+    "procent_etap": 35
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q19",
@@ -780,7 +871,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwijaj oba wyrażenia od najbardziej wewnętrznego pierwiastka na zewnątrz",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.3,
+    "procent": 79,
+    "procent_etap": 86
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q20",
@@ -813,7 +909,12 @@
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest nieparzysta, czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> są parzyste, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest zawsze parzysty. Czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> jest zawsze nieparzysty.</p><ol><li>Parzystość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> zależy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> nie jest zawsze nieparzysta — zdanie fałszywe (F).</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest parzysta wtedy i tylko wtedy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> jest parzysty, czyli gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo></math> jest parzysty, a to zachodzi dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> nieparzystego — zdanie prawdziwe (P).</li><li>Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest nieparzysta dokładnie wtedy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest parzyste — zdanie prawdziwe (P).</li></ol>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź 1 punkt (3 p. za trzy poprawne).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.3,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q21",
@@ -834,7 +935,12 @@
     "rozwiazanie_html": "<p>Ze wzoru na drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi></math> otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>t</mi><mo>+</mo><mn>2</mn><mi>t</mi><mo>=</mo><mn>224</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mi>t</mi><mo>=</mo><mn>224</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> s. Pierwszy chłopiec pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>96</mn></math> m, a drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>128</mn></math> m (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>224</mn><mo>−</mo><mn>96</mn><mo>=</mo><mn>128</mn></math> m).</p><p>Odpowiedź: chłopcy spotkają się po 64 sekundach i pokonają odpowiednio 96 m i 128 m.</p>",
     "punktacja_html": "<ul><li>4 punkty – gdy poprawnie rozwiąże zadanie i wyznaczy, że chłopcy spotkali się po 64 sekundach od momentu wyruszenia w trasę i pokonali odpowiednio 96 metrów i 128 metrów, albo poda taką odpowiedź i sprawdzi, że otrzymane liczby spełniają <strong>wszystkie</strong> warunki zadania.</li><li>3 punkty – gdy rozwiązując równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> poprawnie wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> i wyznaczy poprawnie dystans pokonany <strong>przez jednego</strong> z chłopców i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> rozwiązując to równanie popełni błędy rachunkowe przy wyznaczaniu t i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie (tj. wyznaczy drogi obu chłopców).</li><li>2 punkty – gdy ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> i poprawnie wyznaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>64</mn></math> i na tym zakończy lub obie drogi będą wyznaczone z błędem, <strong>lub</strong> ułoży to równanie, popełni błędy rachunkowe przy wyznaczaniu t i konsekwentnie do popełnionego błędu poprawnie wyznaczy dystans pokonany tylko przez jednego z chłopców i na tym zakończy lub dalej popełni błędy.</li><li>1 punkt – gdy poprawnie ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>·</mo><mi>t</mi><mo>=</mo><mn>224</mn></math> i na tym zakończy lub dalej popełni błędy, <strong>lub</strong> zapisze, że droga pokonana przez pierwszego z chłopców jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mi>t</mi></math>, a droga pokonana przez drugiego z chłopców jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mi>t</mi></math>, i na tym zakończy lub dalej popełni błędy.</li><li>0 punktów – rozwiązanie błędne, brak rozwiązania.</li></ul><p>Dla rozwiązania układem równań (metoda II i III) obowiązują analogiczne progi: 3 punkty za poprawne wyznaczenie dwóch niewiadomych, 2 punkty za rozwiązanie konsekwentne do popełnionego błędu, 1 punkt za poprawne ułożenie układu równań.</p><p>Uwagi!</p><ul><li>Jeżeli uczestnik w rozwiązaniu zadania otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>&lt;</mo><mn>0</mn></math>, to za rozwiązanie zadania może otrzymać maksymalnie 1 punkt.</li><li>Jeżeli uczestnik w rozwiązaniu zadania otrzyma drogę mniejszą od zera, to za rozwiązanie zadania może otrzymać maksymalnie 1 punkt.</li><li>Jeżeli uczestnik stosuje niepoprawny wzór na drogę, prędkość lub czas, to za rozwiązanie zadania otrzymuje 0 punktów.</li><li>Nie odejmujemy punktów, jeśli uczestnik zapisując równania w rozwiązaniu zadania pominie jednostki; jedynie w odpowiedzi uczeń musi zapisać poprawną jednostkę czasu i długości.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.85,
+    "procent": 31,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2021-2022_wielkopolskie_q22",
@@ -861,6 +967,11 @@
      "warunek-istnienia"
     ],
     "opis": "Po wyznaczeniu boków z pola i wysokości trzeba jeszcze sprawdzić, czy taki trójkąt istnieje"
+   },
+   "trudnosc": {
+    "logit": 2.87,
+    "procent": 76,
+    "procent_etap": 82
    }
   },
   {
@@ -889,6 +1000,11 @@
      "procent-podstawa"
     ],
     "opis": "40% liczy się od liczby obecnych, a nie od liczby wszystkich uczniów klasy"
+   },
+   "trudnosc": {
+    "logit": 2.77,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -917,6 +1033,11 @@
      "jednostki"
     ],
     "opis": "Wymiary są zewnętrzne, a 6 l to pojemność wnętrza; do tego bok dna podany w metrach jako ułamek"
+   },
+   "trudnosc": {
+    "logit": 4.98,
+    "procent": 89,
+    "procent_etap": 93
    }
   }
  ]

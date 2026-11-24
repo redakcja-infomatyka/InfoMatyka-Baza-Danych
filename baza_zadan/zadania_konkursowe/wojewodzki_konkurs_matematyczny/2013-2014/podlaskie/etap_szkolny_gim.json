@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2013_podlaskie_gim.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2013_podlaskie_gim_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "największą buduj od setek, w najmniejszej daj setkom jak najmniej",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.9,
+    "procent": 31,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że szósty wyraz to czwarty plus piąty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.58,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q3",
@@ -125,6 +136,11 @@
      "kwantyfikator"
     ],
     "opis": "Warunek ostry „mniejszych niż 20” — granica sama ma długość 3 i nie może być liczona"
+   },
+   "trudnosc": {
+    "logit": 0.1,
+    "procent": 50,
+    "procent_etap": 57
    }
   },
   {
@@ -162,7 +178,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz obie liczby jako potęgi dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.26,
+    "procent": 13,
+    "procent_etap": 15
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2020_lodzkie_q3",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "szkolny_2022_lodzkie_q5",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q5",
@@ -199,7 +230,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jakim procentem całości jest te 5 pytań",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.6,
+    "procent": 6,
+    "procent_etap": 7
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q6",
@@ -236,7 +272,26 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, w którym wyrażeniu zmiana znaku x naprawdę coś zmienia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubelskie_q5",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2021_podlaskie_q11",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q7",
@@ -273,7 +328,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw wyraź liczbę drugoklasistów przez m i n, potem odejmij od 280",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.68,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q8",
@@ -308,7 +368,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Za 150 zł kupuje się 150/10 = 15 pudełek → 15 kuponów → 15/3 = 5 pudełek gratis. Razem 15 + 5 = 20 pudełek (odpowiedź z listy).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.16,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q9",
@@ -346,7 +411,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku Ani i Eli to cztery odstępy po 3 lata",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.63,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q10",
@@ -383,7 +453,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj obie sytuacje stronami — wzrosty się skrócą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.94,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q11",
@@ -420,7 +495,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumę lat całej jedenastki z sumą lat pozostałych",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.03,
+    "procent": 22,
+    "procent_etap": 25
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q12",
@@ -457,7 +537,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw pierwszą współrzędną do wzoru i porównaj z drugą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.42,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q13",
@@ -495,7 +580,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odbicie w osi x zmienia znak y, a w osi y — znak x",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.57,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q14",
@@ -539,6 +629,11 @@
      "plot-i-slupki"
     ],
     "opis": "Cztery punkty wewnętrzne dzielą odcinek na pięć części, a nie na cztery"
+   },
+   "trudnosc": {
+    "logit": -0.51,
+    "procent": 44,
+    "procent_etap": 50
    }
   },
   {
@@ -576,7 +671,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kąt zewnętrzny — wszystkie takie kąty dają razem 360°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.76,
+    "procent": 10,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q16",
@@ -616,7 +716,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj podstawę AE i wysokość z F z bokami AC i BC, pole zmienia się jak iloczyn tych części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.27,
+    "procent": 78,
+    "procent_etap": 85
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q17",
@@ -660,6 +765,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dane są pola podstaw, a liczy się stosunek objętości sześcianów, nie pól"
+   },
+   "trudnosc": {
+    "logit": 0.19,
+    "procent": 51,
+    "procent_etap": 58
    }
   },
   {
@@ -680,7 +790,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Wyłączając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup></math>: suma = 2¹⁵·(1 + 2 + 4 + 8) = 2¹⁵·15 = 2¹⁴·2·15 = 2¹⁴·30, a więc jest podzielna przez 30.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.34,
+    "procent": 46,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q19",
@@ -700,7 +815,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>W dużych łącznie 180 batonów, w małych 15%·180 = 27. Niech D — liczba dużych, M = 0,2D. Batonów w dużym: 180/D, w małym: 27/(0,2D) = 135/D. Warunek 180/D = 135/D + 9 → 45/D = 9 → D = 5, M = 1. Sprawdzenie: 36 − 27 = 9. ✓</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.68,
+    "procent": 81,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2013_podlaskie_gim_q20",
@@ -721,7 +841,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj obie sumy stronami, potem je odejmij — wyjdą oba boki, przekątna z Pitagorasa",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.86,
+    "procent": 58,
+    "procent_etap": 65
+   }
   }
  ]
 }

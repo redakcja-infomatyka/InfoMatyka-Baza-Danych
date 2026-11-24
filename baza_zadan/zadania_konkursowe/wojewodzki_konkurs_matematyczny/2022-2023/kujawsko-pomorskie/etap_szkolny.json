@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpisz oba zapisy na składniki — pamiętaj, że CM znaczy 900 — i dopiero odejmij",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.94,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q2",
@@ -88,6 +94,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby naturalne obejmują zero, a 0 do piątej też jest mniejsze niż 1000"
+   },
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 78
    }
   },
   {
@@ -133,6 +144,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 1800 jest podzielny przez 4, a nie jest przestępny (wiek niepodzielny przez 400)"
+   },
+   "trudnosc": {
+    "logit": 3.59,
+    "procent": 81,
+    "procent_etap": 87
    }
   },
   {
@@ -178,6 +194,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Potęga potęgi mnoży wykładniki, a suma równych potęg to nie dodawanie wykładników"
+   },
+   "trudnosc": {
+    "logit": -5.36,
+    "procent": 7,
+    "procent_etap": 9
    }
   },
   {
@@ -226,6 +247,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielność przez 3 zależy od sumy cyfr całej liczby, nie od cyfry jedności"
+   },
+   "trudnosc": {
+    "logit": -2.46,
+    "procent": 26,
+    "procent_etap": 31
    }
   },
   {
@@ -271,6 +297,11 @@
      "jednostki"
     ],
     "opis": "Nierówność trójkąta jest ostra: bok równy sumie dwóch pozostałych nie tworzy trójkąta"
+   },
+   "trudnosc": {
+    "logit": -4.34,
+    "procent": 12,
+    "procent_etap": 14
    }
   },
   {
@@ -308,7 +339,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż 2 cm przez skalę, a potem zamień centymetry na metry",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.73,
+    "procent": 16,
+    "procent_etap": 19
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q8",
@@ -346,7 +382,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz pole z przyprostokątnych i z niego wyznacz wysokość na przeciwprostokątną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.66,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q9",
@@ -384,7 +425,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz liczby jako x, 3x i 9x — ich suma to 13x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.02,
+    "procent": 9,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q10",
@@ -421,7 +467,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zamiast odejmować wypite części, pomnóż ułamki tego, co zostaje po każdym piciu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.19,
+    "procent": 28,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q11",
@@ -459,7 +510,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz książki Zuzi literą i zapisz obie sytuacje w jednym równaniu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.78,
+    "procent": 24,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q12",
@@ -504,6 +560,11 @@
      "konwencja"
     ],
     "opis": "Porównanie ułamków okresowych: 0,(125) jest nieco większe od 1/8, nie równe"
+   },
+   "trudnosc": {
+    "logit": 0.91,
+    "procent": 58,
+    "procent_etap": 65
    }
   },
   {
@@ -541,7 +602,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ze średniej odtwórz sumę stron z trzech dni, dodaj czwarty i podziel przez 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.15,
+    "procent": 2,
+    "procent_etap": 3
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q14",
@@ -586,6 +652,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytają o ile procent pole się zmniejszy, a nie jakim procentem starego pola jest nowe"
+   },
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 31
    }
   },
   {
@@ -630,6 +701,11 @@
      "jednostki"
     ],
     "opis": "Prędkość w dm/s, czas w ułamku godziny, odpowiedzi w m i km — trzeba ujednolicić jednostki"
+   },
+   "trudnosc": {
+    "logit": -0.28,
+    "procent": 46,
+    "procent_etap": 53
    }
   },
   {
@@ -668,6 +744,11 @@
      "kwantyfikator"
     ],
     "opis": "Zero też jest liczbą całkowitą, a jego kwadrat nie jest dodatni; zawiła negacja w zdaniu"
+   },
+   "trudnosc": {
+    "logit": 1.75,
+    "procent": 66,
+    "procent_etap": 73
    }
   },
   {
@@ -697,7 +778,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt ostry x i rozwarty 2x sumują się do 180°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc x=60° (nie 45°).</p><p>Krótsza przekątna dzieli romb na dwa trójkąty równoboczne, więc bok rombu ma 4 cm. Opuszczając wysokość, powstaje trójkąt 30°-60°-90° o przeciwprostokątnej 4 cm — bok naprzeciw 60° (wysokość) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.67,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2023_kujawsko-pomorskie_q18",
@@ -717,7 +803,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz oba ułamki nad wspólnym mianownikiem 45 i rozbij licznik 14 na sumę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.38,
+    "procent": 63,
+    "procent_etap": 70
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_lubelskie.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021_lubelskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 25 i 64 na czynniki pierwsze — liczbę dzielników odczytasz z wykładników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 37
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q2",
@@ -89,6 +95,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o to, o ile cena zmalała, a nie do ilu procent; kolejne obniżki liczone od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -1.13,
+    "procent": 38,
+    "procent_etap": 31
    }
   },
   {
@@ -133,6 +144,11 @@
      "o-co-pytaja"
     ],
     "opis": "S jest już środkiem odcinka; szukamy końca B, a nie środka odcinka AS"
+   },
+   "trudnosc": {
+    "logit": -3.92,
+    "procent": 15,
+    "procent_etap": 11
    }
   },
   {
@@ -172,7 +188,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "|AD|=|CD| daje równe kąty przy A i C w trójkącie ACD — oznacz połowę kąta A jedną literą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.06,
+    "procent": 60,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q5",
@@ -216,6 +237,11 @@
      "o-co-pytaja"
     ],
     "opis": "Dane dotyczą cukierków czekoladowych, a pytanie o owocowy"
+   },
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 41
    }
   },
   {
@@ -257,6 +283,11 @@
      "warunek-istnienia"
     ],
     "opis": "Zbiór rozwiązań jest nieograniczony z dołu, liczba 2 to kraniec z drugiej strony"
+   },
+   "trudnosc": {
+    "logit": 4.46,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -297,6 +328,11 @@
      "inne:masa-dosypanej-substancji"
     ],
     "opis": "Dosypana sól też zwiększa masę roztworu; bez niej wychodzi pozornie to samo stężenie"
+   },
+   "trudnosc": {
+    "logit": 3.39,
+    "procent": 79,
+    "procent_etap": 72
    }
   },
   {
@@ -324,6 +360,11 @@
      "zbior-liczb"
     ],
     "opis": "Pierwsza cyfra liczby trzycyfrowej nie może być zerem, gdy 7 stoi na dalszej pozycji"
+   },
+   "trudnosc": {
+    "logit": 3.79,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -344,7 +385,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamiast średnich porównaj sumy wieku przed dołączeniem i po nim",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.31,
+    "procent": 20,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q10",
@@ -365,7 +411,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z obwodów odczytaj oba promienie i odejmij pola kół",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.36,
+    "procent": 12,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q11",
@@ -392,6 +443,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie, o ile zwiększyć krawędź, a nie jaka ma być nowa krawędź"
+   },
+   "trudnosc": {
+    "logit": 2.05,
+    "procent": 69,
+    "procent_etap": 62
    }
   },
   {
@@ -411,7 +467,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) AB = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></mrow></math>.</p><p>b) Przekątna AC dzieli czworokąt na trójkąty ABC i ACD o polach 27 i 36 (liczone ze współrzędnych wierzchołków), więc pole ABCD wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><mo>+</mo><mn>36</mn><mo>=</mo><mn>63</mn></mrow></math>.</p><p>c) Środek BC to (1; −1). Odległość od D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>9</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>90</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>10</mn></msqrt></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.82,
+    "procent": 88,
+    "procent_etap": 83
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q13",
@@ -429,7 +490,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>0,75</mn><mi>h</mi></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>l</mi><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>=</mo><mn>1,5625</mn><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, więc h = 16 cm, a r = 12 cm.</p><p>b) Stosunek pola całkowitego do pola podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>r</mi><mo>+</mo><mi>l</mi></mrow><mi>r</mi></mfrac><mo>=</mo><mfrac><mn>32</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>.</p><p>c) Objętość stożka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><mn>144</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>768</mn><mi>π</mi></mrow></math>, objętość kuli o promieniu 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><mn>64</mn><mo>=</mo><mfrac><mrow><mn>256</mn><mi>π</mi></mrow><mn>3</mn></mfrac></mrow></math>. Stosunek wynosi 9.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.3,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q14",
@@ -447,7 +513,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) Pierwsze losowanie parzystej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>, drugie parzystej spośród 4 pozostałych (1 parzysta): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></mrow></math>.</p><p>b) Numery są zawsze różne, więc druga kula ma mniejszy numer dokładnie w połowie przypadków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p><p>c) Pary (pierwsza, druga) różniące się o 2: (1,3), (2,4), (3,5) — 3 z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></mrow></math> możliwych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>20</mn></mfrac></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.32,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q15",
@@ -468,7 +539,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "kup najpierw wszystkim kubki i sprawdź, ile kosztuje wymiana jednego kubka na książkę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.64,
+    "procent": 56,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q16",
@@ -488,7 +564,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę książek na górnej półce, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – na dolnej. Z treści zadania otrzymujemy układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mn>62,5</mn><mo>%</mo><mi>x</mi><mo>=</mo><mn>75</mn><mo>%</mo><mi>y</mi><mo>+</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>50</mn><mo>%</mo><mi>x</mi><mo>=</mo><mn>37,5</mn><mo>%</mo><mi>y</mi><mo>+</mo><mn>7</mn></mtd></mtr></mtable></mrow></math>. Rozwiązując go, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>32</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>24</mn></math>. Łącznie na obu półkach jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>56</mn></math> książek.</p>",
     "punktacja_html": "<ul><li>1 pkt – wprowadzenie oznaczeń i zapisanie jednego równania.</li><li>2 pkt – zapisanie układu równań.</li><li>3 pkt – obliczenie jednej z niewiadomych.</li><li>4 pkt – obliczenie drugiej niewiadomej i szukanej sumy.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.42,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q17",
@@ -508,7 +589,12 @@
     "rozwiazanie_html": "<p>Ponieważ kąty przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są proste, czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest trapezem prostokątnym o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>h</mi></math>. Pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi></mrow><mn>2</mn></mfrac></math>, a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mi>h</mi></mrow><mn>2</mn></mfrac></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn><mo>·</mo><mfrac><mrow><mi>a</mi><mi>h</mi></mrow><mn>2</mn></mfrac></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>5</mn><mi>a</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mi>h</mi></mrow><mn>2</mn></mfrac></math>, więc stosunek pól trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mn>5</mn></math>.</p>",
     "punktacja_html": "<ul><li>1 pkt – zauważenie, że czworokąt ABCD jest trapezem prostokątnym.</li><li>2 pkt – zapisanie równania prowadzącego do wyznaczenia zależności między podstawami trapezu.</li><li>3 pkt – wyznaczenie zależności między podstawami trapezu.</li><li>4 pkt – obliczenie stosunku pola trójkąta ACD do pola trójkąta BCD.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.82,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2021_lubelskie_q18",
@@ -534,6 +620,11 @@
      "szczegol-bryly"
     ],
     "opis": "Krawędź boczna to nie wysokość ściany bocznej; wysokość ściany trzeba wyliczyć"
+   },
+   "trudnosc": {
+    "logit": 5.71,
+    "procent": 92,
+    "procent_etap": 89
    }
   }
  ]

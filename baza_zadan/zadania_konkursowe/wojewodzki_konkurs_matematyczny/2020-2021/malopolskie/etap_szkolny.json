@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020-2021_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020-2021_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2020-2021_malopolskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "O 7:30 wskazówka godzinowa stoi w połowie między 7 a 8, a nie na 7. Kąt nie jest wielokrotnością 30°"
+   },
+   "trudnosc": {
+    "logit": 2.5,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyobraź sobie najgorszy przypadek — najpierw wylosowały się same dziewczęta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.25,
+    "procent": 47,
+    "procent_etap": 53
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q3",
@@ -128,7 +139,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zastanów się, ile zgięć musi zostać, żeby wszystkie sześć ścianek trzymało się w jednym kawałku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.72,
+    "procent": 81,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q4",
@@ -173,6 +189,11 @@
      "znak"
     ],
     "opis": "Minus stoi przed potęgą parzystą, więc b jest ujemne. Z liczb ujemnych największa jest ta najbliższa zeru"
+   },
+   "trudnosc": {
+    "logit": 2.53,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -218,6 +239,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielność przez 2 i przez 4 nie daje podzielności przez 2·4. Liczy się NWW, a nie iloczyn"
+   },
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 60
    }
   },
   {
@@ -256,7 +282,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień wszystko na jedną jednostkę, np. na litry; najbardziej myląca jest zamiana mm³",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 72
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q7",
@@ -293,7 +324,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmij miejsca w pokojach dwuosobowych i rozłóż resztę na czynniki — „kilkanaście” to 13–19",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.62,
+    "procent": 43,
+    "procent_etap": 49
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q8",
@@ -335,7 +371,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole szarej ramki to różnica pól kwadratów — rozwiń kwadrat sumy ze wzoru skróconego mnożenia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.57,
+    "procent": 55,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q9",
@@ -372,7 +413,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 2020 na czynniki pierwsze, policz wszystkie dzielniki i odrzuć jedynkę oraz pierwsze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q10",
@@ -420,6 +466,11 @@
      "o-co-pytaja"
     ],
     "opis": "Najpierw wylicza się α, ale pytanie dotyczy kąta ABC, a α jest wśród wariantów odpowiedzi"
+   },
+   "trudnosc": {
+    "logit": 1.31,
+    "procent": 62,
+    "procent_etap": 69
    }
   },
   {
@@ -465,6 +516,11 @@
      "inne:kwadrat-jest-rombem-i-prostokatem"
     ],
     "opis": "Kwadrat jest jednocześnie rombem i prostokątem, więc kwadraty są policzone w obu grupach"
+   },
+   "trudnosc": {
+    "logit": 2.0,
+    "procent": 69,
+    "procent_etap": 76
    }
   },
   {
@@ -508,7 +564,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz obie prędkości na minuty na kilometr i zobacz, ile minut różnicy daje jeden kilometr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.72,
+    "procent": 56,
+    "procent_etap": 63
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q13",
@@ -556,6 +617,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Stężenie mieszaniny to nie średnia arytmetyczna stężeń, bo objętości roztworów są różne"
+   },
+   "trudnosc": {
+    "logit": -1.41,
+    "procent": 36,
+    "procent_etap": 42
    }
   },
   {
@@ -602,6 +668,11 @@
      "warunek-istnienia"
     ],
     "opis": "Warunek |AB| > |AD| wyklucza figury, które bez niego byłyby możliwe"
+   },
+   "trudnosc": {
+    "logit": 6.49,
+    "procent": 95,
+    "procent_etap": 98
    }
   },
   {
@@ -644,7 +715,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licz odchylenia od średniej 4 — pomnożone przez wagi muszą się nawzajem znosić",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.4,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q16",
@@ -686,7 +762,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "18 to 2·9 — skrajna cyfra musi być parzysta, a suma cyfr podzielna przez 9",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 77,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2020-2021_malopolskie_q17",
@@ -735,6 +816,11 @@
      "konwencja"
     ],
     "opis": "Wykładnik podzielny przez długość cyklu odpowiada ostatniemu wyrazowi cyklu, a nie pierwszemu"
+   },
+   "trudnosc": {
+    "logit": 3.12,
+    "procent": 77,
+    "procent_etap": 84
    }
   }
  ]

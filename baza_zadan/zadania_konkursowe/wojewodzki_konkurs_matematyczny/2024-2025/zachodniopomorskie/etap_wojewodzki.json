@@ -8,6 +8,7 @@
  "liczba_zadan": 28,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2024-2025_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczbę nieparzystą da się rozłożyć tylko jako 2 + liczba pierwsza, więc sprawdzaj parzyste",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.7,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q2",
@@ -88,6 +94,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Nieparzysty wykładnik nie wyklucza kwadratu, gdy sama podstawa jest kwadratem"
+   },
+   "trudnosc": {
+    "logit": -2.68,
+    "procent": 24,
+    "procent_etap": 19
    }
   },
   {
@@ -132,7 +143,18 @@
      "o-co-pytaja"
     ],
     "opis": "Spotkanie w połowie drogi – liczy się różnica czasów na połowie trasy, nie na całej"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 38
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022_podlaskie_q26",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q4",
@@ -178,6 +200,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kąt rozwarty między przekątnymi; naturalnie liczy się kąt ostry w trójkącie"
+   },
+   "trudnosc": {
+    "logit": -3.34,
+    "procent": 19,
+    "procent_etap": 15
    }
   },
   {
@@ -215,7 +242,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, o ile odchodzący przewyższają średnią, i rozłóż tę nadwyżkę na pozostałych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q6",
@@ -252,7 +284,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy odcinek to prędkość razy czas — dodaj trzy iloczyny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.13,
+    "procent": 5,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q7",
@@ -298,6 +335,11 @@
      "inne:os-symetrii"
     ],
     "opis": "Symetria względem osi y zmienia znak pierwszej współrzędnej, druga zostaje równa"
+   },
+   "trudnosc": {
+    "logit": -0.94,
+    "procent": 40,
+    "procent_etap": 33
    }
   },
   {
@@ -336,7 +378,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy kącie 45° wystający kawałek dłuższej podstawy równa się wysokości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.23,
+    "procent": 37,
+    "procent_etap": 30
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q9",
@@ -380,6 +427,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o cenę 1 kg, a nie o nową cenę koszyka po promocji"
+   },
+   "trudnosc": {
+    "logit": -0.92,
+    "procent": 40,
+    "procent_etap": 33
    }
   },
   {
@@ -420,7 +472,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przy dodawaniu obu kwadratów wyrazy z √7 się znoszą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.54,
+    "procent": 34,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q11",
@@ -458,7 +515,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z przekątnej odczytaj bok kwadratu — to od razu średnica koła",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.5,
+    "procent": 18,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q12",
@@ -496,7 +558,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 180° na 2+7+9 równych części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.73,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q13",
@@ -535,7 +602,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel duży trójkąt na 9 jednakowych trójkącików i policz, ile zostaje",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q14",
@@ -572,7 +644,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz łączny nakład pracy w maszynistkodniach",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q15",
@@ -619,6 +696,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wysokość to odległość od prostej y=1, nie współrzędna; wierzchołek może leżeć też pod podstawą"
+   },
+   "trudnosc": {
+    "logit": -3.4,
+    "procent": 19,
+    "procent_etap": 15
    }
   },
   {
@@ -656,7 +738,30 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj wyrażenia, które reaguje na zmianę znaku x",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 8
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubelskie_q5",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "szkolny_2013_podlaskie_gim_q6",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "szkolny_2022_podlaskie_q2",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2021_podlaskie_q11",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q17",
@@ -700,6 +805,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent podwyżki liczony od nowej, zmniejszonej wartości, a nie od liczby początkowej"
+   },
+   "trudnosc": {
+    "logit": -0.24,
+    "procent": 47,
+    "procent_etap": 39
    }
   },
   {
@@ -737,7 +847,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw krawędzie 2k, 3k, 5k i z objętości wyciągnij pierwiastek trzeciego stopnia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.11,
+    "procent": 38,
+    "procent_etap": 31
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2023-2024_zachodniopomorskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q19",
@@ -774,7 +895,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez mianownik, potem uwolnij x",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.02,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q20",
@@ -813,7 +939,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bruneci i blondyni to razem połowa grupy z małą nadwyżką",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.99,
+    "procent": 22,
+    "procent_etap": 17
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2016_podlaskie_q22",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q21",
@@ -858,6 +995,11 @@
      "kierunek-relacji"
     ],
     "opis": "Krótszemu bokowi odpowiada dłuższa wysokość – łatwo sparować krótszy z krótszą"
+   },
+   "trudnosc": {
+    "logit": -1.02,
+    "procent": 39,
+    "procent_etap": 32
    }
   },
   {
@@ -903,6 +1045,11 @@
      "konwencja"
     ],
     "opis": "Wariant ma właściwe cyfry początkowe, ale o jedną cyfrę za dużo – trzeba policzyć rząd wielkości"
+   },
+   "trudnosc": {
+    "logit": -0.84,
+    "procent": 41,
+    "procent_etap": 34
    }
   },
   {
@@ -924,7 +1071,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile złotych zostaje do zarobienia po sprzedaży dwóch piątych jajek",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.01,
+    "procent": 69,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q24",
@@ -946,7 +1098,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trasy są prostopadłe i równe, więc odległość to przebyta droga razy √2",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.62,
+    "procent": 81,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q25",
@@ -972,6 +1129,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zmniejszenie wymiarów o 1/3 nie oznacza zużycia 1/3 objętości – objętość skaluje się sześcianem"
+   },
+   "trudnosc": {
+    "logit": 5.8,
+    "procent": 93,
+    "procent_etap": 89
    }
   },
   {
@@ -993,7 +1155,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Dwie kolejne liczby parzyste zapiszmy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn></math>. Suma ich kwadratów zwiększona o 4 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>n</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>8</mn><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Każdy składnik jest podzielny przez 8, więc suma jest podzielna przez 8.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.29,
+    "procent": 52,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q27",
@@ -1012,7 +1179,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to liczba wagonów I klasy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> to liczba wagonów II klasy. Wagon II klasy ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>96</mn></math> miejsc, a wagon I klasy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>60</mn></math> miejsc. Łączna liczba miejsc to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>624</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>660</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mi>x</mi><mo>+</mo><mn>96</mn><mi>y</mi><mo>=</mo><mn>660</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mi>y</mi><mo>=</mo><mn>11</mn></math>. Rozwiązaniami mogą być tylko liczby naturalne, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> musi być podzielne przez 5, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>. W pociągu było 5 wagonów II klasy i 3 wagony I klasy.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.03,
+    "procent": 83,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2024-2025_zachodniopomorskie_q28",
@@ -1039,7 +1211,18 @@
      "o-co-pytaja"
     ],
     "opis": "Z warunku pól naturalnie wychodzi podstawa odciętego trójkąta EB, a pytają o AE"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.29,
+    "procent": 62,
+    "procent_etap": 54
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020_podlaskie_q23",
+     "rodzaj": "wariant"
+    }
+   ]
   }
  ]
 }

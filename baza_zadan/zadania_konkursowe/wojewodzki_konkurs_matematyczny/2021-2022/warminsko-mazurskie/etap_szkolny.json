@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie liczby rzymskie na arabskie i odejmij",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.46,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna kwadratu to bok razy √2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.8,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q3",
@@ -126,6 +137,11 @@
      "zbior-liczb"
     ],
     "opis": "Jednocyfrowe liczby pierwsze: liczba 1 nie jest pierwsza, a 9 tylko wygląda na pierwszą"
+   },
+   "trudnosc": {
+    "logit": -7.28,
+    "procent": 2,
+    "procent_etap": 2
    }
   },
   {
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż każdą liczbę na czynniki pierwsze i sprawdź, czy są trzy różne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.11,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q5",
@@ -208,6 +229,11 @@
      "konwencja"
     ],
     "opis": "Przed okresem stoi jedna cyfra, której nie wolno wliczać do cyklu przy liczeniu pozycji"
+   },
+   "trudnosc": {
+    "logit": 0.6,
+    "procent": 55,
+    "procent_etap": 62
    }
   },
   {
@@ -245,7 +271,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wszystkie zaczynają się tak samo — rozpisz je i porównaj piątą cyfrę po przecinku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.44,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q7",
@@ -289,6 +320,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie dotyczy drogi, która zostaje do celu, a nie drogi przebytej"
+   },
+   "trudnosc": {
+    "logit": -3.65,
+    "procent": 17,
+    "procent_etap": 20
    }
   },
   {
@@ -333,7 +369,18 @@
      "warunek-istnienia"
     ],
     "opis": "Trójkąt zdegenerowany: suma dwóch boków równa trzeciemu nie spełnia ostrej nierówności trójkąta"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.16,
+    "procent": 20,
+    "procent_etap": 24
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022_podlaskie_q23",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q9",
@@ -378,6 +425,11 @@
      "znak"
     ],
     "opis": "−5² to minus kwadrat piątki, a −(−10)² to minus kwadrat; potęgowanie przed znakiem minus"
+   },
+   "trudnosc": {
+    "logit": -0.77,
+    "procent": 42,
+    "procent_etap": 48
    }
   },
   {
@@ -416,7 +468,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna dzieli taki romb na dwa trójkąty równoboczne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.07,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q11",
@@ -435,7 +492,12 @@
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>52,5</mn><mo>:</mo><mn>0,5</mn><mo>=</mo><mo>−</mo><mn>105</mn></mrow></math>. Wartość nawiasu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>−</mo><mn>4</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>14</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac></mrow></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mn>8,75</mn></mrow></math>. Zatem wartość wyrażenia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>105</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>8,75</mn><mo>)</mo><mo>+</mo><mn>1,25</mn><mo>=</mo><mo>−</mo><mn>95</mn></mrow></math>, a liczba odwrotna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>1</mn><mn>95</mn></mfrac></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 2 pkt za obliczenie wartości wyrażenia (−95), 1 pkt za liczbę odwrotną (−1/95). Za każdy błąd rachunkowy uczeń traci 1 punkt; za niezachowanie kolejności działań — 0 punktów za tę część.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.94,
+    "procent": 83,
+    "procent_etap": 89
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q12",
@@ -463,6 +525,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Podzielność przez 15 dopuszcza ostatnią cyfrę 0 lub 5; łatwo rozpatrzyć tylko jeden przypadek"
+   },
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 76,
+    "procent_etap": 84
    }
   },
   {
@@ -485,7 +552,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień skalę na kilometry w terenie, a 12 minut na ułamek godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.47,
+    "procent": 35,
+    "procent_etap": 41
+   }
   },
   {
    "id": "szkolny_2021-2022_warminsko-mazurskie_q14",
@@ -515,6 +587,11 @@
      "inne:cale-opakowania"
     ],
     "opis": "Nasiona sprzedawane tylko w całych workach — potrzebną masę trzeba zaokrąglić w górę do worków"
+   },
+   "trudnosc": {
+    "logit": -1.72,
+    "procent": 33,
+    "procent_etap": 38
    }
   },
   {
@@ -545,6 +622,11 @@
      "procent-podstawa"
     ],
     "opis": "25% więcej liczy się od zarobku z drugiego tygodnia, nie z pierwszego"
+   },
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 57
    }
   }
  ]

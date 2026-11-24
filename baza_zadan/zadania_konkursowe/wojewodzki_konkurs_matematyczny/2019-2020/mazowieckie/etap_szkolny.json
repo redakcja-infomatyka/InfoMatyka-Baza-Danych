@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2019_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2019_mazowieckie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, jakim procentem szukanej liczby jest 7",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.56,
+    "procent": 6,
+    "procent_etap": 8
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q2",
@@ -76,7 +82,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ta wysokość dzieli trójkąt na dwa mniejsze 45-45-90 — z nich odczytasz przeciwprostokątną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.81,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q3",
@@ -115,7 +126,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj wszystkie liczby z obu klocków i odejmij te, które widać",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.25,
+    "procent": 78,
+    "procent_etap": 85
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q4",
@@ -135,7 +151,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "9·K musi kończyć się cyfrą K — to wyznacza K, a potem wystarczy pierwszy krok dzielenia",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.35,
+    "procent": 85,
+    "procent_etap": 91
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q5",
@@ -157,7 +178,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Oznaczmy kąty zaznaczone łukami jak w modelu odpowiedzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math> przy wierzchołku A, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> przy B, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> przy C, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> przy D, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>φ</mi></math> przy E i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> przy F. Ponieważ AB ∥ CD, kąt przy wierzchołku K w trójkącie CEK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a w trójkącie DFK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math>. Z twierdzenia o sumie kątów w trójkącie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>φ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi></math>. Suma wszystkich kątów zaznaczonych łukami wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>ε</mi><mo>)</mo><mo>=</mo><mn>360</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.03,
+    "procent": 83,
+    "procent_etap": 89
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q6",
@@ -183,6 +209,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Nierówność trójkąta dotyczy boków, nie wysokości; boki są odwrotnie proporcjonalne do wysokości"
+   },
+   "trudnosc": {
+    "logit": 5.41,
+    "procent": 91,
+    "procent_etap": 95
    }
   },
   {
@@ -206,7 +237,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "część wspólna to raz ułamek prostokąta, raz ułamek rombu — przyrównaj oba zapisy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.26,
+    "procent": 52,
+    "procent_etap": 59
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q8",
@@ -225,7 +261,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Po przełożeniu na każdej z trzech półek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>20</mn></math> książek. Niech na pierwszej półce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek; po ruchach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>16</mn></math>. Na drugiej półce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>26</mn></math>. Na trzeciej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>18</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>60</mn></math>. Odpowiedź: na pierwszej półce było 16 książek, na drugiej 26, a na trzeciej 18.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.39,
+    "procent": 53,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2019_mazowieckie_q9",
@@ -254,6 +295,11 @@
      "warunek-istnienia"
     ],
     "opis": "Liczby całkowite: trzeba też ujemnych dzielników 7, a warunek „dodatnia” odrzuca jednego kandydata"
+   },
+   "trudnosc": {
+    "logit": 6.46,
+    "procent": 95,
+    "procent_etap": 98
    }
   }
  ]

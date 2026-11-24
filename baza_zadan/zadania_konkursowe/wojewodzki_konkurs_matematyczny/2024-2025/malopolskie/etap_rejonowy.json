@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024-2025_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024-2025_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024-2025_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 0,333 na ułamek zwykły i odejmij",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.78,
+    "procent": 41,
+    "procent_etap": 43
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cofaj się po tabeli, dzieląc każdą ilość na pół",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 73
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź najpierw, jakiej parzystości jest suma dwóch kolejnych liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.03,
+    "procent": 59,
+    "procent_etap": 61
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q4",
@@ -166,6 +182,11 @@
      "procent-podstawa"
     ],
     "opis": "„O ile procent więcej” to nie to samo co „ile razy więcej”: iloraz wpływów to nie wynik"
+   },
+   "trudnosc": {
+    "logit": 1.7,
+    "procent": 66,
+    "procent_etap": 67
    }
   },
   {
@@ -212,6 +233,11 @@
      "kwantyfikator"
     ],
     "opis": "„Zawsze dodatnia” pada dla x = 0; kwadrat jest nieujemny, nie dodatni"
+   },
+   "trudnosc": {
+    "logit": -0.49,
+    "procent": 44,
+    "procent_etap": 46
    }
   },
   {
@@ -248,7 +274,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math> odcinki mają długości 1, 2, 3, 4. Po odrzuceniu 1 zostaje 2, 3, 4 (trójkąt, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>&gt;</mo><mn>4</mn></mrow></math>); po odrzuceniu 2 zostaje 1, 3, 4 (1+3=4, nie trójkąt); po odrzuceniu 3 zostaje 1, 2, 4 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>&lt;</mo><mn>4</mn></mrow></math>); po odrzuceniu 4 zostaje 1, 2, 3 (1+2=3). Trójkąt powstaje tylko w 1 na 4 przypadki: prawdopodobieństwo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> — dla większych k odcinki są względnie bliższe sobie i warunek trójkąta spełnia się częściej, więc to najmniejsza możliwa wartość.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.04,
+    "procent": 83,
+    "procent_etap": 84
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q7",
@@ -289,7 +320,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "|SA| = |SC| = |SE|, więc licz kąty przy podstawach trójkątów równoramiennych",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.72,
+    "procent": 81,
+    "procent_etap": 82
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q8",
@@ -327,7 +363,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Przekątna SE dzieli trapez ASCE na trójkąty ASE i SEC z poprzedniego zadania. W trójkącie ASE (SA=SE=√6, kąt przy S = 45°) wysokość z E ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>6</mn></msqrt><mo>:</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math> (bo trójkąt z tą wysokością jest połową kwadratu), więc jego pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msqrt><mn>6</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>1,5</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Trójkąt SEC ma kąt prosty przy S, więc jego pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msqrt><mn>6</mn></msqrt><mo>·</mo><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>3</mn></mrow></math>. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.82,
+    "procent": 93,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q9",
@@ -365,7 +406,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz liczbę boków podstawy i wyraź przez nią krawędzie i ściany",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.35,
+    "procent": 53,
+    "procent_etap": 55
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q10",
@@ -411,6 +457,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwojenie liczby białych kul nie podwaja prawdopodobieństwa, bo rośnie też liczba wszystkich kul"
+   },
+   "trudnosc": {
+    "logit": 0.6,
+    "procent": 55,
+    "procent_etap": 57
    }
   },
   {
@@ -457,6 +508,11 @@
      "zbior-liczb"
     ],
     "opis": "Iloczyn cyfr równy 0 też jest kwadratem liczby całkowitej; łatwo pominąć liczby z cyfrą zero"
+   },
+   "trudnosc": {
+    "logit": 6.9,
+    "procent": 96,
+    "procent_etap": 96
    }
   },
   {
@@ -498,7 +554,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 2024 na czynniki pierwsze i skorzystaj ze wzoru na liczbę dzielników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.54,
+    "procent": 44,
+    "procent_etap": 46
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q13",
@@ -546,6 +607,11 @@
      "zbior-liczb"
     ],
     "opis": "a jest całkowite, więc a+5 może być też ujemnym dzielnikiem 3"
+   },
+   "trudnosc": {
+    "logit": 3.04,
+    "procent": 77,
+    "procent_etap": 78
    }
   },
   {
@@ -587,7 +653,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każde zwycięstwo to jedna runda, a w każdej rundzie odpada połowa zawodników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.58,
+    "procent": 25,
+    "procent_etap": 27
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q15",
@@ -637,6 +708,11 @@
      "o-co-pytaja"
     ],
     "opis": "„To tempo” to tempo po przyspieszeniu, a nie średnie tempo od początku treningu"
+   },
+   "trudnosc": {
+    "logit": 2.46,
+    "procent": 72,
+    "procent_etap": 74
    }
   },
   {
@@ -681,7 +757,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Przekątna (przeciwprostokątna trójkątów): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>12</mn><mo>+</mo><mn>15</mn></mrow></msqrt><mo>=</mo><msqrt><mn>27</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>12</mn></mrow></math>). Sklejając dwa trójkąty wzdłuż dłuższej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>15</mn></msqrt></math>, powstaje równoległobok o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Stosunek obwodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>15</mn></msqrt><mo>)</mo><mo>:</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, co po podzieleniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>:</mo><mn>5</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.31,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q17",
@@ -729,6 +810,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Spodek wysokości może leżeć wewnątrz lub na zewnątrz boku; o wyborze decyduje słowo „rozwartokątny”"
+   },
+   "trudnosc": {
+    "logit": 5.18,
+    "procent": 90,
+    "procent_etap": 90
    }
   },
   {
@@ -769,7 +855,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ze współrzędnych środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>m</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>6</mn><mi>m</mi><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>6</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>m</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>, a z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>n</mi><mo>−</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>−</mo><mn>3</mn><mi>n</mi><mo>=</mo><mn>2</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mo>−</mo><mfrac><mn>7</mn><mn>3</mn></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>7</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>9</mn><mo>,</mo><mn>9</mn><mo>)</mo></mrow></math>. Iloczyn współrzędnych B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>9</mn><mo>)</mo><mo>·</mo><mn>9</mn><mo>=</mo><mo>−</mo><mn>81</mn><mo>≠</mo><mn>1</mn></mrow></math>, więc nie są to liczby odwrotne.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 88
+   }
   },
   {
    "id": "rejonowy_2024-2025_malopolskie_q19",
@@ -819,6 +910,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "„Co najwyżej √10” obejmuje punkty leżące dokładnie w odległości √10"
+   },
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 87
    }
   },
   {
@@ -860,7 +956,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Oznaczmy wierzchołki deltoidu: A (kąt prosty), C (kąt 60°, naprzeciw A) oraz B, D (kąty po 105°, połączone daną przekątną BD=6). Przekątne są prostopadłe i przecinają się w punkcie M, dzieląc BD na połowy: BM=3. Przekątna AC dwudzieli kąty A i C: kąt BAM=45°, więc trójkąt ABM to połowa kwadratu i AM=3. Kąt BCM=30°; odbijając trójkąt BCM względem CM, powstaje trójkąt równoboczny o boku CB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CB</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>, a z tw. Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CM</mi><mo>=</mo><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Stąd AC=3+3√3. Pole deltoidu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>9</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>54</mn><mo>+</mo><mn>54</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.5,
+    "procent": 95,
+    "procent_etap": 95
+   }
   }
  ]
 }

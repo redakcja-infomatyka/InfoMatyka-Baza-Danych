@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2018_podkarpackie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2018_podkarpackie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie dobieraj torebek w pary — policz, ile cukierków było razem we wszystkich torebkach",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.33,
+    "procent": 53,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw dowolne pasujące cyfry, np. liczbę 552, i odejmij od niej liczbę po zamianie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.9,
+    "procent": 31,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q3",
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ze średniej odczytaj sumę trzech krawędzi, a każda z nich powtarza się 4 razy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.33,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q4",
@@ -157,7 +173,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 24% na ułamek zwykły i sprawdź, przez ile musi dzielić się liczba uczniów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.86,
+    "procent": 31,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q5",
@@ -195,7 +216,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z liczby wierzchołków wyznacz liczbę boków podstawy, resztę policz ze wzorów n+2 i 3n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.95,
+    "procent": 40,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q6",
@@ -240,6 +266,11 @@
      "konwencja"
     ],
     "opis": "Okres 6 cyfr, a 126 dzieli się przez 6: reszta 0 oznacza ostatnią cyfrę okresu, nie pierwszą"
+   },
+   "trudnosc": {
+    "logit": 1.1,
+    "procent": 60,
+    "procent_etap": 62
    }
   },
   {
@@ -285,6 +316,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwojenie krawędzi sześcianu nie podwaja zużycia plasteliny: objętość rośnie z sześcianem"
+   },
+   "trudnosc": {
+    "logit": -1.53,
+    "procent": 34,
+    "procent_etap": 36
    }
   },
   {
@@ -322,7 +358,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij podzielność przez 12 na 3 i 4, potem zsumuj znane cyfry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.52,
+    "procent": 73,
+    "procent_etap": 74
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q9",
@@ -357,7 +398,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>A: lipiec ma 16 dni nieparzystych, nie 17 — fałsz. B: Janek zaznacza 30 czerwca (parzysty), Agata nie — fałsz. C: Janek zaznacza tylko 1 i 31 sierpnia; przy starcie we wtorek 1=wt, 31=czw — żaden nie jest weekendem, więc brak wspólnego dnia — fałsz.</p><p>D: maj od piątku &#8658; 31 maja wypada w niedzielę (zaznacza Marysia), jest nieparzysty (Agata) i jest ostatnim dniem (Janek). Wszyscy zaznaczają. Odpowiedź D.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.26,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q10",
@@ -394,7 +440,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile szklanek daje jeden pełny kartonik",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.49,
+    "procent": 26,
+    "procent_etap": 28
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2013_podlaskie_sp_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2018_podkarpackie_q11",
@@ -431,7 +488,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz najpierw szerokość drogi w rzeczywistości",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 33
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q12",
@@ -468,7 +530,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 6⅔% na ułamek 1/15 — wtedy podwyżkę policzysz od ręki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.29,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q13",
@@ -506,7 +573,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź części ułamkowe do wspólnego licznika 11 i porównaj same mianowniki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.33,
+    "procent": 62,
+    "procent_etap": 64
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q14",
@@ -551,6 +623,11 @@
      "konwencja"
     ],
     "opis": "Ułamek przyrostu ze znakiem % trzeba jeszcze pomnożyć przez 100; wariant bez tego wygląda na wzór"
+   },
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 45
    }
   },
   {
@@ -571,7 +648,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "środkowa z pięciu kolejnych liczb to ich średnia",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.07,
+    "procent": 21,
+    "procent_etap": 23
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q16",
@@ -604,7 +686,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie cztery kwoty — każdy chłopiec jest w tej sumie policzony 3 razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.25,
+    "procent": 71,
+    "procent_etap": 72
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q17",
@@ -645,7 +732,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj nachylenie boku pięciokąta i boku trójkąta do podstawy, potem weź kąt przyległy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.73,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q18",
@@ -687,6 +779,11 @@
      "kierunek-relacji"
     ],
     "opis": "Adam starszy od Jakuba, więc Jakub ma x−1; łatwo odwrócić i dodać zamiast odjąć"
+   },
+   "trudnosc": {
+    "logit": 3.72,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -721,7 +818,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Z warunków E, F, G są środkami: <math><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mi>E</mi><mo>-</mo><mi>G</mi></mrow></math>, <math><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mi>F</mi><mo>-</mo><mi>E</mi></mrow></math>, <math><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>G</mi><mo>-</mo><mi>F</mi></mrow></math>. Rachunek pól daje <math><mrow><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mn>7</mn><mi>x</mi></mrow></math>.</p><p>(1) 6 razy — F. (2) różnica <math><mrow><mn>7</mn><mi>x</mi><mo>-</mo><mi>x</mi><mo>=</mo><mn>6</mn><mi>x</mi></mrow></math> — P. (3) 7 razy — P. Wynik FPP.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.98,
+    "procent": 93,
+    "procent_etap": 94
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q20",
@@ -746,6 +848,11 @@
      "konwencja"
     ],
     "opis": "Dzielenie i mnożenie wykonuje się od lewej do prawej, nie mnożenie przed dzieleniem"
+   },
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 78
    }
   },
   {
@@ -766,7 +873,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech mniejsza = m, większa = <math><mrow><mn>6</mn><mi>m</mi><mo>+</mo><mn>2</mn></mrow></math>. <math><mrow><mn>7</mn><mi>m</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>58</mn></mrow></math> &#8658; <math><mrow><mi>m</mi><mo>=</mo><mn>8</mn></mrow></math>, większa 50.</p><p><math><mrow><mfrac><mn>8</mn><mn>50</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mn>16</mn><mo>=</mo><mn>16</mn><mo>%</mo></mrow></math>. Liczby 50 i 8; mniejsza to 16% większej.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.63,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2018_podkarpackie_q22",
@@ -792,6 +904,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o kasztany, które zostały pod drzewem, a nie o liczbę wszystkich kasztanów"
+   },
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 66
    }
   },
   {
@@ -821,6 +938,11 @@
      "rysunek"
     ],
     "opis": "Wysokość trójkąta DCF to tylko część dolnej podstawy trapezu; trzeba dodać szerokość kwadratu"
+   },
+   "trudnosc": {
+    "logit": 4.75,
+    "procent": 88,
+    "procent_etap": 89
    }
   }
  ]

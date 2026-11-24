@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022_dolnoslaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj całą wodę i rozdziel po równo na 5 szklanek, potem porównaj z pojemnością",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.08,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q2",
@@ -81,7 +87,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Reguły wymuszają, by skrajne pola paska były pojedyncze, a pozostałe łączyły się w pary tego samego koloru: 1 | 2–3 | 4–5 | 6–7 | 8–9 | 10, przy czym sąsiednie grupy mają różne kolory. Pole 3. leży w drugiej grupie, pole 9. w piątej — dzieli je nieparzysta liczba zmian koloru, więc pola te są różnych kolorów.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.1,
+    "procent": 77,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q3",
@@ -126,6 +137,11 @@
      "kalendarz-czas"
     ],
     "opis": "IV kwartał to 92 dni, czyli 13 pełnych tygodni i jeszcze jeden dzień — ten dzień też jest niedzielą"
+   },
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 77
    }
   },
   {
@@ -165,7 +181,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przejdź sześć ustawień i odrzuć te, w których odejmowanie rzymskie jest niedozwolone",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.26,
+    "procent": 71,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q5",
@@ -202,7 +223,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz obie liczby z opisu, pomnóż je, a wynik podziel przez 6",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.9,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q6",
@@ -239,7 +265,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian ma 12 krawędzi, a ściana tylko 4 — różnica to 8 krawędzi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.09,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q7",
@@ -279,7 +310,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz bok kwadratu i odczytaj z rysunku, ile prostokątów mieści się wzdłuż niego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.92,
+    "procent": 58,
+    "procent_etap": 65
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q8",
@@ -323,6 +359,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nierówność trójkąta jest ostra: trzeci bok leży między 12 a 26 cm bez końców, obwody brzegowe odpadają"
+   },
+   "trudnosc": {
+    "logit": -1.43,
+    "procent": 35,
+    "procent_etap": 42
    }
   },
   {
@@ -360,7 +401,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kwadrans i 20% godziny wyraź w minutach, przechadzka to reszta godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.7,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q10",
@@ -404,6 +450,11 @@
      "inne:kolejnosc-w-bloku"
     ],
     "opis": "Sklejone cyfry parzyste można ustawić na dwa sposoby: 24 i 42"
+   },
+   "trudnosc": {
+    "logit": -0.18,
+    "procent": 47,
+    "procent_etap": 54
    }
   },
   {
@@ -442,7 +493,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od cech podzielności przez 3 i 5, dopiero potem próbuj dzielić",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.58,
+    "procent": 43,
+    "procent_etap": 50
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q12",
@@ -479,7 +535,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj różnicę wymiarów boiska z różnicą 0,7 cm na planie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.26,
+    "procent": 37,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q13",
@@ -516,7 +577,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola powierzchni wyznacz krawędź dużej bryły i policz kostki wzdłuż niej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.82,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q14",
@@ -553,7 +619,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "całą równość pomnóż przez kwadrat takiej liczby, by po prawej stronie wyszło 90²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.84,
+    "procent": 10,
+    "procent_etap": 11
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q15",
@@ -590,7 +661,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "we wszystkich trzech wyrażeniach mianowniki są w tym samym stosunku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.6,
+    "procent": 55,
+    "procent_etap": 62
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q16",
@@ -620,6 +696,11 @@
      "plot-i-slupki"
     ],
     "opis": "87 = 3·29 wygląda na pierwszą; liczba wyrazów ciągu to liczba kroków plus jeden"
+   },
+   "trudnosc": {
+    "logit": 2.53,
+    "procent": 73,
+    "procent_etap": 80
    }
   },
   {
@@ -641,7 +722,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zaokrąglanie nie zmienia porządku — wystarczy wziąć najmniejszą i największą liczbę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.13,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q18",
@@ -664,7 +750,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zacznij od samych pełnych szklanek i wymieniaj jedną pełną na dwie napełnione do połowy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.19,
+    "procent": 84,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q19",
@@ -687,7 +778,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy z podanych kątów dopełnia jeden z szukanych do kąta półpełnego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.94,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2022_dolnoslaskie_q20",
@@ -708,7 +804,12 @@
     "rozwiazanie_html": "<p>W każdej z siatek brakujący kwadrat należy dorysować tak, aby powstała poprawna siatka sześcianu. Zgodnie z kluczem odpowiedzi kwadrat umieszcza się w jednym z miejsc oznaczonych krzyżykiem: w pierwszej siatce nad dwoma górnymi polami albo pod dwoma dolnymi, a w drugiej — nad dwoma górnymi polami albo z lewej strony dwóch pól.</p>",
     "punktacja_html": "<p>Za każdą prawidłowo uzupełnioną siatkę – 1 p.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.38,
+    "procent": 53,
+    "procent_etap": 60
+   }
   }
  ]
 }

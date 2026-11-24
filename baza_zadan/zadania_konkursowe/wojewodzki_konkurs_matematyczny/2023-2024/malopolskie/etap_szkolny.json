@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023-2024_malopolskie_q1",
@@ -52,6 +53,11 @@
      "inne:zero-podzielne"
     ],
     "opis": "Iloczyn cyfr równy 0 też dzieli się przez 3, więc liczby z cyfrą 0 też się liczą"
+   },
+   "trudnosc": {
+    "logit": 2.73,
+    "procent": 74,
+    "procent_etap": 82
    }
   },
   {
@@ -87,7 +93,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Po cyfrze x od razu zaczyna się okres, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>99</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mi>z</mi><mo>=</mo><mn>11</mn><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>9</mn></mfrac></math>. Ponieważ 35:9=3,(8), po przecinku zawsze powtarza się cyfra 8, a przed przecinkiem jest liczba 11x+3. Dla x=0 to 3, a suma cyfr 3+8=11 jest wielokrotnością 11.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.09,
+    "procent": 90,
+    "procent_etap": 94
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q3",
@@ -124,7 +135,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przyjmij masę wody 100 g i porównaj, ile łącznie dosypano, a ile odparowało",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.17,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "średnia się nie zmienia, więc suma też — zestaw przyrost dwóch liczb z ubytkiem trzeciej",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 91
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q5",
@@ -200,7 +221,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licz samą różnicę cen i tylko na biletach sprzedanych w dniu spektaklu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 70,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q6",
@@ -248,6 +274,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówki nie pokrywają się co godzinę (w dobie jest ich mniej niż 24); luty 2023 nie jest przestępny"
+   },
+   "trudnosc": {
+    "logit": 5.34,
+    "procent": 91,
+    "procent_etap": 95
    }
   },
   {
@@ -289,7 +320,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma kątów to (n−2)·180 — sprawdź, ile razy 180 mieści się w 2023",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q8",
@@ -338,6 +374,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pole, a nie o bok; kwadrat potęgi 5^64 trzeba poprawnie zapisać przy podstawie 25"
+   },
+   "trudnosc": {
+    "logit": 3.26,
+    "procent": 78,
+    "procent_etap": 85
    }
   },
   {
@@ -381,7 +422,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz przed nawias najniższe potęgi x, y i z",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.23,
+    "procent": 47,
+    "procent_etap": 54
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q10",
@@ -430,6 +476,11 @@
      "kierunek-relacji"
     ],
     "opis": "Trzeba ustalić, co jest cięższe, worek czy baryłka: łatwo odwrócić 'dwa razy mniej' na 'dwa razy więcej'"
+   },
+   "trudnosc": {
+    "logit": -3.25,
+    "procent": 20,
+    "procent_etap": 23
    }
   },
   {
@@ -473,7 +524,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każda podstawa jest krótsza od przekątnej rozpiętej nad nią — oszacuj sumę podstaw z góry",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.1,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q12",
@@ -523,6 +579,11 @@
      "szczegol-bryly"
     ],
     "opis": "Wymiary podane w trzech różnych jednostkach; trzeba też ustalić, na której ściance stoi zabawka"
+   },
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 41
    }
   },
   {
@@ -571,6 +632,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o łączną liczbę dyń w obu hurtowniach, a nie w jednej"
+   },
+   "trudnosc": {
+    "logit": 2.69,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -610,7 +676,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Piesza część trwała 60 min (4 km/h). Postój i jazda hulajnogą zajęły 2+18=20 min, przyjazd po 60+20=80 min, czyli 40 min przed odjazdem. Idąc dalej pieszo, spóźniłby się o 30 min, więc dotarłby po 80+40+30=150 min, czyli po dodatkowych 150−60=90 min marszu — to 6 km pozostałej trasy. Cała droga to 4+6=10 km w 80 min, więc średnia prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mfrac><mn>80</mn><mn>60</mn></mfrac><mo>=</mo><mn>7,5</mn></math> km/h.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 95
+   }
   },
   {
    "id": "szkolny_2023-2024_malopolskie_q15",
@@ -651,7 +722,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech liczby to n, n+1, n+2, n+3; dokładnie jedna dzieli się przez 3, więc n nie dzieli się przez 3. Gdy dzieli się n+2, suma pozostałych to 3n+4=38 — brak rozwiązania naturalnego. Gdy dzieli się n+1, suma pozostałych to 3n+5=38, skąd n=11. Liczby to 11, 12, 13, 14; skreślamy 12. Wśród 11, 13, 14 liczbami pierwszymi są 11 i 13 — dwie liczby pierwsze.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.07,
+    "procent": 84,
+    "procent_etap": 89
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q1",
@@ -53,6 +54,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Liczba 1 nie jest pierwsza; dystraktor odpowiada ciągowi zaczętemu od 1 zamiast od 2"
+   },
+   "trudnosc": {
+    "logit": -2.74,
+    "procent": 24,
+    "procent_etap": 28
    }
   },
   {
@@ -90,7 +96,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "30 km/h to 1 km w 2 minuty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.25,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q3",
@@ -130,7 +141,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dni bez zaznaczonej kropki to weekendy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.01,
+    "procent": 49,
+    "procent_etap": 56
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q4",
@@ -167,7 +183,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij wysokość głowy za 1",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.83,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q5",
@@ -211,6 +232,11 @@
      "konwencja"
     ],
     "opis": "Opis słowny: kwadrat liczby a, potem zwiększenie, a nie kwadrat sumy a i 5"
+   },
+   "trudnosc": {
+    "logit": -8.59,
+    "procent": 0,
+    "procent_etap": 0
    }
   },
   {
@@ -256,6 +282,11 @@
      "konwencja"
     ],
     "opis": "Okres nie zaczyna się od razu po przecinku: pierwsza cyfra 7 jest przed okresem"
+   },
+   "trudnosc": {
+    "logit": 1.55,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -294,7 +325,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty przyległe dają razem 180°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.15,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q8",
@@ -332,7 +368,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 = 4 · 3, więc osobno sprawdź końcówkę i osobno sumę cyfr",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.95,
+    "procent": 76,
+    "procent_etap": 83
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q9",
@@ -369,7 +410,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyobraź sobie najgorszy przypadek: same nieparzyste na początku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.68,
+    "procent": 25,
+    "procent_etap": 29
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q10",
@@ -406,7 +452,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian ma 6 jednakowych ścian",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.59,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q11",
@@ -449,6 +500,11 @@
      "kwantyfikator"
     ],
     "opis": "Prawidłowy wymaga podstawy będącej wielokątem foremnym; prostokątne ściany boczne tego nie dają"
+   },
+   "trudnosc": {
+    "logit": 3.92,
+    "procent": 83,
+    "procent_etap": 89
    }
   },
   {
@@ -470,7 +526,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część basenu oba krany napełniają w ciągu godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.77,
+    "procent": 16,
+    "procent_etap": 19
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022_podlaskie_q22",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "wojewodzki_2024-2025_slaskie_q16",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q13",
@@ -493,7 +564,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "cyfra jedności się nie przesuwa – porównuj tylko dziesiątki i wstawioną siódemkę",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.47,
+    "procent": 54,
+    "procent_etap": 61
+   }
   },
   {
    "id": "szkolny_2024-2025_warminsko-mazurskie_q14",
@@ -522,6 +598,11 @@
      "inne:wszyscy-sie-starzeja"
     ],
     "opis": "Ojciec też się starzeje, a czterech synów przybywa po 4 lata na każdy rok"
+   },
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 41
    }
   },
   {
@@ -543,7 +624,12 @@
     "rozwiazanie_html": "<p>Dłuższa cięciwa ma długość 16 cm, czyli jest równa średnicy okręgu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>16</mn></mrow></math>), więc przechodzi przez środek okręgu. Krótsza cięciwa ma długość 12 cm, a jej połowa 6 cm. Odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> tej cięciwy od środka okręgu wyznaczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>28</mn></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><msqrt><mn>28</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math>. Ponieważ dłuższa cięciwa przechodzi przez środek okręgu, odległość między cięciwami jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>7</mn></msqrt></mrow></math> cm.</p>",
     "punktacja_html": "<p>Częściowo: 1 pkt za wykonanie rysunku (dłuższa cięciwa to średnica); 1 pkt za ułożenie równania z twierdzenia Pitagorasa; 1 pkt za rozwiązanie równania i udzielenie odpowiedzi.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.94,
+    "procent": 68,
+    "procent_etap": 75
+   }
   }
  ]
 }

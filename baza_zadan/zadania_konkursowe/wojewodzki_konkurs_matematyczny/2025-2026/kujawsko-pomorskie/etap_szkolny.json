@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2026_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2026_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz zapis rzymski na liczbę i porównaj ją z kwadratami i sześcianami podanych liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.09,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q2",
@@ -90,6 +96,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o dzień pieczenia ciasta, a ono jest dzień przed wspólną wizytą"
+   },
+   "trudnosc": {
+    "logit": 2.25,
+    "procent": 71,
+    "procent_etap": 78
    }
   },
   {
@@ -135,6 +146,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 1900 nie jest przestępny, a 29 lutego 1864 wypada przed datą urodzin"
+   },
+   "trudnosc": {
+    "logit": 5.43,
+    "procent": 91,
+    "procent_etap": 95
    }
   },
   {
@@ -176,7 +192,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 4²⁰²⁶ jako potęgę dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q5",
@@ -213,7 +234,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dla każdej liczby zsumuj jej dzielniki mniejsze od niej samej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.48,
+    "procent": 4,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q6",
@@ -250,7 +276,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie, ile arów i ile metrów kwadratowych mieści hektar",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.46,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q7",
@@ -287,7 +318,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź licznik i mianownik do wspólnego mianownika — on się skróci",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.49,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q8",
@@ -325,7 +361,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj procenty i odejmij raz część wspólną, a potem dopełnij do 100%",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.38,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q9",
@@ -369,6 +410,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent liczony od ceny pierwotnej, a nie od ceny po pierwszej obniżce"
+   },
+   "trudnosc": {
+    "logit": -2.62,
+    "procent": 25,
+    "procent_etap": 30
    }
   },
   {
@@ -414,6 +460,11 @@
      "procent-podstawa"
     ],
     "opis": "12,5% liczy się od liczby dużych słoików, nie od wszystkich"
+   },
+   "trudnosc": {
+    "logit": 1.06,
+    "procent": 60,
+    "procent_etap": 66
    }
   },
   {
@@ -459,6 +510,11 @@
      "procent-podstawa"
     ],
     "opis": "„Zwiększyło się o 1/2” a „wzrosło do 1/2” to różne zdania"
+   },
+   "trudnosc": {
+    "logit": 0.23,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -504,6 +560,11 @@
      "jednostki"
     ],
     "opis": "Naturalny wynik w km/h ma tę samą liczbę co wariant podany w dm/min"
+   },
+   "trudnosc": {
+    "logit": 0.06,
+    "procent": 50,
+    "procent_etap": 57
    }
   },
   {
@@ -543,7 +604,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Prowadzimy CE równoległe do AD (E na AB, skoro m∥n) — czworokąt AECD jest równoległobokiem, więc AE = CD = 8 cm i EC = AD.</p><p>Kąty α przy B i C są równe, więc trójkąt EBC jest równoramienny: EB = EC = CE = 20 cm, stąd AD = 20 cm.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>AE</mi><mo>+</mo><mi>EB</mi><mo>=</mo><mn>8</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>28</mn></math> cm.</p><p>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>71</mn></math> cm.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.28,
+    "procent": 71,
+    "procent_etap": 78
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q14",
@@ -580,7 +646,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy popatrzeć na samą resztę, nie na całą liczbę a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.68,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q15",
@@ -617,7 +688,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 = 3 · 4 — sprawdź sumę cyfr i dwie ostatnie cyfry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.94,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2026_kujawsko-pomorskie_q16",
@@ -656,6 +732,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wyliczone α nie jest największym kątem; pytają o kąt przy wierzchołku O"
+   },
+   "trudnosc": {
+    "logit": -2.17,
+    "procent": 29,
+    "procent_etap": 34
    }
   },
   {
@@ -693,7 +774,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oba trójkąty, BCD i ABD, są równoramienne — licz kąty przy ich podstawach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.14,
+    "procent": 70,
+    "procent_etap": 77
+   }
   }
  ]
 }

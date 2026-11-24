@@ -8,6 +8,7 @@
  "liczba_zadan": 13,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020_lodzkie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "szkolny_2020_lodzkie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź parzystość w każdym zdaniu, korzystając z zapisu 2k i 2k+1",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.68,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 0,3 i 0,4 na ułamki zwykłe, dopiero potem je odwróć",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.5,
+    "procent": 26,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q3",
@@ -118,7 +129,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz 9² i 27⁴ jako potęgi trójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.81,
+    "procent": 10,
+    "procent_etap": 11
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2013_podlaskie_gim_q4",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "szkolny_2022_lodzkie_q5",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "szkolny_2020_lodzkie_q4",
@@ -155,7 +181,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj zmiany po dwie: pierwszą z drugą, trzecią z czwartą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.07,
+    "procent": 49,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q5",
@@ -200,6 +231,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pierwiastek z różnicy kwadratów kusi, by rozbić go na różnicę pierwiastków"
+   },
+   "trudnosc": {
+    "logit": -2.85,
+    "procent": 23,
+    "procent_etap": 27
    }
   },
   {
@@ -237,7 +273,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "0,3 l to 300 ml — policz tłuszcz z każdej porcji osobno i odnieś do całości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.98,
+    "procent": 30,
+    "procent_etap": 35
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q7",
@@ -281,6 +322,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o różnicę miar kątów, a nie o miarę większego kąta"
+   },
+   "trudnosc": {
+    "logit": -3.08,
+    "procent": 21,
+    "procent_etap": 24
    }
   },
   {
@@ -319,7 +365,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "połowa obwodu to suma dwóch boków, a te mają się do siebie jak 3 do 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.61,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q9",
@@ -363,6 +414,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z równania wychodzi długość krawędzi, a pytają o objętość"
+   },
+   "trudnosc": {
+    "logit": -1.38,
+    "procent": 36,
+    "procent_etap": 42
    }
   },
   {
@@ -408,6 +464,11 @@
      "o-co-pytaja"
     ],
     "opis": "Część całej drogi, a nie część drugiej połowy drogi, na której pasażer spał"
+   },
+   "trudnosc": {
+    "logit": 2.36,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -429,7 +490,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwiń oba nawiasy — niewiadoma się skraca",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.45,
+    "procent": 35,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2020_lodzkie_q12",
@@ -456,6 +522,11 @@
      "jednostki"
     ],
     "opis": "Krawędź zbiornika w metrach, kostki w centymetrach, wynik w centymetrach"
+   },
+   "trudnosc": {
+    "logit": 0.09,
+    "procent": 50,
+    "procent_etap": 57
    }
   },
   {
@@ -486,6 +557,11 @@
      "procent-podstawa"
     ],
     "opis": "Wydłużenie o 50% i skrócenie o 50% wydaje się znosić"
+   },
+   "trudnosc": {
+    "logit": 1.21,
+    "procent": 61,
+    "procent_etap": 68
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 25,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022_podlaskie_q1",
@@ -51,6 +52,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczenie liczb całkowitych w przedziale z jednym końcem ostrym, drugim nieostrym — pomyłka o jeden"
+   },
+   "trudnosc": {
+    "logit": -3.49,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozszerz ułamek do mianownika 999 — rozwinięcie jest okresowe, więc liczy się reszta z dzielenia 135",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q3",
@@ -128,7 +139,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź zarobki z drugiego i trzeciego tygodnia jako wielokrotność pierwszego",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.1,
+    "procent": 21,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q4",
@@ -173,6 +189,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Suma dwóch równych potęg to podwojenie, a nie dodanie wykładników"
+   },
+   "trudnosc": {
+    "logit": -3.62,
+    "procent": 17,
+    "procent_etap": 12
    }
   },
   {
@@ -211,7 +232,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skróć ułamek przed podniesieniem do kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.86,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q6",
@@ -248,7 +274,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obejrzyj każdą literę osobno — szukaj osi pionowej albo poziomej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.38,
+    "procent": 72,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q7",
@@ -286,7 +317,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trzeci okrąg przecina dwa poprzednie w 4 punktach — i nie zapomnij o obszarze na zewnątrz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.24,
+    "procent": 78,
+    "procent_etap": 71
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q8",
@@ -323,7 +359,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj wzór na liczbę przekątnych z podwojoną liczbą boków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.41,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q9",
@@ -367,7 +408,18 @@
      "inne:losowanie-bez-zwracania"
     ],
     "opis": "Losowania bez zwracania: zmienia się i liczba losów, i liczba losów wygrywających"
-   }
+   },
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 59
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_swietokrzyskie_q15",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022_podlaskie_q10",
@@ -411,6 +463,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zdanie b podaje pole całej powierzchni bocznej jako pole jednej ściany; d — krawędzie graniastosłupa"
+   },
+   "trudnosc": {
+    "logit": 5.27,
+    "procent": 90,
+    "procent_etap": 87
    }
   },
   {
@@ -448,7 +505,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uśrednij osobno pierwsze i osobno drugie współrzędne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.81,
+    "procent": 3,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q12",
@@ -493,6 +555,11 @@
      "zaokraglenie"
     ],
     "opis": "Pytanie o pełne obroty — wynik niecałkowity trzeba zaokrąglić w dół, nie do najbliższej"
+   },
+   "trudnosc": {
+    "logit": -0.0,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -534,7 +601,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cięciwa dzieli się na pół — szukaj dwóch trójkątów prostokątnych o przyprostokątnej 12",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.42,
+    "procent": 63,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q14",
@@ -571,7 +643,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "promień to połowa wysokości — dodaj dwie podstawy i pole boczne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.66,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q15",
@@ -608,7 +685,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "reguła mnożenia — każdy kolor łączysz z każdym pomponem",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.41,
+    "procent": 1,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q16",
@@ -645,6 +727,11 @@
      "inne:kazde-dziecko-starzeje-sie"
     ],
     "opis": "Za 2 lata każde z trojga dzieci jest starsze o 2 lata, więc ich suma rośnie o 6, nie o 2"
+   },
+   "trudnosc": {
+    "logit": 1.86,
+    "procent": 67,
+    "procent_etap": 60
    }
   },
   {
@@ -682,7 +769,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź po kolei, ile środków symetrii ma każda z czterech figur",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 1.76,
+    "procent": 66,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q18",
@@ -727,6 +819,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa pola koła to nie połowa promienia — pole zależy od kwadratu promienia"
+   },
+   "trudnosc": {
+    "logit": -1.39,
+    "procent": 36,
+    "procent_etap": 29
    }
   },
   {
@@ -749,7 +846,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień oba prawdopodobieństwa na liczby ścianek — któraś liczba musi spełniać oba warunki naraz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.01,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q20",
@@ -775,6 +877,11 @@
      "procent-podstawa"
     ],
     "opis": "25% liczy się od kąta przyległego, a nie od 180°"
+   },
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 14
    }
   },
   {
@@ -793,7 +900,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Graniastosłup prawidłowy zbudowany z trójkątów równobocznych (podstawy) i kwadratów (ściany boczne) to graniastosłup prawidłowy trójkątny. Z pola trójkąta równobocznego wyznaczamy jego krawędź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math> cm. Ścianami bocznymi są trzy kwadraty o boku 6 cm, więc pole powierzchni bocznej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>·</mo><mn>36</mn><mo>=</mo><mn>108</mn></mrow></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 42
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q22",
@@ -812,7 +924,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Przekształcamy wyrażenie, opuszczając nawiasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>4</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math>. Po redukcji wyrazów podobnych otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mi>x</mi><mo>−</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>2</mn></mrow></math>. Wartość wyrażenia jest więc dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> równa 2, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>&gt;</mo><mn>0</mn></mrow></math>, jest to liczba dodatnia, co kończy dowód.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.87,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q23",
@@ -832,7 +949,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>CDA</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ACD</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math> (trójkąt o kątach 30°, 60°, 90°). Przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mn>4</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>AD</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>B</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mi>AC</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DB</mi><mo>=</mo><mi>AB</mi><mo>−</mo><mi>AD</mi><mo>=</mo><mn>12</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest prostopadły do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, więc jest wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> opuszczoną na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>DB</mi><mo>·</mo><mi>AC</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.35,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q24",
@@ -855,7 +977,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Przeciwprostokątną jest najdłuższy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, a przyprostokątnymi 12 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn></mrow></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>144</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>14</mn><mi>x</mi><mo>+</mo><mn>49</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mi>x</mi><mo>=</mo><mn>192</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>. Boki trójkąta mają więc długości: 12, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn><mo>=</mo><mn>5</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>30</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.09,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2022_podlaskie_q25",
@@ -875,7 +1002,18 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza pojemność pierwszej beczki. Napełnienie drugiej beczki z pierwszej pozostawia w pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zawartości, więc druga beczka ma pojemność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>)</mo><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>. Napełnienie trzeciej beczki z drugiej pozostawia w drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> zawartości, więc trzecia beczka ma pojemność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi></mrow></math>. Napełniając drugą i trzecią beczkę z pierwszej, zużywamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>11</mn><mn>15</mn></mfrac><mi>x</mi></mrow></math>, więc w pierwszej zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mfrac><mn>11</mn><mn>15</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mn>15</mn></mfrac><mi>x</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>15</mn></mfrac><mi>x</mi><mo>=</mo><mn>40</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>150</mn></mrow></math>. Zatem pojemności beczek to: pierwsza 150 l, druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>·</mo><mn>150</mn><mo>=</mo><mn>60</mn></mrow></math> l, trzecia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>150</mn><mo>=</mo><mn>50</mn></mrow></math> l.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.27,
+    "procent": 85,
+    "procent_etap": 80
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2011_podkarpackie_q22",
+     "rodzaj": "wariant"
+    }
+   ]
   }
  ]
 }

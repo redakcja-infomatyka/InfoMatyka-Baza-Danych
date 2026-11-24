@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025_dolnoslaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że P+Q = 6 − R, a S+T = 15 − W — zostają po trzy wartości każdego ułamka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.1,
+    "procent": 84,
+    "procent_etap": 85
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q2",
@@ -89,6 +95,11 @@
      "inne:czesc-wspolna"
     ],
     "opis": "Wierzchołki wspólne obu łamanych (co szósty) policzone dwa razy, bez odjęcia części wspólnej"
+   },
+   "trudnosc": {
+    "logit": 2.61,
+    "procent": 74,
+    "procent_etap": 75
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "średnia się nie zmienia, więc suma trzech liczb też nie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.07,
+    "procent": 21,
+    "procent_etap": 23
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "AX + BX = AB oznacza, że X leży między A i B",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.66,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q5",
@@ -201,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w liczniku dodaj jednakowe składniki, a potem skróć ułamek przez x (i przez y)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.9,
+    "procent": 40,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q6",
@@ -242,7 +268,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zsumuj osobno odcinki równoległe do siebie — AB stanie się przeciwprostokątną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.18,
+    "procent": 84,
+    "procent_etap": 85
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q7",
@@ -281,7 +312,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> = 60° (trójkąt równoboczny), a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> = 90° przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mi>AB</mi></math> (trójkąt prostokątny równoramienny), więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAE</mi></math> = 30°.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>⊥</mo><mi>AD</mi></math>, wysokości trójkątów ABE i AED opuszczone z E są w takim stosunku, jak przyprostokątne w trójkącie o kątach 30° i 60°, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> : 1; skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>AD</mi></math>, w tym samym stosunku są pola.</p><p>Pole AED = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.27,
+    "procent": 94,
+    "procent_etap": 95
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q8",
@@ -322,7 +358,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "na siatce odczytaj przesunięcie odcinka w krawędziach: w poziomie i w pionie, potem Pitagoras",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.85,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q9",
@@ -352,6 +393,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kwotę, a nie o liczbę monet; do tego wysokość tylnego stosu trzeba odczytać z widoku z boku"
+   },
+   "trudnosc": {
+    "logit": 4.3,
+    "procent": 85,
+    "procent_etap": 86
    }
   },
   {
@@ -372,7 +418,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech x i x+5° będą częściami kąta ostrego, a y i y+15° — częściami sąsiedniego kąta rozwartego (przy tym samym boku równoległoboku), na jakie dzielą je przekątne. Kąty te są sąsiednie, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>°</mo><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>15</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>80</mn><mo>°</mo></math>.</p><p>Trzeci kąt trójkąta utworzonego przez ten bok i fragmenty obu przekątnych to szukany kąt rozwarty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>100</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.13,
+    "procent": 97,
+    "procent_etap": 97
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q11",
@@ -395,7 +446,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "łatwiej policzyć dwa białe trójkąty i odjąć je od pola kwadratu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.02,
+    "procent": 49,
+    "procent_etap": 51
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q12",
@@ -417,7 +473,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wprowadź wspólny mnożnik k: x + y = 7k, x − y = 3k, wtedy x i y wyrażą się przez k",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.65,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q13",
@@ -442,7 +503,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "4α i 5α to kąty przyległe — stąd α; dalej trójkąt o kątach 30-60-90 z przeciwprostokątną AC",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.26,
+    "procent": 62,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q14",
@@ -464,7 +530,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy warunek to osobne, jednodziałaniowe równanie — wylicz w, x, y, z po kolei",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.97,
+    "procent": 40,
+    "procent_etap": 41
+   }
   },
   {
    "id": "rejonowy_2025_dolnoslaskie_q15",
@@ -495,6 +566,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o część niezamalowaną, a nie o kwadraty zamalowane na szaro"
+   },
+   "trudnosc": {
+    "logit": 5.2,
+    "procent": 90,
+    "procent_etap": 90
    }
   },
   {
@@ -517,7 +593,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każdą liczbę całkowitą zapisz jako ułamek o mianowniku sąsiedniego składnika",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.66,
+    "procent": 87,
+    "procent_etap": 88
+   }
   }
  ]
 }

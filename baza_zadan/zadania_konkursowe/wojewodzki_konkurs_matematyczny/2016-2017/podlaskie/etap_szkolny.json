@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2016_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2016_podlaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pogrupuj: osobno 1999−999, osobno 99−9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.42,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q2",
@@ -88,6 +94,11 @@
      "kalendarz-czas"
     ],
     "opis": "Doba liczona od południa kończy się znów w południe, nie o północy; warianty kuszą godziną wieczorną"
+   },
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 61
    }
   },
   {
@@ -129,7 +140,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obwód trójkąta policz z boku 12 cm, a dłuższy bok prostokąta odczytaj z rysunku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.34,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2024-2025_zachodniopomorskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2016_podlaskie_q4",
@@ -166,7 +188,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 9999 przez 36 i odrzuć resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.23,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q5",
@@ -204,7 +231,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kwadrat daje 4 wierzchołki, trójkąt 3 — sprawdzaj kolejne liczby kwadratów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.08,
+    "procent": 21,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q6",
@@ -250,6 +282,11 @@
      "inne:sklejone-sciany"
     ],
     "opis": "Przy sklejeniu znika ściana sześcianu i ten sam kawałek ściany prostopadłościanu"
+   },
+   "trudnosc": {
+    "logit": -0.48,
+    "procent": 44,
+    "procent_etap": 51
    }
   },
   {
@@ -295,6 +332,11 @@
      "plot-i-slupki"
     ],
     "opis": "Granica przedziału zaokrąglenia: która skrajna cena jeszcze daje 4,4 zł i ile cen liczyć włącznie"
+   },
+   "trudnosc": {
+    "logit": 1.53,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -332,7 +374,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż całą nierówność przez 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.39,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2024-2025_zachodniopomorskie_q15",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2016_podlaskie_q9",
@@ -377,6 +430,11 @@
      "inne:wspolny-bok"
     ],
     "opis": "Przekątna należy do obu trójkątów, ale nie do obwodu równoległoboku"
+   },
+   "trudnosc": {
+    "logit": -3.91,
+    "procent": 15,
+    "procent_etap": 18
    }
   },
   {
@@ -414,7 +472,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź od końca, odwracając po kolei każde działanie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.81,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q11",
@@ -452,7 +515,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz, ile razy w tym iloczynie występuje czynnik 2 i ile razy czynnik 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.65,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q12",
@@ -489,7 +557,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "boki i przekątne razem to wszystkie odcinki łączące pary wierzchołków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.79,
+    "procent": 24,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q13",
@@ -527,7 +600,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel pole przez 3 — zostanie kwadrat krótszego boku",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.29,
+    "procent": 0,
+    "procent_etap": 1
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q14",
@@ -572,6 +650,11 @@
      "o-co-pytaja"
     ],
     "opis": "Promień jednego równy średnicy drugiego: średnica większego jest więc dwa razy dłuższa; pytają o mniejszy"
+   },
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 38
    }
   },
   {
@@ -610,7 +693,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od sumy odejmij różnicę, a potem podziel na pół",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.39,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q16",
@@ -647,7 +735,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułóż jeden łańcuch nierówności, dopisując po kolei każdą osobę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.14,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q17",
@@ -685,7 +778,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pole tego samego trójkąta zapisz dwa razy: raz z bokiem 12, raz z bokiem 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.74,
+    "procent": 56,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q18",
@@ -705,7 +803,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel 9100 przez 260 od razu — dostaniesz cenę jednej płyty w sklepie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.86,
+    "procent": 15,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q19",
@@ -732,6 +835,11 @@
      "plot-i-slupki"
     ],
     "opis": "Numeracja od strony 3, a liczb od 100 do 180 włącznie jest 81, nie 80"
+   },
+   "trudnosc": {
+    "logit": 1.89,
+    "procent": 68,
+    "procent_etap": 75
    }
   },
   {
@@ -751,7 +859,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Duży pokój zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> powierzchni mieszkania, a mały pokój <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mn>3</mn><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>.</p><p>Pokoje, kuchnia i łazienka zajmują razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>25</mn><mn>28</mn></mfrac></mrow></math> powierzchni mieszkania.</p><p>Na przedpokój przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>28</mn></mfrac></math> powierzchni. Przedpokój ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>4,5</mn></mrow></math> m², więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>28</mn></mfrac></math> to 4,5 m², a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>28</mn></mfrac></math> to 1,5 m².</p><p>Całe mieszkanie ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>42</mn></mrow></math> m².</p><p>Odpowiedź: mieszkanie ma powierzchnię 42 m².</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q21",
@@ -775,7 +888,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy DC ∥ AB kąt DCA jest naprzemianległy z kątem CAB",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.16,
+    "procent": 61,
+    "procent_etap": 68
+   }
   },
   {
    "id": "szkolny_2016_podlaskie_q22",
@@ -795,7 +913,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj, ile razy więcej jest maszyn i ile razy dłuższy jest czas pracy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.43,
+    "procent": 19,
+    "procent_etap": 22
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podlaskie_sp.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podlaskie_sp_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2014_podlaskie_sp_q1",
@@ -52,6 +53,11 @@
      "o-co-pytaja"
     ],
     "opis": "\"Pełne setki\" to część całkowita z dzielenia przez 100, nie liczba zaokrąglona do setek"
+   },
+   "trudnosc": {
+    "logit": -4.89,
+    "procent": 9,
+    "procent_etap": 6
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz osobno każdą grupę uczestników przez k i t, dopiero potem dodaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.86,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q3",
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw zamień 0,8 km na metry, dopiero potem zmniejsz w skali",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.34,
+    "procent": 19,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "skróć stosunek 32 do 24, zanim cokolwiek pomnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.62,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q5",
@@ -203,7 +224,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj wszystkie słupki i weź ćwiartkę tej sumy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.0,
+    "procent": 14,
+    "procent_etap": 10
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q6",
@@ -243,7 +269,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok kwadratu to trzy średnice kół, a gwiazdę tworzą same boki trójkątów równobocznych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.5,
+    "procent": 64,
+    "procent_etap": 56
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2011-2012_warminsko-mazurskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q7",
@@ -280,7 +317,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, jak wyglądają 10²−1 i 10³−1, i przenieś spostrzeżenie na wykładnik 99",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.72,
+    "procent": 16,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q8",
@@ -317,7 +359,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, jakim dzielnikiem 15 musi być y−4, żeby iloraz wyszedł ujemny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.33,
+    "procent": 46,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q9",
@@ -363,6 +410,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pytają, o ile procent pole się zmniejszy, a nie ile procent pola zostaje; pole nie maleje jak bok"
+   },
+   "trudnosc": {
+    "logit": -4.89,
+    "procent": 9,
+    "procent_etap": 6
    }
   },
   {
@@ -400,7 +452,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel pole powierzchni przez 6, żeby dostać pole jednej ściany",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.01,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q11",
@@ -447,6 +504,11 @@
      "rysunek"
     ],
     "opis": "Trójkąt rozwartokątny: wysokość pada poza trójkąt, odcinek 4 cm nie należy do podstawy AB"
+   },
+   "trudnosc": {
+    "logit": 0.43,
+    "procent": 54,
+    "procent_etap": 46
    }
   },
   {
@@ -492,7 +554,18 @@
      "zbior-liczb"
     ],
     "opis": "NWW to nie iloczyn liczb; druga liczba ma być nieparzysta, a w przedziale są dwie wielokrotności 33"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.65,
+    "procent": 17,
+    "procent_etap": 12
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018_podkarpackie_2_q11",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q13",
@@ -536,6 +609,11 @@
      "plot-i-slupki"
     ],
     "opis": "Dziesięć kolejnych liczb od −6 kończy się na 3, nie na 4 — liczenie włącznie"
+   },
+   "trudnosc": {
+    "logit": -2.29,
+    "procent": 28,
+    "procent_etap": 22
    }
   },
   {
@@ -573,7 +651,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przenieś 6 na prawą stronę i podziel przez 3",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.94,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q15",
@@ -614,7 +697,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie wysokości i wierzchołek B tworzą czworokąt z dwoma kątami prostymi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.1,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q16",
@@ -659,6 +747,11 @@
      "kalendarz-czas"
     ],
     "opis": "Punkt odniesienia to jutrzejsze południe, nie dzisiejsze — łatwo liczyć od złej doby"
+   },
+   "trudnosc": {
+    "logit": -0.31,
+    "procent": 46,
+    "procent_etap": 39
    }
   },
   {
@@ -698,7 +791,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstążka tworzy dwa obwody ściany, kokardę doliczasz osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.26,
+    "procent": 37,
+    "procent_etap": 30
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q18",
@@ -743,6 +841,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Czterokrotnie większe pole nie oznacza czterokrotnie dłuższego obwodu"
+   },
+   "trudnosc": {
+    "logit": -2.34,
+    "procent": 27,
+    "procent_etap": 22
    }
   },
   {
@@ -780,7 +883,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uprość wyrażenie, zanim podstawisz liczbę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.17,
+    "procent": 4,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q20",
@@ -817,7 +925,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż liczby możliwości w każdej z trzech kategorii",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.13,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q21",
@@ -835,7 +948,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Po każdej obniżce o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> ceny pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> poprzedniej ceny. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę po pierwszej obniżce. Po drugiej obniżce cena wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mn>320</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>320</mn><mo>:</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>320</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>400</mn></math> zł. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> oznacza cenę początkową. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>y</mi><mo>=</mo><mn>400</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>400</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>500</mn></math> zł. Odpowiedź: przed obniżkami odkurzacz kosztował 500 zł.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.33,
+    "procent": 27,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q22",
@@ -855,7 +973,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Rozważmy trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> z kątem prostym przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>: podstawy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (dłuższa) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, krótsze ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest prostopadłe do podstaw, a dłuższe ramię to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Kąt ostry przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 53°. Krótszą przekątną jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, a kąt między nią a krótszym ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> wynosi 53°. Ponieważ kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> jest prosty, kąt między przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> a podstawą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>53</mn><mo>°</mo><mo>=</mo><mn>37</mn><mo>°</mo></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> suma miar kątów wynosi 180°, więc szukany kąt między przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> a dłuższym ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>53</mn><mo>°</mo><mo>+</mo><mn>37</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>90</mn><mo>°</mo></math>. Odpowiedź: kąt pomiędzy krótszą przekątną a dłuższym ramieniem trapezu ma miarę 90°.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.24,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2014_podlaskie_sp_q23",
@@ -873,7 +996,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Zamieniamy jednostki prędkości pierwszego kolarza: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac><mo>=</mo><mn>400</mn><mo>·</mo><mn>60</mn><mfrac><mtext>m</mtext><mtext>h</mtext></mfrac><mo>=</mo><mn>24000</mn><mfrac><mtext>m</mtext><mtext>h</mtext></mfrac><mo>=</mo><mn>24</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>. Kolarze jadą naprzeciw siebie, więc prędkość ich zbliżania się jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>+</mo><mn>28</mn><mo>=</mo><mn>52</mn></math> km/h. Czas do spotkania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mn>208</mn><mn>52</mn></mfrac><mo>=</mo><mn>4</mn></math> h. Odpowiedź: kolarze spotkają się po 4 godzinach.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.04,
+    "procent": 39,
+    "procent_etap": 32
+   }
   }
  ]
 }

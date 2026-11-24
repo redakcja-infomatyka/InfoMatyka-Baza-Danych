@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020_dolnoslaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2020_dolnoslaskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2020_dolnoslaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównuj cyfra po cyfrze — dwie skrajne nierówności ograniczają gwiazdkę z dołu i z góry",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.34,
+    "procent": 53,
+    "procent_etap": 54
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz dopełnienie: w grze są tylko sześciany 8, 27 i 64, a wielokrotności 64 są już wśród ósemek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.75,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q3",
@@ -120,7 +131,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "nie badaj wszystkich — trzy pozostałe skróć zwykłymi regułami podzielności przez 2, 3 i 5",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q4",
@@ -157,7 +173,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zaokrąglij w pamięci i sprawdź, jaką częścią 12500 jest sama różnica",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.3,
+    "procent": 46,
+    "procent_etap": 48
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q5",
@@ -197,7 +218,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poszukaj wśród wskazanych par takiej, która jest bokami równoległoboku ukrytego w tej siatce",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.88,
+    "procent": 58,
+    "procent_etap": 59
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q6",
@@ -235,7 +261,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba dodatnia jest równa swojej wartości bezwzględnej, więc zostają tylko ujemne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.32,
+    "procent": 91,
+    "procent_etap": 91
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q7",
@@ -272,7 +303,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wymnóż liczby pod pierwiastkami — i w liczniku, i w mianowniku wyjdzie ta sama potęga dziesiątki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 32
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q8",
@@ -311,7 +347,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> będzie środkiem okręgu, w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> nad bokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (na symetralnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>). Promień to zarówno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mi>d</mi><mn>2</mn></msup></mrow></msqrt></math> (odległość do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>), jak i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>−</mo><mi>d</mi></math> (odległość do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>). Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>8</mn><mo>−</mo><mi>d</mi><mo>)</mo></mrow><mn>2</mn></msup></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>3</mn></math>, więc promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> cm.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.6,
+    "procent": 74,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q9",
@@ -359,6 +400,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o stosunek pól, a z trójkąta naturalnie wychodzi stosunek boków kwadratów"
+   },
+   "trudnosc": {
+    "logit": 3.22,
+    "procent": 78,
+    "procent_etap": 79
    }
   },
   {
@@ -398,7 +444,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy odcinek to bok, krótsza albo dłuższa przekątna — sumuj, licząc √3 ≈ 1,7",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.18,
+    "procent": 61,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q11",
@@ -419,7 +470,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "luty ma tu 29 dni, czyli 4 tygodnie i 1 dzień — tylko jeden dzień tygodnia wypada 5 razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.83,
+    "procent": 67,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q12",
@@ -439,7 +495,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Drugi cząstkowy iloczyn ma te same cyfry co mnożna, więc mnożnik ma dziesiątki równe 1, czyli wynosi 19. Mnożna to 9d9 (cyfry 7, 8, 9 są widoczne, więc d ∈ {0,…,6}). Warunek 9d9·9 = 8_7_ spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>919</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>8271</mn></math>. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>919</mn><mo>·</mo><mn>19</mn><mo>=</mo><mn>17461</mn></math>. Użyte cyfry: 1, 2, 4, 6, 7, 8, 9 — brakuje 0, 3, 5.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.25,
+    "procent": 97,
+    "procent_etap": 97
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q13",
@@ -459,7 +520,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "potraktuj stosunki jak ułamki i pomnóż: białe/czerwone = (białe/niebieskie)·(niebieskie/czerwone)",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.2,
+    "procent": 61,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q14",
@@ -482,7 +548,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sąsiednie kąty równoległoboku dają 180° — z sumy i różnicy wyznacz α, reszta pójdzie sama",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 76,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q15",
@@ -504,7 +575,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup n-kątny ma 2n wierzchołków, n+2 ścian i 3n krawędzi, ostrosłup n-kątny 2n krawędzi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.57,
+    "procent": 73,
+    "procent_etap": 75
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q16",
@@ -527,7 +603,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "to, co dostały dwie pozostałe osoby, to 1200 minus kwota tej jednej — każde równanie liczysz osobno",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.33,
+    "procent": 79,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2020_dolnoslaskie_q17",
@@ -552,7 +633,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "oznacz połowy przekątnych rombu: pole kwadratu to suma ich kwadratów, pole rombu podwojony iloczyn",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.4,
+    "procent": 91,
+    "procent_etap": 92
+   }
   }
  ]
 }

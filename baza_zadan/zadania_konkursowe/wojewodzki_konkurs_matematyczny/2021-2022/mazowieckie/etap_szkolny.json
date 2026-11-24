@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021_mazowieckie_q1",
@@ -42,7 +43,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustal, która ściana jest najmniejsza, i przypomnij sobie, który bok trójkąta prostokątnego jest najdłuższy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.99,
+    "procent": 59,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2021_mazowieckie_q2",
@@ -70,7 +76,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>8 nie może sąsiadować z liczbą pierwszą (5 lub 7) ani stać na skraju, więc sąsiadują z nią 1 i 4 – jedyne takie miejsce (przez warunek „1 dalej niż 7”) to 4. pozycja. Wtedy 5, 7 zajmują pozycje 1–2 (7 nie może być pierwsza), a skoro 4 nie jest ostatnia: kod to <b>5 7 4 8 1</b>.</p><p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>57481</mn></math>: końcówka 81 nie dzieli się przez 4 — fałsz.</p><p>2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>57481</mn><mo>+</mo><mn>2519</mn><mo>=</mo><mn>60000</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>5000</mn></math> — prawda.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.9,
+    "procent": 88,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2021_mazowieckie_q3",
@@ -107,7 +118,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trójkąt ACD (AD = CD) jest równoramienny: kąt DAC = kąt DCA = x. Z CD∥AB: kąt CAB = x, więc ostry kąt trapezu przy A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>.</p><p>Trójkąt ABC (AC = AB, bo przekątna = dłuższa podstawa) też jest równoramienny: kąt ACB = kąt ABC = 2x. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc x = 36°.</p><p>Kąt rozwarty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>72</mn><mo>°</mo><mo>=</mo><mn>108</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.58,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2021_mazowieckie_q4",
@@ -153,6 +169,11 @@
      "konwencja"
     ],
     "opis": "Długość dnia wychodzi w godzinach dziesiętnych; 0,2 h to nie 20 minut, a wariant B na to liczy"
+   },
+   "trudnosc": {
+    "logit": 2.37,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -174,7 +195,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przelicz 2/3 czasu Kuby na to, ile razy dłużej jechał Kuba, i zestaw ten czynnik z ilorazem dróg",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.25,
+    "procent": 37,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2021_mazowieckie_q6",
@@ -197,7 +223,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz pole trójkąta na dwa sposoby — przez podstawę i przez ramię",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.21,
+    "procent": 84,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2021_mazowieckie_q7",
@@ -226,6 +257,11 @@
      "inne:siebie-nie-liczy"
     ],
     "opis": "Koledzy Wojtka to chłopcy bez niego, koleżanki Kasi to dziewczynki bez niej"
+   },
+   "trudnosc": {
+    "logit": 4.94,
+    "procent": 89,
+    "procent_etap": 93
    }
   },
   {
@@ -253,6 +289,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 35% większe od pola prostopadłościanu” — punktem odniesienia jest pole prostopadłościanu, a nie sześcianu"
+   },
+   "trudnosc": {
+    "logit": 5.72,
+    "procent": 92,
+    "procent_etap": 96
    }
   },
   {
@@ -282,6 +323,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Trapezy AECD i EBCD nie dzielą prostokąta na dwie części, tylko zachodzą na siebie (wspólny trójkąt ECD)"
+   },
+   "trudnosc": {
+    "logit": 2.79,
+    "procent": 75,
+    "procent_etap": 82
    }
   },
   {
@@ -311,6 +357,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ilu JESZCZE klientów dostało obie zniżki, czyli bez pani Ewy; oszczędność to nie cena wyjściowa"
+   },
+   "trudnosc": {
+    "logit": 4.93,
+    "procent": 89,
+    "procent_etap": 93
    }
   }
  ]

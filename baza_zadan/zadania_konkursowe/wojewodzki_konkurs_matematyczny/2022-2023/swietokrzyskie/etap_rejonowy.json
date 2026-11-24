@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 32,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022-2023_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022-2023_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz największą możliwą sumę pięciu różnych liczb dwucyfrowych i sprawdź, ile jej brakuje do 484",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.17,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q2",
@@ -88,6 +94,11 @@
      "warunek-istnienia"
     ],
     "opis": "171 to iloczyn trzech liczb pierwszych, ale nie trzech RÓŻNYCH"
+   },
+   "trudnosc": {
+    "logit": 3.34,
+    "procent": 79,
+    "procent_etap": 80
    }
   },
   {
@@ -128,6 +139,11 @@
      "konwencja"
     ],
     "opis": "10^12 ma 13 cyfr, ale po odjęciu 6 liczba traci jedną cyfrę"
+   },
+   "trudnosc": {
+    "logit": 2.41,
+    "procent": 72,
+    "procent_etap": 73
    }
   },
   {
@@ -166,7 +182,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień oba ułamki okresowe na zwykłe i sprawdzaj, czy liczby leżą ściśle między nimi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.52,
+    "procent": 55,
+    "procent_etap": 56
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q5",
@@ -206,6 +227,11 @@
      "procent-podstawa"
     ],
     "opis": "„a jest o … mniejsza od d” – porównuje się z d, nie z a; różnicę trzeba odnieść do d"
+   },
+   "trudnosc": {
+    "logit": 3.62,
+    "procent": 81,
+    "procent_etap": 82
    }
   },
   {
@@ -247,6 +273,11 @@
      "o-co-pytaja"
     ],
     "opis": "Wysokość jest opuszczona na krótszy bok, a podany jest dłuższy; do tego dane w cm i mm"
+   },
+   "trudnosc": {
+    "logit": 3.27,
+    "procent": 78,
+    "procent_etap": 80
    }
   },
   {
@@ -284,7 +315,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt między ramionami wynosi 120°, więc kąty przy podstawie mają po 30°. Wysokość opuszczona na podstawę dzieli trójkąt na dwa trójkąty 30-60-90, w których połowa podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>6</mn></msqrt></math> leży naprzeciw kąta 60°, a wysokość h naprzeciw kąta 30°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>72</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.83,
+    "procent": 67,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q8",
@@ -319,7 +355,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozpoznaj trójkę 5:12:13 i podziel obwód na 30 części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.26,
+    "procent": 78,
+    "procent_etap": 80
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q9",
@@ -354,7 +395,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>W pięciokącie foremnym przekątne z każdego wierzchołka dzielą jego kąt 108° na trzy części po 36°. W trójkącie ABS kąty przy A i B mają po 36°, więc kąt ASB=108°, a przyległy do niego wzdłuż BE kąt ASE = 180°−108°=72°. Kąt CEA = kąt AEB + kąt BEC = 36°+36°=72° — równy kątowi ASE (P). Kąt DCE = 36°, a kąt CSE = 180°−72°=108°; stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>108</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>3</mn></math> (P). CD=DE jako boki pięciokąta, a w trójkącie CSE kąty przy C i E mają po 36°, więc CS=ES; z podziału przekątnej przez drugą przekątną wynika CS=ES=bok pięciokąta, więc wszystkie boki CDES są równe — to romb (P).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.72,
+    "procent": 92,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q10",
@@ -392,7 +438,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, jakie w ogóle układy trzech kwadratów dają prostokąt, i jaki wzór na pole z nich wynika",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.94,
+    "procent": 89,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q11",
@@ -427,7 +478,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj wzoru na (k+5)² i pamiętaj, że przekątna kwadratu to bok·√2",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.93,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q12",
@@ -460,7 +516,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>S jest środkiem obu przekątnych, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>, a nie (3,−5) (F). Bok AB ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>, a bok BC <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>20</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt></math> (P). Czworokąt ze środków boków to romb o przekątnych równych bokom prostokąta, pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>·</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>20</mn></math> (P).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.3,
+    "procent": 85,
+    "procent_etap": 86
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q13",
@@ -495,7 +556,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Punkty: A — wygrana z D (2:0) i C (2:1), przegrana z B (0:1) → 6 pkt. B — wygrana z A (1:0), remis z D (5:5), przegrana z C (0:3) → 4 pkt. C — wygrana z B (3:0) i D (2:0), przegrana z A (1:2) → 6 pkt. D — remis z B i dwie przegrane → 1 pkt. A i C mają po 6 pkt, więc decydują zdobyte gole: A strzeliła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></math>, C strzeliła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math> — więcej, więc turniej wygrywa drużyna C.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.46,
+    "procent": 44,
+    "procent_etap": 46
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q14",
@@ -532,7 +598,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz sumy a+b oraz d+e przy pomocy c i zauważ, że przy porównaniu c się skraca",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2022-2023_swietokrzyskie_q15",
@@ -570,7 +641,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup prawidłowy o n-kątnej podstawie ma 3n krawędzi — wyznacz liczbę ścian bocznych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.25,
+    "procent": 37,
+    "procent_etap": 39
+   }
   }
  ]
 }

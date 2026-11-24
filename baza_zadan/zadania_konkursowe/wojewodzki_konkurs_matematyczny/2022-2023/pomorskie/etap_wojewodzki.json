@@ -8,6 +8,7 @@
  "liczba_zadan": 8,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_pomorskie_q1",
@@ -36,6 +37,11 @@
      "o-co-pytaja"
     ],
     "opis": "Treść podaje ułamek chłopców, a pytanie dotyczy dziewcząt"
+   },
+   "trudnosc": {
+    "logit": 1.65,
+    "procent": 65,
+    "procent_etap": 58
    }
   },
   {
@@ -58,7 +64,12 @@
     "rozwiazanie_html": "<p>Oznaczmy szukane liczby przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>24</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>, otrzymujemy układ:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mtd></mtr></mtable></mrow></math></p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math>.</p><p>Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie obliczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy obliczy iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math>).</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.84,
+    "procent": 41,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2022-2023_pomorskie_q3",
@@ -80,7 +91,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj 1/15, 1/10 i 1/9 na wspólnym mianowniku 90 i porównaj potrojoną sumę z całym basenem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.57,
+    "procent": 43,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2022-2023_pomorskie_q4",
@@ -108,6 +124,11 @@
      "inne:przekatna-sciany-vs-szescianu"
     ],
     "opis": "Przekątna sześcianu to nie przekątna ściany: wzór a√3, a nie a√2"
+   },
+   "trudnosc": {
+    "logit": 1.03,
+    "procent": 59,
+    "procent_etap": 52
    }
   },
   {
@@ -133,7 +154,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "pola trójkątów z wierzchołkiem A i podstawami na BE są jak te podstawy; potem porównaj ABE z kwadratem",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 66
+   }
   },
   {
    "id": "wojewodzki_2022-2023_pomorskie_q6",
@@ -152,7 +178,18 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas w sekundach, który upłynął do momentu spotkania. Suma dróg przebytych przez Kasię i Tomka jest równa 280 m:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>t</mi><mo>+</mo><mn>2</mn><mi>t</mi><mo>=</mo><mn>280</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mi>t</mi><mo>=</mo><mn>280</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>80</mn></mrow></math> s.</p><p>Droga Kasi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>120</mn></mrow></math> m. Droga Tomka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>160</mn></mrow></math> m.</p><p>Odpowiedź: Spotkają się po 80 sekundach, Kasia pokona w tym czasie 120 m, a Tomek 160 m.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy obliczy czas, który upłynął do momentu spotkania.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy drogi przebyte przez Kasię i Tomka.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.29,
+    "procent": 20,
+    "procent_etap": 16
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022-2023_slaskie_q19",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2022-2023_pomorskie_q7",
@@ -174,7 +211,12 @@
     "rozwiazanie_html": "<p>Grupujemy składniki sumy po trzy, wyłączając z każdej grupy czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>73</mn></mrow></math>:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup><mo>=</mo><mn>8</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>8</mn><mo>·</mo><mn>73</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>·</mo><mn>73</mn><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>·</mo><mn>73</mn></mrow></math></p><p>Po podzieleniu przez 73 otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup></mrow></math>, a to jest liczba naturalna, co należało wykazać.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie uzasadni, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup></mrow><mn>73</mn></mfrac></math> jest liczbą naturalną.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.78,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2022-2023_pomorskie_q8",
@@ -203,6 +245,11 @@
      "o-co-pytaja"
     ],
     "opis": "8.1 znak w module; 8.2 stosunek pól to nie skala; 8.3 pytają o odwrotność; 8.5 najkrótsza krawędź to nie bok podstawy"
+   },
+   "trudnosc": {
+    "logit": 7.44,
+    "procent": 97,
+    "procent_etap": 96
    }
   }
  ]

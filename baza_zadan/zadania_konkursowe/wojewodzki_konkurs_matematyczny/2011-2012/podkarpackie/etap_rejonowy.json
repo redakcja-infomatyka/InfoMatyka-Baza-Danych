@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 47,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2012_podkarpackie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2012_podkarpackie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "0,6 °C przypada na każde 100 m — sprawdź, ile razy po 100 m mieści się w 450 m",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.8,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dwa równe ramiona i kąt 60° między nimi — rozpoznaj rodzaj trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.16,
+    "procent": 21,
+    "procent_etap": 22
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż liczbę szlaków w jedną stronę przez liczbę tych, które zostają na powrót",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.75,
+    "procent": 32,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q4",
@@ -163,6 +179,11 @@
      "zbior-liczb"
     ],
     "opis": "Pierwsza z liczb to 1, która nie jest liczbą pierwszą"
+   },
+   "trudnosc": {
+    "logit": 0.87,
+    "procent": 58,
+    "procent_etap": 59
    }
   },
   {
@@ -200,7 +221,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj: o ile wcześniej Ela przyszła i o ile później wyszła niż Staś",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 78
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2010-2011_warminsko-mazurskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2012_podkarpackie_q6",
@@ -237,7 +269,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj obie zależności przez masę jajka",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.95,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q7",
@@ -274,7 +311,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześć drzew powtarza się cyklicznie — potrzebna jest reszta z dzielenia przez 6",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.61,
+    "procent": 34,
+    "procent_etap": 35
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q8",
@@ -312,7 +354,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel dynię na 3 równe części i zobacz, ile z nich waży 6 kg",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.13,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q9",
@@ -349,7 +396,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile kłębków pochłania s szalików, i odejmij od zapasu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.98,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q10",
@@ -395,6 +447,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Czas liczony od pierwszego do ostatniego uderzenia: przerw jest o jedną mniej niż uderzeń, nie ma proporcjonalności"
+   },
+   "trudnosc": {
+    "logit": 6.14,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -439,6 +496,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielenie objętości pudełka przez objętość sześcianu pomija, że kostki nie wypełnią resztek wymiarów"
+   },
+   "trudnosc": {
+    "logit": 1.12,
+    "procent": 60,
+    "procent_etap": 62
    }
   },
   {
@@ -483,6 +545,11 @@
      "procent-podstawa"
     ],
     "opis": "Dwie obniżki o 10% to nie obniżka o 20% – druga liczona od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -4.34,
+    "procent": 12,
+    "procent_etap": 14
    }
   },
   {
@@ -520,7 +587,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Lewa szalka: 1 walec + 3 sześciany; prawa: 20 g + 2 walce + 2 sześciany. Równowaga: <math><mi>c</mi><mo>+</mo><mn>3</mn><mi>s</mi><mo>=</mo><mn>20</mn><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>s</mi></math> ⇒ <math><mi>s</mi><mo>−</mo><mi>c</mi><mo>=</mo><mn>20</mn></math>. Wszystkie bryły: <math><mn>5</mn><mi>s</mi><mo>+</mo><mn>3</mn><mi>c</mi><mo>=</mo><mn>500</mn></math> ⇒ <math><mi>c</mi><mo>=</mo><mn>50</mn></math> g.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.2,
+    "procent": 61,
+    "procent_etap": 63
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q14",
@@ -556,7 +628,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Duży pokój = 1/2, mały = 1/6 (trzy razy mniejszy), kuchnia 1/7, łazienka 1/12. Suma = 75/84. Na przedpokój zostaje 9/84 = 3/28. Przedpokój = 1,5·3 = 4,5 m². Całość <math><mn>4,5</mn><mo>:</mo><mfrac><mn>3</mn><mn>28</mn></mfrac><mo>=</mo><mn>42</mn></math> m².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.75,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q15",
@@ -594,7 +671,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj obwody trzech trójkątów i sprawdź, ile razy policzyłeś każdą przekątną",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.73,
+    "procent": 74,
+    "procent_etap": 76
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2011-2012_slaskie_q10",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2012_podkarpackie_q16",
@@ -635,7 +723,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinek NC to przekątna kwadratu, a trójkąt BNK jest równoramienny — zsumuj kąty przy N",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.75,
+    "procent": 88,
+    "procent_etap": 89
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q17",
@@ -672,7 +765,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, ile miligramów witaminy C ma jedna jagoda",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 65
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2016_podkarpackie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2012_podkarpackie_q18",
@@ -710,7 +814,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Na sześcianie przekątne trzech ścian tworzą zamknięty trójkąt. Po złożeniu tylko siatka A daje trzy przekątne łączące się w trójkąt (końce wspólne parami); w B, C przekątne się nie domykają, w D wszystkie schodzą się w jednym wierzchołku (gwiazda).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.96,
+    "procent": 93,
+    "procent_etap": 93
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q19",
@@ -738,6 +847,11 @@
      "jednostki"
     ],
     "opis": "Wymiary zewnętrzne kontra pojemność wnętrza oraz zaokrąglenie liczby doniczek w dół; wysokość podana w metrach"
+   },
+   "trudnosc": {
+    "logit": 3.49,
+    "procent": 80,
+    "procent_etap": 81
    }
   },
   {
@@ -764,6 +878,11 @@
      "kalendarz-czas"
     ],
     "opis": "Rok 2012 jest przestępny – luty ma 29 dni, co przesuwa kolejne daty po 56 dniach"
+   },
+   "trudnosc": {
+    "logit": 7.07,
+    "procent": 97,
+    "procent_etap": 96
    }
   },
   {
@@ -791,6 +910,11 @@
      "jednostki"
     ],
     "opis": "Dane w metrach na minutę, a odpowiedź ma być w km/h"
+   },
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 72
    }
   },
   {
@@ -811,7 +935,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odcinek na drugim planie jest 4 razy krótszy — różnica to 3 takie same części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2012_podkarpackie_q23",
@@ -837,6 +966,11 @@
      "o-co-pytaja"
     ],
     "opis": "Każda brała trzecią część tego, co zostało, a nie całości – sprawiedliwy podział pozostałych nie jest równy"
+   },
+   "trudnosc": {
+    "logit": 6.92,
+    "procent": 96,
+    "procent_etap": 96
    }
   }
  ]

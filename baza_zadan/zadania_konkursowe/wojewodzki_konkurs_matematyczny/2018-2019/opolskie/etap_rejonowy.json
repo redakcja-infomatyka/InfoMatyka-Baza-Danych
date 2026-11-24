@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2019_opolskie.pdf",
  "zadania": [
   {
    "id": "rejonowy_2019_opolskie_q1",
@@ -41,7 +42,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj wzoru na sumę 1+2+…+n i nie wymnażaj — parzystość i podzielność odczytaj z czynników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.82,
+    "procent": 57,
+    "procent_etap": 58
+   }
   },
   {
    "id": "rejonowy_2019_opolskie_q2",
@@ -75,7 +81,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "czas do spotkania licz z sumy prędkości, a czasy całej trasy zapisz jako ułamki godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 72
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubuskie_q23",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2019_opolskie_q3",
@@ -116,6 +133,11 @@
      "jednostki"
     ],
     "opis": "Pole wychodzi w cm², a zdanie mówi o dm²: przy przeliczaniu dzieli się przez 100, a nie przez 10"
+   },
+   "trudnosc": {
+    "logit": 1.51,
+    "procent": 64,
+    "procent_etap": 66
    }
   },
   {
@@ -158,6 +180,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "XY może być bokiem albo przekątną kwadratu, a kąt prosty w (2,−2) daje prostokąt 3×4, nie kwadrat"
+   },
+   "trudnosc": {
+    "logit": 4.02,
+    "procent": 83,
+    "procent_etap": 84
    }
   },
   {
@@ -193,7 +220,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz okres rozwinięcia i licz resztę z dzielenia numeru cyfry przez jego długość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.35,
+    "procent": 53,
+    "procent_etap": 55
+   }
   },
   {
    "id": "rejonowy_2019_opolskie_q6",
@@ -223,7 +255,18 @@
      "procent-podstawa"
     ],
     "opis": "25% liczy się od pozostałej części trasy, a nie od całej"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.31,
+    "procent": 71,
+    "procent_etap": 72
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2024-2025_slaskie_q14",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "rejonowy_2019_opolskie_q7",
@@ -245,7 +288,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok kwadratu równa się krótszemu bokowi prostokąta, czyli trzem częściom stosunku 3:5",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.56,
+    "procent": 43,
+    "procent_etap": 45
+   }
   },
   {
    "id": "rejonowy_2019_opolskie_q8",
@@ -268,7 +316,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj same różnice: odsetki od dodatkowych 5000 zł i pół punktu procentowego od reszty",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 67
+   }
   },
   {
    "id": "rejonowy_2019_opolskie_q9",
@@ -301,6 +354,11 @@
      "inne:pelny-segment"
     ],
     "opis": "Rysunek pokazuje tylko początek segmentu; pełny prostokąt powstaje dopiero, gdy wyrównają się oba rzędy"
+   },
+   "trudnosc": {
+    "logit": 5.14,
+    "procent": 90,
+    "procent_etap": 90
    }
   },
   {
@@ -324,7 +382,12 @@
     "rozwiazanie_html": "<p>Krótsza przekątna (długości 8 cm) jest przeciwprostokątną obu trójkątów prostokątnych równoramiennych, więc każda przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm. Krótsza podstawa i wysokość trapezu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm, a dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>48</mn></math> cm².</p><p>Druga przekątna łączy przeciwległe wierzchołki i ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>128</mn><mo>+</mo><mn>32</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole trapezu (48 cm²) i długość przekątnej (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>10</mn></msqrt></math>) – 5p</li><li>poprawny sposób obliczenia z błędem rachunkowym – 4p</li><li>poprawny sposób obliczenia długości przekątnej – 3p</li><li>obliczy pole trapezu – 2p</li><li>obliczy pole jednego z trójkątów lub długość jednego z boków trapezu – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 3.99,
+    "procent": 83,
+    "procent_etap": 84
+   }
   },
   {
    "id": "rejonowy_2019_opolskie_q11",
@@ -347,7 +410,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "potnij obie figury na jednakowe trójkąty równoboczne i policz, ile ich w każdej wychodzi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.7,
+    "procent": 66,
+    "procent_etap": 67
+   }
   }
  ]
 }

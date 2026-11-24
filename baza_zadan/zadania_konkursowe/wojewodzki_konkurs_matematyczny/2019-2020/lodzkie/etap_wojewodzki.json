@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020_lodzkie.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "wojewodzki_2020_lodzkie_q1",
@@ -44,7 +45,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rowerem w jedną stronę to połowa z 36 minut — odejmij ten czas od półtorej godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.4,
+    "procent": 45,
+    "procent_etap": 38
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2018-2019_malopolskie_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020_lodzkie_q2",
@@ -81,7 +93,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz liczbę jako 4k+3 i podnieś do kwadratu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.29,
+    "procent": 28,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q3",
@@ -118,7 +135,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź obie liczby do tej samej potęgi dziesiątki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.74,
+    "procent": 42,
+    "procent_etap": 34
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q4",
@@ -156,7 +178,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozszerz ułamek do mianownika 999, a potem podziel 100 przez długość okresu z resztą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.16,
+    "procent": 61,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q5",
@@ -202,6 +229,11 @@
      "procent-podstawa"
     ],
     "opis": "Średnia procentów nie jest procentem wzrostu średniej; klucz: każdy przybył o te same 2 lata"
+   },
+   "trudnosc": {
+    "logit": 5.99,
+    "procent": 93,
+    "procent_etap": 90
    }
   },
   {
@@ -239,7 +271,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyrównaj 4πr² do πr²+πrl i skróć przez π",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 58
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q7",
@@ -277,7 +314,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz dzielniki 36 parami dającymi w iloczynie 36",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q8",
@@ -315,7 +357,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "punkt C to środek odcinka AB, więc uśrednij współrzędne",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.87,
+    "procent": 31,
+    "procent_etap": 25
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2018_podlaskie_q2",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020_lodzkie_q9",
@@ -353,7 +406,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "we wzorze na pole podstaw wysokość w miejsce połowy sumy podstaw",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.7,
+    "procent": 81,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q10",
@@ -391,7 +449,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dorysuj wysokość — powstaje trójkąt z kątem 30°",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.32,
+    "procent": 27,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q11",
@@ -435,6 +498,11 @@
      "zbior-liczb"
     ],
     "opis": "Cyfry PIN-u mogą się powtarzać"
+   },
+   "trudnosc": {
+    "logit": -2.22,
+    "procent": 28,
+    "procent_etap": 23
    }
   },
   {
@@ -475,7 +543,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwiń powierzchnię boczną walca na prostokąt",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.54,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q13",
@@ -514,7 +587,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "różnica kwadratów to iloczyn sumy i różnicy — nie szukaj wcale tych liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.86,
+    "procent": 41,
+    "procent_etap": 33
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q14",
@@ -532,7 +610,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech liczba = 10a+b, suma cyfr s. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>4</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>+</mo><mn>3</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>1</mn></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>b</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>6</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>+</mo><mn>5</mn></math>. Stąd a=3, b=5. Liczba 35 (35=4·8+3, 53=6·8+5).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.81,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2020_lodzkie_q15",
@@ -552,7 +635,18 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sok zajmuje zawsze ten sam ułamek wysokości, więc krawędzie są w takim stosunku jak 8, 4 i 2",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.95,
+    "procent": 99,
+    "procent_etap": 99
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2021-2022_wielkopolskie_q21",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020_lodzkie_q16",
@@ -578,6 +672,11 @@
      "o-co-pytaja"
     ],
     "opis": "Cięciwa sięga do okręgu, a nie kończy się w środkach boków kwadratu"
+   },
+   "trudnosc": {
+    "logit": 6.28,
+    "procent": 94,
+    "procent_etap": 91
    }
   },
   {
@@ -607,6 +706,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 20% mniej” i „o 20% więcej” się nie znoszą"
+   },
+   "trudnosc": {
+    "logit": 3.45,
+    "procent": 80,
+    "procent_etap": 73
    }
   },
   {
@@ -628,7 +732,12 @@
     "zrodlo": "AI",
     "rozwiazanie_ai_html": "<p>Niech obwód=P. Bok kwadratu=P/4, pole=P&sup2;/16. Bok trójkąta=P/3, pole=(&radic;3/4)(P/3)&sup2;=&radic;3P&sup2;/36. Stosunek pól: (P&sup2;/16)/(&radic;3P&sup2;/36)=36/(16&radic;3)=3&radic;3/4≈1,3>1, więc pole kwadratu jest większe niż pole trójkąta.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.77,
+    "procent": 75,
+    "procent_etap": 67
+   }
   }
  ]
 }

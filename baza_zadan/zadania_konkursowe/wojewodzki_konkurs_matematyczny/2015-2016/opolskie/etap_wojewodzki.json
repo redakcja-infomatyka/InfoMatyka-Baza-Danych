@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2016_opolskie_q1",
@@ -48,6 +49,11 @@
      "procent-podstawa"
     ],
     "opis": "Wyrażenie a·p/100 to sama podwyżka, a nie nowa cena po wzroście o p%"
+   },
+   "trudnosc": {
+    "logit": -2.18,
+    "procent": 29,
+    "procent_etap": 23
    }
   },
   {
@@ -90,6 +96,11 @@
      "jednostki"
     ],
     "opis": "Podwojenie boku i wysokości czterokrotnie zwiększa pole; 1 ar to 100 m²"
+   },
+   "trudnosc": {
+    "logit": -0.3,
+    "procent": 46,
+    "procent_etap": 39
    }
   },
   {
@@ -124,7 +135,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przekątne tną trapez na trójkąty prostokątne równoramienne — stąd wysokość wiąże się z podstawami",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.99,
+    "procent": 76,
+    "procent_etap": 69
+   }
   },
   {
    "id": "wojewodzki_2016_opolskie_q4",
@@ -164,6 +180,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby mają być RÓŻNE i pierwsze: rozkłady z powtórzoną trójką lub z jedynką nie są dozwolone"
+   },
+   "trudnosc": {
+    "logit": 0.54,
+    "procent": 55,
+    "procent_etap": 48
    }
   },
   {
@@ -202,6 +223,11 @@
      "konwencja"
     ],
     "opis": "Liczba 100 zawiera dwa zera; łatwo policzyć ją jako jedno"
+   },
+   "trudnosc": {
+    "logit": 5.07,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -229,6 +255,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent liczy się względem pozostałych książek historycznych, a nie wszystkich; dane o 75% to zmyłka"
+   },
+   "trudnosc": {
+    "logit": 2.76,
+    "procent": 75,
+    "procent_etap": 67
    }
   },
   {
@@ -250,7 +281,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wiek prawnuka to 1/12 wieku prababci, więc podziel sumę w stosunku 1:12",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.1,
+    "procent": 29,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2016_opolskie_q8",
@@ -271,7 +307,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola odczytaj sumę podstaw — do obwodu pojedyncze podstawy nie są potrzebne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.67,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2016_opolskie_q9",
@@ -292,7 +333,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Najmniejszy kwadrat ma pole 4, więc jego bok wynosi 2. Oznaczmy bok środkowego górnego kwadratu (równego prawemu górnemu) przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z rysunku kwadrat lewy górny ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, lewy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, a prawy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>6</mn></mrow></math>. Górny rząd ma szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>b</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math>. Z równości szerokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>. Boki kwadratów wynoszą więc 2, 8, 8, 10, 12, 14, a prostokąt ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>×</mo><mn>22</mn></mrow></math>. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>572</mn></mrow></math> cm² (sprawdzenie sumą pól kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>144</mn><mo>+</mo><mn>196</mn><mo>=</mo><mn>572</mn></mrow></math>).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.32,
+    "procent": 94,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2016_opolskie_q10",
@@ -312,7 +358,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny, a jego bok równa się bokowi kwadratu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>BK</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>BC</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAB</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAD</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>AD</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>AKD</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Kąty przy punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dają pełny kąt, więc kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>CKD</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>∡</mo><mi>AKB</mi><mo>−</mo><mo>∡</mo><mi>AKD</mi><mo>−</mo><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.2,
+    "procent": 84,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2016_opolskie_q11",
@@ -331,7 +382,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech większa ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. Ania ma wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn></mrow></math> zł. Mniejsza ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> zł, więc tę samą kwotę można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7,50</mn></mrow></math>. Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>7,50</mn><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>25</mn></mrow></math> zł.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.5,
+    "procent": 35,
+    "procent_etap": 28
+   }
   }
  ]
 }

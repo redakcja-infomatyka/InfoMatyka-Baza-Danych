@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz dwucyfrowe o sumie cyfr 6 i sprawdź, dla której przestawienie daje stosunek 7/4",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q2",
@@ -90,6 +96,11 @@
      "inne:definicja-pojecia"
     ],
     "opis": "Ułamek niewłaściwy to także licznik równy mianownikowi (p/p) — łatwo liczyć tylko licznik większy"
+   },
+   "trudnosc": {
+    "logit": 5.14,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw k = 4m + 1 i podnieś do kwadratu — zobacz, co zostaje poza wielokrotnościami 4",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.85,
+    "procent": 10,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q4",
@@ -168,6 +184,11 @@
      "zbior-liczb"
     ],
     "opis": "Warunek różnych cyfr: średnia skrajnych liczb ma 5 w dziesiątkach, ale powtarza cyfrę"
+   },
+   "trudnosc": {
+    "logit": 4.84,
+    "procent": 88,
+    "procent_etap": 84
    }
   },
   {
@@ -213,6 +234,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "8 to dwa razy 4, ale 8^n nie jest dwa razy większe od 4^n"
+   },
+   "trudnosc": {
+    "logit": 5.75,
+    "procent": 92,
+    "procent_etap": 89
    }
   },
   {
@@ -259,6 +285,11 @@
      "plot-i-slupki"
     ],
     "opis": "Granica przedziału: pierwiastek z 9999 jest tuż poniżej 100, więc 100 nie należy do zbioru"
+   },
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 47
    }
   },
   {
@@ -296,7 +327,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sól nie odparowuje — jej masa jest taka sama przed i po",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.81,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q8",
@@ -342,6 +378,11 @@
      "inne:kolejne-wielokrotnosci"
     ],
     "opis": "Kolejne parzyste wielokrotności 11 różnią się o 22, nie o 2"
+   },
+   "trudnosc": {
+    "logit": 1.8,
+    "procent": 67,
+    "procent_etap": 60
    }
   },
   {
@@ -387,6 +428,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Liczby kół nie wyznacza stosunek pól — koła trzeba fizycznie zmieścić na kartce"
+   },
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 53
    }
   },
   {
@@ -422,7 +468,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoboczny, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> ma miarę 60°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math> (przyległy) — 120°. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> to 30°, więc kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> też 30° — trójkąt równoramienny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi><mo>=</mo><mi>AC</mi><mo>=</mo><mn>5</mn></math>. Z twierdzenia cosinusów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>OC</mi><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>+</mo><mn>25</mn><mo>−</mo><mn>50</mn><mo>·</mo><mi>cos</mi><mn>120</mn><mo>°</mo><mo>=</mo><mn>75</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OC</mi><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OBC</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OB</mi><mo>=</mo><mn>10</mn></math>, kąt 30°): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>12,5</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.16,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q11",
@@ -454,7 +505,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pole rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>36</mn><msqrt><mn>2</mn></msqrt></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>72</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>1. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>24</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>33,9</mn></math>, nie 36.</p><p>2. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>36</mn><msqrt><mn>2</mn></msqrt><mo>:</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn></math>.</p><p>3. Wysokość opuszczona z wierzchołka na sąsiedni bok tworzy trójkąt 45°-45°-90° o przyprostokątnych 6; krótsza przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>−</mo><mn>72</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>42</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>≈</mo><mn>6,5</mn></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>8,5</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.27,
+    "procent": 85,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q12",
@@ -491,7 +547,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw n i 2n do wzoru (n−2)·180° i odejmij",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.57,
+    "procent": 34,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q13",
@@ -536,6 +597,11 @@
      "inne:podwojna-roznica"
     ],
     "opis": "Małe półkola raz się odejmuje, raz dodaje — różnica pól to ich podwojona suma; brak π w zdaniu"
+   },
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -574,7 +640,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę krawędzi, ścian i wierzchołków przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.46,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q15",
@@ -614,7 +685,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj z rysunku podstawę i wysokość ostrosłupa, potem odejmij go od objętości graniastosłupa",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.69,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2022-2023_swietokrzyskie_q16",
@@ -648,7 +724,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Wszystkich uporządkowanych par (podstawa, wysokość) jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>72</mn></math>.</p><p>1. Podstawa=5 przy dowolnej z 8 pozostałych wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>≈</mo><mn>0,11</mn><mo>&lt;</mo><mn>0,15</mn></math>.</p><p>2. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mi>h</mi><mo>&gt;</mo><mn>25</mn></math> wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>h</mi><mo>&gt;</mo><mn>50</mn></math>; spełnia to 8 par (podstawa 9: wys. 6,7,8; podstawa 8: wys. 7,9; podstawa 7: wys. 8,9; podstawa 6: wys. 9): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>.</p><p>3. Ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></msqrt></math> jest liczbą naturalną tylko dla par (6,4) i (8,3) — dwóch trójkątów 3-4-5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>72</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>36</mn></mfrac></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.34,
+    "procent": 94,
+    "procent_etap": 92
+   }
   }
  ]
 }

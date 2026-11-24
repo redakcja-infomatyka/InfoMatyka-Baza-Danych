@@ -8,6 +8,7 @@
  "liczba_zadan": 7,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2019-2020_pomorskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn><mo>−</mo><mn>24</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>.</p><p>Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są odwrotne.</p>",
     "punktacja_html": "<p>Uczeń otrzymuje 1 punkt, gdy: przeprowadzi poprawny dowód.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.39,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2019-2020_pomorskie_q2",
@@ -51,7 +57,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "−1,5 to −3/2, więc oba nawiasy mają ten sam iloczyn, a (√2/2)² to ½",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.09,
+    "procent": 69,
+    "procent_etap": 62
+   }
   },
   {
    "id": "wojewodzki_2019-2020_pomorskie_q3",
@@ -81,6 +92,11 @@
      "o-co-pytaja"
     ],
     "opis": "Oszczędność czasu dotyczy drogi w jedną stronę, a pytają o drogę tam i z powrotem"
+   },
+   "trudnosc": {
+    "logit": 4.36,
+    "procent": 86,
+    "procent_etap": 80
    }
   },
   {
@@ -110,6 +126,11 @@
      "kierunek-relacji"
     ],
     "opis": "Krawędź o 50% krótsza od wysokości to h = 2a, a nie h = 1,5a"
+   },
+   "trudnosc": {
+    "logit": 2.39,
+    "procent": 72,
+    "procent_etap": 65
    }
   },
   {
@@ -130,7 +151,12 @@
     "rozwiazanie_html": "<p>Dopisanie liczby 92 z prawej strony liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>101</mn><mi>b</mi><mo>=</mo><mn>57368</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>568</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>56892</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy: zapisze, że jeśli dopiszemy z prawej strony liczby b liczbę 92 to otrzymamy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy: poprawnie wyznaczy szukane liczby.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.26,
+    "procent": 46,
+    "procent_etap": 39
+   }
   },
   {
    "id": "wojewodzki_2019-2020_pomorskie_q6",
@@ -158,6 +184,11 @@
      "konwencja"
     ],
     "opis": "6.2: po przetopieniu sumują się objętości, nie krawędzie; 6.1: ile dziewiątek ma 10^2020 − 9"
+   },
+   "trudnosc": {
+    "logit": 9.26,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -214,6 +245,11 @@
      "kwantyfikator"
     ],
     "opis": "Zdanie 3: suma procentów powyżej 100% nie gwarantuje, że każdy uczeń uczy się jakiegoś języka"
+   },
+   "trudnosc": {
+    "logit": 7.99,
+    "procent": 98,
+    "procent_etap": 97
    }
   }
  ]

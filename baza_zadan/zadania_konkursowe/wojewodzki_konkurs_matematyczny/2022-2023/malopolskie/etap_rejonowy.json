@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022-2023_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022-2023_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2022-2023_malopolskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "„Dokładnie dwa” listy we właściwych kopertach – przy trzech listach trzeci też musi trafić"
+   },
+   "trudnosc": {
+    "logit": 0.15,
+    "procent": 51,
+    "procent_etap": 53
    }
   },
   {
@@ -91,7 +97,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "samców jest cały czas 52 i ta liczba się nie zmienia — to one wyznaczają podział na części",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.18,
+    "procent": 70,
+    "procent_etap": 71
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q3",
@@ -129,7 +140,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile takich przekątnych wychodzi z jednego wierzchołka, i pamiętaj, że każdą liczysz dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 7.07,
+    "procent": 96,
+    "procent_etap": 96
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q4",
@@ -173,6 +189,11 @@
      "procent-podstawa"
     ],
     "opis": "Wzrost udziału z 50% do 65% to punkty procentowe, a do tego liczba wszystkich drzew spadła"
+   },
+   "trudnosc": {
+    "logit": 2.41,
+    "procent": 72,
+    "procent_etap": 73
    }
   },
   {
@@ -210,7 +231,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj czynniki tak, aby każdy iloczyn dawał resztę 1 z dzielenia przez 11",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.06,
+    "procent": 77,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q6",
@@ -255,6 +281,11 @@
      "inne:kolejnosc-wierzcholkow"
     ],
     "opis": "Sąsiadami A są B i F; E wyznacza, po której stronie leży B"
+   },
+   "trudnosc": {
+    "logit": 4.87,
+    "procent": 88,
+    "procent_etap": 89
    }
   },
   {
@@ -293,7 +324,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Prowadzimy przez B i C proste równoległe do m i n (kąt wędrujący). Kąt między AB a prostą przez B, naprzemianległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> przy A, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>, więc do BC zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>45</mn><mo>°</mo></math>.</p><p>Ten kąt jest naprzemianległy do kąta między CB a prostą przez C, więc do CD zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>45</mn><mo>°</mo><mo>)</mo><mo>+</mo><mi>x</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>45</mn><mo>°</mo></math>, co jest naprzemianległe do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math> przy D.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mn>75</mn><mo>°</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>25</mn><mo>°</mo></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 77,
+    "procent_etap": 78
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q8",
@@ -331,7 +367,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "to kąt wpisany oparty na boku A1A2 — porównaj go z kątem środkowym",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.47,
+    "procent": 86,
+    "procent_etap": 87
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q9",
@@ -371,7 +412,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Liczba przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Dla siedmiokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>14</mn></math>.</p><p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>7</mn></math> nie jest liczbą pierwszą.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.19,
+    "procent": 90,
+    "procent_etap": 90
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q10",
@@ -413,7 +459,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz kąt wewnętrzny dziesięciokąta foremnego, odejmij go od 180° i pomnóż przez 10",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.78,
+    "procent": 24,
+    "procent_etap": 26
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q11",
@@ -463,6 +514,11 @@
      "zbior-liczb"
     ],
     "opis": "Krok 10√2 jest niewymierny – „NWW” z liczbami wymiernymi tylko pozornie istnieje"
+   },
+   "trudnosc": {
+    "logit": 3.08,
+    "procent": 77,
+    "procent_etap": 78
    }
   },
   {
@@ -505,7 +561,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątne trapezu równoramiennego są równe — skorzystaj ze wzoru na pole przy prostopadłych przekątnych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.44,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q13",
@@ -555,6 +616,11 @@
      "warunek-istnienia"
     ],
     "opis": "Nierówność trójkąta sprawdza się dla boków (odwrotności wysokości), a nie dla samych wysokości"
+   },
+   "trudnosc": {
+    "logit": 6.59,
+    "procent": 95,
+    "procent_etap": 96
    }
   },
   {
@@ -603,6 +669,11 @@
      "o-co-pytaja"
     ],
     "opis": "„Kiedy Arek miał tyle lat, ile Wiola ma teraz” – przesunięcie w czasie i wiek Arka obecnie"
+   },
+   "trudnosc": {
+    "logit": 7.51,
+    "procent": 98,
+    "procent_etap": 97
    }
   },
   {
@@ -624,7 +695,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Najpierw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><msqrt><mn>111</mn></msqrt><mn>3</mn></mfrac><mo>−</mo><mn>1</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>&lt;</mo><msqrt><mn>111</mn></msqrt><mo>&lt;</mo><msqrt><mn>121</mn></msqrt><mo>=</mo><mn>11</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&lt;</mo><mfrac><msqrt><mn>111</mn></msqrt><mn>3</mn></mfrac><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>=</mo><msqrt><mn>289</mn></msqrt><mo>&lt;</mo><msqrt><mn>291</mn></msqrt><mo>&lt;</mo><msqrt><mn>324</mn></msqrt><mo>=</mo><mn>18</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>&lt;</mo><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>17</mn></math>. Liczby naturalne leżące między tymi wartościami to 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.</p><p><strong>b)</strong> Szacujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>=</mo><mroot><mn>27</mn><mn>3</mn></mroot><mo>&lt;</mo><mroot><mn>32</mn><mn>3</mn></mroot><mo>&lt;</mo><mroot><mn>64</mn><mn>3</mn></mroot><mo>=</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mroot><mn>54</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>&lt;</mo><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>20</mn></math>. Warunek (ii) spełniają liczby 4, 5, …, 19, więc oba warunki jednocześnie spełniają liczby 4, 5, …, 16 — jest ich 13.</p><p><strong>c)</strong> Warunek (i) spełnia 14 liczb (3–16). Kwadratami liczb naturalnych są wśród nich 4, 9, 16, czyli 3 liczby. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>11</mn></math> liczb, które nie są kwadratami. Szukane prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>14</mn></mfrac></math>.</p>",
     "punktacja_html": "<p><strong>Schemat punktacji dot. sposobu I rozwiązania zadania 15:</strong></p><p><strong>a)</strong></p><ul><li>3 punkty – pełne rozwiązanie: poprawne wskazanie wszystkich liczb naturalnych spełniających warunek (i).</li><li>2 punkty – poprawny sposób oszacowania obu liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>.</li><li>1 punkt – poprawny sposób oszacowania tylko jednej z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez uzasadnienia.</li></ul><p><strong>b)</strong></p><ul><li>3 punkty – pełne rozwiązanie: poprawne wskazanie, ile jest liczb naturalnych spełniających jednocześnie warunek (i) i (ii).</li><li>2 punkty – poprawny sposób oszacowania obu liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li><li>1 punkt – poprawny sposób oszacowania tylko jednej z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez uzasadnienia.</li></ul><p><strong>Uwaga:</strong> Jeśli Uczeń rozwiązując podpunkt a) błędnie wskaże, ile jest liczb spełniających warunek (i), ale na podstawie tej błędnej odpowiedzi poprawną metodą rozwiązuje podpunkt b), to traci 1 punkt na etapie rozwiązania podpunktu a) i otrzymuje 3 punkty za rozwiązanie podpunktu b).</p><p><strong>c)</strong></p><ul><li>2 punkty – pełne rozwiązanie: poprawne obliczenie szukanego prawdopodobieństwa.</li><li>1 punkt – poprawny sposób wyznaczenia liczby wszystkich liczb naturalnych spełniających warunek (i) oraz poprawny sposób wyznaczenia liczby tych spośród wyznaczonych liczb, które nie są kwadratami liczby naturalnej.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez poprawnego uzasadnienia.</li></ul><p><strong>Uwaga:</strong> Jeśli Uczeń rozwiązując podpunkt a) błędnie wskaże, ile jest liczb spełniających warunek (i), ale na podstawie tej błędnej odpowiedzi poprawną metodą rozwiązuje podpunkt c) obliczając szukane prawdopodobieństwo, to traci 1 punkt na etapie rozwiązania podpunktu a) i otrzymuje 2 punkty za rozwiązanie podpunktu c).</p><p><strong>Schemat punktacji sposobu II rozwiązania zadania 15:</strong></p><p><strong>Schemat łącznej punktacji podpunktów a) i b)</strong></p><ul><li>6 punktów – poprawne spełnienie obu warunków: wskazanie wszystkich liczb naturalnych spełniających warunek (i) i nie spełniających warunku (ii) oraz poprawne wskazanie, ile jest liczb naturalnych spełniających jednocześnie warunek (i) oraz (ii).</li><li>5 punktów – poprawne spełnienie jednego z dwóch warunków: wskazanie wszystkich liczb naturalnych spełniających warunek (i) i nie spełniających warunku (ii) albo poprawne wskazanie, ile jest liczb naturalnych spełniających jednocześnie warunek (i) oraz (ii).</li><li>4 punkty – poprawny sposób oszacowania czterech z czterech liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li><li>3 punkty – poprawny sposób oszacowania trzech z czterech liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li><li>2 punkty – poprawny sposób oszacowania dwóch z czterech liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li><li>1 punkt – poprawny sposób oszacowania jednej z czterech liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</li></ul><p><strong>Schemat punktacji podpunktu c)</strong></p><ul><li>2 punkty – pełne rozwiązanie: poprawne obliczenie szukanego prawdopodobieństwa.</li><li>1 punkt – poprawny sposób wyznaczenia liczby wszystkich liczb naturalnych spełniających warunek (i) i nie spełniających warunku (ii) oraz poprawny sposób wyznaczenia liczby tych spośród wyznaczonych liczb, które nie są kwadratami liczby naturalnej.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez poprawnego uzasadnienia lub prawidłowej interpretacji wyniku otrzymanego w sposób merytorycznie poprawny w podpunkcie a).</li></ul><p><strong>Uwaga:</strong> Jeśli Uczeń rozwiązując podpunkt a) błędnie wskaże, ile jest liczb spełniających warunek (i) i nie spełniających warunku (ii), ale na podstawie tej błędnej odpowiedzi poprawną metodą rozwiązuje podpunkt c) obliczając szukane prawdopodobieństwo, to traci 1 punkt na etapie rozwiązania podpunktu a) i otrzymuje 2 punkty za rozwiązanie podpunktu c).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 8.34,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q16",
@@ -651,7 +727,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HD</mi><mo>=</mo><mi>DC</mi></math>), a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></math>. Zatem miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCD</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn><mo>°</mo></math>, więc miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p><p><strong>b)</strong> Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ΔHDC</mi><mo>≅</mo><mi>ΔHAB</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HD</mi><mo>=</mo><mi>DC</mi><mo>=</mo><mi>HA</mi><mo>=</mo><mi>AB</mi><mo>=</mo><mn>1</mn></math>), trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BHC</mi></math> jest równoramienny o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>1</mn></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt></math>.</p><p><strong>c)</strong> Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEB</mi></math> to 15°, a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBH</mi></math> to 75°. Z sumy kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBP</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest punktem przecięcia) wynika, że kąt przecięcia odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> ma miarę 90°.</p><p><strong>d)</strong> Z przystawania trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ΔHDC</mi><mo>≅</mo><mi>ΔHAE</mi></math> wynika, że pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCH</mi></math> jest równe polu sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCDHA</mi></math>, czyli sumie pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz pól dwóch trójkątów równobocznych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HAD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>.</p>",
     "punktacja_html": "<p><strong>a)</strong></p><ul><li>2 punkty – pełne rozwiązanie: poprawne obliczenie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCB</mi></math>.</li><li>1 punkt – zauważenie równoramienności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> i poprawny sposób obliczenia miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCD</mi></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez wykonania obliczeń lub uzasadnienia.</li></ul><p><strong>b)</strong></p><ul><li>3 punkty – pełne rozwiązanie: poprawne obliczenie długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi></math>.</li><li>2 punkty – zauważenie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BHC</mi></math> jest równoramienny i poprawne zastosowanie twierdzenia Pitagorasa do obliczenia długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi></math>.</li><li>1 punkt – zauważenie przystawania trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HAB</mi></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez wykonania obliczeń.</li></ul><p><strong>c)</strong></p><ul><li>2 punkty – pełne rozwiązanie: poprawne obliczenie miary kąta przecięcia się przekątnych.</li><li>1 punkt – poprawny sposób obliczenia miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEB</mi></math> oraz miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBH</mi></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez wykonania obliczeń lub uzasadnienia.</li></ul><p><strong>d)</strong></p><ul><li>2 punkty – pełne rozwiązanie: poprawne obliczenie pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCH</mi></math>.</li><li>1 punkt – zauważenie, że pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBHC</mi></math> jest sumą pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ze względu na przystawanie trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HAE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math>.</li><li>0 punktów – brak istotnego postępu w zadaniu lub podanie odpowiedzi bez wykonania obliczeń lub uzasadnienia.</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.39,
+    "procent": 100,
+    "procent_etap": 100
+   }
   },
   {
    "id": "rejonowy_2022-2023_malopolskie_q17",
@@ -678,6 +759,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Zwracane mieszaniny zawierają metal władzy; masy wymienionych metali są dokładnie równe"
+   },
+   "trudnosc": {
+    "logit": 5.87,
+    "procent": 93,
+    "procent_etap": 93
    }
   }
  ]

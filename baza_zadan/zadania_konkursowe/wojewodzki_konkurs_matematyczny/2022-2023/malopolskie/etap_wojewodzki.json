@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2022-2023_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2022-2023_malopolskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ile marchewek zjada jeden królik w ciągu minuty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 41
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q2",
@@ -84,7 +90,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj obie odległości — to podstawa większego trójkąta podobnego",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.03,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q3",
@@ -120,7 +131,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Dwusieczna kąta ADC dzieli AC w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>:</mo><mi>DC</mi><mo>=</mo><mn>3</mn><mo>:</mo><mn>8</mn></math> (bo DC = AB), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AK</mi><mo>=</mo><mfrac><mn>3</mn><mn>11</mn></mfrac><mi>AC</mi></math>. Dwusieczna kąta ABC dzieli AC w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>:</mo><mi>BC</mi><mo>=</mo><mn>8</mn><mo>:</mo><mn>3</mn></math> (bo BC = AD), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi><mo>=</mo><mfrac><mn>8</mn><mn>11</mn></mfrac><mi>AC</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi><mo>=</mo><mi>AL</mi><mo>−</mo><mi>AK</mi><mo>=</mo><mfrac><mn>5</mn><mn>11</mn></mfrac><mi>AC</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AK</mi><mo>:</mo><mi>KL</mi><mo>=</mo><mn>3</mn><mo>:</mo><mn>5</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 6.85,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q4",
@@ -164,6 +180,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Po podzieleniu dzielnej i dzielnika przez 5 iloraz się nie zmienia, ale reszta też dzieli się przez 5"
+   },
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 65
    }
   },
   {
@@ -202,7 +223,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "skróć wspólne czynniki (n+2)(n+4) — zostaje proste równanie z n",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.59,
+    "procent": 81,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q6",
@@ -242,7 +268,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź wysokość z G do prostej AB i przyjmij ją za 1 — zostają trójkąty 30-60-90 i 45-45-90",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.08,
+    "procent": 84,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q7",
@@ -290,6 +321,11 @@
      "o-co-pytaja"
     ],
     "opis": "Nierówność ostra „mniejszej niż 100 km” wyklucza wartość graniczną; liczymy czas Karola, nie Władysława"
+   },
+   "trudnosc": {
+    "logit": 6.98,
+    "procent": 96,
+    "procent_etap": 94
    }
   },
   {
@@ -332,7 +368,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "365 = 52·7 + 1, więc jeden dzień tygodnia wypada 53 razy; potem policz dni do 1 maja",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 8.98,
+    "procent": 100,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q9",
@@ -381,6 +422,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Łuki wyznaczają kąty środkowe; kąty trójkąta są wpisane, czyli dwa razy mniejsze"
+   },
+   "trudnosc": {
+    "logit": 3.61,
+    "procent": 81,
+    "procent_etap": 74
    }
   },
   {
@@ -422,7 +468,12 @@
     "rozwiazanie_html": "<p>W związku z dwiema poprawnymi odpowiedziami uczeń otrzymuje pełną liczbę punktów za zaznaczenie samej odpowiedzi C, samej odpowiedzi D lub obu odpowiedzi C i D.</p>",
     "rozwiazanie_ai_html": "<p>Objętość graniastosłupa sześciokątnego o krawędzi s: (3√3/2)s³. Objętość czworościanu foremnego o krawędzi s: s³√2/12. Stosunek = 9√6 ≈ 22,05, więc mieści się dokładnie 22 pełne kieliszki.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.88,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q11",
@@ -470,6 +521,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pudełka po 8 ołówków, a naturalnie wylicza się liczbę pudełek po 12"
+   },
+   "trudnosc": {
+    "logit": -1.21,
+    "procent": 37,
+    "procent_etap": 30
    }
   },
   {
@@ -511,7 +567,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "załóż, że Ania mówi prawdę, i idź łańcuchem: Basia → Danusia → Celina",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.83,
+    "procent": 88,
+    "procent_etap": 84
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q13",
@@ -558,6 +619,11 @@
      "kierunek-relacji"
     ],
     "opis": "Trasa może obiec miasta w dwóch kierunkach, a drogi jednokierunkowe dają w nich różne liczby"
+   },
+   "trudnosc": {
+    "logit": 5.75,
+    "procent": 92,
+    "procent_etap": 89
    }
   },
   {
@@ -587,6 +653,11 @@
      "zbior-liczb"
     ],
     "opis": "Dwie dopisane na końcu cyfry mogą zaczynać się od 0: jest 100 wyników, w tym para 00"
+   },
+   "trudnosc": {
+    "logit": 7.65,
+    "procent": 98,
+    "procent_etap": 96
    }
   },
   {
@@ -613,7 +684,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>, a kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PCA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCR</mi></math> mają miarę 45°, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></math> i punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>R</mi></math> są współliniowe. Ponieważ przekątne kwadratów przecinają się pod kątem prostym, bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PR</mi></math> jest prostopadły do boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AP</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BR</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AP</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BR</mi></math> i czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABRP</mi></math> jest trapezem. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>ABRP</mi><mo>=</mo><mfrac><mrow><mi>AP</mi><mo>+</mo><mi>BR</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>PR</mi><mo>=</mo><mfrac><mrow><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p><strong>b)</strong> Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>ABRP</mi><mo>=</mo><mtext>pole </mtext><mi>ABC</mi><mo>+</mo><mtext>pole </mtext><mi>ACP</mi><mo>+</mo><mtext>pole </mtext><mi>CBR</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>ACP</mi><mo>+</mo><mtext>pole </mtext><mi>CBR</mi><mo>=</mo><mfrac><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mfrac><msup><mrow><mo>(</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>=</mo><mtext>pole </mtext><mi>AQB</mi></math> (z twierdzenia Pitagorasa), otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>AQB</mi><mo>+</mo><mtext>pole </mtext><mi>ABC</mi><mo>=</mo><mtext>pole </mtext><mi>ABRP</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p><strong>c)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>Obwód </mtext><mi>Δ</mi><mi>PQR</mi><mo>=</mo><mi>PR</mi><mo>+</mo><mi>PQ</mi><mo>+</mo><mi>RQ</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PR</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>RQ</mi><mo>&lt;</mo><mi>BR</mi><mo>+</mo><mi>BQ</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi><mo>&lt;</mo><mi>AP</mi><mo>+</mo><mi>AQ</mi><mo>=</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Zatem obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Δ</mi><mi>PQR</mi><mo>&lt;</mo><mfrac><mrow><mn>2</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mi>b</mi><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>·</mo><msqrt><mn>2</mn></msqrt></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>3 punkty – Poprawne zapisanie pola trapezu ABRP w zależności od długości odcinków a i b.</li><li>2 punkty – Zauważenie prostopadłości odcinka PR do odcinków AP i BR i wyciągnięcie wniosku o równoległości odcinków AP i BR.</li><li>1 punkt – Zauważenie, że punkty P, C, R są współliniowe wraz z uzasadnieniem np. poprawne obliczenie sumy miar kątów ACP, BCA i BCR.</li><li>0 punktów – Dowód bez istotnego postępu lub błędne rozumowanie lub brak dowodu.</li></ul><p><strong>Podpunkt b)</strong></p><p>Schemat punktacji dowodu sposobem 1</p><ul><li>3 punkty – Zapisanie równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>Δ</mi><mi>AQB</mi><mo>+</mo><mtext>pole </mtext><mi>Δ</mi><mi>ABC</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</li><li>2 punkty – Zauważenie, że pole ABRP = pole ABC + pole ACP + pole CBR i uzasadnienie, że pole ACP + pole CBR = pole AQB.</li><li>1 punkt – Zauważenie, że pole ABRP = pole ABC + pole ACP + pole CBR lub uzasadnienie, że pole ACP + pole CBR = pole AQB.</li><li>0 punktów – Brak istotnego postępu lub błędne rozumowanie lub brak dowodu.</li></ul><p>Schemat punktacji dowodu sposobem 2</p><ul><li>3 punkty – Poprawne zapisanie sumy pól trójkątów AQB i ABC w zależności od długości a i b i poprawne sprowadzenie sumy algebraicznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi></mrow><mn>4</mn></mfrac></math> do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>, np. poprzez wyłączanie czynnika przed nawias w sumie algebraicznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>b</mi><mi>a</mi></math>.</li><li>2 punkty – Poprawne zapisanie sumy pól trójkątów AQB i ABC w zależności od długości a i b (np. poprzez zastosowanie twierdzenia Pitagorasa dla trójkąta ABC).</li><li>1 punkt – Poprawne zapisanie sumy pól trójkątów AQB i ABC w zależności od długości a, b i c</li><li>0 punktów – Brak istotnego postępu lub błędne rozumowanie lub brak dowodu.</li></ul><p>Schemat punktacji dowodu sposobem 3</p><ul><li>3 punkty – Poprawne zapisanie sumy pól trójkątów AQB i ABC w zależności od długości a i b.</li><li>2 punkty – Poprawne zastosowanie twierdzenia Pitagorasa dla trójkąta ABC.</li><li>1 punkt – Poprawne przekształcenie wyrażenia algebraicznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> do postaci sumy algebraicznej.</li><li>0 punktów – Brak istotnego postępu lub błędne rozumowanie lub brak dowodu.</li></ul><p><strong>Podpunkt d)</strong></p><ul><li>4 punkty – Poprawne wykazanie nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>obwód </mtext><mi>Δ</mi><mi>PQR</mi><mo>&lt;</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>·</mo><msqrt><mn>2</mn></msqrt></math></li><li>3 punkty – Poprawne zastosowanie nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>RQ</mi><mo>&lt;</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi><mo>&lt;</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> do wykazania nierówności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>obwód </mtext><mi>Δ</mi><mi>PQR</mi><mo>=</mo><mi>PR</mi><mo>+</mo><mi>PQ</mi><mo>+</mo><mi>RQ</mi><mo>&lt;</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</li><li>2 punkty – Poprawne zastosowanie nierówności trójkąta do wykazania nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>RQ</mi><mo>&lt;</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> i poprawne zastosowanie nierówności trójkąta do wykazania nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi><mo>&lt;</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math></li><li>1 punkt – Poprawne zastosowanie nierówności trójkąta do wykazania nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>RQ</mi><mo>&lt;</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math> lub poprawne zastosowanie nierówności trójkąta do wykazania nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi><mo>&lt;</mo><mfrac><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mi>c</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</li><li>0 punktów – Rozwiązanie bez istotnego postępu lub błędne rozumowanie lub brak dowodu.</li></ul><p>Uwaga: Jeśli uczeń poprowadzi którykolwiek z dowodów w podpunktach a)-d) alternatywnym sposobem i dowód jest kompletny i w pełni poprawny, to uczeń otrzymuje maksymalną liczbę punktów za dany podpunkt zadania.</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 8.97,
+    "procent": 99,
+    "procent_etap": 99
+   }
   },
   {
    "id": "wojewodzki_2022-2023_malopolskie_q16",
@@ -636,7 +712,12 @@
     "rozwiazanie_html": "<p><strong>a)</strong> Ściany obu siatek należy oznaczyć symbolami kolorów tak, aby każdy kolor wystąpił dokładnie jeden raz oraz aby kolejność kolorów n, c, z ścian wokół białej podstawy b była taka sama w obu siatkach — wtedy sklejony wielościan ma dokładnie jedną parę zgodną.</p><p><strong>b)</strong> NIE.</p><p><strong>c)</strong> I: 1, &nbsp; II: 0, &nbsp; III: 2, &nbsp; IV: 1.</p><p><strong>d)</strong> Wielościany o nieparzystej liczbie par zgodnych (równej 3 lub 1) to wielościany wymienione w podpunkcie c) w odpowiedzi I (1 wielościan) oraz III (2 wielościany). Istnieją więc 3 takie wielościany, zatem szukane prawdopodobieństwo jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>.</p>",
     "punktacja_html": "<p><strong>Podpunkt a)</strong></p><ul><li>2 punkty – Poprawnie oznaczone symbolami kolorów siatki obu ostrosłupów spełniające wszystkie warunki podpunktu a)</li><li>1 punkt – Poprawne oznaczenie symbolami kolorów siatki jednego z dwóch ostrosłupów tak, aby każdy kolor wystąpił dokładnie jeden raz.</li><li>0 punktów – Brak oznaczonych ścian lub oznaczenia niekompletne, niejasne, nieczytelne lub niepoprawne.</li></ul><p><strong>Podpunkt b)</strong></p><ul><li>1 punkt – Poprawna odpowiedź.</li><li>0 punktów – Brak odpowiedzi lub odpowiedź niepoprawna lub niejasna, nieczytelna.</li></ul><p>Uwaga Jeśli uczeń w rozwiązaniu podpunktu a) otrzymuje siatki ostrosłupów niespełniające wszystkich warunków podpunktu a), ale ściany siatek są kompletne pod względem kolorów ścian i w rozwiązaniu podpunktu b) uczeń udziela konsekwentnie poprawnej odpowiedzi w stosunku do otrzymanych siatek, to traci 1 lub 2 punkty na etapie podpunktu a) i otrzymuje 1 punkt za odpowiedź w podpunkcie b).</p><p><strong>Podpunkt c)</strong></p><ul><li>4 punkty – Poprawne wszystkie cztery odpowiedzi.</li><li>3 punkty – Poprawne trzy z czterech odpowiedzi.</li><li>2 punkty – Poprawne dwie z czterech odpowiedzi.</li><li>1 punkt – Poprawna jedna z czterech odpowiedzi.</li><li>0 punktów – Brak odpowiedzi lub odpowiedź niepoprawna lub odpowiedzi udzielona w sposób niejasny, przybliżony lub nieczytelny.</li></ul><p><strong>Podpunkt d)</strong></p><ul><li>2 punkty – Wskazanie poprawnej liczby wielościanów spełniających warunki zadania (na przykład skorzystanie z wyników otrzymanych w podpunkcie c)) i poprawne obliczenie prawdopodobieństwa.</li><li>1 punkt – Wskazanie poprawnej liczby wielościanów spełniających warunki zadania (na przykład skorzystanie z wyników otrzymanych w podpunkcie c)) lub poprawne obliczenie prawdopodobieństwa.</li><li>0 punktów – Brak odpowiedzi lub odpowiedź niejasna, nieczytelna lub niepoprawna.</li></ul><p>Uwaga: Jeśli uczeń poprawnie wskazuje liczbę wyborów wielościanów spełniających warunki podpunktu d) lub poprawnie oblicza prawdopodobieństwo w oparciu o błędne wyniki otrzymane w podpunkcie c), to traci punkty na etapie podpunktu c) i otrzymuje odpowiednio 1 lub 2 punkty za rozwiązanie podpunktu d).</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 9.58,
+    "procent": 100,
+    "procent_etap": 100
+   }
   }
  ]
 }

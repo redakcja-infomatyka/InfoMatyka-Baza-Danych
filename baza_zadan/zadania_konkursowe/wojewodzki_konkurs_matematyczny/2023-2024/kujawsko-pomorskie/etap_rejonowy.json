@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_kujawsko-pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2024_kujawsko-pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q1",
@@ -51,6 +52,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa potęgi to nie połowa podstawy ani wykładnik mniejszy o 1; trzeba przejść na podstawę 2"
+   },
+   "trudnosc": {
+    "logit": -1.83,
+    "procent": 32,
+    "procent_etap": 33
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczy się tylko ostatnia cyfra podstawy — sprawdź, jak cyklicznie zmieniają się końcówki jej potęg",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.87,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q3",
@@ -128,7 +139,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pola i stosunku boków wyznacz najpierw wymiary na planie, dopiero potem przelicz skalę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.07,
+    "procent": 69,
+    "procent_etap": 70
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q4",
@@ -165,7 +181,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprawdź, ile razy 506 mieści się w 2024",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.63,
+    "procent": 56,
+    "procent_etap": 57
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q5",
@@ -206,7 +227,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna a+e+i daje sumę magiczną, a pierwsza kolumna od razu sumę d+g",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 53
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q6",
@@ -251,6 +277,11 @@
      "inne:dlugosc-pociagu"
     ],
     "opis": "Droga to tunel minus długość pociągu, a wynik w m/s trzeba przeliczyć na km/h; w wariancie liczba bez przeliczenia"
+   },
+   "trudnosc": {
+    "logit": 3.84,
+    "procent": 82,
+    "procent_etap": 83
    }
   },
   {
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wśród pięciu kolejnych liczb zawsze jest wielokrotność 5 i liczba parzysta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.79,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q8",
@@ -325,7 +361,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj obie grupy i odejmij tych policzonych podwójnie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.81,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q9",
@@ -360,7 +401,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Rozwijamy początki liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,</mn><mo>(</mo><mn>38</mn><mo>)</mo><mo>=</mo><mn>5,383838…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,3</mn><mo>(</mo><mn>838</mn><mo>)</mo><mo>=</mo><mn>5,383883…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,38</mn><mo>(</mo><mn>383</mn><mo>)</mo><mo>=</mo><mn>5,383833…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,3</mn><mo>(</mo><mn>83838</mn><mo>)</mo><mo>=</mo><mn>5,383838…</mn></math>.</p><p>Piąta cyfra po przecinku w drugiej liczbie to 8 (u pozostałych 3), więc ona odpada. Wśród pozostałych szósta cyfra jest najmniejsza (3) w trzeciej liczbie — najmniejsza jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,38</mn><mo>(</mo><mn>383</mn><mo>)</mo></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 77
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q10",
@@ -406,6 +452,11 @@
      "inne:polowki-przekatnych"
     ],
     "opis": "Bok rombu liczy się z połówek przekątnych, nie z całych przekątnych"
+   },
+   "trudnosc": {
+    "logit": -0.44,
+    "procent": 45,
+    "procent_etap": 46
    }
   },
   {
@@ -450,6 +501,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o NIEwylosowanie czerwonej, a do tego o najmniejsze prawdopodobieństwo: dwie negacje naraz"
+   },
+   "trudnosc": {
+    "logit": -0.2,
+    "procent": 47,
+    "procent_etap": 49
    }
   },
   {
@@ -494,6 +550,11 @@
      "jednostki"
     ],
     "opis": "Zamiana hektarów na m²: 1 ha = 10 000 m²"
+   },
+   "trudnosc": {
+    "logit": -3.62,
+    "procent": 17,
+    "procent_etap": 19
    }
   },
   {
@@ -540,6 +601,11 @@
      "procent-podstawa"
     ],
     "opis": "Nowe pole to pewien procent starego; trzeba odróżnić zmianę 'o' od wartości 'do'"
+   },
+   "trudnosc": {
+    "logit": -4.26,
+    "procent": 13,
+    "procent_etap": 14
    }
   },
   {
@@ -579,7 +645,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "każde zero na końcu to jedna para 2 · 5 — rozłóż 4 i 6 na czynniki pierwsze i policz pary",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.2,
+    "procent": 47,
+    "procent_etap": 49
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q15",
@@ -623,6 +694,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie nie o wartość wyrażenia, tylko o połowę liczby do niej przeciwnej"
+   },
+   "trudnosc": {
+    "logit": 3.4,
+    "procent": 79,
+    "procent_etap": 81
    }
   },
   {
@@ -667,6 +743,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Boki w różnych jednostkach; w jednej parze te same cyfry, ale inne rzędy wielkości (trójkąty tylko podobne)"
+   },
+   "trudnosc": {
+    "logit": 0.51,
+    "procent": 54,
+    "procent_etap": 56
    }
   },
   {
@@ -713,6 +794,11 @@
      "o-co-pytaja"
     ],
     "opis": "Szukamy zdania NIEprawdziwego; trzy warianty są prawdziwe"
+   },
+   "trudnosc": {
+    "logit": 1.52,
+    "procent": 64,
+    "procent_etap": 66
    }
   },
   {
@@ -750,7 +836,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż obie strony przez 2, podziel przez h i dopiero uwolnij a",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.51,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2024_kujawsko-pomorskie_q19",
@@ -786,6 +877,11 @@
      "szczegol-bryly"
     ],
     "opis": "Pole powierzchni bocznej sześcianu to 4 ściany, nie 6"
+   },
+   "trudnosc": {
+    "logit": 1.23,
+    "procent": 61,
+    "procent_etap": 63
    }
   }
  ]

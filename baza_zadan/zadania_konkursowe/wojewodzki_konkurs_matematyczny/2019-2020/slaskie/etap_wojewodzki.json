@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019-2020_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2019-2020_slaskie_q1",
@@ -37,6 +38,11 @@
      "warunek-istnienia"
     ],
     "opis": "Hasło n): układ 13, 13, 30 nie spełnia nierówności trójkąta, więc ramiona muszą mieć 30 cm"
+   },
+   "trudnosc": {
+    "logit": 9.42,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień obie liczby rzymskie na zwykłe i sprawdź, czy urodziny w ostatnim roku już były",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q3",
@@ -112,7 +123,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwinięcie jest okresowe — podziel 49 przez długość okresu i weź resztę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q4",
@@ -150,7 +166,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, która para wierzchołków leży już symetrycznie względem osi OY",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.62,
+    "procent": 17,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q5",
@@ -187,7 +208,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najmniejsza ma jak najmniejszą cyfrę setek, największa — jak największą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.4,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q6",
@@ -224,7 +250,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole trójkąta równobocznego a²√3/4 razy wysokość bryły",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.55,
+    "procent": 18,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q7",
@@ -272,6 +303,11 @@
      "rysunek"
     ],
     "opis": "W dwóch trójkątach równoramiennych równe boki schodzą się w różnych wierzchołkach"
+   },
+   "trudnosc": {
+    "logit": -1.42,
+    "procent": 36,
+    "procent_etap": 29
    }
   },
   {
@@ -310,7 +346,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<ul><li>Krawędzie od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math> mają po 3 cm, a boki trójkąta EFG po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm — nierówne — <b>F</b>.</li><li>Trzy prostopadłe krawędzie przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math> po 3 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>4,5</mn></mrow></math> cm³ — <b>P</b>.</li><li>Sześcian: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>216</mn></mrow></math> cm³; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4,5</mn><mo>:</mo><mn>216</mn><mo>=</mo><mn>1</mn><mo>:</mo><mn>48</mn></mrow></math>, nie 1∶24 — <b>F</b>.</li><li>Trzy ściany boczne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>4,5</mn><mo>=</mo><mn>13,5</mn></mrow></math> cm²; ściana EFG (bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4,5</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>7,8</mn></mrow></math> cm²; razem ≈21,3 cm², nie 18 — <b>F</b>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.84,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q9",
@@ -348,7 +389,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź wieki przez wiek środkowego przyjaciela i skorzystaj z sumy równej trzem średnim",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.33,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q10",
@@ -387,7 +433,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sprowadź wszystkie potęgi do wspólnego wykładnika 125",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.92,
+    "procent": 93,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q11",
@@ -424,7 +475,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w każdym zdaniu podstaw podaną liczbę kul i sprawdź, czy ułamek się zgadza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.48,
+    "procent": 80,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q12",
@@ -469,6 +525,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pływanie uprawiają też ci dwaj od kolarstwa i pływania, nie tylko czterej „tylko pływanie”"
+   },
+   "trudnosc": {
+    "logit": 3.83,
+    "procent": 82,
+    "procent_etap": 76
    }
   },
   {
@@ -494,7 +555,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównuj pola trójkątów o podwojonych podstawach i tej samej wysokości",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.69,
+    "procent": 96,
+    "procent_etap": 93
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q14",
@@ -522,6 +588,11 @@
      "procent-podstawa"
     ],
     "opis": "Suszone jabłka nadal zawierają 15% wody; sucha masa to tylko 85% ich wagi"
+   },
+   "trudnosc": {
+    "logit": 1.73,
+    "procent": 66,
+    "procent_etap": 59
    }
   },
   {
@@ -544,7 +615,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku chłopców jest stała — porównaj ją w obu momentach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.09,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2019-2020_slaskie_q16",
@@ -574,6 +650,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "„Jeden z boków” może być przyprostokątną albo przeciwprostokątną; trzeba rozważyć obie role"
+   },
+   "trudnosc": {
+    "logit": 5.11,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -600,7 +681,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trójkąt odcięty łukiem jest równoboczny — odejmij jego pole od pola wycinka",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.42,
+    "procent": 86,
+    "procent_etap": 81
+   }
   }
  ]
 }

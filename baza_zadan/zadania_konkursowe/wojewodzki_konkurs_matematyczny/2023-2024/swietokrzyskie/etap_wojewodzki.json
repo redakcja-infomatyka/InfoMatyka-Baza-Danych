@@ -8,6 +8,7 @@
  "liczba_zadan": 14,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2023-2024_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw długość odcinka, potem ułamek godziny zamień na minuty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q2",
@@ -88,6 +94,11 @@
      "zbior-liczb"
     ],
     "opis": "Cyfra tysięcy nie może być zerem, więc przypadek z zerem na końcu liczy się osobno"
+   },
+   "trudnosc": {
+    "logit": 4.08,
+    "procent": 84,
+    "procent_etap": 78
    }
   },
   {
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątna sześcianu to a√3, a pole zależy od a², więc pierwiastka nie musisz liczyć",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.97,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q4",
@@ -166,6 +182,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Nie każdy wielokąt foremny ma środek symetrii, zależy to od parzystości liczby boków"
+   },
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 74
    }
   },
   {
@@ -211,6 +232,11 @@
      "inne:promien-srednica"
     ],
     "opis": "Bok trójkąta jest średnicą półkola, a nie promieniem"
+   },
+   "trudnosc": {
+    "logit": 2.04,
+    "procent": 69,
+    "procent_etap": 62
    }
   },
   {
@@ -255,6 +281,11 @@
      "inne:losowanie-bez-zwracania"
     ],
     "opis": "Wylosowane losy ubywają z puli: zmienia się i liczba przegrywających, i liczba wszystkich"
+   },
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 38
    }
   },
   {
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw dziesiątki = jedności + 3 do sumy cyfr i wylicz cyfrę tysięcy; parzystość czytaj z jedności",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.31,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q8",
@@ -333,6 +369,11 @@
      "inne:wierzcholek-szczytowy"
     ],
     "opis": "Wśród wierzchołków ostrosłupa jest wierzchołek szczytowy, podstawa ma o jeden mniej"
+   },
+   "trudnosc": {
+    "logit": -1.52,
+    "procent": 34,
+    "procent_etap": 28
    }
   },
   {
@@ -375,6 +416,11 @@
      "procent-podstawa"
     ],
     "opis": "„Ponad” to nierówność ostra; w zdaniu 3 obniżka liczona od starej ceny"
+   },
+   "trudnosc": {
+    "logit": 3.02,
+    "procent": 77,
+    "procent_etap": 69
    }
   },
   {
@@ -410,7 +456,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "patrz tylko na ostatnie cyfry potęg, a przy podzielności sprawdź, przez co dzieli się 2024",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.99,
+    "procent": 98,
+    "procent_etap": 97
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q11",
@@ -447,7 +498,12 @@
      "opis": "Klucz FPP jest błędny w zdaniu 2 — poprawna odpowiedź to FFP. Środek symetrii S=(2,1) jest środkiem przekątnych, więc C=2S−A=(−2,2) oraz D=2S−B=(0,−2). Wierzchołki to (6,0),(4,4),(−2,2),(0,−2) — punktu (−2,0) wśród nich nie ma, zatem zdanie 1 jest fałszywe. Długości boków: |AB|=√(2²+4²)=√20=2√5 oraz |BC|=√(6²+2²)=√40=2√10. Obwód równoległoboku = 2·2√5 + 2·2√10 = 4√5+4√10, a NIE 2√5+2√10 (podana w zadaniu wartość to tylko suma dwóch sąsiednich boków, czyli połowa obwodu) — więc zdanie 2 jest fałszywe, wbrew kluczowi. Pole = |(−2)·(−2) − 4·(−6)| = |4+24| = 28 (to samo daje wzór Gaussa) — zdanie 3 jest prawdziwe. Ostatecznie FFP. Modele AI (Sonnet) podały poprawnie FFP; błąd tkwi w oficjalnym kluczu, w którym zapomniano podwoić obwód."
     }
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.67,
+    "procent": 87,
+    "procent_etap": 82
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q12",
@@ -485,7 +541,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "12 i 13 to dwa boki znanej trójki pitagorejskiej — dopisz trzeci i porównaj z obwodem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.77,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q13",
@@ -517,7 +578,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt przyległy do 135° wynosi 45°. Skoro przekątna dzieli równoległobok na trójkąty prostokątne, powstaje trójkąt 45°-45°-90°: krótszy bok = przekątna = 4√3, dłuższy bok (przeciwprostokątna) = 4√3·√2 = 4√6.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>48</mn></math>, nie 24√8 — F. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math> — P. Wysokość do dłuższego boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>:</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math> — P.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.39,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2023-2024_swietokrzyskie_q14",
@@ -550,7 +616,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "krawędź boczna równa krawędzi podstawy, więc ściany boczne są trójkątami równobocznymi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.45,
+    "procent": 80,
+    "procent_etap": 73
+   }
   }
  ]
 }

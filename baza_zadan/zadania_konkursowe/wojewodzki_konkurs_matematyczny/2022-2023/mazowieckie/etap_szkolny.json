@@ -8,6 +8,7 @@
  "liczba_zadan": 10,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_mazowieckie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022_mazowieckie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022_mazowieckie_q1",
@@ -50,7 +51,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "licznik to 1+2+…+96 = 96·97/2 — skróć przez 97, zanim cokolwiek pomnożysz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.07,
+    "procent": 60,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q2",
@@ -96,6 +102,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie o numer minuty (liczebnik porządkowy): ułamkowy wynik czasu trzeba przełożyć na to, która to minuta"
+   },
+   "trudnosc": {
+    "logit": 4.09,
+    "procent": 84,
+    "procent_etap": 90
    }
   },
   {
@@ -142,6 +153,11 @@
      "plot-i-slupki"
     ],
     "opis": "Miejsce Maćka to liczba lepszych od niego plus jeden, a nie sama liczba lepszych"
+   },
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 64,
+    "procent_etap": 71
    }
   },
   {
@@ -172,7 +188,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyrównaj pole podstawy do jej obwodu i wyznacz krawędź",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.77,
+    "procent": 24,
+    "procent_etap": 28
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q5",
@@ -199,6 +220,11 @@
      "procent-podstawa"
     ],
     "opis": "Za tę samą cenę dostaje się o 25% więcej towaru, ale to nie znaczy, że towar jest o 25% tańszy"
+   },
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -218,7 +244,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Skoro różnica największej i najmniejszej liczby wynosi 8, wszystkie osiem liczb mieści się wśród dziewięciu kolejnych liczb naturalnych. Ponieważ żadna nie dzieli się przez 5, muszą to być liczby o postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></math> (pominięto podzielną przez 5 liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą naturalną. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>=</mo><mn>40</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>8</mn><mo>·</mo><mn>5</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>, jest więc podzielna zarówno przez 5, jak i przez 8.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.1,
+    "procent": 99,
+    "procent_etap": 100
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q7",
@@ -238,7 +269,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych kąty przy podstawach mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc wysokość poprowadzona z punktu przecięcia przekątnych dzieli się na dwa odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> równe połowom podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>h</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi></mrow></math>. Zatem pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>h</mi><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, czyli jest równe polu kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.03,
+    "procent": 94,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q8",
@@ -261,7 +297,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sześciokąt to oba kwadraty bez trójkątów odciętych przy H — policz pole jednego takiego trójkąta",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.09,
+    "procent": 69,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q9",
@@ -281,7 +322,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> mniejszą liczbą. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math> oraz — z warunku, że iloraz wynosi 2 i reszty 6 — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>32</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>26</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>58</mn></mrow></math>. Odpowiedź: tymi liczbami są 58 i 26.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.96,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2022_mazowieckie_q10",
@@ -307,6 +353,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wspólna krawędź dwóch ścian to dowolny wspólny dzielnik 12 i 30, także 1 i 6; łatwo pominąć któryś przypadek"
+   },
+   "trudnosc": {
+    "logit": 5.96,
+    "procent": 93,
+    "procent_etap": 97
    }
   }
  ]

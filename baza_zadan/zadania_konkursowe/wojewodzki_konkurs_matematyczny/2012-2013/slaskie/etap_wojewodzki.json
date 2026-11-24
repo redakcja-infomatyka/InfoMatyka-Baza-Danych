@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2012-2013_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2012-2013_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2012-2013_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>0,5</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>.</p><p>Pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>·</mo><mn>4</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>2</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>10</mn></math>.</p>",
     "punktacja_html": "<p>Za każdą poprawnie wpisaną liczbę 1 punkt, w sumie 6 punktów.</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 4.01,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q2",
@@ -74,6 +80,11 @@
      "znak"
     ],
     "opis": "„Od jakiej liczby odjąć (−6)” – szukana jest odjemna, łatwo odwrócić działanie i odjąć −6 od −5"
+   },
+   "trudnosc": {
+    "logit": -4.37,
+    "procent": 12,
+    "procent_etap": 9
    }
   },
   {
@@ -112,7 +123,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "oznacz czas od północy przez t, wtedy do południa zostaje 12 − t",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.61,
+    "procent": 43,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q4",
@@ -156,6 +172,11 @@
      "o-co-pytaja"
     ],
     "opis": "Różnica 80 − 50 to masa połowy piasku, a nie masa skrzyni"
+   },
+   "trudnosc": {
+    "logit": -4.01,
+    "procent": 14,
+    "procent_etap": 10
    }
   },
   {
@@ -193,7 +214,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dzielnik to dzielna podzielona przez iloraz — zamień 1⅔ na ułamek niewłaściwy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.5,
+    "procent": 35,
+    "procent_etap": 28
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q6",
@@ -231,7 +257,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw suma x i 10, dopiero potem podwojenie — stąd nawias",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.94,
+    "procent": 5,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q7",
@@ -271,7 +302,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "ścieżka to równoległobok — jego podstawą jest poziomy odcinek 2 m, a wysokością wysokość działki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q8",
@@ -315,6 +351,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość to nie średnia arytmetyczna dwóch prędkości – czasy jazdy są różne"
+   },
+   "trudnosc": {
+    "logit": -4.21,
+    "procent": 13,
+    "procent_etap": 9
    }
   },
   {
@@ -353,7 +394,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąty przy obu dolnych wierzchołkach i przy górnym mają po 60°, więc dwa prawe, ukośne boki figury mają razem taki sam „spadek” jak lewy bok o długości 8. Poziomy odcinek 4 przesuwa prawą część o 4 w prawo, więc podstawa ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>32</mn></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.55,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q10",
@@ -397,6 +443,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pozostałe składniki, a naturalnie liczy się 82% (tłuszcz)"
+   },
+   "trudnosc": {
+    "logit": -7.61,
+    "procent": 1,
+    "procent_etap": 1
    }
   },
   {
@@ -435,7 +486,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień wszystko na ułamki zwykłe, ujemną odrzuć, a dwie największe porównaj na krzyż",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.16,
+    "procent": 51,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q12",
@@ -479,6 +535,11 @@
      "procent-podstawa"
     ],
     "opis": "Obniżka o 10% i podwyżka o 10% nie znoszą się – druga liczona od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -3.77,
+    "procent": 16,
+    "procent_etap": 12
    }
   },
   {
@@ -517,7 +578,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "we wzorze na pole trapezu suma podstaw jest już podana",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.63,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q14",
@@ -535,7 +601,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>a) Teorię heliocentryczną, według której Ziemia i planety krążą wokół Słońca, sformułował Mikołaj Kopernik.</p><p>b) Licząc od Słońca: Merkury, Wenus, Ziemia – Ziemia jest trzecią planetą.</p><p>c) Największą planetą Układu Słonecznego jest Jowisz.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.98,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q15",
@@ -553,7 +624,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ruch obrotowy (Ziemia obraca się wokół własnej osi) daje: dzień i noc (4), pozorną wędrówkę Słońca po niebie (2), spłaszczenie Ziemi na biegunach (3).</p><p>Ruch obiegowy (Ziemia krąży wokół Słońca) daje: pory roku (1), dni i noce polarne (5), zmianę miejsca wschodu i zachodu Słońca w ciągu roku (6).</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.41,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q16",
@@ -571,7 +647,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Duże odległości między cząsteczkami i ich szybki ruch we wszystkich kierunkach to cechy gazów – stan gazowy.</p><p>Cząsteczki ułożone ciasno, tylko drgające w miejscu – to cechy ciał stałych – stan stały.</p>"
    },
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.83,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q17",
@@ -606,7 +687,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1. Powietrze to mieszanina jednorodna, nie niejednorodna – fałsz.</p><p>2. Gwałtowne utlenianie z ciepłem i światłem to spalanie, nie korozja – fałsz.</p><p>3. Krystalizacja rozdziela mieszaniny jednorodne, np. sól i wodę – prawda.</p><p>4. Substancja z jednego rodzaju atomów to pierwiastek chemiczny – prawda.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.95,
+    "procent": 83,
+    "procent_etap": 77
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q18",
@@ -641,7 +727,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>1. Las równikowy wilgotny ma bardzo duże, a nie niewielkie zróżnicowanie gatunkowe – fałsz.</p><p>2. Sawanna występuje w klimacie podrównikowym z porą suchą i deszczową – prawda.</p><p>3. Węże i skorpiony to typowi mieszkańcy pustyń – prawda.</p><p>4. Tajga występuje na półkuli północnej, nie południowej – fałsz.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.28,
+    "procent": 85,
+    "procent_etap": 80
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q19",
@@ -680,7 +771,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przy każdym zdaniu szukaj kontrprzykładu, nie dowodu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.23,
+    "procent": 70,
+    "procent_etap": 63
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q20",
@@ -725,6 +821,11 @@
      "warunek-istnienia"
     ],
     "opis": "306 jest wielokrotnością 51 i dzieli się przez 3, ale nie spełnia warunku z ułamkiem 5/12"
+   },
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
    }
   },
   {
@@ -745,7 +846,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij stronami zakupy Ani od zakupów Basi",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.82,
+    "procent": 75,
+    "procent_etap": 68
+   }
   },
   {
    "id": "wojewodzki_2012-2013_slaskie_q22",
@@ -772,6 +878,11 @@
      "jednostki"
     ],
     "opis": "Wymiary kartonu podane w trzech różnych jednostkach (cm, dm, m)"
+   },
+   "trudnosc": {
+    "logit": -0.46,
+    "procent": 44,
+    "procent_etap": 37
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2013_podlaskie_sp.pdf",
+ "klucz_pdf": null,
  "zadania": [
   {
    "id": "rejonowy_2013_podlaskie_sp_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień procent na ułamek dziesiętny, czyli podziel przez 100",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.81,
+    "procent": 3,
+    "procent_etap": 3
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź najpierw, które podstawy są mniejsze od 1 — potęgowanie takich liczb je zmniejsza",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.94,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q3",
@@ -125,6 +136,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kąt wklęsły, a naturalnie liczy się wypukły między wskazówkami."
+   },
+   "trudnosc": {
+    "logit": 0.96,
+    "procent": 59,
+    "procent_etap": 60
    }
   },
   {
@@ -162,7 +178,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "niepomalowane są tylko kostki ze środka — to sześcian o boku krótszym o 2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.88,
+    "procent": 23,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q5",
@@ -206,6 +227,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa potęgi to nie połowa wykładnika."
+   },
+   "trudnosc": {
+    "logit": -7.18,
+    "procent": 2,
+    "procent_etap": 2
    }
   },
   {
@@ -243,7 +269,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel minuty przez liczbę zadań, a dopiero wynik zamień na sekundy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.98,
+    "procent": 2,
+    "procent_etap": 3
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q7",
@@ -280,7 +311,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odejmij obie masy — to waga połowy wody",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.89,
+    "procent": 9,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q8",
@@ -317,7 +353,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, ilu kilometrom w terenie odpowiada 1 cm na mapie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.69,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q9",
@@ -355,7 +396,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "graniastosłup ma 3 razy tyle krawędzi, co boków podstawy, a wierzchołków 2 razy tyle",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.5,
+    "procent": 18,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q10",
@@ -394,7 +440,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przenieś oba kąty od prostej k na prostą l — kąty odpowiadające i kąt przyległy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.74,
+    "procent": 42,
+    "procent_etap": 44
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q11",
@@ -431,7 +482,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel wysokość przez 1000, a dopiero potem zamień jednostki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 19
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q12",
@@ -475,7 +531,18 @@
      "o-co-pytaja"
     ],
     "opis": "Przepis jest na cztery placki: liczba porcji przepisu to nie liczba placków."
-   }
+   },
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 46
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2010-2011_slaskie_q9",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q13",
@@ -496,7 +563,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty ostre to x i 5x, a razem dają 90°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.89,
+    "procent": 3,
+    "procent_etap": 3
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q14",
@@ -516,7 +588,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz sum wieku — pomyśl, ile lat kapitan musi dołożyć, by każdemu podnieść średnią",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.64,
+    "procent": 34,
+    "procent_etap": 35
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q15",
@@ -536,7 +613,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie trzy ważenia i podziel przez 2 — wyjdzie waga całej trójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.3,
+    "procent": 20,
+    "procent_etap": 21
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q16",
@@ -556,7 +638,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 2013 minut na godziny i minuty, a potem odrzuć pełne doby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 64,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q17",
@@ -576,7 +663,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 250 ml na ćwierć litra i dopiero policz, ile godzin ma cały tydzień",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.0,
+    "procent": 14,
+    "procent_etap": 16
+   }
   },
   {
    "id": "rejonowy_2013_podlaskie_sp_q18",
@@ -604,6 +696,11 @@
      "o-co-pytaja"
     ],
     "opis": "Koszt na ucznia to rzeczywisty koszt podzielony przez liczbę uczniów, nie kwota wpłaty z dopłatą."
+   },
+   "trudnosc": {
+    "logit": 5.44,
+    "procent": 91,
+    "procent_etap": 92
    }
   },
   {
@@ -626,7 +723,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole rombu to połowa iloczynu przekątnych — szukaj dwóch liczb o danej sumie i iloczynie",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 72
+   }
   }
  ]
 }

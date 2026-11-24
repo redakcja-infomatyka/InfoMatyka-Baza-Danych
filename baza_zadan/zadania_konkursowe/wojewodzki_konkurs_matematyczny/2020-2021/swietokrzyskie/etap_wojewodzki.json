@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q1",
@@ -42,7 +43,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Pierwsza cyfra jest niezerowa, więc zapisujemy ją jako 1+d (d≥0) i szukamy nieujemnych rozwiązań d+d₂+d₃+d₄+d₅=3. Metodą gwiazdek i kresek (3 jedynki, 4 przegródki na 7 miejscach): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>!</mo></mrow><mrow><mn>3</mn><mo>!</mo><mo>·</mo><mn>4</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>35</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.63,
+    "procent": 92,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q2",
@@ -88,6 +94,11 @@
      "jednostki"
     ],
     "opis": "Dane w dm i mm, a warianty w cm i dm; obok wyniku w cm stoi wariant w dm z przesuniętym przecinkiem"
+   },
+   "trudnosc": {
+    "logit": -0.75,
+    "procent": 42,
+    "procent_etap": 34
    }
   },
   {
@@ -126,7 +137,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odetnij trójkąty prostokątne przy ramionach — z ramienia i wysokości wyjdzie różnica podstaw",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.44,
+    "procent": 19,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q4",
@@ -170,6 +186,11 @@
      "o-co-pytaja"
     ],
     "opis": "10 osób to dyrektor i 9 pracowników; średnia 2300 zł dotyczy tylko tych 9 osób"
+   },
+   "trudnosc": {
+    "logit": -2.64,
+    "procent": 25,
+    "procent_etap": 20
    }
   },
   {
@@ -208,7 +229,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz od najgłębszego pierwiastka — za każdym razem pod pierwiastkiem robi się 27",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.47,
+    "procent": 54,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q6",
@@ -254,6 +280,11 @@
      "zbior-liczb"
     ],
     "opis": "51 i 57 wyglądają na liczby pierwsze; 0 jest liczbą naturalną, a liczby ujemne nie są"
+   },
+   "trudnosc": {
+    "logit": 3.21,
+    "procent": 78,
+    "procent_etap": 71
    }
   },
   {
@@ -291,7 +322,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyjmij a = 3 i b = 2 — te liczby spełniają pierwszy warunek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.43,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q8",
@@ -327,7 +363,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Niech x, y — masy stopów w kg, x+y=8. Złoto w mieszance: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>10</mn></mfrac><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>16</mn></mfrac><mo>·</mo><mn>8</mn><mo>=</mo><mn>2,5</mn></math>. Stąd 4x+3y=25, a razem z x+y=8 daje x=1, y=7.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.84,
+    "procent": 82,
+    "procent_etap": 76
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q9",
@@ -366,7 +407,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz wierzchołki zacieniowanej figury (środek też nim jest) i użyj wzoru (n−2)·180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.3,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q10",
@@ -401,7 +447,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Nawias i ułamek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mn>0,12</mn><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mo>,</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>:</mo><mfrac><mn>32</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></math>. Całość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo><mo>:</mo><mn>0,5</mn><mo>=</mo><mn>0,45</mn></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.29,
+    "procent": 71,
+    "procent_etap": 64
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q11",
@@ -439,7 +490,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba uczniów musi być wielokrotnością 24 z podanego przedziału, a chłopcy to ¾ z niej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.95,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q12",
@@ -477,7 +533,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź wszystkie potęgi do wspólnego wykładnika i porównaj same podstawy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.48,
+    "procent": 64,
+    "procent_etap": 56
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q13",
@@ -514,7 +575,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Kąt JAB = 360°−120°−90° = 150° (120° to kąt sześciokąta, 90° kwadratu), więc do przedłużenia AB brakuje 30°. Odległość J od AB i od A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>sin</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>cos</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>. Tak samo G za B, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JG</mi><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.47,
+    "procent": 80,
+    "procent_etap": 73
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q14",
@@ -552,7 +618,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wypisz liczby dwucyfrowe o różnicy cyfr 4 — szukana musi dzielić się przez 7",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.01,
+    "procent": 30,
+    "procent_etap": 24
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q15",
@@ -592,7 +663,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "cztery odcięte trójkąty złóż w biały kwadrat — zacieniowana figura ma z nim równe pole",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.43,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q16",
@@ -636,6 +712,11 @@
      "inne:te-same-prostokaty"
     ],
     "opis": "Prostokąt a×b to ten sam co b×a; kwadrat też jest prostokątem"
+   },
+   "trudnosc": {
+    "logit": 1.21,
+    "procent": 61,
+    "procent_etap": 54
    }
   },
   {
@@ -678,7 +759,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z Pitagorasa wyznacz średnicę półkola, potem dodaj pole trójkąta i pole półkola",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.21,
+    "procent": 70,
+    "procent_etap": 63
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q18",
@@ -717,7 +803,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podnieś liczby do kwadratu (√11 daje 11), uśrednij i wyciągnij pierwiastek",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.96,
+    "procent": 22,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q19",
@@ -755,7 +846,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz liczby obrotów — wystarczy stosunek średnic, droga i π się skracają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q20",
@@ -791,6 +887,11 @@
      "jednostki"
     ],
     "opis": "Objętość wychodzi w cm³, a zdanie podaje dm³: przelicznik jednostek sześciennych to 1000, nie 10"
+   },
+   "trudnosc": {
+    "logit": -2.82,
+    "procent": 23,
+    "procent_etap": 18
    }
   },
   {
@@ -820,7 +921,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz wszystko na gramy soli, a w pierwszym zdaniu porównaj z 11% masy mieszaniny zamiast dzielić",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.06,
+    "procent": 60,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q22",
@@ -849,7 +955,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "mnóż kolejno przez 0,6; drugie zdanie sprawdzisz tym samym łańcuchem, startując ze 150 cm",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.74,
+    "procent": 66,
+    "procent_etap": 59
+   }
   },
   {
    "id": "wojewodzki_2020-2021_swietokrzyskie_q23",
@@ -892,6 +1003,11 @@
      "kalendarz-czas"
     ],
     "opis": "Zwiększenie o 125% a do 125%; +20% wydajności nie skraca czasu o 20%; rok to 365 dni, nie 12·30"
+   },
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 63,
+    "procent_etap": 56
    }
   },
   {
@@ -928,6 +1044,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dodanie po tyle samo kul białych i czerwonych nie zachowuje stosunku (to nie mnożenie)"
+   },
+   "trudnosc": {
+    "logit": -0.5,
+    "procent": 44,
+    "procent_etap": 36
    }
   }
  ]

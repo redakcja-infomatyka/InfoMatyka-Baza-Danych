@@ -8,6 +8,7 @@
  "liczba_zadan": 26,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020_podlaskie_q1",
@@ -48,7 +49,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trzy boki oznaczone a to trójkąt równoboczny — użyj wzoru na jego wysokość",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.57,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q2",
@@ -86,7 +92,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 2⅓ na ułamek niewłaściwy i podziel przez niego 70",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.29,
+    "procent": 20,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q3",
@@ -124,7 +135,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 4% na ułamek zwykły i skróć",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.42,
+    "procent": 19,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q4",
@@ -168,6 +184,11 @@
      "procent-podstawa"
     ],
     "opis": "Dwie kolejne obniżki procentowe nie sumują się; druga liczona od już obniżonej ceny"
+   },
+   "trudnosc": {
+    "logit": -4.5,
+    "procent": 11,
+    "procent_etap": 8
    }
   },
   {
@@ -215,6 +236,11 @@
      "inne:dane-mylace"
     ],
     "opis": "Podane są potęgi 15., a pytanie dotyczy wykładnika 16"
+   },
+   "trudnosc": {
+    "logit": -0.85,
+    "procent": 41,
+    "procent_etap": 34
    }
   },
   {
@@ -261,6 +287,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o sumę składników, a naturalnie wylicza się jeden ze składników"
+   },
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 60,
+    "procent_etap": 53
    }
   },
   {
@@ -307,6 +338,11 @@
      "inne:dwa-boki-kazdego-rodzaju"
     ],
     "opis": "Obwód równoległoboku zawiera każdy bok dwa razy"
+   },
+   "trudnosc": {
+    "logit": -3.67,
+    "procent": 17,
+    "procent_etap": 12
    }
   },
   {
@@ -345,7 +381,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyznacz m samodzielnie — najpierw podziel obie strony przez t",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.93,
+    "procent": 22,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q9",
@@ -386,7 +427,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "poprowadź rachunek przez dwa trójkąty — w każdym suma kątów to 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.2,
+    "procent": 51,
+    "procent_etap": 44
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q10",
@@ -431,6 +477,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Czy 1 jest liczbą pierwszą — łatwo doliczyć ją do liczb pierwszych"
+   },
+   "trudnosc": {
+    "logit": -4.64,
+    "procent": 11,
+    "procent_etap": 7
    }
   },
   {
@@ -471,7 +522,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z obwodu 12π odczytaj najpierw promień małego koła",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.19,
+    "procent": 8,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q12",
@@ -509,7 +565,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "we wzorze na objętość ostrosłupa stoi ⅓ — porównaj oba wzory",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.55,
+    "procent": 11,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q13",
@@ -544,7 +605,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Objętość czworościanu foremnego o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>2</mn></msqrt></mrow><mn>12</mn></mfrac></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math> cm daje to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>25,5</mn></mrow></math> cm³.</p><p>Jedna trzecia objętości sześcianu o tej krawędzi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>72</mn></mrow></math> cm³ — wartości różnią się, więc zdanie jest fałszywe.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.52,
+    "procent": 80,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q14",
@@ -582,7 +648,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw wyłącz czynniki przed pierwiastki w √18 i √12, dopiero potem usuwaj niewymierność",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.39,
+    "procent": 36,
+    "procent_etap": 29
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q15",
@@ -628,6 +699,11 @@
      "konwencja"
     ],
     "opis": "Notacja wykładnicza wymaga mnożnika od 1 do 10, a iloczyn daje 45·10^k"
+   },
+   "trudnosc": {
+    "logit": -4.48,
+    "procent": 12,
+    "procent_etap": 8
    }
   },
   {
@@ -668,7 +744,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przeciwprostokątną trójkąta ABC i porównaj ją z 13, żeby dostać skalę",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.37,
+    "procent": 19,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q17",
@@ -706,7 +787,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozwiń obie strony — składniki z x² się zredukują",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.87,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q18",
@@ -751,6 +837,11 @@
      "konwencja"
     ],
     "opis": "Czas w ułamku dziesiętnym godziny trzeba zamienić na minuty (0,6 h to nie 6 min)"
+   },
+   "trudnosc": {
+    "logit": -2.1,
+    "procent": 29,
+    "procent_etap": 23
    }
   },
   {
@@ -796,6 +887,11 @@
      "kwantyfikator"
     ],
     "opis": "Punkt wspólny trzech okręgów musi leżeć na wszystkich trzech, nie na dowolnej parze"
+   },
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -835,7 +931,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jakim procentem wszystkich kul są kule białe",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.86,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q21",
@@ -859,7 +960,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oznaczają długości przyprostokątnych, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> długość przeciwprostokątnej. Pola ćwierćkół zbudowanych na przyprostokątnych są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>b</mi><mn>2</mn></msup></mrow></math>, a pole ćwierćkoła na przeciwprostokątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>c</mi><mn>2</mn></msup></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msub><mi>P</mi><mn>3</mn></msub></mrow></math>, ponieważ na mocy twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></math>, co kończy dowód.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q22",
@@ -881,7 +987,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sól się nie zmienia — policz najpierw, ile jej gramów jest w całej mieszaninie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.5,
+    "procent": 80,
+    "procent_etap": 74
+   }
   },
   {
    "id": "wojewodzki_2020_podlaskie_q23",
@@ -904,7 +1015,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj pola — wysokość trapezu się skróci i zostanie sama długość EB",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.17,
+    "procent": 61,
+    "procent_etap": 53
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2022_podlaskie_q31",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2024-2025_zachodniopomorskie_q28",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2020_podlaskie_q24",
@@ -934,6 +1060,11 @@
      "procent-podstawa"
     ],
     "opis": "Pas wokół koła zmniejsza promień o swoją szerokość, a średnicę o dwie szerokości"
+   },
+   "trudnosc": {
+    "logit": 2.92,
+    "procent": 76,
+    "procent_etap": 69
    }
   },
   {
@@ -963,6 +1094,11 @@
      "konwencja"
     ],
     "opis": "Symetria względem osi x: ta sama pierwsza współrzędna, przeciwna druga — łatwo zamienić z osią y"
+   },
+   "trudnosc": {
+    "logit": 3.99,
+    "procent": 83,
+    "procent_etap": 77
    }
   },
   {
@@ -983,7 +1119,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Płaszczyzna cięcia przechodzi przez przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> podstawy i środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> krawędzi bocznej. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></mrow></math> cm, więc wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDK</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SK</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDK</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>BDK</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>6</mn></msqrt></mrow></math> cm². Pola pozostałych ścian: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>ABD</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn></mrow></math> cm², dwa trapezy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>BKGF</mi></mrow></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>DKGH</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>·</mo><mn>6</mn><mo>=</mo><mn>27</mn></mrow></math> cm² oraz trzy kwadraty o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math> cm². Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>36</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>27</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>9</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>180</mn><mo>+</mo><mn>9</mn><msqrt><mn>6</mn></msqrt></mrow></math> cm².</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 9.12,
+    "procent": 100,
+    "procent_etap": 99
+   }
   }
  ]
 }

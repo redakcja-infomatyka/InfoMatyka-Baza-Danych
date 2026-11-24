@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 36,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016-2017_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2016-2017_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q1",
@@ -44,7 +45,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole to dwa kwadraty 5×5 plus cztery ściany boczne o wysokości równej liczbie klocków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.95,
+    "procent": 30,
+    "procent_etap": 24
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2022-2023_zachodniopomorskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q2",
@@ -81,7 +93,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, o ile stopni przesuwa się wskazówka w ciągu jednej minuty",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.41,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q3",
@@ -125,6 +142,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podzielność przez 12 to przez 3 i przez 4; sprawdzanie przez 2 i 6 nie wystarcza"
+   },
+   "trudnosc": {
+    "logit": 1.72,
+    "procent": 66,
+    "procent_etap": 58
    }
   },
   {
@@ -162,7 +184,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź po kolei, ile osi symetrii ma każda z wymienionych figur",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.48,
+    "procent": 26,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q5",
@@ -199,7 +226,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinaj po kolei największy kwadrat i patrz, jaki prostokąt zostaje",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.92,
+    "procent": 15,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q6",
@@ -244,6 +276,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Skala dotyczy długości, a objętość zmienia się z sześcianem skali"
+   },
+   "trudnosc": {
+    "logit": -2.73,
+    "procent": 24,
+    "procent_etap": 19
    }
   },
   {
@@ -282,7 +319,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień litr na sześcienną jednostkę długości i odczytaj krawędź",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.22,
+    "procent": 4,
+    "procent_etap": 3
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q8",
@@ -319,7 +361,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw zamień na ułamek niewłaściwy, potem odwróć i zmień znak",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.46,
+    "procent": 18,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2020-2021_warminsko-mazurskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q9",
@@ -357,7 +410,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "do każdego zdania spróbuj znaleźć kontrprzykład",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.23,
+    "procent": 20,
+    "procent_etap": 16
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q10",
@@ -401,7 +459,22 @@
      "procent-podstawa"
     ],
     "opis": "Dwie piąte to część wody początkowej, a nie tej, która została"
-   }
+   },
+   "trudnosc": {
+    "logit": -6.11,
+    "procent": 5,
+    "procent_etap": 3
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2012_podlaskie_sp_q6",
+     "rodzaj": "to_samo"
+    },
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q32",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q11",
@@ -438,7 +511,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, ile w ogóle jest różnych liczb jednocyfrowych większych od zera",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.23,
+    "procent": 8,
+    "procent_etap": 5
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024-2025_zachodniopomorskie_q6",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q12",
@@ -475,7 +559,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż 29 na dziesiątki i jedności i zapisz każdą część po rzymsku",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.44,
+    "procent": 4,
+    "procent_etap": 2
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q13",
@@ -512,7 +601,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie licz potęgi — wystarczy ostatnia cyfra podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.31,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q14",
@@ -556,6 +650,11 @@
      "procent-podstawa"
     ],
     "opis": "20% liczy się od starej ceny, a nie od ceny po obniżce"
+   },
+   "trudnosc": {
+    "logit": -5.47,
+    "procent": 7,
+    "procent_etap": 5
    }
   },
   {
@@ -600,6 +699,11 @@
      "plot-i-slupki"
     ],
     "opis": "Między pięcioma lekcjami są tylko cztery przerwy"
+   },
+   "trudnosc": {
+    "logit": -0.02,
+    "procent": 49,
+    "procent_etap": 42
    }
   },
   {
@@ -628,6 +732,11 @@
      "inne:intuicyjna-odpowiedz"
     ],
     "opis": "Odpowiedź, która od razu przychodzi do głowy, nie spełnia warunku różnicy cen"
+   },
+   "trudnosc": {
+    "logit": -4.38,
+    "procent": 12,
+    "procent_etap": 9
    }
   },
   {
@@ -654,6 +763,11 @@
      "zaokraglenie"
     ],
     "opis": "Liczba puszek musi być zaokrąglona w górę, nie do najbliższej całości"
+   },
+   "trudnosc": {
+    "logit": 5.06,
+    "procent": 89,
+    "procent_etap": 85
    }
   },
   {
@@ -681,6 +795,11 @@
      "inne:liczebnosc-grupy"
     ],
     "opis": "Bliźniaczki to dwie osoby, więc w rodzinie bez dziadka jest pięć osób, nie cztery"
+   },
+   "trudnosc": {
+    "logit": -1.63,
+    "procent": 34,
+    "procent_etap": 27
    }
   },
   {
@@ -703,7 +822,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pięcioro pozostałych to reszta po 1/4 i 2/3 — a na końcu licz pokoje, nie osoby",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.45,
+    "procent": 54,
+    "procent_etap": 46
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_podlaskie_q20",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2016-2017_warminsko-mazurskie_q20",
@@ -730,6 +860,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Trójkąt równoboczny na boku kwadratu może leżeć na zewnątrz albo wewnątrz kwadratu: są dwa rysunki"
+   },
+   "trudnosc": {
+    "logit": 5.13,
+    "procent": 90,
+    "procent_etap": 86
    }
   }
  ]

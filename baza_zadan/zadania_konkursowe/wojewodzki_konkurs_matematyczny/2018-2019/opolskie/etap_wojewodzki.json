@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2019_opolskie.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2019_opolskie_q1",
@@ -42,7 +43,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sparuj kolejne wyrazy od początku — jeden zostanie bez pary",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q2",
@@ -85,6 +91,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Suma dwóch równych potęg to podwojenie, a nie dodanie wykładników"
+   },
+   "trudnosc": {
+    "logit": 0.26,
+    "procent": 52,
+    "procent_etap": 44
    }
   },
   {
@@ -119,7 +130,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "skorzystaj ze wzoru n(n−3)/2 na liczbę przekątnych",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.62,
+    "procent": 56,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q4",
@@ -161,6 +177,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Najdłuższy odcinek w graniastosłupie to przekątna bryły, a nie najdłuższa przekątna podstawy"
+   },
+   "trudnosc": {
+    "logit": 4.4,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -200,6 +221,11 @@
      "plot-i-slupki"
     ],
     "opis": "Pozycja cyfry w ciągu 123456789101112…: pomyłka o jeden przy numerze liczby, na której wypada miejsce"
+   },
+   "trudnosc": {
+    "logit": 5.77,
+    "procent": 92,
+    "procent_etap": 89
    }
   },
   {
@@ -223,7 +249,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "czasy jazdy mają się jak 75 : 68, więc różnica to 7 równych części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.88,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q7",
@@ -244,7 +275,12 @@
     "rozwiazanie_html": "<p>Liczbę dwucyfrową o cyfrze dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i cyfrze jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> zapisujemy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>. Po wstawieniu cyfry 3 po środku powstaje liczba trzycyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>a</mi><mo>+</mo><mn>30</mn><mo>+</mo><mi>b</mi></mrow></math>. Odejmujemy od niej wyjściową liczbę dwucyfrową:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>100</mn><mi>a</mi><mo>+</mo><mn>30</mn><mo>+</mo><mi>b</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>90</mn><mi>a</mi><mo>+</mo><mn>30</mn><mo>=</mo><mn>30</mn><mo>(</mo><mn>3</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math></p><p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>(</mo><mn>3</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>6</mn><mo>·</mo><mn>5</mn><mo>(</mo><mn>3</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math> jest podzielna przez 6, co należało wykazać.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>uzasadni podzielność przez 6 – 5p</li><li>zapisze różnicę liczb – 3p</li><li>zapisze liczbę trzycyfrową – 2p</li><li>zapisze liczbę dwucyfrową – 1p</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q8",
@@ -267,7 +303,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "sól nie odparowuje — jej masa zostaje ta sama, zmienia się tylko masa roztworu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.33,
+    "procent": 36,
+    "procent_etap": 30
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q9",
@@ -287,7 +328,12 @@
     "rozwiazanie_html": "<p>Pole czworokąta o wierzchołkach kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi></mrow></math> obliczamy wzorem „sznurowadłowym\":</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mrow><msub><mi>x</mi><mi>A</mi></msub><msub><mi>y</mi><mi>B</mi></msub><mo>−</mo><msub><mi>x</mi><mi>B</mi></msub><msub><mi>y</mi><mi>A</mi></msub><mo>+</mo><msub><mi>x</mi><mi>B</mi></msub><msub><mi>y</mi><mi>C</mi></msub><mo>−</mo><msub><mi>x</mi><mi>C</mi></msub><msub><mi>y</mi><mi>B</mi></msub><mo>+</mo><msub><mi>x</mi><mi>C</mi></msub><msub><mi>y</mi><mi>D</mi></msub><mo>−</mo><msub><mi>x</mi><mi>D</mi></msub><msub><mi>y</mi><mi>C</mi></msub><mo>+</mo><msub><mi>x</mi><mi>D</mi></msub><msub><mi>y</mi><mi>A</mi></msub><mo>−</mo><msub><mi>x</mi><mi>A</mi></msub><msub><mi>y</mi><mi>D</mi></msub></mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math></p><p>Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mrow><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>0</mn><mo>)</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>0</mn><mo>)</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>3</mn><mo>)</mo></mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>6</mn><mo>−</mo><mn>0</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>9</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>21</mn><mn>2</mn></mfrac><mo>=</mo><mn>10,5</mn></mrow></math>. Pole czworokąta wynosi <strong>10,5</strong> jednostki kwadratowej.</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole czworokąta (10,5) – 5p</li><li>poprawny sposób z błędem rachunkowym – 4p</li><li>wykona rysunek, z którego wynika sposób obliczenia pola – 2p</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.45,
+    "procent": 86,
+    "procent_etap": 81
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q10",
@@ -311,7 +357,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień ary na m², potem szukaj dwóch liczb różniących się o 2 w okolicy pierwiastka z pola",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.74,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2019_opolskie_q11",
@@ -333,7 +384,12 @@
     "rozwiazanie_html": "<p>Oznaczmy trapez równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> z dłuższą podstawą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> o długości 12 cm tworzy z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> kąt prosty, a kąt ostry przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>) mamy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mfrac><mi>AC</mi><mrow><mi>sin</mi><mn>60</mn><mo>°</mo></mrow></mfrac><mo>=</mo><mfrac><mn>12</mn><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mfrac><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> (dłuższa podstawa), a ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BC</mi><mo>=</mo><mi>AB</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>Wysokość trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mi>BC</mi><mo>·</mo><mi>sin</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math> cm, a rzut ramienia na podstawę to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BC</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Krótsza podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CD</mi><mo>=</mo><mi>AB</mi><mo>−</mo><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>AB</mi><mo>+</mo><mi>CD</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>",
     "punktacja_html": "<p>Uczeń:</p><ul><li>obliczy pole trapezu (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm²) – 5p</li><li>poprawny sposób z drobnym błędem rachunkowym – 4p</li><li>wyznaczy krótszą podstawę – 3p</li><li>wyznaczy wysokość – 2p</li><li>wyznaczy ramię i dłuższą podstawę – 1p</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 4.25,
+    "procent": 85,
+    "procent_etap": 79
+   }
   }
  ]
 }

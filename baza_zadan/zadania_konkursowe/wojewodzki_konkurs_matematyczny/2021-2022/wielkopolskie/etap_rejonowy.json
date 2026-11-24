@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_wielkopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2021-2022_wielkopolskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q1",
@@ -51,6 +52,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kwadrat wyrażenia, a wśród wariantów stoi sama wartość wyrażenia przed podniesieniem do kwadratu"
+   },
+   "trudnosc": {
+    "logit": -1.48,
+    "procent": 35,
+    "procent_etap": 36
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "w iloczynie siedzi wzór (a−b)(a+b), więc pierwiastki się zniosą",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.58,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q3",
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zauważ, że 7 odpowiada różnicy 14% i 9% tej liczby",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.85,
+    "procent": 6,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q4",
@@ -173,7 +189,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "16 razy większe pole nie oznacza 16 razy dłuższego obwodu; obwód rośnie jak bok"
-   }
+   },
+   "trudnosc": {
+    "logit": -1.84,
+    "procent": 32,
+    "procent_etap": 33
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2020-2021_pomorskie_q5",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q5",
@@ -211,7 +238,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wyłącz przed nawias najniższą potęgę trójki i zobacz, co zostaje w nawiasie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.09,
+    "procent": 21,
+    "procent_etap": 23
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q6",
@@ -254,7 +286,18 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Połowa łącznego czasu to tylko dolne ograniczenie; trzeba sprawdzić, czy da się podzielić osoby po równo"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.91,
+    "procent": 76,
+    "procent_etap": 77
+   },
+   "podobne": [
+    {
+     "id": "wojewodzki_2018-2019_malopolskie_q12",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q7",
@@ -293,7 +336,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przypomnij sobie, ile w sześciokącie foremnym o boku a wynosi krótsza, a ile dłuższa przekątna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.78,
+    "procent": 41,
+    "procent_etap": 43
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q8",
@@ -337,6 +385,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczb dwucyfrowych jest 90, a nie 89 (od 10 do 99 włącznie)"
+   },
+   "trudnosc": {
+    "logit": -3.51,
+    "procent": 18,
+    "procent_etap": 19
    }
   },
   {
@@ -372,7 +425,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Mnożymy równanie przez 15: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>30</mn><mo>−</mo><mn>5</mn><mo>(</mo><mn>4</mn><mo>−</mo><mn>8</mn><mi>x</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>10</mn><mo>+</mo><mn>40</mn><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p><p>Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, odwrotna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn></math>, ich suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math> — odpowiedź B.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.77,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q10",
@@ -409,7 +467,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "uczniów uprawiających oba sporty policz tylko raz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.82,
+    "procent": 23,
+    "procent_etap": 25
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q11",
@@ -447,7 +510,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica 15 cm to 5 części stosunku 2:7",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.18,
+    "procent": 29,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q12",
@@ -484,7 +552,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumę wieku ośmiu i siedmiu muzyków",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.45,
+    "procent": 18,
+    "procent_etap": 20
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2024_lubuskie_q17",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q13",
@@ -523,7 +602,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "za niewiadomą przyjmij od razu cenę gruszek — kilogram jabłek jest wtedy o 2 zł tańszy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 3.12,
+    "procent": 77,
+    "procent_etap": 79
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q14",
@@ -571,6 +655,11 @@
      "rysunek"
     ],
     "opis": "Zaznaczony kąt leży między przedłużeniem przekątnej BD a ramieniem, a nie wewnątrz trójkąta ABD"
+   },
+   "trudnosc": {
+    "logit": -0.01,
+    "procent": 49,
+    "procent_etap": 51
    }
   },
   {
@@ -609,7 +698,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica mas to masa połowy wody",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.81,
+    "procent": 10,
+    "procent_etap": 12
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q16",
@@ -647,7 +741,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 0,6 m³ na litry i policz, ile wpływa w ciągu minuty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.29,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q17",
@@ -689,6 +788,11 @@
      "procent-podstawa"
     ],
     "opis": "Udziały 33% i 22% całości różnią się o 11 punktów procentowych, a o ile procent względem Kasi?"
+   },
+   "trudnosc": {
+    "logit": 1.59,
+    "procent": 65,
+    "procent_etap": 66
    }
   },
   {
@@ -729,6 +833,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wysokość wyznacza tylko sumę podstaw i pole, a nie same podstawy"
+   },
+   "trudnosc": {
+    "logit": 6.0,
+    "procent": 93,
+    "procent_etap": 94
    }
   },
   {
@@ -771,6 +880,11 @@
      "inne:boki-30-60-90"
     ],
     "opis": "Przy C jest kąt 60°, więc CK to krótsza przyprostokątna; łatwo zamienić boki trójkąta 30-60-90"
+   },
+   "trudnosc": {
+    "logit": 6.34,
+    "procent": 94,
+    "procent_etap": 95
    }
   },
   {
@@ -798,6 +912,11 @@
      "szczegol-bryly"
     ],
     "opis": "Prostopadłościan ma 12 krawędzi, po 4 każdej długości; suma krawędzi to nie a+b+c"
+   },
+   "trudnosc": {
+    "logit": -1.37,
+    "procent": 36,
+    "procent_etap": 37
    }
   },
   {
@@ -818,7 +937,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie cyfrą dziesiątek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> cyfrą jedności dowolnej liczby dwucyfrowej dodatniej. Wtedy liczba ta ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></math>, a suma jej cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi></math>. Różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>9</mn><mi>x</mi></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi></math> jest wielokrotnością 9, co kończy dowód.</p>",
     "punktacja_html": "<ul><li>2 punkty – gdy:<ul><li>gdy poprawnie uzasadni, że różnica jest wielokrotnością liczby 9 lub</li><li>gdy obliczy wszystkie różnice dla 90 liczb całkowitych dodatnich i pokaże, że otrzymane różnice są zawsze wielokrotnością 9.</li></ul><p><strong>Uwaga:</strong> Uczeń w rozumowaniu może tylko zapisać, np., że x jest cyfrą dziesiątek a y cyfrą jedności, nie musi podawać zbiorów do których należą x i y.</p></li><li>1 punkt – gdy:<ul><li>gdy zapisze różnicę dowolnej liczby dwucyfrowej i sumy jej cyfr np. w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo></math> i na tym zakończy lub dalej popełni błędy lub</li><li>gdy zapisze różnicę dowolnej liczby dwucyfrowej i sumy jej cyfr z błędem np. w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mi>x</mi><mo>+</mo><mi>y</mi></math></li><li>gdy zapisze symboliczne dowolną liczbę dwucyfrową dodatnią np. w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></math> i na tym zakończy lub dalej popełni błędy.</li></ul></li><li>0 punktów – gdy:<ul><li>rozwiązanie błędne, brak rozwiązania, bądź dowód na konkretnym przykładzie.</li></ul></li></ul><p><strong>Uwagi:</strong></p><ul><li>W rozwiązaniu zadania uczestnik może pominąć zapis do jakiego zbioru należy cyfra dziesiątek, a do jakiego zbioru należy cyfra jedności dowolnej liczby dwucyfrowej, ale powinien zapisać, że są to cyfry.</li><li>Jeśli uczestnik zapisze dowolną liczbę dwucyfrową dodatnią w postaci np. 10x + y i nie poda żadnych warunków dotyczących zmiennej x i y to uczestnik za zadanie może otrzymać maksymalnie 1 p.</li></ul>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.25,
+    "procent": 28,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q22",
@@ -840,7 +964,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość przeciwprostokątnej. Wtedy jedna przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>1</mn></math>, a druga 5 cm. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>13</mn></math>. Przyprostokątne mają długości 12 cm i 5 cm, więc pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>12</mn><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></math> cm².</p>",
     "punktacja_html": "<p><em>Zasady oceniania rozwiązania 1 metodą:</em></p><ul><li>3 punkty – gdy:<ul><li>poprawnie rozwiąże zadanie i wyznaczy, że przeciwprostokątna tego trójkąta jest równa 13 cm, a pole tego trójkąta wynosi 30 cm² lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i pole tego trójkąta wynosi 30 cm². ale sprawdzi, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>2 punkty – gdy:<ul><li>rozwiązując równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> poprawnie wyznaczy długość przeciwprostokątnej i na tym zakończy lub dalej popełni błędy lub</li><li>rozwiązując równanie postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> popełni błędy rachunkowe przy wyznaczaniu x, ale otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>1</mn></math> i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i nie poda ile wynosi pole trójkąta, ale sprawdzi, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>1 punkt – gdy:<ul><li>poprawnie ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math> na tym zakończy lub dalej popełni błędy (np. otrzyma x &lt; 1 lub niepoprawnie wyznaczy wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i pole tego trójkąta wynosi 30 cm², ale <strong>nie sprawdzi</strong>, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>0 punktów – gdy:<ul><li>rozwiązanie błędne, brak rozwiązania.</li></ul></li></ul><p><em>Zasady oceniania rozwiązania 2 metodą:</em></p><ul><li>3 punkty – gdy:<ul><li>poprawnie rozwiąże zadanie i wyznaczy, że przeciwprostokątna tego trójkąta jest równa 13 cm, a pole tego trójkąta wynosi 30 cm² lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i pole tego trójkąta wynosi 30 cm². ale sprawdzi, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>2 punkty – gdy:<ul><li>rozwiązując równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> poprawnie wyznaczy długość drugiej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>12</mn></math> cm i obliczy Pole trójkąta równe 30 cm² lub</li><li>rozwiązując równanie postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></math> popełni błędy rachunkowe przy wyznaczaniu x, ale otrzyma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>0</mn></math> i konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i nie poda ile wynosi pole trójkąta, ale sprawdzi, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>1 punkt – gdy:<ul><li>poprawnie ułoży równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> na tym zakończy lub dalej popełni błędy (np. otrzyma x &lt; 0 lub niepoprawnie wyznaczy wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> lub</li><li>poda odpowiedź, że przeciwprostokątna tego trójkąta jest równa 13 cm i pole tego trójkąta wynosi 30 cm², ale <strong>nie sprawdzi</strong>, że otrzymane długości boków spełniają wszystkie warunki zadania i Twierdzenie Pitagorasa.</li></ul></li><li>0 punktów – gdy:<ul><li>rozwiązanie błędne, brak rozwiązania.</li></ul></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.47,
+    "procent": 35,
+    "procent_etap": 36
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q23",
@@ -859,7 +988,12 @@
     "rozwiazanie_html": "<p>Pierwsze równanie mnożymy przez 6: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>18</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mn>22</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>5,5</mn></math>. Drugie równanie mnożymy przez 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mi>x</mi><mo>−</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>15</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>6</mn><mi>y</mi><mo>=</mo><mn>13</mn></math>. Odejmując równania, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>y</mi><mo>=</mo><mo>−</mo><mn>7,5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>.</p>",
     "punktacja_html": "<ul><li>3 punkty – gdy:<ul><li>poprawnie rozwiąże zadanie i wyznaczy, że rozwiązaniem układu równań jest para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>x</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></mtd></mtr></mtable></mrow></math> lub</li><li>poda odpowiedź, że rozwiązaniem układu równań jest para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>x</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></mtd></mtr></mtable></mrow></math>, ale sprawdzi wykonując obliczenia, że para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>x</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></mtd></mtr></mtable></mrow></math> spełnia oba równania układu równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mfrac><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mi>x</mi></mrow><mn>6</mn></mfrac><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mn>2</mn><mo>+</mo><mi>x</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>5</mn></mtd></mtr></mtable></mrow></math>.</li></ul></li><li>2 punkty – gdy:<ul><li>rozwiązując układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mfrac><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mi>x</mi></mrow><mn>6</mn></mfrac><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mn>2</mn><mo>+</mo><mi>x</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>5</mn></mtd></mtr></mtable></mrow></math> poprawnie wyznaczy wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math> i na tym zakończy lub dalej popełni błędy lub</li><li>rozwiązując układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mfrac><mrow><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mfrac><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mi>x</mi></mrow><mn>6</mn></mfrac><mo>=</mo><mn>3</mn></mtd></mtr><mtr><mtd><mfrac><mrow><mn>2</mn><mo>+</mo><mi>x</mi></mrow><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>5</mn></mtd></mtr></mtable></mrow></math> poprawnie wyznaczy wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></math> i na tym zakończy lub dalej popełni błędy lub</li><li>doprowadzi układ równań do poprawnego równania linowego z jedną niewiadomą x i wyznaczy z błędem rachunkowym x, ale konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie lub</li><li>doprowadzi układ równań do poprawnego równania linowego z jedną niewiadomą y i wyznaczy z błędem rachunkowym y, ale konsekwentnie do popełnionego błędu rozwiąże zadanie do końca bezbłędnie.</li></ul></li><li>1 punkt – gdy:<ul><li>doprowadzi układ równań do poprawnego równania linowego z jedną niewiadomą x i na tym zakończy lub dalej popełni błędy lub</li><li>doprowadzi układ równań do poprawnego równania linowego z jedną niewiadomą x i na tym zakończy lub dalej popełni błędy lub</li><li>poda odpowiedź, że rozwiązaniem układu równań jest para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mi>x</mi><mo>=</mo><mn>4</mn></mtd></mtr><mtr><mtd><mi>y</mi><mo>=</mo><mo>−</mo><mn>1,5</mn></mtd></mtr></mtable></mrow></math>, ale <strong>nie wykona sprawdzenia</strong>.</li></ul></li><li>0 punktów – gdy:<ul><li>rozwiązanie błędne, brak rozwiązania.</li></ul></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.88,
+    "procent": 68,
+    "procent_etap": 69
+   }
   },
   {
    "id": "rejonowy_2021-2022_wielkopolskie_q24",
@@ -891,6 +1025,11 @@
      "rysunek"
     ],
     "opis": "Wysokość trójkąta ABF opada na AB ukośnie, nie jest krawędzią boczną ani wysokością graniastosłupa"
+   },
+   "trudnosc": {
+    "logit": 6.59,
+    "procent": 95,
+    "procent_etap": 96
    }
   }
  ]

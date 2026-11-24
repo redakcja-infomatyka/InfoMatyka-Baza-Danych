@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2015-2016_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2015-2016_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2015-2016_slaskie_q1",
@@ -29,7 +30,12 @@
     "rozwiazanie_html": "<p>Uzupełniony diagram (w nawiasach wartości w systemie dziesiętnym):</p><ul><li>Wiersz 1: IV + VII − IX = II (4 + 7 − 9 = 2)</li><li>Wiersz 3: IX − II + XIX = XXVI (9 − 2 + 19 = 26)</li><li>Wiersz 5: XII + XIX − VI = XXV (12 + 19 − 6 = 25)</li><li>Wiersz 7: I + XXIV − XXII = III (1 + 24 − 22 = 3)</li></ul><p>Sprawdzenie kolumn: IV + IX − XII = I (4 + 9 − 12 = 1); VII − II + XIX = XXIV (7 − 2 + 19 = 24); IX + XIX − VI = XXII (9 + 19 − 6 = 22); II + XXVI − XXV = III (2 + 26 − 25 = 3).</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za każde poprawnie uzupełnione pole w systemie rzymskim (7 pól). Za zapisanie poprawnie 5 lub 6 pól tylko w systemie dziesiętnym — 2 pkt, za 3 lub 4 pola — 1 pkt.</p>"
    },
-   "czas_min": 20
+   "czas_min": 20,
+   "trudnosc": {
+    "logit": 4.11,
+    "procent": 84,
+    "procent_etap": 90
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>1</mn></mrow></math>.</p><p>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>200</mn><mo>−</mo><mn>40</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>800</mn></mrow></math>.</p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>]</mo><mo>=</mo><mn>100</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Punktacja: 3 pkt za poprawne nawiasy we wszystkich wyrażeniach, 2 pkt za dwa wyrażenia, 1 pkt za jedno.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.48,
+    "procent": 80,
+    "procent_etap": 87
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q3",
@@ -85,7 +96,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ułóż równanie 6/b = 4/(b−3)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.69,
+    "procent": 16,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q4",
@@ -130,6 +146,11 @@
      "o-co-pytaja"
     ],
     "opis": "Naturalny rachunek (21−3):2 daje liczbę chłopców, a pytają o dziewczęta"
+   },
+   "trudnosc": {
+    "logit": -7.92,
+    "procent": 1,
+    "procent_etap": 1
    }
   },
   {
@@ -167,7 +188,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie potęguj — o cyfrze jedności decyduje tylko cyfra jedności podstawy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.37,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q6",
@@ -205,7 +231,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj pole dużego trójkąta z polem małego",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.7,
+    "procent": 3,
+    "procent_etap": 3
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q7",
@@ -242,7 +273,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 378 przez 7, potem pomnóż przez 9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.3,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q8",
@@ -280,7 +316,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba zawodników bez tej jednej osoby dzieli się i przez 4, i przez 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.82,
+    "procent": 16,
+    "procent_etap": 18
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q9",
@@ -319,7 +360,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź β i γ przez α i skorzystaj z sumy kątów 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.33,
+    "procent": 19,
+    "procent_etap": 23
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q10",
@@ -364,6 +410,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o różnicę długości części, nie o długość dłuższej części"
+   },
+   "trudnosc": {
+    "logit": -5.86,
+    "procent": 6,
+    "procent_etap": 6
    }
   },
   {
@@ -402,7 +453,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "do każdej pary dolicz trzeci kąt i sprawdź, czy któryś wychodzi rozwarty",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.6,
+    "procent": 34,
+    "procent_etap": 40
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q12",
@@ -447,6 +503,11 @@
      "plot-i-slupki"
     ],
     "opis": "Lipiec ma 31 dni; noce to nie dni pobytu (liczenie włącznie)"
+   },
+   "trudnosc": {
+    "logit": 0.24,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -484,7 +545,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każda para punktów wyznacza jedną cięciwę — policz pary",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.47,
+    "procent": 12,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q14",
@@ -528,7 +594,18 @@
      "inne:interpretacja-ruchu"
     ],
     "opis": "Spadek 5 m liczony od szczytu odbicia, a nie od trampoliny"
-   }
+   },
+   "trudnosc": {
+    "logit": -0.12,
+    "procent": 48,
+    "procent_etap": 55
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2018-2019_malopolskie_q4",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2015-2016_slaskie_q15",
@@ -573,6 +650,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wskazówka godzinowa o 16:12 nie stoi dokładnie na 4, przesunęła się"
+   },
+   "trudnosc": {
+    "logit": 1.07,
+    "procent": 60,
+    "procent_etap": 66
    }
   },
   {
@@ -628,6 +710,11 @@
      "zbior-liczb"
     ],
     "opis": "Zdanie 6: zapomniana pierwsza liczba 2 (jedyna parzysta pierwsza)"
+   },
+   "trudnosc": {
+    "logit": 4.53,
+    "procent": 87,
+    "procent_etap": 92
    }
   },
   {
@@ -667,6 +754,11 @@
      "warunek-istnienia"
     ],
     "opis": "Zdanie 3: kupuje się całe butelki, nie da się płacić stawki za litr"
+   },
+   "trudnosc": {
+    "logit": 2.71,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -706,7 +798,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wysokość 6 cm to jednocześnie bok kwadratu i obie przyprostokątne trójkąta",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.38,
+    "procent": 53,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q19",
@@ -728,7 +825,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij ważenia — masa słoja się skróci i zostanie sam miód",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.17,
+    "procent": 51,
+    "procent_etap": 58
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q20",
@@ -747,7 +849,12 @@
     "rozwiazanie_html": "<p>Liczba klocków w pierwszym zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>15</mn></mfrac><mo>·</mo><mn>270</mn><mo>=</mo><mn>144</mn></mrow></math>. Liczba klocków w drugim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mo>(</mo><mn>270</mn><mo>−</mo><mn>144</mn><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>108</mn></mrow></math>. Liczba klocków w trzecim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>270</mn><mo>−</mo><mo>(</mo><mn>144</mn><mo>+</mo><mn>108</mn><mo>)</mo><mo>=</mo><mn>18</mn></mrow></math> (lub od razu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>18</mn></mrow></math>).</p>",
     "punktacja_html": "<p>Punktacja: po 1 pkt za obliczenie liczby klocków w pierwszym, drugim i trzecim zestawie.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.96,
+    "procent": 30,
+    "procent_etap": 36
+   }
   },
   {
    "id": "szkolny_2015-2016_slaskie_q21",
@@ -776,6 +883,11 @@
      "o-co-pytaja"
     ],
     "opis": "Przyrost obwodu rozkłada się na dwa boki; dłuższym można zrobić każdy z dwóch boków"
+   },
+   "trudnosc": {
+    "logit": 1.87,
+    "procent": 68,
+    "procent_etap": 74
    }
   },
   {
@@ -804,6 +916,11 @@
      "jednostki"
     ],
     "opis": "Długość na planie w dm, a w terenie w km; skalę liczy się w tej samej jednostce"
+   },
+   "trudnosc": {
+    "logit": 1.73,
+    "procent": 66,
+    "procent_etap": 73
    }
   }
  ]

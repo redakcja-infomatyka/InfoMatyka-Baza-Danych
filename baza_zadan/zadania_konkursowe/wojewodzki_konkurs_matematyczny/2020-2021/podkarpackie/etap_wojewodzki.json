@@ -8,6 +8,7 @@
  "liczba_zadan": 19,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2021_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2021_podkarpackie_q1",
@@ -55,6 +56,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o odwrotność ułamka piętrowego, a wśród wariantów jest sama jego wartość"
+   },
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 13
    }
   },
   {
@@ -96,7 +102,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "nie podnoś do kwadratu — to różnica kwadratów, czyli (a−b)(a+b)",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.47,
+    "procent": 12,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q3",
@@ -138,7 +149,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ustal znaki pod modułami: √7 leży między 2 a 3, a 2√7 to √28",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.12,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q4",
@@ -186,6 +202,11 @@
      "konwencja"
     ],
     "opis": "Liczba cyfr: dzielenie przez 999 ≈ przez 1000 zabiera trzy cyfry, ale z ilu cyfr startujemy?"
+   },
+   "trudnosc": {
+    "logit": 3.36,
+    "procent": 79,
+    "procent_etap": 72
    }
   },
   {
@@ -227,7 +248,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "środek to średnia współrzędnych — odbij punkt C względem A",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.74,
+    "procent": 24,
+    "procent_etap": 19
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019_podlaskie_q18",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q6",
@@ -269,7 +301,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyprostokątne to już dwie wysokości; trzecią wyznacz z pola liczonego na dwa sposoby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.32,
+    "procent": 46,
+    "procent_etap": 39
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q7",
@@ -310,7 +347,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj sumę wieku całej jedenastki z sumą wieku dziesiątki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.57,
+    "procent": 17,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q8",
@@ -359,6 +401,11 @@
      "jednostki"
     ],
     "opis": "Pole trójkąta w dm², długość boku w cm — przelicznik pola to 100, nie 10"
+   },
+   "trudnosc": {
+    "logit": -0.47,
+    "procent": 44,
+    "procent_etap": 37
    }
   },
   {
@@ -408,7 +455,18 @@
      "procent-podstawa"
     ],
     "opis": "„Zwiększono o 200%” to nie podwojenie boku — wzrost o 200% liczy się od starej długości"
-   }
+   },
+   "trudnosc": {
+    "logit": 0.6,
+    "procent": 55,
+    "procent_etap": 48
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2022_lodzkie_q12",
+     "rodzaj": "wariant"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q10",
@@ -449,7 +507,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kwadrat różnicy: a² − 2ab + b²",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.21,
+    "procent": 13,
+    "procent_etap": 9
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q11",
@@ -471,7 +534,12 @@
     "rozwiazanie_html": "<p>Sprowadzamy wszystkie potęgi do podstawy 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>9</mn><mn>40</mn></msup><mo>+</mo><msup><mn>27</mn><mn>27</mn></msup><mo>−</mo><msup><mn>81</mn><mn>20</mn></msup><mo>=</mo><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>3</mn><mn>80</mn></msup><mo>+</mo><msup><mn>3</mn><mn>81</mn></msup><mo>−</mo><msup><mn>3</mn><mn>80</mn></msup><mo>=</mo><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>3</mn><mn>81</mn></msup></mrow></math>. Wyłączamy przed nawias <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>79</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>79</mn></msup><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>10</mn><mo>·</mo><msup><mn>3</mn><mn>79</mn></msup><mo>=</mo><mn>30</mn><mo>·</mo><msup><mn>3</mn><mn>78</mn></msup></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>·</mo><msup><mn>3</mn><mn>78</mn></msup></mrow></math> jest podzielna przez 30.</p>",
     "punktacja_html": "<ul><li>1 pkt – zapisanie podanej liczby w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>3</mn><mn>80</mn></msup><mo>+</mo><msup><mn>3</mn><mn>81</mn></msup><mo>−</mo><msup><mn>3</mn><mn>80</mn></msup></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>3</mn><mn>81</mn></msup></mrow></math></li><li>2 pkt – poprawne wyłączenie przed nawias czynnika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>79</mn></msup></math></li><li>3 pkt – zapisanie podanej liczby jako: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>·</mo><msup><mn>3</mn><mn>78</mn></msup></mrow></math></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.13,
+    "procent": 51,
+    "procent_etap": 43
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q12",
@@ -493,7 +561,12 @@
     "rozwiazanie_html": "<p>Kolejne trójki składników grupujemy i wyłączamy wspólny czynnik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>8</mn><mo>·</mo><mn>73</mn></mrow></math>, następnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><msup><mn>8</mn><mn>5</mn></msup><mo>+</mo><msup><mn>8</mn><mn>6</mn></msup><mo>=</mo><msup><mn>8</mn><mn>4</mn></msup><mo>·</mo><mn>73</mn></mrow></math> itd. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup><mo>=</mo><mn>73</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>)</mo></mrow></math> i po podzieleniu przez 73 otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup></mrow></math>, czyli liczbę naturalną.</p>",
     "punktacja_html": "<ul><li>1 pkt – zapisanie podanej liczby w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>·</mo><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo></mrow><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>·</mo><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo></mrow><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>·</mo><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo></mrow></mrow><mn>73</mn></mfrac></math> lub w postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>·</mo><mn>73</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>·</mo><mn>73</mn><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>·</mo><mn>73</mn></mrow><mn>73</mn></mfrac></math></li><li>2 pkt – wyłączenie przed nawias czynnika 73: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>73</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>)</mo></mrow><mn>73</mn></mfrac></math></li><li>3 pkt – zapisanie podanej liczby jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup></mrow></math></li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.24,
+    "procent": 85,
+    "procent_etap": 79
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q13",
@@ -513,7 +586,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — liczba większych pojemników (po 6 piłek), wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math> — liczba mniejszych pojemników (po 4 piłki). Liczba piłek jest taka sama: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>=</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>=</mo><mn>6</mn><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>40</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math>. Liczba piłek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>20</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>123</mn></mrow></math>.</p>",
     "punktacja_html": "<ul><li>1 pkt – poprawne zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>+</mo><mn>3</mn><mo>=</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>6</mn><mi>x</mi></mrow></math></li><li>2 pkt – poprawne obliczenie ilości większych lub mniejszych pojemników: 20 lub 30</li><li>3 pkt – poprawne obliczenie ilości piłek: 123</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.31,
+    "procent": 52,
+    "procent_etap": 45
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q14",
@@ -533,7 +611,12 @@
     "rozwiazanie_html": "<p>Oznaczmy boki prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mi>a</mi><mi>b</mi></mrow></math>. Pola trzech trójkątów prostokątnych przy wierzchołkach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CEF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>a</mi><mi>b</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi><mi>b</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi><mi>b</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><msub><mi>P</mi><mi>AEF</mi></msub><mo>+</mo><msub><mi>P</mi><mi>CEF</mi></msub><mo>+</mo><msub><mi>P</mi><mi>ABE</mi></msub><mo>+</mo><msub><mi>P</mi><mi>ADF</mi></msub></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mi>a</mi><mi>b</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>32</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm².</p>",
     "punktacja_html": "<ul><li>1 pkt – określenie jaką częścią pola prostokąta są pola przynajmniej dwóch spośród trójkątów CEF, ABE, ADF: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CEF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math></li><li>2 pkt – poprawne zapisanie równania opisującego pole prostokąta ABCD jako sumę pól czterech trójkątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>a</mi><mi>b</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi><mi>b</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi><mi>b</mi></mrow></math></li><li>3 pkt – poprawne obliczenie pola prostokąta ABCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm²</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.38,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q15",
@@ -562,6 +645,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Półkole o średnicy równej bokowi nie mieści się całe w trójkącie równobocznym"
+   },
+   "trudnosc": {
+    "logit": 5.37,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -590,6 +678,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o kwadrat wysokości podstawy (trójkąta), nie wysokości czworościanu; pole całkowite to 4 ściany"
+   },
+   "trudnosc": {
+    "logit": -0.3,
+    "procent": 46,
+    "procent_etap": 39
    }
   },
   {
@@ -617,6 +710,11 @@
      "inne:praca-juz-wykonana"
     ],
     "opis": "Dodatkowi pracownicy przychodzą po 6 dniach — proporcja odwrotna tylko dla pozostałej pracy"
+   },
+   "trudnosc": {
+    "logit": 1.58,
+    "procent": 65,
+    "procent_etap": 57
    }
   },
   {
@@ -637,7 +735,12 @@
     "rozwiazanie_html": "<p>Pole powierzchni całkowitej to dwa sześciokąty foremne oraz sześć kwadratów o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>+</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>27</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn></mrow></math> cm. Graniastosłup sześciokątny ma 18 krawędzi, więc ich łączna długość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>54</mn></mrow></math> cm.</p>",
     "punktacja_html": "<ul><li>1 pkt – zauważenie, że pole składa się z dwóch sześciokątów foremnych oraz sześciu kwadratów o jednakowych bokach i zapisanie wzoru na pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>+</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math></li><li>2 pkt – zapisanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>27</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math></li><li>3 pkt – poprawne obliczenie długości krawędzi graniastosłupa: 3 cm</li><li>4 pkt – poprawne obliczenie łącznej długości wszystkich krawędzi graniastosłupa: 54 cm</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.97,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2021_podkarpackie_q19",
@@ -663,6 +766,11 @@
      "szczegol-bryly"
     ],
     "opis": "Sklejone ściany znikają z powierzchni: z dużej kostki i z podstaw małych"
+   },
+   "trudnosc": {
+    "logit": 5.6,
+    "procent": 92,
+    "procent_etap": 88
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 20,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_zachodniopomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2024-2025_zachodniopomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz spóźnienie z całej doby na minuty i odejmij od godziny 12:00",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": 0.5,
+    "procent": 54,
+    "procent_etap": 61
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz wszystkie odcinki łączące pary wierzchołków — to boki plus przekątne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.67,
+    "procent": 33,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q3",
@@ -122,7 +133,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj z rysunku, że dłuższy bok prostokąta to bok trójkąta",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.34,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2016_podlaskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q4",
@@ -159,7 +181,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zobacz, o ile urośnie suma dziesięciu liczb",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.66,
+    "procent": 3,
+    "procent_etap": 4
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q5",
@@ -196,7 +223,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź od końca, odwracając po kolei każde działanie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.81,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q6",
@@ -233,7 +265,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz wymiary na dm — 300 l to 300 dm³",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.78,
+    "procent": 32,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q7",
@@ -278,6 +315,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o trzy POZOSTAŁE kąty rombu; jeden z kątów 36° już jest dany"
+   },
+   "trudnosc": {
+    "logit": -3.34,
+    "procent": 19,
+    "procent_etap": 22
    }
   },
   {
@@ -315,7 +357,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 300 km na centymetry, dopiero potem dziel przez skalę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.86,
+    "procent": 6,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q9",
@@ -353,7 +400,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw wyznacz bok kwadratu o polu 36 cm²",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -6.73,
+    "procent": 3,
+    "procent_etap": 3
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q10",
@@ -390,7 +442,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukaj najmniejszej wspólnej wielokrotności 12 i 8",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.02,
+    "procent": 22,
+    "procent_etap": 25
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2013_podlaskie_sp_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q11",
@@ -428,7 +491,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie średnice wyraź przez średnicę mniejszego okręgu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 38
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q12",
@@ -466,7 +534,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "iloczyn boku i wysokości opuszczonej na ten bok jest w trójkącie stały",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.98,
+    "procent": 22,
+    "procent_etap": 26
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q13",
@@ -504,7 +577,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na cyfry jedności kolejnych potęg",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.13,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q14",
@@ -548,6 +626,11 @@
      "znak"
     ],
     "opis": "Wartość bezwzględna liczby ujemnej: 1 − √3 < 0, więc nie można opuścić kresek bez zmiany znaku"
+   },
+   "trudnosc": {
+    "logit": -4.24,
+    "procent": 13,
+    "procent_etap": 15
    }
   },
   {
@@ -586,7 +669,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprowadź wszystkie trzy ułamki do wspólnego mianownika 24",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.39,
+    "procent": 12,
+    "procent_etap": 14
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2016_podlaskie_q8",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q16",
@@ -614,6 +708,11 @@
      "procent-podstawa"
     ],
     "opis": "Kwota zawiera już VAT: procent liczy się od ceny netto, a nie od kwoty brutto 73,20 zł"
+   },
+   "trudnosc": {
+    "logit": 1.64,
+    "procent": 65,
+    "procent_etap": 72
    }
   },
   {
@@ -635,7 +734,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "droga jest ta sama, więc czasy są w odwrotnym stosunku niż prędkości 72 i 40",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.33,
+    "procent": 36,
+    "procent_etap": 43
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q18",
@@ -656,7 +760,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "mnóż przez siebie ułamki tego, co zostaje po każdym zakupie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.93,
+    "procent": 40,
+    "procent_etap": 46
+   }
   },
   {
    "id": "szkolny_2024-2025_zachodniopomorskie_q19",
@@ -685,6 +794,11 @@
      "jednostki"
     ],
     "opis": "Wysokość podana w dm, pole i odpowiedź w cm"
+   },
+   "trudnosc": {
+    "logit": -0.47,
+    "procent": 44,
+    "procent_etap": 51
    }
   },
   {
@@ -706,7 +820,12 @@
     "rozwiazanie_html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> dm, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn></mrow></math> dm². Szukany trójkąt powstaje z kwadratu po odcięciu trzech trójkątów prostokątnych: dwóch o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>16</mn></mrow></math> dm² oraz jednego o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math> dm². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><mn>64</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>24</mn></mrow></math> dm².</p>",
     "punktacja_html": "<p>Częściowo: 1 pkt za obliczenie boku i rysunek z oznaczeniami; 1 pkt za pole kwadratu i zapis wzoru na pole trójkąta; 1 pkt za obliczenie pól odcinanych trójkątów; 1 pkt za obliczenie pola szukanego trójkąta (24 dm²).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.36,
+    "procent": 62,
+    "procent_etap": 69
+   }
   }
  ]
 }

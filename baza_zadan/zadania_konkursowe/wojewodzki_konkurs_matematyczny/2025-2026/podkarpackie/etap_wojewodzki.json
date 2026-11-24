@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 24,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2026_podkarpackie_q1",
@@ -28,7 +29,12 @@
     "rozwiazanie_html": "<p>Gdyby Krzyś ułożył 169 kwadratów, to byłyby one ułożone w kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>×</mo><mn>13</mn></mrow></math>. Do takiego układu zużyłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>·</mo><mn>13</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>364</mn></mrow></math> zapałek (14 linii poziomych po 13 zapałek i 14 linii pionowych po 13 zapałek). Aby uzyskać układ złożony ze 167 kwadratów, wystarczy zabrać z tego układu 4 zapałki. Zatem Krzyś zużył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>364</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>360</mn></mrow></math> zapałek.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): liczba naturalna z przedziału ⟨340; 380⟩ różna od 360.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.17,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q2",
@@ -55,6 +61,11 @@
      "inne:zlamany-wzorzec"
     ],
     "opis": "Ostatni warunek łamie schemat: iloczyn ma być RÓWNY 10, a nie tylko podzielny przez 10"
+   },
+   "trudnosc": {
+    "logit": 8.08,
+    "procent": 98,
+    "procent_etap": 98
    }
   },
   {
@@ -84,6 +95,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Obniżki trzeba uśrednić z wagami udziałów zabawek, a nie wziąć zwykłą średnią z 20% i 30%"
+   },
+   "trudnosc": {
+    "logit": 1.53,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -105,7 +121,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dzielniki to 1, p, q i pq — iloczyn pq też musi być dwucyfrowy, więc dla każdego p bierz największe q",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.12,
+    "procent": 97,
+    "procent_etap": 95
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q5",
@@ -126,7 +147,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "wierzchołek D jest równoodległy od A, B i C, więc wysokość pada w środek okręgu opisanego na ABC",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.91,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q6",
@@ -149,7 +175,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "policz mianowniki przez różnicę kwadratów 2026²−2025²",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.46,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q7",
@@ -169,7 +200,12 @@
     "rozwiazanie_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest średnicą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na okręgu, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest wpisany oparty na średnicy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math>. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKSL</mi></math> jest prostokątem, bo ma kąty proste przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> oraz przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> (promień do punktu styczności jest prostopadły do stycznej), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>KSL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KML</mi></math> jest kątem wpisanym w okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> opartym na łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>KML</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>KSL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli przeprowadził w pełni poprawny dowód.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>uczeń sprowadził tezę do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>, ale nie uzasadnił tej równości,</li><li>uczeń uzasadnił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> i przeprowadził dowód powołując się na to, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKSL</mi></math> jest prostokątem, ale nie uzasadnił tego w pełni.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>uczeń wykonał poprawny rysunek i w pełni poprawny dowód dla szczególnego przypadku trójkąta równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, o ile ten dowód da się łatwo uogólnić do pełnego rozwiązania,</li><li>uczeń wskazał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> i równoramienność trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ALM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BKM</mi></math>,</li><li>uczeń wskazał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> i prostopadłość promieni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SK</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SL</mi></math> do boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>uczeń uzasadnił równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>ACB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>,</li><li>uczeń wykonał poprawny rysunek do zadania i wskazał równoramienność jednego z trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ALM</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BKM</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKL</mi></math>,</li><li>uczeń wykonał dowód w szczególnym przypadku, np. dla trójkąta prostokątnego równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>,</li><li>uczeń wypisał założenie i tezę.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 6.46,
+    "procent": 95,
+    "procent_etap": 92
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q8",
@@ -190,7 +226,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odwrotność liczby większej od 1 jest mniejsza od 1, więc wyłuskaj część całkowitą wyniku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.08,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2026_podkarpackie_q9",
@@ -210,7 +251,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem okręgu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> — punktem styczności z bokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> — środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ES</mi></math> jest osią symetrii, prostopadłą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Oznaczając bok kwadratu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>FB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>10</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>SF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi><mo>−</mo><mn>10</mn></mrow></math>. Z twierdzenia Pitagorasa dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>20</mn><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnie, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math> cm.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 4 punkty, jeśli za pomocą poprawnego rozumowania uzyskał prawidłowy wynik.</li><li>Uczeń otrzymuje 3 punkty, jeśli popełnił jeden niewielki błąd w rozumowaniu lub obliczeniach, np.<ul><li>uczeń zapisał równanie wynikające z twierdzenia Pitagorasa, zawierające jedną zmienną, ale nie rozwiązał go w pełni lub w rozwiązaniu popełnił błąd obliczeniowy.</li></ul></li><li>Uczeń otrzymuje 2 punkty, jeśli jego rozwiązanie stanowi co najmniej połowę poprawnego rozwiązania zadania, np.<ul><li>uczeń wykonał poprawny rysunek do zadania i zaznaczył na nim trójkąt prostokątny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFB</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFC</mi></math> według nazw z przykładowego rozwiązania),</li><li>uczeń oparł rozwiązanie o „odgadnięcie” długości boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFB</mi></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFC</mi></math>, bez sprawdzenia całkowitej poprawności tych wartości (sprawdził tylko część warunków zadania lub wcale nie sprawdził uzyskanego wyniku).</li></ul></li><li>Uczeń otrzymuje 1 punkt, jeśli jego rozwiązanie zawiera wartościowe elementy potrzebne do rozwiązania zadania, ale jest to mniej niż połowa rozwiązania, np.<ul><li>uczeń narysował rysunek odpowiadający treści zadania.</li></ul></li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.04,
+    "procent": 96,
+    "procent_etap": 95
+   }
   }
  ]
 }

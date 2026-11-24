@@ -8,6 +8,7 @@
  "liczba_zadan": 8,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2025-2026_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2025-2026_pomorskie_q1",
@@ -38,6 +39,11 @@
      "rysunek"
     ],
     "opis": "Romb nie ma wierzchołków na środkach boków arkusza; przekątne rombu to nie wymiary prostokąta"
+   },
+   "trudnosc": {
+    "logit": 6.15,
+    "procent": 94,
+    "procent_etap": 94
    }
   },
   {
@@ -59,7 +65,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Ponieważ trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>18</mn><mo>−</mo><mi>x</mi></mrow></math>. Z twierdzenia Pitagorasa w trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> otrzymujemy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>18</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>324</mn><mo>−</mo><mn>36</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mi>x</mi><mo>=</mo><mn>288</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>8</mn><mtext>&#160;cm</mtext></mrow></math>.</p>",
     "punktacja_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie zapisze równanie z jedną niewiadomą pozwalające obliczyć długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy i poda poprawną długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> wraz z jednostką.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.73,
+    "procent": 66,
+    "procent_etap": 68
+   }
   },
   {
    "id": "rejonowy_2025-2026_pomorskie_q3",
@@ -87,6 +98,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o liczbę DODATKOWYCH pracowników, a naturalnie liczy się, ilu ma pracować łącznie"
+   },
+   "trudnosc": {
+    "logit": 1.74,
+    "procent": 66,
+    "procent_etap": 68
    }
   },
   {
@@ -115,6 +131,11 @@
      "procent-podstawa"
     ],
     "opis": "Kolejne procenty liczone od pozostałej puli, nie od wszystkich żetonów"
+   },
+   "trudnosc": {
+    "logit": -2.28,
+    "procent": 28,
+    "procent_etap": 29
    }
   },
   {
@@ -136,7 +157,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyłącz √9 i ∛8 przed pierwiastek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 28
+   }
   },
   {
    "id": "rejonowy_2025-2026_pomorskie_q6",
@@ -157,7 +183,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień litry na centymetry sześcienne i podziel przez pole dna",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.94,
+    "procent": 15,
+    "procent_etap": 17
+   }
   },
   {
    "id": "rejonowy_2025-2026_pomorskie_q7",
@@ -184,6 +215,11 @@
      "konwencja"
     ],
     "opis": "7.2: przed okresem są dwie cyfry nieokresowe; 7.7: ujemna podstawa do nieparzystej potęgi"
+   },
+   "trudnosc": {
+    "logit": 8.36,
+    "procent": 99,
+    "procent_etap": 99
    }
   },
   {
@@ -216,7 +252,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz liczby rzymskie na arabskie i porównaj z datami z podpisów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.42,
+    "procent": 7,
+    "procent_etap": 8
+   }
   }
  ]
 }

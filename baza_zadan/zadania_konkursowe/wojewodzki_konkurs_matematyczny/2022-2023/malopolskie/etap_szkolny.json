@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_malopolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_malopolskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022-2023_malopolskie_q1",
@@ -52,6 +53,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwyżka i obniżka procentowa się nie odejmują: obniżka liczona jest od ceny już podniesionej"
+   },
+   "trudnosc": {
+    "logit": -2.5,
+    "procent": 26,
+    "procent_etap": 30
    }
   },
   {
@@ -89,7 +95,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "w 125125 i 123123 siedzi ten sam czynnik 1001 — wyłącz go i skróć",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.19,
+    "procent": 28,
+    "procent_etap": 34
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q3",
@@ -127,7 +138,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczba musi dzielić się przez NWW(5, 6) — policz jej wielokrotności do 2022",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -1.4,
+    "procent": 36,
+    "procent_etap": 42
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q4",
@@ -172,6 +188,11 @@
      "kierunek-relacji"
     ],
     "opis": "Upłynęła czwarta część tego, co POZOSTAŁO (nie roku); do tego przesunięcia o dni: wczoraj i pojutrze"
+   },
+   "trudnosc": {
+    "logit": 4.92,
+    "procent": 88,
+    "procent_etap": 93
    }
   },
   {
@@ -210,7 +231,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "reszta nie zależy od n — podstaw n = 1 i przejdź przez cztery kroki na liczbach",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.32,
+    "procent": 53,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q6",
@@ -248,7 +274,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąt zewnętrzny to 360°/60 — otrzymaną miarę rozłóż na czynniki pierwsze",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.0,
+    "procent": 59,
+    "procent_etap": 66
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q7",
@@ -288,7 +319,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "weź AE, EF i FD jako podstawy trójkątów — każdy ma wtedy tę samą wysokość",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.45,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q8",
@@ -327,7 +363,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, o ile 20% i 80% odbiegają od 40% — to daje stosunek objętości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.23,
+    "procent": 37,
+    "procent_etap": 44
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q9",
@@ -365,7 +406,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "przepisz potęgi tak, by miały wspólny wykładnik, i porównuj same podstawy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.8,
+    "procent": 82,
+    "procent_etap": 88
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q10",
@@ -406,7 +452,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "trójkąt ADE jest równoramienny — zacznij od kąta przy wierzchołku D",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.14,
+    "procent": 78,
+    "procent_etap": 84
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q11",
@@ -441,7 +492,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Szkielet prostopadłościanu wymaga po 4 patyczki w 3 kolorach (12 krawędzi = 3 grupy po 4 równe). W najgorszym razie wyciągniemy wszystkie niebieskie (6) i zielone (7) oraz po 3 czerwone i białe, by żaden trzeci kolor nie osiągnął 4 — razem 19 patyczków, a wciąż tylko 2 kolory mają po 4 i więcej. Kolejny, 20. patyczek musi dopełnić trzeci kolor do 4.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 8.0,
+    "procent": 98,
+    "procent_etap": 100
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q12",
@@ -483,7 +539,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw rzeczywisty bok kwadratu, a dopiero z niego pole",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.34,
+    "procent": 46,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q13",
@@ -524,7 +585,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, które własności dotyczą tylko rombu, a nie każdego równoległoboku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.64,
+    "procent": 43,
+    "procent_etap": 49
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q14",
@@ -573,6 +639,11 @@
      "plot-i-slupki"
     ],
     "opis": "Dopływ podany w m³/h, odpływ w m³/min; pytają, w którym dniu z kolei, a nie po ilu pełnych dniach"
+   },
+   "trudnosc": {
+    "logit": 3.26,
+    "procent": 78,
+    "procent_etap": 85
    }
   },
   {
@@ -614,7 +685,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odrzuć dziewięcioro niegrających i porównaj resztę klasy z sumą 19 + 17",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.6,
+    "procent": 17,
+    "procent_etap": 20
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q16",
@@ -657,7 +733,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz odchylenia od 4 m — muszą się zsumować do zera",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.8,
+    "procent": 32,
+    "procent_etap": 37
+   }
   },
   {
    "id": "szkolny_2022-2023_malopolskie_q17",
@@ -699,7 +780,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdzaj zdania po kolei, szacując pierwiastki najbliższymi liczbami całkowitymi",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.56,
+    "procent": 87,
+    "procent_etap": 92
+   }
   }
  ]
 }

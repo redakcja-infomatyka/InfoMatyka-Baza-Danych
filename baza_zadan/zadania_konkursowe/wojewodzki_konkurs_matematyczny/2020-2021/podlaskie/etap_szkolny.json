@@ -8,6 +8,7 @@
  "liczba_zadan": 23,
  "max_punktow": 30,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2020_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2020_podlaskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "obie liczby zaczynają się od MCM — porównaj tylko końcówki",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.11,
+    "procent": 8,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q2",
@@ -88,6 +94,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Dwukrotnie więcej chłopców i dwukrotnie dłuższy czas: obie zmiany mnożą wynik, a nie tylko jedna"
+   },
+   "trudnosc": {
+    "logit": -1.2,
+    "procent": 38,
+    "procent_etap": 44
    }
   },
   {
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie trzy sumy — dostaniesz podwojony łączny wiek dziewcząt",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.45,
+    "procent": 12,
+    "procent_etap": 14
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q4",
@@ -162,7 +178,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 5 minut na ułamek godziny albo prędkość na metry na minutę",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.14,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q5",
@@ -199,7 +220,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy, że liczba dzieli się przez 4, 3 i 5 — reszta wynika sama",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.9,
+    "procent": 5,
+    "procent_etap": 6
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q6",
@@ -234,7 +260,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Rozkłady: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>528</mn><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>11</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>336</mn><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn></mrow></math>. NWD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>3</mn><mo>=</mo><mn>48</mn></mrow></math>, NWW: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>3696</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3696</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>3648</mn></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.42,
+    "procent": 54,
+    "procent_etap": 60
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q7",
@@ -272,7 +303,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień każdy rzut na metry, dopiero potem licz średnią",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.36,
+    "procent": 27,
+    "procent_etap": 32
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q8",
@@ -316,6 +352,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczba 2 też jest pierwsza; łatwo wziąć tylko nieparzyste jednocyfrowe liczby pierwsze"
+   },
+   "trudnosc": {
+    "logit": -5.55,
+    "procent": 7,
+    "procent_etap": 8
    }
   },
   {
@@ -361,6 +402,11 @@
      "konwencja"
     ],
     "opis": "Przed okresem stoi cyfra nieokresowa; pozycję w okresie trzeba liczyć od drugiego miejsca po przecinku"
+   },
+   "trudnosc": {
+    "logit": 0.23,
+    "procent": 52,
+    "procent_etap": 59
    }
   },
   {
@@ -407,6 +453,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o wartość bezwzględną liczby na szczycie, a nie o samą liczbę; warianty zawierają liczby ujemne"
+   },
+   "trudnosc": {
+    "logit": -2.91,
+    "procent": 23,
+    "procent_etap": 26
    }
   },
   {
@@ -445,7 +496,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "jaką część pełnego obrotu robi wskazówka godzinowa przez dwie godziny",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.96,
+    "procent": 9,
+    "procent_etap": 10
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q12",
@@ -483,7 +539,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kwadrat dotyczy trójki, nie x — i najpierw nawias, potem podwojenie",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.51,
+    "procent": 11,
+    "procent_etap": 13
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q13",
@@ -523,7 +584,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj cztery boki z rysunku, osobno składniki z a, osobno liczby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.52,
+    "procent": 18,
+    "procent_etap": 21
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q14",
@@ -560,7 +626,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw −2 do każdego równania i porównaj obie strony",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.18,
+    "procent": 20,
+    "procent_etap": 24
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q15",
@@ -608,6 +679,11 @@
      "rysunek"
     ],
     "opis": "Odcinki prostopadłe nie muszą się przecinać ani stykać; liczy się kierunek, nie punkt wspólny"
+   },
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 81
    }
   },
   {
@@ -645,7 +721,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij każdy ułamek na dwa i skracaj kolejno — zostaną tylko skrajne czynniki",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.63,
+    "procent": 65,
+    "procent_etap": 72
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q17",
@@ -683,7 +764,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź każde zdanie na ostrosłupie o podstawie kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.76,
+    "procent": 16,
+    "procent_etap": 19
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q18",
@@ -723,7 +809,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z kąta 140° wyznacz kąt trójkąta przy prostej i skorzystaj z sumy kątów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.47,
+    "procent": 44,
+    "procent_etap": 51
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q19",
@@ -760,7 +851,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień odległość w terenie na centymetry, zanim porównasz ją z 4 cm",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.81,
+    "procent": 24,
+    "procent_etap": 27
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q20",
@@ -788,6 +884,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają, ile żołędzi zostało pod dębem, a nie ile ich było na początku"
+   },
+   "trudnosc": {
+    "logit": 1.62,
+    "procent": 65,
+    "procent_etap": 72
    }
   },
   {
@@ -808,7 +909,12 @@
     "rozwiazanie_html": "<p>Sześcianów z jedną pomalowaną ścianą (środki ścian) jest 72, z dwiema pomalowanymi ścianami (krawędzie) 44, a z trzema pomalowanymi ścianami (narożniki) 8. Łącznie pomalowanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>+</mo><mn>44</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>124</mn></math> sześcianów, więc niepomalowanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>124</mn><mo>=</mo><mn>36</mn></math>.</p>",
     "punktacja_html": "<p>Punktacja: 1 pkt za wyznaczenie liczby sześcianów z jedną (72), dwiema (44) i trzema (8) pomalowanymi ścianami; 1 pkt za obliczenie liczby sześcianów niepomalowanych (36). Uwaga: poprawna metoda z błędem rachunkowym — 1 pkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.88,
+    "procent": 93,
+    "procent_etap": 96
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q22",
@@ -830,7 +936,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szerokość weź z boku kwadratu, a długość z pola prostokąta",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.26,
+    "procent": 28,
+    "procent_etap": 33
+   }
   },
   {
    "id": "szkolny_2020_podlaskie_q23",
@@ -851,7 +962,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba zakupy — wyjdzie tyle samo gruszek co śliwek",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.19,
+    "procent": 28,
+    "procent_etap": 34
+   }
   }
  ]
 }

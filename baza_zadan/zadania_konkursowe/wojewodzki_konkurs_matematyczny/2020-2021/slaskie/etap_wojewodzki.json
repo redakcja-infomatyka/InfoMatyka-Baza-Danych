@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2020-2021_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2020-2021_slaskie_q1",
@@ -37,6 +38,11 @@
      "o-co-pytaja"
     ],
     "opis": "Podpunkt u): pytają o rok, a nie o wiek; do 2021 dodaje się przyrost wieku, nie nowy wiek"
+   },
+   "trudnosc": {
+    "logit": 10.08,
+    "procent": 100,
+    "procent_etap": 100
    }
   },
   {
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zastanów się, czy ten iloczyn jest parzysty i przez co na pewno się dzieli",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.3,
+    "procent": 7,
+    "procent_etap": 5
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q3",
@@ -118,6 +129,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o pole powierzchni bocznej, a wariant z doliczoną podstawą kusi"
+   },
+   "trudnosc": {
+    "logit": -3.34,
+    "procent": 19,
+    "procent_etap": 15
    }
   },
   {
@@ -156,7 +172,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij ułamek na dwa składniki i każdy skróć osobno",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.94,
+    "procent": 9,
+    "procent_etap": 6
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q5",
@@ -194,7 +215,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odsuń nadwyżkę 18 i podziel resztę na dwie równe części",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.4,
+    "procent": 2,
+    "procent_etap": 1
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q6",
@@ -239,6 +265,11 @@
      "o-co-pytaja"
     ],
     "opis": "Z pola trójkąta wychodzi jego przyprostokątna, a pytają o krótszą podstawę trapezu"
+   },
+   "trudnosc": {
+    "logit": -1.21,
+    "procent": 37,
+    "procent_etap": 30
    }
   },
   {
@@ -270,7 +301,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Zestawy banknotów: dla 15 zł – 5+5+5 lub 10+5; dla 30 zł – 20+10, 20+5+5, 10+10+10, 10+10+5+5, 10+5·4, 5·6; dla 45 zł – licząc według liczby użytych dwudziestek (0, 1 lub 2) wychodzi łącznie 9 zestawów.</p><ul><li>na 15 zł są 2 sposoby, nie 3 – <b>F</b>.</li><li>na 30 zł jest 6 sposobów – <b>P</b>.</li><li>na 45 zł jest 9 sposobów – <b>P</b>.</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.45,
+    "procent": 91,
+    "procent_etap": 88
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q8",
@@ -303,7 +339,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 3 h 20 min na 3⅓ godziny i wyznacz najpierw długość trasy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q9",
@@ -344,6 +385,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kwartały i 'połowy roku' wyglądają na równe, ale mają różną liczbę dni"
+   },
+   "trudnosc": {
+    "logit": 6.06,
+    "procent": 94,
+    "procent_etap": 90
    }
   },
   {
@@ -386,6 +432,11 @@
      "kwantyfikator"
     ],
     "opis": "Zdanie III: 'istnieje' — trzeba pamiętać, że pierwszy trójkąt też należy do ciągu"
+   },
+   "trudnosc": {
+    "logit": 3.49,
+    "procent": 80,
+    "procent_etap": 74
    }
   },
   {
@@ -420,7 +471,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw kilka małych n, a parzystość odczytaj z n²(n+1)",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.45,
+    "procent": 72,
+    "procent_etap": 65
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q12",
@@ -451,6 +507,11 @@
      "inne:ukryty-warunek"
     ],
     "opis": "Warunek 'połowa po raz pierwszy' wymusza parzystość; limit 100 dotyczy liczby po wzroście"
+   },
+   "trudnosc": {
+    "logit": 4.78,
+    "procent": 88,
+    "procent_etap": 83
    }
   },
   {
@@ -476,7 +537,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z wysokości 5√3 wyznacz bok małego trójkąta, potem złóż z odcinków bok dużego",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.74,
+    "procent": 82,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q14",
@@ -499,7 +565,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odcinek AB to przekątna prostopadłościanu o wymiarach 2x, x, x — Pitagoras dwa razy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.29,
+    "procent": 79,
+    "procent_etap": 72
+   }
   },
   {
    "id": "wojewodzki_2020-2021_slaskie_q15",
@@ -529,6 +600,11 @@
      "procent-podstawa"
     ],
     "opis": "20% liczone od pozostałych klocków, nie od 3000; różnica 30%−20% to nie 10% całości"
+   },
+   "trudnosc": {
+    "logit": 3.4,
+    "procent": 79,
+    "procent_etap": 73
    }
   },
   {
@@ -550,7 +626,12 @@
     "rozwiazanie_html": "<p>Środkowa dzieli bok, do którego jest poprowadzona, na dwa odcinki równe połowie tego boku, a z założenia sama środkowa ma taką samą długość. Zatem środkowa dzieli trójkąt na dwa trójkąty równoramienne, w których kąty przy podstawie są parami równe — oznaczmy je <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Suma miar kątów wewnętrznych trójkąta wynosi 180°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>. Kąt przy wierzchołku, z którego poprowadzono środkową, ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo></math>, jest więc kątem prostym, a trójkąt jest prostokątny.</p>",
     "punktacja_html": "<p>Punktacja (3 pkt): 1 pkt za zauważenie, że środkowa dzieli trójkąt na dwa trójkąty równoramienne, 2 pkt za wykorzystanie własności sumy miar kątów wewnętrznych w trójkącie, 3 pkt za uzasadnienie, że trójkąt jest prostokątny.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.3,
+    "procent": 91,
+    "procent_etap": 87
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 18,
  "max_punktow": 60,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018-2019_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2018-2019_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2018-2019_slaskie_q1",
@@ -37,6 +38,11 @@
      "o-co-pytaja"
     ],
     "opis": "Hasło k: pierścień dany przez średnice okręgów, a wzór na pole wymaga promieni"
+   },
+   "trudnosc": {
+    "logit": 8.28,
+    "procent": 99,
+    "procent_etap": 98
    }
   },
   {
@@ -74,7 +80,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podstaw b = −a i zobacz, jaki znak ma iloczyn ab",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.84,
+    "procent": 57,
+    "procent_etap": 50
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q3",
@@ -110,7 +121,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Odległość od 1 stycznia (poniedziałek) do 1 maja to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>31</mn><mo>+</mo><mn>28</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>120</mn></math> dni. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>=</mo><mn>17</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>1</mn></math>, 1 maja wypada we wtorek. Maj ma 31 dni, więc poniedziałki wypadają 7, 14, 21 i 28 maja — dokładnie 4.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.02,
+    "procent": 69,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q4",
@@ -148,7 +164,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od obu stron pierwszego warunku odejmij 5 kg cytryn i 5 kg mandarynek",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.43,
+    "procent": 54,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q5",
@@ -185,7 +206,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pierwsza cyfra ustala ostatnią, środkowa jest dowolna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.85,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q6",
@@ -222,7 +248,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 1,2 dm na cm — objętość to pole trójkąta równobocznego razy przyrost poziomu wody",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.22,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q7",
@@ -267,6 +298,11 @@
      "kierunek-relacji"
     ],
     "opis": "Wariant B ma poprawną różnicę wieku, ale odwrócony kierunek: kto jest starszy od kogo"
+   },
+   "trudnosc": {
+    "logit": 1.15,
+    "procent": 61,
+    "procent_etap": 53
    }
   },
   {
@@ -305,7 +341,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz wielokrotności 5 i wielokrotności 3, a wspólne, czyli podzielne przez 15, odejmij",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.95,
+    "procent": 58,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q9",
@@ -343,7 +384,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kolejne wiersze zaczynają się od potęg dwójki",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.9,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q10",
@@ -388,6 +434,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Punkty nie muszą leżeć na jednej prostej; liczenie tylko dwóch układów współliniowych"
+   },
+   "trudnosc": {
+    "logit": 1.64,
+    "procent": 65,
+    "procent_etap": 58
    }
   },
   {
@@ -427,7 +478,12 @@
     "rozwiazanie_ai_html": "<p>Przedłużone ramiona przecinają się w punkcie S pod kątem prostym; w trójkącie ABS kąty mają miary 30°, 60°, 90°, więc boki są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></math>. Z przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SA</mi><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SB</mi><mo>=</mo><mn>15</mn></math>, a wysokość trójkąta ABS opadająca na AB to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>SA</mi><mo>·</mo><mi>SB</mi></mrow><mi>AB</mi></mfrac><mo>=</mo><mn>7,5</mn></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SC</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>7</mn></math>, trójkąt SDC jest podobny do SAB w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac></math>.</p><p>Wysokość trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>)</mo><mo>=</mo><mn>4</mn></math> cm — prawda. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>=</mo><mn>4</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></math> cm — prawda. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>88</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></math> cm² — prawda. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></math>, obwód = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mfrac><mn>52</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></math> — fałsz.</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.83,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q12",
@@ -466,7 +522,12 @@
     "rozwiazanie_ai_html": "<p>Boki trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><msqrt><mn>13</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><msqrt><mn>41</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><msqrt><mn>58</mn></msqrt></math> — wszystkie różne, więc trójkąt nie jest równoramienny (1: F). Pole ze współrzędnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>|</mo><mo>=</mo><mn>11,5</mn></math> (2: P). Wysokość z C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>·</mo><mn>11,5</mn></mrow><msqrt><mn>13</mn></msqrt></mfrac><mo>≈</mo><mn>6,4</mn></math>, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><msqrt><mn>2</mn></msqrt></math> (3: F). Środek AC to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>0,5</mn><mo>;</mo><mn>1,5</mn><mo>)</mo></math>, więc środek AD to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2,25</mn><mo>;</mo><mn>0,75</mn><mo>)</mo></math>, nie (−2,5; 1) (4: F).</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.93,
+    "procent": 96,
+    "procent_etap": 94
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q13",
@@ -510,6 +571,11 @@
      "kierunek-relacji"
     ],
     "opis": "Zdanie 1: „zmniejszyła się DO” a nie „O” — 27 km to droga przejechana razem, nie pozostała"
+   },
+   "trudnosc": {
+    "logit": 5.13,
+    "procent": 90,
+    "procent_etap": 86
    }
   },
   {
@@ -546,7 +612,12 @@
     "rozwiazanie_ai_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — krawędź podstawy, krawędź boczna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>. Z objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>14</mn></msqrt></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>14</mn></msqrt></mrow><mn>2</mn></mfrac></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>27</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>. Krawędź boczna = 6 cm (1: P).</p><p>Wysokość ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>6</mn><mn>2</mn></msup><mo>−</mo><msup><mn>1,5</mn><mn>2</mn></msup></msqrt><mo>=</mo><mfrac><msqrt><mn>135</mn></msqrt><mn>2</mn></mfrac></math>; pole boczne = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mfrac><msqrt><mn>135</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>135</mn></msqrt></math> cm² (2: P). Przekątna podstawy = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>4,24</mn></math> ≠ 6, więc ten trójkąt nie jest równoboczny (3: F). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>14</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>5,6</mn></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>63</mn></msqrt><mn>4</mn></mfrac><mo>≈</mo><mn>2</mn></math> (4: F).</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.58,
+    "procent": 98,
+    "procent_etap": 96
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q15",
@@ -567,7 +638,12 @@
     "rozwiazanie_html": "<p>Niech liczby punktów w pierwszym etapie wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi></math> odpowiednio dla klas 8a, 8b, 8c. W drugim etapie: 8a – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn></math>, 8b – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mi>x</mi></math>, 8c – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>39</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mi>x</mi><mo>=</mo><mn>33</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>. W pierwszym etapie klasy zdobyły 9, 6 i 12 punktów, a w drugim 17, 12 i 10 punktów. Łącznie: 8a – 26, 8b – 18, 8c – 22 punkty.</p>",
     "punktacja_html": "<p>Punktacja (4 pkt): 1 pkt za poprawne zapisanie zależności między liczbami punktów w I i II etapie dla każdej klasy, 2 pkt za poprawne zapisanie równania, 3 pkt za poprawną metodę ustalenia liczby punktów w I lub II etapie przez każdą klasę, 4 pkt za poprawne obliczenie liczby uzyskanych punktów w konkursie przez każdą klasę.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.88,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q16",
@@ -588,7 +664,12 @@
     "rozwiazanie_html": "<p>Oznaczmy krótszy bok prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>x</mi></math>, wtedy dłuższy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>3</mn><mi>x</mi></math>. Najbardziej odległe wierzchołki powstałych kwadratów wraz z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> tworzą trójkąt prostokątny równoramienny o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi></math> oraz przeciwprostokątnej 28 cm. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>4</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>28</mn><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>784</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>24,5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3,5</mn><msqrt><mn>2</mn></msqrt></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>3,5</mn><msqrt><mn>2</mn></msqrt></math> cm, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>10,5</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>",
     "punktacja_html": "<p>Punktacja (4 pkt): 1 pkt za poprawny rysunek z oznaczeniami lub opis dotyczący odcinka długości 28 cm, 2 pkt za poprawną metodę obliczenia długości boku trójkąta prostokątnego równoramiennego, 3 pkt za poprawną metodę obliczenia krótszego i dłuższego boku prostokąta, 4 pkt za poprawne obliczenie długości boków prostokąta.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 7.36,
+    "procent": 97,
+    "procent_etap": 96
+   }
   },
   {
    "id": "wojewodzki_2018-2019_slaskie_q17",
@@ -617,6 +698,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Półkole nad KL nie mieści się całe w trójkącie — boki KM i LM je przecinają"
+   },
+   "trudnosc": {
+    "logit": 7.16,
+    "procent": 97,
+    "procent_etap": 95
    }
   },
   {
@@ -645,6 +731,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia grup różnej liczności to nie średnia ze średnich — trzeba ważyć liczbą osób"
+   },
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 26
    }
   }
  ]

@@ -8,6 +8,7 @@
  "liczba_zadan": 25,
  "max_punktow": 49,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2014_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2014_podkarpackie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz osobno oba nawiasy, a dzielenie przez ułamek zamień na mnożenie przez odwrotność",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.13,
+    "procent": 60,
+    "procent_etap": 53
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q2",
@@ -81,7 +87,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wybieraj cyfry po kolei: 4 możliwości, potem 3, potem 2",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.74,
+    "procent": 1,
+    "procent_etap": 1
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2015_podlaskie_sp_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q3",
@@ -118,7 +135,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od razu licz, jaka część masy została po suszeniu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.84,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q4",
@@ -156,7 +178,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przyrównaj wzory na pola — wysokość się skróci",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.68,
+    "procent": 25,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q5",
@@ -193,7 +220,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "objętość wody się nie zmienia, więc porównaj tylko pola obu ścian dna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.46,
+    "procent": 18,
+    "procent_etap": 14
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q6",
@@ -237,6 +269,11 @@
      "procent-podstawa"
     ],
     "opis": "Podwyżka liczona od ceny obniżonej, nie od początkowej — zwrot o ten sam procent nie wystarcza"
+   },
+   "trudnosc": {
+    "logit": -2.22,
+    "procent": 28,
+    "procent_etap": 23
    }
   },
   {
@@ -274,7 +311,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj obie skale — ile razy jedna jest większa od drugiej",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.67,
+    "procent": 10,
+    "procent_etap": 7
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q8",
@@ -312,7 +354,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień 1,5 na 3/2, sześcian policzysz wtedy na ułamkach",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.31,
+    "procent": 20,
+    "procent_etap": 15
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q9",
@@ -349,7 +396,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dodaj wydajności rur: jaką część basenu napełniają w ciągu godziny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.29,
+    "procent": 28,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q10",
@@ -386,7 +438,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "poszukaj dwóch par, które razem obejmują wszystkich czterech chłopców",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -3.55,
+    "procent": 18,
+    "procent_etap": 13
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q11",
@@ -430,6 +487,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia prędkość to cała droga przez cały czas, a nie średnia arytmetyczna dwóch prędkości"
+   },
+   "trudnosc": {
+    "logit": -3.15,
+    "procent": 21,
+    "procent_etap": 16
    }
   },
   {
@@ -469,7 +531,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "idź kratką od A i dopisuj w pamięci, na ile sposobów dochodzisz do każdego węzła",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.36,
+    "procent": 46,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q13",
@@ -506,7 +573,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "każdy licznik to jedynka z zerami — wystarczą cechy podzielności",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.12,
+    "procent": 84,
+    "procent_etap": 78
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q14",
@@ -544,7 +616,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "reszty kolejnych potęg trójki powtarzają się cyklicznie — znajdź długość cyklu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.56,
+    "procent": 34,
+    "procent_etap": 27
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q15",
@@ -581,7 +658,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj, ile stron musi być w sumie po 10, a ile po 11 dniach",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.79,
+    "procent": 16,
+    "procent_etap": 11
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2015_podlaskie_sp_q7",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q16",
@@ -602,7 +690,12 @@
     "rozwiazanie_html": "<p>Podłoga w pokoju Ani ma obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> m i pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Niech szerokość pokoju Kuby wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi></math>. Z równości obwodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>16</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi><mo>=</mo><mn>16</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math> m oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>=</mo><mn>6</mn></math> m. Pole pokoju Kuby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Zatem na pokój Ani trzeba o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>4</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> więcej wykładziny.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za poprawne obliczenie wymiarów pokoju Kuby (2 m i 6 m); 1 pkt za obliczenie pól obu pokoi (16 m² i 12 m²); 1 pkt za poprawne rachunki i poprawny wniosek (na pokój Ani o 4 m² więcej).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.73,
+    "procent": 33,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q17",
@@ -623,7 +716,12 @@
     "rozwiazanie_html": "<p>Pierwsza i druga cyfra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>8</mn><mo>,</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>24</mn></math>, czyli 2 i 4. Trzecia cyfra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,125</mn><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>, więc jej odwrotnością jest 8. Czwarta i piąta cyfra: suma liczb pierwszych większych od 10 i mniejszych od 20 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>19</mn><mo>=</mo><mn>60</mn></math>, czyli 6 i 0. Szósta cyfra: najmniejsza liczba złożona to 4. Siódma i ósma cyfra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>MMCCLIV</mtext><mo>=</mo><mn>2254</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>XLIX</mtext><mo>=</mo><mn>49</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2254</mn><mo>:</mo><mn>49</mn><mo>=</mo><mn>46</mn></math>, czyli 4 i 6. Szyfr do sejfu to 24860446.</p>",
     "punktacja_html": "<p>Schemat oceniania: po 1 pkt za znalezienie kolejnych cyfr — pierwszej i drugiej (2, 4), trzeciej (8), czwartej i piątej (6, 0), szóstej (4) oraz siódmej i ósmej (4, 6).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.01,
+    "procent": 69,
+    "procent_etap": 61
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q18",
@@ -642,7 +740,12 @@
     "rozwiazanie_html": "<p>Części korali, które zostały uwzględnione, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>15</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>12</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>10</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>57</mn><mn>60</mn></mfrac></math>. Pozostała część, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>60</mn></mfrac></math>, to 6 nieodnalezionych korali. Zatem wszystkich korali było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mfrac><mn>3</mn><mn>60</mn></mfrac><mo>=</mo><mn>120</mn></math>.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za poprawne obliczenie części korali, które zostały uwzględnione (57/60); 1 pkt za obliczenie liczby wszystkich korali (120); 1 pkt za poprawne obliczenia w całym zadaniu.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 31
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q19",
@@ -661,7 +764,12 @@
     "rozwiazanie_html": "<p>Krótsza podstawa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>40</mn></math>. Różnica podstaw rozkłada się po obu stronach po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>120</mn><mo>−</mo><mn>40</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>40</mn></math>. Ponieważ kąt ostry trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math>, trójkąt prostokątny odcięty przy dłuższej podstawie jest równoramienny, więc wysokość trapezu jest równa tej różnicy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>40</mn></math>.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za wykonanie rysunku z zaznaczoną wysokością i kątem; 1 pkt za obliczenie krótszej podstawy (40); 1 pkt za zauważenie, że trójkąt jest równoramienny, i obliczenie wysokości (h = 40).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.42,
+    "procent": 27,
+    "procent_etap": 21
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q20",
@@ -680,7 +788,12 @@
     "rozwiazanie_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny to 15 minut. Jadąc z prędkością 30 km/h, w ciągu 15 minut rowerzysta pokonał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>7,5</mn></math> km. Jest to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>11</mn></mfrac></math> całej trasy, więc trasa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>:</mo><mfrac><mn>4</mn><mn>11</mn></mfrac><mo>=</mo><mfrac><mn>75</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>11</mn><mn>4</mn></mfrac><mo>=</mo><mn>20,625</mn></math> km, czyli 20 km 625 m.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za obliczenie drogi już przejechanej (7,5 km); 1 pkt za obliczenie długości całej trasy (20,625 km); 1 pkt za poprawne obliczenia w całym zadaniu.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.5,
+    "procent": 44,
+    "procent_etap": 36
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q21",
@@ -700,7 +813,12 @@
     "rozwiazanie_html": "<p>Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCB</mi></math> mają równe miary, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>25</mn></math> cm. Skoro obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi 39 cm, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>39</mn><mo>−</mo><mn>25</mn><mo>=</mo><mn>14</mn></math> cm.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za wykonanie rysunku z poprawnie zaznaczonymi kątami; 1 pkt za zauważenie, że trójkąt DBC jest równoramienny i |BD| = |CD|; 1 pkt za poprawne obliczenie długości boku BC (14 cm).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.7,
+    "procent": 81,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q22",
@@ -727,6 +845,11 @@
      "kierunek-relacji"
     ],
     "opis": "„Wtedy, gdy brat miał tyle lat, ile siostra ma teraz” — chodzi o chwilę w przeszłości, nie o obecny wiek siostry"
+   },
+   "trudnosc": {
+    "logit": 3.47,
+    "procent": 80,
+    "procent_etap": 74
    }
   },
   {
@@ -753,6 +876,11 @@
      "szczegol-bryly"
     ],
     "opis": "Akwarium bez górnej podstawy: grubość szyby odejmuje się od wysokości tylko raz, a od długości i szerokości dwa razy"
+   },
+   "trudnosc": {
+    "logit": 4.2,
+    "procent": 84,
+    "procent_etap": 79
    }
   },
   {
@@ -773,7 +901,12 @@
     "rozwiazanie_html": "<p>W skali 1 : 1 000 000 mamy 1 cm na mapie = 10 km w rzeczywistości, więc rzeczywista odległość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn></math> km. Czas przepłynięcia to 2 h 30 min, czyli 2,5 h. Średnia prędkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>20</mn></math> km/h.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za obliczenie rzeczywistej odległości między przystaniami (50 km); 1 pkt za obliczenie prędkości żaglówki (20 km/h); 1 pkt za poprawne obliczenia w całym zadaniu.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.88,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2014_podkarpackie_q25",
@@ -794,7 +927,12 @@
     "rozwiazanie_html": "<p>Jeżeli różnica liczby i 7 jest podzielna przez 7, to sama liczba musi być wielokrotnością 7 (bo 7 jest podzielne przez 7). Analogicznie liczba jest podzielna przez 8 oraz przez 9. Zatem szukana liczba jest wielokrotnością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>7</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>9</mn><mo>)</mo></math>. Liczby 7, 8 i 9 nie mają wspólnych dzielników większych od 1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>7</mn><mo>,</mo><mn>8</mn><mo>,</mo><mn>9</mn><mo>)</mo><mo>=</mo><mn>7</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>504</mn></math>. Jedyną trzycyfrową wielokrotnością 504 jest 504 (kolejna, 1008, jest już liczbą czterocyfrową). Zatem istnieje tylko jedna taka liczba — 504.</p>",
     "punktacja_html": "<p>Schemat oceniania: 1 pkt za poprawne wyciągnięcie wniosku, że liczba musi być wielokrotnością 7, 8 i 9; 1 pkt za znalezienie NWW(7, 8, 9) = 504; 1 pkt za uzasadnienie, że jest tylko jedna taka liczba.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 1.63,
+    "procent": 65,
+    "procent_etap": 57
+   }
   }
  ]
 }

@@ -8,6 +8,7 @@
  "liczba_zadan": 24,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015-2016_slaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2015-2016_slaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2015-2016_slaskie_q1",
@@ -36,6 +37,11 @@
      "inne:kolejnosc-dzialan"
     ],
     "opis": "Krzyżówka czytana od lewej kusi liczeniem po kolei, a obowiązuje kolejność działań (mnożenie, dzielenie najpierw)"
+   },
+   "trudnosc": {
+    "logit": 5.35,
+    "procent": 91,
+    "procent_etap": 87
    }
   },
   {
@@ -73,7 +79,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "33⅓% to po prostu jedna trzecia masy",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.67,
+    "procent": 16,
+    "procent_etap": 12
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q3",
@@ -110,7 +121,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź, czy stały składnik w każdej odpowiedzi dzieli się przez 11",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.79,
+    "procent": 10,
+    "procent_etap": 7
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2019_kujawsko-pomorskie_q14",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q4",
@@ -147,7 +169,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian ma 12 jednakowych krawędzi",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -3.98,
+    "procent": 14,
+    "procent_etap": 11
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q5",
@@ -185,7 +212,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "suma trzech pól to pole całej działki — stąd szerokość",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.26,
+    "procent": 28,
+    "procent_etap": 22
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q6",
@@ -222,7 +254,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "naprzeciw znaczy przesunięcie o połowę z 18 krzeseł",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.58,
+    "procent": 11,
+    "procent_etap": 8
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q7",
@@ -266,6 +303,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o obecnych, a wśród wariantów jest wyrażenie na liczbę nieobecnych"
+   },
+   "trudnosc": {
+    "logit": -2.5,
+    "procent": 26,
+    "procent_etap": 20
    }
   },
   {
@@ -310,6 +352,11 @@
      "jednostki"
     ],
     "opis": "Litry to dm³; liczenie w dm daje wynik w dm, a pytają o centymetry"
+   },
+   "trudnosc": {
+    "logit": -5.04,
+    "procent": 8,
+    "procent_etap": 6
    }
   },
   {
@@ -347,7 +394,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozbij liczbę sześciocyfrową na tysiąckrotność początkowej i samą początkową",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.58,
+    "procent": 6,
+    "procent_etap": 4
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q10",
@@ -384,7 +436,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z pierwszej liczby zrób jak największą dwucyfrową, z drugiej jak najmniejszą",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.53,
+    "procent": 55,
+    "procent_etap": 47
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q11",
@@ -422,7 +479,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od 22.00 do 7.00 mija ⅜ doby",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.61,
+    "procent": 55,
+    "procent_etap": 48
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q12",
@@ -459,7 +521,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj wszystkie trzy sumy — każda z dziewczyn policzy się wtedy dwa razy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.75,
+    "procent": 32,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q13",
@@ -503,6 +570,11 @@
      "procent-podstawa"
     ],
     "opis": "Stosunek wody do soku 4:1 to nie część całości; procent liczony od całego napoju"
+   },
+   "trudnosc": {
+    "logit": -4.49,
+    "procent": 12,
+    "procent_etap": 8
    }
   },
   {
@@ -548,6 +620,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kolejne obniżki procentowe się nie sumują; druga liczona od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -5.18,
+    "procent": 8,
+    "procent_etap": 5
    }
   },
   {
@@ -586,7 +663,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź liczbę ścian, krawędzi i wierzchołków przez liczbę boków podstawy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.88,
+    "procent": 23,
+    "procent_etap": 18
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q16",
@@ -630,6 +712,11 @@
      "kierunek-relacji"
     ],
     "opis": "Kto jest podstawą procentu: x większe od y o 20% liczone od y"
+   },
+   "trudnosc": {
+    "logit": -7.06,
+    "procent": 2,
+    "procent_etap": 1
    }
   },
   {
@@ -675,6 +762,11 @@
      "warunek-istnienia"
     ],
     "opis": "Bok równy połowie obwodu oznacza a = b + c, czyli trójkąt zdegenerowany"
+   },
+   "trudnosc": {
+    "logit": 5.43,
+    "procent": 91,
+    "procent_etap": 88
    }
   },
   {
@@ -721,6 +813,11 @@
      "procent-podstawa"
     ],
     "opis": "1/4 POZOSTAŁEJ objętości, a nie całego zbiornika"
+   },
+   "trudnosc": {
+    "logit": 2.64,
+    "procent": 74,
+    "procent_etap": 67
    }
   },
   {
@@ -758,7 +855,12 @@
     "rozwiazanie_ai_html": "<p>Krótsza podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>6</mn></math> cm, dłuższa 18 cm. Rzut ramienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>18</mn><mo>−</mo><mn>6</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>6</mn></math> cm, a przy kącie 45° wysokość też ma 6 cm — to połowa różnicy podstaw (P). Przekątna dzieli trapez na trójkąty o polach proporcjonalnych do podstaw 18 i 6, czyli w stosunku 3∶1 (P). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>6</mn><mo>+</mo><mn>18</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>72</mn></math> cm², nie 144 cm² (F). Ramię: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm, a przekątna kwadratu o boku 12 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>2</mn></msqrt></math> cm — różne długości (F).</p>",
     "punktacja_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.13,
+    "procent": 77,
+    "procent_etap": 70
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q20",
@@ -777,7 +879,12 @@
     "rozwiazanie_html": "<p>Liczba podzielna jednocześnie przez 3, 4 i 5 jest podzielna przez ich najmniejszą wspólną wielokrotność, czyli przez 60. W szczególności jest podzielna przez 5 i przez 4, więc jej cyfrą jedności jest 0 lub 5, a liczba tworzona przez dwie ostatnie cyfry musi być podzielna przez 4 — cyfrą jedności może być zatem tylko 0. Skoro cyfra tysięcy jest o 1 większa od cyfry jedności, to cyfra tysięcy wynosi 1. Cyfra setek jest liczbą pierwszą nieparzystą, czyli 3, 5 lub 7. Cyfra dziesiątek jest różna od 0 i od 6; aby zachować podzielność przez 3 (suma cyfr podzielna przez 3) oraz przez 4 (dwie ostatnie cyfry, tj. „dziesiątki 0”, podzielne przez 4 — spełnione dla dowolnej cyfry dziesiątek), sprawdzamy możliwości. Otrzymujemy trzy kody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1320</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1380</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1740</mn></math> (każdy podzielny przez 60).</p>",
     "punktacja_html": "<p>Punktacja (3 pkt): po 1 pkt za każdą poprawną liczbę.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.1,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q21",
@@ -797,7 +904,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wiek Janka. Wtedy Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi></math> lat, a razem dzieci mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>x</mi></math> lat, więc ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn><mi>x</mi><mo>=</mo><mn>21</mn><mi>x</mi></math> lat. Ania jest o 30 lat młodsza od ojca, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mi>x</mi><mo>−</mo><mn>6</mn><mi>x</mi><mo>=</mo><mn>30</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mi>x</mi><mo>=</mo><mn>30</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math>. Zatem Janek ma 2 lata, a ojciec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>42</mn></math> lata.</p>",
     "punktacja_html": "<p>Punktacja (4 pkt): 1 pkt za zapisanie łącznego wieku Ani i Janka, 1 pkt za ułożenie równania, 1 pkt za obliczenie wieku Janka, 1 pkt za obliczenie wieku ojca (lub 4 pkt, jeśli uczeń bez obliczeń poda prawidłowe wyniki i sprawdzi warunki zadania).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.03,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q22",
@@ -819,7 +931,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "odejmij od obu stron 2 cegły i 5 pustaków",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.44,
+    "procent": 54,
+    "procent_etap": 46
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q23",
@@ -840,7 +957,12 @@
     "rozwiazanie_html": "<p>Obliczamy miary kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADB</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>15</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>105</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BDE</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>105</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> jest równoległa do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CBE</mi><mo>=</mo><mn>60</mn><mo>°</mo></math>. Stąd w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BED</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>75</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>45</mn><mo>°</mo></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEF</mi></math> miary kątów są równe 45°, 90°, 45°, więc jest to trójkąt równoramienny, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>EF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>3</mn></math> cm.</p>",
     "punktacja_html": "<p>Punktacja (3 pkt): 1 pkt za poprawny rysunek, 1 pkt za poprawną metodę obliczenia miary kąta BED, 1 pkt za poprawne wyznaczenie długości odcinka EF.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.27,
+    "procent": 94,
+    "procent_etap": 91
+   }
   },
   {
    "id": "wojewodzki_2015-2016_slaskie_q24",
@@ -868,6 +990,11 @@
      "procent-podstawa"
     ],
     "opis": "Na basen 40% POZOSTAŁYCH, nie wszystkich uczestników"
+   },
+   "trudnosc": {
+    "logit": 0.97,
+    "procent": 59,
+    "procent_etap": 51
    }
   }
  ]

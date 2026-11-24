@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2026_lubelskie.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2026_lubelskie_q1",
@@ -52,6 +53,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytanie dotyczy wartości bezwzględnej wyrażenia, a samo wyrażenie jest ujemne"
+   },
+   "trudnosc": {
+    "logit": -1.94,
+    "procent": 31,
+    "procent_etap": 25
    }
   },
   {
@@ -96,6 +102,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "60 ma trzy różne dzielniki pierwsze, ale nie jest iloczynem trzech różnych liczb pierwszych (2 występuje dwa razy)"
+   },
+   "trudnosc": {
+    "logit": -3.1,
+    "procent": 21,
+    "procent_etap": 16
    }
   },
   {
@@ -134,7 +145,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześciocyfrowa liczba to N·10000 + N·100 + N",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.2,
+    "procent": 28,
+    "procent_etap": 23
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q4",
@@ -171,7 +187,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wyraź kolejno A i E przez D, procenty mnożąc jako ułamki dziesiętne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.17,
+    "procent": 47,
+    "procent_etap": 40
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q5",
@@ -209,7 +230,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MA</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MK</mi><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Pole (wzór Gaussa) wynosi 25 j² (P). Obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>+</mo><mn>5</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>26,2</mn></mrow></math> j, a nie 31 j (F). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>MA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>AK</mi><mn>2</mn></msup><mo>=</mo><mn>125</mn><mo>=</mo><msup><mi>MK</mi><mn>2</mn></msup></mrow></math>, kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty (P). Środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MK</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1,5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, a nie (2, 3) (F).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 5.36,
+    "procent": 91,
+    "procent_etap": 87
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q6",
@@ -252,6 +278,11 @@
      "zbior-liczb"
     ],
     "opis": "Rozwiązaniem jest nierówność nieostra, a w zdaniu 3 jest ostra; w zdaniu 2 liczby niedodatnie obejmują zero"
+   },
+   "trudnosc": {
+    "logit": 6.72,
+    "procent": 96,
+    "procent_etap": 93
    }
   },
   {
@@ -287,7 +318,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "cyfra jedności z cyklu potęg trójki, a pierwiastek sprawdź podnosząc prawą stronę do kwadratu",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 5.92,
+    "procent": 93,
+    "procent_etap": 90
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q8",
@@ -308,7 +344,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podstawiaj od ostatnich równań w górę: a+b+c wstaw do sumy, potem a+b do kolejnego",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.1,
+    "procent": 90,
+    "procent_etap": 86
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q9",
@@ -341,6 +382,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Promień 3 razy mniejszy to objętość 27 razy mniejsza; pytanie dotyczy pozostałej części mydła, nie całości"
+   },
+   "trudnosc": {
+    "logit": 4.04,
+    "procent": 83,
+    "procent_etap": 78
    }
   },
   {
@@ -369,6 +415,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczb trzycyfrowych jest 900; łatwo też pominąć 300 przy wypisywaniu"
+   },
+   "trudnosc": {
+    "logit": 1.52,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -390,7 +441,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel pole przez 6, a wynik zapisz tak, by wykładnik był parzysty — wtedy pierwiastek jest łatwy",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.9,
+    "procent": 68,
+    "procent_etap": 60
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q12",
@@ -419,6 +475,11 @@
      "warunek-istnienia"
     ],
     "opis": "Graniastosłupy mają być różne, więc prostokąty składa się wzdłuż różnych boków"
+   },
+   "trudnosc": {
+    "logit": 6.48,
+    "procent": 95,
+    "procent_etap": 92
    }
   },
   {
@@ -446,6 +507,11 @@
      "o-co-pytaja"
     ],
     "opis": "Godzinę liczy się od wyjazdu Stasia, a nie od wyjazdu Janka, który ma o 30 minut więcej jazdy"
+   },
+   "trudnosc": {
+    "logit": 7.64,
+    "procent": 98,
+    "procent_etap": 96
    }
   },
   {
@@ -467,7 +533,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza głębokość sadzawki (w stopach); wtedy wysokość lotosu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>. Odległość od środka sadzawki do środka brzegu wynosi 5 stóp. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>25</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> stóp.</p>",
     "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i zapisanie, zgodnie z warunkami zadania, wysokości lotosu, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – głębokość sadzawki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> – wysokość lotosu</li><li>2 pkt – poprawne, zgodne z warunkami zadania, zapisanie zależności wynikającej z twierdzenia Pitagorasa i prowadzącej do obliczenia głębokości sadzawki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>3 pkt – poprawne obliczenie głębokości sadzawki (rozwiązanie równania): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> stóp</li></ul>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.96,
+    "procent": 59,
+    "procent_etap": 51
+   }
   },
   {
    "id": "wojewodzki_2026_lubelskie_q15",
@@ -490,7 +561,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie bokiem kwadratu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> połową długości krótszej przekątnej rombu; wtedy połowa dłuższej przekątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>. Bok kwadratu spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math>, więc pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math>. Pole rombu o przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mi>x</mi><mo>·</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi></mrow></math>. Różnica pól wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>)</mo><mo>=</mo><mn>100</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>2</mn></msup></math>.</p>",
     "punktacja_html": "<p>Punktacja za kolejne etapy rozwiązania (narastająco):</p><ul><li>1 pkt – wprowadzenie oznaczeń i poprawne zapisanie zależności pomiędzy bokiem kwadratu, a odcinkiem będącym połową przekątnej rombu, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> – długość boku kwadratu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – połowa długości krótszej przekątnej rombu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li><li>2 pkt – poprawne przekształcenie zapisanego wyrażenia, w tym poprawne zastosowanie wzoru skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math></li><li>3 pkt – poprawne zapisanie pola kwadratu (zależność od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi><mo>+</mo><mn>100</mn></mrow></math></li><li>4 pkt – poprawne zastosowanie wzoru na obliczenie pola rombu, przy danych przekątnych i przekształcenie zapisanego wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mi>x</mi><mo>·</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>x</mi></mrow></math></li><li>5 pkt – poprawne obliczenie różnicy pól: 100</li></ul>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.76,
+    "procent": 92,
+    "procent_etap": 89
+   }
   }
  ]
 }

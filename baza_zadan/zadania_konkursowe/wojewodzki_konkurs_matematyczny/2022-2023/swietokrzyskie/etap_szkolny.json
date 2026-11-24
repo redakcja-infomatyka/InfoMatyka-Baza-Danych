@@ -8,6 +8,7 @@
  "liczba_zadan": 16,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_swietokrzyskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2022-2023_swietokrzyskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q1",
@@ -51,6 +52,11 @@
      "procent-podstawa"
     ],
     "opis": "Obniżka liczy się od nowej, wyższej ceny, nie od ceny wyjściowej"
+   },
+   "trudnosc": {
+    "logit": -2.68,
+    "procent": 24,
+    "procent_etap": 29
    }
   },
   {
@@ -88,7 +94,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wystarczy pomnożyć same reszty, a z tego iloczynu znów wziąć resztę z dzielenia przez 9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -2.55,
+    "procent": 26,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q3",
@@ -125,7 +136,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż podstawy na czynniki pierwsze i patrz na parzystość wykładników",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.76,
+    "procent": 42,
+    "procent_etap": 48
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q4",
@@ -163,7 +179,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "z każdej potęgi bierz tylko cyfrę jedności — one powtarzają się cyklicznie",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.06,
+    "procent": 50,
+    "procent_etap": 57
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q5",
@@ -201,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "licz od najgłębszego pierwiastka i wychodź warstwa po warstwie na zewnątrz",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.54,
+    "procent": 44,
+    "procent_etap": 50
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q6",
@@ -238,7 +264,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw cenę jednego pączka",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.0,
+    "procent": 14,
+    "procent_etap": 17
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q7",
@@ -277,7 +308,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przekątne prostokąta są równe i dzielą się na połowy, więc powstaje trójkąt równoramienny",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.46,
+    "procent": 26,
+    "procent_etap": 31
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q8",
@@ -310,7 +346,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "suma jest parzysta, gdy nieparzystych składników jest parzyście wiele — policz, ilu ich potrzeba",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 4.61,
+    "procent": 87,
+    "procent_etap": 92
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q9",
@@ -345,7 +386,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "zapisz a, b i c jako potęgi trójki i nic nie wymnażaj",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.02,
+    "procent": 93,
+    "procent_etap": 97
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q10",
@@ -390,6 +436,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kolejne zmiany procentowe się mnożą, a pole zmienia się z kwadratem skali boków"
+   },
+   "trudnosc": {
+    "logit": 3.17,
+    "procent": 78,
+    "procent_etap": 84
    }
   },
   {
@@ -430,6 +481,11 @@
      "kwantyfikator"
     ],
     "opis": "„Może być” — wystarczy jeden przykład trapezu, typowy rysunek myli"
+   },
+   "trudnosc": {
+    "logit": 4.57,
+    "procent": 87,
+    "procent_etap": 92
    }
   },
   {
@@ -457,6 +513,11 @@
      "o-co-pytaja"
     ],
     "opis": "Pytają o dziewczęta po wyjściu dwóch, nie o liczbę początkową"
+   },
+   "trudnosc": {
+    "logit": -0.22,
+    "procent": 47,
+    "procent_etap": 54
    }
   },
   {
@@ -478,7 +539,12 @@
     "rozwiazanie_html": "<p>Obliczamy licznik i mianownik liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,625</mn><mo>:</mo><mfrac><mn>7</mn><mn>12</mn></mfrac><mo>−</mo><mn>15,5</mn><mo>·</mo><mfrac><mn>1</mn><mn>21</mn></mfrac><mo>=</mo><mfrac><mn>15</mn><mn>14</mn></mfrac><mo>−</mo><mfrac><mn>31</mn><mn>42</mn></mfrac><mo>=</mo><mfrac><mn>14</mn><mn>42</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>5</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>·</mo><mn>2,4</mn><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>1</mn><mo>/</mo><mn>3</mn></mrow><mrow><mn>5</mn><mo>/</mo><mn>12</mn></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></math>. Dla liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mroot><mrow><mn>1,25</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></mrow><mn>3</mn></mroot><msqrt><mrow><mn>1,6</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></msqrt></mfrac><mo>=</mo><mfrac><mroot><mrow><mn>125</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow><mn>3</mn></mroot><msqrt><mrow><mn>16</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></msqrt></mfrac><mo>=</mo><mfrac><mn>50</mn><mn>400</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math>. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>27</mn><mn>40</mn></mfrac></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>%</mo><mo>·</mo><mi>c</mi><mo>=</mo><mi>a</mi><mo>−</mo><mi>b</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>27</mn><mn>100</mn></mfrac><mi>c</mi><mo>=</mo><mfrac><mn>27</mn><mn>40</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>2,5</mn></math>.</p>",
     "punktacja_html": "<p>Klucz: 2 pkt za obliczenie a (4/5), 2 pkt za obliczenie b (1/8), 1 pkt za obliczenie różnicy a − b, 1 pkt za obliczenie c.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 7.39,
+    "procent": 97,
+    "procent_etap": 99
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q14",
@@ -506,6 +572,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wierzchołek może być przy kącie rozwartym albo ostrym — dwie różne sytuacje"
+   },
+   "trudnosc": {
+    "logit": 5.57,
+    "procent": 92,
+    "procent_etap": 96
    }
   },
   {
@@ -526,7 +597,12 @@
     "rozwiazanie_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>250</mn></msup><mo>+</mo><msup><mn>10</mn><mn>20</mn></msup><mo>+</mo><mn>4</mn></math> ma w zapisie dziesiętnym postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mtext>0…0</mtext><mn>1</mn><mtext>0…0</mtext><mn>4</mn></math>. Jest podzielna przez 3, bo suma jej cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>6</mn></math>, a 6 jest podzielne przez 3. Jest podzielna przez 4, bo jej dwie ostatnie cyfry (04) tworzą liczbę podzielną przez 4. Ponieważ liczba jest podzielna zarówno przez 3, jak i przez 4, jest podzielna przez 12.</p><p><em>Odpowiedź: tak.</em></p>",
     "punktacja_html": "<p>Klucz: po 1 pkt za uzasadnienie podzielności przez 3, przez 4 oraz przez 12.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.85,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2022-2023_swietokrzyskie_q16",
@@ -554,6 +630,11 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite: dzielniki 9 trzeba brać także ujemne"
+   },
+   "trudnosc": {
+    "logit": 4.89,
+    "procent": 88,
+    "procent_etap": 93
    }
   }
  ]

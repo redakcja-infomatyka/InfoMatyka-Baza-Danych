@@ -8,6 +8,7 @@
  "liczba_zadan": 11,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2017_opolskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2017_opolskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2017_opolskie_q1",
@@ -40,7 +41,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz najpierw, jaką częścią bukietu są czerwone kwiaty — ułamki ładnie się skracają",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.42,
+    "procent": 63,
+    "procent_etap": 55
+   }
   },
   {
    "id": "wojewodzki_2017_opolskie_q2",
@@ -73,7 +79,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sześcian ma 12 krawędzi, więc zacznij od długości jednej z nich",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.72,
+    "procent": 33,
+    "procent_etap": 26
+   }
   },
   {
    "id": "wojewodzki_2017_opolskie_q3",
@@ -113,6 +124,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Wyraz n²−1 nie rośnie proporcjonalnie – podwojenie numeru nie podwaja wyrazu"
+   },
+   "trudnosc": {
+    "logit": 4.41,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -146,7 +162,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Pole trójkąta prostokątnego równoramiennego o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>25</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>50</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, a przeciwprostokątna ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>10</mn></mrow></math> cm. Z trzech takich trójkątów (przystających, każdy o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm) powstaje trapez równoramienny o podstawach 10 cm i 20 cm, wysokości 5 cm oraz ramionach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>7,07</mn></mrow></math> cm. Krótsza podstawa ma 10 cm, a nie 5 cm (NIE). Wysokość trapezu wynosi 5 cm (TAK). Ramię ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, a nie 5 cm (NIE).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 3.71,
+    "procent": 81,
+    "procent_etap": 75
+   }
   },
   {
    "id": "wojewodzki_2017_opolskie_q5",
@@ -187,6 +208,11 @@
      "procent-podstawa"
     ],
     "opis": "Podwyżka liczona od starej ceny – odjęcie p% od nowej ceny nie cofa podwyżki"
+   },
+   "trudnosc": {
+    "logit": 1.46,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -212,6 +238,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "W trójkącie prostokątnym dwie z trzech wysokości to przyprostokątne – łatwo podać tylko jedną"
+   },
+   "trudnosc": {
+    "logit": 1.54,
+    "procent": 64,
+    "procent_etap": 56
    }
   },
   {
@@ -238,6 +269,11 @@
      "kwantyfikator"
     ],
     "opis": "„Tylko przez 3” – NWD licznika i mianownika ma być dokładnie 3, nie dowolną wielokrotnością 3"
+   },
+   "trudnosc": {
+    "logit": 5.5,
+    "procent": 92,
+    "procent_etap": 88
    }
   },
   {
@@ -259,7 +295,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "od pola kwadratu odejmij trzy trójkąty odcięte przy narożnikach",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.56,
+    "procent": 64,
+    "procent_etap": 57
+   }
   },
   {
    "id": "wojewodzki_2017_opolskie_q9",
@@ -287,6 +328,11 @@
      "jednostki"
     ],
     "opis": "Mijając peron, pociąg pokonuje peron plus własną długość; prędkość podać w km/h"
+   },
+   "trudnosc": {
+    "logit": 2.22,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -316,6 +362,11 @@
      "inne:wspolna-czesc-tuneli"
     ],
     "opis": "Trzy tunele krzyżują się w środku – wspólny sześcianik łatwo odjąć trzy razy"
+   },
+   "trudnosc": {
+    "logit": 4.73,
+    "procent": 88,
+    "procent_etap": 83
    }
   },
   {
@@ -345,6 +396,11 @@
      "procent-podstawa"
     ],
     "opis": "„O 20% więcej” liczy się od wydanej kwoty, nie od całych oszczędności"
+   },
+   "trudnosc": {
+    "logit": 2.73,
+    "procent": 75,
+    "procent_etap": 67
    }
   }
  ]

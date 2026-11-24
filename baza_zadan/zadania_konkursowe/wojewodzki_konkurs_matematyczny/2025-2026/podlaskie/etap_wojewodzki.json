@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_podlaskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/wojewodzki/2025_podlaskie_answers.pdf",
  "zadania": [
   {
    "id": "wojewodzki_2025_podlaskie_q1",
@@ -45,7 +46,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "średnia pomnożona przez liczbę boków daje ich sumę, czyli obwód",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.39,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q2",
@@ -90,6 +96,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Klasyk „kij i piłka”: odjęcie różnicy od sumy daje cenę, która wydaje się oczywista, a jest błędna"
+   },
+   "trudnosc": {
+    "logit": -1.77,
+    "procent": 32,
+    "procent_etap": 26
    }
   },
   {
@@ -136,6 +147,11 @@
      "plot-i-slupki"
     ],
     "opis": "Liczba dzieci przed Frankiem to nie jego miejsce w kolejce"
+   },
+   "trudnosc": {
+    "logit": -2.43,
+    "procent": 26,
+    "procent_etap": 21
    }
   },
   {
@@ -176,7 +192,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "duże półkole ma średnicę 4+2, a białe wycięcie to ćwiartka koła — odejmij ją",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.02,
+    "procent": 39,
+    "procent_etap": 32
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q5",
@@ -214,7 +235,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "patrz tylko na resztę 5 i sprawdzaj, co dodane lub odjęte domyka ją do wielokrotności 6",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.78,
+    "procent": 24,
+    "procent_etap": 19
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q6",
@@ -251,7 +277,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Oznaczmy kąty jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>−</mo><mi>β</mi></mrow></math>. Suma kątów trójkąta daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mo>(</mo><mi>α</mi><mo>−</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>.</p>"
    },
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.55,
+    "procent": 26,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q7",
@@ -283,7 +314,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "odczytaj współrzędne A, B i C z kratki — oś symetrii leży w połowie odległości między punktem a obrazem",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.85,
+    "procent": 31,
+    "procent_etap": 25
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q8",
@@ -322,6 +358,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "A i B są symetryczne względem prostej b przechodzącej przez (−1,1), ale nie względem tego punktu"
+   },
+   "trudnosc": {
+    "logit": -0.62,
+    "procent": 43,
+    "procent_etap": 35
    }
   },
   {
@@ -363,7 +404,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "dane kąty odejmij od kątów prostych prostokąta, a trzeci kąt trójkąta dolicz do 180°",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.7,
+    "procent": 42,
+    "procent_etap": 35
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q10",
@@ -390,6 +436,11 @@
      "o-co-pytaja"
     ],
     "opis": "Każdy uczeń biegł trzy razy; suma liczb z tabeli to nie liczba osób"
+   },
+   "trudnosc": {
+    "logit": 3.56,
+    "procent": 81,
+    "procent_etap": 74
    }
   },
   {
@@ -418,6 +469,11 @@
      "znak"
     ],
     "opis": "Minus przed iloczynem (x+2)(x−2) zmienia znak także wyrazu −4"
+   },
+   "trudnosc": {
+    "logit": -1.4,
+    "procent": 36,
+    "procent_etap": 29
    }
   },
   {
@@ -447,6 +503,11 @@
      "zbior-liczb"
     ],
     "opis": "Status liczby 1: nie jest pierwsza, ale jest potęgą liczby naturalnej (1 = 1²)"
+   },
+   "trudnosc": {
+    "logit": 4.5,
+    "procent": 86,
+    "procent_etap": 81
    }
   },
   {
@@ -467,7 +528,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pomnóż rodzaje pizzy przez liczbę spodów, a dopiero ten wynik przez liczbę sosów",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.53,
+    "procent": 26,
+    "procent_etap": 20
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q14",
@@ -498,6 +564,11 @@
      "zaokraglenie"
     ],
     "opis": "Podstawa w dm, reszta w m; liczbę opakowań zaokrągla się w górę"
+   },
+   "trudnosc": {
+    "logit": 0.07,
+    "procent": 50,
+    "procent_etap": 43
    }
   },
   {
@@ -520,7 +591,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz przewagę ciężarówki o 9:30 i o ile kilometrów na godzinę zmniejsza ją osobowy",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -3.03,
+    "procent": 22,
+    "procent_etap": 17
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q16",
@@ -542,7 +618,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "policz, jaką część obrotu robi każda wskazówka w 4 godziny, i pomnóż przez obwód jej okręgu",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.98,
+    "procent": 59,
+    "procent_etap": 52
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q17",
@@ -563,7 +644,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Przedsiębiorstwo B zatrudnia 92 osoby, co stanowi 23% ogółu (z diagramu kołowego). Zatem łączna liczba zatrudnionych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,23</mn><mi>x</mi><mo>=</mo><mn>92</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>400</mn></mrow></math> osób. (Sprawdzenie: 35% z 400 = 140 = A.) Przedsiębiorstwo C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,11</mn><mo>·</mo><mn>400</mn><mo>=</mo><mn>44</mn></mrow></math> osoby, przedsiębiorstwo D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,31</mn><mo>·</mo><mn>400</mn><mo>=</mo><mn>124</mn></mrow></math> osoby.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.28,
+    "procent": 62,
+    "procent_etap": 54
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q18",
@@ -591,6 +677,11 @@
      "procent-podstawa"
     ],
     "opis": "Rower to połowa POZOSTAŁEJ trasy, nie połowa całej"
+   },
+   "trudnosc": {
+    "logit": -1.06,
+    "procent": 39,
+    "procent_etap": 32
    }
   },
   {
@@ -609,7 +700,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Liczba uczniów z poszczególnymi ocenami: dwója <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>24</mn><mo>=</mo><mn>8</mn></mrow></math>, trójka 6, czwórka 4, piątka 3, szóstka 2, jedynka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mo>(</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>. Średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>8</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>6</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>·</mo><mn>1</mn></mrow><mn>24</mn></mfrac><mo>=</mo><mn>3,25</mn></mrow></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.71,
+    "procent": 56,
+    "procent_etap": 49
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q20",
@@ -627,7 +723,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_html": "<p>Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3,6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>12,96</mn></mrow></math> m². Z wzoru na objętość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msub><mi>P</mi><mi>p</mi></msub><mi>h</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>7,56</mn></mrow><mn>12,96</mn></mfrac><mo>=</mo><mn>1,75</mn></mrow></math> m. Ponieważ 152 cm = 1,52 m < 1,75 m, Adela może stanąć wyprostowana w tym namiocie.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -0.38,
+    "procent": 45,
+    "procent_etap": 38
+   }
   },
   {
    "id": "wojewodzki_2025_podlaskie_q21",
@@ -662,6 +763,11 @@
      "rysunek"
     ],
     "opis": "Odcinek „a” w środku to średnica małego koła, nie promień; duży promień nie jest równy 2a"
+   },
+   "trudnosc": {
+    "logit": 2.2,
+    "procent": 70,
+    "procent_etap": 63
    }
   },
   {
@@ -690,6 +796,11 @@
      "inne:cyklicznosc"
     ],
     "opis": "Sektory leżą w kole: szósty sąsiaduje z pierwszym"
+   },
+   "trudnosc": {
+    "logit": 2.05,
+    "procent": 69,
+    "procent_etap": 62
    }
   }
  ]

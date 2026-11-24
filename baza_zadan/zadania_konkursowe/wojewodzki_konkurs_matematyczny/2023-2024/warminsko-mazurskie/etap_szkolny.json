@@ -8,6 +8,7 @@
  "liczba_zadan": 15,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_warminsko-mazurskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_warminsko-mazurskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "znajdź osobno największy sześciocyfrowy i najmniejszy pięciocyfrowy palindrom, potem odejmij",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.62,
+    "procent": 43,
+    "procent_etap": 49
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q2",
@@ -82,7 +88,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "rozetnij bok 11 cm na 7 i 4 — powstaną dwa paski, każdy łatwy do pokrycia",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 0.83,
+    "procent": 57,
+    "procent_etap": 64
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q3",
@@ -126,6 +137,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytają o część całej klasy, a nie o stosunek liczby dziewcząt do liczby chłopców"
+   },
+   "trudnosc": {
+    "logit": -5.19,
+    "procent": 8,
+    "procent_etap": 9
    }
   },
   {
@@ -164,7 +180,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "porównaj pole czterech odciętych trójkątów z polem środkowego kwadratu",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.14,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q5",
@@ -201,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź sumę cyfr każdej z tych liczb",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.08,
+    "procent": 39,
+    "procent_etap": 45
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q6",
@@ -246,6 +272,11 @@
      "o-co-pytaja"
     ],
     "opis": "b to zaokrąglenie liczby a, nie wyjściowej 6,645 – podwójne zaokrąglenie daje inny wynik"
+   },
+   "trudnosc": {
+    "logit": -0.83,
+    "procent": 41,
+    "procent_etap": 48
    }
   },
   {
@@ -291,6 +322,11 @@
      "kierunek-relacji"
     ],
     "opis": "„Cztery razy mniejszy od kąta przy wierzchołku” – łatwo odwrócić, który kąt jest 4 razy większy"
+   },
+   "trudnosc": {
+    "logit": -4.14,
+    "procent": 14,
+    "procent_etap": 16
    }
   },
   {
@@ -336,6 +372,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "√3,6 wygląda na „ładny” pierwiastek przez skojarzenie z 36, ale 3,6 nie jest kwadratem liczby wymiernej"
+   },
+   "trudnosc": {
+    "logit": -2.21,
+    "procent": 28,
+    "procent_etap": 34
    }
   },
   {
@@ -373,7 +414,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "wstaw ananas = grejpfrut + jabłko do drugiego warunku",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.63,
+    "procent": 34,
+    "procent_etap": 39
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q10",
@@ -418,7 +464,18 @@
      "zbior-liczb"
     ],
     "opis": "Liczby całkowite to także ujemne i zero, nie tylko dodatnie"
-   }
+   },
+   "trudnosc": {
+    "logit": -3.46,
+    "procent": 18,
+    "procent_etap": 22
+   },
+   "podobne": [
+    {
+     "id": "szkolny_2023_podlaskie_q3",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q11",
@@ -462,6 +519,11 @@
      "kwantyfikator"
     ],
     "opis": "Zdanie 1: podzielność przez 2 i 4 nie daje podzielności przez 2·4, bo 2 i 4 nie są względnie pierwsze"
+   },
+   "trudnosc": {
+    "logit": 2.44,
+    "procent": 72,
+    "procent_etap": 79
    }
   },
   {
@@ -485,7 +547,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zastanów się, jakim procentem liczby dziewcząt jest tych 15 chłopców",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.6,
+    "procent": 25,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2023-2024_warminsko-mazurskie_q13",
@@ -513,6 +580,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Średnia wszystkich pięciu liczb to nie średnia z dwóch średnich, bo grupy mają różną liczebność"
+   },
+   "trudnosc": {
+    "logit": -3.18,
+    "procent": 20,
+    "procent_etap": 24
    }
   },
   {
@@ -541,6 +613,11 @@
      "wszystkie-przypadki"
     ],
     "opis": "Wśród par cyfr o sumie 10 jest 91, która wygląda na pierwszą; trzeba też wypisać wszystkie liczby"
+   },
+   "trudnosc": {
+    "logit": 3.6,
+    "procent": 81,
+    "procent_etap": 87
    }
   },
   {
@@ -563,7 +640,12 @@
     "rozwiazanie_html": "<p>Z wzoru na pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>=</mo><mfrac><mrow><mn>12</mn><mo>+</mo><mn>24</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mn>18</mn><mi>h</mi></math>, więc wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>8</mn></math> cm. Rzut ramienia na dłuższą podstawę ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>24</mn><mo>−</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> cm. Z twierdzenia Pitagorasa długość ramienia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>=</mo><mn>10</mn></math> cm. Obwód trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>56</mn></math> cm.</p>",
     "punktacja_html": "<p>Częściowo: po 1 pkt za wykonanie rysunku z zaznaczeniem odcinków 6 cm w dolnej podstawie, obliczenie wysokości trapezu (8 cm), obliczenie długości ramienia (10 cm) oraz obliczenie obwodu (56 cm).</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": -0.53,
+    "procent": 44,
+    "procent_etap": 50
+   }
   }
  ]
 }

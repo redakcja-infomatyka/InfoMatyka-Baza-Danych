@@ -8,6 +8,7 @@
  "liczba_zadan": 22,
  "max_punktow": 50,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016_podkarpackie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2016_podkarpackie_answers.pdf",
  "zadania": [
   {
    "id": "rejonowy_2016_podkarpackie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz każdy zapis rzymski na liczbę: M=1000, CM=900, CD=400, D=500",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.21,
+    "procent": 13,
+    "procent_etap": 15
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamiast średnich porównaj sumy wieku przed dołączeniem opiekuna i po nim",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.98,
+    "procent": 22,
+    "procent_etap": 24
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "ile razy więcej osób, tyle razy więcej jajek",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.78,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q4",
@@ -140,7 +156,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica wieku mamy i córki zawsze wynosi 24 lata",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.16,
+    "procent": 61,
+    "procent_etap": 62
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q5",
@@ -177,7 +198,22 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "sprawdź nierówność trójkąta na samych stosunkach, długość 36 cm nie jest potrzebna",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.04,
+    "procent": 14,
+    "procent_etap": 16
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2019-2020_zachodniopomorskie_q12",
+     "rodzaj": "wariant"
+    },
+    {
+     "id": "wojewodzki_2021_podlaskie_q13",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2016_podkarpackie_q6",
@@ -214,7 +250,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozbij 12% na 10% plus 2%",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.22,
+    "procent": 2,
+    "procent_etap": 2
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q7",
@@ -251,7 +292,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "szukasz dzielnika, więc podziel dzielną przez wynik",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -4.85,
+    "procent": 10,
+    "procent_etap": 11
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q8",
@@ -288,7 +334,18 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "porównaj objętości obu akwariów, zanim policzysz czas",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -4.78,
+    "procent": 10,
+    "procent_etap": 12
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2021_podlaskie_q16",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2016_podkarpackie_q9",
@@ -324,6 +381,11 @@
      "procent-podstawa"
     ],
     "opis": "Żeby odtworzyć cenę sprzed podwyżki, trzeba podzielić przez 1,1, a nie odjąć 10% nowej ceny"
+   },
+   "trudnosc": {
+    "logit": -3.78,
+    "procent": 16,
+    "procent_etap": 18
    }
   },
   {
@@ -362,7 +424,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "miejsca 5 i 50 dzieli 45 — porównaj to z długością okresu każdego ułamka",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 2.7,
+    "procent": 74,
+    "procent_etap": 76
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q11",
@@ -407,6 +474,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Kolejne obniżki o 20%, 30% i 50% się nie sumują, bo każda liczy się od nowej ceny"
+   },
+   "trudnosc": {
+    "logit": 0.94,
+    "procent": 58,
+    "procent_etap": 60
    }
   },
   {
@@ -444,7 +516,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień wszystkie ułamki na dziesiętne i dodaj zmiany razem ze znakami",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.9,
+    "procent": 40,
+    "procent_etap": 42
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q13",
@@ -489,6 +566,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Podwyżka o 1/10 liczy się od ceny już obniżonej, a nie od ceny początkowej"
+   },
+   "trudnosc": {
+    "logit": -3.8,
+    "procent": 16,
+    "procent_etap": 17
    }
   },
   {
@@ -526,7 +608,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "najpierw zaokrąglij każdą liczbę do setnych, dopiero potem dodawaj",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -1.2,
+    "procent": 38,
+    "procent_etap": 39
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q15",
@@ -563,7 +650,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zacznij od godziny sobotniej i wykonaj zmiany po kolei: poniedziałek, czwartek, kino",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -2.91,
+    "procent": 22,
+    "procent_etap": 24
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q16",
@@ -607,7 +699,18 @@
      "plot-i-slupki"
     ],
     "opis": "Łatwo pomylić się o jeden przy ustalaniu, którą z kolei liczbą dwucyfrową jest 100. cyfra"
-   }
+   },
+   "trudnosc": {
+    "logit": 2.55,
+    "procent": 73,
+    "procent_etap": 74
+   },
+   "podobne": [
+    {
+     "id": "rejonowy_2020-2021_wielkopolskie_q5",
+     "rodzaj": "to_samo"
+    }
+   ]
   },
   {
    "id": "rejonowy_2016_podkarpackie_q17",
@@ -635,6 +738,11 @@
      "konwencja"
     ],
     "opis": "Ujemna liczba mieszana −1 3/7 oznacza −(1+3/7), a nie −1+3/7"
+   },
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 47
    }
   },
   {
@@ -656,7 +764,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "podziel 24,8 przez 8 i pomnóż przez 7, potem rozdziel sumę na 5 równych części",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.7,
+    "procent": 33,
+    "procent_etap": 34
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q19",
@@ -685,6 +798,11 @@
      "inne:rok-poczatkowy"
     ],
     "opis": "Rok 2000, czyli pierwsze wspólne zawody, nie jest liczony do kolejnych spotkań"
+   },
+   "trudnosc": {
+    "logit": 2.76,
+    "procent": 75,
+    "procent_etap": 76
    }
   },
   {
@@ -713,6 +831,11 @@
      "pozorna-wlasnosc"
     ],
     "opis": "Pole w skali 1:k zmienia się k² razy, a nie k razy"
+   },
+   "trudnosc": {
+    "logit": 0.72,
+    "procent": 56,
+    "procent_etap": 57
    }
   },
   {
@@ -734,7 +857,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica 55% i 45% to te 8 osób, a stosunek odczytasz wprost z procentów",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -1.17,
+    "procent": 38,
+    "procent_etap": 40
+   }
   },
   {
    "id": "rejonowy_2016_podkarpackie_q22",
@@ -755,7 +883,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole boczne to obwód podstawy razy wysokość; górną podstawę dolicz, dolnej nie",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.95,
+    "procent": 68,
+    "procent_etap": 70
+   }
   }
  ]
 }

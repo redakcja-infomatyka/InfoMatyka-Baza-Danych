@@ -8,6 +8,7 @@
  "liczba_zadan": 9,
  "max_punktow": 25,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2023-2024_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2023-2024_pomorskie_q1",
@@ -26,7 +27,12 @@
     "rozwiazanie_html": "<p>Zadanie rozwiązujemy, cofając się od końca. Na końcu na obu gałęziach jest po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> wróbli (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>). Druga zmiana podwoiła liczbę wróbli na pierwszej gałęzi z 4 do 8 (przeniesiono 4 wróble z drugiej gałęzi), więc przed nią na pierwszej gałęzi były 4 wróble, a na drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math>. Pierwsza zmiana podwoiła liczbę wróbli na drugiej gałęzi do 12 (przeniesiono 6 wróbli z pierwszej gałęzi), więc początkowo na drugiej gałęzi było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math>, a na pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></mrow></math> wróbli.</p><p>Odpowiedź: na pierwszej gałęzi siedzi 10 wróbli, a na drugiej 6.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): zauważenie, że po pierwszej zmianie na gałęziach byłoby odpowiednio 4 i 12 wróbli.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.07,
+    "procent": 69,
+    "procent_etap": 76
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q2",
@@ -50,7 +56,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pola trójkąta i trapezu razem dają pole kwadratu — stąd długość boku",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.64,
+    "procent": 65,
+    "procent_etap": 72
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q3",
@@ -72,7 +83,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zapisz każdy składnik jako potęgę o podstawie 3",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.1,
+    "procent": 48,
+    "procent_etap": 55
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q4",
@@ -93,7 +109,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "liczy się tylko stosunek a do b — wyznacz a przez b i skróć",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -0.41,
+    "procent": 45,
+    "procent_etap": 52
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q5",
@@ -116,7 +137,12 @@
     "rozwiazanie_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma pole 25 cm², więc jego bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math> cm. Bok nowego kwadratu jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych 1 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></mrow></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>37</mn></mrow></math> i pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> wynosi 37 cm². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>37</mn><mo>−</mo><mn>25</mn></mrow><mn>25</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>48</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> jest o 48% większe od pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): obliczenie długości boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> lub różnicy pól kwadratów (12 cm²).</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.79,
+    "procent": 67,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q6",
@@ -142,6 +168,11 @@
      "procent-podstawa"
     ],
     "opis": "Procent liczony od wszystkich chłopców szkoły, nie od uczestników konkursu ani od wszystkich uczniów"
+   },
+   "trudnosc": {
+    "logit": -0.58,
+    "procent": 43,
+    "procent_etap": 49
    }
   },
   {
@@ -163,7 +194,12 @@
     "rozwiazanie_html": "<p>Wyznaczamy ostatnie cyfry obu potęg. Ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math> zależy od ostatniej cyfry podstawy (3), która w kolejnych potęgach powtarza się w cyklu 3, 9, 7, 1; ponieważ wykładnik 2024 jest podzielny przez 4, ostatnią cyfrą jest 1. Ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup></math> zależy od cyfry 4: dla nieparzystego wykładnika wynosi ona 4. Zatem ostatnią cyfrą sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2023</mn><mn>2024</mn></msup><mo>+</mo><msup><mn>2024</mn><mn>2023</mn></msup></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></mrow></math>, więc liczba ta jest podzielna przez 5.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): podanie ostatnich cyfr liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup></math>.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.19,
+    "procent": 70,
+    "procent_etap": 77
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q8",
@@ -186,7 +222,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przelicz obie prędkości na cm/s; trasa ta sama, a czasy różnią się o 2 s",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 1.88,
+    "procent": 68,
+    "procent_etap": 74
+   }
   },
   {
    "id": "szkolny_2023-2024_pomorskie_q9",
@@ -217,6 +258,11 @@
      "jednostki"
     ],
     "opis": "9.6: zamiana m² na ary, hektary i km² — warianty kuszą błędnym przelicznikiem"
+   },
+   "trudnosc": {
+    "logit": 8.16,
+    "procent": 99,
+    "procent_etap": 100
    }
   }
  ]

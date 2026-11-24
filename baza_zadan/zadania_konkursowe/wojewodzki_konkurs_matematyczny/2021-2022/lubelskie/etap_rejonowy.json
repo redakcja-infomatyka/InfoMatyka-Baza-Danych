@@ -8,6 +8,7 @@
  "liczba_zadan": 17,
  "max_punktow": 40,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_lubelskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/rejonowy/2022_lubelskie.pdf",
  "zadania": [
   {
    "id": "rejonowy_2022_lubelskie_q1",
@@ -44,7 +45,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zsumuj znane cyfry i sprawdź, ile brakuje do najbliższej wielokrotności 9",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.18,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q2",
@@ -81,7 +87,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "użyj wzoru na kwadrat różnicy i pamiętaj, że 2a podnosisz do kwadratu w całości",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -8.62,
+    "procent": 0,
+    "procent_etap": 0
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q3",
@@ -118,7 +129,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "przesuń przecinek tak, by przed nim została jedna cyfra, i policz przesunięcia",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -7.42,
+    "procent": 1,
+    "procent_etap": 2
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q4",
@@ -155,7 +171,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty przyległe sumują się do 180° — odejmij różnicę i rozdziel resztę po równo",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.59,
+    "procent": 6,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q5",
@@ -192,7 +213,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "pole całkowite to podwojona suma pól trzech różnych ścian",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -6.16,
+    "procent": 4,
+    "procent_etap": 5
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q6",
@@ -235,6 +261,11 @@
      "procent-podstawa"
     ],
     "opis": "Różnica pól to 5% pola W2, ale zdanie mówi, że W3 jest mniejszy; trzeba sprawdzić, który wielokąt jest większy"
+   },
+   "trudnosc": {
+    "logit": 3.06,
+    "procent": 77,
+    "procent_etap": 78
    }
   },
   {
@@ -268,7 +299,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień m/s na km/h, mnożąc przez 3,6, a w ostatnim zdaniu licz od razu różnicą prędkości",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.43,
+    "procent": 63,
+    "procent_etap": 65
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q8",
@@ -288,7 +324,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż zapis rzymski na części: M + CM + LXXX + IV",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.27,
+    "procent": 8,
+    "procent_etap": 9
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q9",
@@ -308,7 +349,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "rozłóż obie liczby na czynniki pierwsze i weź te wspólne",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": -5.83,
+    "procent": 6,
+    "procent_etap": 6
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q10",
@@ -329,7 +375,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "kąty ostre dają razem 90° — podziel je w stosunku 4:5",
-   "czas_min": 1
+   "czas_min": 1,
+   "trudnosc": {
+    "logit": -5.36,
+    "procent": 7,
+    "procent_etap": 8
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q11",
@@ -355,6 +406,11 @@
      "kierunek-relacji"
     ],
     "opis": "„4 razy więcej” to nie „o 400% więcej”; łatwo też liczyć procent od żółtych zamiast od zielonych"
+   },
+   "trudnosc": {
+    "logit": 2.03,
+    "procent": 69,
+    "procent_etap": 70
    }
   },
   {
@@ -375,7 +431,12 @@
     "zrodlo": "klucz",
     "rozwiazanie_ai_html": "<p>Ramię: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>50</mn><mo>−</mo><mn>16</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>17</mn></math> cm. Wysokość na podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>17</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>225</mn></msqrt><mo>=</mo><mn>15</mn></math> cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>·</mo><mn>15</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>120</mn></math> cm².</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.27,
+    "procent": 28,
+    "procent_etap": 30
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q13",
@@ -405,6 +466,11 @@
      "znak"
     ],
     "opis": "Minus przed liczbą mieszaną odnosi się do całości: −2⅓ = −(2 + 1/3), a nie −2 + 1/3"
+   },
+   "trudnosc": {
+    "logit": 1.31,
+    "procent": 62,
+    "procent_etap": 64
    }
   },
   {
@@ -435,6 +501,11 @@
      "o-co-pytaja"
     ],
     "opis": "Niewiadomą jest liczba zadań z pierwszego dnia, a pytanie dotyczy trzeciego dnia"
+   },
+   "trudnosc": {
+    "logit": -1.93,
+    "procent": 31,
+    "procent_etap": 32
    }
   },
   {
@@ -456,7 +527,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "dodaj oba warunki stronami, a potem odejmij — liczby 12 i 6 są w nich symetryczne",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.59,
+    "procent": 25,
+    "procent_etap": 27
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q16",
@@ -481,7 +557,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "bok AC dopełnia trójkę pitagorejską, a wysokość znajdziesz, licząc pole dwoma sposobami",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 0.04,
+    "procent": 50,
+    "procent_etap": 52
+   }
   },
   {
    "id": "rejonowy_2022_lubelskie_q17",
@@ -505,7 +586,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "różnica podstaw to przyprostokątna przy dłuższym ramieniu — stąd wysokość z trójki pitagorejskiej",
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 2.9,
+    "procent": 76,
+    "procent_etap": 77
+   }
   }
  ]
 }

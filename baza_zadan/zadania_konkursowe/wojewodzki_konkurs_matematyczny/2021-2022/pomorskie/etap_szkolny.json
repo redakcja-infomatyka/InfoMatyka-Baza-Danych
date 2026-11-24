@@ -8,6 +8,7 @@
  "liczba_zadan": 8,
  "max_punktow": 20,
  "zrodlo_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_pomorskie.pdf",
+ "klucz_pdf": "https://raw.githubusercontent.com/redakcja-infomatyka/InfoMatyka-Baza-Danych/main/baza_zadan/zadania_konkursowe/wojewodzki_konkurs_matematyczny/arkusze_pdf/szkolny/2021-2022_pomorskie_answers.pdf",
  "zadania": [
   {
    "id": "szkolny_2021-2022_pomorskie_q1",
@@ -27,7 +28,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę żelków w paczce. Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>, a w paczce zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi><mo>−</mo><mn>12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>28</mn></mrow></math>.</p><p>Odpowiedź: w paczce na początku było 28 żelków.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): ułożenie równania z jedną niewiadomą pozwalającego obliczyć, ile żelków było w paczce.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": -2.51,
+    "procent": 26,
+    "procent_etap": 30
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q2",
@@ -48,7 +54,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie szukaną liczbą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ilorazem z dzielenia przez 19. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>19</mn><mi>a</mi><mo>+</mo><mn>17</mn></mrow></math>. Dzieląc przez 21, otrzymujemy iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow></math> i resztę 18, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>21</mn><mo>(</mo><mi>a</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>18</mn><mo>=</mo><mn>21</mn><mi>a</mi><mo>−</mo><mn>3</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mi>a</mi><mo>+</mo><mn>17</mn><mo>=</mo><mn>21</mn><mi>a</mi><mo>−</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>10</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>19</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>17</mn><mo>=</mo><mn>207</mn></mrow></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>207</mn><mo>:</mo><mn>21</mn><mo>=</mo><mn>9</mn></mrow></math> r. 18 — iloraz o 1 mniejszy i reszta o 1 większa.</p><p>Odpowiedź: szukaną liczbą jest 207.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): zapisanie równania (równań) pozwalającego obliczyć iloraz a lub inna poprawna metoda wskazująca zrozumienie dzielenia z resztą i podanie liczby 207.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 2.61,
+    "procent": 74,
+    "procent_etap": 81
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q3",
@@ -71,7 +82,12 @@
     "rozwiazanie_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> będzie spodkiem prostopadłej poprowadzonej z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na półprostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> spodkiem prostopadłej z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest prostopadłe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, w trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFD</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma miarę 30°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>. Kwadrat ma równe boki, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABG</mi></math> kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma miarę 60°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi><msqrt><mn>3</mn></msqrt></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DF</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BG</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Odpowiedź: długość boku kwadratu jest równa 12.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): sporządzenie rysunku pomocniczego i uzależnienie odległości wierzchołków B i D od półprostej k od jednej niewiadomej.</p>"
    },
-   "czas_min": 10
+   "czas_min": 10,
+   "trudnosc": {
+    "logit": 5.12,
+    "procent": 90,
+    "procent_etap": 94
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q4",
@@ -94,7 +110,12 @@
    },
    "w_pamieci": "wprost",
    "wskazowka": "zamień oba czasy okrążenia na część toru pokonywaną w ciągu minuty i odejmij",
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 4.89,
+    "procent": 88,
+    "procent_etap": 93
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q5",
@@ -116,7 +137,12 @@
    },
    "w_pamieci": "pomysl",
    "wskazowka": "podziel obie strony przez najmniejszą z występujących potęg 2022",
-   "czas_min": 2
+   "czas_min": 2,
+   "trudnosc": {
+    "logit": 1.36,
+    "procent": 63,
+    "procent_etap": 70
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q6",
@@ -144,6 +170,11 @@
      "procent-podstawa"
     ],
     "opis": "Pytanie 'o ile procent większa', a stosunek objętości to 2,197 — łatwo podać sam stosunek"
+   },
+   "trudnosc": {
+    "logit": 2.94,
+    "procent": 76,
+    "procent_etap": 83
    }
   },
   {
@@ -164,7 +195,12 @@
     "rozwiazanie_html": "<p>Zapisujemy wszystkie liczby jako iloczyny potęg o podstawach 2, 3 i 5. Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><mo>·</mo><msup><mn>2</mn><mn>52</mn></msup><mo>·</mo><msup><mn>15</mn><mn>50</mn></msup><mo>=</mo><msup><mn>2</mn><mn>52</mn></msup><mo>·</mo><msup><mn>3</mn><mn>53</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math>. Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>6</mn><mn>52</mn></msup><mo>·</mo><msup><mn>25</mn><mn>25</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>27</mn><mn>18</mn></msup><mo>·</mo><msup><mn>10</mn><mn>50</mn></msup><mo>=</mo><msup><mn>2</mn><mn>52</mn></msup><mo>·</mo><msup><mn>3</mn><mn>52</mn></msup><mo>·</mo><msup><mn>5</mn><mn>51</mn></msup><mo>−</mo><msup><mn>2</mn><mn>51</mn></msup><mo>·</mo><msup><mn>3</mn><mn>54</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math>. Wyłączając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>51</mn></msup><mo>·</mo><msup><mn>3</mn><mn>52</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math> przed nawias, mianownik równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>51</mn></msup><mo>·</mo><msup><mn>3</mn><mn>52</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup><mo>(</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>51</mn></msup><mo>·</mo><msup><mn>3</mn><mn>52</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></math>. Zatem wartość wyrażenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>2</mn><mn>52</mn></msup><mo>·</mo><msup><mn>3</mn><mn>53</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow><mrow><msup><mn>2</mn><mn>51</mn></msup><mo>·</mo><msup><mn>3</mn><mn>52</mn></msup><mo>·</mo><msup><mn>5</mn><mn>50</mn></msup></mrow></mfrac><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>.</p>",
     "punktacja_html": "<p>Częściowo (1 pkt): prawidłowa zamiana wszystkich liczb na iloczyny potęg o podstawach 2, 3, 5.</p>"
    },
-   "czas_min": 5
+   "czas_min": 5,
+   "trudnosc": {
+    "logit": 6.99,
+    "procent": 96,
+    "procent_etap": 99
+   }
   },
   {
    "id": "szkolny_2021-2022_pomorskie_q8",
@@ -192,6 +228,11 @@
      "znak"
     ],
     "opis": "8.4: 1−√2 jest ujemne, wartość bezwzględna zmienia znak"
+   },
+   "trudnosc": {
+    "logit": 5.45,
+    "procent": 91,
+    "procent_etap": 95
    }
   }
  ]
